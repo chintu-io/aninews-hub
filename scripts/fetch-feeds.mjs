@@ -73,7 +73,7 @@ function imageOf(item) {
   ];
 
   for (const value of htmlCandidates) {
-    const image = imageFromText(value || "");
+    const image = imageFromText(value || "", item.link || source?.siteUrl || "");
 
     if (image) {
       return image;
@@ -459,26 +459,85 @@ function jinaDate(markdown) {
     : date.toISOString();
 }
 
-function imageFromText(value = "") {
+function absoluteUrl(value, baseUrl = "") {
+  const cleaned = String(value || "").trim();
+
+  if (!cleaned) return "";
+
+  try {
+    return new URL(cleaned, baseUrl || undefined).href;
+  } catch {
+    return "";
+  }
+}
+
+function imageFromText(value = "", baseUrl = "") {
   const text = String(value);
 
   const markdown =
-    /!\[[^\]]*\]\(<?(https?:\/\/[^)\s>]+)>?\)/i.exec(text)?.[1] ||
+    /!\[[^\]]*\]\(<?([^)>\s]+)>?\)/i.exec(text)?.[1] ||
     "";
 
-  if (markdown) return markdown;
+  const markdownImage = absoluteUrl(markdown, baseUrl);
 
-  const html =
-    /<img[^>]+(?:src|data-src)=["'](https?:\/\/[^"']+)["']/i.exec(text)?.[1] ||
-    "";
+  if (/^https?:\/\//i.test(markdownImage)) return markdownImage;
 
-  if (html) return html;
+  const htmlTags = text.match(/<img\b[^>]*>/gi) || [];
+
+  for (const tag of htmlTags) {
+    for (const attr of [
+      "src",
+      "data-src",
+      "data-lazy-src",
+      "data-original"
+    ]) {
+      const value = attrFromTag(tag, attr);
+      const resolved = absoluteUrl(value, baseUrl);
+
+      if (/^https?:\/\//i.test(resolved)) return resolved;
+    }
+
+    const srcset =
+      attrFromTag(tag, "srcset") ||
+      attrFromTag(tag, "data-srcset") ||
+      "";
+
+    const firstSrcset = srcset
+      .split(",")[0]
+      ?.trim()
+      .split(/\s+/)[0] || "";
+
+    const resolvedSrcset = absoluteUrl(firstSrcset, baseUrl);
+
+    if (/^https?:\/\//i.test(resolvedSrcset)) {
+      return resolvedSrcset;
+    }
+  }
 
   const generic =
-    /https?:\/\/[^\s"'<>]+\.(?:jpe?g|png|webp|gif)(?:\?[^\s"'<>]*)?/i.exec(text)?.[0] ||
+    /(?:https?:\/\/|\/)[^\s"'<>]+\.(?:jpe?g|png|webp|gif)(?:\?[^\s"'<>]*)?/i.exec(text)?.[0] ||
     "";
 
-  return generic;
+  const resolvedGeneric = absoluteUrl(
+    generic.replace(/^\s+/, ""),
+    baseUrl
+  );
+
+  return /^https?:\/\//i.test(resolvedGeneric)
+    ? resolvedGeneric
+    : "";
+}
+
+function sankakuMetaImage(html, articleUrl) {
+  const metaImageBlock =
+    /<div\b[^>]*class=["'][^"']*\bmeta-image\b[^"']*["'][^>]*>[\s\S]{0,5000}?<img\b[^>]*>/i.exec(html)?.[0] ||
+    "";
+
+  const targeted = imageFromText(metaImageBlock, articleUrl);
+
+  if (targeted) return targeted;
+
+  return imageFromText(html, articleUrl);
 }
 
 function jinaImage(markdown) {
@@ -710,6 +769,98 @@ async function enrichSankakuImagesFromRecentPage(
 
   return {
     items: enriched,
+    attempted: missing.length,
+    resolved
+  };
+}
+
+async function enrichSankakuImagesFromArticlePages(items, debug) {
+  const missing = items.filter(item => !item.image);
+
+  if (!missing.length) {
+    return { items, attempted: 0, resolved: 0 };
+  }
+
+  const queue = [...missing];
+  const results = [];
+
+  const worker = async () => {
+    while (queue.length) {
+      const item = queue.shift();
+      if (!item) return;
+
+      try {
+        const result = await fetchUrl(item.link, {
+          headers: {
+            accept: "text/html,application/xhtml+xml, */*"
+          },
+          timeout: 25000
+        });
+
+        const image =
+          result.status >= 200 &&
+          result.status < 300
+            ? sankakuMetaImage(result.body, item.link)
+            : "";
+
+        debug.articlePages = debug.articlePages || [];
+        debug.articlePages.push({
+          link: item.link,
+          status: result.status,
+          finalUrl: result.finalUrl,
+          contentType: result.contentType,
+          bytes: result.body.length,
+          image: image || null
+        });
+
+        results.push({
+          item,
+          image
+        });
+      } catch (error) {
+        debug.articlePages = debug.articlePages || [];
+        debug.articlePages.push({
+          link: item.link,
+          error: String(error?.message || error)
+        });
+
+        results.push({ item, image: "" });
+      }
+
+      await sleep(150);
+    }
+  };
+
+  await Promise.all(
+    Array.from(
+      { length: Math.min(3, queue.length || 1) },
+      () => worker()
+    )
+  );
+
+  const byLink = new Map(
+    results.map(result => [result.item.link, result.image])
+  );
+
+  let resolved = 0;
+
+  const merged = items.map(item => {
+    if (item.image) return item;
+
+    const image = byLink.get(item.link) || "";
+
+    if (!image) return item;
+
+    resolved++;
+
+    return {
+      ...item,
+      image
+    };
+  });
+
+  return {
+    items: merged,
     attempted: missing.length,
     resolved
   };
@@ -1252,28 +1403,38 @@ async function fetchSankaku() {
               resolved: 0
             };
 
-        const cachedItems =
+        const articleImageResult =
           imageResult.items.some(item => !item.image)
+            ? await enrichSankakuImagesFromArticlePages(
+                imageResult.items,
+                diagnostics.jina
+              )
+            : { items: imageResult.items, attempted: 0, resolved: 0 };
+
+        const cachedItems =
+          articleImageResult.items.some(item => !item.image)
             ? await loadSankakuCache(diagnostics)
             : [];
 
         const mergedItems = mergeSankakuCache(
-          imageResult.items,
+          articleImageResult.items,
           cachedItems
         );
 
         const cacheImageResolved = mergedItems.reduce(
           (count, item, index) =>
             count +
-            (!imageResult.items[index].image && item.image ? 1 : 0),
+            (!articleImageResult.items[index].image && item.image ? 1 : 0),
           0
         );
 
         diagnostics.selectedMode = "official-rss";
         diagnostics.selectedCount = mergedItems.length;
         diagnostics.imageEnrichment = {
-          attempted: imageResult.attempted,
-          resolved: imageResult.resolved,
+          recentPageAttempted: imageResult.attempted,
+          recentPageResolved: imageResult.resolved,
+          articlePageAttempted: articleImageResult.attempted,
+          articlePageResolved: articleImageResult.resolved,
           cacheImageResolved
         };
 
@@ -1388,15 +1549,23 @@ async function fetchSankaku() {
             diagnostics.jina
           );
 
+        const articleImageResult =
+          imageResult.items.some(item => !item.image)
+            ? await enrichSankakuImagesFromArticlePages(
+                imageResult.items,
+                diagnostics.jina
+              )
+            : { items: imageResult.items, attempted: 0, resolved: 0 };
+
         diagnostics.jina.mode =
-          "jina-reader-recent-posts+article-pages";
+          "jina-reader-recent-posts+direct-article-pages";
         diagnostics.selectedMode =
-          "jina-reader-recent-posts+article-pages";
+          "jina-reader-recent-posts+direct-article-pages";
         diagnostics.selectedCount =
-          imageResult.items.length;
+          articleImageResult.items.length;
 
         return {
-          items: imageResult.items,
+          items: articleImageResult.items,
           diagnostics
         };
       }

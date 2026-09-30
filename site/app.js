@@ -1,16 +1,207 @@
-const state={payload:null,source:'all',query:''};
-const $=s=>document.querySelector(s);
-const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
-const date=v=>{if(!v)return 'Date unknown';const d=new Date(v);return Number.isNaN(d.getTime())?'Date unknown':new Intl.DateTimeFormat(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'}).format(d)};
-const rel=v=>{if(!v)return 'Unknown';const d=new Date(v),m=Math.floor((Date.now()-d.getTime())/60000);if(m<1)return'just now';if(m<60)return`${m}m ago`;const h=Math.floor(m/60);if(h<24)return`${h}h ago`;const days=Math.floor(h/24);return days<7?`${days}d ago`:date(v)};
-const initials=n=>{const b=(n||'News').split(/\s+/).filter(Boolean);return(b.length===1?b[0].slice(0,2):b[0][0]+b[b.length-1][0]).toUpperCase()};
-function renderFilters(){const c=$('#filters'),ss=state.payload?.sources||[];c.innerHTML=`<button class="active" data-source="all">All</button>`+ss.map(s=>`<button data-source="${esc(s.id)}">${esc(s.short)}</button>`).join('');c.querySelectorAll('button').forEach(b=>b.onclick=()=>{state.source=b.dataset.source;syncFilters();render();});}
-function syncFilters(){document.querySelectorAll('#filters button').forEach(b=>b.classList.toggle('active',b.dataset.source===state.source));$('#heading').textContent=state.source==='all'?'All stories':(state.payload?.sources||[]).find(s=>s.id===state.source)?.name||'Stories';}
-function renderSources(){const c=$('#sources');c.innerHTML=(state.payload?.sources||[]).map(s=>`<div class="src"><div class="init" style="box-shadow:inset 0 0 0 1px ${esc(s.accent||'#9b7bff')}">${esc(initials(s.name))}</div><div><strong>${esc(s.name)}</strong><span>${esc(s.category)}</span></div><a href="${esc(s.siteUrl)}" target="_blank" rel="noopener noreferrer">↗</a></div>`).join('');}
-function match(a){const q=state.query.trim().toLowerCase();if(!q)return true;return[a.title,a.excerpt,a.source?.name,a.source?.category].join(' ').toLowerCase().includes(q)}
-function articles(){return(state.payload?.articles||[]).filter(a=>(state.source==='all'||a.source?.id===state.source)&&match(a));}
-function thumb(a){if(!a.image)return`<div class="thumb"><div class="fallback" style="background:radial-gradient(circle at 20% 20%,${esc(a.source?.accent||'#9b7bff')}66,transparent 35%),radial-gradient(circle at 85% 85%,#5fd6ff44,transparent 42%),#111722">${esc(initials(a.source?.name))}</div><div class="chip">${esc(a.source?.short||'NEWS')}</div></div>`;return`<div class="thumb"><img src="${esc(a.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"><div class="chip">${esc(a.source?.short||'NEWS')}</div></div>`}
-function render(){const list=articles(),g=$('#grid');$('#count').textContent=`${list.length.toLocaleString()} ${list.length===1?'story':'stories'}`;$('#empty').hidden=!!list.length;g.innerHTML=list.map(a=>`<article class="card">${thumb(a)}<div class="body"><div class="storymeta"><span>${esc(a.source?.category||'News')}</span><span>•</span><span title="${esc(date(a.publishedAt))}">${esc(rel(a.publishedAt))}</span></div><h3 class="title">${esc(a.title)}</h3><p class="excerpt">${esc(a.excerpt||'Open the original publisher for the full story.')}</p><div class="cardfoot"><div class="source"><span class="dot" style="background:${esc(a.source?.accent||'#9b7bff')}"></span>Source: ${esc(a.source?.name||'Publisher')}</div><a class="read" href="${esc(a.link)}" target="_blank" rel="noopener noreferrer">Read original ↗</a></div></div></article>`).join('');}
-function stats(){const p=state.payload,a=p?.articles||[],n=a.find(x=>x.publishedAt);$('#storyCount').textContent=a.length.toLocaleString();$('#sourceCount').textContent=String(p?.stats?.sourceCount??'—');$('#latest').textContent=n?rel(n.publishedAt):'—';$('#updated').textContent=p?.generatedAt?`updated ${rel(p.generatedAt)}`:'waiting for first RSS update';const f=p?.stats?.failedSources||0;$('#status').textContent=f?`${f} source${f===1?'':'s'} failed this refresh`:'all configured sources online';}
-async function load(){try{$('#status').textContent='Refreshing RSS data…';const r=await fetch(`data/articles.json?ts=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error(`HTTP ${r.status}`);state.payload=await r.json();stats();renderFilters();renderSources();syncFilters();render();}catch(e){console.error(e);$('#status').textContent='Could not load local feed data';$('#updated').textContent='run the GitHub Action first';$('#grid').innerHTML=`<div class="empty"><div>!</div><h3>Feed data is not available yet.</h3><p>Run the GitHub Actions workflow once to fetch the configured RSS feeds.</p></div>`;}}
-$('#search').oninput=e=>{state.query=e.target.value;render()};$('#refresh').onclick=load;$('#theme').onclick=()=>{document.documentElement.classList.toggle('light');localStorage.setItem('aninews-theme',document.documentElement.classList.contains('light')?'light':'dark')};window.onkeydown=e=>{if(e.key==='/'&&document.activeElement?.tagName!=='INPUT'){e.preventDefault();$('#search').focus()}};if(localStorage.getItem('aninews-theme')==='light')document.documentElement.classList.add('light');load();
+const state = { payload: null, source: "all", query: "" };
+const $ = selector => document.querySelector(selector);
+
+const escapeHtml = value => String(value ?? "")
+  .replaceAll("&","&amp;")
+  .replaceAll("<","&lt;")
+  .replaceAll(">","&gt;")
+  .replaceAll('"',"&quot;")
+  .replaceAll("'","&#039;");
+
+function formatDate(value) {
+  if (!value) return "Date unknown";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Date unknown";
+  return new Intl.DateTimeFormat(undefined,{
+    month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"
+  }).format(date);
+}
+
+function relativeDate(value) {
+  if (!value) return "Unknown";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Unknown";
+  const minutes = Math.floor((Date.now() - date.getTime()) / 60000);
+  if (minutes < 1) return "just now";
+  if (minutes < 60) return `${minutes}m ago`;
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return `${hours}h ago`;
+  const days = Math.floor(hours / 24);
+  return days < 7 ? `${days}d ago` : formatDate(value);
+}
+
+function initials(name) {
+  const words = String(name || "News").split(/\s+/).filter(Boolean);
+  if (words.length === 1) return words[0].slice(0,2).toUpperCase();
+  return `${words[0][0]}${words.at(-1)[0]}`.toUpperCase();
+}
+
+function renderSourceNav() {
+  $("#sourceNav").innerHTML = (state.payload?.sources || []).map(source => `
+    <a href="${escapeHtml(source.siteUrl)}" target="_blank" rel="noopener noreferrer">
+      ${escapeHtml(source.name)}
+    </a>
+  `).join("");
+}
+
+function renderFilters() {
+  const sources = state.payload?.sources || [];
+  $("#filters").innerHTML = [
+    `<button type="button" class="active" data-source="all">All</button>`,
+    ...sources.map(source => `<button type="button" data-source="${escapeHtml(source.id)}">${escapeHtml(source.short)}</button>`)
+  ].join("");
+
+  $("#filters").querySelectorAll("button").forEach(button => {
+    button.addEventListener("click", () => {
+      state.source = button.dataset.source;
+      syncFilters();
+      renderStories();
+    });
+  });
+}
+
+function syncFilters() {
+  $("#filters").querySelectorAll("button").forEach(button => {
+    button.classList.toggle("active", button.dataset.source === state.source);
+  });
+  const selected = state.payload?.sources?.find(source => source.id === state.source);
+  $("#heading").textContent = selected?.name || "All stories";
+}
+
+function renderSources() {
+  $("#sources").innerHTML = (state.payload?.sources || []).map(source => `
+    <a class="source-item" href="${escapeHtml(source.siteUrl)}" target="_blank" rel="noopener noreferrer">
+      <span class="source-name">${escapeHtml(source.name)}</span>
+      <span class="source-meta">${escapeHtml(source.category)}</span>
+    </a>
+  `).join("");
+}
+
+function matches(article) {
+  const query = state.query.trim().toLowerCase();
+  if (!query) return true;
+  return [
+    article.title,
+    article.excerpt,
+    article.source?.name,
+    article.source?.category
+  ].join(" ").toLowerCase().includes(query);
+}
+
+function visibleArticles() {
+  return (state.payload?.articles || []).filter(article => {
+    const sourceMatch = state.source === "all" || article.source?.id === state.source;
+    return sourceMatch && matches(article);
+  });
+}
+
+function imageMarkup(article) {
+  if (!article.image) {
+    return `
+      <div class="story-image">
+        <div class="image-fallback">${escapeHtml(initials(article.source?.name))}</div>
+        <div class="source-mark">${escapeHtml(article.source?.short || "NEWS")}</div>
+      </div>
+    `;
+  }
+
+  return `
+    <div class="story-image">
+      <img src="${escapeHtml(article.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">
+      <div class="source-mark">${escapeHtml(article.source?.short || "NEWS")}</div>
+    </div>
+  `;
+}
+
+function renderStories() {
+  const stories = visibleArticles();
+  $("#count").textContent = `${stories.length.toLocaleString()} ${stories.length === 1 ? "story" : "stories"}`;
+  $("#empty").hidden = stories.length > 0;
+
+  $("#grid").innerHTML = stories.map(article => `
+    <a class="story-card" href="${escapeHtml(article.link)}" target="_blank" rel="noopener noreferrer" aria-label="Open ${escapeHtml(article.title)}">
+      ${imageMarkup(article)}
+      <div class="story-copy">
+        <div class="story-meta">
+          <span>${escapeHtml(article.source?.name || "Publisher")}</span>
+          <span>·</span>
+          <span title="${escapeHtml(formatDate(article.publishedAt))}">${escapeHtml(relativeDate(article.publishedAt))}</span>
+        </div>
+        <h3 class="story-title">${escapeHtml(article.title)}</h3>
+        <p class="story-excerpt">${escapeHtml(article.excerpt || "Open the original publisher for the complete story.")}</p>
+        <div class="story-source">Original publisher: <strong>${escapeHtml(article.source?.name || "Publisher")}</strong></div>
+      </div>
+    </a>
+  `).join("");
+}
+
+function renderSummary() {
+  const payload = state.payload;
+  const articles = payload?.articles || [];
+  const newest = articles.find(article => article.publishedAt);
+
+  $("#storyCount").textContent = articles.length.toLocaleString();
+  $("#sourceCount").textContent = String(payload?.stats?.sourceCount ?? "—");
+  $("#latest").textContent = newest ? relativeDate(newest.publishedAt) : "—";
+  $("#updated").textContent = payload?.generatedAt ? `updated ${relativeDate(payload.generatedAt)}` : "waiting for first refresh";
+
+  const failed = payload?.stats?.failedSources || 0;
+  $("#status").textContent = failed
+    ? `${failed} source${failed === 1 ? "" : "s"} unavailable; available feeds are still shown`
+    : "all configured sources refreshed";
+}
+
+async function load() {
+  $("#status").textContent = "Refreshing stories…";
+
+  try {
+    const response = await fetch(`data/articles.json?ts=${Date.now()}`, { cache:"no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    state.payload = await response.json();
+    renderSummary();
+    renderSourceNav();
+    renderFilters();
+    renderSources();
+    syncFilters();
+    renderStories();
+  } catch (error) {
+    console.error(error);
+    $("#status").textContent = "Story data is unavailable";
+    $("#updated").textContent = "Run the GitHub Actions refresh";
+    $("#grid").innerHTML = `
+      <div class="empty">
+        <h3>No story data yet.</h3>
+        <p>Run the GitHub Actions workflow to populate the reader.</p>
+      </div>
+    `;
+  }
+}
+
+$("#search").addEventListener("input", event => {
+  state.query = event.target.value;
+  renderStories();
+});
+
+$("#refresh").addEventListener("click", load);
+
+$("#theme").addEventListener("click", () => {
+  document.documentElement.classList.toggle("dark");
+  const dark = document.documentElement.classList.contains("dark");
+  localStorage.setItem("aninews-theme", dark ? "dark" : "light");
+  $("#theme").textContent = dark ? "Light" : "Dark";
+});
+
+window.addEventListener("keydown", event => {
+  if (event.key === "/" && document.activeElement?.tagName !== "INPUT") {
+    event.preventDefault();
+    $("#search").focus();
+  }
+});
+
+if (localStorage.getItem("aninews-theme") === "dark") {
+  document.documentElement.classList.add("dark");
+  $("#theme").textContent = "Light";
+}
+
+load();

@@ -540,8 +540,61 @@ function sankakuMetaImage(html, articleUrl) {
   return imageFromText(html, articleUrl);
 }
 
+function sankakuUsableImage(value = "") {
+  const url = String(value || "").trim();
+
+  if (!/^https?:\/\//i.test(url)) return "";
+
+  const lower = url.toLowerCase();
+
+  // Jina often exposes the Sankaku site logo before the article hero image.
+  // Never use obvious branding/icon assets as story thumbnails.
+  if (
+    /(?:^|[\/_.-])logo(?:[\/_.?-]|$)/i.test(lower) ||
+    /favicon|apple-touch-icon|gravatar|avatar|sprite|icon(?:[\/_.?-]|$)/i.test(lower)
+  ) {
+    return "";
+  }
+
+  return url;
+}
+
 function jinaImage(markdown) {
-  return imageFromText(markdown);
+  const text = String(markdown || "");
+  const images = [];
+
+  for (const match of text.matchAll(/!\[[^\]]*\]\(<?([^)>\s]+)>?\)/gi)) {
+    const url = absoluteUrl(match[1]);
+    if (sankakuUsableImage(url)) images.push(url);
+  }
+
+  return images[0] || "";
+}
+
+function cleanSankakuJinaTitle(value, fallback = "") {
+  const cleaned = stripHtml(value).trim();
+
+  if (!cleaned) return fallback;
+  if (isCommentLabel(cleaned)) return fallback;
+  if (/^just a moment/i.test(cleaned)) return fallback;
+  if (/https?:\/\//i.test(cleaned)) return fallback;
+  if (/^\[.*\]\(.*\)$/s.test(cleaned)) return fallback;
+  if (/!\[[^\]]*\]\(/.test(cleaned)) return fallback;
+
+  return cleaned;
+}
+
+function cleanSankakuJinaExcerpt(value, fallback = "") {
+  const raw = String(value || "").trim();
+  const cleaned = stripHtml(raw);
+
+  if (!cleaned) return fallback;
+  if (/https?:\/\//i.test(cleaned)) return fallback;
+  if (/!\[[^\]]*\]\(/.test(raw)) return fallback;
+  if (/\]\(https?:/i.test(raw)) return fallback;
+  if (/^add comment$/i.test(cleaned)) return fallback;
+
+  return excerpt(cleaned);
 }
 
 
@@ -639,21 +692,25 @@ async function enrichSankaku(item, debug, recentMarkdown = "") {
       return item;
     }
 
-    const title = jinaTitle(result.body);
-    const publishedAt = jinaDate(result.body);
-    const image = jinaImage(result.body);
-    const summary = jinaExcerpt(result.body, title);
+    const title = cleanSankakuJinaTitle(
+      jinaTitle(result.body),
+      item.title
+    );
+    const image = sankakuUsableImage(jinaImage(result.body));
+    const summary = cleanSankakuJinaExcerpt(
+      jinaExcerpt(result.body, item.title),
+      item.excerpt
+    );
 
+    // Do not trust Jina's page-level published date here. Its cached/converted
+    // markdown can occasionally represent an older page than the requested
+    // Sankaku URL. The RSS/recent-posts date is authoritative for this feed.
     return {
       ...item,
-      title: title || item.title,
-      publishedAt:
-        recentPublishedAt ||
-        item.publishedAt ||
-        publishedAt ||
-        null,
+      title,
+      publishedAt: recentPublishedAt || item.publishedAt || null,
       image: image || item.image,
-      excerpt: summary || item.excerpt,
+      excerpt: summary,
       position: item.position
     };
   } catch (error) {
@@ -690,20 +747,34 @@ async function enrichSankakuImagesFromRecentPage(
   let match;
 
   while ((match = markdownPattern.exec(recentMarkdown))) {
-    imageRefs.push({
-      url: match[1],
-      position: match.index
-    });
+    const url = absoluteUrl(
+      match[1],
+      "https://news.sankakucomplex.com/"
+    );
+
+    if (sankakuUsableImage(url)) {
+      imageRefs.push({
+        url,
+        position: match.index
+      });
+    }
   }
 
   const htmlPattern =
     /<img\b[^>]+(?:src|data-src|data-lazy-src|data-original)=["'](https?:\/\/[^"']+)["'][^>]*>/gi;
 
   while ((match = htmlPattern.exec(recentMarkdown))) {
-    imageRefs.push({
-      url: match[1],
-      position: match.index
-    });
+    const url = absoluteUrl(
+      match[1],
+      "https://news.sankakucomplex.com/"
+    );
+
+    if (sankakuUsableImage(url)) {
+      imageRefs.push({
+        url,
+        position: match.index
+      });
+    }
   }
 
   const srcsetPattern =
@@ -713,9 +784,14 @@ async function enrichSankakuImagesFromRecentPage(
     const first =
       match[1].split(",")[0]?.trim().split(/\s+/)[0];
 
-    if (/^https?:\/\//i.test(first || "")) {
+    const url = absoluteUrl(
+      first || "",
+      "https://news.sankakucomplex.com/"
+    );
+
+    if (sankakuUsableImage(url)) {
       imageRefs.push({
-        url: first,
+        url,
         position: match.index
       });
     }

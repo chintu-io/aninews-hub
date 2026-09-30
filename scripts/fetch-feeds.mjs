@@ -371,7 +371,8 @@ function sankakuCandidatesFromRecent(markdown, source) {
     if (!byLink.has(link)) {
       byLink.set(link, {
         link,
-        labels: []
+        labels: [],
+        position: byLink.size
       });
     }
 
@@ -392,6 +393,7 @@ function sankakuCandidatesFromRecent(markdown, source) {
       publishedAt: null,
       excerpt: "",
       image: "",
+      position: entry.position,
       source
     };
   });
@@ -448,6 +450,47 @@ function jinaImage(markdown) {
   );
 }
 
+
+function recentRelativeTime(markdown, link) {
+  const index = markdown.indexOf(link);
+
+  if (index < 0) {
+    return null;
+  }
+
+  const window = markdown.slice(
+    Math.max(0, index - 120),
+    Math.min(markdown.length, index + 320)
+  );
+
+  if (/\bjust\s+now\b/i.test(window)) {
+    return new Date().toISOString();
+  }
+
+  const match = window.match(
+    /\b(\d+)\s*(minute|minutes|hour|hours|day|days|week|weeks)\s+ago\b/i
+  );
+
+  if (!match) {
+    return null;
+  }
+
+  const amount = Number(match[1]);
+
+  const unit = match[2].toLowerCase();
+
+  const seconds =
+    unit.startsWith("minute")
+      ? amount * 60
+      : unit.startsWith("hour")
+        ? amount * 3600
+        : unit.startsWith("day")
+          ? amount * 86400
+          : amount * 604800;
+
+  return new Date(Date.now() - seconds * 1000).toISOString();
+}
+
 function jinaExcerpt(markdown, title) {
   const afterContent =
     markdown.split(/^Markdown Content:\s*$/im)[1] || markdown;
@@ -472,17 +515,26 @@ function jinaExcerpt(markdown, title) {
   return "";
 }
 
-async function enrichSankaku(item, debug) {
+async function enrichSankaku(item, debug, recentMarkdown = "") {
+  const readerTarget =
+    `${item.link}${item.link.includes("?") ? "&" : "?"}_aninews=${Date.now()}`;
+
   const readerUrl =
-    `https://r.jina.ai/http://${item.link.replace(
+    `https://r.jina.ai/http://${readerTarget.replace(
       /^https?:\/\//i,
       ""
     )}`;
 
+  const recentPublishedAt =
+    recentRelativeTime(recentMarkdown, item.link);
+
   try {
     const result = await fetchUrl(readerUrl, {
       headers: {
-        accept: "text/plain, text/markdown, */*"
+        accept: "text/plain, text/markdown, */*",
+        "x-no-cache": "true",
+        "x-cache-tolerance": "0",
+        "x-respond-timing": "longest"
       },
       timeout: 40000
     });
@@ -505,9 +557,14 @@ async function enrichSankaku(item, debug) {
     return {
       ...item,
       title: title || item.title,
-      publishedAt: publishedAt || item.publishedAt,
+      publishedAt:
+        recentPublishedAt ||
+        item.publishedAt ||
+        publishedAt ||
+        null,
       image: image || item.image,
-      excerpt: summary || item.excerpt
+      excerpt: summary || item.excerpt,
+      position: item.position
     };
   } catch (error) {
     debug.attempts.push({
@@ -571,13 +628,19 @@ async function fetchSankaku() {
     }
   }
 
+  const recentTarget =
+    `http://news.sankakucomplex.com/recent-posts/?_aninews=${Date.now()}`;
+
   const recentUrl =
-    "https://r.jina.ai/http://news.sankakucomplex.com/recent-posts/";
+    `https://r.jina.ai/${recentTarget}`;
 
   try {
     const page = await fetchUrl(recentUrl, {
       headers: {
-        accept: "text/plain, text/markdown, */*"
+        accept: "text/plain, text/markdown, */*",
+        "x-no-cache": "true",
+        "x-cache-tolerance": "0",
+        "x-respond-timing": "longest"
       },
       timeout: 40000
     });
@@ -587,7 +650,8 @@ async function fetchSankaku() {
       status: page.status,
       finalUrl: page.finalUrl,
       contentType: page.contentType,
-      bytes: page.body.length
+      bytes: page.body.length,
+      cacheBypass: true
     };
 
     if (page.status >= 200 && page.status < 300) {
@@ -611,7 +675,11 @@ async function fetchSankaku() {
           if (!item) return;
 
           enriched.push(
-            await enrichSankaku(item, diagnostics.jina)
+            await enrichSankaku(
+              item,
+              diagnostics.jina,
+              page.body
+            )
           );
 
           await sleep(1000);
@@ -637,20 +705,15 @@ async function fetchSankaku() {
           !/^just a moment/i.test(item.title)
       );
 
-      accepted.sort((a, b) => {
-        const left = a.publishedAt
-          ? Date.parse(a.publishedAt)
-          : 0;
-
-        const right = b.publishedAt
-          ? Date.parse(b.publishedAt)
-          : 0;
-
-        return right - left;
-      });
+      accepted.sort(
+        (a, b) =>
+          (a.position ?? Number.MAX_SAFE_INTEGER) -
+          (b.position ?? Number.MAX_SAFE_INTEGER)
+      );
 
       diagnostics.jina.acceptedCount = accepted.length;
       diagnostics.jina.acceptedSamples = accepted.slice(0, 10).map(item => ({
+        position: item.position,
         title: item.title,
         publishedAt: item.publishedAt,
         link: item.link,

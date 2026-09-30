@@ -6,11 +6,12 @@ export const SOURCES = [
     feedUrls: [
       "https://news.sankakucomplex.com/feed/",
       "https://www.sankakucomplex.com/feed/",
-      "https://rsshub.app/sankakucomplex/post"
+      "https://rsshub.app/sankakucomplex/post",
+      "https://news.google.com/rss/search?q=site%3Anews.sankakucomplex.com&hl=en-US&gl=US&ceid=US%3Aen"
     ],
     siteUrl: "https://news.sankakucomplex.com/",
     category: "Anime & Culture",
-    accent: "#b13a32"
+    accent: "#c9798d"
   },
   {
     id: "soranews24",
@@ -19,7 +20,7 @@ export const SOURCES = [
     feedUrls: ["https://soranews24.com/feed/"],
     siteUrl: "https://soranews24.com/",
     category: "Japan",
-    accent: "#236a84"
+    accent: "#668bb1"
   },
   {
     id: "ann",
@@ -28,7 +29,7 @@ export const SOURCES = [
     feedUrls: ["https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us"],
     siteUrl: "https://www.animenewsnetwork.com/news/",
     category: "Anime News",
-    accent: "#a45d24"
+    accent: "#c68a55"
   },
   {
     id: "crunchyroll",
@@ -37,6 +38,6 @@ export const SOURCES = [
     feedUrls: ["https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss"],
     siteUrl: "https://www.crunchyroll.com/news",
     category: "Anime News",
-    accent: "#a53c31"
+    accent: "#c46d52"
   }
 ];

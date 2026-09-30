@@ -15,7 +15,7 @@ const parser = new Parser({
 });
 
 const OUT = new URL("../site/data/articles.json", import.meta.url);
-const USER_AGENT = "AniNews Hub/1.0 (personal RSS reader)";
+const USER_AGENT = "Mozilla/5.0 (compatible; AniNewsHub/1.0; personal RSS reader)";
 
 function hash(value) {
   return crypto.createHash("sha1").update(String(value)).digest("hex").slice(0, 16);
@@ -77,13 +77,7 @@ function normalize(item, source) {
   const parsed = rawDate ? new Date(rawDate) : null;
   const publishedAt = parsed && !Number.isNaN(parsed.getTime()) ? parsed.toISOString() : null;
 
-  const summary =
-    item.contentSnippet ||
-    item.contentEncoded ||
-    item.content ||
-    item.summary ||
-    item.description ||
-    "";
+  const summary = item.contentSnippet || item.contentEncoded || item.content || item.summary || item.description || "";
 
   return {
     id: hash(`${source.id}|${item.guid || link}`),
@@ -107,20 +101,22 @@ async function fetchFeed(url) {
   const response = await fetch(url, {
     headers: {
       "user-agent": USER_AGENT,
-      accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*"
+      accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, application/json, text/html, */*"
     },
     signal: AbortSignal.timeout(30000),
     redirect: "follow"
   });
 
+  const type = response.headers.get("content-type") || "";
+  const body = await response.text();
+
+  console.log(`    ${response.status} ${type.split(";")[0] || "(no content-type)"} ${response.url}`);
+
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  if (!body.trim()) throw new Error("Empty response");
 
-  const xml = await response.text();
-  if (!xml.trim()) throw new Error("Empty response");
-
-  const feed = await parser.parseString(xml);
+  const feed = await parser.parseString(body);
   const items = (feed.items || []).map(item => item).filter(Boolean);
-
   if (!items.length) throw new Error("Feed returned no items");
   return items;
 }
@@ -130,14 +126,14 @@ async function fetchSource(source) {
 
   for (const feedUrl of source.feedUrls) {
     try {
-      const items = (await fetchFeed(feedUrl))
-        .map(item => normalize(item, source))
-        .filter(Boolean);
-
+      console.log(`  trying: ${feedUrl}`);
+      const items = (await fetchFeed(feedUrl)).map(item => normalize(item, source)).filter(Boolean);
       if (!items.length) throw new Error("No usable stories");
       return { feedUrl, items };
     } catch (error) {
-      failures.push(`${feedUrl}: ${error?.message || error}`);
+      const message = String(error?.message || error);
+      console.log(`    failed: ${message}`);
+      failures.push(`${feedUrl}: ${message}`);
     }
   }
 
@@ -149,36 +145,41 @@ const sourceResults = [];
 const errors = [];
 
 for (const source of SOURCES) {
+  console.log(`\n=== ${source.name} ===`);
+
   try {
     const result = await fetchSource(source);
     all.push(...result.items);
+
     sourceResults.push({
       id: source.id,
       name: source.name,
       status: "ok",
       feedUrl: result.feedUrl,
-      count: result.items.length
+      count: result.items.length,
+      fallback: source.feedUrls.indexOf(result.feedUrl) > 0
     });
+
     console.log(`✓ ${source.name}: ${result.items.length} stories`);
-    console.log(`  feed: ${result.feedUrl}`);
+    console.log(`  selected: ${result.feedUrl}`);
   } catch (error) {
+    const message = String(error?.message || error);
+
     sourceResults.push({
       id: source.id,
       name: source.name,
       status: "error",
       feedUrl: null,
-      count: 0
+      count: 0,
+      fallback: false
     });
-    errors.push({
-      source: source.name,
-      message: String(error?.message || error)
-    });
-    console.error(`✗ ${source.name}: ${error?.message || error}`);
+
+    errors.push({ source: source.name, message });
+    console.error(`✗ ${source.name}: ${message}`);
   }
 }
 
 const unique = new Map();
-
 for (const article of all) {
   const key = article.link.replace(/\/+$/, "").toLowerCase();
   if (!unique.has(key)) unique.set(key, article);
@@ -214,4 +215,4 @@ const payload = {
 };
 
 await fs.writeFile(OUT, JSON.stringify(payload, null, 2));
-console.log(`Wrote ${articles.length} unique stories.`);
+console.log(`\nWrote ${articles.length} unique stories.`);

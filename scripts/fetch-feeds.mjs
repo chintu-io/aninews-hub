@@ -65,6 +65,21 @@ function urlOf(value) {
 }
 
 function imageOf(item) {
+  const htmlCandidates = [
+    item.contentEncoded,
+    item.content,
+    item.description,
+    item.summary
+  ];
+
+  for (const value of htmlCandidates) {
+    const image = imageFromText(value || "");
+
+    if (image) {
+      return image;
+    }
+  }
+
   const candidates = [
     item.enclosure?.url,
     item.enclosure?.href,
@@ -444,10 +459,30 @@ function jinaDate(markdown) {
     : date.toISOString();
 }
 
+function imageFromText(value = "") {
+  const text = String(value);
+
+  const markdown =
+    /!\[[^\]]*\]\(<?(https?:\/\/[^)\s>]+)>?\)/i.exec(text)?.[1] ||
+    "";
+
+  if (markdown) return markdown;
+
+  const html =
+    /<img[^>]+(?:src|data-src)=["'](https?:\/\/[^"']+)["']/i.exec(text)?.[1] ||
+    "";
+
+  if (html) return html;
+
+  const generic =
+    /https?:\/\/[^\s"'<>]+\.(?:jpe?g|png|webp|gif)(?:\?[^\s"'<>]*)?/i.exec(text)?.[0] ||
+    "";
+
+  return generic;
+}
+
 function jinaImage(markdown) {
-  return (
-    /!\[[^\]]*\]\((https?:\/\/[^)\s]+)\)/i.exec(markdown)?.[1] || ""
-  );
+  return imageFromText(markdown);
 }
 
 
@@ -573,6 +608,70 @@ async function enrichSankaku(item, debug, recentMarkdown = "") {
   }
 }
 
+
+async function enrichSankakuImages(items, debug) {
+  const missing = items.filter(item => !item.image).slice(0, 24);
+  const queue = [...missing];
+  const results = [];
+
+  const worker = async () => {
+    while (queue.length) {
+      const item = queue.shift();
+      if (!item) return;
+
+      const readerUrl =
+        `https://r.jina.ai/http://${item.link.replace(
+          /^https?:\/\//i,
+          ""
+        )}`;
+
+      try {
+        const result = await fetchUrl(readerUrl, {
+          headers: {
+            accept: "text/plain, text/markdown, */*",
+            "x-no-cache": "true",
+            "x-cache-tolerance": "0",
+            "x-respond-timing": "longest"
+          },
+          timeout: 40000
+        });
+
+        const image = imageFromText(result.body);
+
+        debug.imageAttempts = debug.imageAttempts || [];
+        debug.imageAttempts.push({
+          link: item.link,
+          status: result.status,
+          image: Boolean(image)
+        });
+
+        results.push({
+          ...item,
+          image: image || item.image
+        });
+      } catch (error) {
+        debug.imageAttempts = debug.imageAttempts || [];
+        debug.imageAttempts.push({
+          link: item.link,
+          error: String(error?.message || error),
+          image: false
+        });
+
+        results.push(item);
+      }
+
+      // Keep Jina usage below its documented public rate.
+      await sleep(3200);
+    }
+  };
+
+  await worker();
+
+  const byLink = new Map(results.map(item => [item.link, item]));
+
+  return items.map(item => byLink.get(item.link) || item);
+}
+
 async function fetchSankaku() {
   const source = SOURCES.find(item => item.id === "sankaku");
 
@@ -612,10 +711,23 @@ async function fetchSankaku() {
         .filter(item => realSankakuUrl(item.link));
 
       if (items.length) {
-        diagnostics.selectedMode = "official-rss";
-        diagnostics.selectedCount = items.length;
+        const enriched = await enrichSankakuImages(
+          items,
+          diagnostics
+        );
 
-        return { items, diagnostics };
+        diagnostics.selectedMode = "official-rss";
+        diagnostics.selectedCount = enriched.length;
+        diagnostics.imageEnrichment = {
+          attempted: items.filter(item => !item.image).slice(0, 24).length,
+          resolved: enriched.filter(item => Boolean(item.image)).length -
+            items.filter(item => Boolean(item.image)).length
+        };
+
+        return {
+          items: enriched,
+          diagnostics
+        };
       }
     } catch (error) {
       diagnostics.official.push({

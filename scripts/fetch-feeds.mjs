@@ -1635,13 +1635,26 @@ async function fetchSankaku() {
   const cachedItems = await loadSankakuCache(diagnostics);
 
   if (cachedItems.length) {
+    // Even when Sankaku's RSS and Recent Posts endpoints are temporarily
+    // unavailable, the last successful article list still gives us the exact
+    // article URLs. Try the real Sankaku article pages for images before
+    // returning the cache unchanged.
+    const cachedImageResult = await enrichSankakuImagesFromArticlePages(
+      cachedItems,
+      diagnostics.jina
+    );
+
     diagnostics.jina.mode = "cached-last-success";
     diagnostics.selectedMode = "cached-last-success";
-    diagnostics.selectedCount = cachedItems.length;
-    diagnostics.cacheItemCount = cachedItems.length;
+    diagnostics.selectedCount = cachedImageResult.items.length;
+    diagnostics.cacheItemCount = cachedImageResult.items.length;
+    diagnostics.cacheImageEnrichment = {
+      attempted: cachedImageResult.attempted,
+      resolved: cachedImageResult.resolved
+    };
 
     return {
-      items: cachedItems,
+      items: cachedImageResult.items,
       diagnostics
     };
   }

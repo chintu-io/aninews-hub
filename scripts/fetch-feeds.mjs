@@ -16,10 +16,16 @@ const parser = new Parser({
 
 const OUT = new URL("../site/data/articles.json", import.meta.url);
 const DEBUG_OUT = new URL("../site/debug/sankaku.json", import.meta.url);
-const USER_AGENT = "AniNewsHub/1.0 (personal RSS reader)";
+
+const USER_AGENT =
+  "AniNewsHub/1.2 (personal RSS reader; contact: github.com/chintune/aninews-hub)";
 
 const hash = value =>
-  crypto.createHash("sha1").update(String(value)).digest("hex").slice(0, 16);
+  crypto
+    .createHash("sha1")
+    .update(String(value))
+    .digest("hex")
+    .slice(0, 16);
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -75,7 +81,9 @@ function imageOf(item) {
     ...asArray(item.mediaThumbnail).map(urlOf)
   ];
 
-  return candidates.find(value => /^https?:\/\//i.test(value || "")) || "";
+  return (
+    candidates.find(value => /^https?:\/\//i.test(value || "")) || ""
+  );
 }
 
 function normalize(item, source) {
@@ -124,27 +132,29 @@ function normalize(item, source) {
   };
 }
 
-async function fetchUrl(url) {
-  const response = await fetch(url, {
-    headers: {
-      "user-agent": USER_AGENT,
-      accept:
-        "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html, application/json, */*"
-    },
-    redirect: "follow",
-    signal: AbortSignal.timeout(30000)
-  });
+async function fetchUrl(url, options = {}) {
+  const headers = {
+    "user-agent": USER_AGENT,
+    accept:
+      "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html, application/json, */*",
+    ...(options.headers || {})
+  };
 
-  const contentType = response.headers.get("content-type") || "";
-  const body = await response.text();
+  const response = await fetch(url, {
+    method: options.method || "GET",
+    headers,
+    body: options.body,
+    redirect: "follow",
+    signal: AbortSignal.timeout(options.timeout ?? 30000)
+  });
 
   return {
     url,
     finalUrl: response.url,
     status: response.status,
-    contentType,
-    bytes: body.length,
-    body
+    contentType: response.headers.get("content-type") || "",
+    bytes: Number(response.headers.get("content-length") || 0),
+    body: await response.text()
   };
 }
 
@@ -193,6 +203,11 @@ function metaValue(html, property) {
   return "";
 }
 
+function titleTagValue(html) {
+  const match = /<title[^>]*>([\s\S]*?)<\/title>/i.exec(html);
+  return match ? cleanMetaContent(stripHtml(match[1])) : "";
+}
+
 function jsonLdObjects(html) {
   const blocks = html.match(
     /<script[^>]+type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi
@@ -207,8 +222,7 @@ function jsonLdObjects(html) {
       .trim();
 
     try {
-      const parsed = JSON.parse(text);
-      objects.push(parsed);
+      objects.push(JSON.parse(text));
     } catch {
       // Ignore malformed structured data.
     }
@@ -245,7 +259,7 @@ function findArticleJsonLd(objects) {
       return value;
     }
 
-    if (value["@graph"] && Array.isArray(value["@graph"])) {
+    if (Array.isArray(value["@graph"])) {
       queue.push(...value["@graph"]);
     }
   }
@@ -253,12 +267,13 @@ function findArticleJsonLd(objects) {
   return null;
 }
 
-function parseArticleMetadata(html, fallbackUrl) {
+function parseArticleMetadata(html) {
   const json = findArticleJsonLd(jsonLdObjects(html));
 
   const title =
     json?.headline ||
     metaValue(html, "og:title") ||
+    titleTagValue(html) ||
     "";
 
   const description =
@@ -273,7 +288,9 @@ function parseArticleMetadata(html, fallbackUrl) {
   } else if (Array.isArray(json?.image)) {
     image =
       json.image.find(item => typeof item === "string") ||
-      json.image.find(item => item && typeof item.url === "string")?.url ||
+      json.image.find(
+        item => item && typeof item.url === "string"
+      )?.url ||
       "";
   } else if (json?.image && typeof json.image.url === "string") {
     image = json.image.url;
@@ -290,7 +307,6 @@ function parseArticleMetadata(html, fallbackUrl) {
   const parsed = published ? new Date(published) : null;
 
   return {
-    url: fallbackUrl,
     title: stripHtml(title),
     description: stripHtml(description),
     image: /^https?:\/\//i.test(image) ? image : "",
@@ -301,7 +317,7 @@ function parseArticleMetadata(html, fallbackUrl) {
   };
 }
 
-async function enrichArticle(article, options = {}) {
+async function enrichArticle(article) {
   try {
     const response = await fetchUrl(article.link);
 
@@ -312,7 +328,7 @@ async function enrichArticle(article, options = {}) {
       };
     }
 
-    const metadata = parseArticleMetadata(response.body, article.link);
+    const metadata = parseArticleMetadata(response.body);
 
     return {
       article: {
@@ -322,9 +338,7 @@ async function enrichArticle(article, options = {}) {
           ? excerpt(metadata.description)
           : article.excerpt,
         publishedAt: metadata.publishedAt || article.publishedAt,
-        image: options.imageOnly
-          ? metadata.image || article.image
-          : metadata.image || article.image
+        image: metadata.image || article.image
       },
       status: "ok"
     };
@@ -337,22 +351,23 @@ async function enrichArticle(article, options = {}) {
 }
 
 async function enrichList(items, options = {}) {
-  const results = [];
   const queue = [...items];
+  const results = [];
 
   const worker = async () => {
     while (queue.length) {
       const item = queue.shift();
       if (!item) return;
 
-      const result = await enrichArticle(item, options);
-      results.push(result);
-
+      results.push(await enrichArticle(item));
       await sleep(options.delayMs ?? 150);
     }
   };
 
-  const workerCount = Math.min(options.concurrency ?? 3, items.length || 1);
+  const workerCount = Math.min(
+    options.concurrency ?? 3,
+    items.length || 1
+  );
 
   await Promise.all(
     Array.from({ length: workerCount }, () => worker())
@@ -361,201 +376,377 @@ async function enrichList(items, options = {}) {
   return results;
 }
 
-function recentCutoff(days = 90) {
+function recentCutoff(days = 60) {
   return new Date(Date.now() - days * 86400000);
 }
 
 function isRecent(dateString, cutoff) {
   if (!dateString) return false;
+
   const date = new Date(dateString);
-  return !Number.isNaN(date.getTime()) && date >= cutoff;
+
+  return (
+    !Number.isNaN(date.getTime()) &&
+    date >= cutoff &&
+    date <= new Date(Date.now() + 86400000)
+  );
 }
 
-function sankakuArticleLinksFromRecentPage(html) {
-  const results = [];
-  const regex =
-    /href\s*=\s*["'](https?:\/\/news\.sankakucomplex\.com\/n\/[^"'#?]+(?:\/)?|\/n\/[^"'#?]+(?:\/)?)/gi;
+/* Sankaku is currently returning HTTP 401 to GitHub-hosted runners.
+   The fallback therefore uses Google News only as a discovery layer.
+   Google now wraps RSS article links in URLs that are not ordinary HTTP
+   redirects. The decoder below resolves those links through Google's
+   batchexecute endpoint, then we keep only real /n/ Sankaku articles. */
 
-  let match;
-
-  while ((match = regex.exec(html))) {
-    const href = match[1];
-
-    const url = href.startsWith("http")
-      ? href
-      : `https://news.sankakucomplex.com${href}`;
-
-    if (!results.includes(url)) {
-      results.push(url);
-    }
-  }
-
-  return results;
-}
-
-async function sankakuRecentPostsFallback() {
-  const source = SOURCES.find(item => item.id === "sankaku");
-  const pageUrl = "https://news.sankakucomplex.com/recent-posts/";
-  const cutoff = recentCutoff(90);
-
-  const page = await fetchUrl(pageUrl);
-
-  if (page.status < 200 || page.status >= 300) {
-    throw new Error(`Recent Posts HTTP ${page.status}`);
-  }
-
-  const urls = sankakuArticleLinksFromRecentPage(page.body).slice(0, 24);
-
-  const pseudo = urls.map(link => ({
-    id: hash(`sankaku|${link}`),
-    title: "Loading",
-    link,
-    publishedAt: null,
-    excerpt: "",
-    image: "",
-    source: {
-      id: source.id,
-      name: source.name,
-      short: source.short,
-      siteUrl: source.siteUrl,
-      category: source.category,
-      accent: source.accent
-    }
-  }));
-
-  const enriched = await enrichList(pseudo, {
-    concurrency: 3,
-    delayMs: 180
-  });
-
-  const accepted = [];
-  const rejected = [];
-
-  for (const result of enriched) {
-    const item = result.article;
+function googleNewsId(value = "") {
+  try {
+    const url = new URL(value);
 
     if (
-      !item.publishedAt ||
-      !isRecent(item.publishedAt, cutoff) ||
-      !item.link.includes("/n/")
+      url.hostname !== "news.google.com" ||
+      !url.pathname.includes("/articles/")
     ) {
-      rejected.push({
-        link: item.link,
-        title: item.title,
-        publishedAt: item.publishedAt,
-        reason: item.publishedAt ? "stale" : "missing-date"
-      });
-      continue;
+      return "";
     }
 
-    if (!item.title || item.title === "Loading") {
-      rejected.push({
-        link: item.link,
-        reason: "missing-title"
-      });
-      continue;
-    }
+    const parts = url.pathname.split("/").filter(Boolean);
+    const index = parts.lastIndexOf("articles");
 
-    accepted.push(item);
+    return index >= 0 ? parts[index + 1] || "" : "";
+  } catch {
+    return "";
+  }
+}
+
+function extractSankakuUrlFromDecodedBytes(buffer) {
+  const text = buffer.toString("latin1");
+
+  const direct = /https?:\/\/news\.sankakucomplex\.com\/n\/[^\x00"'\s<)]+/i.exec(
+    text
+  );
+
+  return direct?.[0] || "";
+}
+
+function decodeOldGoogleNewsUrl(value) {
+  const id = googleNewsId(value);
+
+  if (!id) return "";
+
+  try {
+    const decoded = Buffer.from(id, "base64url");
+    return extractSankakuUrlFromDecodedBytes(decoded);
+  } catch {
+    return "";
+  }
+}
+
+function googleDataAttribute(html, attribute, dataId) {
+  const tags = html.match(/<[^>]+>/g) || [];
+
+  for (const tag of tags) {
+    const id = attrFromTag(tag, "data-n-a-id");
+
+    if (id !== dataId) continue;
+
+    const value = attrFromTag(tag, attribute);
+
+    if (value) return value;
   }
 
-  const unique = new Map();
+  const loose = new RegExp(
+    `data-n-a-id=["']${dataId.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}["'][^>]*`,
+    "i"
+  ).exec(html);
 
-  for (const item of accepted) {
-    if (!unique.has(item.link)) {
-      unique.set(item.link, item);
+  return loose ? attrFromTag(loose[0], attribute) : "";
+}
+
+async function decodeGoogleNewsUrl(value, diagnostics) {
+  const dataId = googleNewsId(value);
+
+  if (!dataId) return "";
+
+  const oldDecoded = decodeOldGoogleNewsUrl(value);
+
+  if (oldDecoded) {
+    return oldDecoded;
+  }
+
+  let googlePage;
+
+  try {
+    googlePage = await fetchUrl(value, {
+      headers: {
+        "user-agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36",
+        referer: "https://news.google.com/"
+      },
+      timeout: 25000
+    });
+  } catch (error) {
+    diagnostics.push({
+      stage: "google-page",
+      dataId,
+      status: "request-failed",
+      message: String(error?.message || error)
+    });
+    return "";
+  }
+
+  const signature =
+    googleDataAttribute(googlePage.body, "data-n-a-sg", dataId);
+  const timestamp =
+    googleDataAttribute(googlePage.body, "data-n-a-ts", dataId);
+
+  if (!signature || !timestamp) {
+    diagnostics.push({
+      stage: "google-page",
+      dataId,
+      status: "missing-signature",
+      httpStatus: googlePage.status,
+      finalUrl: googlePage.finalUrl,
+      bytes: googlePage.body.length
+    });
+    return "";
+  }
+
+  const request = [
+    "Fbv4je",
+    `["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"${dataId}",${timestamp},"${signature}"]`
+  ];
+
+  const body =
+    "f.req=" +
+    encodeURIComponent(JSON.stringify([[request]]));
+
+  let response;
+
+  try {
+    response = await fetchUrl(
+      "https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
+      {
+        method: "POST",
+        headers: {
+          "content-type":
+            "application/x-www-form-urlencoded;charset=UTF-8",
+          referer: "https://news.google.com/",
+          origin: "https://news.google.com"
+        },
+        body,
+        timeout: 25000
+      }
+    );
+  } catch (error) {
+    diagnostics.push({
+      stage: "google-batchexecute",
+      dataId,
+      status: "request-failed",
+      message: String(error?.message || error)
+    });
+    return "";
+  }
+
+  if (response.status < 200 || response.status >= 300) {
+    diagnostics.push({
+      stage: "google-batchexecute",
+      dataId,
+      status: "http-error",
+      httpStatus: response.status
+    });
+    return "";
+  }
+
+  const lines = response.body
+    .split("\n")
+    .map(line => line.trim())
+    .filter(Boolean);
+
+  for (const line of lines) {
+    try {
+      const outer = JSON.parse(line);
+
+      if (!Array.isArray(outer) || !outer[0]?.[2]) {
+        continue;
+      }
+
+      const inner = JSON.parse(outer[0][2]);
+
+      if (Array.isArray(inner) && typeof inner[1] === "string") {
+        const resolved = inner[1];
+
+        if (/^https?:\/\//i.test(resolved)) {
+          return resolved;
+        }
+      }
+    } catch {
+      // Continue searching other response lines.
     }
   }
 
-  return {
-    mode: "recent-posts-pages",
-    pageUrl,
-    cutoff: cutoff.toISOString(),
-    candidateCount: urls.length,
-    items: [...unique.values()].sort(
-      (a, b) => Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0)
-    ),
-    rejected: rejected.slice(0, 30)
-  };
+  const marker = '[\\"garturlres\\",\\"';
+  const markerIndex = response.body.indexOf(marker);
+
+  if (markerIndex >= 0) {
+    const start = markerIndex + marker.length;
+    const end = response.body.indexOf('\\",', start);
+
+    if (end > start) {
+      const resolved = response.body.slice(start, end);
+
+      if (/^https?:\/\//i.test(resolved)) {
+        return resolved;
+      }
+    }
+  }
+
+  diagnostics.push({
+    stage: "google-batchexecute",
+    dataId,
+    status: "no-url-in-response"
+  });
+
+  return "";
+}
+
+function sankakuSource() {
+  return SOURCES.find(item => item.id === "sankaku");
+}
+
+function sankakuAcceptsUrl(value) {
+  try {
+    const url = new URL(value);
+
+    return (
+      url.hostname.toLowerCase() ===
+        "news.sankakucomplex.com" &&
+      /^\/n\/[^/?#]+\/?$/i.test(url.pathname)
+    );
+  } catch {
+    return false;
+  }
 }
 
 async function sankakuGoogleFallback() {
-  const source = SOURCES.find(item => item.id === "sankaku");
-  const cutoff = recentCutoff(30);
+  const source = sankakuSource();
+  const cutoff = recentCutoff(60);
 
-  const query =
-    `site:news.sankakucomplex.com/n/ after:${cutoff
-      .toISOString()
-      .slice(0, 10)}`;
+  const after = cutoff.toISOString().slice(0, 10);
+  const before = new Date(Date.now() + 86400000)
+    .toISOString()
+    .slice(0, 10);
 
-  const feedUrl =
-    `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
-
-  const fetched = await fetchUrl(feedUrl);
-
-  if (fetched.status < 200 || fetched.status >= 300) {
-    throw new Error(`Google News HTTP ${fetched.status}`);
-  }
-
-  const feed = await parser.parseString(fetched.body);
-  const candidates = [];
-
-  for (const item of feed.items || []) {
-    if (!item.link) continue;
-
-    candidates.push({
-      id: hash(`sankaku-google|${item.guid || item.link}`),
-      title: stripHtml(item.title || "Untitled"),
-      link: item.link,
-      publishedAt: item.isoDate || item.pubDate || null,
-      excerpt: excerpt(item.contentSnippet || item.description || ""),
-      image: "",
-      source: {
-        id: source.id,
-        name: source.name,
-        short: source.short,
-        siteUrl: source.siteUrl,
-        category: source.category,
-        accent: source.accent
-      }
-    });
-  }
-
-  const enriched = await enrichList(candidates.slice(0, 20), {
-    concurrency: 3,
-    delayMs: 180
-  });
+  const queries = [
+    `site:news.sankakucomplex.com after:${after} before:${before}`,
+    `site:news.sankakucomplex.com Sankaku after:${after} before:${before}`
+  ];
 
   const accepted = [];
   const rejected = [];
+  const decoderDiagnostics = [];
+  let feedUrls = [];
+  let rssCandidateCount = 0;
 
-  for (const result of enriched) {
-    const item = result.article;
-    const sourceUrl = item.link || "";
+  for (const query of queries) {
+    const feedUrl =
+      `https://news.google.com/rss/search?q=${encodeURIComponent(query)}` +
+      "&hl=en-US&gl=US&ceid=US:en";
 
-    if (!/news\.sankakucomplex\.com\/n\//i.test(sourceUrl)) {
+    feedUrls.push(feedUrl);
+
+    let fetched;
+
+    try {
+      fetched = await fetchUrl(feedUrl);
+
+      if (fetched.status < 200 || fetched.status >= 300) {
+        rejected.push({
+          reason: "google-rss-http-error",
+          query,
+          status: fetched.status
+        });
+        continue;
+      }
+
+      const feed = await parser.parseString(fetched.body);
+      const items = feed.items || [];
+
+      rssCandidateCount += items.length;
+
+      for (const item of items.slice(0, 25)) {
+        const googleUrl = item.link || item.guid || "";
+
+        if (!googleUrl) continue;
+
+        const publishedRaw =
+          item.isoDate ||
+          item.pubDate ||
+          null;
+
+        const published =
+          publishedRaw ? new Date(publishedRaw) : null;
+
+        if (
+          published &&
+          !Number.isNaN(published.getTime()) &&
+          published < cutoff
+        ) {
+          rejected.push({
+            reason: "stale-rss-item",
+            title: stripHtml(item.title || ""),
+            publishedAt: published.toISOString(),
+            googleUrl
+          });
+          continue;
+        }
+
+        const resolvedUrl = await decodeGoogleNewsUrl(
+          googleUrl,
+          decoderDiagnostics
+        );
+
+        if (!sankakuAcceptsUrl(resolvedUrl)) {
+          rejected.push({
+            reason: "resolved-non-article",
+            title: stripHtml(item.title || ""),
+            publishedAt: publishedRaw,
+            googleUrl,
+            resolvedUrl
+          });
+          await sleep(180);
+          continue;
+        }
+
+        const title =
+          stripHtml(item.title || "") || "Sankaku Complex";
+
+        accepted.push({
+          id: hash(`sankaku|${resolvedUrl}`),
+          title,
+          link: resolvedUrl,
+          publishedAt:
+            published &&
+            !Number.isNaN(published.getTime())
+              ? published.toISOString()
+              : null,
+          excerpt: excerpt(
+            item.contentSnippet ||
+            item.description ||
+            ""
+          ),
+          image: "",
+          source
+        });
+
+        await sleep(180);
+      }
+    } catch (error) {
       rejected.push({
-        reason: "not-sankaku-article",
-        title: item.title,
-        link: sourceUrl
+        reason: "google-rss-failed",
+        query,
+        message: String(error?.message || error)
       });
-      continue;
     }
-
-    if (
-      !item.publishedAt ||
-      !isRecent(item.publishedAt, cutoff)
-    ) {
-      rejected.push({
-        reason: "stale-or-missing-date",
-        title: item.title,
-        publishedAt: item.publishedAt,
-        link: sourceUrl
-      });
-      continue;
-    }
-
-    accepted.push(item);
   }
 
   const unique = new Map();
@@ -566,15 +757,23 @@ async function sankakuGoogleFallback() {
     }
   }
 
+  const items = [...unique.values()]
+    .filter(item => isRecent(item.publishedAt, cutoff))
+    .sort(
+      (a, b) =>
+        Date.parse(b.publishedAt || 0) -
+        Date.parse(a.publishedAt || 0)
+    )
+    .slice(0, 30);
+
   return {
-    mode: "google-news-article-pages",
-    feedUrl,
-    query,
+    mode: "google-news-decoded",
+    feedUrls,
     cutoff: cutoff.toISOString(),
-    items: [...unique.values()].sort(
-      (a, b) => Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0)
-    ),
-    rejected: rejected.slice(0, 30)
+    rssCandidateCount,
+    items,
+    rejected: rejected.slice(0, 50),
+    decoderDiagnostics: decoderDiagnostics.slice(0, 30)
   };
 }
 
@@ -582,14 +781,13 @@ async function fetchSankaku() {
   const diagnostics = {
     checkedAt: new Date().toISOString(),
     official: [],
-    recentPosts: null,
-    googleFallback: null,
+    fallback: null,
     selectedMode: null,
     selectedCount: 0
   };
 
-  const source = SOURCES.find(item => item.id === "sankaku");
-  const cutoff = recentCutoff(90);
+  const source = sankakuSource();
+  const cutoff = recentCutoff(60);
 
   for (const feedUrl of source.feedUrls) {
     try {
@@ -600,7 +798,7 @@ async function fetchSankaku() {
         finalUrl: result.finalUrl,
         status: result.status,
         contentType: result.contentType,
-        bytes: result.bytes
+        bytes: result.body.length
       });
 
       if (result.status < 200 || result.status >= 300) {
@@ -613,15 +811,21 @@ async function fetchSankaku() {
         .map(item => normalize(item, source))
         .filter(Boolean)
         .filter(item => isRecent(item.publishedAt, cutoff))
-        .filter(item => /\/n\//.test(item.link));
+        .filter(item => sankakuAcceptsUrl(item.link));
 
       if (items.length) {
         diagnostics.selectedMode = "official-rss";
         diagnostics.selectedCount = items.length;
-        return {
-          items,
-          diagnostics
-        };
+        diagnostics.official.push({
+          acceptedRecentItems: items.length,
+          sample: items.slice(0, 5).map(item => ({
+            title: item.title,
+            publishedAt: item.publishedAt,
+            link: item.link
+          }))
+        });
+
+        return { items, diagnostics };
       }
     } catch (error) {
       diagnostics.official.push({
@@ -630,73 +834,28 @@ async function fetchSankaku() {
     }
   }
 
-  try {
-    const fallback = await sankakuRecentPostsFallback();
+  const fallback = await sankakuGoogleFallback();
 
-    diagnostics.recentPosts = {
-      mode: fallback.mode,
-      pageUrl: fallback.pageUrl,
-      candidateCount: fallback.candidateCount,
-      accepted: fallback.items.length,
-      sample: fallback.items.slice(0, 8).map(item => ({
-        title: item.title,
-        publishedAt: item.publishedAt,
-        link: item.link,
-        image: item.image
-      })),
-      rejected: fallback.rejected
-    };
+  diagnostics.fallback = {
+    mode: fallback.mode,
+    feedUrls: fallback.feedUrls,
+    cutoff: fallback.cutoff,
+    rssCandidateCount: fallback.rssCandidateCount,
+    accepted: fallback.items.length,
+    sample: fallback.items.slice(0, 10).map(item => ({
+      title: item.title,
+      publishedAt: item.publishedAt,
+      link: item.link
+    })),
+    rejected: fallback.rejected,
+    decoderDiagnostics: fallback.decoderDiagnostics
+  };
 
-    if (fallback.items.length) {
-      diagnostics.selectedMode = fallback.mode;
-      diagnostics.selectedCount = fallback.items.length;
-
-      return {
-        items: fallback.items,
-        diagnostics
-      };
-    }
-  } catch (error) {
-    diagnostics.recentPosts = {
-      error: String(error?.message || error)
-    };
-  }
-
-  try {
-    const fallback = await sankakuGoogleFallback();
-
-    diagnostics.googleFallback = {
-      mode: fallback.mode,
-      feedUrl: fallback.feedUrl,
-      query: fallback.query,
-      cutoff: fallback.cutoff,
-      accepted: fallback.items.length,
-      sample: fallback.items.slice(0, 8).map(item => ({
-        title: item.title,
-        publishedAt: item.publishedAt,
-        link: item.link
-      })),
-      rejected: fallback.rejected
-    };
-
-    diagnostics.selectedMode = fallback.mode;
-    diagnostics.selectedCount = fallback.items.length;
-
-    return {
-      items: fallback.items,
-      diagnostics
-    };
-  } catch (error) {
-    diagnostics.googleFallback = {
-      error: String(error?.message || error)
-    };
-  }
-
-  diagnostics.selectedMode = "empty";
-  diagnostics.selectedCount = 0;
+  diagnostics.selectedMode = fallback.mode;
+  diagnostics.selectedCount = fallback.items.length;
 
   return {
-    items: [],
+    items: fallback.items,
     diagnostics
   };
 }
@@ -730,7 +889,9 @@ async function fetchNormal(source) {
   }
 
   throw new Error(
-    failures.map(item => `${item.feedUrl}: ${item.message}`).join(" | ")
+    failures
+      .map(item => `${item.feedUrl}: ${item.message}`)
+      .join(" | ")
   );
 }
 
@@ -745,13 +906,16 @@ async function enrichImagesForSource(items, source) {
   }
 
   const missing = items.filter(item => !item.image);
+
   const results = await enrichList(missing.slice(0, 40), {
     concurrency: 3,
-    delayMs: 150,
-    imageOnly: true
+    delayMs: 150
   });
 
-  const byLink = new Map(results.map(result => [result.article.link, result]));
+  const byLink = new Map(
+    results.map(result => [result.article.link, result])
+  );
+
   let resolved = 0;
   const failures = [];
 
@@ -762,6 +926,7 @@ async function enrichImagesForSource(items, source) {
 
     if (result.article.image) {
       resolved++;
+
       return {
         ...item,
         image: result.article.image
@@ -809,7 +974,9 @@ for (const source of SOURCES) {
       );
 
       for (const item of result.items.slice(0, 5)) {
-        console.log(`  - ${item.publishedAt || "no date"} ${item.title}`);
+        console.log(
+          `  - ${item.publishedAt || "no date"} ${item.title}`
+        );
       }
 
       continue;
@@ -823,7 +990,6 @@ for (const source of SOURCES) {
     );
 
     result.items = enrichment.items;
-
     allArticles.push(...result.items);
 
     sourceResults.push({
@@ -841,7 +1007,9 @@ for (const source of SOURCES) {
         : null
     });
 
-    console.log(`✓ ${source.name}: ${result.items.length} stories`);
+    console.log(
+      `✓ ${source.name}: ${result.items.length} stories`
+    );
 
     if (source.enrichImages) {
       console.log(
@@ -858,14 +1026,18 @@ for (const source of SOURCES) {
       error: String(error?.message || error)
     });
 
-    console.error(`✗ ${source.name}: ${error?.message || error}`);
+    console.error(
+      `✗ ${source.name}: ${error?.message || error}`
+    );
   }
 }
 
 const unique = new Map();
 
 for (const article of allArticles) {
-  const key = article.link.replace(/\/+$/, "").toLowerCase();
+  const key = article.link
+    .replace(/\/+$/, "")
+    .toLowerCase();
 
   if (!unique.has(key)) {
     unique.set(key, article);
@@ -874,8 +1046,14 @@ for (const article of allArticles) {
 
 const articles = [...unique.values()]
   .sort((a, b) => {
-    const left = a.publishedAt ? Date.parse(a.publishedAt) : 0;
-    const right = b.publishedAt ? Date.parse(b.publishedAt) : 0;
+    const left = a.publishedAt
+      ? Date.parse(a.publishedAt)
+      : 0;
+
+    const right = b.publishedAt
+      ? Date.parse(b.publishedAt)
+      : 0;
+
     return right - left;
   })
   .slice(0, 500);
@@ -893,14 +1071,21 @@ const payload = {
   sourceResults,
   stats: {
     sourceCount: SOURCES.length,
-    successfulSources: sourceResults.filter(item => item.status === "ok").length,
-    failedSources: sourceResults.filter(item => item.status === "error").length,
+    successfulSources: sourceResults.filter(
+      item => item.status === "ok"
+    ).length,
+    failedSources: sourceResults.filter(
+      item => item.status === "error"
+    ).length,
     articleCount: articles.length
   },
   articles
 };
 
-await fs.writeFile(OUT, JSON.stringify(payload, null, 2));
+await fs.writeFile(
+  OUT,
+  JSON.stringify(payload, null, 2)
+);
 
 await fs.writeFile(
   DEBUG_OUT,

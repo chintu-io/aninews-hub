@@ -529,15 +529,42 @@ function imageFromText(value = "", baseUrl = "") {
 }
 
 function sankakuMetaImage(html, articleUrl) {
-  const metaImageBlock =
-    /<div\b[^>]*class=["'][^"']*\bmeta-image\b[^"']*["'][^>]*>[\s\S]{0,5000}?<img\b[^>]*>/i.exec(html)?.[0] ||
-    "";
+  const articleCanonical = String(articleUrl || "")
+    .replace(/[?#].*$/, "")
+    .replace(/\/$/, "")
+    .toLowerCase();
 
-  const targeted = imageFromText(metaImageBlock, articleUrl);
+  const blocks =
+    String(html || "").match(
+      /<div\b[^>]*class=["\'][^"\']*\bmeta-image\b[^"\']*["\'][^>]*>[\s\S]*?<\/div>/gi
+    ) || [];
 
-  if (targeted) return targeted;
+  // Sankaku's listing/hero markup ties the thumbnail to the article through
+  // the <a href="..."> inside .meta-image. Only accept an image when that
+  // href matches this exact article. This prevents sidebar/related-post
+  // thumbnails from being assigned to the wrong story.
+  for (const block of blocks) {
+    const href = absoluteUrl(
+      attrFromTag(
+        /<a\b[^>]*>/i.exec(block)?.[0] || "",
+        "href"
+      ),
+      articleUrl
+    )
+      .replace(/[?#].*$/, "")
+      .replace(/\/$/, "")
+      .toLowerCase();
 
-  return imageFromText(html, articleUrl);
+    if (href !== articleCanonical) continue;
+
+    const image = imageFromText(block, articleUrl);
+
+    if (sankakuUsableImage(image)) return image;
+  }
+
+  // Do not fall back to arbitrary images from the page. A wrong thumbnail is
+  // worse than a missing one.
+  return "";
 }
 
 function sankakuUsableImage(value = "") {
@@ -690,13 +717,62 @@ function jinaExcerpt(markdown, title) {
 }
 
 async function enrichSankaku(item, debug) {
-  const readerUrl =
-    `https://r.jina.ai/http://${item.link.replace(
-      /^https?:\/\//i,
-      ""
-    )}`;
+  const browserUserAgent =
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
+    "(KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36";
 
   try {
+    // Fetch the actual article HTML first. This is the only path allowed to
+    // produce a Sankaku thumbnail because .meta-image is explicitly linked
+    // to the article URL.
+    const result = await fetchUrl(item.link, {
+      headers: {
+        accept: "text/html,application/xhtml+xml, */*",
+        "user-agent": browserUserAgent,
+        referer: "https://news.sankakucomplex.com/"
+      },
+      timeout: 30000
+    });
+
+    const image =
+      result.status >= 200 && result.status < 300
+        ? sankakuMetaImage(result.body, item.link)
+        : "";
+
+    debug.imageAttempts.push({
+      link: item.link,
+      method: "direct-html-meta-image",
+      status: result.status,
+      finalUrl: result.finalUrl,
+      contentType: result.contentType,
+      bytes: result.body.length,
+      image: image || null
+    });
+
+    if (image) {
+      return {
+        ...item,
+        image
+      };
+    }
+  } catch (error) {
+    debug.imageAttempts.push({
+      link: item.link,
+      method: "direct-html-meta-image",
+      error: String(error?.message || error)
+    });
+  }
+
+  // Jina is retained only as a secondary diagnostic path. Its generic image
+  // extraction is intentionally NOT used because it can return an unrelated
+  // sidebar/related-story image.
+  try {
+    const readerUrl =
+      `https://r.jina.ai/http://${item.link.replace(
+        /^https?:\/\//i,
+        ""
+      )}`;
+
     const result = await fetchUrl(readerUrl, {
       headers: {
         accept: "text/plain, text/markdown, */*",
@@ -708,28 +784,20 @@ async function enrichSankaku(item, debug) {
 
     debug.imageAttempts.push({
       link: item.link,
+      method: "jina-diagnostic-only",
       status: result.status,
-      bytes: result.body.length
+      bytes: result.body.length,
+      image: null
     });
-
-    if (result.status < 200 || result.status >= 300) {
-      return item;
-    }
-
-    const image = sankakuJinaImageForItem(result.body, item);
-
-    return {
-      ...item,
-      image: image || item.image
-    };
   } catch (error) {
     debug.imageAttempts.push({
       link: item.link,
+      method: "jina-diagnostic-only",
       error: String(error?.message || error)
     });
-
-    return item;
   }
+
+  return item;
 }
 
 

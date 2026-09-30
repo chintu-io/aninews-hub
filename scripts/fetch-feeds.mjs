@@ -534,15 +534,15 @@ function sankakuMetaImage(html, articleUrl) {
     .replace(/\/$/, "")
     .toLowerCase();
 
+  const source = String(html || "");
+
+  // 1) Sankaku's listing/hero markup. This is the exact thumbnail mapping
+  // shown in the site's HTML: .meta-image -> <a href="THIS ARTICLE"> -> <img>.
   const blocks =
-    String(html || "").match(
+    source.match(
       /<div\b[^>]*class=["\'][^"\']*\bmeta-image\b[^"\']*["\'][^>]*>[\s\S]*?<\/div>/gi
     ) || [];
 
-  // Sankaku's listing/hero markup ties the thumbnail to the article through
-  // the <a href="..."> inside .meta-image. Only accept an image when that
-  // href matches this exact article. This prevents sidebar/related-post
-  // thumbnails from being assigned to the wrong story.
   for (const block of blocks) {
     const href = absoluteUrl(
       attrFromTag(
@@ -562,8 +562,105 @@ function sankakuMetaImage(html, articleUrl) {
     if (sankakuUsableImage(image)) return image;
   }
 
-  // Do not fall back to arbitrary images from the page. A wrong thumbnail is
-  // worse than a missing one.
+  // 2) The actual article body normally contains the original full-size
+  // image, e.g. /wp-content/uploads/2026/09/...-4.jpg. Prefer images inside
+  // the article content over generic page/sidebar images.
+  const articleBlocks =
+    source.match(/<article\b[\s\S]*?<\/article>/gi) || [];
+
+  for (const articleBlock of articleBlocks) {
+    const contentBlocks =
+      articleBlock.match(
+        /<(?:div|section)[^>]*class=["\'][^"\']*(?:entry-content|article-content|post-content|the-content|article-body|post-body)[^"\']*["\'][^>]*>[\s\S]*?<\/(?:div|section)>/gi
+      ) || [];
+
+    const scopes = contentBlocks.length ? contentBlocks : [articleBlock];
+
+    for (const scope of scopes) {
+      const images = [];
+      const tags = scope.match(/<img\b[^>]*>/gi) || [];
+
+      for (const tag of tags) {
+        const candidates = [
+          attrFromTag(tag, "src"),
+          attrFromTag(tag, "data-src"),
+          attrFromTag(tag, "data-lazy-src"),
+          attrFromTag(tag, "data-original")
+        ];
+
+        const srcset =
+          attrFromTag(tag, "srcset") ||
+          attrFromTag(tag, "data-srcset") ||
+          "";
+
+        if (srcset) {
+          candidates.unshift(
+            srcset.split(",")[0]?.trim().split(/\s+/)[0] || ""
+          );
+        }
+
+        for (const candidate of candidates) {
+          const image = sankakuUsableImage(
+            absoluteUrl(candidate, articleUrl)
+          );
+
+          if (image) images.push(image);
+        }
+      }
+
+      // Prefer original-looking uploads and reject WordPress thumbnail
+      // derivatives such as -375x195.jpg.
+      const preferred = images.find(
+        image =>
+          /\/wp-content\/uploads\//i.test(image) &&
+          !/-\d{2,4}x\d{2,4}\.(?:jpe?g|png|webp|gif)(?:$|\?)/i.test(image)
+      );
+
+      if (preferred) return preferred;
+
+      const upload = images.find(image =>
+        /\/wp-content\/uploads\//i.test(image)
+      );
+
+      if (upload) return upload;
+    }
+  }
+
+  // 3) Some article responses omit <article> and expose the body in a main
+  // content container instead. Use the first original Sankaku upload image
+  // from those content containers, but never a site-wide logo/icon.
+  const contentBlocks =
+    source.match(
+      /<(?:main|div|section)[^>]*class=["\'][^"\']*(?:entry-content|article-content|post-content|the-content|article-body|post-body)[^"\']*["\'][^>]*>[\s\S]*?<\/(?:main|div|section)>/gi
+    ) || [];
+
+  for (const scope of contentBlocks) {
+    const tags = scope.match(/<img\b[^>]*>/gi) || [];
+
+    for (const tag of tags) {
+      const candidates = [
+        attrFromTag(tag, "src"),
+        attrFromTag(tag, "data-src"),
+        attrFromTag(tag, "data-lazy-src"),
+        attrFromTag(tag, "data-original")
+      ];
+
+      for (const candidate of candidates) {
+        const image = sankakuUsableImage(
+          absoluteUrl(candidate, articleUrl)
+        );
+
+        if (
+          image &&
+          /\/wp-content\/uploads\//i.test(image) &&
+          !/-\d{2,4}x\d{2,4}\.(?:jpe?g|png|webp|gif)(?:$|\?)/i.test(image)
+        ) {
+          return image;
+        }
+      }
+    }
+  }
+
   return "";
 }
 

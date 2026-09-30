@@ -18,14 +18,10 @@ const OUT = new URL("../site/data/articles.json", import.meta.url);
 const DEBUG_OUT = new URL("../site/debug/sankaku.json", import.meta.url);
 
 const USER_AGENT =
-  "AniNewsHub/1.2 (personal RSS reader; contact: github.com/chintune/aninews-hub)";
+  "AniNewsHub/1.3 (personal RSS reader; github.com/chintune/aninews-hub)";
 
 const hash = value =>
-  crypto
-    .createHash("sha1")
-    .update(String(value))
-    .digest("hex")
-    .slice(0, 16);
+  crypto.createHash("sha1").update(String(value)).digest("hex").slice(0, 16);
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -81,9 +77,7 @@ function imageOf(item) {
     ...asArray(item.mediaThumbnail).map(urlOf)
   ];
 
-  return (
-    candidates.find(value => /^https?:\/\//i.test(value || "")) || ""
-  );
+  return candidates.find(value => /^https?:\/\//i.test(value || "")) || "";
 }
 
 function normalize(item, source) {
@@ -133,16 +127,14 @@ function normalize(item, source) {
 }
 
 async function fetchUrl(url, options = {}) {
-  const headers = {
-    "user-agent": USER_AGENT,
-    accept:
-      "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html, application/json, */*",
-    ...(options.headers || {})
-  };
-
   const response = await fetch(url, {
     method: options.method || "GET",
-    headers,
+    headers: {
+      "user-agent": USER_AGENT,
+      accept:
+        "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html, application/json, */*",
+      ...(options.headers || {})
+    },
     body: options.body,
     redirect: "follow",
     signal: AbortSignal.timeout(options.timeout ?? 30000)
@@ -153,7 +145,6 @@ async function fetchUrl(url, options = {}) {
     finalUrl: response.url,
     status: response.status,
     contentType: response.headers.get("content-type") || "",
-    bytes: Number(response.headers.get("content-length") || 0),
     body: await response.text()
   };
 }
@@ -322,10 +313,7 @@ async function enrichArticle(article) {
     const response = await fetchUrl(article.link);
 
     if (response.status < 200 || response.status >= 300) {
-      return {
-        article,
-        status: `HTTP ${response.status}`
-      };
+      return { article, status: `HTTP ${response.status}` };
     }
 
     const metadata = parseArticleMetadata(response.body);
@@ -392,223 +380,6 @@ function isRecent(dateString, cutoff) {
   );
 }
 
-/* Sankaku is currently returning HTTP 401 to GitHub-hosted runners.
-   The fallback therefore uses Google News only as a discovery layer.
-   Google now wraps RSS article links in URLs that are not ordinary HTTP
-   redirects. The decoder below resolves those links through Google's
-   batchexecute endpoint, then we keep only real /n/ Sankaku articles. */
-
-function googleNewsId(value = "") {
-  try {
-    const url = new URL(value);
-
-    if (
-      url.hostname !== "news.google.com" ||
-      !url.pathname.includes("/articles/")
-    ) {
-      return "";
-    }
-
-    const parts = url.pathname.split("/").filter(Boolean);
-    const index = parts.lastIndexOf("articles");
-
-    return index >= 0 ? parts[index + 1] || "" : "";
-  } catch {
-    return "";
-  }
-}
-
-function extractSankakuUrlFromDecodedBytes(buffer) {
-  const text = buffer.toString("latin1");
-
-  const direct = /https?:\/\/news\.sankakucomplex\.com\/n\/[^\x00"'\s<)]+/i.exec(
-    text
-  );
-
-  return direct?.[0] || "";
-}
-
-function decodeOldGoogleNewsUrl(value) {
-  const id = googleNewsId(value);
-
-  if (!id) return "";
-
-  try {
-    const decoded = Buffer.from(id, "base64url");
-    return extractSankakuUrlFromDecodedBytes(decoded);
-  } catch {
-    return "";
-  }
-}
-
-function googleDataAttribute(html, attribute, dataId) {
-  const tags = html.match(/<[^>]+>/g) || [];
-
-  for (const tag of tags) {
-    const id = attrFromTag(tag, "data-n-a-id");
-
-    if (id !== dataId) continue;
-
-    const value = attrFromTag(tag, attribute);
-
-    if (value) return value;
-  }
-
-  const loose = new RegExp(
-    `data-n-a-id=["']${dataId.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}["'][^>]*`,
-    "i"
-  ).exec(html);
-
-  return loose ? attrFromTag(loose[0], attribute) : "";
-}
-
-async function decodeGoogleNewsUrl(value, diagnostics) {
-  const dataId = googleNewsId(value);
-
-  if (!dataId) return "";
-
-  const oldDecoded = decodeOldGoogleNewsUrl(value);
-
-  if (oldDecoded) {
-    return oldDecoded;
-  }
-
-  let googlePage;
-
-  try {
-    googlePage = await fetchUrl(value, {
-      headers: {
-        "user-agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36",
-        referer: "https://news.google.com/"
-      },
-      timeout: 25000
-    });
-  } catch (error) {
-    diagnostics.push({
-      stage: "google-page",
-      dataId,
-      status: "request-failed",
-      message: String(error?.message || error)
-    });
-    return "";
-  }
-
-  const signature =
-    googleDataAttribute(googlePage.body, "data-n-a-sg", dataId);
-  const timestamp =
-    googleDataAttribute(googlePage.body, "data-n-a-ts", dataId);
-
-  if (!signature || !timestamp) {
-    diagnostics.push({
-      stage: "google-page",
-      dataId,
-      status: "missing-signature",
-      httpStatus: googlePage.status,
-      finalUrl: googlePage.finalUrl,
-      bytes: googlePage.body.length
-    });
-    return "";
-  }
-
-  const request = [
-    "Fbv4je",
-    `["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"${dataId}",${timestamp},"${signature}"]`
-  ];
-
-  const body =
-    "f.req=" +
-    encodeURIComponent(JSON.stringify([[request]]));
-
-  let response;
-
-  try {
-    response = await fetchUrl(
-      "https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
-      {
-        method: "POST",
-        headers: {
-          "content-type":
-            "application/x-www-form-urlencoded;charset=UTF-8",
-          referer: "https://news.google.com/",
-          origin: "https://news.google.com"
-        },
-        body,
-        timeout: 25000
-      }
-    );
-  } catch (error) {
-    diagnostics.push({
-      stage: "google-batchexecute",
-      dataId,
-      status: "request-failed",
-      message: String(error?.message || error)
-    });
-    return "";
-  }
-
-  if (response.status < 200 || response.status >= 300) {
-    diagnostics.push({
-      stage: "google-batchexecute",
-      dataId,
-      status: "http-error",
-      httpStatus: response.status
-    });
-    return "";
-  }
-
-  const lines = response.body
-    .split("\n")
-    .map(line => line.trim())
-    .filter(Boolean);
-
-  for (const line of lines) {
-    try {
-      const outer = JSON.parse(line);
-
-      if (!Array.isArray(outer) || !outer[0]?.[2]) {
-        continue;
-      }
-
-      const inner = JSON.parse(outer[0][2]);
-
-      if (Array.isArray(inner) && typeof inner[1] === "string") {
-        const resolved = inner[1];
-
-        if (/^https?:\/\//i.test(resolved)) {
-          return resolved;
-        }
-      }
-    } catch {
-      // Continue searching other response lines.
-    }
-  }
-
-  const marker = '[\\"garturlres\\",\\"';
-  const markerIndex = response.body.indexOf(marker);
-
-  if (markerIndex >= 0) {
-    const start = markerIndex + marker.length;
-    const end = response.body.indexOf('\\",', start);
-
-    if (end > start) {
-      const resolved = response.body.slice(start, end);
-
-      if (/^https?:\/\//i.test(resolved)) {
-        return resolved;
-      }
-    }
-  }
-
-  diagnostics.push({
-    stage: "google-batchexecute",
-    dataId,
-    status: "no-url-in-response"
-  });
-
-  return "";
-}
-
 function sankakuSource() {
   return SOURCES.find(item => item.id === "sankaku");
 }
@@ -627,153 +398,281 @@ function sankakuAcceptsUrl(value) {
   }
 }
 
-async function sankakuGoogleFallback() {
+/*
+ * Sankaku blocks GitHub-hosted runners with HTTP 401.
+ *
+ * Fallback order:
+ *  1. Official RSS.
+ *  2. Bing News RSS search, which supports the site: operator and returns
+ *     normal RSS items. We unwrap Bing's apiclick links when present.
+ *  3. Jina Reader, which fetches Sankaku's public recent-posts page server-side
+ *     and returns Markdown. We extract only direct /n/ article links.
+ *
+ * Google News is deliberately no longer used here. The GitHub runner was
+ * receiving HTTP 503 from Google News RSS, so decoding its article links
+ * could never be reached reliably.
+ */
+
+function unwrapBingNewsLink(value) {
+  if (!value) return "";
+
+  try {
+    const url = new URL(value);
+
+    if (
+      url.hostname === "www.bing.com" &&
+      url.pathname === "/news/apiclick.aspx"
+    ) {
+      return url.searchParams.get("url") || "";
+    }
+
+    return value;
+  } catch {
+    return value;
+  }
+}
+
+async function fetchSankakuViaBing(diagnostics) {
   const source = sankakuSource();
   const cutoff = recentCutoff(60);
 
-  const after = cutoff.toISOString().slice(0, 10);
-  const before = new Date(Date.now() + 86400000)
-    .toISOString()
-    .slice(0, 10);
+  const q = encodeURIComponent(
+    "site:news.sankakucomplex.com"
+  );
 
-  const queries = [
-    `site:news.sankakucomplex.com after:${after} before:${before}`,
-    `site:news.sankakucomplex.com Sankaku after:${after} before:${before}`
-  ];
+  const feedUrl =
+    `https://www.bing.com/news/search?q=${q}` +
+    `&qft=${encodeURIComponent('sortbydate="1"')}` +
+    "&format=RSS";
 
-  const accepted = [];
-  const rejected = [];
-  const decoderDiagnostics = [];
-  let feedUrls = [];
-  let rssCandidateCount = 0;
+  try {
+    const result = await fetchUrl(feedUrl, {
+      headers: {
+        "user-agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36",
+        accept:
+          "application/rss+xml, application/xml, text/xml, */*"
+      }
+    });
 
-  for (const query of queries) {
-    const feedUrl =
-      `https://news.google.com/rss/search?q=${encodeURIComponent(query)}` +
-      "&hl=en-US&gl=US&ceid=US:en";
+    diagnostics.status = result.status;
+    diagnostics.finalUrl = result.finalUrl;
+    diagnostics.contentType = result.contentType;
+    diagnostics.bytes = result.body.length;
+    diagnostics.feedUrl = feedUrl;
 
-    feedUrls.push(feedUrl);
+    if (result.status < 200 || result.status >= 300) {
+      return {
+        mode: "bing-news-rss",
+        items: [],
+        error: `HTTP ${result.status}`
+      };
+    }
 
-    let fetched;
+    const feed = await parser.parseString(result.body);
+    diagnostics.candidateCount = feed.items?.length || 0;
 
-    try {
-      fetched = await fetchUrl(feedUrl);
+    const accepted = [];
 
-      if (fetched.status < 200 || fetched.status >= 300) {
-        rejected.push({
-          reason: "google-rss-http-error",
-          query,
-          status: fetched.status
-        });
+    for (const item of (feed.items || []).slice(0, 40)) {
+      const link = unwrapBingNewsLink(
+        item.link || item.guid || ""
+      );
+
+      if (!sankakuAcceptsUrl(link)) {
         continue;
       }
 
-      const feed = await parser.parseString(fetched.body);
-      const items = feed.items || [];
+      const publishedRaw =
+        item.isoDate ||
+        item.pubDate ||
+        null;
 
-      rssCandidateCount += items.length;
+      if (
+        publishedRaw &&
+        !isRecent(publishedRaw, cutoff)
+      ) {
+        continue;
+      }
 
-      for (const item of items.slice(0, 25)) {
-        const googleUrl = item.link || item.guid || "";
-
-        if (!googleUrl) continue;
-
-        const publishedRaw =
-          item.isoDate ||
-          item.pubDate ||
-          null;
-
-        const published =
-          publishedRaw ? new Date(publishedRaw) : null;
-
-        if (
-          published &&
-          !Number.isNaN(published.getTime()) &&
-          published < cutoff
-        ) {
-          rejected.push({
-            reason: "stale-rss-item",
-            title: stripHtml(item.title || ""),
-            publishedAt: published.toISOString(),
-            googleUrl
-          });
-          continue;
-        }
-
-        const resolvedUrl = await decodeGoogleNewsUrl(
-          googleUrl,
-          decoderDiagnostics
-        );
-
-        if (!sankakuAcceptsUrl(resolvedUrl)) {
-          rejected.push({
-            reason: "resolved-non-article",
-            title: stripHtml(item.title || ""),
-            publishedAt: publishedRaw,
-            googleUrl,
-            resolvedUrl
-          });
-          await sleep(180);
-          continue;
-        }
-
-        const title =
-          stripHtml(item.title || "") || "Sankaku Complex";
-
-        accepted.push({
-          id: hash(`sankaku|${resolvedUrl}`),
-          title,
-          link: resolvedUrl,
-          publishedAt:
-            published &&
-            !Number.isNaN(published.getTime())
-              ? published.toISOString()
-              : null,
-          excerpt: excerpt(
+      const normalized = normalize(
+        {
+          title: item.title,
+          link,
+          guid: link,
+          isoDate: publishedRaw,
+          description:
             item.contentSnippet ||
             item.description ||
-            ""
-          ),
-          image: "",
-          source
-        });
+            "",
+          enclosure: item.enclosure
+        },
+        source
+      );
 
-        await sleep(180);
+      if (normalized) {
+        accepted.push(normalized);
+      }
+    }
+
+    const unique = new Map();
+
+    for (const item of accepted) {
+      if (!unique.has(item.link)) {
+        unique.set(item.link, item);
+      }
+    }
+
+    const items = [...unique.values()]
+      .sort(
+        (a, b) =>
+          Date.parse(b.publishedAt || 0) -
+          Date.parse(a.publishedAt || 0)
+      )
+      .slice(0, 30);
+
+    diagnostics.accepted = items.length;
+
+    return {
+      mode: "bing-news-rss",
+      items
+    };
+  } catch (error) {
+    diagnostics.error = String(error?.message || error);
+
+    return {
+      mode: "bing-news-rss",
+      items: []
+    };
+  }
+}
+
+function extractSankakuMarkdownItems(markdown, source) {
+  const results = [];
+  const seen = new Set();
+
+  const absolutePattern =
+    /\[([^\]]{3,220})\]\((https?:\/\/news\.sankakucomplex\.com\/n\/[^)\s]+)\)/gi;
+
+  let match;
+
+  while ((match = absolutePattern.exec(markdown))) {
+    const title = stripHtml(match[1]).trim();
+    const link = match[2].replace(/[?#].*$/, "");
+
+    if (
+      !sankakuAcceptsUrl(link) ||
+      !title ||
+      seen.has(link)
+    ) {
+      continue;
+    }
+
+    seen.add(link);
+
+    results.push({
+      id: hash(`sankaku|${link}`),
+      title,
+      link,
+      publishedAt: null,
+      excerpt: "",
+      image: "",
+      source
+    });
+
+    if (results.length >= 30) {
+      return results;
+    }
+  }
+
+  const rawPattern =
+    /https?:\/\/news\.sankakucomplex\.com\/n\/[A-Za-z0-9_-]+\/?/gi;
+
+  while ((match = rawPattern.exec(markdown))) {
+    const link = match[0].replace(/[?#].*$/, "");
+
+    if (!sankakuAcceptsUrl(link) || seen.has(link)) {
+      continue;
+    }
+
+    seen.add(link);
+
+    results.push({
+      id: hash(`sankaku|${link}`),
+      title: "Sankaku Complex article",
+      link,
+      publishedAt: null,
+      excerpt: "",
+      image: "",
+      source
+    });
+
+    if (results.length >= 30) {
+      break;
+    }
+  }
+
+  return results;
+}
+
+async function fetchSankakuViaJina(diagnostics) {
+  const source = sankakuSource();
+
+  const candidateUrls = [
+    "https://r.jina.ai/http://news.sankakucomplex.com/recent-posts/",
+    "https://r.jina.ai/http://news.sankakucomplex.com/"
+  ];
+
+  for (const readerUrl of candidateUrls) {
+    try {
+      const result = await fetchUrl(readerUrl, {
+        headers: {
+          accept: "text/plain, text/markdown, text/html, */*"
+        },
+        timeout: 40000
+      });
+
+      diagnostics.attempts.push({
+        url: readerUrl,
+        status: result.status,
+        finalUrl: result.finalUrl,
+        contentType: result.contentType,
+        bytes: result.body.length
+      });
+
+      if (result.status < 200 || result.status >= 300) {
+        continue;
+      }
+
+      const items = extractSankakuMarkdownItems(
+        result.body,
+        source
+      );
+
+      if (items.length) {
+        diagnostics.accepted = items.length;
+        diagnostics.sourceUrl = readerUrl;
+
+        return {
+          mode: "jina-reader-recent-posts",
+          items,
+          preview: items.slice(0, 8).map(item => ({
+            title: item.title,
+            link: item.link
+          }))
+        };
       }
     } catch (error) {
-      rejected.push({
-        reason: "google-rss-failed",
-        query,
-        message: String(error?.message || error)
+      diagnostics.attempts.push({
+        url: readerUrl,
+        error: String(error?.message || error)
       });
     }
   }
 
-  const unique = new Map();
-
-  for (const item of accepted) {
-    if (!unique.has(item.link)) {
-      unique.set(item.link, item);
-    }
-  }
-
-  const items = [...unique.values()]
-    .filter(item => isRecent(item.publishedAt, cutoff))
-    .sort(
-      (a, b) =>
-        Date.parse(b.publishedAt || 0) -
-        Date.parse(a.publishedAt || 0)
-    )
-    .slice(0, 30);
-
   return {
-    mode: "google-news-decoded",
-    feedUrls,
-    cutoff: cutoff.toISOString(),
-    rssCandidateCount,
-    items,
-    rejected: rejected.slice(0, 50),
-    decoderDiagnostics: decoderDiagnostics.slice(0, 30)
+    mode: "jina-reader-recent-posts",
+    items: []
   };
 }
 
@@ -781,7 +680,15 @@ async function fetchSankaku() {
   const diagnostics = {
     checkedAt: new Date().toISOString(),
     official: [],
-    fallback: null,
+    bing: {
+      mode: "not-run",
+      accepted: 0
+    },
+    jina: {
+      mode: "not-run",
+      accepted: 0,
+      attempts: []
+    },
     selectedMode: null,
     selectedCount: 0
   };
@@ -816,16 +723,11 @@ async function fetchSankaku() {
       if (items.length) {
         diagnostics.selectedMode = "official-rss";
         diagnostics.selectedCount = items.length;
-        diagnostics.official.push({
-          acceptedRecentItems: items.length,
-          sample: items.slice(0, 5).map(item => ({
-            title: item.title,
-            publishedAt: item.publishedAt,
-            link: item.link
-          }))
-        });
 
-        return { items, diagnostics };
+        return {
+          items,
+          diagnostics
+        };
       }
     } catch (error) {
       diagnostics.official.push({
@@ -834,28 +736,43 @@ async function fetchSankaku() {
     }
   }
 
-  const fallback = await sankakuGoogleFallback();
+  const bing = await fetchSankakuViaBing(
+    diagnostics.bing
+  );
 
-  diagnostics.fallback = {
-    mode: fallback.mode,
-    feedUrls: fallback.feedUrls,
-    cutoff: fallback.cutoff,
-    rssCandidateCount: fallback.rssCandidateCount,
-    accepted: fallback.items.length,
-    sample: fallback.items.slice(0, 10).map(item => ({
-      title: item.title,
-      publishedAt: item.publishedAt,
-      link: item.link
-    })),
-    rejected: fallback.rejected,
-    decoderDiagnostics: fallback.decoderDiagnostics
-  };
+  diagnostics.bing.mode = bing.mode;
 
-  diagnostics.selectedMode = fallback.mode;
-  diagnostics.selectedCount = fallback.items.length;
+  if (bing.items.length) {
+    diagnostics.selectedMode = bing.mode;
+    diagnostics.selectedCount = bing.items.length;
+
+    return {
+      items: bing.items,
+      diagnostics
+    };
+  }
+
+  const jina = await fetchSankakuViaJina(
+    diagnostics.jina
+  );
+
+  diagnostics.jina.mode = jina.mode;
+
+  if (jina.items.length) {
+    diagnostics.selectedMode = jina.mode;
+    diagnostics.selectedCount = jina.items.length;
+
+    return {
+      items: jina.items,
+      diagnostics
+    };
+  }
+
+  diagnostics.selectedMode = "empty";
+  diagnostics.selectedCount = 0;
 
   return {
-    items: fallback.items,
+    items: [],
     diagnostics
   };
 }
@@ -975,7 +892,7 @@ for (const source of SOURCES) {
 
       for (const item of result.items.slice(0, 5)) {
         console.log(
-          `  - ${item.publishedAt || "no date"} ${item.title}`
+          `  - ${item.publishedAt || "date from source page"} ${item.title}`
         );
       }
 
@@ -1035,9 +952,7 @@ for (const source of SOURCES) {
 const unique = new Map();
 
 for (const article of allArticles) {
-  const key = article.link
-    .replace(/\/+$/, "")
-    .toLowerCase();
+  const key = article.link.replace(/\/+$/, "").toLowerCase();
 
   if (!unique.has(key)) {
     unique.set(key, article);
@@ -1046,15 +961,14 @@ for (const article of allArticles) {
 
 const articles = [...unique.values()]
   .sort((a, b) => {
-    const left = a.publishedAt
-      ? Date.parse(a.publishedAt)
-      : 0;
+    const left = a.publishedAt ? Date.parse(a.publishedAt) : 0;
+    const right = b.publishedAt ? Date.parse(b.publishedAt) : 0;
 
-    const right = b.publishedAt
-      ? Date.parse(b.publishedAt)
-      : 0;
+    if (right !== left) {
+      return right - left;
+    }
 
-    return right - left;
+    return a.title.localeCompare(b.title);
   })
   .slice(0, 500);
 

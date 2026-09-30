@@ -516,11 +516,8 @@ function jinaExcerpt(markdown, title) {
 }
 
 async function enrichSankaku(item, debug, recentMarkdown = "") {
-  const readerTarget =
-    `${item.link}${item.link.includes("?") ? "&" : "?"}_aninews=${Date.now()}`;
-
   const readerUrl =
-    `https://r.jina.ai/http://${readerTarget.replace(
+    `https://r.jina.ai/http://${item.link.replace(
       /^https?:\/\//i,
       ""
     )}`;
@@ -628,11 +625,8 @@ async function fetchSankaku() {
     }
   }
 
-  const recentTarget =
-    `http://news.sankakucomplex.com/recent-posts/?_aninews=${Date.now()}`;
-
   const recentUrl =
-    `https://r.jina.ai/${recentTarget}`;
+    "https://r.jina.ai/http://news.sankakucomplex.com/recent-posts/";
 
   try {
     const page = await fetchUrl(recentUrl, {
@@ -651,7 +645,8 @@ async function fetchSankaku() {
       finalUrl: page.finalUrl,
       contentType: page.contentType,
       bytes: page.body.length,
-      cacheBypass: true
+      cacheBypass: true,
+      targetQueryRemoved: true
     };
 
     if (page.status >= 200 && page.status < 300) {

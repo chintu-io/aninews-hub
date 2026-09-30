@@ -17,13 +17,12 @@ const parser = new Parser({
 const OUT = new URL("../site/data/articles.json", import.meta.url);
 const DEBUG_OUT = new URL("../site/debug/sankaku.json", import.meta.url);
 
-const USER_AGENT =
-  "AniNewsHub/1.4 (personal RSS reader; github.com/chintune/aninews-hub)";
+const USER_AGENT = "AniNewsHub/1.5 (personal RSS reader)";
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 const hash = value =>
   crypto.createHash("sha1").update(String(value)).digest("hex").slice(0, 16);
-
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 function stripHtml(value = "") {
   return String(value)
@@ -35,9 +34,6 @@ function stripHtml(value = "") {
     .replace(/&quot;/gi, '"')
     .replace(/&#39;/gi, "'")
     .replace(/&#x27;/gi, "'")
-    .replace(/&#8217;/gi, "’")
-    .replace(/&#8220;/gi, "“")
-    .replace(/&#8221;/gi, "”")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -48,8 +44,7 @@ function excerpt(value = "") {
 }
 
 function asArray(value) {
-  if (!value) return [];
-  return Array.isArray(value) ? value : [value];
+  return !value ? [] : Array.isArray(value) ? value : [value];
 }
 
 function urlOf(value) {
@@ -132,7 +127,7 @@ async function fetchUrl(url, options = {}) {
     headers: {
       "user-agent": USER_AGENT,
       accept:
-        "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html, application/json, */*",
+        "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html, */*",
       ...(options.headers || {})
     },
     body: options.body,
@@ -141,70 +136,58 @@ async function fetchUrl(url, options = {}) {
   });
 
   return {
-    url,
-    finalUrl: response.url,
     status: response.status,
+    finalUrl: response.url,
     contentType: response.headers.get("content-type") || "",
     body: await response.text()
   };
 }
 
-async function parseFeedResponse(result) {
-  if (!result || result.status < 200 || result.status >= 300) {
-    throw new Error(`HTTP ${result?.status ?? "unknown"}`);
+async function parseFeed(url) {
+  const result = await fetchUrl(url);
+
+  if (result.status < 200 || result.status >= 300) {
+    throw new Error(`HTTP ${result.status}`);
   }
 
   if (!result.body.trim()) {
     throw new Error("Empty response");
   }
 
-  return parser.parseString(result.body);
-}
-
-function cleanMetaContent(value = "") {
-  return String(value)
-    .replace(/&amp;/gi, "&")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;/gi, "'")
-    .trim();
+  return {
+    result,
+    feed: await parser.parseString(result.body)
+  };
 }
 
 function attrFromTag(tag, name) {
-  const regex = new RegExp(
-    `${name}\\s*=\\s*["']([^"']+)["']`,
-    "i"
+  return (
+    new RegExp(`${name}\\s*=\\s*["']([^"']+)["']`, "i").exec(tag)?.[1] ||
+    ""
   );
-
-  return regex.exec(tag)?.[1] || "";
 }
 
 function metaValue(html, property) {
-  const tags = html.match(/<meta\b[^>]*>/gi) || [];
-
-  for (const tag of tags) {
+  for (const tag of html.match(/<meta\b[^>]*>/gi) || []) {
     const key =
       attrFromTag(tag, "property") ||
       attrFromTag(tag, "name");
 
     if (key.toLowerCase() === property.toLowerCase()) {
-      return cleanMetaContent(attrFromTag(tag, "content"));
+      return attrFromTag(tag, "content");
     }
   }
 
   return "";
 }
 
-function titleTagValue(html) {
-  const match = /<title[^>]*>([\s\S]*?)<\/title>/i.exec(html);
-  return match ? cleanMetaContent(stripHtml(match[1])) : "";
-}
+function jsonLdArticle(html) {
+  const blocks =
+    html.match(
+      /<script[^>]+type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi
+    ) || [];
 
-function jsonLdObjects(html) {
-  const blocks = html.match(
-    /<script[^>]+type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi
-  ) || [];
-
-  const objects = [];
+  const queue = [];
 
   for (const block of blocks) {
     const text = block
@@ -213,17 +196,9 @@ function jsonLdObjects(html) {
       .trim();
 
     try {
-      objects.push(JSON.parse(text));
-    } catch {
-      // Ignore malformed structured data.
-    }
+      queue.push(JSON.parse(text));
+    } catch {}
   }
-
-  return objects;
-}
-
-function findArticleJsonLd(objects) {
-  const queue = [...objects];
 
   while (queue.length) {
     const value = queue.shift();
@@ -237,14 +212,15 @@ function findArticleJsonLd(objects) {
 
     if (typeof value !== "object") continue;
 
-    const type = value["@type"];
-    const types = Array.isArray(type) ? type : [type];
+    const types = Array.isArray(value["@type"])
+      ? value["@type"]
+      : [value["@type"]];
 
     if (
       types.some(
-        item =>
-          typeof item === "string" &&
-          /article|newsarticle|reportage/i.test(item)
+        type =>
+          typeof type === "string" &&
+          /article|newsarticle|reportage/i.test(type)
       )
     ) {
       return value;
@@ -258,83 +234,120 @@ function findArticleJsonLd(objects) {
   return null;
 }
 
-function parseArticleMetadataFromHtml(html) {
-  const json = findArticleJsonLd(jsonLdObjects(html));
-
-  const title =
-    json?.headline ||
-    metaValue(html, "og:title") ||
-    titleTagValue(html) ||
-    "";
-
-  const description =
-    json?.description ||
-    metaValue(html, "og:description") ||
-    "";
+function parseHtmlMetadata(html) {
+  const article = jsonLdArticle(html);
 
   let image = "";
 
-  if (typeof json?.image === "string") {
-    image = json.image;
-  } else if (Array.isArray(json?.image)) {
+  if (typeof article?.image === "string") {
+    image = article.image;
+  } else if (Array.isArray(article?.image)) {
     image =
-      json.image.find(item => typeof item === "string") ||
-      json.image.find(
-        item => item && typeof item.url === "string"
-      )?.url ||
+      article.image.find(item => typeof item === "string") ||
+      article.image.find(item => item && typeof item.url === "string")?.url ||
       "";
-  } else if (json?.image && typeof json.image.url === "string") {
-    image = json.image.url;
+  } else if (article?.image && typeof article.image.url === "string") {
+    image = article.image.url;
   }
 
-  image = image || metaValue(html, "og:image") || "";
+  image ||= metaValue(html, "og:image");
 
   const published =
-    json?.datePublished ||
-    metaValue(html, "article:published_time") ||
-    metaValue(html, "date") ||
-    "";
+    article?.datePublished ||
+    metaValue(html, "article:published_time");
 
-  const parsed = published ? new Date(published) : null;
+  const date = published ? new Date(published) : null;
 
   return {
-    title: stripHtml(title),
-    description: stripHtml(description),
+    title:
+      stripHtml(article?.headline || metaValue(html, "og:title") || ""),
+    description:
+      stripHtml(article?.description || metaValue(html, "og:description") || ""),
     image: /^https?:\/\//i.test(image) ? image : "",
     publishedAt:
-      parsed && !Number.isNaN(parsed.getTime())
-        ? parsed.toISOString()
+      date && !Number.isNaN(date.getTime())
+        ? date.toISOString()
         : null
   };
 }
 
-function recentCutoff(days = 60) {
-  return new Date(Date.now() - days * 86400000);
+async function enrichDirectPage(item) {
+  try {
+    const result = await fetchUrl(item.link);
+
+    if (result.status < 200 || result.status >= 300) {
+      return item;
+    }
+
+    const meta = parseHtmlMetadata(result.body);
+
+    return {
+      ...item,
+      title: meta.title || item.title,
+      excerpt: meta.description ? excerpt(meta.description) : item.excerpt,
+      image: meta.image || item.image,
+      publishedAt: meta.publishedAt || item.publishedAt
+    };
+  } catch {
+    return item;
+  }
 }
 
-function isRecent(dateString, cutoff) {
-  if (!dateString) return false;
+async function enrichAnn(items) {
+  const missing = items.filter(item => !item.image);
+  const results = [];
+  const queue = [...missing.slice(0, 40)];
 
-  const date = new Date(dateString);
+  const worker = async () => {
+    while (queue.length) {
+      const item = queue.shift();
+      if (!item) return;
 
-  return (
-    !Number.isNaN(date.getTime()) &&
-    date >= cutoff &&
-    date <= new Date(Date.now() + 86400000)
+      results.push(await enrichDirectPage(item));
+      await sleep(120);
+    }
+  };
+
+  await Promise.all(
+    Array.from(
+      { length: Math.min(3, queue.length || 1) },
+      () => worker()
+    )
+  );
+
+  const byLink = new Map(results.map(item => [item.link, item]));
+
+  let resolved = 0;
+
+  const merged = items.map(item => {
+    const updated = byLink.get(item.link);
+
+    if (!updated) return item;
+
+    if (updated.image) resolved++;
+
+    return updated;
+  });
+
+  return {
+    items: merged,
+    attempted: results.length,
+    resolved
+  };
+}
+
+function isCommentLabel(value = "") {
+  return /^(?:add\s+comment|\d+\s+comments?)$/i.test(
+    stripHtml(value).trim()
   );
 }
 
-function sankakuSource() {
-  return SOURCES.find(item => item.id === "sankaku");
-}
-
-function sankakuAcceptsUrl(value) {
+function realSankakuUrl(value) {
   try {
     const url = new URL(value);
 
     return (
-      url.hostname.toLowerCase() ===
-        "news.sankakucomplex.com" &&
+      url.hostname.toLowerCase() === "news.sankakucomplex.com" &&
       /^\/n\/[^/?#]+\/?$/i.test(url.pathname)
     );
   } catch {
@@ -342,65 +355,23 @@ function sankakuAcceptsUrl(value) {
   }
 }
 
-/* Sankaku blocks GitHub-hosted runners with HTTP 401.
-   We use Jina Reader as the server-side retrieval path. */
-
-async function fetchNormal(source) {
-  const failures = [];
-
-  for (const feedUrl of source.feedUrls) {
-    try {
-      const response = await fetchUrl(feedUrl);
-      const feed = await parseFeedResponse(response);
-
-      const items = (feed.items || [])
-        .map(item => normalize(item, source))
-        .filter(Boolean);
-
-      if (!items.length) {
-        throw new Error("No usable items");
-      }
-
-      return { feedUrl, items };
-    } catch (error) {
-      failures.push({
-        feedUrl,
-        message: String(error?.message || error)
-      });
-    }
-  }
-
-  throw new Error(
-    failures.map(item => `${item.feedUrl}: ${item.message}`).join(" | ")
-  );
-}
-
-function looksLikeCommentLabel(value = "") {
-  return /^(?:add\s+comment|\d+\s+comments?)$/i.test(
-    stripHtml(value).trim()
-  );
-}
-
-function extractSankakuMarkdownCandidates(markdown, source) {
+function sankakuCandidatesFromRecent(markdown, source) {
   const byLink = new Map();
-
-  const absolutePattern =
+  const pattern =
     /\[([^\]]{1,220})\]\((https?:\/\/news\.sankakucomplex\.com\/n\/[^)\s]+)\)/gi;
 
   let match;
 
-  while ((match = absolutePattern.exec(markdown))) {
+  while ((match = pattern.exec(markdown))) {
     const label = stripHtml(match[1]).trim();
     const link = match[2].replace(/[?#].*$/, "");
 
-    if (!sankakuAcceptsUrl(link)) {
-      continue;
-    }
+    if (!realSankakuUrl(link)) continue;
 
     if (!byLink.has(link)) {
       byLink.set(link, {
-        labels: [],
-        link
+        link,
+        labels: []
       });
     }
 
@@ -410,18 +381,13 @@ function extractSankakuMarkdownCandidates(markdown, source) {
   }
 
   return [...byLink.values()].map(entry => {
-    const titleCandidates = entry.labels
-      .filter(label => !looksLikeCommentLabel(label))
+    const labels = entry.labels
+      .filter(label => !isCommentLabel(label))
       .sort((a, b) => b.length - a.length);
-
-    const title =
-      titleCandidates[0] ||
-      entry.labels.sort((a, b) => b.length - a.length)[0] ||
-      "Sankaku Complex article";
 
     return {
       id: hash(`sankaku|${entry.link}`),
-      title,
+      title: labels[0] || "Sankaku Complex article",
       link: entry.link,
       publishedAt: null,
       excerpt: "",
@@ -431,89 +397,72 @@ function extractSankakuMarkdownCandidates(markdown, source) {
   });
 }
 
-function extractFirstMarkdownHeading(markdown) {
-  const h1 =
-    /^\s*#\s+(.+?)\s*$/m.exec(markdown)?.[1] ||
-    "";
+function jinaTitle(markdown) {
+  const afterContent =
+    markdown.split(/^Markdown Content:\s*$/im)[1] || markdown;
 
-  if (h1) {
-    return stripHtml(h1).trim();
+  const headingMatches = [
+    ...afterContent.matchAll(/^\s*#\s+(.+?)\s*$/gm)
+  ];
+
+  for (const match of headingMatches) {
+    const title = stripHtml(match[1]).trim();
+
+    if (
+      title &&
+      !/^just a moment/i.test(title) &&
+      !isCommentLabel(title)
+    ) {
+      return title;
+    }
   }
 
   const titleLine =
-    /^\s*Title:\s*(.+?)\s*$/im.exec(markdown)?.[1] ||
+    /^\s*Title:\s*(.+?)\s*$/im.exec(markdown)?.[1] || "";
+
+  const cleaned = stripHtml(titleLine).trim();
+
+  return !isCommentLabel(cleaned) && !/^just a moment/i.test(cleaned)
+    ? cleaned
+    : "";
+}
+
+function jinaDate(markdown) {
+  const value =
+    /^\s*Published Time:\s*(.+?)\s*$/im.exec(markdown)?.[1] ||
+    /^\s*Published:\s*(.+?)\s*$/im.exec(markdown)?.[1] ||
     "";
 
-  return stripHtml(titleLine).trim();
+  if (!value) return null;
+
+  const date = new Date(stripHtml(value));
+
+  return Number.isNaN(date.getTime())
+    ? null
+    : date.toISOString();
 }
 
-function extractJinaDate(markdown) {
-  const lines = markdown
-    .split(/\r?\n/)
-    .map(line => line.trim())
-    .filter(Boolean);
-
-  for (const line of lines.slice(0, 40)) {
-    const match =
-      /^(?:published(?:\s*time)?|date|date published)\s*:\s*(.+)$/i.exec(
-        line
-      );
-
-    if (!match) continue;
-
-    const parsed = new Date(stripHtml(match[1]));
-
-    if (!Number.isNaN(parsed.getTime())) {
-      return parsed.toISOString();
-    }
-  }
-
-  const dateMatch =
-    /\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}\b/.exec(
-      markdown
-    );
-
-  if (dateMatch) {
-    const parsed = new Date(dateMatch[0]);
-
-    if (!Number.isNaN(parsed.getTime())) {
-      return parsed.toISOString();
-    }
-  }
-
-  return null;
+function jinaImage(markdown) {
+  return (
+    /!\[[^\]]*\]\((https?:\/\/[^)\s]+)\)/i.exec(markdown)?.[1] || ""
+  );
 }
 
-function extractFirstUsefulParagraph(markdown, title) {
-  const lines = markdown
-    .split(/\r?\n/)
-    .map(line => line.trim());
+function jinaExcerpt(markdown, title) {
+  const afterContent =
+    markdown.split(/^Markdown Content:\s*$/im)[1] || markdown;
 
-  const stopLabels = new Set([
-    "URL Source:",
-    "Published Time:",
-    "Markdown Content:"
-  ]);
+  for (const rawLine of afterContent.split(/\r?\n/)) {
+    const line = stripHtml(rawLine).trim();
 
-  for (const line of lines) {
     if (
       !line ||
       line === title ||
       line.startsWith("#") ||
-      stopLabels.has(line)
-    ) {
-      continue;
-    }
-
-    if (
       /^https?:\/\//i.test(line) ||
-      /^by\s+/i.test(line) ||
-      looksLikeCommentLabel(line)
+      isCommentLabel(line) ||
+      line.length < 70
     ) {
-      continue;
-    }
-
-    if (line.length < 80) {
       continue;
     }
 
@@ -523,23 +472,15 @@ function extractFirstUsefulParagraph(markdown, title) {
   return "";
 }
 
-function extractFirstMarkdownImage(markdown) {
-  const image =
-    /!\[[^\]]*\]\((https?:\/\/[^)\s]+)\)/i.exec(markdown)?.[1] ||
-    "";
-
-  return image;
-}
-
-async function enrichSankakuArticle(article, debug) {
-  const jinaUrl =
-    `https://r.jina.ai/http://${article.link.replace(
+async function enrichSankaku(item, debug) {
+  const readerUrl =
+    `https://r.jina.ai/http://${item.link.replace(
       /^https?:\/\//i,
       ""
     )}`;
 
   try {
-    const response = await fetchUrl(jinaUrl, {
+    const result = await fetchUrl(readerUrl, {
       headers: {
         accept: "text/plain, text/markdown, */*"
       },
@@ -547,150 +488,40 @@ async function enrichSankakuArticle(article, debug) {
     });
 
     debug.attempts.push({
-      link: article.link,
-      status: response.status,
-      bytes: response.body.length
+      link: item.link,
+      status: result.status,
+      bytes: result.body.length
     });
 
-    if (response.status < 200 || response.status >= 300) {
-      return article;
+    if (result.status < 200 || result.status >= 300) {
+      return item;
     }
 
-    const title = extractFirstMarkdownHeading(response.body);
-    const publishedAt = extractJinaDate(response.body);
-    const image = extractFirstMarkdownImage(response.body);
-    const bodyExcerpt = extractFirstUsefulParagraph(
-      response.body,
-      title || article.title
-    );
+    const title = jinaTitle(result.body);
+    const publishedAt = jinaDate(result.body);
+    const image = jinaImage(result.body);
+    const summary = jinaExcerpt(result.body, title);
 
     return {
-      ...article,
-      title:
-        title && !looksLikeCommentLabel(title)
-          ? title
-          : article.title,
-      publishedAt: publishedAt || article.publishedAt,
-      image: image || article.image,
-      excerpt: bodyExcerpt || article.excerpt
+      ...item,
+      title: title || item.title,
+      publishedAt: publishedAt || item.publishedAt,
+      image: image || item.image,
+      excerpt: summary || item.excerpt
     };
   } catch (error) {
     debug.attempts.push({
-      link: article.link,
+      link: item.link,
       error: String(error?.message || error)
     });
 
-    return article;
+    return item;
   }
-}
-
-async function enrichSankakuArticles(items, debug) {
-  const queue = [...items];
-  const results = [];
-  const workers = Math.min(2, queue.length || 1);
-
-  const worker = async () => {
-    while (queue.length) {
-      const article = queue.shift();
-      if (!article) return;
-
-      results.push(
-        await enrichSankakuArticle(article, debug)
-      );
-
-      // Keep below the public Jina Reader request rate.
-      await sleep(1500);
-    }
-  };
-
-  await Promise.all(
-    Array.from({ length: workers }, () => worker())
-  );
-
-  const byLink = new Map(
-    results.map(item => [item.link, item])
-  );
-
-  return items.map(item => byLink.get(item.link) || item);
-}
-
-async function fetchSankakuViaJina(debug) {
-  const source = sankakuSource();
-  const pageUrl =
-    "https://r.jina.ai/http://news.sankakucomplex.com/recent-posts/";
-
-  const result = await fetchUrl(pageUrl, {
-    headers: {
-      accept: "text/plain, text/markdown, */*"
-    },
-    timeout: 40000
-  });
-
-  debug.recentPosts = {
-    url: pageUrl,
-    status: result.status,
-    finalUrl: result.finalUrl,
-    contentType: result.contentType,
-    bytes: result.body.length
-  };
-
-  if (result.status < 200 || result.status >= 300) {
-    return {
-      items: [],
-      error: `Jina Recent Posts HTTP ${result.status}`
-    };
-  }
-
-  const candidates = extractSankakuMarkdownCandidates(
-    result.body,
-    source
-  ).slice(0, 30);
-
-  debug.candidateCount = candidates.length;
-  debug.candidateSamples = candidates.slice(0, 10).map(item => ({
-    titleFromRecentPage: item.title,
-    link: item.link
-  }));
-
-  const enriched = await enrichSankakuArticles(
-    candidates,
-    debug
-  );
-
-  const cutoff = recentCutoff(60);
-
-  const accepted = enriched
-    .filter(item => sankakuAcceptsUrl(item.link))
-    .filter(item => {
-      if (!item.publishedAt) {
-        return true;
-      }
-
-      return isRecent(item.publishedAt, cutoff);
-    })
-    .filter(item => !looksLikeCommentLabel(item.title))
-    .sort(
-      (a, b) =>
-        Date.parse(b.publishedAt || 0) -
-        Date.parse(a.publishedAt || 0)
-    );
-
-  debug.enrichedCount = enriched.length;
-  debug.acceptedCount = accepted.length;
-  debug.acceptedSamples = accepted.slice(0, 10).map(item => ({
-    title: item.title,
-    publishedAt: item.publishedAt,
-    link: item.link,
-    image: Boolean(item.image)
-  }));
-
-  return {
-    mode: "jina-reader-recent-posts+article-pages",
-    items: accepted
-  };
 }
 
 async function fetchSankaku() {
+  const source = SOURCES.find(item => item.id === "sankaku");
+
   const diagnostics = {
     checkedAt: new Date().toISOString(),
     official: [],
@@ -700,20 +531,18 @@ async function fetchSankaku() {
       candidateCount: 0,
       enrichedCount: 0,
       acceptedCount: 0,
-      attempts: [],
       candidateSamples: [],
-      acceptedSamples: []
+      acceptedSamples: [],
+      attempts: []
     },
     selectedMode: null,
     selectedCount: 0
   };
 
-  const source = sankakuSource();
-  const cutoff = recentCutoff(60);
-
+  // Keep the official feed first. It may work again in the future.
   for (const feedUrl of source.feedUrls) {
     try {
-      const result = await fetchUrl(feedUrl);
+      const { result, feed } = await parseFeed(feedUrl);
 
       diagnostics.official.push({
         url: feedUrl,
@@ -723,127 +552,136 @@ async function fetchSankaku() {
         bytes: result.body.length
       });
 
-      if (result.status < 200 || result.status >= 300) {
-        continue;
-      }
-
-      const feed = await parseFeedResponse(result);
-
       const items = (feed.items || [])
         .map(item => normalize(item, source))
         .filter(Boolean)
-        .filter(item => isRecent(item.publishedAt, cutoff))
-        .filter(item => sankakuAcceptsUrl(item.link));
+        .filter(item => realSankakuUrl(item.link));
 
       if (items.length) {
         diagnostics.selectedMode = "official-rss";
         diagnostics.selectedCount = items.length;
 
-        return {
-          items,
-          diagnostics
-        };
+        return { items, diagnostics };
       }
     } catch (error) {
       diagnostics.official.push({
+        url: feedUrl,
         error: String(error?.message || error)
       });
     }
   }
 
-  const fallback = await fetchSankakuViaJina(
-    diagnostics.jina
-  );
+  const recentUrl =
+    "https://r.jina.ai/http://news.sankakucomplex.com/recent-posts/";
 
-  diagnostics.jina.mode = fallback.mode || "empty";
+  try {
+    const page = await fetchUrl(recentUrl, {
+      headers: {
+        accept: "text/plain, text/markdown, */*"
+      },
+      timeout: 40000
+    });
 
-  if (fallback.items.length) {
-    diagnostics.selectedMode =
-      "jina-reader-recent-posts+article-pages";
-    diagnostics.selectedCount = fallback.items.length;
-
-    return {
-      items: fallback.items,
-      diagnostics
+    diagnostics.jina.recentPosts = {
+      url: recentUrl,
+      status: page.status,
+      finalUrl: page.finalUrl,
+      contentType: page.contentType,
+      bytes: page.body.length
     };
+
+    if (page.status >= 200 && page.status < 300) {
+      const candidates = sankakuCandidatesFromRecent(
+        page.body,
+        source
+      ).slice(0, 20);
+
+      diagnostics.jina.candidateCount = candidates.length;
+      diagnostics.jina.candidateSamples = candidates.slice(0, 10).map(item => ({
+        titleFromList: item.title,
+        link: item.link
+      }));
+
+      const queue = [...candidates];
+      const enriched = [];
+
+      const worker = async () => {
+        while (queue.length) {
+          const item = queue.shift();
+          if (!item) return;
+
+          enriched.push(
+            await enrichSankaku(item, diagnostics.jina)
+          );
+
+          await sleep(1000);
+        }
+      };
+
+      await Promise.all(
+        Array.from(
+          { length: Math.min(2, queue.length || 1) },
+          () => worker()
+        )
+      );
+
+      diagnostics.jina.enrichedCount = enriched.length;
+
+      // Do NOT throw away an article merely because Jina failed to expose its
+      // publication date. The Recent Posts page is itself the recency source.
+      const accepted = enriched.filter(
+        item =>
+          realSankakuUrl(item.link) &&
+          item.title &&
+          !isCommentLabel(item.title) &&
+          !/^just a moment/i.test(item.title)
+      );
+
+      accepted.sort((a, b) => {
+        const left = a.publishedAt
+          ? Date.parse(a.publishedAt)
+          : 0;
+
+        const right = b.publishedAt
+          ? Date.parse(b.publishedAt)
+          : 0;
+
+        return right - left;
+      });
+
+      diagnostics.jina.acceptedCount = accepted.length;
+      diagnostics.jina.acceptedSamples = accepted.slice(0, 10).map(item => ({
+        title: item.title,
+        publishedAt: item.publishedAt,
+        link: item.link,
+        image: Boolean(item.image)
+      }));
+
+      if (accepted.length) {
+        diagnostics.jina.mode =
+          "jina-reader-recent-posts+article-pages";
+        diagnostics.selectedMode =
+          "jina-reader-recent-posts+article-pages";
+        diagnostics.selectedCount = accepted.length;
+
+        return {
+          items: accepted,
+          diagnostics
+        };
+      }
+    }
+  } catch (error) {
+    diagnostics.jina.error =
+      String(error?.message || error);
   }
 
+  diagnostics.jina.mode = "empty";
   diagnostics.selectedMode = "empty";
   diagnostics.selectedCount = 0;
 
   return {
     items: [],
     diagnostics
-  };
-}
-
-async function enrichImagesForSource(items, source) {
-  if (!source.enrichImages) {
-    return {
-      items,
-      attempted: 0,
-      resolved: 0,
-      failures: []
-    };
-  }
-
-  const missing = items.filter(item => !item.image);
-
-  const results = [];
-
-  for (const item of missing.slice(0, 40)) {
-    try {
-      const enriched = await enrichSankakuArticle(
-        item,
-        { attempts: [] }
-      );
-
-      results.push({
-        article: enriched,
-        status: "ok"
-      });
-    } catch (error) {
-      results.push({
-        article: item,
-        status: String(error?.message || error)
-      });
-    }
-  }
-
-  const byLink = new Map(
-    results.map(result => [result.article.link, result])
-  );
-
-  let resolved = 0;
-  const failures = [];
-
-  const merged = items.map(item => {
-    const result = byLink.get(item.link);
-
-    if (!result) return item;
-
-    if (result.article.image) {
-      resolved++;
-
-      return {
-        ...item,
-        image: result.article.image
-      };
-    }
-
-    failures.push({
-      link: item.link,
-      status: result.status
-    });
-
-    return item;
-  });
-
-  return {
-    items: merged,
-    attempted: results.length,
-    resolved,
-    failures: failures.slice(0, 10)
   };
 }
 
@@ -871,91 +709,53 @@ for (const source of SOURCES) {
         `✓ ${source.name}: ${result.items.length} stories via ${result.diagnostics.selectedMode}`
       );
 
-      for (const item of result.items.slice(0, 8)) {
-        console.log(
-          `  - ${item.publishedAt || "no date"} ${item.title}`
-        );
-      }
-
       continue;
     }
 
-    let result = await fetchNormal(source);
+    const { result, feed } = await parseFeed(
+      source.feedUrls[0]
+    );
 
-    const enrichment =
-      source.id === "ann"
-        ? await (async () => {
-            const missing = result.items.filter(
-              item => !item.image
-            );
+    let items = (feed.items || [])
+      .map(item => normalize(item, source))
+      .filter(Boolean);
 
-            let resolved = 0;
-            const merged = [...result.items];
+    let imageEnrichment = null;
 
-            for (const item of missing.slice(0, 40)) {
-              try {
-                const enriched =
-                  await enrichSankakuArticle(
-                    item,
-                    { attempts: [] }
-                  );
+    // ANN image enrichment is intentionally direct HTTP/HTML.
+    // This is the path that previously resolved 40/40 images.
+    if (source.id === "ann") {
+      const enrichment = await enrichAnn(items);
+      items = enrichment.items;
 
-                const index = merged.findIndex(
-                  current => current.link === item.link
-                );
+      imageEnrichment = {
+        attempted: enrichment.attempted,
+        resolved: enrichment.resolved
+      };
 
-                if (index >= 0) {
-                  merged[index] = enriched;
-                }
+      console.log(
+        `✓ ${source.name}: ${items.length} stories`
+      );
+      console.log(
+        `  image enrichment: ${enrichment.resolved}/${enrichment.attempted}`
+      );
+    } else {
+      console.log(
+        `✓ ${source.name}: ${items.length} stories`
+      );
+    }
 
-                if (enriched.image) {
-                  resolved++;
-                }
-              } catch {}
-            }
-
-            return {
-              items: merged,
-              attempted: Math.min(
-                missing.length,
-                40
-              ),
-              resolved
-            };
-          })()
-        : {
-            items: result.items,
-            attempted: 0,
-            resolved: 0
-          };
-
-    result.items = enrichment.items;
-    allArticles.push(...result.items);
+    allArticles.push(...items);
 
     sourceResults.push({
       id: source.id,
       name: source.name,
       status: "ok",
       mode: "rss",
-      feedUrl: result.feedUrl,
-      count: result.items.length,
-      imageEnrichment: source.id === "ann"
-        ? {
-            attempted: enrichment.attempted,
-            resolved: enrichment.resolved
-          }
-        : null
+      feedUrl: source.feedUrls[0],
+      count: items.length,
+      imageEnrichment
     });
-
-    console.log(
-      `✓ ${source.name}: ${result.items.length} stories`
-    );
-
-    if (source.id === "ann") {
-      console.log(
-        `  image enrichment: ${enrichment.resolved}/${enrichment.attempted}`
-      );
-    }
   } catch (error) {
     sourceResults.push({
       id: source.id,
@@ -984,8 +784,13 @@ for (const article of allArticles) {
 
 const articles = [...unique.values()]
   .sort((a, b) => {
-    const left = a.publishedAt ? Date.parse(a.publishedAt) : 0;
-    const right = b.publishedAt ? Date.parse(b.publishedAt) : 0;
+    const left = a.publishedAt
+      ? Date.parse(a.publishedAt)
+      : 0;
+
+    const right = b.publishedAt
+      ? Date.parse(b.publishedAt)
+      : 0;
 
     if (right !== left) return right - left;
 

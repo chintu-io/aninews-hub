@@ -9,13 +9,11 @@ A personal RSS reader for anime, Japan and culture news.
 - Anime News Network — https://www.animenewsnetwork.com/news/
 - Crunchyroll News — https://www.crunchyroll.com/news
 
-The reader uses the publishers' feeds and sends each story to the original publisher. Sankaku Complex's current feed endpoint rejects GitHub-hosted requests, so the updater tries the direct feed first and falls back to a site-restricted Google News RSS query when necessary.
+The reader uses the publishers' feeds and sends each story to the original publisher.
 
 ## Updating
 
 GitHub Actions refreshes the feed data every 30 minutes and deploys the site to GitHub Pages.
-
-For Sankaku troubleshooting, run `npm run debug:sankaku`.
 
 ## Credits
 

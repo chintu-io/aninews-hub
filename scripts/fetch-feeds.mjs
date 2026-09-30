@@ -706,7 +706,7 @@ async function enrichSankaku(item, debug) {
       timeout: 40000
     });
 
-    debug.attempts.push({
+    debug.imageAttempts.push({
       link: item.link,
       status: result.status,
       bytes: result.body.length
@@ -723,7 +723,7 @@ async function enrichSankaku(item, debug) {
       image: image || item.image
     };
   } catch (error) {
-    debug.attempts.push({
+    debug.imageAttempts.push({
       link: item.link,
       error: String(error?.message || error)
     });

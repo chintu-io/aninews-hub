@@ -2,7 +2,7 @@ name: Refresh RSS news
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "7,37 * * * *"
   workflow_dispatch:
   push:
     branches:

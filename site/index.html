@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="A personal reader for anime, Japan and culture news.">
+  <title>AniNews Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./">
+      <span class="brand-orb"></span>
+      <span>AniNews Hub</span>
+    </a>
+
+    <nav id="sourceNav" class="source-nav"></nav>
+
+    <div class="top-actions">
+      <button id="refresh" type="button">Refresh</button>
+      <button id="theme" type="button">Light</button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">ANIME · JAPAN · CULTURE</p>
+        <h1>News worth <span>opening.</span></h1>
+        <p class="hero-copy">
+          A clean personal reader for the feeds you follow. Each story keeps
+          its publisher visible and opens the original article.
+        </p>
+
+        <div class="hero-status">
+          <span class="status-dot"></span>
+          <span id="status">Loading</span>
+          <span class="separator">·</span>
+          <span id="updated">Waiting for update</span>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-ring"></div>
+        <div class="art-spark"></div>
+        <span>ニュース</span>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><span>Stories</span><strong id="storyCount">—</strong></div>
+      <div><span>Sources</span><strong id="sourceCount">—</strong></div>
+      <div><span>Newest</span><strong id="latest">—</strong></div>
+    </section>
+
+    <section class="controls">
+      <label class="search">
+        <span>⌕</span>
+        <input id="search" type="search" placeholder="Search stories" autocomplete="off">
+        <kbd>/</kbd>
+      </label>
+
+      <div id="filters" class="filters"></div>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">LATEST STORIES</p>
+        <h2 id="heading">All stories</h2>
+      </div>
+      <span id="count">0 stories</span>
+    </section>
+
+    <section class="layout">
+      <div class="feed">
+        <div id="grid" class="story-list"></div>
+
+        <div id="empty" class="empty" hidden>
+          <h3>Nothing matched.</h3>
+          <p>Try another search or source.</p>
+        </div>
+      </div>
+
+      <aside>
+        <div class="aside-title">
+          <p class="eyebrow">SOURCES</p>
+          <h3>Original publishers</h3>
+        </div>
+        <div id="sources" class="source-list"></div>
+
+        <div class="aside-copy">
+          Headlines and short excerpts come from the publishers' feeds.
+          Full stories remain on the original sites.
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <strong>AniNews Hub</strong>
+    <span>Personal RSS reader · content remains with its publishers</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

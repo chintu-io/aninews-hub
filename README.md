@@ -1,4 +1,4 @@
-# AniNews Hub
+# [AniNews Hub](https://chintune.github.io/aninews-hub/)
 
 A personal RSS reader for anime, Japan and culture news.
 

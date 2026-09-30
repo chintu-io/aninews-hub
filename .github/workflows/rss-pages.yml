@@ -34,6 +34,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Debug Sankaku feed endpoints
+        run: npm run debug:sankaku
+        continue-on-error: true
+
       - name: Fetch RSS feeds
         run: npm run fetch
 
@@ -48,11 +52,14 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-24.04
+
     permissions:
       pages: write
       id-token: write
+
     environment:
       name: github-pages
+
     steps:
       - name: Deploy Pages
         id: deployment

@@ -1,54 +1,95 @@
-const state = { payload: null, source: "all", query: "" };
+const state = {
+  payload: null,
+  source: "all",
+  query: ""
+};
+
 const $ = selector => document.querySelector(selector);
 
-const escapeHtml = value => String(value ?? "")
-  .replaceAll("&","&amp;")
-  .replaceAll("<","&lt;")
-  .replaceAll(">","&gt;")
-  .replaceAll('"',"&quot;")
-  .replaceAll("'","&#039;");
+const esc = value =>
+  String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 
 function formatDate(value) {
   if (!value) return "Date unknown";
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return "Date unknown";
-  return new Intl.DateTimeFormat(undefined,{
-    month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"
+
+  return new Intl.DateTimeFormat(undefined, {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    hour: "numeric",
+    minute: "2-digit"
   }).format(date);
 }
 
 function relativeDate(value) {
-  if (!value) return "Unknown";
+  if (!value) return "unknown";
+
   const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return "Unknown";
+  if (Number.isNaN(date.getTime())) return "unknown";
+
   const minutes = Math.floor((Date.now() - date.getTime()) / 60000);
+
   if (minutes < 1) return "just now";
   if (minutes < 60) return `${minutes}m ago`;
+
   const hours = Math.floor(minutes / 60);
   if (hours < 24) return `${hours}h ago`;
+
   const days = Math.floor(hours / 24);
-  return days < 7 ? `${days}d ago` : formatDate(value);
+  if (days < 7) return `${days}d ago`;
+
+  return formatDate(value);
 }
 
-function initials(name) {
-  const words = String(name || "News").split(/\s+/).filter(Boolean);
-  if (words.length === 1) return words[0].slice(0,2).toUpperCase();
-  return `${words[0][0]}${words.at(-1)[0]}`.toUpperCase();
-}
+function renderNavigation() {
+  const sources = state.payload?.sources || [];
 
-function renderSourceNav() {
-  $("#sourceNav").innerHTML = (state.payload?.sources || []).map(source => `
-    <a href="${escapeHtml(source.siteUrl)}" target="_blank" rel="noopener noreferrer">
-      ${escapeHtml(source.name)}
+  $("#sourceNav").innerHTML = sources.map(source => `
+    <a href="${esc(source.siteUrl)}"
+       target="_blank"
+       rel="noopener noreferrer">
+      ${esc(source.name)}
     </a>
   `).join("");
+
+  $("#sources").innerHTML = sources.map(source => {
+    const result = state.payload?.sourceResults?.find(
+      item => item.id === source.id
+    );
+
+    const mode = result?.mode === "google-news-recent"
+      ? "fallback · recent"
+      : source.category;
+
+    return `
+      <a class="source-item"
+         href="${esc(source.siteUrl)}"
+         target="_blank"
+         rel="noopener noreferrer">
+        <span class="source-name">${esc(source.name)}</span>
+        <span class="source-meta">${esc(mode)}</span>
+      </a>
+    `;
+  }).join("");
 }
 
 function renderFilters() {
   const sources = state.payload?.sources || [];
+
   $("#filters").innerHTML = [
     `<button type="button" class="active" data-source="all">All</button>`,
-    ...sources.map(source => `<button type="button" data-source="${escapeHtml(source.id)}">${escapeHtml(source.short)}</button>`)
+    ...sources.map(source => `
+      <button type="button" data-source="${esc(source.id)}">
+        ${esc(source.short)}
+      </button>
+    `)
   ].join("");
 
   $("#filters").querySelectorAll("button").forEach(button => {
@@ -62,117 +103,140 @@ function renderFilters() {
 
 function syncFilters() {
   $("#filters").querySelectorAll("button").forEach(button => {
-    button.classList.toggle("active", button.dataset.source === state.source);
+    button.classList.toggle(
+      "active",
+      button.dataset.source === state.source
+    );
   });
-  const selected = state.payload?.sources?.find(source => source.id === state.source);
-  $("#heading").textContent = selected?.name || "All stories";
-}
 
-function renderSources() {
-  $("#sources").innerHTML = (state.payload?.sources || []).map(source => `
-    <a class="source-item" href="${escapeHtml(source.siteUrl)}" target="_blank" rel="noopener noreferrer">
-      <span class="source-name">${escapeHtml(source.name)}</span>
-      <span class="source-meta">${escapeHtml(source.category)}</span>
-    </a>
-  `).join("");
+  const source = state.payload?.sources?.find(
+    item => item.id === state.source
+  );
+
+  $("#heading").textContent = source?.name || "All stories";
 }
 
 function matches(article) {
   const query = state.query.trim().toLowerCase();
+
   if (!query) return true;
+
   return [
     article.title,
     article.excerpt,
     article.source?.name,
     article.source?.category
-  ].join(" ").toLowerCase().includes(query);
+  ]
+    .join(" ")
+    .toLowerCase()
+    .includes(query);
 }
 
-function visibleArticles() {
+function getStories() {
   return (state.payload?.articles || []).filter(article => {
-    const sourceMatch = state.source === "all" || article.source?.id === state.source;
-    return sourceMatch && matches(article);
+    const sourceMatches =
+      state.source === "all" ||
+      article.source?.id === state.source;
+
+    return sourceMatches && matches(article);
   });
 }
 
-function imageMarkup(article) {
+function thumbnail(article) {
   if (!article.image) {
     return `
-      <div class="story-image">
-        <div class="image-fallback">${escapeHtml(initials(article.source?.name))}</div>
-        <div class="source-mark">${escapeHtml(article.source?.short || "NEWS")}</div>
+      <div class="story-image fallback">
+        <span>${esc(article.source?.short || "NEWS")}</span>
       </div>
     `;
   }
 
   return `
     <div class="story-image">
-      <img src="${escapeHtml(article.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">
-      <div class="source-mark">${escapeHtml(article.source?.short || "NEWS")}</div>
+      <img src="${esc(article.image)}"
+           alt=""
+           loading="lazy"
+           referrerpolicy="no-referrer"
+           onerror="this.style.opacity='0'">
     </div>
   `;
 }
 
 function renderStories() {
-  const stories = visibleArticles();
-  $("#count").textContent = `${stories.length.toLocaleString()} ${stories.length === 1 ? "story" : "stories"}`;
+  const stories = getStories();
+
+  $("#count").textContent =
+    `${stories.length.toLocaleString()} ${stories.length === 1 ? "story" : "stories"}`;
+
   $("#empty").hidden = stories.length > 0;
 
   $("#grid").innerHTML = stories.map(article => `
-    <a class="story-card" href="${escapeHtml(article.link)}" target="_blank" rel="noopener noreferrer" aria-label="Open ${escapeHtml(article.title)}">
-      ${imageMarkup(article)}
-      <div class="story-copy">
-        <div class="story-meta">
-          <span>${escapeHtml(article.source?.name || "Publisher")}</span>
-          <span>·</span>
-          <span title="${escapeHtml(formatDate(article.publishedAt))}">${escapeHtml(relativeDate(article.publishedAt))}</span>
-        </div>
-        <h3 class="story-title">${escapeHtml(article.title)}</h3>
-        <p class="story-excerpt">${escapeHtml(article.excerpt || "Open the original publisher for the complete story.")}</p>
-        <div class="story-source">Original publisher: <strong>${escapeHtml(article.source?.name || "Publisher")}</strong></div>
+    <a class="story"
+       href="reader.html?id=${encodeURIComponent(article.id)}">
+      <div class="story-index">
+        <span>${esc(article.source?.short || "News")}</span>
+        <small>${esc(relativeDate(article.publishedAt))}</small>
       </div>
+
+      ${thumbnail(article)}
+
+      <div class="story-content">
+        <div class="story-source">${esc(article.source?.name || "Publisher")}</div>
+        <h3>${esc(article.title)}</h3>
+        <p>${esc(article.excerpt || "Open the reader for this story.")}</p>
+      </div>
+
+      <span class="story-arrow">↗</span>
     </a>
   `).join("");
 }
 
-function renderSummary() {
+function renderStats() {
   const payload = state.payload;
   const articles = payload?.articles || [];
   const newest = articles.find(article => article.publishedAt);
+  const failed = payload?.stats?.failedSources || 0;
 
   $("#storyCount").textContent = articles.length.toLocaleString();
-  $("#sourceCount").textContent = String(payload?.stats?.sourceCount ?? "—");
-  $("#latest").textContent = newest ? relativeDate(newest.publishedAt) : "—";
-  $("#updated").textContent = payload?.generatedAt ? `updated ${relativeDate(payload.generatedAt)}` : "waiting for first refresh";
+  $("#sourceCount").textContent =
+    String(payload?.stats?.sourceCount ?? "—");
+  $("#latest").textContent =
+    newest ? relativeDate(newest.publishedAt) : "—";
 
-  const failed = payload?.stats?.failedSources || 0;
+  $("#updated").textContent = payload?.generatedAt
+    ? `updated ${relativeDate(payload.generatedAt)}`
+    : "waiting for update";
+
   $("#status").textContent = failed
-    ? `${failed} source${failed === 1 ? "" : "s"} unavailable; available feeds are still shown`
+    ? `${failed} source${failed === 1 ? "" : "s"} unavailable`
     : "all configured sources refreshed";
 }
 
 async function load() {
-  $("#status").textContent = "Refreshing stories…";
+  $("#status").textContent = "Refreshing";
 
   try {
-    const response = await fetch(`data/articles.json?ts=${Date.now()}`, { cache:"no-store" });
+    const response = await fetch(
+      `data/articles.json?ts=${Date.now()}`,
+      { cache: "no-store" }
+    );
+
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
     state.payload = await response.json();
-    renderSummary();
-    renderSourceNav();
+
+    renderStats();
+    renderNavigation();
     renderFilters();
-    renderSources();
     syncFilters();
     renderStories();
   } catch (error) {
     console.error(error);
-    $("#status").textContent = "Story data is unavailable";
-    $("#updated").textContent = "Run the GitHub Actions refresh";
+    $("#status").textContent = "Unable to load news";
     $("#grid").innerHTML = `
       <div class="empty">
         <h3>No story data yet.</h3>
-        <p>Run the GitHub Actions workflow to populate the reader.</p>
+        <p>Run the GitHub Actions refresh.</p>
       </div>
     `;
   }
@@ -186,10 +250,10 @@ $("#search").addEventListener("input", event => {
 $("#refresh").addEventListener("click", load);
 
 $("#theme").addEventListener("click", () => {
-  document.documentElement.classList.toggle("dark");
-  const dark = document.documentElement.classList.contains("dark");
-  localStorage.setItem("aninews-theme", dark ? "dark" : "light");
-  $("#theme").textContent = dark ? "Light" : "Dark";
+  document.documentElement.classList.toggle("light");
+  const light = document.documentElement.classList.contains("light");
+  localStorage.setItem("aninews-theme", light ? "light" : "dark");
+  $("#theme").textContent = light ? "Dark" : "Light";
 });
 
 window.addEventListener("keydown", event => {
@@ -199,9 +263,9 @@ window.addEventListener("keydown", event => {
   }
 });
 
-if (localStorage.getItem("aninews-theme") === "dark") {
-  document.documentElement.classList.add("dark");
-  $("#theme").textContent = "Light";
+if (localStorage.getItem("aninews-theme") === "light") {
+  document.documentElement.classList.add("light");
+  $("#theme").textContent = "Dark";
 }
 
 load();

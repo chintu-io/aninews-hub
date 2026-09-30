@@ -1,23 +1,22 @@
 # AniNews Hub
 
-A personal static RSS news dashboard for anime, Japan and culture news.
+A personal RSS reader for anime, Japan and culture news.
 
 ## Sources
 
-- Sankaku Complex — https://www.sankakucomplex.com/feed/
-- SoraNews24 — https://soranews24.com/feed/
-- Anime News Network — https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us
-- Crunchyroll News — https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss
+- Sankaku Complex — https://news.sankakucomplex.com/
+- SoraNews24 — https://soranews24.com/
+- Anime News Network — https://www.animenewsnetwork.com/news/
+- Crunchyroll News — https://www.crunchyroll.com/news
 
-The site keeps normalized RSS metadata: headline, date, source, short excerpt, optional RSS image URL, and the original article link. It does not republish full articles.
+The reader uses the publishers' feeds and sends each story to the original publisher. Sankaku Complex's current feed endpoint rejects GitHub-hosted requests, so the updater tries the direct feed first and falls back to a site-restricted Google News RSS query when necessary.
 
-## Deploy
+## Updating
 
-1. Upload this project to a GitHub repository.
-2. In **Settings → Pages**, select **GitHub Actions**.
-3. Run **Actions → Refresh RSS news** once manually.
-4. The workflow runs every 30 minutes and deploys the latest local feed data to GitHub Pages.
+GitHub Actions refreshes the feed data every 30 minutes and deploys the site to GitHub Pages.
+
+For Sankaku troubleshooting, run `npm run debug:sankaku`.
 
 ## Credits
 
-Every story displays its publisher and links to the original article. Article text, images, trademarks and branding remain with their respective owners.
+Stories remain the property of their respective publishers. Full articles are not republished. Each story identifies its source and opens the original publisher's page whenever the feed provides a direct article link.

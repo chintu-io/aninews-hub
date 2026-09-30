@@ -1,1 +1,13 @@
-{"name":"aninews-hub","private":true,"version":"1.0.0","type":"module","scripts":{"fetch":"node scripts/fetch-feeds.mjs"},"dependencies":{"rss-parser":"^3.13.0"}}
+{
+  "name": "aninews-hub",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-feeds.mjs",
+    "debug:sankaku": "node scripts/debug-sankaku.mjs"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

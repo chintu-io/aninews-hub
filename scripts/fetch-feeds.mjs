@@ -1160,7 +1160,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/ElioQnMz7U2R_Rp12b_VVg",
     "publishedAt": "2026-09-30T07:12:17.000Z",
     "excerpt": "Azur Lane finally added the attractive Implacable to the game’s dormitory function, allowing players to witness the woman in a more casual setting and earning a ton of praise considering her lewd outfits and buxomness in general. Azur Lane’s official Twitte…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/AzurLane-Implacable-Dormitory-2026-4.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1175,7 +1175,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/YkzfvTWVRMI2E8KPj0Sglw",
     "publishedAt": "2026-09-30T03:00:12.000Z",
     "excerpt": "Persona may be one of Japan’s most recognizable RPG franchises, but the series now sells substantially more copies in North America than it does at home. New figures shared by Sega Sammy as part of Persona’s 30th anniversary reveal that approximately 40% of…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/Persona-Art-by-J@Ck-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1190,7 +1190,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/09gkDNNO_rX-ILhRjYC8qQ",
     "publishedAt": "2026-09-30T00:40:39.000Z",
     "excerpt": "Sony is exploring a PlayStation controller that could double as a contactless payment device, allowing players to purchase games or in-game content simply by tapping a credit card or smartphone against it. A Sony Interactive Entertainment patent application…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/NIKKE-Art-by-Ame-Uten-Cancel-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1205,7 +1205,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/Oh-uiqEqkhIbpZ1bTo-pFA",
     "publishedAt": "2026-09-29T21:03:35.000Z",
     "excerpt": "The developers behind the official Atelier Ryza AI chat app are tightening its restrictions after some users attempted to manipulate Ryza into making inappropriate statements. SpiralAI announced on September 29 that RyzaChat, its licensed AI RPG based on Ko…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/AtelierRyza-Art-by-ymdnike-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1220,7 +1220,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/yRBsH1aikLjLZ1qDKbP1zg",
     "publishedAt": "2026-09-29T11:00:33.000Z",
     "excerpt": "Organizers of the 2026 Asian Games in Aichi-Nagoya have apologized after a baseball venue incorrectly told spectators that Japan’s Rising Sun flag was prohibited from being brought inside. The controversy occurred during the Chinese Taipei vs. Japan basebal…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/Flag-Art-by-YamadaSatoshi-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1235,7 +1235,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/IQfB7dnwFyScjgzn76r-zg",
     "publishedAt": "2026-09-29T07:00:27.000Z",
     "excerpt": "Two Chilean men already arrested over the theft of approximately 200 million yen ($1.3 million) worth of luxury watches from Tokyo’s Nakano Broadway have been arrested again over a separate burglary – and police say the suspects admitted targeting Japan bec…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/FFVII-Yuffie-Art-by-Sgk-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1250,7 +1250,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/LVYsG49oUZWoZyFEzYFS9g",
     "publishedAt": "2026-09-29T03:00:33.000Z",
     "excerpt": "Chizuna Nakajima’s Where Is the Elf Teacher’s Toilet? (Elf-sensei no Toire wa Doko desu ka?) has received the green light for an anime adaptation, with a commemorative illustration and comments from Nakajima released alongside the announcement. The series f…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/ElfsenseinoToirewaDokodesuka-Manga-Illustration-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1265,7 +1265,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/X5Xxk_ux_f5IdDmJ4VJA_w",
     "publishedAt": "2026-09-28T23:00:33.000Z",
     "excerpt": "World of Warcraft senior game producer Tom Ellis has deleted his Twitter account after old offensive posts attributed to him resurfaced online, just days after he told players punished for inappropriate character names to “be a better human next time.” The…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/Warcraft-Art-by-TypeMoonFans-2026-scaled.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1280,7 +1280,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/J1Pgv0MKuYQ7X5IcvHiuLQ",
     "publishedAt": "2026-09-28T19:00:27.000Z",
     "excerpt": "NieR: Automata became one of Square Enix’s biggest RPG success stories, but getting it made apparently required its developers to fight against expectations from inside the company – while director Yoko Taro tried his best to stay out of Square Enix’s way.…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/Nier-2B-Art-by-MitsukiNite-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1295,7 +1295,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/XFLXZ4KOlh7WyGT5sxrzlQ",
     "publishedAt": "2026-09-28T16:35:08.000Z",
     "excerpt": "An analysis of nearly 140,000 Japanese manga series found that the average title has more than doubled in length compared to the 1960s, with a particularly dramatic increase beginning in the 2010s. The study analyzed 138,438 Japanese manga titles using data…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/ReZero-Art-by-NoyamaTakenoko-2026.png",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1310,7 +1310,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/ONVcQKXEp7JX9azTVCY0jg",
     "publishedAt": "2026-09-28T13:00:07.000Z",
     "excerpt": "Code Geass is officially returning with a completely new anime in 2027, and its first teaser suggests the franchise may be heading somewhere very different from Lelouch’s familiar world. Titled Code Geass: Star Chaser Aspal (Code Geass: Hoshi Oi no Aspal),…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/CODEGEASSStarChaserAspal-PV-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1325,7 +1325,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/oM1tL9g0aO_iOytQkcI1fg",
     "publishedAt": "2026-09-28T09:00:59.000Z",
     "excerpt": "Ado’s management company Cloud Nine is warning that it will take legal action against online harassment and misinformation as the singer faces a wave of backlash following her appearance at the K-pop festival INKIGAYO LIVE in TOKYO. The controversy followed…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/Random-Ado-Art-by-Anon-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1340,7 +1340,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/finpJP4Sxy8YtVRLfiUnyA",
     "publishedAt": "2026-09-28T05:00:37.000Z",
     "excerpt": "Nintendo has won $4.5 million in damages against a former moderator of Reddit’s r/SwitchPirates community who was accused of helping distribute hundreds or potentially thousands of pirated Nintendo Switch games. The U.S. District Court for the Western Distr…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/Peach-Art-by-Huet-Pc-2026.png",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1355,7 +1355,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/ZUkzpPCZl1-v4nE3-T-1jQ",
     "publishedAt": "2026-09-28T01:00:48.000Z",
     "excerpt": "It took less than a month for Puella Magi Madoka Magica’s long-awaited return to theaters to set a new record for the franchise. Puella Magi Madoka Magica the Movie: Walpurgisnacht Rising has surpassed 2.1 billion yen at the Japanese box office, overtaking…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/Madoka-Art-by-MatsubaraRyuu-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1370,7 +1370,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/--DQt8vtIQDrBb9g-4PSvQ",
     "publishedAt": "2026-09-27T21:00:49.000Z",
     "excerpt": "The producers behind SEKIRO: NO DEFEAT have issued an unusual apology after revealing that the anime currently playing in Japanese theaters was actually an edited version of an eight-episode TV series – something audiences weren’t told before buying tickets…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/Sekiro-Art-by-Kagematsuri-2026-scaled.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1385,7 +1385,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/xcckR1cKUXGKe43Ox5u0CQ",
     "publishedAt": "2026-09-27T18:04:44.000Z",
     "excerpt": "JoJo’s Bizarre Adventure: Steel Ball Run has barely returned with weekly episodes, and Netflix is already facing another round of backlash – this time over the anime’s new ending theme and the controversial producer credited behind it. The ending theme, “Sh…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/JoJo-Art-by-matubaru_chan-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1400,7 +1400,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/KIwFZLA3zS_XEzb7hkQbCA",
     "publishedAt": "2026-09-27T14:00:28.000Z",
     "excerpt": "Based on special anniversary artwork, this figurine depicts the cute Bismarck in quite the stellar dress, giving off an aura of sophistication that will leave any male speechless – and the small degree of sex appeal here and there will certainly help as wel…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/AzurLane-Bismarck-Black-Dress-Figure-2026-1.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1415,7 +1415,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/INRvfPjqIGDGPDqd2Zic4A",
     "publishedAt": "2026-09-27T10:00:15.000Z",
     "excerpt": "An indie game about sewing dresses has unexpectedly become one of Steam’s biggest new releases, briefly climbing above major games including Diablo 4 on the platform’s global best-sellers chart. Dressmaker, developed by South African indie studio Cozy Lives…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/Dressmaker-Screenshot-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1430,7 +1430,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/mAGn-Rfn8NoJfKVs6nwowg",
     "publishedAt": "2026-09-27T06:00:20.000Z",
     "excerpt": "An apparently AI-generated manga has climbed near the top of Shueisha’s Jump Rookie! rankings, triggering a wave of criticism from Japanese readers who say its success highlights an increasingly uncomfortable question: should AI-generated manga compete dire…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/AI-Manga-Art-Tops-Rankings-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1445,7 +1445,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/oPDTDfajhpfklQfcPE2cTw",
     "publishedAt": "2026-09-27T02:00:10.000Z",
     "excerpt": "A food delivery driver in Tokyo has been arrested after allegedly hugging, kissing and touching an elementary school girl who answered the door to receive an order while home alone. Tokyo Metropolitan Police arrested 45-year-old Dilshod Komiljonovich Mumino…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/Kanna-Art-by-molisama4-2026.png",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1460,7 +1460,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/FKNLJYC2Z2ycCd4gBgTlPQ",
     "publishedAt": "2026-09-26T22:00:29.000Z",
     "excerpt": "Japanese prosecutors are seeking nine years in prison for a 37-year-old farmer who admitted setting fire to a mosque in Hokkaido – a building that had itself previously been declared illegally constructed by local authorities. Ryotaro Ishii, a farmer from C…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/FireForce-Art-by-DCelestial-2026.png",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1475,7 +1475,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/-Sazgt2ezIb3Xvi8OhVH0g",
     "publishedAt": "2026-09-26T18:00:48.000Z",
     "excerpt": "Senran Kagura creator Kenichiro Takaki has looked back on a time when games built around attractive anime girls and sexual fanservice weren’t always taken seriously within the Japanese game industry. Takaki shared the memory as Senran Kagura celebrated its…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/SenranKagura-Art-by-YaegashiNan-2026.png",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1490,7 +1490,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/lfEUx4FeOXAJPR0okxAzAQ",
     "publishedAt": "2026-09-26T16:19:55.000Z",
     "excerpt": "Naruto director Hayato Date says he deliberately refused to change the anime to better suit overseas tastes, even when he was pressured to make the series more marketable outside Japan. Date discussed the subject during a panel at Anime India Mumbai 2026, h…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/Naruto-Art-by-rin_jswwd41ma120780-2026.jpg",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",
@@ -1505,7 +1505,7 @@ const BOOTSTRAP_SANKAKU_CACHE = [
     "link": "https://news.sankakucomplex.com/n/7MDkQMWz4SNOCE872n765Q",
     "publishedAt": "2026-09-26T07:00:39.000Z",
     "excerpt": "Silent Hill is apparently heading back to the screen yet again, with Resident Evil producer Roy Lee now attached to a new adaptation of Konami’s horror series — just months after Return to Silent Hill arrived in theaters. Lee’s involvement was revealed thro…",
-    "image": "",
+    "image": "https://news.sankakucomplex.com/wp-content/uploads/2026/09/SilentHill-Art-by-Tetsuok9999-2026.png",
     "source": {
       "id": "sankaku",
       "name": "Sankaku Complex",

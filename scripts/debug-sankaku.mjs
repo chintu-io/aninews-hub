@@ -8,7 +8,8 @@ const urls = [
   "https://news.sankakucomplex.com/recent-posts/",
   "https://news.sankakucomplex.com/wp-json/wp/v2/posts?per_page=10",
   "https://www.sankakucomplex.com/feed/",
-  "https://rsshub.app/sankakucomplex/post"
+  "https://rsshub.app/sankakucomplex/post",
+  "https://news.google.com/rss/search?q=site%3Anews.sankakucomplex.com&hl=en-US&gl=US&ceid=US:en"
 ];
 
 const headers = {
@@ -35,7 +36,9 @@ for (const url of urls) {
     console.log(`finalUrl: ${response.url}`);
     console.log(`content-type: ${type}`);
     console.log(`bytes: ${body.length}`);
-    console.log(`sample: ${body.replace(/\s+/g, " ").slice(0, 220)}`);
+    console.log(
+      `sample: ${body.replace(/\s+/g, " ").slice(0, 240)}`
+    );
 
     if (response.ok && /xml|rss|atom/i.test(type)) {
       try {
@@ -45,8 +48,12 @@ for (const url of urls) {
 
         for (const item of (feed.items || []).slice(0, 5)) {
           console.log(` - ${item.title || "(untitled)"}`);
-          console.log(`   ${item.isoDate || item.pubDate || "(no date)"}`);
-          console.log(`   ${item.link || item.guid || "(no link)"}`);
+          console.log(
+            `   ${item.isoDate || item.pubDate || "(no date)"}`
+          );
+          console.log(
+            `   ${item.link || item.guid || "(no link)"}`
+          );
         }
       } catch (error) {
         console.log(`parser: ${error?.message || error}`);

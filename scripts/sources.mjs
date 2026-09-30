@@ -10,7 +10,7 @@ export const SOURCES = [
     ],
     siteUrl: "https://news.sankakucomplex.com/",
     category: "Anime & Culture",
-    accent: "#a783ff"
+    accent: "#a78bfa"
   },
   {
     id: "soranews24",
@@ -21,7 +21,7 @@ export const SOURCES = [
     ],
     siteUrl: "https://soranews24.com/",
     category: "Japan",
-    accent: "#6cc6e8"
+    accent: "#6fc9e6"
   },
   {
     id: "ann",
@@ -32,7 +32,8 @@ export const SOURCES = [
     ],
     siteUrl: "https://www.animenewsnetwork.com/news/",
     category: "Anime News",
-    accent: "#ffb25b"
+    accent: "#ffb45f",
+    enrichImages: true
   },
   {
     id: "crunchyroll",
@@ -43,6 +44,6 @@ export const SOURCES = [
     ],
     siteUrl: "https://www.crunchyroll.com/news",
     category: "Anime News",
-    accent: "#ff6580"
+    accent: "#ff6784"
   }
 ];

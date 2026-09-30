@@ -18,8 +18,6 @@ const OUT = new URL("../site/data/articles.json", import.meta.url);
 const DEBUG_OUT = new URL("../site/debug/sankaku.json", import.meta.url);
 
 const USER_AGENT = "AniNewsHub/1.5 (personal RSS reader)";
-const BROWSER_USER_AGENT =
-  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36";
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -142,9 +140,8 @@ async function fetchUrl(url, options = {}) {
   const response = await fetch(url, {
     method: options.method || "GET",
     headers: {
-      "user-agent": options.userAgent || USER_AGENT,
+      "user-agent": USER_AGENT,
       accept:
-        options.accept ||
         "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html, */*",
       ...(options.headers || {})
     },
@@ -628,7 +625,6 @@ async function enrichSankaku(item, debug, recentMarkdown = "") {
         accept: "text/plain, text/markdown, */*",
         "x-no-cache": "true",
         "x-cache-tolerance": "0",
-        "x-respond-timing": "longest"
       },
       timeout: 40000
     });
@@ -777,87 +773,6 @@ async function enrichSankakuImagesFromRecentPage(
   };
 }
 
-async function fetchSankakuArticleVariant(item, url, debug) {
-  const variants = [
-    { kind: "direct", url },
-    { kind: "direct-slash", url: url.endsWith("/") ? url : `${url}/` },
-    { kind: "direct-amp", url: url.endsWith("/") ? `${url}amp/` : `${url}/amp/` },
-    {
-      kind: "jina-https",
-      url: `https://r.jina.ai/https://${url.replace(/^https?:\/\//i, "")}`
-    },
-    {
-      kind: "jina-http",
-      url: `https://r.jina.ai/http://${url.replace(/^https?:\/\//i, "")}`
-    }
-  ];
-
-  const seen = new Set();
-
-  for (const variant of variants) {
-    if (seen.has(variant.url)) continue;
-    seen.add(variant.url);
-
-    try {
-      const useBrowser = variant.kind.startsWith("direct");
-      const result = await fetchUrl(variant.url, {
-        userAgent: useBrowser ? BROWSER_USER_AGENT : USER_AGENT,
-        accept: useBrowser
-          ? "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
-          : "text/plain, text/markdown, */*",
-        headers: useBrowser
-          ? {
-              "accept-language": "en-US,en;q=0.9",
-              "cache-control": "no-cache",
-              pragma: "no-cache",
-              referer: "https://www.google.com/"
-            }
-          : {
-              "x-no-cache": "true",
-              "x-cache-tolerance": "0",
-              "x-respond-timing": "longest"
-            },
-        timeout: useBrowser ? 25000 : 40000
-      });
-
-      const image =
-        result.status >= 200 && result.status < 300
-          ? sankakuMetaImage(result.body, item.link)
-          : "";
-
-      debug.articlePages = debug.articlePages || [];
-      debug.articlePages.push({
-        link: item.link,
-        kind: variant.kind,
-        requestUrl: variant.url,
-        status: result.status,
-        finalUrl: result.finalUrl,
-        contentType: result.contentType,
-        bytes: result.body.length,
-        image: image || null,
-        bodyPreview:
-          result.status >= 200 && result.status < 300
-            ? result.body.slice(0, 180).replace(/\s+/g, " ")
-            : result.body.slice(0, 260).replace(/\s+/g, " ")
-      });
-
-      if (image) {
-        return { image, kind: variant.kind, status: result.status };
-      }
-    } catch (error) {
-      debug.articlePages = debug.articlePages || [];
-      debug.articlePages.push({
-        link: item.link,
-        kind: variant.kind,
-        requestUrl: variant.url,
-        error: String(error?.message || error)
-      });
-    }
-  }
-
-  return { image: "", kind: "none", status: null };
-}
-
 async function enrichSankakuImagesFromArticlePages(items, debug) {
   const missing = items.filter(item => !item.image);
 
@@ -873,16 +788,43 @@ async function enrichSankakuImagesFromArticlePages(items, debug) {
       const item = queue.shift();
       if (!item) return;
 
-      const result = await fetchSankakuArticleVariant(
-        item,
-        item.link,
-        debug
-      );
+      try {
+        const result = await fetchUrl(item.link, {
+          headers: {
+            accept: "text/html,application/xhtml+xml, */*"
+          },
+          timeout: 25000
+        });
 
-      results.push({
-        item,
-        image: result.image
-      });
+        const image =
+          result.status >= 200 &&
+          result.status < 300
+            ? sankakuMetaImage(result.body, item.link)
+            : "";
+
+        debug.articlePages = debug.articlePages || [];
+        debug.articlePages.push({
+          link: item.link,
+          status: result.status,
+          finalUrl: result.finalUrl,
+          contentType: result.contentType,
+          bytes: result.body.length,
+          image: image || null
+        });
+
+        results.push({
+          item,
+          image
+        });
+      } catch (error) {
+        debug.articlePages = debug.articlePages || [];
+        debug.articlePages.push({
+          link: item.link,
+          error: String(error?.message || error)
+        });
+
+        results.push({ item, image: "" });
+      }
 
       await sleep(150);
     }
@@ -933,7 +875,6 @@ async function fetchSankakuRecentPosts(debug) {
         accept: "text/plain, text/markdown, */*",
         "x-no-cache": "true",
         "x-cache-tolerance": "0",
-        "x-respond-timing": "longest"
       },
       timeout: 40000
     });
@@ -1517,7 +1458,6 @@ async function fetchSankaku() {
         accept: "text/plain, text/markdown, */*",
         "x-no-cache": "true",
         "x-cache-tolerance": "0",
-        "x-respond-timing": "longest"
       },
       timeout: 40000
     });
@@ -1635,26 +1575,13 @@ async function fetchSankaku() {
   const cachedItems = await loadSankakuCache(diagnostics);
 
   if (cachedItems.length) {
-    // Even when Sankaku's RSS and Recent Posts endpoints are temporarily
-    // unavailable, the last successful article list still gives us the exact
-    // article URLs. Try the real Sankaku article pages for images before
-    // returning the cache unchanged.
-    const cachedImageResult = await enrichSankakuImagesFromArticlePages(
-      cachedItems,
-      diagnostics.jina
-    );
-
     diagnostics.jina.mode = "cached-last-success";
     diagnostics.selectedMode = "cached-last-success";
-    diagnostics.selectedCount = cachedImageResult.items.length;
-    diagnostics.cacheItemCount = cachedImageResult.items.length;
-    diagnostics.cacheImageEnrichment = {
-      attempted: cachedImageResult.attempted,
-      resolved: cachedImageResult.resolved
-    };
+    diagnostics.selectedCount = cachedItems.length;
+    diagnostics.cacheItemCount = cachedItems.length;
 
     return {
-      items: cachedImageResult.items,
+      items: cachedItems,
       diagnostics
     };
   }

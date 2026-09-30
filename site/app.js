@@ -79,15 +79,56 @@ function renderNavigation() {
         : "unavailable";
 
     return `
-      <a class="source-item"
-         href="${esc(source.siteUrl)}"
-         target="_blank"
-         rel="noopener noreferrer">
-        <span class="source-name">${esc(source.name)}</span>
-        <span class="source-meta">${esc(status)}</span>
-      </a>
+      <div class="source-item" style="display:flex;align-items:center;justify-content:space-between;gap:10px;">
+        <a class="source-link"
+           style="display:block;min-width:0;flex:1;text-decoration:none;"
+           href="${esc(source.siteUrl)}"
+           target="_blank"
+           rel="noopener noreferrer">
+          <span class="source-name">${esc(source.name)}</span>
+          <span class="source-meta">${esc(status)}</span>
+        </a>
+
+        <a class="source-rss"
+           style="display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:26px;padding:0 7px;border:1px solid rgba(167,139,250,.25);border-radius:8px;background:rgba(167,139,250,.08);color:var(--muted);text-decoration:none;font-size:8px;font-weight:800;letter-spacing:.08em;transition:.18s ease;"
+           href="rss/${encodeURIComponent(source.id)}.xml"
+           target="_blank"
+           rel="noopener noreferrer"
+           title="${esc(source.name)} RSS feed"
+           aria-label="${esc(source.name)} RSS feed">
+          <span class="rss-glyph" aria-hidden="true">RSS</span>
+        </a>
+      </div>
     `;
   }).join("");
+
+  const asideCopy = $(".aside-copy");
+
+  if (asideCopy) {
+    asideCopy.innerHTML = `
+      <p>
+        Headlines and short excerpts come from the publishers' feeds.
+        Full stories remain on the original sites.
+      </p>
+
+      <div class="rss-all" style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line);">
+        <div>
+          <span class="rss-all-label" style="display:block;color:var(--faint);font-size:8px;letter-spacing:.12em;font-weight:800;">ALL SOURCES</span>
+          <strong style="display:block;margin-top:4px;font-size:11px;">Combined RSS feed</strong>
+        </div>
+
+        <a class="source-rss rss-all-button"
+           style="display:inline-flex;align-items:center;justify-content:center;min-width:38px;height:28px;padding:0 8px;border:1px solid rgba(167,139,250,.25);border-radius:8px;background:rgba(167,139,250,.08);color:var(--muted);text-decoration:none;font-size:8px;font-weight:800;letter-spacing:.08em;transition:.18s ease;"
+           href="rss/all.xml"
+           target="_blank"
+           rel="noopener noreferrer"
+           title="All AniNews Hub stories RSS feed"
+           aria-label="All AniNews Hub stories RSS feed">
+          <span class="rss-glyph" aria-hidden="true">RSS</span>
+        </a>
+      </div>
+    `;
+  }
 }
 
 function renderFilters() {

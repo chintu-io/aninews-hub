@@ -2,15 +2,8 @@ import fs from "node:fs/promises";
 import crypto from "node:crypto";
 import Parser from "rss-parser";
 
-const OUT = new URL(
-  "../site/data/articles.json",
-  import.meta.url
-);
-
-const DEBUG_OUT = new URL(
-  "../site/debug/sankaku.json",
-  import.meta.url
-);
+const OUT = new URL("../site/data/articles.json", import.meta.url);
+const DEBUG_OUT = new URL("../site/debug/sankaku.json", import.meta.url);
 
 const SOURCE = {
   id: "sankaku",
@@ -22,187 +15,64 @@ const SOURCE = {
 };
 
 /*
- * THE ACTUAL SANkAKU RSS FEED.
+ * Priority:
  *
- * We keep this as the authoritative source.
- */
-const OFFICIAL_FEED =
-  "https://news.sankakucomplex.com/feed";
-
-/*
- * Transport methods used when GitHub Actions'
- * direct request to Sankaku is rejected.
+ * 1. Official Sankaku RSS
+ * 2. RSSHub's Sankaku RSS route
  *
- * None of these are caches of our own data.
- * They simply retrieve the official RSS feed.
+ * We do NOT scrape Recent Posts.
+ * We do NOT use bootstrap/cache data.
  */
-const TRANSPORTS = [
-  {
-    name: "direct",
-
-    url:
-      OFFICIAL_FEED
-  },
-
-  {
-    name: "allorigins",
-
-    url:
-      "https://api.allorigins.win/raw?url=" +
-      encodeURIComponent(
-        OFFICIAL_FEED
-      )
-  },
-
-  {
-    name: "corsproxy",
-
-    url:
-      "https://corsproxy.io/?url=" +
-      encodeURIComponent(
-        OFFICIAL_FEED
-      )
-  },
-
-  {
-    name: "codetabs",
-
-    url:
-      "https://api.codetabs.com/v1/proxy?quest=" +
-      encodeURIComponent(
-        OFFICIAL_FEED
-      )
-  },
-
-  {
-    name: "rsshub",
-
-    url:
-      "https://rsshub.app/sankakucomplex/post"
-  },
-
-  {
-    name: "rsshub-rss",
-
-    url:
-      "https://rsshub.app/sankakucomplex/post.rss"
-  }
+const FEEDS = [
+  "https://news.sankakucomplex.com/feed/",
+  "https://news.sankakucomplex.com/?feed=rss2",
+  "https://www.sankakucomplex.com/feed/",
+  "https://rsshub.app/sankakucomplex/post?limit=50&sorted=true",
+  "https://rsshub.app/sankakucomplex/post.rss?limit=50&sorted=true"
 ];
 
-const parser =
-  new Parser({
-    timeout: 30000,
+const parser = new Parser({
+  timeout: 30000,
 
-    customFields: {
-      item: [
-        [
-          "content:encoded",
-          "contentEncoded",
-          {
-            keepArray: false
-          }
-        ],
+  customFields: {
+    item: [
+      ["media:content", "mediaContent", { keepArray: true }],
+      ["media:thumbnail", "mediaThumbnail", { keepArray: true }],
+      ["content:encoded", "contentEncoded", { keepArray: false }]
+    ]
+  }
+});
 
-        [
-          "media:content",
-          "mediaContent",
-          {
-            keepArray: true
-          }
-        ],
-
-        [
-          "media:thumbnail",
-          "mediaThumbnail",
-          {
-            keepArray: true
-          }
-        ]
-      ]
-    }
-  });
-
-const USER_AGENT =
-  "Mozilla/5.0 (X11; Linux x86_64) " +
-  "AppleWebKit/537.36 " +
-  "(KHTML, like Gecko) " +
-  "Chrome/154.0.0.0 Safari/537.36";
+const sleep = ms =>
+  new Promise(resolve => setTimeout(resolve, ms));
 
 const hash = value =>
   crypto
     .createHash("sha1")
-    .update(
-      String(value)
-    )
+    .update(String(value))
     .digest("hex")
     .slice(0, 16);
 
-function stripHtml(
-  value = ""
-) {
+function stripHtml(value = "") {
   return String(value)
-    .replace(
-      /<script[\s\S]*?<\/script>/gi,
-      " "
-    )
-    .replace(
-      /<style[\s\S]*?<\/style>/gi,
-      " "
-    )
-    .replace(
-      /<[^>]+>/g,
-      " "
-    )
-    .replace(
-      /&nbsp;/gi,
-      " "
-    )
-    .replace(
-      /&amp;/gi,
-      "&"
-    )
-    .replace(
-      /&quot;/gi,
-      '"'
-    )
-    .replace(
-      /&#39;/gi,
-      "'"
-    )
-    .replace(
-      /&#x27;/gi,
-      "'"
-    )
-    .replace(
-      /&#8217;/gi,
-      "’"
-    )
-    .replace(
-      /&#8220;/gi,
-      "“"
-    )
-    .replace(
-      /&#8221;/gi,
-      "”"
-    )
-    .replace(
-      /&#8230;/gi,
-      "…"
-    )
-    .replace(
-      /\s+/g,
-      " "
-    )
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/&#x27;/gi, "'")
+    .replace(/&#8217;/gi, "’")
+    .replace(/&#8220;/gi, "“")
+    .replace(/&#8221;/gi, "”")
+    .replace(/&#8230;/gi, "…")
+    .replace(/\s+/g, " ")
     .trim();
 }
 
-function makeExcerpt(
-  value = ""
-) {
-  const text =
-    stripHtml(
-      value
-    );
+function excerpt(value = "") {
+  const text = stripHtml(value);
 
   if (!text) {
     return "";
@@ -210,92 +80,281 @@ function makeExcerpt(
 
   return text.length <= 300
     ? text
-    : text
-        .slice(
-          0,
-          297
-        )
-        .trimEnd() + "…";
+    : text.slice(0, 297).trimEnd() + "…";
 }
 
-function normalizeLink(
-  value = ""
-) {
-  try {
-    const url =
-      new URL(
-        value
-      );
+function cleanTitle(value = "") {
+  const title = stripHtml(value)
+    .replace(/^#+\s*/, "")
+    .trim();
 
-    url.search = "";
-    url.hash = "";
-
-    if (
-      url.hostname.toLowerCase() ===
-      "www.sankakucomplex.com"
-    ) {
-      url.hostname =
-        "news.sankakucomplex.com";
-    }
-
-    return url.href;
-  } catch {
+  if (!title) {
     return "";
   }
+
+  if (
+    /^(?:add\s+comment|\d+\s+comments?)$/i.test(title)
+  ) {
+    return "";
+  }
+
+  if (/^just a moment/i.test(title)) {
+    return "";
+  }
+
+  return title;
 }
 
-function isSankakuArticle(
-  value = ""
-) {
+function realSankakuUrl(value) {
   try {
-    const url =
-      new URL(
-        value
-      );
+    const url = new URL(value);
 
     return (
       url.hostname.toLowerCase() ===
         "news.sankakucomplex.com" &&
-      /^\/n\/[^/?#]+\/?$/i.test(
-        url.pathname
-      )
+      /^\/n\/[^/?#]+\/?$/i.test(url.pathname)
     );
   } catch {
     return false;
   }
 }
 
-function parseDate(
-  value
-) {
+function iso(value) {
   if (!value) {
     return null;
   }
 
-  const date =
-    new Date(
-      value
-    );
+  const date = new Date(value);
 
-  return Number.isNaN(
-    date.getTime()
-  )
+  return Number.isNaN(date.getTime())
     ? null
     : date.toISOString();
 }
 
-function normalizeItem(
-  item
+function urlOf(value) {
+  if (!value) {
+    return "";
+  }
+
+  if (typeof value === "string") {
+    return value;
+  }
+
+  if (typeof value === "object") {
+    if (typeof value.url === "string") {
+      return value.url;
+    }
+
+    if (typeof value.href === "string") {
+      return value.href;
+    }
+
+    for (
+      const key of [
+        "$",
+        "attrs",
+        "attribute",
+        "content"
+      ]
+    ) {
+      const nested = urlOf(value[key]);
+
+      if (nested) {
+        return nested;
+      }
+    }
+  }
+
+  return "";
+}
+
+function absoluteUrl(
+  value,
+  base = "https://news.sankakucomplex.com/"
 ) {
-  const link =
-    normalizeLink(
-      item.link ||
-      item.guid ||
-      ""
-    );
+  try {
+    return new URL(
+      String(value || "").trim(),
+      base
+    ).href;
+  } catch {
+    return "";
+  }
+}
+
+function imageFromText(value = "") {
+  const text = String(value || "");
+
+  const markdown =
+    /!\[[^\]]*\]\(<?([^)>\s]+)>?\)/i.exec(
+      text
+    )?.[1] || "";
+
+  const markdownUrl =
+    absoluteUrl(markdown);
 
   if (
-    !isSankakuArticle(
+    /^https?:\/\//i.test(
+      markdownUrl
+    )
+  ) {
+    return markdownUrl;
+  }
+
+  for (
+    const tag of
+      text.match(
+        /<img\b[^>]*>/gi
+      ) || []
+  ) {
+    for (
+      const attr of [
+        "src",
+        "data-src",
+        "data-lazy-src",
+        "data-original"
+      ]
+    ) {
+      const raw =
+        new RegExp(
+          attr +
+            "\\s*=\\s*[\"']([^\"']+)[\"']",
+          "i"
+        ).exec(tag)?.[1] || "";
+
+      const resolved =
+        absoluteUrl(raw);
+
+      if (
+        /^https?:\/\//i.test(
+          resolved
+        )
+      ) {
+        return resolved;
+      }
+    }
+
+    const srcset =
+      /(?:srcset|data-srcset)\s*=\s*["']([^"']+)["']/i
+        .exec(tag)?.[1] || "";
+
+    if (srcset) {
+      const first =
+        srcset
+          .split(",")[0]
+          ?.trim()
+          .split(/\s+/)[0] || "";
+
+      const resolved =
+        absoluteUrl(first);
+
+      if (
+        /^https?:\/\//i.test(
+          resolved
+        )
+      ) {
+        return resolved;
+      }
+    }
+  }
+
+  const generic =
+    /(?:https?:\/\/|\/)[^\s"'<>]+\.(?:jpe?g|png|webp|gif)(?:\?[^\s"'<>]*)?/i
+      .exec(text)?.[0] || "";
+
+  const resolved =
+    absoluteUrl(generic);
+
+  return /^https?:\/\//i.test(
+    resolved
+  )
+    ? resolved
+    : "";
+}
+
+function itemImage(item) {
+  const candidates = [
+    item.enclosure?.url,
+    item.enclosure?.href,
+
+    ...(
+      Array.isArray(
+        item.mediaContent
+      )
+        ? item.mediaContent
+        : item.mediaContent
+          ? [item.mediaContent]
+          : []
+    ).map(urlOf),
+
+    ...(
+      Array.isArray(
+        item.mediaThumbnail
+      )
+        ? item.mediaThumbnail
+        : item.mediaThumbnail
+          ? [item.mediaThumbnail]
+          : []
+    ).map(urlOf),
+
+    imageFromText(
+      item.contentEncoded
+    ),
+
+    imageFromText(
+      item.content
+    ),
+
+    imageFromText(
+      item.description
+    ),
+
+    imageFromText(
+      item.summary
+    )
+  ];
+
+  return (
+    candidates.find(
+      value =>
+        /^https?:\/\//i.test(
+          value || ""
+        )
+    ) || ""
+  );
+}
+
+function itemDescription(item) {
+  for (
+    const value of [
+      item.contentSnippet,
+      item.contentEncoded,
+      item.content,
+      item.summary,
+      item.description
+    ]
+  ) {
+    const result =
+      excerpt(
+        value || ""
+      );
+
+    if (result) {
+      return result;
+    }
+  }
+
+  return "";
+}
+
+function normalize(item) {
+  const link =
+    item.link ||
+    item.guid ||
+    "";
+
+  if (
+    !realSankakuUrl(
       link
     )
   ) {
@@ -303,60 +362,41 @@ function normalizeItem(
   }
 
   const title =
-    stripHtml(
-      item.title ||
-      ""
-    ).trim();
+    cleanTitle(
+      item.title || ""
+    );
 
   if (!title) {
     return null;
   }
 
-  const description =
-    item.contentSnippet ||
-    item.contentEncoded ||
-    item.content ||
-    item.summary ||
-    item.description ||
-    "";
-
   return {
-    id:
-      hash(
-        "sankaku|" +
-        link
-      ),
+    id: hash(
+      "sankaku|" + link
+    ),
 
+    /*
+     * IMPORTANT:
+     * These fields are taken directly from RSS.
+     */
     title,
 
     link,
 
     publishedAt:
-      parseDate(
-        item.isoDate
-      ) ||
-      parseDate(
-        item.pubDate
-      ) ||
-      parseDate(
-        item.published
-      ) ||
-      parseDate(
-        item.updated
-      ),
-
-    /*
-     * Images intentionally disabled.
-     *
-     * First priority is getting the
-     * current feed working again.
-     */
-    image:
-      "",
+      iso(item.isoDate) ||
+      iso(item.pubDate) ||
+      iso(item.published) ||
+      iso(item.updated),
 
     excerpt:
-      makeExcerpt(
-        description
+      itemDescription(
+        item
+      ),
+
+    image:
+      itemImage(
+        item
       ),
 
     source: {
@@ -365,8 +405,9 @@ function normalizeItem(
   };
 }
 
-async function fetchUrl(
-  url
+async function fetchText(
+  url,
+  options = {}
 ) {
   const response =
     await fetch(
@@ -374,16 +415,12 @@ async function fetchUrl(
       {
         headers: {
           "user-agent":
-            USER_AGENT,
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/154 Safari/537.36",
 
           accept:
-            "application/rss+xml, application/xml, text/xml, application/json, */*",
+            "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html, text/plain, */*",
 
-          "cache-control":
-            "no-cache",
-
-          pragma:
-            "no-cache"
+          ...(options.headers || {})
         },
 
         redirect:
@@ -391,7 +428,8 @@ async function fetchUrl(
 
         signal:
           AbortSignal.timeout(
-            35000
+            options.timeout ||
+              30000
           )
       }
     );
@@ -413,178 +451,296 @@ async function fetchUrl(
   };
 }
 
-async function parseCandidate(
-  candidate
+function metaContent(
+  html,
+  key
 ) {
-  const result =
-    await fetchUrl(
-      candidate.url
+  for (
+    const tag of
+      String(html).match(
+        /<meta\b[^>]*>/gi
+      ) || []
+  ) {
+    const name =
+      /(?:property|name)\s*=\s*["']([^"']+)["']/i
+        .exec(tag)?.[1] || "";
+
+    if (
+      name.toLowerCase() !==
+      key.toLowerCase()
+    ) {
+      continue;
+    }
+
+    return (
+      /content\s*=\s*["']([^"']+)["']/i
+        .exec(tag)?.[1] || ""
     );
-
-  const diagnostic = {
-    name:
-      candidate.name,
-
-    url:
-      candidate.url,
-
-    status:
-      result.status,
-
-    finalUrl:
-      result.finalUrl,
-
-    contentType:
-      result.contentType,
-
-    bytes:
-      result.body.length,
-
-    count:
-      0,
-
-    newest:
-      null
-  };
-
-  if (
-    result.status <
-      200 ||
-    result.status >=
-      300
-  ) {
-    return {
-      articles: [],
-
-      diagnostic
-    };
   }
 
-  if (
-    !result.body.trim()
-  ) {
-    return {
-      articles: [],
+  return "";
+}
 
-      diagnostic: {
-        ...diagnostic,
-
-        error:
-          "Empty response"
-      }
-    };
+/*
+ * Article pages are ONLY used for missing images.
+ *
+ * We deliberately do NOT read title/date/description here.
+ * Those must remain the RSS values.
+ */
+async function imageFallback(
+  article,
+  debug
+) {
+  if (article.image) {
+    return article;
   }
-
-  let feed;
 
   try {
-    feed =
-      await parser.parseString(
-        result.body
+    const direct =
+      await fetchText(
+        article.link,
+        {
+          timeout:
+            25000,
+
+          headers: {
+            referer:
+              SOURCE.siteUrl
+          }
+        }
       );
+
+    debug.imageAttempts.push({
+      link:
+        article.link,
+
+      method:
+        "direct",
+
+      status:
+        direct.status,
+
+      bytes:
+        direct.body.length
+    });
+
+    if (
+      direct.status >=
+        200 &&
+      direct.status <
+        300
+    ) {
+      const image =
+        metaContent(
+          direct.body,
+          "og:image"
+        ) ||
+        imageFromText(
+          direct.body
+        );
+
+      if (image) {
+        return {
+          ...article,
+          image
+        };
+      }
+    }
   } catch (
     error
   ) {
-    return {
-      articles: [],
+    debug.imageAttempts.push({
+      link:
+        article.link,
 
-      diagnostic: {
-        ...diagnostic,
+      method:
+        "direct",
 
-        error:
-          `RSS parse error: ${
-            error?.message ||
+      error:
+        String(
+          error?.message ||
             error
-          }`
-      }
-    };
+        )
+    });
   }
 
-  const articles =
-    (feed.items || [])
-      .map(
-        normalizeItem
-      )
-      .filter(
-        Boolean
-      )
-      .sort(
-        (a, b) => {
-          const left =
-            a.publishedAt
-              ? Date.parse(
-                  a.publishedAt
-                )
-              : 0;
+  /*
+   * Jina fallback for image only.
+   */
+  try {
+    const id =
+      article.link.split(
+        "/n/"
+      )[1] || "";
 
-          const right =
-            b.publishedAt
-              ? Date.parse(
-                  b.publishedAt
-                )
-              : 0;
+    const jina =
+      "https://r.jina.ai/http://news.sankakucomplex.com/n/" +
+      encodeURIComponent(id) +
+      "?t=" +
+      Date.now();
 
-          return (
-            right -
-            left
-          );
+    const result =
+      await fetchText(
+        jina,
+        {
+          timeout:
+            40000,
+
+          headers: {
+            "x-no-cache":
+              "true",
+
+            "x-cache-tolerance":
+              "0"
+          }
         }
+      );
+
+    debug.imageAttempts.push({
+      link:
+        article.link,
+
+      method:
+        "jina",
+
+      status:
+        result.status,
+
+      bytes:
+        result.body.length
+    });
+
+    if (
+      result.status >=
+        200 &&
+      result.status <
+        300
+    ) {
+      const image =
+        metaContent(
+          result.body,
+          "og:image"
+        ) ||
+        imageFromText(
+          result.body
+        );
+
+      if (image) {
+        return {
+          ...article,
+          image
+        };
+      }
+    }
+  } catch (
+    error
+  ) {
+    debug.imageAttempts.push({
+      link:
+        article.link,
+
+      method:
+        "jina",
+
+      error:
+        String(
+          error?.message ||
+            error
+        )
+    });
+  }
+
+  return article;
+}
+
+async function enrichImages(
+  items,
+  debug
+) {
+  const queue =
+    items
+      .filter(
+        item =>
+          !item.image
       )
       .slice(
         0,
-        50
+        40
       );
 
-  diagnostic.count =
-    articles.length;
+  const results =
+    [];
 
-  if (
-    articles.length
-  ) {
-    const dates =
-      articles
-        .map(
-          item =>
-            item.publishedAt
-              ? Date.parse(
-                  item.publishedAt
-                )
-              : NaN
-        )
-        .filter(
-          Number.isFinite
+  const worker =
+    async () => {
+      while (
+        queue.length
+      ) {
+        const item =
+          queue.shift();
+
+        if (!item) {
+          return;
+        }
+
+        results.push(
+          await imageFallback(
+            item,
+            debug
+          )
         );
 
-    if (
-      dates.length
-    ) {
-      diagnostic.newest =
-        new Date(
-          Math.max(
-            ...dates
+        await sleep(
+          100
+        );
+      }
+    };
+
+  await Promise.all(
+    Array.from(
+      {
+        length:
+          Math.min(
+            5,
+            queue.length ||
+              1
           )
-        ).toISOString();
-    }
-  }
+      },
+      worker
+    )
+  );
 
-  return {
-    articles,
+  const byLink =
+    new Map(
+      results.map(
+        item => [
+          item.link,
+          item
+        ]
+      )
+    );
 
-    diagnostic
-  };
+  return items.map(
+    item =>
+      byLink.get(
+        item.link
+      ) || item
+  );
 }
 
 const debug = {
   generatedAt:
     new Date().toISOString(),
 
-  transportAttempts:
-    [],
+  feedAttempts: [],
 
-  selected:
+  selectedFeed:
     null,
 
-  count:
+  rssCount:
+    0,
+
+  finalCount:
     0,
 
   newest:
@@ -593,8 +749,11 @@ const debug = {
   oldest:
     null,
 
-  images:
-    "disabled"
+  imageAttempts:
+    [],
+
+  note:
+    "Sankaku title, description, date and link come from RSS. Article pages are used only for missing images. No old Sankaku cache is merged."
 };
 
 const payload =
@@ -606,134 +765,167 @@ const payload =
   );
 
 /*
- * Keep every non-Sankaku source
- * already generated by fetch-feeds.mjs.
+ * Remove ALL existing Sankaku entries first.
+ * Therefore bootstrap data can never survive a
+ * successful refresh.
  */
-const nonSankaku =
-  (
-    payload.articles ||
-    []
-  ).filter(
-    article =>
-      article?.source?.id !==
+const existingOther =
+  (payload.articles || []).filter(
+    item =>
+      item?.source?.id !==
       "sankaku"
   );
 
 let selected =
   null;
 
-/*
- * Try all transports.
- */
 for (
-  const candidate of
-    TRANSPORTS
+  const feedUrl of
+    FEEDS
 ) {
   try {
-    console.log(
-      `Trying Sankaku transport: ${candidate.name}`
-    );
-
     const result =
-      await parseCandidate(
-        candidate
+      await fetchText(
+        feedUrl,
+        {
+          timeout:
+            30000,
+
+          headers: {
+            "cache-control":
+              "no-cache",
+
+            pragma:
+              "no-cache"
+          }
+        }
       );
 
-    debug.transportAttempts.push(
-      result.diagnostic
+    const attempt = {
+      url:
+        feedUrl,
+
+      status:
+        result.status,
+
+      finalUrl:
+        result.finalUrl,
+
+      contentType:
+        result.contentType,
+
+      bytes:
+        result.body.length,
+
+      count:
+        0,
+
+      latest:
+        null
+    };
+
+    if (
+      result.status <
+        200 ||
+      result.status >=
+        300 ||
+      !result.body.trim()
+    ) {
+      debug.feedAttempts.push(
+        attempt
+      );
+
+      continue;
+    }
+
+    const feed =
+      await parser.parseString(
+        result.body
+      );
+
+    const items =
+      (feed.items || [])
+        .map(
+          normalize
+        )
+        .filter(Boolean);
+
+    attempt.count =
+      items.length;
+
+    const dates =
+      items
+        .map(
+          item =>
+            Date.parse(
+              item.publishedAt ||
+                ""
+            )
+        )
+        .filter(
+          Number.isFinite
+        );
+
+    if (
+      dates.length
+    ) {
+      attempt.latest =
+        new Date(
+          Math.max(
+            ...dates
+          )
+        ).toISOString();
+    }
+
+    debug.feedAttempts.push(
+      attempt
     );
 
     if (
-      !result.articles.length
+      !items.length
     ) {
       continue;
     }
 
-    const newest =
-      result.articles
-        .map(
-          article =>
-            article.publishedAt
-              ? Date.parse(
-                  article.publishedAt
-                )
-              : 0
-        )
-        .reduce(
-          (
-            max,
-            value
-          ) =>
-            Math.max(
-              max,
-              value
-            ),
-          0
-        );
+    const latest =
+      dates.length
+        ? Math.max(
+            ...dates
+          )
+        : 0;
 
     /*
-     * Prefer the feed with the
-     * newest article.
+     * Select the feed with the newest article.
+     *
+     * This means if official RSS is 4 days old
+     * and RSSHub has today's articles, RSSHub wins.
      */
     if (
       !selected ||
-      newest >
-        selected.newest
-    ) {
-      selected = {
-        name:
-          candidate.name,
-
-        url:
-          candidate.url,
-
-        articles:
-          result.articles,
-
-        newest
-      };
-    }
-
-    /*
-     * Direct/official transport is
-     * authoritative. Once it works,
-     * don't replace it with a proxy.
-     */
-    if (
-      candidate.name ===
-        "direct" &&
-      result.articles.length
-    ) {
-      break;
-    }
-
-    /*
-     * allorigins/corsproxy/codetabs
-     * are still retrieving the official
-     * Sankaku feed, so prefer them over
-     * RSSHub when they contain data.
-     */
-    if (
-      [
-        "allorigins",
-        "corsproxy",
-        "codetabs"
-      ].includes(
-        candidate.name
+      latest >
+        selected.latest ||
+      (
+        latest ===
+          selected.latest &&
+        items.length >
+          selected.items.length
       )
     ) {
-      break;
-    }
+      selected = {
+        url:
+          feedUrl,
 
+        latest,
+
+        items
+      };
+    }
   } catch (
     error
   ) {
-    debug.transportAttempts.push({
-      name:
-        candidate.name,
-
+    debug.feedAttempts.push({
       url:
-        candidate.url,
+        feedUrl,
 
       error:
         String(
@@ -744,30 +936,34 @@ for (
   }
 }
 
-/*
- * Fresh Sankaku data found.
- */
 if (
   selected &&
-  selected.articles.length
+  selected.items.length
 ) {
-  const sankaku =
-    selected.articles
+  let sankaku =
+    selected.items
+      .map(
+        item => ({
+          ...item,
+
+          source: {
+            ...SOURCE
+          }
+        })
+      )
       .sort(
         (a, b) => {
           const left =
-            a.publishedAt
-              ? Date.parse(
-                  a.publishedAt
-                )
-              : 0;
+            Date.parse(
+              a.publishedAt ||
+                ""
+            ) || 0;
 
           const right =
-            b.publishedAt
-              ? Date.parse(
-                  b.publishedAt
-                )
-              : 0;
+            Date.parse(
+              b.publishedAt ||
+                ""
+            ) || 0;
 
           return (
             right -
@@ -777,68 +973,39 @@ if (
       )
       .slice(
         0,
-        50
+        60
       );
 
-  payload.articles =
-    [
-      ...nonSankaku,
-      ...sankaku
-    ]
-      .sort(
-        (a, b) => {
-          const left =
-            a.publishedAt
-              ? Date.parse(
-                  a.publishedAt
-                )
-              : 0;
-
-          const right =
-            b.publishedAt
-              ? Date.parse(
-                  b.publishedAt
-                )
-              : 0;
-
-          return (
-            right -
-            left
-          );
-        }
-      )
-      .slice(
-        0,
-        500
-      );
-
-  debug.selected = {
-    name:
-      selected.name,
-
-    url:
-      selected.url,
-
-    count:
-      sankaku.length
-  };
-
-  debug.count =
-    sankaku.length;
+  /*
+   * Only missing images may be enriched.
+   */
+  sankaku =
+    await enrichImages(
+      sankaku,
+      debug
+    );
 
   const dates =
     sankaku
       .map(
         item =>
-          item.publishedAt
-            ? Date.parse(
-                item.publishedAt
-              )
-            : NaN
+          Date.parse(
+            item.publishedAt ||
+              ""
+          )
       )
       .filter(
         Number.isFinite
       );
+
+  debug.selectedFeed =
+    selected.url;
+
+  debug.rssCount =
+    selected.items.length;
+
+  debug.finalCount =
+    sankaku.length;
 
   if (
     dates.length
@@ -859,9 +1026,40 @@ if (
   }
 
   /*
-   * Update source status so the
-   * frontend shows Sankaku correctly.
+   * Complete replacement.
+   *
+   * NOTHING from old Sankaku data is merged.
    */
+  payload.articles =
+    [
+      ...existingOther,
+      ...sankaku
+    ]
+      .sort(
+        (a, b) => {
+          const left =
+            Date.parse(
+              a.publishedAt ||
+                ""
+            ) || 0;
+
+          const right =
+            Date.parse(
+              b.publishedAt ||
+                ""
+            ) || 0;
+
+          return (
+            right -
+            left
+          );
+        }
+      )
+      .slice(
+        0,
+        500
+      );
+
   const sourceResult =
     (
       payload.sourceResults ||
@@ -878,83 +1076,37 @@ if (
     sourceResult.status =
       "ok";
 
+    sourceResult.mode =
+      "rss";
+
     sourceResult.count =
       sankaku.length;
 
     sourceResult.feedUrl =
       selected.url;
-
-    sourceResult.mode =
-      selected.name ===
-      "rsshub"
-        ? "rsshub"
-        : selected.name.startsWith(
-            "rsshub"
-          )
-        ? "rsshub"
-        : "rss";
   }
-
-  console.log(
-    `Sankaku RSS: ${sankaku.length} stories via ${selected.name}`
-  );
-
 } else {
   /*
-   * NO CACHE.
+   * No feed worked.
    *
-   * If every transport fails,
-   * Sankaku remains empty.
+   * Do NOT publish the 4-day-old bootstrap.
+   * Sankaku simply disappears for this build.
    */
   payload.articles =
-    nonSankaku;
+    existingOther;
 
-  debug.selected =
-    null;
-
-  debug.count =
+  debug.finalCount =
     0;
 
   debug.note =
-    "All Sankaku RSS transports failed. No cache or Recent Posts data was used.";
-
-  const sourceResult =
-    (
-      payload.sourceResults ||
-      []
-    ).find(
-      item =>
-        item.id ===
-        "sankaku"
-    );
-
-  if (
-    sourceResult
-  ) {
-    sourceResult.status =
-      "empty";
-
-    sourceResult.count =
-      0;
-
-    sourceResult.feedUrl =
-      null;
-
-    sourceResult.mode =
-      null;
-  }
-
-  console.log(
-    "Sankaku RSS: no usable transport"
-  );
+    "All Sankaku RSS endpoints failed. Sankaku was removed from this build instead of publishing stale cached stories.";
 }
 
 payload.generatedAt =
   new Date().toISOString();
 
 payload.stats =
-  payload.stats ||
-  {};
+  payload.stats || {};
 
 payload.stats.articleCount =
   payload.articles.length;
@@ -996,23 +1148,16 @@ await fs.writeFile(
 await fs.writeFile(
   DEBUG_OUT,
   JSON.stringify(
-    {
-      generatedAt:
-        new Date().toISOString(),
-
-      sankaku:
-        debug
-    },
+    debug,
     null,
     2
   )
 );
 
 console.log(
-  "Sankaku diagnostic:",
-  JSON.stringify(
-    debug,
-    null,
-    2
-  )
+  "Sankaku RSS refresh: " +
+  debug.finalCount +
+  " stories from " +
+  (debug.selectedFeed ||
+    "no feed")
 );

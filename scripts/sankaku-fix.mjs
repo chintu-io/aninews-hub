@@ -14,6 +14,14 @@ const SOURCE = {
   accent: "#a78bfa"
 };
 
+/*
+ * Order:
+ *
+ * 1. Official Sankaku RSS
+ * 2. RSSHub Sankaku route
+ *
+ * Recent Posts scraping is intentionally NOT used.
+ */
 const FEEDS = [
   "https://news.sankakucomplex.com/feed/",
   "https://news.sankakucomplex.com/?feed=rss2",
@@ -24,6 +32,7 @@ const FEEDS = [
 
 const parser = new Parser({
   timeout: 30000,
+
   customFields: {
     item: [
       ["media:content", "mediaContent", { keepArray: true }],
@@ -156,17 +165,66 @@ function absoluteUrl(
   }
 }
 
-function sankakuUsableImage(value = "") {
-  const url = String(value || "").trim();
+function realSankakuUrl(value) {
+  try {
+    const url =
+      new URL(value);
 
-  if (!/^https?:\/\//i.test(url)) {
+    const host =
+      url.hostname.toLowerCase();
+
+    const validHost =
+      host === "news.sankakucomplex.com" ||
+      host === "www.sankakucomplex.com";
+
+    return (
+      validHost &&
+      /^\/n\/[^/?#]+\/?$/i.test(
+        url.pathname
+      )
+    );
+  } catch {
+    return false;
+  }
+}
+
+function canonicalArticleUrl(value) {
+  try {
+    const url =
+      new URL(value);
+
+    if (
+      url.hostname.toLowerCase() ===
+      "www.sankakucomplex.com"
+    ) {
+      url.hostname =
+        "news.sankakucomplex.com";
+    }
+
+    url.search = "";
+    url.hash = "";
+
+    return url.href;
+  } catch {
+    return "";
+  }
+}
+
+function sankakuUsableImage(value = "") {
+  const url =
+    String(value || "").trim();
+
+  if (
+    !/^https?:\/\//i.test(url)
+  ) {
     return "";
   }
 
-  const lower = url.toLowerCase();
+  const lower =
+    url.toLowerCase();
 
   /*
-   * Reject obvious site-wide branding assets.
+   * Reject obvious site-wide assets.
    */
   if (
     /(?:^|[\/_.-])logo(?:[\/_.?-]|$)/i.test(lower) ||
@@ -182,23 +240,24 @@ function imageFromText(
   value = "",
   baseUrl = SOURCE.siteUrl
 ) {
-  const text = String(value || "");
+  const text =
+    String(value || "");
 
   /*
-   * 1. Markdown image:
-   *    ![alt](https://...)
+   * 1. Markdown images
    */
   for (
     const match of text.matchAll(
       /!\[[^\]]*\]\(<?([^)>\s]+)>?\)/gi
     )
   ) {
-    const image = sankakuUsableImage(
-      absoluteUrl(
-        decodeXml(match[1]),
-        baseUrl
-      )
-    );
+    const image =
+      sankakuUsableImage(
+        absoluteUrl(
+          decodeXml(match[1]),
+          baseUrl
+        )
+      );
 
     if (image) {
       return image;
@@ -206,7 +265,7 @@ function imageFromText(
   }
 
   /*
-   * 2. HTML image tags.
+   * 2. HTML <img>
    */
   for (
     const tag of
@@ -215,10 +274,22 @@ function imageFromText(
       ) || []
   ) {
     const candidates = [
-      attrFromTag(tag, "src"),
-      attrFromTag(tag, "data-src"),
-      attrFromTag(tag, "data-lazy-src"),
-      attrFromTag(tag, "data-original")
+      attrFromTag(
+        tag,
+        "src"
+      ),
+      attrFromTag(
+        tag,
+        "data-src"
+      ),
+      attrFromTag(
+        tag,
+        "data-lazy-src"
+      ),
+      attrFromTag(
+        tag,
+        "data-original"
+      )
     ];
 
     const srcset =
@@ -237,12 +308,14 @@ function imageFromText(
         srcset
           .split(",")[0]
           ?.trim()
-          .split(/\s+/)[0] || ""
+          .split(/\s+/)[0] ||
+          ""
       );
     }
 
     for (
-      const raw of candidates
+      const raw of
+        candidates
     ) {
       const image =
         sankakuUsableImage(
@@ -259,25 +332,20 @@ function imageFromText(
   }
 
   /*
-   * 3. IMPORTANT:
+   * 3. Direct Sankaku WordPress upload URL.
    *
-   * Scan the entire text for a Sankaku
-   * WordPress upload URL.
-   *
-   * This catches URLs such as:
-   * /wp-content/uploads/2026/10/Original-Art...jpg
-   *
-   * even when Jina/RSS does not preserve
-   * the original <img> markup.
+   * Example:
+   * https://news.sankakucomplex.com/wp-content/uploads/2026/10/Original-Art-by-ToosakaAsagi-2026-scaled.jpg
    */
-  const uploads = [
+  const uploadMatches = [
     ...text.matchAll(
-      /https?:\/\/news\.sankakucomplex\.com\/wp-content\/uploads\/[^"'<>\\s)]+/gi
+      /https?:\/\/(?:news|www)\.sankakucomplex\.com\/wp-content\/uploads\/[^"'<> \t\r\n)]+/gi
     )
   ];
 
   for (
-    const match of uploads
+    const match of
+      uploadMatches
   ) {
     const image =
       sankakuUsableImage(
@@ -292,16 +360,17 @@ function imageFromText(
   }
 
   /*
-   * Also catch relative WordPress upload URLs.
+   * 4. Relative Sankaku uploads.
    */
-  const relativeUploads = [
+  const relativeMatches = [
     ...text.matchAll(
-      /\/wp-content\/uploads\/[^"'<>\\s)]+\.(?:jpe?g|png|webp|gif)(?:\?[^"'<>\\s)]*)?/gi
+      /\/wp-content\/uploads\/[^"'<> \t\r\n)]+\.(?:jpe?g|png|webp|gif)(?:\?[^"'<> \t\r\n)]*)?/gi
     )
   ];
 
   for (
-    const match of relativeUploads
+    const match of
+      relativeMatches
   ) {
     const image =
       sankakuUsableImage(
@@ -319,7 +388,7 @@ function imageFromText(
   }
 
   /*
-   * Generic image URL fallback.
+   * 5. Generic image URL.
    */
   const generic =
     /https?:\/\/[^\s"'<>]+?\.(?:jpe?g|png|webp|gif)(?:\?[^\s"'<>]*)?/i
@@ -335,7 +404,8 @@ function imageFromText(
 }
 
 function extractFeedImageMap(xml) {
-  const byLink = new Map();
+  const byLink =
+    new Map();
 
   for (
     const itemMatch of
@@ -356,12 +426,16 @@ function extractFeedImageMap(xml) {
       "";
 
     const link =
-      decodeXml(rawLink)
-        .trim()
-        .replace(/[?#].*$/, "");
+      canonicalArticleUrl(
+        decodeXml(
+          rawLink
+        ).trim()
+      );
 
     if (
-      !realSankakuUrl(link)
+      !realSankakuUrl(
+        link
+      )
     ) {
       continue;
     }
@@ -369,8 +443,9 @@ function extractFeedImageMap(xml) {
     const candidates = [];
 
     /*
-     * enclosure / media:content /
-     * media:thumbnail URLs.
+     * enclosure
+     * media:content
+     * media:thumbnail
      */
     for (
       const tag of
@@ -391,8 +466,7 @@ function extractFeedImageMap(xml) {
     }
 
     /*
-     * Any image contained in the
-     * feed item body.
+     * Look inside RSS HTML.
      */
     const bodyImage =
       imageFromText(
@@ -407,18 +481,16 @@ function extractFeedImageMap(xml) {
     }
 
     /*
-     * Look directly for wp-content/uploads
-     * anywhere in the feed item.
+     * Explicitly search WordPress upload URLs.
      */
-    const uploadMatches = [
+    const uploads = [
       ...block.matchAll(
-        /https?:\/\/news\.sankakucomplex\.com\/wp-content\/uploads\/[^"'<>\\s)]+/gi
+        /https?:\/\/(?:news|www)\.sankakucomplex\.com\/wp-content\/uploads\/[^"'<> \t\r\n)]+/gi
       )
     ];
 
     for (
-      const match of
-        uploadMatches
+      const match of uploads
     ) {
       candidates.push(
         match[0]
@@ -426,7 +498,8 @@ function extractFeedImageMap(xml) {
     }
 
     for (
-      const raw of candidates
+      const raw of
+        candidates
     ) {
       const image =
         sankakuUsableImage(
@@ -445,6 +518,7 @@ function extractFeedImageMap(xml) {
           link,
           image
         );
+
         break;
       }
     }
@@ -453,27 +527,15 @@ function extractFeedImageMap(xml) {
   return byLink;
 }
 
-function realSankakuUrl(value) {
-  try {
-    const url =
-      new URL(value);
-
-    return (
-      url.hostname.toLowerCase() ===
-        "news.sankakucomplex.com" &&
-      /^\/n\/[^/?#]+\/?$/i.test(
-        url.pathname
-      )
-    );
-  } catch {
-    return false;
-  }
-}
-
-function cleanTitle(value = "") {
+function cleanTitle(
+  value = ""
+) {
   const title =
     stripHtml(value)
-      .replace(/^#+\s*/, "")
+      .replace(
+        /^#+\s*/,
+        ""
+      )
       .trim();
 
   if (!title) {
@@ -512,6 +574,31 @@ function iso(value) {
   )
     ? null
     : date.toISOString();
+}
+
+function itemDescription(
+  item
+) {
+  for (
+    const value of [
+      item.contentSnippet,
+      item.contentEncoded,
+      item.content,
+      item.summary,
+      item.description
+    ]
+  ) {
+    const result =
+      excerpt(
+        value || ""
+      );
+
+    if (result) {
+      return result;
+    }
+  }
+
+  return "";
 }
 
 function itemImage(
@@ -585,51 +672,24 @@ function itemImage(
   return "";
 }
 
-function itemDescription(
-  item
-) {
-  for (
-    const value of [
-      item.contentSnippet,
-      item.contentEncoded,
-      item.content,
-      item.summary,
-      item.description
-    ]
-  ) {
-    const result =
-      excerpt(
-        value || ""
-      );
-
-    if (result) {
-      return result;
-    }
-  }
-
-  return "";
-}
-
 function normalize(
   item,
   feedImages = new Map()
 ) {
-  const link =
+  const rawLink =
     item.link ||
     item.guid ||
     "";
 
-  const normalizedLink =
-    String(link)
-      .trim()
-      .replace(
-        /[?#].*$/,
-        ""
-      );
+  const link =
+    canonicalArticleUrl(
+      String(rawLink)
+        .trim()
+    );
 
   if (
     !realSankakuUrl(
-      normalizedLink
+      link
     )
   ) {
     return null;
@@ -646,15 +706,15 @@ function normalize(
   }
 
   return {
-    id: hash(
-      "sankaku|" +
-      normalizedLink
-    ),
+    id:
+      hash(
+        "sankaku|" +
+        link
+      ),
 
     title,
 
-    link:
-      normalizedLink,
+    link,
 
     publishedAt:
       iso(
@@ -679,7 +739,7 @@ function normalize(
       itemImage(
         item,
         feedImages.get(
-          normalizedLink
+          link
         ) || ""
       ),
 
@@ -748,7 +808,9 @@ function metaContent(
   ) {
     const name =
       /(?:property|name)\s*=\s*["']([^"']+)["']/i
-        .exec(tag)?.[1] ||
+        .exec(
+          tag
+        )?.[1] ||
       "";
 
     if (
@@ -757,7 +819,9 @@ function metaContent(
     ) {
       return (
         /content\s*=\s*["']([^"']+)["']/i
-          .exec(tag)?.[1] ||
+          .exec(
+            tag
+          )?.[1] ||
         ""
       );
     }
@@ -774,8 +838,7 @@ function sankakuMetaImage(
     String(html || "");
 
   /*
-   * First preference:
-   * og:image
+   * 1. og:image
    */
   const ogImage =
     sankakuUsableImage(
@@ -793,7 +856,7 @@ function sankakuMetaImage(
   }
 
   /*
-   * Sankaku article hero block.
+   * 2. Sankaku's meta-image article block.
    */
   const blocks =
     source.match(
@@ -801,11 +864,9 @@ function sankakuMetaImage(
     ) || [];
 
   const canonical =
-    String(articleUrl || "")
-      .replace(
-        /[?#].*$/,
-        ""
-      )
+    canonicalArticleUrl(
+      articleUrl
+    )
       .replace(
         /\/$/,
         ""
@@ -822,17 +883,15 @@ function sankakuMetaImage(
       )?.[0] || "";
 
     const href =
-      absoluteUrl(
-        attrFromTag(
-          anchor,
-          "href"
-        ),
-        articleUrl
-      )
-        .replace(
-          /[?#].*$/,
-          ""
+      canonicalArticleUrl(
+        absoluteUrl(
+          attrFromTag(
+            anchor,
+            "href"
+          ),
+          articleUrl
         )
+      )
         .replace(
           /\/$/,
           ""
@@ -856,7 +915,26 @@ function sankakuMetaImage(
   }
 
   /*
-   * Generic article-body image.
+   * 3. Search article HTML for
+   * wp-content/uploads images.
+   */
+  const uploadImage =
+    imageFromText(
+      source,
+      articleUrl
+    );
+
+  if (
+    uploadImage &&
+    /\/wp-content\/uploads\//i.test(
+      uploadImage
+    )
+  ) {
+    return uploadImage;
+  }
+
+  /*
+   * 4. Article <img> fallback.
    */
   const articleBlocks =
     source.match(
@@ -916,7 +994,8 @@ function sankakuMetaImage(
       }
 
       for (
-        const raw of candidates
+        const raw of
+          candidates
       ) {
         const image =
           sankakuUsableImage(
@@ -934,6 +1013,10 @@ function sankakuMetaImage(
       }
     }
 
+    /*
+     * Prefer original uploads over
+     * WordPress resized derivatives.
+     */
     const preferred =
       images.find(
         image =>
@@ -962,15 +1045,7 @@ function sankakuMetaImage(
     }
   }
 
-  /*
-   * Last HTML fallback:
-   * search entire page for a Sankaku
-   * upload URL.
-   */
-  return imageFromText(
-    source,
-    articleUrl
-  );
+  return "";
 }
 
 async function imageFallback(
@@ -978,7 +1053,7 @@ async function imageFallback(
   debug
 ) {
   /*
-   * Direct article HTML.
+   * First: direct Sankaku article.
    */
   try {
     const direct =
@@ -1019,11 +1094,15 @@ async function imageFallback(
       status:
         direct.status,
 
+      finalUrl:
+        direct.finalUrl,
+
       bytes:
         direct.body.length,
 
       image:
-        image || null
+        image ||
+        null
     });
 
     if (image) {
@@ -1051,10 +1130,7 @@ async function imageFallback(
   }
 
   /*
-   * Jina Reader fallback.
-   *
-   * This is important because GitHub Actions
-   * may receive 401 directly from Sankaku.
+   * Second: Jina Reader.
    */
   try {
     const readerUrl =
@@ -1100,16 +1176,20 @@ async function imageFallback(
         article.link,
 
       method:
-        "jina-image",
+        "jina",
 
       status:
         result.status,
+
+      finalUrl:
+        result.finalUrl,
 
       bytes:
         result.body.length,
 
       image:
-        image || null
+        image ||
+        null
     });
 
     if (image) {
@@ -1126,7 +1206,7 @@ async function imageFallback(
         article.link,
 
       method:
-        "jina-image",
+        "jina",
 
       error:
         String(
@@ -1154,6 +1234,12 @@ async function enrichImages(
         60
       );
 
+  if (
+    !queue.length
+  ) {
+    return items;
+  }
+
   const results = [];
 
   const worker =
@@ -1176,7 +1262,7 @@ async function enrichImages(
         );
 
         await sleep(
-          150
+          120
         );
       }
     };
@@ -1187,8 +1273,7 @@ async function enrichImages(
         length:
           Math.min(
             5,
-            queue.length ||
-              1
+            queue.length
           )
       },
       worker
@@ -1244,7 +1329,7 @@ const debug = {
     [],
 
   note:
-    "Sankaku title, description, date and link come from RSS. Images come first from raw RSS image fields, then article HTML, then Jina. No old Sankaku cache is merged."
+    ""
 };
 
 const payload =
@@ -1256,21 +1341,35 @@ const payload =
   );
 
 /*
- * Remove ALL previous Sankaku data.
+ * Existing data produced by fetch-feeds.mjs.
+ *
+ * IMPORTANT:
+ * We keep this available as a fallback.
  */
+const existingArticles =
+  payload.articles ||
+  [];
+
 const existingOther =
-  (
-    payload.articles ||
-    []
-  ).filter(
+  existingArticles.filter(
     item =>
       item?.source?.id !==
+      "sankaku"
+  );
+
+const existingSankaku =
+  existingArticles.filter(
+    item =>
+      item?.source?.id ===
       "sankaku"
   );
 
 let selected =
   null;
 
+/*
+ * Try all Sankaku RSS endpoints.
+ */
 for (
   const feedUrl of
     FEEDS
@@ -1319,6 +1418,9 @@ for (
         null
     };
 
+    /*
+     * Failed endpoint.
+     */
     if (
       result.status <
         200 ||
@@ -1406,6 +1508,10 @@ for (
           )
         : 0;
 
+    /*
+     * Select the feed containing
+     * the newest Sankaku article.
+     */
     if (
       !selected ||
       latest >
@@ -1442,6 +1548,9 @@ for (
   }
 }
 
+/*
+ * FRESH RSS SUCCESS
+ */
 if (
   selected &&
   selected.items.length
@@ -1486,8 +1595,8 @@ if (
     ).length;
 
   /*
-   * Fill missing images from the
-   * actual Sankaku article.
+   * Fill missing thumbnails
+   * from Sankaku article pages.
    */
   sankaku =
     await enrichImages(
@@ -1536,7 +1645,8 @@ if (
   }
 
   /*
-   * Replace Sankaku completely.
+   * Fresh Sankaku feed becomes
+   * authoritative.
    */
   payload.articles =
     [
@@ -1593,28 +1703,87 @@ if (
     sourceResult.feedUrl =
       selected.url;
   }
-} else {
-  /*
-   * Never publish stale bootstrap data.
-   */
-  payload.articles =
-    existingOther;
-
-  debug.finalCount =
-    0;
-
-  debug.finalImageCount =
-    0;
 
   debug.note =
-    "All Sankaku RSS endpoints failed. Sankaku was removed instead of publishing stale cached stories.";
+    "Fresh Sankaku RSS selected. Titles, descriptions, dates and links come from RSS. Missing images were enriched from article pages/Jina.";
 }
 
+/*
+ * FRESH RSS FAILED
+ *
+ * CRITICAL:
+ * Preserve whatever fetch-feeds.mjs
+ * already produced.
+ *
+ * This prevents the entire Sankaku
+ * source from disappearing.
+ */
+else {
+  payload.articles =
+    existingArticles;
+
+  debug.selectedFeed =
+    null;
+
+  debug.rssCount =
+    0;
+
+  debug.rssImageCount =
+    0;
+
+  debug.finalCount =
+    existingSankaku.length;
+
+  debug.finalImageCount =
+    existingSankaku.filter(
+      item =>
+        !!item.image
+    ).length;
+
+  const dates =
+    existingSankaku
+      .map(
+        item =>
+          Date.parse(
+            item.publishedAt ||
+              ""
+          )
+      )
+      .filter(
+        Number.isFinite
+      );
+
+  if (
+    dates.length
+  ) {
+    debug.newest =
+      new Date(
+        Math.max(
+          ...dates
+        )
+      ).toISOString();
+
+    debug.oldest =
+      new Date(
+        Math.min(
+          ...dates
+        )
+      ).toISOString();
+  }
+
+  debug.note =
+    "All fresh Sankaku RSS endpoints failed. Existing Sankaku data from fetch-feeds.mjs was preserved; nothing was deleted.";
+}
+
+/*
+ * Recalculate global stats.
+ */
 payload.generatedAt =
   new Date().toISOString();
 
 payload.stats =
-  payload.stats || {};
+  payload.stats ||
+  {};
 
 payload.stats.articleCount =
   payload.articles.length;
@@ -1644,6 +1813,9 @@ payload.stats.failedSources =
       "error"
   ).length;
 
+/*
+ * Write output.
+ */
 await fs.writeFile(
   OUT,
   JSON.stringify(
@@ -1672,6 +1844,6 @@ console.log(
     " | feed " +
     (
       debug.selectedFeed ||
-      "none"
+      "preserved-existing"
     )
 );

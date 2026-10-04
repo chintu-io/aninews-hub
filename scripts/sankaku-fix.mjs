@@ -14,26 +14,55 @@ const SOURCE = {
   accent: "#a78bfa"
 };
 
-/*
- * Priority:
- *
- * 1. Official Sankaku RSS
- * 2. RSSHub's Sankaku RSS route
- *
- * We do NOT scrape Recent Posts.
- * We do NOT use bootstrap/cache data.
- */
-const FEEDS = [
-  "https://news.sankakucomplex.com/feed/",
-  "https://news.sankakucomplex.com/?feed=rss2",
-  "https://www.sankakucomplex.com/feed/",
-  "https://rsshub.app/sankakucomplex/post?limit=50&sorted=true",
-  "https://rsshub.app/sankakucomplex/post.rss?limit=50&sorted=true"
+const FEED_PLANS = [
+  {
+    transport: "direct",
+    url: "https://news.sankakucomplex.com/feed/",
+    sourceUrl: "https://news.sankakucomplex.com/feed/"
+  },
+  {
+    transport: "direct",
+    url: "https://news.sankakucomplex.com/?feed=rss2",
+    sourceUrl: "https://news.sankakucomplex.com/?feed=rss2"
+  },
+  {
+    transport: "direct",
+    url: "https://www.sankakucomplex.com/feed/",
+    sourceUrl: "https://www.sankakucomplex.com/feed/"
+  },
+
+  /*
+   * Jina is only a transport layer.
+   * The actual target remains Sankaku's official RSS feed.
+   */
+  {
+    transport: "jina-reader",
+    url: "https://r.jina.ai/https://news.sankakucomplex.com/feed/",
+    sourceUrl: "https://news.sankakucomplex.com/feed/"
+  },
+  {
+    transport: "jina-reader",
+    url: "https://r.jina.ai/https://news.sankakucomplex.com/?feed=rss2",
+    sourceUrl: "https://news.sankakucomplex.com/?feed=rss2"
+  },
+
+  /*
+   * Final RSS fallback.
+   */
+  {
+    transport: "rsshub",
+    url: "https://rsshub.app/sankakucomplex/post?limit=50&sorted=true",
+    sourceUrl: "https://rsshub.app/sankakucomplex/post"
+  },
+  {
+    transport: "rsshub",
+    url: "https://rsshub.app/sankakucomplex/post.rss?limit=50&sorted=true",
+    sourceUrl: "https://rsshub.app/sankakucomplex/post"
+  }
 ];
 
 const parser = new Parser({
   timeout: 30000,
-
   customFields: {
     item: [
       ["media:content", "mediaContent", { keepArray: true }],
@@ -80,7 +109,7 @@ function excerpt(value = "") {
 
   return text.length <= 300
     ? text
-    : text.slice(0, 297).trimEnd() + "…";
+    : `${text.slice(0, 297).trimEnd()}…`;
 }
 
 function cleanTitle(value = "") {
@@ -92,9 +121,7 @@ function cleanTitle(value = "") {
     return "";
   }
 
-  if (
-    /^(?:add\s+comment|\d+\s+comments?)$/i.test(title)
-  ) {
+  if (/^(?:add\s+comment|\d+\s+comments?)$/i.test(title)) {
     return "";
   }
 
@@ -149,14 +176,12 @@ function urlOf(value) {
       return value.href;
     }
 
-    for (
-      const key of [
-        "$",
-        "attrs",
-        "attribute",
-        "content"
-      ]
-    ) {
+    for (const key of [
+      "$",
+      "attrs",
+      "attribute",
+      "content"
+    ]) {
       const nested = urlOf(value[key]);
 
       if (nested) {
@@ -217,8 +242,7 @@ function imageFromText(value = "") {
     ) {
       const raw =
         new RegExp(
-          attr +
-            "\\s*=\\s*[\"']([^\"']+)[\"']",
+          `${attr}\\s*=\\s*["']([^"']+)["']`,
           "i"
         ).exec(tag)?.[1] || "";
 
@@ -372,13 +396,9 @@ function normalize(item) {
 
   return {
     id: hash(
-      "sankaku|" + link
+      `sankaku|${link}`
     ),
 
-    /*
-     * IMPORTANT:
-     * These fields are taken directly from RSS.
-     */
     title,
 
     link,
@@ -418,7 +438,7 @@ async function fetchText(
             "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/154 Safari/537.36",
 
           accept:
-            "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html, text/plain, */*",
+            "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html, application/json, text/plain, */*",
 
           ...(options.headers || {})
         },
@@ -451,6 +471,226 @@ async function fetchText(
   };
 }
 
+function jinaCandidates(
+  body
+) {
+  const candidates =
+    [];
+
+  try {
+    const json =
+      JSON.parse(
+        body
+      );
+
+    const data =
+      json?.data ??
+      json;
+
+    for (
+      const key of [
+        "content",
+        "html",
+        "text"
+      ]
+    ) {
+      if (
+        typeof data?.[key] ===
+          "string" &&
+        data[key].trim()
+      ) {
+        candidates.push(
+          data[key]
+        );
+      }
+    }
+  } catch {
+    /*
+     * Jina may return plain
+     * text instead of JSON.
+     */
+  }
+
+  candidates.push(
+    body
+  );
+
+  return [
+    ...new Set(
+      candidates.filter(
+        value =>
+          String(
+            value
+          ).trim()
+      )
+    )
+  ];
+}
+
+function parseJinaMarkdown(
+  content
+) {
+  const text =
+    String(
+      content || ""
+    );
+
+  const matches = [
+    ...text.matchAll(
+      /\[([^\]]+)\]\((https?:\/\/news\.sankakucomplex\.com\/n\/[^)\s]+)\)/gi
+    )
+  ];
+
+  if (
+    !matches.length
+  ) {
+    return [];
+  }
+
+  const items =
+    [];
+
+  for (
+    let i = 0;
+    i < matches.length;
+    i++
+  ) {
+    const match =
+      matches[i];
+
+    const title =
+      cleanTitle(
+        match[1] || ""
+      );
+
+    const link =
+      match[2];
+
+    if (
+      !title ||
+      !realSankakuUrl(
+        link
+      )
+    ) {
+      continue;
+    }
+
+    const start =
+      match.index +
+      match[0].length;
+
+    const end =
+      matches[i + 1]
+        ?.index ??
+      text.length;
+
+    const block =
+      text.slice(
+        start,
+        end
+      );
+
+    const dateMatch =
+      block.match(
+        /\b(?:20\d{2}[-/.]\d{1,2}[-/.]\d{1,2}(?:[T ]\d{1,2}:\d{2}(?::\d{2})?(?:Z|[+-]\d{2}:?\d{2})?)?|[A-Z][a-z]{2,8}\s+\d{1,2},\s+20\d{2})\b/
+      );
+
+    const cleaned =
+      block
+        .replace(
+          /\[[^\]]+\]\([^)]+\)/g,
+          " "
+        )
+        .replace(
+          /https?:\/\/\S+/g,
+          " "
+        )
+        .replace(
+          /\b(?:published|updated|date)\s*:\s*/gi,
+          " "
+        )
+        .replace(
+          /[*#>_`]/g,
+          " "
+        )
+        .replace(
+          /\s+/g,
+          " "
+        )
+        .trim();
+
+    items.push({
+      title,
+      link,
+      pubDate:
+        dateMatch?.[0] ||
+        "",
+      description:
+        cleaned
+    });
+  }
+
+  return items;
+}
+
+async function parseFeedResponse(
+  body,
+  isJina
+) {
+  const candidates =
+    isJina
+      ? jinaCandidates(
+          body
+        )
+      : [body];
+
+  for (
+    const candidate of
+      candidates
+  ) {
+    try {
+      const feed =
+        await parser.parseString(
+          candidate
+        );
+
+      if (
+        (
+          feed.items ||
+          []
+        ).length
+      ) {
+        return feed;
+      }
+    } catch {
+      /*
+       * Try another
+       * representation.
+       */
+    }
+  }
+
+  if (
+    isJina
+  ) {
+    const markdownItems =
+      candidates.flatMap(
+        parseJinaMarkdown
+      );
+
+    if (
+      markdownItems.length
+    ) {
+      return {
+        items:
+          markdownItems
+      };
+    }
+  }
+
+  return null;
+}
+
 function metaContent(
   html,
   key
@@ -481,20 +721,20 @@ function metaContent(
   return "";
 }
 
-/*
- * Article pages are ONLY used for missing images.
- *
- * We deliberately do NOT read title/date/description here.
- * Those must remain the RSS values.
- */
 async function imageFallback(
   article,
   debug
 ) {
-  if (article.image) {
+  if (
+    article.image
+  ) {
     return article;
   }
 
+  /*
+   * Direct article page.
+   * Image only.
+   */
   try {
     const direct =
       await fetchText(
@@ -515,7 +755,7 @@ async function imageFallback(
         article.link,
 
       method:
-        "direct",
+        "direct-html",
 
       status:
         direct.status,
@@ -554,7 +794,7 @@ async function imageFallback(
         article.link,
 
       method:
-        "direct",
+        "direct-html",
 
       error:
         String(
@@ -565,19 +805,12 @@ async function imageFallback(
   }
 
   /*
-   * Jina fallback for image only.
+   * Jina article fallback.
+   * Image only.
    */
   try {
-    const id =
-      article.link.split(
-        "/n/"
-      )[1] || "";
-
     const jina =
-      "https://r.jina.ai/http://news.sankakucomplex.com/n/" +
-      encodeURIComponent(id) +
-      "?t=" +
-      Date.now();
+      `https://r.jina.ai/${article.link}`;
 
     const result =
       await fetchText(
@@ -587,6 +820,9 @@ async function imageFallback(
             40000,
 
           headers: {
+            accept:
+              "application/json, text/plain, */*",
+
             "x-no-cache":
               "true",
 
@@ -616,20 +852,30 @@ async function imageFallback(
       result.status <
         300
     ) {
-      const image =
-        metaContent(
-          result.body,
-          "og:image"
-        ) ||
-        imageFromText(
+      const candidates =
+        jinaCandidates(
           result.body
         );
 
-      if (image) {
-        return {
-          ...article,
-          image
-        };
+      for (
+        const candidate of
+          candidates
+      ) {
+        const image =
+          metaContent(
+            candidate,
+            "og:image"
+          ) ||
+          imageFromText(
+            candidate
+          );
+
+        if (image) {
+          return {
+            ...article,
+            image
+          };
+        }
       }
     }
   } catch (
@@ -667,6 +913,12 @@ async function enrichImages(
         0,
         40
       );
+
+  if (
+    !queue.length
+  ) {
+    return items;
+  }
 
   const results =
     [];
@@ -732,9 +984,13 @@ const debug = {
   generatedAt:
     new Date().toISOString(),
 
-  feedAttempts: [],
+  feedAttempts:
+    [],
 
   selectedFeed:
+    null,
+
+  selectedTransport:
     null,
 
   rssCount:
@@ -753,7 +1009,7 @@ const debug = {
     [],
 
   note:
-    "Sankaku title, description, date and link come from RSS. Article pages are used only for missing images. No old Sankaku cache is merged."
+    "Sankaku title, description, date and link come from RSS. Direct official RSS is tried first; Jina Reader may transport the exact official RSS URL when the GitHub runner is rejected. Article pages are used only for missing images. No old Sankaku cache is merged."
 };
 
 const payload =
@@ -764,13 +1020,11 @@ const payload =
     )
   );
 
-/*
- * Remove ALL existing Sankaku entries first.
- * Therefore bootstrap data can never survive a
- * successful refresh.
- */
 const existingOther =
-  (payload.articles || []).filter(
+  (
+    payload.articles ||
+    []
+  ).filter(
     item =>
       item?.source?.id !==
       "sankaku"
@@ -780,30 +1034,58 @@ let selected =
   null;
 
 for (
-  const feedUrl of
-    FEEDS
+  const plan of
+    FEED_PLANS
 ) {
   try {
     const result =
       await fetchText(
-        feedUrl,
+        plan.url,
         {
           timeout:
-            30000,
+            plan.transport ===
+            "jina-reader"
+              ? 45000
+              : 30000,
 
-          headers: {
-            "cache-control":
-              "no-cache",
+          headers:
+            plan.transport ===
+            "jina-reader"
+              ? {
+                  accept:
+                    "application/json",
 
-            pragma:
-              "no-cache"
-          }
+                  "x-respond-with":
+                    "html",
+
+                  "x-engine":
+                    "direct",
+
+                  "x-no-cache":
+                    "true",
+
+                  "x-cache-tolerance":
+                    "0"
+                }
+              : {
+                  "cache-control":
+                    "no-cache",
+
+                  pragma:
+                    "no-cache"
+                }
         }
       );
 
     const attempt = {
       url:
-        feedUrl,
+        plan.url,
+
+      sourceFeed:
+        plan.sourceUrl,
+
+      transport:
+        plan.transport,
 
       status:
         result.status,
@@ -839,16 +1121,54 @@ for (
     }
 
     const feed =
-      await parser.parseString(
-        result.body
+      await parseFeedResponse(
+        result.body,
+        plan.transport ===
+          "jina-reader"
       );
 
+    if (!feed) {
+      attempt.parseError =
+        "Response could not be parsed as RSS/Atom";
+
+      debug.feedAttempts.push(
+        attempt
+      );
+
+      continue;
+    }
+
     const items =
-      (feed.items || [])
+      (
+        feed.items ||
+        []
+      )
         .map(
           normalize
         )
-        .filter(Boolean);
+        .filter(
+          Boolean
+        )
+        .sort(
+          (a, b) => {
+            const left =
+              Date.parse(
+                a.publishedAt ||
+                  ""
+              ) || 0;
+
+            const right =
+              Date.parse(
+                b.publishedAt ||
+                  ""
+              ) || 0;
+
+            return (
+              right -
+              left
+            );
+          }
+        );
 
     attempt.count =
       items.length;
@@ -894,12 +1214,6 @@ for (
           )
         : 0;
 
-    /*
-     * Select the feed with the newest article.
-     *
-     * This means if official RSS is 4 days old
-     * and RSSHub has today's articles, RSSHub wins.
-     */
     if (
       !selected ||
       latest >
@@ -912,20 +1226,57 @@ for (
       )
     ) {
       selected = {
-        url:
-          feedUrl,
-
+        ...plan,
         latest,
-
         items
       };
+    }
+
+    /*
+     * Stop once an official feed is fresh.
+     *
+     * If direct RSS is stale, keep going so Jina
+     * can fetch the exact same official RSS URL
+     * through another network path.
+     */
+    const selectedAgeMs =
+      selected.latest
+        ? Date.now() -
+          selected.latest
+        : Infinity;
+
+    const freshEnough =
+      selectedAgeMs >=
+        0 &&
+      selectedAgeMs <=
+        36 *
+          60 *
+          60 *
+          1000;
+
+    if (
+      (
+        plan.transport ===
+          "direct" ||
+        plan.transport ===
+          "jina-reader"
+      ) &&
+      freshEnough
+    ) {
+      break;
     }
   } catch (
     error
   ) {
     debug.feedAttempts.push({
       url:
-        feedUrl,
+        plan.url,
+
+      sourceFeed:
+        plan.sourceUrl,
+
+      transport:
+        plan.transport,
 
       error:
         String(
@@ -937,20 +1288,10 @@ for (
 }
 
 if (
-  selected &&
-  selected.items.length
+  selected?.items?.length
 ) {
   let sankaku =
     selected.items
-      .map(
-        item => ({
-          ...item,
-
-          source: {
-            ...SOURCE
-          }
-        })
-      )
       .sort(
         (a, b) => {
           const left =
@@ -976,9 +1317,6 @@ if (
         60
       );
 
-  /*
-   * Only missing images may be enriched.
-   */
   sankaku =
     await enrichImages(
       sankaku,
@@ -998,8 +1336,16 @@ if (
         Number.isFinite
       );
 
+  /*
+   * Keep selectedFeed as the real
+   * Sankaku feed URL even when Jina
+   * transported the request.
+   */
   debug.selectedFeed =
-    selected.url;
+    selected.sourceUrl;
+
+  debug.selectedTransport =
+    selected.transport;
 
   debug.rssCount =
     selected.items.length;
@@ -1025,11 +1371,6 @@ if (
       ).toISOString();
   }
 
-  /*
-   * Complete replacement.
-   *
-   * NOTHING from old Sankaku data is merged.
-   */
   payload.articles =
     [
       ...existingOther,
@@ -1060,37 +1401,56 @@ if (
         500
       );
 
+  payload.sourceResults =
+    payload.sourceResults ||
+    [];
+
   const sourceResult =
-    (
-      payload.sourceResults ||
-      []
-    ).find(
+    payload.sourceResults.find(
       item =>
         item.id ===
         "sankaku"
     );
 
+  const sankakuResult = {
+    id:
+      "sankaku",
+
+    name:
+      SOURCE.name,
+
+    status:
+      "ok",
+
+    mode:
+      selected.transport,
+
+    feedUrl:
+      selected.sourceUrl,
+
+    count:
+      sankaku.length
+  };
+
   if (
     sourceResult
   ) {
-    sourceResult.status =
-      "ok";
-
-    sourceResult.mode =
-      "rss";
-
-    sourceResult.count =
-      sankaku.length;
-
-    sourceResult.feedUrl =
-      selected.url;
+    Object.assign(
+      sourceResult,
+      sankakuResult
+    );
+  } else {
+    payload.sourceResults.push(
+      sankakuResult
+    );
   }
+
+  console.log(
+    `Sankaku RSS refresh: ${sankaku.length} stories via ${selected.transport} (${selected.sourceUrl})`
+  );
 } else {
   /*
-   * No feed worked.
-   *
-   * Do NOT publish the 4-day-old bootstrap.
-   * Sankaku simply disappears for this build.
+   * Never publish stale Sankaku cache.
    */
   payload.articles =
     existingOther;
@@ -1099,14 +1459,19 @@ if (
     0;
 
   debug.note =
-    "All Sankaku RSS endpoints failed. Sankaku was removed from this build instead of publishing stale cached stories.";
+    "All Sankaku RSS transports failed. Sankaku was removed from this build instead of publishing stale cached stories.";
+
+  console.log(
+    "Sankaku RSS refresh: 0 stories from no feed"
+  );
 }
 
 payload.generatedAt =
   new Date().toISOString();
 
 payload.stats =
-  payload.stats || {};
+  payload.stats ||
+  {};
 
 payload.stats.articleCount =
   payload.articles.length;
@@ -1155,9 +1520,5 @@ await fs.writeFile(
 );
 
 console.log(
-  "Sankaku RSS refresh: " +
-  debug.finalCount +
-  " stories from " +
-  (debug.selectedFeed ||
-    "no feed")
+  `Sankaku final: ${debug.finalCount} stories; newest=${debug.newest || "n/a"}; transport=${debug.selectedTransport || "none"}`
 );

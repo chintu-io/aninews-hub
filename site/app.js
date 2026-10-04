@@ -202,6 +202,34 @@ function thumbnail(article) {
     `;
   }
 
+  let imageUrl = article.image;
+
+  /*
+   * Sankaku images are proxied through wsrv.nl because Sankaku's
+   * image host can reject direct hotlink requests from GitHub Pages.
+   *
+   * The original image URL remains in articles.json.
+   */
+  if (
+    article.source?.id === "sankaku" &&
+    /^https?:\/\//i.test(article.image)
+  ) {
+    imageUrl =
+      "https://wsrv.nl/?url=" +
+      encodeURIComponent(article.image) +
+      "&w=900&fit=inside&we";
+  }
+
+  return `
+    <div class="story-image">
+      <img src="${esc(imageUrl)}"
+           alt=""
+           loading="lazy"
+           onerror="this.parentElement.classList.add('image-failed')">
+    </div>
+  `;
+}
+
   return `
     <div class="story-image">
       <img src="${esc(article.image)}"

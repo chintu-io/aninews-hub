@@ -37,6 +37,9 @@ jobs:
       - name: Fetch feeds
         run: npm run fetch
 
+      - name: Refresh Sankaku current posts
+        run: node scripts/sankaku-fix.mjs
+
       - name: Generate RSS feeds
         run: |
           node --input-type=module <<'NODE'

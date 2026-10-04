@@ -41,7 +41,9 @@ function relativeDate(value) {
     return "unknown";
   }
 
-  const minutes = Math.floor((Date.now() - date.getTime()) / 60000);
+  const minutes = Math.floor(
+    (Date.now() - date.getTime()) / 60000
+  );
 
   if (minutes < 1) return "just now";
   if (minutes < 60) return `${minutes}m ago`;
@@ -58,51 +60,70 @@ function relativeDate(value) {
 }
 
 function renderNavigation() {
-  const sources = state.payload?.sources || [];
+  const sources =
+    state.payload?.sources || [];
 
-  $("#sourceNav").innerHTML = sources.map(source => `
-    <a href="${esc(source.siteUrl)}"
-       target="_blank"
-       rel="noopener noreferrer">
-      ${esc(source.name)}
-    </a>
-  `).join("");
+  $("#sourceNav").innerHTML =
+    sources.map(source => `
+      <a href="${esc(source.siteUrl)}"
+         target="_blank"
+         rel="noopener noreferrer">
+        ${esc(source.name)}
+      </a>
+    `).join("");
 
-  $("#sources").innerHTML = sources.map(source => {
-    const result = state.payload?.sourceResults?.find(
-      item => item.id === source.id
-    );
+  $("#sources").innerHTML =
+    sources.map(source => {
+      const result =
+        state.payload?.sourceResults?.find(
+          item => item.id === source.id
+        );
 
-    const status =
-      result?.status === "ok"
-        ? `${result.count} stories`
-        : "unavailable";
+      const status =
+        result?.status === "ok"
+          ? `${result.count} stories`
+          : "unavailable";
 
-    return `
-      <div class="source-item" style="display:flex;align-items:center;justify-content:space-between;gap:10px;">
-        <a class="source-link"
-           style="display:block;min-width:0;flex:1;text-decoration:none;"
-           href="${esc(source.siteUrl)}"
-           target="_blank"
-           rel="noopener noreferrer">
-          <span class="source-name">${esc(source.name)}</span>
-          <span class="source-meta">${esc(status)}</span>
-        </a>
+      return `
+        <div class="source-item"
+             style="display:flex;align-items:center;justify-content:space-between;gap:10px;">
 
-        <a class="source-rss"
-           style="display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:26px;padding:0 7px;border:1px solid rgba(167,139,250,.25);border-radius:8px;background:rgba(167,139,250,.08);color:var(--muted);text-decoration:none;font-size:8px;font-weight:800;letter-spacing:.08em;transition:.18s ease;"
-           href="rss/${encodeURIComponent(source.id)}.xml"
-           target="_blank"
-           rel="noopener noreferrer"
-           title="${esc(source.name)} RSS feed"
-           aria-label="${esc(source.name)} RSS feed">
-          <span class="rss-glyph" aria-hidden="true">RSS</span>
-        </a>
-      </div>
-    `;
-  }).join("");
+          <a class="source-link"
+             style="display:block;min-width:0;flex:1;text-decoration:none;"
+             href="${esc(source.siteUrl)}"
+             target="_blank"
+             rel="noopener noreferrer">
 
-  const asideCopy = $(".aside-copy");
+            <span class="source-name">
+              ${esc(source.name)}
+            </span>
+
+            <span class="source-meta">
+              ${esc(status)}
+            </span>
+
+          </a>
+
+          <a class="source-rss"
+             style="display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:26px;padding:0 7px;border:1px solid rgba(167,139,250,.25);border-radius:8px;background:rgba(167,139,250,.08);color:var(--muted);text-decoration:none;font-size:8px;font-weight:800;letter-spacing:.08em;transition:.18s ease;"
+             href="rss/${encodeURIComponent(source.id)}.xml"
+             target="_blank"
+             rel="noopener noreferrer"
+             title="${esc(source.name)} RSS feed"
+             aria-label="${esc(source.name)} RSS feed">
+
+            <span class="rss-glyph" aria-hidden="true">
+              RSS
+            </span>
+
+          </a>
+
+        </div>
+      `;
+    }).join("");
+
+  const asideCopy =
+    $(".aside-copy");
 
   if (asideCopy) {
     asideCopy.innerHTML = `
@@ -111,10 +132,18 @@ function renderNavigation() {
         Full stories remain on the original sites.
       </p>
 
-      <div class="rss-all" style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line);">
+      <div class="rss-all"
+           style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line);">
+
         <div>
-          <span class="rss-all-label" style="display:block;color:var(--faint);font-size:8px;letter-spacing:.12em;font-weight:800;">ALL SOURCES</span>
-          <strong style="display:block;margin-top:4px;font-size:11px;">Combined RSS feed</strong>
+          <span class="rss-all-label"
+                style="display:block;color:var(--faint);font-size:8px;letter-spacing:.12em;font-weight:800;">
+            ALL SOURCES
+          </span>
+
+          <strong style="display:block;margin-top:4px;font-size:11px;">
+            Combined RSS feed
+          </strong>
         </div>
 
         <a class="source-rss rss-all-button"
@@ -124,53 +153,85 @@ function renderNavigation() {
            rel="noopener noreferrer"
            title="All AniNews Hub stories RSS feed"
            aria-label="All AniNews Hub stories RSS feed">
-          <span class="rss-glyph" aria-hidden="true">RSS</span>
+
+          <span class="rss-glyph" aria-hidden="true">
+            RSS
+          </span>
+
         </a>
+
       </div>
     `;
   }
 }
 
 function renderFilters() {
-  const sources = state.payload?.sources || [];
+  const sources =
+    state.payload?.sources || [];
 
   $("#filters").innerHTML = [
-    `<button type="button" class="active" data-source="all">All</button>`,
+    `<button type="button"
+             class="active"
+             data-source="all">
+       All
+     </button>`,
+
     ...sources.map(source => `
-      <button type="button" data-source="${esc(source.id)}">
+      <button type="button"
+              data-source="${esc(source.id)}">
         ${esc(source.short)}
       </button>
     `)
   ].join("");
 
-  $("#filters").querySelectorAll("button").forEach(button => {
-    button.addEventListener("click", () => {
-      state.source = button.dataset.source;
-      syncFilters();
-      renderStories();
+  $("#filters")
+    .querySelectorAll("button")
+    .forEach(button => {
+      button.addEventListener(
+        "click",
+        () => {
+          state.source =
+            button.dataset.source;
+
+          syncFilters();
+          renderStories();
+        }
+      );
     });
-  });
 }
 
 function syncFilters() {
-  $("#filters").querySelectorAll("button").forEach(button => {
-    button.classList.toggle(
-      "active",
-      button.dataset.source === state.source
+  $("#filters")
+    .querySelectorAll("button")
+    .forEach(button => {
+      button.classList.toggle(
+        "active",
+        button.dataset.source ===
+          state.source
+      );
+    });
+
+  const source =
+    state.payload?.sources?.find(
+      item =>
+        item.id ===
+        state.source
     );
-  });
 
-  const source = state.payload?.sources?.find(
-    item => item.id === state.source
-  );
-
-  $("#heading").textContent = source?.name || "All stories";
+  $("#heading").textContent =
+    source?.name ||
+    "All stories";
 }
 
 function matches(article) {
-  const query = state.query.trim().toLowerCase();
+  const query =
+    state.query
+      .trim()
+      .toLowerCase();
 
-  if (!query) return true;
+  if (!query) {
+    return true;
+  }
 
   return [
     article.title,
@@ -184,12 +245,18 @@ function matches(article) {
 }
 
 function getStories() {
-  return (state.payload?.articles || []).filter(article => {
+  return (
+    state.payload?.articles || []
+  ).filter(article => {
     const sourceMatches =
       state.source === "all" ||
-      article.source?.id === state.source;
+      article.source?.id ===
+        state.source;
 
-    return sourceMatches && matches(article);
+    return (
+      sourceMatches &&
+      matches(article)
+    );
   });
 }
 
@@ -197,26 +264,39 @@ function thumbnail(article) {
   if (!article.image) {
     return `
       <div class="story-image fallback">
-        <span>${esc(article.source?.short || "NEWS")}</span>
+        <span>
+          ${esc(
+            article.source?.short ||
+            "NEWS"
+          )}
+        </span>
       </div>
     `;
   }
 
-  let imageUrl = article.image;
+  let imageUrl =
+    article.image;
 
   /*
-   * Sankaku images are proxied through wsrv.nl because Sankaku's
-   * image host can reject direct hotlink requests from GitHub Pages.
+   * Sankaku images are proxied through
+   * wsrv.nl because direct hotlinking can
+   * fail from GitHub Pages.
    *
-   * The original image URL remains in articles.json.
+   * The original image URL remains in
+   * articles.json.
    */
   if (
-    article.source?.id === "sankaku" &&
-    /^https?:\/\//i.test(article.image)
+    article.source?.id ===
+      "sankaku" &&
+    /^https?:\/\//i.test(
+      article.image
+    )
   ) {
     imageUrl =
       "https://wsrv.nl/?url=" +
-      encodeURIComponent(article.image) +
+      encodeURIComponent(
+        article.image
+      ) +
       "&w=900&fit=inside&we";
   }
 
@@ -230,147 +310,255 @@ function thumbnail(article) {
   `;
 }
 
-  return `
-    <div class="story-image">
-      <img src="${esc(article.image)}"
-           alt=""
-           loading="lazy"
-           referrerpolicy="no-referrer"
-           onerror="this.style.opacity='0'">
-    </div>
-  `;
-}
-
 function renderStories() {
-  const stories = getStories();
+  const stories =
+    getStories();
 
   $("#count").textContent =
-    `${stories.length.toLocaleString()} ${stories.length === 1 ? "story" : "stories"}`;
+    `${stories.length.toLocaleString()} ${
+      stories.length === 1
+        ? "story"
+        : "stories"
+    }`;
 
-  $("#empty").hidden = stories.length > 0;
+  $("#empty").hidden =
+    stories.length > 0;
 
-  $("#grid").innerHTML = stories.map((article, index) => `
-    <a class="story"
-       href="${esc(article.link)}"
-       target="_blank"
-       rel="noopener noreferrer">
-      <div class="story-index">
-        <span>${String(index + 1).padStart(2, "0")}</span>
-        <small>${esc(article.source?.short || "News")}</small>
-      </div>
+  $("#grid").innerHTML =
+    stories.map(
+      (article, index) => `
+        <a class="story"
+           href="${esc(article.link)}"
+           target="_blank"
+           rel="noopener noreferrer">
 
-      ${thumbnail(article)}
+          <div class="story-index">
+            <span>
+              ${String(
+                index + 1
+              ).padStart(2, "0")}
+            </span>
 
-      <div class="story-content">
-        <div class="story-source">
-          ${esc(article.source?.name || "Publisher")}
-          <span>·</span>
-          ${esc(relativeDate(article.publishedAt))}
-        </div>
+            <small>
+              ${esc(
+                article.source?.short ||
+                "News"
+              )}
+            </small>
+          </div>
 
-        <h3>${esc(article.title)}</h3>
+          ${thumbnail(article)}
 
-        <p>
-          ${esc(
-            article.excerpt ||
-            "Open the original publisher for the complete story."
-          )}
-        </p>
-      </div>
+          <div class="story-content">
 
-      <span class="story-arrow">↗</span>
-    </a>
-  `).join("");
+            <div class="story-source">
+              ${esc(
+                article.source?.name ||
+                "Publisher"
+              )}
+
+              <span>·</span>
+
+              ${esc(
+                relativeDate(
+                  article.publishedAt
+                )
+              )}
+            </div>
+
+            <h3>
+              ${esc(article.title)}
+            </h3>
+
+            <p>
+              ${esc(
+                article.excerpt ||
+                "Open the original publisher for the complete story."
+              )}
+            </p>
+
+          </div>
+
+          <span class="story-arrow">
+            ↗
+          </span>
+
+        </a>
+      `
+    ).join("");
 }
 
 function renderStats() {
-  const payload = state.payload;
-  const articles = payload?.articles || [];
-  const newest = articles.find(article => article.publishedAt);
-  const failed = payload?.stats?.failedSources || 0;
+  const payload =
+    state.payload;
 
-  $("#storyCount").textContent = articles.length.toLocaleString();
+  const articles =
+    payload?.articles || [];
+
+  const newest =
+    articles.find(
+      article =>
+        article.publishedAt
+    );
+
+  const failed =
+    payload?.stats
+      ?.failedSources || 0;
+
+  $("#storyCount").textContent =
+    articles.length.toLocaleString();
+
   $("#sourceCount").textContent =
-    String(payload?.stats?.sourceCount ?? "—");
+    String(
+      payload?.stats?.sourceCount ??
+      "—"
+    );
+
   $("#latest").textContent =
-    newest ? relativeDate(newest.publishedAt) : "—";
+    newest
+      ? relativeDate(
+          newest.publishedAt
+        )
+      : "—";
 
-  $("#updated").textContent = payload?.generatedAt
-    ? `updated ${relativeDate(payload.generatedAt)}`
-    : "waiting for update";
+  $("#updated").textContent =
+    payload?.generatedAt
+      ? `updated ${relativeDate(
+          payload.generatedAt
+        )}`
+      : "waiting for update";
 
-  $("#status").textContent = failed
-    ? `${failed} source${failed === 1 ? "" : "s"} unavailable`
-    : "all configured sources refreshed";
+  $("#status").textContent =
+    failed
+      ? `${failed} source${
+          failed === 1
+            ? ""
+            : "s"
+        } unavailable`
+      : "all configured sources refreshed";
 }
 
 async function load() {
-  $("#status").textContent = "Refreshing";
+  $("#status").textContent =
+    "Refreshing";
 
   try {
-    const response = await fetch(
-      `data/articles.json?ts=${Date.now()}`,
-      { cache: "no-store" }
-    );
+    const response =
+      await fetch(
+        `data/articles.json?ts=${Date.now()}`,
+        {
+          cache: "no-store"
+        }
+      );
 
     if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
+      throw new Error(
+        `HTTP ${response.status}`
+      );
     }
 
-    state.payload = await response.json();
+    state.payload =
+      await response.json();
 
     renderStats();
     renderNavigation();
     renderFilters();
     syncFilters();
     renderStories();
+
   } catch (error) {
     console.error(error);
 
-    $("#status").textContent = "Unable to load news";
+    $("#status").textContent =
+      "Unable to load news";
 
     $("#grid").innerHTML = `
       <div class="empty">
-        <h3>No story data yet.</h3>
-        <p>Run the GitHub Actions refresh.</p>
+
+        <h3>
+          No story data yet.
+        </h3>
+
+        <p>
+          Run the GitHub Actions refresh.
+        </p>
+
       </div>
     `;
   }
 }
 
-$("#search").addEventListener("input", event => {
-  state.query = event.target.value;
-  renderStories();
-});
+$("#search")
+  .addEventListener(
+    "input",
+    event => {
+      state.query =
+        event.target.value;
 
-$("#refresh").addEventListener("click", load);
-
-$("#theme").addEventListener("click", () => {
-  document.documentElement.classList.toggle("light");
-
-  const light = document.documentElement.classList.contains("light");
-
-  localStorage.setItem(
-    "aninews-theme",
-    light ? "light" : "dark"
+      renderStories();
+    }
   );
 
-  $("#theme").textContent = light ? "Dark" : "Light";
-});
+$("#refresh")
+  .addEventListener(
+    "click",
+    load
+  );
 
-window.addEventListener("keydown", event => {
-  if (
-    event.key === "/" &&
-    document.activeElement?.tagName !== "INPUT"
-  ) {
-    event.preventDefault();
-    $("#search").focus();
+$("#theme")
+  .addEventListener(
+    "click",
+    () => {
+      document.documentElement
+        .classList.toggle(
+          "light"
+        );
+
+      const light =
+        document.documentElement
+          .classList.contains(
+            "light"
+          );
+
+      localStorage.setItem(
+        "aninews-theme",
+        light
+          ? "light"
+          : "dark"
+      );
+
+      $("#theme").textContent =
+        light
+          ? "Dark"
+          : "Light";
+    }
+  );
+
+window.addEventListener(
+  "keydown",
+  event => {
+    if (
+      event.key === "/" &&
+      document.activeElement
+        ?.tagName !== "INPUT"
+    ) {
+      event.preventDefault();
+
+      $("#search").focus();
+    }
   }
-});
+);
 
-if (localStorage.getItem("aninews-theme") === "light") {
-  document.documentElement.classList.add("light");
-  $("#theme").textContent = "Dark";
+if (
+  localStorage.getItem(
+    "aninews-theme"
+  ) === "light"
+) {
+  document.documentElement
+    .classList.add("light");
+
+  $("#theme").textContent =
+    "Dark";
 }
 
 load();

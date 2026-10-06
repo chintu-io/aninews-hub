@@ -1,4 +1,3 @@
-
 import fs from "node:fs/promises";
 
 const SITE_URL = "https://chintune.github.io/aninews-hub/";

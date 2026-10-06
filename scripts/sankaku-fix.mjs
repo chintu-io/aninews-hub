@@ -913,7 +913,11 @@ async function enrichSankakuDescriptions(
             hasDescription:
               Boolean(
                 metadata.description
-              )
+              ),
+            sample:
+              debug.descriptionAttempts.length === 0
+                ? result.body.slice(0, 8000)
+                : undefined
           });
 
           results.push({

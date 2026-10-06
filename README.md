@@ -1,50 +1,70 @@
-# [AniNews Hub](https://chintune.github.io/aninews-hub/)
+# 🌸 AniNews Hub
 
-A personal RSS reader for anime, Japan and culture news.
+<p align="center">
+  <a href="https://chintune.github.io/aninews-hub/">
+    <img src="https://raw.githubusercontent.com/chintune/aninews-hub/main/site/favicon.svg" alt="AniNews Hub" width="96">
+  </a>
+</p>
 
-## Sources
+<h1 align="center">AniNews Hub</h1>
 
-- Sankaku Complex — https://news.sankakucomplex.com/
-- SoraNews24 — https://soranews24.com/
-- Anime News Network — https://www.animenewsnetwork.com/news/
-- Crunchyroll News — https://www.crunchyroll.com/news
+<p align="center"><strong>Anime, Japan, music and culture news — gathered in one clean, fast reader.</strong></p>
 
-The reader uses the publishers' feeds and sends each story to the original publisher.
+<p align="center"><a href="https://chintune.github.io/aninews-hub/"><strong>🌐 Open AniNews Hub</strong></a></p>
 
-## Updating
+<p align="center">
+  <img src="https://img.shields.io/badge/Updates-Every%2030%20minutes-7c5cff?style=for-the-badge" alt="Updates every 30 minutes">
+  <img src="https://img.shields.io/badge/Language-English%20%2B%20Japanese%20%E2%86%92%20English-ff7ab6?style=for-the-badge" alt="English and Japanese translated to English">
+</p>
 
-GitHub Actions refreshes the feed data every 30 minutes and deploys the site to GitHub Pages.
+## 📰 Sources
 
-## Credits
+AniNews Hub currently brings together these publishers:
 
-Stories remain the property of their respective publishers. Full articles are not republished. Each story identifies its source and opens the original publisher's page whenever the feed provides a direct article link.
+| Source | Coverage |
+| --- | --- |
+| **Sankaku Complex** | Anime, manga, games, Japanese pop culture |
+| **SoraNews24** | Japan, culture, travel, food and unusual stories |
+| **Anime News Network** | Anime and manga industry/news coverage |
+| **Crunchyroll News** | Anime, manga, movies, games and industry news |
+| **MyAnimeList** | Anime and manga news |
+| **Kotaku** | Games, anime and pop culture |
+| **Billboard JAPAN** | Japanese music, releases, charts and entertainment |
+| **BARKS** | Japanese music and entertainment news |
+| **OTOTOY** | Japanese music, releases and music culture |
 
-## Seedbox refresh
+## 🇯🇵 Japanese News
 
-For predictable 30-minute updates, feed fetching and RSS generation can run on your always-on seedbox. GitHub Actions is used only to deploy the already-generated `site/` files to GitHub Pages.
+Japanese-language sources are grouped separately in the site and their headlines/excerpts are automatically translated to English for easier reading.
 
-### One-time seedbox setup
+**Billboard JAPAN · BARKS · OTOTOY**
 
-Clone the repository somewhere such as `~/aninews-hub`, install dependencies with `npm ci`, then make `scripts/seedbox-refresh.sh` executable:
+## ✨ What the site provides
 
-```bash
-chmod +x ~/aninews-hub/scripts/seedbox-refresh.sh
-```
+- Latest stories from multiple publishers in one place
+- Source and language filters, search and pagination
+- Dark and light themes with article imagery
+- Direct links to the original publisher
+- Per-source RSS feeds plus one combined RSS feed
 
-The refresh script runs the complete pipeline:
+## 🔄 Updates
 
-```
-fetch feeds → refresh Sankaku → generate RSS → commit generated files → push to main
-```
+News data is refreshed from the configured sources **every 30 minutes**. The website is redeployed when the generated data changes.
 
-Configure a GitHub SSH deploy key with write access to this repository, then test:
+## 📡 RSS
 
-```~/aninews-hub/scripts/seedbox-refresh.sh```
+**Combined:** `https://chintune.github.io/aninews-hub/rss/all.xml`
 
-Finally add a user cron entry:
+Per-source feeds follow the same pattern:
 
-```cron
-*/30 * * * * $HOME/aninews-hub/scripts/seedbox-refresh.sh >> $HOME/aninews-hub/seedbox-refresh.log 2>&1
-```
+- **BARKS:** `https://chintune.github.io/aninews-hub/rss/barks.xml`
+- **OTOTOY:** `https://chintune.github.io/aninews-hub/rss/ototoy.xml`
+- **Billboard JAPAN:** `https://chintune.github.io/aninews-hub/rss/billboardjapan.xml`
 
-The script only pushes when generated data changes, so an unchanged feed does not create a GitHub deployment.
+## 🔗
+
+🌐 **Website:** https://chintune.github.io/aninews-hub/
+
+💻 **Repository:** https://github.com/chintune/aninews-hub
+
+> AniNews Hub aggregates headlines, excerpts and links. Stories remain the property of their respective publishers, and readers are sent to the original source for the full article.

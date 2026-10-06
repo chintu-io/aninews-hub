@@ -3,73 +3,142 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#0b0d12">
-  <meta name="description" content="A personal reader for anime, Japan and culture news.">
-  <title>AniNews Hub</title>
+  <meta name="theme-color" content="#0b0a18">
+  <meta name="description" content="AniNews Hub — a personal anime, Japan and culture news reader.">
+  <title>AniNews Hub — Anime News, Your Way</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
   <header class="topbar">
-    <a class="brand" href="./">
-      <span class="brand-orb"></span>
-      <span>AniNews Hub</span>
-    </a>
+    <div class="topbar-inner">
+      <a class="brand" href="./" aria-label="AniNews Hub home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="brand-star">✦</span>
+        </span>
+        <span class="brand-wordmark">
+          <strong>AniNews</strong>
+          <small>HUB</small>
+        </span>
+      </a>
 
-    <nav id="sourceNav" class="source-nav"></nav>
+      <nav id="sourceNav" class="source-nav" aria-label="News sources"></nav>
 
-    <div class="top-actions">
-      <button id="refresh" type="button">Refresh</button>
-      <button id="theme" type="button">Light</button>
+      <div class="top-actions">
+        <button id="refresh" class="action-button" type="button">
+          <span aria-hidden="true">↻</span>
+          <span>Refresh</span>
+        </button>
+        <button id="theme" class="action-button action-theme" type="button">
+          <span aria-hidden="true">◐</span>
+          <span>Light</span>
+        </button>
+      </div>
     </div>
   </header>
 
   <main class="page">
     <section class="hero">
-      <div>
-        <p class="eyebrow">ANIME · JAPAN · CULTURE</p>
-        <h1>News worth <span>opening.</span></h1>
-        <p class="hero-copy">
-          A clean personal reader for the feeds you follow. Each story keeps
-          its publisher visible and opens the original article.
+      <div class="hero-copy">
+        <div class="kicker">
+          <span class="kicker-dot"></span>
+          <span>ANIME DISPATCH</span>
+          <span class="kicker-jp">ニュース</span>
+        </div>
+
+        <h1>
+          Your daily dose of
+          <span>anime news.</span>
+        </h1>
+
+        <p class="hero-copy-text">
+          One lively place for anime, Japan and culture headlines.
+          Search, filter by publisher, or jump straight to the original story.
         </p>
 
         <div class="hero-status">
-          <span class="status-dot"></span>
-          <span id="status">Loading</span>
-          <span class="separator">·</span>
+          <span class="status-pill">
+            <span class="status-dot"></span>
+            <span id="status">Loading</span>
+          </span>
+          <span class="hero-divider">•</span>
           <span id="updated">Waiting for update</span>
         </div>
       </div>
 
-      <div class="hero-art" aria-hidden="true">
-        <div class="art-ring"></div>
-        <div class="art-spark"></div>
-        <span>ニュース</span>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-orbit orbit-large"></div>
+        <div class="hero-orbit orbit-small"></div>
+        <div class="hero-spark spark-one">✦</div>
+        <div class="hero-spark spark-two">✧</div>
+        <div class="hero-cloud cloud-one"></div>
+        <div class="hero-cloud cloud-two"></div>
+
+        <div class="mascot">
+          <div class="mascot-ear ear-left"></div>
+          <div class="mascot-ear ear-right"></div>
+          <div class="mascot-face">
+            <span class="mascot-eye eye-left"></span>
+            <span class="mascot-eye eye-right"></span>
+            <span class="mascot-blush blush-left"></span>
+            <span class="mascot-blush blush-right"></span>
+            <span class="mascot-mouth">ω</span>
+          </div>
+          <div class="mascot-label">nya!</div>
+        </div>
+
+        <div class="hero-japanese">アニメ<br>ニュース</div>
       </div>
     </section>
 
-    <section class="stats">
-      <div><span>Stories</span><strong id="storyCount">—</strong></div>
-      <div><span>Sources</span><strong id="sourceCount">—</strong></div>
-      <div><span>Newest</span><strong id="latest">—</strong></div>
+    <section class="stats" aria-label="News statistics">
+      <div class="stat-card">
+        <span class="stat-icon" aria-hidden="true">✦</span>
+        <div>
+          <span class="stat-label">Stories</span>
+          <strong id="storyCount">—</strong>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <span class="stat-icon" aria-hidden="true">◎</span>
+        <div>
+          <span class="stat-label">Sources</span>
+          <strong id="sourceCount">—</strong>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <span class="stat-icon" aria-hidden="true">◷</span>
+        <div>
+          <span class="stat-label">Newest</span>
+          <strong id="latest">—</strong>
+        </div>
+      </div>
     </section>
 
-    <section class="controls">
+    <section class="controls" aria-label="Story controls">
       <label class="search">
-        <span>⌕</span>
-        <input id="search" type="search" placeholder="Search stories" autocomplete="off">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="search" type="search" placeholder="Search anime news…" autocomplete="off" spellcheck="false">
         <kbd>/</kbd>
       </label>
 
-      <div id="filters" class="filters"></div>
+      <div id="filters" class="filters" aria-label="Filter by source"></div>
     </section>
 
     <section class="section-head">
       <div>
-        <p class="eyebrow">LATEST STORIES</p>
+        <div class="section-kicker">
+          <span>LATEST</span>
+          <span class="section-kicker-jp">最新ニュース</span>
+        </div>
         <h2 id="heading">All stories</h2>
       </div>
-      <span id="count">0 stories</span>
+      <span id="count" class="result-count">0 stories</span>
     </section>
 
     <section class="layout">
@@ -77,28 +146,49 @@
         <div id="grid" class="story-list"></div>
 
         <div id="empty" class="empty" hidden>
-          <h3>Nothing matched.</h3>
-          <p>Try another search or source.</p>
+          <div class="empty-icon" aria-hidden="true">✧</div>
+          <h3>No stories matched.</h3>
+          <p>Try a different search or choose another source.</p>
         </div>
       </div>
 
-      <aside>
-        <div class="aside-title">
-          <p class="eyebrow">SOURCES</p>
-          <h3>Original publishers</h3>
-        </div>
-        <div id="sources" class="source-list"></div>
+      <aside class="sidebar">
+        <div class="sidebar-card">
+          <div class="sidebar-heading">
+            <div>
+              <div class="section-kicker">
+                <span>FEEDS</span>
+                <span class="section-kicker-jp">配信元</span>
+              </div>
+              <h3>Publishers</h3>
+            </div>
+            <span class="sidebar-badge">RSS</span>
+          </div>
 
-        <div class="aside-copy">
-          Headlines and short excerpts come from the publishers' feeds.
-          Full stories remain on the original sites.
+          <div id="sources" class="source-list"></div>
+
+          <div class="sidebar-note">
+            <span class="sidebar-note-mark">✦</span>
+            Headlines and short excerpts are kept here; full stories open on the original publisher.
+          </div>
+
+          <a class="all-rss-link" href="rss/all.xml" target="_blank" rel="noopener noreferrer">
+            <span>
+              <small>ALL SOURCES</small>
+              <strong>Open combined RSS</strong>
+            </span>
+            <span class="all-rss-arrow" aria-hidden="true">↗</span>
+          </a>
         </div>
       </aside>
     </section>
   </main>
 
   <footer>
-    <strong>AniNews Hub</strong>
+    <div class="footer-brand">
+      <span class="brand-mark brand-mark-small" aria-hidden="true">✦</span>
+      <strong>AniNews Hub</strong>
+    </div>
     <span>Personal RSS reader · content remains with its publishers</span>
   </footer>
 

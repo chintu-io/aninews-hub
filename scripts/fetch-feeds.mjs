@@ -561,7 +561,7 @@ function htmlArticleLinks(html, baseUrl, hostPattern) {
   const seen = new Set();
 
   const anchorRe =
-    /<a\\b[^>]*href\\s*=\\s*["']([^"']+)["'][^>]*>([\\s\\S]*?)<\\/a>/gi;
+    /<a\b[^>]*href\s*=\s*["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
 
   for (const match of source.matchAll(anchorRe)) {
     const href = absoluteUrl(
@@ -569,25 +569,34 @@ function htmlArticleLinks(html, baseUrl, hostPattern) {
       baseUrl
     );
 
-    if (!href) continue;
-
-    if (!hostPattern.test(href)) continue;
+    if (!href || !hostPattern.test(href)) {
+      continue;
+    }
 
     const title = stripHtml(match[2])
-      .replace(/\\s+/g, " ")
+      .replace(/\s+/g, " ")
       .trim();
 
-    if (!title || title.length < 8) continue;
+    if (!title || title.length < 8) {
+      continue;
+    }
 
-    const key = href.replace(/#.*$/, "").replace(/\\/$/, "").toLowerCase();
-    if (seen.has(key)) continue;
+    const key =
+      href
+        .replace(/#.*$/, "")
+        .replace(/\/$/, "")
+        .toLowerCase();
+
+    if (seen.has(key)) {
+      continue;
+    }
 
     seen.add(key);
+
     results.push({
       href,
       title,
-      index: match.index ?? 0,
-      raw: match[0]
+      index: match.index ?? 0
     });
   }
 
@@ -596,29 +605,33 @@ function htmlArticleLinks(html, baseUrl, hostPattern) {
 
 function parseSkreamNewsPage(html) {
   const source = String(html || "");
+
   const links = htmlArticleLinks(
     source,
     "https://skream.jp/news/",
-    /https?:\\/\\/(?:www\\.)?skream\\.jp\\/news\\/\\d{4}\\/\\d{2}\\/[^?#"']+/i
+    /https?:\/\/(?:www\.)?skream\.jp\/news\/\d{4}\/\d{2}\/[^?#"']+/i
   );
 
   const items = [];
 
   for (let i = 0; i < links.length; i++) {
     const current = links[i];
-    const start = Math.max(
-      0,
-      current.index - 1200
-    );
+
+    const start =
+      Math.max(
+        0,
+        current.index - 1400
+      );
+
     const end =
       i + 1 < links.length
         ? Math.min(
             source.length,
-            links[i + 1].index + 1200
+            links[i + 1].index + 900
           )
         : Math.min(
             source.length,
-            current.index + 2600
+            current.index + 2200
           );
 
     const windowText =
@@ -631,15 +644,16 @@ function parseSkreamNewsPage(html) {
 
     const dateMatch =
       windowText.match(
-        /20\\d{2}\\.\\d{1,2}\\.\\d{1,2}(?:\\s+\\d{1,2}:\\d{2})?/
+        /20\d{2}\.\d{1,2}\.\d{1,2}(?:\s+\d{1,2}:\d{2})?/
       );
 
-    const title = current.title
-      .replace(
-        /^(?:Japanese|Overseas)\\s+/i,
-        ""
-      )
-      .trim();
+    const title =
+      current.title
+        .replace(
+          /^(?:Japanese|Overseas)\s+/i,
+          ""
+        )
+        .trim();
 
     if (
       !title ||
@@ -648,10 +662,10 @@ function parseSkreamNewsPage(html) {
       continue;
     }
 
-    let description = "";
-
     const titlePos =
       windowText.indexOf(title);
+
+    let description = "";
 
     if (titlePos >= 0) {
       const after =
@@ -659,19 +673,19 @@ function parseSkreamNewsPage(html) {
           .slice(
             titlePos + title.length
           )
-          .replace(
-            /^(?:\\s*[|•·]\\s*)+/,
-            ""
-          )
           .trim();
 
       const candidate =
         after
-          .split(
-            /\\n+/
-          )
+          .split(/\s{2,}/)
           .map(
-            value => value.trim()
+            value =>
+              value
+                .replace(
+                  /^(?:[|•·]\s*)+/,
+                  ""
+                )
+                .trim()
           )
           .find(
             value =>
@@ -679,15 +693,18 @@ function parseSkreamNewsPage(html) {
               !/^(?:Japanese|Overseas|NEWS)$/i.test(value)
           ) || "";
 
-      description = excerpt(
-        candidate
-      );
+      description =
+        excerpt(
+          candidate
+        );
     }
 
     items.push({
       title,
-      link: current.href,
-      pubDate: dateMatch?.[0] || "",
+      link:
+        current.href,
+      pubDate:
+        dateMatch?.[0] || "",
       description
     });
   }
@@ -719,14 +736,12 @@ async function parseSkreamSource(source) {
     }
   }
 
-  const jinaUrl =
-    "https://r.jina.ai/http://skream.jp/news/";
-
   const jina =
     await fetchUrl(
-      jinaUrl,
+      "https://r.jina.ai/http://skream.jp/news/",
       {
-        timeout: 45000,
+        timeout:
+          45000,
         headers: {
           accept:
             "application/json",

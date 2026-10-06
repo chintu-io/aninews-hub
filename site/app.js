@@ -2,8 +2,10 @@ const state = {
   payload: null,
   source: "all",
   query: "",
+  language: "en",
   page: 1,
-  pageSize: 12
+  pageSize: 12,
+  translationGeneration: 0
 };
 
 const $ = selector => document.querySelector(selector);
@@ -15,6 +17,11 @@ const esc = value =>
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+
+const TRANSLATION_ENDPOINTS = [
+  "https://translate.argosopentech.com/translate",
+  "https://libretranslate.de/translate"
+];
 
 function formatDate(value) {
   if (!value) return "Date unknown";
@@ -43,7 +50,11 @@ function relativeDate(value) {
     return "unknown";
   }
 
-  const minutes = Math.floor((Date.now() - date.getTime()) / 60000);
+  const minutes =
+    Math.floor(
+      (Date.now() - date.getTime()) /
+      60000
+    );
 
   if (minutes < 1) return "just now";
   if (minutes < 60) return minutes + "m ago";
@@ -68,90 +79,564 @@ function isFresh(value) {
     return false;
   }
 
-  const age = Date.now() - date.getTime();
+  const age =
+    Date.now() -
+    date.getTime();
 
-  return age >= 0 && age <= 6 * 60 * 60 * 1000;
+  return (
+    age >= 0 &&
+    age <= 6 * 60 * 60 * 1000
+  );
+}
+
+function hasJapanese(value = "") {
+  return /[\u3040-\u30ff\u3400-\u9fff]/.test(
+    String(value || "")
+  );
+}
+
+function translationCacheRead() {
+  try {
+    return JSON.parse(
+      localStorage.getItem(
+        "aninews-translations-v1"
+      ) || "{}"
+    );
+  } catch {
+    return {};
+  }
+}
+
+function translationCacheWrite(cache) {
+  try {
+    localStorage.setItem(
+      "aninews-translations-v1",
+      JSON.stringify(cache)
+    );
+  } catch {
+    /*
+     * Translation remains usable for
+     * the current session even if
+     * persistent storage is unavailable.
+     */
+  }
+}
+
+async function translateText(text) {
+  const input =
+    String(text || "").trim();
+
+  if (
+    !input ||
+    !hasJapanese(input)
+  ) {
+    return input;
+  }
+
+  for (
+    const endpoint of
+      TRANSLATION_ENDPOINTS
+  ) {
+    try {
+      const response =
+        await fetch(
+          endpoint,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type":
+                "application/json"
+            },
+            body: JSON.stringify({
+              q: input,
+              source: "ja",
+              target: "en",
+              format: "text"
+            }),
+            signal:
+              AbortSignal.timeout(
+                15000
+              )
+          }
+        );
+
+      if (!response.ok) {
+        continue;
+      }
+
+      const data =
+        await response.json();
+
+      const translated =
+        String(
+          data?.translatedText ||
+          ""
+        ).trim();
+
+      if (translated) {
+        return translated;
+      }
+    } catch {
+      /*
+       * Try the next translation
+       * endpoint.
+       */
+    }
+  }
+
+  return input;
+}
+
+async function ensureTranslation(article) {
+  if (
+    article.source?.language !==
+    "ja"
+  ) {
+    return article;
+  }
+
+  const cache =
+    translationCacheRead();
+
+  const originalKey =
+    [
+      article.title || "",
+      article.excerpt || ""
+    ].join("\n");
+
+  const key =
+    article.id +
+    ":" +
+    btoa(
+      unescape(
+        encodeURIComponent(
+          originalKey
+        )
+      )
+    )
+      .replace(
+        /[^a-zA-Z0-9]/g,
+        ""
+      )
+      .slice(
+        0,
+        48
+      );
+
+  if (cache[key]) {
+    return {
+      ...article,
+      translatedTitle:
+        cache[key].title,
+      translatedExcerpt:
+        cache[key].excerpt
+    };
+  }
+
+  const translatedTitle =
+    await translateText(
+      article.title || ""
+    );
+
+  const translatedExcerpt =
+    await translateText(
+      article.excerpt || ""
+    );
+
+  const value = {
+    title:
+      translatedTitle ||
+      article.title ||
+      "",
+    excerpt:
+      translatedExcerpt ||
+      article.excerpt ||
+      ""
+  };
+
+  cache[key] =
+    value;
+
+  translationCacheWrite(
+    cache
+  );
+
+  return {
+    ...article,
+    translatedTitle:
+      value.title,
+    translatedExcerpt:
+      value.excerpt
+  };
+}
+
+async function translateVisibleJapanese(
+  articles
+) {
+  if (
+    state.language !==
+    "ja" ||
+    !articles.length
+  ) {
+    return;
+  }
+
+  const generation =
+    ++state.translationGeneration;
+
+  const queue =
+    [
+      ...articles
+    ];
+
+  const workers =
+    Array.from(
+      {
+        length:
+          Math.min(
+            3,
+            queue.length
+          )
+      },
+      async () => {
+        while (
+          queue.length &&
+          generation ===
+            state.translationGeneration
+        ) {
+          const article =
+            queue.shift();
+
+          if (!article) {
+            return;
+          }
+
+          const translated =
+            await ensureTranslation(
+              article
+            );
+
+          article.translatedTitle =
+            translated.translatedTitle;
+
+          article.translatedExcerpt =
+            translated.translatedExcerpt;
+
+          article.translationReady =
+            true;
+
+          if (
+            generation ===
+            state.translationGeneration
+          ) {
+            const card =
+              document.querySelector(
+                '[data-article-id="' +
+                  CSS.escape(
+                    article.id
+                  ) +
+                '"]'
+              );
+
+            if (card) {
+              const title =
+                card.querySelector(
+                  ".story-title"
+                );
+
+              const excerpt =
+                card.querySelector(
+                  ".story-excerpt"
+                );
+
+              const badge =
+                card.querySelector(
+                  ".story-translation"
+                );
+
+              if (title) {
+                title.textContent =
+                  article.translatedTitle ||
+                  article.title;
+              }
+
+              if (excerpt) {
+                excerpt.textContent =
+                  article.translatedExcerpt ||
+                  article.excerpt ||
+                  "";
+              }
+
+              if (
+                badge &&
+                (
+                  article.translatedTitle !==
+                    article.title ||
+                  article.translatedExcerpt !==
+                    article.excerpt
+                )
+              ) {
+                badge.hidden = false;
+              }
+            }
+          }
+        }
+      }
+    );
+
+  await Promise.all(
+    workers
+  );
 }
 
 function renderNavigation() {
-  const sources = state.payload?.sources || [];
+  const allSources =
+    state.payload?.sources || [];
 
-  $("#sourceNav").innerHTML = sources.map(source =>
-    "<a href=\"" + esc(source.siteUrl) + "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
-      esc(source.name) +
-    "</a>"
-  ).join("");
-
-  $("#sources").innerHTML = sources.map(source => {
-    const result = state.payload?.sourceResults?.find(
-      item => item.id === source.id
+  const sources =
+    allSources.filter(
+      source =>
+        (source.language || "en") ===
+        state.language
     );
 
-    const status =
-      result?.status === "ok"
-        ? result.count + " stories"
-        : "unavailable";
+  $("#sourceNav").innerHTML =
+    sources.map(
+      source =>
+        "<a href=\"" +
+        esc(source.siteUrl) +
+        "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+        esc(source.name) +
+        "</a>"
+    ).join("");
 
-    return (
-      "<div class=\"source-item\">" +
-        "<a class=\"source-link\" href=\"" + esc(source.siteUrl) + "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
-          "<span class=\"source-name\">" + esc(source.name) + "</span>" +
-          "<span class=\"source-meta\">" + esc(status) + "</span>" +
-        "</a>" +
-        "<a class=\"source-rss\" href=\"rss/" + encodeURIComponent(source.id) + ".xml\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"" + esc(source.name) + " RSS feed\" aria-label=\"" + esc(source.name) + " RSS feed\">RSS</a>" +
-      "</div>"
+  $("#sources").innerHTML =
+    sources.map(
+      source => {
+        const result =
+          state.payload?.sourceResults?.find(
+            item =>
+              item.id ===
+              source.id
+          );
+
+        const status =
+          result?.status === "ok"
+            ? result.count +
+              " stories"
+            : "unavailable";
+
+        return (
+          "<div class=\"source-item\">" +
+            "<a class=\"source-link\" href=\"" +
+              esc(source.siteUrl) +
+              "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+              "<span class=\"source-name\">" +
+                esc(source.name) +
+              "</span>" +
+              "<span class=\"source-meta\">" +
+                esc(status) +
+              "</span>" +
+            "</a>" +
+            "<a class=\"source-rss\" href=\"rss/" +
+              encodeURIComponent(source.id) +
+              ".xml\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"" +
+              esc(source.name) +
+              " RSS feed\" aria-label=\"" +
+              esc(source.name) +
+              " RSS feed\">RSS</a>" +
+          "</div>"
+        );
+      }
+    ).join("");
+}
+
+function renderLanguageTabs() {
+  const tabs =
+    document.querySelector(
+      "#languageTabs"
     );
-  }).join("");
+
+  if (!tabs) return;
+
+  const englishCount =
+    (
+      state.payload?.sources ||
+      []
+    ).filter(
+      source =>
+        (source.language || "en") ===
+        "en"
+    ).length;
+
+  const japaneseCount =
+    (
+      state.payload?.sources ||
+      []
+    ).filter(
+      source =>
+        source.language ===
+        "ja"
+    ).length;
+
+  tabs.innerHTML =
+    "<button type=\"button\" class=\"language-tab" +
+    (state.language === "en"
+      ? " active"
+      : "") +
+    "\" data-language=\"en\">" +
+      "<span class=\"language-tab-main\">English</span>" +
+      "<span class=\"language-tab-sub\">" +
+        englishCount +
+        " sources" +
+      "</span>" +
+    "</button>" +
+    "<button type=\"button\" class=\"language-tab" +
+    (state.language === "ja"
+      ? " active"
+      : "") +
+    "\" data-language=\"ja\">" +
+      "<span class=\"language-tab-main\">日本語 → English</span>" +
+      "<span class=\"language-tab-sub\">" +
+        japaneseCount +
+        " sources · auto translated" +
+      "</span>" +
+    "</button>";
+
+  tabs
+    .querySelectorAll(
+      ".language-tab"
+    )
+    .forEach(
+      button => {
+        button.addEventListener(
+          "click",
+          () => {
+            const next =
+              button.dataset.language;
+
+            if (
+              next ===
+              state.language
+            ) {
+              return;
+            }
+
+            state.language =
+              next;
+
+            state.source =
+              "all";
+
+            resetPage();
+            state.translationGeneration++;
+
+            renderLanguageTabs();
+            renderNavigation();
+            renderFilters();
+            syncFilters();
+            renderStories();
+          }
+        );
+      }
+    );
 }
 
 function renderFilters() {
-  const sources = state.payload?.sources || [];
+  const sources =
+    (
+      state.payload?.sources ||
+      []
+    ).filter(
+      source =>
+        (source.language || "en") ===
+        state.language
+    );
 
-  $("#filters").innerHTML = [
-    "<button type=\"button\" class=\"active\" data-source=\"all\">All</button>"
-  ].concat(
-    sources.map(source =>
-      "<button type=\"button\" data-source=\"" + esc(source.id) + "\">" +
-        esc(source.short) +
-      "</button>"
+  $("#filters").innerHTML =
+    [
+      "<button type=\"button\" class=\"active\" data-source=\"all\">All</button>"
+    ].concat(
+      sources.map(
+        source =>
+          "<button type=\"button\" data-source=\"" +
+          esc(source.id) +
+          "\">" +
+          esc(source.short) +
+          "</button>"
+      )
+    ).join("");
+
+  $("#filters")
+    .querySelectorAll(
+      "button"
     )
-  ).join("");
+    .forEach(
+      button => {
+        button.addEventListener(
+          "click",
+          () => {
+            state.source =
+              button.dataset.source;
 
-  $("#filters").querySelectorAll("button").forEach(button => {
-    button.addEventListener("click", () => {
-      state.source = button.dataset.source;
-      resetPage();
-      syncFilters();
-      renderStories();
-    });
-  });
+            resetPage();
+            syncFilters();
+            renderStories();
+          }
+        );
+      }
+    );
 }
 
 function syncFilters() {
-  $("#filters").querySelectorAll("button").forEach(button => {
-    button.classList.toggle(
-      "active",
-      button.dataset.source === state.source
+  $("#filters")
+    .querySelectorAll(
+      "button"
+    )
+    .forEach(
+      button => {
+        button.classList.toggle(
+          "active",
+          button.dataset.source ===
+            state.source
+        );
+      }
     );
-  });
 
-  const source = state.payload?.sources?.find(
-    item => item.id === state.source
-  );
+  const source =
+    state.payload?.sources?.find(
+      item =>
+        item.id ===
+        state.source
+    );
 
-  $("#heading").textContent =
-    source?.name || "All stories";
+  if (
+    state.language ===
+    "ja"
+  ) {
+    $("#heading").textContent =
+      source?.name ||
+      "Japanese news · translated";
+  } else {
+    $("#heading").textContent =
+      source?.name ||
+      "All stories";
+  }
 }
 
 function matches(article) {
-  const query = state.query.trim().toLowerCase();
+  const query =
+    state.query
+      .trim()
+      .toLowerCase();
 
   if (!query) return true;
 
   return [
     article.title,
     article.excerpt,
-    article.description,
+    article.translatedTitle,
+    article.translatedExcerpt,
     article.source?.name,
     article.source?.category
   ]
@@ -161,13 +646,28 @@ function matches(article) {
 }
 
 function getStories() {
-  return (state.payload?.articles || []).filter(article => {
-    const sourceMatches =
-      state.source === "all" ||
-      article.source?.id === state.source;
+  return (
+    state.payload?.articles ||
+    []
+  ).filter(
+    article => {
+      const sourceMatches =
+        (state.source === "all" ||
+          article.source?.id ===
+            state.source);
 
-    return sourceMatches && matches(article);
-  });
+      const languageMatches =
+        (article.source?.language ||
+          "en") ===
+        state.language;
+
+      return (
+        sourceMatches &&
+        languageMatches &&
+        matches(article)
+      );
+    }
+  );
 }
 
 function getPageStories(stories) {
@@ -185,7 +685,8 @@ function getPageCount(total) {
   return Math.max(
     1,
     Math.ceil(
-      total / state.pageSize
+      total /
+      state.pageSize
     )
   );
 }
@@ -196,10 +697,14 @@ function resetPage() {
 
 function renderPagination(total) {
   const pagination =
-    document.querySelector("#pagination");
+    document.querySelector(
+      "#pagination"
+    );
 
   const paginationTop =
-    document.querySelector("#paginationTop");
+    document.querySelector(
+      "#paginationTop"
+    );
 
   if (!pagination) {
     return;
@@ -220,9 +725,12 @@ function renderPagination(total) {
     return;
   }
 
-  pagination.hidden = false;
+  pagination.hidden =
+    false;
+
   if (paginationTop) {
-    paginationTop.hidden = false;
+    paginationTop.hidden =
+      false;
   }
 
   const pages = [];
@@ -235,16 +743,24 @@ function renderPagination(total) {
   addPage(1);
 
   for (
-    let page = Math.max(2, state.page - 2);
-    page <= Math.min(pageCount - 1, state.page + 2);
+    let page =
+      Math.max(
+        2,
+        state.page - 2
+      );
+    page <=
+      Math.min(
+        pageCount - 1,
+        state.page + 2
+      );
     page++
   ) {
     addPage(page);
   }
 
-  if (pageCount > 1) {
-    addPage(pageCount);
-  }
+  addPage(
+    pageCount
+  );
 
   let html = "";
 
@@ -252,91 +768,134 @@ function renderPagination(total) {
     "<button class=\"page-button\" type=\"button\" data-page=\"" +
     (state.page - 1) +
     "\" aria-label=\"Previous page\" " +
-    (state.page === 1 ? "disabled" : "") +
+    (state.page === 1
+      ? "disabled"
+      : "") +
     ">‹</button>";
 
   let previous = null;
 
-  pages.forEach(page => {
-    if (
-      previous !== null &&
-      page - previous > 1
-    ) {
+  pages.forEach(
+    page => {
+      if (
+        previous !== null &&
+        page -
+          previous >
+          1
+      ) {
+        html +=
+          "<span class=\"page-ellipsis\" aria-hidden=\"true\">…</span>";
+      }
+
       html +=
-        "<span class=\"page-ellipsis\" aria-hidden=\"true\">…</span>";
+        "<button class=\"page-button" +
+        (page ===
+          state.page
+          ? " active"
+          : "") +
+        "\" type=\"button\" data-page=\"" +
+        page +
+        "\" aria-label=\"Page " +
+        page +
+        "\">" +
+        page +
+        "</button>";
+
+      previous =
+        page;
     }
-
-    html +=
-      "<button class=\"page-button" +
-      (page === state.page ? " active" : "") +
-      "\" type=\"button\" data-page=\"" +
-      page +
-      "\" aria-label=\"Page " +
-      page +
-      "\">" +
-      page +
-      "</button>";
-
-    previous = page;
-  });
+  );
 
   html +=
     "<button class=\"page-button\" type=\"button\" data-page=\"" +
     (state.page + 1) +
     "\" aria-label=\"Next page\" " +
-    (state.page === pageCount ? "disabled" : "") +
+    (state.page ===
+      pageCount
+      ? "disabled"
+      : "") +
     ">›</button>";
 
-  pagination.innerHTML = html;
+  const bindPagination =
+    control => {
+      control.innerHTML =
+        html;
+
+      control
+        .querySelectorAll(
+          ".page-button"
+        )
+        .forEach(
+          button => {
+            if (
+              button.disabled
+            ) {
+              return;
+            }
+
+            button.addEventListener(
+              "click",
+              () => {
+                const requested =
+                  Number(
+                    button.dataset.page
+                  );
+
+                if (
+                  requested >= 1 &&
+                  requested <=
+                    pageCount &&
+                  requested !==
+                    state.page
+                ) {
+                  state.page =
+                    requested;
+
+                  renderStories();
+
+                  document
+                    .querySelector(
+                      ".section-head"
+                    )
+                    ?.scrollIntoView({
+                      behavior:
+                        "smooth",
+                      block:
+                        "start"
+                    });
+                }
+              }
+            );
+          }
+        );
+    };
+
+  bindPagination(
+    pagination
+  );
 
   if (paginationTop) {
-    paginationTop.innerHTML = html;
-    paginationTop.hidden = false;
-  }
-
-  const bindPagination = control => {
-    control.querySelectorAll(".page-button").forEach(button => {
-    if (button.disabled) {
-      return;
-    }
-
-    button.addEventListener("click", () => {
-      const requested =
-        Number(button.dataset.page);
-
-      if (
-        requested >= 1 &&
-        requested <= pageCount &&
-        requested !== state.page
-      ) {
-        state.page = requested;
-        renderStories();
-        document.querySelector(".section-head")?.scrollIntoView({
-          behavior: "smooth",
-          block: "start"
-        });
-      }
-    });
-    });
-  };
-
-  bindPagination(pagination);
-
-  if (paginationTop) {
-    bindPagination(paginationTop);
+    bindPagination(
+      paginationTop
+    );
   }
 
   const first =
-    (state.page - 1) * state.pageSize + 1;
+    (state.page - 1) *
+      state.pageSize +
+    1;
 
   const last =
     Math.min(
-      state.page * state.pageSize,
+      state.page *
+        state.pageSize,
       total
     );
 
   const info =
-    document.querySelector("#paginationInfo");
+    document.querySelector(
+      "#paginationInfo"
+    );
 
   if (info) {
     info.textContent =
@@ -368,140 +927,295 @@ function thumbnail(article) {
 
   return (
     "<div class=\"story-image\">" +
-      "<img src=\"" + esc(article.image) + "\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.remove();this.parentElement.classList.add('image-failed')\" />" +
+      "<img src=\"" +
+      esc(article.image) +
+      "\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.remove();this.parentElement.classList.add('image-failed')\" />" +
       "<div class=\"image-error-brand\" aria-hidden=\"true\">" +
         "<span class=\"fallback-mark\">✦</span>" +
         "<strong class=\"fallback-brand\">AniNews Hub</strong>" +
+        "<span class=\"image-fallback-label\">" +
+          esc(sourceLabel) +
+        "</span>" +
       "</div>" +
-      "<span class=\"image-fallback-label\" aria-hidden=\"true\">" +
-        esc(sourceLabel) +
-      "</span>" +
     "</div>"
   );
 }
 
 function renderStories() {
-  const stories = getStories();
-  const pageCount = getPageCount(stories.length);
+  const stories =
+    getStories();
 
-  if (state.page > pageCount) {
-    state.page = pageCount;
+  const pageCount =
+    getPageCount(
+      stories.length
+    );
+
+  if (
+    state.page >
+    pageCount
+  ) {
+    state.page =
+      pageCount;
   }
 
   const visibleStories =
-    getPageStories(stories);
+    getPageStories(
+      stories
+    );
 
   $("#count").textContent =
-    stories.length.toLocaleString() + " " +
-    (stories.length === 1 ? "story" : "stories");
+    stories.length.toLocaleString() +
+    " " +
+    (stories.length === 1
+      ? "story"
+      : "stories");
 
   $("#empty").hidden =
     stories.length > 0;
 
   $("#grid").innerHTML =
-    visibleStories.map((article, index) => {
-      const featured =
-        state.page === 1 &&
-        index === 0;
+    visibleStories
+      .map(
+        (article, index) => {
+          const featured =
+            state.page ===
+              1 &&
+            index ===
+              0;
 
-      const fresh =
-        isFresh(article.publishedAt);
+          const fresh =
+            isFresh(
+              article.publishedAt
+            );
 
-      const sourceAccent =
-        article.source?.accent ||
-        "#b892ff";
+          const sourceAccent =
+            article.source?.accent ||
+            "#b892ff";
 
-      const excerptText =
-        article.excerpt ||
-        article.description ||
-        "Open the original publisher for the complete story.";
+          const title =
+            state.language ===
+              "ja" &&
+            article.translatedTitle
+              ? article.translatedTitle
+              : article.title;
 
-      return (
-        "<a class=\"story" +
-        (featured ? " featured" : "") +
-        "\" href=\"" +
-        esc(article.link) +
-        "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
-          thumbnail(article) +
-          "<div class=\"story-body\">" +
-            "<div class=\"story-meta\" style=\"--source-accent:" +
-            esc(sourceAccent) +
-            "\">" +
-              "<span class=\"story-dot\" aria-hidden=\"true\"></span>" +
-              "<span class=\"story-source-name\">" +
-              esc(article.source?.name || "Publisher") +
-              "</span>" +
-              "<span>•</span>" +
-              "<time datetime=\"" +
-              esc(article.publishedAt || "") +
-              "\">" +
-              esc(relativeDate(article.publishedAt)) +
-              "</time>" +
-              (fresh ? "<span class=\"story-fresh\">NEW</span>" : "") +
-            "</div>" +
-            "<div class=\"story-content\">" +
-              "<h3>" +
-              esc(article.title || "Untitled") +
-              "</h3>" +
-              "<p>" +
-              esc(excerptText) +
-              "</p>" +
-            "</div>" +
-            "<div class=\"story-footer\">" +
-              "<span class=\"story-read\">Read original</span>" +
-              "<span class=\"story-arrow\" aria-hidden=\"true\">↗</span>" +
-            "</div>" +
-          "</div>" +
-        "</a>"
-      );
-    }).join("");
+          const excerptText =
+            state.language ===
+              "ja" &&
+            article.translatedExcerpt
+              ? article.translatedExcerpt
+              : article.excerpt ||
+                article.description ||
+                "Open the original publisher for the complete story.";
 
-  renderPagination(stories.length);
+          return (
+            "<a class=\"story" +
+            (featured
+              ? " featured"
+              : "") +
+            "\" data-article-id=\"" +
+            esc(article.id) +
+            "\" href=\"" +
+            esc(article.link) +
+            "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+              thumbnail(article) +
+              "<div class=\"story-body\">" +
+                "<div class=\"story-meta\" style=\"--source-accent:" +
+                  esc(sourceAccent) +
+                  "\">" +
+                  "<span class=\"story-dot\" aria-hidden=\"true\"></span>" +
+                  "<span class=\"story-source-name\">" +
+                    esc(
+                      article.source?.name ||
+                      "Publisher"
+                    ) +
+                  "</span>" +
+                  "<span>•</span>" +
+                  "<time datetime=\"" +
+                    esc(
+                      article.publishedAt ||
+                      ""
+                    ) +
+                  "\">" +
+                    esc(
+                      relativeDate(
+                        article.publishedAt
+                      )
+                    ) +
+                  "</time>" +
+                  (fresh
+                    ? "<span class=\"story-fresh\">NEW</span>"
+                    : "") +
+                  (
+                    state.language ===
+                      "ja"
+                      ? "<span class=\"story-translation\" hidden>EN</span>"
+                      : ""
+                  ) +
+                "</div>" +
+                "<div class=\"story-content\">" +
+                  "<h3 class=\"story-title\">" +
+                    esc(
+                      title ||
+                      "Untitled"
+                    ) +
+                  "</h3>" +
+                  "<p class=\"story-excerpt\">" +
+                    esc(
+                      excerptText
+                    ) +
+                  "</p>" +
+                "</div>" +
+                "<div class=\"story-footer\">" +
+                  "<span class=\"story-read\">" +
+                    (
+                      state.language ===
+                        "ja"
+                        ? "Read Japanese original"
+                        : "Read original"
+                    ) +
+                  "</span>" +
+                  "<span class=\"story-arrow\" aria-hidden=\"true\">↗</span>" +
+                "</div>" +
+              "</div>" +
+            "</a>"
+          );
+        }
+      )
+      .join("");
+
+  renderPagination(
+    stories.length
+  );
+
+  if (
+    state.language ===
+      "ja"
+  ) {
+    translateVisibleJapanese(
+      visibleStories
+    );
+  }
 }
 
 function renderStats() {
-  const payload = state.payload;
-  const articles = payload?.articles || [];
-  const newest = articles.find(article => article.publishedAt);
+  const allArticles =
+    state.payload?.articles ||
+    [];
 
-  const failed = payload?.stats?.failedSources || 0;
+  const articles =
+    allArticles.filter(
+      article =>
+        (article.source?.language ||
+          "en") ===
+        state.language
+    );
+
+  const newest =
+    articles.find(
+      article =>
+        article.publishedAt
+    );
 
   $("#storyCount").textContent =
     articles.length.toLocaleString();
 
   $("#sourceCount").textContent =
-    String(payload?.stats?.sourceCount ?? "—");
+    String(
+      (
+        state.payload?.sources ||
+        []
+      ).filter(
+        source =>
+          (source.language ||
+            "en") ===
+          state.language
+      ).length
+    );
 
   $("#latest").textContent =
-    newest ? relativeDate(newest.publishedAt) : "—";
+    newest
+      ? relativeDate(
+          newest.publishedAt
+        )
+      : "—";
 
   $("#updated").textContent =
-    payload?.generatedAt
-      ? "updated " + relativeDate(payload.generatedAt)
+    state.payload?.generatedAt
+      ? "updated " +
+        relativeDate(
+          state.payload.generatedAt
+        )
       : "waiting for update";
+
+  const failed =
+    (
+      state.payload?.sourceResults ||
+      []
+    ).filter(
+      item =>
+        item.status ===
+          "error" &&
+        (
+          state.payload?.sources ||
+          []
+        ).find(
+          source =>
+            source.id ===
+              item.id &&
+            (
+              source.language ||
+              "en"
+            ) ===
+              state.language
+        )
+    ).length;
 
   $("#status").textContent =
     failed
-      ? failed + " source" + (failed === 1 ? "" : "s") + " unavailable"
-      : "all configured sources refreshed";
+      ? failed +
+        " source" +
+        (failed === 1
+          ? ""
+          : "s") +
+        " unavailable"
+      : "all " +
+        (
+          state.language ===
+            "ja"
+            ? "Japanese"
+            : "English"
+        ) +
+        " sources refreshed";
 }
 
 async function load() {
-  $("#status").textContent = "Refreshing";
+  $("#status").textContent =
+    "Refreshing";
 
   try {
-    const response = await fetch(
-      "data/articles.json?ts=" + Date.now(),
-      { cache: "no-store" }
-    );
+    const response =
+      await fetch(
+        "data/articles.json?ts=" +
+          Date.now(),
+        {
+          cache:
+            "no-store"
+        }
+      );
 
     if (!response.ok) {
-      throw new Error("HTTP " + response.status);
+      throw new Error(
+        "HTTP " +
+          response.status
+      );
     }
 
-    state.payload = await response.json();
+    state.payload =
+      await response.json();
 
     renderStats();
+    renderLanguageTabs();
     renderNavigation();
     renderFilters();
     syncFilters();
@@ -509,7 +1223,8 @@ async function load() {
   } catch (error) {
     console.error(error);
 
-    $("#status").textContent = "Unable to load news";
+    $("#status").textContent =
+      "Unable to load news";
 
     $("#grid").innerHTML =
       "<div class=\"empty\">" +
@@ -520,46 +1235,80 @@ async function load() {
   }
 }
 
-$("#search").addEventListener("input", event => {
-  state.query = event.target.value;
-  resetPage();
-  renderStories();
-});
+$("#search").addEventListener(
+  "input",
+  event => {
+    state.query =
+      event.target.value;
 
-$("#refresh").addEventListener("click", load);
+    resetPage();
+    renderStories();
+  }
+);
 
-$("#theme").addEventListener("click", () => {
-  document.documentElement.classList.toggle("light");
+$("#refresh").addEventListener(
+  "click",
+  load
+);
 
-  const light =
-    document.documentElement.classList.contains("light");
+$("#theme").addEventListener(
+  "click",
+  () => {
+    document.documentElement.classList.toggle(
+      "light"
+    );
 
-  localStorage.setItem(
-    "aninews-theme",
-    light ? "light" : "dark"
+    const light =
+      document.documentElement.classList.contains(
+        "light"
+      );
+
+    localStorage.setItem(
+      "aninews-theme",
+      light
+        ? "light"
+        : "dark"
+    );
+
+    $("#theme").innerHTML =
+      "<span aria-hidden=\"true\">" +
+        (light
+          ? "◑"
+          : "◐") +
+      "</span><span>" +
+        (light
+          ? "Dark"
+          : "Light") +
+      "</span>";
+  }
+);
+
+window.addEventListener(
+  "keydown",
+  event => {
+    if (
+      event.key === "/" &&
+      document.activeElement?.tagName !==
+        "INPUT" &&
+      document.activeElement?.tagName !==
+        "TEXTAREA"
+    ) {
+      event.preventDefault();
+      $("#search").focus();
+    }
+  }
+);
+
+if (
+  localStorage.getItem(
+    "aninews-theme"
+  ) ===
+  "light"
+) {
+  document.documentElement.classList.add(
+    "light"
   );
 
-  $("#theme").innerHTML =
-    "<span aria-hidden=\"true\">" +
-    (light ? "◑" : "◐") +
-    "</span><span>" +
-    (light ? "Dark" : "Light") +
-    "</span>";
-});
-
-window.addEventListener("keydown", event => {
-  if (
-    event.key === "/" &&
-    document.activeElement?.tagName !== "INPUT" &&
-    document.activeElement?.tagName !== "TEXTAREA"
-  ) {
-    event.preventDefault();
-    $("#search").focus();
-  }
-});
-
-if (localStorage.getItem("aninews-theme") === "light") {
-  document.documentElement.classList.add("light");
   $("#theme").innerHTML =
     "<span aria-hidden=\"true\">◑</span><span>Dark</span>";
 }

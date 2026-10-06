@@ -740,15 +740,11 @@ async function parseSkreamSource(source) {
     await fetchUrl(
       "https://r.jina.ai/http://skream.jp/news/",
       {
-        timeout:
-          45000,
+        timeout: 45000,
         headers: {
-          accept:
-            "application/json",
-          "x-no-cache":
-            "true",
-          "x-cache-tolerance":
-            "0"
+          accept: "application/json",
+          "x-no-cache": "true",
+          "x-cache-tolerance": "0"
         }
       }
     );
@@ -784,6 +780,237 @@ async function parseSkreamSource(source) {
   throw new Error(
     "Skream news listing unavailable"
   );
+}
+
+function parseNatalieNewsPage(html, section) {
+  const source =
+    String(html || "");
+
+  const hostPattern =
+    new RegExp(
+      "https?:\\\\/\\\\/natalie\\\\.mu\\/" +
+      section +
+      "\\\\/news\\\\/\\\\d+",
+      "i"
+    );
+
+  const links =
+    htmlArticleLinks(
+      source,
+      "https://natalie.mu/" +
+        section,
+      hostPattern
+    );
+
+  const items = [];
+
+  for (
+    let i = 0;
+    i < links.length;
+    i++
+  ) {
+    const current =
+      links[i];
+
+    const start =
+      Math.max(
+        0,
+        current.index - 1100
+      );
+
+    const end =
+      i + 1 <
+        links.length
+        ? Math.min(
+            source.length,
+            links[i + 1].index +
+              700
+          )
+        : Math.min(
+            source.length,
+            current.index +
+              1800
+          );
+
+    const windowText =
+      stripHtml(
+        source.slice(
+          start,
+          end
+        )
+      );
+
+    const dateMatch =
+      windowText.match(
+        /20\d{2}[年/.]\d{1,2}[月/.]\d{1,2}日?(?:\s+\d{1,2}:\d{2})?/
+      );
+
+    const title =
+      current.title
+        .trim();
+
+    if (
+      !title ||
+      /^(?:ニュース|NEWS|read more|more)$/i.test(
+        title
+      )
+    ) {
+      continue;
+    }
+
+    const titlePos =
+      windowText.indexOf(
+        title
+      );
+
+    let description =
+      "";
+
+    if (
+      titlePos >= 0
+    ) {
+      const after =
+        windowText
+          .slice(
+            titlePos +
+              title.length
+          )
+          .trim();
+
+      description =
+        excerpt(
+          after
+            .split(
+              /20\d{2}[年/.]\d{1,2}[月/.]\d{1,2}日?/
+            )[0]
+            .trim()
+        );
+    }
+
+    items.push({
+      title,
+      link:
+        current.href,
+      pubDate:
+        dateMatch?.[0] ||
+        "",
+      description
+    });
+  }
+
+  return items;
+}
+
+async function parseNatalieSource(source) {
+  const allItems = [];
+  let firstResult = null;
+
+  for (
+    const pageUrl of
+      source.feedUrls
+  ) {
+    try {
+      const result =
+        await fetchUrl(
+          pageUrl
+        );
+
+      if (
+        !firstResult
+      ) {
+        firstResult =
+          result;
+      }
+
+      if (
+        result.status <
+          200 ||
+        result.status >=
+          300 ||
+        !result.body.trim()
+      ) {
+        continue;
+      }
+
+      const section =
+        new URL(
+          pageUrl
+        ).pathname
+          .split("/")
+          .filter(Boolean)[0];
+
+      allItems.push(
+        ...parseNatalieNewsPage(
+          result.body,
+          section
+        )
+      );
+    } catch (error) {
+      console.warn(
+        "! Natalie section unavailable " +
+          pageUrl +
+          " — " +
+          (error?.message ||
+            error)
+      );
+    }
+  }
+
+  const unique = new Map();
+
+  for (
+    const item of
+      allItems
+  ) {
+    const key =
+      item.link
+        .replace(
+          /\/+$/,
+          ""
+        )
+        .toLowerCase();
+
+    if (
+      !unique.has(
+        key
+      )
+    ) {
+      unique.set(
+        key,
+        item
+      );
+    }
+  }
+
+  const items =
+    [
+      ...unique.values()
+    ]
+      .map(
+        item =>
+          normalize(
+            item,
+            source
+          )
+      )
+      .filter(
+        Boolean
+      );
+
+  if (
+    !firstResult ||
+    !items.length
+  ) {
+    throw new Error(
+      "Natalie news pages unavailable"
+    );
+  }
+
+  return {
+    result:
+      firstResult,
+    items
+  };
 }
 
 async function parseFeed(
@@ -2499,8 +2726,23 @@ for (
             Boolean
           );
     } else if (
+      source.kind ===
+      "html-merge"
+    ) {
+      const parsed =
+        await parseNatalieSource(
+          source
+        );
+
+      result =
+        parsed.result;
+
+      items =
+        parsed.items;
+    } else if (
       source.mergeFeeds
     ) {
+
       const merged = [];
 
       for (
@@ -2678,7 +2920,9 @@ for (
       mode:
         source.kind === "html-list"
           ? "html-list"
-          : "rss",
+          : source.kind === "html-merge"
+            ? "html-merge"
+            : "rss",
 
       feedUrl:
         result.finalUrl,

@@ -523,7 +523,7 @@ function parseJinaHtml(content) {
 
   const matches = [
     ...html.matchAll(
-      /<h3[^>]*>\\s*<a\\s+href=["'](https?:\\/\\/(?:news|www)\\.sankakucomplex\\.com\\/n\\/[^"']+)["'][^>]*>([\\s\\S]*?)<\\/a>\\s*<\\/h3>[\\s\\S]*?<time[^>]*>([^<]+)<\\/time>/gi
+      /<h3[^>]*>\s*<a\s+href=["'](https?:\/\/(?:news|www)\.sankakucomplex\.com\/n\/[^"']+)["'][^>]*>([\s\S]*?)<\/a>\s*<\/h3>[\s\S]*?<time[^>]*>([^<]+)<\/time>/gi
     )
   ];
 
@@ -823,7 +823,7 @@ function jinaArticleMetadata(body) {
       const paragraphs =
         [
           ...html.matchAll(
-            /<p[^>]*>([\\s\\S]*?)<\\/p>/gi
+            /<p[^>]*>([\s\S]*?)<\/p>/gi
           )
         ]
           .map(

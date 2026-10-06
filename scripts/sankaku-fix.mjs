@@ -34,6 +34,22 @@ const FEED_PLANS = [
     transport: "direct",
     url: "https://news.sankakucomplex.com/?feed=rss2",
     sourceUrl: "https://news.sankakucomplex.com/?feed=rss2"
+  },
+
+  /*
+   * Feeder verifies this exact legacy Sankaku feed as live.
+   * Jina is used only as a network transport so GitHub Actions
+   * can retrieve the same source when Sankaku blocks the runner.
+   */
+  {
+    transport: "jina-reader",
+    url: "https://r.jina.ai/http://www.sankakucomplex.com/feed/",
+    sourceUrl: "http://www.sankakucomplex.com/feed/"
+  },
+  {
+    transport: "jina-reader",
+    url: "https://r.jina.ai/https://www.sankakucomplex.com/feed/",
+    sourceUrl: "https://www.sankakucomplex.com/feed/"
   }
 ];
 
@@ -517,7 +533,7 @@ function parseJinaMarkdown(
 
   const matches = [
     ...text.matchAll(
-      /\[([^\]]+)\]\((https?:\/\/news\.sankakucomplex\.com\/n\/[^)\s]+)\)/gi
+      /\[([^\]]+)\]\((https?:\/\/(?:news|www)\.sankakucomplex\.com\/n\/[^)\s]+)\)/gi
     )
   ];
 

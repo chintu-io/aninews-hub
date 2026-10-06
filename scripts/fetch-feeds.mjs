@@ -3423,7 +3423,7 @@ async function translateJapaneseArticles(
 
       if (!response.ok) {
         console.warn(
-          \`! Japanese translation batch failed: HTTP \${response.status}\`
+"          Japanese translation batch failed: HTTP " +
         );
         continue;
       }

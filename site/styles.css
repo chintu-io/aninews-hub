@@ -762,6 +762,14 @@ html.light .mascot-face {
   gap: 14px;
 }
 
+.section-head-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .pagination {
   margin-top: 22px;
   display: flex;
@@ -811,6 +819,10 @@ html.light .mascot-face {
   color: var(--faint);
   text-align: center;
   font-size: 11px;
+}
+
+.pagination-top {
+  margin-top: 0;
 }
 
 .pagination-info {

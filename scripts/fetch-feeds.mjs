@@ -788,9 +788,9 @@ function parseNatalieNewsPage(html, section) {
 
   const hostPattern =
     new RegExp(
-      "https?:\\\\/\\\\/natalie\\\\.mu\\/" +
+      "^https://natalie\\.mu/" +
       section +
-      "\\\\/news\\\\/\\\\d+",
+      "/news/[0-9]+",
       "i"
     );
 

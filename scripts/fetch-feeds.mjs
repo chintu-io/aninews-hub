@@ -3311,173 +3311,265 @@ for (
 }
 
 
+async function translateJapaneseText(
+  value
+) {
+  const text =
+    String(value || "").trim();
+
+  if (
+    !text ||
+    !/[\u3040-\u30ff\u3400-\u9fff]/.test(text)
+  ) {
+    return text;
+  }
+
+  /*
+   * Google Translate's internal endpoint is
+   * GET-based and avoids the failed public
+   * LibreTranslate runner dependency.
+   */
+  try {
+    const url =
+      "https://translate.googleapis.com/translate_a/single?" +
+      new URLSearchParams({
+        client: "gtx",
+        sl: "ja",
+        tl: "en",
+        dt: "t",
+        q: text
+      }).toString();
+
+    const response =
+      await fetch(
+        url,
+        {
+          headers: {
+            "user-agent":
+              USER_AGENT,
+            accept:
+              "application/json"
+          },
+          signal:
+            AbortSignal.timeout(
+              20000
+            )
+        }
+      );
+
+    if (
+      response.ok
+    ) {
+      const data =
+        await response.json();
+
+      const translated =
+        Array.isArray(data?.[0])
+          ? data[0]
+              .map(
+                part =>
+                  Array.isArray(part)
+                    ? String(
+                        part[0] || ""
+                      )
+                    : ""
+              )
+              .join("")
+              .trim()
+          : "";
+
+      if (
+        translated
+      ) {
+        return translated;
+      }
+    }
+  } catch {
+    /*
+     * Continue to fallback.
+     */
+  }
+
+  /*
+   * MyMemory fallback.
+   * It has a 500-byte input limit, so
+   * only use it when the text is small.
+   */
+  try {
+    const bytes =
+      Buffer.byteLength(
+        text,
+        "utf8"
+      );
+
+    if (
+      bytes <=
+      480
+    ) {
+      const url =
+        "https://api.mymemory.translated.net/get?" +
+        new URLSearchParams({
+          q: text,
+          langpair: "ja|en"
+        }).toString();
+
+      const response =
+        await fetch(
+          url,
+          {
+            headers: {
+              "user-agent":
+                USER_AGENT,
+              accept:
+                "application/json"
+            },
+            signal:
+              AbortSignal.timeout(
+                20000
+              )
+          }
+        );
+
+      if (
+        response.ok
+      ) {
+        const data =
+          await response.json();
+
+        const translated =
+          String(
+            data?.responseData
+              ?.translatedText ||
+            ""
+          ).trim();
+
+        if (
+          translated &&
+          translated !==
+            text
+        ) {
+          return translated;
+        }
+      }
+    }
+  } catch {
+    /*
+     * Keep original Japanese text
+     * if every translator fails.
+     */
+  }
+
+  return text;
+}
+
 async function translateJapaneseArticles(
   inputArticles
 ) {
   const japanese =
     inputArticles.filter(
       article =>
-        article.source?.language === "ja"
+        article.source?.language ===
+        "ja"
     );
 
   if (!japanese.length) {
     return {
-      items: inputArticles,
-      translated: 0,
-      attempted: 0
+      items:
+        inputArticles,
+      translated:
+        0,
+      attempted:
+        0
     };
   }
 
-  const pending =
-    japanese.filter(
-      article =>
-        !article.translatedTitle ||
-        !article.translatedExcerpt
-    );
+  const results =
+    new Map();
 
-  if (!pending.length) {
-    return {
-      items: inputArticles,
-      translated: japanese.length,
-      attempted: 0
-    };
-  }
+  let attempted =
+    0;
 
-  const endpoint =
-    "https://translate.argosopentech.com/translate";
+  const queue =
+    [
+      ...japanese
+    ];
 
-  const results = new Map();
-  const batchSize = 8;
-
-  for (
-    let index = 0;
-    index < pending.length;
-    index += batchSize
-  ) {
-    const batch =
-      pending.slice(
-        index,
-        index + batchSize
-      );
-
-    const texts = [];
-    const positions = [];
-
-    for (const article of batch) {
-      if (
-        article.title &&
-        /[\u3040-\u30ff\u3400-\u9fff]/.test(
-          article.title
-        )
+  const worker =
+    async () => {
+      while (
+        queue.length
       ) {
-        positions.push({
-          id: article.id,
-          field: "title"
-        });
-        texts.push(article.title);
-      }
+        const article =
+          queue.shift();
 
-      if (
-        article.excerpt &&
-        /[\u3040-\u30ff\u3400-\u9fff]/.test(
-          article.excerpt
-        )
-      ) {
-        positions.push({
-          id: article.id,
-          field: "excerpt"
-        });
-        texts.push(article.excerpt);
-      }
-    }
+        if (!article) {
+          return;
+        }
 
-    if (!texts.length) {
-      continue;
-    }
+        const entry =
+          {};
 
-    try {
-      const response =
-        await fetch(
-          endpoint,
-          {
-            method: "POST",
-            headers: {
-              "Content-Type":
-                "application/json",
-              accept:
-                "application/json"
-            },
-            body:
-              JSON.stringify({
-                q: texts,
-                source: "ja",
-                target: "en",
-                format: "text"
-              }),
-            signal:
-              AbortSignal.timeout(
-                30000
-              )
-          }
-        );
+        if (
+          article.title &&
+          /[\u3040-\u30ff\u3400-\u9fff]/.test(
+            article.title
+          )
+        ) {
+          attempted++;
 
-      if (!response.ok) {
-        console.warn(
-          "Japanese translation batch failed: HTTP " +
-            response.status
-        );
-        continue;
-      }
+          entry.title =
+            await translateJapaneseText(
+              article.title
+            );
+        }
 
-      const data =
-        await response.json();
+        if (
+          article.excerpt &&
+          /[\u3040-\u30ff\u3400-\u9fff]/.test(
+            article.excerpt
+          )
+        ) {
+          attempted++;
 
-      const translated =
-        Array.isArray(
-          data?.translatedText
-        )
-          ? data.translatedText
-          : [];
+          entry.excerpt =
+            await translateJapaneseText(
+              article.excerpt
+            );
+        }
 
-      positions.forEach(
-        (position, translatedIndex) => {
-          const value =
-            String(
-              translated[
-                translatedIndex
-              ] || ""
-            ).trim();
-
-          if (!value) {
-            return;
-          }
-
-          const entry =
-            results.get(
-              position.id
-            ) || {};
-
-          entry[
-            position.field
-          ] = value;
-
+        if (
+          entry.title ||
+          entry.excerpt
+        ) {
           results.set(
-            position.id,
+            article.id,
             entry
           );
         }
-      );
-    } catch (error) {
-      console.warn(
-        "! Japanese translation batch failed — " +
-          (error?.message || error)
-      );
-    }
 
-    await sleep(200);
-  }
+        await sleep(
+          80
+        );
+      }
+    };
 
-  let translatedCount = 0;
+  await Promise.all(
+    Array.from(
+      {
+        length:
+          Math.min(
+            4,
+            queue.length ||
+              1
+          )
+      },
+      () =>
+        worker()
+    )
+  );
+
+  let translated =
+    0;
 
   const output =
     inputArticles.map(
@@ -3494,32 +3586,45 @@ async function translateJapaneseArticles(
             article.id
           );
 
-        if (!value) {
+        if (
+          !value
+        ) {
           return article;
         }
 
-        translatedCount++;
+        const translatedTitle =
+          value.title ||
+          article.title;
+
+        const translatedExcerpt =
+          value.excerpt ||
+          article.excerpt;
+
+        if (
+          translatedTitle !==
+            article.title ||
+          translatedExcerpt !==
+            article.excerpt
+        ) {
+          translated++;
+        }
 
         return {
           ...article,
-          translatedTitle:
-            value.title ||
-            article.title,
-          translatedExcerpt:
-            value.excerpt ||
-            article.excerpt
+          translatedTitle,
+          translatedExcerpt
         };
       }
     );
 
   return {
-    items: output,
-    translated:
-      translatedCount,
-    attempted:
-      pending.length
+    items:
+      output,
+    translated,
+    attempted
   };
 }
+
 
 /*
  * ---------------------------------------------------------

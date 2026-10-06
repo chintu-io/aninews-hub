@@ -517,6 +517,30 @@ function jinaCandidates(
   ];
 }
 
+function parseJinaHtml(content) {
+  const html =
+    String(content || "");
+
+  const matches = [
+    ...html.matchAll(
+      /<h3[^>]*>\\s*<a\\s+href=["'](https?:\\/\\/(?:news|www)\\.sankakucomplex\\.com\\/n\\/[^"']+)["'][^>]*>([\\s\\S]*?)<\\/a>\\s*<\\/h3>[\\s\\S]*?<time[^>]*>([^<]+)<\\/time>/gi
+    )
+  ];
+
+  return matches
+    .map(match => ({
+      link: match[1],
+      title: cleanTitle(match[2]),
+      pubDate: stripHtml(match[3]),
+      description: ""
+    }))
+    .filter(
+      item =>
+        item.title &&
+        realSankakuUrl(item.link)
+    );
+}
+
 function parseJinaMarkdown(
   content
 ) {
@@ -663,6 +687,20 @@ async function parseFeedResponse(
   if (
     isJina
   ) {
+    const htmlItems =
+      candidates.flatMap(
+        parseJinaHtml
+      );
+
+    if (
+      htmlItems.length
+    ) {
+      return {
+        items:
+          htmlItems
+      };
+    }
+
     const markdownItems =
       candidates.flatMap(
         parseJinaMarkdown
@@ -709,6 +747,239 @@ function metaContent(
   }
 
   return "";
+}
+
+function jinaArticleMetadata(body) {
+  try {
+    const json =
+      JSON.parse(
+        String(body || "")
+      );
+
+    const data =
+      json?.data ??
+      json;
+
+    const html =
+      String(
+        data?.html ||
+        ""
+      );
+
+    const title =
+      cleanTitle(
+        data?.title ||
+        ""
+      );
+
+    const descriptionCandidates = [
+      data?.description,
+      metaContent(
+        html,
+        "og:description"
+      ),
+      metaContent(
+        html,
+        "description"
+      )
+    ];
+
+    let description =
+      "";
+
+    for (
+      const candidate of
+        descriptionCandidates
+    ) {
+      const value =
+        excerpt(
+          candidate || ""
+        );
+
+      if (
+        value &&
+        !/^sankaku complex$/i.test(
+          value
+        ) &&
+        !/^anime, manga and games, observed from japan$/i.test(
+          value
+        )
+      ) {
+        description =
+          value;
+        break;
+      }
+    }
+
+    /*
+     * Jina's HTML may contain the
+     * article body even when metadata
+     * has no description.
+     */
+    if (
+      !description &&
+      html
+    ) {
+      const paragraphs =
+        [
+          ...html.matchAll(
+            /<p[^>]*>([\\s\\S]*?)<\\/p>/gi
+          )
+        ]
+          .map(
+            match =>
+              excerpt(
+                match[1]
+              )
+          )
+          .filter(
+            value =>
+              value &&
+              value.length >=
+                30
+          );
+
+      description =
+        paragraphs[0] ||
+        "";
+    }
+
+    return {
+      title,
+      description,
+      publishedAt:
+        data?.publishedTime ||
+        data?.published_time ||
+        ""
+    };
+  } catch {
+    return {
+      title: "",
+      description: "",
+      publishedAt: ""
+    };
+  }
+}
+
+async function enrichSankakuDescriptions(
+  items,
+  debug
+) {
+  const queue = [
+    ...items
+  ];
+
+  const results = [];
+
+  const worker =
+    async () => {
+      while (
+        queue.length
+      ) {
+        const item =
+          queue.shift();
+
+        if (!item) {
+          return;
+        }
+
+        try {
+          const result =
+            await fetchText(
+              `https://r.jina.ai/${item.link}`,
+              {
+                timeout:
+                  40000,
+                headers: {
+                  accept:
+                    "application/json"
+                }
+              }
+            );
+
+          const metadata =
+            result.status >= 200 &&
+            result.status < 300
+              ? jinaArticleMetadata(
+                  result.body
+                )
+              : {
+                  title: "",
+                  description: "",
+                  publishedAt: ""
+                };
+
+          debug.descriptionAttempts.push({
+            link: item.link,
+            status: result.status,
+            bytes: result.body.length,
+            hasTitle: Boolean(
+              metadata.title
+            ),
+            hasDescription: Boolean(
+              metadata.description
+            )
+          });
+
+          results.push({
+            ...item,
+            title:
+              metadata.title ||
+              item.title,
+            excerpt:
+              metadata.description ||
+              item.excerpt,
+            publishedAt:
+              iso(metadata.publishedAt) ||
+              item.publishedAt
+          });
+        } catch (error) {
+          debug.descriptionAttempts.push({
+            link: item.link,
+            error:
+              String(
+                error?.message ||
+                error
+              )
+          });
+
+          results.push(item);
+        }
+
+        await sleep(150);
+      }
+    };
+
+  await Promise.all(
+    Array.from(
+      {
+        length:
+          Math.min(
+            4,
+            queue.length ||
+              1
+          )
+      },
+      worker
+    )
+  );
+
+  const byLink =
+    new Map(
+      results.map(
+        item => [
+          item.link,
+          item
+        ]
+      )
+    );
+
+  return items.map(
+    item =>
+      byLink.get(
+        item.link
+      ) || item
+  );
 }
 
 async function imageFallback(
@@ -998,6 +1269,9 @@ const debug = {
   imageAttempts:
     [],
 
+  descriptionAttempts:
+    [],
+
   note:
     "Sankaku title, description, date and link come from RSS. Direct official RSS is tried first; Jina Reader may transport the exact official RSS URL when the GitHub runner is rejected. Article pages are used only for missing images. No old Sankaku cache is merged."
 };
@@ -1079,11 +1353,6 @@ for (
 
       status:
         result.status,
-
-      responseSample:
-        plan.transport === "jina-reader"
-          ? result.body.slice(0, 4000)
-          : undefined,
 
       finalUrl:
         result.finalUrl,
@@ -1311,6 +1580,12 @@ if (
         0,
         60
       );
+
+  sankaku =
+    await enrichSankakuDescriptions(
+      sankaku,
+      debug
+    );
 
   sankaku =
     await enrichImages(

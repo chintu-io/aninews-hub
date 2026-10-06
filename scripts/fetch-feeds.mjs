@@ -3310,6 +3310,216 @@ for (
   }
 }
 
+
+async function translateJapaneseArticles(
+  inputArticles
+) {
+  const japanese =
+    inputArticles.filter(
+      article =>
+        article.source?.language === "ja"
+    );
+
+  if (!japanese.length) {
+    return {
+      items: inputArticles,
+      translated: 0,
+      attempted: 0
+    };
+  }
+
+  const pending =
+    japanese.filter(
+      article =>
+        !article.translatedTitle ||
+        !article.translatedExcerpt
+    );
+
+  if (!pending.length) {
+    return {
+      items: inputArticles,
+      translated: japanese.length,
+      attempted: 0
+    };
+  }
+
+  const endpoint =
+    "https://translate.argosopentech.com/translate";
+
+  const results = new Map();
+  const batchSize = 8;
+
+  for (
+    let index = 0;
+    index < pending.length;
+    index += batchSize
+  ) {
+    const batch =
+      pending.slice(
+        index,
+        index + batchSize
+      );
+
+    const texts = [];
+    const positions = [];
+
+    for (const article of batch) {
+      if (
+        article.title &&
+        /[\u3040-\u30ff\u3400-\u9fff]/.test(
+          article.title
+        )
+      ) {
+        positions.push({
+          id: article.id,
+          field: "title"
+        });
+        texts.push(article.title);
+      }
+
+      if (
+        article.excerpt &&
+        /[\u3040-\u30ff\u3400-\u9fff]/.test(
+          article.excerpt
+        )
+      ) {
+        positions.push({
+          id: article.id,
+          field: "excerpt"
+        });
+        texts.push(article.excerpt);
+      }
+    }
+
+    if (!texts.length) {
+      continue;
+    }
+
+    try {
+      const response =
+        await fetch(
+          endpoint,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type":
+                "application/json",
+              accept:
+                "application/json"
+            },
+            body:
+              JSON.stringify({
+                q: texts,
+                source: "ja",
+                target: "en",
+                format: "text"
+              }),
+            signal:
+              AbortSignal.timeout(
+                30000
+              )
+          }
+        );
+
+      if (!response.ok) {
+        console.warn(
+          \`! Japanese translation batch failed: HTTP \${response.status}\`
+        );
+        continue;
+      }
+
+      const data =
+        await response.json();
+
+      const translated =
+        Array.isArray(
+          data?.translatedText
+        )
+          ? data.translatedText
+          : [];
+
+      positions.forEach(
+        (position, translatedIndex) => {
+          const value =
+            String(
+              translated[
+                translatedIndex
+              ] || ""
+            ).trim();
+
+          if (!value) {
+            return;
+          }
+
+          const entry =
+            results.get(
+              position.id
+            ) || {};
+
+          entry[
+            position.field
+          ] = value;
+
+          results.set(
+            position.id,
+            entry
+          );
+        }
+      );
+    } catch (error) {
+      console.warn(
+        "! Japanese translation batch failed — " +
+          (error?.message || error)
+      );
+    }
+
+    await sleep(200);
+  }
+
+  let translatedCount = 0;
+
+  const output =
+    inputArticles.map(
+      article => {
+        if (
+          article.source?.language !==
+          "ja"
+        ) {
+          return article;
+        }
+
+        const value =
+          results.get(
+            article.id
+          );
+
+        if (!value) {
+          return article;
+        }
+
+        translatedCount++;
+
+        return {
+          ...article,
+          translatedTitle:
+            value.title ||
+            article.title,
+          translatedExcerpt:
+            value.excerpt ||
+            article.excerpt
+        };
+      }
+    );
+
+  return {
+    items: output,
+    translated:
+      translatedCount,
+    attempted:
+      pending.length
+  };
+}
+
 /*
  * ---------------------------------------------------------
  * Deduplicate
@@ -3383,6 +3593,15 @@ const articles =
       500
     );
 
+
+const translationResult =
+  await translateJapaneseArticles(
+    articles
+  );
+
+const translatedArticles =
+  translationResult.items;
+
 /*
  * ---------------------------------------------------------
  * Output
@@ -3441,10 +3660,17 @@ const payload = {
       ).length,
 
     articleCount:
-      articles.length
+      translatedArticles.length,
+
+    translatedJapaneseArticles:
+      translationResult.translated,
+
+    translationAttempts:
+      translationResult.attempted
   },
 
-  articles
+  articles:
+    translatedArticles
 };
 
 await fs.writeFile(

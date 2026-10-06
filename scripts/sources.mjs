@@ -88,17 +88,4 @@ export const SOURCES = [
     language: "ja",
     mergeFeeds: false
   },
-  {
-    id: "skream",
-    name: "Skream!",
-    short: "Skream",
-    feedUrls: [
-      "https://skream.jp/news/"
-    ],
-    siteUrl: "https://skream.jp/news/",
-    category: "Japanese Music",
-    accent: "#ff9b74",
-    language: "ja",
-    kind: "html-list"
-  },
 ];

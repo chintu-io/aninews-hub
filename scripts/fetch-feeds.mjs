@@ -988,6 +988,12 @@ function parseJapaneseListingPage(
       description:
         "",
 
+      image:
+        imageFromText(
+          windowHtml,
+          current.href
+        ),
+
       contentEncoded:
         windowHtml
     });
@@ -1177,10 +1183,25 @@ function fixTheFirstTimesImage(
     return "";
   }
 
-  return value.replace(
-    /\/uploads\/5026\/(\d{2})\//i,
-    "/uploads/2026/$1/"
-  );
+  /*
+   * THE FIRST TIMES currently emits
+   * some upload paths with a malformed
+   * 5026 year directory. Current stories
+   * are 2026, so repair only that exact
+   * directory.
+   */
+  if (
+    /^(?:https?:\/\/)?(?:www\.)?thefirsttimes\.jp\//i.test(
+      value
+    )
+  ) {
+    return value.replace(
+      /\/uploads\/5026\/(\d{1,2})\//i,
+      "/uploads/2026/$1/"
+    );
+  }
+
+  return value;
 }
 
 async function enrichJapaneseListingItem(
@@ -1190,9 +1211,21 @@ async function enrichJapaneseListingItem(
     null;
 
   /*
-   * Prefer the real article page.
-   * THE FIRST TIMES exposes its
-   * article image in page metadata.
+   * Use the listing card's own image
+   * first. This keeps each story tied
+   * to its own thumbnail.
+   */
+  let image =
+    fixTheFirstTimesImage(
+      item.image
+    );
+
+  let description =
+    "";
+
+  /*
+   * Prefer the real article page for
+   * metadata when available.
    */
   try {
     const direct =
@@ -1217,35 +1250,28 @@ async function enrichJapaneseListingItem(
         parseHtmlMetadata(
           direct.body
         );
+
+      if (
+        !image
+      ) {
+        image =
+          fixTheFirstTimesImage(
+            directMeta?.image
+          );
+      }
+
+      description =
+        directMeta?.description ||
+        "";
     }
   } catch {
     directMeta =
       null;
   }
 
-  let image =
-    directMeta?.image ||
-    "";
-
-  let description =
-    "";
-
-  if (
-    image &&
-    item.source?.id ===
-      "thefirsttimes"
-  ) {
-    image =
-      fixTheFirstTimesImage(
-        image
-      );
-  }
-
   /*
-   * If direct metadata did not
-   * provide an image or lead text,
-   * use Jina as the transport
-   * fallback.
+   * Jina remains the transport fallback
+   * for blocked article pages.
    */
   if (
     !image ||
@@ -1288,10 +1314,14 @@ async function enrichJapaneseListingItem(
         result.status < 300 &&
         result.body.trim()
       ) {
-        description =
-          japaneseArticleLead(
-            result.body
-          );
+        if (
+          !description
+        ) {
+          description =
+            japaneseArticleLead(
+              result.body
+            );
+        }
 
         if (
           !image
@@ -1305,20 +1335,10 @@ async function enrichJapaneseListingItem(
       }
     } catch {
       /*
-       * Keep any direct metadata
-       * we already recovered.
+       * Keep any data recovered from
+       * the listing or direct page.
        */
     }
-  }
-
-  if (
-    item.source?.id ===
-    "thefirsttimes"
-  ) {
-    image =
-      fixTheFirstTimesImage(
-        image
-      );
   }
 
   return {
@@ -1331,8 +1351,9 @@ async function enrichJapaneseListingItem(
       "",
 
     image:
-      image ||
-      ""
+      fixTheFirstTimesImage(
+        image
+      )
   };
 }
 

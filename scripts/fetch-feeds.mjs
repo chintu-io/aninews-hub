@@ -2015,59 +2015,15 @@ for (
 ) {
   try {
     /*
-     * Sankaku has its own
-     * strict RSS-only pipeline.
+     * Sankaku is handled separately by sankaku-fix.mjs.
+     * Keeping it out of the generic fetch pass avoids
+     * duplicate failing requests before the dedicated
+     * transport fallback gets a chance.
      */
     if (
       source.id ===
       "sankaku"
     ) {
-      const result =
-        await fetchSankaku();
-
-      allArticles.push(
-        ...result.items
-      );
-
-      sankakuDiagnostics =
-        result.diagnostics;
-
-      sourceResults.push({
-        id:
-          source.id,
-
-        name:
-          source.name,
-
-        status:
-          result.items.length
-            ? "ok"
-            : "empty",
-
-        mode:
-          result.diagnostics
-            .selectedMode,
-
-        feedUrl:
-          result.diagnostics
-            .selectedFeed,
-
-        count:
-          result.items.length
-      });
-
-      if (
-        result.items.length
-      ) {
-        console.log(
-          `✓ ${source.name}: ${result.items.length} stories via ${result.diagnostics.selectedMode}`
-        );
-      } else {
-        console.log(
-          `! ${source.name}: RSS unavailable — no stale cache used`
-        );
-      }
-
       continue;
     }
 

@@ -11,7 +11,8 @@ export const SOURCES = [
     ],
     siteUrl: "https://news.sankakucomplex.com/",
     category: "Anime & Culture",
-    accent: "#a78bfa"
+    accent: "#a78bfa",
+    language: "en"
   },
   {
     id: "soranews24",
@@ -22,7 +23,8 @@ export const SOURCES = [
     ],
     siteUrl: "https://soranews24.com/",
     category: "Japan",
-    accent: "#6fc9e6"
+    accent: "#6fc9e6",
+    language: "en"
   },
   {
     id: "ann",
@@ -34,7 +36,8 @@ export const SOURCES = [
     siteUrl: "https://www.animenewsnetwork.com/news/",
     category: "Anime News",
     accent: "#ffb45f",
-    enrichImages: true
+    enrichImages: true,
+    language: "en"
   },
   {
     id: "crunchyroll",
@@ -45,6 +48,73 @@ export const SOURCES = [
     ],
     siteUrl: "https://www.crunchyroll.com/news",
     category: "Anime News",
-    accent: "#ff6784"
+    accent: "#ff6784",
+    language: "en"
+  },
+  {
+    id: "mal",
+    name: "MyAnimeList",
+    short: "MAL",
+    feedUrls: [
+      "https://myanimelist.net/rss/news.xml"
+    ],
+    siteUrl: "https://myanimelist.net/news",
+    category: "Anime News",
+    accent: "#5ca8ff",
+    language: "en"
+  },
+  {
+    id: "kotaku",
+    name: "Kotaku",
+    short: "Kotaku",
+    feedUrls: [
+      "https://kotaku.com/feed"
+    ],
+    siteUrl: "https://kotaku.com/",
+    category: "Gaming & Culture",
+    accent: "#ff6b9d",
+    language: "en"
+  },
+  {
+    id: "ototoy",
+    name: "OTOTOY",
+    short: "OTOTOY",
+    feedUrls: [
+      "https://ototoy.jp/news/feed.rss"
+    ],
+    siteUrl: "https://ototoy.jp/news/",
+    category: "Japanese Music",
+    accent: "#e6a4ff",
+    language: "ja",
+    mergeFeeds: false
+  },
+  {
+    id: "skream",
+    name: "Skream!",
+    short: "Skream",
+    feedUrls: [
+      "https://skream.jp/news/"
+    ],
+    siteUrl: "https://skream.jp/news/",
+    category: "Japanese Music",
+    accent: "#ff9b74",
+    language: "ja",
+    kind: "html-list"
+  },
+  {
+    id: "natalie",
+    name: "Natalie",
+    short: "Natalie",
+    feedUrls: [
+      "https://natalie.mu/music/feed/news",
+      "https://natalie.mu/comic/feed/news",
+      "https://natalie.mu/eiga/feed/news",
+      "https://natalie.mu/owarai/feed/news"
+    ],
+    siteUrl: "https://natalie.mu/",
+    category: "Japanese Pop Culture",
+    accent: "#7ac8ff",
+    language: "ja",
+    mergeFeeds: true
   }
 ];

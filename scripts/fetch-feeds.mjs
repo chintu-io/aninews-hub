@@ -555,6 +555,139 @@ async function fetchUrl(
   };
 }
 
+function jinaCandidates(body) {
+  const candidates = [];
+
+  try {
+    const json =
+      JSON.parse(
+        String(body || "")
+      );
+
+    const data =
+      json?.data ??
+      json;
+
+    for (
+      const key of [
+        "content",
+        "html",
+        "text"
+      ]
+    ) {
+      if (
+        typeof data?.[key] === "string" &&
+        data[key].trim()
+      ) {
+        candidates.push(
+          data[key]
+        );
+      }
+    }
+  } catch {
+    /*
+     * Jina can also return plain text.
+     */
+  }
+
+  candidates.push(
+    String(body || "")
+  );
+
+  return [
+    ...new Set(
+      candidates.filter(
+        value =>
+          String(value || "").trim()
+      )
+    )
+  ];
+}
+
+function markdownArticleLinks(
+  content,
+  baseUrl,
+  hostPattern
+) {
+  const source =
+    String(content || "");
+
+  const results = [];
+  const seen = new Set();
+
+  const linkRe =
+    /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
+
+  for (
+    const match of
+      source.matchAll(linkRe)
+  ) {
+    const href =
+      absoluteUrl(
+        match[2],
+        baseUrl
+      );
+
+    if (
+      !href ||
+      !hostPattern.test(href)
+    ) {
+      continue;
+    }
+
+    const title =
+      stripHtml(
+        match[1]
+      )
+        .replace(
+          /\s+/g,
+          " "
+        )
+        .trim();
+
+    if (
+      !title ||
+      title.length < 8
+    ) {
+      continue;
+    }
+
+    const key =
+      href
+        .replace(
+          /#.*$/,
+          ""
+        )
+        .replace(
+          /\/$/,
+          ""
+        )
+        .toLowerCase();
+
+    if (
+      seen.has(
+        key
+      )
+    ) {
+      continue;
+    }
+
+    seen.add(
+      key
+    );
+
+    results.push({
+      href,
+      title,
+      index:
+        match.index ??
+        0
+    });
+  }
+
+  return results;
+}
+
 function htmlArticleLinks(html, baseUrl, hostPattern) {
   const source = String(html || "");
   const results = [];
@@ -901,14 +1034,151 @@ function parseNatalieNewsPage(html, section) {
   return items;
 }
 
-async function parseNatalieSource(source) {
+function parseNatalieCandidate(
+  content,
+  section,
+  baseUrl
+) {
+  const htmlItems =
+    parseNatalieNewsPage(
+      content,
+      section
+    );
+
+  if (
+    htmlItems.length
+  ) {
+    return htmlItems;
+  }
+
+  const hostPattern =
+    new RegExp(
+      "^https://natalie\\.mu/" +
+      section +
+      "/news/[0-9]+",
+      "i"
+    );
+
+  const links =
+    markdownArticleLinks(
+      content,
+      baseUrl,
+      hostPattern
+    );
+
+  const source =
+    String(content || "");
+
+  const items = [];
+
+  for (
+    let i = 0;
+    i < links.length;
+    i++
+  ) {
+    const current =
+      links[i];
+
+    const start =
+      Math.max(
+        0,
+        current.index - 1000
+      );
+
+    const end =
+      i + 1 <
+        links.length
+        ? Math.min(
+            source.length,
+            links[i + 1].index +
+              650
+          )
+        : Math.min(
+            source.length,
+            current.index +
+              1800
+          );
+
+    const windowText =
+      stripHtml(
+        source.slice(
+          start,
+          end
+        )
+      );
+
+    const dateMatch =
+      windowText.match(
+        /20\d{2}[年/.]\d{1,2}[月/.]\d{1,2}日?(?:\s+\d{1,2}:\d{2})?/
+      );
+
+    const title =
+      current.title.trim();
+
+    if (
+      !title ||
+      /^(?:ニュース|NEWS|read more|more)$/i.test(
+        title
+      )
+    ) {
+      continue;
+    }
+
+    let description = "";
+
+    const titlePos =
+      windowText.indexOf(
+        title
+      );
+
+    if (
+      titlePos >= 0
+    ) {
+      const after =
+        windowText
+          .slice(
+            titlePos +
+              title.length
+          )
+          .trim();
+
+      description =
+        excerpt(
+          after
+            .split(
+              /20\d{2}[年/.]\d{1,2}[月/.]\d{1,2}日?/
+            )[0]
+            .trim()
+        );
+    }
+
+    items.push({
+      title,
+      link:
+        current.href,
+      pubDate:
+        dateMatch?.[0] ||
+        "",
+      description
+    });
+  }
+
+  return items;
+}
+
+async function parseNatalieSource(
+  source
+) {
   const allItems = [];
-  let firstResult = null;
+  let firstResult =
+    null;
 
   for (
     const pageUrl of
       source.feedUrls
   ) {
+    let collected = [];
+
     try {
       const result =
         await fetchUrl(
@@ -923,40 +1193,112 @@ async function parseNatalieSource(source) {
       }
 
       if (
-        result.status <
-          200 ||
-        result.status >=
-          300 ||
-        !result.body.trim()
+        result.status >= 200 &&
+        result.status < 300 &&
+        result.body.trim()
       ) {
-        continue;
+        collected =
+          parseNatalieCandidate(
+            result.body,
+            new URL(
+              pageUrl
+            ).pathname
+              .split("/")
+              .filter(Boolean)[0],
+            pageUrl
+          );
       }
-
-      const section =
-        new URL(
-          pageUrl
-        ).pathname
-          .split("/")
-          .filter(Boolean)[0];
-
-      allItems.push(
-        ...parseNatalieNewsPage(
-          result.body,
-          section
-        )
-      );
-    } catch (error) {
-      console.warn(
-        "! Natalie section unavailable " +
-          pageUrl +
-          " — " +
-          (error?.message ||
-            error)
-      );
+    } catch {
+      collected = [];
     }
+
+    /*
+     * Natalie blocks the GitHub runner.
+     * Use Jina as a transport fallback,
+     * just as we do for Sankaku.
+     */
+    if (
+      !collected.length
+    ) {
+      try {
+        const jina =
+          await fetchUrl(
+            "https://r.jina.ai/http://" +
+              new URL(
+                pageUrl
+              ).host +
+              new URL(
+                pageUrl
+              ).pathname,
+            {
+              timeout:
+                45000,
+              headers: {
+                accept:
+                  "application/json",
+                "x-no-cache":
+                  "true",
+                "x-cache-tolerance":
+                  "0"
+              }
+            }
+          );
+
+        if (
+          !firstResult
+        ) {
+          firstResult =
+            jina;
+        }
+
+        if (
+          jina.status >= 200 &&
+          jina.status < 300 &&
+          jina.body.trim()
+        ) {
+          const section =
+            new URL(
+              pageUrl
+            ).pathname
+              .split("/")
+              .filter(Boolean)[0];
+
+          for (
+            const candidate of
+              jinaCandidates(
+                jina.body
+              )
+          ) {
+            const items =
+              parseNatalieCandidate(
+                candidate,
+                section,
+                pageUrl
+              );
+
+            if (
+              items.length
+            ) {
+              collected =
+                items;
+              break;
+            }
+          }
+        }
+      } catch {
+        /*
+         * Try the next section.
+         */
+      }
+    }
+
+    allItems.push(
+      ...collected
+    );
   }
 
-  const unique = new Map();
+  const unique =
+    new Map();
 
   for (
     const item of

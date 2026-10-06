@@ -1394,7 +1394,9 @@ function billboardArticleImageCandidates(
 ) {
   const match =
     /\/d_news\/detail\/(\d+)/i.exec(
-      String(articleUrl || "")
+      String(
+        articleUrl || ""
+      )
     );
 
   if (
@@ -1424,13 +1426,21 @@ function billboardArticleImageCandidates(
     id +
     "/";
 
+  /*
+   * Billboard JAPAN exposes an
+   * 800px article image. Prefer it
+   * before smaller variants.
+   */
   return [
+    "800x_image.jpg",
+    "800x_image.webp",
+    "800x_image.png",
+    "x800_image.jpg",
+    "x800_image.webp",
+    "x800_image.png",
     "x200_image.jpg",
-    "x200_image.png",
-    "x200_image.jpeg",
-    "200x_image.jpg",
-    "200x_image.png",
-    "200x_image.jpeg"
+    "x200_image.webp",
+    "x200_image.png"
   ].map(
     file =>
       base +

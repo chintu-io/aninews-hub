@@ -1080,6 +1080,11 @@ for (
       status:
         result.status,
 
+      responseSample:
+        plan.transport === "jina-reader"
+          ? result.body.slice(0, 4000)
+          : undefined,
+
       finalUrl:
         result.finalUrl,
 

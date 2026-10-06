@@ -749,6 +749,16 @@ function metaContent(
   return "";
 }
 
+function stripMarkdown(value = "") {
+  return String(value || "")
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/[>*_~]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function jinaArticleMetadata(body) {
   try {
     const json =
@@ -760,97 +770,134 @@ function jinaArticleMetadata(body) {
       json?.data ??
       json;
 
+    const content =
+      String(
+        data?.content ||
+        ""
+      );
+
+    /*
+     * Jina's page metadata can be stale.
+     * The rendered article content is reliable:
+     * after the article heading/byline/image, the
+     * first substantial paragraph is the article lead.
+     */
+    const lines =
+      content
+        .split(/\r?\n/)
+        .map(
+          line =>
+            line.trim()
+        );
+
+    let seenHeading =
+      false;
+
+    for (
+      const line of
+        lines
+    ) {
+      if (
+        /^#\s+/.test(
+          line
+        )
+      ) {
+        seenHeading =
+          true;
+        continue;
+      }
+
+      if (
+        !seenHeading ||
+        !line
+      ) {
+        continue;
+      }
+
+      if (
+        /^!\[/.test(line) ||
+        /^\[[^\]]+\]\(/.test(line) ||
+        /^https?:\/\//i.test(line) ||
+        /^by\s+/i.test(line) ||
+        /^(?:add\s+comment|hide ads|comment)$/i.test(line) ||
+        /^(?:just now|\d+\s+(?:minute|minutes|hour|hours|day|days)\s+ago)$/i.test(line)
+      ) {
+        continue;
+      }
+
+      const description =
+        excerpt(
+          stripMarkdown(
+            line
+          )
+        );
+
+      if (
+        description &&
+        description.length >=
+          40
+      ) {
+        return {
+          description
+        };
+      }
+    }
+
+    /*
+     * HTML fallback if the Markdown
+     * representation is unavailable.
+     */
     const html =
       String(
         data?.html ||
         ""
       );
 
-    const descriptionCandidates = [
-      metaContent(
-        html,
-        "og:description"
-      ),
-      metaContent(
-        html,
-        "description"
-      ),
-      data?.description
-    ];
-
-    let description = "";
+    const articleBlocks =
+      html.match(
+        /<article\b[\s\S]*?<\/article>/gi
+      ) || [];
 
     for (
-      const candidate of
-        descriptionCandidates
+      const block of
+        articleBlocks
     ) {
-      const value =
-        excerpt(
-          candidate || ""
-        );
+      const paragraphs =
+        [
+          ...block.matchAll(
+            /<p[^>]*>([\s\S]*?)<\/p>/gi
+          )
+        ]
+          .map(
+            match =>
+              excerpt(
+                match[1]
+              )
+          )
+          .filter(
+            value =>
+              value &&
+              value.length >= 40
+          );
 
       if (
-        value &&
-        !/^sankaku complex$/i.test(value) &&
-        !/^anime, manga and games, observed from japan$/i.test(value)
+        paragraphs.length
       ) {
-        description =
-          value;
-        break;
-      }
-    }
-
-    /*
-     * Prefer the first meaningful article paragraph
-     * when page metadata is generic or absent.
-     */
-    if (
-      !description &&
-      html
-    ) {
-      const articleBlocks =
-        html.match(
-          /<article\b[\s\S]*?<\/article>/gi
-        ) || [];
-
-      for (
-        const block of
-          articleBlocks
-      ) {
-        const paragraphs =
-          [
-            ...block.matchAll(
-              /<p[^>]*>([\s\S]*?)<\/p>/gi
-            )
-          ]
-            .map(
-              match =>
-                excerpt(
-                  match[1]
-                )
-            )
-            .filter(
-              value =>
-                value &&
-                value.length >= 30
-            );
-
-        if (
-          paragraphs.length
-        ) {
-          description =
-            paragraphs[0];
-          break;
-        }
+        return {
+          description:
+            paragraphs[0]
+        };
       }
     }
 
     return {
-      description
+      description:
+        ""
     };
   } catch {
     return {
-      description: ""
+      description:
+        ""
     };
   }
 }
@@ -913,11 +960,7 @@ async function enrichSankakuDescriptions(
             hasDescription:
               Boolean(
                 metadata.description
-              ),
-            sample:
-              debug.descriptionAttempts.length === 0
-                ? result.body.slice(0, 8000)
-                : undefined
+              )
           });
 
           results.push({

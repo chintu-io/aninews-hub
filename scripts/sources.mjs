@@ -75,6 +75,49 @@ export const SOURCES = [
     accent: "#ff6b9d",
     language: "en"
   },
+
+  {
+    id: "thefirsttimes",
+    name: "THE FIRST TIMES",
+    short: "FIRST TIMES",
+    feedUrls: [
+      "https://www.thefirsttimes.jp/news/"
+    ],
+    siteUrl: "https://www.thefirsttimes.jp/news/",
+    category: "Japanese Music",
+    accent: "#ff84b4",
+    language: "ja",
+    kind: "html-list",
+    articlePattern: "^https://www\\.thefirsttimes\\.jp/news/[0-9]+/?$"
+  },
+  {
+    id: "billboardjapan",
+    name: "Billboard JAPAN",
+    short: "Billboard JP",
+    feedUrls: [
+      "https://www.billboard-japan.com/d_news/"
+    ],
+    siteUrl: "https://www.billboard-japan.com/d_news/",
+    category: "Japanese Music",
+    accent: "#7dd7ff",
+    language: "ja",
+    kind: "html-list",
+    articlePattern: "^https://www\\.billboard-japan\\.com/d_news/detail/[0-9]+/?$"
+  },
+  {
+    id: "barks",
+    name: "BARKS",
+    short: "BARKS",
+    feedUrls: [
+      "https://barks.jp/tag/news/"
+    ],
+    siteUrl: "https://barks.jp/tag/news/",
+    category: "Japanese Music",
+    accent: "#ff9f78",
+    language: "ja",
+    kind: "html-list",
+    articlePattern: "^https://barks\\.jp/news/[0-9]+/?$"
+  },
   {
     id: "ototoy",
     name: "OTOTOY",

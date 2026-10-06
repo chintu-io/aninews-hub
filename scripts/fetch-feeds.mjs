@@ -92,10 +92,10 @@ function excerpt(value = "") {
   const text =
     stripHtml(value);
 
-  return text.length <= 260
+  return text.length <= 360
     ? text
     : `${text
-        .slice(0, 257)
+        .slice(0, 357)
         .trimEnd()}…`;
 }
 
@@ -725,6 +725,102 @@ function jsonLdArticle(
   return null;
 }
 
+function cleanAnnTitle(value = "") {
+  return stripHtml(value)
+    .replace(
+      /\s*[-|–—]\s*Anime News Network\s*$/i,
+      ""
+    )
+    .replace(
+      /\s*\|\s*ANN\s*$/i,
+      ""
+    )
+    .trim();
+}
+
+function extractAnnPageTitle(html, article) {
+  const source = String(html || "");
+
+  const h1Candidates = [
+    ...source.matchAll(
+      /<h1\b[^>]*>([\s\S]*?)<\/h1>/gi
+    )
+  ].map(
+    match => cleanAnnTitle(match[1])
+  );
+
+  const documentTitle =
+    /<title\b[^>]*>([\s\S]*?)<\/title>/i.exec(
+      source
+    )?.[1] || "";
+
+  const candidates = [
+    ...h1Candidates,
+    cleanAnnTitle(documentTitle),
+    cleanAnnTitle(metaValue(source, "og:title")),
+    cleanAnnTitle(metaValue(source, "twitter:title")),
+    cleanAnnTitle(article?.headline || "")
+  ].filter(
+    value =>
+      value &&
+      !/^(?:anime news network|ann|home)$/i.test(value)
+  );
+
+  return candidates.find(
+    value => value.length >= 18
+  ) || "";
+}
+
+function betterAnnTitle(current, candidate) {
+  const oldTitle = cleanAnnTitle(current);
+  const newTitle = cleanAnnTitle(candidate);
+
+  if (!newTitle || newTitle.length <= oldTitle.length + 6) {
+    return current;
+  }
+
+  return newTitle;
+}
+
+function annTitleNeedsRepair(item) {
+  const title = cleanAnnTitle(item?.title);
+
+  if (title.length > 38) {
+    return false;
+  }
+
+  try {
+    const parts = new URL(item.link).pathname.split("/").filter(Boolean);
+    const slug = parts.find(
+      part =>
+        /^[a-z0-9-]+$/i.test(part) &&
+        part.length > title.length + 12
+    ) || "";
+
+    return Boolean(slug);
+  } catch {
+    return false;
+  }
+}
+
+function jinaAnnPageTitle(body) {
+  try {
+    const json = JSON.parse(String(body || ""));
+    const data = json?.data ?? json;
+    const articleContent = String(data?.content || "");
+    const heading = articleContent.match(/^#\s+(.+)$/m)?.[1] || "";
+    const fromMarkdown = cleanAnnTitle(heading);
+
+    if (fromMarkdown.length >= 18) {
+      return fromMarkdown;
+    }
+
+    return extractAnnPageTitle(String(data?.html || ""), {});
+  } catch {
+    return "";
+  }
+}
+
 function parseHtmlMetadata(
   html
 ) {
@@ -792,13 +888,9 @@ function parseHtmlMetadata(
 
   return {
     title:
-      stripHtml(
-        article?.headline ||
-        metaValue(
-          html,
-          "og:title"
-        ) ||
-        ""
+      extractAnnPageTitle(
+        html,
+        article
       ),
 
     description:
@@ -837,149 +929,120 @@ async function enrichDirectPage(
         item.link
       );
 
-    if (
-      result.status <
-        200 ||
-      result.status >=
-        300
-    ) {
+    if (result.status < 200 || result.status >= 300) {
       return item;
     }
 
     const meta =
-      parseHtmlMetadata(
-        result.body
-      );
+      parseHtmlMetadata(result.body);
 
     return {
       ...item,
-
       title:
-        meta.title ||
-        item.title,
-
-      excerpt:
-        meta.description
-          ? excerpt(
-              meta.description
-            )
-          : item.excerpt,
-
+        betterAnnTitle(
+          item.title,
+          meta.title
+        ),
       image:
         meta.image ||
-        item.image,
-
-      publishedAt:
-        meta.publishedAt ||
-        item.publishedAt
+        item.image
     };
   } catch {
     return item;
   }
 }
 
-async function enrichAnn(
+async function enrichAnnTitleViaJina(
+  item
+) {
+  try {
+    const result =
+      await fetchUrl(
+        "https://r.jina.ai/" + item.link,
+        {
+          timeout: 40000,
+          headers: {
+            accept: "appliasync function enrichAnn(
   items
 ) {
-  const missing =
-    items.filter(
-      item =>
-        !item.image
-    );
+  const candidates =
+    Array.from(
+      new Map(
+        items
+          .filter(
+            item =>
+              !item.image ||
+              annTitleNeedsRepair(item)
+          )
+          .map(
+            item => [item.link, item]
+          )
+      ).values()
+    ).slice(0, 60);
 
   const results = [];
+  const queue = [...candidates];
 
-  const queue =
-    [
-      ...missing.slice(
-        0,
-        40
-      )
-    ];
+  const worker = async () => {
+    while (queue.length) {
+      const item = queue.shift();
+      if (!item) return;
 
-  const worker =
-    async () => {
-      while (
-        queue.length
+      let updated =
+        await enrichDirectPage(item);
+
+      if (
+        annTitleNeedsRepair(item) &&
+        cleanAnnTitle(updated.title) ===
+          cleanAnnTitle(item.title)
       ) {
-        const item =
-          queue.shift();
-
-        if (!item) {
-          return;
-        }
-
-        results.push(
-          await enrichDirectPage(
-            item
-          )
-        );
-
-        await sleep(
-          120
-        );
+        updated =
+          await enrichAnnTitleViaJina(updated);
       }
-    };
+
+      results.push(updated);
+      await sleep(120);
+    }
+  };
 
   await Promise.all(
     Array.from(
-      {
-        length:
-          Math.min(
-            3,
-            queue.length ||
-              1
-          )
-      },
+      { length: Math.min(3, queue.length || 1) },
       () => worker()
     )
   );
 
   const byLink =
-    new Map(
-      results.map(
-        item => [
-          item.link,
-          item
-        ]
-      )
-    );
+    new Map(results.map(item => [item.link, item]));
 
   let resolved = 0;
+  let titlesRepaired = 0;
 
-  const merged =
-    items.map(
-      item => {
-        const updated =
-          byLink.get(
-            item.link
-          );
+  const merged = items.map(item => {
+    const updated = byLink.get(item.link);
+    if (!updated) return item;
 
-        if (!updated) {
-          return item;
-        }
+    if (!item.image && updated.image) {
+      resolved++;
+    }
 
-        if (
-          updated.image
-        ) {
-          resolved++;
-        }
+    if (
+      cleanAnnTitle(updated.title) !==
+      cleanAnnTitle(item.title)
+    ) {
+      titlesRepaired++;
+    }
 
-        return updated;
-      }
-    );
+    return updated;
+  });
 
   return {
-    items:
-      merged,
-
-    attempted:
-      results.length,
-
-    resolved
+    items: merged,
+    attempted: results.length,
+    resolved,
+    titlesRepaired
   };
 }
-
 /*
  * ---------------------------------------------------------
  * Sankaku helpers
@@ -2150,7 +2213,7 @@ for (
       );
 
       console.log(
-        `  image enrichment: ${enrichment.resolved}/${enrichment.attempted}`
+        `  image enrichment: ${enrichment.resolved}/${enrichment.attempted}; title repairs: ${enrichment.titlesRepaired}`
       );
     } else {
       console.log(

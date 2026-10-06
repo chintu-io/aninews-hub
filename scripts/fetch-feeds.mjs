@@ -1205,28 +1205,164 @@ function fixTheFirstTimesImage(
   return value;
 }
 
+function theFirstTimesAttachmentUrls(
+  html,
+  articleUrl
+) {
+  const urls = [];
+  const seen = new Set();
+  const source =
+    String(html || "");
+
+  const re =
+    /(?:href\s*=\s*["'])([^"']*\/news\/\d+\/attachment\/[^"']+)(?:["'])/gi;
+
+  for (
+    const match of
+      source.matchAll(
+        re
+      )
+  ) {
+    const url =
+      absoluteUrl(
+        match[1],
+        articleUrl
+      );
+
+    if (
+      !url ||
+      !/thefirsttimes\.jp\/news\/\d+\/attachment\//i.test(
+        url
+      )
+    ) {
+      continue;
+    }
+
+    const key =
+      url
+        .replace(
+          /#.*$/,
+          ""
+        )
+        .toLowerCase();
+
+    if (
+      seen.has(
+        key
+      )
+    ) {
+      continue;
+    }
+
+    seen.add(
+      key
+    );
+
+    urls.push(
+      url
+    );
+  }
+
+  return urls.slice(
+    0,
+    3
+  );
+}
+
+async function theFirstTimesAttachmentImage(
+  html,
+  articleUrl
+) {
+  const attachmentUrls =
+    theFirstTimesAttachmentUrls(
+      html,
+      articleUrl
+    );
+
+  for (
+    const attachmentUrl of
+      attachmentUrls
+  ) {
+    try {
+      const response =
+        await fetchUrl(
+          attachmentUrl,
+          {
+            timeout:
+              20000,
+            headers: {
+              accept:
+                "text/html,application/xhtml+xml, */*"
+            }
+          }
+        );
+
+      if (
+        response.status <
+          200 ||
+        response.status >=
+          300
+      ) {
+        continue;
+      }
+
+      const meta =
+        parseHtmlMetadata(
+          response.body
+        );
+
+      const image =
+        fixTheFirstTimesImage(
+          meta?.image
+        );
+
+      if (
+        image
+      ) {
+        return image;
+      }
+
+      const fromHtml =
+        fixTheFirstTimesImage(
+          imageFromText(
+            response.body,
+            attachmentUrl
+          )
+        );
+
+      if (
+        fromHtml
+      ) {
+        return fromHtml;
+      }
+    } catch {
+      continue;
+    }
+  }
+
+  return "";
+}
+
 async function enrichJapaneseListingItem(
   item
 ) {
   let directMeta =
     null;
 
-  /*
-   * Use the listing card's own image
-   * first. This keeps each story tied
-   * to its own thumbnail.
-   */
+  let directHtml =
+    "";
+
   let image =
-    fixTheFirstTimesImage(
-      item.image
-    );
+    "";
 
   let description =
     "";
 
   /*
-   * Prefer the real article page for
-   * metadata when available.
+   * First: inspect the actual article
+   * page. Never trust a generic listing
+   * image when a page-specific image
+   * can be identified.
    */
   try {
     const direct =
@@ -1247,23 +1383,50 @@ async function enrichJapaneseListingItem(
       direct.status < 300 &&
       direct.body.trim()
     ) {
+      directHtml =
+        direct.body;
+
       directMeta =
         parseHtmlMetadata(
-          direct.body
+          directHtml
         );
 
-      if (
-        !image
-      ) {
-        image =
-          fixTheFirstTimesImage(
-            directMeta?.image
-          );
-      }
+      image =
+        directMeta?.image ||
+        "";
 
       description =
         directMeta?.description ||
         "";
+
+      /*
+       * THE FIRST TIMES stores the
+       * article's main visual on a
+       * separate /attachment/ page.
+       */
+      if (
+        item.source?.id ===
+        "thefirsttimes" ||
+        (
+          !image &&
+          /thefirsttimes\.jp\/news\//i.test(
+            item.link
+          )
+        )
+      ) {
+        const attachmentImage =
+          await theFirstTimesAttachmentImage(
+            directHtml,
+            item.link
+          );
+
+        if (
+          attachmentImage
+        ) {
+          image =
+            attachmentImage;
+        }
+      }
     }
   } catch {
     directMeta =
@@ -1271,8 +1434,7 @@ async function enrichJapaneseListingItem(
   }
 
   /*
-   * Jina remains the transport fallback
-   * for blocked article pages.
+   * Jina fallback.
    */
   if (
     !image ||
@@ -1336,10 +1498,32 @@ async function enrichJapaneseListingItem(
       }
     } catch {
       /*
-       * Keep any data recovered from
-       * the listing or direct page.
+       * Keep any direct-page data.
        */
     }
+  }
+
+  /*
+   * Last resort: retain the listing
+   * image, but only after trying the
+   * real article and attachment.
+   */
+  if (
+    !image &&
+    item.image
+  ) {
+    image =
+      item.image;
+  }
+
+  if (
+    item.source?.id ===
+    "thefirsttimes"
+  ) {
+    image =
+      fixTheFirstTimesImage(
+        image
+      );
   }
 
   return {
@@ -1352,9 +1536,8 @@ async function enrichJapaneseListingItem(
       "",
 
     image:
-      fixTheFirstTimesImage(
-        image
-      )
+      image ||
+      ""
   };
 }
 

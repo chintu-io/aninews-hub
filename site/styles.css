@@ -23,22 +23,22 @@
 
 html.light {
   color-scheme: light;
-  --bg: #f8f5fb;
-  --bg-2: #fff9fd;
-  --panel: rgba(255,255,255,.84);
-  --panel-solid: #ffffff;
-  --panel-soft: rgba(118,81,213,.055);
-  --line: rgba(28,24,43,.09);
-  --line-strong: rgba(28,24,43,.14);
-  --text: #231e2e;
-  --muted: #665f71;
-  --faint: #8d8798;
+  --bg: #f2eef9;
+  --bg-2: #fbf7ff;
+  --panel: rgba(255,255,255,.90);
+  --panel-solid: #fff;
+  --panel-soft: rgba(118,81,213,.075);
+  --line: rgba(55,42,82,.13);
+  --line-strong: rgba(55,42,82,.20);
+  --text: #211a31;
+  --muted: #5f586d;
+  --faint: #81798f;
   --accent: #7651d5;
-  --accent-2: #d65a89;
-  --accent-3: #239fb6;
-  --accent-soft: rgba(118,81,213,.09);
-  --success: #2d9d68;
-  --shadow: 0 22px 70px rgba(85,65,110,.13);
+  --accent-2: #d95487;
+  --accent-3: #208fa7;
+  --accent-soft: rgba(118,81,213,.105);
+  --success: #258f60;
+  --shadow: 0 24px 70px rgba(83,61,112,.16);
 }
 
 * {
@@ -1248,6 +1248,190 @@ footer {
   height: 23px;
   border-radius: 8px;
   font-size: 11px;
+}
+
+/* Light theme: preserve the visual richness of dark mode without changing dark mode. */
+html.light body {
+  background:
+    radial-gradient(circle at 7% 0%, rgba(184,146,255,.20), transparent 25rem),
+    radial-gradient(circle at 92% 7%, rgba(255,143,190,.16), transparent 23rem),
+    radial-gradient(circle at 50% 48%, rgba(255,255,255,.72), transparent 31rem),
+    linear-gradient(180deg, #fbf8ff 0%, #f2eef9 58%, #ebe5f5 100%);
+}
+
+html.light body::before {
+  background-image:
+    radial-gradient(circle at 20% 40%, rgba(118,81,213,.075) 0 1px, transparent 1px),
+    radial-gradient(circle at 80% 65%, rgba(217,84,135,.055) 0 1px, transparent 1px);
+}
+
+html.light .ambient-one {
+  background: rgba(151,113,222,.13);
+}
+
+html.light .ambient-two {
+  background: rgba(225,98,143,.10);
+}
+
+html.light .topbar {
+  background: rgba(250,247,255,.84);
+  border-bottom-color: rgba(55,42,82,.12);
+  box-shadow: 0 8px 28px rgba(83,61,112,.07);
+}
+
+html.light .source-nav a:hover,
+html.light .action-button:hover {
+  background: rgba(118,81,213,.075);
+}
+
+html.light .hero {
+  background:
+    radial-gradient(circle at 8% 8%, rgba(184,146,255,.22), transparent 30%),
+    radial-gradient(circle at 86% 15%, rgba(255,143,190,.18), transparent 29%),
+    linear-gradient(135deg, rgba(255,255,255,.98), rgba(249,244,255,.92) 48%, rgba(255,248,252,.94)),
+    #f9f5ff;
+  border-color: rgba(78,58,110,.16);
+  box-shadow:
+    0 30px 80px rgba(88,64,118,.15),
+    inset 0 1px 0 rgba(255,255,255,.9);
+}
+
+html.light .hero::after {
+  opacity: .95;
+}
+
+html.light .hero-copy-text {
+  color: #5e576b;
+}
+
+html.light .status-pill {
+  background: rgba(45,143,96,.075);
+  border-color: rgba(45,143,96,.20);
+}
+
+html.light .hero-orbit {
+  border-color: rgba(118,81,213,.30);
+}
+
+html.light .orbit-small {
+  border-color: rgba(217,84,135,.28);
+}
+
+html.light .cloud-one {
+  background: rgba(118,81,213,.07);
+}
+
+html.light .cloud-two {
+  background: rgba(217,84,135,.07);
+}
+
+html.light .hero-japanese {
+  color: rgba(80,61,107,.10);
+}
+
+html.light .stat-card,
+html.light .story,
+html.light .sidebar-card {
+  background:
+    linear-gradient(145deg, rgba(255,255,255,.96), rgba(249,245,255,.91));
+  border-color: rgba(55,42,82,.13);
+  box-shadow:
+    0 12px 32px rgba(88,64,118,.075),
+    inset 0 1px 0 rgba(255,255,255,.86);
+}
+
+html.light .stat-card:hover,
+html.light .story:hover {
+  border-color: rgba(118,81,213,.25);
+  box-shadow:
+    0 18px 42px rgba(88,64,118,.12),
+    inset 0 1px 0 rgba(255,255,255,.92);
+}
+
+html.light .story-image {
+  background:
+    radial-gradient(circle at 30% 20%, rgba(184,146,255,.24), transparent 35%),
+    linear-gradient(145deg, #e8e0f3, #d7cfe5);
+}
+
+html.light .story-image::after {
+  background: linear-gradient(180deg, transparent 48%, rgba(32,25,48,.22));
+}
+
+html.light .story-source-name {
+  color: #625b70;
+}
+
+html.light .story-content h3 {
+  color: #241d33;
+}
+
+html.light .story-content p {
+  color: #665e73;
+}
+
+html.light .story-footer {
+  color: #827a90;
+}
+
+html.light .story-arrow {
+  border-color: rgba(55,42,82,.13);
+}
+
+html.light .search input {
+  background: rgba(255,255,255,.78);
+  border-color: rgba(55,42,82,.14);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.85);
+}
+
+html.light .search input:focus {
+  background: rgba(255,255,255,.96);
+  border-color: rgba(118,81,213,.38);
+}
+
+html.light .filters button:hover,
+html.light .filters button.active {
+  background: rgba(118,81,213,.11);
+  border-color: rgba(118,81,213,.24);
+}
+
+html.light .sidebar-card {
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255,143,190,.10), transparent 35%),
+    linear-gradient(145deg, rgba(255,255,255,.97), rgba(247,242,254,.94));
+}
+
+html.light .sidebar-badge,
+html.light .source-rss,
+html.light .all-rss-link {
+  background: rgba(118,81,213,.075);
+  border-color: rgba(118,81,213,.19);
+}
+
+html.light .all-rss-link:hover {
+  background: rgba(118,81,213,.11);
+}
+
+html.light .empty {
+  background: rgba(255,255,255,.82);
+  border-color: rgba(55,42,82,.18);
+}
+
+html.light .page-button {
+  background: rgba(255,255,255,.88);
+  border-color: rgba(55,42,82,.14);
+  box-shadow: 0 7px 18px rgba(88,64,118,.06);
+}
+
+html.light .page-button:hover:not(:disabled),
+html.light .page-button.active {
+  background: rgba(118,81,213,.10);
+  border-color: rgba(118,81,213,.25);
+  box-shadow: 0 8px 20px rgba(88,64,118,.10);
+}
+
+html.light footer {
+  border-top-color: rgba(55,42,82,.12);
 }
 
 @media (max-width: 1120px) {

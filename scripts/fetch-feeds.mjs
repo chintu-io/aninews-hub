@@ -470,6 +470,7 @@ function normalize(
       excerpt(summary),
 
     image:
+      item.image ||
       imageOf(
         item,
         source

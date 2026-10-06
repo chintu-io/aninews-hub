@@ -727,32 +727,22 @@ function jsonLdArticle(
 
 function cleanAnnTitle(value = "") {
   return stripHtml(value)
-    .replace(
-      /\s*[-|–—]\s*Anime News Network\s*$/i,
-      ""
-    )
-    .replace(
-      /\s*\|\s*ANN\s*$/i,
-      ""
-    )
+    .replace(/\s*[-|–—]\s*Anime News Network\s*$/i, "")
+    .replace(/\s*\|\s*ANN\s*$/i, "")
     .trim();
 }
 
-function extractAnnPageTitle(html, article) {
+function extractAnnPageTitle(html, article = {}) {
   const source = String(html || "");
 
   const h1Candidates = [
     ...source.matchAll(
       /<h1\b[^>]*>([\s\S]*?)<\/h1>/gi
     )
-  ].map(
-    match => cleanAnnTitle(match[1])
-  );
+  ].map(match => cleanAnnTitle(match[1]));
 
   const documentTitle =
-    /<title\b[^>]*>([\s\S]*?)<\/title>/i.exec(
-      source
-    )?.[1] || "";
+    /<title\b[^>]*>([\s\S]*?)<\/title>/i.exec(source)?.[1] || "";
 
   const candidates = [
     ...h1Candidates,
@@ -766,16 +756,21 @@ function extractAnnPageTitle(html, article) {
       !/^(?:anime news network|ann|home)$/i.test(value)
   );
 
-  return candidates.find(
-    value => value.length >= 18
-  ) || "";
+  return (
+    candidates.find(
+      value => value.length >= 18
+    ) || ""
+  );
 }
 
 function betterAnnTitle(current, candidate) {
   const oldTitle = cleanAnnTitle(current);
   const newTitle = cleanAnnTitle(candidate);
 
-  if (!newTitle || newTitle.length <= oldTitle.length + 6) {
+  if (
+    !newTitle ||
+    newTitle.length <= oldTitle.length + 6
+  ) {
     return current;
   }
 
@@ -790,12 +785,17 @@ function annTitleNeedsRepair(item) {
   }
 
   try {
-    const parts = new URL(item.link).pathname.split("/").filter(Boolean);
-    const slug = parts.find(
-      part =>
-        /^[a-z0-9-]+$/i.test(part) &&
-        part.length > title.length + 12
-    ) || "";
+    const pathParts =
+      new URL(item.link).pathname
+        .split("/")
+        .filter(Boolean);
+
+    const slug =
+      pathParts.find(
+        part =>
+          /^[a-z0-9-]+$/i.test(part) &&
+          part.length > title.length + 12
+      ) || "";
 
     return Boolean(slug);
   } catch {
@@ -807,15 +807,24 @@ function jinaAnnPageTitle(body) {
   try {
     const json = JSON.parse(String(body || ""));
     const data = json?.data ?? json;
-    const articleContent = String(data?.content || "");
-    const heading = articleContent.match(/^#\s+(.+)$/m)?.[1] || "";
-    const fromMarkdown = cleanAnnTitle(heading);
+
+    const content =
+      String(data?.content || "");
+
+    const heading =
+      content.match(/^#\s+(.+)$/m)?.[1] || "";
+
+    const fromMarkdown =
+      cleanAnnTitle(heading);
 
     if (fromMarkdown.length >= 18) {
       return fromMarkdown;
     }
 
-    return extractAnnPageTitle(String(data?.html || ""), {});
+    return extractAnnPageTitle(
+      String(data?.html || ""),
+      {}
+    );
   } catch {
     return "";
   }
@@ -888,9 +897,13 @@ function parseHtmlMetadata(
 
   return {
     title:
-      extractAnnPageTitle(
-        html,
-        article
+      stripHtml(
+        article?.headline ||
+        metaValue(
+          html,
+          "og:title"
+        ) ||
+        ""
       ),
 
     description:
@@ -929,20 +942,29 @@ async function enrichDirectPage(
         item.link
       );
 
-    if (result.status < 200 || result.status >= 300) {
+    if (
+      result.status <
+        200 ||
+      result.status >=
+        300
+    ) {
       return item;
     }
 
     const meta =
-      parseHtmlMetadata(result.body);
+      parseHtmlMetadata(
+        result.body
+      );
 
     return {
       ...item,
+
       title:
         betterAnnTitle(
           item.title,
           meta.title
         ),
+
       image:
         meta.image ||
         item.image
@@ -958,11 +980,51 @@ async function enrichAnnTitleViaJina(
   try {
     const result =
       await fetchUrl(
-        "https://r.jina.ai/" + item.link,
+        "https://r.jina.ai/" +
+          item.link,
         {
-          timeout: 40000,
+          timeout:
+            40000,
+
           headers: {
-            accept: "appliasync function enrichAnn(
+            accept:
+              "application/json",
+
+            "x-no-cache":
+              "true",
+
+            "x-cache-tolerance":
+              "0"
+          }
+        }
+      );
+
+    if (
+      result.status <
+        200 ||
+      result.status >=
+        300
+    ) {
+      return item;
+    }
+
+    return {
+      ...item,
+
+      title:
+        betterAnnTitle(
+          item.title,
+          jinaAnnPageTitle(
+            result.body
+          )
+        )
+    };
+  } catch {
+    return item;
+  }
+}
+
+async function enrichAnn(
   items
 ) {
   const candidates =
@@ -972,77 +1034,146 @@ async function enrichAnnTitleViaJina(
           .filter(
             item =>
               !item.image ||
-              annTitleNeedsRepair(item)
+              annTitleNeedsRepair(
+                item
+              )
           )
           .map(
-            item => [item.link, item]
+            item => [
+              item.link,
+              item
+            ]
           )
       ).values()
-    ).slice(0, 60);
+    ).slice(
+      0,
+      60
+    );
 
   const results = [];
-  const queue = [...candidates];
 
-  const worker = async () => {
-    while (queue.length) {
-      const item = queue.shift();
-      if (!item) return;
+  const queue = [
+    ...candidates
+  ];
 
-      let updated =
-        await enrichDirectPage(item);
-
-      if (
-        annTitleNeedsRepair(item) &&
-        cleanAnnTitle(updated.title) ===
-          cleanAnnTitle(item.title)
+  const worker =
+    async () => {
+      while (
+        queue.length
       ) {
-        updated =
-          await enrichAnnTitleViaJina(updated);
-      }
+        const item =
+          queue.shift();
 
-      results.push(updated);
-      await sleep(120);
-    }
-  };
+        if (!item) {
+          return;
+        }
+
+        let updated =
+          await enrichDirectPage(
+            item
+          );
+
+        if (
+          annTitleNeedsRepair(
+            item
+          ) &&
+          cleanAnnTitle(
+            updated.title
+          ) ===
+            cleanAnnTitle(
+              item.title
+            )
+        ) {
+          updated =
+            await enrichAnnTitleViaJina(
+              updated
+            );
+        }
+
+        results.push(
+          updated
+        );
+
+        await sleep(
+          120
+        );
+      }
+    };
 
   await Promise.all(
     Array.from(
-      { length: Math.min(3, queue.length || 1) },
+      {
+        length:
+          Math.min(
+            3,
+            queue.length ||
+              1
+          )
+      },
       () => worker()
     )
   );
 
   const byLink =
-    new Map(results.map(item => [item.link, item]));
+    new Map(
+      results.map(
+        item => [
+          item.link,
+          item
+        ]
+      )
+    );
 
   let resolved = 0;
   let titlesRepaired = 0;
 
-  const merged = items.map(item => {
-    const updated = byLink.get(item.link);
-    if (!updated) return item;
+  const merged =
+    items.map(
+      item => {
+        const updated =
+          byLink.get(
+            item.link
+          );
 
-    if (!item.image && updated.image) {
-      resolved++;
-    }
+        if (!updated) {
+          return item;
+        }
 
-    if (
-      cleanAnnTitle(updated.title) !==
-      cleanAnnTitle(item.title)
-    ) {
-      titlesRepaired++;
-    }
+        if (
+          !item.image &&
+          updated.image
+        ) {
+          resolved++;
+        }
 
-    return updated;
-  });
+        if (
+          cleanAnnTitle(
+            updated.title
+          ) !==
+            cleanAnnTitle(
+              item.title
+            )
+        ) {
+          titlesRepaired++;
+        }
+
+        return updated;
+      }
+    );
 
   return {
-    items: merged,
-    attempted: results.length,
+    items:
+      merged,
+
+    attempted:
+      results.length,
+
     resolved,
+
     titlesRepaired
   };
 }
+
 /*
  * ---------------------------------------------------------
  * Sankaku helpers
@@ -2213,7 +2344,7 @@ for (
       );
 
       console.log(
-        `  image enrichment: ${enrichment.resolved}/${enrichment.attempted}; title repairs: ${enrichment.titlesRepaired}`
+        `  image enrichment: ${enrichment.resolved}/${enrichment.attempted}`
       );
     } else {
       console.log(

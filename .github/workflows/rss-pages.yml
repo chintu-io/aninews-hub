@@ -30,6 +30,39 @@ jobs:
       - name: Checkout generated site
         uses: actions/checkout@v6
 
+      # Safety net for the initial/empty repository state. Normal refreshes
+      # happen on the seedbox and commit the generated files to main.
+      - name: Check generated data
+        id: data
+        shell: bash
+        run: |
+          if [ -f site/data/articles.json ] && python3 - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("site/data/articles.json").read_text())
+          raise SystemExit(0 if data.get("articles") else 1)
+          PY
+          then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Setup Node for one-time bootstrap
+        if: steps.data.outputs.ready != 'true'
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Bootstrap generated data
+        if: steps.data.outputs.ready != 'true'
+        run: |
+          npm ci
+          npm run fetch
+          node scripts/sankaku-fix.mjs
+          npm run generate:rss
+
       - name: Configure Pages
         uses: actions/configure-pages@v6
 

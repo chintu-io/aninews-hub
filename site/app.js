@@ -195,6 +195,13 @@ async function ensureTranslation(article) {
     return article;
   }
 
+  if (
+    article.translatedTitle &&
+    article.translatedExcerpt
+  ) {
+    return article;
+  }
+
   const cache =
     translationCacheRead();
 

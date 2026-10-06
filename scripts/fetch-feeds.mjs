@@ -492,7 +492,11 @@ function normalize(
         source.category,
 
       accent:
-        source.accent
+        source.accent,
+
+      language:
+        source.language ||
+        "en"
     }
   };
 }
@@ -549,6 +553,222 @@ async function fetchUrl(
     body:
       await response.text()
   };
+}
+
+function htmlArticleLinks(html, baseUrl, hostPattern) {
+  const source = String(html || "");
+  const results = [];
+  const seen = new Set();
+
+  const anchorRe =
+    /<a\\b[^>]*href\\s*=\\s*["']([^"']+)["'][^>]*>([\\s\\S]*?)<\\/a>/gi;
+
+  for (const match of source.matchAll(anchorRe)) {
+    const href = absoluteUrl(
+      match[1],
+      baseUrl
+    );
+
+    if (!href) continue;
+
+    if (!hostPattern.test(href)) continue;
+
+    const title = stripHtml(match[2])
+      .replace(/\\s+/g, " ")
+      .trim();
+
+    if (!title || title.length < 8) continue;
+
+    const key = href.replace(/#.*$/, "").replace(/\\/$/, "").toLowerCase();
+    if (seen.has(key)) continue;
+
+    seen.add(key);
+    results.push({
+      href,
+      title,
+      index: match.index ?? 0,
+      raw: match[0]
+    });
+  }
+
+  return results;
+}
+
+function parseSkreamNewsPage(html) {
+  const source = String(html || "");
+  const links = htmlArticleLinks(
+    source,
+    "https://skream.jp/news/",
+    /https?:\\/\\/(?:www\\.)?skream\\.jp\\/news\\/\\d{4}\\/\\d{2}\\/[^?#"']+/i
+  );
+
+  const items = [];
+
+  for (let i = 0; i < links.length; i++) {
+    const current = links[i];
+    const start = Math.max(
+      0,
+      current.index - 1200
+    );
+    const end =
+      i + 1 < links.length
+        ? Math.min(
+            source.length,
+            links[i + 1].index + 1200
+          )
+        : Math.min(
+            source.length,
+            current.index + 2600
+          );
+
+    const windowText =
+      stripHtml(
+        source.slice(
+          start,
+          end
+        )
+      );
+
+    const dateMatch =
+      windowText.match(
+        /20\\d{2}\\.\\d{1,2}\\.\\d{1,2}(?:\\s+\\d{1,2}:\\d{2})?/
+      );
+
+    const title = current.title
+      .replace(
+        /^(?:Japanese|Overseas)\\s+/i,
+        ""
+      )
+      .trim();
+
+    if (
+      !title ||
+      /^(?:news|read more|more)$/i.test(title)
+    ) {
+      continue;
+    }
+
+    let description = "";
+
+    const titlePos =
+      windowText.indexOf(title);
+
+    if (titlePos >= 0) {
+      const after =
+        windowText
+          .slice(
+            titlePos + title.length
+          )
+          .replace(
+            /^(?:\\s*[|•·]\\s*)+/,
+            ""
+          )
+          .trim();
+
+      const candidate =
+        after
+          .split(
+            /\\n+/
+          )
+          .map(
+            value => value.trim()
+          )
+          .find(
+            value =>
+              value.length >= 50 &&
+              !/^(?:Japanese|Overseas|NEWS)$/i.test(value)
+          ) || "";
+
+      description = excerpt(
+        candidate
+      );
+    }
+
+    items.push({
+      title,
+      link: current.href,
+      pubDate: dateMatch?.[0] || "",
+      description
+    });
+  }
+
+  return items;
+}
+
+async function parseSkreamSource(source) {
+  const first =
+    await fetchUrl(
+      source.feedUrls[0]
+    );
+
+  if (
+    first.status >= 200 &&
+    first.status < 300 &&
+    first.body.trim()
+  ) {
+    const items =
+      parseSkreamNewsPage(
+        first.body
+      );
+
+    if (items.length) {
+      return {
+        result: first,
+        items
+      };
+    }
+  }
+
+  const jinaUrl =
+    "https://r.jina.ai/http://skream.jp/news/";
+
+  const jina =
+    await fetchUrl(
+      jinaUrl,
+      {
+        timeout: 45000,
+        headers: {
+          accept:
+            "application/json",
+          "x-no-cache":
+            "true",
+          "x-cache-tolerance":
+            "0"
+        }
+      }
+    );
+
+  if (
+    jina.status >= 200 &&
+    jina.status < 300 &&
+    jina.body.trim()
+  ) {
+    const candidates =
+      jinaCandidates(
+        jina.body
+      );
+
+    for (
+      const candidate of
+        candidates
+    ) {
+      const items =
+        parseSkreamNewsPage(
+          candidate
+        );
+
+      if (items.length) {
+        return {
+          result: jina,
+          items
+        };
+      }
+    }
+  }
+
+  throw new Error(
+    "Skream news listing unavailable"
+  );
 }
 
 async function parseFeed(
@@ -2230,69 +2450,143 @@ for (
       "ann"
         ? [
             ...source.feedUrls,
-
             "https://www.animenewsnetwork.com/news/rss.xml/",
-
             "https://www.animenewsnetwork.com/all/rss.xml?ann-edition=us"
           ]
         : source.feedUrls;
 
-    let feedResult =
-      null;
+    let result = null;
+    let feed = null;
+    let items = [];
 
-    let lastFeedError =
-      null;
-
-    for (
-      const feedUrl of
-        annFeedUrls
+    if (
+      source.kind ===
+      "html-list"
     ) {
-      try {
-        feedResult =
-          await parseFeed(
-            feedUrl
-          );
-
-        break;
-      } catch (
-        error
-      ) {
-        lastFeedError =
-          String(
-            error?.message ||
-              error
-          );
-      }
-    }
-
-    if (!feedResult) {
-      throw new Error(
-        lastFeedError ||
-          "No usable feed"
-      );
-    }
-
-    const {
-      result,
-      feed
-    } =
-      feedResult;
-
-    let items =
-      (
-        feed.items ||
-        []
-      )
-        .map(
-          item =>
-            normalize(
-              item,
-              source
-            )
-        )
-        .filter(
-          Boolean
+      const parsed =
+        await parseSkreamSource(
+          source
         );
+
+      result =
+        parsed.result;
+
+      items =
+        parsed.items
+          .map(
+            item =>
+              normalize(
+                item,
+                source
+              )
+          )
+          .filter(
+            Boolean
+          );
+    } else if (
+      source.mergeFeeds
+    ) {
+      const merged = [];
+
+      for (
+        const feedUrl of
+          source.feedUrls
+      ) {
+        try {
+          const parsed =
+            await parseFeed(
+              feedUrl
+            );
+
+          if (!result) {
+            result =
+              parsed.result;
+          }
+
+          merged.push(
+            ...(parsed.feed.items || [])
+          );
+        } catch (error) {
+          console.warn(
+            `! ${source.name}: feed unavailable ${feedUrl} — ${
+              error?.message ||
+              error
+            }`
+          );
+        }
+      }
+
+      if (!result) {
+        throw new Error(
+          "No usable feed"
+        );
+      }
+
+      feed = {
+        items: merged
+      };
+
+      items =
+        feed.items
+          .map(
+            item =>
+              normalize(
+                item,
+                source
+              )
+          )
+          .filter(
+            Boolean
+          );
+    } else {
+      let lastFeedError = null;
+
+      for (
+        const feedUrl of
+          annFeedUrls
+      ) {
+        try {
+          const parsed =
+            await parseFeed(
+              feedUrl
+            );
+
+          result =
+            parsed.result;
+
+          feed =
+            parsed.feed;
+
+          break;
+        } catch (error) {
+          lastFeedError =
+            String(
+              error?.message ||
+              error
+            );
+        }
+      }
+
+      if (!result || !feed) {
+        throw new Error(
+          lastFeedError ||
+          "No usable feed"
+        );
+      }
+
+      items =
+        feed.items
+          .map(
+            item =>
+              normalize(
+                item,
+                source
+              )
+          )
+          .filter(
+            Boolean
+          );
+    }
 
     /*
      * ANN only wants news articles.
@@ -2367,7 +2661,9 @@ for (
         "ok",
 
       mode:
-        "rss",
+        source.kind === "html-list"
+          ? "html-list"
+          : "rss",
 
       feedUrl:
         result.finalUrl,

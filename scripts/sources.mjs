@@ -101,20 +101,4 @@ export const SOURCES = [
     language: "ja",
     kind: "html-list"
   },
-  {
-    id: "natalie",
-    name: "Natalie",
-    short: "Natalie",
-    feedUrls: [
-      "https://natalie.mu/music",
-      "https://natalie.mu/comic",
-      "https://natalie.mu/eiga",
-      "https://natalie.mu/owarai"
-    ],
-    siteUrl: "https://natalie.mu/",
-    category: "Japanese Pop Culture",
-    accent: "#7ac8ff",
-    language: "ja",
-    kind: "html-merge"
-  }
 ];

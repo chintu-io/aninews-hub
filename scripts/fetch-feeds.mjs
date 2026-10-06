@@ -963,9 +963,21 @@ function parseJapaneseListingPage(
       }
     }
 
+    const cleanListingTitle =
+      current.title
+        .replace(
+          /\s*(?:20\\d{2}[./-]\\d{1,2}[./-]\\d{1,2})\s*$/,
+          ""
+        )
+        .replace(
+          /\s*(?:20\\d{2}年\\d{1,2}月\\d{1,2}日)\s*$/,
+          ""
+        )
+        .trim();
+
     items.push({
       title:
-        current.title,
+        cleanListingTitle,
 
       link:
         current.href,
@@ -973,7 +985,8 @@ function parseJapaneseListingPage(
       pubDate:
         dateText,
 
-      description,
+      description:
+        "",
 
       contentEncoded:
         windowHtml
@@ -983,17 +996,43 @@ function parseJapaneseListingPage(
   return items;
 }
 
+function cleanJapaneseLeadLine(
+  value
+) {
+  return stripHtml(
+    String(value || "")
+      .replace(
+        /!\[[^\]]*\]\([^)]+\)/g,
+        " "
+      )
+      .replace(
+        /\[([^\]]+)\]\([^)]+\)/g,
+        "$1"
+      )
+      .replace(
+        /!\[[^\]]*\]/g,
+        " "
+      )
+      .replace(
+        /https?:\/\/\S+/gi,
+        " "
+      )
+      .replace(
+        /\s+/g,
+        " "
+      )
+      .trim()
+  );
+}
+
 function japaneseArticleLead(
   body
 ) {
-  const candidates =
-    jinaCandidates(
-      body
-    );
-
   for (
     const candidate of
-      candidates
+      jinaCandidates(
+        body
+      )
   ) {
     let content =
       String(
@@ -1013,8 +1052,8 @@ function japaneseArticleLead(
       content =
         String(
           data?.content ||
-          data?.html ||
           data?.text ||
+          data?.html ||
           content
         );
     } catch {
@@ -1023,64 +1062,66 @@ function japaneseArticleLead(
        */
     }
 
-    const markdownLines =
+    const lines =
       content
         .split(
           /\r?\n/
         )
         .map(
-          line =>
-            stripHtml(
-              line
-                .replace(
-                  /^#{1,6}\s+/,
-                  ""
-                )
-                .replace(
-                  /^\s*[-*]\s+/,
-                  ""
-                )
-                .replace(
-                  /^\s*>\s+/,
-                  ""
-                )
-                .trim()
-            )
+          cleanJapaneseLeadLine
         )
         .filter(
           line =>
-            line &&
             line.length >= 50
         );
 
     for (
       const line of
-        markdownLines
+        lines
     ) {
       if (
         /^https?:\/\//i.test(
-          line
-        ) ||
-        /(?:NEWS\s+(?:ALL|Japan|Overseas)|g-menu__link|read more|privacy policy|cookie|copyright|©)/i.test(
           line
         )
       ) {
         continue;
       }
 
-      return line;
-    }
+      if (
+        /(?:g-menu__link|detail\/\d+|wp-content\/uploads|\.jpe?g\b|\.png\b|\.webp\b|alt=|class=|href=)/i.test(
+          line
+        )
+      ) {
+        continue;
+      }
 
-    const plain =
-      stripHtml(
-        content
-      );
+      if (
+        /^(?:20\d{2}[年/.:-]\d{1,2}[月/.:-]\d{1,2}|[0-9][0-9,.\s]*)$/.test(
+          line
+        )
+      ) {
+        continue;
+      }
 
-    if (
-      plain.length >= 50
-    ) {
+      if (
+        /(?:^|\s)(?:NEWS|ニュース|ALL|Japan|Overseas|Women|Chart|Hot100|Report|Column|Interview|Ranking|Privacy Policy|Cookie|Copyright|©)(?:\s|$)/i.test(
+          line
+        )
+      ) {
+        continue;
+      }
+
+      if (
+        line.length > 240 &&
+        !/[。！？.!?]/.test(
+          line
+        )
+      ) {
+        continue;
+      }
+
       return excerpt(
-        plain
+        line
       );
     }
   }

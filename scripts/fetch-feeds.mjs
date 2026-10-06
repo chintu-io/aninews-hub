@@ -1205,6 +1205,52 @@ function fixTheFirstTimesImage(
   return value;
 }
 
+async function probeImageUrl(
+  url
+) {
+  if (
+    !/^https?:\/\//i.test(
+      String(url || "")
+    )
+  ) {
+    return "";
+  }
+
+  try {
+    const response =
+      await fetchUrl(
+        url,
+        {
+          method:
+            "HEAD",
+          timeout:
+            12000,
+          headers: {
+            accept:
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+          }
+        }
+      );
+
+    if (
+      response.status >= 200 &&
+      response.status < 300 &&
+      /^image\//i.test(
+        response.contentType
+      )
+    ) {
+      return url;
+    }
+  } catch {
+    /*
+     * Treat an unprobeable candidate
+     * as unavailable.
+     */
+  }
+
+  return "";
+}
+
 function theFirstTimesAttachmentUrls(
   html,
   articleUrl
@@ -1343,6 +1389,146 @@ async function theFirstTimesAttachmentImage(
   return "";
 }
 
+function billboardArticleImageCandidates(
+  articleUrl
+) {
+  const match =
+    /\/d_news\/detail\/(\d+)/i.exec(
+      String(articleUrl || "")
+    );
+
+  if (
+    !match
+  ) {
+    return [];
+  }
+
+  const id =
+    match[1];
+
+  const group =
+    id
+      .slice(
+        0,
+        3
+      )
+      .padStart(
+        8,
+        "0"
+      );
+
+  const base =
+    "https://www.billboard-japan.com/scale/news/" +
+    group +
+    "/" +
+    id +
+    "/";
+
+  return [
+    "x200_image.jpg",
+    "x200_image.png",
+    "x200_image.jpeg",
+    "200x_image.jpg",
+    "200x_image.png",
+    "200x_image.jpeg"
+  ].map(
+    file =>
+      base +
+      file
+  );
+}
+
+async function billboardArticleImage(
+  articleUrl
+) {
+  for (
+    const candidate of
+      billboardArticleImageCandidates(
+        articleUrl
+      )
+  ) {
+    const image =
+      await probeImageUrl(
+        candidate
+      );
+
+    if (
+      image
+    ) {
+      return image;
+    }
+  }
+
+  return "";
+}
+
+function barksImageFromText(
+  body,
+  baseUrl
+) {
+  const source =
+    String(body || "");
+
+  const matches = [
+    ...source.matchAll(
+      /https?:\/\/new-img\.barks\.jp\/wp-content\/uploads\/[^"'<> )\s]+?\.(?:jpe?g|png|webp|gif)(?:\?[^"'<> )\s]*)?/gi
+    )
+  ];
+
+  for (
+    const match of
+      matches
+  ) {
+    const image =
+      absoluteUrl(
+        decodeXml(
+          match[0]
+        ),
+        baseUrl
+      );
+
+    if (
+      image &&
+      /^https?:\/\/new-img\.barks\.jp\//i.test(
+        image
+      )
+    ) {
+      return image;
+    }
+  }
+
+  return "";
+}
+
+function fixJapaneseImage(
+  image,
+  sourceId
+) {
+  if (
+    sourceId ===
+    "thefirsttimes"
+  ) {
+    return fixTheFirstTimesImage(
+      image
+    );
+  }
+
+  if (
+    sourceId ===
+    "barks" &&
+    /^https?:\/\//i.test(
+      String(image || "")
+    ) &&
+    !/new-img\.barks\.jp\//i.test(
+      String(image || "")
+    )
+  ) {
+    return "";
+  }
+
+  return image || "";
+}
+
 async function enrichJapaneseListingItem(
   item
 ) {
@@ -1358,11 +1544,19 @@ async function enrichJapaneseListingItem(
   let description =
     "";
 
+  const host =
+    (() => {
+      try {
+        return new URL(
+          item.link
+        ).hostname.toLowerCase();
+      } catch {
+        return "";
+      }
+    })();
+
   /*
-   * First: inspect the actual article
-   * page. Never trust a generic listing
-   * image when a page-specific image
-   * can be identified.
+   * Get the real article page first.
    */
   try {
     const direct =
@@ -1391,41 +1585,88 @@ async function enrichJapaneseListingItem(
           directHtml
         );
 
-      image =
-        directMeta?.image ||
-        "";
-
       description =
         directMeta?.description ||
         "";
 
       /*
-       * THE FIRST TIMES stores the
-       * article's main visual on a
-       * separate /attachment/ page.
+       * Billboard's article ID maps
+       * directly to its thumbnail path.
+       * Prefer that over page/listing
+       * images because it is unambiguous.
        */
       if (
-        item.source?.id ===
-        "thefirsttimes" ||
-        (
-          !image &&
-          /thefirsttimes\.jp\/news\//i.test(
+        host ===
+        "www.billboard-japan.com" ||
+        host ===
+        "billboard-japan.com"
+      ) {
+        image =
+          await billboardArticleImage(
             item.link
-          )
+          );
+      }
+
+      /*
+       * BARKS article pages expose their
+       * own publisher image. Never use
+       * an unrelated listing image before
+       * checking this.
+       */
+      if (
+        !image &&
+        (
+          host ===
+            "barks.jp" ||
+          host ===
+            "www.barks.jp"
         )
       ) {
-        const attachmentImage =
-          await theFirstTimesAttachmentImage(
+        image =
+          fixJapaneseImage(
+            directMeta?.image,
+            "barks"
+          ) ||
+          barksImageFromText(
             directHtml,
             item.link
           );
+      }
 
-        if (
-          attachmentImage
-        ) {
-          image =
-            attachmentImage;
-        }
+      /*
+       * THE FIRST TIMES keeps the
+       * article visual on an attachment
+       * page. Always inspect the attachment
+       * page first, even when an og:image
+       * exists on the article.
+       */
+      if (
+        host ===
+        "www.thefirsttimes.jp" ||
+        host ===
+        "thefirsttimes.jp"
+      ) {
+        image =
+          await theFirstTimesAttachmentImage(
+            directHtml,
+            item.link
+          ) ||
+          fixJapaneseImage(
+            directMeta?.image,
+            "thefirsttimes"
+          );
+      }
+
+      /*
+       * Generic article metadata fallback
+       * for the remaining Japanese source.
+       */
+      if (
+        !image
+      ) {
+        image =
+          directMeta?.image ||
+          "";
       }
     }
   } catch {
@@ -1434,7 +1675,8 @@ async function enrichJapaneseListingItem(
   }
 
   /*
-   * Jina fallback.
+   * Jina fallback if the direct article
+   * could not provide what we need.
    */
   if (
     !image ||
@@ -1489,40 +1731,58 @@ async function enrichJapaneseListingItem(
         if (
           !image
         ) {
-          image =
-            japaneseArticleImage(
-              result.body,
-              item.link
-            );
+          if (
+            host ===
+              "barks.jp" ||
+            host ===
+              "www.barks.jp"
+          ) {
+            image =
+              barksImageFromText(
+                result.body,
+                item.link
+              );
+          }
+
+          if (
+            !image
+          ) {
+            image =
+              japaneseArticleImage(
+                result.body,
+                item.link
+              );
+          }
         }
       }
     } catch {
       /*
-       * Keep any direct-page data.
+       * Keep anything recovered so far.
        */
     }
   }
 
   /*
-   * Last resort: retain the listing
-   * image, but only after trying the
-   * real article and attachment.
+   * Listing image is the final fallback,
+   * never the primary source.
    */
   if (
-    !image &&
-    item.image
+    !image
   ) {
     image =
-      item.image;
-  }
-
-  if (
-    item.source?.id ===
-    "thefirsttimes"
-  ) {
-    image =
-      fixTheFirstTimesImage(
-        image
+      fixJapaneseImage(
+        item.image,
+        host ===
+          "barks.jp" ||
+        host ===
+          "www.barks.jp"
+          ? "barks"
+          : host ===
+              "thefirsttimes.jp" ||
+            host ===
+              "www.thefirsttimes.jp"
+            ? "thefirsttimes"
+            : ""
       );
   }
 

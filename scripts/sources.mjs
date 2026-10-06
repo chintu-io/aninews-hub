@@ -95,14 +95,12 @@ export const SOURCES = [
     name: "BARKS",
     short: "BARKS",
     feedUrls: [
-      "https://barks.jp/tag/news/"
+      "https://barks.jp/tag/news/feed/"
     ],
     siteUrl: "https://barks.jp/tag/news/",
     category: "Japanese Music",
     accent: "#ff9f78",
-    language: "ja",
-    kind: "html-list",
-    articlePattern: "^https://barks\\.jp/news/[0-9]+/?$"
+    language: "ja"
   },
   {
     id: "ototoy",

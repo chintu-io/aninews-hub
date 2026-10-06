@@ -810,7 +810,7 @@ function jinaArticleMetadata(body) {
     ) {
       const articleBlocks =
         html.match(
-          /<article\\b[\\s\\S]*?<\\/article>/gi
+          /<article\b[\s\S]*?<\/article>/gi
         ) || [];
 
       for (
@@ -820,7 +820,7 @@ function jinaArticleMetadata(body) {
         const paragraphs =
           [
             ...block.matchAll(
-              /<p[^>]*>([\\s\\S]*?)<\\/p>/gi
+              /<p[^>]*>([\s\S]*?)<\/p>/gi
             )
           ]
             .map(

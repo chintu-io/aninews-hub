@@ -17,6 +17,16 @@ const SOURCE = {
 const FEED_PLANS = [
   {
     transport: "direct",
+    url: "https://www.sankakucomplex.com/feed/",
+    sourceUrl: "https://www.sankakucomplex.com/feed/"
+  },
+  {
+    transport: "direct",
+    url: "https://www.sankakucomplex.com/?feed=rss2",
+    sourceUrl: "https://www.sankakucomplex.com/?feed=rss2"
+  },
+  {
+    transport: "direct",
     url: "https://news.sankakucomplex.com/feed/",
     sourceUrl: "https://news.sankakucomplex.com/feed/"
   },
@@ -24,40 +34,6 @@ const FEED_PLANS = [
     transport: "direct",
     url: "https://news.sankakucomplex.com/?feed=rss2",
     sourceUrl: "https://news.sankakucomplex.com/?feed=rss2"
-  },
-  {
-    transport: "direct",
-    url: "https://www.sankakucomplex.com/feed/",
-    sourceUrl: "https://www.sankakucomplex.com/feed/"
-  },
-
-  /*
-   * Jina is only a transport layer.
-   * The actual target remains Sankaku's official RSS feed.
-   */
-  {
-    transport: "jina-reader",
-    url: "https://r.jina.ai/https://news.sankakucomplex.com/feed/",
-    sourceUrl: "https://news.sankakucomplex.com/feed/"
-  },
-  {
-    transport: "jina-reader",
-    url: "https://r.jina.ai/https://news.sankakucomplex.com/?feed=rss2",
-    sourceUrl: "https://news.sankakucomplex.com/?feed=rss2"
-  },
-
-  /*
-   * Final RSS fallback.
-   */
-  {
-    transport: "rsshub",
-    url: "https://rsshub.app/sankakucomplex/post?limit=50&sorted=true",
-    sourceUrl: "https://rsshub.app/sankakucomplex/post"
-  },
-  {
-    transport: "rsshub",
-    url: "https://rsshub.app/sankakucomplex/post.rss?limit=50&sorted=true",
-    sourceUrl: "https://rsshub.app/sankakucomplex/post"
   }
 ];
 
@@ -136,10 +112,14 @@ function realSankakuUrl(value) {
   try {
     const url = new URL(value);
 
+    const host = url.hostname.toLowerCase();
+    const path = url.pathname.replace(/\/+$/, "");
+
     return (
-      url.hostname.toLowerCase() ===
-        "news.sankakucomplex.com" &&
-      /^\/n\/[^/?#]+\/?$/i.test(url.pathname)
+      (host === "news.sankakucomplex.com" ||
+        host === "www.sankakucomplex.com" ||
+        host === "sankakucomplex.com") &&
+      /^\/n\/[^/?#]+$/i.test(path)
     );
   } catch {
     return false;

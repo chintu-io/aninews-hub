@@ -11,7 +11,8 @@ const SOURCE = {
   short: "Sankaku",
   siteUrl: "https://news.sankakucomplex.com/",
   category: "Anime & Culture",
-  accent: "#a78bfa"
+  accent: "#a78bfa",
+  language: "en"
 };
 
 const FEED_PLANS = [

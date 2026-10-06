@@ -766,14 +766,7 @@ function jinaArticleMetadata(body) {
         ""
       );
 
-    const title =
-      cleanTitle(
-        data?.title ||
-        ""
-      );
-
     const descriptionCandidates = [
-      data?.description,
       metaContent(
         html,
         "og:description"
@@ -781,11 +774,11 @@ function jinaArticleMetadata(body) {
       metaContent(
         html,
         "description"
-      )
+      ),
+      data?.description
     ];
 
-    let description =
-      "";
+    let description = "";
 
     for (
       const candidate of
@@ -798,12 +791,8 @@ function jinaArticleMetadata(body) {
 
       if (
         value &&
-        !/^sankaku complex$/i.test(
-          value
-        ) &&
-        !/^anime, manga and games, observed from japan$/i.test(
-          value
-        )
+        !/^sankaku complex$/i.test(value) &&
+        !/^anime, manga and games, observed from japan$/i.test(value)
       ) {
         description =
           value;
@@ -812,51 +801,56 @@ function jinaArticleMetadata(body) {
     }
 
     /*
-     * Jina's HTML may contain the
-     * article body even when metadata
-     * has no description.
+     * Prefer the first meaningful article paragraph
+     * when page metadata is generic or absent.
      */
     if (
       !description &&
       html
     ) {
-      const paragraphs =
-        [
-          ...html.matchAll(
-            /<p[^>]*>([\s\S]*?)<\/p>/gi
-          )
-        ]
-          .map(
-            match =>
-              excerpt(
-                match[1]
-              )
-          )
-          .filter(
-            value =>
-              value &&
-              value.length >=
-                30
-          );
+      const articleBlocks =
+        html.match(
+          /<article\\b[\\s\\S]*?<\\/article>/gi
+        ) || [];
 
-      description =
-        paragraphs[0] ||
-        "";
+      for (
+        const block of
+          articleBlocks
+      ) {
+        const paragraphs =
+          [
+            ...block.matchAll(
+              /<p[^>]*>([\\s\\S]*?)<\\/p>/gi
+            )
+          ]
+            .map(
+              match =>
+                excerpt(
+                  match[1]
+                )
+            )
+            .filter(
+              value =>
+                value &&
+                value.length >= 30
+            );
+
+        if (
+          paragraphs.length
+        ) {
+          description =
+            paragraphs[0];
+          break;
+        }
+      }
     }
 
     return {
-      title,
-      description,
-      publishedAt:
-        data?.publishedTime ||
-        data?.published_time ||
-        ""
+      description
     };
   } catch {
     return {
-      title: "",
-      description: "",
-      publishedAt: ""
+      description: ""
     };
   }
 }
@@ -886,13 +880,17 @@ async function enrichSankakuDescriptions(
         try {
           const result =
             await fetchText(
-              `https://r.jina.ai/${item.link}`,
+              `https://r.jina.ai/${item.link}?__anihub_cache_bust=${hash(item.link)}`,
               {
                 timeout:
                   40000,
                 headers: {
                   accept:
-                    "application/json"
+                    "application/json",
+                  "x-no-cache":
+                    "true",
+                  "x-cache-tolerance":
+                    "0"
                 }
               }
             );
@@ -904,34 +902,25 @@ async function enrichSankakuDescriptions(
                   result.body
                 )
               : {
-                  title: "",
-                  description: "",
-                  publishedAt: ""
+                  description:
+                    ""
                 };
 
           debug.descriptionAttempts.push({
             link: item.link,
             status: result.status,
             bytes: result.body.length,
-            hasTitle: Boolean(
-              metadata.title
-            ),
-            hasDescription: Boolean(
-              metadata.description
-            )
+            hasDescription:
+              Boolean(
+                metadata.description
+              )
           });
 
           results.push({
             ...item,
-            title:
-              metadata.title ||
-              item.title,
             excerpt:
               metadata.description ||
-              item.excerpt,
-            publishedAt:
-              iso(metadata.publishedAt) ||
-              item.publishedAt
+              item.excerpt
           });
         } catch (error) {
           debug.descriptionAttempts.push({

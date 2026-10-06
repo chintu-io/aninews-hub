@@ -77,20 +77,6 @@ export const SOURCES = [
   },
 
   {
-    id: "thefirsttimes",
-    name: "THE FIRST TIMES",
-    short: "FIRST TIMES",
-    feedUrls: [
-      "https://www.thefirsttimes.jp/news/"
-    ],
-    siteUrl: "https://www.thefirsttimes.jp/news/",
-    category: "Japanese Music",
-    accent: "#ff84b4",
-    language: "ja",
-    kind: "html-list",
-    articlePattern: "^https://www\\.thefirsttimes\\.jp/news/[0-9]+/?$"
-  },
-  {
     id: "billboardjapan",
     name: "Billboard JAPAN",
     short: "Billboard JP",

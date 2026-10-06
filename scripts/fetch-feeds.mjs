@@ -983,6 +983,285 @@ function parseJapaneseListingPage(
   return items;
 }
 
+function japaneseArticleLead(
+  body
+) {
+  const candidates =
+    jinaCandidates(
+      body
+    );
+
+  for (
+    const candidate of
+      candidates
+  ) {
+    let content =
+      String(
+        candidate || ""
+      );
+
+    try {
+      const json =
+        JSON.parse(
+          content
+        );
+
+      const data =
+        json?.data ??
+        json;
+
+      content =
+        String(
+          data?.content ||
+          data?.html ||
+          data?.text ||
+          content
+        );
+    } catch {
+      /*
+       * Plain Markdown/text.
+       */
+    }
+
+    const markdownLines =
+      content
+        .split(
+          /\r?\n/
+        )
+        .map(
+          line =>
+            stripHtml(
+              line
+                .replace(
+                  /^#{1,6}\s+/,
+                  ""
+                )
+                .replace(
+                  /^\s*[-*]\s+/,
+                  ""
+                )
+                .replace(
+                  /^\s*>\s+/,
+                  ""
+                )
+                .trim()
+            )
+        )
+        .filter(
+          line =>
+            line &&
+            line.length >= 50
+        );
+
+    for (
+      const line of
+        markdownLines
+    ) {
+      if (
+        /^https?:\/\//i.test(
+          line
+        ) ||
+        /(?:NEWS\s+(?:ALL|Japan|Overseas)|g-menu__link|read more|privacy policy|cookie|copyright|©)/i.test(
+          line
+        )
+      ) {
+        continue;
+      }
+
+      return line;
+    }
+
+    const plain =
+      stripHtml(
+        content
+      );
+
+    if (
+      plain.length >= 50
+    ) {
+      return excerpt(
+        plain
+      );
+    }
+  }
+
+  return "";
+}
+
+function japaneseArticleImage(
+  body,
+  baseUrl
+) {
+  const candidates =
+    jinaCandidates(
+      body
+    );
+
+  for (
+    const candidate of
+      candidates
+  ) {
+    const image =
+      imageFromText(
+        candidate,
+        baseUrl
+      );
+
+    if (
+      image &&
+      /^https?:\/\//i.test(
+        image
+      )
+    ) {
+      return image;
+    }
+  }
+
+  return "";
+}
+
+async function enrichJapaneseListingItem(
+  item
+) {
+  try {
+    const articleUrl =
+      new URL(
+        item.link
+      );
+
+    const readerUrl =
+      "https://r.jina.ai/http://" +
+      articleUrl.host +
+      articleUrl.pathname +
+      "?__aninews=" +
+      hash(
+        item.link
+      );
+
+    const result =
+      await fetchUrl(
+        readerUrl,
+        {
+          timeout:
+            45000,
+          headers: {
+            accept:
+              "application/json",
+            "x-no-cache":
+              "true",
+            "x-cache-tolerance":
+              "0"
+          }
+        }
+      );
+
+    if (
+      result.status <
+        200 ||
+      result.status >=
+        300 ||
+      !result.body.trim()
+    ) {
+      return item;
+    }
+
+    const description =
+      japaneseArticleLead(
+        result.body
+      );
+
+    const image =
+      japaneseArticleImage(
+        result.body,
+        item.link
+      );
+
+    return {
+      ...item,
+
+      description:
+        description ||
+        item.description ||
+        "",
+
+      image:
+        image ||
+        ""
+    };
+  } catch {
+    return item;
+  }
+}
+
+async function enrichJapaneseListingItems(
+  items
+) {
+  const queue =
+    [
+      ...items
+    ];
+
+  const results =
+    [];
+
+  const worker =
+    async () => {
+      while (
+        queue.length
+      ) {
+        const item =
+          queue.shift();
+
+        if (!item) {
+          return;
+        }
+
+        results.push(
+          await enrichJapaneseListingItem(
+            item
+          )
+        );
+
+        await sleep(
+          90
+        );
+      }
+    };
+
+  await Promise.all(
+    Array.from(
+      {
+        length:
+          Math.min(
+            4,
+            queue.length ||
+              1
+          )
+      },
+      () =>
+        worker()
+    )
+  );
+
+  const byLink =
+    new Map(
+      results.map(
+        item => [
+          item.link,
+          item
+        ]
+      )
+    );
+
+  return items.map(
+    item =>
+      byLink.get(
+        item.link
+      ) ||
+      item
+  );
+}
+
 async function parseJapaneseListingSource(
   source
 ) {
@@ -1078,11 +1357,18 @@ async function parseJapaneseListingSource(
     );
   }
 
+  const enriched =
+    await enrichJapaneseListingItems(
+      items
+    );
+
   return {
     result,
-    items
+    items:
+      enriched
   };
 }
+
 
 async function parseFeed(
   url

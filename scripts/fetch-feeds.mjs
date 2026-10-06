@@ -688,392 +688,123 @@ function markdownArticleLinks(
   return results;
 }
 
-function htmlArticleLinks(html, baseUrl, hostPattern) {
-  const source = String(html || "");
+function htmlArticleLinks(
+  html,
+  baseUrl,
+  hostPattern
+) {
+  const source =
+    String(html || "");
+
   const results = [];
   const seen = new Set();
 
   const anchorRe =
     /<a\b[^>]*href\s*=\s*["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
 
-  for (const match of source.matchAll(anchorRe)) {
-    const href = absoluteUrl(
-      match[1],
-      baseUrl
-    );
+  for (
+    const match of
+      source.matchAll(
+        anchorRe
+      )
+  ) {
+    const href =
+      absoluteUrl(
+        match[1],
+        baseUrl
+      );
 
-    if (!href || !hostPattern.test(href)) {
+    if (
+      !href ||
+      !hostPattern.test(
+        href
+      )
+    ) {
       continue;
     }
 
-    const title = stripHtml(match[2])
-      .replace(/\s+/g, " ")
-      .trim();
+    const title =
+      stripHtml(
+        match[2]
+      )
+        .replace(
+          /\s+/g,
+          " "
+        )
+        .trim();
 
-    if (!title || title.length < 8) {
+    if (
+      !title ||
+      title.length < 8
+    ) {
       continue;
     }
 
     const key =
       href
-        .replace(/#.*$/, "")
-        .replace(/\/$/, "")
+        .replace(
+          /#.*$/,
+          ""
+        )
+        .replace(
+          /\/$/,
+          ""
+        )
         .toLowerCase();
 
-    if (seen.has(key)) {
+    if (
+      seen.has(
+        key
+      )
+    ) {
       continue;
     }
 
-    seen.add(key);
+    seen.add(
+      key
+    );
 
     results.push({
       href,
       title,
-      index: match.index ?? 0
+      index:
+        match.index ??
+        0
     });
   }
 
   return results;
 }
 
-function parseSkreamNewsPage(html) {
-  const source = String(html || "");
-
-  const links = htmlArticleLinks(
-    source,
-    "https://skream.jp/news/",
-    /https?:\/\/(?:www\.)?skream\.jp\/news\/\d{4}\/\d{2}\/[^?#"']+/i
-  );
-
-  const items = [];
-
-  for (let i = 0; i < links.length; i++) {
-    const current = links[i];
-
-    const start =
-      Math.max(
-        0,
-        current.index - 1400
-      );
-
-    const end =
-      i + 1 < links.length
-        ? Math.min(
-            source.length,
-            links[i + 1].index + 900
-          )
-        : Math.min(
-            source.length,
-            current.index + 2200
-          );
-
-    const windowText =
-      stripHtml(
-        source.slice(
-          start,
-          end
-        )
-      );
-
-    const dateMatch =
-      windowText.match(
-        /20\d{2}\.\d{1,2}\.\d{1,2}(?:\s+\d{1,2}:\d{2})?/
-      );
-
-    const title =
-      current.title
-        .replace(
-          /^(?:Japanese|Overseas)\s+/i,
-          ""
-        )
-        .trim();
-
-    if (
-      !title ||
-      /^(?:news|read more|more)$/i.test(title)
-    ) {
-      continue;
-    }
-
-    const titlePos =
-      windowText.indexOf(title);
-
-    let description = "";
-
-    if (titlePos >= 0) {
-      const after =
-        windowText
-          .slice(
-            titlePos + title.length
-          )
-          .trim();
-
-      const candidate =
-        after
-          .split(/\s{2,}/)
-          .map(
-            value =>
-              value
-                .replace(
-                  /^(?:[|•·]\s*)+/,
-                  ""
-                )
-                .trim()
-          )
-          .find(
-            value =>
-              value.length >= 50 &&
-              !/^(?:Japanese|Overseas|NEWS)$/i.test(value)
-          ) || "";
-
-      description =
-        excerpt(
-          candidate
-        );
-    }
-
-    items.push({
-      title,
-      link:
-        current.href,
-      pubDate:
-        dateMatch?.[0] || "",
-      description
-    });
-  }
-
-  return items;
-}
-
-async function parseSkreamSource(source) {
-  const first =
-    await fetchUrl(
-      source.feedUrls[0]
-    );
-
-  if (
-    first.status >= 200 &&
-    first.status < 300 &&
-    first.body.trim()
-  ) {
-    const items =
-      parseSkreamNewsPage(
-        first.body
-      );
-
-    if (items.length) {
-      return {
-        result: first,
-        items
-      };
-    }
-  }
-
-  const jina =
-    await fetchUrl(
-      "https://r.jina.ai/http://skream.jp/news/",
-      {
-        timeout: 45000,
-        headers: {
-          accept: "application/json",
-          "x-no-cache": "true",
-          "x-cache-tolerance": "0"
-        }
-      }
-    );
-
-  if (
-    jina.status >= 200 &&
-    jina.status < 300 &&
-    jina.body.trim()
-  ) {
-    const candidates =
-      jinaCandidates(
-        jina.body
-      );
-
-    for (
-      const candidate of
-        candidates
-    ) {
-      const items =
-        parseSkreamNewsPage(
-          candidate
-        );
-
-      if (items.length) {
-        return {
-          result: jina,
-          items
-        };
-      }
-    }
-  }
-
-  throw new Error(
-    "Skream news listing unavailable"
-  );
-}
-
-function parseNatalieNewsPage(html, section) {
-  const source =
-    String(html || "");
+function parseJapaneseListingPage(
+  html,
+  source
+) {
+  const baseUrl =
+    source.feedUrls[0];
 
   const hostPattern =
     new RegExp(
-      "^https://natalie\\.mu/" +
-      section +
-      "/news/[0-9]+",
+      source.articlePattern,
       "i"
     );
 
   const links =
     htmlArticleLinks(
-      source,
-      "https://natalie.mu/" +
-        section,
-      hostPattern
-    );
-
-  const items = [];
-
-  for (
-    let i = 0;
-    i < links.length;
-    i++
-  ) {
-    const current =
-      links[i];
-
-    const start =
-      Math.max(
-        0,
-        current.index - 1100
-      );
-
-    const end =
-      i + 1 <
-        links.length
-        ? Math.min(
-            source.length,
-            links[i + 1].index +
-              700
-          )
-        : Math.min(
-            source.length,
-            current.index +
-              1800
-          );
-
-    const windowText =
-      stripHtml(
-        source.slice(
-          start,
-          end
-        )
-      );
-
-    const dateMatch =
-      windowText.match(
-        /20\d{2}[年/.]\d{1,2}[月/.]\d{1,2}日?(?:\s+\d{1,2}:\d{2})?/
-      );
-
-    const title =
-      current.title
-        .trim();
-
-    if (
-      !title ||
-      /^(?:ニュース|NEWS|read more|more)$/i.test(
-        title
-      )
-    ) {
-      continue;
-    }
-
-    const titlePos =
-      windowText.indexOf(
-        title
-      );
-
-    let description =
-      "";
-
-    if (
-      titlePos >= 0
-    ) {
-      const after =
-        windowText
-          .slice(
-            titlePos +
-              title.length
-          )
-          .trim();
-
-      description =
-        excerpt(
-          after
-            .split(
-              /20\d{2}[年/.]\d{1,2}[月/.]\d{1,2}日?/
-            )[0]
-            .trim()
-        );
-    }
-
-    items.push({
-      title,
-      link:
-        current.href,
-      pubDate:
-        dateMatch?.[0] ||
-        "",
-      description
-    });
-  }
-
-  return items;
-}
-
-function parseNatalieCandidate(
-  content,
-  section,
-  baseUrl
-) {
-  const htmlItems =
-    parseNatalieNewsPage(
-      content,
-      section
-    );
-
-  if (
-    htmlItems.length
-  ) {
-    return htmlItems;
-  }
-
-  const hostPattern =
-    new RegExp(
-      "^https://natalie\\.mu/" +
-      section +
-      "/news/[0-9]+",
-      "i"
-    );
-
-  const links =
-    markdownArticleLinks(
-      content,
+      html,
       baseUrl,
       hostPattern
     );
 
-  const source =
-    String(content || "");
+  const raw =
+    String(html || "");
 
   const items = [];
 
   for (
     let i = 0;
-    i < links.length;
+    i < links.length &&
+      items.length < 30;
     i++
   ) {
     const current =
@@ -1082,275 +813,273 @@ function parseNatalieCandidate(
     const start =
       Math.max(
         0,
-        current.index - 1000
+        current.index - 1500
       );
 
     const end =
-      i + 1 <
-        links.length
+      i + 1 < links.length
         ? Math.min(
-            source.length,
+            raw.length,
             links[i + 1].index +
-              650
+              1000
           )
         : Math.min(
-            source.length,
+            raw.length,
             current.index +
-              1800
+              2500
           );
+
+    const windowHtml =
+      raw.slice(
+        start,
+        end
+      );
 
     const windowText =
       stripHtml(
-        source.slice(
-          start,
-          end
-        )
+        windowHtml
       );
 
-    const dateMatch =
-      windowText.match(
-        /20\d{2}[年/.]\d{1,2}[月/.]\d{1,2}日?(?:\s+\d{1,2}:\d{2})?/
-      );
+    const datePatterns = [
+      /20\d{2}[/.]\d{1,2}[/.]\d{1,2}(?:\s+\d{1,2}:\d{2})?/,
+      /20\d{2}年\d{1,2}月\d{1,2}日(?:\s+\d{1,2}:\d{2})?/,
+      /20\d{2}-\d{1,2}-\d{1,2}(?:\s+\d{1,2}:\d{2})?/
+    ];
 
-    const title =
-      current.title.trim();
+    let dateText =
+      "";
 
-    if (
-      !title ||
-      /^(?:ニュース|NEWS|read more|more)$/i.test(
-        title
-      )
+    for (
+      const pattern of
+        datePatterns
     ) {
-      continue;
+      const match =
+        windowText.match(
+          pattern
+        );
+
+      if (
+        match?.[0]
+      ) {
+        dateText =
+          match[0];
+
+        break;
+      }
     }
 
-    let description = "";
+    let description =
+      "";
 
-    const titlePos =
-      windowText.indexOf(
-        title
+    /*
+     * Look for a paragraph in
+     * the same card/listing area.
+     */
+    const paragraphTexts = [
+      ...windowHtml.matchAll(
+        /<(?:p|div)\b[^>]*>([\s\S]*?)<\/(?:p|div)>/gi
+      )
+    ]
+      .map(
+        match =>
+          stripHtml(
+            match[1]
+          )
+      )
+      .filter(
+        value =>
+          value.length >=
+          40
+      )
+      .filter(
+        value =>
+          value !==
+          current.title
+      )
+      .filter(
+        value =>
+          !/^(?:NEWS|ニュース|Japan|Overseas|ALL|MORE|READ MORE)$/i.test(
+            value
+          )
       );
 
-    if (
-      titlePos >= 0
-    ) {
-      const after =
-        windowText
-          .slice(
-            titlePos +
-              title.length
-          )
-          .trim();
+    description =
+      excerpt(
+        paragraphTexts
+          .sort(
+            (a, b) =>
+              Math.abs(
+                a.length -
+                  180
+              ) -
+              Math.abs(
+                b.length -
+                  180
+              )
+          )[0] ||
+        ""
+      );
 
-      description =
-        excerpt(
-          after
-            .split(
-              /20\d{2}[年/.]\d{1,2}[月/.]\d{1,2}日?/
-            )[0]
-            .trim()
+    /*
+     * The visible listing text is
+     * useful when the site does not
+     * expose a dedicated paragraph.
+     */
+    if (
+      !description
+    ) {
+      const titlePos =
+        windowText.indexOf(
+          current.title
         );
+
+      if (
+        titlePos >= 0
+      ) {
+        const after =
+          windowText
+            .slice(
+              titlePos +
+                current.title.length
+            )
+            .replace(
+              dateText,
+              " "
+            )
+            .replace(
+              /\s+/g,
+              " "
+            )
+            .trim();
+
+        description =
+          excerpt(
+            after
+              .split(
+                /(?:関連記事|関連ニュース|MORE|READ MORE|ニュース|NEWS)/i
+              )[0]
+              .trim()
+          );
+      }
     }
 
     items.push({
-      title,
+      title:
+        current.title,
+
       link:
         current.href,
+
       pubDate:
-        dateMatch?.[0] ||
-        "",
-      description
+        dateText,
+
+      description,
+
+      contentEncoded:
+        windowHtml
     });
   }
 
   return items;
 }
 
-async function parseNatalieSource(
+async function parseJapaneseListingSource(
   source
 ) {
-  const allItems = [];
-  let firstResult =
-    null;
+  const pageUrl =
+    source.feedUrls[0];
 
-  for (
-    const pageUrl of
-      source.feedUrls
-  ) {
-    let collected = [];
-
-    try {
-      const result =
-        await fetchUrl(
-          pageUrl
-        );
-
-      if (
-        !firstResult
-      ) {
-        firstResult =
-          result;
-      }
-
-      if (
-        result.status >= 200 &&
-        result.status < 300 &&
-        result.body.trim()
-      ) {
-        collected =
-          parseNatalieCandidate(
-            result.body,
-            new URL(
-              pageUrl
-            ).pathname
-              .split("/")
-              .filter(Boolean)[0],
-            pageUrl
-          );
-      }
-    } catch {
-      collected = [];
-    }
-
-    /*
-     * Natalie blocks the GitHub runner.
-     * Use Jina as a transport fallback,
-     * just as we do for Sankaku.
-     */
-    if (
-      !collected.length
-    ) {
-      try {
-        const jina =
-          await fetchUrl(
-            "https://r.jina.ai/http://" +
-              new URL(
-                pageUrl
-              ).host +
-              new URL(
-                pageUrl
-              ).pathname,
-            {
-              timeout:
-                45000,
-              headers: {
-                accept:
-                  "application/json",
-                "x-no-cache":
-                  "true",
-                "x-cache-tolerance":
-                  "0"
-              }
-            }
-          );
-
-        if (
-          !firstResult
-        ) {
-          firstResult =
-            jina;
-        }
-
-        if (
-          jina.status >= 200 &&
-          jina.status < 300 &&
-          jina.body.trim()
-        ) {
-          const section =
-            new URL(
-              pageUrl
-            ).pathname
-              .split("/")
-              .filter(Boolean)[0];
-
-          for (
-            const candidate of
-              jinaCandidates(
-                jina.body
-              )
-          ) {
-            const items =
-              parseNatalieCandidate(
-                candidate,
-                section,
-                pageUrl
-              );
-
-            if (
-              items.length
-            ) {
-              collected =
-                items;
-              break;
-            }
-          }
-        }
-      } catch {
-        /*
-         * Try the next section.
-         */
-      }
-    }
-
-    allItems.push(
-      ...collected
+  let result =
+    await fetchUrl(
+      pageUrl
     );
-  }
 
-  const unique =
-    new Map();
-
-  for (
-    const item of
-      allItems
-  ) {
-    const key =
-      item.link
-        .replace(
-          /\/+$/,
-          ""
-        )
-        .toLowerCase();
-
-    if (
-      !unique.has(
-        key
-      )
-    ) {
-      unique.set(
-        key,
-        item
-      );
-    }
-  }
-
-  const items =
-    [
-      ...unique.values()
-    ]
-      .map(
-        item =>
-          normalize(
-            item,
-            source
-          )
-      )
-      .filter(
-        Boolean
-      );
+  let items =
+    [];
 
   if (
-    !firstResult ||
+    result.status >= 200 &&
+    result.status < 300 &&
+    result.body.trim()
+  ) {
+    items =
+      parseJapaneseListingPage(
+        result.body,
+        source
+      );
+  }
+
+  /*
+   * Many Japanese media sites
+   * block GitHub Actions. Jina is
+   * the transport fallback.
+   */
+  if (
+    !items.length
+  ) {
+    const jina =
+      await fetchUrl(
+        "https://r.jina.ai/http://" +
+          new URL(
+            pageUrl
+          ).host +
+          new URL(
+            pageUrl
+          ).pathname,
+        {
+          timeout:
+            45000,
+          headers: {
+            accept:
+              "application/json",
+            "x-no-cache":
+              "true",
+            "x-cache-tolerance":
+              "0"
+          }
+        }
+      );
+
+    if (
+      jina.status >= 200 &&
+      jina.status < 300 &&
+      jina.body.trim()
+    ) {
+      result =
+        jina;
+
+      for (
+        const candidate of
+          jinaCandidates(
+            jina.body
+          )
+      ) {
+        items =
+          parseJapaneseListingPage(
+            candidate,
+            source
+          );
+
+        if (
+          items.length
+        ) {
+          break;
+        }
+      }
+    }
+  }
+
+  if (
     !items.length
   ) {
     throw new Error(
-      "Natalie news pages unavailable"
+      source.name +
+        " news listing unavailable"
     );
   }
 
   return {
-    result:
-      firstResult,
+    result,
     items
   };
 }
@@ -3048,7 +2777,7 @@ for (
       "html-list"
     ) {
       const parsed =
-        await parseSkreamSource(
+        await parseJapaneseListingSource(
           source
         );
 

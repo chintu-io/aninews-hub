@@ -357,15 +357,25 @@ function thumbnail(article) {
   if (!article.image) {
     return (
       "<div class=\"story-image fallback\">" +
-        "<span>" + esc(sourceLabel) + "</span>" +
+        "<span class=\"fallback-mark\" aria-hidden=\"true\">✦</span>" +
+        "<strong class=\"fallback-brand\">AniNews Hub</strong>" +
+        "<span class=\"image-fallback-label\" aria-hidden=\"true\">" +
+          esc(sourceLabel) +
+        "</span>" +
       "</div>"
     );
   }
 
   return (
     "<div class=\"story-image\">" +
-      "<img src=\"" + esc(article.image) + "\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.remove();this.parentElement.classList.add('fallback')\" />" +
-      "<span class=\"image-fallback-label\" aria-hidden=\"true\">" + esc(sourceLabel) + "</span>" +
+      "<img src=\"" + esc(article.image) + "\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.remove();this.parentElement.classList.add('image-failed')\" />" +
+      "<div class=\"image-error-brand\" aria-hidden=\"true\">" +
+        "<span class=\"fallback-mark\">✦</span>" +
+        "<strong class=\"fallback-brand\">AniNews Hub</strong>" +
+      "</div>" +
+      "<span class=\"image-fallback-label\" aria-hidden=\"true\">" +
+        esc(sourceLabel) +
+      "</span>" +
     "</div>"
   );
 }

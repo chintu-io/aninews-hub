@@ -198,6 +198,9 @@ function renderPagination(total) {
   const pagination =
     document.querySelector("#pagination");
 
+  const paginationTop =
+    document.querySelector("#paginationTop");
+
   if (!pagination) {
     return;
   }
@@ -208,10 +211,19 @@ function renderPagination(total) {
   if (pageCount <= 1) {
     pagination.innerHTML = "";
     pagination.hidden = true;
+
+    if (paginationTop) {
+      paginationTop.innerHTML = "";
+      paginationTop.hidden = true;
+    }
+
     return;
   }
 
   pagination.hidden = false;
+  if (paginationTop) {
+    paginationTop.hidden = false;
+  }
 
   const pages = [];
   const addPage = page => {
@@ -277,7 +289,13 @@ function renderPagination(total) {
 
   pagination.innerHTML = html;
 
-  pagination.querySelectorAll(".page-button").forEach(button => {
+  if (paginationTop) {
+    paginationTop.innerHTML = html;
+    paginationTop.hidden = false;
+  }
+
+  const bindPagination = control => {
+    control.querySelectorAll(".page-button").forEach(button => {
     if (button.disabled) {
       return;
     }
@@ -299,7 +317,14 @@ function renderPagination(total) {
         });
       }
     });
-  });
+    });
+  };
+
+  bindPagination(pagination);
+
+  if (paginationTop) {
+    bindPagination(paginationTop);
+  }
 
   const first =
     (state.page - 1) * state.pageSize + 1;

@@ -1161,77 +1161,179 @@ function japaneseArticleImage(
   return "";
 }
 
+function fixTheFirstTimesImage(
+  image
+) {
+  const value =
+    String(
+      image || ""
+    );
+
+  if (
+    !/^https?:\/\//i.test(
+      value
+    )
+  ) {
+    return "";
+  }
+
+  return value.replace(
+    /\/uploads\/5026\/(\d{2})\//i,
+    "/uploads/2026/$1/"
+  );
+}
+
 async function enrichJapaneseListingItem(
   item
 ) {
+  let directMeta =
+    null;
+
+  /*
+   * Prefer the real article page.
+   * THE FIRST TIMES exposes its
+   * article image in page metadata.
+   */
   try {
-    const articleUrl =
-      new URL(
-        item.link
-      );
-
-    const readerUrl =
-      "https://r.jina.ai/http://" +
-      articleUrl.host +
-      articleUrl.pathname +
-      "?__aninews=" +
-      hash(
-        item.link
-      );
-
-    const result =
+    const direct =
       await fetchUrl(
-        readerUrl,
+        item.link,
         {
           timeout:
-            45000,
+            25000,
           headers: {
             accept:
-              "application/json",
-            "x-no-cache":
-              "true",
-            "x-cache-tolerance":
-              "0"
+              "text/html,application/xhtml+xml, */*"
           }
         }
       );
 
     if (
-      result.status <
-        200 ||
-      result.status >=
-        300 ||
-      !result.body.trim()
+      direct.status >= 200 &&
+      direct.status < 300 &&
+      direct.body.trim()
     ) {
-      return item;
+      directMeta =
+        parseHtmlMetadata(
+          direct.body
+        );
     }
-
-    const description =
-      japaneseArticleLead(
-        result.body
-      );
-
-    const image =
-      japaneseArticleImage(
-        result.body,
-        item.link
-      );
-
-    return {
-      ...item,
-
-      description:
-        description ||
-        item.description ||
-        "",
-
-      image:
-        image ||
-        ""
-    };
   } catch {
-    return item;
+    directMeta =
+      null;
   }
+
+  let image =
+    directMeta?.image ||
+    "";
+
+  let description =
+    "";
+
+  if (
+    image &&
+    item.source?.id ===
+      "thefirsttimes"
+  ) {
+    image =
+      fixTheFirstTimesImage(
+        image
+      );
+  }
+
+  /*
+   * If direct metadata did not
+   * provide an image or lead text,
+   * use Jina as the transport
+   * fallback.
+   */
+  if (
+    !image ||
+    !description
+  ) {
+    try {
+      const articleUrl =
+        new URL(
+          item.link
+        );
+
+      const readerUrl =
+        "https://r.jina.ai/http://" +
+        articleUrl.host +
+        articleUrl.pathname +
+        "?__aninews=" +
+        hash(
+          item.link
+        );
+
+      const result =
+        await fetchUrl(
+          readerUrl,
+          {
+            timeout:
+              45000,
+            headers: {
+              accept:
+                "application/json",
+              "x-no-cache":
+                "true",
+              "x-cache-tolerance":
+                "0"
+            }
+          }
+        );
+
+      if (
+        result.status >= 200 &&
+        result.status < 300 &&
+        result.body.trim()
+      ) {
+        description =
+          japaneseArticleLead(
+            result.body
+          );
+
+        if (
+          !image
+        ) {
+          image =
+            japaneseArticleImage(
+              result.body,
+              item.link
+            );
+        }
+      }
+    } catch {
+      /*
+       * Keep any direct metadata
+       * we already recovered.
+       */
+    }
+  }
+
+  if (
+    item.source?.id ===
+    "thefirsttimes"
+  ) {
+    image =
+      fixTheFirstTimesImage(
+        image
+      );
+  }
+
+  return {
+    ...item,
+
+    description:
+      description ||
+      directMeta?.description ||
+      item.description ||
+      "",
+
+    image:
+      image ||
+      ""
+  };
 }
 
 async function enrichJapaneseListingItems(

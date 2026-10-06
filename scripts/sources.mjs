@@ -4,9 +4,10 @@ export const SOURCES = [
     name: "Sankaku Complex",
     short: "Sankaku",
     feedUrls: [
+      "https://www.sankakucomplex.com/feed/",
+      "https://www.sankakucomplex.com/?feed=rss2",
       "https://news.sankakucomplex.com/feed/",
-      "https://news.sankakucomplex.com/?feed=rss2",
-      "https://www.sankakucomplex.com/feed/"
+      "https://news.sankakucomplex.com/?feed=rss2"
     ],
     siteUrl: "https://news.sankakucomplex.com/",
     category: "Anime & Culture",

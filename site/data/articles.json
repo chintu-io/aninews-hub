@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T15:32:07.525Z",
+  "generatedAt": "2026-10-08T16:01:53.601Z",
   "sources": [
     {
       "id": "sankaku",
@@ -135,11 +135,10 @@
     {
       "id": "billboardjapan",
       "name": "Billboard JAPAN",
-      "status": "ok",
-      "mode": "html-list",
-      "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 24,
-      "imageEnrichment": null
+      "status": "error",
+      "mode": null,
+      "count": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "barks",
@@ -170,392 +169,46 @@
   ],
   "stats": {
     "sourceCount": 9,
-    "successfulSources": 9,
-    "failedSources": 0,
-    "articleCount": 258,
-    "translatedJapaneseArticles": 84,
-    "translationAttempts": 168
+    "successfulSources": 8,
+    "failedSources": 1,
+    "articleCount": 234,
+    "translatedJapaneseArticles": 60,
+    "translationAttempts": 120
   },
   "articles": [
     {
-      "id": "0df03b48f837405e",
-      "title": "LDH SCREAM、パフォーマンス曲「Up set feat. Reichi」配信リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/166328",
-      "publishedAt": "2026-10-08T19:55:00.000Z",
-      "excerpt": "index/detail/43\">Women NEWS ALL Japan Overseas 2026/10/08 21:55 2 LDH SCREAM、パフォーマンス曲「Up set feat. Reichi」配信リリース LDH発の【D.LEAGUE】チーム・LDH SCREAMが、パフォーマンス曲「Up set feat. Reichi」を配信リリースした。 本楽曲は、2026年10月7日に開催された【D.LEA… EXILE Reichi Japan ニューリリース 2026/10/08 21:35 315 &TEAMの公式キャラクター「TEAMILY」誕生、制作ビハインド映像も公開 &TEAMの公式キャラクター「TEAMILY（ティミリー）」が誕生し、制作ビハインド映像の第1話が公開された。 公…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166328/800x_image.jpg",
+      "id": "26ccc610d15a3a99",
+      "title": "Go with the Clouds, North-by-Northwest Anime Debuts in 2027",
+      "link": "https://crunchyroll.com/news/latest/2026/10/8/go-with-the-clouds-north-by-northwest-anime-2027-debut-trailer-visual",
+      "publishedAt": "2026-10-08T15:31:00.000Z",
+      "excerpt": "Key art, trailer, staff and more revealed for the adaptation of Aki Irie's manga",
+      "image": "https://a.storyblok.com/f/178900/1460x821/8da3a25662/go_with_the_clouds_north_by_northwest_header.jpg",
       "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "LDH scream, performance song \"Up set feat. Reichi\" stream release",
-      "translatedExcerpt": "index/detail/43\">Women NEWS ALL Japan Overseas 2026/10/08 21:55 2 LDH SCREAM、パフォーマンス曲「Up set feat. Reichi」配信リリース LDH発の【D.LEAGUE】チーム・LDH SCREAMが、パフォーマンス曲「Up set feat. Reichi」を配信リリースした。 本楽曲は、2026年10月7日に開催された【D.LEA… EXILE Reichi Japan ニューリリース 2026/10/08 21:35 315 &TEAMの公式キャラクター「TEAMILY」誕生、制作ビハインド映像も公開 &TEAMの公式キャラクター「TEAMILY（ティミリー）」が誕生し、制作ビハインド映像の第1話が公開された。 公…"
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
     },
     {
-      "id": "71d202c46e71a82d",
-      "title": "&TEAMの公式キャラクター「TEAMILY」誕生、制作ビハインド映像も公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166325",
-      "publishedAt": "2026-10-08T19:35:00.000Z",
-      "excerpt": "/a> LDH SCREAM、パフォーマンス曲「Up set feat. Reichi」配信リリース LDH発の【D.LEAGUE】チーム・LDH SCREAMが、パフォーマンス曲「Up set feat. Reichi」を配信リリースした。 本楽曲は、2026年10月7日に開催された【D.LEA… EXILE Reichi Japan ニューリリース 2026/10/08 21:35 315 &TEAMの公式キャラクター「TEAMILY」誕生、制作ビハインド映像も公開 &TEAMの公式キャラクター「TEAMILY（ティミリー）」が誕生し、制作ビハインド映像の第1話が公開された。 公式キャラクター「TEAMILY」は、「“家族のような愛される存在”であってほしい」… &TEAM Japan 2026/10…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166325/800x_image.jpg",
+      "id": "6054240f0fd6cbbb",
+      "title": "You’ll Have One Last Shot At The Zelda: Ocarina Of Time Switch 2 That Keeps Selling Out Everywhere During A Midnight Launch",
+      "link": "https://kotaku.com/youll-have-one-last-shot-at-the-zelda-ocarina-of-time-switch-2-that-keeps-selling-out-everywhere-during-a-midnight-launch-2000742663",
+      "publishedAt": "2026-10-08T15:30:01.000Z",
+      "excerpt": "A midnight release for Ocarina of Time? What year is it?",
+      "image": "https://kotaku.com/app/uploads/2026/09/switch-2s-zelda.jpg",
       "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "& team's official character \"teamily\" is born, and the production behind-the-scenes video is also released",
-      "translatedExcerpt": "/a> LDH SCREAM、パフォーマンス曲「Up set feat. Reichi」配信リリース LDH発の【D.LEAGUE】チーム・LDH SCREAMが、パフォーマンス曲「Up set feat. Reichi」を配信リリースした。 本楽曲は、2026年10月7日に開催された【D.LEA… EXILE Reichi Japan ニューリリース 2026/10/08 21:35 315 &TEAMの公式キャラクター「TEAMILY」誕生、制作ビハインド映像も公開 &TEAMの公式キャラクター「TEAMILY（ティミリー）」が誕生し、制作ビハインド映像の第1話が公開された。 公式キャラクター「TEAMILY」は、「“家族のような愛される存在”であってほしい」… &TEAM Japan 2026/10…"
-    },
-    {
-      "id": "151cc084227caa91",
-      "title": "ずっと真夜中でいいのに。、新曲「あかねさす頃」ゲリラ配信＆MV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166326",
-      "publishedAt": "2026-10-08T19:35:00.000Z",
-      "excerpt": "y\">2026/10/08 21:35 315 &TEAMの公式キャラクター「TEAMILY」誕生、制作ビハインド映像も公開 &TEAMの公式キャラクター「TEAMILY（ティミリー）」が誕生し、制作ビハインド映像の第1話が公開された。 公式キャラクター「TEAMILY」は、「“家族のような愛される存在”であってほしい」… &TEAM Japan 2026/10/08 21:30 51 ずっと真夜中でいいのに。、新曲「あかねさす頃」ゲリラ配信＆MV公開 ずっと真夜中でいいのに。が、新曲「あかねさす頃」をゲリラ配信リリースし、ミュージックビデオを公開した。 新曲「あかねさす頃」は、10月10日・11日の2日間、奈良・平城宮跡歴史公園で開催される単独… ずっと真夜中でいいのに。 Japan ニューリリース 2…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166326/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "I wish it was always midnight., new song \"Around Akane-Sasu\" guerrilla release & MV release",
-      "translatedExcerpt": "y\">2026/10/08 21:35 315 &TEAMの公式キャラクター「TEAMILY」誕生、制作ビハインド映像も公開 &TEAMの公式キャラクター「TEAMILY（ティミリー）」が誕生し、制作ビハインド映像の第1話が公開された。 公式キャラクター「TEAMILY」は、「“家族のような愛される存在”であってほしい」… &TEAM Japan 2026/10/08 21:30 51 ずっと真夜中でいいのに。、新曲「あかねさす頃」ゲリラ配信＆MV公開 ずっと真夜中でいいのに。が、新曲「あかねさす頃」をゲリラ配信リリースし、ミュージックビデオを公開した。 新曲「あかねさす頃」は、10月10日・11日の2日間、奈良・平城宮跡歴史公園で開催される単独… ずっと真夜中でいいのに。 Japan ニューリリース 2…"
-    },
-    {
-      "id": "532163d29a0c601a",
-      "title": "BOOM BOOM SATELLITES「KICK IT OUT」を再構築したEP配信へ、TeddyLoidらがリミックス参加",
-      "link": "https://www.billboard-japan.com/d_news/detail/166324",
-      "publishedAt": "2026-10-08T18:00:00.000Z",
-      "excerpt": "51 ずっと真夜中でいいのに。、新曲「あかねさす頃」ゲリラ配信＆MV公開 ずっと真夜中でいいのに。が、新曲「あかねさす頃」をゲリラ配信リリースし、ミュージックビデオを公開した。 新曲「あかねさす頃」は、10月10日・11日の2日間、奈良・平城宮跡歴史公園で開催される単独… ずっと真夜中でいいのに。 Japan ニューリリース 2026/10/08 20:00 8 BOOM BOOM SATELLITES「KICK IT OUT」を再構築したEP配信へ、TeddyLoidらがリミックス参加 BOOM BOOM SATELLITESの代表曲「KICK IT OUT」を様々な角度から楽しめるEP『KICK IT OUT EP』が、2026年10月9日に配信リリースされる。 本作は、リミッ… BOOM BOOM…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166324/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "TeddyLoid and others participate in a remix to the EP distribution that reconstructs boom boom satellites \"kick IT out\"",
-      "translatedExcerpt": "51 ずっと真夜中でいいのに。、新曲「あかねさす頃」ゲリラ配信＆MV公開 ずっと真夜中でいいのに。が、新曲「あかねさす頃」をゲリラ配信リリースし、ミュージックビデオを公開した。 新曲「あかねさす頃」は、10月10日・11日の2日間、奈良・平城宮跡歴史公園で開催される単独… ずっと真夜中でいいのに。 Japan ニューリリース 2026/10/08 20:00 8 BOOM BOOM SATELLITES「KICK IT OUT」を再構築したEP配信へ、TeddyLoidらがリミックス参加 BOOM BOOM SATELLITESの代表曲「KICK IT OUT」を様々な角度から楽しめるEP『KICK IT OUT EP』が、2026年10月9日に配信リリースされる。 本作は、リミッ… BOOM BOOM…"
-    },
-    {
-      "id": "aa22cf28447caaf8",
-      "title": "鈴木実貴子ズ、念願の“2人での路上ライブ”を11/6開催 当日現地で「なんかの予約できます」",
-      "link": "https://www.billboard-japan.com/d_news/detail/166312",
-      "publishedAt": "2026-10-08T18:00:00.000Z",
-      "excerpt": "a href=\"/d_news/detail/166324\" class=\"hover\">BOOM BOOM SATELLITES「KICK IT OUT」を再構築したEP配信へ、TeddyLoidらがリミックス参加 BOOM BOOM SATELLITESの代表曲「KICK IT OUT」を様々な角度から楽しめるEP『KICK IT OUT EP』が、2026年10月9日に配信リリースされる。 本作は、リミッ… BOOM BOOM SATELLITES TeddyLoid Japan ニューリリース 2026/10/08 20:00 4 鈴木実貴子ズ、念願の“2人での路上ライブ”を11/6開催 当日現地で「なんかの予約できます」 鈴木実貴子ズが、11月6日に東京・渋谷北谷公園にて観覧無料の路上ライブ【鈴…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166312/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Minoruko Suzuki's long-awaited “street concert with two people” can be booked on-site on the day of the 11/6 event",
-      "translatedExcerpt": "a href=\"/d_news/detail/166324\" class=\"hover\">BOOM BOOM SATELLITES「KICK IT OUT」を再構築したEP配信へ、TeddyLoidらがリミックス参加 BOOM BOOM SATELLITESの代表曲「KICK IT OUT」を様々な角度から楽しめるEP『KICK IT OUT EP』が、2026年10月9日に配信リリースされる。 本作は、リミッ… BOOM BOOM SATELLITES TeddyLoid Japan ニューリリース 2026/10/08 20:00 4 鈴木実貴子ズ、念願の“2人での路上ライブ”を11/6開催 当日現地で「なんかの予約できます」 鈴木実貴子ズが、11月6日に東京・渋谷北谷公園にて観覧無料の路上ライブ【鈴…"
-    },
-    {
-      "id": "4b38c1cef1f130be",
-      "title": "SEKAI NO OWARIのカプセルトイ『銀テープストラップ』、第1弾の再販売＆第2弾の発売が決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/166319",
-      "publishedAt": "2026-10-08T17:55:00.000Z",
-      "excerpt": "y\">2026/10/08 19:55 3 ヤバイTシャツ屋さん、最新曲「アルゴリズムの犬」応援映像を公開 ヤバイTシャツ屋さんが、最新曲「アルゴリズムの犬」の応援映像を公開した。 最新曲「アルゴリズムの犬」は、2026年7月29日にCDリリースされたニューアルバム『Magical Tank-top P… ヤバイＴシャツ屋さん Japan 2026/10/08 19:35 28 SEKAI NO OWARIのカプセルトイ『銀テープストラップ』、第1弾の再販売＆第2弾の発売が決定 SEKAI NO OWARIのカプセルトイ『SEKAI NO OWARI 銀テープストラップ』vol.1の再販売と、vol.2の発売が決定した。 本商品は、過去のライブ公演で使用された“銀テープ”… SEKAI NO OWARI…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166319/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Sekai NO Owari capsule toy \"silver tape strap\", first resale & second release confirmed",
-      "translatedExcerpt": "y\">2026/10/08 19:55 3 ヤバイTシャツ屋さん、最新曲「アルゴリズムの犬」応援映像を公開 ヤバイTシャツ屋さんが、最新曲「アルゴリズムの犬」の応援映像を公開した。 最新曲「アルゴリズムの犬」は、2026年7月29日にCDリリースされたニューアルバム『Magical Tank-top P… ヤバイＴシャツ屋さん Japan 2026/10/08 19:35 28 SEKAI NO OWARIのカプセルトイ『銀テープストラップ』、第1弾の再販売＆第2弾の発売が決定 SEKAI NO OWARIのカプセルトイ『SEKAI NO OWARI 銀テープストラップ』vol.1の再販売と、vol.2の発売が決定した。 本商品は、過去のライブ公演で使用された“銀テープ”… SEKAI NO OWARI…"
-    },
-    {
-      "id": "0bbdecc3e40b604c",
-      "title": "ヤバイTシャツ屋さん、最新曲「アルゴリズムの犬」応援映像を公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166322",
-      "publishedAt": "2026-10-08T17:55:00.000Z",
-      "excerpt": "com/d_news/detail/166312\">4 鈴木実貴子ズ、念願の“2人での路上ライブ”を11/6開催 当日現地で「なんかの予約できます」 鈴木実貴子ズが、11月6日に東京・渋谷北谷公園にて観覧無料の路上ライブ【鈴木実貴子ズが路上ライブします！】を開催する。 これまで鈴木実貴子ズは全国47都道府県を訪れ、各地で路上ライブを行う企画… 鈴木実貴子ズ Japan 本人コメントあり ライブ 2026/10/08 19:55 3 ヤバイTシャツ屋さん、最新曲「アルゴリズムの犬」応援映像を公開 ヤバイTシャツ屋さんが、最新曲「アルゴリズムの犬」の応援映像を公開した。 最新曲「アルゴリズムの犬」は、2026年7月29日にCDリリースされたニューアルバム『Magical Tank-top P… ヤバイＴシャツ…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166322/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Bad T-Shirt Shop Releases Video Supporting the Latest Song \"Algorithmic Dog\"",
-      "translatedExcerpt": "com/d_news/detail/166312\">4 鈴木実貴子ズ、念願の“2人での路上ライブ”を11/6開催 当日現地で「なんかの予約できます」 鈴木実貴子ズが、11月6日に東京・渋谷北谷公園にて観覧無料の路上ライブ【鈴木実貴子ズが路上ライブします！】を開催する。 これまで鈴木実貴子ズは全国47都道府県を訪れ、各地で路上ライブを行う企画… 鈴木実貴子ズ Japan 本人コメントあり ライブ 2026/10/08 19:55 3 ヤバイTシャツ屋さん、最新曲「アルゴリズムの犬」応援映像を公開 ヤバイTシャツ屋さんが、最新曲「アルゴリズムの犬」の応援映像を公開した。 最新曲「アルゴリズムの犬」は、2026年7月29日にCDリリースされたニューアルバム『Magical Tank-top P… ヤバイＴシャツ…"
-    },
-    {
-      "id": "f6c4a4e5c2851b64",
-      "title": "XGのニューシングル『DEPENDS』は全2曲、米国限定でCDリリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/166318",
-      "publishedAt": "2026-10-08T17:30:00.000Z",
-      "excerpt": "0/08 19:35 28 SEKAI NO OWARIのカプセルトイ『銀テープストラップ』、第1弾の再販売＆第2弾の発売が決定 SEKAI NO OWARIのカプセルトイ『SEKAI NO OWARI 銀テープストラップ』vol.1の再販売と、vol.2の発売が決定した。 本商品は、過去のライブ公演で使用された“銀テープ”… SEKAI NO OWARI Japan 2026/10/08 19:30 286 XGのニューシングル『DEPENDS』は全2曲、米国限定でCDリリース XGが、2026年11月6日にリリースするニューシングル『DEPENDS』のトラックリストを公開した。 本作には、全2曲を収録。タイトル曲「DEPENDS」は、“YES”か“NO”か、ひとつの答え… XG Japan 2026/…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166318/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "XG's new single \"Depends\" will be released on CD in the US with two tracks",
-      "translatedExcerpt": "0/08 19:35 28 SEKAI NO OWARIのカプセルトイ『銀テープストラップ』、第1弾の再販売＆第2弾の発売が決定 SEKAI NO OWARIのカプセルトイ『SEKAI NO OWARI 銀テープストラップ』vol.1の再販売と、vol.2の発売が決定した。 本商品は、過去のライブ公演で使用された“銀テープ”… SEKAI NO OWARI Japan 2026/10/08 19:30 286 XGのニューシングル『DEPENDS』は全2曲、米国限定でCDリリース XGが、2026年11月6日にリリースするニューシングル『DEPENDS』のトラックリストを公開した。 本作には、全2曲を収録。タイトル曲「DEPENDS」は、“YES”か“NO”か、ひとつの答え… XG Japan 2026/…"
-    },
-    {
-      "id": "d37d41f5da951e3c",
-      "title": "SEVENTEENの新ユニット・JxJ、1stミニアルバム『DREAMSCAPE』リード曲は「12 o&#039;clock」",
-      "link": "https://www.billboard-japan.com/d_news/detail/166317",
-      "publishedAt": "2026-10-08T17:25:00.000Z",
-      "excerpt": "9:30 286 XGのニューシングル『DEPENDS』は全2曲、米国限定でCDリリース XGが、2026年11月6日にリリースするニューシングル『DEPENDS』のトラックリストを公開した。 本作には、全2曲を収録。タイトル曲「DEPENDS」は、“YES”か“NO”か、ひとつの答え… XG Japan 2026/10/08 19:25 3 SEVENTEENの新ユニット・JxJ、1stミニアルバム『DREAMSCAPE』リード曲は「12 o&#039;clock」 SEVENTEENのJEONGHANとJOSHUAによる新ユニット・JxJ (SEVENTEEN)が、2026年10月19日にリリースとなる1stミニアルバム『DREAMSCAPE』のトラックリス… SEVENTEEN K-POP 2026…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166317/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Seventeen's new unit JxJ, 1st mini album \"Dreamscape\" lead song is \"12 o'clock\"",
-      "translatedExcerpt": "9:30 286 XGのニューシングル『DEPENDS』は全2曲、米国限定でCDリリース XGが、2026年11月6日にリリースするニューシングル『DEPENDS』のトラックリストを公開した。 本作には、全2曲を収録。タイトル曲「DEPENDS」は、“YES”か“NO”か、ひとつの答え… XG Japan 2026/10/08 19:25 3 SEVENTEENの新ユニット・JxJ、1stミニアルバム『DREAMSCAPE』リード曲は「12 o&#039;clock」 SEVENTEENのJEONGHANとJOSHUAによる新ユニット・JxJ (SEVENTEEN)が、2026年10月19日にリリースとなる1stミニアルバム『DREAMSCAPE』のトラックリス… SEVENTEEN K-POP 2026…"
-    },
-    {
-      "id": "3b4036b721a85043",
-      "title": "FLOW、TVアニメ『帰還者の魔法は特別です』第二期OPテーマ「Sorrow」先行配信開始",
-      "link": "https://www.billboard-japan.com/d_news/detail/166321",
-      "publishedAt": "2026-10-08T17:20:00.000Z",
-      "excerpt": "> 3 SEVENTEENの新ユニット・JxJ、1stミニアルバム『DREAMSCAPE』リード曲は「12 o&#039;clock」 SEVENTEENのJEONGHANとJOSHUAによる新ユニット・JxJ (SEVENTEEN)が、2026年10月19日にリリースとなる1stミニアルバム『DREAMSCAPE』のトラックリス… SEVENTEEN K-POP 2026/10/08 19:20 3 FLOW、TVアニメ『帰還者の魔法は特別です』第二期OPテーマ「Sorrow」先行配信開始 FLOWが、TVアニメ『帰還者の魔法は特別です』第2期のオープニングテーマとなる新曲「Sorrow」の先行配信を開始した。 「Sorrow」のミュージックビデオは、10月15日19時にFLOW… FLOW Japan…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166321/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Flow, TV anime \"The Magic of the Returnees is Special\" second phase op theme \"Sorrow\" premiered",
-      "translatedExcerpt": "> 3 SEVENTEENの新ユニット・JxJ、1stミニアルバム『DREAMSCAPE』リード曲は「12 o&#039;clock」 SEVENTEENのJEONGHANとJOSHUAによる新ユニット・JxJ (SEVENTEEN)が、2026年10月19日にリリースとなる1stミニアルバム『DREAMSCAPE』のトラックリス… SEVENTEEN K-POP 2026/10/08 19:20 3 FLOW、TVアニメ『帰還者の魔法は特別です』第二期OPテーマ「Sorrow」先行配信開始 FLOWが、TVアニメ『帰還者の魔法は特別です』第2期のオープニングテーマとなる新曲「Sorrow」の先行配信を開始した。 「Sorrow」のミュージックビデオは、10月15日19時にFLOW… FLOW Japan…"
-    },
-    {
-      "id": "7b9805c084b75bb5",
-      "title": "RADWIMPS、映画『汝、星のごとく』主題歌「夕星-ゆうづつ-」MVプレミア公開決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/166320",
-      "publishedAt": "2026-10-08T17:15:00.000Z",
-      "excerpt": "ews/detail/166321\">3 FLOW、TVアニメ『帰還者の魔法は特別です』第二期OPテーマ「Sorrow」先行配信開始 FLOWが、TVアニメ『帰還者の魔法は特別です』第2期のオープニングテーマとなる新曲「Sorrow」の先行配信を開始した。 「Sorrow」のミュージックビデオは、10月15日19時にFLOW… FLOW Japan アニメ ニューリリース 2026/10/08 19:15 13 RADWIMPS、映画『汝、星のごとく』主題歌「夕星-ゆうづつ-」MVプレミア公開決定 RADWIMPSが、映画『汝、星のごとく』の主題歌として書き下ろした「夕星-ゆうづつ-」のミュージックビデオを10月9日21時にプレミア公開することが決定した。 「夕星-ゆうづつ-」は、主人公… RADWIMP…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166320/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "RADWIMPS Announces Premiere of Theme Song \"Yusei -Uzutsu-\" for Movie \"Thou, Like a Star\"",
-      "translatedExcerpt": "ews/detail/166321\">3 FLOW、TVアニメ『帰還者の魔法は特別です』第二期OPテーマ「Sorrow」先行配信開始 FLOWが、TVアニメ『帰還者の魔法は特別です』第2期のオープニングテーマとなる新曲「Sorrow」の先行配信を開始した。 「Sorrow」のミュージックビデオは、10月15日19時にFLOW… FLOW Japan アニメ ニューリリース 2026/10/08 19:15 13 RADWIMPS、映画『汝、星のごとく』主題歌「夕星-ゆうづつ-」MVプレミア公開決定 RADWIMPSが、映画『汝、星のごとく』の主題歌として書き下ろした「夕星-ゆうづつ-」のミュージックビデオを10月9日21時にプレミア公開することが決定した。 「夕星-ゆうづつ-」は、主人公… RADWIMP…"
-    },
-    {
-      "id": "af34bcf16b70b98a",
-      "title": "汐れいら、恋愛番組『星の見える町で』主題歌に決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/166316",
-      "publishedAt": "2026-10-08T17:10:00.000Z",
-      "excerpt": "ard-japan.com/d_news/detail/166320\">13 RADWIMPS、映画『汝、星のごとく』主題歌「夕星-ゆうづつ-」MVプレミア公開決定 RADWIMPSが、映画『汝、星のごとく』の主題歌として書き下ろした「夕星-ゆうづつ-」のミュージックビデオを10月9日21時にプレミア公開することが決定した。 「夕星-ゆうづつ-」は、主人公… RADWIMPS Japan 映画 ニューリリース 2026/10/08 19:10 1 汐れいら、恋愛番組『星の見える町で』主題歌に決定 汐れいらが、Hulu×日本テレビの新恋愛番組『星の見える町で』の主題歌を担当することが決定した。 『星の見える町で』は、「恋」と「移住」をテーマにした新恋愛番組。都会での暮らしに生きづらさを感… 汐れいら Jap…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166316/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Shio Rei et al. decided on the theme song for the romance show \"In the Town Where the Stars Can Be Seen\"",
-      "translatedExcerpt": "ard-japan.com/d_news/detail/166320\">13 RADWIMPS、映画『汝、星のごとく』主題歌「夕星-ゆうづつ-」MVプレミア公開決定 RADWIMPSが、映画『汝、星のごとく』の主題歌として書き下ろした「夕星-ゆうづつ-」のミュージックビデオを10月9日21時にプレミア公開することが決定した。 「夕星-ゆうづつ-」は、主人公… RADWIMPS Japan 映画 ニューリリース 2026/10/08 19:10 1 汐れいら、恋愛番組『星の見える町で』主題歌に決定 汐れいらが、Hulu×日本テレビの新恋愛番組『星の見える町で』の主題歌を担当することが決定した。 『星の見える町で』は、「恋」と「移住」をテーマにした新恋愛番組。都会での暮らしに生きづらさを感… 汐れいら Jap…"
-    },
-    {
-      "id": "87acb8a9b807b3ec",
-      "title": "ロクデナシ、TVアニメ『世界最強の魔女、始めました』ED主題歌「星を巡る」配信リリース＆MV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166315",
-      "publishedAt": "2026-10-08T17:05:00.000Z",
-      "excerpt": "\"hover\"> 1 汐れいら、恋愛番組『星の見える町で』主題歌に決定 汐れいらが、Hulu×日本テレビの新恋愛番組『星の見える町で』の主題歌を担当することが決定した。 『星の見える町で』は、「恋」と「移住」をテーマにした新恋愛番組。都会での暮らしに生きづらさを感… 汐れいら Japan 本人コメントあり 2026/10/08 19:05 6 ロクデナシ、TVアニメ『世界最強の魔女、始めました』ED主題歌「星を巡る」配信リリース＆MV公開 ロクデナシが、TVアニメ『世界最強の魔女、始めました』のエンディング主題歌となる新曲「星を巡る」を配信リリースし、ミュージックビデオを公開した。 ロクデナシは、ボーカリストのにんじんとボカロP… ロクデナシ Japan アニメ ニューリリース 2026/10/08 19…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166315/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Rokudenashi, TV anime \"The World's Strongest Witch Has Begun\" ED theme song \"Around the Stars\" distribution release & MV release",
-      "translatedExcerpt": "\"hover\"> 1 汐れいら、恋愛番組『星の見える町で』主題歌に決定 汐れいらが、Hulu×日本テレビの新恋愛番組『星の見える町で』の主題歌を担当することが決定した。 『星の見える町で』は、「恋」と「移住」をテーマにした新恋愛番組。都会での暮らしに生きづらさを感… 汐れいら Japan 本人コメントあり 2026/10/08 19:05 6 ロクデナシ、TVアニメ『世界最強の魔女、始めました』ED主題歌「星を巡る」配信リリース＆MV公開 ロクデナシが、TVアニメ『世界最強の魔女、始めました』のエンディング主題歌となる新曲「星を巡る」を配信リリースし、ミュージックビデオを公開した。 ロクデナシは、ボーカリストのにんじんとボカロP… ロクデナシ Japan アニメ ニューリリース 2026/10/08 19…"
-    },
-    {
-      "id": "335f9b36ac77e166",
-      "title": "CVLTE、AssToro迎えた新曲「hedonist. II (feat. AssToro)」配信リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/166314",
-      "publishedAt": "2026-10-08T17:00:00.000Z",
-      "excerpt": "5\">6 ロクデナシ、TVアニメ『世界最強の魔女、始めました』ED主題歌「星を巡る」配信リリース＆MV公開 ロクデナシが、TVアニメ『世界最強の魔女、始めました』のエンディング主題歌となる新曲「星を巡る」を配信リリースし、ミュージックビデオを公開した。 ロクデナシは、ボーカリストのにんじんとボカロP… ロクデナシ Japan アニメ ニューリリース 2026/10/08 19:00 1 CVLTE、AssToro迎えた新曲「hedonist. II (feat. AssToro)」配信リリース CVLTEが、新曲「hedonist. II (feat. AssToro)」を配信リリースした。 本作は、CVLTEのAviel kaeiがバンドからソロプロジェクトへ移行して2作目となるシ… CVLTE Jap…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166314/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "CVLTE, AssToro welcome new song \"hedonist. II (feat. AssToro)\" stream release",
-      "translatedExcerpt": "5\">6 ロクデナシ、TVアニメ『世界最強の魔女、始めました』ED主題歌「星を巡る」配信リリース＆MV公開 ロクデナシが、TVアニメ『世界最強の魔女、始めました』のエンディング主題歌となる新曲「星を巡る」を配信リリースし、ミュージックビデオを公開した。 ロクデナシは、ボーカリストのにんじんとボカロP… ロクデナシ Japan アニメ ニューリリース 2026/10/08 19:00 1 CVLTE、AssToro迎えた新曲「hedonist. II (feat. AssToro)」配信リリース CVLTEが、新曲「hedonist. II (feat. AssToro)」を配信リリースした。 本作は、CVLTEのAviel kaeiがバンドからソロプロジェクトへ移行して2作目となるシ… CVLTE Jap…"
-    },
-    {
-      "id": "0160dd8e5c8fa334",
-      "title": "Kroi「SPIN」グローバル・ジャパン・ソングス首位にコメントが到着「皆さんへの感謝が湧き立っております」",
-      "link": "https://www.billboard-japan.com/d_news/detail/166291",
-      "publishedAt": "2026-10-08T17:00:00.000Z",
-      "excerpt": "class=\"comment\" data-url=\"https://www.billboard-japan.com/d_news/detail/166314\">1 CVLTE、AssToro迎えた新曲「hedonist. II (feat. AssToro)」配信リリース CVLTEが、新曲「hedonist. II (feat. AssToro)」を配信リリースした。 本作は、CVLTEのAviel kaeiがバンドからソロプロジェクトへ移行して2作目となるシ… CVLTE Japan ニューリリース 2026/10/08 19:00 169 Kroi「SPIN」グローバル・ジャパン・ソングス首位にコメントが到着「皆さんへの感謝が湧き立っております」 2026年10月8日公開（集計期間：2026年9月2…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166291/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Comments on Kroi \"spin\" Global Japan Songs Arrived at the top \"Thank you to everyone is springing up\"",
-      "translatedExcerpt": "class=\"comment\" data-url=\"https://www.billboard-japan.com/d_news/detail/166314\">1 CVLTE、AssToro迎えた新曲「hedonist. II (feat. AssToro)」配信リリース CVLTEが、新曲「hedonist. II (feat. AssToro)」を配信リリースした。 本作は、CVLTEのAviel kaeiがバンドからソロプロジェクトへ移行して2作目となるシ… CVLTE Japan ニューリリース 2026/10/08 19:00 169 Kroi「SPIN」グローバル・ジャパン・ソングス首位にコメントが到着「皆さんへの感謝が湧き立っております」 2026年10月8日公開（集計期間：2026年9月2…"
-    },
-    {
-      "id": "5509d4d20e2c5829",
-      "title": "JO（&TEAM）×RAN（MAZZEL）、『Quick Japan Monologue』第1号特別版表紙に登場＆特集掲載",
-      "link": "https://www.billboard-japan.com/d_news/detail/166304",
-      "publishedAt": "2026-10-08T16:30:00.000Z",
-      "excerpt": "ジャパン・ソングス首位にコメントが到着「皆さんへの感謝が湧き立っております」 2026年10月8日公開（集計期間：2026年9月25日～10月1日）の世界でヒットしている日本の楽曲をランキング化した“Global Japan Songs Excl. Japan”で、「SPI… Kroi Chart Japan J-Worldwide 本人コメントあり 2026/10/08 18:30 671 JO（&TEAM）×RAN（MAZZEL）、『Quick Japan Monologue』第1号特別版表紙に登場＆特集掲載 JO（&TEAM）とRAN（MAZZEL）が、11月18日発売の『Quick Japan Monologue』#01 SPECIAL EDITION特別カバー版の表紙を飾ることが発表された。 本…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166304/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "JO (& team) x ran (MAZZEL) appeared on the cover of the first special edition of \"Quick Japan Monologue\" and featured",
-      "translatedExcerpt": "ジャパン・ソングス首位にコメントが到着「皆さんへの感謝が湧き立っております」 2026年10月8日公開（集計期間：2026年9月25日～10月1日）の世界でヒットしている日本の楽曲をランキング化した“Global Japan Songs Excl. Japan”で、「SPI… Kroi Chart Japan J-Worldwide 本人コメントあり 2026/10/08 18:30 671 JO（&TEAM）×RAN（MAZZEL）、『Quick Japan Monologue』第1号特別版表紙に登場＆特集掲載 JO（&TEAM）とRAN（MAZZEL）が、11月18日発売の『Quick Japan Monologue』#01 SPECIAL EDITION特別カバー版の表紙を飾ることが発表された。 本…"
-    },
-    {
-      "id": "3f13a08607151948",
-      "title": "【ビルボード】Kroi「SPIN」4か国で日本語曲トップ 『ヒロアカ』10周年記念歌唱曲もトップ10入り",
-      "link": "https://www.billboard-japan.com/d_news/detail/166311",
-      "publishedAt": "2026-10-08T16:00:00.000Z",
-      "excerpt": "MAZZEL &TEAM RAN Girls2 Book Japan 映画 2026/10/08 18:00 154 【ビルボード】Kroi「SPIN」4か国で日本語曲トップ 『ヒロアカ』10周年記念歌唱曲もトップ10入り 世界各国でヒットしている日本の楽曲をランキング化した “Japan Songs（国/地域別チャート）”。当週はTERIYAKI BOYZ「TOKYO DRIFT (FAST & FURIOUS)」… Kroi Chart Japan J-Worldwide 2026/10/08 18:00 199 【ビルボード】Kroi「SPIN」グローバル・ジャパン・ソングス初の首位 世界でヒットしている日本の楽曲をランキング化した“Global Japan Songs Excl. Japan”。今…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166311/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Kroi \"spin\" Top 10 Japanese Songs \"Hiroka\" 10th Anniversary Singing Songs in 4 Countries",
-      "translatedExcerpt": "MAZZEL &TEAM RAN Girls2 Book Japan 映画 2026/10/08 18:00 154 【ビルボード】Kroi「SPIN」4か国で日本語曲トップ 『ヒロアカ』10周年記念歌唱曲もトップ10入り 世界各国でヒットしている日本の楽曲をランキング化した “Japan Songs（国/地域別チャート）”。当週はTERIYAKI BOYZ「TOKYO DRIFT (FAST & FURIOUS)」… Kroi Chart Japan J-Worldwide 2026/10/08 18:00 199 【ビルボード】Kroi「SPIN」グローバル・ジャパン・ソングス初の首位 世界でヒットしている日本の楽曲をランキング化した“Global Japan Songs Excl. Japan”。今…"
-    },
-    {
-      "id": "1d5f2142d8b06899",
-      "title": "【ビルボード】Kroi「SPIN」グローバル・ジャパン・ソングス初の首位",
-      "link": "https://www.billboard-japan.com/d_news/detail/166224",
-      "publishedAt": "2026-10-08T16:00:00.000Z",
-      "excerpt": "11\">154 【ビルボード】Kroi「SPIN」4か国で日本語曲トップ 『ヒロアカ』10周年記念歌唱曲もトップ10入り 世界各国でヒットしている日本の楽曲をランキング化した “Japan Songs（国/地域別チャート）”。当週はTERIYAKI BOYZ「TOKYO DRIFT (FAST & FURIOUS)」… Kroi Chart Japan J-Worldwide 2026/10/08 18:00 199 【ビルボード】Kroi「SPIN」グローバル・ジャパン・ソングス初の首位 世界でヒットしている日本の楽曲をランキング化した“Global Japan Songs Excl. Japan”。今週はKroi「SPIN」が首位を獲得した（集計期間：2026年9月25日～10月… Kroi Char…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166224/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Kroi \"spin\" Global Japan Songs First No.1",
-      "translatedExcerpt": "11\">154 【ビルボード】Kroi「SPIN」4か国で日本語曲トップ 『ヒロアカ』10周年記念歌唱曲もトップ10入り 世界各国でヒットしている日本の楽曲をランキング化した “Japan Songs（国/地域別チャート）”。当週はTERIYAKI BOYZ「TOKYO DRIFT (FAST & FURIOUS)」… Kroi Chart Japan J-Worldwide 2026/10/08 18:00 199 【ビルボード】Kroi「SPIN」グローバル・ジャパン・ソングス初の首位 世界でヒットしている日本の楽曲をランキング化した“Global Japan Songs Excl. Japan”。今週はKroi「SPIN」が首位を獲得した（集計期間：2026年9月25日～10月… Kroi Char…"
-    },
-    {
-      "id": "8650e9a75d848ca0",
-      "title": "【ビルボード】『ワールドトリガー 30巻』が“Reiwa Books”首位獲得、新刊コミックス9作品がトップ10に初登場",
-      "link": "https://www.billboard-japan.com/d_news/detail/166285",
-      "publishedAt": "2026-10-08T15:45:00.000Z",
-      "excerpt": "【ビルボード】葦原大介『ワールドトリガー 30巻』総合書籍チャート首位 トップ10を漫画が独占 2026年10月8日公開（集計期間：2026年9月28日～10月4日）のBillboard JAPAN 総合書籍チャート“JAPAN Book Hot 100”は、葦原大介『ワールドトリガー 30… 葦原大介 Book Chart Japan 2026/10/08 17:45 35 【ビルボード】『ワールドトリガー 30巻』が“Reiwa Books”首位獲得、新刊コミックス9作品がトップ10に初登場 2026年10月8日公開（集計期間：2026年9月28日～10月4日）のBillboard JAPAN年代別書籍チャート“Billboard Japan Reiwa Books”で、葦原大介『ワー… 葦原大介 B…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166285/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] \"World Trigger Volume 30\" won the first place in \"Reiwa Books\", and 9 new comics appeared in the top 10 for the first time",
-      "translatedExcerpt": "【ビルボード】葦原大介『ワールドトリガー 30巻』総合書籍チャート首位 トップ10を漫画が独占 2026年10月8日公開（集計期間：2026年9月28日～10月4日）のBillboard JAPAN 総合書籍チャート“JAPAN Book Hot 100”は、葦原大介『ワールドトリガー 30… 葦原大介 Book Chart Japan 2026/10/08 17:45 35 【ビルボード】『ワールドトリガー 30巻』が“Reiwa Books”首位獲得、新刊コミックス9作品がトップ10に初登場 2026年10月8日公開（集計期間：2026年9月28日～10月4日）のBillboard JAPAN年代別書籍チャート“Billboard Japan Reiwa Books”で、葦原大介『ワー… 葦原大介 B…"
-    },
-    {
-      "id": "8f7fc2056f8cf5dc",
-      "title": "【ビルボード】葦原大介『ワールドトリガー 30巻』総合書籍チャート首位 トップ10を漫画が独占",
-      "link": "https://www.billboard-japan.com/d_news/detail/166290",
-      "publishedAt": "2026-10-08T15:45:00.000Z",
-      "excerpt": "etail/166224\">199 【ビルボード】Kroi「SPIN」グローバル・ジャパン・ソングス初の首位 世界でヒットしている日本の楽曲をランキング化した“Global Japan Songs Excl. Japan”。今週はKroi「SPIN」が首位を獲得した（集計期間：2026年9月25日～10月… Kroi Chart Japan J-Worldwide 2026/10/08 17:45 13 【ビルボード】葦原大介『ワールドトリガー 30巻』総合書籍チャート首位 トップ10を漫画が独占 2026年10月8日公開（集計期間：2026年9月28日～10月4日）のBillboard JAPAN 総合書籍チャート“JAPAN Book Hot 100”は、葦原大介『ワールドトリガー 30… 葦原大介…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166290/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Daisuke Ashihara's \"World Trigger Volume 30\" top 10 overall book chart is dominated by manga",
-      "translatedExcerpt": "etail/166224\">199 【ビルボード】Kroi「SPIN」グローバル・ジャパン・ソングス初の首位 世界でヒットしている日本の楽曲をランキング化した“Global Japan Songs Excl. Japan”。今週はKroi「SPIN」が首位を獲得した（集計期間：2026年9月25日～10月… Kroi Chart Japan J-Worldwide 2026/10/08 17:45 13 【ビルボード】葦原大介『ワールドトリガー 30巻』総合書籍チャート首位 トップ10を漫画が独占 2026年10月8日公開（集計期間：2026年9月28日～10月4日）のBillboard JAPAN 総合書籍チャート“JAPAN Book Hot 100”は、葦原大介『ワールドトリガー 30… 葦原大介…"
+        "id": "kotaku",
+        "name": "Kotaku",
+        "short": "Kotaku",
+        "siteUrl": "https://kotaku.com/",
+        "category": "Gaming & Culture",
+        "accent": "#ff6b9d",
+        "language": "en"
+      }
     },
     {
       "id": "f6640327633a03ea",
@@ -828,8 +481,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "A Perfect Circle releases heavy new songs",
-      "translatedExcerpt": "A Perfect Circleが2026年9月29日(火)にニューシングル「To Whom It May Concern」をリリースした。 現代社会の分断や、アルゴリズムによって増幅される怒りと憎悪をテーマにした本作。かつて対話できた人々が、互いを敵と見るようになってしまった現実について描いた楽曲となっている。 特定の人物へのメッセージであると同時に、現代を生きる人々への警告でもある本楽曲。重厚で不穏なサウンドとボーカルが、楽曲の持つ緊張感を際立たせている。 リリース情報 https://ototoy.jp/_/default/p/4260799 アーティスト情報 https://www.instagram.com/aperfectcircle/"
+      "translatedTitle": "A Perfect Circle releases a profound new song",
+      "translatedExcerpt": "A Perfect Circle released their new single \"To Whom It May Concern\" on Tuesday, September 29, 2026. This work explores the themes of division in modern society and anger and hatred amplified by algorithms. The song depicts the reality in which people who were once able to communicate have come to see each other as enemies. This song is a message to a specific person, but also a warning to people living in modern times. The deep and ominous sound and vocals highlight the tension of the song. Release information https://ototoy.jp/_/default/p/4260799 Artist information https://www.instagram.com/aperfectcircle/"
     },
     {
       "id": "a5106a7d937f6798",
@@ -864,8 +517,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "pachae releases new song “Time Travel” at the beginning of the year",
-      "translatedExcerpt": "pachaeが2026年10月9日(金)にニューシングル「時間旅行」をリリースする。 ギターカッティングを主体としながら、ドラムンベースも取り入れた変幻自在のアンサンブルは、pachaeの十八番。「時間旅行」というタイトルを体現するような、1秒先も読めないめくるめく展開の楽曲となっている。 一癖も二癖もある彼らの音楽性が存分に表現されている。同時に解禁されたジャケット写真は、Vo.音山が手がけたもので、メンバーの名前やクレジット、歌詞などが隠れている。 なお、pachaeは10月16日(金)の愛知公演を皮切りに、23日(金)に大阪、25日(日)に東京とワンマンツアーを行う。 リリース情報 https://ototoy.jp/_/default/a/987592 ツアー情報 https://eplus.jp…"
+      "translatedTitle": "pachae releases new song “Time Travel” for the first time this year",
+      "translatedExcerpt": "pachae will release new single \"Time Travel\" on Friday, October 9, 2026. Pachae's most versatile ensemble is mainly guitar cutting, but also incorporates drum'n'bass. It is a song that embodies the title \"time travel\" and has a dazzling development that makes it impossible to predict even one second ahead. Their musical style, which has both quirks and quirks, is fully expressed. The jacket photo that was released at the same time was created by vocalist Otoyama, and the members' names, credits, and lyrics are hidden. Pachae will be holding a one-man tour starting with the Aichi performance on October 16th (Friday), followed by Osaka on the 23rd (Friday) and Tokyo on the 25th (Sunday). Release information https://ototoy.jp/_/default/a/987592 Tour information https://eplus.jp…"
     },
     {
       "id": "3b00a0fb998afa66",
@@ -934,8 +587,8 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Re: name, major debut from Pony Canyon & bass egashi officially joined. Major 1st SG delivery decision also",
-      "translatedExcerpt": "Re:nameが、ポニーキャニオンからのメジャーデビューとひがし（B）の正式加入を発表した。 あわせて、放送中のTVアニメ『テムパル～アイテムの力～』オープニングテーマ「SATISFY」が、メジャー1stシングルとして10月9日に配信リリースされることも発表。 これまでサポートメンバーとして活躍してきたひがしの正式加入により、大阪・北摂発スリーピースバンドから、今後は4ピースバンドとなる。 ◆ ◆ ◆ ◾️メンバーコメント◇高木一成（Vo）Re:nameはメジャデビューし、メンバーが4人になります。新曲「SATISFY」と共に切り開く新章。新たなRe:nameを体感してください！ ◇ヤマケン（Dr）ついにメジャーデビュー！目指していた一つの場所なので、とても嬉しいです。新曲「SATISFY」で新しいRe:…"
+      "translatedTitle": "Re:name makes major debut from Pony Canyon and officially joins bassist Higashi. Major 1st SG distribution decision also",
+      "translatedExcerpt": "Re:name has announced their major debut from Pony Canyon and the official addition of Higashi (B). In addition, it was announced that the opening theme song \"SATISFY\" for the currently airing TV anime \"Tempal ~Item no Chikara~\" will be released as the first major single on October 9th. With the official addition of Higashi, who has been active as a support member up until now, the three-piece band from Hokusetsu, Osaka will now become a four-piece band. ◆ ◆ ◆ ◾️Member comments◇ Kazunari Takagi (Vo) Re:name will make their major debut and have 4 members. A new chapter opens with the new song \"SATISFY\". Experience the new Re:name! ◇Yamaken (Dr) finally makes his major debut! I'm very happy because it's one of the places I've been aiming for. New song “SATISFY” brings new Re:…"
     },
     {
       "id": "4a4a1ffdb2fb67ed",
@@ -1004,8 +657,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Anison Days] Aya Hirano makes her debut 2 weeks in a row",
-      "translatedExcerpt": "BS11〈Anison Days〉10月14日と21日のゲストに番組初出演の平野綾が登場する。 平野は今年ソロ歌手デビュー20周年、CDデビュー25周年、声優デビュー25周年、さらにミュージカルデビュー15周年と4つのアニバーサリーイヤーを迎えた。 スタジオライブでは2週にわたり平野綾の20年分のアニソンを披露。14日放送では、「KADOKAWA関連アニメの楽曲」でリストアップ。平野は「LOVE DESTINY」（TVアニメ『シスター・プリンセス』OP）、「Super Driver」（TVアニメ『涼宮ハルヒの憂鬱（2009年）』OP）を、森口博子は「Ring My Bell」（TVアニメ『そらのおとしもの』OP）を披露する。 番組情報 Anison Days 第473回 放送チャンネル：BS11 森口博子…"
+      "translatedTitle": "<Anison Days> Aya Hirano appears for the first time, broadcast for 2 consecutive weeks",
+      "translatedExcerpt": "Aya Hirano, who will appear on the program for the first time, will appear as a guest on BS11〈Anison Days〉 on October 14th and 21st. This year, Hirano is celebrating four anniversaries: the 20th anniversary of his debut as a solo singer, the 25th anniversary of his CD debut, the 25th anniversary of his voice acting debut, and the 15th anniversary of his musical debut. At the studio live, Aya Hirano will perform 20 years of anime songs for two weeks. On the 14th broadcast, it will be listed as \"KADOKAWA related anime songs\". Hirano will perform \"LOVE DESTINY\" (OP of the TV anime \"Sister Princess\") and \"Super Driver\" (OP of the TV anime \"The Melancholy of Haruhi Suzumiya (2009)\"), and Hiroko Moriguchi will perform \"Ring My Bell\" (OP of the TV anime \"Sora no Otoshimono\"). Program information Anison Days 473rd Broadcast channel: BS11 Hiroko Moriguchi…"
     },
     {
       "id": "271c1ca18f8d3abc",
@@ -1023,8 +676,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Live Report] ReoNa, Music for \"Another Step\" Delivered by \"Koromichi\"── AOM presents Cheer Concert \"ReoNa - Koromichi -\" Part 2",
-      "translatedExcerpt": "2026年9月26日、東京・アニメイトシアターにて、AOM presents Cheer Concert「ReoNa-よりみち-」第2回が開催された。 この公演は、「音楽鑑賞体験の機会をひらくこと」を通じて、参加者一人ひとりに寄り添い、Cheer＝応援することを目的としたコンサート。豊島区在住・在学の学生を対象に無料で開催され、第2回となる今回は、対象を小学生から高校生に加え、大学生・専門学生まで広げて開催された。 「よりみち」とは、ただ目的地へ向かう途中で道を外れることではない。AOMが掲げるこの言葉には、〈寄り添いあう道〉という意味が込められている。行かなければならない場所があったとしても、ときには立ち止まり、自分自身と向き合う時間があっていい。このコンサートは、そんな時間を音楽とともにつくるための場…"
+      "translatedTitle": "[Live Report] ReoNa delivers music for “Mata step” with “Yorimichi” ─ AOM presents Cheer Concert “ReoNa -Yorimichi-” 2nd",
+      "translatedExcerpt": "On September 26, 2026, the 2nd AOM presents Cheer Concert \"ReoNa-Yorimichi-\" was held at Animate Theater in Tokyo. This performance is a concert that aims to get close to each participant and cheer them on by \"opening up opportunities for music listening experiences.\" The event was held free of charge for students living or attending school in Toshima Ward, and this time, the second time, the event was held to include elementary school students, high school students, and university and vocational students. ``Yori-michi'' does not simply mean going off the path on the way to a destination. This word, advocated by AOM, has the meaning of ``a path of mutual support.'' Even if you have a place to go, it's good to take time to stop and face yourself sometimes. This concert is a place to create such moments with music..."
     },
     {
       "id": "25f1b80c5d817b48",
@@ -1042,8 +695,8 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Brahman, < Masterpiece > < Masterpiece > < Hibito Super Express > Appearance Disappointed",
-      "translatedExcerpt": "BRAHMANが11月および12月に予定していたライブイベントの出演を見合わせることが発表となった。 BRAHMANのTOSHI-LOW(Vo)が、“S状結腸がん(大腸がん)”切除手術を行うことは先ごろお伝えしたとおりだが、静養中の本人の体調不良により、予定していた手術が延期されたとのこと。 これに伴って、既に発表している2公演＜G-FREAK FACTORY Path to 30th TOUR “TOMOSHIBI” -燈-＞および＜dustbox presents KOSHIROCK GALAXY 2026＞に加え、新たに11月7日(土)に沖縄・宜野湾港マリーナ・トロピカルビーチ特設会場で行われる＜MONGOL800 ga FESTIVAL What a Wonderful World!! 26＞、1…"
+      "translatedTitle": "BRAHMAN postpones appearance at <Monpachi Festival> <MASTERPIECE> <Kyoto Super Express>",
+      "translatedExcerpt": "It has been announced that BRAHMAN will be canceling their live event appearances scheduled for November and December. As we announced recently, BRAHMAN's TOSHI-LOW (Vo) will undergo surgery to remove sigmoid colon cancer (colon cancer), but due to the patient's poor health while resting, the scheduled surgery has been postponed. Along with this, in addition to the two previously announced performances <G-FREAK FACTORY Path to 30th TOUR “TOMOSHIBI” -Tou-> and <dustbox presents KOSHIROCK GALAXY 2026>, a new concert will be held on November 7th (Saturday) at the special venue of Ginowan Port Marina Tropical Beach in Okinawa. <MONGOL800 ga FESTIVAL What a Wonderful World!! 26>, 1…"
     },
     {
       "id": "72bdca54d9b16fda",
@@ -1061,8 +714,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Reaction The Butta Unlocks New EP The Moon Details",
-      "translatedExcerpt": "リアクション ザ ブッタが2026年10月28日(水)にリリースする6曲入りニューEP『The Moon』の詳細を解禁した。 軽快なサウンドに一癖ある重めの恋愛模様のリリックを乗せた先行配信中の楽曲“殉愛”をはじめ、“Like The Moon”、“枯葉サンセット”といったセルフプロデュースした楽曲だけでなく、それぞれアレンジャーを迎えた“Unique Story”、“真昼の夢”、“双六”を加えた全6曲を収録。2027年にバンド結成20周年を迎えるリアクション ザ ブッタが月の光のように人々を照らす、そんな1枚に仕上がっている。 収録楽曲のうち、ライブでは“殉愛”をパフォーマンスしているが、10月10日(土)に出演する〈SUPER ROCK CITY HIROSHIMA 2026DX〉にて、“Like T…"
+      "translatedTitle": "Reaction The Buddha, details of new EP “The Moon” released",
+      "translatedExcerpt": "Reaction The Buddha has released details of their new 6-song EP ``The Moon'', which will be released on Wednesday, October 28, 2026. Contains a total of 6 songs, including the pre-released song \"Martial Love\", which has a light sound and a unique heavy romantic lyric, as well as self-produced songs such as \"Like The Moon\" and \"Autumn Leaves Sunset\", as well as \"Unique Story\", \"Midday Dream\", and \"Sugoroku\", each with their own arranger. Reaction The Buddha, who will celebrate their 20th anniversary as a band in 2027, is a record that will illuminate people like the light of the moon. Of the songs on the album, he performs “Like T…"
     },
     {
       "id": "595da6e9a8479d20",
@@ -1097,8 +750,8 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Rain Tree Releases First All 16 Music Video for \"Typhoon Night\"",
-      "translatedExcerpt": "Rain Treeが、グループ結成記念日の本日に「台風の夜」のMVを公開した。 2026年8月12日にリリースされた5thデジタルシングル「好きなんて嘘に決まってる」収録の「台風の夜」は、7月4日にダイバーシティ東京にて行われた＜Rain Tree初夏のフリーライブ～君の居場所はここにある～＞最終公演にて、目標としていた観客動員2,500人を達成したことによって制作された初の全員曲。今回のMVは福島県川俣町とタイアップで制作され、16人の絆を描いた感動的な作品に仕上がっているという。 里山のノスタルジックな街並みの中、校舎の屋上、公園のブランコ、バス停の前、路地裏の道など、それぞれの場所でメンバーが空を見上げ嵐の気配を感じている。学校の体育館で円になって踊る制服姿の16人。屋上に舞う白い羽、窓をたたく雨の…"
+      "translatedTitle": "Rain Tree releases MV for ``Typhoon Night'' with all 16 members for the first time",
+      "translatedExcerpt": "Rain Tree released the music video for \"Typhoon Yoru\" on today, the anniversary of the group's formation. \"Typhoon Yoru\", which is included in the 5th digital single \"Suki tte na Uso ni Deititeru\" released on August 12, 2026, is the first all-member song produced after reaching the audience goal of 2,500 people at the final performance of \"Rain Tree Early Summer Free Live - Your Place Is Here\" held at Diver City Tokyo on July 4. This music video was produced in collaboration with Kawamata Town, Fukushima Prefecture, and is said to be a moving work depicting the bonds between 16 people. In the nostalgic townscape of Satoyama, on the roof of a school building, on a swing in a park, in front of a bus stop, on a back alley, the members look up at the sky and feel the signs of a storm. 16 people in uniforms dance in a circle in the school gymnasium. White feathers dancing on the rooftop, rain beating on the window..."
     },
     {
       "id": "f81449ab6658944d",
@@ -1116,8 +769,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Rain Tree releases first-ever music video for \"Typhoon Night\"",
-      "translatedExcerpt": "Rain Treeが2026年8月12日(水)にリリースしたニューEP『好きなんて嘘に決まってる』より、収録曲“台風の夜”のミュージックビデオを公開した。 本作は、7月4日(土)にダイバーシティ東京にて行われた〈Rain Tree初夏のフリーライブ～君の居場所はここにある～〉最終公演にて目標としていた観客動員2,500人を達成したことによって制作されたRain Tree初の全員曲。今回のミュージックビデオは福島県川俣町とタイアップで制作され、16人の絆を描いた感動的な作品に仕上がっている。 福島県川俣町のどこか懐かしい風景で描かれるRain Treeの強い絆。心震わせるミュージックビデオがここに完成した。 監督は、これまでRain Treeの成長を見届けてきた島田大介が担当。現時点のRain Treeの集…"
+      "translatedTitle": "Rain Tree releases their first MV for “Typhoon Night”",
+      "translatedExcerpt": "Rain Tree has released the music video for the song \"Typhoon Yoru\" from their new EP \"Suki datta Lie Ni Teiteru\" released on August 12, 2026 (Wednesday). This work is Rain Tree's first all-member song, created after reaching the audience goal of 2,500 people at the final performance of Rain Tree's early summer free live ~Your place is here~ held at DiverCity Tokyo on Saturday, July 4th. This music video was produced in collaboration with Kawamata Town, Fukushima Prefecture, and is a moving work depicting the bonds between 16 people. The strong bonds of Rain Tree are depicted in the nostalgic scenery of Kawamata Town, Fukushima Prefecture. A music video that will make your heart flutter has been completed. The director is Daisuke Shimada, who has overseen the growth of Rain Tree. The current collection of Rain Tree..."
     },
     {
       "id": "58050af65fdf52c3",
@@ -1135,8 +788,8 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "shimm announces new song \"Kimiiro Hilari\" for TV anime \"Drawing Ueha\" op theme",
-      "translatedExcerpt": "shallmが、2027年1月期放送のTVアニメ『描くなるうえは』オープニングテーマに、新曲「キミイロヒラリ」が決定したことを発表した。 本楽曲については、本日行われた＜shallm EP TOUR “ANTI AFTER SCHOOL”＞初日の東京・Zepp Shinjuku公演でサプライズ発表され、楽曲の先行披露で会場を大いに沸かせたとのこと。 TVアニメ『描くなるうえは』は、原作･高畑弓、作画･蒲夕二による、ヤングアニマル・ヤングアニマルWebにて連載中のラブコメディ。元気あふれるギャルなヒロイン・ニーナと、共に漫画家を目指す主人公・勇紀のふたりが織りなす、甘酸っぱくも熱い青春模様が描かれる。 ◆ ◆ ◆ ◾️lia（shallm）コメント◇新曲「キミイロヒラリ」について「キミイロヒラリ」は、sha…"
+      "translatedTitle": "shallm's new song \"Kimiirohirari\" will be used as the opening theme for the TV anime \"Ura Naruueha\"",
+      "translatedExcerpt": "shallm has announced that their new song ``Kimiirohirari'' has been selected as the opening theme for the TV anime ``Ura Naru Ueha'' to be broadcast in January 2027. This song was surprisingly announced at the Zepp Shinjuku performance in Tokyo on the first day of the <shallm EP TOUR “ANTI AFTER SCHOOL”> held today, and the advance performance of the song excited the audience. The TV anime ``Drawing Naruueha'' is a love comedy currently being serialized on Young Animal and Young Animal Web, written by Yumi Takahata and illustrated by Yuji Kaba. The story depicts the sweet and sour yet passionate story of youth between the energetic heroine, Nina, and the main character, Yuki, who both aim to become manga artists. ◆ ◆ ◆ ◾️lia (shallm) comment ◇ About the new song “Kimiirohirari” “Kimiirohirari” is sha…"
     },
     {
       "id": "a90f8bf8e6121624",
@@ -1154,8 +807,8 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "w.o.d., AL \"Furu\" Jake writing release & \"Feelin '\" pre-release decision",
-      "translatedExcerpt": "w.o.d.が、2026年11月18日にリリースするアルバム『ふれる』のジャケット写真を公開した。 メジャー移籍後2枚目となる本作は、通常盤初回仕様・完全生産限定盤の2形態で発売となり、CD2枚組でリリースされる。完全生産限定盤には、2025年3月16日に開催した＜I SEE LOVE Tour at Toyosu PIT＞と、2025年8月23日に開催した＜LOVE BUZZ Tour at Zepp Shinjuku＞の2公演を完全収録。「TOKYO CALLING」「RISE」をはじめとするMV集と、2025年から2026年にかけてw.o.d.の制作裏側やオフショットをまとめたドキュメント映像を収録したBlu-rayや、16面ポスターなどが付属したボックス仕様となる。 さらに、『ふれる』のアナログ盤…"
+      "translatedTitle": "w.o.d., AL “Fure” cover photo released & “Feelin’” advance distribution decided",
+      "translatedExcerpt": "w.o.d. has released the jacket photo of the album “Fure” to be released on November 18, 2026. This is the band's second release since moving to a major label, and will be released in two formats: a regular edition and a limited production edition, and will be released as a 2-CD set. The limited production edition includes the complete recording of the two performances: <I SEE LOVE Tour at Toyosu PIT> held on March 16, 2025, and <LOVE BUZZ Tour at Zepp Shinjuku> held on August 23, 2025. The box version comes with a collection of MVs including \"TOKYO CALLING\" and \"RISE,\" a Blu-ray containing document footage of behind-the-scenes production and off-shots of w.o.d. from 2025 to 2026, and a 16-page poster. Furthermore, the analog version of “Fure”…"
     },
     {
       "id": "78e84a09d8bd3cee",
@@ -1224,8 +877,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Pearl Brothers Announces 40th Anniversary Live Archival Delivery, Tomeihan Quattro Tour",
-      "translatedExcerpt": "パール兄弟が2026年10⽉3⽇ LINE CUBE SHIBUYAにて開催したデビュー40周年記念ライブ〈パール兄弟40 周年 未来はパール2026〉の模様が「Streaming＋」にてアーカイブ配信されることが決定した。 パール兄弟のMV作品を数多く⼿がけたヴィジュアリスト・⼿塚眞が舞台総覧をつとめたステージには、パフォーマー集団・リーマンズ（ラッキィ池⽥、かとうけんそう、中嶋勇⼆、齋藤真紀、林茂助、朝⽇太⼀）、「鉄カブトの⼥」「快楽の季節」などのMVにも出演した振付師の⾹瑠⿎など懐かしい⾯々が集結。⽇本が戦後から復興し未来へと⾄る道筋とパール兄弟の歩みがクロスオーバーする壮⼤なロックオペラを展開。 冒頭からボーカルのサエキけんぞうが、トーキング・ヘッズ『ストップ・メイキング・センス』のビッグスーツに…"
+      "translatedTitle": "Pearl Brothers, ``40th Anniversary Live'' archive distribution decided; Tokyo, Meihan, and Quattro Tours also held",
+      "translatedExcerpt": "It has been decided that the 40th anniversary live performance held by Pearl Brothers at LINE CUBE SHIBUYA on October 3, 2026 (Pearl Brothers 40th Anniversary Future is Pearl 2026) will be archived on ``Streaming+''. Visualist Makoto Tezuka, who has worked on many of the Pearl Brothers' music videos, was on stage, and the performer group Lehmans (Lucky Ikeda, Kato) appeared on stage. Nostalgic faces such as Kensou, Yuji Nakajima, Maki Saito, Shigesuke Hayashi, Taichi Asahi), and choreographer Kan Rui, who has appeared in music videos such as ``Tetsu Kabuto no Onna'' and ``Kairaku no Kiseki'', are gathered together. A spectacular rock opera that crosses Japan's post-war recovery and path to the future with the Pearl brothers' path. From the beginning, vocalist Kenzo Saeki wears the big suit of Talking Heads' ``Stop Making Sense''..."
     },
     {
       "id": "e0152f58aaece9c9",
@@ -1243,8 +896,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Paul McCartney Launches SP Edition of Latest AL",
-      "translatedExcerpt": "ポール・マッカートニーが2026年5月にリリースした最新アルバム『ダンジョン・レインの少年たち』（原題：The Boys of Dungeon Lane）のスペシャル・エディションがデジタル配信された。 12月9日に2LPとCDがリリースされる。 『ダンジョン・レインの少年たち（スペシャル・エディション）』にはリンゴ・スターとの話題のデュエット曲「ホーム・トゥ・アス」の新ヴァージョンと3曲の完全な新曲の合計4曲のボーナス・トラックを収録。 「ホーム・トゥ・アス」の新ヴァージョン（フリップ・ミックス）では、オリジナル・ヴァージョンで2人が歌っていたパートを互いに入れ替えている。 リリース情報 https://ototoy.jp/_/default/p/4279329 アーティスト情報 https://www…"
+      "translatedTitle": "Paul McCartney starts pre-distribution of SP version of latest AL",
+      "translatedExcerpt": "A special edition of Paul McCartney's latest album, ``The Boys of Dungeon Lane,'' released in May 2026, has been digitally distributed. 2LP and CD will be released on December 9th. \"The Boys of Dungeon Rain (Special Edition)\" includes a new version of the much-talked-about duet with Ringo Starr, \"Home to Us,\" and three completely new songs, for a total of four bonus tracks. The new version (flip mix) of \"Home to Us\" swaps the parts sung by the two in the original version. Release information https://ototoy.jp/_/default/p/4279329 Artist information https://www…"
     },
     {
       "id": "38f34358f4b67fa3",
@@ -1262,8 +915,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Bizarre Radio Club pre. invites Labäda Bu from South Korea to hold",
-      "translatedExcerpt": "VJ/オーガナイザーとして活動する奇怪電波俱楽部によるパーティ〈憑依〉が11月2日から3日にかけて幡ヶ谷・forestlimitにて開催される。 フライヤーイラストはcircle jerk*としても活動するamraが手掛けた。 11月2日のデイタイムから11月3日の明け方まで約11時間のロングパーティとなり、霊山へ集うように各地から様々なアーティストが集結し、デイとナイトの境目がなくなるように時間構成されている。 本パーティには、韓国よりLabäda Buが初来日しライブパフォーマンスを行う。ビートメイカーのKigrainとモデルとしても活動するボーカルのPeiによるデュオLabäda Buは、本年9月にR&Bを中心に渋谷系や様々なジャンルの要素を取り入れたデビューEP「Labäda Bu」をリリースして…"
+      "translatedTitle": "Kikai Denpa Hakubu pre.〈Possessed〉 will be held with Labäda Bu invited from Korea",
+      "translatedExcerpt": "A party called \"Possession\" by Kikai Denpa Gakubu, who act as VJ/organizers, will be held at Forestlimit in Hatagaya from November 2nd to 3rd. The flyer illustration was created by amra, who also works as circle jerk*. It will be a long party lasting approximately 11 hours from daytime on November 2nd until dawn on November 3rd, with various artists from all over the world gathering as if they were gathering at a sacred mountain, and the time is structured so that there is no boundary between day and night. At this party, Labäda Bu from Korea will come to Japan for the first time and perform live. Labäda Bu, a duo consisting of beat maker Kigrain and vocalist Pei who also works as a model, released their debut EP ``Labäda Bu'' in September of this year, which incorporates elements of Shibuya-kei and various genres with a focus on R&B."
     },
     {
       "id": "6b93e4824af68a77",
@@ -1281,8 +934,8 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Minoru Suzuki decided to hold a street concert with two people. On that day, \"I can book something\"",
-      "translatedExcerpt": "鈴木実貴子ズが、11月6日(金)に東京・渋谷区北谷公園にて路上ライブ＜鈴木実貴子ズが路上ライブします！＞を開催する。 これまで鈴木実貴子ズは全国47都道府県を訪れ、各地で路上ライブを行う企画“いばらのみち”を開催し、鈴木実貴子が弾き語りライブ、ズがチラシ配りおよび鈴木実貴子のサポートを行ってきた。今回はそれらのシリーズとは一線を画して開催される、念願の鈴木実貴子ズ2人での路上ライブ。 あわせて解禁されたライブフライヤーでは「チョット発表あり。なんかの予約できます(要現金)」と記載があり、何かしらの発表がある模様。当日、なんかの予約をしたい人はぜひ現地に集合してほしい。 また、8月にリリースされた新曲「へいべべ」のライブ映像もYouTubeにて公開。満員御礼で5月25日(月)に東京・渋谷CLUB QUATT…"
+      "translatedTitle": "Mikiko Suzuki's will hold a live performance on the street. “You can make reservations for something” on the day of the event.",
+      "translatedExcerpt": "Mikiko Suzuki's will be performing on the street at Chatan Park, Shibuya-ku, Tokyo on Friday, November 6th <Mikiko Suzuki's will be performing on the street! > will be held. So far, Mikiko Suzuki's has visited 47 prefectures nationwide and held a project called \"Ibara no Michi\" where they perform street live performances in various places.Mikiko Suzuki plays and sings live, and the group distributes flyers and supports Mikiko Suzuki. This time, the long-awaited live performance on the street by the two Mikiko Suzuki members will be held in a clear departure from those series. At the same time, the live flyer that was released says, ``There will be a few announcements. You can make reservations for something (cash required)'', and it seems that there will be some kind of announcement. If you would like to make a reservation on the day of the event, please come to the venue. In addition, a live video of the new song \"Heibebe\" released in August is also available on YouTube. Shibuya CLUB QUATT in Tokyo on May 25th (Monday) to a full house..."
     },
     {
       "id": "d88ac07a46ab550e",
@@ -1351,8 +1004,8 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "FOMARE Announces Talk Video for Deeper Enjoyment of the History and Day of the FOMARE Continent Festival",
-      "translatedExcerpt": "群馬県高崎発日本語ロックバンドのFOMAREが10月12日、Gメッセ群馬にて自身主催フェス＜FOMARE大陸＞を開催する。同イベントへ向けて、その歴史から2026年開催に込めた想いまでを語る動画がJMSオフィシャルYouTubeチャンネルに公開となった。 動画では、“SUN STAGE”と“BURST STAGE”といった2ステージ制で開催されるイベントをより深く楽しむための見どころも語られる。各ステージの特徴はもとより、出演アーティストとの関係性、これまでの＜FOMARE大陸＞やバンド活動にまつわるエピソードも明かされる。 ■FOMARE主催フェス＜FOMARE大陸＞10月12日(月/祝) 群馬・高崎 Gメッセ群馬 展⽰ホールA/B/Copen11:30 / start12:30※リストバンド交換 9:…"
+      "translatedTitle": "FOMARE releases a talk video to help you enjoy the history of the sponsored festival <FOMARE Continent> and the day of the event more deeply",
+      "translatedExcerpt": "FOMARE, a Japanese rock band from Takasaki, Gunma Prefecture, will hold their own festival ``FOMARE Continent'' at G Messe Gunma on October 12th. In preparation for the event, a video has been released on the JMS official YouTube channel that talks about its history and the thoughts behind holding it in 2026. The video also talks about highlights that will help you enjoy the two-stage event called \"SUN STAGE\" and \"BURST STAGE\" more deeply. In addition to the characteristics of each stage, the relationship with the performing artists and episodes related to ``FOMARE Continent'' and the band's activities to date will also be revealed. ■FOMARE Sponsored Festival <FOMARE Continent> October 12th (Monday/Holiday) Gunma/Takasaki G Messe Gunma Exhibition Hall A/B/Copen11:30 / start12:30 *Wristband exchange 9:30…"
     },
     {
       "id": "301a951c48dad60d",
@@ -1370,8 +1023,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Grape Kiki, 1st AL “Grape Grape” Release",
-      "translatedExcerpt": "2025年より活動を本格始動し、リリースやライブ活動を重ねてきたGrape Kikiが、1stフルアルバム『葡萄のグレープ』をリリースした。 全楽曲を宅録で制作しながらも、ライブハウスという現場へ音楽をつなげていくことを意識して作られた本作には、Grape Kiki自身が影響を受けてきたUKロックサウンドのエッセンスを随所に取り入れながら、自らの感性へと昇華した楽曲が並ぶ。そして、収録楽曲の中でも、印象的なギターリフが楽曲を牽引するロックナンバーでありながら、ピアノやストリングスを取り入れた華やかでドレッシーなサウンドが特徴的な一曲「パーティーに誘うには」のMusic Videoも公開された。 “ 誰にも理解されないけれど、自分だけは自分を理解している” ——そんな孤独を楽しみながら生きる人にこそ届いてほ…"
+      "translatedTitle": "Grape Kiki releases 1st AL “Grape no Grape”",
+      "translatedExcerpt": "Grape Kiki, who started full-fledged activities in 2025 and has continued to perform releases and live performances, has released their 1st full album \"Grape no Grape\". Although all the songs were recorded at home, this album was made with the intention of connecting the music to the venue of a live house, and while incorporating the essence of the UK rock sound that Grape Kiki himself has been influenced by, there are songs that have been sublimated to his own sensibilities. Among the songs on the album, the music video for ``To Invite You to a Party,'' which is a rock number with an impressive guitar riff and a gorgeous, dressy sound that incorporates piano and strings, has also been released. “No one understands me, but I am the only one who understands me.” - I hope this song will reach those who live their lives while enjoying such solitude..."
     },
     {
       "id": "cb112e94cbdafb8f",
@@ -1406,8 +1059,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Elton John Announces Rock of the Westies 50th Anniversary Edition Release",
-      "translatedExcerpt": "エルトン・ジョンが11月20日にスタジオ10作目『ロック・オブ・ジ・ウェスティーズ』の50周年記念エディションをリリースすることが決定。 収録曲「ストリート・キッズ」のピアノ＆ヴォーカル・ヴァージョンが先行リリースされた。 リリース形態は2LP、2CD、1LP、デジタル配信の4タイプ。 2枚組にはこのアルバムのレコーディング・セッションで録音された未発表のピアノ＆ヴォーカル・ヴァージョンが収録される。 リリース情報 「Street Kids (Piano / Vocal Version)」 https://ototoy.jp/_/default/p/4279306 アーティスト情報 https://www.eltonjohn.com/ https://www.universal-music.co.jp/e…"
+      "translatedTitle": "Elton John releases 50th anniversary edition of Rock of the Westies",
+      "translatedExcerpt": "Elton John will release the 50th anniversary edition of his 10th studio album, Rock of the Westies, on November 20th. The piano and vocal version of the song \"Street Kids\" was released in advance. There are four release formats: 2LP, 2CD, 1LP, and digital distribution. The two-disc set includes unreleased piano and vocal versions recorded during the album's recording sessions. Release information “Street Kids (Piano / Vocal Version)” https://ototoy.jp/_/default/p/4279306 Artist information https://www.eltonjohn.com/ https://www.universal-music.co.jp/e…"
     },
     {
       "id": "727f8a4ac226a186",
@@ -1425,8 +1078,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Yotsudomenody, 2nd EP \"morph of spore\" Release Decision",
-      "translatedExcerpt": "ヨツドメノディが2nd EP『morph of spore』を2026年11月4日にリリースすることを発表した。 ヨツドメノディは、京都を中心に活動中のロックバンド。大学時代のサークルを通じて結成した。 シューゲイザー・オルタナティブロック・ポストロックなどに影響されたサウンドにVo.星来の繊細で力強い、澄んだアルトボイス‭が融合する静と轟のコントラストが印象的なヨツドメノディ。インディー・シーンで注目を集めるバンドの新譜に期待が高まる。 リリース情報 ▼ OTOTOY配信ページ https://ototoy.jp/_/default/a/1101307 リリース情報 ▼ OTOTOY配信ページ https://ototoy.jp/_/default/a/1101307 アーティスト情報 https://…"
+      "translatedTitle": "Yotsdomenody to release 2nd EP “morph of spore”",
+      "translatedExcerpt": "Yotsudomenodi has announced that their 2nd EP ``morph of spore'' will be released on November 4, 2026. Yotsudo Menody is a rock band active mainly in Kyoto. It was formed through a club during university. Yotsudomenody is a song influenced by shoegaze, alternative rock, post-rock, etc., combined with vocalist Seira's delicate, powerful, and clear alto voice, creating an impressive contrast between stillness and roar. Expectations are high for the band's new album, which is attracting attention in the indie scene. Release information ▼ OTOTOY distribution page https://ototoy.jp/_/default/a/1101307 Release information ▼ OTOTOY distribution page https://ototoy.jp/_/default/a/1101307 Artist information https://…"
     },
     {
       "id": "5ee26d2d9d0c09cf",
@@ -1444,8 +1097,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Borofesta 2026] TT presentation Tori is toe, Otobokubi ~ Ba ~, and the final big Tori is Hambredders",
-      "translatedExcerpt": "11月に開催される〈ボロフェスタ2026〉のタイムテーブルが発表された。 今年のボロフェスタは4日間5公演の開催となり、京都KBSホールでは10月31日(土)、11月1日(日)、11月3日(火・祝)に昼の部公演、11月2日(月)には同会場での初となるオールナイトイベントを開催。10月31日(土)京都Club METROでもオールナイトイベントを開催。総勢106組のアーティストとPARTY NAVIGATERが出演、さらに6店舗の飲食店が出店する。 京都KBSホールでは『BIG RIGHT STAGE』、『BIG LEFT STAGE』、『街の底 STAGE』、『どすこい STAGE』の4ステージ。また11月2日のオールナイトイベントではKBSホール内と街の底ステージ内にそれぞれ2つのステージが登場し、ノン…"
+      "translatedTitle": "<Boro Festa 2026> TT announcement The birds are toe, Otoboke Beaver, and the big bird on the last day is Humblebreders",
+      "translatedExcerpt": "The timetable for Boro Festa 2026, which will be held in November, has been announced. This year's Boro Festa will be held for 5 performances over 4 days, with daytime performances held at Kyoto KBS Hall on October 31st (Saturday), November 1st (Sunday), and November 3rd (Tuesday/holiday), and the first all-night event at the same venue will be held on November 2nd (Monday). An all-night event will be held at Kyoto Club METRO on Saturday, October 31st. A total of 106 artists and PARTY NAVIGATER will perform, and 6 restaurants will also open. Kyoto KBS Hall has 4 stages: ``BIG RIGHT STAGE'', ``BIG LEFT STAGE'', ``City Bottom STAGE'', and ``Dosukoi STAGE''. In addition, in the all-night event on November 2nd, two stages will appear inside KBS Hall and the bottom stage of the city, and non-…"
     },
     {
       "id": "ecbd25c0280507a6",
@@ -1463,8 +1116,8 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "[Interview] Kein, the first album \"Iustitia sine misericordia\" released in three years, \"How can we express ourselves if we do these things now?\"",
-      "translatedExcerpt": "Keinが10月7日にニューアルバム『Iustitia sine misericordia』（読み：ユスティツィア・シーネ・ミゼリコルディア）をリリースした。 ◆撮り下ろし写真 前作『破戒と想像』から３年ぶりにして、メジャー初のフルアルバムとなる本作。ダークさからシニカルさ、はたまた歌唱表現や演奏のテクニカルさなど、keinのもつ魅力を堪能できる作品となった。収録されている楽曲をひとつひとつ、メンバーの言葉とともに紐解いていこう。 ◆ ◆ ◆ ──フルアルバム『Iustitia sine misericordia』が完成しましたね。今作はここまでコツコツと制作を重ねてきたものになるのでしょうか。それとも、近々になって一気に作りあげられたのでしょうか。まずはその成り立ちについてお聞かせください。 aie（G…"
+      "translatedTitle": "[Interview] Kein releases his first album in 3 years, “Iustitia sine misericordia” “How can we express ourselves if we do something like this now?”",
+      "translatedExcerpt": "Kein released his new album ``Iustitia sine misericordia'' on October 7th. ◆New photos This is his first major full-length album, three years after his previous album ``Hakai to Imagination''. This work allows you to fully enjoy Kein's charms, from darkness to cynicism, as well as the technicality of his vocal expressions and performance. Let's unravel each of the recorded songs one by one along with the words of the members. ◆ ◆ ◆ ─ Your full album “Iustitia sine misericordia” has been completed. Is this work something you've been working hard on for so long? Or was it recently created all at once? First of all, please tell us about its origins. aie(G…"
     },
     {
       "id": "f833001c098bf2b3",
@@ -1482,8 +1135,8 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "[Live Report] Breakerz completes rerun tour [Returnz -Go-] \"With this album 15 years ago, we also turned to the front\"",
-      "translatedExcerpt": "20周年イヤーの対バンシリーズなど新たなニュースが続々発表されているBREAKERZが、9月23日(水祝)に全国ツアー＜BREAKERZ LIVE TOUR 2026 RETURNZ -GO-＞のファイナル公演を東京・渋谷 Spotify O-WESTで開催した。 追加公演を含め全国7ヵ所を廻った本ツアーは2011年にリリースされた5thアルバム『GO』を軸にした再演シリーズとなるものだ。ミニアルバム『アオノミライ』と3rdアルバム『BIG BANG!』収録楽曲をフィーチャーした2025年のツアー＜RETURNZ -アオノミライ×BIG BANG!-＞が話題を呼んだことも記憶に新しい。 東日本大震災が起きた2011年、“自分たちの音楽で少しでも元気になれる人がいるなら”という想いで制作したアルバムが『GO…"
+      "translatedTitle": "[Live Report] BREAKERZ completes repeat tour <RETURNZ -GO-> “With this album from 15 years ago, we also looked forward”",
+      "translatedExcerpt": "BREAKERZ, who are constantly announcing new news such as their 20th anniversary year band series, held the final performance of their nationwide tour <BREAKERZ LIVE TOUR 2026 RETURNZ -GO-> on September 23rd (Wednesday) at Spotify O-WEST in Shibuya, Tokyo. This tour, which visited 7 locations across the country including additional performances, is a re-performance series centered on their 5th album \"GO\" released in 2011. It is still fresh in our minds that the 2025 tour <RETURNZ -Aonomirai x BIG BANG!->, which featured songs from the mini-album ``Aonomirai'' and 3rd album ``BIG BANG!'', attracted attention. In 2011, when the Great East Japan Earthquake occurred, the album \"GO..."
     },
     {
       "id": "2b89787f9991017e",
@@ -1501,8 +1154,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Loloet releases \"Hakama\" with a message to the troubled world on a 12-inch record",
-      "translatedExcerpt": "LOLOETが、2026年11月25日に環境音 / TUFF BEATSよりアナログ12inchレコード「HAKAMA」をリリースする。 「HAKAMA」は、戦時中の「はかま」の歴史を引用しつつ、混迷する世界に向けて反戦、反差別のメッセージを込めたVo.和田彩花の言葉と、うねるアンビエント・ダブサウンドが鮮烈な10分のロングナンバー。 環境音とピアノ、フランス語の朗読で始まる静謐な前半のアンビエント部から、連続的に接続される後半の緊張感あるバンドのミニマルなビートまで、没入していると10分という時間を感じさせない。現代社会をオルタナティヴな視線で見つめ、葛藤と矛盾をも音楽として表現するLOLOETの深化を表す1曲。B面収録の「Shiba」は、和田によるギターと声、hamachiのドラムによる演奏を、オーバ…"
+      "translatedTitle": "LOLOET releases “HAKAMA” as a 12-inch record with a message to the world in turmoil",
+      "translatedExcerpt": "LOLOET will release an analog 12inch record \"HAKAMA\" from Environmental Sound / TUFF BEATS on November 25, 2026. ``HAKAMA'' is a 10-minute long number that quotes the history of ``Hakama'' during wartime and contains the words of vocalist Ayaka Wada, which contains an anti-war and anti-discrimination message to a world in turmoil, and a vibrant ambient dub sound. From the quiet ambient part in the first half, which starts with environmental sounds, piano, and French recitation, to the minimalist beat of the band in the second half, which is connected continuously, it doesn't feel like 10 minutes is long when you're immersed in it. This song represents the deepening of LOLOET, which looks at modern society from an alternative perspective and expresses conflicts and contradictions through music. \"Shiba\" recorded on the B side features Wada's guitar and voice, and hamachi's drum performance, over..."
     },
     {
       "id": "3101d8c977fa6624",
@@ -1520,8 +1173,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Myuk to release new song “Tomorrow Comes” on 10/14",
-      "translatedExcerpt": "Myukが2026年10月14日(水)にニューシングル「明日が来る」をリリースすることが決定した。 本作は、今年7月故郷・熊本県八代市を襲った震災に向き合い、「自分に何ができるのか」を問い続け制作された1曲。静かな祈りのように始まり、サビで優しく確かに問いかけリフレインされる「明日が来る」という言葉は、暗闇の夜空にそっと灯る一筋の光のように、傷ついた心へ深く滲み込んでいく。 過度に煽ることのないバラードだからこそ、聴く者の心を強く揺さぶり、失われかけた希望と未来を鮮やかに描き出していく。なお、本楽曲の配信売上の収支の一部は、八代市へ寄付される。 リリース情報 https://ototoy.jp/_/default/a/854573 ライブ情報 https://l-tike.com/myuk/ https:…"
+      "translatedTitle": "Myuk will release new song “Tomorrow Comes” on October 14th",
+      "translatedExcerpt": "It has been decided that Myuk will release his new single \"Ashi ga Kuru\" on October 14, 2026 (Wednesday). This song was created in response to the earthquake that hit his hometown, Yatsushiro City, Kumamoto Prefecture, in July of this year, and continued to ask, ``What can I do?'' The song begins like a quiet prayer, and in the chorus, the song gently asks and refrains, \"Tomorrow will come,\" and like a ray of light shining softly in the dark night sky, it sinks deep into a wounded heart. Because it is a ballad that is not overly exciting, it strongly moves the listener's heart and vividly depicts hope and the future that are about to be lost. A portion of the proceeds from the distribution sales of this song will be donated to Yatsushiro City. Release information https://ototoy.jp/_/default/a/854573 Live information https://l-tike.com/myuk/ https:…"
     },
     {
       "id": "41cde2672e4cb54d",
@@ -1539,8 +1192,8 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Myuk has decided to release a new song, \"Tomorrow Comes\", to his hometown of Kumamoto. A portion of the sales will be donated to Yatsushiro City",
-      "translatedExcerpt": "Myukが、新曲「明日が来る」を2026年10月14日に配信リリースすることを発表した。 今作は、7月に故郷である熊本県八代市を襲った震災に向き合い、“自分に何ができるのか”を問い続け制作されたという。静かな祈りのように始まり、サビで優しく、けれど確かに問いかけリフレインする〈明日が来る〉という言葉が、暗闇の夜空にそっと灯る一筋の光のように、傷ついた心へ深く滲み込んでいく。失われかけた希望と未来を鮮やかに描き出すようなバラード曲に仕上がったとのことだ。 なお、本楽曲の配信売上の収支の一部は、八代市へ寄付される。 ◾️「明日が来る」2026年10月14日（水）リリース配信：https://nex-tone.link/A00229467 ▼Credit作詞：Myuk作曲：Myuk編曲：大久保 友裕 ◾️＜My…"
+      "translatedTitle": "Myuk has decided to release his new song \"Tomorrow Comes\" for his hometown Kumamoto. A portion of the sales will be donated to Yatsushiro City.",
+      "translatedExcerpt": "Myuk has announced that his new song \"Tomorrow Comes\" will be released on October 14, 2026. This work was created in response to the earthquake that hit his hometown, Yatsushiro City, Kumamoto Prefecture, in July, and asked himself, ``What can I do?'' It begins like a quiet prayer, and the chorus gently but surely asks and refrains, ``Tomorrow will come,'' and like a ray of light shining softly in the dark night sky, it sinks deep into a wounded heart. The song is said to be a ballad that vividly depicts hope and the future that are about to be lost. A portion of the proceeds from the distribution sales of this song will be donated to Yatsushiro City. ◾️ “Tomorrow will come” Wednesday, October 14, 2026 Release distribution: https://nex-tone.link/A00229467 ▼Credit Lyrics: Myuk Composition: Myuk Arrangement: Tomohiro Okubo ◾️＜My…"
     },
     {
       "id": "abfc7c27a010b951",
@@ -1558,8 +1211,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Q.I.S. releases new song “BIGAKU” on 10/14",
-      "translatedExcerpt": "Q.I.S.が2026年10月14日(水)にニューシングル「BIGAKU」をリリースすることが決定した。 Q.I.S.として活動する北澤ゆうほが、自分自身の価値を誰にも決めさせないという強気で痛快なメッセージを掲げた本作。過去も現在も全てひっくるめて自分を肯定していくという、自身の決意を歌ったアンセムとなっている。 サウンドは、昨年9月にリリースされた「Queendom(+s)」に引き続きknoakとの再びのコラボが実現。ポップなサウンドと徐々にビルドアップしていくグルーヴは、サビの「これが私の美学」というフレーズを力強く印象づける。 また、Q.I.S.は11月から東名阪ワンマンツアー〈Queens In the Shell〉と題して大阪・バナナホール、名古屋・シャングリラと周り、東京・キネマ倶楽部をファ…"
+      "translatedTitle": "Q.I.S. will release new song “BIGAKU” on October 14th",
+      "translatedExcerpt": "It has been decided that Q.I.S. will release their new single “BIGAKU” on Wednesday, October 14, 2026. In this work, Yuho Kitazawa, who is active as Q.I.S., has a strong and poignant message about not letting anyone decide your worth. It is an anthem that sings of his determination to affirm himself by incorporating both past and present. The sound is another collaboration with knoak following the release of \"Queendom(+s)\" in September last year. The pop sound and gradual build-up of the groove make the phrase \"This is my aesthetic\" in the chorus a powerful impression. In addition, Q.I.S. will be on a one-man tour of Tokyo, Nagoya, and Osaka starting in November titled “Queens In the Shell”, going to Banana Hall in Osaka, Shangri-La in Nagoya, and Cinema Club in Tokyo."
     },
     {
       "id": "2ae4bc0da7624b27",
@@ -1577,8 +1230,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Multidimensional singer · 310, unveiled in a new photo",
-      "translatedExcerpt": "多次元シンガー・310（読み：サトウ）が、新アーティストビジュアルを公開した。 これまでインターネットを中心に活動してきた310が、自身の素顔を公開するのは今回が初となる。 310は、2026年10月より放送開始となるTVアニメ『信者ゼロの女神サマと始める異世界攻略』のオープニングテーマを担当。アニメ放送開始を目前に控えた10月11日（日）0:00より、オープニングテーマとなる新曲「未来の足跡」の配信をスタートする。 今回公開されたアーティストビジュアルは、夜の公園を舞台に、310の持つ自由で飾らない魅力を表現。ストリート感のあるスタイリングと遊び心のあるロケーションの中で、自然体でありながら、どこかミステリアスな表情が印象的な一枚に仕上がっており、これまで歌声を中心に自身の表現を届けてきた310の新たな…"
+      "translatedTitle": "Multidimensional singer 310 reveals his true face for the first time in new archival photo",
+      "translatedExcerpt": "Multidimensional singer 310 (pronounced: Sato) has released a new artist visual. This is the first time that 310, who has been active mainly on the Internet, will reveal his true face to the public. 310 will be in charge of the opening theme for the TV anime ``Zero Believers Goddess Sama to Start Conquering Another World'' which will begin broadcasting in October 2026. The new opening theme song \"Mirai no Itoki\" will be distributed from 0:00 on October 11th (Sunday), just before the anime broadcast begins. The artist visual released this time is set in a park at night and expresses the free and unpretentious charm of the 310. With its street-like styling and playful location, the album has a natural yet somewhat mysterious look that leaves an impression.This is a new album from 310, who has been expressing himself mainly through his singing voice."
     },
     {
       "id": "102167648fa1fff9",
@@ -1630,8 +1283,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "The Luv bugs × NeuroHack with Bouro will be held",
-      "translatedExcerpt": "次世代の音楽シーンを担う”BUGった”アーティスト達と、その音楽を愛する”BUGった”オーディエンス達が共創するクリエイティブテックレーベル「THE LUV BUGS」。その主催イベントの第五段となる〈THE LUV BUGS × NeuroHack with BOURO〉が2026年11月28日（土）に渋谷WOMBのデイタイムにて開催が決定した。 まだスポットライトの当たっていないアーティストを発掘し、ジャンルやシーンの垣根を超えた出会いを生み出すプロジェクト「NeuroHack」、そして若手から注目株までが同じステージに立ち、東京を中心に展開するHIPHOPイベントプロジェクト「BOURO」をパートナーに迎え、”新たなアーティストにスポットを当てる”という共通の志を持つ3プロジェクトがジャンルを超越し…"
+      "translatedTitle": "〈THE LUV BUGS × NeuroHack with BOURO〉 will be held",
+      "translatedExcerpt": "``THE LUV BUGS'' is a creative tech label co-created by ``BUG'' artists who are responsible for the next generation of music scene and ``BUG'' audiences who love their music. The fifth stage of the sponsored event, 〈THE LUV BUGS × NeuroHack with BOURO〉, will be held on November 28, 2026 (Saturday) at Shibuya WOMB daytime. Three projects with the common goal of ``putting the spotlight on new artists'' have transcended genres by partnering with ``NeuroHack'', a project that discovers artists who have not yet been in the spotlight and creates encounters that transcend the boundaries of genres and scenes, and ``BOURO'', a HIPHOP event project centered in Tokyo where everyone from young artists to up-and-coming stars stand on the same stage..."
     },
     {
       "id": "ccf00731acab8612",
@@ -1683,8 +1336,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Purple bubble makes major debut with EP Secret Panorama",
-      "translatedExcerpt": "PURPLE BUBBLEがメジャー1st EP『秘密のパノラマ』を配信リリースし、トイズファクトリーからメジャーデビューした。 表題曲「秘密のパノラマ」はTVアニメ『ケロロ軍曹☆』エンディングテーマに起⽤。“友情”をテーマに、かけがえのない⽇常と⼤切な思い出を綴ったミディアムバラード。楽曲の情景を豊かに描き出すバンドアンサンブルが光る⼀曲となっている。 リリース情報 https://ototoy.jp/_/default/p/4202040 アーティスト情報 https://bio.to/purplebubble"
+      "translatedTitle": "PURPLE BUBBLE makes major debut with EP “Secret Panorama”",
+      "translatedExcerpt": "PURPLE BUBBLE released their first major EP “Secret Panorama” and made their major debut on Toys Factory. The title song \"Secret Panorama\" was used as the ending theme for the TV anime \"Keroro Sergeant☆\". A medium ballad about irreplaceable daily life and precious memories, with the theme of \"friendship\". This is a song that shines with a band ensemble that richly depicts the scene of the song. Release information https://ototoy.jp/_/default/p/4202040 Artist information https://bio.to/purplebubble"
     },
     {
       "id": "c1e57ec74fb75cd8",
@@ -1787,8 +1440,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Soaring Word] Inochronicle, 2nd SG is a life-size love song \"Premonition of Love\"",
-      "translatedExcerpt": "2ndデジタルシングル「恋の予感」をリリースしたイノクロニクルが急上昇ワードにランクイン。 イノクロニクルは、シンガーソングライターとして活動していたちゃんゆ胃（Gt./Vo.）、ircle(※無期限活動休止中)のギタリストとして活動し、現在は数多くのバンドのギターサポートも務める仲道良（Gt.）、東京藝術大学院で作曲を専攻する小松里菜（Key.）によるスリーピースバンド。 本作は青春のハッピー感溢れるキュートなポップナンバー。ちゃんゆ胃の実体験をもとにした等身大の歌詞に、仲道の躍動するギターワークと小松のリリカルなピアノの旋律が重なり、誰もが共感できる恋の不器用さと温もりをドラマティックに昇華させている。 11月3日(火・祝)には東京・下北沢近松にて自主企画主催ライブ『これまでも。これからも、』を開催す…"
+      "translatedTitle": "[Raising keywords] Ino Chronicle, 2ndSG is a life-sized love song “Koi no Yokan”",
+      "translatedExcerpt": "Ino Chronicle, which released its 2nd digital single ``Koi no Yokan'', is ranked in the fastest-growing trending keywords. Inno Chronicle is a three-piece band consisting of Chanyusato (Gt./Vo.), who was active as a singer-songwriter, Michiyoshi Naka (Gt.), who was active as a guitarist for ircle (*indefinitely on hiatus) and currently provides guitar support for many bands, and Rina Komatsu (Key.), who majors in composition at Tokyo University of the Arts. This work is a cute pop number full of the happy feeling of youth. The life-sized lyrics based on Chanyu's real experiences are combined with Nakamichi's dynamic guitar work and Komatsu's lyrical piano melody, dramatically sublimating the clumsiness and warmth of love that everyone can relate to. On November 3rd (Tuesday/holiday), a self-organized live show ``Konomemo.'' will be held at Chikamatsu, Shimokitazawa, Tokyo. From now on, we will continue to hold..."
     },
     {
       "id": "c9b38e54cd5194cf",
@@ -1806,8 +1459,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Bad T-shirt shop, \"algorithmic dog\" support video released",
-      "translatedExcerpt": "ヤバイTシャツ屋さんが現在バイラルヒット中の最新曲「アルゴリズムの犬」の楽しみ方実例映像を公開した。 「アルゴリズムの犬」は今年7月にリリースされたアルバム『Magical Tank-top Parade』のリード曲。映像にはヤバイTシャツ屋さんのマネージャー自らが主役として全力出演している。 応援映像 https://youtu.be/Yc354pFvY6w リリース情報 https://ototoy.jp/_/default/p/3837575 アーティスト情報 http://yabaitshirtsyasan.com https://www.universal-music.co.jp/yabaitshirtsyasan/ https://x.com/yabaT_official https://ww…"
+      "translatedTitle": "Dangerous T-shirt shop releases “Algorithm Dog” support video",
+      "translatedExcerpt": "Yabai T-shirt shop has released an example video of how to enjoy their latest song \"Algorithm no Dog\", which is currently a viral hit. \"Algorithm no Dog\" is the lead song from the album \"Magical Tank-top Parade\" released in July of this year. The manager of the dangerous T-shirt shop himself appears in the video as the main character. Support video https://youtu.be/Yc354pFvY6w Release information https://ototoy.jp/_/default/p/3837575 Artist information http://yabaitshirtsyasan.com https://www.universal-music.co.jp/yabaitshirtsyasan/ https://x.com/yabaT_official https://ww…"
     },
     {
       "id": "c1cd722e49f47bdc",
@@ -1842,8 +1495,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Noranekoguts Announces New Chill Song “dawn”",
-      "translatedExcerpt": "Noranekogutsが2026年10月14日(水)にニューシングル「dawn」をリリースすることが決定し、2ヶ月連続でデジタルシングルをリリースすることを発表した。 朝とも夜ともつかない薄明の時間に生まれる、名前のない感情を描いた本作。慌ただしい日々を送る人に贈る1曲となっている。 昨今、音楽性に変化を見せているNoranekoguts。今回の連続リリースとなる2作品では、バンドがこれから目指すスタイル「オルタナティブ×チルアウト」を追求。 レコーディングはエンジニアとともにライブハウスへ機材を持ち込んで行われ、メンバー自らが完全セルフプロデュースで作り上げた意欲作となっている。なお、第2弾シングルの詳細は後日発表予定。 Noranekogutsのgutsは今回の新曲について、以下のようにコメントを寄…"
+      "translatedTitle": "Noranekoguts to release chill new song “dawn”",
+      "translatedExcerpt": "Noranekoguts has decided to release their new single \"dawn\" on Wednesday, October 14, 2026, announcing that they will be releasing digital singles for two consecutive months. This work depicts the nameless emotions that are born in the twilight hours that are neither morning nor night. This song is a gift for those who live hectic lives. Noranekoguts has been showing changes in their musicality recently. These two consecutive releases pursue the band's future style of \"alternative x chill out.\" The recording was done by bringing equipment to a live house with an engineer, and it is an ambitious work that the members themselves created completely by themselves. Details of the second single will be announced at a later date. Guts from Noranekoguts commented on the new song as follows..."
     },
     {
       "id": "2d15e77abad7a853",
@@ -1895,8 +1548,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "\"Kitajima Saburo Graduation SP\" by Joji Yamamoto and Hiroshi Oe",
-      "translatedExcerpt": "BS11で放送中の〈鶴瓶のええ歌やなぁ〉。土曜よる9時に引越ししてから初放送となる10月10日は、北島三郎90歳の卒寿をお祝いするスペシャルとして一番弟子の山本譲二と最後の弟子の大江裕をゲストに迎えて送る。 北島の名曲をそれぞれ披露するほか、北島の代名詞ともなっている「まつり」を鶴瓶、八木を含めた全員で歌唱する。 トークでは、北島がまだ売れない時期を過ごしていた頃のエピソードや、紅白歌合戦出場時の秘話などのエピソードが続々登場。師匠・北島との思い出や、弟子として過ごした日々についても語る。 番組情報 鶴瓶のええ歌やなぁ 山本譲二 歌唱曲 大江裕 歌唱曲 インフォメーション https://www.bs11.jp/entertainment/eeuta/ フォトギャラリー フォトギャラリーはこちらからご覧い…"
+      "translatedTitle": "<Tsurube's great song> \"Saburo Kitajima Sosoju ​​SP\" Joji Yamamoto & Yutaka Oe appear",
+      "translatedExcerpt": "“Tsurube no Ee Uta Ya Naa” is being broadcast on BS11. On October 10th, which will be the first broadcast after moving on Saturday at 9:00, it will be a special to celebrate the 90th anniversary of Saburo Kitajima's graduation, with guest appearances by his first disciple, Joji Yamamoto, and his last disciple, Yutaka Oe. In addition to performing each of Kitajima's famous songs, everyone including Tsurube and Yagi will sing \"Matsuri,\" which has become synonymous with Kitajima. In the talk, episodes from the time when Kitajima was not selling well and secret stories from when she participated in the Kohaku Uta Gassen appear one after another. He also talks about his memories with his master Kitajima and the days he spent as a disciple. Program Information Tsurube no Ee Uta Naa Naaaaaaaaaaaaaaaaaaaaaaaaaaaaa1111."
     },
     {
       "id": "9573f064bee0a453",
@@ -1982,8 +1635,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "aiko releases new AL trailer footage",
-      "translatedExcerpt": "aikoが10月21日（水）にリリースする新アルバム『最後に熱い日々を狂わしき想いで』のトレーラー映像が公開された。 映像ではすでにリリースされている楽曲のミュージックビデオの一部と、初回限定仕様盤に収録される『Love Like Pop vol.24.9 Countdown Live 2025〜2026』の一部映像に加え、初公開となる副音声aikoの一部や、『Love Like Pop vol.24.9 behind the scenes』の一部映像も視聴可能。 リリース情報 https://ototoy.jp/_/default/p/4273553 アーティスト情報 http://aiko.com https://twitter.com/aiko_dochibi"
+      "translatedTitle": "aiko releases new AL trailer video",
+      "translatedExcerpt": "The trailer video for aiko's new album ``Lastly Hot Days wo Crazy Feelings'', which will be released on October 21st (Wednesday), has been released. In addition to some of the music videos of songs that have already been released and some of the footage from \"Love Like Pop vol.24.9 Countdown Live 2025-2026\" included in the first limited edition, you can also watch part of the secondary audio Aiko that will be released for the first time and some footage of \"Love Like Pop vol.24.9 behind the scenes\". Release information https://ototoy.jp/_/default/p/4273553 Artist information http://aiko.com https://twitter.com/aiko_dochibi"
     },
     {
       "id": "6bde3616b534fd96",
@@ -2258,23 +1911,6 @@
       }
     },
     {
-      "id": "e51881051018e610",
-      "title": "Gears Of War Boss Dodges Question About Future Layoffs, Promises Next Game Will Come Sooner",
-      "link": "https://kotaku.com/gears-of-war-boss-dodges-question-about-future-layoffs-promises-next-game-in-series-will-come-sooner-2000741936",
-      "publishedAt": "2026-10-07T17:30:35.000Z",
-      "excerpt": "Gears of War: E-Day is good, but will The Coalition get a chance to make more games before Xbox starts making cuts?",
-      "image": "https://kotaku.com/app/uploads/2026/07/thumb-1920-679351-1280x720.jpg",
-      "source": {
-        "id": "kotaku",
-        "name": "Kotaku",
-        "short": "Kotaku",
-        "siteUrl": "https://kotaku.com/",
-        "category": "Gaming & Culture",
-        "accent": "#ff6b9d",
-        "language": "en"
-      }
-    },
-    {
       "id": "9f50d7997b560290",
       "title": "Marvel Tōkon: Fighting Souls Game's Trailer Reveals November 2 Release for Phoenix Cyclops DLC",
       "link": "https://www.animenewsnetwork.com/news/2026-10-07/marvel-tokon-fighting-souls-game-trailer-reveals-november-2-release-for-phoenix-cyclops-dlc/.242591",
@@ -2511,8 +2147,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Live Repo] Stage of Love and Dreams Spreading in Driving School [NEYAGAWA drive rock FES.2026]",
-      "translatedExcerpt": "2026年9月23日に大阪の寝屋川市にあるネヤガワドライビングスクール(通称：ネヤドラ)にて、〈NEYAGAWA DRIVE ROCK FES.〉(通称:ネヤフェス)が開催された。 会場はドライビングスクール、つまり自動車教習所である。今年で3年目となり、地元のライブハウス・寝屋川VINTAGE協力のもと、教習所内のコースに屋外音楽ステージを制作して行われている。大阪のラジオ局FM802も後援として参加しており、飲食の出店も8店舗あるなど、空気感は野外フェスそのもの。毎年人気の実際の教習車のボンネットに出演バンドへのメッセージを書き込むという、このイベントならではのブースも用意されている。そして魅力的なブッキングは今年も寝屋川出身のロックバンド・the paddlesの柄須賀皇司が担当した。 このイベント…"
+      "translatedTitle": "[Live Report] A stage of love and dreams that spread at the driving school〈NEYAGAWA DRIVE ROCK FES.2026〉",
+      "translatedExcerpt": "On September 23, 2026, ``NEYAGAWA DRIVE ROCK FES.'' (commonly known as Neyagawa Festival) was held at Neyagawa Driving School (commonly known as Neyadora) in Neyagawa City, Osaka. The venue is a driving school. This is the third year of the event, and with the cooperation of local live house Neyagawa VINTAGE, an outdoor music stage has been created on the course within the driving school. Osaka's radio station FM802 is also participating as a sponsor, and there are eight food and drink stalls, giving the atmosphere the feel of an outdoor festival. There will also be a booth unique to this event where you can write messages to the performing bands on the bonnet of the actual training car, which is popular every year. The attractive booking was again this year by Koji Karasuka of the Neyagawa-born rock band the paddles. This event..."
     },
     {
       "id": "ba78ffb6fd55bc92",
@@ -2564,8 +2200,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "pandagolff releases a new song that combines organic performance",
-      "translatedExcerpt": "pandagolffが2026年10月7日(水)にニューシングル「不思議なアーラ」をリリースした。 本作はバンドサウンドとは距離をとり、歌が中心となりつつも、シンセサイザーを含むインストロメンタルが対となるバランスで構築。クラウトロック的な機械的で硬質なシャッフルビートに、有機的な演奏が融合した楽曲となっている。 また、楽曲のリリースと併せてミュージックビデオも公開。pandagolffは今回の新曲について、以下のようにコメントを寄せている。 コメント リリース情報 https://ototoy.jp/_/default/a/706975 アーティスト情報 https://www.instagram.com/pandagolff/ https://x.com/pandagolff"
+      "translatedTitle": "pandagolff releases new song that combines organic performance",
+      "translatedExcerpt": "pandagolf released their new single \"Fushigi na Ara\" on Wednesday, October 7, 2026. This work takes a distance from the band sound, and while the song is the center, it is built with a balance of instrumental instrumentals including synthesizers. The song is a fusion of krautrock's mechanical and hard shuffle beat with organic performances. A music video will also be released along with the release of the song. pandagolf commented on the new song as follows: Comment Release information https://ototoy.jp/_/default/a/706975 Artist information https://www.instagram.com/pandagolff/ https://x.com/pandagolff"
     },
     {
       "id": "091a9e378af8b437",
@@ -2583,8 +2219,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Hatagaya Shirome releases best bye, the first best AL of her career",
-      "translatedExcerpt": "ハタガヤシロメがキャリア初のベスト・アルバム『best bye』をリリースした。 本作はシロメ改め「ハタガヤシロメ」が放つデビューから激動の5年間の全てを込めた超高密度青春ポップス完全保存版アルバム。 盟友・原祥太＆マッチャポテトサラダをはじめ、Cwondo、田中喉笛交響楽団（the bercedes menz）、志見祥、T.M.P、Uncivilized Girls Memory、Yurei Landscape、ass_atte、PAWANO!!、053、帰国子女……全18組にも及ぶアーティストが参加。リミックス／アレンジ／カバーなどを通して、シロメが描きたかった\"歌える名曲\"への挑戦が結実している。 90年代JPOPの系譜を感じさせつつ、最新のハイパーポップ、トランス・テクノ、ハーシュ・ノイズ、インデ…"
+      "translatedTitle": "Hatagayashirome releases her first best AL “best bye” in her career",
+      "translatedExcerpt": "Hatagayashirome has released her first best album of her career, ``best bye''. This work is a complete archival album of ultra-high-density youth pop that contains everything from the turbulent five years since their debut released by Shirome (formerly known as Shirome Hatagaya). Including allies Shota Hara & Matcha Potato Salad, Cwondo, Tanaka Throat Symphony Orchestra (the Bercedes Menz), Sho Shimi, T.M.P, Uncivilized Girls Memory, Yurei Landscape, ass_atte, PAWANO!!, 053, returnee children...A total of 18 artists will be participating. Through remixes, arrangements, covers, etc., Shirome's quest to create a ``singable masterpiece'' has come to fruition. While feeling the lineage of 90's JPOP, the latest hyper pop, trance techno, harsh noise, independent music..."
     },
     {
       "id": "d1e2d03ef5bd5d32",
@@ -2602,8 +2238,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Future radio station, new project \"Unslept City\" launched",
-      "translatedExcerpt": "未来電波基地が新プロジェクト、Unslept Cityの始動を発表した。 Unslept Cityはシンガーを迎えて悲劇的な映画のエンドロールのような曲をリリースするプロジェクト。 1stシングルはすでにレコーディングを終えているとのこと。かなりの熱量と集中力を注いでいるプロジェクトとのことで、新たに開設されたSNSアカウントとともに、今後の動向に注目したい。 リリース情報 ▼未来電波基地 OTOTOY配信中 https://ototoy.jp/_/default/a/212619 アーティスト情報 https://x.com/miraidempa Unslept City https://x.com/UnsleptCity"
+      "translatedTitle": "Future radio base launches new project <Unslept City>",
+      "translatedExcerpt": "Mirai Radio Base has announced the launch of a new project, Unslept City. Unslept City is a project that features singers and releases songs that sound like the ending credits of a tragic movie. The first single has already been recorded. It is a project that they are pouring a lot of energy and concentration into, so I would like to keep an eye on their future trends along with the newly opened SNS account. Release information ▼Future radio base OTOTOY now available https://ototoy.jp/_/default/a/212619 Artist information https://x.com/miraidempa Unslept City https://x.com/UnsleptCity"
     },
     {
       "id": "a17cf5496997df28",
@@ -2621,8 +2257,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Mifuku releases new songs centered on soft souls",
-      "translatedExcerpt": "みふくが2026年10月7日(水)にニューシングル「Continue」をリリースした。 ソフトソウルを軸にした本作。スペーシーなアナログシンセと穏やかなガットギターにそっと言葉を置いた楽曲となっている。 静かな喪失と、その先にも続いていく日々をやわらかく包み込んだ本楽曲。みふくらしい1曲に仕上がっている。 リリース情報 https://ototoy.jp/_/default/p/4274788 アーティスト情報 https://www.instagram.com/mifuk.jp https://www.youtube.com/@mifuk_jp"
+      "translatedTitle": "Mifuku releases new song centered on soft soul",
+      "translatedExcerpt": "Mifuku released her new single \"Continue\" on Wednesday, October 7, 2026. This work focuses on soft soul. It is a song that gently places words on spacey analog synth and gentle gut guitar. This song gently embraces the quiet loss and the days that will continue even after that. The result is a Mifuku-like song. Release information https://ototoy.jp/_/default/p/4274788 Artist information https://www.instagram.com/mifuk.jp https://www.youtube.com/@mifuk_jp"
     },
     {
       "id": "1ef6d72476d7857d",
@@ -2657,8 +2293,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "WurtS releases new song “sweet and sour” from 1st Mini AL",
-      "translatedExcerpt": "WurtSが2026年10月21日(水)にリリースする1st Mini Album『SPARK』より「SWEET AND SOUR」を先行リリースした。 1st Mini Album『SPARK』には壮大で重厚感のあるアンセミックなロックチューン「INSIDE」、”雪印北海道100 さけるチーズ”TVCM曲として書き下ろし、ゴスペル/ソウル/モータウンを取り入れた「SOMEDAY」の既発2曲に加え、休止期間中に制作した20曲以上の新曲より4曲を収録した、全6曲入りの作品を収録。 初回生産限定盤には、新たな試みとして“WurtSとは？”を紐解くZINEシリーズの第1弾「WurtS ZINE Vol.1」を付属。初めて語られるエピソードや、セルフプロデュースアーティストとしてMVの企画の草案、機材紹介、セルフ…"
+      "translatedTitle": "WurtS releases new song “SWEET AND SOUR” from 1st Mini AL",
+      "translatedExcerpt": "WurtS has pre-released \"SWEET AND SOUR\" from their 1st Mini Album \"SPARK\" which will be released on Wednesday, October 21, 2026. The 1st Mini Album ``SPARK'' contains 6 songs in total, including ``INSIDE'', an anthemic rock tune with a magnificent and profound feeling, ``SOMEDAY'', which was newly written as a TV commercial song for ``Snow Brand Hokkaido 100 Sakeru Cheese'' and ``SOMEDAY'', which incorporates gospel/soul/Motown, as well as 4 songs from over 20 new songs produced during the hiatus. The first production limited edition comes with ``WurtS ZINE Vol.1'', the first in the zine series that unravels ``What is WurtS?'' as a new attempt. A story told for the first time, a draft of a music video project as a self-produced artist, introduction of equipment, self-talk..."
     },
     {
       "id": "1f70a9d507502e16",
@@ -2676,8 +2312,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Sucking saturation, unforgettable new song \"four and a half tatami no audience live\" release & MV release",
-      "translatedExcerpt": "吸う彩度が2026年10月7日(水)にニューシングル「四畳半無観客ライブ」をリリースし、ミュージックビデオを公開した。 過去の記憶を一つずつ辿りながら、諦めややるせなさを抱えて歩いていく主人公の姿を描いた本作。切なさを帯びた独特のギターフレーズが印象的なイントロから、楽曲が進むにつれてその心情を静かに浮かび上がらせていく。 過去と現在が交錯するような歌詞世界と、感情を滲ませるサウンドが重なった本楽曲。聴く者を主人公の“最期の旅“へと引き込んでいく1曲となっている。 リリース情報 https://ototoy.jp/_/default/p/4304168 アーティスト情報 https://www.instagram.com/scd_6260/ https://x.com/scd_6260"
+      "translatedTitle": "Sucking Saturation, sad new song “Yojohan no audience live” released & MV released",
+      "translatedExcerpt": "On Wednesday, October 7, 2026, Suku Saturation released their new single ``Yojohan No Audience Live'' and released the music video. This work depicts the protagonist walking through his past memories one by one, feeling resigned and hopeless. From the impressive intro with a unique guitar phrase tinged with sadness, as the song progresses, the emotional state of the song quietly emerges. This song combines a world of lyrics that mixes the past and present with a sound that exudes emotion. It is a song that draws the listener into the protagonist's \"final journey.\" Release information https://ototoy.jp/_/default/p/4304168 Artist information https://www.instagram.com/scd_6260/ https://x.com/scd_6260"
     },
     {
       "id": "3db74dc6b8464630",
@@ -2695,8 +2331,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "New song \"Summer Curve\" music video released on horizon and Keihan Railway",
-      "translatedExcerpt": "水平線が2026年9月30日(水)にリリースしたニューシングル「夏のカーブ」のミュージックビデオを公開した。 本楽曲は作詞/作曲を手掛けた田嶋(Vo./Gt.)が、普段利用している京阪電⾞（京都と⼤阪を結ぶ在来線）が題材ということで、ミュージックビデオも京阪電車を舞台に撮影が行われた。アートワークにも使用され、今回の映像でも度々登場する京阪の車窓。 その奥に映る京都の街並み、青々とした草木、鉄橋、空からは、淡く切ないひと夏の記憶が刻まれているようにも感じられる。水平線の田嶋は今回のミュージックビデオについて、以下のようにコメントを寄せている。 コメント リリース情報 https://ototoy.jp/_/default/p/4251751 ツアー情報 https://eplus.jp/suiheisen…"
+      "translatedTitle": "Horizon releases new song “Summer Curve” MV set on Keihan Railway",
+      "translatedExcerpt": "Horizon has released the music video for their new single ``Natsu no Curve'' released on Wednesday, September 30, 2026. This song was written and composed by Tajima (Vo./Gt.), who uses the Keihan Railway (a conventional line connecting Kyoto and Osaka) as its theme, so the music video was also shot on the Keihan Railway. The Keihan train window is used in the artwork and appears frequently in this video. The Kyoto cityscape, lush greenery, iron bridges, and sky reflected in the background give the impression of a faint and sad summer memory. Tajima of Horizon Line commented as follows about this music video. Comment Release information https://ototoy.jp/_/default/p/4251751 Tour information https://eplus.jp/suiheisen…"
     },
     {
       "id": "d2abf752f96a097b",
@@ -2731,8 +2367,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Released a new song that challenged Sagetsu Misaka and Melocore Sound",
-      "translatedExcerpt": "砂月凜々香が2026年10月7日(水)にニューシングル「アイムハッピー」をリリースし、ミュージックビデオを公開した。 本作は、砂月と同郷である福岡県出身の松隈ケンタによるプロデュース楽曲。うまくいかない日々や不安な夜を越えていく中で、支えてくれる人の存在に気づき、その温もりを自分自身の強さへと変えていく心の変化を描いている。 また、サウンド面では疾走感のあるメロコアサウンドに挑戦。自分自身を励ます応援歌でありながら、聴く人にとっても、自分を支えてくれる人や大切な日々を思い出すきっかけとなる楽曲に仕上がっている。 リアルな日常を感じさせる街中やライブシーンを交えたミュージックビデオは、歌声や表情にフォーカス。楽曲から溢れ出る“温度”を表現した。 砂月凜々香は今回の新曲について、以下のようにコメントを寄せてい…"
+      "translatedTitle": "Ririka Sunazuki releases new song challenging melocore sound",
+      "translatedExcerpt": "Ririka Sunatsuki released her new single \"I'm Happy\" on Wednesday, October 7, 2026, and released the music video. This work is a song produced by Kenta Matsukuma, who is from Fukuoka Prefecture, who is from the same hometown as Sunatsuki. The story depicts the change of heart as he overcomes the days when things don't go well and the nights of anxiety when he realizes the existence of people who support him and transforms that warmth into his own strength. In addition, in terms of sound, we are trying to create a melocore sound with a sense of speed. While it is a cheering song that encourages oneself, it is also a song that serves as an opportunity for those who listen to it to remember the people who supported them and the precious days they had. The music video, which includes street scenes and live scenes that give you a real sense of everyday life, focuses on the singer's singing voice and facial expressions. It expressed the \"temperature\" that overflows from the song. Ririka Sunatsuki commented on the new song as follows..."
     },
     {
       "id": "21b26afca5e97ea0",
@@ -2750,8 +2386,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "musbime releases new song “ribbon” that intertwines a change of tempo and sparkle",
-      "translatedExcerpt": "2026年10月7日、2010年代の渋谷乙や残響系オルタナティブロックシーンをルーツとするトリプルギターロックバンド・musbimeが、新曲“ribbon”をデジタルリリースした。本作は、国内外で大きな反響を得た1st EP『煌めきを凌いで』(2026年4月)以来の作品となる。 『ribbon』は３本のギターが繊細に絡み合うアルペジオと疾走感のあるビート、そしてそこに差し込まれる微かな変拍子が、けんもく(Vo/Gt)の謳う「人生の不可逆性に対する葛藤」を彩る一曲となっている。 アーティスト情報 Twitter: @musbime_band ( https://twitter.com/musbime_band ) https://www.instagram.com/musbime_band/ ) https…"
+      "translatedTitle": "musbime releases new song “ribbon” that intertwines strange time signatures and sparkles",
+      "translatedExcerpt": "On October 7, 2026, musbime, a triple guitar rock band with roots in the Shibuya Otsu and Zankyou alternative rock scenes of the 2010s, digitally released their new song \"ribbon\". This work is the group's first since their 1st EP \"Kirameki wo Yotte\" (April 2026), which received a great response both domestically and internationally. ``ribbon'' is a song that uses three guitars delicately intertwining arpeggios, a driving beat, and a slightly odd time signature inserted into it, embellishing the ``conflict against the irreversibility of life'' that Kenmoku (Vo/Gt) sings. Artist information Twitter: @musbime_band ( https://twitter.com/musbime_band ) https://www.instagram.com/musbime_band/ ) https…"
     },
     {
       "id": "d66066e6d7f7c232",
@@ -2855,7 +2491,7 @@
         "language": "ja"
       },
       "translatedTitle": "cocuri releases romantic new song",
-      "translatedExcerpt": "cocuriが2026年10月7日(水)にニューシングル「Under the moon light」をリリースした。 本作は青年期から大人へと変わっていく過程で、過ぎ去った恋と向き合う夜を描いたNeo Soul/アーバンソウル。365日経てば忘れられると思っていたのに、街の中、帰り道、夢の中で何度も思い出してしまう人。 あの頃は言えなかったけれど、今ならきっとうまくやれる。そんな、大人になったからこそ生まれる後悔と希望を、月明かりのように静かでロマンチックなサウンドに乗せて歌っている。 懐かしさを感じさせながらも、現代的な空気を持ったサウンドで、30代～40代のリスナーが過ごしてきた時間や、忘れたと思っていた感情にそっと触れる本楽曲。過去と未来は違う場所にあるはずなのに、月だけはあの日と同じように夜を照ら…"
+      "translatedExcerpt": "cocuri released their new single \"Under the moon light\" on Wednesday, October 7, 2026. This work is Neo Soul/Urban Soul, depicting a night in which one faces a love that has passed as one transitions from adolescence to adulthood. I thought I would forget this person after 365 days, but I keep thinking of them on the streets, on my way home, and in my dreams. I couldn't say it back then, but I'm sure I can do it now. She sings about the regrets and hopes that only come from becoming an adult, with a quiet and romantic sound like moonlight. This song has a nostalgic yet modern sound that gently touches listeners in their 30s and 40s about the times they have spent and the emotions they thought they had forgotten. The past and the future are supposed to be in different places, but the moon lights up the night just like it did that day..."
     },
     {
       "id": "fcaf5006c82bd4e6",
@@ -2941,8 +2577,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Best Hits USA 10/8 Prince, Neil Young",
-      "translatedExcerpt": "BS朝日〈ベストヒットＵＳＡ〉10月8日のラインナップが発表された。 スター・オブ・ザ・ウィークはプリンスとニール・ヤング。プリンスは全キャリアおよそ40年間の未発表音源を集めたアルバムを紹介する。ニール・ヤングは新譜と本人手書きの歌詞が字幕になったユニークなMVを紹介。 ホットメニューは今年の８月にデビュー・アルバムを発表したばかりの新鋭ステラ・レフティを紹介する。 番組では11月12日（木）に三越劇場にて番組収録イベントを開催。ゲストにいとうせいこうを迎える。チケットは現在発売中。 番組情報 〈ベストヒットＵＳＡ〉 2026年10月8日（木） インフォメーション https://x.com/besthitusa_bs5 https://www.facebook.com/besthitusa https…"
+      "translatedTitle": "<Best Hits USA> 10/8 is Prince, Neil Young",
+      "translatedExcerpt": "BS Asahi (Best Hit USA) lineup for October 8th has been announced. Stars of the Week are Prince and Neil Young. Prince will introduce an album that collects unreleased material from his entire career spanning approximately 40 years. Neil Young introduced his new album and a unique music video with subtitles written by himself with his handwritten lyrics. Hot Menu introduces Stella Lefty, a rising star who just released her debut album in August of this year. A recording event for the program will be held at the Mitsukoshi Theater on Thursday, November 12th. We welcome Seiko Ito as a guest. Tickets are on sale now. Program Information <Best Hits USA> Thursday, October 8, 2026 Information https://x.com/besthitusa_bs5 https://www.facebook.com/besthitusa https…"
     },
     {
       "id": "1e3cc0813f7f9b03",
@@ -2960,8 +2596,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Soaring Ward] Sakurazaka 46, the first center of the fourth-generation song \"Primordial Oscar\" Kazuko Matsumoto",
-      "translatedExcerpt": "櫻坂46が10月14日に発売する16thシングル「愛MUST BE」に収録される四期生楽曲「元凶」が先行配信された。 「元凶」は世の中の喧騒や情報から距離を置こうとする主人公が、そのノイズの元凶は自分自身の心の中にあることに気付いていく姿を描いたメッセージソング。 本楽曲で松本和子が初めてセンターを務めている。 リリース情報 https://ototoy.jp/_/default/p/4257225 アーティスト情報 https://www.instagram.com/sakurazaka46jp/ https://x.com/sakurazaka46"
+      "translatedTitle": "[Raising word] Sakurazaka46, 4th generation song “Genkyo” Kazuko Matsumoto is the center for the first time",
+      "translatedExcerpt": "Sakurazaka46's 4th generation song ``Genkyo'', which will be included in their 16th single ``Ai MUST BE'' to be released on October 14th, has been distributed in advance. \"Genkyo\" is a message song that depicts the main character trying to distance himself from the noise and information in the world, but then realizing that the source of the noise is within his own heart. Kazuko Matsumoto serves as the center for this song for the first time. Release information https://ototoy.jp/_/default/p/4257225 Artist information https://www.instagram.com/sakurazaka46jp/ https://x.com/sakurazaka46"
     },
     {
       "id": "9e4edf55b2d0d51c",
@@ -2979,8 +2615,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "ano, new song \"Kirai no Tsuki!\" Released, TV anime \"Sergeant Keroro☆\" collaboration music video released",
-      "translatedExcerpt": "TVアニメ『ケロロ軍曹☆』のオープニングテーマとしてanoが書き下ろした新曲「キライのちスキ！」のTVアニメ『ケロロ軍曹☆』とのCollaboration Music Videoのティーザー映像が公開された。 2026年11月18日（水）発売のNew Single「キライのちスキ！」に先駆けて、Digital Singleとして、本日2026年10月7日（水）AM0:00よりダウンロード＆ストリーミングが開始することに伴い、Collaboration Music Videoが、10月7日（水）20:00にanoのオフィシャルYouTubeチャンネルにてプレミア公開することが決定した。 「キライのちスキ！」は、世間や他人の物差しではなく自分が何かを純粋に好きという気持ちが持つパワーを感じて書き下ろされた楽曲…"
+      "translatedTitle": "ano releases new song “Kirai no Chisuki!”, collaboration MV for TV anime “Keroro Sergeant☆”",
+      "translatedExcerpt": "A teaser video of the collaboration music video for the new song \"Kirai no Chisuki!\" written by ano as the opening theme for the TV anime \"Keroro Shoujo☆\" has been released. Prior to the release of the new single \"Kirai no Chi Suki!\" on November 18, 2026 (Wednesday), downloading and streaming will begin today, October 7, 2026 (Wednesday) at 0:00 AM as a digital single, and Collaboration Music Video will be premiered on ano's official YouTube channel at 20:00 on October 7 (Wednesday). “Kirai no Chisuki!” is a song that was written after feeling the power of genuinely liking something, rather than relying on the world or other people’s standards."
     },
     {
       "id": "1274f2204ef5a9ef",
@@ -2998,8 +2634,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Empty old City releases Clockwork Journey EP in December, final lead-up to 3rd one-man live",
-      "translatedExcerpt": "2026年12月2日にリリースされるEmpty old City Concept EPⅡのタイトルは「Clockwork Journey」。 今作は「From Noir into Clair」に続き、待望のConcept EP第二弾となる。これまでにない未知の領域へと踏み出したサウンド・デザインと、新たな感情の起伏を表情豊かに歌い上げるボーカルが織りなす、Empty old Cityの新境地となる。 また、2026年10月7日(水)12:00より、3rd ONE-MAN LIVE「Clockwork Ceremony」の最終先行受付が開始。EP「Clockwork Journey」のジャケットに描かれている人形とお揃いの「ゼンマイ」がデザインされている特典Tシャツのデザインも公開されている。 LIVE I…"
+      "translatedTitle": "Empty old City releases EP “Clockwork Journey” in December, final pre-order for 3rd one-man live begins",
+      "translatedExcerpt": "The title of Empty old City Concept EPⅡ, which will be released on December 2, 2026, is “Clockwork Journey.” This work is the long-awaited second Concept EP following \"From Noir into Clair\". This is a new frontier for Empty old City, with a sound design that ventures into unprecedented territory and vocals that expressively sing new emotional ups and downs. In addition, the final pre-registration for 3rd ONE-MAN LIVE “Clockwork Ceremony” will begin from 12:00 on Wednesday, October 7, 2026. The design of a bonus T-shirt with a ``mainspring'' designed to match the doll depicted on the jacket of the EP ``Clockwork Journey'' has also been released. LIVE I…"
     },
     {
       "id": "fa5b9c64f7ac0713",
@@ -3017,8 +2653,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "fulus releases the EP \"Decay in Vivo\" from Oaiko and announces a tour featuring luxury vs. van",
-      "translatedExcerpt": "2026年10月7日(木)、4人組オルタナティブロックバンド・fulusuがNew EP「Decay in Vivo」をOaikoよりリリースした。 前EP「Birth in Vitro」から続く連作として位置づけられる本作。タイトルの「Decay in Vivo」は「生命の中で朽ちる」を意味し、生きることと朽ちていくことという、相反するようでいて必ず同時に存在する二つの側面に焦点を当て、その刹那性を描き出している。 有機的かつ、生命そのものを象徴するメタファーでもある「声」を随所に用い、掻き立てられるようなコーラスワークが作品全体を印象づける。鮮やかに光るギターのリフレインと、重厚でありながら緻密に組み上げられたバンド・アンサンブルが、内側で静かに変化していくもの、朽ちながらも残り続けるものを映し出す。…"
+      "translatedTitle": "fulus releases EP “Decay in Vivo” on Oaiko and also announces a tour featuring a luxurious band",
+      "translatedExcerpt": "On Thursday, October 7, 2026, the four-member alternative rock band fulusu released their new EP ``Decay in Vivo'' from Oaiko. This work is positioned as a continuation of the previous EP \"Birth in Vitro\". The title ``Decay in Vivo'' means ``decaying within life,'' and the work focuses on living and decaying, two aspects that seem contradictory but always exist at the same time, and depicts the ephemerality of living and decaying. The ``voice'', which is both organic and a metaphor for life itself, is used throughout, and the rousing chorus work gives an impression to the entire work. The vividly shining guitar refrain and the solid yet meticulously assembled band ensemble reflect what is quietly changing within, and what continues to remain even as it decays. …"
     },
     {
       "id": "0ecd7728f0056aa6",
@@ -3036,8 +2672,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Vybe releases glamorous and exciting new songs",
-      "translatedExcerpt": "VYBEが2026年10月7日(水)にニューシングル「Moonlight Dance」をリリースした。 本作は、抗えないほど強く惹かれ合う2人の危うい駆け引きを描いた、妖艶で刺激的なダンスナンバー。ソリッドで攻撃的なトラックの上でスリリングな恋愛模様が描かれており、次第に熱を帯びていくサウンドは、嘘も真実も忘れて衝動のまま深く堕ちていく瞬間を表現している。 また、日本語と英語が交錯する挑発的なリリックと、中毒性のある「Moonlight Dance」のフレーズが繰り返されるフックにより、恋愛の陶酔感と理性を忘れていく感情をさらに加速させる1曲に仕上がっている。 リリース情報 https://ototoy.jp/_/default/a/2032716 アーティスト情報 https://www.instagr…"
+      "translatedTitle": "VYBE releases a bewitching and exciting new song",
+      "translatedExcerpt": "VYBE released their new single \"Moonlight Dance\" on Wednesday, October 7, 2026. This work is a bewitching and exciting dance number that depicts the dangerous negotiations between two people who are irresistibly attracted to each other. A thrilling love story is depicted on top of a solid and aggressive track, and the increasingly heated sound expresses the moment when one forgets lies and truth and falls deeply into an impulse. In addition, the provocative lyrics that mix Japanese and English, and the hook that repeats the addictive \"Moonlight Dance\" phrase, create a song that further accelerates the euphoria of love and the feeling of forgetting reason. Release information https://ototoy.jp/_/default/a/2032716 Artist information https://www.instagr…"
     },
     {
       "id": "4349777e135457cb",
@@ -3157,8 +2793,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Carly Ray Jepsen Decides to Deliver Latest AL Expansion",
-      "translatedExcerpt": "新AL『Day and Night』をリリースしたカーリー・レイ・ジェプセンが10月9日（金）に最新作の”拡張盤”『Day and Night (Continued)』をデジタルリリースする。 本作は通常のデラックス盤ではなくスタンダード・アルバムの拡張盤。フォーカストラックの「Love Depressed」をはじめ、Day面とNight面それぞれに4曲ずつ計8曲のボーナストラックが収録される。 これまで日本盤限定で収録されていた楽曲「Reaching for a Star」と「Yes」も今回、世界各国のDSPで配信されることが決まっている。 リリース情報 トラックリスト Night – ボーナストラック 『Day and Night』 https://ototoy.jp/_/default/p/4203…"
+      "translatedTitle": "Carly Rae Jepsen's latest AL expansion album to be released",
+      "translatedExcerpt": "Carly Rae Jepsen, who released her new AL “Day and Night,” will digitally release her latest “expansion album” “Day and Night (Continued)” on October 9th (Friday). This work is not a regular deluxe edition, but an expanded version of the standard album. A total of 8 bonus tracks will be included, including the focus track ``Love Depressed,'' 4 songs on each day and night side. The songs \"Reaching for a Star\" and \"Yes\", which were previously only included in the Japanese version, will now be distributed on DSPs around the world. Release Information Track List Night – Bonus Track “Day and Night” https://ototoy.jp/_/default/p/4203…"
     },
     {
       "id": "7b0f8fe26a405fea",
@@ -3482,8 +3118,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "To Be Honest Releases New Song for the Resurgence",
-      "translatedExcerpt": "To Be Honestが2026年10月7日(水)にニューシングル「翼が生えるまで」をリリースした。 本作は、To Be Honestの復活と新体制での再スタートを告げる楽曲。青春の煌めきと同時に儚さ強くを感じさせるメロディとサウンド、Vo./Gt.宮島孝輔のセンチメンタルな言葉で描かれた、やるせなさを抱えながらなんとか上を向こうと自分を奮い立たせる様が直近のバンドのストーリーとリンクしている。 無垢な10代の中で経験する絶望や諦めを経て、大人になっていく変化を表現。「下を向いて歩いても良いかな 涙が無くなるまでこぼして」というフレーズには今の彼らだから出せる説得力があり、いままさに人生にくじけかけているリスナーに寄り添う共感性を持っている。 To Be HonestのVo./Gt.宮島 孝輔は今回の新…"
+      "translatedTitle": "To Be Honest releases new song announcing comeback",
+      "translatedExcerpt": "To Be Honest released their new single ``Tsubasa ga Haeru Ma'' on Wednesday, October 7, 2026. This work is a song that announces the revival of To Be Honest and a restart under a new system. The melody and sound convey the sparkle of youth and at the same time a strong ephemerality, and the sentimental words of vocalist/Gt. Kosuke Miyajima are used to describe a man who is feeling hopeless but somehow motivates himself to rise above, which is linked to the band's recent story. It expresses the changes that occur as an adult through the despair and resignation experienced as an innocent teenager. The phrase ``I wonder if I can walk with my head down, spill my tears until they're all gone'' has a persuasive power that can only be expressed by them today, and they have empathy for listeners who are on the verge of giving up on life. To Be Honest's Vo./Gt. Kosuke Miyajima is the new..."
     },
     {
       "id": "699db776ec1d9c97",
@@ -3586,8 +3222,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Column Series] Weekly Bulletin of Kansai Artists in Yuzu Field, vol. 126: Autumn is strong in Korobuchika, which experienced late nights in midsummer.",
-      "translatedExcerpt": "こんにちは。神戸在住の音楽キュレーター、遊津場(ゆつば)です。普段は邦ロック系インディーズアーティスト情報をSNS、メディア寄稿、自主イベント開催など、様々な手法で発信する活動をしています。 そして今回、OTOTOYで私のメインの活動地域である関西エリアで活躍する若手アーティストの様々なトピックを発信する機会をいただきました。これを読めば、関西邦ロックシーンの最前線が分かります。どうぞ、ご贔屓に。 「真夏に夜ふかしを経験したコロブチカは秋も強い」 10月に入り、今年も関西最大級のショーケースイベント・Maxell presents FM802 MINAMI WHEELの開催が近付いてきて、徐々に関西のアーティストの熱が高まってきています。昨年までのように、このコラムでミナホ出演アーティストを特集のように取…"
+      "translatedTitle": "[Serial Column] Yutsuba's Kansai Artist Weekly Report vol.126 \"Korobuchika, who experienced late nights in midsummer, remains strong in autumn\"",
+      "translatedExcerpt": "Hello. I'm Yutsuba, a music curator living in Kobe. I usually disseminate information on Japanese rock indie artists through various methods such as SNS, media contributions, and holding independent events. And this time, at OTOTOY, I had the opportunity to share various topics about young artists who are active in the Kansai area, which is my main area of ​​activity. If you read this, you will understand the forefront of the Kansai Japanese rock scene. Thank you for your patronage. ``Korobuchika, who experienced late nights in midsummer, is strong in autumn as well.'' As October approaches, Kansai's biggest showcase event, Maxell presents FM802 MINAMI WHEEL, approaches, and Kansai's artists are gradually becoming more enthusiastic. As in previous years, this column featured Minaho's performing artists as if it were a special feature..."
     },
     {
       "id": "fc86615597bf2cb5",
@@ -3605,8 +3241,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Asha Banks releases new EP featuring all 5 songs",
-      "translatedExcerpt": "Asha Banksが2026年10月2日(金)にニューEP『Bottled Up』をリリースした。 タイトルが示す通り、本作の核にあるのは、心の内に抱え込んできた感情をついに外へ解き放つこと。感情と向き合う代わりにしまい込んでしまう自身の性質を、音楽を通して吐き出す作品となっている。 収録されるのは、既にファンの間で支持を集めている“Anything But”や“Biggest Fan”に加え、新曲“Edgeways”、“Don’t Take It Out On Me”、“Who You Are To Me Now」の全5曲。中でも“Edgeways”では、過去の恋愛から完全には抜け出せない葛藤を描き、EPのテーマである“言えずに抱えていた感情”を鮮烈に浮かび上がらせている。 リリース情報 https:…"
+      "translatedTitle": "Asha Banks releases new EP with 5 songs",
+      "translatedExcerpt": "Asha Banks released her new EP “Bottled Up” on Friday, October 2, 2026. As the title suggests, the core of this work is about finally releasing the emotions that have been held inside. It is a work in which he expresses through music the nature of his own feelings, which he tends to put away instead of facing them. In addition to the songs \"Anything But\" and \"Biggest Fan,\" which have already gained support among fans, the album includes a total of five songs: \"Edgeways,\" \"Don't Take It Out On Me,\" and \"Who You Are To Me Now.\" Among them, \"Edgeways\" depicts the conflict of not being able to completely escape from a past relationship, vividly highlighting the EP's theme of \"feelings that were held without being able to express them.\" Release information https:…"
     },
     {
       "id": "3ecf6e1fce5d6e12",
@@ -3641,8 +3277,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Mark Ambor Releases New Song “Born For You”",
-      "translatedExcerpt": "Mark Amborが2026年10月2日(金)にニューシングル「Born For You」をリリースした。 本作は迷いや不安のただ中にいるとき、特別な誰かとの出会いによって世界の見え方が変わっていく瞬間を描いた楽曲。現代の表面的な人間関係や、オンライン上で時間を浪費してしまう感覚、歳を重ねることへの不安といった複雑な感情を背景にしながらも、心から大切に思える相手を見つけたとき、そうした悩みが一瞬で遠ざかっていく前向きな感情を綴っている。 本作の制作には、Amborと長年タッグを組むNoel Zancanellaが参加。そのほか、バンドメンバーのParker Sundby、Alex Mak、そして新たにNoah Conradも参加している。 リリース情報 https://ototoy.jp/_/defau…"
+      "translatedTitle": "Mark Ambor releases new song “Born For You”",
+      "translatedExcerpt": "Mark Ambor released his new single \"Born For You\" on Friday, October 2, 2026. This song depicts the moment when you are in the midst of hesitation and anxiety, and the way you see the world changes due to an encounter with someone special. Despite the complex feelings of today's superficial human relationships, the feeling of wasting time online, and the anxiety of getting older, the book describes the positive feelings of those worries disappearing in an instant when you find someone you truly care about. Noel Zancanella, who has been working with Ambor for many years, participated in the production of this work. Also participating are band members Parker Sundby, Alex Mak, and new member Noah Conrad. Release information https://ototoy.jp/_/defau…"
     },
     {
       "id": "3e26d4d805cd735d",
@@ -3728,8 +3364,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Home, all guests on the nationwide tour will be selected for the atmos \"Air Jordan 1 Royal\" model",
-      "translatedExcerpt": "インディーロックを軸に、洗練されたセンスで多様なジャンルを融合し、国内外のシーンで急速に存在感を高めている沖縄在住3人組バンド、HOME。 2026年11月より開催する初の全国対バンツアー「YUNG MEN IN THE CAR TOUR 2026」の最終ゲストとして、東京公演の対バン相手が発表され、これにより、全公演の対バンラインナップが出揃った。 本ツアーは11月2日（月）の福岡・INSAを皮切りに、大阪、愛知、北海道、京都、東京を巡る対バン形式で開催。12月6日（日）には、拠点である沖縄・OUTPUTにてツアーファイナルとなるワンマン公演を行う。 これまでに発表されていた福岡公演のLe Makeup、大阪公演のa子、名古屋公演のyonige、札幌公演のタデクイ、京都公演のどんぐりずという豪華陣に加え…"
+      "translatedTitle": "HOME announces all band guests for national tour Selected as atmos “AIR JORDAN 1 ROYAL” model",
+      "translatedExcerpt": "HOME is a three-man band based in Okinawa that is rapidly increasing its presence in the domestic and international scenes by fusing various genres with a sophisticated sense centered around indie rock. As the final guest for the first national band tour \"YUNG MEN IN THE CAR TOUR 2026\" to be held from November 2026, the band partner for the Tokyo performance has been announced, and with this, the band lineup for all performances has been completed. This tour will start in Fukuoka/INSA on November 2nd (Monday), and will be held in a van format traveling to Osaka, Aichi, Hokkaido, Kyoto, and Tokyo. On December 6th (Sunday), they will hold a one-man performance at their base in Okinawa, OUTPUT, which will be the final tour. In addition to the previously announced gorgeous lineup of Le Makeup for the Fukuoka performance, ako for the Osaka performance, yonige for the Nagoya performance, Tadekui for the Sapporo performance, and Dongurizu for the Kyoto performance..."
     },
     {
       "id": "8d3a623478fede9a",
@@ -3815,8 +3451,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Super timing♡ promotion department, new AL release decision on 4/1",
-      "translatedExcerpt": "超ときめき♡宣伝部が2026年10月5日(月)の日本武道館公演にて、2027年4月1日(木)にニューアルバム『ときめけみらい』をリリースすることを発表した。 今作アルバムでは、“あなたのお名前入り”の初回生産限定メモリアル盤のリリースも決定。また、10月6日(火)には新曲“私たち、超ときめき♡宣伝部”もリリースした。 この楽曲の作詞を手がけたのは、超ときめき♡グリーン・吉川ひより。メンバーだからこそ届けられる想いと、ファンのみんなとのコール＆レスポンスをたっぷり詰め込んだ、とき宣らしさ全開の1曲になっている。 リリース情報 https://ototoy.jp/_/default/p/4202112 アーティスト情報 https://x.com/sendenbu_staff"
+      "translatedTitle": "Super Tokimeki♡ Advertising Department, new AL release decided on 4/1",
+      "translatedExcerpt": "Super Tokimeki♡ Sendenbu announced at the Nippon Budokan performance on October 5, 2026 (Monday) that they will release their new album ``Tokimeke Mirai'' on April 1, 2027 (Thursday). For this album, it has also been decided to release a commemorative edition limited to the first production with your name on it. Additionally, on October 6th (Tuesday), they released a new song, “We, Cho Tokimeki♡Hendenbu.” The lyrics of this song were written by Hiyori Yoshikawa of Super Tokimeki♡Green. It is a song that is full of the feelings that only the members can convey, as well as call-and-response with the fans, and is full of the Tokisen style. Release information https://ototoy.jp/_/default/p/4202112 Artist information https://x.com/sendenbu_staff"
     },
     {
       "id": "b157afb161c47065",
@@ -3851,8 +3487,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "2 trillion yen, the dub mix version of the popular 1stAL \"Gwa\" is now available",
-      "translatedExcerpt": "2023年、長野県松本市で結成後、長野、東京、沖縄を中心に活どうするオルタナティブ・バンドの2兆円が、大きな話題を呼んだファースト・アルバム『Gwa』のダブ・ミックス版『Gwa Dub』を本日2026年10月6日(火)にリリースする。 本作は『Gwa』の3曲と未収録のインプロビゼーション1曲を収録。越冬・DOGOなどで活躍するバカボン中野によってダブミックスした『Gwa』のダブ版となっている。元の作品にあるポップさを保ちながら、ワールドミュージックなどから着想を得たダブワイズにより、二兆円の持つサイケデリックさやアバンギャルドさをより際立たせた作品となった。 PROFILE 二兆円 2023年、長野県松本市で結成。長野・東京・沖縄の三拠点を中心に活動するオルタナティブバンド。メンバーは牧野拓夢、伊波朗生、…"
+      "translatedTitle": "2 trillion yen, distribution of the popular 1st AL “Gwa” dub mix version begins",
+      "translatedExcerpt": "2 Trillion Yen, an alternative band that was formed in Matsumoto City, Nagano Prefecture in 2023 and currently active mainly in Nagano, Tokyo, and Okinawa, will release ``Gwa Dub'', a dub mix version of their first album ``Gwa'', which attracted a lot of attention, today, October 6, 2026 (Tuesday). This work includes 3 songs from ``Gwa'' and 1 unrecorded improvisation song. It is a dub version of ``Gwa'', which was dub mixed by Bakabon Nakano, who is active in Kanotsu and DOGO. While maintaining the pop feel of the original work, the dubwise style inspired by world music has resulted in a work that further emphasizes the psychedelic and avant-garde nature of 2 Trillion Yen. PROFILE 2 trillion yen Formed in Matsumoto City, Nagano Prefecture in 2023. An alternative band active mainly in three locations: Nagano, Tokyo, and Okinawa. Members are Takumu Makino, Akio Inami,..."
     },
     {
       "id": "7a8efe3864c9f076",
@@ -3870,8 +3506,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Tonight's Utakon 10/6 features Let's Go Young",
-      "translatedExcerpt": "10月6日の「うたコン」は放送終了から40年、伝説の番組「レッツゴーヤング」を特集する。 出演は、「レッツゴーヤング」にもたびたび出演した近藤真彦、松本伊代、そして近藤の大ファンで番組が大好きだったという北斗晶をスタジオに招いて生放送で届ける。 近藤真彦の「スニーカーぶる～す」や 「ギンギラギンにさりげなく」などのヒット曲を紹介。松本伊代はデビュー曲「センチメンタル・ジャーニー」を歌った際の当時ならではのエピソードを語る。ほか、沢田研二、西城秀樹、キャンディーズ、松田聖子、河合奈保子、チェッカーズなどの名シーンも放送。 番組発のグループ・サンデーズに当時所属し、現在は声優としても活躍する日髙のり子もインタビュー出演。近藤や松本が憧れていたというサンデーズのエピソードを語る。 番組情報 うたコン 2026年…"
+      "translatedTitle": "Tonight (Utacon) 10/6 is a special feature on “Let’s Go Young”",
+      "translatedExcerpt": "``Utacon'' on October 6th will feature the legendary program ``Let's Go Young,'' 40 years after it ended its broadcast. The cast will include Masahiko Kondo, Iyo Matsumoto, who has often appeared on \"Let's Go Young,\" and Akira Hokuto, who is a big fan of Kondo and loves the show, who will be invited to the studio and broadcast live. Introducing Masahiko Kondo's hit songs such as ``Sneaker Blues'' and ``Gingiragin ni Casualte.'' Iyo Matsumoto talks about a unique episode from when she sang her debut song \"Sentimental Journey.\" In addition, famous scenes from Kenji Sawada, Hideki Saijo, Candies, Seiko Matsuda, Naoko Kawai, and Checkers will also be broadcast. Noriko Hidaka, who belonged to the group Sundays from the program at the time and is currently active as a voice actress, also appeared in an interview. Kondo and Matsumoto talk about an episode of Sundays that they admired. Program information Utacon 2026..."
     },
     {
       "id": "ccde2727eae5f6ce",
@@ -4333,23 +3969,6 @@
       }
     },
     {
-      "id": "6ff5650ebfce3b16",
-      "title": "Reborn as a Space Mercenary Anime Shares Creditless Opening & Ending Animation Videos",
-      "link": "https://crunchyroll.com/news/latest/2026/10/5/reborn-as-a-space-mercenary-anime-creditless-opening-ending-animation-videos",
-      "publishedAt": "2026-10-05T13:35:00.000Z",
-      "excerpt": "Crunchyroll streams adaptation based on isekai science fiction light novel series",
-      "image": "https://a.storyblok.com/f/178900/1200x675/18490c623d/reborn_as_a_space_mercenary_header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
       "id": "d24ac5a64407063b",
       "title": "Krispy Kreme Japan gets extra-local with adorable new Hokkaido snow fairy donuts",
       "link": "https://soranews24.com/2026/10/05/krispy-kreme-japan-gets-extra-local-with-adorable-new-hokkaido-snow-fairy-donuts/",
@@ -4654,82 +4273,6 @@
         "accent": "#5ca8ff",
         "language": "en"
       }
-    },
-    {
-      "id": "1c64485a4c66c7a1",
-      "title": "1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中",
-      "link": "https://www.billboard-japan.com/d_news/detail/166309/",
-      "publishedAt": null,
-      "excerpt": "2026年10月8日公開（集計期間：2026年9月28日～10月4日）のBillboard JAPAN年代別書籍チャート“Billboard Japan Reiwa Books”で、葦原大介『ワー… 葦原大介 Book Chart Japan 1 2 3 4 5 6 7 Next ACCESS RANKING アクセスランキング 1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中 2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破 3 Billboard Japan Hot Shot Songs 4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中 5 日向坂46、LaLa arena TOKYO-BAYで開…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166309/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "1 [First Yomi] Snow Man \"amenity\" With 874,000 copies, it is currently the number one solo album",
-      "translatedExcerpt": "2026年10月8日公開（集計期間：2026年9月28日～10月4日）のBillboard JAPAN年代別書籍チャート“Billboard Japan Reiwa Books”で、葦原大介『ワー… 葦原大介 Book Chart Japan 1 2 3 4 5 6 7 Next ACCESS RANKING アクセスランキング 1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中 2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破 3 Billboard Japan Hot Shot Songs 4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中 5 日向坂46、LaLa arena TOKYO-BAYで開…"
-    },
-    {
-      "id": "9de0e1663bd560f6",
-      "title": "2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破",
-      "link": "https://www.billboard-japan.com/d_news/detail/166251/",
-      "publishedAt": null,
-      "excerpt": "葦原大介 Book Chart Japan 1 2 3 4 5 6 7 Next ACCESS RANKING アクセスランキング 1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中 2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破 3 Billboard Japan Hot Shot Songs 4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中 5 日向坂46、LaLa arena TOKYO-BAYで開催された【18th Single ひなた坂46 LIVE】最終日のオフィシャルライブレポート到着 SPECIAL インタビュー・タイムマシン more",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166251/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "2 [Yomi breaking news] Snow Man [amenity] Half Million surpassed in Flage Day aggregation",
-      "translatedExcerpt": "葦原大介 Book Chart Japan 1 2 3 4 5 6 7 Next ACCESS RANKING アクセスランキング 1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中 2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破 3 Billboard Japan Hot Shot Songs 4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中 5 日向坂46、LaLa arena TOKYO-BAYで開催された【18th Single ひなた坂46 LIVE】最終日のオフィシャルライブレポート到着 SPECIAL インタビュー・タイムマシン more"
-    },
-    {
-      "id": "0e38aa76d98931ae",
-      "title": "4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中",
-      "link": "https://www.billboard-japan.com/d_news/detail/166308/",
-      "publishedAt": null,
-      "excerpt": "\"/tagindex/detail/1\" class=\"hover\">Japan 1 2 3 4 5 6 7 Next ACCESS RANKING アクセスランキング 1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中 2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破 3 Billboard Japan Hot Shot Songs 4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中 5 日向坂46、LaLa arena TOKYO-BAYで開催された【18th Single ひなた坂46 LIVE】最終日のオフィシャルライブレポート到着 SPECIAL インタビュー・タイムマシン more 【BMSG…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166308/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "4 [First Yomi] KO1KEYZ \"KO1KEYZ\" With 489,000 copies, it is currently the number one single running alone",
-      "translatedExcerpt": "\"/tagindex/detail/1\" class=\"hover\">Japan 1 2 3 4 5 6 7 Next ACCESS RANKING アクセスランキング 1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中 2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破 3 Billboard Japan Hot Shot Songs 4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中 5 日向坂46、LaLa arena TOKYO-BAYで開催された【18th Single ひなた坂46 LIVE】最終日のオフィシャルライブレポート到着 SPECIAL インタビュー・タイムマシン more 【BMSG…"
-    },
-    {
-      "id": "56c4e98a722b4426",
-      "title": "5 日向坂46、LaLa arena TOKYO-BAYで開催された【18th Single ひなた坂46 LIVE】最終日のオフィシャルライブレポート到着",
-      "link": "https://www.billboard-japan.com/d_news/detail/166302/",
-      "publishedAt": null,
-      "excerpt": "lass=\"d_news__pager\"> 1 2 3 4 5 6 7 Next ACCESS RANKING アクセスランキング 1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中 2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破 3 Billboard Japan Hot Shot Songs 4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中 5 日向坂46、LaLa arena TOKYO-BAYで開催された【18th Single ひなた坂46 LIVE】最終日のオフィシャルライブレポート到着 SPECIAL インタビュー・タイムマシン more 【BMSG FES’26】連載最終回 メンバーが…",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166302/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "5 Hyuga-zaka 46, LaLa arena TOKYO-BAY [18th Single Hinata-zaka 46 live] Arrived at the official live report on the last day",
-      "translatedExcerpt": "lass=\"d_news__pager\"> 1 2 3 4 5 6 7 Next ACCESS RANKING アクセスランキング 1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中 2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破 3 Billboard Japan Hot Shot Songs 4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中 5 日向坂46、LaLa arena TOKYO-BAYで開催された【18th Single ひなた坂46 LIVE】最終日のオフィシャルライブレポート到着 SPECIAL インタビュー・タイムマシン more 【BMSG FES’26】連載最終回 メンバーが…"
     }
   ]
 }

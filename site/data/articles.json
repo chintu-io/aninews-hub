@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T16:01:53.601Z",
+  "generatedAt": "2026-10-08T16:31:47.503Z",
   "sources": [
     {
       "id": "sankaku",
@@ -135,10 +135,11 @@
     {
       "id": "billboardjapan",
       "name": "Billboard JAPAN",
-      "status": "error",
-      "mode": null,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "status": "ok",
+      "mode": "html-list",
+      "feedUrl": "https://www.billboard-japan.com/d_news/",
+      "count": 24,
+      "imageEnrichment": null
     },
     {
       "id": "barks",
@@ -169,13 +170,461 @@
   ],
   "stats": {
     "sourceCount": 9,
-    "successfulSources": 8,
-    "failedSources": 1,
-    "articleCount": 234,
-    "translatedJapaneseArticles": 60,
-    "translationAttempts": 120
+    "successfulSources": 9,
+    "failedSources": 0,
+    "articleCount": 258,
+    "translatedJapaneseArticles": 84,
+    "translationAttempts": 168
   },
   "articles": [
+    {
+      "id": "0df03b48f837405e",
+      "title": "LDH SCREAM、パフォーマンス曲「Up set feat. Reichi」配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/166328",
+      "publishedAt": "2026-10-08T19:55:00.000Z",
+      "excerpt": "index/detail/43\">Women NEWS ALL Japan Overseas 2026/10/08 21:55 2 LDH SCREAM、パフォーマンス曲「Up set feat. Reichi」配信リリース LDH発の【D.LEAGUE】チーム・LDH SCREAMが、パフォーマンス曲「Up set feat. Reichi」を配信リリースした。 本楽曲は、2026年10月7日に開催された【D.LEA… EXILE Reichi Japan ニューリリース 2026/10/08 21:35 315 &TEAMの公式キャラクター「TEAMILY」誕生、制作ビハインド映像も公開 &TEAMの公式キャラクター「TEAMILY（ティミリー）」が誕生し、制作ビハインド映像の第1話が公開された。 公…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166328/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "LDH SCREAM releases performance song “Up set feat. Reichi”",
+      "translatedExcerpt": "index/detail/43\">Women NEWS ALL Japan Overseas 2026/10/08 21:55 2 LDH SCREAM releases performance song \"Up set feat. Reichi\" LDH's [D.LEAGUE] team LDH SCREAM has released performance song \"Up set feat. Reichi\". This song was performed at [D.LEA... EXILE Reichi Japan New Release 2026/10/08 21:35 315 &TEAM's official character \"TEAMILY\" was born, and behind-the-scenes footage of the production was also released. &TEAM's official character \"TEAMILY\" was born, and the first episode of the behind-the-scenes footage of the production was released. public…"
+    },
+    {
+      "id": "71d202c46e71a82d",
+      "title": "&TEAMの公式キャラクター「TEAMILY」誕生、制作ビハインド映像も公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166325",
+      "publishedAt": "2026-10-08T19:35:00.000Z",
+      "excerpt": "/a> LDH SCREAM、パフォーマンス曲「Up set feat. Reichi」配信リリース LDH発の【D.LEAGUE】チーム・LDH SCREAMが、パフォーマンス曲「Up set feat. Reichi」を配信リリースした。 本楽曲は、2026年10月7日に開催された【D.LEA… EXILE Reichi Japan ニューリリース 2026/10/08 21:35 315 &TEAMの公式キャラクター「TEAMILY」誕生、制作ビハインド映像も公開 &TEAMの公式キャラクター「TEAMILY（ティミリー）」が誕生し、制作ビハインド映像の第1話が公開された。 公式キャラクター「TEAMILY」は、「“家族のような愛される存在”であってほしい」… &TEAM Japan 2026/10…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166325/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "&TEAM's official character \"TEAMILY\" is born, and behind-the-scenes footage of the production is also released",
+      "translatedExcerpt": "/a> LDH SCREAM releases performance song \"Up set feat. Reichi\" LDH SCREAM, the [D.LEAGUE] team from LDH, releases performance song \"Up set feat. Reichi\". This song was performed at [D.LEA... EXILE Reichi Japan New Release 2026/10/08 21:35 315 &TEAM's official character \"TEAMILY\" was born, and behind-the-scenes footage of the production was also released. &TEAM's official character \"TEAMILY\" was born, and the first episode of the behind-the-scenes footage of the production was released. The official character “TEAMILY” “wants you to be loved like family”… &TEAM Japan 2026/10…"
+    },
+    {
+      "id": "151cc084227caa91",
+      "title": "ずっと真夜中でいいのに。、新曲「あかねさす頃」ゲリラ配信＆MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166326",
+      "publishedAt": "2026-10-08T19:35:00.000Z",
+      "excerpt": "y\">2026/10/08 21:35 315 &TEAMの公式キャラクター「TEAMILY」誕生、制作ビハインド映像も公開 &TEAMの公式キャラクター「TEAMILY（ティミリー）」が誕生し、制作ビハインド映像の第1話が公開された。 公式キャラクター「TEAMILY」は、「“家族のような愛される存在”であってほしい」… &TEAM Japan 2026/10/08 21:30 51 ずっと真夜中でいいのに。、新曲「あかねさす頃」ゲリラ配信＆MV公開 ずっと真夜中でいいのに。が、新曲「あかねさす頃」をゲリラ配信リリースし、ミュージックビデオを公開した。 新曲「あかねさす頃」は、10月10日・11日の2日間、奈良・平城宮跡歴史公園で開催される単独… ずっと真夜中でいいのに。 Japan ニューリリース 2…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166326/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "I wish it was midnight all the time. , new song “Akanesasukoro” guerilla distribution & MV release",
+      "translatedExcerpt": "y\">2026/10/08 21:35 315 &TEAM's official character \"TEAMILY\" is born, and behind-the-scenes footage of the production has also been released. &TEAM's official character \"TEAMILY\" has been born, and the first episode of the behind-the-scenes footage of the production has been released. The official character \"TEAMILY\" says, \"I want you to be loved like a family member\"... &TEAM Japan 2026/10/08 21:30 51 I wish it was midnight forever. , new song \"Akanesasukoro\" guerilla distribution & MV release I wish it was midnight forever. has released a new song ``Akanesasukoro'' through guerilla distribution and released the music video. The new song ``Akanesasukoro'' will be performed at a solo performance held at the Heijo Palace Historical Park in Nara for two days, October 10th and 11th... I wish it was midnight forever. Japan New Release 2…"
+    },
+    {
+      "id": "532163d29a0c601a",
+      "title": "BOOM BOOM SATELLITES「KICK IT OUT」を再構築したEP配信へ、TeddyLoidらがリミックス参加",
+      "link": "https://www.billboard-japan.com/d_news/detail/166324",
+      "publishedAt": "2026-10-08T18:00:00.000Z",
+      "excerpt": "51 ずっと真夜中でいいのに。、新曲「あかねさす頃」ゲリラ配信＆MV公開 ずっと真夜中でいいのに。が、新曲「あかねさす頃」をゲリラ配信リリースし、ミュージックビデオを公開した。 新曲「あかねさす頃」は、10月10日・11日の2日間、奈良・平城宮跡歴史公園で開催される単独… ずっと真夜中でいいのに。 Japan ニューリリース 2026/10/08 20:00 8 BOOM BOOM SATELLITES「KICK IT OUT」を再構築したEP配信へ、TeddyLoidらがリミックス参加 BOOM BOOM SATELLITESの代表曲「KICK IT OUT」を様々な角度から楽しめるEP『KICK IT OUT EP』が、2026年10月9日に配信リリースされる。 本作は、リミッ… BOOM BOOM…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166324/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "TeddyLoid and others will participate in the remix for the EP distribution of reconstructed BOOM BOOM SATELLITES “KICK IT OUT”",
+      "translatedExcerpt": "51 I wish it was midnight forever. , new song \"Akanesasukoro\" guerilla distribution & MV release I wish it was midnight forever. has released a new song ``Akanesasukoro'' through guerilla distribution and released the music video. The new song ``Akanesasukoro'' will be performed at a solo performance held at the Heijo Palace Historical Park in Nara for two days, October 10th and 11th... I wish it was midnight forever. Japan New Release 2026/10/08 20:00 8 BOOM BOOM SATELLITES' ``KICK IT OUT'' will be remixed and remixed to be distributed as an EP ``KICK IT OUT EP'', an EP that allows you to enjoy BOOM BOOM SATELLITES's representative song ``KICK IT OUT'' from various angles, will be released on October 9, 2026. This work is limited... BOOM BOOM..."
+    },
+    {
+      "id": "aa22cf28447caaf8",
+      "title": "鈴木実貴子ズ、念願の“2人での路上ライブ”を11/6開催 当日現地で「なんかの予約できます」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166312",
+      "publishedAt": "2026-10-08T18:00:00.000Z",
+      "excerpt": "a href=\"/d_news/detail/166324\" class=\"hover\">BOOM BOOM SATELLITES「KICK IT OUT」を再構築したEP配信へ、TeddyLoidらがリミックス参加 BOOM BOOM SATELLITESの代表曲「KICK IT OUT」を様々な角度から楽しめるEP『KICK IT OUT EP』が、2026年10月9日に配信リリースされる。 本作は、リミッ… BOOM BOOM SATELLITES TeddyLoid Japan ニューリリース 2026/10/08 20:00 4 鈴木実貴子ズ、念願の“2人での路上ライブ”を11/6開催 当日現地で「なんかの予約できます」 鈴木実貴子ズが、11月6日に東京・渋谷北谷公園にて観覧無料の路上ライブ【鈴…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166312/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Mikiko Suzuki’s will hold their long-awaited “two-person street live” on November 6th. “You can make reservations on the spot” on the day of the event.",
+      "translatedExcerpt": "a href=\"/d_news/detail/166324\" class=\"hover\">BOOM BOOM SATELLITES' ``KICK IT OUT'' will be remixed and remixed to be distributed as an EP ``KICK IT OUT EP'', which allows you to enjoy BOOM BOOM SATELLITES's representative song ``KICK IT OUT'' from various angles, will be released on October 9, 2026. This work is limited... BOOM BOOM SATELLITES TeddyLoid Japan New Release 2026/10/08 20:00 4 Mikiko Suzuki's will hold a long-awaited \"two-person street live\" on November 6th \"You can make reservations for something\" on the spot on the day Mikiko Suzuki's will hold a free street live show at Shibuya Chatan Park in Tokyo on November 6th [Suzuki..."
+    },
+    {
+      "id": "4b38c1cef1f130be",
+      "title": "SEKAI NO OWARIのカプセルトイ『銀テープストラップ』、第1弾の再販売＆第2弾の発売が決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166319",
+      "publishedAt": "2026-10-08T17:55:00.000Z",
+      "excerpt": "y\">2026/10/08 19:55 3 ヤバイTシャツ屋さん、最新曲「アルゴリズムの犬」応援映像を公開 ヤバイTシャツ屋さんが、最新曲「アルゴリズムの犬」の応援映像を公開した。 最新曲「アルゴリズムの犬」は、2026年7月29日にCDリリースされたニューアルバム『Magical Tank-top P… ヤバイＴシャツ屋さん Japan 2026/10/08 19:35 28 SEKAI NO OWARIのカプセルトイ『銀テープストラップ』、第1弾の再販売＆第2弾の発売が決定 SEKAI NO OWARIのカプセルトイ『SEKAI NO OWARI 銀テープストラップ』vol.1の再販売と、vol.2の発売が決定した。 本商品は、過去のライブ公演で使用された“銀テープ”… SEKAI NO OWARI…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166319/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "SEKAI NO OWARI's capsule toy \"Silver Tape Strap\", first resale and second release decided",
+      "translatedExcerpt": "y\">2026/10/08 19:55 3 Yabai T-shirt shop has released a support video for their latest song ``Algorithm no dog'' Yabai T-shirt shop has released a support video for their latest song ``Algorithm no dog''. The latest song \"Algorithm no Dog\" is from the new album \"Magical Tank-top P\" which was released on CD on July 29, 2026... Yabai T-Shirt Shop Japan 2026/10/08 19:35 28 SEKAI NO OWARI's capsule toy \"Silver Tape Strap\", 1st resale & 2nd release decided SEKAI NO OWARI's capsule toy \"SEKAI NO OWARI\" It has been decided that ``Silver Tape Strap'' vol.1 will be resold and vol.2 will be released. This product is the \"silver tape\" used in past live performances... SEKAI NO OWARI..."
+    },
+    {
+      "id": "0bbdecc3e40b604c",
+      "title": "ヤバイTシャツ屋さん、最新曲「アルゴリズムの犬」応援映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166322",
+      "publishedAt": "2026-10-08T17:55:00.000Z",
+      "excerpt": "com/d_news/detail/166312\">4 鈴木実貴子ズ、念願の“2人での路上ライブ”を11/6開催 当日現地で「なんかの予約できます」 鈴木実貴子ズが、11月6日に東京・渋谷北谷公園にて観覧無料の路上ライブ【鈴木実貴子ズが路上ライブします！】を開催する。 これまで鈴木実貴子ズは全国47都道府県を訪れ、各地で路上ライブを行う企画… 鈴木実貴子ズ Japan 本人コメントあり ライブ 2026/10/08 19:55 3 ヤバイTシャツ屋さん、最新曲「アルゴリズムの犬」応援映像を公開 ヤバイTシャツ屋さんが、最新曲「アルゴリズムの犬」の応援映像を公開した。 最新曲「アルゴリズムの犬」は、2026年7月29日にCDリリースされたニューアルバム『Magical Tank-top P… ヤバイＴシャツ…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166322/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Yabai T-shirt shop releases support video for latest song “Algorithm no Dog”",
+      "translatedExcerpt": "com/d_news/detail/166312\">4 Mikiko Suzuki's will hold a long-awaited \"two-person street live\" on November 6th. You can make reservations on the spot on the day. Mikiko Suzuki's will hold a free street live performance at Shibuya Chatan Park in Tokyo on November 6th [Mikiko Suzuki's will perform on the street! ] will be held. So far, Mikiko Suzuki's has visited 47 prefectures across the country and has planned to perform street live performances in various places...Mikiko Suzuki's Japan Comments Live 2026/10/08 19:55 3 Yabai T-Shirt Shop has released a support video for their latest song ``Algorithm no Inu'' Yabai T-Shirt Shop has released a support video for their latest song ``Algorithm no Inu''. The latest song \"Algorithm no Dog\" is from the new album \"Magical Tank-top P... Yabai T-shirt...\" which was released on CD on July 29, 2026."
+    },
+    {
+      "id": "f6c4a4e5c2851b64",
+      "title": "XGのニューシングル『DEPENDS』は全2曲、米国限定でCDリリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/166318",
+      "publishedAt": "2026-10-08T17:30:00.000Z",
+      "excerpt": "0/08 19:35 28 SEKAI NO OWARIのカプセルトイ『銀テープストラップ』、第1弾の再販売＆第2弾の発売が決定 SEKAI NO OWARIのカプセルトイ『SEKAI NO OWARI 銀テープストラップ』vol.1の再販売と、vol.2の発売が決定した。 本商品は、過去のライブ公演で使用された“銀テープ”… SEKAI NO OWARI Japan 2026/10/08 19:30 286 XGのニューシングル『DEPENDS』は全2曲、米国限定でCDリリース XGが、2026年11月6日にリリースするニューシングル『DEPENDS』のトラックリストを公開した。 本作には、全2曲を収録。タイトル曲「DEPENDS」は、“YES”か“NO”か、ひとつの答え… XG Japan 2026/…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166318/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "XG's new single \"DEPENDS\" has 2 songs and will be released on CD only in the US",
+      "translatedExcerpt": "0/08 19:35 28 SEKAI NO OWARI's capsule toy \"Silver Tape Strap\", 1st resale and 2nd release decided. SEKAI NO OWARI's capsule toy \"SEKAI NO OWARI Silver Tape Strap\" vol.1 will be resold and vol.2 will be released. This product is the \"silver tape\" used in past live performances... SEKAI NO OWARI Japan 2026/10/08 19:30 286 XG's new single \"DEPENDS\" has 2 songs, CD release only in the US XG has released the track list of their new single \"DEPENDS\" to be released on November 6, 2026. This work includes a total of 2 songs. The title song “DEPENDS” is a “YES” or “NO” answer… XG Japan 2026/…"
+    },
+    {
+      "id": "d37d41f5da951e3c",
+      "title": "SEVENTEENの新ユニット・JxJ、1stミニアルバム『DREAMSCAPE』リード曲は「12 o&#039;clock」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166317",
+      "publishedAt": "2026-10-08T17:25:00.000Z",
+      "excerpt": "9:30 286 XGのニューシングル『DEPENDS』は全2曲、米国限定でCDリリース XGが、2026年11月6日にリリースするニューシングル『DEPENDS』のトラックリストを公開した。 本作には、全2曲を収録。タイトル曲「DEPENDS」は、“YES”か“NO”か、ひとつの答え… XG Japan 2026/10/08 19:25 3 SEVENTEENの新ユニット・JxJ、1stミニアルバム『DREAMSCAPE』リード曲は「12 o&#039;clock」 SEVENTEENのJEONGHANとJOSHUAによる新ユニット・JxJ (SEVENTEEN)が、2026年10月19日にリリースとなる1stミニアルバム『DREAMSCAPE』のトラックリス… SEVENTEEN K-POP 2026…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166317/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "SEVENTEEN's new unit JxJ's 1st mini album \"DREAMSCAPE\" lead song is \"12 o'clock\"",
+      "translatedExcerpt": "9:30 286 XG's new single ``DEPENDS'' has 2 songs and will be released on CD only in the US XG has released the tracklist for their new single ``DEPENDS'' to be released on November 6, 2026. This work includes a total of 2 songs. The title song \"DEPENDS\" is a \"YES\" or \"NO\" answer... (SEVENTEEN) tracklist for their 1st mini album “DREAMSCAPE” to be released on October 19, 2026… SEVENTEEN K-POP 2026…"
+    },
+    {
+      "id": "3b4036b721a85043",
+      "title": "FLOW、TVアニメ『帰還者の魔法は特別です』第二期OPテーマ「Sorrow」先行配信開始",
+      "link": "https://www.billboard-japan.com/d_news/detail/166321",
+      "publishedAt": "2026-10-08T17:20:00.000Z",
+      "excerpt": "> 3 SEVENTEENの新ユニット・JxJ、1stミニアルバム『DREAMSCAPE』リード曲は「12 o&#039;clock」 SEVENTEENのJEONGHANとJOSHUAによる新ユニット・JxJ (SEVENTEEN)が、2026年10月19日にリリースとなる1stミニアルバム『DREAMSCAPE』のトラックリス… SEVENTEEN K-POP 2026/10/08 19:20 3 FLOW、TVアニメ『帰還者の魔法は特別です』第二期OPテーマ「Sorrow」先行配信開始 FLOWが、TVアニメ『帰還者の魔法は特別です』第2期のオープニングテーマとなる新曲「Sorrow」の先行配信を開始した。 「Sorrow」のミュージックビデオは、10月15日19時にFLOW… FLOW Japan…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166321/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "FLOW begins pre-distribution of “Sorrow”, the opening theme for the second season of the TV anime “The Returner’s Magic is Special”",
+      "translatedExcerpt": "> 3 SEVENTEEN's new unit JxJ, 1st mini album \"DREAMSCAPE\" lead song is \"12 o'clock\" JxJ (SEVENTEEN), a new unit composed of SEVENTEEN's JEONGHAN and JOSHUA, tracks list of 1st mini album \"DREAMSCAPE\" to be released on October 19, 2026... SEVENTEEN K-POP 2026/10/08 19:20 3 FLOW starts pre-distribution of ``Sorrow'', the opening theme for the second season of the TV anime ``The Returner's Magic is Special'' FLOW has started pre-distribution of the new song ``Sorrow'', which will be the opening theme for the second season of the TV anime ``The Returner's Magic is Special''. The music video for “Sorrow” will be released on October 15th at 7pm on FLOW… FLOW Japan…"
+    },
+    {
+      "id": "7b9805c084b75bb5",
+      "title": "RADWIMPS、映画『汝、星のごとく』主題歌「夕星-ゆうづつ-」MVプレミア公開決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166320",
+      "publishedAt": "2026-10-08T17:15:00.000Z",
+      "excerpt": "ews/detail/166321\">3 FLOW、TVアニメ『帰還者の魔法は特別です』第二期OPテーマ「Sorrow」先行配信開始 FLOWが、TVアニメ『帰還者の魔法は特別です』第2期のオープニングテーマとなる新曲「Sorrow」の先行配信を開始した。 「Sorrow」のミュージックビデオは、10月15日19時にFLOW… FLOW Japan アニメ ニューリリース 2026/10/08 19:15 13 RADWIMPS、映画『汝、星のごとく』主題歌「夕星-ゆうづつ-」MVプレミア公開決定 RADWIMPSが、映画『汝、星のごとく』の主題歌として書き下ろした「夕星-ゆうづつ-」のミュージックビデオを10月9日21時にプレミア公開することが決定した。 「夕星-ゆうづつ-」は、主人公… RADWIMP…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166320/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "RADWIMPS will release the MV premiere of the theme song “Yuuzutsu” for the movie “You Are Like a Star”",
+      "translatedExcerpt": "ews/detail/166321\">3 FLOW begins pre-distribution of \"Sorrow,\" the opening theme for the second season of the TV anime \"The Returner's Magic is Special.\" FLOW has begun pre-distribution of the new song \"Sorrow,\" which will be the opening theme for the second season of the TV anime \"The Returner's Magic is Special.\" The music video for “Sorrow” will be released on October 15th at 19:00 on FLOW… FLOW Japan Anime New Release 2026/10/08 19:15 13 RADWIMPS will release the MV premiere of “Yuusei”, the theme song for the movie “You, Starry” It has been decided that RADWIMPS will premiere the music video for ``Yuusei -Yuzutsu-'', which was written as the theme song for the movie ``You Are Like a Star'', on October 9th at 21:00. “Yuusei-Yuzutsu-” is the main character… RADWIMP…"
+    },
+    {
+      "id": "af34bcf16b70b98a",
+      "title": "汐れいら、恋愛番組『星の見える町で』主題歌に決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166316",
+      "publishedAt": "2026-10-08T17:10:00.000Z",
+      "excerpt": "ard-japan.com/d_news/detail/166320\">13 RADWIMPS、映画『汝、星のごとく』主題歌「夕星-ゆうづつ-」MVプレミア公開決定 RADWIMPSが、映画『汝、星のごとく』の主題歌として書き下ろした「夕星-ゆうづつ-」のミュージックビデオを10月9日21時にプレミア公開することが決定した。 「夕星-ゆうづつ-」は、主人公… RADWIMPS Japan 映画 ニューリリース 2026/10/08 19:10 1 汐れいら、恋愛番組『星の見える町で』主題歌に決定 汐れいらが、Hulu×日本テレビの新恋愛番組『星の見える町で』の主題歌を担当することが決定した。 『星の見える町で』は、「恋」と「移住」をテーマにした新恋愛番組。都会での暮らしに生きづらさを感… 汐れいら Jap…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166316/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Reira Shio has been chosen as the theme song for the romance program “Starry Night Town”",
+      "translatedExcerpt": "ard-japan.com/d_news/detail/166320\">13 RADWIMPS will premiere the music video for ``Yuusei Yuzutsu,'' the theme song for the movie ``You, the Star.'' It has been decided that RADWIMPS will premiere the music video for ``Yuusei Yuzutsu,'' the theme song for the movie ``You, the Star'' on October 9th at 21:00. ``Yuusei -Yuzutsu-'' is the main character... RADWIMPS Japan Movie New Release 2026/10/08 19:10 1 Reira Shio has been chosen as the theme song for the romance program ``In the Town Where Stars Can Be Seen.'' Reira Shio has been chosen to sing the theme song for Hulu x Nippon Television's new romance program ``In the Town Where the Stars are Viewed.'' ``In the Starry Town'' is a new romance program with the themes of ``love'' and ``migration.'' Feeling the difficulty of living in the city... Reira Shio Jap..."
+    },
+    {
+      "id": "87acb8a9b807b3ec",
+      "title": "ロクデナシ、TVアニメ『世界最強の魔女、始めました』ED主題歌「星を巡る」配信リリース＆MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166315",
+      "publishedAt": "2026-10-08T17:05:00.000Z",
+      "excerpt": "\"hover\"> 1 汐れいら、恋愛番組『星の見える町で』主題歌に決定 汐れいらが、Hulu×日本テレビの新恋愛番組『星の見える町で』の主題歌を担当することが決定した。 『星の見える町で』は、「恋」と「移住」をテーマにした新恋愛番組。都会での暮らしに生きづらさを感… 汐れいら Japan 本人コメントあり 2026/10/08 19:05 6 ロクデナシ、TVアニメ『世界最強の魔女、始めました』ED主題歌「星を巡る」配信リリース＆MV公開 ロクデナシが、TVアニメ『世界最強の魔女、始めました』のエンディング主題歌となる新曲「星を巡る」を配信リリースし、ミュージックビデオを公開した。 ロクデナシは、ボーカリストのにんじんとボカロP… ロクデナシ Japan アニメ ニューリリース 2026/10/08 19…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166315/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Rokudenashi, TV anime “The World’s Strongest Witch, Hajimedashita” ED theme song “Hoshi wo Meguru” released & MV released",
+      "translatedExcerpt": "\"hover\"> 1 Reira Shio has been chosen to sing the theme song for the romance show ``Hoshi no Mieru Machi de'' Reira Shio has been chosen to sing the theme song for Hulu x Nippon Television's new romance show ``Hoshi no Mieru Machi de''. ``In the Starry Town'' is a new romance program with the themes of ``love'' and ``migration.'' Feeling the difficulty of living in the city...Reira Shio Japan Personal comment 2026/10/08 19:05 6 Rokudenashi releases the ending theme song \"Hoshi wo Meguru\" for the TV anime \"The World's Strongest Witch, Hajimashita\" and releases the music video Rokudenashi has released the new song \"Hoshi wo Meguru\", which will be the ending theme song for the TV anime \"The World's Strongest Witch, Hajimashita\", and released the music video. Rokudenashi is vocalist Ninjin and Vocaloid P… Rokudenashi Japan Anime New Release 2026/10/08 19…"
+    },
+    {
+      "id": "335f9b36ac77e166",
+      "title": "CVLTE、AssToro迎えた新曲「hedonist. II (feat. AssToro)」配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/166314",
+      "publishedAt": "2026-10-08T17:00:00.000Z",
+      "excerpt": "5\">6 ロクデナシ、TVアニメ『世界最強の魔女、始めました』ED主題歌「星を巡る」配信リリース＆MV公開 ロクデナシが、TVアニメ『世界最強の魔女、始めました』のエンディング主題歌となる新曲「星を巡る」を配信リリースし、ミュージックビデオを公開した。 ロクデナシは、ボーカリストのにんじんとボカロP… ロクデナシ Japan アニメ ニューリリース 2026/10/08 19:00 1 CVLTE、AssToro迎えた新曲「hedonist. II (feat. AssToro)」配信リリース CVLTEが、新曲「hedonist. II (feat. AssToro)」を配信リリースした。 本作は、CVLTEのAviel kaeiがバンドからソロプロジェクトへ移行して2作目となるシ… CVLTE Jap…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166314/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "CVLTE releases new song “hedonist. II (feat. AssToro)” featuring AssToro",
+      "translatedExcerpt": "5\">6 Rokudenashi releases the ending theme song ``Hoshi wo Meguru'' for the TV anime ``The World's Strongest Witch, Hajimashita'' and releases the music video Rokudenashi has released the new song ``Hoshi wo Meguru'', which will be the ending theme song for the TV anime ``The World's Strongest Witch Has Happened'', and released the music video. Rokudenashi and Vocaloid P… Rokudenashi Japan Anime New Release 2026/10/08 19:00 1 CVLTE releases new song “hedonist. II (feat. AssToro)” featuring AssToro CVLTE has released a new song “hedonist. This work is CVLTE's Aviel kaei's second work after transitioning from a band to a solo project.CVLTE Jap…"
+    },
+    {
+      "id": "0160dd8e5c8fa334",
+      "title": "Kroi「SPIN」グローバル・ジャパン・ソングス首位にコメントが到着「皆さんへの感謝が湧き立っております」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166291",
+      "publishedAt": "2026-10-08T17:00:00.000Z",
+      "excerpt": "class=\"comment\" data-url=\"https://www.billboard-japan.com/d_news/detail/166314\">1 CVLTE、AssToro迎えた新曲「hedonist. II (feat. AssToro)」配信リリース CVLTEが、新曲「hedonist. II (feat. AssToro)」を配信リリースした。 本作は、CVLTEのAviel kaeiがバンドからソロプロジェクトへ移行して2作目となるシ… CVLTE Japan ニューリリース 2026/10/08 19:00 169 Kroi「SPIN」グローバル・ジャパン・ソングス首位にコメントが到着「皆さんへの感謝が湧き立っております」 2026年10月8日公開（集計期間：2026年9月2…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166291/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Kroi's ``SPIN'' comment arrives at the top of Global Japan Songs ``I am filled with gratitude to everyone''",
+      "translatedExcerpt": "class=\"comment\" data-url=\"https://www.billboard-japan.com/d_news/detail/166314\">1 CVLTE releases new song ``hedonist. This work is CVLTE's Aviel kaei's second work after transitioning from a band to a solo project.CVLTE Japan New Release 2026/10/08 19:00 169 Kroi \"SPIN\" Comment arrives at the top of Global Japan Songs \"My gratitude to everyone is rising\" Released on October 8, 2026 (Aggregation period: September 2, 2026)"
+    },
+    {
+      "id": "5509d4d20e2c5829",
+      "title": "JO（&TEAM）×RAN（MAZZEL）、『Quick Japan Monologue』第1号特別版表紙に登場＆特集掲載",
+      "link": "https://www.billboard-japan.com/d_news/detail/166304",
+      "publishedAt": "2026-10-08T16:30:00.000Z",
+      "excerpt": "ジャパン・ソングス首位にコメントが到着「皆さんへの感謝が湧き立っております」 2026年10月8日公開（集計期間：2026年9月25日～10月1日）の世界でヒットしている日本の楽曲をランキング化した“Global Japan Songs Excl. Japan”で、「SPI… Kroi Chart Japan J-Worldwide 本人コメントあり 2026/10/08 18:30 671 JO（&TEAM）×RAN（MAZZEL）、『Quick Japan Monologue』第1号特別版表紙に登場＆特集掲載 JO（&TEAM）とRAN（MAZZEL）が、11月18日発売の『Quick Japan Monologue』#01 SPECIAL EDITION特別カバー版の表紙を飾ることが発表された。 本…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166304/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "JO (&TEAM) x RAN (MAZZEL) appears on the cover of “Quick Japan Monologue” 1st issue special edition & featured feature",
+      "translatedExcerpt": "A comment arrives at the top of Japan Songs, \"I am filled with gratitude to everyone.\" In \"Global Japan Songs Excl. 671 JO (&TEAM) x RAN (MAZZEL) appear on the cover of \"Quick Japan Monologue\" No. 1 special edition and featured feature It has been announced that JO (&TEAM) and RAN (MAZZEL) will appear on the cover of the special cover edition of \"Quick Japan Monologue\" #01 SPECIAL EDITION, which will be released on November 18th."
+    },
+    {
+      "id": "f0f02a8e5b212e30",
+      "title": "Blizzard Is Making WoW Forever’s Controversial Skyborne Race Look Worse On Purpose, And That’s A Good Thing",
+      "link": "https://kotaku.com/blizzard-is-making-wow-forevers-controversial-skyborne-race-look-worse-on-purpose-and-thats-a-good-thing-2000742025",
+      "publishedAt": "2026-10-08T16:03:15.000Z",
+      "excerpt": "Standard-definition elf",
+      "image": "https://kotaku.com/app/uploads/2026/10/skyborne.jpg",
+      "source": {
+        "id": "kotaku",
+        "name": "Kotaku",
+        "short": "Kotaku",
+        "siteUrl": "https://kotaku.com/",
+        "category": "Gaming & Culture",
+        "accent": "#ff6b9d",
+        "language": "en"
+      }
+    },
+    {
+      "id": "16be6b7f34b178bd",
+      "title": "Sony Launches New Crunchyroll Division to Turn Anime Into Live-Action & Global Stories Into Anime",
+      "link": "https://news.sankakucomplex.com/n/W5qw4Dgtj11OfTG8PJVHmA",
+      "publishedAt": "2026-10-08T16:00:48.000Z",
+      "excerpt": "Sony has announced the creation of Crunchyroll Storyworks, a new division dedicated to developing live-action adaptations of Japanese anime while also bringing stories from around the world into anime.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "6229162523d1c920",
+      "title": "Matcha ice cream discontinued by one of Japan’s favorite ice cream brands",
+      "link": "https://soranews24.com/2026/10/09/matcha-ice-cream-discontinued-by-one-of-japans-favorite-ice-cream-brands/",
+      "publishedAt": "2026-10-08T16:00:28.000Z",
+      "excerpt": "24 years after its debut, green tea flavor gets kicked out of the Super Cup family. With matcha being one of Japan’s favorite ice cream flavors, and confectioner Meiji’s Essel Super Cup series being one of Japan’s favorite brands of ice cream, matcha-flavored Super Cup seems like a no-brainer, right? Sadly, very soon it’s going […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/0_6f523a.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "3f13a08607151948",
+      "title": "【ビルボード】Kroi「SPIN」4か国で日本語曲トップ 『ヒロアカ』10周年記念歌唱曲もトップ10入り",
+      "link": "https://www.billboard-japan.com/d_news/detail/166311",
+      "publishedAt": "2026-10-08T16:00:00.000Z",
+      "excerpt": "MAZZEL &TEAM RAN Girls2 Book Japan 映画 2026/10/08 18:00 154 【ビルボード】Kroi「SPIN」4か国で日本語曲トップ 『ヒロアカ』10周年記念歌唱曲もトップ10入り 世界各国でヒットしている日本の楽曲をランキング化した “Japan Songs（国/地域別チャート）”。当週はTERIYAKI BOYZ「TOKYO DRIFT (FAST & FURIOUS)」… Kroi Chart Japan J-Worldwide 2026/10/08 18:00 199 【ビルボード】Kroi「SPIN」グローバル・ジャパン・ソングス初の首位 世界でヒットしている日本の楽曲をランキング化した“Global Japan Songs Excl. Japan”。今…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166311/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Kroi's \"SPIN\" tops Japanese songs in 4 countries \"Heroaka\" 10th anniversary song also ranks in the top 10",
+      "translatedExcerpt": "MAZZEL &TEAM RAN Girls2 Book Japan Movie 2026/10/08 18:00 154 [Billboard] Kroi's \"SPIN\" tops Japanese songs in 4 countries \"Heroaka\" 10th anniversary song also enters the top 10 \"Japan Songs (charts by country/region)\" ranks Japanese songs that are hits around the world. This week, TERIYAKI BOYZ's \"TOKYO DRIFT (FAST & FURIOUS)\"... Kroi Chart Japan J-Worldwide 2026/10/08 18:00 199 [Billboard] Kroi's \"SPIN\" reaches number one on Global Japan Songs for the first time \"Global Japan Songs Excl. Japan\" ranks Japanese songs that are hits around the world. now…"
+    },
+    {
+      "id": "1d5f2142d8b06899",
+      "title": "【ビルボード】Kroi「SPIN」グローバル・ジャパン・ソングス初の首位",
+      "link": "https://www.billboard-japan.com/d_news/detail/166224",
+      "publishedAt": "2026-10-08T16:00:00.000Z",
+      "excerpt": "11\">154 【ビルボード】Kroi「SPIN」4か国で日本語曲トップ 『ヒロアカ』10周年記念歌唱曲もトップ10入り 世界各国でヒットしている日本の楽曲をランキング化した “Japan Songs（国/地域別チャート）”。当週はTERIYAKI BOYZ「TOKYO DRIFT (FAST & FURIOUS)」… Kroi Chart Japan J-Worldwide 2026/10/08 18:00 199 【ビルボード】Kroi「SPIN」グローバル・ジャパン・ソングス初の首位 世界でヒットしている日本の楽曲をランキング化した“Global Japan Songs Excl. Japan”。今週はKroi「SPIN」が首位を獲得した（集計期間：2026年9月25日～10月… Kroi Char…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166224/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Kroi “SPIN” tops Global Japan Songs for the first time",
+      "translatedExcerpt": "11\">154 [Billboard] Kroi's \"SPIN\" tops Japanese songs in 4 countries \"Heroaka\" 10th Anniversary song also enters the top 10 \"Japan Songs (charts by country/region)\" ranks Japanese songs that are hits around the world. This week, TERIYAKI BOYZ's \"TOKYO DRIFT (FAST & FURIOUS)\"... Kroi Chart Japan J-Worldwide 2026/10/08 18:00 199 [Billboard] Kroi's \"SPIN\" reaches number one on Global Japan Songs for the first time \"Global Japan Songs Excl. Japan\" ranks Japanese songs that are hits around the world. This week, Kroi “SPIN” took first place (Aggregation period: September 25, 2026 – October 2026… Kroi Char…"
+    },
+    {
+      "id": "8650e9a75d848ca0",
+      "title": "【ビルボード】『ワールドトリガー 30巻』が“Reiwa Books”首位獲得、新刊コミックス9作品がトップ10に初登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/166285",
+      "publishedAt": "2026-10-08T15:45:00.000Z",
+      "excerpt": "【ビルボード】葦原大介『ワールドトリガー 30巻』総合書籍チャート首位 トップ10を漫画が独占 2026年10月8日公開（集計期間：2026年9月28日～10月4日）のBillboard JAPAN 総合書籍チャート“JAPAN Book Hot 100”は、葦原大介『ワールドトリガー 30… 葦原大介 Book Chart Japan 2026/10/08 17:45 35 【ビルボード】『ワールドトリガー 30巻』が“Reiwa Books”首位獲得、新刊コミックス9作品がトップ10に初登場 2026年10月8日公開（集計期間：2026年9月28日～10月4日）のBillboard JAPAN年代別書籍チャート“Billboard Japan Reiwa Books”で、葦原大介『ワー… 葦原大介 B…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166285/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] “World Trigger Volume 30” takes first place on “Reiwa Books”, 9 new comics appear in the top 10 for the first time",
+      "translatedExcerpt": "[Billboard] Daisuke Ashihara “World Trigger Volume 30” tops the general book chart Manga dominates the top 10 Billboard JAPAN general book chart “JAPAN Book Hot 100” released on October 8, 2026 (collection period: September 28 to October 4, 2026) is Daisuke Ashihara “World Trigger Volume 30… Daisuke Ashihara Book Chart Japan 2026/10/08 17:45 35 [Billboard] \"World Trigger Volume 30\" takes the top spot on \"Reiwa Books\", 9 new comics appear in the top 10 for the first time Billboard JAPAN age-specific book chart \"Billboard Japan Reiwa\" released on October 8, 2026 (collection period: September 28, 2026 - October 4, 2026) Books”, Daisuke Ashihara “Wa… Daisuke Ashihara B…"
+    },
+    {
+      "id": "8f7fc2056f8cf5dc",
+      "title": "【ビルボード】葦原大介『ワールドトリガー 30巻』総合書籍チャート首位 トップ10を漫画が独占",
+      "link": "https://www.billboard-japan.com/d_news/detail/166290",
+      "publishedAt": "2026-10-08T15:45:00.000Z",
+      "excerpt": "etail/166224\">199 【ビルボード】Kroi「SPIN」グローバル・ジャパン・ソングス初の首位 世界でヒットしている日本の楽曲をランキング化した“Global Japan Songs Excl. Japan”。今週はKroi「SPIN」が首位を獲得した（集計期間：2026年9月25日～10月… Kroi Chart Japan J-Worldwide 2026/10/08 17:45 13 【ビルボード】葦原大介『ワールドトリガー 30巻』総合書籍チャート首位 トップ10を漫画が独占 2026年10月8日公開（集計期間：2026年9月28日～10月4日）のBillboard JAPAN 総合書籍チャート“JAPAN Book Hot 100”は、葦原大介『ワールドトリガー 30… 葦原大介…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166290/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Daisuke Ashihara's ``World Trigger Volume 30'' tops the general book chart Manga dominates the top 10",
+      "translatedExcerpt": "etail/166224\">199 [Billboard] Kroi's \"SPIN\" takes first place in Global Japan Songs. \"Global Japan Songs Excl. Japan\" ranks Japanese songs that are hits around the world. This week, Kroi's \"SPIN\" took the top spot (collection period: September 25, 2026 - October 2026... Kroi Chart Japan J-Worldwide 2026/10/08 17:45 13 [Billboard] Daisuke Ashihara's \"World Trigger Volume 30\" tops the general book chart Manga dominates the top 10 Billboard JAPAN's comprehensive book chart \"JAPAN Book Hot 100\" released on October 8, 2026 (collection period: September 28, 2026 - October 4, 2026) is Daisuke Ashihara's \"World Trigger 30... Daisuke Ashihara..."
+    },
+    {
+      "id": "4019ab77269ec228",
+      "title": "shallm Perform Opening Theme Song for 'Now That We Draw' Anime",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-08/shallm-perform-opening-theme-song-for-now-that-we-draw-anime/.242638",
+      "publishedAt": "2026-10-08T15:31:20.000Z",
+      "excerpt": "Vocalist lia's band wrote song for anime",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ3/cms/news.9/242143/260924-01-1.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "26ccc610d15a3a99",
       "title": "Go with the Clouds, North-by-Northwest Anime Debuts in 2027",
@@ -1117,7 +1566,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Interview] Kein releases his first album in 3 years, “Iustitia sine misericordia” “How can we express ourselves if we do something like this now?”",
-      "translatedExcerpt": "Kein released his new album ``Iustitia sine misericordia'' on October 7th. ◆New photos This is his first major full-length album, three years after his previous album ``Hakai to Imagination''. This work allows you to fully enjoy Kein's charms, from darkness to cynicism, as well as the technicality of his vocal expressions and performance. Let's unravel each of the recorded songs one by one along with the words of the members. ◆ ◆ ◆ ─ Your full album “Iustitia sine misericordia” has been completed. Is this work something you've been working hard on for so long? Or was it recently created all at once? First of all, please tell us about its origins. aie(G…"
+      "translatedExcerpt": "Kein released his new album ``Iustitia sine misericordia'' on October 7th. ◆New photos This is his first major album in three years since his previous album ``Hakai to Imagination''. This work allows you to fully enjoy Kein's charms, from darkness to cynicism, as well as the technicality of his vocal expressions and performance. Let's unravel each of the recorded songs one by one along with the words of the members. ◆ ◆ ◆ ─ Your full album “Iustitia sine misericordia” has been completed. Is this work something you've been working hard on for so long? Or was it recently created all at once? First of all, please tell us about its origins. aie(G…"
     },
     {
       "id": "f833001c098bf2b3",
@@ -1711,7 +2160,7 @@
       "title": "Former Capcom Dev Says “Extreme Crunch” Kept Women Out of Director Roles in Japan",
       "link": "https://news.sankakucomplex.com/n/9KumB0dOXDBJSDQrbN9iPQ",
       "publishedAt": "2026-10-07T20:55:17.000Z",
-      "excerpt": "Former Capcom developer Masakazu Sugimori believes Japan’s historically extreme crunch culture may help explain why relatively few women rose to become prominent game directors (save for the more obvious reason), arguing that the industry’s old working conditions disproportionately favored people…",
+      "excerpt": "",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1849,23 +2298,6 @@
       "publishedAt": "2026-10-07T18:30:52.000Z",
       "excerpt": "Maven and MerK had commentated together for years",
       "image": "https://kotaku.com/app/uploads/2026/10/callofdutyleague.jpg",
-      "source": {
-        "id": "kotaku",
-        "name": "Kotaku",
-        "short": "Kotaku",
-        "siteUrl": "https://kotaku.com/",
-        "category": "Gaming & Culture",
-        "accent": "#ff6b9d",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2daf9e98ccf6f7d0",
-      "title": "Unity Spark Promises To Let You Vibe Code Your ‘Dream Game’ In The Most Embarrassing Video Imaginable",
-      "link": "https://kotaku.com/unity-spark-space-corridor-vibe-coding-ai-trailer-game-development-2000741912",
-      "publishedAt": "2026-10-07T18:00:56.000Z",
-      "excerpt": "Get ready for the vision that is Space Corridor",
-      "image": "https://kotaku.com/app/uploads/2026/10/space-corridor-1280x665.jpg",
       "source": {
         "id": "kotaku",
         "name": "Kotaku",
@@ -3402,23 +3834,6 @@
       }
     },
     {
-      "id": "ce0d5609917a51b9",
-      "title": "The Otome Heroine's Fight for Survival Anime's Teaser Unveils Staff, Cast, July 2027 Debut",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-06/the-otome-heroine-fight-for-survival-anime-teaser-unveils-staff-cast-july-2027-debut/.242525",
-      "publishedAt": "2026-10-06T09:03:05.000Z",
-      "excerpt": "Fūka Izumi plays Alicia in TV anime by Noriyoshi Sasaki, Studio Clutch, Seven",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gID/youtube/DGPf04O404Y.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
       "id": "b6c2a1361a2cfa0c",
       "title": "'Otome Game no Heroine de Saikyou Survival' Unveils Main Staff, Cast for Summer 2027",
       "link": "https://myanimelist.net/news/74795171?_location=rss",
@@ -3799,9 +4214,9 @@
       }
     },
     {
-      "id": "33b94154ded9bffa",
+      "id": "cb5355d5ab84f091",
       "title": "Capcom Forms Dedicated Team to Improve Character Graphics Across All Its Games",
-      "link": "https://news.sankakucomplex.com/n/RKvZk1af4gP7eK9kFoVLLg",
+      "link": "https://news.sankakucomplex.com/n/smB8sxrsct_uCtxZ8HDo-Q",
       "publishedAt": "2026-10-05T16:07:49.000Z",
       "excerpt": "Capcom has established a dedicated cross-functional team tasked with spreading the latest RE ENGINE character technology across all of its games, allowing advancements developed for one title to more easily benefit future projects.",
       "image": "https://news.sankakucomplex.com/",
@@ -4071,23 +4486,6 @@
       }
     },
     {
-      "id": "9228f708a7f6fad3",
-      "title": "Make-your-own-Totoro plushie workshop event coming to Ghibli Park park this fall",
-      "link": "https://soranews24.com/2026/10/05/make-your-own-totoro-plushie-workshop-event-coming-to-ghibli-park-park-this-fall/",
-      "publishedAt": "2026-10-05T05:00:32.000Z",
-      "excerpt": "Why build a bear when you could build a Totoro? I don’t think it’s really going out on a limb to speculate that “people who want to visit Japan’s Studio Ghibli anime theme park” and “people who want to hug Totoro” are two groups with a whole lot of overlap. I’m not saying the Venn […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/0_e3ba44.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
       "id": "9c7db34c95d2d823",
       "title": "Life-Size Uma Musume Figures of Orfevre & Gold Ship Arrive at ParisLongchamp",
       "link": "https://news.sankakucomplex.com/n/4QEukEZlcyX6XmGr6niiig",
@@ -4190,23 +4588,6 @@
       }
     },
     {
-      "id": "f763a0c6fc5ed4bb",
-      "title": "New To Love-Ru Book Appears to Be Selling Out as Fans Rush to Buy It",
-      "link": "https://news.sankakucomplex.com/n/LtL7R3iHIzW7TPDosOD1uQ",
-      "publishedAt": "2026-10-04T11:00:56.000Z",
-      "excerpt": "Nearly a decade after To Love-Ru Darkness ended, the franchise’s newest manga release appears to be attracting strong demand in Japan, with copies disappearing from at least some stores shortly after going on sale.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
       "id": "bafaf0d5e5f58858",
       "title": "Light Novel 'Dorei kara no Kitai to Hyouka no Sei de Sakushu Dekinai no da ga' Gets TV Anime Adaptation",
       "link": "https://myanimelist.net/news/74786099?_location=rss",
@@ -4273,6 +4654,82 @@
         "accent": "#5ca8ff",
         "language": "en"
       }
+    },
+    {
+      "id": "1c64485a4c66c7a1",
+      "title": "1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中",
+      "link": "https://www.billboard-japan.com/d_news/detail/166309/",
+      "publishedAt": null,
+      "excerpt": "2026年10月8日公開（集計期間：2026年9月28日～10月4日）のBillboard JAPAN年代別書籍チャート“Billboard Japan Reiwa Books”で、葦原大介『ワー… 葦原大介 Book Chart Japan 1 2 3 4 5 6 7 Next ACCESS RANKING アクセスランキング 1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中 2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破 3 Billboard Japan Hot Shot Songs 4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中 5 日向坂46、LaLa arena TOKYO-BAYで開…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166309/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "1 [Pre-read] Snow Man “AMENITY” is currently the number one album with 874,000 copies sold",
+      "translatedExcerpt": "In the Billboard JAPAN age-based book chart “Billboard Japan Reiwa Books” released on October 8, 2026 (aggregation period: September 28, 2026 to October 4, 2026), Daisuke Ashihara “W… Man's ``AMENITY'' currently holds the top spot as an album with 874,000 units sold 2 [Preliminary News] Snow Man ``AMENITY'' exceeds half a million sales on the day of the release 3 Billboard Japan Hot Shot Songs 4 [Pre-read] KO1KEYZ ``KO1KEYZ'' currently holds the top spot as a single with 489,000 units sold 5 Hinatazaka46 opens at LaLa arena TOKYO-BAY..."
+    },
+    {
+      "id": "9de0e1663bd560f6",
+      "title": "2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破",
+      "link": "https://www.billboard-japan.com/d_news/detail/166251/",
+      "publishedAt": null,
+      "excerpt": "葦原大介 Book Chart Japan 1 2 3 4 5 6 7 Next ACCESS RANKING アクセスランキング 1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中 2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破 3 Billboard Japan Hot Shot Songs 4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中 5 日向坂46、LaLa arena TOKYO-BAYで開催された【18th Single ひなた坂46 LIVE】最終日のオフィシャルライブレポート到着 SPECIAL インタビュー・タイムマシン more",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166251/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "2 [Breaking News] Snow Man “AMENITY” exceeds half a million on the day of the release",
+      "translatedExcerpt": "Daisuke Ashihara Book Chart Japan 1 2 3 4 5 6 7 Next ACCESS RANKING 1 [Pre-read] Snow Man's ``AMENITY'' is currently leading the album with 874,000 copies 2 [Pre-read news] Snow Man's ``AMENITY'' has surpassed half a million sales on a single day 3 Billboard Japan Hot Shot Songs 4 [Pre-read] KO1KEYZ “KO1KEYZ” is currently leading the singles with 489,000 copies sold 5 Hinatazaka46, held at LaLa arena TOKYO-BAY [18th Single Hinatazaka46 LIVE] Official live report of the final day has arrived SPECIAL Interview Time Machine more"
+    },
+    {
+      "id": "0e38aa76d98931ae",
+      "title": "4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中",
+      "link": "https://www.billboard-japan.com/d_news/detail/166308/",
+      "publishedAt": null,
+      "excerpt": "\"/tagindex/detail/1\" class=\"hover\">Japan 1 2 3 4 5 6 7 Next ACCESS RANKING アクセスランキング 1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中 2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破 3 Billboard Japan Hot Shot Songs 4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中 5 日向坂46、LaLa arena TOKYO-BAYで開催された【18th Single ひなた坂46 LIVE】最終日のオフィシャルライブレポート到着 SPECIAL インタビュー・タイムマシン more 【BMSG…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166308/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "4 [Sen Yomi] KO1KEYZ “KO1KEYZ” is currently leading the singles with 489,000 copies sold",
+      "translatedExcerpt": "\"/tagindex/detail/1\" class=\"hover\">Japan 1 2 3 4 5 6 7 Next ACCESS RANKING 1 [Previous reading] Snow Man's ``AMENITY'' is currently leading the album with 874,000 copies 2 [Preliminary reading] Snow Man's ``AMENITY'' surpasses half a million sales on the day of release 3 Billboard Japan Hot Shot Songs 4 [Pre-read] KO1KEYZ “KO1KEYZ” is currently leading the singles with 489,000 copies sold 5 Hinatazaka46, held at LaLa arena TOKYO-BAY [18th Single Hinatazaka46 LIVE] Official live report of the final day has arrived SPECIAL Interview Time Machine more [BMSG…"
+    },
+    {
+      "id": "56c4e98a722b4426",
+      "title": "5 日向坂46、LaLa arena TOKYO-BAYで開催された【18th Single ひなた坂46 LIVE】最終日のオフィシャルライブレポート到着",
+      "link": "https://www.billboard-japan.com/d_news/detail/166302/",
+      "publishedAt": null,
+      "excerpt": "lass=\"d_news__pager\"> 1 2 3 4 5 6 7 Next ACCESS RANKING アクセスランキング 1 【先ヨミ】Snow Man『AMENITY』87.4万枚で現在アルバム首位独走中 2 【先ヨミ速報】Snow Man『AMENITY』フラゲ日集計でハーフミリオン突破 3 Billboard Japan Hot Shot Songs 4 【先ヨミ】KO1KEYZ『KO1KEYZ』48.9万枚で現在シングル首位独走中 5 日向坂46、LaLa arena TOKYO-BAYで開催された【18th Single ひなた坂46 LIVE】最終日のオフィシャルライブレポート到着 SPECIAL インタビュー・タイムマシン more 【BMSG FES’26】連載最終回 メンバーが…",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166302/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "5 Hinatazaka46, the official live report of the final day of [18th Single Hinatazaka46 LIVE] held at LaLa arena TOKYO-BAY has arrived",
+      "translatedExcerpt": "lass=\"d_news__pager\"> 1 2 3 4 5 6 7 Next ACCESS RANKING 1 [Preliminary reading] Snow Man's ``AMENITY'' is currently leading the album with 874,000 copies 2 [Preliminary reading] Snow Man's ``AMENITY'' has surpassed half a million on the day of the release 3 Billboard Japan Hot Shot Songs 4 [Pre-read] KO1KEYZ “KO1KEYZ” is currently leading the singles with 489,000 sales 5 Hinatazaka46, the official live report of the final day of [18th Single Hinatazaka46 LIVE] held at LaLa arena TOKYO-BAY has arrived SPECIAL Interview Time Machine more [BMSG FES’26] Final episode of the series Members…"
     }
   ]
 }

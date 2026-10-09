@@ -1,7 +1,7 @@
 # 🌸 AniNews Hub
 
 <p align="center">
-  <a href="https://chintu-io.github.io/aninews-hub/">
+  <a href="https://aninews-hub.pages.dev/">
     <img src="https://raw.githubusercontent.com/chintu-io/aninews-hub/main/site/favicon.svg" alt="AniNews Hub" width="96">
   </a>
 </p>
@@ -10,7 +10,7 @@
 
 <p align="center"><strong>Anime, Japan, music and culture news — gathered in one clean, fast reader.</strong></p>
 
-<p align="center"><a href="https://chintu-io.github.io/aninews-hub/"><strong>🌐 Open AniNews Hub</strong></a></p>
+<p align="center"><a href="https://aninews-hub.pages.dev/"><strong>🌐 Open AniNews Hub</strong></a></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Updates-Every%2030%20minutes-7c5cff?style=for-the-badge" alt="Updates every 30 minutes">
@@ -53,17 +53,17 @@ News data is refreshed from the configured sources **every 30 minutes**. The web
 
 ## 📡 RSS
 
-**Combined:** `https://chintu-io.github.io/aninews-hub/rss/all.xml`
+**Combined:** `https://aninews-hub.pages.dev/rss/all.xml`
 
 Per-source feeds follow the same pattern:
 
-- **BARKS:** `https://chintu-io.github.io/aninews-hub/rss/barks.xml`
-- **OTOTOY:** `https://chintu-io.github.io/aninews-hub/rss/ototoy.xml`
-- **Billboard JAPAN:** `https://chintu-io.github.io/aninews-hub/rss/billboardjapan.xml`
+- **BARKS:** `https://aninews-hub.pages.dev/rss/barks.xml`
+- **OTOTOY:** `https://aninews-hub.pages.dev/rss/ototoy.xml`
+- **Billboard JAPAN:** `https://aninews-hub.pages.dev/rss/billboardjapan.xml`
 
 ## 🔗
 
-🌐 **Website:** https://chintu-io.github.io/aninews-hub/
+🌐 **Website:** https://aninews-hub.pages.dev/
 
 💻 **Repository:** https://github.com/chintu-io/aninews-hub
 

@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 
-const SITE_URL = "https://chintu-io.github.io/aninews-hub/";
+const SITE_URL = "https://aninews-hub.pages.dev/";
 const data = JSON.parse(
   await fs.readFile("./site/data/articles.json", "utf8")
 );
@@ -83,7 +83,7 @@ for (const source of data.sources || []) {
     buildFeed(
       `${source.name} — AniNews Hub RSS`,
       `Latest stories from ${source.name} through AniNews Hub.`,
-      source.siteUrl || SITE_URL,
+      SITE_URL,
       articles
     )
   );

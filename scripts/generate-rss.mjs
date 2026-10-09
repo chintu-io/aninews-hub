@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 
-const SITE_URL = "https://chintune.github.io/aninews-hub/";
+const SITE_URL = "https://chintu-io.github.io/aninews-hub/";
 const data = JSON.parse(
   await fs.readFile("./site/data/articles.json", "utf8")
 );

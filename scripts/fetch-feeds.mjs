@@ -790,219 +790,110 @@ function parseJapaneseListingPage(
       "i"
     );
 
-  const links =
-    htmlArticleLinks(
-      html,
-      baseUrl,
-      hostPattern
-    );
-
   const raw =
     String(html || "");
 
+  /*
+   * Only read the main news listing. Billboard's sidebar repeats
+   * some stories as numbered access-ranking links; those are not
+   * additional news items and their rank numbers pollute titles.
+   */
+  const rankingMarker =
+    /(?:ACCESS\s+RANKING|アクセスランキング)/i.exec(raw);
+
+  const listing =
+    rankingMarker
+      ? raw.slice(0, rankingMarker.index)
+      : raw;
+
+  const links =
+    /<a\b/i.test(listing)
+      ? htmlArticleLinks(
+          listing,
+          baseUrl,
+          hostPattern
+        )
+      : markdownArticleLinks(
+          listing,
+          baseUrl,
+          hostPattern
+        );
+
   const items = [];
 
-  for (
-    let i = 0;
-    i < links.length &&
-      items.length < 30;
-    i++
-  ) {
-    const current =
-      links[i];
+  const datePattern =
+    /20\d{2}[/.]\d{1,2}[/.]\d{1,2}(?:\s+\d{1,2}:\d{2})?|20\d{2}年\d{1,2}月\d{1,2}日(?:\s+\d{1,2}:\d{2})?|20\d{2}-\d{1,2}-\d{1,2}(?:\s+\d{1,2}:\d{2})?/g;
 
-    const start =
-      Math.max(
-        0,
-        current.index - 1500
+  const toJapanIsoDate = value => {
+    const match =
+      String(value || "").match(
+        /^(20\d{2})[/.年-](\d{1,2})[/.月-](\d{1,2})(?:日)?(?:\s+(\d{1,2}):(\d{2}))?/
       );
 
-    const end =
-      i + 1 < links.length
-        ? Math.min(
-            raw.length,
-            links[i + 1].index +
-              1000
-          )
-        : Math.min(
-            raw.length,
-            current.index +
-              2500
-          );
-
-    const windowHtml =
-      raw.slice(
-        start,
-        end
-      );
-
-    const windowText =
-      stripHtml(
-        windowHtml
-      );
-
-    const datePatterns = [
-      /20\d{2}[/.]\d{1,2}[/.]\d{1,2}(?:\s+\d{1,2}:\d{2})?/,
-      /20\d{2}年\d{1,2}月\d{1,2}日(?:\s+\d{1,2}:\d{2})?/,
-      /20\d{2}-\d{1,2}-\d{1,2}(?:\s+\d{1,2}:\d{2})?/
-    ];
-
-    let dateText =
-      "";
-
-    for (
-      const pattern of
-        datePatterns
-    ) {
-      const match =
-        windowText.match(
-          pattern
-        );
-
-      if (
-        match?.[0]
-      ) {
-        dateText =
-          match[0];
-
-        break;
-      }
+    if (!match) {
+      return "";
     }
 
-    let description =
-      "";
+    const year = match[1];
+    const month = match[2].padStart(2, "0");
+    const day = match[3].padStart(2, "0");
+    const hour = (match[4] || "00").padStart(2, "0");
+    const minute = match[5] || "00";
 
-    /*
-     * Look for a paragraph in
-     * the same card/listing area.
-     */
-    const paragraphTexts = [
-      ...windowHtml.matchAll(
-        /<(?:p|div)\b[^>]*>([\s\S]*?)<\/(?:p|div)>/gi
-      )
-    ]
-      .map(
-        match =>
-          stripHtml(
-            match[1]
-          )
-      )
-      .filter(
-        value =>
-          value.length >=
-          40
-      )
-      .filter(
-        value =>
-          value !==
-          current.title
-      )
-      .filter(
-        value =>
-          !/^(?:NEWS|ニュース|Japan|Overseas|ALL|MORE|READ MORE)$/i.test(
-            value
-          )
-      );
+    // Billboard JAPAN listing times are Japan Standard Time (UTC+09:00).
+    return year + "-" + month + "-" + day + "T" +
+      hour + ":" + minute + ":00+09:00";
+  };
 
-    description =
-      excerpt(
-        paragraphTexts
-          .sort(
-            (a, b) =>
-              Math.abs(
-                a.length -
-                  180
-              ) -
-              Math.abs(
-                b.length -
-                  180
-              )
-          )[0] ||
-        ""
-      );
-
-    /*
-     * The visible listing text is
-     * useful when the site does not
-     * expose a dedicated paragraph.
-     */
-    if (
-      !description
-    ) {
-      const titlePos =
-        windowText.indexOf(
-          current.title
-        );
-
-      if (
-        titlePos >= 0
-      ) {
-        const after =
-          windowText
-            .slice(
-              titlePos +
-                current.title.length
-            )
-            .replace(
-              dateText,
-              " "
-            )
-            .replace(
-              /\s+/g,
-              " "
-            )
-            .trim();
-
-        description =
-          excerpt(
-            after
-              .split(
-                /(?:関連記事|関連ニュース|MORE|READ MORE|ニュース|NEWS)/i
-              )[0]
-              .trim()
-          );
-      }
+  for (const current of links) {
+    if (items.length >= 30) {
+      break;
     }
 
-    const cleanListingTitle =
-      current.title
-        .replace(
-          /\s*(?:20\\d{2}[./-]\\d{1,2}[./-]\\d{1,2})\s*$/,
-          ""
-        )
-        .replace(
-          /\s*(?:20\\d{2}年\\d{1,2}月\\d{1,2}日)\s*$/,
-          ""
-        )
+    /*
+     * Dates appear immediately before the article heading. Search
+     * a bounded prefix and take the nearest date, rather than the
+     * first date from a large window spanning neighboring stories.
+     */
+    const beforeLink =
+      listing.slice(
+        Math.max(0, current.index - 900),
+        current.index
+      );
+
+    const dateMatches =
+      [...beforeLink.matchAll(datePattern)];
+
+    const dateText =
+      dateMatches.length
+        ? dateMatches[dateMatches.length - 1][0]
+        : "";
+
+    const title =
+      String(current.title || "")
+        .replace(/^\s*\d+\s+(?=[【〖〈＜<])/u, "")
         .trim();
 
+    if (!title) {
+      continue;
+    }
+
     items.push({
-      title:
-        cleanListingTitle,
-
-      link:
-        current.href,
-
-      pubDate:
-        dateText,
-
-      description:
-        "",
-
-      image:
-        imageFromText(
-          windowHtml,
-          current.href
-        ),
-
-      contentEncoded:
-        windowHtml
+      title,
+      link: current.href,
+      pubDate: toJapanIsoDate(dateText),
+      description: "",
+      /*
+       * Do not treat an arbitrary listing window as article content:
+       * it often includes adjacent cards and navigation. The actual
+       * article page/Jina fallback is responsible for image/summary.
+       */
+      image: ""
     });
   }
 
   return items;
 }
-
 function cleanJapaneseLeadLine(
   value
 ) {
@@ -1798,6 +1689,15 @@ async function enrichJapaneseListingItem(
 
   return {
     ...item,
+
+    /*
+     * Article metadata is more reliable than a listing-page window.
+     * Include its publication date when the listing did not provide one.
+     */
+    pubDate:
+      directMeta?.publishedAt ||
+      item.pubDate ||
+      null,
 
     description:
       description ||
@@ -4142,7 +4042,10 @@ async function translateJapaneseArticles(
         const entry =
           {};
 
-        if (
+        if (article.translatedTitle) {
+          // Reuse previously translated data retained during a source outage.
+          entry.title = article.translatedTitle;
+        } else if (
           article.title &&
           /[\u3040-\u30ff\u3400-\u9fff]/.test(
             article.title
@@ -4156,7 +4059,9 @@ async function translateJapaneseArticles(
             );
         }
 
-        if (
+        if (article.translatedExcerpt) {
+          entry.excerpt = article.translatedExcerpt;
+        } else if (
           article.excerpt &&
           /[\u3040-\u30ff\u3400-\u9fff]/.test(
             article.excerpt
@@ -4258,6 +4163,68 @@ async function translateJapaneseArticles(
   };
 }
 
+
+/*
+ * Preserve last-known-good articles only for sources that actually
+ * failed. This prevents a transient outage from erasing a source's
+ * stories. Sankaku is intentionally excluded: its separate fixer has
+ * an explicit no-stale-cache policy.
+ */
+let previousArticles = [];
+try {
+  const previousPayload =
+    JSON.parse(
+      await fs.readFile(OUT, "utf8")
+    );
+
+  previousArticles =
+    Array.isArray(previousPayload?.articles)
+      ? previousPayload.articles
+      : [];
+} catch {
+  // First run or invalid old output: proceed with newly fetched data.
+}
+
+const failedSourceIds =
+  new Set(
+    sourceResults
+      .filter(result => result.status === "error")
+      .map(result => result.id)
+  );
+
+if (failedSourceIds.size) {
+  const canonicalLink = value =>
+    String(value || "")
+      .replace(/\/+$/, "")
+      .toLowerCase();
+
+  const collectedLinks =
+    new Set(
+      allArticles
+        .map(article => canonicalLink(article.link))
+        .filter(Boolean)
+    );
+
+  for (const oldArticle of previousArticles) {
+    const sourceId = oldArticle?.source?.id;
+    const key = canonicalLink(oldArticle?.link);
+
+    if (
+      !key ||
+      !failedSourceIds.has(sourceId) ||
+      collectedLinks.has(key)
+    ) {
+      continue;
+    }
+
+    allArticles.push({
+      ...oldArticle,
+      stale: true
+    });
+
+    collectedLinks.add(key);
+  }
+}
 
 /*
  * ---------------------------------------------------------

@@ -16,26 +16,35 @@ const xmlEscape = value => String(value ?? "")
   .replaceAll("'", "&apos;");
 
 const rssDate = value => {
-  const date = value ? new Date(value) : new Date();
+  if (!value) return "";
+
+  const date = new Date(value);
   return Number.isNaN(date.getTime())
-    ? new Date().toUTCString()
+    ? ""
     : date.toUTCString();
 };
 
 const imageMime = value => {
-  const path = String(value || "").split("?")[0].toLowerCase();
+  const path = String(value || "").split(/[?#]/)[0].toLowerCase();
+  if (path.endsWith(".jpg") || path.endsWith(".jpeg")) return "image/jpeg";
   if (path.endsWith(".png")) return "image/png";
   if (path.endsWith(".gif")) return "image/gif";
   if (path.endsWith(".webp")) return "image/webp";
   if (path.endsWith(".avif")) return "image/avif";
-  return "image/jpeg";
+  if (path.endsWith(".svg")) return "image/svg+xml";
+  return "";
 };
 
 const itemXml = article => {
+  const mime = imageMime(article.image);
   const image = article.image
     ? `
-      <media:content url="${xmlEscape(article.image)}" medium="image" type="${imageMime(article.image)}" />
+      <media:content url="${xmlEscape(article.image)}" medium="image"${mime ? ` type="${mime}"` : ""} />
       <media:thumbnail url="${xmlEscape(article.image)}" />`
+    : "";
+  const publishedDate = rssDate(article.publishedAt);
+  const pubDate = publishedDate
+    ? `<pubDate>${publishedDate}</pubDate>`
     : "";
 
   return `
@@ -43,7 +52,7 @@ const itemXml = article => {
       <title>${xmlEscape(article.title)}</title>
       <link>${xmlEscape(article.link)}</link>
       <guid isPermaLink="true">${xmlEscape(article.link)}</guid>
-      <pubDate>${rssDate(article.publishedAt)}</pubDate>
+      ${pubDate}
       <description>${xmlEscape(article.excerpt || "")}</description>
       <category>${xmlEscape(article.source?.name || "News")}</category>
       ${image}
@@ -56,7 +65,7 @@ const buildFeed = (title, description, channelLink, articles) => `<?xml version=
     <title>${xmlEscape(title)}</title>
     <link>${xmlEscape(channelLink)}</link>
     <description>${xmlEscape(description)}</description>
-    <lastBuildDate>${rssDate(new Date())}</lastBuildDate>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <ttl>30</ttl>
     ${articles.map(itemXml).join("\n")}
   </channel>

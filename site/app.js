@@ -95,12 +95,27 @@ function hasJapanese(value = "") {
   );
 }
 
+const TRANSLATION_CACHE_LIMIT = 500;
+
+function boundedTranslationCache(cache) {
+  if (!cache || typeof cache !== "object" || Array.isArray(cache)) {
+    return {};
+  }
+
+  const entries = Object.entries(cache);
+  return entries.length > TRANSLATION_CACHE_LIMIT
+    ? Object.fromEntries(entries.slice(-TRANSLATION_CACHE_LIMIT))
+    : cache;
+}
+
 function translationCacheRead() {
   try {
-    return JSON.parse(
-      localStorage.getItem(
-        "aninews-translations-v1"
-      ) || "{}"
+    return boundedTranslationCache(
+      JSON.parse(
+        localStorage.getItem(
+          "aninews-translations-v1"
+        ) || "{}"
+      )
     );
   } catch {
     return {};
@@ -111,7 +126,9 @@ function translationCacheWrite(cache) {
   try {
     localStorage.setItem(
       "aninews-translations-v1",
-      JSON.stringify(cache)
+      JSON.stringify(
+        boundedTranslationCache(cache)
+      )
     );
   } catch {
     /*
@@ -187,6 +204,22 @@ async function translateText(text) {
   return input;
 }
 
+function translationFingerprint(value) {
+  // A compact deterministic fingerprint of the full source text avoids
+  // collisions caused by truncating encoded titles/excerpts to 48 chars.
+  let first = 0x811c9dc5;
+  let second = 0x9e3779b9;
+
+  for (let i = 0; i < value.length; i++) {
+    const code = value.charCodeAt(i);
+    first = Math.imul(first ^ code, 0x01000193);
+    second = Math.imul(second ^ code, 0x85ebca6b);
+  }
+
+  return (first >>> 0).toString(16).padStart(8, "0") +
+    (second >>> 0).toString(16).padStart(8, "0");
+}
+
 async function ensureTranslation(article) {
   if (
     article.source?.language !==
@@ -214,21 +247,7 @@ async function ensureTranslation(article) {
   const key =
     article.id +
     ":" +
-    btoa(
-      unescape(
-        encodeURIComponent(
-          originalKey
-        )
-      )
-    )
-      .replace(
-        /[^a-zA-Z0-9]/g,
-        ""
-      )
-      .slice(
-        0,
-        48
-      );
+    translationFingerprint(originalKey);
 
   if (cache[key]) {
     return {
@@ -538,6 +557,7 @@ function renderLanguageTabs() {
             resetPage();
             state.translationGeneration++;
 
+            renderStats();
             renderLanguageTabs();
             renderNavigation();
             renderFilters();

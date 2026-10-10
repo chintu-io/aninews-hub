@@ -62,6 +62,7 @@ jobs:
           npm run fetch
           node scripts/sankaku-fix.mjs
           npm run generate:rss
+          npm run validate
 
       - name: Configure Pages
         uses: actions/configure-pages@v6

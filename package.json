@@ -6,7 +6,8 @@
   "scripts": {
     "fetch": "node scripts/fetch-feeds.mjs",
     "debug:sankaku": "node scripts/debug-sankaku.mjs",
-    "generate:rss": "node scripts/generate-rss.mjs"
+    "generate:rss": "node scripts/generate-rss.mjs",
+    "validate": "node scripts/validate-output.mjs"
   },
   "dependencies": {
     "rss-parser": "^3.13.0"

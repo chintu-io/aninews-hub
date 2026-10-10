@@ -4,6 +4,9 @@ set -euo pipefail
 REPO_DIR="${ANINEWS_REPO_DIR:-$HOME/aninews-hub}"
 BRANCH="${ANINEWS_BRANCH:-main}"
 LOCK_DIR="${ANINEWS_LOCK_DIR:-$HOME/.cache/aninews-hub-refresh.lock}"
+# Use an advisory file lock so abrupt termination cannot leave a stale
+# directory lock blocking every subsequent scheduled refresh.
+LOCK_FILE="${ANINEWS_LOCK_FILE:-${LOCK_DIR}.flock}"
 LOG_PREFIX="[AniNews Hub]"
 
 # Cron does not load the interactive shell, so make common Node locations available.
@@ -26,12 +29,18 @@ if ! command -v git >/dev/null 2>&1; then
   exit 1
 fi
 
-mkdir -p "$(dirname "$LOCK_DIR")"
-if ! mkdir "$LOCK_DIR" 2>/dev/null; then
+mkdir -p "$(dirname "$LOCK_FILE")"
+
+if ! command -v flock >/dev/null 2>&1; then
+  echo "$LOG_PREFIX flock was not found; cannot safely lock refresh" >&2
+  exit 1
+fi
+
+exec 9>"$LOCK_FILE"
+if ! flock -n 9; then
   echo "$LOG_PREFIX refresh already running; exiting"
   exit 0
 fi
-trap 'rmdir "$LOCK_DIR"' EXIT
 
 cd "$REPO_DIR"
 
@@ -57,6 +66,25 @@ if git diff --cached --quiet; then
 fi
 
 git commit -m "Refresh news feeds"
-git push origin "$BRANCH"
+
+if ! git push origin "$BRANCH"; then
+  # A code or data commit may have reached the remote after our initial
+  # fetch. Rebase our generated-data commit instead of force-pushing or
+  # discarding remote commits. If generated files conflict, abort safely;
+  # the next scheduled run will fetch the remote and regenerate the data.
+  echo "$LOG_PREFIX push rejected; fetching remote changes and retrying safely" >&2
+  git fetch origin "$BRANCH"
+
+  if git rebase "origin/$BRANCH"; then
+    if ! git push origin "$BRANCH"; then
+      echo "$LOG_PREFIX retry push failed; remote was not overwritten" >&2
+      exit 1
+    fi
+  else
+    git rebase --abort || true
+    echo "$LOG_PREFIX rebase conflict; refresh was not pushed and remote was left untouched" >&2
+    exit 1
+  fi
+fi
 
 echo "$LOG_PREFIX $(date -Is) refresh pushed successfully"

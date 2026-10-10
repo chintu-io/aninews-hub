@@ -1,0 +1,30 @@
+name: Check source syntax
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  syntax:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v6
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - name: Check JavaScript syntax
+        run: |
+          node --check scripts/fetch-feeds.mjs
+          node --check scripts/sankaku-fix.mjs
+          node --check scripts/generate-rss.mjs
+          node --check scripts/validate-output.mjs
+          node --check site/app.js
+      - name: Check shell syntax
+        run: bash -n scripts/seedbox-refresh.sh

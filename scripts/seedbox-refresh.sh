@@ -57,6 +57,7 @@ fi
 npm run fetch
 node scripts/sankaku-fix.mjs
 npm run generate:rss
+npm run validate
 
 git add site/data/articles.json site/debug/sankaku.json site/rss
 

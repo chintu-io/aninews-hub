@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T13:01:40.832Z",
+  "generatedAt": "2026-10-16T13:31:36.003Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 56,
+      "count": 58,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 55,
+      "count": 57,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -162,11 +162,83 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 361,
-    "translatedJapaneseArticles": 161,
+    "articleCount": 365,
+    "translatedJapaneseArticles": 163,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "bead72e37f996fe8",
+      "title": "LE SSERAFIM、新曲「AEIOU」ビジュアライザーをライブや日常の映像で構成",
+      "link": "https://www.billboard-japan.com/d_news/detail/166582",
+      "publishedAt": "2026-10-16T13:30:00.000Z",
+      "excerpt": "LE SSERAFIMが、新曲「AEIOU」のビジュアライザーを公開した。 新曲「AEIOU」",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166582/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "LE SSERAFIM, new song “AEIOU” visualizer composed of live and daily life footage",
+      "translatedExcerpt": "LE SSERAFIM has released a visualizer for their new song \"AEIOU\". New song “AEIOU”"
+    },
+    {
+      "id": "f1cebd817118e86b",
+      "title": "Golden Kamuy Live-Action Drama Continues with Karafuto Pursuit Arc in January",
+      "link": "https://crunchyroll.com/news/latest/2026/10/16/golden-kamuy-live-action-drama-karafuto-pursuit-arc",
+      "publishedAt": "2026-10-16T13:26:00.000Z",
+      "excerpt": "Kenji Katagiri returns to direct TV series that will broadcast on WOWOW",
+      "image": "https://a.storyblok.com/f/178900/1419x1003/2782794f7c/golden_kamuy_sakhalin_pursuit_arc_teaser_image.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "ab476668708b291f",
+      "title": "Love Live! Nijigasaki High School Idol Club Anime Film Final Part Debuts on February 5, 2027",
+      "link": "https://crunchyroll.com/news/latest/2026/10/16/love-live-nijigasaki-high-school-idol-club-anime-film-final-part-premiere-date",
+      "publishedAt": "2026-10-16T13:05:00.000Z",
+      "excerpt": "Teaser trailer published for upcoming third film in latest Love Live! trilogy",
+      "image": "https://a.storyblok.com/f/178900/1460x821/534c367d5a/love_live_nijigasaki_high_school_idol_club_final_part_header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "b124c0ae1cdba07c",
+      "title": "SUPER BEAVER、2027年に日本武道館公演2DAYS開催",
+      "link": "https://www.billboard-japan.com/d_news/detail/166579",
+      "publishedAt": "2026-10-16T13:05:00.000Z",
+      "excerpt": "SUPER BEAVERが、2027年3月31日・4月1日に、東京・日本武道館でワンマンライブ【都",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166579/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "SUPER BEAVER will hold 2-day Nippon Budokan performance in 2027",
+      "translatedExcerpt": "SUPER BEAVER will hold a one-man live at the Nippon Budokan in Tokyo on March 31st and April 1st, 2027."
+    },
     {
       "id": "6d9070ee8a2dc9f9",
       "title": "【連載コラム】遊津場の関西アーティスト週報vol.127「あなたを連れて行く音楽の子供達・Telepathy」",
@@ -4465,7 +4537,7 @@
         "language": "ja"
       },
       "translatedTitle": "Le Sanciman releases new song “Uminari” & releases MV",
-      "translatedExcerpt": "Le Sanciman released their new single \"Uminari\" on Wednesday, October 14, 2026. This work is the lead single from the new mini album \"SAYOUNARA THEATER\". It is a song that combines an alternative sound and a math rock sound, and the finely grained sounds of each instrument and the lyrics that poetically depict the direction of one's past self and future self are a perfect match. A music video was also released. In addition, Le Saint-Chiman will be holding a release tour ``Face to Face tour'' that will visit 7 locations nationwide from October to January 2027. Release information https://ototoy.jp/_/default/p/4233218 Tour information https://w.pia.jp/t/rusantiman/ https://eplus.jp/rusan…"
+      "translatedExcerpt": "Le Sanciman released their new single \"Uminari\" on Wednesday, October 14, 2026. This work is the lead single from the new mini album \"SAYOUNARA THEATER\". It is a song that combines an alternative sound and a math rock sound, and the finely grained sounds of each instrument and the lyrics that poetically depict the direction of one's past self and future self are a perfect match. A music video was also released. In addition, Le Sanciman will be holding a release tour ``Face to Face tour'' that will visit 7 locations nationwide from October to January 2027. Release information https://ototoy.jp/_/default/p/4233218 Tour information https://w.pia.jp/t/rusantiman/ https://eplus.jp/rusan…"
     },
     {
       "id": "923b3d751b97c20e",

@@ -28,7 +28,15 @@ jobs:
       - name: Set up Android SDK
         uses: android-actions/setup-android@v4
         with:
-          packages: "platforms;android-37 build-tools;37.0.0"
+          packages: "platforms;android-37.0 build-tools;37.0.0"
+
+      - name: Add Android 37 compatibility alias
+        run: |
+          set -euo pipefail
+          platform_dir="$ANDROID_HOME/platforms/android-37.0"
+          test -d "$platform_dir"
+          ln -sfn android-37.0 "$ANDROID_HOME/platforms/android-37"
+          test -f "$ANDROID_HOME/platforms/android-37/android.jar"
 
       - name: Decode signing key
         env:

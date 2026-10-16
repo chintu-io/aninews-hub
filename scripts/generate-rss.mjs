@@ -80,7 +80,7 @@ const buildFeed = (title, description, channelLink, articles) => `<?xml version=
     ${articles.map(itemXml).join("\n")}
   </channel>
 </rss>
-`;
+`.replace(/[ \t]+$/gm, "");
 
 await fs.writeFile(
   `${rssDir}/all.xml`,

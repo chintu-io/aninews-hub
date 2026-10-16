@@ -28,13 +28,16 @@ export function mergeArticleArchive({
 }) {
   const activeSources = new Set(activeSourceIds || []);
   const merged = new Map();
+  const seenIds = new Set();
 
   for (const article of currentArticles) {
     if (!article || !activeSources.has(article.source?.id)) continue;
     if (!isWithinRetention(article, now)) continue;
 
     const key = canonicalLink(article.link);
-    if (key && !merged.has(key)) merged.set(key, article);
+    if (!key || merged.has(key) || (article.id && seenIds.has(article.id))) continue;
+    merged.set(key, article);
+    if (article.id) seenIds.add(article.id);
   }
 
   for (const article of previousArticles) {
@@ -42,7 +45,7 @@ export function mergeArticleArchive({
     if (!isWithinRetention(article, now)) continue;
 
     const key = canonicalLink(article.link);
-    if (!key || merged.has(key)) continue;
+    if (!key || merged.has(key) || (article.id && seenIds.has(article.id))) continue;
 
     const archived = { ...article };
     if (failedSourceIds.has(article.source.id)) {
@@ -51,6 +54,7 @@ export function mergeArticleArchive({
       delete archived.stale;
     }
     merged.set(key, archived);
+    if (article.id) seenIds.add(article.id);
   }
 
   return [...merged.values()].sort(newestFirst).slice(0, MAX_ARTICLES);

@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import crypto from "node:crypto";
 import Parser from "rss-parser";
+import { mergeArticleArchive } from "./article-archive.mjs";
 
 const OUT = new URL("../site/data/articles.json", import.meta.url);
 const DEBUG_OUT = new URL("../site/debug/sankaku.json", import.meta.url);
@@ -1310,7 +1311,7 @@ const debug = {
     [],
 
   note:
-    "Sankaku title, description, date and link come from RSS. Direct official RSS is tried first; Jina Reader may transport the exact official RSS URL when the GitHub runner is rejected. Article pages are used only for missing images. No old Sankaku cache is merged."
+    "Sankaku stories are collected from RSS and retained in the rolling archive. Article pages are used only for missing images."
 };
 
 const payload =
@@ -1330,6 +1331,22 @@ const existingOther =
       item?.source?.id !==
       "sankaku"
   );
+
+const existingSankaku =
+  (
+    payload.articles ||
+    []
+  ).filter(
+    item =>
+      item?.source?.id ===
+      "sankaku"
+  );
+
+const failedSourceIds = new Set(
+  (payload.sourceResults || [])
+    .filter(item => item.status === "error")
+    .map(item => item.id)
+);
 
 let selected =
   null;
@@ -1679,34 +1696,15 @@ if (
   }
 
   payload.articles =
-    [
-      ...existingOther,
-      ...sankaku
-    ]
-      .sort(
-        (a, b) => {
-          const left =
-            Date.parse(
-              a.publishedAt ||
-                ""
-            ) || 0;
-
-          const right =
-            Date.parse(
-              b.publishedAt ||
-                ""
-            ) || 0;
-
-          return (
-            right -
-            left
-          );
-        }
-      )
-      .slice(
-        0,
-        500
-      );
+    mergeArticleArchive({
+      currentArticles: sankaku,
+      previousArticles: [
+        ...existingOther,
+        ...existingSankaku
+      ],
+      activeSourceIds: (payload.sources || []).map(source => source.id),
+      failedSourceIds
+    });
 
   payload.sourceResults =
     payload.sourceResults ||
@@ -1736,6 +1734,11 @@ if (
       selected.sourceUrl,
 
     count:
+      payload.articles.filter(
+        item => item.source?.id === SOURCE.id
+      ).length,
+
+    fetchedCount:
       sankaku.length
   };
 
@@ -1756,17 +1759,35 @@ if (
     `Sankaku RSS refresh: ${sankaku.length} stories via ${selected.transport} (${selected.sourceUrl})`
   );
 } else {
-  /*
-   * Never publish stale Sankaku cache.
-   */
   payload.articles =
-    existingOther;
+    mergeArticleArchive({
+      previousArticles: [
+        ...existingOther,
+        ...existingSankaku
+      ],
+      activeSourceIds: (payload.sources || []).map(source => source.id),
+      failedSourceIds: new Set([...failedSourceIds, SOURCE.id])
+    });
+
+  payload.sourceResults = payload.sourceResults || [];
+  const sankakuResult = {
+    id: SOURCE.id,
+    name: SOURCE.name,
+    status: "error",
+    mode: null,
+    feedUrl: null,
+    count: payload.articles.filter(item => item.source?.id === SOURCE.id).length,
+    fetchedCount: 0
+  };
+  const sourceResult = payload.sourceResults.find(item => item.id === SOURCE.id);
+  if (sourceResult) Object.assign(sourceResult, sankakuResult);
+  else payload.sourceResults.push(sankakuResult);
 
   debug.finalCount =
     0;
 
   debug.note =
-    "All Sankaku RSS transports failed. Sankaku was removed from this build instead of publishing stale cached stories.";
+    "All Sankaku RSS transports failed. Recent previously collected stories remain available and are marked stale.";
 
   console.log(
     "Sankaku RSS refresh: 0 stories from no feed"
@@ -1782,6 +1803,15 @@ payload.stats =
 
 payload.stats.articleCount =
   payload.articles.length;
+
+const archiveCounts = new Map();
+for (const article of payload.articles) {
+  const sourceId = article.source?.id;
+  archiveCounts.set(sourceId, (archiveCounts.get(sourceId) || 0) + 1);
+}
+for (const result of payload.sourceResults || []) {
+  result.count = archiveCounts.get(result.id) || 0;
+}
 
 payload.stats.sourceCount =
   payload.sources?.length ||

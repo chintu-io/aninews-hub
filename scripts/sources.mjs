@@ -64,19 +64,6 @@ export const SOURCES = [
     language: "en"
   },
   {
-    id: "kotaku",
-    name: "Kotaku",
-    short: "Kotaku",
-    feedUrls: [
-      "https://kotaku.com/feed"
-    ],
-    siteUrl: "https://kotaku.com/",
-    category: "Gaming & Culture",
-    accent: "#ff6b9d",
-    language: "en"
-  },
-
-  {
     id: "billboardjapan",
     name: "Billboard JAPAN",
     short: "Billboard JP",

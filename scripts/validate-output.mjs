@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import Parser from "rss-parser";
+import { MAX_ARTICLES } from "./article-archive.mjs";
 
 const DATA_URL = new URL("../site/data/articles.json", import.meta.url);
 const RSS_DIR = new URL("../site/rss/", import.meta.url);
@@ -20,8 +21,8 @@ if (!Array.isArray(articles)) {
 if (!Array.isArray(sources) || !sources.length) {
   throw new Error("articles.json must contain configured sources");
 }
-if (articles.length > 500) {
-  fail("Article count exceeds the configured 500-item cap");
+if (articles.length > MAX_ARTICLES) {
+  fail(`Article count exceeds the configured ${MAX_ARTICLES}-item cap`);
 }
 
 const sourceIds = new Set(sources.map(source => source.id));

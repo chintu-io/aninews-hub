@@ -8,6 +8,16 @@ const data = JSON.parse(
 const rssDir = "./site/rss";
 await fs.mkdir(rssDir, { recursive: true });
 
+const activeFeedFiles = new Set([
+  "all.xml",
+  ...(data.sources || []).map(source => `${source.id}.xml`)
+]);
+for (const file of await fs.readdir(rssDir)) {
+  if (file.endsWith(".xml") && !activeFeedFiles.has(file)) {
+    await fs.rm(`${rssDir}/${file}`);
+  }
+}
+
 const xmlEscape = value => String(value ?? "")
   .replaceAll("&", "&amp;")
   .replaceAll("<", "&lt;")

@@ -28,7 +28,6 @@ AniNews Hub currently brings together these publishers:
 | **Anime News Network** | Anime and manga industry/news coverage |
 | **Crunchyroll News** | Anime, manga, movies, games and industry news |
 | **MyAnimeList** | Anime and manga news |
-| **Kotaku** | Games, anime and pop culture |
 | **Billboard JAPAN** | Japanese music, releases, charts and entertainment |
 | **BARKS** | Japanese music and entertainment news |
 | **OTOTOY** | Japanese music, releases and music culture |
@@ -41,7 +40,7 @@ Japanese-language sources are grouped separately in the site and their headlines
 
 ## ✨ What the site provides
 
-- Latest stories from multiple publishers in one place
+- A rolling 14-day archive of stories from multiple publishers
 - Source and language filters, search and pagination
 - Dark and light themes with article imagery
 - Direct links to the original publisher

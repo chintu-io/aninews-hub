@@ -255,6 +255,8 @@ async function translateVisibleJapanese(articles) {
           if (title) title.textContent = article.translatedTitle || article.title;
           if (excerpt) excerpt.textContent = article.translatedExcerpt || article.excerpt || "";
           if (badge && (article.translatedTitle !== article.title || article.translatedExcerpt !== article.excerpt)) {
+            badge.textContent = "EN";
+            badge.title = "Translated from Japanese";
             badge.hidden = false;
           }
         });
@@ -424,7 +426,9 @@ function copyStoryLink(link, event) {
 
 /* Render Breaking News Ticker */
 function setupBreakingTicker() {
-  const articles = (state.payload?.articles || []).slice(0, 15);
+  const articles = (state.payload?.articles || [])
+    .filter(article => state.language === "all" || (article.source?.language || "en") === state.language)
+    .slice(0, 15);
   if (!articles.length) return;
 
   const itemEl = $("#tickerItem");
@@ -458,8 +462,8 @@ function setupBreakingTicker() {
     showTickerStory(state.tickerIndex + 1);
   }, 6500);
 
-  $("#tickerPrev")?.addEventListener("click", () => showTickerStory(state.tickerIndex - 1));
-  $("#tickerNext")?.addEventListener("click", () => showTickerStory(state.tickerIndex + 1));
+  $("#tickerPrev").onclick = () => showTickerStory(state.tickerIndex - 1);
+  $("#tickerNext").onclick = () => showTickerStory(state.tickerIndex + 1);
 }
 
 /* Render the newest stories that have usable artwork. */
@@ -473,6 +477,7 @@ function renderSpotlight() {
     state.page === 1 &&
     state.category === "all" &&
     state.source === "all" &&
+    state.language === "all" &&
     !state.query.trim();
 
   if (!shouldShow) {
@@ -667,12 +672,11 @@ function renderPublishersDirectory() {
         state.source = srcId;
         state.category = "all";
         const selectedSrc = allSources.find(s => s.id === srcId);
-        if (selectedSrc?.language === "ja" && state.language === "en") {
-          state.language = "all";
-        }
+        if (selectedSrc) state.language = selectedSrc.language || "en";
       }
       resetPage();
       syncFilterUI();
+      setupBreakingTicker();
       renderPublisherChips();
       renderLanguageTabs();
       renderStories();
@@ -686,6 +690,11 @@ function renderPublisherChips() {
   if (!container) return;
 
   let visibleSources = sortPublishersForDisplay(state.payload?.sources || []);
+  if (state.language !== "all") {
+    visibleSources = visibleSources.filter(source =>
+      (source.language || "en") === state.language
+    );
+  }
   if (state.category !== "all" && state.category !== "saved") {
     visibleSources = visibleSources.filter(src => {
       if (state.category === "anime") return ["ann", "crunchyroll", "mal", "sankaku"].includes(src.id);
@@ -696,16 +705,22 @@ function renderPublisherChips() {
     });
   }
 
+  const articles = state.payload?.articles || [];
+  const countForSource = sourceId => articles.filter(article =>
+    (!sourceId || article.source?.id === sourceId) &&
+    (state.language === "all" || (article.source?.language || "en") === state.language)
+  ).length;
+
   const allButton = `
     <button type="button" class="filter-chip ${state.source === 'all' ? 'active' : ''}" data-source="all" aria-pressed="${state.source === 'all'}">
       <span class="chip-label">All Publishers</span>
+      <span class="chip-count">${countForSource()}</span>
     </button>
   `;
 
   const sourceChips = visibleSources.map(source => {
     const accent = source.accent || "#f07858";
-    const res = state.payload?.sourceResults?.find(r => r.id === source.id);
-    const count = res?.count || "";
+    const count = countForSource(source.id);
     const isActive = state.source === source.id;
 
     return `
@@ -726,11 +741,13 @@ function renderPublisherChips() {
       // If clicking a publisher outside current category, reset category to all
       if (srcId !== "all") {
         const src = (state.payload?.sources || []).find(s => s.id === srcId);
-        if (src?.language === "ja" && state.language === "en") {
-          state.language = "all";
-        }
+        if (src && state.language !== "all") state.language = src.language || "en";
       }
       resetPage();
+      setupBreakingTicker();
+      renderLanguageTabs();
+      renderPublisherChips();
+      renderPublishersDirectory();
       syncFilterUI();
       renderStories();
     });
@@ -764,10 +781,15 @@ function renderLanguageTabs() {
       if (next === state.language) return;
 
       state.language = next;
+      const selectedSource = (state.payload?.sources || []).find(source => source.id === state.source);
+      if (selectedSource && next !== "all" && (selectedSource.language || "en") !== next) {
+        state.source = "all";
+      }
       resetPage();
       state.translationGeneration++;
 
       renderStats();
+      setupBreakingTicker();
       renderLanguageTabs();
       renderPublisherChips();
       renderPublishersDirectory();
@@ -941,7 +963,7 @@ function renderStories() {
                 ${esc(relativeDate(article.publishedAt))}
               </time>
               ${fresh ? '<span class="pill-fresh">NEW</span>' : ''}
-              ${hasJapanese(article.title) ? '<span class="story-translation" hidden>EN</span>' : ''}
+              ${hasJapanese(article.title) ? `<span class="story-translation" title="${article.translatedTitle && article.translatedTitle !== article.title ? 'Translated from Japanese' : 'Original Japanese shown; translation unavailable'}">${article.translatedTitle && article.translatedTitle !== article.title ? 'EN' : 'JP'}</span>` : ''}
               <span class="story-readtime">${estimateReadingTime(title + " " + excerptText)}</span>
               <div class="card-floating-actions">
                 <button class="action-btn-circle ${isBookmarked ? 'bookmarked' : ''}" data-bookmark-btn="${esc(article.id)}" type="button" aria-label="${isBookmarked ? 'Remove bookmark' : 'Save story'}" title="${isBookmarked ? 'Remove bookmark' : 'Save story'}">
@@ -1298,3 +1320,4 @@ setupTheme();
 setViewMode(state.view);
 setupEvents();
 load();
+

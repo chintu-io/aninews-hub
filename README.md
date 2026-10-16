@@ -1,64 +1,125 @@
+<div align="center">
+
 # AniNews Hub
 
-### Anime, Japan, and culture news in one place.
+### Anime · Japan · Culture
 
-Follow the stories shaping anime, manga, Japanese culture, and music. AniNews Hub brings fresh headlines and previews from trusted publishers into one easy-to-browse news reader, with every story linking back to its original source.
+**The stories you follow, gathered in one place.**
 
-**[Visit AniNews Hub →](https://aninews-hub.pages.dev/)**
+Anime, manga, Japanese culture, gaming, and music headlines from multiple publishers in one clean, searchable news reader.
 
-## The latest from the publishers you follow
+<p>
+  <a href="https://aninews-hub.pages.dev/"><img src="https://img.shields.io/badge/🌐_Open-Website-8B5CF6?style=for-the-badge" alt="Open website"></a>
+  <a href="https://github.com/chintu-io/aninews-hub/releases/download/android-v1.0.0/AniNewsHub-1.0.0.apk"><img src="https://img.shields.io/badge/Android-Download_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Download Android APK"></a>
+  <a href="https://aninews-hub.pages.dev/rss/all.xml"><img src="https://img.shields.io/badge/RSS-Subscribe-F97316?style=for-the-badge&logo=rss&logoColor=white" alt="Subscribe to RSS"></a>
+</p>
 
-Read news from **Crunchyroll News**, **Anime News Network**, **MyAnimeList**, **SoraNews24**, **Sankaku Complex**, **BARKS**, **Billboard JAPAN**, and **OTOTOY**.
+<p>
+  <img src="https://img.shields.io/badge/Website-Live-22C55E?style=flat-square" alt="Website live">
+  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-F59E0B?style=flat-square" alt="Frontend stack">
+  <img src="https://img.shields.io/badge/Android-Java-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android Java">
+</p>
 
-Explore anime and manga announcements, Japan and everyday life, gaming and technology, and Japanese music—all in one place.
+</div>
 
-## Made for your daily read
+---
 
-- Browse a rolling library of recent stories, with articles kept for up to 14 days
-- Switch between image-rich cards and a compact list
-- Search headlines and filter by topic, publisher, or language
-- Save stories to revisit and keep track of what you’ve read
-- Choose a light or dark theme
-- Read Japanese-language coverage with English translations when available
-- Follow the combined feed or subscribe to an individual publisher feed
+## ✨ Explore AniNews Hub
 
-News is refreshed throughout the day, about every 30 minutes. When new stories arrive, the website updates with them.
+AniNews Hub brings updates from the anime, manga, Japan, and Japanese music scene together in a single place. Browse headlines and previews, then open the original publisher for the full story.
 
-## Android app
+### What you can do
 
-The `android/` folder contains a native Android shell around the news reader. The home screen loads the live website, so site and feed updates appear without rebuilding the app; the copy packaged in the APK is an offline fallback. On first launch after switching from the bundled home screen to the live site, saved theme, bookmarks, and read-story preferences are copied to the live site origin. Publisher articles open in an in-app browser without losing the feed position. The launcher mark matches the site wordmark, and notification preferences can cover all publishers or selected publishers while following the site's light or dark theme.
+<table>
+  <tr>
+    <td width="50%">
+      <h3>📰 One news hub</h3>
+      Follow coverage from multiple anime, culture, and music publishers without jumping between sites.
+    </td>
+    <td width="50%">
+      <h3>🔎 Find your next story</h3>
+      Search headlines and filter by topic, publisher, or language.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>🧭 Read your way</h3>
+      Switch between image-rich cards and a compact list, and choose a light or dark theme.
+    </td>
+    <td>
+      <h3>⭐ Keep stories close</h3>
+      Bookmark articles and keep track of stories you've already read.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>🌏 Japanese coverage</h3>
+      Explore Japanese-language reporting with English translations when available.
+    </td>
+    <td>
+      <h3>🔄 Fresh headlines</h3>
+      News data is refreshed throughout the day, typically around every 30 minutes.
+    </td>
+  </tr>
+</table>
 
-Notifications are checked on-device with Android WorkManager about every 30 minutes. Android may delay background work because of battery or network conditions. This does not use Firebase or a push-notification server, so alerts are not instant. Android 13 and newer ask for notification permission when the user saves an enabled subscription.
+## 🗞️ Sources
 
-To open the Android project, open the `android/` folder in Android Studio. To build a local debug APK from a command prompt, run `gradlew.bat :app:assembleDebug` from that folder. Android Studio/Gradle needs a JDK 17 or newer runtime and will resolve the Gradle and AndroidX dependencies on first sync. The debug APK is written to `android/app/build/outputs/apk/debug/app-debug.apk`.
+Stories and previews from:
 
-### Android releases
+**Crunchyroll News · Anime News Network · MyAnimeList · SoraNews24 · Sankaku Complex · BARKS · Billboard JAPAN · OTOTOY**
 
-Pushing a tag named `android-v1.0.0` (with the desired version) starts `.github/workflows/android-release.yml`, which builds and attaches a signed APK to a GitHub Release. Before the first tag, add these repository Actions secrets under **Settings → Secrets and variables → Actions**:
+Articles remain the property of their respective publishers. AniNews Hub links readers back to the original sources.
 
-- `ANDROID_SIGNING_KEYSTORE_BASE64` — base64 contents of the signing keystore
-- `ANDROID_SIGNING_KEYSTORE_PASSWORD`
-- `ANDROID_SIGNING_KEY_ALIAS`
-- `ANDROID_SIGNING_KEY_PASSWORD`
+## 📡 RSS feeds
 
-For upgrades to the APK already installed from this project, keep using the same private keystore that signed it. The local keystore is `work/android-debug.keystore` (ignored by Git); back it up securely and never commit or publish it. In PowerShell, copy its base64 value to the clipboard with:
+Subscribe in your preferred RSS reader. Use the combined feed for everything or choose a publisher-specific feed.
 
-```powershell
-[Convert]::ToBase64String([IO.File]::ReadAllBytes("work\android-debug.keystore")) | Set-Clipboard
-```
+| Feed | Subscribe |
+|---|---|
+| **All sources** | [rss/all.xml](https://aninews-hub.pages.dev/rss/all.xml) |
+| Crunchyroll News | [rss/crunchyroll.xml](https://aninews-hub.pages.dev/rss/crunchyroll.xml) |
+| Anime News Network | [rss/ann.xml](https://aninews-hub.pages.dev/rss/ann.xml) |
+| MyAnimeList | [rss/mal.xml](https://aninews-hub.pages.dev/rss/mal.xml) |
+| SoraNews24 | [rss/soranews24.xml](https://aninews-hub.pages.dev/rss/soranews24.xml) |
+| Sankaku Complex | [rss/sankaku.xml](https://aninews-hub.pages.dev/rss/sankaku.xml) |
+| BARKS | [rss/barks.xml](https://aninews-hub.pages.dev/rss/barks.xml) |
+| Billboard JAPAN | [rss/billboardjapan.xml](https://aninews-hub.pages.dev/rss/billboardjapan.xml) |
+| OTOTOY | [rss/ototoy.xml](https://aninews-hub.pages.dev/rss/ototoy.xml) |
 
-Paste that value into `ANDROID_SIGNING_KEYSTORE_BASE64`. This existing key uses alias `androiddebugkey` and the default Android debug store/key password `android`; enter those for the other three secrets. The release workflow keeps its signing key private, verifies the APK, and creates a monotonically increasing Android version code for each new tag.
+## 📱 Android app
 
-## Follow the stories with RSS
+Use AniNews Hub on Android with the companion app.
 
-- [All AniNews Hub stories](https://aninews-hub.pages.dev/rss/all.xml)
-- [Crunchyroll News](https://aninews-hub.pages.dev/rss/crunchyroll.xml)
-- [Anime News Network](https://aninews-hub.pages.dev/rss/ann.xml)
-- [MyAnimeList](https://aninews-hub.pages.dev/rss/mal.xml)
-- [SoraNews24](https://aninews-hub.pages.dev/rss/soranews24.xml)
-- [Sankaku Complex](https://aninews-hub.pages.dev/rss/sankaku.xml)
-- [BARKS](https://aninews-hub.pages.dev/rss/barks.xml)
-- [Billboard JAPAN](https://aninews-hub.pages.dev/rss/billboardjapan.xml)
-- [OTOTOY](https://aninews-hub.pages.dev/rss/ototoy.xml)
+- **[Download AniNewsHub 1.0.0 APK](https://github.com/chintu-io/aninews-hub/releases/download/android-v1.0.0/AniNewsHub-1.0.0.apk)**
+- [View release notes and downloads](https://github.com/chintu-io/aninews-hub/releases/tag/android-v1.0.0)
 
-AniNews Hub brings together headlines, previews, and images for discovery. Full stories are published by and remain the property of their original publishers.
+The app loads the live website and includes a bundled offline fallback. It also supports publisher-based story notifications; Android may delay background checks depending on battery and network conditions.
+
+## 🧰 Technology
+
+| Area | Technologies |
+|---|---|
+| Website | **HTML5**, **CSS3**, **JavaScript** |
+| Feed collection and RSS generation | **Node.js**, JavaScript ES modules |
+| Android app | **Java**, Android SDK, AndroidX, WorkManager |
+| Content and feeds | **JSON**, **RSS/XML** |
+| Automation and publishing | **GitHub Actions**, **Cloudflare Pages** |
+
+## 🔗 Project links
+
+- **Website:** [aninews-hub.pages.dev](https://aninews-hub.pages.dev/)
+- **All-source RSS:** [Open feed](https://aninews-hub.pages.dev/rss/all.xml)
+- **Android APK:** [Download latest published APK](https://github.com/chintu-io/aninews-hub/releases/download/android-v1.0.0/AniNewsHub-1.0.0.apk)
+- **Releases:** [GitHub Releases](https://github.com/chintu-io/aninews-hub/releases)
+- **Source code:** [GitHub repository](https://github.com/chintu-io/aninews-hub)
+
+---
+
+<div align="center">
+
+**AniNews Hub** · Anime, Japan, and culture in one place.
+
+<sub>Headlines and previews for discovery. Full articles are hosted by their original publishers.</sub>
+
+</div>

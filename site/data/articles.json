@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T10:02:01.264Z",
+  "generatedAt": "2026-10-16T10:31:41.744Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 36,
+      "count": 39,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 32,
+      "count": 34,
       "fetchedCount": 24
     }
   ],
@@ -162,11 +162,85 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 312,
-    "translatedJapaneseArticles": 117,
+    "articleCount": 317,
+    "translatedJapaneseArticles": 120,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "c14c5981a4d97da6",
+      "title": "TWS、多彩な魅力に光を当てたフォト＆フィルム「Beyond」公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166566",
+      "publishedAt": "2026-10-16T10:30:00.000Z",
+      "excerpt": "TWSが、2026年11月2日にリリースとなるニューシングル『TO US』の「Beyond」バージ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166566/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "TWS releases photo and film “Beyond” highlighting various charms",
+      "translatedExcerpt": "TWS releases “Beyond” version of new single “TO US” to be released on November 2, 2026"
+    },
+    {
+      "id": "485c667c0c3478c2",
+      "title": "大塚 愛、【LOVE IS BORN ～23rd Anniversary 2026～】映像作品ジャケ写＆収録内容を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166564",
+      "publishedAt": "2026-10-16T10:15:00.000Z",
+      "excerpt": "大塚 愛が、12月23日にリリースするライブ映像作品『LOVE IS BORN ～23rd Ann",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166564/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ai Otsuka, [LOVE IS BORN ~23rd Anniversary 2026~] Video work jacket photo and recording contents released",
+      "translatedExcerpt": "Ai Otsuka will release a live video work “LOVE IS BORN ~23rd Ann” on December 23rd."
+    },
+    {
+      "id": "7c3e9499c5787a15",
+      "title": "Da-iCE、ドラマ『波うららかに、めおと日和』主題歌「うららか」配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/166565",
+      "publishedAt": "2026-10-16T10:10:00.000Z",
+      "excerpt": "Da-iCEが、フジテレビ系木曜劇場『波うららかに、めおと日和』の主題歌となる新曲「うららか」を配",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166565/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Da-iCE releases the theme song “Uraraka” for the drama “Nami Urarakani, Meoto Biyori”",
+      "translatedExcerpt": "Da-iCE has released a new song \"Uraraka\" which will be the theme song for Fuji TV's Thursday theater \"Nami Urarakani, Meoto Biyori\"."
+    },
+    {
+      "id": "12e28af426724b01",
+      "title": "Touhou Remake Gets Physical Nintendo Switch Release After Overwhelming Fan Demand",
+      "link": "https://news.sankakucomplex.com/n/lHshnpMxIqVTH6-1n1DPcg",
+      "publishedAt": "2026-10-16T10:00:12.000Z",
+      "excerpt": "The remake of Touhou Koumakyou: The Embodiment of Scarlet Devil is receiving an unexpected physical release for Nintendo Switch and Nintendo Switch 2 following strong demand from fans.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "de716ece1810a22f",
       "title": "bed、新曲「ズーキッド｜Zookid」リリース",
@@ -921,7 +995,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "〈i-katachi 3〉, butohes, In Morfine Sugar, in sea hole, Saba No Omi Sonny welcomes LIVE held at HAUS",
+      "translatedTitle": "〈i-katachi 3〉, butohes, In Morfine Sugar, in sea hole, LIVE held at HAUS with Saba No Omi Sonny",
       "translatedExcerpt": "<i no Katachi 3> will be held at Shimokitazawa LIVE HAUS on October 16, 2026 (Friday). <Shape of i> is a series planned by show and taku tsushima. This time, which will be held for the third time, four groups will perform: butohes, In Morfine Sugar, in sea hole, and Saba no Omi Sonny. Butohes is a four-piece rock band that incorporates various elements such as post-rock, ambient, and electronic music. In Morfine Sugar is a shoegaze band that started in Nagoya and is currently based in Tokyo. in sea hole is a 4-piece rock band that features a sound that ranges from alternative to catchy, and a delicate sound image created by vocalist Katagata's gentle and ephemeral singing voice. All members of Saba no Omi Sonny write and compose..."
     },
     {
@@ -4806,6 +4880,23 @@
       },
       "translatedTitle": "[Official Report] Haruko Momoi holds an event to commemorate the release of her new SG \"Mikansei\" Fans respond to the new song with a perfect call before its release",
       "translatedExcerpt": "Haruko Momoi, also known as \"Momoi\", the original Akiba-kei queen, held an event to commemorate the release of her new single \"Mikansei\" at the Shiodome Siosite underground walkway in Tokyo on Sunday, October 11, 2026. This event was held to commemorate the release of their new single, which will be released on Wednesday, November 25th, and included a mini-live and special event. At the mini-live, they performed all five songs, excluding SE, and delivered a stage that raised expectations for their new work. Following SE, Haruko Momoi appeared with a shoulder keyboard and started with \"OTAKUNAJIMI\". Next, they performed the title song of their new single, \"Mikansei.\" The fans responded to the performance using a shoulder keyboard with a rhythmic clap, and the venue was enveloped in the rhythm of the song. Furthermore, even before the release, the song in the song..."
+    },
+    {
+      "id": "e43c6d20fc9f148d",
+      "title": "Physical Fitness Declining Among Japanese Women in Their 30s and 40s",
+      "link": "https://news.sankakucomplex.com/n/9cHgo-hqXD1YJLKr2Vup2A",
+      "publishedAt": "2026-10-13T10:00:34.000Z",
+      "excerpt": "Physical fitness among Japanese women in their 30s and 40s has been declining over the past 25 years, with experts suggesting that the unequal burden of housework and childcare is preventing many women from exercising regularly.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "a45a1e45285ac80e",

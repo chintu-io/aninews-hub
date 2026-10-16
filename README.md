@@ -1,69 +1,72 @@
-# 🌸 AniNews Hub
+# AniNews Hub
 
-<p align="center">
-  <a href="https://aninews-hub.pages.dev/">
-    <img src="https://raw.githubusercontent.com/chintu-io/aninews-hub/main/site/favicon.svg" alt="AniNews Hub" width="96">
-  </a>
-</p>
+AniNews Hub is an anime-inspired reader for anime, manga, Japanese culture, and music news. It brings publisher headlines and excerpts together while linking readers to each publisher for the full story.
 
-<h1 align="center">AniNews Hub</h1>
+🌐 **Website:** [aninews-hub.pages.dev](https://aninews-hub.pages.dev/)
 
-<p align="center"><strong>Anime, Japan, music and culture news — gathered in one clean, fast reader.</strong></p>
+## Publishers
 
-<p align="center"><a href="https://aninews-hub.pages.dev/"><strong>🌐 Open AniNews Hub</strong></a></p>
+The homepage lists publishers in this order:
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Updates-Every%2030%20minutes-7c5cff?style=for-the-badge" alt="Updates every 30 minutes">
-  <img src="https://img.shields.io/badge/Language-English%20%2B%20Japanese%20%E2%86%92%20English-ff7ab6?style=for-the-badge" alt="English and Japanese translated to English">
-</p>
+1. Crunchyroll News
+2. Anime News Network (ANN)
+3. MyAnimeList (MAL)
+4. SoraNews24
+5. Sankaku Complex
+6. BARKS
+7. Billboard JAPAN
+8. OTOTOY
 
-## 📰 Sources
+Kotaku is not included.
 
-AniNews Hub currently brings together these publishers:
+## Features
 
-| Source | Coverage |
-| --- | --- |
-| **Sankaku Complex** | Anime, manga, games, Japanese pop culture |
-| **SoraNews24** | Japan, culture, travel, food and unusual stories |
-| **Anime News Network** | Anime and manga industry/news coverage |
-| **Crunchyroll News** | Anime, manga, movies, games and industry news |
-| **MyAnimeList** | Anime and manga news |
-| **Billboard JAPAN** | Japanese music, releases, charts and entertainment |
-| **BARKS** | Japanese music and entertainment news |
-| **OTOTOY** | Japanese music, releases and music culture |
+- Anime-inspired magazine design with responsive card grid and compact list views
+- Rolling 14-day story archive, capped at 1,000 articles
+- Search, publisher and language filters, category tabs, sorting, and pagination
+- Bookmarks and read-story tracking saved in the browser
+- Dark and light themes
+- Japanese-language story translations when available
+- Combined RSS feed and an RSS feed for each publisher
+- Direct links to the original publisher; full articles remain on their source websites
 
-## 🇯🇵 Japanese News
+## Refresh and deployment
 
-Japanese-language sources are grouped separately in the site and their headlines/excerpts are automatically translated to English for easier reading.
+A seedbox refresh runs every 30 minutes. It fetches the configured publisher feeds, merges recent stories into the archive, processes Sankaku stories, generates the RSS files, and validates the output. When generated data changes, the seedbox commits it to `main`; a GitHub Actions workflow then deploys the `site/` directory.
 
-**Billboard JAPAN · BARKS · OTOTOY**
+The archive keeps stories published within the last 14 days, subject to the 1,000-article cap. Its history accumulates over successive successful refreshes.
 
-## ✨ What the site provides
+## RSS feeds
 
-- A rolling 14-day archive of stories from multiple publishers
-- Source and language filters, search and pagination
-- Dark and light themes with article imagery
-- Direct links to the original publisher
-- Per-source RSS feeds plus one combined RSS feed
+- [All publishers](https://aninews-hub.pages.dev/rss/all.xml)
+- [Crunchyroll News](https://aninews-hub.pages.dev/rss/crunchyroll.xml)
+- [Anime News Network](https://aninews-hub.pages.dev/rss/ann.xml)
+- [MyAnimeList](https://aninews-hub.pages.dev/rss/mal.xml)
+- [SoraNews24](https://aninews-hub.pages.dev/rss/soranews24.xml)
+- [Sankaku Complex](https://aninews-hub.pages.dev/rss/sankaku.xml)
+- [BARKS](https://aninews-hub.pages.dev/rss/barks.xml)
+- [Billboard JAPAN](https://aninews-hub.pages.dev/rss/billboardjapan.xml)
+- [OTOTOY](https://aninews-hub.pages.dev/rss/ototoy.xml)
 
-## 🔄 Updates
+## Run a refresh locally
 
-News data is refreshed from the configured sources **every 30 minutes**. The website is redeployed when the generated data changes.
+Requirements: Node.js 22 or newer and npm.
 
-## 📡 RSS
+```sh
+npm ci
+npm run fetch
+node scripts/sankaku-fix.mjs
+npm run generate:rss
+npm run validate
+```
 
-**Combined:** `https://aninews-hub.pages.dev/rss/all.xml`
+`npm run validate` checks article IDs and links, source membership, ordering, article limits, and the combined and per-publisher RSS feeds.
 
-Per-source feeds follow the same pattern:
+## Repository layout
 
-- **BARKS:** `https://aninews-hub.pages.dev/rss/barks.xml`
-- **OTOTOY:** `https://aninews-hub.pages.dev/rss/ototoy.xml`
-- **Billboard JAPAN:** `https://aninews-hub.pages.dev/rss/billboardjapan.xml`
+- `site/` — static website, generated article data, and RSS feeds
+- `scripts/` — publisher collection, archive, RSS generation, and validation
+- `.github/workflows/` — GitHub Actions checks and Pages deployment
 
-## 🔗
+> AniNews Hub aggregates headlines, excerpts, and images. Stories remain the property of their respective publishers; readers are sent to the original source for the full article.
 
-🌐 **Website:** https://aninews-hub.pages.dev/
-
-💻 **Repository:** https://github.com/chintu-io/aninews-hub
-
-> AniNews Hub aggregates headlines, excerpts and links. Stories remain the property of their respective publishers, and readers are sent to the original source for the full article.

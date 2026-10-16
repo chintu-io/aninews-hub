@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import crypto from "node:crypto";
 import Parser from "rss-parser";
 import { SOURCES } from "./sources.mjs";
+import { mergeArticleArchive } from "./article-archive.mjs";
 
 const parser = new Parser({
   timeout: 25000,
@@ -3146,12 +3147,7 @@ async function translateJapaneseArticles(
 }
 
 
-/*
- * Preserve last-known-good articles only for sources that actually
- * failed. This prevents a transient outage from erasing a source's
- * stories. Sankaku is intentionally excluded: its separate fixer has
- * an explicit no-stale-cache policy.
- */
+/* Preserve a rolling archive and last-known-good stories on feed failures. */
 let previousArticles = [];
 try {
   const previousPayload =
@@ -3167,119 +3163,28 @@ try {
   // First run or invalid old output: proceed with newly fetched data.
 }
 
-const failedSourceIds =
-  new Set(
-    sourceResults
-      .filter(result => result.status === "error")
-      .map(result => result.id)
-  );
+const failedSourceIds = new Set(
+  sourceResults
+    .filter(result => result.status === "error")
+    .map(result => result.id)
+);
 
-if (failedSourceIds.size) {
-  const canonicalLink = value =>
-    String(value || "")
-      .replace(/\/+$/, "")
-      .toLowerCase();
+const articles = mergeArticleArchive({
+  currentArticles: allArticles,
+  previousArticles,
+  activeSourceIds: SOURCES.map(source => source.id),
+  failedSourceIds
+});
 
-  const collectedLinks =
-    new Set(
-      allArticles
-        .map(article => canonicalLink(article.link))
-        .filter(Boolean)
-    );
-
-  for (const oldArticle of previousArticles) {
-    const sourceId = oldArticle?.source?.id;
-    const key = canonicalLink(oldArticle?.link);
-
-    if (
-      !key ||
-      !failedSourceIds.has(sourceId) ||
-      collectedLinks.has(key)
-    ) {
-      continue;
-    }
-
-    allArticles.push({
-      ...oldArticle,
-      stale: true
-    });
-
-    collectedLinks.add(key);
-  }
+const archiveCounts = new Map();
+for (const article of articles) {
+  const sourceId = article.source?.id;
+  archiveCounts.set(sourceId, (archiveCounts.get(sourceId) || 0) + 1);
 }
-
-/*
- * ---------------------------------------------------------
- * Deduplicate
- * ---------------------------------------------------------
- */
-
-const unique =
-  new Map();
-
-for (
-  const article of
-    allArticles
-) {
-  const key =
-    article.link
-      .replace(
-        /\/+$/,
-        ""
-      )
-      .toLowerCase();
-
-  if (
-    !unique.has(
-      key
-    )
-  ) {
-    unique.set(
-      key,
-      article
-    );
-  }
+for (const result of sourceResults) {
+  result.fetchedCount = result.count;
+  result.count = archiveCounts.get(result.id) || 0;
 }
-
-const articles =
-  [
-    ...unique.values()
-  ]
-    .sort(
-      (a, b) => {
-        const left =
-          a.publishedAt
-            ? Date.parse(
-                a.publishedAt
-              )
-            : 0;
-
-        const right =
-          b.publishedAt
-            ? Date.parse(
-                b.publishedAt
-              )
-            : 0;
-
-        if (
-          right !==
-          left
-        ) {
-          return (
-            right -
-            left
-          );
-        }
-
-        return a.title.localeCompare(
-          b.title
-        );
-      }
-    )
-    .slice(
-      0,
-      500
-    );
 
 
 const translationResult =

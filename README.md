@@ -1,5 +1,7 @@
 <div align="center">
 
+<p><img src="https://raw.githubusercontent.com/chintu-io/aninews-hub/main/site/favicon.svg?v=20261016-1" width="72" height="72" alt="AniNews Hub ア brand mark"></p>
+
 # AniNews Hub
 
 ### Anime · Japan · Culture

@@ -854,7 +854,7 @@ function syncFilterUI() {
       };
       heading.textContent = catMap[state.category] || "Stories";
     } else if (state.language === "ja") {
-      heading.textContent = "Japanese News (Auto-Translated)";
+      heading.textContent = "Japanese News (English when available)";
     } else if (state.language === "en") {
       heading.textContent = "English Stories";
     } else {

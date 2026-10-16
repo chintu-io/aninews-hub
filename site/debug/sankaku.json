@@ -1,20 +1,60 @@
 {
-  "generatedAt": "2026-10-16T20:00:32.569Z",
+  "generatedAt": "2026-10-16T20:30:33.678Z",
   "feedAttempts": [
     {
       "url": "https://r.jina.ai/http://www.sankakucomplex.com/feed/",
       "sourceFeed": "http://www.sankakucomplex.com/feed/",
       "transport": "jina-reader",
-      "status": 200,
+      "status": 422,
       "finalUrl": "https://r.jina.ai/http://www.sankakucomplex.com/feed/",
       "contentType": "application/json; charset=utf-8",
-      "bytes": 9151,
+      "bytes": 197,
+      "count": 0,
+      "latest": null
+    },
+    {
+      "url": "https://r.jina.ai/https://www.sankakucomplex.com/feed/",
+      "sourceFeed": "https://www.sankakucomplex.com/feed/",
+      "transport": "jina-reader",
+      "status": 422,
+      "finalUrl": "https://r.jina.ai/https://www.sankakucomplex.com/feed/",
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 197,
+      "count": 0,
+      "latest": null
+    },
+    {
+      "url": "https://www.sankakucomplex.com/feed/",
+      "sourceFeed": "https://www.sankakucomplex.com/feed/",
+      "transport": "direct",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.sankakucomplex.com/?feed=rss2",
+      "sourceFeed": "https://www.sankakucomplex.com/?feed=rss2",
+      "transport": "direct",
+      "status": 200,
+      "finalUrl": "https://www.sankakucomplex.com/?feed=rss2",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 343837,
+      "count": 0,
+      "latest": null,
+      "parseError": "Response could not be parsed as RSS/Atom"
+    },
+    {
+      "url": "https://news.sankakucomplex.com/feed/",
+      "sourceFeed": "https://news.sankakucomplex.com/feed/",
+      "transport": "direct",
+      "status": 200,
+      "finalUrl": "https://news.sankakucomplex.com/feed/",
+      "contentType": "application/rss+xml; charset=UTF-8",
+      "bytes": 36146,
       "count": 24,
       "latest": "2026-10-16T17:41:35.000Z"
     }
   ],
-  "selectedFeed": "http://www.sankakucomplex.com/feed/",
-  "selectedTransport": "jina-reader",
+  "selectedFeed": "https://news.sankakucomplex.com/feed/",
+  "selectedTransport": "direct",
   "rssCount": 24,
   "finalCount": 24,
   "newest": "2026-10-16T17:41:35.000Z",
@@ -22,27 +62,27 @@
   "imageAttempts": [],
   "descriptionAttempts": [
     {
-      "link": "https://news.sankakucomplex.com/n/pvH6cFbZz2sC1ckgTuxIDw",
+      "link": "https://news.sankakucomplex.com/n/lHshnpMxIqVTH6-1n1DPcg",
       "status": 200,
-      "bytes": 25082,
-      "hasDescription": true
-    },
-    {
-      "link": "https://news.sankakucomplex.com/n/LbX7aRU1VMVe5VBfmjzdAg",
-      "status": 200,
-      "bytes": 30326,
+      "bytes": 26642,
       "hasDescription": true
     },
     {
       "link": "https://news.sankakucomplex.com/n/hTW9F9dDlXcisAwZXlMTcw",
       "status": 200,
-      "bytes": 27706,
+      "bytes": 27745,
       "hasDescription": true
     },
     {
-      "link": "https://news.sankakucomplex.com/n/lHshnpMxIqVTH6-1n1DPcg",
+      "link": "https://news.sankakucomplex.com/n/pvH6cFbZz2sC1ckgTuxIDw",
       "status": 200,
-      "bytes": 26642,
+      "bytes": 25184,
+      "hasDescription": true
+    },
+    {
+      "link": "https://news.sankakucomplex.com/n/LbX7aRU1VMVe5VBfmjzdAg",
+      "status": 200,
+      "bytes": 30370,
       "hasDescription": true
     },
     {
@@ -52,39 +92,39 @@
       "hasDescription": true
     },
     {
+      "link": "https://news.sankakucomplex.com/n/tqJz6hvvkf0iPGqW2gdsLQ",
+      "status": 200,
+      "bytes": 25937,
+      "hasDescription": true
+    },
+    {
+      "link": "https://news.sankakucomplex.com/n/rO5jYb8Ft5s2A-WbnMFltw",
+      "status": 200,
+      "bytes": 25854,
+      "hasDescription": true
+    },
+    {
       "link": "https://news.sankakucomplex.com/n/u0sIpdkoXNmLzKRLho-hgw",
       "status": 200,
       "bytes": 27785,
       "hasDescription": true
     },
     {
-      "link": "https://news.sankakucomplex.com/n/rO5jYb8Ft5s2A-WbnMFltw",
-      "status": 200,
-      "bytes": 25805,
-      "hasDescription": true
-    },
-    {
-      "link": "https://news.sankakucomplex.com/n/tqJz6hvvkf0iPGqW2gdsLQ",
-      "status": 200,
-      "bytes": 25897,
-      "hasDescription": true
-    },
-    {
       "link": "https://news.sankakucomplex.com/n/7okja02-M6rb27Sp2fWsIQ",
       "status": 200,
-      "bytes": 39224,
+      "bytes": 39264,
       "hasDescription": true
     },
     {
       "link": "https://news.sankakucomplex.com/n/qef6vhTpFuQ3XX-YpxmCaA",
       "status": 200,
-      "bytes": 29914,
+      "bytes": 29955,
       "hasDescription": true
     },
     {
       "link": "https://news.sankakucomplex.com/n/W8R87Uay-bZUXapfWKuegg",
       "status": 200,
-      "bytes": 49955,
+      "bytes": 50039,
       "hasDescription": true
     },
     {
@@ -94,21 +134,21 @@
       "hasDescription": true
     },
     {
+      "link": "https://news.sankakucomplex.com/n/6S4H-DFcMe3Iu0i59wC0jA",
+      "status": 200,
+      "bytes": 32761,
+      "hasDescription": true
+    },
+    {
       "link": "https://news.sankakucomplex.com/n/iYHCUDRzU7lKxuLd7cepvA",
       "status": 200,
-      "bytes": 26501,
+      "bytes": 26449,
       "hasDescription": true
     },
     {
       "link": "https://news.sankakucomplex.com/n/gjYpir9uDFJnMIRHeMWFdQ",
       "status": 200,
       "bytes": 37612,
-      "hasDescription": true
-    },
-    {
-      "link": "https://news.sankakucomplex.com/n/6S4H-DFcMe3Iu0i59wC0jA",
-      "status": 200,
-      "bytes": 32761,
       "hasDescription": true
     },
     {
@@ -124,21 +164,27 @@
       "hasDescription": true
     },
     {
-      "link": "https://news.sankakucomplex.com/n/8Q_dloqtDblyhrXDcy7q_Q",
-      "status": 200,
-      "bytes": 30976,
-      "hasDescription": true
-    },
-    {
       "link": "https://news.sankakucomplex.com/n/r4BSQLzsE1-uwKBuGNut5A",
       "status": 200,
       "bytes": 32802,
       "hasDescription": true
     },
     {
+      "link": "https://news.sankakucomplex.com/n/8Q_dloqtDblyhrXDcy7q_Q",
+      "status": 200,
+      "bytes": 31033,
+      "hasDescription": true
+    },
+    {
       "link": "https://news.sankakucomplex.com/n/9cHgo-hqXD1YJLKr2Vup2A",
       "status": 200,
-      "bytes": 34817,
+      "bytes": 34867,
+      "hasDescription": true
+    },
+    {
+      "link": "https://news.sankakucomplex.com/n/HLGKCWL-cBWqUofBttOV5A",
+      "status": 200,
+      "bytes": 26851,
       "hasDescription": true
     },
     {
@@ -151,12 +197,6 @@
       "link": "https://news.sankakucomplex.com/n/xLzm34Z2WuuvhwHF7UQ3Zg",
       "status": 200,
       "bytes": 31744,
-      "hasDescription": true
-    },
-    {
-      "link": "https://news.sankakucomplex.com/n/HLGKCWL-cBWqUofBttOV5A",
-      "status": 200,
-      "bytes": 26851,
       "hasDescription": true
     },
     {

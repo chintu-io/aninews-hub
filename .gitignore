@@ -1,6 +1,11 @@
 node_modules/
 .gradle/
 android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
+android/app/release/
 android/app/google-services.json
 *.jks
 *.keystore
+/work/

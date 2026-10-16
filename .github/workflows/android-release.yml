@@ -1,0 +1,68 @@
+name: Build Android release
+
+on:
+  push:
+    tags:
+      - "android-v*"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android-release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+
+      - name: Set up Java
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v4
+        with:
+          packages: "platforms;android-37 build-tools;37.0.0"
+
+      - name: Decode signing key
+        env:
+          ANDROID_SIGNING_KEYSTORE_BASE64: ${{ secrets.ANDROID_SIGNING_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PATH: ${{ runner.temp }}/aninews-release.jks
+        run: |
+          if [ -z "$ANDROID_SIGNING_KEYSTORE_BASE64" ]; then
+            echo "Missing repository secret ANDROID_SIGNING_KEYSTORE_BASE64" >&2
+            exit 1
+          fi
+          printf '%s' "$ANDROID_SIGNING_KEYSTORE_BASE64" | base64 --decode > "$ANDROID_KEYSTORE_PATH"
+          chmod 600 "$ANDROID_KEYSTORE_PATH"
+
+      - name: Build signed release APK
+        env:
+          ANDROID_KEYSTORE_PATH: ${{ runner.temp }}/aninews-release.jks
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_SIGNING_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_SIGNING_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_SIGNING_KEY_PASSWORD }}
+        run: |
+          version="${GITHUB_REF_NAME#android-v}"
+          bash ./android/gradlew --no-daemon -p android :app:assembleRelease \
+            -PandroidVersionCode="$GITHUB_RUN_NUMBER" \
+            -PandroidVersionName="$version"
+
+      - name: Verify and publish APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          version="${GITHUB_REF_NAME#android-v}"
+          apk="AniNewsHub-${version}.apk"
+          cp android/app/build/outputs/apk/release/app-release.apk "$apk"
+          "$ANDROID_HOME/build-tools/37.0.0/apksigner" verify --verbose "$apk"
+          gh release create "$GITHUB_REF_NAME" "$apk" \
+            --title "AniNews Hub $version" \
+            --generate-notes

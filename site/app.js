@@ -637,12 +637,21 @@ function renderPublishersDirectory() {
   const sourcesEl = $("#sources");
   if (!sourcesEl) return;
 
-  const allSources = sortPublishersForDisplay(state.payload?.sources || []);
+  let allSources = sortPublishersForDisplay(state.payload?.sources || []);
+  if (state.language !== "all") {
+    allSources = allSources.filter(source =>
+      (source.language || "en") === state.language
+    );
+  }
+  $(".sidebar-badge").textContent = `${allSources.length} PUBLISHERS`;
   const results = state.payload?.sourceResults || [];
+  const articles = state.payload?.articles || [];
 
   sourcesEl.innerHTML = allSources.map(source => {
     const res = results.find(item => item.id === source.id);
-    const count = res?.count ?? 0;
+    const count = state.language === "all"
+      ? (res?.count ?? 0)
+      : articles.filter(article => article.source?.id === source.id).length;
     const accent = source.accent || "#f07858";
     const isFiltered = state.source === source.id;
 

@@ -4,6 +4,12 @@ on:
   push:
     tags:
       - "android-v*"
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Existing release tag to build and upload to (for example android-v1.0.0)"
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -18,6 +24,8 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event_name == 'workflow_dispatch' && inputs.release_tag || github.ref }}
 
       - name: Set up Java
         uses: actions/setup-java@v6
@@ -58,6 +66,10 @@ jobs:
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_SIGNING_KEY_PASSWORD }}
         run: |
           version="${GITHUB_REF_NAME#android-v}"
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            version="${{ inputs.release_tag }}"
+            version="${version#android-v}"
+          fi
           bash ./android/gradlew --no-daemon -p android :app:assembleRelease \
             -PandroidVersionCode="$GITHUB_RUN_NUMBER" \
             -PandroidVersionName="$version"
@@ -67,14 +79,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          version="${GITHUB_REF_NAME#android-v}"
+          tag="$GITHUB_REF_NAME"
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            tag="${{ inputs.release_tag }}"
+          fi
+          version="${tag#android-v}"
           apk="AniNewsHub-${version}.apk"
           cp android/app/build/outputs/apk/release/app-release.apk "$apk"
           "$ANDROID_HOME/build-tools/37.0.0/apksigner" verify --verbose "$apk"
-          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
-            gh release upload "$GITHUB_REF_NAME" "$apk" --clobber
-          else
-            gh release create "$GITHUB_REF_NAME" "$apk" \
-              --title "AniNews Hub $version" \
-              --generate-notes
-          fi
+          gh release upload "$tag" "$apk" --clobber

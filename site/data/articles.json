@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T00:31:24.340Z",
+  "generatedAt": "2026-10-17T01:01:39.502Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 67,
+      "count": 68,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -162,11 +162,28 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 392,
+    "articleCount": 393,
     "translatedJapaneseArticles": 171,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "faa34773340e42e5",
+      "title": "Aikatsu! TV Anime Reveals New Creditless Opening and Ending Videos for Rebroadcast",
+      "link": "https://crunchyroll.com/news/latest/2026/10/17/aikatsu-tv-anime-rebroadcast-new-creditless-opening-ending-videos",
+      "publishedAt": "2026-10-17T00:39:00.000Z",
+      "excerpt": "\"Aikatsu! Encore\" arcade game began operating on October 8",
+      "image": "https://a.storyblok.com/f/178900/960x540/e193614fd4/aikatsu-rebroadcast-opening.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "6f56db5045ad04b1",
       "title": "Nexus Mods Bans Gears of War: E-Day Mod That Replaces Pride Flags",

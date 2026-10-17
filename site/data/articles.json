@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T12:01:39.375Z",
+  "generatedAt": "2026-10-17T12:31:34.104Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 59,
+      "count": 60,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 71,
+      "count": 72,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -162,11 +162,47 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 446,
-    "translatedJapaneseArticles": 207,
+    "articleCount": 448,
+    "translatedJapaneseArticles": 208,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "b598f6ee5205c596",
+      "title": "Japanese Animation TV Ranking, October 5-11",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-17/japanese-animation-tv-ranking-october-5-11/.242889",
+      "publishedAt": "2026-10-17T12:15:00.000Z",
+      "excerpt": "The Vermilion Mask debuts with 3.1% rating, Dragon Ball Super: Beerus with 2.8% rating",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gQJ/encyc/A36879-3355659636.1789101899.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "a2b018dcd4728f18",
+      "title": "【Top Japan Hits by Women】aikoの新曲「あなたの花の色」など初登場でリストイン",
+      "link": "https://www.billboard-japan.com/d_news/detail/166544",
+      "publishedAt": "2026-10-17T12:00:00.000Z",
+      "excerpt": "Billboard JAPANとSpotifyによるコラボレーション・プレイリスト「Top Jap",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166544/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Top Japan Hits by Women] Aiko's new song \"Anata no Hana no Iro\" and other songs are listed for the first time",
+      "translatedExcerpt": "Collaboration playlist “Top Jap” by Billboard JAPAN and Spotify"
+    },
     {
       "id": "db342f1d2ba69682",
       "title": "羊文学、2021年発表の「夜を越えて」MV突如公開",

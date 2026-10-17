@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T01:31:39.825Z",
+  "generatedAt": "2026-10-17T02:01:35.609Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 68,
+      "count": 69,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 64,
+      "count": 65,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 74,
+      "count": 75,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -162,11 +162,66 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 394,
-    "translatedJapaneseArticles": 171,
+    "articleCount": 397,
+    "translatedJapaneseArticles": 173,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "fe0e7e3678a78aeb",
+      "title": "People In The Box、9th AL『World Technique』リリース決定",
+      "link": "https://ototoy.jp/news/132317",
+      "publishedAt": "2026-10-17T02:00:00.000Z",
+      "excerpt": "People In The Boxが9thアルバム『World Technique』をリリースすることを発表した。 People In The Boxは2005年結成した、3ピースという編成の限界にとらわれない幅広い音楽性と、独特な楽曲や歌の世界観で異彩を放つ3ピースバンド。2007年に1st mini album「Rabbit Hole」をリリースし、デビューした。 今回リリースされる『World Technique』には「少年少女の音楽」「擬人の音楽」など全9曲を収録。リリース発表にあわせて、新アーティスト写真、ジャケット写真、MVティザー映像、アルバム特設サイトも公開された。 リリース情報 ▼People In The Box OTOTOY配信ページ https://ototoy.jp/_/defa…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132317/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "People In The Box, 9th AL “World Technique” released",
+      "translatedExcerpt": "People In The Box have announced the release of their 9th album ``World Technique''. People In The Box is a three-piece band formed in 2005 that stands out for its wide range of musicality that is not limited by the limitations of a three-piece formation, and its unique world view of songs and songs. They made their debut in 2007 by releasing their 1st mini album \"Rabbit Hole\". The newly released \"World Technique\" includes a total of 9 songs, including \"Boys and Girls' Music\" and \"Anthropomorphic Music.\" Along with the release announcement, a new artist photo, jacket photo, MV teaser video, and special album website were also released. Release information ▼People In The Box OTOTOY distribution page https://ototoy.jp/_/defa…"
+    },
+    {
+      "id": "fa2eba55ec84fa05",
+      "title": "マイケルのハーフタイムショーが実現するまで、カトパコ『THE FIRST TAKE』7インチ発売、グラミー賞最多応募部門は年間最優秀楽曲に：今週の洋楽まとめ",
+      "link": "https://www.billboard-japan.com/d_news/detail/166555",
+      "publishedAt": "2026-10-17T02:00:00.000Z",
+      "excerpt": "今週の洋楽まとめニュースは、故マイケル・ジャクソンに関する話題から。 故マイケル・ジャクソンに",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166555/800x_image.png",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Until Michael's halftime show comes to fruition, Katopako's ``THE FIRST TAKE'' 7-inch released, Grammy Award most submitted song of the year: This week's Western music summary",
+      "translatedExcerpt": "This week's Western music summary news begins with topics related to the late Michael Jackson. To the late Michael Jackson"
+    },
+    {
+      "id": "be9f524e6a489caf",
+      "title": "Kyary Pamyu Pamyu Shares Pan Dorobo TV Anime Ending Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/10/17/pan-dorobo-tv-anime-ending-song-music-video-kyary-pamyu-pamyu",
+      "publishedAt": "2026-10-17T01:33:00.000Z",
+      "excerpt": "The video includes a homage to her debut song, \"PONPONPON\"",
+      "image": "https://a.storyblok.com/f/178900/960x540/34428cc9e4/kyary-pamyu-pamyu-pan-dorobo-ed-mv.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "faa34773340e42e5",
       "title": "Aikatsu! TV Anime Reveals New Creditless Opening and Ending Videos for Rebroadcast",

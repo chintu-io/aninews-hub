@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T02:02:04.716Z",
+  "generatedAt": "2026-10-18T02:31:38.556Z",
   "sources": [
     {
       "id": "sankaku",
@@ -111,11 +111,12 @@
     {
       "id": "mal",
       "name": "MyAnimeList",
-      "status": "error",
-      "mode": null,
+      "status": "ok",
+      "mode": "rss",
+      "feedUrl": "https://myanimelist.net/rss/news.xml",
       "count": 22,
-      "error": "The operation was aborted due to timeout",
-      "fetchedCount": 0
+      "imageEnrichment": null,
+      "fetchedCount": 20
     },
     {
       "id": "billboardjapan",
@@ -153,19 +154,36 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 52,
+      "count": 53,
       "fetchedCount": 24
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 7,
-    "failedSources": 1,
-    "articleCount": 473,
+    "successfulSources": 8,
+    "failedSources": 0,
+    "articleCount": 474,
     "translatedJapaneseArticles": 216,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "39322c4199f7fe6a",
+      "title": "Indie Developer Cancels Game Demo Over Fears AI Could Copy It Before Release",
+      "link": "https://news.sankakucomplex.com/n/cahLxaBcCy_aPq4_ziMnoA",
+      "publishedAt": "2026-10-18T02:00:16.000Z",
+      "excerpt": "The developers of an upcoming indie game have canceled its public demo over concerns that generative AI could be used to rapidly produce copycat games before the original is even released.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "f73bae5276f7f615",
       "title": "Burger King Japan now selling hamburgers minus everything but the meat",
@@ -1718,8 +1736,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "44650908c1ee4b64",
@@ -3397,8 +3414,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b37bd87d114cc89e",
@@ -4764,8 +4780,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fcd96a85d736d52c",
@@ -5042,8 +5057,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "d89562d5110d6764",
@@ -5544,8 +5558,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7217dd4f60d17f78",
@@ -5596,8 +5609,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "406ea0ecdf4caed5",
@@ -6873,8 +6885,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "914732259e6d360b",
@@ -6910,8 +6921,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ccd11ab17521b2c8",
@@ -7342,8 +7352,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "dbb341d79c986009",
@@ -7413,8 +7422,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "aca7f73ceb671a48",
@@ -7895,8 +7903,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1f4cbfb310fcb0af",
@@ -7947,8 +7954,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "dc7a5f8ac1292bb2",
@@ -8409,8 +8415,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f7908f1bd5abd2e1",
@@ -8478,8 +8483,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3c0405cba67babd7",
@@ -8496,8 +8500,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1d854a85c136eb09",
@@ -8582,8 +8585,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3e0b3e312f4fe2ae",
@@ -8600,8 +8602,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8a91e8d645b2e9ed",
@@ -8618,8 +8619,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3c1ca1746c200088",
@@ -8636,8 +8636,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "70d862f60f2abda7",
@@ -8654,8 +8653,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f25e32db6fa2ebb0",
@@ -8672,8 +8670,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e605ad4e976c1680",
@@ -8690,8 +8687,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     }
   ]
 }

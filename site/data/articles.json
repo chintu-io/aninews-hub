@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T14:31:38.439Z",
+  "generatedAt": "2026-10-18T15:01:41.555Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 82,
+      "count": 83,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -162,11 +162,28 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 521,
+    "articleCount": 522,
     "translatedJapaneseArticles": 246,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "c89eddbfaa7f1ef7",
+      "title": "Singer-Songwriter Touka on Creating the New Magic Knight Rayearth Anime Opening",
+      "link": "https://crunchyroll.com/news/interviews/2026/10/18/touka-magic-knight-rayearth-2026-interview",
+      "publishedAt": "2026-10-18T15:00:00.000Z",
+      "excerpt": "Let's return to the world of Magic Knight Rayearth!",
+      "image": "https://a.storyblok.com/f/178900/960x540/93e491b0bf/magic-knight-rayearth-opening.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "4501c9c5207ec4e5",
       "title": "Seoul Plans to Shut Down Its Last Remaining Red-Light District Within a Year",
@@ -961,7 +978,7 @@
       "title": "Indie Developer Cancels Game Demo Over Fears AI Could Copy It Before Release",
       "link": "https://news.sankakucomplex.com/n/cahLxaBcCy_aPq4_ziMnoA",
       "publishedAt": "2026-10-18T02:00:16.000Z",
-      "excerpt": "The developers of an upcoming indie game have canceled its public demo over concerns that generative AI could be used to rapidly produce copycat games before the original is even released.",
+      "excerpt": "",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",

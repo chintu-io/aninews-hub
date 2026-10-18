@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T05:02:04.499Z",
+  "generatedAt": "2026-10-18T05:31:37.460Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 77,
+      "count": 78,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 69,
+      "count": 70,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -162,11 +162,28 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 485,
-    "translatedJapaneseArticles": 227,
+    "articleCount": 487,
+    "translatedJapaneseArticles": 228,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8dadf05eb75e5016",
+      "title": "Aikatsu Stars! Anime Film Unveils January 22, 2027 Release Date, Main Trailer, and Visual",
+      "link": "https://crunchyroll.com/news/latest/2026/10/18/aikatsu-stars-anime-film-january-22-2027-release-date-main-trailer-visual",
+      "publishedAt": "2026-10-18T05:10:00.000Z",
+      "excerpt": "The film will celebrate the series' 10th anniversary",
+      "image": "https://a.storyblok.com/f/178900/960x540/1bfd787d8a/aikatsu-stars-movie-main-trailer.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "893a6936f0236f51",
       "title": "羊文学、坂東龍汰と髙石あかりが共演「夜を越えて」MV公開",
@@ -477,6 +494,25 @@
         "accent": "#ff6784",
         "language": "en"
       }
+    },
+    {
+      "id": "7558da938d4732c0",
+      "title": "すりぃ、1年ぶりの全国ツアー完遂。2027年3月に活動9周年ワンマン開催決定",
+      "link": "https://barks.jp/news/1094749",
+      "publishedAt": "2026-10-17T15:00:11.000Z",
+      "excerpt": "すりぃが10月17日、ワンマンライブツアーのファイナルを完遂。さらに2027年3月3日にワンマンライブ＜THREEE CHEERS FOR THREEE vol.4＞を開催することを発表した。 今夏から「チューインガム feat. KANA-BOON」「地獄のロマン」と立て続けに楽曲を発表し、今月頭には現在オンエア中のTVアニメ『#ゾンビさがしてます』のオープニングテーマとして書き下ろした楽曲「ラキラキ」をリリースするなど精力的に活動する すりぃ 。1年ぶりのワンマンライブツアー＜リフレーム＞のファイナルを地元・大阪で「ただいま！」という第一声と共にスタートさせ、すりぃ とバンドメンバーが、縦横無尽に駆け回るアグレッシブなステージを展開した。アンコールでは自身の活動9周年を祝うワンマンライブ＜THREEE…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/18135558/THREEE_1017b-1-683x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Suri completes her first national tour in a year. 9th anniversary one-man event will be held in March 2027",
+      "translatedExcerpt": "Suri completed the final of her one-man live tour on October 17th. Furthermore, they announced that they will hold a one-man live <THREEE CHEERS FOR THREEE vol.4> on March 3, 2027. Since this summer, Suri has been releasing songs in quick succession such as ``Chewing Gum feat. The final of their one-man live tour ``Reframe'', which has been going on for the first time in a year, started in their hometown of Osaka with the first cry of ``I'm home!'', and Suri and her band members performed an aggressive stage where they ran around freely. The encore was a one-man live celebrating his 9th anniversary <THREEE...>"
     },
     {
       "id": "88d38b4a3f91bce5",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T03:31:35.986Z",
+  "generatedAt": "2026-10-19T04:01:48.101Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 100,
+      "count": 101,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -162,11 +162,30 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 563,
-    "translatedJapaneseArticles": 271,
+    "articleCount": 564,
+    "translatedJapaneseArticles": 272,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "3e32738caadb625b",
+      "title": "ナズ、音楽業界の現状への不満明かす「“流行”のために音楽を作り続けるわけにはいかない」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166621",
+      "publishedAt": "2026-10-19T03:30:00.000Z",
+      "excerpt": "ナズがかつて「War Is Necessary」と歌ったように、時には闘うことも必要なのかもしれな",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166621/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Nas reveals his dissatisfaction with the current state of the music industry: \"We can't keep making music for the sake of 'trends'\"",
+      "translatedExcerpt": "As Nas once sang, \"War Is Necessary,\" sometimes we need to fight."
+    },
     {
       "id": "884cf2a33e0d07bb",
       "title": "ハリー・スタイルズ、米NYレジデンシー30公演の密着ドキュメンタリー制作へ",

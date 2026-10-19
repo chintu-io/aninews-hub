@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T14:31:30.595Z",
+  "generatedAt": "2026-10-19T15:01:43.699Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 90,
+      "count": 91,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -161,11 +161,28 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 628,
+    "articleCount": 629,
     "translatedJapaneseArticles": 315,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "59de90f4dca7f4b9",
+      "title": "Crunchyroll News Puzzles Vol. 77: Start Over There and Light Up the Rite",
+      "link": "https://crunchyroll.com/news/quizzes/2026/10/19/anime-crosswords-puzzles-vol-77",
+      "publishedAt": "2026-10-19T15:00:00.000Z",
+      "excerpt": "Test your anime knowledge with our latest puzzle collection!",
+      "image": "https://a.storyblok.com/f/178900/1600x900/90b789da29/crunchyroll-news-puzzles-header.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "eb7690151552b915",
       "title": "Rakuten Viki, Imaginus to Debut AI-Assisted Korean-Animated Series The Painted Soul on October 21",

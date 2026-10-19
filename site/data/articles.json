@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T09:31:36.029Z",
+  "generatedAt": "2026-10-19T10:01:40.834Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 70,
+      "count": 71,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 111,
+      "count": 116,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -161,11 +161,106 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 591,
-    "translatedJapaneseArticles": 293,
+    "articleCount": 597,
+    "translatedJapaneseArticles": 298,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "0bcbd96cb018d756",
+      "title": "【ビルボード】山下達郎『JOY 2』10.8万枚でアルバム・セールス首位獲得 PLAVEが続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/166633",
+      "publishedAt": "2026-10-19T10:00:00.000Z",
+      "excerpt": "2026年10月21日公開（集計期間：2026年10月12日～2026年10月18日）のBillb",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166633/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Tatsuro Yamashita's \"JOY 2\" tops album sales with 108,000 copies, followed by PLAVE",
+      "translatedExcerpt": "Billb released on October 21, 2026 (collection period: October 12, 2026 to October 18, 2026)"
+    },
+    {
+      "id": "e47f54ffa1d54d0d",
+      "title": "【ビルボード】櫻坂46『愛MUST BE』73.6万枚でシングル・セールス首位獲得 iiONDO／MATSURIが続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/166639",
+      "publishedAt": "2026-10-19T10:00:00.000Z",
+      "excerpt": "2026年10月21日公開（集計期間：2026年10月12日～10月18日）のBillboard",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166639/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Sakurazaka46's \"Ai MUST BE\" takes first place in single sales with 736,000 copies, followed by iiONDO/MATSURI",
+      "translatedExcerpt": "Billboard released on October 21, 2026 (Aggregation period: October 12, 2026 - October 18, 2026)"
+    },
+    {
+      "id": "2ee660d757dbfff2",
+      "title": "IMP.、小渕健太郎（コブクロ）プロデュース曲を収録したニューアルバム『PERIOD.』12月リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/166634",
+      "publishedAt": "2026-10-19T09:40:00.000Z",
+      "excerpt": "IMP.が、2026年12月14日にニューアルバム『PERIOD.』をリリースする。 本作は、",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166634/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "IMP. releases new album “PERIOD.” in December, which includes songs produced by Kentaro Obuchi (Kobukuro)",
+      "translatedExcerpt": "IMP. will release their new album “PERIOD.” on December 14, 2026. This work is"
+    },
+    {
+      "id": "e3c044f72771b387",
+      "title": "ONE OR EIGHT、世界4か国で撮影された「Yellow Brick Road」ロードムービーMV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166637",
+      "publishedAt": "2026-10-19T09:35:00.000Z",
+      "excerpt": "ONE OR EIGHTが、新曲「Yellow Brick Road」のミュージックビデオを公開し",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166637/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "ONE OR EIGHT releases “Yellow Brick Road” road movie MV filmed in 4 countries around the world",
+      "translatedExcerpt": "ONE OR EIGHT releases music video for new song “Yellow Brick Road”"
+    },
+    {
+      "id": "b19be17c623a453c",
+      "title": "Ado、全国3都市で【Adoの歌ってみたツアー2027】開催",
+      "link": "https://www.billboard-japan.com/d_news/detail/166635",
+      "publishedAt": "2026-10-19T09:30:00.000Z",
+      "excerpt": "Adoが、2027年1月よりツアー【Adoの歌ってみたツアー2027】を開催する。 本ツアーで",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166635/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ado will hold [Ado's Utattemita Tour 2027] in 3 cities nationwide",
+      "translatedExcerpt": "Ado will be holding a tour [Ado's Utattemita Tour 2027] starting in January 2027. on this tour"
+    },
     {
       "id": "2d58ca74ee80498d",
       "title": "乃木坂46、新曲「君ロス」センターは井上和",
@@ -317,6 +412,23 @@
       },
       "translatedTitle": "Kento Ito's 4th EP \"Breeze\" songs released. Live information also released",
       "translatedExcerpt": "All four songs from Kento Ito's 4th EP ``Breeze'', which will be released on November 18th (Wednesday), have been released. The 4th EP \"Breeze\" includes four new songs: \"drink Bar\", \"alBeit\", \"The Way Back Home\", and \"Before their eyes\". It includes songs created in collaboration with various creators, including Yuki Waga, who also worked on the soundtrack for the TV anime ``Oshi no Ko'', and Kento Ito himself wrote the lyrics for three of the songs. In addition, preview videos that allow you to enjoy the recorded songs quickly are also available on YouTube, allowing you to experience the charm of each of the four songs. One of the features of this recorded song is that all titles include a capital \"B\". In his first EP after moving to Pony Canyon, all song titles are capitalized with “…"
+    },
+    {
+      "id": "411cb1cc6d911906",
+      "title": "Kanon, Air, Clannad, Heaven Burns Red's Jun Maeda in Palliative Care for Pharyngeal Cancer",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-19/kanon-air-clannad-heaven-burns-red-jun-maeda-in-palliative-care-for-pharyngeal-cancer/.242983",
+      "publishedAt": "2026-10-19T08:38:36.000Z",
+      "excerpt": "Maeda has completed work on 1st 6 chapters of Heaven Burns Red, working on original music project",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gLK/cms/news.10/242983/air-2025.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "19d6312925dd2d02",
@@ -2236,7 +2348,7 @@
       "title": "Zelda: Ocarina of Time Remake’s Bombchu Bowling Lady Redesign Divides Fans",
       "link": "https://news.sankakucomplex.com/n/HQDCwwbwKvwsOLFgRB1O4w",
       "publishedAt": "2026-10-17T18:00:27.000Z",
-      "excerpt": "",
+      "excerpt": "Nintendo’s upcoming remake of The Legend of Zelda: Ocarina of Time has revealed the updated appearance of the Bombchu Bowling Alley attendant, a minor character whose redesign is attracting considerable attention from fans.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",

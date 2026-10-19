@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T03:01:51.827Z",
+  "generatedAt": "2026-10-19T03:31:35.986Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 31,
+      "count": 32,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 97,
+      "count": 100,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 87,
+      "count": 88,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -162,11 +162,104 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 558,
-    "translatedJapaneseArticles": 267,
+    "articleCount": 563,
+    "translatedJapaneseArticles": 271,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "884cf2a33e0d07bb",
+      "title": "ハリー・スタイルズ、米NYレジデンシー30公演の密着ドキュメンタリー制作へ",
+      "link": "https://www.billboard-japan.com/d_news/detail/166620",
+      "publishedAt": "2026-10-19T03:30:00.000Z",
+      "excerpt": "ハリー・スタイルズが、米ニューヨークのマディソン・スクエア・ガーデンで開催中のレジデンシー30公演",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166620/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Harry Styles to produce in-depth documentary about 30 performances of NY residency",
+      "translatedExcerpt": "Harry Styles' 30-performance residency at Madison Square Garden in New York"
+    },
+    {
+      "id": "d59468b251a44f75",
+      "title": "エミネム、キッド・ロックとのコラボを擁護「どちらかの側を選ぶということじゃない」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166619",
+      "publishedAt": "2026-10-19T03:20:00.000Z",
+      "excerpt": "エミネムが、長年の友人であるキッド・ロックとのコラボについて、自身の判断を擁護した。2人の政治的立",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166619/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Eminem defends collaboration with Kid Rock: 'It's not about choosing sides'",
+      "translatedExcerpt": "Eminem has defended his decision to collaborate with longtime friend Kid Rock. two political figures"
+    },
+    {
+      "id": "9db07500d79fe77a",
+      "title": "故マイケル・ジャクソン、アリシア・キーズに好意を抱いていたと夫のスウィズ・ビーツが明かす「ジャネットがA.K.に伝えたんだと思う」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166618",
+      "publishedAt": "2026-10-19T03:05:00.000Z",
+      "excerpt": "スウィズ・ビーツと妻のアリシア・キーズは、2009年に\"キング・オブ・ポップ\"ことマイケル・ジャク",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166618/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Michael Jackson had feelings for Alicia Keys, husband Swizz Beatz reveals: ``I think Janet told A.K.''",
+      "translatedExcerpt": "Swizz Beatz and his wife Alicia Keys met the \"King of Pop\" Michael Jaku in 2009."
+    },
+    {
+      "id": "f5b5da9cc4101608",
+      "title": "Tokyo bakery has a crazy expensive 10,000-yen bread loaf set, and we’ve tried it [Taste test]",
+      "link": "https://soranews24.com/2026/10/19/tokyo-bakery-has-a-crazy-expensive-10000-yen-bread-loaf-set-and-weve-tried-it-taste-test/",
+      "publishedAt": "2026-10-19T03:00:42.000Z",
+      "excerpt": "Japan’s luxury bread loaf boom was supposed to have died down, but apparently no one told this Ginza bakery. A couple of years ago, premium-priced loaves of bread were all the rage among foodies in Japan. Luxury bakeries sprang up one after another, with long lines of customers waiting to get in and drop 1,000 […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_9a8a66.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "3a10916fdec4b623",
+      "title": "Aぇ! group、槇原敬之×前山田健一によるタッグ制作曲「この朝は」 先行配信＆MVプレミア公開が決定",
+      "link": "https://barks.jp/news/1094908",
+      "publishedAt": "2026-10-19T03:00:37.000Z",
+      "excerpt": "Aぇ! group が11月4日（水）に5thシングル「Emotion」をリリースする。その共通カップリング曲であり、槇原敬之が作詞・作曲、ヒャダインこと前山田健一が編曲を手がけた「この朝は」が、10月21日（水）0:00より先行配信されることが決定した。 豪華クリエイター陣のタッグによって生まれた本楽曲は、今年4月からABCテレビ『おはよう朝日です』のテーマソングに起用されており、何気ない日常にそっと寄り添う、温かさに満ちた関西の朝を彩る１曲となっている。 さらに、翌22日（木）19:00にはミュージックビデオのプレミア公開も決定。MVではとある街の、ある朝を舞台に、日々顔を合わせ、すれ違いながらも、互いの名前さえ知らない人々の日常を描く。「人は決して一人では生きていない」というメッセージのもと、何気な…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/07153210/%E3%82%A2%E3%83%BC%E5%86%99.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Ae! group, Noriyuki Makihara x Kenichi Maeyamada's tag production song \"Kono Asaha\" will be released in advance and the MV premiere will be released.",
+      "translatedExcerpt": "Aee! group will release their 5th single \"Emotion\" on November 4th (Wednesday). The common coupling song, ``Kono Asaha,'' written and composed by Noriyuki Makihara and arranged by Kenichi Maeyamada, also known as Hyadain, will be distributed in advance from 0:00 on Wednesday, October 21st. This song, created by a team of talented creators, has been used as the theme song for ABC TV's ``Good Morning Asahi Desu'' since April of this year, and is a song that brightens up Kansai mornings filled with warmth, gently nestling into everyday life. Furthermore, the premiere of the music video will be released the following day on the 22nd (Thursday) at 19:00. The music video is set on a morning in a certain town, and depicts the daily lives of people who meet each other every day and pass each other, but don't even know each other's names. Based on the message that \"people never live alone,\"..."
+    },
     {
       "id": "e49ba7df37e8efc6",
       "title": "【ライブレポート】中島卓偉、ファンリクエスト全31曲を完全燃焼した東京国際フォーラム熱狂の一夜「今日は特別に」",

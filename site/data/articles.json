@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T14:01:49.916Z",
+  "generatedAt": "2026-10-19T14:31:30.595Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 33,
+      "count": 34,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 77,
+      "count": 78,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -153,7 +153,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 69,
+      "count": 70,
       "fetchedCount": 24
     }
   ],
@@ -161,11 +161,62 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 625,
+    "articleCount": 628,
     "translatedJapaneseArticles": 315,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "eb7690151552b915",
+      "title": "Rakuten Viki, Imaginus to Debut AI-Assisted Korean-Animated Series The Painted Soul on October 21",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-19/rakuten-viki-imaginus-to-debut-ai-assisted-korean-animated-series-the-painted-soul-on-october-21/.242971",
+      "publishedAt": "2026-10-19T14:15:00.000Z",
+      "excerpt": "Rakuten Viki plans to add more animated content in the future",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ7/cms/news.10/242971/tps-4.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "8585194375dce8b0",
+      "title": "Ocarina of Time Remake Destroyed: Summon Shops Anywhere, Dungeons Made Easier",
+      "link": "https://news.sankakucomplex.com/n/7IJ3z04FxLOea6NKpSdWCA",
+      "publishedAt": "2026-10-19T14:00:51.000Z",
+      "excerpt": "Nintendo’s upcoming The Legend of Zelda: Ocarina of Time remake for Switch 2 is introducing several changes that make the classic adventure considerably easier than its original Nintendo 64 release, yet another example of the games industry becoming more simplified for the sake of casuals.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "169c7201da9651d6",
+      "title": "Voting begins for Japan’s next top kaiju",
+      "link": "https://soranews24.com/2026/10/19/voting-begins-for-japans-next-top-kaiju/",
+      "publishedAt": "2026-10-19T14:00:45.000Z",
+      "excerpt": "Which one of these up-and-coming ancient abominations will face off against Godzilla next? Godzilla has had a very long career on the silver screen and has faced countless other giant monsters over the years, from Mothra to Hedorah. The creative minds at Toho have consistently served up a buffet of weird and sometimes wacky creatures known […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/27367-39-75970d2ed3947e087e19aaa18c05b754-1921x1081-1.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "d54057186e6392b1",
       "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3 English Dub Now Streaming on Crunchyroll",

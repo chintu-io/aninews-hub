@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T18:01:38.858Z",
+  "generatedAt": "2026-10-19T18:31:47.997Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 84,
+      "count": 85,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -153,7 +153,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 71,
+      "count": 72,
       "fetchedCount": 24
     }
   ],
@@ -161,11 +161,45 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 641,
+    "articleCount": 643,
     "translatedJapaneseArticles": 315,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "49aa15534d65cf92",
+      "title": "Clannad & Kanon Creator Jun Maeda Diagnosed With Throat Cancer",
+      "link": "https://news.sankakucomplex.com/n/UC4BhJuTkUbro5rVA4UmWQ",
+      "publishedAt": "2026-10-19T18:09:31.000Z",
+      "excerpt": "Jun Maeda, the acclaimed Japanese writer and composer behind Clannad, Kanon, and Angel Beats!, has been diagnosed with pharyngeal cancer and has chosen to focus on palliative care rather than pursue active cancer treatment.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "12d90e61743b3577",
+      "title": "Actor Michael Forest Dies at 97",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-19/actor-michael-forest-dies-at-97/.242990",
+      "publishedAt": "2026-10-19T18:00:00.000Z",
+      "excerpt": "Forest had roles in Star Trek, Ghost in the Shell: Stand Alone Complex, The Big O",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHL/cms/news.10/242990/michael-forest.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "24b7f710558c2bff",
       "title": "CloverWorks' Omnibus Anime Film Grotesqqque Streams 'Yoroshiku★Girl' Segment Early on Netflix for Limited Time",

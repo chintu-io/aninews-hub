@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T15:01:43.699Z",
+  "generatedAt": "2026-10-19T15:31:32.291Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 78,
+      "count": 82,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 91,
+      "count": 92,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -161,11 +161,45 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 629,
+    "articleCount": 634,
     "translatedJapaneseArticles": 315,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "3559df81e596f79d",
+      "title": "EST N8 Picks Up Korean-Animated Film Pilgrims for Worldwide Sales",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-19/est-n8-picks-up-korean-animated-film-pilgrims-for-worldwide-sales/.242974",
+      "publishedAt": "2026-10-19T15:15:00.000Z",
+      "excerpt": "Japan Sinks: 2020's Pyoungkang Heo directs film starring Hyang-gi Kim, Ji-hu Park, Joo-young Lee",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFF/cms/news.10/242974/annecy-sci-fi-animation-pilgrims-lands-at-est-n8-10-18-2026-10-07-pm.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "e6fddc8b66133560",
+      "title": "Welsh & Shedar Anime's Trailer Reveals English/French Dubs' Debut on YouTube on November 5",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-19/welsh-and-shedar-anime-trailer-reveals-english-french-dubs-debut-on-youtube-on-november-5/.242987",
+      "publishedAt": "2026-10-19T15:05:31.000Z",
+      "excerpt": "English dub stars Daniel J. McLean, Kevin Garcia, Marissa Lenti, more",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gMC/youtube/P14DA8rk7Bc.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "59de90f4dca7f4b9",
       "title": "Crunchyroll News Puzzles Vol. 77: Start Over There and Light Up the Rite",
@@ -180,6 +214,57 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "9153c96a0b46cfd3",
+      "title": "Manga UP! Global Adds Lily of the High Seas, Killer's Familia, The Imperial Court's Floral Stylist, 3 More Manga",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-19/manga-up-global-adds-lily-of-the-high-seas-killer-familia-the-imperial-court-floral-stylist-3-more-/.242985",
+      "publishedAt": "2026-10-19T15:00:00.000Z",
+      "excerpt": "Service also adds: I Became a Saint to Support My Idol!, The Abandoned Tamer Signs a Deal With a Devilishly Beautiful Dragon, After Getting the Crap Skill \"Poison Immunity,\" I Ate the Toxic Meat of a Dead SSS-Rank Monster and Awakened an OP Ability",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g75/cms/news.10/242985/uplily.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "878d6a903d041ab1",
+      "title": "Steins;Gate English Dub Now Streaming on Crunchyroll",
+      "link": "https://crunchyroll.com/news/announcements/2026/10/19/steins-gate-anime-english-dub-now-streaming-on-crunchyroll",
+      "publishedAt": "2026-10-19T15:00:00.000Z",
+      "excerpt": "All 24 episodes of the classic sci-fi series are available",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/ea52fed276/steins-gate.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "5b4bdbeae2af6340",
+      "title": "Comic CMOA Service Remains Suspended After Confirmed Unauthorized External Access",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-19/comic-cmoa-service-remains-suspended-after-confirmed-unauthorized-external-access/.242977",
+      "publishedAt": "2026-10-19T14:40:25.000Z",
+      "excerpt": "Service suspended since Thursday",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGE/cms/news.10/242977/cmoa.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },

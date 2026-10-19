@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T16:01:50.503Z",
+  "generatedAt": "2026-10-19T16:31:37.152Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 34,
+      "count": 35,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 82,
+      "count": 83,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -161,11 +161,45 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 636,
+    "articleCount": 638,
     "translatedJapaneseArticles": 315,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "d5fc7d7fe3f91c4f",
+      "title": "Lezhin Ent. to Launch AI Character Chat Service Teaz in Korea",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-19/lezhin-ent-to-launch-ai-character-chat-service-teaz-in-korea/.242947",
+      "publishedAt": "2026-10-19T16:15:00.000Z",
+      "excerpt": "Teaz will allow users to interact directly with characters from original series published on Lezhin Comics, Bomtoon",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gUB/cms/news.10/242947/htndzaiasaaxftw.jfif.jpeg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "bec6f04777b933af",
+      "title": "Umamusume anime concerts in U.S. may have to be cancelled over visa problems",
+      "link": "https://soranews24.com/2026/10/20/umamusume-horse-girl-concert-in-city-of-angels-is-in-danger-of-being-cancelled-because-of-visa-issues/",
+      "publishedAt": "2026-10-19T16:00:17.000Z",
+      "excerpt": "After six months of trying, organizers say they still don’t have the necessary OK from the U.S. government to bring the horse girl concert to the City of Angels. One of the clearest examples of the surging worldwide popularity of Japanese pop culture is the fact that Umamusume has established a passionate and sizable fanbase […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/5_43d721.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "24493cf7c90de918",
       "title": "STEINS;GATE Watch Order and Games Guide",

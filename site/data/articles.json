@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T06:02:01.560Z",
+  "generatedAt": "2026-10-19T06:31:36.976Z",
   "sources": [
     {
       "id": "sankaku",
@@ -153,7 +153,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 65,
+      "count": 67,
       "fetchedCount": 24
     }
   ],
@@ -161,11 +161,28 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 569,
+    "articleCount": 571,
     "translatedJapaneseArticles": 274,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "4bec4aee487991d0",
+      "title": "Japanese Man in His 70s Loses $240,000 After Being Offered $57,000 for His Sperm",
+      "link": "https://news.sankakucomplex.com/n/WlMofQiS2Gk18vA4Xn-SUw",
+      "publishedAt": "2026-10-19T06:00:12.000Z",
+      "excerpt": "A Japanese man in his 70s was reportedly defrauded of approximately 38 million yen ($240,000) after an individual he met online promised to pay him 9 million yen ($57,000) in exchange for donating his sperm.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "44f124a977dc4869",
       "title": "歌手デビューの吉田沙保里、1stシングル発売記念イベント開催へ ミニライブ＆“だるま”目入れ会も",
@@ -5135,6 +5152,23 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "1aeb12569a1872d5",
+      "title": "Hyundai Announces $15.5 Billion Investment in India",
+      "link": "https://news.sankakucomplex.com/n/JK57fRVW0dqhheG-Veatbg",
+      "publishedAt": "2026-10-16T06:00:16.000Z",
+      "excerpt": "Hyundai Motor Group has announced plans to invest $15.5 billion in India between 2026 and 2032, expanding its manufacturing operations, research facilities, and supply chains as the South Korean automaker strengthens its presence in the country.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },

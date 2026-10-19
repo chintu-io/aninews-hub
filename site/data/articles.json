@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T12:01:54.856Z",
+  "generatedAt": "2026-10-19T12:31:41.712Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 75,
+      "count": 76,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 120,
+      "count": 122,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -161,11 +161,66 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 613,
-    "translatedJapaneseArticles": 308,
+    "articleCount": 616,
+    "translatedJapaneseArticles": 310,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "e1d86c7a4736f76b",
+      "title": "SEVENTEENの新ユニット・JxJ、旅路を幻想的に描いた「12 o&#039;clock」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166645",
+      "publishedAt": "2026-10-19T12:30:00.000Z",
+      "excerpt": "SEVENTEENのJEONGHANとJOSHUAによる新ユニット・JxJ (SEVENTEEN)",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166645/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "SEVENTEEN's new unit JxJ releases \"12 o'clock\" MV that depicts a fantastic journey",
+      "translatedExcerpt": "JxJ (SEVENTEEN), a new unit by SEVENTEEN's JEONGHAN and JOSHUA"
+    },
+    {
+      "id": "5a18fc37d6d79702",
+      "title": "Hoshi in the Girls' Garden Tops Oricon's Comic Ranking for September",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-19/hoshi-in-the-girls-garden-tops-oricon-comic-ranking-for-september/.242956",
+      "publishedAt": "2026-10-19T12:15:00.000Z",
+      "excerpt": "Kagurabachi volume 12 ranks at #2, Dandadan volume 25 ranks at #3",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gO2/cms/news.10/242956/hoshi-5.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "6a560d31cbd64076",
+      "title": "原因は自分にある。、“拗れた狂気さ”を映し出す「ラブリーズン」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166628",
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "excerpt": "原因は自分にある。が、本日10月19日より先行配信がスタートした新曲「ラブリーズン」のミュージック",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166628/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "The cause is myself. , releases the MV for “Love Reason”, which shows “relenting madness”",
+      "translatedExcerpt": "The cause is myself. The music of the new song \"Love Reason\", which was released in advance from October 19th, is now available."
+    },
     {
       "id": "3a371a6046f7ccb6",
       "title": "まふまふ、バンドセットワンマン2DAYSライブ開催決定",

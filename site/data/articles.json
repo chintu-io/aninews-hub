@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T15:01:40.823Z",
+  "generatedAt": "2026-10-20T15:31:36.241Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 99,
+      "count": 100,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 105,
+      "count": 106,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 130,
+      "count": 132,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -162,11 +162,64 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 746,
-    "translatedJapaneseArticles": 378,
+    "articleCount": 750,
+    "translatedJapaneseArticles": 380,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "17fcf59423bcf6b4",
+      "title": "Ys VIII: Lacrimosa of DANA Action-RPG Heads to Switch 2 in February 2027",
+      "link": "https://crunchyroll.com/news/latest/2026/10/20/ys-8-lacrimosa-of-dana-switch-2-february-2027",
+      "publishedAt": "2026-10-20T15:16:00.000Z",
+      "excerpt": "120 frames per second, GameShare and Spanish-language support added",
+      "image": "https://a.storyblok.com/f/178900/960x540/1dfbceaebf/ys8-switch2.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "7d8669d718ec7045",
+      "title": "Creepy Nuts、新曲「トムとジェリーとヘイターと私」突如リリース",
+      "link": "https://barks.jp/news/1099649",
+      "publishedAt": "2026-10-20T15:00:00.000Z",
+      "excerpt": "Creepy Nutsが、新曲「トムとジェリーとヘイターと私」を本日リリースした。 なんの前触れもなく、突如リリースされた新曲「トムとジェリーとヘイターと私」は、各音楽配信サービスで配信中。YouTubeではフル尺音源も公開されている。 New Digital Single「トムとジェリーとヘイターと私」作詞：R-指定作曲：DJ松永配信日：2026年10月21日(水)配信リンク：https://creepynuts.lnk.to/qNpN6yYouTube：https://youtu.be/5wzj_uyhJow※10月21日(水)0時公開 ＜The Weeknd: After Hours Til Dawn Tour＞詳細：https://www.theweeknd.com/tour/9月19日（土）To…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/20184634/1-20.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Creepy Nuts suddenly releases new song “Tom and Jerry, Hater and Me”",
+      "translatedExcerpt": "Creepy Nuts released their new song \"Tom and Jerry, Hater and Me\" today. The new song \"Tom and Jerry, Hater and I\" was suddenly released without any warning and is now available on various music distribution services. The full length sound source is also available on YouTube. New Digital Single \"Tom and Jerry, Hater and Me\" Lyrics: R-Rated Composer: DJ Matsunaga Distribution date: Wednesday, October 21, 2026 Distribution link: https://creepynuts.lnk.to/qNpN6y YouTube: https://youtu.be/5wzj_uyhJow *Released at 0:00 on Wednesday, October 21st <The Weeknd: After Hours Til Dawn Tour＞Details: https://www.theweeknd.com/tour/September 19th (Sat) Tour…"
+    },
+    {
+      "id": "036d9477f4e7bb83",
+      "title": "Culdcept Begins Game's Trailer Reveals PC Release on October 28",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-20/culdcept-begins-game-trailer-reveals-pc-release-on-october-28/.243024",
+      "publishedAt": "2026-10-20T15:00:00.000Z",
+      "excerpt": "Game debuted for Switch 2, Switch on July 16",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gYE/youtube/GiZ1OLoUb4Q.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "835b6b2f700853f4",
       "title": "FINAL FANTASY RESONANCE Producer Keisuke Nakashima and Director Hiroto Furuya on the Vision Roster, Combat System, and More",
@@ -183,6 +236,25 @@
         "accent": "#ff6784",
         "language": "en"
       }
+    },
+    {
+      "id": "9be9e3a36447b76f",
+      "title": "w.o.d.、新曲「Feelin’」先行配信スタート。Instagramで新企画開始も",
+      "link": "https://barks.jp/news/1099678",
+      "publishedAt": "2026-10-20T15:00:00.000Z",
+      "excerpt": "w.o.d.が、2026年11月18日に発売するアルバム『ふれる』より、先行トラック「Feelin‘」を本日配信リリースした。 本楽曲は、w.o.d.らしさを詰め込みながらハモンドオルガンや打楽器を大胆に導入した“踊れる人生賛歌”だという。ツアーで披露されていた楽曲で、「考えるな、感じろ」というメッセージもファンから支持を得ているとのことだ。 アルバム『ふれる』はメジャー移籍後2枚目となる、2枚組オリジナルアルバムだ。ライブ映像やMV集、ドキュメント映像が入ったBru-layや、ポスターなどが付属するボックス仕様の完全生産限定盤CD、CD2枚組の通常盤初回仕様CD、180グラム重量盤2枚組の完全生産限定アナログ盤の3形態で発売となる。 そして本日、収録楽曲情報も解禁となった。2025年〜2026年にかけて…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/06/10140121/%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F-3.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "w.o.d., new song “Feelin’” pre-distribution started. Starting a new project on Instagram",
+      "translatedExcerpt": "w.o.d. released the lead track “Feelin’” from the album “Fure” to be released on November 18, 2026. This song is said to be a ``danceable hymn to life'' that boldly incorporates the Hammond organ and percussion instruments while being packed with W.O.D. characteristics. The song that was performed during the tour, with the message ``Don't think, just feel,'' is said to have received support from fans. The album ``Fure'' is a two-disc original album, the second since moving to a major label. It will be released in 3 formats: a Blu-ray containing live footage, a music video collection, and a documentary video, a fully limited edition CD in a box format that comes with a poster, a 2-CD regular edition first edition CD, and a 180-gram 2-disc limited edition analog edition. Today, information on the songs recorded has also been released. From 2025 to 2026..."
     },
     {
       "id": "56d9091c5c632aa2",
@@ -5413,7 +5485,7 @@
         "language": "ja"
       },
       "translatedTitle": "Forbidden majority vote releases new song “Love & Travelers (feat. Evita & Nao)”",
-      "translatedExcerpt": "Forbidden Majority has released their new song \"Love & Travelers (feat. Evita & Nao)\" on October 14, 2026. Forbidden Majority is a music group led by Pomilla Potalone. Since 2011, he has been publishing his own videos and artwork on video sites. He is building a music world full of originality and DIY spirit. Evita and Nao are in charge of vocals for the new song \"Love & Travelers\". The result is a dance tune with a feeling of weakness that is reminiscent of a forbidden majority vote. Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/216356 Artist information https://x.com/tasuketsu"
+      "translatedExcerpt": "Forbidden Majority has released their new song \"Love & Travelers (feat. Evita & Nao)\" on October 14, 2026. Forbidden Majority is a music group led by Pomilla Potalone. Since 2011, he has been publishing his own videos and artwork on video sites. He is building a musical world full of originality and DIY spirit. Evita and Nao are in charge of vocals for the new song \"Love & Travelers\". The result is a dance tune with a feeling of weakness that is reminiscent of a forbidden majority vote. Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/216356 Artist information https://x.com/tasuketsu"
     },
     {
       "id": "260e03f46362aef4",

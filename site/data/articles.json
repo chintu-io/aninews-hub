@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T17:31:45.544Z",
+  "generatedAt": "2026-10-20T18:01:45.363Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 102,
+      "count": 103,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 107,
+      "count": 108,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -162,11 +162,45 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 755,
+    "articleCount": 757,
     "translatedJapaneseArticles": 380,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "cdfc4ea20f643e29",
+      "title": "Demon Lord 2099 Novels End With 6th Volume",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-20/demon-lord-2099-novels-end-with-6th-volume/.243031",
+      "publishedAt": "2026-10-20T18:00:00.000Z",
+      "excerpt": "Daigo Murasaki, Kureta debuted light novels in January 2021",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gS0/cms/news.10/243031/demon-lord-2099-6.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "fc2023383509337e",
+      "title": "Mission: Yozakura Family Season 2 Part 2 Anime Shares Creditless Ending Video",
+      "link": "https://crunchyroll.com/news/latest/2026/10/20/mission-yozakura-family-season-2-part-2-anime-creditless-ending-video",
+      "publishedAt": "2026-10-20T17:42:00.000Z",
+      "excerpt": "The spy family series returns for the fall season",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/ddb215fd50/mission-yozakura-family-2-2-ending-hero.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "f6c91c757d6ab4a9",
       "title": "Magical Sisters Lulutto Lilly and Maebashi Witches Anime Cross Over in New Visual",

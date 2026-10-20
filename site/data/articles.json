@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T01:01:47.146Z",
+  "generatedAt": "2026-10-20T01:31:46.552Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 35,
+      "count": 36,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 87,
+      "count": 88,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 100,
+      "count": 101,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 130,
+      "count": 131,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -161,11 +161,62 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 657,
-    "translatedJapaneseArticles": 320,
+    "articleCount": 661,
+    "translatedJapaneseArticles": 321,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "24651fc7a2981428",
+      "title": "Future GPX Cyber Formula Anime Unveils Main Trailer for Compilation Film and New Short",
+      "link": "https://crunchyroll.com/news/latest/2026/10/20/future-gpx-cyber-formula-anime-compilation-film-new-short-main-trailer",
+      "publishedAt": "2026-10-20T01:22:00.000Z",
+      "excerpt": "The double feature will open in Japan on February 19, 2027",
+      "image": "https://a.storyblok.com/f/178900/960x540/a33efd7595/future-gpx-cyber-formula-new-short-header.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d99763773fb95797",
+      "title": "Fukakōryoku no I Love You Manga Gets Live-Action Film Next March",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-19/fukakoryoku-no-i-love-you-manga-gets-live-action-film-next-march/.242999",
+      "publishedAt": "2026-10-20T01:10:57.000Z",
+      "excerpt": "Kōta Nomura, Juri Kōsaka star in film",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIB/cms/news.10/242999/fukakoryokunoiloveyou.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "20a96b291e8158e0",
+      "title": "There are goats spending every day in downtown Tokyo, but why? [Photos]",
+      "link": "https://soranews24.com/2026/10/20/there-are-goats-spending-every-day-in-downtown-tokyo-but-why-photos/",
+      "publishedAt": "2026-10-20T01:00:03.000Z",
+      "excerpt": "We’re used to seeing salarymen in this part of Tokyo, and now there are salary goats too. Along with travel and desserts, cute animals are something we’ve got a lot of love for here at SoraNew24. So when we spotted an adorable-looking goat the other day, we quickly got our camera out and started snapping […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/0_379b0c.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "4c335a48d50e01fe",
       "title": "羊文学「夜を越えて」から誕生、坂東龍汰×高石あかりW主演映画『サタデー・ナイト・シアター』2027年春公開",
@@ -239,6 +290,25 @@
       },
       "translatedTitle": "Creepy Nuts live & documentary film, key visual and trailer released",
       "translatedExcerpt": "Creepy Nuts' first movie \"Creepy Nuts - NORTH AMERICA TOU\""
+    },
+    {
+      "id": "2412784c4a6e57ce",
+      "title": "スチャダラパー／PUNPEEら出演、【CREATIVE ROOM Vol.19 】12月に神戸で開催",
+      "link": "https://www.billboard-japan.com/d_news/detail/166658",
+      "publishedAt": "2026-10-20T00:20:00.000Z",
+      "excerpt": "音楽イベント【CREATIVE ROOM Vol.19 -GARAGE SOUND SESSION",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166658/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Sucha Dara Par/PUNPEE and others will appear at [CREATIVE ROOM Vol.19] to be held in Kobe in December",
+      "translatedExcerpt": "Music event [CREATIVE ROOM Vol.19 -GARAGE SOUND SESSION"
     },
     {
       "id": "33ce07ffd6b0d7f7",

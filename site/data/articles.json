@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T05:03:11.101Z",
+  "generatedAt": "2026-10-20T05:32:03.250Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 37,
+      "count": 38,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 89,
+      "count": 90,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 141,
+      "count": 142,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -151,8 +151,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://news.sankakucomplex.com/feed/",
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
       "count": 76,
       "fetchedCount": 24
     }
@@ -161,11 +161,64 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 686,
-    "translatedJapaneseArticles": 338,
+    "articleCount": 689,
+    "translatedJapaneseArticles": 339,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "023e46298279a335",
+      "title": "Cygames Cancels Uma Musume: Pretty Derby Franchise's U.S. Concerts Due to Visa Issues",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-20/cygames-cancels-uma-musume-pretty-derby-franchise-u.s-concerts-due-to-visa-issues/.243012",
+      "publishedAt": "2026-10-20T05:05:14.000Z",
+      "excerpt": "L.A. concerts were scheduled for October 22-23;",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG5/cms/news.9/239701/uma-musume-world-tour.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d2ae9f3403e7753c",
+      "title": "Flying Mud Boat teahouse is a hidden gem in Japan that boggles the mind",
+      "link": "https://soranews24.com/2026/10/20/flying-mud-boat-teahouse-is-a-hidden-gem-in-japan-that-boggles-the-mind/",
+      "publishedAt": "2026-10-20T05:00:31.000Z",
+      "excerpt": "This site takes traditional architecture to new heights, like a Ghibli world come to life. We’re always on the hunt for hidden gems and little-known sights in Japan, so when we heard about a teahouse that was suspended in the air, we immediately sent our reporter Natsuno Futon over to Nagano Prefecture to check it […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/Flying-Mud-Boat-Teahouse-Japan-travel-unique-tourist-sites-hidden-buildings-off-the-beaten-track-architecture-daytrip-Chino-Nagano-Prefecture-Fujimori-Terunobu-4-1.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "7e951bd7fa17eca7",
+      "title": "モトリー・クルー、ラスベガスで4度目のレジデンシー公演を2027年に開催へ「数十年ぶりに披露される曲も」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166670",
+      "publishedAt": "2026-10-20T05:00:00.000Z",
+      "excerpt": "モトリー・クルーのファンにうれしいニュースが届いた。これまでに米ラスベガスで3度のレジデンシー公演",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166670/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Mötley Crüe to hold fourth Las Vegas residency in 2027, including songs that will be performed for the first time in decades",
+      "translatedExcerpt": "Motley Crue fans have some great news. He has held three residencies in Las Vegas so far."
+    },
     {
       "id": "57c92bcea847df5f",
       "title": "Visual Novel Creator Jun Maeda Diagnosed with Pharyngeal Cancer",
@@ -3856,7 +3909,7 @@
       "title": "Seitokai ni mo Ana wa Aru Sukumizu Ad at Train Station Triggers Feminist Whining",
       "link": "https://news.sankakucomplex.com/n/5ZTYTh5qP3Lk57lMPjH82Q",
       "publishedAt": "2026-10-17T22:00:54.000Z",
-      "excerpt": "An advertisement for the anime Seitokai ni mo Ana wa Aru! (Even the Student Council Has Its Holes!) has sparked debate in Japan after a promotional image featuring the character Komaro Michinoku in a school swimsuit (sukumizu) appeared at Tokyo’s busy Ikebukuro Station. The advertisement drew att…",
+      "excerpt": "",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",

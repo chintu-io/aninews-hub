@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T18:01:45.363Z",
+  "generatedAt": "2026-10-20T18:31:56.160Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 108,
+      "count": 109,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 29,
+      "count": 30,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 81,
+      "count": 82,
       "fetchedCount": 24
     }
   ],
@@ -162,11 +162,45 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 757,
+    "articleCount": 760,
     "translatedJapaneseArticles": 380,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "3c9eb58784aac73f",
+      "title": "'Murciélago' Reveals Main Cast, Additional Staff, Second Teaser, Winter 2027 Debut",
+      "link": "https://myanimelist.net/news/74841491?_location=rss",
+      "publishedAt": "2026-10-20T18:20:03.000Z",
+      "excerpt": "The official website for the television anime adaptation of Kana Yoshimura's Murciélago manga revealed main cast, additional staff, a teaser visual, and a second teaser promo on Wednesday. The anime series will premiere on Tokyo MX, Kansai TV, and BS11 in January 2027. Cast Kuroko Koumori: Hitomi Ueda (Raise wa Tanin ga Ii) Hinako Tozakura: Minori Suzuki…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1792520193-f5c23dadcfb7c17591446e07e20408c3.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "aa42a0bc1fd0a09b",
+      "title": "HORROR COLLECTOR Anime Scares up Creditless Opening and Ending Videos",
+      "link": "https://crunchyroll.com/news/latest/2026/10/20/horror-collector-anime-creditless-opening-ending-videos",
+      "publishedAt": "2026-10-20T18:06:00.000Z",
+      "excerpt": "Crunchyroll streams the urban horror anime",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/f450e3f5c1/horror-collector-opening-hero.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "cdfc4ea20f643e29",
       "title": "Demon Lord 2099 Novels End With 6th Volume",
@@ -5089,6 +5123,23 @@
       "link": "https://news.sankakucomplex.com/n/5ZTYTh5qP3Lk57lMPjH82Q",
       "publishedAt": "2026-10-17T22:00:54.000Z",
       "excerpt": "",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "a7adf3a24b98ee47",
+      "title": "Zelda: Ocarina of Time Remake’s Bombchu Bowling Lady Redesign Divides Fans",
+      "link": "https://news.sankakucomplex.com/n/oZfosa-7FRAOyQYPW3vGnw",
+      "publishedAt": "2026-10-17T18:00:27.000Z",
+      "excerpt": "Nintendo’s upcoming remake of The Legend of Zelda: Ocarina of Time has revealed the updated appearance of the Bombchu Bowling Alley attendant, a minor character whose redesign is attracting considerable attention from fans.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",

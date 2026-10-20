@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T08:01:34.758Z",
+  "generatedAt": "2026-10-20T08:31:43.002Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 91,
+      "count": 92,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 151,
+      "count": 152,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -161,11 +161,47 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 702,
-    "translatedJapaneseArticles": 349,
+    "articleCount": 704,
+    "translatedJapaneseArticles": 350,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "e7f893141e9eb1d9",
+      "title": "又吉直樹／宇垣美里／松風雅也が“本との出会い”を語る 【BOOK MEETS NEXT 2026】オープニングイベント開催",
+      "link": "https://www.billboard-japan.com/d_news/detail/166668",
+      "publishedAt": "2026-10-20T08:00:00.000Z",
+      "excerpt": "読書推進キャンペーン【BOOK MEETS NEXT 2026】のオープニングイベントが10月19",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166668/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Naoki Matayoshi/Misato Ugaki/Masaya Matsukaze talk about “encounters with books” [BOOK MEETS NEXT 2026] Opening event held",
+      "translatedExcerpt": "The opening event of the reading promotion campaign [BOOK MEETS NEXT 2026] will be held on October 19th."
+    },
+    {
+      "id": "4507635ca6257f5f",
+      "title": "Screen, Voice Actor Hiroshi Tsuchida Dies at 54",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-20/screen-voice-actor-hiroshi-tsuchida-dies-at-54/.243009",
+      "publishedAt": "2026-10-20T07:38:27.000Z",
+      "excerpt": "Tsuchida died on October 11 due to heart failure",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFP/cms/news.10/243009/tsuchida-hiroshi2.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "adaf05e91b0a1e36",
       "title": "DOMOTO書き下ろし、文化放送キャンペーンソングが完成＆『DOMOTOのどんなもんヤ！』番組内で初解禁へ",

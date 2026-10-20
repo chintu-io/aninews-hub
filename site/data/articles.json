@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T00:01:49.274Z",
+  "generatedAt": "2026-10-20T00:32:38.656Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 99,
+      "count": 100,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 127,
+      "count": 129,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -161,11 +161,66 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 653,
-    "translatedJapaneseArticles": 317,
+    "articleCount": 656,
+    "translatedJapaneseArticles": 319,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "76252c40b4b61f93",
+      "title": "ゲイブリエル・ジャコビー、新曲「let&#039;s talk about it」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166657",
+      "publishedAt": "2026-10-20T00:30:00.000Z",
+      "excerpt": "新世代R&Bアーティスト、ゲイブリエル・ジャコビーが、ニュー・シングル「let&#039;s tal",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166657/200x_image.jpeg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Gabriel Jacoby releases music video for new song \"Let's Talk About It\"",
+      "translatedExcerpt": "New generation R&B artist Gabriel Jacoby releases new single ``let's tal''"
+    },
+    {
+      "id": "e7619b098f5e1acf",
+      "title": "Fukakouryoku no I LOVE YOU Live-Action Movie Slated for March 2027",
+      "link": "https://crunchyroll.com/news/latest/2026/10/20/fukakouryoku-no-i-love-you-live-action-movie-march-2027",
+      "publishedAt": "2026-10-20T00:27:00.000Z",
+      "excerpt": "Kota Nomura and Juri Kosaka co-star in the lead roles.",
+      "image": "https://a.storyblok.com/f/178900/960x539/53732eacb3/fukalove-live-action-header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "95c665a7d8dc5d50",
+      "title": "Creepy Nutsのライブ＆ドキュメンタリー映画、キービジュアルと本予告が解禁",
+      "link": "https://www.billboard-japan.com/d_news/detail/166652",
+      "publishedAt": "2026-10-20T00:20:00.000Z",
+      "excerpt": "Creepy Nuts初の映画作品『Creepy Nuts - NORTH AMERICA TOU",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166652/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Creepy Nuts live & documentary film, key visual and trailer released",
+      "translatedExcerpt": "Creepy Nuts' first movie \"Creepy Nuts - NORTH AMERICA TOU\""
+    },
     {
       "id": "33ce07ffd6b0d7f7",
       "title": "マイルス・デイビス、NYフィルハーモニック・ホールでのライブ録音を演奏順に完全収録した2枚組SA-CDハイブリッド盤発売",
@@ -1358,7 +1413,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-10-19/kanon-air-clannad-heaven-burns-red-jun-maeda-in-palliative-care-for-pharyngeal-cancer/.242983",
       "publishedAt": "2026-10-19T08:38:36.000Z",
       "excerpt": "Maeda has completed work on 1st 6 chapters of Heaven Burns Red, working on original music project",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gLK/cms/news.10/242983/air-2025.jpg",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gQV/cms/news.10/242983/air-steam-02-14-25-1440x810.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4254,7 +4309,7 @@
       "title": "Konami President Says AI “Won’t Significantly Change Gaming Industry”",
       "link": "https://news.sankakucomplex.com/n/NtdPUckYxOG6feFuDgcPng",
       "publishedAt": "2026-10-17T06:00:24.000Z",
-      "excerpt": "Konami Digital Entertainment president Hideki Hayakawa believes artificial intelligence will not fundamentally transform the video game industry, arguing that human creativity remains essential to producing innovative games.",
+      "excerpt": "",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4546,7 +4601,7 @@
       "title": "Castlevania Devs Say They Purposely “Made Characters Hot”, Expected Suggestive Fan Art",
       "link": "https://news.sankakucomplex.com/n/AI5x11X5Fa_CxqTZneVjKA",
       "publishedAt": "2026-10-17T02:00:28.000Z",
-      "excerpt": "The developers of Castlevania: Belmont’s Curse have confirmed that making the game’s characters sexually attractive was an intentional design choice, and they’re pleased with the “enthusiastic response from fans”, though many are wondering where exactly the “sexual attractive” characters are…",
+      "excerpt": "",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4636,7 +4691,7 @@
       "title": "Nexus Mods Bans Gears of War: E-Day Mod That Replaces Pride Flags",
       "link": "https://news.sankakucomplex.com/n/eqrQaTxtHNdVFGj9_jm0nw",
       "publishedAt": "2026-10-16T22:00:52.000Z",
-      "excerpt": "Nexus Mods has reportedly banned a mod for Gears of War: E-Day that replaces the game’s Pride-themed profile artwork with an existing promotional image featuring a family – an instance of censorship that is highly common on the modding site.",
+      "excerpt": "",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4704,7 +4759,7 @@
       "title": "Atelier Karia Now Letting Players Make Its Heroine Gain Weight",
       "link": "https://news.sankakucomplex.com/n/7sl3gBYLQGp1jQ6hE6X9_w",
       "publishedAt": "2026-10-16T17:41:35.000Z",
-      "excerpt": "Koei Tecmo and Gust have confirmed that Atelier Karia: The Night Kingdom & the Guide of Memories will feature a body-shape system that allows protagonist Karia to gain weight depending on how much she eats, following overwhelmingly positive feedback from fans.",
+      "excerpt": "",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6062,7 +6117,7 @@
       "title": "Touhou Remake Gets Physical Nintendo Switch Release After Overwhelming Fan Demand",
       "link": "https://news.sankakucomplex.com/n/Sj4kVHvDkpzZ-EhqhlIpHw",
       "publishedAt": "2026-10-16T10:00:12.000Z",
-      "excerpt": "The remake of Touhou Koumakyou: The Embodiment of Scarlet Devil is receiving an unexpected physical release for Nintendo Switch and Nintendo Switch 2 following strong demand from fans.",
+      "excerpt": "",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6640,7 +6695,7 @@
       "title": "Hyundai Announces $15.5 Billion Investment in India",
       "link": "https://news.sankakucomplex.com/n/JK57fRVW0dqhheG-Veatbg",
       "publishedAt": "2026-10-16T06:00:16.000Z",
-      "excerpt": "Hyundai Motor Group has announced plans to invest $15.5 billion in India between 2026 and 2032, expanding its manufacturing operations, research facilities, and supply chains as the South Korean automaker strengthens its presence in the country.",
+      "excerpt": "",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -7178,7 +7233,7 @@
       "title": "Malfoid’s AI-Generated Anime Parodies Exceeding Expectations",
       "link": "https://news.sankakucomplex.com/n/YDFHRsalWGIg2WYP_T56vg",
       "publishedAt": "2026-10-16T02:00:00.000Z",
-      "excerpt": "Yet more AI-generated anime parodies are releasing that center on the “Malfoid” meme, with other characters having now established a foothold in the “canon”, and pushing out a level of quality that many were not expecting (especially due to the parodies being created via AI).",
+      "excerpt": "",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",

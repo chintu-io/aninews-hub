@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T01:31:46.552Z",
+  "generatedAt": "2026-10-20T02:01:40.202Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 101,
+      "count": 102,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 131,
+      "count": 132,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 107,
+      "count": 108,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -161,11 +161,66 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 661,
-    "translatedJapaneseArticles": 321,
+    "articleCount": 664,
+    "translatedJapaneseArticles": 323,
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "a618a402e3789845",
+      "title": "【米ビルボード・ソング・チャート】テイラー・スウィフトが3週連続首位、ドミニク・ファイクが自身初TOP10入り",
+      "link": "https://www.billboard-japan.com/d_news/detail/166662",
+      "publishedAt": "2026-10-20T02:00:00.000Z",
+      "excerpt": "今週（2026年10月24日付）の米ビルボード・ソング・チャート&ldquo;Hot 100&rd",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166662/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[U.S. Billboard Song Chart] Taylor Swift tops the Billboard Song Chart for 3 consecutive weeks, Dominic Fike enters Top 10 for the first time",
+      "translatedExcerpt": "This week (dated October 24, 2026) US Billboard Song Chart “Hot 100&rd"
+    },
+    {
+      "id": "ecfd88c0917c4242",
+      "title": "Creepy Nuts、自身初の映画作品キービジュアル＆本予告解禁",
+      "link": "https://barks.jp/news/1099545",
+      "publishedAt": "2026-10-20T01:56:51.000Z",
+      "excerpt": "Creepy Nutsが、206年11月20日より全国公開される映画作品『Creepy Nuts – NORTH AMERICA TOUR: LIVE in NY & DOCUMENTARY FILM』のキービジュアルと本予告映像を公開した。 本作は、2026年4月に出演した世界最大級の音楽フェス＜Coachella Valley Music and Arts Festival＞を含む、自身初の北米ツアーの舞台裏を追ったドキュメンタリーと、アメリカ初のワンマン公演となったニューヨーク公演のライブ映像、さらに最新インタビューを交えて構成されたCreepy Nuts初の映画作品となる。 監督は、写真や映像など長年にわたりCreepy Nutsのクリエイティブを手掛けてきたHiroya Brian Nakano…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/04/10110926/CreepyNuts_Aphoto.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Creepy Nuts' first movie key visual and trailer released",
+      "translatedExcerpt": "Creepy Nuts has released the key visual and trailer for the movie \"Creepy Nuts – NORTH AMERICA TOUR: LIVE in NY & DOCUMENTARY FILM\" which will be released nationwide on November 20, 206. This work is Creepy Nuts' first film work, consisting of a behind-the-scenes documentary of their first North American tour, including the world's largest music festival ``Coachella Valley Music and Arts Festival'' in April 2026, live footage of their first solo performance in New York in the United States, and the latest interviews. The director is Hiroya Brian Nakano, who has been working on Creepy Nuts' creative works for many years, including photography and videos."
+    },
+    {
+      "id": "4334cdc4ad5d9d14",
+      "title": "Yona of the Dawn Anime Sequel Studio Confirmed",
+      "link": "https://crunchyroll.com/news/latest/2026/10/20/yona-of-the-dawn-anime-sequel-studio-confirmed",
+      "publishedAt": "2026-10-20T01:56:00.000Z",
+      "excerpt": "The long-awaited sequel was announced last December",
+      "image": "https://a.storyblok.com/f/178900/960x540/6c180369a4/yona-of-the-dawn.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "24651fc7a2981428",
       "title": "Future GPX Cyber Formula Anime Unveils Main Trailer for Compilation Film and New Short",

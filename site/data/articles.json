@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T17:01:35.190Z",
+  "generatedAt": "2026-10-20T17:31:45.544Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 101,
+      "count": 102,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 106,
+      "count": 107,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -162,11 +162,45 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 753,
+    "articleCount": 755,
     "translatedJapaneseArticles": 380,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "f6c91c757d6ab4a9",
+      "title": "Magical Sisters Lulutto Lilly and Maebashi Witches Anime Cross Over in New Visual",
+      "link": "https://crunchyroll.com/news/latest/2026/10/20/magical-sisters-lulutto-lilly-maebashi-witches-anime-crossover-visual",
+      "publishedAt": "2026-10-20T17:07:00.000Z",
+      "excerpt": "Voice actor Tomokazu Sugita links the two magical idol series",
+      "image": "https://a.storyblok.com/f/178900/1460x821/3791f585dc/magical-sisters-lulutto-lilly-hero.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "877e51b15724b45c",
+      "title": "Compile Heart's Villion:Code Game Launches in West on January 26",
+      "link": "https://www.animenewsnetwork.com/daily-briefs/2026-10-20/compile-heart-villion-code-game-launches-in-west-on-january-26/.243029",
+      "publishedAt": "2026-10-20T16:30:00.000Z",
+      "excerpt": "Idea Factory International announced on Tuesday that it will release Villion:Code, developer Compile Heart's new school RPG, in the West for Nintendo Switch...",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gKD/cms/news.9/233591/villioncode-vertical.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "01a7a31a5383e0b2",
       "title": "It’s time for the kokia to shine at this herb gardens and ropeway attraction in Kobe",

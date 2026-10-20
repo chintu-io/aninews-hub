@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T19:01:43.767Z",
+  "generatedAt": "2026-10-20T19:31:50.732Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 103,
+      "count": 104,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 163,
+      "count": 164,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -162,11 +162,30 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 762,
-    "translatedJapaneseArticles": 380,
+    "articleCount": 764,
+    "translatedJapaneseArticles": 381,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "3b24cdf3181a8827",
+      "title": "back number「高嶺の花子さん」ストリーミング累計9億回突破 「花束」も7億回突破【ビルボード】",
+      "link": "https://www.billboard-japan.com/d_news/detail/166683",
+      "publishedAt": "2026-10-20T19:00:00.000Z",
+      "excerpt": "back number「高嶺の花子さん」が、Billboard JAPANチャートのストリーミング",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166683/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "back number “Takamine no Hanako-san” has been streamed more than 900 million times “Bouquet” has also been streamed more than 700 million times [Billboard]",
+      "translatedExcerpt": "back number “Takamine no Hanako-san” is streaming on the Billboard JAPAN chart"
+    },
     {
       "id": "659f3513cc4667a6",
       "title": "MURCIÉLAGO Anime Reveals Teaser Trailer, Visual and Cast Additions",
@@ -198,6 +217,23 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "6844891372020ab6",
+      "title": "Murciélago TV Anime's Teaser Trailer Reveals Cast",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-20/murcielago-tv-anime-teaser-trailer-reveals-cast/.243033",
+      "publishedAt": "2026-10-20T18:23:37.000Z",
+      "excerpt": "Hitomi Ueda, Minori Suzuki, Sumire Uesaka star in January 2027 anime",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gB0/youtube/7VHLNvvxWfQ.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },

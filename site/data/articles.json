@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T03:31:57.583Z",
+  "generatedAt": "2026-10-21T04:02:08.211Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 116,
+      "count": 117,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 180,
+      "count": 181,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -162,11 +162,28 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 819,
-    "translatedJapaneseArticles": 417,
+    "articleCount": 821,
+    "translatedJapaneseArticles": 418,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "97fd1afb6f5a6477",
+      "title": "Just Like Mona Lisa Anime Trailer Reveals 2027 Broadcast, Ending Theme Song",
+      "link": "https://crunchyroll.com/news/latest/2026/10/21/just-like-mona-lisa-anime-2027-release-date-main-trailer-visual",
+      "publishedAt": "2026-10-21T03:38:00.000Z",
+      "excerpt": "The coming-of-age series is set in a world where people are born genderless",
+      "image": "https://a.storyblok.com/f/178900/960x540/d769f7bd1c/just-like-mona-lisa.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "7b2968310f22d453",
       "title": "【ビルボード】“ニコニコ VOCALOID SONGS TOP20”、いよわ「惑星直列」2週連続首位に",
@@ -183,8 +200,27 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Billboard] “Niconico VOCALOID SONGS TOP20”, Iyowa “Planetary Series” tops the list for 2 weeks in a row",
+      "translatedTitle": "[Billboard] “Niconico VOCALOID SONGS TOP20”, Iyowa “Planetary Series” tops the list for 2 consecutive weeks",
       "translatedExcerpt": "Billboard released on October 21, 2026 (Aggregation period: October 12, 2026 - October 18, 2026)"
+    },
+    {
+      "id": "fef27c41b5bb20d6",
+      "title": "ウェストサイド・カウボーイ、2027年3月に初来日公演決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166709",
+      "publishedAt": "2026-10-21T03:30:00.000Z",
+      "excerpt": "ウェストサイド・カウボーイが、デビュー・アルバムをひっさげた、初来日公演を2027年3月4日に東京",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166709/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Westside Cowboy to perform in Japan for the first time in March 2027",
+      "translatedExcerpt": "Westside Cowboy will perform in Tokyo for the first time, featuring their debut album, on March 4, 2027."
     },
     {
       "id": "300d4261f5327a49",
@@ -596,7 +632,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ae! group starts pre-distribution of Noriyuki Makihara x Kenichi Maeyamada's \"Kono Asaha\"",
-      "translatedExcerpt": "Ae! group has pre-released the common coupling song \"Kono Asaha\" from their 5th single \"Emotion\" which will be released on November 4th (Wednesday). \"This Morning\" is a song written and composed by Noriyuki Makihara, and arranged by Kenichi Maeyamada, also known as Hyadain. It has been used as the theme song for ABC TV's \"Good Morning Asahi Desu\" since April of this year, and it is a song that brightens Kansai mornings filled with warmth, gently nestling in your everyday life. The music video will be premiered on the 22nd (Thursday) at 19:00. Based on the message that ``people never live alone,'' the work depicts the invisible ``connections'' that exist between people in everyday life. Release information https://ototoy.jp/_/default/p/4333780 5th Single “Emotion” Artist information…"
+      "translatedExcerpt": "Ae! group has pre-released the common coupling song \"Kono Asaha\" from their 5th single \"Emotion\" which will be released on November 4th (Wednesday). ``This Morning'' is a song written and composed by Noriyuki Makihara, and arranged by Kenichi Maeyamada, also known as Hyadain. It has been used as the theme song for ABC TV's \"Good Morning Asahi Desu\" since April of this year, and it is a song that brightens Kansai mornings filled with warmth, gently nestling in your everyday life. The music video will be premiered on the 22nd (Thursday) at 19:00. Based on the message that ``people never live alone,'' the work depicts the invisible ``connections'' that exist between people in everyday life. Release information https://ototoy.jp/_/default/p/4333780 5th Single “Emotion” Artist information…"
     },
     {
       "id": "34fbca5b782425b0",
@@ -6478,7 +6514,7 @@
         "language": "ja"
       },
       "translatedTitle": "Brandon Lake releases new song “Changing”",
-      "translatedExcerpt": "Brandon Lake released his new single \"Changing\" on Friday, October 16, 2026. In this work, he takes a new deep dive into the country culture of the southern United States, which is his origin. It is a warm song that lightly depicts changes in daily life while reconsidering the core values ​​of life, such as home, loved ones, and faith. This song conveys the message that while there are many things that change in life, there are some things that you don't want to let go of no matter how much your environment changes. The song is a fusion of country and pop, centered around dynamic drums and an impressive guitar riff. Release information https://ototoy.jp/_/default/p/4299950 Artist information https://www.instagram.com/brando…"
+      "translatedExcerpt": "Brandon Lake released his new single \"Changing\" on Friday, October 16, 2026. In this work, he takes a new deep dive into the country culture of the southern United States, which is his origin. It is a warm song that lightly depicts the changes in daily life while reconsidering the core values ​​of life, such as home, loved ones, and faith. This song conveys the message that while there are many things that change in life, there are some things that you don't want to let go of no matter how much your environment changes. The song is a fusion of country and pop, centered around dynamic drums and an impressive guitar riff. Release information https://ototoy.jp/_/default/p/4299950 Artist information https://www.instagram.com/brando…"
     },
     {
       "id": "0cc908b11f5f715f",
@@ -6784,7 +6820,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Exile, new record \"Gorgeous\" live music video released",
+      "translatedTitle": "EXILE releases live music video for new record “Gorgeous”",
       "translatedExcerpt": "EXILE, who celebrated their 25th anniversary since their debut, released the live music video for their new record \"Gorgeous\", which marks the beginning of a new chapter. TBS “CDTV Live!” which was broadcast the other day Live! ” [EXILE Festival] While the performance of all 13 songs in the project has received a great response, the live music video of ZOO's cover song \"Gorgeous\" has been released for the first time in 23 years since \"Choo Choo TRAIN\", which was performed on the program. While paying respect to the original song, it has been reconstructed with a modern interpretation unique to EXILE, and is a song that symbolizes the concept of the best album \"PARTY TUNE -BEST SELECTION-\" (released on January 1, 2027), which combines the charm of songs that have been passed down through the ages and EXILE's new energy..."
     },
     {
@@ -6973,7 +7009,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kyary Pamyu Pamyu releases MV for “Pang Pang Pang”",
-      "translatedExcerpt": "Kyary Pamyu Pamyu has released the music video for her new song \"Pang Pang Pang\". This song was written as the ending theme song for the anime \"Pan Dorobou\" currently being broadcast on NHK E-Tele. The music video tells the story of bread making between Kyary and the mysterious character \"Dough-kun.\" Set in a colorful, retro kitchen, the comical movements of the two people are synchronized to an addictive beat, and pop and surreal productions unfold one after another. The director was Jun Tamukai, with whom he has collaborated on numerous works since his debut song \"PONPONPON.\" This is their 17th collaboration, and the video also includes an homage to \"PONPONPON\". Release information https://ototoy.jp/_/default/p/4193965…"
+      "translatedExcerpt": "Kyary Pamyu Pamyu has released the music video for her new song \"Pang Pang Pang\". This song was written as the ending theme song for the anime \"Pan Dorobou\" currently being broadcast on NHK E-Tele. The music video tells the story of bread making between Kyary and the mysterious character \"Dough-kun.\" Set in a colorful, retro kitchen, the comical movements of the two people are synchronized to an addictive beat, and pop and surreal productions unfold one after another. The director was Jun Tamukai, with whom he has collaborated on numerous works since his debut song \"PONPONPON\". This is their 17th collaboration, and the video also includes an homage to \"PONPONPON\". Release information https://ototoy.jp/_/default/p/4193965…"
     },
     {
       "id": "abf4af39a664cc32",
@@ -6992,7 +7028,7 @@
         "language": "ja"
       },
       "translatedTitle": "Momoiro Clover Z, new AL release decided for the first time in about 3 years",
-      "translatedExcerpt": "Momoiro Clover Z will release their 8th album ``VOGUE AND ROMANCE'' on Wednesday, March 3, 2027. It was announced today, along with a special video, during the live performance of \"Momoclo Autumn Peach God Festival 2026\" DAY1, which was held at Amagadai General Park in Chosei Village, Chiba Prefecture. https://youtu.be/X4NLcWnHvhM In the video, Momoiro Clover Z, who will celebrate their 20th anniversary in May 2028, also announced that they will start [THE ULTIMATE YEAR]. The band's 8th original full-length album ``VOGUE AND ROMANCE'', the first in about 3 years since their 7th album ``Hydra'', marks the beginning of ``THE ULTIMATE YEAR''. [THE ULTIMATE YEAR…"
+      "translatedExcerpt": "Momoiro Clover Z will release their 8th album ``VOGUE AND ROMANCE'' on Wednesday, March 3, 2027. It was announced today, along with a special video, during the live performance of \"Momoclo Autumn Peach God Festival 2026\" DAY1, which was held at Amagadai General Park in Chosei Village, Chiba Prefecture. https://youtu.be/X4NLcWnHvhM In the video, Momoiro Clover Z, who will celebrate their 20th anniversary in May 2028, also announced that they will start [THE ULTIMATE YEAR]. ``VOGUE AND ROMANCE'' is the band's 8th original full-length album, the first in about 3 years since their 7th album ``Hydra,'' and marks the beginning of [THE ULTIMATE YEAR]. [THE ULTIMATE YEAR…"
     },
     {
       "id": "ba72bd6732af322c",
@@ -7391,7 +7427,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Blondie releases lively new song",
+      "translatedTitle": "Blondie releases dynamic new song",
       "translatedExcerpt": "Blondie released their new single “Spectral Eyes” on Thursday, October 15, 2026. Former The Smiths guitarist Johnny Marr participated in the songwriting and guitar playing. It is the lead single that marks the beginning of the new album \"High Noon\", which is the first in about nine years. This song connects the band's iconic energy to the present day. A sparkling guitar riff, a lively rhythm, and a haunting vocal melody come together to vividly portray Blondie's unique sharpness and gorgeousness. Release information https://ototoy.jp/_/default/p/4312985 Artist information https://www.instagram.com/blondieofficial/"
     },
     {
@@ -8214,7 +8250,7 @@
         "language": "ja"
       },
       "translatedTitle": "Joyce Wrice releases new AL with 14 songs",
-      "translatedExcerpt": "Joyce Wrice released her new album \"MACHIKO\" on Friday, October 9, 2026. This work is the first full-length album in about 5 years since the debut album \"Overgrown\" in 2021. It pays homage to classic R&B from the 90s and 2000s, while blending it with modern beats and sophisticated production. This work depicts desire, confidence, intimacy, and self-understanding in love from multiple perspectives. A total of 14 songs, each lasting approximately 40 minutes, is an ambitious work that shows her expressive power as a singer and her maturity as a songwriter. Release information https://ototoy.jp/_/default/p/4306014 Artist information https://www.instagram.com/joycewrice/"
+      "translatedExcerpt": "Joyce Wrice released her new album \"MACHIKO\" on Friday, October 9, 2026. This work is the first full album in about 5 years since the debut album \"Overgrown\" in 2021. It pays homage to classic R&B from the 90s and 2000s, while blending it with modern beats and sophisticated production. This work depicts desire, confidence, intimacy, and self-understanding in love from multiple perspectives. A total of 14 songs, each lasting approximately 40 minutes, is an ambitious work that shows her expressive power as a singer and her maturity as a songwriter. Release information https://ototoy.jp/_/default/p/4306014 Artist information https://www.instagram.com/joycewrice/"
     },
     {
       "id": "e195fd690eb86eb1",
@@ -8232,8 +8268,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Say Now releases glamorous new song",
-      "translatedExcerpt": "Say Now released their new single \"Hot & talking\" on Friday, October 16, 2026. This work centers on the group's flamboyance and frank expressiveness. It exudes an energetic charm befitting modern pop music. The title \"Hot & talking\" brings to mind an attractive presence and a dignified attitude that is not afraid to attract attention. This work has a high affinity with the pop style that Say Now has cultivated over the years, which incorporates humor and bold self-expression. Release information https://ototoy.jp/_/default/p/4329754 Artist information https://www.instagram.com/saynow/"
+      "translatedTitle": "Say Now releases new gorgeous pop song",
+      "translatedExcerpt": "Say Now released their new single \"Hot & talking\" on Friday, October 16, 2026. This work is centered around the group's brilliance and frank expressiveness. It exudes an energetic charm befitting modern pop music. The title \"Hot & talking\" brings to mind an attractive presence and a dignified attitude that is not afraid to attract attention. This work has a high affinity with the pop style that Say Now has cultivated over the years, which incorporates humor and bold self-expression. Release information https://ototoy.jp/_/default/p/4329754 Artist information https://www.instagram.com/saynow/"
     },
     {
       "id": "c1bdf55e16e8e2a6",
@@ -8701,7 +8737,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Dead By Inches, 1st AL Release Decision",
+      "translatedTitle": "Dead By Inches, 1st AL release decided",
       "translatedExcerpt": "Dead By Inches, who develop their own music based on indie rock/dream pop sounds, will release their first album in their career, ``Never Smile Again.'' A catchy and somewhat nostalgic melody line that incorporates the essence of pop music from the 90s and 00s. On the other hand, the lyrics are extremely introspective, as if one continues to take a hard look at oneself. In addition to songs with Japanese and English lyrics, there are also songs that mix both languages ​​in one song. The contrast between words and melody creates a unique atmosphere reminiscent of Heisei pop music. At the center of this is the melody and lyrics that can be said to be the true essence of the vocal miai. Encounters and farewells that come as a matter of course. I don't think I can do anything in this repetition..."
     },
     {

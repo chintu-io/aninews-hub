@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T09:01:39.145Z",
+  "generatedAt": "2026-10-21T09:31:50.502Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 119,
+      "count": 120,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 200,
+      "count": 201,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 148,
+      "count": 149,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 120,
+      "count": 121,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 88,
+      "count": 89,
       "fetchedCount": 24
     }
   ],
@@ -162,11 +162,102 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 862,
-    "translatedJapaneseArticles": 452,
+    "articleCount": 867,
+    "translatedJapaneseArticles": 455,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "c435254217881f6d",
+      "title": "北山宏光（Hiromitsu Kitayama）、新曲バラード＆アニメ『桃源暗鬼』OP主題歌の両A面シングル発売決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166730",
+      "publishedAt": "2026-10-21T09:30:00.000Z",
+      "excerpt": "北山宏光（Hiromitsu Kitayama）が、ニューシングル『『1/&infin;』~One",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166730/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Hiromitsu Kitayama's new ballad and opening theme song for the anime \"Togen Anki\" will be released as a double A-side single.",
+      "translatedExcerpt": "Hiromitsu Kitayama releases new single “1/∞”~One"
+    },
+    {
+      "id": "f8cfbbbdaee02813",
+      "title": "Uma Musume LA Concert Canceled Just Two Days Before Event Due to US Visa Issues",
+      "link": "https://news.sankakucomplex.com/n/65YXT6Ps0asF_gy4Cg7lvA",
+      "publishedAt": "2026-10-21T09:27:48.000Z",
+      "excerpt": "Uma Musume Pretty Derby fans hoping to see seiyuus of their favorite horse girls perform in Los Angeles have been dealt some unfortunate news, as Cygames has canceled its upcoming American concerts after failing to obtain the necessary US visas, despite spending more than six months preparing for…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "5ecd5ab4d7fc0eba",
+      "title": "JUN SKY WALKER(S)主催フェス＜電撃BEPPU＞、第4弾発表にgo!go!vanillas",
+      "link": "https://barks.jp/news/1099839",
+      "publishedAt": "2026-10-21T09:20:00.000Z",
+      "excerpt": "JUN SKY WALKER(S)が2027年5月22日および23日の2日間、大分県・別府ビーコンプラザにて自身初の主催ロックフェス＜電撃BEPPU＞を開催する。別府の街に湯けむりだけでなくロックの狼煙を上げるべく誕生する新たなフェスの第4弾アーティストが発表となった。 発表されたのはgo!go!vanillasだ。すでに出演が決定しているハルカミライの出演日も確定し、両バンドとも5月22日に出演する。 go!go!vanillasとJUN SKY WALKER(S)には意外な縁がある。長崎県出身のジェットセイヤ(Dr)は、幼い頃からロック好きの父親に連れられてライブに足を運び、さまざまな音楽に触れて育った。自身の音楽的ルーツのひとつとしてJUN SKY WALKER(S)を挙げているが、そのつながりは古…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/21180246/JUN-SKY-WALKERS-1024x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "JUN SKY WALKER(S) sponsored festival <Dengeki BEPPU>, 4th edition announced go!go!vanillas",
+      "translatedExcerpt": "JUN SKY WALKER(S) will hold his first rock festival ``Dengeki BEPPU'' on May 22nd and 23rd, 2027 at Beppu Beacon Plaza in Oita Prefecture. The fourth artist for the new festival that will be born to not only bring steam to the streets of Beppu but also to raise the flames of rock music has been announced. What was announced was go!go!vanillas. The performance date of Harukamirai, who has already been scheduled to perform, has also been confirmed, and both bands will perform on May 22nd. go!go!vanillas and JUN SKY WALKER(S) have a surprising connection. Born in Nagasaki Prefecture, Jet Seiya (Dr.) grew up being exposed to a variety of music, taking him to concerts with his rock-loving father from an early age. He cites JUN SKY WALKER(S) as one of his musical roots, but the connection goes back a long way..."
+    },
+    {
+      "id": "a950b0459e76db3a",
+      "title": "ELECEED Anime Broadcasts in April 2027",
+      "link": "https://crunchyroll.com/news/latest/2026/10/21/eleceed-anime-april-2027-release-date",
+      "publishedAt": "2026-10-21T09:19:00.000Z",
+      "excerpt": "Crunchyroll will stream the supernatural action series",
+      "image": "https://a.storyblok.com/f/178900/960x540/7af05318ee/eleceed.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "e0bb3e6130daf859",
+      "title": "Meg Bonus、本日「森を燃やす」がコンセプトのEPをリリース",
+      "link": "https://ototoy.jp/news/132365",
+      "publishedAt": "2026-10-21T09:15:00.000Z",
+      "excerpt": "野本慶によるソロプロジェクト・Meg Bonusの新作EP『3 Songs ＋ 4 Instrumentals』が10月21日配信リリース。リリースに寄せて、本人からのコメントも公開された。 「森を燃やす」をコンセプトに制作された本作には8月に配信リリースした「Ⅱ」に加え、エンジニアに葛西敏彦氏を迎えた「Ⅵ」など、EPタイトルのとおり歌唱楽曲3曲とインスト楽曲4曲の全7曲が収録されている。 Meg Bonusは11月に東京・大阪にて初のワンマンツアーの開催も決定している。本作収録楽曲も披露予定なので、EPとあわせてぜひチェックしてほしい。 アーティストコメント 「森を燃やす」というコンセプトでEPを作りました。 日常の中で自然とできたメロディを軸にできたのが偶数の曲！ 「Ⅰ」から「Ⅶ」までコンセプトが続い…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132365/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Meg Bonus releases EP with the concept of “burning the forest” today",
+      "translatedExcerpt": "Kei Nomoto's solo project Meg Bonus' new EP \"3 Songs + 4 Instrumentals\" will be released on October 21st. A comment from the person himself was also published in response to the release. This album, created with the concept of \"burning the forest,\" includes a total of seven songs, including \"II,\" which was released digitally in August, and \"VI,\" which features engineer Toshihiko Kasai, as well as three vocal songs and four instrumental songs, as the EP title suggests. Meg Bonus will also hold her first one-man tour in Tokyo and Osaka in November. The songs from this album will also be performed, so be sure to check them out along with the EP. Artist Comment: I created this EP with the concept of \"burning the forest.\" Even-numbered songs were created based on melodies that came naturally in everyday life! The concept continues from \"I\" to \"VII\"..."
+    },
     {
       "id": "1f469a4941bc464a",
       "title": "【連載コラム】遊津場の関西アーティスト週報vol.128「10年代の邦ロック×現代の京阪神ライブハウスシーンを合わせたアルバム！mogari」",

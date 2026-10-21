@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T06:01:40.478Z",
+  "generatedAt": "2026-10-21T06:31:32.346Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 111,
+      "count": 112,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 185,
+      "count": 186,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 87,
+      "count": 88,
       "fetchedCount": 24
     }
   ],
@@ -162,8 +162,8 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 833,
-    "translatedJapaneseArticles": 425,
+    "articleCount": 836,
+    "translatedJapaneseArticles": 426,
     "translationAttempts": 160
   },
   "articles": [
@@ -204,6 +204,42 @@
       },
       "translatedTitle": "\"Charisma\", official guidebook cover & shop benefits released",
       "translatedExcerpt": "Superhuman share house story ``Charisma'' has released the cover and shop bonus images of their first official guidebook ``Charisma's Friends.'' This is a newly drawn illustration for this guidebook, and chibi characters also appear, creating a lively design. The official guidebook ``Charismatic Friends'' is a thorough study of characters and stories. It is not only an introductory guide to ``Charisma,'' but also features many enjoyable sections such as 7 type diagnosis. In addition, the attached appendix will be ``stickers'' and ``sugoroku'', and it is said that it has a large volume of content that can be played many times with just one book. In addition, the first limited edition comes with a CD containing the new song ``Romance no Charisma,'' which is a partial cover of Hirose Kami's representative song ``Romance no Kamisama.'' This song was newly composed by himself..."
+    },
+    {
+      "id": "814504a7bed2c291",
+      "title": "ドーチー、新曲「CATWOMAN」の広大な荒野を舞台にしたMV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166718",
+      "publishedAt": "2026-10-21T06:00:00.000Z",
+      "excerpt": "ドーチーが、新曲「CATWOMAN」のパフォーマンス映像を自身の&rdquo;スワンプ・セッション",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166718/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Dorchy releases music video for new song “CATWOMAN” set in vast wilderness",
+      "translatedExcerpt": "Dorchy releases performance video for new song “CATWOMAN” from his own “swamp session”"
+    },
+    {
+      "id": "b7d0bbc80cd19765",
+      "title": "Just Like Mona Lisa TV Anime's 1st Trailer Unveils More Cast & Staff, 2027 Debut",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-21/just-like-mona-lisa-tv-anime-1st-trailer-unveils-more-cast-and-staff-2027-debut/.243048",
+      "publishedAt": "2026-10-21T05:52:21.000Z",
+      "excerpt": "Trailer reveals ending song \"Mayoi wa Hikari\" by imase",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gCD/cms/news.10/243048/mona.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "b8f6bb7b7ccc52f4",
@@ -6121,6 +6157,23 @@
       "translatedExcerpt": "JxJ (SEVENTEEN), a new unit consisting of SEVENTEEN's JEONGHAN and JOSHUA, will release their 1st mini album \"DREAMSCAPE\" on October 19th. The music video teaser video for the title song \"12 o'clock\" has been released. In the teaser video, JxJ (SEVENTEEN)'s captivating visuals stand out. The two are showing off their diverse charms by moving between the cool and unrealistic daytime space and the mysterious and enchanting nightscape. The two's gorgeous looks and sophisticated aura, combined with the tasteful direction, make the content reminiscent of a fashion film. Strange creatures also catch the eye. The long body of a snake and the gorgeous plumage of a peacock create a unique harmony. The figure that swallows its own tail and forms a ring is an ancient myth..."
     },
     {
+      "id": "86be53aeef2c629d",
+      "title": "1 in 5 Japanese Elementary School Boys Own a Smartphone, Survey Finds",
+      "link": "https://news.sankakucomplex.com/n/kykXd-TVaSqciX7WkaHxFw",
+      "publishedAt": "2026-10-18T06:00:28.000Z",
+      "excerpt": "A new survey of Japanese elementary school boys has found that only around 20% own a smartphone, despite mobile devices becoming increasingly common in everyday life.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
       "id": "e80a6e889c137564",
       "title": "1 in 5 Japanese Elementary School Boys Own a Smartphone, Survey Finds",
       "link": "https://news.sankakucomplex.com/n/ajrIR5JNbi3XzP7v3nlBxw",
@@ -7038,7 +7091,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Exile, new record \"Gorgeous\" live music video released",
+      "translatedTitle": "EXILE releases live music video for new record “Gorgeous”",
       "translatedExcerpt": "EXILE, who celebrated their 25th anniversary since their debut, released the live music video for their new record \"Gorgeous\", which marks the beginning of a new chapter. TBS “CDTV Live!” which was broadcast the other day Live! ” [EXILE Festival] While the performance of all 13 songs in the project has received a great response, the live music video of ZOO's cover song \"Gorgeous\" has been released for the first time in 23 years since \"Choo Choo TRAIN\", which was performed on the program. While paying respect to the original song, it has been reconstructed with a modern interpretation unique to EXILE, and is a song that symbolizes the concept of the best album \"PARTY TUNE -BEST SELECTION-\" (released on January 1, 2027), which combines the charm of songs that have been passed down through the ages and EXILE's new energy..."
     },
     {
@@ -8467,7 +8520,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Joyce Wrice Releases New AL with 14 Songs",
+      "translatedTitle": "Joyce Wrice releases new AL with 14 songs",
       "translatedExcerpt": "Joyce Wrice released her new album \"MACHIKO\" on Friday, October 9, 2026. This work is the first full-length album in about 5 years since the debut album \"Overgrown\" in 2021. It pays homage to classic R&B from the 90s and 2000s, while blending it with modern beats and sophisticated production. This work depicts desire, confidence, intimacy, and self-understanding in love from multiple perspectives. A total of 14 songs, each lasting approximately 40 minutes, is an ambitious work that shows her expressive power as a singer and her maturity as a songwriter. Release information https://ototoy.jp/_/default/p/4306014 Artist information https://www.instagram.com/joycewrice/"
     },
     {
@@ -8486,7 +8539,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Say Now releases glamorous new song",
+      "translatedTitle": "Say Now releases new gorgeous pop song",
       "translatedExcerpt": "Say Now released their new single \"Hot & talking\" on Friday, October 16, 2026. This work centers on the group's flamboyance and frank expressiveness. It exudes an energetic charm befitting modern pop music. The title \"Hot & talking\" brings to mind an attractive presence and a dignified attitude that is not afraid to attract attention. This work has a high affinity with the pop style that Say Now has cultivated over the years, which incorporates humor and bold self-expression. Release information https://ototoy.jp/_/default/p/4329754 Artist information https://www.instagram.com/saynow/"
     },
     {

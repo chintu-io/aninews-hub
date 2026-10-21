@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T00:31:34.984Z",
+  "generatedAt": "2026-10-21T01:01:37.220Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 109,
+      "count": 110,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 112,
+      "count": 113,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 30,
+      "count": 31,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 165,
+      "count": 168,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -162,11 +162,119 @@
     "sourceCount": 8,
     "successfulSources": 8,
     "failedSources": 0,
-    "articleCount": 778,
-    "translatedJapaneseArticles": 386,
+    "articleCount": 784,
+    "translatedJapaneseArticles": 389,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "3c04867f281e879b",
+      "title": "go!go!vanillas、JUN SKY WALKER(S)初の主催ロックフェス【電撃BEPPU】に出演決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166666",
+      "publishedAt": "2026-10-21T01:00:00.000Z",
+      "excerpt": "5月22日、23日に大分・別府ビーコンプラザで開催される、JUN SKY WALKER(S)が主催",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166666/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "go!go!vanillas will perform at JUN SKY WALKER(S)'s first rock festival [Dengeki BEPPU]",
+      "translatedExcerpt": "Sponsored by JUN SKY WALKER(S) to be held on May 22nd and 23rd at Beppu Becon Plaza, Oita"
+    },
+    {
+      "id": "cc3a98a03f423c3c",
+      "title": "初来日公演を控えるフレイヤ・スカイ、Spotifyホリデー企画で プリテンダーズ「2000 Miles」カバー",
+      "link": "https://www.billboard-japan.com/d_news/detail/166696",
+      "publishedAt": "2026-10-21T01:00:00.000Z",
+      "excerpt": "来年2月に初来日公演が決定している17歳の新星ポップ・スター、フレイヤ・スカイがSpotifyのホ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166696/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Freya Sky, who is about to perform in Japan for the first time, covers the Pretenders' \"2000 Miles\" as part of the Spotify holiday project",
+      "translatedExcerpt": "Freya Skye, a 17-year-old rising pop star who is scheduled to perform in Japan for the first time in February next year, will be joining the Spotify website."
+    },
+    {
+      "id": "a5794f7bdad10edb",
+      "title": "Ghost – End of Night Anime Film Announces Three New Cast Members",
+      "link": "https://crunchyroll.com/news/latest/2026/10/21/ghost-end-of-night-anime-film-3-new-cast-members",
+      "publishedAt": "2026-10-21T00:52:00.000Z",
+      "excerpt": "Shingo Natsume's first feature film releases in Japan on February 11, 2027",
+      "image": "https://a.storyblok.com/f/178900/960x540/062faf3a94/ghost-film-new-cast-members.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "0c89ce20595cde82",
+      "title": "ghost – end of night Anime Film Unveils 3 Cast Members",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-20/ghost-end-of-night-anime-film-unveils-3-cast-members/.243040",
+      "publishedAt": "2026-10-21T00:50:26.000Z",
+      "excerpt": "Kenjirō Tsuda, Hiroki Yasumoto, Hiroshi Kamiya join cast",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFK/cms/news.9/239177/ghostkey.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "74d86c069b9ae256",
+      "title": "'Ghost: Yoru no Hate' Announces Additional Cast",
+      "link": "https://myanimelist.net/news/74842607?_location=rss",
+      "publishedAt": "2026-10-21T00:43:12.000Z",
+      "excerpt": "The official website for the Ghost: Yoru no Hate original anime movie announced three additional cast members on Wednesday. The movie is scheduled to open in Japanese theaters on February 11, 2027. The movie was previewed at Sitges Film Festival on October 9 and at Animation Is Film Festival on October 17. Cast Moby Dick: Kenjirou Tsuda (Jujutsu Kaisen) K…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1792543763-79d038765292c1d19df1076ff987abb7.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "4b284b7c44cec24f",
+      "title": "モグワイ、音楽ドキュメンタリー『MOGWAI recollections ～あるリスナーの記憶～』がtvkで10/27放送",
+      "link": "https://www.billboard-japan.com/d_news/detail/166695",
+      "publishedAt": "2026-10-21T00:30:00.000Z",
+      "excerpt": "モグワイの音楽ドキュメンタリー『MOGWAI recollections ～あるリスナーの記憶～』",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166695/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Mogwai music documentary “MOGWAI recollections ~Memories of a listener~” will be broadcast on TVK on October 27th",
+      "translatedExcerpt": "Mogwai music documentary “MOGWAI recollections ~Memories of a listener~”"
+    },
     {
       "id": "0743313ba9e7b804",
       "title": "ザ・ローリング・ストーンズ、最新作DX版よりコートニー・パイン参加の「フー・ユー・コーリン・クレイジー」公開",

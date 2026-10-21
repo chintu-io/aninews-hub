@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T18:01:55.179Z",
+  "generatedAt": "2026-10-21T18:31:58.557Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,18 +104,19 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 125,
+      "count": 126,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
     {
       "id": "mal",
       "name": "MyAnimeList",
-      "status": "error",
-      "mode": null,
+      "status": "ok",
+      "mode": "rss",
+      "feedUrl": "https://myanimelist.net/rss/news.xml",
       "count": 32,
-      "error": "HTTP 503",
-      "fetchedCount": 0
+      "imageEnrichment": null,
+      "fetchedCount": 20
     },
     {
       "id": "billboardjapan",
@@ -152,19 +153,36 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 92,
+      "count": 93,
       "fetchedCount": 24
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 6,
-    "failedSources": 2,
-    "articleCount": 920,
+    "successfulSources": 7,
+    "failedSources": 1,
+    "articleCount": 922,
     "translatedJapaneseArticles": 489,
     "translationAttempts": 120
   },
   "articles": [
+    {
+      "id": "b98cfd03a5aec034",
+      "title": "The World's Strongest Witch English Dub Reveals Release Date, Cast and Crew",
+      "link": "https://crunchyroll.com/news/announcements/2026/10/21/the-worlds-strongest-witch-english-dub-release-date-cast-crew",
+      "publishedAt": "2026-10-21T18:18:00.000Z",
+      "excerpt": "The first episode is available now!",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/2db9393ba1/the-world-s-strongest-witch.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "6f3a022afd133726",
       "title": "Magic Knight Rayearth, Sasaki and Peeps 2nd Season Anime Reveal English Dub Debuts, Casts",
@@ -337,7 +355,7 @@
         "language": "ja"
       },
       "translatedTitle": "SUPER★DRAGON member Hyoma Ikeda's solo project \"Hyoma Ikeda\" releases 1st mini album \"Effect\". “Bleeding Love” MV expressing “love and pain” also released",
-      "translatedExcerpt": "SUPER★DRAGON's Hyoma Ikeda's solo project \"Hyoma Ikeda\" will be releasing its first mini album \"Effect\" on October 21st. The music video for the lead song \"Bleeding Love\" has been released. \"Bleeding Love\" is a song based on Edvard Munch's painting \"Love and Pain.\" The song was written and composed by Hyoma Ikeda, with MONJOE and Soma Genda participating in the composition and arrangement, and the song is a fusion of gothic worldview and dance music. The music video, which also features impressive scenes of bloodshed, portrays a bewitching and beautiful yet somehow strange worldview, transforming the song's appeal into something deeper and more profound. On October 21st, Tower Records Shibuya store B1F CUTUP STUD…"
+      "translatedExcerpt": "SUPER★DRAGON's Hyoma Ikeda's solo project \"Hyoma Ikeda\" will be releasing its first mini album \"Effect\" on October 21st. The music video for the lead song \"Bleeding Love\" has been released. \"Bleeding Love\" is a song based on Edvard Munch's painting \"Love and Pain.\" Lyrics and music were written and composed by Hyoma Ikeda, with MONJOE and Soma Genda participating in the composition and arrangement, and the song is a fusion of gothic worldview and dance music. The music video, which also features impressive scenes of bloodshed, portrays a bewitching and beautiful yet somehow strange worldview, transforming the song's appeal into something deeper and more profound. On October 21st, Tower Records Shibuya store B1F CUTUP STUD…"
     },
     {
       "id": "e8f7c391bfc09839",
@@ -1906,8 +1924,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "334c27c79cf07b20",
@@ -2083,7 +2100,7 @@
         "language": "ja"
       },
       "translatedTitle": "5 Star Cowboy releases single “Iku no Uma/horamitemiroyo” and announces album release next year",
-      "translatedExcerpt": "5 Star Cowboy's single \"Iku no Uma/horamatemiroyo\" by bringlife, PICNIC YOU, and NGS was released on Wednesday, October 21, 2026, and the PV for the title song was also released. Since the release of their album “5 Star Cowboy Deluxe” at the end of 2025, 5 Star Cowboy has become more lively. They have expanded their scope of activity by holding their own independent projects \"Campfire\" and \"BBQ\" at two venues on the same day in Osaka, \"Forest, Michi, Market 2026\" and the AVYSS stage \"AVYSS BODY\", a two-day complex event \"5 Star Park ~Goseien~\" to commemorate their first anniversary, and a free live concert hosted by Marshall, which they themselves curated, \"KEEP LIVE MUSIC ALIVE\"... …"
+      "translatedExcerpt": "5 Star Cowboy's single \"Iku no Uma/horamatemiroyo\" by bringlife, PICNIC YOU, and NGS was released on Wednesday, October 21, 2026, and the PV for the title song was also released. Since the release of their album “5 Star Cowboy Deluxe” at the end of 2025, 5 Star Cowboy has become more lively. They have expanded their scope of activities by holding their own projects \"Campfire\" and \"BBQ\" at two venues on the same day in Osaka, \"Forest, Michi, Market 2026\" and the AVYSS stage \"AVYSS BODY\", a two-day complex event \"5 Star Park ~Goseien~\" to commemorate their first anniversary, and a free live concert hosted by Marshall, which they themselves curated, \"KEEP LIVE MUSIC ALIVE\"... …"
     },
     {
       "id": "982bfe0b5fb6f6ca",
@@ -2421,7 +2438,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ae! group starts pre-distribution of Noriyuki Makihara x Kenichi Maeyamada's \"Kono Asaha\"",
-      "translatedExcerpt": "Ae! group has pre-released the common coupling song \"Kono Asaha\" from their 5th single \"Emotion\" which will be released on November 4th (Wednesday). \"This Morning\" is a song written and composed by Noriyuki Makihara, and arranged by Kenichi Maeyamada, also known as Hyadain. It has been used as the theme song for ABC TV's \"Good Morning Asahi Desu\" since April of this year, and it is a song that brightens Kansai mornings filled with warmth, gently nestling in your everyday life. The music video will be premiered on the 22nd (Thursday) at 19:00. Based on the message that ``people never live alone,'' the work depicts the invisible ``connections'' that exist between people in everyday life. Release information https://ototoy.jp/_/default/p/4333780 5th Single “Emotion” Artist information…"
+      "translatedExcerpt": "Ae! group has pre-released the common coupling song \"Kono Asaha\" from their 5th single \"Emotion\" which will be released on November 4th (Wednesday). ``This Morning'' is a song written and composed by Noriyuki Makihara, and arranged by Kenichi Maeyamada, also known as Hyadain. It has been used as the theme song for ABC TV's \"Good Morning Asahi Desu\" since April of this year, and it is a song that brightens Kansai mornings filled with warmth, gently nestling in your everyday life. The music video will be premiered on the 22nd (Thursday) at 19:00. Based on the message that ``people never live alone,'' the work depicts the invisible ``connections'' that exist between people in everyday life. Release information https://ototoy.jp/_/default/p/4333780 5th Single “Emotion” Artist information…"
     },
     {
       "id": "34fbca5b782425b0",
@@ -2721,8 +2738,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4b284b7c44cec24f",
@@ -3062,8 +3078,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "aa42a0bc1fd0a09b",
@@ -3199,8 +3214,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "17fcf59423bcf6b4",
@@ -3617,8 +3631,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "5b145a4186f85b08",
@@ -3818,7 +3831,7 @@
       "title": "Magical Explorer’s Women Squeeze Into Tiny Swimsuits",
       "link": "https://news.sankakucomplex.com/n/tx-ZOWSrIy034Gmb3T5ajQ",
       "publishedAt": "2026-10-20T10:00:35.000Z",
-      "excerpt": "This season’s current round of anime seems fixated on swimsuits as the latest airing of Magical Explorer has used them as their central fetish, offering watchers some prime lewdness that will feel like an absolute rarity in the current censorious state of the entertainment industry. The 3rd episo…",
+      "excerpt": "This season’s current round of anime seems fixated on swimsuits as the latest airing of Magical Explorer has used them as their central fetish, offering watchers some prime lewdness that will feel like an absolute rarity in the current censorious state of the entertainment industry.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4323,8 +4336,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "da735fa79ce97404",
@@ -4629,8 +4641,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c4cd4508a9493d3c",
@@ -5502,8 +5513,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3834ac9be663223a",
@@ -6208,7 +6218,7 @@
         "language": "ja"
       },
       "translatedTitle": "<Showa Song Parade> October 22nd, Keisuke Yamauchi and others talk about their passionate feelings towards “Oshi”",
-      "translatedExcerpt": "The performers for BS Fuji's Showa Kayo Parade on October 22nd have been announced. Starring Keisuke Yamauchi, Yuji Matsuo, Konomi Mori, and Miho Asahana. This time, we will be broadcasting \"Oshi Talk!!\" where guests will talk about their passionate feelings towards \"Oshi\". He passionately sings his beloved ``Oshi'' masterpiece. Furthermore, Hibari Misora's treasured singing video and Keisuke Yamauchi's treasured collection will be unveiled in the studio. The songs to be performed include Miho Asahana's ``Sorrow Wharf (Misora Hibari)'', Miho Asahana's ``Sakura Enka'', Yuji Matsuo's ``Yukitsubaki (Sachiko Kobayashi)'', Yuji Matsuo's ``Watatashi'', Konomi Mori's ``Kokoro no Takashi'' (Takashi Hosokawa), and Konomi Mori's ``Shoku''. ``White'', Keisuke Yamauchi ``Midare-kami (Misora Hibari)'', Keisuke Yamauchi ``Life is a journey (Misora Hibari)'', Keisuke Yamauchi & Miho Asahana ``Tsugaru no Furusato (Misora Hibari)'', Keisuke Yamauchi ``This world is a festival'' (in alphabetical order of singers) . Release information https://ototoy.jp/_/de…"
+      "translatedExcerpt": "The performers for the October 22nd BS Fuji Showa Kayo Parade have been announced. Starring Keisuke Yamauchi, Yuji Matsuo, Konomi Mori, and Miho Asahana. This time, we will be broadcasting \"Oshi Talk!!\" where guests will talk about their passionate feelings towards \"Oshi\". He passionately sings his beloved ``Oshi'' masterpiece. Furthermore, Hibari Misora's treasured singing video and Keisuke Yamauchi's treasured collection will be unveiled in the studio. The songs to be performed include Miho Asahana's ``Sorrow Wharf (Misora Hibari)'', Miho Asahana's ``Sakura Enka'', Yuji Matsuo's ``Yukitsubaki (Sachiko Kobayashi)'', Yuji Matsuo's ``Watatashi'', Konomi Mori's ``Kokoro no Takashi'' (Takashi Hosokawa), and Konomi Mori's ``Shoku''. ``White'', Keisuke Yamauchi ``Midare-kami (Misora Hibari)'', Keisuke Yamauchi ``Life is a journey (Misora Hibari)'', Keisuke Yamauchi & Miho Asahana ``Tsugaru no Furusato (Misora Hibari)'', Keisuke Yamauchi ``This world is a festival'' (in alphabetical order of singers) . Release information https://ototoy.jp/_/de…"
     },
     {
       "id": "d35473168c934330",
@@ -6773,8 +6783,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "521e8bdfb00cffe7",
@@ -7188,6 +7197,23 @@
       "translatedExcerpt": "``Good afternoon, everyone. Welcome to the final. Thank you for the packed house. It's a nice view,'' he said, and a voice from the audience said, ``Cool!'', to which he replied, ``Everyone, it's cool.'' A fierce yet beautiful space of mutual love has emerged. Koji Yoshikawa's tour final performance was held on October 16th (Friday) and 17th (Saturday) at Tokyo's Yoyogi National Stadium First Gymnasium. The tour started in June under the title <KIKKAWA KOJI LIVE 2026 Higher and Higher Tour>. They mobilized 70,000 people for 26 performances nationwide, and 20,000 people gathered for 2 days in Yoyogi. Although the rescheduled performances in Fukuoka and Kumamoto (held in December) remain, the tour was brought to a spectacular close with a stage performance that was both a high level of perfection and the heat of complete combustion. In this article, from the official..."
     },
     {
+      "id": "6b1548fe468441bb",
+      "title": "Japan’s Actors Union Moves to Ban AI Recreation of Deceased Voice Actors",
+      "link": "https://news.sankakucomplex.com/n/O4OEgO665MTHqaOvD5145g",
+      "publishedAt": "2026-10-18T18:00:59.000Z",
+      "excerpt": "The Japan Actors Union has introduced new guidelines that generally prohibit recreating the voices of deceased actors and voice actors using generative AI, while also establishing strict consent and compensation requirements for living performers.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
       "id": "3f19a7c9bbbc9c97",
       "title": "Japan’s Actors Union Moves to Ban AI Recreation of Deceased Voice Actors",
       "link": "https://news.sankakucomplex.com/n/RhnJsTBThKKYOjsBKXxdIw",
@@ -7342,7 +7368,7 @@
         "language": "ja"
       },
       "translatedTitle": "Rachel Chinouriri, new AL release",
-      "translatedExcerpt": "Rachel Chinouriri released her new album ``I think I spoke too soon'' on Friday, October 16, 2026. This 12-song, approximately 40-minute album is an ambitious work that combines the glamor of dance floor synth pop with her signature delicate and frank indie pop. The album depicts the changes in self-perception, the confusion in love, and the difficulty of becoming an adult that people experience in their early to mid-20s. In terms of sound, it combines dynamic synthesizers, danceable beats, and alternative rock textures. While maintaining the intimate indie pop charm established in their debut album, they have expanded their range of expression to a more sophisticated pop sound. Release information https://ototoy.jp/_/default/p/432879…"
+      "translatedExcerpt": "Rachel Chinouriri released her new album ``I think I spoke too soon'' on Friday, October 16, 2026. This 12-song, approximately 40-minute album is an ambitious work that combines the glamor of dance floor synth pop with her signature delicate and frank indie pop. The album depicts the changes in self-perception, the confusion of love life, and the difficulties of becoming an adult in one's early to mid-20s. In terms of sound, it combines dynamic synthesizers, danceable beats, and alternative rock textures. While maintaining the intimate indie pop charm established in their debut album, they have expanded their range of expression to a more sophisticated pop sound. Release information https://ototoy.jp/_/default/p/432879…"
     },
     {
       "id": "47c01a2ae17619fe",
@@ -7376,8 +7402,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2ee3104bf819d8d0",
@@ -8736,7 +8761,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Forbidden majority vote, new song \"Love & Travelers (feat. Evita & Nao)\"",
+      "translatedTitle": "Forbidden majority vote releases new song “Love & Travelers (feat. Evita & Nao)”",
       "translatedExcerpt": "Forbidden Majority has released their new song \"Love & Travelers (feat. Evita & Nao)\" on October 14, 2026. Forbidden Majority is a music group led by Pomilla Potalone. Since 2011, he has been publishing his own videos and artwork on video sites. He is building a music world full of originality and DIY spirit. Evita and Nao are in charge of vocals for the new song \"Love & Travelers\". The result is a dance tune with a feeling of weakness that is reminiscent of a forbidden majority vote. Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/216356 Artist information https://x.com/tasuketsu"
     },
     {
@@ -8808,7 +8833,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Loosen mo! released the music video for \"Independence Day\", a song about Independence Day.",
+      "translatedTitle": "\"Independence Day\" music video released by Loose Mo! singing Independence Day",
       "translatedExcerpt": "Loosen mo! released the music video for their new song \"Independence Day\" at 9pm on October 16, 2026. The music videos were directed by Yurumeru Mo!, who have worked on songs such as \"Zen-Aishi Concerto,\" \"I want to be rewarded for living seriously,\" \"Monmochaina!,\" \"Awabecha Adventure,\" \"Phoenix Fire Taiko,\" \"Escape Dive,\" \"Rock'n Bocchi,\" \"Ponkotsu Chicken Hero,\" and \"Ninja NOW.\" Ryoichi Hiraiwa has worked on many music videos. The video depicts the members living together in a retro apartment. Yumeru Mo, who has reached the turning point of independence through productions that reveal the emotions of the members, such as the scene where they sing wildly in the rain! It expresses the energy and determination of the artist with a lot of energy. In addition, loose mo! On October 24th, we held a pilgrimage tour to a ruined apartment building in Hitachi City, Ibaraki Prefecture, where this music video was filmed..."
     },
     {
@@ -8903,7 +8928,7 @@
         "language": "ja"
       },
       "translatedTitle": "Angèle releases new AL with 13 songs",
-      "translatedExcerpt": "Angèle released her new album “Instinct” on Friday, October 16, 2026. This is an ambitious work that effortlessly transcends the framework of French pop, fusing the dynamism of electronic music with the artist's personal expression that addresses his inner self. Through all 13 songs, the album depicts the importance of moving forward by trusting your own intuition and moving away from the expectations of those around you. The production of this film took place over three years and took place in multiple locations including Brussels, Paris, New York, Rome, and Spain. Angèle writes, composes, and produces the songs himself, building on his previous production style and stepping into a more free form of creation. Release information https://ototoy.jp/_/default/p/4343945 Artist information https://www.…"
+      "translatedExcerpt": "Angèle released her new album “Instinct” on Friday, October 16, 2026. This is an ambitious work that effortlessly transcends the framework of French pop, fusing the dynamism of electronic music with the artist's personal expression that addresses his inner self. Through all 13 songs, the album depicts the importance of moving forward by trusting your own intuition and moving away from the expectations of those around you. The production of this film took place over three years and took place in multiple locations including Brussels, Paris, New York, Rome, and Spain. Angèle writes, composes, and produces the songs himself, building on his previous production style to take a step toward more creative freedom. Release information https://ototoy.jp/_/default/p/4343945 Artist information https://www.…"
     },
     {
       "id": "973d6a85eb40c8f3",
@@ -9879,8 +9904,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "44650908c1ee4b64",
@@ -11607,8 +11631,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b37bd87d114cc89e",
@@ -13072,8 +13095,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "94932a140a185e73",
@@ -13374,8 +13396,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "d89562d5110d6764",
@@ -13905,8 +13926,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7217dd4f60d17f78",
@@ -13957,8 +13977,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "406ea0ecdf4caed5",
@@ -15234,8 +15253,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "914732259e6d360b",
@@ -15271,8 +15289,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ccd11ab17521b2c8",
@@ -15703,8 +15720,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "dbb341d79c986009",
@@ -15774,8 +15790,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "aca7f73ceb671a48",
@@ -16256,8 +16271,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1f4cbfb310fcb0af",
@@ -16308,8 +16322,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "dc7a5f8ac1292bb2",
@@ -16770,8 +16783,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f7908f1bd5abd2e1",
@@ -16839,8 +16851,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3c0405cba67babd7",
@@ -16857,8 +16868,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1d854a85c136eb09",
@@ -16943,8 +16953,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3e0b3e312f4fe2ae",
@@ -16961,8 +16970,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8a91e8d645b2e9ed",
@@ -16979,8 +16987,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3c1ca1746c200088",
@@ -16997,8 +17004,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "70d862f60f2abda7",
@@ -17015,8 +17021,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f25e32db6fa2ebb0",
@@ -17033,8 +17038,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e605ad4e976c1680",
@@ -17051,8 +17055,7 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      },
-      "stale": true
+      }
     }
   ]
 }

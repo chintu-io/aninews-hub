@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T04:31:53.890Z",
+  "generatedAt": "2026-10-22T05:01:37.674Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 129,
+      "count": 130,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -161,11 +161,28 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 951,
+    "articleCount": 952,
     "translatedJapaneseArticles": 505,
     "translationAttempts": 120
   },
   "articles": [
+    {
+      "id": "9823800419bbe8f9",
+      "title": "Voice Actor Hiroyuki Yoshino Shares New Music Video \"Bokura no Oto\"",
+      "link": "https://crunchyroll.com/news/latest/2026/10/22/voice-actor-hiroyuki-yoshino-new-music-video-bokura-no-oto-",
+      "publishedAt": "2026-10-22T04:49:00.000Z",
+      "excerpt": "Yoshino's 6th mini-album \"Ima to Boku\" is now available",
+      "image": "https://a.storyblok.com/f/178900/960x540/7b8ff223d0/hiroyuki-yoshino-bokura-no-oto-mv.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "10ca4e236a1ee4f9",
       "title": "〈ミュージックステーション40周年SP〉出演者発表",

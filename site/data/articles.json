@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T16:01:46.550Z",
+  "generatedAt": "2026-10-22T16:32:23.926Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 139,
+      "count": 141,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 26,
+      "count": 25,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -151,9 +151,9 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 95,
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "count": 94,
       "fetchedCount": 24
     }
   ],
@@ -166,6 +166,40 @@
     "translationAttempts": 120
   },
   "articles": [
+    {
+      "id": "f76588e84a2726bc",
+      "title": "Zombies serve cocktails and Pochita turns into parfait at Universal Studios Japan this Halloween",
+      "link": "https://soranews24.com/2026/10/23/zombies-serve-cocktails-and-pochita-turns-into-parfait-at-universal-studios-japan-this-halloween/",
+      "publishedAt": "2026-10-22T16:00:46.000Z",
+      "excerpt": "Are you ready for a taste of terror? As Universal Studios Japan marks its 25th anniversary, the park is bursting with thrills with its milestone 15th edition of Halloween Horror Nights. Running from September 11 to November 8, this year’s event pairs the classic street scares with an array of spook-filled food and drink offerings […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/main_40a52e.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d5425ef21729bb0e",
+      "title": "Yūichirō Momose, Hina Hinata's Bagudan Manga Ends on November 24",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-22/yuichiro-momose-hina-hinata-bagudan-manga-ends-on-november-24/.243066",
+      "publishedAt": "2026-10-22T16:00:00.000Z",
+      "excerpt": "Reverse harem comedy manga launched on March 24",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gKH/cms/news.10/243066/bagudan.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "3747f78d6a895334",
       "title": "Chitose Is in the Ramune Bottle Cour 2 Anime Shares Creditless Opening and Ending Videos",
@@ -180,6 +214,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "6dee837bfafe3408",
+      "title": "Takopi's Original Sin Compilation Film's Trailer Reveals Theme Song",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-22/takopi-original-sin-compilation-film-trailer-reveals-theme-song/.243112",
+      "publishedAt": "2026-10-22T15:36:18.000Z",
+      "excerpt": "Tele returns to perform theme song for November 27 film",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJE/youtube/mnoR-kTU25E.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -4571,7 +4622,7 @@
       "title": "Japanese Indie Developer Threatened With AI Game Clone Unless He Pays $200",
       "link": "https://news.sankakucomplex.com/n/ton3UxybzDKqs7Me1bwweg",
       "publishedAt": "2026-10-20T18:37:22.000Z",
-      "excerpt": "A Japanese indie game developer has revealed that he received a threatening email demanding $200 worth of Steam items, with the sender claiming they would use AI to release a copy of his upcoming game before the original launched.",
+      "excerpt": "A Japanese indie game developer has revealed that he received a threatening email demanding $200 worth of Steam items, with the sender claiming they would use AI to release a copy of his upcoming game before the original launched. Takashi Mochibe of Studio At Home, the developer behind Dragon’s C…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18421,57 +18472,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "7fe27795aee2c114",
-      "title": "Japan’s newest anime figure crane game prize may also be the world’s weirdest hanger [Photos]",
-      "link": "https://soranews24.com/2026/10/12/japans-newest-anime-figure-crane-game-prize-may-also-be-the-worlds-weirdest-hanger-photos/",
-      "publishedAt": "2026-10-12T05:00:36.000Z",
-      "excerpt": "There are two reasons this figure is posed that way. Prizes for UFO catchers/crane games in Japan tend to fall into one of two categories. In one you have stuff that you don’t really need, but which is awesome to have, like a giant Dragon Quest Shadow Slime plushie. Then you have the other group, […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/0_6dbff4.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "fe8101c219bc9bc2",
-      "title": "Japanese Twin Brothers Arrested for Stealing Copper Roof from Shrine",
-      "link": "https://news.sankakucomplex.com/n/wmX6hlP8mACDncZwovNQsw",
-      "publishedAt": "2026-10-12T05:00:08.000Z",
-      "excerpt": "Two 37-year-old twin brothers have been arrested in Japan on suspicion of stealing copper roofing from a mountain shrine, as police investigate a series of similar thefts targeting religious sites across Kochi Prefecture.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "dd43a4eddbe9c883",
-      "title": "'Kino no Tabi' Creator Duo Begins New Light Novel",
-      "link": "https://myanimelist.net/news/74813800?_location=rss",
-      "publishedAt": "2026-10-12T04:17:55.000Z",
-      "excerpt": "Publishing company Kadokawa announced on Friday that author Keiichi Sigsawa and illustrator Kouhaku Kuroboshi, the duo behind the Kino no Tabi: The Beautiful World (Kino's Journey: The Beautiful World) light novel, will launch a new light novel titled Drifted: John Smith no Edo Hyouryuu Kitan. Mobile online game developer coly is credited for the original…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1791778558-4de299e25e515e9b8aaf6aee692a5d07.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
         "language": "en"
       }
     }

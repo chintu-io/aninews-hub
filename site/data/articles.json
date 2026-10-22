@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T22:01:47.300Z",
+  "generatedAt": "2026-10-22T22:31:46.971Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 146,
+      "count": 147,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 140,
+      "count": 138,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -143,7 +143,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 152,
+      "count": 154,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -153,7 +153,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 93,
+      "count": 92,
       "fetchedCount": 24
     }
   ],
@@ -162,10 +162,46 @@
     "successfulSources": 7,
     "failedSources": 1,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 535,
+    "translatedJapaneseArticles": 537,
     "translationAttempts": 120
   },
   "articles": [
+    {
+      "id": "c1ad32c5f848e6bc",
+      "title": "Kumo Kagyu's Moscow 2160 Manga Listed to End With 5th Volume",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-22/kumo-kagyu-moscow-2160-manga-listed-to-end-with-5th-volume/.243081",
+      "publishedAt": "2026-10-22T22:00:00.000Z",
+      "excerpt": "Series debuted in December 2022",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ1/cms/news.9/237407/moscow-2160-vol.1-manga.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "b002351995235e3a",
+      "title": "ゆず、新曲「心をとめないで」サプライズ配信",
+      "link": "https://ototoy.jp/news/132401",
+      "publishedAt": "2026-10-22T22:00:00.000Z",
+      "excerpt": "ゆずが新曲「心をとめないで」をサプライズで配信リリースした。 ゆずは10月23日から25日(日)までKアリーナ横浜にて「ゆず 30 周年開幕記念ライブ 心をとめないで」を開催。初日を迎える0時に公演名と同じタイトルが冠された新曲「心をとめないで」を完全サプライズでリリースした。 「心をとめないで」は、北川悠仁が昨年夏にLAで出会った音楽プロデューサー・ヒロイズム、そしてギタリストの佐々木“コジロー”貴之とともに制作したナンバー。LAでの制作期間中、北川の心の奥底から溢れ出た想いが、“心をとめないで”という言葉とメロディーとなって結実。自身の内側から突き動か 田中秀幸が監督を務めたミュージックビデオでは、さまざまな場所を全力で駆け抜ける2名のキャストを中心に、ゆずの二人による印象的な歌唱・演奏シーンを織り交…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132401/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Yuzu, surprise delivery of new song “Kokoro Tome Done”",
+      "translatedExcerpt": "Yuzu has surprisingly released her new song ``Kokoro Tome Naide''. Yuzu will hold \"Yuzu 30th Anniversary Opening Live Don't Stop the Heart\" from October 23rd to 25th (Sunday) at K Arena Yokohama. At midnight on the first day, they released a new song ``Do not stop your heart'', which has the same title as the performance name, as a complete surprise. “Don't Stop the Heart” is a number that Yuhito Kitagawa created with music producer Heroism, whom he met in LA last summer, and guitarist Takayuki “Kojiro” Sasaki. During the production period in LA, the feelings that overflowed from the depths of Kitagawa's heart came to fruition in the words \"Don't stop your heart\" and the melody. Driven from within The music video, directed by Hideyuki Tanaka, centers on the two cast members running through various locations with all their might, interweaving impressive singing and performance scenes by the two Yuzu members."
+    },
     {
       "id": "261e044c4ec5dee7",
       "title": "K Manga Adds Shinobu Ohtaka's Geekrown Manga",
@@ -524,6 +560,25 @@
       },
       "translatedTitle": "Tele's new song \"Rabyu\" has been selected as the theme song for the movie \"Tacopee no Original Sin -Thank you, see you tomorrow-\"",
       "translatedExcerpt": "It has been announced that Kitaro Taniguchi's new song ``Rabyu'' from his solo project Tele will be used as the theme song for the movie ``Tacopee no Original Sin -Thank you, see you tomorrow-''. The movie ``Tacopee's Original Sin -Thank you, see you tomorrow'', which will be released in theaters nationwide from November 27th, is a re-edited version of all six episodes of the anime ``Tacopee's Original Sin'' and new scenes have been added. The world of Tapopie unfolds with the immersive feeling that only a screen can provide. This is their second collaboration since ``Garasu no Line'', the ending theme for the anime ``Tacopee no Original Sin'', and it is said that the song ``Rabyu'' is perfect for ending the work, which is full of Tele-like messages. I would like to share Tele's comments below. ◆ ◆ ◆ “I got off at the local station, rented a bicycle, and got around much faster than I expected. It was small, quiet, and unrecognizable…"
+    },
+    {
+      "id": "31603e6e274b3f8d",
+      "title": "TMNETWORK、『QUANTUM』全曲配信スタート",
+      "link": "https://ototoy.jp/news/132403",
+      "publishedAt": "2026-10-22T15:00:00.000Z",
+      "excerpt": "TMNETWORKが9月23日（水・祝）にリリースしたCD『QUANTUM』の全曲配信がスタートした。 本作は新規音源のみを多数収録。全13都市20公演（うち2公演は追加公演）という規模で開催された全国ツアー【TMNETWORK TOUR 2026 QUANTUM】で披露された組曲「QUANTUM」などを含む新曲や、ツアーのための新たなアレンジで録音した11曲が収録されている。 配信に加えて、12月23日（水）には2枚組アナログLPの発売も決定。エモノート特設ページ（https://emonote.jp/home/artists/6/quantum）にて「QUANTUM」収録曲に関するエピソードの募集も開始された。 リリース情報 https://ototoy.jp/_/default/p/4341421…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132403/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "TMNETWORK starts distributing all songs of “QUANTUM”",
+      "translatedExcerpt": "Distribution of all songs from the CD \"QUANTUM\" released by TMNETWORK on Wednesday, September 23rd (holiday) has started. This work includes many new sound sources. It includes new songs such as the suite \"QUANTUM\" that was performed on the nationwide tour [TMNETWORK TOUR 2026 QUANTUM], which was held for 20 performances in 13 cities (including 2 additional performances), as well as 11 songs recorded with new arrangements for the tour. In addition to distribution, a 2-disc analog LP set will also be released on Wednesday, December 23rd. The Emo Note special page (https://emonote.jp/home/artists/6/quantum) has started recruiting episodes related to songs included in \"QUANTUM\". Release information https://ototoy.jp/_/default/p/4341421…"
     },
     {
       "id": "dc3bd0636926986b",
@@ -6734,6 +6789,23 @@
       },
       "translatedTitle": "[Interview] A new story that begins with an encounter with the unknown, the challenge of XAOSX told by Yu Fukuzawa, spi, and YUKI",
       "translatedExcerpt": "XAOSX (Chaos) was started in 2026 by Yu Fukuzawa, spi, YUKI, Daiki, AKIRA TAKANO, Kenran Abe, Kouki, and Rei Aomi. Featuring stylish sounds and gorgeous vocalizations created by eight members with different personalities, their musical style is very appealing (note that they wrote and composed the songs themselves!), and their unique worldview that combines softness and sharpness is also really good. We caught up with Yu Fukuzawa, spi, and YUKI to hear a detailed story about XAOSX, which has the potential to become a presence that revitalizes the music scene. --First of all, could you tell us about the process behind forming XAOSX? Yu Fukuzawa: When I calmly thought about my life from now on, I honestly thought that it wouldn't be interesting as it was. Thankfully, I was able to do a lot of work..."
+    },
+    {
+      "id": "4133c23597c49a74",
+      "title": "Brazilian Man Sells Everything & Travels 2,000 KM to Meet AI-Generated Woman",
+      "link": "https://news.sankakucomplex.com/n/S6OsQNeh0tD0EwqyaBC80Q",
+      "publishedAt": "2026-10-19T22:00:42.000Z",
+      "excerpt": "A 49-year-old Brazilian man reportedly sold all his belongings and traveled more than 2,000 kilometers (1,240 miles) to meet a woman he believed he was romantically involved with, only to discover that she was an AI-generated character.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "51e6e71d7b35069c",
@@ -18404,74 +18476,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2144a90d55da21d3",
-      "title": "Nintendo Latin America Confirms It Has No Plans to Abandon Physical Games",
-      "link": "https://news.sankakucomplex.com/n/h90sQC2_bac9p7SK7Yqqgg",
-      "publishedAt": "2026-10-12T18:38:57.000Z",
-      "excerpt": "Nintendo has confirmed that it currently has no plans to stop selling physical games, reassuring fans concerned about the gaming industry’s increasing shift toward digital-only releases.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "cd76b2a161a6d893",
-      "title": "Nintendo Latin America Confirms It Has No Plans to Abandon Physical Games",
-      "link": "https://news.sankakucomplex.com/n/9_5T_Ms4nHiQedfTZG7IXw",
-      "publishedAt": "2026-10-12T18:38:57.000Z",
-      "excerpt": "Nintendo has confirmed that it currently has no plans to stop selling physical games, reassuring fans concerned about the gaming industry’s increasing shift toward digital-only releases.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "595e0b1da30b03d4",
-      "title": "Naruto x Absolutely Ridiculous Collab Includes Limited Sasuke Baseball Glove",
-      "link": "https://crunchyroll.com/news/latest/2026/10/12/naruto-absolutely-ridiculous-collab-sasuke-baseball-glove",
-      "publishedAt": "2026-10-12T18:38:00.000Z",
-      "excerpt": "There are also Akatsuki-themed items in newly-launched line",
-      "image": "https://a.storyblok.com/f/178900/960x540/bfcd3cf30f/naruto-gloves.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "72ecd6b648b581f0",
-      "title": "Crunchyroll Manga Adds Record Journey, Strange Pictures and More",
-      "link": "https://crunchyroll.com/news/announcements/2026/10/12/record-journey-strange-pictures-crunchyroll-manga",
-      "publishedAt": "2026-10-12T17:38:00.000Z",
-      "excerpt": "More series join the Crunchyroll Manga catalog today",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/7ff0ac3d68/crunchyroll-manga-october-2026.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
         "language": "en"
       }
     }

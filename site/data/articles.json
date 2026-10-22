@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T09:31:46.570Z",
+  "generatedAt": "2026-10-22T10:01:44.871Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 130,
+      "count": 131,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -133,7 +133,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 178,
+      "count": 179,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -161,11 +161,47 @@
     "sourceCount": 8,
     "successfulSources": 7,
     "failedSources": 1,
-    "articleCount": 963,
-    "translatedJapaneseArticles": 512,
+    "articleCount": 965,
+    "translatedJapaneseArticles": 513,
     "translationAttempts": 120
   },
   "articles": [
+    {
+      "id": "d64c183d7746a16c",
+      "title": "BLESS Anime Streams on Crunchyroll in January 2027",
+      "link": "https://crunchyroll.com/news/announcements/2026/10/22/bless-anime-january-2027-stream-crunchyroll",
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "excerpt": "The anime adapts Yukino Sonoyama's manga",
+      "image": "https://a.storyblok.com/f/178900/1404x791/fd339b9562/bless-anime.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "10e5e0c783eff6fb",
+      "title": "まおた、山中綾華サウンドプロデュースによる新曲「飢え鴉」MVにフォーマルな装いと泥臭さのコントラスト",
+      "link": "https://barks.jp/news/1099997",
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "excerpt": "シンガーソングライター・まおたが10月21日、新曲「飢え鴉」を配信リリースした。同楽曲のミュージックビデオがオフィシャルYouTubeチャンネルにて公開となった。 新曲「飢え鴉」は夢や目標を追い続ける葛藤や渇望を描いたロックナンバーだ。どんな過酷な環境でも力強く生き抜く鴉(カラス)に、その姿を重ね合わせた。本作は初めてサウンドプロデューサーを迎えて制作されたもの。ドラマー兼社労士として知られる山中綾華が楽曲アレンジ、ボーカルディレクション、ミックス、マスタリングに至るまで作品全体のサウンドプロデュースを担当した。まおた初の生バンドでのレコーディングを軸としたサウンドは、ドラマー山中ならではの視点から生の熱量と躍動感を取り入れたもの。まおたの歌声と言葉が持つ飢えや衝動を、より力強いバンドサウンドへと昇華させ…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/22172713/01_Maota_Aphoto_Main_web-1024x682.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Maota's new song \"Hungry Crow\" MV produced by Ayaka Yamanaka Sound shows a contrast between formal attire and muddy smell",
+      "translatedExcerpt": "Singer-songwriter Maota released a new song ``Hungry Crow'' on October 21st. The music video for the song has been released on the official YouTube channel. The new song ``Hunger Crow'' is a rock number that depicts the struggle and desire to pursue dreams and goals. This figure is similar to that of a crow, which survives strongly even in the harshest of environments. This work was produced for the first time with a sound producer. Ayaka Yamanaka, known as a drummer and social worker, was in charge of the sound production of the entire work, including song arrangement, vocal direction, mixing, and mastering. The sound centered around Maota's first recording with a live band incorporates live energy and dynamism from drummer Yamanaka's unique perspective. The hunger and impulse of Maota's singing voice and words will be sublimated into a more powerful band sound..."
+    },
     {
       "id": "e6590f36b02a1b5e",
       "title": "〈鶴瓶のええ歌やなぁ〉マイク眞木が登場",

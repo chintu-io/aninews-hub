@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T17:32:06.585Z",
+  "generatedAt": "2026-10-22T18:01:50.072Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 141,
+      "count": 142,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 143,
+      "count": 142,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -151,8 +151,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
       "count": 93,
       "fetchedCount": 24
     }
@@ -214,6 +214,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "2ceac533fd5ecc08",
+      "title": "Psyren TV Anime Casts Reiko Suzuki, Ayumu Murase",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-22/psyren-tv-anime-casts-reiko-suzuki-ayumu-murase/.243111",
+      "publishedAt": "2026-10-22T16:55:48.000Z",
+      "excerpt": "Series casts Suzuki as Elmore, Murase as Van",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJG/cms/news.10/243111/psyren-new-cast.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -18448,23 +18465,6 @@
       "publishedAt": "2026-10-12T12:44:00.000Z",
       "excerpt": "Latest Dragon Ball TV anime now streaming on Crunchyroll",
       "image": "https://a.storyblok.com/f/178900/960x540/8946532182/db-super-beerus-pv.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "9a915d84d84dee88",
-      "title": "A Wild Last Boss Appeared! Season 2 Anime Celebrates the Team in Creditless Ending Video",
-      "link": "https://crunchyroll.com/news/latest/2026/10/12/a-wild-last-boss-appeared-season-2-anime-creditless-ending-video",
-      "publishedAt": "2026-10-12T12:34:00.000Z",
-      "excerpt": "The continuation of the isekai adventure is now streaming on Crunchyroll",
-      "image": "https://a.storyblok.com/f/178900/2360x1341/b24f87e291/a-wild-last-boss-appeared-season-2-ending.jpeg",
       "source": {
         "id": "crunchyroll",
         "name": "Crunchyroll News",

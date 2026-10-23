@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T22:01:52.318Z",
+  "generatedAt": "2026-10-23T22:31:42.389Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 146,
+      "count": 147,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -143,7 +143,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 142,
+      "count": 141,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -162,10 +162,27 @@
     "successfulSources": 7,
     "failedSources": 1,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 562,
+    "translatedJapaneseArticles": 561,
     "translationAttempts": 120
   },
   "articles": [
+    {
+      "id": "aa3d4f32131514e7",
+      "title": "LOVELYZ's Ye-in Jeong Joins The Trauma Code: Heroes on Call Seasons 2-3",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-23/lovelyz-ye-in-jeong-joins-the-trauma-code-heroes-on-call-seasons-2-3/.243125",
+      "publishedAt": "2026-10-23T22:00:00.000Z",
+      "excerpt": "Jeong replaces Ha-young, who left following controversy over allegations that her great-grandfather collaborated with Japanese colonial authorities",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHC/cms/news.10/243125/instagram-10-22-2026-10-15-pm.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "cfde27ae0438ad2c",
       "title": "North American Anime, Manga Releases, October 18-24",
@@ -18505,25 +18522,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "9f80d3757cf577c8",
-      "title": "Ayumu Imazu、SNSで話題の新曲「結び」のMV公開",
-      "link": "https://ototoy.jp/news/132265",
-      "publishedAt": "2026-10-14T11:00:00.000Z",
-      "excerpt": "Ayumu Imazuが、SNSで話題の新曲「結び」のミュージックビデオを公開した。 今作は、一本の“赤い糸”が、いくつもの人生の転換期となる場面を結び、ひとつの家族の普遍的な愛が形づくられるまでの歴史を紡いでいく様が描かれており、Ayumu Imazuは、その物語を紐解くように時を遡り、いくつもの場面を見守るように辿っていく。一本の赤い糸を通して、愛が繋がれていく軌跡を描いた、心温まるＭＶとなっている。 本楽曲は、人と人との“縁”や、すれ違いながらも何度でも結び直していく関係を描いたラブソング。“赤い糸”をモチーフに、誰もが一度は経験したことのある恋愛の機微を綴った、普遍性と共感性の高い歌詞が印象的な一曲。配信直後から各配信サービスで続々と1位を獲得しており、Apple MusicとSpotifyのデイ…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132265/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Ayumu Imazu releases music video for new song “Musubi” which is popular on SNS",
-      "translatedExcerpt": "Ayumu Imazu has released the music video for her new song \"Musubi\", which has become a hot topic on SNS. This work depicts how a single \"red thread\" connects many turning points in one's life, and weaves history until the universal love of one family is formed.Ayumu Imazu goes back in time as if unraveling this story, and traces the many scenes as if watching over them. It is a heartwarming MV that depicts the trajectory of love being connected through a single red thread. This song is a love song that depicts the \"connections\" between people and the relationships that can be reconnected over and over again even though they may have come to terms with each other. With the motif of \"red thread\", this is an impressive song with universal and empathetic lyrics that describe the subtleties of love that everyone has experienced at least once. Immediately after its release, it has been ranked number one on each distribution service one after another, and has been ranked number one on Apple Music and Spotify..."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T02:02:03.305Z",
+  "generatedAt": "2026-10-23T02:32:03.965Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 46,
+      "count": 44,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 147,
+      "count": 148,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -133,7 +133,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 194,
+      "count": 195,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -143,7 +143,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 157,
+      "count": 156,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -153,7 +153,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 88,
+      "count": 89,
       "fetchedCount": 24
     }
   ],
@@ -162,10 +162,46 @@
     "successfulSources": 7,
     "failedSources": 1,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 542,
+    "translatedJapaneseArticles": 543,
     "translationAttempts": 120
   },
   "articles": [
+    {
+      "id": "9e22a97fcae571f9",
+      "title": "Travis Japan、4thアルバム収録曲「チェックメイト」先行配信決定",
+      "link": "https://barks.jp/news/1100100",
+      "publishedAt": "2026-10-23T02:30:00.000Z",
+      "excerpt": "Travis Japanが、2026年11月18日に発売する4thアルバム『Jewelry Basket』に収録される新曲「チェックメイト」を、10月26日0時より配信することを発表した。 「チェックメイト」は、中村海人が伊達直人役で出演する読売テレビ ドラマDiVE『女帝』のエンディング主題歌。企みと心理戦が交錯するスリリングな歌詞と、疾走感あふれるスタイリッシュなサウンドが融合した楽曲になっており、夜の世界の頂点を目指して不屈の覚悟で挑むドラマの世界観を彩る。 ドラマ『女帝』は10月22日深夜より放送がスタートしている。舞台は、銀座のクラブをはじめとした夜の世界。主人公が母を死に追いやった権力者たちへの復讐を胸に、美貌と度胸、そして鋭い知略を武器に“夜の世界”の頂点である「女帝」の座を目指して成り上が…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/04111546/TJ_Jewelry-Basket-%E9%9B%86%E5%90%88%E3%82%A2%E3%83%BC%E5%86%99.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Travis Japan's 4th album song \"Checkmate\" will be distributed in advance",
+      "translatedExcerpt": "Travis Japan has announced that the new song \"Checkmate\", which will be included in their 4th album \"Jewelry Basket\" to be released on November 18, 2026, will be distributed from midnight on October 26th. \"Checkmate\" is the ending theme song for the Yomiuri TV drama DiVE \"Empress\" starring Kaito Nakamura as Naoto Date. The song is a fusion of thrilling lyrics that mix plot and psychological warfare with a stylish sound full of speed, and it colors the world view of the drama, where the song is about aiming for the top of the night world with unyielding determination. The drama \"Empress\" will start airing from midnight on October 22nd. The setting is the night world, including clubs in Ginza. The main character is determined to take revenge on the powerful people who caused her mother's death, and uses her beauty, courage, and sharp wits to rise to the top of the \"night world\", the position of \"empress\"..."
+    },
+    {
+      "id": "f6b16bb0c2ddc69b",
+      "title": "That Time I Got Reincarnated as a Slime's Third Stage Play Shares Dress Rehearsal Photos",
+      "link": "https://crunchyroll.com/news/latest/2026/10/23/that-time-i-got-reincarnated-as-a-slime-third-stage-play-dress-rehearsal-photos",
+      "publishedAt": "2026-10-23T02:04:00.000Z",
+      "excerpt": "Advance tickets for the final day's performances are already sold out",
+      "image": "https://a.storyblok.com/f/178900/960x539/f4861b5ce1/slime-stage-play-header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "7844bc4e32e8ee09",
       "title": "moreru、明日の叙景を迎えてツーマン新企画〈霊障通信 vol.1〉開催決定",
@@ -183,7 +219,24 @@
         "language": "ja"
       },
       "translatedTitle": "Moreru will hold a new two-on-one project <Reisho Tsushin vol.1> in anticipation of tomorrow's epic scenery",
-      "translatedExcerpt": "Moreru's new two-on-one project <Reisho Tsushin vol.1> will be held on January 26, 2027. The day before yesterday, moreru, a true punk band with supernatural powers, will be performing their one-man live ``Disconnect the www and go to the other side of nihilism'', and today they will be performing ``Evilspa 10'', a new two-man project called ``Reisho Tsushin vol.1'' at WWW. The first guest is Tomorrow's Sekkei. Tickets are on sale now. Live information -act - OPEN - 18:30 / START - 19:30 Ticket https://eplus.jp/reisho https://livepocket.jp/e/reisho Release information Artist information https://x.com/moreru__"
+      "translatedExcerpt": "Moreru's new two-man project \"Reishō Tsushin vol.1\" will be held on January 26, 2027. The day before yesterday, moreru, a true punk band with supernatural powers, will be performing their one-man live ``Disconnect the www and go to the other side of nihilism'', and today they will be performing ``Evilspa 10'', a new two-man project called ``Reisho Tsushin vol.1'' at WWW. The first guest is Tomorrow's Sekkei. Tickets are on sale now. Live information -act - OPEN - 18:30 / START - 19:30 Ticket https://eplus.jp/reisho https://livepocket.jp/e/reisho Release information Artist information https://x.com/moreru__"
+    },
+    {
+      "id": "7e473f78453cfa0a",
+      "title": "Frequent Ghibli Collaborator Joe Hisaishi Named LA Philharmonic's Composer-in-Residence",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-22/frequent-ghibli-collaborator-joe-hisaishi-named-la-philharmonic-composer-in-residence/.243119",
+      "publishedAt": "2026-10-23T01:56:47.000Z",
+      "excerpt": "Orchestra's new post is part of 5-year artistic partnership, involves composing new works",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gBF/cms/news.6/204122/joe-hisaishi.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "60292a1586b5e808",
@@ -1359,7 +1412,7 @@
         "language": "ja"
       },
       "translatedTitle": "Inner Journey releases 1st major EP “If you look into the bottle”",
-      "translatedExcerpt": "On October 21st, Inner Journey held an acoustic free live \"Kayoubi no Yoru ni\" at a vacant lot in Shimokita Rail Street, Tokyo, to commemorate the release of their first major EP \"Sono Bottle wo Peeking\". On this day, a 7-inch analog version of the EC-exclusive product ``Cream Soda (Scorching Heat ver.)/How to Protect the Endless Night'' will also be released. Furthermore, after the performance, the music video for ``Underwater Rendezvous'' was released, making it a special day for fans. The live performance began with the sub-lead song \"Under the Sea Rendezvous\" from the EP, and then moved on to the representative song \"Cream Soda\". The audience's applause grew louder as each song progressed, and they performed songs such as ``Tunnel wo Koitera'', ``Toi toi toi!'', their signature song ``Goodbye, let's meet again in the next life'', and ``Endless Yoru no Morikata'', the ending theme for the anime ``Sekai no Yaiyō no Morikata''. The venue was filled with warm applause and cheers..."
+      "translatedExcerpt": "On October 21st, Inner Journey held an acoustic free live \"Kayoubi no Yoru ni\" at a vacant lot in Shimokita Rail Street, Tokyo, to commemorate the release of their first major EP \"Sono Bottle wo Peeking\". On this day, a 7-inch analog version of the EC-exclusive product ``Cream Soda (Scorching Heat ver.)/How to Protect the Endless Night'' will also be released. Furthermore, after the performance, the music video for ``Underwater Rendezvous'' was released, making it a special day for fans. The live performance began with the sub-lead song “Under the Sea Rendezvous” from the EP, and then moved on to their signature song “Cream Soda”. The audience's applause grew louder as each song progressed, and they performed songs such as ``Tunnel wo Koitera'', ``Toi toi toi!'', their signature song ``Goodbye, let's meet again in the next life'', and ``Endless Yoru no Morikata'', the ending theme for the anime ``Sekai no Yaiyō no Morikata''. The venue was filled with warm applause and cheers..."
     },
     {
       "id": "5b55fa3dba7cf039",
@@ -1378,7 +1431,7 @@
         "language": "ja"
       },
       "translatedTitle": "Maota releases music video for new rock song “Hunger Crow”",
-      "translatedExcerpt": "Maota has released the music video for her new single \"Hungry Crow\", which was released on Wednesday, October 21, 2026. This work is a rock number that compares the \"hunger\" and \"craving\" of people who continue to pursue their dreams and goals to a crow that survives strongly under any environment. For the first time as Maota, we brought in a sound producer to produce the song. Ayaka Yamanaka, who is active as a drummer, is in charge of sound production throughout the work, from song arrangement to vocal direction, mix, and mastering. Centered around Maota's first recording with a live band, Yamanaka's perspective as a drummer incorporates the passion and vibrancy of live performance, and the song sublimates the \"hunger\" and impulse of Maota's singing voice and words into a more powerful band sound. In the music video, Mao wears formal attire..."
+      "translatedExcerpt": "Maota has released the music video for her new single \"Hunger Crow\", which was released on Wednesday, October 21, 2026. This work is a rock number that compares the \"hunger\" and \"craving\" of people who continue to pursue their dreams and goals to a crow that survives strongly under any environment. For the first time as Maota, we brought in a sound producer to produce the song. Ayaka Yamanaka, who is active as a drummer, is in charge of sound production throughout the work, from song arrangement to vocal direction, mix, and mastering. Centered around Maota's first recording with a live band, Yamanaka's perspective as a drummer incorporates the passion and vibrancy of live performance, and the song sublimates the \"hunger\" and impulse of Maota's singing voice and words into a more powerful band sound. In the music video, Mao wears formal attire..."
     },
     {
       "id": "10e5e0c783eff6fb",
@@ -1450,7 +1503,7 @@
         "language": "ja"
       },
       "translatedTitle": "<Tsurube's great song> Mike Maki appears",
-      "translatedExcerpt": "Mike Maki will appear on BS11 <Tsurube no Ee Uta Ya Naa> October 24th. He sang and sang his signature song, the blockbuster song \"Rose ga Sakuta\" which sold over 800,000 copies. He received advice from Kurunosuke Hamaguchi, ``Don't sing,'' and what is the true meaning of that advice, which he still cherishes today? In the new corner \"Listen to Mr. Tsurube\", Ryoko Moriyama, a friend of 60 years, appears as a VTR guest. Furthermore, Mike is said to have provided music to Kyu Sakamoto. Sakamoto will perform ``Sayonara, Sayonara,'' which was the last song she sang at her concert, along with anecdotes from that time. Program information Tsurube's yes song 1, \"Rose ga bloomed\" Information https://www.bs11.jp/entertainment/eeuta/ Release information https://ototoy.jp/_/defaul…"
+      "translatedExcerpt": "Mike Maki will appear on BS11 <Tsurube no Ee Uta Ya Naa> October 24th. He sang and sang his signature song, the blockbuster song \"Rose ga Sakuta\" which sold over 800,000 copies. He received advice from Kurunosuke Hamaguchi, ``Don't sing,'' and what is the true meaning of that advice, which he still cherishes today? In the new corner \"Listen to Tsurube-san,\" Ryoko Moriyama, a friend of 60 years, appears as a VTR guest. Furthermore, Mike is said to have provided music to Kyu Sakamoto. Sakamoto will perform ``Sayonara, Sayonara,'' which was the last song she sang at her concert, along with anecdotes from that time. Program information Tsurube's yes song 1, \"Rose ga bloomed\" Information https://www.bs11.jp/entertainment/eeuta/ Release information https://ototoy.jp/_/defaul…"
     },
     {
       "id": "70080b8fdf9c9076",
@@ -1579,7 +1632,7 @@
         "language": "ja"
       },
       "translatedTitle": "Team Rocket & Ichinosuke Shunputei will be airing a special radio program this Saturday",
-      "translatedExcerpt": "Team Rocket and Ichinosuke Shunputei will be broadcasting a special program on Nippon Broadcasting System from 3pm on Saturday, October 24th. Nippon Broadcasting System (Team Rocket's regular radio) where Team Rocket serves as the personality. During the special week, on October 24th (Saturday), it will be broadcast under the title ``Dan Rocket and Ichinosuke Shunputei's Regular Radio Autumn 90 Minute Special''. Team Rocket and Ichinosuke Shunputei have been friends since their junior days, and Miura and Ichinosuke are especially good friends who go on trips and watch pro wrestling together even in their private lives. When Ichinosuke appeared as a guest on ``Rocket Team's Regular Radio'' broadcast in February of this year, their close friendship became a hot topic, as they talked about their time as junior high school students and their private lives. This time, Ichinosuke will also appear as a personality, and the broadcast time will be expanded to 90 minutes, and the broadcast time will be expanded to 90 minutes, and they will not only talk about each other's recent status, but also the circumstances of the Manzai Association and Rakugo Association, private episodes..."
+      "translatedExcerpt": "Team Rocket and Ichinosuke Shunputei will be broadcasting a special program on Nippon Broadcasting System from 3pm on Saturday, October 24th. Nippon Broadcasting System (Team Rocket's regular radio) where Team Rocket serves as the personality. During the special week, October 24th (Saturday) will be broadcast under the title ``Dan Rocket and Ichinosuke Shunputei's Regular Radio Autumn 90 Minute Special''. Team Rocket and Ichinosuke Shunputei have been friends since their junior days, and Miura and Ichinosuke are especially good friends who go on trips and watch pro wrestling together even in their private lives. When Ichinosuke appeared as a guest on ``Rocket Team's Regular Radio'' broadcast in February of this year, their close friendship became a hot topic, as they talked about their time as junior high school students and their private lives. This time, Ichinosuke will also appear as a personality, and the broadcast time will be expanded to 90 minutes, and the broadcast time will be expanded to 90 minutes, and they will not only talk about each other's recent status, but also the circumstances of the Manzai Association and Rakugo Association, private episodes..."
     },
     {
       "id": "89332aeeeb24de39",
@@ -2052,7 +2105,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Spitz releases new AL “kettle” jacket photo",
+      "translatedTitle": "Spitz releases jacket photo for new AL “kettle”",
       "translatedExcerpt": "The jacket photo of Spitz's 18th original album ``kettle'', which will be released on November 25th, has been released. The embroidery pattern on the dress she is wearing in the jacket photo was created by artist junaida, who also designed the robot that appeared in her previous work, ``Himitsu Studio,'' and also did the jacket art for her recent singles, ``Shirai Ito'' and ``Tamaru wo Mamoru.'' This album includes the theme song \"Shirai Ito\" for the TBS Friday drama \"Until the T-Shirt ga Dry\", the commercial song \"Kitsune no Button\" for the currently airing Kirin Gogo no Kochachi FRUITS & ICE TEA \"Gogo no Fruits Tea\", and the anime \"SPY×FAMILY\" Season 3. In addition to the opening theme song ``Aka wo Mamoru'', it includes a total of 13 songs, including ``Titty Muteki'', ``Let's meet in a dream'', ``Henn na Tomodachi'', and ``Getsu Kibou Survivor''. …"
     },
     {
@@ -2352,7 +2405,7 @@
         "language": "ja"
       },
       "translatedTitle": "Crying, first mini AL release after becoming independent",
-      "translatedExcerpt": "Nakiami will release their new mini album “Sayonara Sankaku, Matakite Shikkaku” on October 21, 2026 (Wednesday). ' was released. This album consists of 6 songs in total, including 4 previously released songs and 2 new songs. The lead song \"BIRIBIRI BURRN!!!\" is a song that was created by creating the track first and then adding the melody to it. Another new song, “Cider.”, is a song that I have been quietly playing and singing at live performances for about four years. The arrangement, which is different from the usual crybaby songs, fits the atmosphere of the song well, resulting in a fun ending. Furthermore, a one-man live show will be held at Shibuya GRIT on December 13th (Sunday) with Goodbye Sankaku and Matakite Shikkaku. > tickets are on sale from today on e-plus. Nakimi commented on this mini-album as follows. Comments Release Information https…"
+      "translatedExcerpt": "Nakiami will release their new mini album “Sayonara Sankaku, Matakite Shikkaku” on October 21, 2026 (Wednesday). ' was released. This album consists of 6 songs in total, including 4 previously released songs and 2 new songs. The lead song “BIRIBIRI BURRN!!!” is a song that was created by creating the track first and then adding the melody to it. Another new song, “Cider.”, is a song that I have been quietly playing and singing at live performances for about four years. The arrangement, which is different from the usual crybaby songs, fits the atmosphere of the song well, resulting in a fun song. Furthermore, a one-man live show will be held at Shibuya GRIT on December 13th (Sunday) with Goodbye Sankaku and Matakite Shikkaku. > tickets are on sale from today on e-plus. Nakimi commented on this mini-album as follows. Comments Release Information https…"
     },
     {
       "id": "72cf79ff559b5ae6",
@@ -2702,7 +2755,7 @@
         "language": "ja"
       },
       "translatedTitle": "Oaiko × blue web., joint project 〈dawn of utopia〉 will be held",
-      "translatedExcerpt": "A joint project by Oaiko and blue web. ``Dawn of Utopia'' will be held at Shimokitazawa SPREAD on Sunday, November 8, 2026. Oaiko is a label that has been leading the post-coronavirus indie/alternative scene. blue web. is an alternative unit formed in 2025 by Vocaloid P's yaginiwa and nerdneko. The two parties are currently planning a joint project focusing on \"home recording artists,\" and this performance will be held as a precursor to that project. The lineup includes four live acts: ꋬ꒜ꋪꏂꇙ ꁝꄲꀤ ꒒ꏂ ꁐꏂ꒒꒤ꍌꏂ, that same street, Seria, and South Pole. DJ acts include yaginiwa, ~ri, and ikea. This project was conceived based on the keywords “Home Record/Bedroom”…"
+      "translatedExcerpt": "A joint project by Oaiko and blue web. ``Dawn of Utopia'' will be held at Shimokitazawa SPREAD on Sunday, November 8, 2026. Oaiko is a label that has been leading the post-coronavirus indie/alternative scene. blue web. is an alternative unit formed in 2025 by Vocaloid P's yaginiwa and nerdneko. The two parties are currently planning a joint project focusing on \"home recording artists,\" and this performance will be held as a precursor to that project. The lineup includes four live acts: ꋬ꒜ꋪꏂꇙ ꁝꄲꀤ ꒒ꏂ ꁐꏂ꒒꒤ꍌꏂ, that same street, Seria, and South Pole. DJ acts will include yaginiwa, ~ri, and ikea. This project was conceived based on the keywords “Home Record/Bedroom”…"
     },
     {
       "id": "886fbdd8937bcd6d",
@@ -2972,7 +3025,7 @@
         "language": "ja"
       },
       "translatedTitle": "vidro releases 1st EP “On the Verge”",
-      "translatedExcerpt": "vidro released their 1st EP “On the Verge” on October 21, 2026. vidro is a 3-piece band formed in Kyoto in 2025. Based on alternative music, he creates songs that incorporate elements of shoegaze and post-rock. This is their first EP, and includes a total of 6 songs, including previously released songs ``Sayonara'', ``Await'', ``Summer was My Enemy'', and the lead single ``Crucible''. Centered on sounds and lyrics that evoke the universe and stars, this work pursues emotional expression through the \"fluctuation of sound.\" Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/1901591 Artist information https://x.com/vidro_kyoto"
+      "translatedExcerpt": "vidro released his 1st EP “On the Verge” on October 21, 2026. vidro is a 3-piece band formed in Kyoto in 2025. Based on alternative music, he creates songs that incorporate elements of shoegaze and post-rock. This is their first EP, and includes a total of 6 songs, including previously released songs ``Sayonara'', ``Await'', ``Summer was My Enemy'', and the lead single ``Crucible''. Centered on sounds and lyrics that evoke the universe and stars, this work pursues emotional expression through the \"fluctuation of sound.\" Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/1901591 Artist information https://x.com/vidro_kyoto"
     },
     {
       "id": "ca4e01f7d30a5b8a",
@@ -3175,7 +3228,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Serial Column] Yutsuba's Kansai Artist Weekly Report vol.128 \"An album that combines 10's Japanese rock and the modern Keihanshin live house scene! mogari\"",
-      "translatedExcerpt": "Hello. My name is Yutsuba, a music curator living in Kobe. I usually disseminate information on Japanese rock indie artists through various methods such as SNS, media contributions, and holding independent events. And this time, at OTOTOY, I had the opportunity to share various topics about young artists who are active in the Kansai area, which is my main area of ​​activity. If you read this, you will understand the forefront of the Kansai Japanese rock scene. Thank you for your patronage. \"An album that combines 10's Japanese rock and the modern Keihanshin live house scene! mogari\" mogari has released their 1st full album \"Bypass Pop\". This album release party will be held in Kyoto in November, Tokyo in December, and Osaka in January next year. The ban on opponents has already been lifted in Kyoto and Tokyo. This is what I wrote last year..."
+      "translatedExcerpt": "Hello. My name is Yutsuba, a music curator living in Kobe. I usually disseminate information on Japanese rock indie artists through various methods such as SNS, media contributions, and holding independent events. And this time, at OTOTOY, I had the opportunity to share various topics about young artists who are active in the Kansai area, which is my main area of ​​activity. If you read this, you will understand the forefront of the Kansai Japanese rock scene. Thank you for your patronage. \"An album that combines 10's Japanese rock and the modern Keihanshin live house scene! mogari\" mogari has released their 1st full album \"Bypass Pop\". This album release party will be held in Kyoto in November, Tokyo in December, and Osaka in January next year. The ban has already been lifted for opponents in Kyoto and Tokyo. This is what I wrote last year..."
     },
     {
       "id": "b98cbe8432c4aaad",
@@ -6638,6 +6691,23 @@
       "translatedTitle": "muque releases music video for ``Iinjanai'', the theme song for the main video version of the drama ``Minamida Minami Bengo wa Genius Hada'' starring Mana Ashida.",
       "translatedExcerpt": "Muque wrote the theme song for Kantere/Fuji TV's monthly 10th drama \"Minamida Minami Lawyer wa Genius Hada\", \"Iin\".",
       "stale": true
+    },
+    {
+      "id": "31a8375df9817997",
+      "title": "Xbox Accounts for 4% of Physical Game Sales as Microsoft Considers Disc Support for Next-Gen Console",
+      "link": "https://news.sankakucomplex.com/n/wLmZe6AC5W3m7DDeoLfeAw",
+      "publishedAt": "2026-10-20T02:00:03.000Z",
+      "excerpt": "Microsoft’s next-generation Xbox console, currently known as Project Helix, could retain support for physical games despite Xbox accounting for just 4% of new physical video game sales in the United States.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "64e0ceb9dd18db6c",
@@ -18416,76 +18486,6 @@
         "siteUrl": "https://soranews24.com/",
         "category": "Japan",
         "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "85b37d0a2095f601",
-      "title": "yosugala、テーマソングを務める〈ROAD TO センバツ〉10月17日より放送開始",
-      "link": "https://ototoy.jp/news/132230",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "excerpt": "yosugalaのMajor 2nd EP「ラムネ」収録曲「indigo(Re-Recording)」がテーマソングに決定している「第79回秋季関東地区高校野球ダイジェスト～ROAD TO センバツ〜」が、2026年10月17日(土)より放送開始となる。 同番組は、10月17日(土)より群馬県で開催される「第79回秋季関東地区高校野球大会」のダイジェスト番組。関東独立放送局5局(ぐんテレ、とちテレ、テレ玉、チバテレ、tvk)にて放送される。 「indigo(Re-Recording)」は、ファンから高い支持を集めるライブアンセム「indigo」を新たにレコーディングした楽曲。全国屈指の激戦区・関東地区で、センバツ出場をかけて繰り広げられる熱戦を、yosugalaの歌声が後押しする。 yosugalaは、現…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132230/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "yosugala will be performing the theme song for ROAD TO Senbatsu, which will begin broadcasting on October 17th.",
-      "translatedExcerpt": "``The 79th Autumn Kanto District High School Baseball Digest ~ROAD TO Senbatsu~'', in which the song ``indigo (Re-Recording)'' from yosugala's Major 2nd EP ``Ramune'' has been selected as the theme song, will begin broadcasting on Saturday, October 17, 2026. This program is a digest program of the ``79th Autumn Kanto District High School Baseball Tournament'' to be held in Gunma Prefecture from October 17th (Saturday). It will be broadcast on five Kanto independent broadcasting stations (Gun Tele, Tochi Tele, Teledama, Chiba Tele, and TVK). \"indigo (Re-Recording)\" is a newly recorded song of the live anthem \"indigo\" that has received high support from fans. Yosugala's singing voice will support the heated battle to compete in the Senbatsu tournament in the Kanto region, one of the most competitive areas in the country. yosugala is currently…"
-    },
-    {
-      "id": "6ade71817103fb6a",
-      "title": "New craft beer made from Japanese udon noodles celebrates centuries of Mizusawa food culture",
-      "link": "https://soranews24.com/2026/10/13/new-craft-beer-made-from-japanese-udon-noodles-celebrates-centuries-of-mizusawa-food-culture/",
-      "publishedAt": "2026-10-13T03:00:32.000Z",
-      "excerpt": "Noodles loved by hot spring fans and temple pilgrims become a very unique brew. Like with all Japanese noodles, you don’t cut udon when eating it. You simply pick up a mouthful of noodles with your chopsticks, take a bite, and slurp up the rest. However, udon does get cut during the production process, so […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_36d96c.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "22e3218b18ac80ad",
-      "title": "This shrine in Japan invites you to hit and kick its god of poverty statue for good luck [Photos]",
-      "link": "https://soranews24.com/2026/10/13/this-shrine-in-japan-invites-you-to-hit-and-kick-its-god-of-poverty-statue-for-good-luck-photos/",
-      "publishedAt": "2026-10-13T03:00:09.000Z",
-      "excerpt": "Instead of praying to the binbogami, you’re supposed to fight him off. When visiting a shrine in Japan, the standard custom is to put a coin in the offering box, bow twice, clap your hand twice, say a quick, silent prayer, and then bow once more. So we were very surprised when we discovered a […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_4b8a17.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2b1f60332efaceaf",
-      "title": "CLAN QUEEN Drops PSYREN Anime Opening Song Music Video",
-      "link": "https://crunchyroll.com/news/latest/2026/10/13/psyren-anime-opening-song-music-video-clan-queen",
-      "publishedAt": "2026-10-13T02:25:00.000Z",
-      "excerpt": "Crunchyroll is streaming the suspense-action series",
-      "image": "https://a.storyblok.com/f/178900/960x540/e44c216a68/clan-queen-warning-mv.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
         "language": "en"
       }
     }

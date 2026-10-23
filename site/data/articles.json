@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T14:31:45.328Z",
+  "generatedAt": "2026-10-23T15:01:54.459Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 132,
+      "count": 133,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -153,7 +153,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 79,
+      "count": 78,
       "fetchedCount": 24
     }
   ],
@@ -166,6 +166,23 @@
     "translationAttempts": 120
   },
   "articles": [
+    {
+      "id": "c622b1cf32f6d88c",
+      "title": "Naruto's Original Voice Actors on Why Returning to Team 7 Feels Different After 20 Years",
+      "link": "https://crunchyroll.com/news/interviews/2026/10/23/narutos-original-voice-actors-after-20-years-interview",
+      "publishedAt": "2026-10-23T15:00:00.000Z",
+      "excerpt": "How they embodied Naruto's energy and Sasuke's trauma",
+      "image": "https://a.storyblok.com/f/178900/960x697/0d8593ea7b/naruto-x-ninku-key-art.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "e32dbd1f294df952",
       "title": "Manhwa-Based Live-Action Series The Blue Road Releases Teaser Trailer Ahead of November 20 Premiere",
@@ -18527,23 +18544,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2f8bc02489fb07a3",
-      "title": "Hong Kong Billionaire Proposes Selling Defective Condoms to Increase Birth Rates",
-      "link": "https://news.sankakucomplex.com/n/GpEaHgqLaW4chZtTZVaiWA",
-      "publishedAt": "2026-10-14T09:00:27.000Z",
-      "excerpt": "A prominent Hong Kong businessman has sparked widespread outrage after suggesting that governments should force manufacturers to sell deliberately defective condoms to increase birth rates by causing unintended pregnancies.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

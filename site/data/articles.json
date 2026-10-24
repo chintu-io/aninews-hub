@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T04:05:15.545Z",
+  "generatedAt": "2026-10-24T04:32:44.917Z",
   "sources": [
     {
       "id": "sankaku",
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 230,
+      "count": 232,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,29 +144,48 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 142,
+      "count": 140,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
     {
       "id": "sankaku",
       "name": "Sankaku Complex",
-      "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://news.sankakucomplex.com/feed/",
+      "status": "error",
+      "mode": null,
+      "feedUrl": null,
       "count": 77,
-      "fetchedCount": 24
+      "fetchedCount": 0
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 8,
-    "failedSources": 0,
+    "successfulSources": 7,
+    "failedSources": 1,
     "articleCount": 1000,
     "translatedJapaneseArticles": 586,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "555bb9076adf2591",
+      "title": "城田優、アルバム『¡Que será será!』収録内容＆ゲストボーカル解禁",
+      "link": "https://barks.jp/news/1080670",
+      "publishedAt": "2026-10-24T04:19:57.000Z",
+      "excerpt": "城田優が、2026年11月18日に発売するオリジナルアルバム『¡Que será será!』の収録内容とゲストボーカルを発表した。 収録曲すべての作詞・作曲を自身で手掛けた本作は、オリジナルアルバムとしては14年ぶりとなる。喜びや葛藤、不安、希望、これまでの歩みの中で感じてきた感情が一曲一曲に込められている、今の城田優だからこそ作れた、音楽家・城田優の“名刺”のような作品に仕上がっているという。 制作を共にしたのは、日本レコード大賞を受賞した三代目 J SOUL BROTHERS「Unfair World」の作曲・編曲を手掛けたMitsu.Jをはじめ、BTSや三浦大知、AI など数多くのアーティストの楽曲を手掛けるUTA、そしてBTS「Crystal Snow」や三浦大知「EXCITE」の作詞・作曲に参…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/07/24131431/%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4FRONT_001.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Yu Shirota, album “¡ Que será será!” Recording contents and guest vocals released",
+      "translatedExcerpt": "Yu Shirota's original album \"¡\" will be released on November 18, 2026. Que será será!'' recording contents and guest vocals were announced. This album, in which he wrote and composed all the songs himself, is his first original album in 14 years. Joy, conflict, anxiety, hope, and the emotions that he has felt throughout his journey up until now are all put into each song, and the work is said to be like a \"business card\" for musician Yu Shirota, something that only he could have created today. The production partners include Mitsu.J, who composed and arranged the Japan Record Award-winning third generation J SOUL BROTHERS' ``Unfair World,'' as well as UTA, who has written songs for many artists such as BTS, Daichi Miura, and AI, and participated in the lyrics and composition of BTS's ``Crystal Snow'' and Daichi Miura's ``EXCITE.''"
+    },
     {
       "id": "7cfbfa55350b81da",
       "title": "Anime Studio Felix Film Backtracks on Generative AI Job Listing After Backlash",
@@ -182,7 +201,27 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
+    },
+    {
+      "id": "789d6cd0014e7764",
+      "title": "【ライブレポート】CASIOPEAはなぜLAで愛されるのか、38年ぶりの公演で証明したJ-Fusionの圧倒的な個性",
+      "link": "https://barks.jp/news/1099908",
+      "publishedAt": "2026-10-24T04:00:00.000Z",
+      "excerpt": "2026年9月12日と13日、日本が誇る我らがスーパー・フュージョン・グループCASIOPEAがロサンゼルスはウィルターンで2DAYS 公演を行ない、合計4000人超えの観客を動員した。観客席の2階は座席、1階はスタンディングだ。＜City Pop Waves＞というタイトルが付けられていたのは、シティ・ポップのインスト版という位置付けなのだろう。 会場を埋め尽くした観客は20代から30代が多いのだが、よく見れば50代から60代と思われる年齢層もかなりいる。前者は最近のネットによる影響からCASIOPEAを知ったZ世代。ところがさらに、1980年代からのファンであるリアルタイム世代が少なからず存在するのがLAにおけるCASIOPEAファンの特徴だ。 実はSpotifyにおけるCASIOPEAの再生数が世界…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/21232631/1956_CASIOPEA_LA2026-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "[Live Report] Why is CASIOPEA loved in LA? The overwhelming individuality of J-Fusion was proven in their first performance in 38 years",
+      "translatedExcerpt": "On September 12th and 13th, 2026, Japan's proud super fusion group CASIOPEA held a 2-day performance at the Wiltern in Los Angeles, attracting a total audience of over 4,000 people. The second floor of the audience seats is for seating, and the first floor is for standing. The title ``City Pop Waves'' was probably meant to be an instrumental version of City Pop. Most of the audience that filled the venue were in their 20s and 30s, but if you look closely, there were quite a few people in their 50s and 60s. The former are Generation Z who learned about CASIOPEA through the recent influence of the internet. However, another characteristic of CASIOPEA fans in LA is that there are quite a few members of the real-time generation who have been fans since the 1980s. In fact, the number of plays of CASIOPEA on Spotify is worldwide..."
     },
     {
       "id": "5b68a07842e555b1",
@@ -548,7 +587,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7fb7e7203054d044",
@@ -618,7 +658,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ac80813f563e9bac",
@@ -673,7 +714,7 @@
     },
     {
       "id": "de5cf7b5a33008de",
-      "title": "Shigeru Miyamoto Becomes 1st Game Creator to be Honored With Japan's Order of Culture Award",
+      "title": "Shigeru Miyamoto Becomes 1st Game Creator to be Honored With Japan's Order of Culture Award (Updated)",
       "link": "https://www.animenewsnetwork.com/news/2026-10-23/shigeru-miyamoto-becomes-1st-game-creator-to-be-honored-with-japan-order-of-culture-award/.243145",
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "excerpt": "Emperor to present Nintendo's Mario/Zelda creator with prestigious award on November 3",
@@ -720,7 +761,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f45177317369cb72",
@@ -856,7 +898,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "42c9a30c0dcd539d",
@@ -1040,7 +1083,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7e13314e5e9a1173",
@@ -1634,7 +1678,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6c03c9bdb160854e",
@@ -4763,7 +4808,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1975977edb4a3647",
@@ -5437,7 +5483,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ff9e4fb196c61c5e",
@@ -6422,7 +6469,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "dd5bc3b054a7c25c",
@@ -6439,7 +6487,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "78ee0fd0a7251e2a",
@@ -7088,7 +7137,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fce756ccf0ea00ff",
@@ -7105,7 +7155,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1249f0d0f81d40a2",
@@ -7353,7 +7404,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "373447c55e7ef60b",
@@ -7370,7 +7422,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6844891372020ab6",
@@ -8158,7 +8211,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "38adb8123cfd293f",
@@ -8175,7 +8229,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f62e15eb48bfb7de",
@@ -8511,7 +8566,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7fc60b8d6702778c",
@@ -8528,7 +8584,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3182c84ec53fbde9",
@@ -9025,7 +9082,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "64e0ceb9dd18db6c",
@@ -9042,7 +9100,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a618a402e3789845",
@@ -9315,7 +9374,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "51e6e71d7b35069c",
@@ -9332,7 +9392,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0b1247505f7f8fe8",
@@ -9451,7 +9512,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "49aa15534d65cf92",
@@ -9468,7 +9530,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "12d90e61743b3577",
@@ -9723,7 +9786,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8585194375dce8b0",
@@ -9740,7 +9804,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "169c7201da9651d6",
@@ -10250,7 +10315,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e922e499dc600424",
@@ -10267,7 +10333,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0bcbd96cb018d756",
@@ -10793,7 +10860,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4bec4aee487991d0",
@@ -10810,7 +10878,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f2acaa84437ee392",
@@ -11250,7 +11319,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e811ddd014598eab",
@@ -11267,7 +11337,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "d840da8d04d66b60",
@@ -11523,7 +11594,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ba1c48d4cfde43ca",
@@ -11540,7 +11612,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1af5b88c6a39cb04",
@@ -11633,7 +11706,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3f19a7c9bbbc9c97",
@@ -11650,7 +11724,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "edd0cf1aeb970ffd",
@@ -11735,7 +11810,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4501c9c5207ec4e5",
@@ -11752,7 +11828,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "69935c7a17261e1f",
@@ -12118,7 +12195,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f6c4bd1501541adf",
@@ -12135,7 +12213,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "edeb9938a98a3d57",
@@ -12298,7 +12377,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e80a6e889c137564",
@@ -12315,7 +12395,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "76f0ea930e1de960",
@@ -12575,7 +12656,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "39322c4199f7fe6a",
@@ -12592,7 +12674,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f73bae5276f7f615",
@@ -12626,7 +12709,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "dfd5861eef744f32",
@@ -12643,7 +12727,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a7adf3a24b98ee47",
@@ -12660,7 +12745,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "98837d959e0de917",
@@ -12677,7 +12763,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "969eee6522d75714",
@@ -12800,7 +12887,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2b356d7f161a7f75",
@@ -12817,7 +12905,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "624d3a528ebaba08",
@@ -13183,7 +13272,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1b01b5664e2a7e46",
@@ -13200,7 +13290,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c65493ccd844fb99",
@@ -13665,7 +13756,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5c73f0c13ec9f8d4",
@@ -13682,7 +13774,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0d07366039eaae2c",
@@ -13972,7 +14065,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5f43b3d2f00aa65a",
@@ -13989,7 +14083,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fe0e7e3678a78aeb",
@@ -14078,7 +14173,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6f56db5045ad04b1",
@@ -14095,7 +14191,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2128acdc93ea5450",
@@ -14146,7 +14243,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f1ba0ce7bf539ff0",
@@ -14163,7 +14261,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "103c6fda64df8c14",
@@ -15495,7 +15594,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "12e28af426724b01",
@@ -15512,7 +15612,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "de716ece1810a22f",
@@ -16068,7 +16169,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "022dde4266fbc8df",
@@ -16085,7 +16187,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6f9b551d3977c37d",
@@ -16601,7 +16704,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "cfc9209e76c55409",
@@ -16618,7 +16722,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "231a1b01d9d74f3f",
@@ -16874,7 +16979,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ba66ae850d5ab0a2",
@@ -16891,7 +16997,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e809a8babe85ead6",
@@ -16927,7 +17034,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a69242be86208948",
@@ -16944,7 +17052,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b633948817780679",
@@ -17114,7 +17223,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "670498bc351cbb94",
@@ -17131,7 +17241,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "57831a9a85630121",
@@ -17464,7 +17575,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fcd96a85d736d52c",
@@ -17481,7 +17593,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "47db8f0cc9182b13",
@@ -18153,7 +18266,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a9f7d5bd63fdd7f1",
@@ -18170,7 +18284,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e5350b52d0d8f282",
@@ -18328,44 +18443,6 @@
         "accent": "#6fc9e6",
         "language": "en"
       }
-    },
-    {
-      "id": "104db926c4485219",
-      "title": "【急上昇ワード】YOASOBI、連続テレビ小説〈ブラッサム〉主題歌「咲き誇れ」",
-      "link": "https://ototoy.jp/news/132279",
-      "publishedAt": "2026-10-15T03:00:00.000Z",
-      "excerpt": "新曲「咲き誇れ」を配信リリースしたYOASOBIが急上昇ワードにランクイン。 「咲き誇れ」は現在放送中のNHK連続テレビ小説〈ブラッサム〉主題歌。〈ブラッサム〉は作家・宇野千代をモデルに描かれる物語。楽曲制作にあたり、作品の主人公のモデルである宇野千代を敬愛する小説家・綿矢りさが、原作小説「桜（はな）の命は不滅なり」を書き下ろした。 MVは全編アニメーションで構成。原作小説「桜（はな）の命は不滅なり」と、連続テレビ小説『ブラッサム』の主人公のモデルとなった宇野千代の人生から着想を得たストーリー仕立ての映像になっている。 リリース情報 https://ototoy.jp/_/default/p/4278279 アーティスト情報 https://www.yoasobi-music.jp/ https://tw…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132279/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Raising keywords] YOASOBI, theme song for the TV drama series “Blossom” “Sakigagere”",
-      "translatedExcerpt": "YOASOBI, which released the new song \"Sakigaide\", is ranked in the trending keywords. \"Sakigaagere\" is the theme song for the NHK TV drama series \"Blossom\" currently being broadcast. ``Blossom'' is a story based on the author Chiyo Uno. To create the song, Risa Wataya, a novelist who admires Chiyo Uno, the model for the main character of the work, wrote the original novel ``Hana no life is immortal''. The MV consists entirely of animation. The video is based on a story inspired by the original novel ``The life of the cherry blossoms is immortal'' and the life of Chiyo Uno, who was the model for the main character of the TV drama series ``Blossom.'' Release information https://ototoy.jp/_/default/p/4278279 Artist information https://www.yoasobi-music.jp/ https://tw…"
-    },
-    {
-      "id": "79df09fd0fd0e119",
-      "title": "Wage War、全13曲を収録した新ALリリース",
-      "link": "https://ototoy.jp/news/132270",
-      "publishedAt": "2026-10-15T03:00:00.000Z",
-      "excerpt": "Wage Warが2026年10月9日(金)にニューアルバム『Landfall』をリリースした。 2024年にリリースした前作『STIGMA』に続く本作。バンドの持ち味である圧倒的なヘヴィネスとドラマティックなメロディをさらに追求した全13曲を収録している アルバムのタイトルにもなったリードトラック“Landfall”は、迫り来る危機と、自分たちの力では抗えない巨大な存在に直面する感覚をテーマにした楽曲。フロリダにルーツを持つバンドならではのハリケーンのイメージを通して、コントロールを失う恐怖と緊迫感を表現している。 リリース情報 https://ototoy.jp/_/default/p/4285761 アーティスト情報 https://www.instagram.com/wagewar/",
-      "image": "https://imgs.ototoy.jp/news/image.php/132270/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Wage War, new AL release containing 13 songs",
-      "translatedExcerpt": "Wage War released their new album “Landfall” on Friday, October 9, 2026. This work follows the previous work \"STIGMA\" released in 2024. The album contains a total of 13 songs that further pursue the band's signature overwhelming heaviness and dramatic melodies.The lead track, \"Landfall,\" which also serves as the title of the album, is a song with the theme of an approaching crisis and the feeling of facing a gigantic presence that cannot be resisted by one's own strength. The song expresses the fear and sense of urgency of losing control through the image of a hurricane, unique to a band with roots in Florida. Release information https://ototoy.jp/_/default/p/4285761 Artist information https://www.instagram.com/wagewar/"
     }
   ]
 }

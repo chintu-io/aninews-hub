@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T16:02:27.813Z",
+  "generatedAt": "2026-10-24T16:32:54.590Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 40,
+      "count": 41,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 131,
+      "count": 129,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 128,
+      "count": 129,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -167,6 +167,40 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "277d81721bd37da6",
+      "title": "TOUGEN ANKI: Nikko Kegon Falls Arc English Dub Now Streaming on Crunchyroll",
+      "link": "https://crunchyroll.com/news/announcements/2026/10/24/tougen-anki-nikko-kegon-falls-arc-anime-english-dub-release-date-cast-crew",
+      "publishedAt": "2026-10-24T16:03:00.000Z",
+      "excerpt": "The first two English dub episdoes are available now",
+      "image": "https://a.storyblok.com/f/178900/960x540/ef8f64a58c/tougen-anki-nikko-kegon-falls-arc.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "6225a8f2c0dfceed",
+      "title": "Tokyo restaurant adds special seat for live-streaming and social media posting [Video]",
+      "link": "https://soranews24.com/2026/10/25/tokyo-restaurant-adds-special-seat-for-live-streaming-and-social-media-posting-video/",
+      "publishedAt": "2026-10-24T16:00:27.000Z",
+      "excerpt": "Yakiniku Like wants to help diners get some likes of their own. Japan has a lot of yakiniku restaurants, where you grill your own meat, but Yakiniku Like is different from the rest. Whereas typical yakinuku places have their grills set into table for a group of dining companions to gather around, all of Yakiniku […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/0_5ffea6.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "fdc655ee4148a904",
       "title": "BE:FIRST、世界4都市を回るワールドショーケース完走",
@@ -18339,40 +18373,6 @@
       "publishedAt": "2026-10-15T11:43:18.000Z",
       "excerpt": "The staff for the television anime of Ryon's Are You a Landmine, Chihara-san? (Jirai nandesu ka? Chihara-san) manga announced on Thursday the anime's...",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI3/cms/news.9/232502/chihara-visual.webp",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "83837fa7b589097c",
-      "title": "Bless TV Anime Casts Kōki Uchiyama",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-15/bless-tv-anime-casts-koki-uchiyama/.242855",
-      "publishedAt": "2026-10-15T11:23:04.000Z",
-      "excerpt": "Uchiyama voices Akiharu Nakano in series debuting in January",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHB/youtube/JG_CIP10xAA.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "934f242865bf2332",
-      "title": "Kei Urana's Gachiakuta Manga Resumes on November 11",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-15/kei-urana-gachiakuta-manga-resumes-on-november-11/.242853",
-      "publishedAt": "2026-10-15T11:08:14.000Z",
-      "excerpt": "Manga has been on hiatus since August 5 so author could do research",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG4/cms/news.9/241715/gachiakuta.png.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",

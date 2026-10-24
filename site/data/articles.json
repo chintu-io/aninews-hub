@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T00:32:33.999Z",
+  "generatedAt": "2026-10-24T01:02:27.182Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 135,
+      "count": 136,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -143,7 +143,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 140,
+      "count": 139,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -162,10 +162,27 @@
     "successfulSources": 7,
     "failedSources": 1,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 561,
+    "translatedJapaneseArticles": 559,
     "translationAttempts": 120
   },
   "articles": [
+    {
+      "id": "ed2515647e7f51b6",
+      "title": "The Prince of Tennis II U-17 WORLD CUP: Final Member Selection Match English Dub Now Streaming on Crunchyroll",
+      "link": "https://crunchyroll.com/news/announcements/2026/10/24/the-prince-of-tennis-ii-u-17-world-cup-final-member-selection-match-english-dub-now-streaming-on-crunchyroll",
+      "publishedAt": "2026-10-24T01:00:00.000Z",
+      "excerpt": "Who has what it takes to play the World Cup final against Spain?",
+      "image": "https://a.storyblok.com/f/178900/960x540/ec598fec8f/the-prince-of-tennis-ii-u-17-world-cup-final-member-selection-match.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "ab0fa2671c172452",
       "title": "LINE Manga Introduces AI Feature Letting Fans Create Stories & Chat With Manga Characters",
@@ -10977,7 +10994,7 @@
       "title": "Japan’s Actors Union Moves to Ban AI Recreation of Deceased Voice Actors",
       "link": "https://news.sankakucomplex.com/n/O4OEgO665MTHqaOvD5145g",
       "publishedAt": "2026-10-18T18:00:59.000Z",
-      "excerpt": "The Japan Actors Union has introduced new guidelines that generally prohibit recreating the voices of deceased actors and voice actors using generative AI, while also establishing strict consent and compensation requirements for living performers. Announced on October 15, the guidelines are inten…",
+      "excerpt": "The Japan Actors Union has introduced new guidelines that generally prohibit recreating the voices of deceased actors and voice actors using generative AI, while also establishing strict consent and compensation requirements for living performers.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18501,25 +18518,6 @@
         "accent": "#a78bfa",
         "language": "en"
       }
-    },
-    {
-      "id": "6be482aa28cbbbb6",
-      "title": "むにゃむにゃプラスチック。、3曲入りの新SGリリース",
-      "link": "https://ototoy.jp/news/132262",
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "excerpt": "むにゃむにゃプラスチック。が2026年10月14日(水)に3曲入りのニューシングル「ぱくぱくちー」をリリースした。 前作の「ラブみ」とは違い、打ち込みと生演奏が合わさったサウンドコラージュが魅力的な1曲。今作も歌詞の独特のゆるさやメロディのフックなど、サウンドの拘りの中で、右曲がりの中毒性があり耳から離れないようなポップソングに仕上がっている。 もう終わってしまうと分かっている恋なのに、依存してしまって抜けられない、いつも上手くいかない主人公の女の子の心境が、パクチーの苦味と恋心の苦味にかけて歌われている。アンニュイでコリアンダーなラブソングである。 今作もKeyのranjuがメインボーカルを務めている。カップリングには、メンバーのスタジオでの会話や、関連するバンドのサンプリングなど、ろんれのんによる遊び…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132262/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Mummy plastic. , new SG release with 3 songs",
-      "translatedExcerpt": "Mummy plastic. released a new single \"Paku Pakuchi\" containing three songs on Wednesday, October 14, 2026. Unlike the previous work ``Lovemi'', this song has an attractive sound collage that combines typing and live music. This album is also a pop song that is addictive and addictive, with a unique looseness in the lyrics and a hook in the melody, as well as a sound that won't leave your ears. The song is sung with the bitterness of coriander and the bitterness of love, depicting the feelings of the main character, a girl who knows that her love will end, but cannot get rid of it because she is addicted to it, and things always go wrong. It is an ennui and coriander love song. This album also features key ranju as the main vocalist. The coupling includes conversations between the members in the studio and samplings from related bands, all played by Ronrenon."
     }
   ]
 }

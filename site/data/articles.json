@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T02:32:18.657Z",
+  "generatedAt": "2026-10-24T03:02:50.241Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 41,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 141,
+      "count": 136,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 129,
+      "count": 130,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 227,
+      "count": 228,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 224,
+      "count": 227,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,29 +144,234 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 139,
+      "count": 142,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
     {
       "id": "sankaku",
       "name": "Sankaku Complex",
-      "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 79,
-      "fetchedCount": 24
+      "status": "error",
+      "mode": null,
+      "feedUrl": null,
+      "count": 77,
+      "fetchedCount": 0
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 8,
-    "failedSources": 0,
+    "successfulSources": 7,
+    "failedSources": 1,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 576,
+    "translatedJapaneseArticles": 583,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "719c43c8a27cefde",
+      "title": "Age Factory、奈良市観光大使に就任",
+      "link": "https://ototoy.jp/news/132416",
+      "publishedAt": "2026-10-24T03:00:00.000Z",
+      "excerpt": "Age Factoryが、地元・奈良市から観光大使に任命された。 2026年10月22日に奈良市役所で行われた委嘱式には清水英介(Vo/Gt)、西口直人(Ba/Cho)、増子央人(Dr/Cho)の3人がそろって出席し、仲川げん奈良市長から委嘱状を受け取った。 式では、Vo/Gt清水英介が「奈良で活動してこれてよかったと思っています。他県の方をはじめ、これから自分が触れあう人たちに奈良の魅力を伝えていきたい。」と、これからの活動への思いを口にした。 Age Factoryは11月8日(日)に、自身初となる日本武道館でのワンマン公演〈Age Factory presents “twilight 2026”〉を開催する。 インフォメーション ライブ情報 https://w.pia.jp/t/agefactory…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132416/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Age Factory appointed as Nara City Tourism Ambassador",
+      "translatedExcerpt": "Age Factory has been appointed as a tourism ambassador by the local city of Nara. Eisuke Shimizu (Vo/Gt), Naoto Nishiguchi (Bas/Cho), and Hiroto Masuko (Dr/Cho) all attended the commissioning ceremony held at Nara City Hall on October 22, 2026, and received a letter of commission from Nara Mayor Gen Nakagawa. At the ceremony, Vo/Gt Eisuke Shimizu expressed his thoughts on future activities, saying, ``I'm glad I've been able to work in Nara.I want to convey the charm of Nara to the people I come in contact with, including people from other prefectures.'' Age Factory will hold his first one-man performance at Nippon Budokan, Age Factory presents “twilight 2026”, on November 8th (Sunday). Information Live information https://w.pia.jp/t/agefactory…"
+    },
+    {
+      "id": "aef12e660b2fd86d",
+      "title": "eill、初のセルフカバーEP発売決定。BE:FIRSTへの提供曲「夢中」収録も",
+      "link": "https://barks.jp/news/1086619",
+      "publishedAt": "2026-10-24T03:00:00.000Z",
+      "excerpt": "eillが、自身初のセルフカバーEP『self-covers.』を2026年11月4日にリリースすることを発表した。 本作は、eillがこれまで楽曲提供してきた中から厳選した3曲が収録されており、SKY-HI、Ryo‘Lefty’Miyataと共に提供したBE:FIRSTの「夢中」をはじめ、2020年3月にNEWSへ提供した「STAY WITH ME」、2024年8月発表のGENERATIONS・片寄涼太「tenkiame」がラインナップ。また、本作のために全曲リアレンジを施したとのことだが、「STAY WITH ME」はNEWS・増田貴久をフューチャリングに迎えて制作された。 さらにeillは、11月13日に東京・Zepp Shinjukuにて行うFurui Rihoとのツーマンライブ企画＜eill p…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/24112323/eill_main_Aphoto_2025_small-683x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "eill will release their first self-cover EP. Includes the song “Yumei” provided to BE:FIRST",
+      "translatedExcerpt": "eill has announced that he will release his first self-cover EP ``self-covers.'' on November 4, 2026. This work includes 3 songs carefully selected from the songs that eill has provided so far, including BE:FIRST's \"Yumei\", which was provided with SKY-HI and Ryo 'Lefty' Miyata, \"STAY WITH ME\", which was provided to NEWS in March 2020, and GENERATIONS' Ryota Katayose's \"tenkiame\", which was released in August 2024. It is also said that all the songs were rearranged for this work, and \"STAY WITH ME\" was produced featuring NEWS' Takahisa Masuda. Furthermore, eill will hold a one-man live project with Furui Riho on November 13th at Zepp Shinjuku in Tokyo <eill p…"
+    },
+    {
+      "id": "9caf1f1005298e61",
+      "title": "Haute & Freddy、ダークな新SGリリース",
+      "link": "https://ototoy.jp/news/132411",
+      "publishedAt": "2026-10-24T03:00:00.000Z",
+      "excerpt": "Haute & Freddyが2026年10月23日(金)にニューシングル「Film Noir」をリリースした。 クラシックなフィルム・ノワール映画に見られる危険な魅力と、影のあるロマンティシズムから着想を得た本作。愛を美しくも歪んだミステリーとして描き、欲望と危険の境界が曖昧になっていく物語を、Haute & Freddyならではのドラマティックなポップ表現へと昇華している。 楽曲のソングライティングとプロデュースは、Haute & Freddy自身が担当。2人のクリエイティブなビジョンを中心に制作された本作は、サウンドだけでなく、物語性やビジュアルを含めた総合的な表現を追求する彼らの姿勢を示している。 リリース情報 https://ototoy.jp/_/default/p/4357301 アーティス…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132411/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Haute & Freddy, dark new SG release",
+      "translatedExcerpt": "Haute & Freddy released their new single \"Film Noir\" on Friday, October 23, 2026. The film is inspired by the dangerous glamor and dark romanticism of classic film noir films. It depicts love as a beautiful yet twisted mystery, and the story where the line between desire and danger becomes blurred, has been elevated to the dramatic pop expression unique to Haute & Freddy. The song was written and produced by Haute & Freddy themselves. This work, which was produced centering on the creative vision of the duo, shows their commitment to pursuing comprehensive expression that includes not only sound but also narrative and visuals. Release information https://ototoy.jp/_/default/p/4357301 Artist…"
+    },
+    {
+      "id": "4fa3882d315ccacc",
+      "title": "The Iceblade Sorcerer Shall Rule the World II English Dub Now Streaming on Crunchyroll",
+      "link": "https://crunchyroll.com/news/announcements/2026/10/24/the-iceblade-sorcerer-shall-rule-the-world-season-2-english-dub-now-streaming-on-crunchyroll",
+      "publishedAt": "2026-10-24T03:00:00.000Z",
+      "excerpt": "It's time for the Magicks War tournament!",
+      "image": "https://a.storyblok.com/f/178900/960x540/7c734f0a7b/the-iceblade-sorcerer-shall-rule-the-world-ii.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "c530cd2d26056f15",
+      "title": "w.o.d.、自由に楽しむ人々で描かれた「Feelin’」MV公開",
+      "link": "https://ototoy.jp/news/132423",
+      "publishedAt": "2026-10-24T03:00:00.000Z",
+      "excerpt": "w.o.d.が、2026年11月18日にリリースする2枚組オリジナルニューアルバム『ふれる』から先行リリースされた新曲「Feelin‘」のMVを公開した。 MVでは、w.o.d.の演奏と共に総勢16名のキャストが「Feelin’」にのせて思い思いに楽しんでいる映像で、歌う人も踊る人も、ドス・カラス風マスク姿の人、じっとしている人もギターを弾いている人も、各々が自分の楽しみ方で自由に遊んでいる。 まさに歌詞で歌われている「自由にやって Freely 踊り方なんか テキトーでいいじゃない」というメッセージ通りの作品に仕上がっている。w.o.d.自身もパートチェンジして楽しむ姿など、今まで以上に自由な彼らを見ることができる、今のw.o.d.だからこそ表現できる映像となっている。 アーティスト情報 https:/…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132423/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "w.o.d. releases “Feelin’” MV depicting people having fun freely",
+      "translatedExcerpt": "w.o.d. has released the music video for their new song “Feelin’,” which was pre-released from their new 2-disc original album “Fure” to be released on November 18, 2026. In the music video, a total of 16 cast members are shown enjoying themselves to the tune of \"Feelin'\" with w.o.d.'s performance, and everyone is free to play in their own way, including those who sing, those who dance, those who wear Dos Callas-style masks, those who sit still, and those who play guitar. The result is a work that exactly lives up to the message sung in the lyrics: ``Do it freely, dance as you please.'' W.O.D. himself changes parts and has fun, and you can see them being more free than ever before, making it a video that only W.O.D. can express. Artist information https:/…"
+    },
+    {
+      "id": "7fd307b7791e6f96",
+      "title": "タチマナユ、1st AL『talk with me, talk with you』リリース",
+      "link": "https://ototoy.jp/news/132419",
+      "publishedAt": "2026-10-24T03:00:00.000Z",
+      "excerpt": "タチマナユが1st Album『talk with me, talk with you』を2026年10月21日にリリースした。 内省を繰り返した前作『White Point』のリリースから約一年半、自身のライブ活動やバンドのサポート活動を経た経験から、外に開いていくことをコンセプトに制作された本作。 既存曲『ニューサイト』をはじめ、電子音 / クオリアとアコースティック / ソングライトの狭間で漂う7曲が収録されている。 リリース情報 ハイレゾ ロスレス ▼OTOTOY配信中 https://ototoy.jp/_/default/a/1319339 アーティスト情報 https://x.com/tachimanay53740",
+      "image": "https://imgs.ototoy.jp/news/image.php/132419/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Tachimanayu releases 1st AL “talk with me, talk with you”",
+      "translatedExcerpt": "Tachimanayu released her 1st album ``talk with me, talk with you'' on October 21, 2026. It has been about a year and a half since the release of his previous album ``White Point,'' which involved repeated introspection, and this work was created with the concept of opening up to the outside world, based on his own live performances and support activities for bands. Including the existing song ``New Sight'', it contains 7 songs that drift between electronic sound / Qualia and acoustic / songwriting. Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/1319339 Artist information https://x.com/tachimanay53740"
+    },
+    {
+      "id": "1b9ea99eb4868ca6",
+      "title": "モナキ、デビュー曲の広島弁ver.「ほんまじゃけぇ☆なんでなん☆しらんけどのぉ」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166761",
+      "publishedAt": "2026-10-24T03:00:00.000Z",
+      "excerpt": "モナキが、デビュー曲を広島弁にアレンジした「ほんまじゃけぇ☆なんでなん☆しらんけどのぉ」ミュージッ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166761/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Monaki releases the Hiroshima dialect version of their debut song “Honma Jakee ☆ Nande Nan ☆ Shirandono” MV",
+      "translatedExcerpt": "Monaki arranges her debut song in Hiroshima dialect for the music “Honma Jakee☆Nandenan☆Shirandono”."
+    },
+    {
+      "id": "cf71b26d02569330",
+      "title": "モナキ、広島弁バージョン「ほんまじゃけぇ☆なんでなん☆しらんけどのぉ」MV公開",
+      "link": "https://barks.jp/news/1100322",
+      "publishedAt": "2026-10-24T03:00:00.000Z",
+      "excerpt": "モナキが、広島城と旧城下町エリアの魅力を発信・盛り上げるためのRCCキャンペーン「はじまりは 広島城」のキャンペーン大使に就任。広島城エリアで撮影したMV「ほんまじゃけぇ☆なんでなん☆しらんけどのぉ」をRCCテレビ公式YouTubeチャンネルで公開した。 今回されたMVは、4月にリリースしたデビュー曲「ほんまやで☆なんでやねん☆しらんけど」のサビを広島弁にした「ほんまじゃけぇ☆なんでなん☆しらんけどのぉ」だ。メンバーは安芸ひろしま武将隊提供の衣装に身を包み、広島城をバックに踊るのはもちろん、弓道、抹茶、お好み焼き、鰻にお土産店など、三の丸エリアなどをPRした映像になっているという。 また、10月24日・25日に広島城とその周辺で行われるフードフェスティバル内の「はじまりは 広島城」ブース（RCC玄関横）に…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/24110426/A%E5%86%99%E3%83%A2%E3%83%8A%E3%82%AD%E3%80%8C%E3%81%BB%E3%82%93%E3%81%BE%E3%82%84%E3%81%A7%E2%98%86%E3%81%AA%E3%82%93%E3%81%A7%E3%82%84%E3%81%AD%E3%82%93%E2%98%86%E3%81%97%E3%82%89%E3%82%93%E3%81%91%E3%81%A9%E3%80%8D_%E5%A4%A7-1024x682.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Monaki releases Hiroshima dialect version “Honma Jakee☆Nandenan☆Shirandono” MV",
+      "translatedExcerpt": "Monaki has been appointed as a campaign ambassador for the RCC campaign ``Hiroshima wa Hiroshima Castle'', which aims to promote and promote the charm of Hiroshima Castle and the former castle town area. The music video \"Honma Jakee ☆ Nande Nan ☆ Shirandono\", which was shot in the Hiroshima Castle area, has been released on RCC TV's official YouTube channel. The music video released this time is ``Honmajakee☆Nandeyann☆Shiranbuto'', which is a Hiroshima dialect version of the chorus of their debut song ``Honmayade☆Nandeyanen☆Shiranbuto'' released in April. The members are dressed in costumes provided by the Aki-Hiroshima Busho-tai and dance with Hiroshima Castle in the background, as well as promoting the Sannomaru area, which includes archery, matcha, okonomiyaki, eel, and souvenir shops. In addition, there will be a booth at the “Hajimari wa Hiroshima Castle” booth (next to the RCC entrance) at the food festival that will be held in and around Hiroshima Castle on October 24th and 25th."
+    },
+    {
+      "id": "ae3c28e2eeaa619b",
+      "title": "木村カエラ、ミニアルバム『XX』新ビジュアル＆ジャケ写公開",
+      "link": "https://barks.jp/news/1100307",
+      "publishedAt": "2026-10-24T03:00:00.000Z",
+      "excerpt": "木村カエラが、2026年12月9日にリリースするコンセプトミニアルバム『XX』（読み：Kisses）の新ビジュアルとジャケット写真を公開。あわせて、収録楽曲の詳細や特典画像などの最新情報も一挙に解禁された。 今作には、徳澤青弦によるストリングスアレンジとトラックメイカーを迎え、過去にリリースした「Snowdome」「A winter fairy is melting a snowman」「チョコレート」といった冬の楽曲を新たなアプローチでリアレンジして収録。加えて、新曲「It’s a Merry Christmas to U」の収録も決定した。本楽曲は、木村カエラが作詞、作曲・プロデュースに蔦谷好位置を迎えて制作された木村カエラ初の本格的クリスマスソング。アグレッシブなバンドサウンドに溶け込むストリングス…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/24103212/XX_Aphoto_main-1024x672.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Kaela Kimura releases new visual and jacket photo for mini album “XX”",
+      "translatedExcerpt": "Kaela Kimura has released a new visual and jacket photo for the concept mini album \"XX\" (pronounced: Kisses), which will be released on December 9, 2026. At the same time, the latest information such as details of the songs included and bonus images were also released all at once. This album features string arrangements and track maker by Seigen Tokuzawa, and includes previously released winter songs such as ``Snowdome'', ``A winter fairy is melting a snowman'', and ``Chocolate'' rearranged with a new approach. In addition, it has been decided that a new song “It’s a Merry Christmas to U” will be included. This song is Kaela Kimura's first full-fledged Christmas song, written by Kaela Kimura, with Yoshiki Tsutaya as the composer and producer. Strings that blend into the aggressive band sound..."
+    },
+    {
+      "id": "110db66a08e8a976",
+      "title": "LAPONEアーティスト合同ライブ＜LAPOSTA 2027＞、東京ドーム・京セラドーム大阪で4日間開催",
+      "link": "https://barks.jp/news/1074394",
+      "publishedAt": "2026-10-24T02:44:36.000Z",
+      "excerpt": "LAPONEアーティスト合同ライブ＜LAPOSTA 2027＞が、2027年1月23日・24日に東京ドーム、2月6日・7日に京セラドーム大阪にて開催されることが決定した。 2023年の初開催から今回で4度目となる＜LAPOSTA＞。今回出演するのは、LAPONE ENTERTAINMENT所属のボーイズグループ・JO1、INI、DXTEEN、KO1KEYZ。そして、LAPONE GIRLS所属のガールズグループ・ME:I、IS:SUEの全6グループだ。「TREASURE THE MOMENT」をテーマに、LAPONEアーティストとファンが共にたくさんの輝きを発見できるライブイベントとして、東京ドームと京セラドーム大阪を舞台に「今」の最高のパフォーマンスをお届けする。 チケットの最速先行は本日12時より受付…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/06/24114019/1015_b-1024x422.png",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "LAPONE artists joint live <LAPOSTA 2027> will be held for 4 days at Tokyo Dome and Kyocera Dome Osaka",
+      "translatedExcerpt": "It has been decided that the LAPONE artist joint live show <LAPOSTA 2027> will be held at Tokyo Dome on January 23rd and 24th, 2027, and at Kyocera Dome Osaka on February 6th and 7th, 2027. This is the fourth time ＜LAPOSTA＞ has been held since it was first held in 2023. This time, boy groups JO1, INI, DXTEEN, and KO1KEYZ from LAPONE ENTERTAINMENT will be performing. There are also six girl groups, ME:I and IS:SUE, both of which belong to LAPONE GIRLS. With the theme of \"TREASURE THE MOMENT,\" LAPONE artists and fans will be able to discover a lot of brilliance together as a live event, delivering the best performances of \"now\" at Tokyo Dome and Kyocera Dome Osaka. Early bird tickets available from 12pm today..."
+    },
+    {
+      "id": "a3a65eee964d2bd3",
+      "title": "Singer-Songwriter Iri Shares Firefly Wedding Anime Opening Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/10/24/firefly-wedding-anime-opening-song-music-video-iri",
+      "publishedAt": "2026-10-24T02:41:00.000Z",
+      "excerpt": "Crunchyroll streams the David Production-animated series",
+      "image": "https://a.storyblok.com/f/178900/960x540/36be0c0e7e/iri-period-mv.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "a22ee5862c65efaa",
       "title": "Koume Releases The Detective Is Already Dead Season 2 Anime Opening Song Music Video",
@@ -269,7 +474,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7fb7e7203054d044",
@@ -339,7 +545,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ac80813f563e9bac",
@@ -441,7 +648,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f45177317369cb72",
@@ -577,7 +785,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "42c9a30c0dcd539d",
@@ -761,7 +970,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7e13314e5e9a1173",
@@ -1355,7 +1565,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6c03c9bdb160854e",
@@ -4484,7 +4695,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1975977edb4a3647",
@@ -5158,7 +5370,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ff9e4fb196c61c5e",
@@ -6143,7 +6356,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "78ee0fd0a7251e2a",
@@ -6792,7 +7006,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fce756ccf0ea00ff",
@@ -6809,7 +7024,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1249f0d0f81d40a2",
@@ -7057,7 +7273,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "373447c55e7ef60b",
@@ -7074,7 +7291,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6844891372020ab6",
@@ -7862,7 +8080,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "38adb8123cfd293f",
@@ -7879,7 +8098,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f62e15eb48bfb7de",
@@ -8215,7 +8435,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7fc60b8d6702778c",
@@ -8232,7 +8453,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3182c84ec53fbde9",
@@ -8729,7 +8951,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "64e0ceb9dd18db6c",
@@ -8746,7 +8969,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a618a402e3789845",
@@ -9019,7 +9243,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "51e6e71d7b35069c",
@@ -9036,7 +9261,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0b1247505f7f8fe8",
@@ -9155,7 +9381,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "49aa15534d65cf92",
@@ -9172,7 +9399,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "12d90e61743b3577",
@@ -9427,7 +9655,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8585194375dce8b0",
@@ -9444,7 +9673,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "169c7201da9651d6",
@@ -9954,7 +10184,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e922e499dc600424",
@@ -9971,7 +10202,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0bcbd96cb018d756",
@@ -10497,7 +10729,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4bec4aee487991d0",
@@ -10514,7 +10747,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f2acaa84437ee392",
@@ -10954,7 +11188,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e811ddd014598eab",
@@ -10971,7 +11206,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "d840da8d04d66b60",
@@ -11227,7 +11463,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ba1c48d4cfde43ca",
@@ -11244,7 +11481,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1af5b88c6a39cb04",
@@ -11337,7 +11575,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3f19a7c9bbbc9c97",
@@ -11354,7 +11593,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "edd0cf1aeb970ffd",
@@ -11439,7 +11679,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4501c9c5207ec4e5",
@@ -11456,7 +11697,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "69935c7a17261e1f",
@@ -11822,7 +12064,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f6c4bd1501541adf",
@@ -11839,7 +12082,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "edeb9938a98a3d57",
@@ -12002,7 +12246,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e80a6e889c137564",
@@ -12019,7 +12264,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "76f0ea930e1de960",
@@ -12279,7 +12525,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "39322c4199f7fe6a",
@@ -12296,7 +12543,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f73bae5276f7f615",
@@ -12330,7 +12578,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "dfd5861eef744f32",
@@ -12347,7 +12596,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a7adf3a24b98ee47",
@@ -12364,7 +12614,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "98837d959e0de917",
@@ -12381,7 +12632,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "969eee6522d75714",
@@ -12504,7 +12756,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2b356d7f161a7f75",
@@ -12521,7 +12774,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "624d3a528ebaba08",
@@ -12887,7 +13141,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1b01b5664e2a7e46",
@@ -12904,7 +13159,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c65493ccd844fb99",
@@ -13369,7 +13625,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5c73f0c13ec9f8d4",
@@ -13386,7 +13643,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0d07366039eaae2c",
@@ -13676,7 +13934,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5f43b3d2f00aa65a",
@@ -13693,7 +13952,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fe0e7e3678a78aeb",
@@ -13782,7 +14042,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6f56db5045ad04b1",
@@ -13799,7 +14060,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2128acdc93ea5450",
@@ -13850,7 +14112,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f1ba0ce7bf539ff0",
@@ -13867,7 +14130,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "103c6fda64df8c14",
@@ -15199,7 +15463,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "12e28af426724b01",
@@ -15216,7 +15481,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "de716ece1810a22f",
@@ -15772,7 +16038,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "022dde4266fbc8df",
@@ -15789,7 +16056,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6f9b551d3977c37d",
@@ -16305,7 +16573,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "cfc9209e76c55409",
@@ -16322,7 +16591,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "231a1b01d9d74f3f",
@@ -16578,7 +16848,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ba66ae850d5ab0a2",
@@ -16595,7 +16866,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e809a8babe85ead6",
@@ -16631,7 +16903,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a69242be86208948",
@@ -16648,7 +16921,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b633948817780679",
@@ -16818,7 +17092,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "670498bc351cbb94",
@@ -16835,7 +17110,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "57831a9a85630121",
@@ -17168,7 +17444,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fcd96a85d736d52c",
@@ -17185,7 +17462,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "47db8f0cc9182b13",
@@ -17857,7 +18135,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a9f7d5bd63fdd7f1",
@@ -17874,7 +18153,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e5350b52d0d8f282",
@@ -18137,7 +18417,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "093825984d1aaa54",
@@ -18154,198 +18435,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
-    },
-    {
-      "id": "f4451e5752e60ef7",
-      "title": "Vietnamese-language driver’s license tests suspended in Japan following alleged cheating",
-      "link": "https://soranews24.com/2026/10/15/vietnamese-language-drivers-license-tests-suspended-in-japan-following-alleged-cheating/",
-      "publishedAt": "2026-10-15T01:00:39.000Z",
-      "excerpt": "Testing center believes photos of test questions have been leaked after finding images on examinees phone. Along with sports gym locker rooms, hot springs, and airport security lines, driver’s license testing centers are pretty touchy about people taking photographs inside of them. Honestly, that seems like it should be common sense, but since common sens…",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/0_52f283.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "38d2f52c890abaa3",
-      "title": "Yurina Kawaguchi Releases New Magic Knight Rayearth Anime Ending Song Music Video",
-      "link": "https://crunchyroll.com/news/latest/2026/10/15/new-magic-knight-rayearth-anime-ending-song-music-video-yurina-kawaguchi",
-      "publishedAt": "2026-10-15T00:31:00.000Z",
-      "excerpt": "The reboot series is now available on Crunchyroll",
-      "image": "https://a.storyblok.com/f/178900/960x540/8b0afe7bff/yurina-kawaguchi-hoshiakari-mv.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "4ec844144625a3ff",
-      "title": "玉置浩二 × ASKA、コラボ楽曲「音銀河」＆「命の宿り」MV同時公開",
-      "link": "https://barks.jp/news/1094305",
-      "publishedAt": "2026-10-14T23:00:00.000Z",
-      "excerpt": "玉置浩二とASKAが、コラボレーション楽曲である「音銀河」と「命の宿り」のMVを同時公開した。 「音銀河」は、2026年3月にNHK BSで放送された番組『玉置浩二ショー』で初披露された楽曲で、9月16日に正式にシングルリリースされている。MVでは、現代を生きる人たちへの想いと未来への願い、そして「いつもこの世は愛しかない」という二人の強固な信念が表れたメッセージを、ストリングスの演奏を従え、満天の星空が投影されたステージ上で高らかに歌い上げた映像に。 一方、カップリング曲の「命の宿り」は命の尊さを描いた詞と温かなメロディーに乗せたアコースティックナンバーだという。アコギを爪弾く玉置浩二が、ASKAと二人だけで声を重ね合わせ、感動的なハーモニーを奏でていく。静かな森の中で歌う二人の姿が、観る人の気持ちをや…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/08/07124126/KojiTamakiASKA_APhoto_otoginga_1MB.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
       },
-      "translatedTitle": "Koji Tamaki x ASKA, collaboration songs “Oto Ginga” & “Ino no Yatori” MV released simultaneously",
-      "translatedExcerpt": "Koji Tamaki and ASKA have simultaneously released the music videos for their collaboration songs \"Oto Ginga\" and \"Ino no Yatori.\" \"Oto Ginga\" was first performed on the program \"Koji Tamaki Show\" broadcast on NHK BS in March 2026, and was officially released as a single on September 16th. In the music video, the two sing a message that expresses their feelings for people living in the present day, their wishes for the future, and their strong belief that ``There will always be nothing but love in this world,'' accompanied by strings and sung loudly on a stage projected against a star-filled sky. On the other hand, the coupling song, ``The Incarnation of Life'' is said to be an acoustic number with lyrics that depict the preciousness of life and a warm melody. Koji Tamaki plays the acoustic guitar, and ASKA and their voices overlap to create a moving harmony. The sight of the two singing in a quiet forest touches the hearts of the viewers..."
-    },
-    {
-      "id": "490894b8700cea0b",
-      "title": "玉置浩二・ASKA、コラボ曲MV2作同時公開",
-      "link": "https://ototoy.jp/news/132278",
-      "publishedAt": "2026-10-14T23:00:00.000Z",
-      "excerpt": "玉置浩二とASKAのコラボレーション楽曲「音銀河」と、カップリングに収められた「命の宿り」のMVが同時公開された。 「音銀河」MVは、現代を生きる人たちへの想いと未来への願い、そして「いつもこの世は愛しかない」という二人の強固な信念が表れたメッセージを、ストリングスの演奏を従え、満天の星空が投影されたステージ上で高らかに歌い上げるというもの。 カップリング曲の「命の宿り」は命の尊さを描いた詞と温かなメロディーに乗せてしっとりと歌う楽曲。アコーステックギターを爪弾く玉置浩二が、ASKAと二人だけで声を重ね合わせ、感動的なハーモニーを奏でていく。 リリース情報 https://ototoy.jp/_/default/p/4154609 MV https://youtu.be/w55f25WKbu4 https…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132278/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Koji Tamaki and ASKA release two collaborative song MVs simultaneously",
-      "translatedExcerpt": "The music videos for Koji Tamaki and ASKA's collaboration song \"Oto Ginga\" and the coupling song \"I no Iku no Yatori\" were released at the same time. The music video for \"Oto Galaxy\" is a message that expresses the two's feelings for people living in the present day, their wishes for the future, and their strong belief that \"there is always nothing but love in this world.\" The song is sung loudly on a stage projected onto a star-filled sky, accompanied by strings. The coupling song ``Ino no Yadori'' is a song that is softly sung with lyrics that depict the preciousness of life and a warm melody. Koji Tamaki, who plays the acoustic guitar, and ASKA combine their voices to create a moving harmony. Release information https://ototoy.jp/_/default/p/4154609 MV https://youtu.be/w55f25WKbu4 https…"
-    },
-    {
-      "id": "9ed0ca7e27ac4fdc",
-      "title": "Croquette!'s Manavu Kishimoto Launches New Manga",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-14/croquette-s-manavu-kishimoto-launches-new-manga/.242805",
-      "publishedAt": "2026-10-14T22:00:00.000Z",
-      "excerpt": "Kishimoto launched Tantei Neko Machida manga on Tuesday",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gVG/cms/news.10/242805/manavu.webp",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e4ef4fb748368991",
-      "title": "Mosque’s Religious Booth at Japanese Elementary School Festival Sparks Criticism",
-      "link": "https://news.sankakucomplex.com/n/aw5sc_EjhUtiNmlOqXFLoQ",
-      "publishedAt": "2026-10-14T21:00:59.000Z",
-      "excerpt": "A mosque’s participation in a community festival held at a public elementary school in Osaka Prefecture has drawn criticism on Japanese social media, with some users questioning whether religious outreach should be permitted on school grounds.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "a8aedca4d7d1a890",
-      "title": "Mosque’s Religious Booth at Japanese Elementary School Festival Sparks Criticism",
-      "link": "https://news.sankakucomplex.com/n/W8R87Uay-bZUXapfWKuegg",
-      "publishedAt": "2026-10-14T21:00:59.000Z",
-      "excerpt": "A mosque’s participation in a community festival held at a public elementary school in Osaka Prefecture has drawn criticism on Japanese social media, with some users questioning whether religious outreach should be permitted on school grounds.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "de67174c995d4ffd",
-      "title": "North American Anime, Manga Releases, October 11-17",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-14/north-american-anime-manga-releases-october-11-17/.242757",
-      "publishedAt": "2026-10-14T21:00:00.000Z",
-      "excerpt": "The Rising of the Shield Hero Season 4 anime; Badducks, GalaXic Baseball League, Are You a Landmine, Chihara-san? manga ship",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gM7/herald/202201/rising-of-shield-hero-s4.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1ed9959138ddb7f8",
-      "title": "Seven Seas Licenses Ushiyama-san, Mouse Royale, This World Is Worth Fighting For, More Manga/Novels",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-14/seven-seas-licenses-ushiyama-san-mouse-royale-this-world-is-worth-fighting-for-more-manga-novels/.242817",
-      "publishedAt": "2026-10-14T20:22:32.000Z",
-      "excerpt": "Also: My House Cat Became the World's Strongest?!, The Duke is Obsessed with the Vicious Omega, Alice, All the Way to Outer Space",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gY2/cms/news.10/242817/ushiyama-san.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "88488dc235c9dc4d",
-      "title": "Ei Ohitsuji's Ochibure Zeus to Dorei no Ko Manga Changes Publisher",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-14/ei-ohitsuji-ochibure-zeus-to-dorei-no-ko-manga-changes-publisher/.242802",
-      "publishedAt": "2026-10-14T20:00:00.000Z",
-      "excerpt": "Manga moves from Nemuki+ magazine to Ichijinsha's Zero-Sum Online website in spring 2027",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gK9/cms/news.10/242802/zeus1.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "300fcfa7f35f9655",
-      "title": "Zero Escape Writer Kōtarō Uchikoshi Announces Crash Keys Company With Cryptic Website, 'Canceled' Game",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-14/zero-escape-writer-kotaro-uchikoshi-announces-crash-keys-company-with-cryptic-website-canceled-game/.242816",
-      "publishedAt": "2026-10-14T19:00:00.000Z",
-      "excerpt": "Uchikoshi stated that he had been working on new game that \"was suddenly canceled\"",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gAA/cms/news.10/242816/crash-keys.png.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
+      "stale": true
     }
   ]
 }

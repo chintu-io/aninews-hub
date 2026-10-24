@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T06:02:04.939Z",
+  "generatedAt": "2026-10-24T06:34:29.358Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 40,
+      "count": 39,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 127,
+      "count": 128,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 19,
+      "count": 18,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 234,
+      "count": 233,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 141,
+      "count": 143,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 77,
       "fetchedCount": 24
     }
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 589,
+    "translatedJapaneseArticles": 590,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8e06ee7bbcd8d953",
+      "title": "Kaiju No. 8: The Final Mission Anime Film Announced for 2027",
+      "link": "https://crunchyroll.com/news/latest/2026/10/24/kaiju-no-8-the-final-mission-anime-film-announced-for-2027",
+      "publishedAt": "2026-10-24T06:24:00.000Z",
+      "excerpt": "A super teaser visual was also unveiled today",
+      "image": "https://a.storyblok.com/f/178900/960x540/90a70f10e6/kaiju-no-8-season-2.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "80ca4ef78467b574",
+      "title": "katawara、2ndAL『追憶』配信リリース",
+      "link": "https://ototoy.jp/news/132431",
+      "publishedAt": "2026-10-24T06:00:00.000Z",
+      "excerpt": "katawaraがセカンド・アルバム『追憶』を配信リリースした。 『追憶』は「記憶の断片を音にする」というユニットのコンセプトのもと、カラーコードをタイトルに冠する3曲のInterludeを含む10曲を収録。 katawaraは10月31日(土) に表参道WALL&WALLにてファーストワンマンライブを開催(チケットは完売)する。 リリース情報 https://ototoy.jp/_/default/p/4354270 アーティスト情報 https://www.youtube.com/@katawara_sk https://www.instagram.com/___katawara___ https://x.com/___katawara___ https://www.tiktok.com/@___ka…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132431/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "katawara, 2nd AL “Oishi” distribution release",
+      "translatedExcerpt": "Katawara has released their second album ``Oishi''. ``Reminiscence'' is based on the unit's concept of ``turning fragments of memory into sound'' and includes 10 songs, including 3 interludes with color codes in their titles. Katawara will hold their first one-man live at Omotesando WALL&WALL on Saturday, October 31st (tickets are sold out). Release information https://ototoy.jp/_/default/p/4354270 Artist information https://www.youtube.com/@katawara_sk https://www.instagram.com/___katawara___ https://x.com/___katawara___ https://www.tiktok.com/@___ka…"
+    },
     {
       "id": "81d988ee5566447c",
       "title": "華MEN組、新曲「マダマダ」配信決定。2027年2月に2ndシングル発売も",
@@ -333,6 +369,25 @@
       },
       "translatedTitle": "Age Factory appointed as Nara City Tourism Ambassador",
       "translatedExcerpt": "Age Factory has been appointed as a tourism ambassador by the local city of Nara. Eisuke Shimizu (Vo/Gt), Naoto Nishiguchi (Bas/Cho), and Hiroto Masuko (Dr/Cho) all attended the commissioning ceremony held at Nara City Hall on October 22, 2026, and received a letter of commission from Nara Mayor Gen Nakagawa. At the ceremony, Vo/Gt Eisuke Shimizu expressed his thoughts on future activities, saying, ``I'm glad I've been able to work in Nara.I want to convey the charm of Nara to the people I come in contact with, including people from other prefectures.'' Age Factory will hold his first one-man performance at Nippon Budokan, Age Factory presents “twilight 2026”, on November 8th (Sunday). Information Live information https://w.pia.jp/t/agefactory…"
+    },
+    {
+      "id": "087353f80fe798c8",
+      "title": "BE:FIRST、ドームツアー 大阪＆名古屋追加公演決定",
+      "link": "https://ototoy.jp/news/132430",
+      "publishedAt": "2026-10-24T03:00:00.000Z",
+      "excerpt": "BE:FIRSTがデビュー5周年を記念したドームツアー『BE:FIRST 5th Anniversary DOME TOUR 2027』の追加公演に大阪・京セラドーム大阪と愛知・バンテリンドーム ナゴヤでの開催を発表した。 日程は京セラドーム大阪が2027年1月16日(土)、17日(日)、バンテリンドームナゴヤが2027年春と発表。追加公演とすでに発表済みを含む東京、福岡、埼玉をあわせ、5都市を巡るグループ初の5大ドームツアーとなる。 ツアー情報 https://befirst.tokyo/tour/dometour2027/ 2027年1月11日(月・祝)【東京】東京ドーム リリース情報 https://ototoy.jp/_/default/p/4297635 アーティスト情報 https://bef…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132430/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "BE:FIRST, dome tour Osaka & Nagoya additional performances confirmed",
+      "translatedExcerpt": "BE:FIRST has announced additional performances for their dome tour ``BE:FIRST 5th Anniversary DOME TOUR 2027'' to commemorate their 5th anniversary since their debut at Kyocera Dome Osaka in Osaka and Vantelin Dome Nagoya in Aichi. The dates have been announced for Kyocera Dome Osaka on Saturday, January 16 and 17, 2027, and Sunday for Vantelin Dome Nagoya in the spring of 2027. This will be the group's first 5-dome tour touring 5 cities, including additional performances and previously announced stops in Tokyo, Fukuoka, and Saitama. Tour information https://befirst.tokyo/tour/dometour2027/ January 11, 2027 (Monday/Holiday) [Tokyo] Tokyo Dome Release information https://ototoy.jp/_/default/p/4297635 Artist information https://befirst…"
     },
     {
       "id": "d15db714520c67d1",
@@ -10352,7 +10407,7 @@
       "title": "Seitokai ni mo Ana wa Aru! Now Absurdly Sexy With Swimsuits",
       "link": "https://news.sankakucomplex.com/n/iun3qhLLcWC0vhsVFE6UOA",
       "publishedAt": "2026-10-19T10:00:41.000Z",
-      "excerpt": "Seitokai ni mo Ana wa Aru!’s absurd hijinks have continued as usual, this time including some swimsuits and giving viewers plenty of lewd moments, with the show’s titular trap also making sure to get some time in the spotlight as well.",
+      "excerpt": "Seitokai ni mo Ana wa Aru!’s absurd hijinks have continued as usual, this time including some swimsuits and giving viewers plenty of lewd moments, with the show’s titular trap also making sure to get some time in the spotlight as well. The uncensored version of the episode is said to contain even…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18317,59 +18372,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "60430a7b1a7635d9",
-      "title": "5組のダンスボーカルグループが集結した＜The Performance Zero＞、TELASAにてアーカイブ配信中！",
-      "link": "https://barks.jp/news/1094353",
-      "publishedAt": "2026-10-15T07:16:27.000Z",
-      "excerpt": "10/12（月・祝）、東京・Zepp Hanedaにて今年も『The Performance Zero』が開催された。『The Performance』出演への登竜門となる本イベントは、5組のダンスボーカルグループらにより熱狂に包まれた。 昨年に引き続き、場内および生配信での投票システム“グッドパフォーマンスグループTOP3”を実施。最も印象に残ったアーティストへの投票が観客により行われ、最も反響を集めたグループは来春開催予定の『The Performance』への出演が約束される。各グループは『The Performance』への出演をかけ、自分たちの色・実力をそのステージで最大限に表現した。 まず初めに会場を沸かせたのは、ONE OR EIGHT。1曲目の「TOKYO DRIFT」の印象的なイントロが…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/15141128/image-1.jpeg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "<The Performance Zero>, a gathering of 5 dance vocal groups, is currently being archived on TELASA!",
-      "translatedExcerpt": "``The Performance Zero'' was held again this year at Zepp Haneda in Tokyo on October 12th (Monday/holiday). This event, which serves as a gateway to appearing on \"The Performance,\" was filled with enthusiasm by five dance and vocal groups. Continuing from last year, a voting system \"Good Performance Group TOP 3\" will be implemented in the venue and live streaming. The audience will be able to vote for the artist who left the most impression on them, and the group that receives the most response will be guaranteed an appearance at ``The Performance'' scheduled to be held next spring. Each group participated in ``The Performance'' and expressed their colors and abilities to the fullest on that stage. The first song that got the venue excited was ONE OR EIGHT. The impressive intro of the first song “TOKYO DRIFT”..."
-    },
-    {
-      "id": "b97b9df3e10e1b45",
-      "title": "Man in Japan says monkey threw his cat into a pond before attacking him",
-      "link": "https://soranews24.com/2026/10/15/man-in-japan-says-monkey-threw-his-cat-into-a-pond-before-attacking-him/",
-      "publishedAt": "2026-10-15T05:00:24.000Z",
-      "excerpt": "Yamaguchi primate decides to pick fights with two other species. After several months of bears dominating reports of startling wildlife encounters in Japan, it seems as though the nation’s monkeys have decided to take that notoriety as a challenge. We’ve recently been talking about the dreaded Troop T1, a group of monkeys that’s been running […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_5fea0e.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2f58e2f3bec2d7e9",
-      "title": "'Boukensha License wo Hakudatsu sareta Ossan dakedo' Reveals Main Cast, Staff, Teaser Promo for Winter 2027",
-      "link": "https://myanimelist.net/news/74823153?_location=rss",
-      "publishedAt": "2026-10-15T04:43:10.000Z",
-      "excerpt": "The official website for the television anime adaptation of Manimani Ononata's Boukensha License wo Hakudatsu sareta Ossan dakedo, Manamusume ga Dekita node Nonbiri Jinsei wo Ouka suru (I Lost My Adventurer's License, but It's Fine Because I Have an Adorable Daughter Now) light novel revealed the main cast, staff, a second teaser visual (pictured), and te…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1792039302-ae61ca2100c13d07ac38dcb1797059c8.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
         "language": "en"
       }
     }

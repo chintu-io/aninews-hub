@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:04:47.181Z",
+  "generatedAt": "2026-10-25T22:32:44.586Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 214,
+      "count": 213,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,29 +144,48 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 148,
+      "count": 149,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
     {
       "id": "sankaku",
       "name": "Sankaku Complex",
-      "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "status": "error",
+      "mode": null,
+      "feedUrl": null,
       "count": 75,
-      "fetchedCount": 24
+      "fetchedCount": 0
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 8,
-    "failedSources": 0,
+    "successfulSources": 7,
+    "failedSources": 1,
     "articleCount": 1000,
     "translatedJapaneseArticles": 615,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "baaf4af502a26e9c",
+      "title": "ゆず、来春10年ぶりベストAL＆日産スタジアムライブ決定",
+      "link": "https://ototoy.jp/news/132447",
+      "publishedAt": "2026-10-25T22:00:00.000Z",
+      "excerpt": "ゆずが2027年の春にオールタイムベストアルバムのリリース、そして同年5月15 日(土)・16日(日)に日産スタジアムでアニバーサリーライブを開催することが決定した。 オールタイムベストアルバムは、2017年にデビュー20周年を記念して発売された「ゆずイロハ 1997-2017」以来、10年ぶり。 日産スタジアムライブは約22年ぶり。2027年のデビュー30周年イヤーを記念した、“究極のアニバーサリーライブ”で、2日間異なるセットリストとなる。 リリース情報 「心をとめないで」 https://ototoy.jp/_/default/p/4308787 ツアー情報 YUZU 30th ANNIVERSARY STADIUM LIVE 2027 日産スタジアム 2027年5月15日(土) DAY1「ゆ」 ア…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132447/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Yuzu will perform at Best AL & Nissan Stadium Live for the first time in 10 years next spring",
+      "translatedExcerpt": "It has been decided that Yuzu will release an all-time best album in the spring of 2027, and will hold an anniversary live at Nissan Stadium on May 15th (Sat) and 16th (Sun) of the same year. This is their first all-time best album in 10 years since \"Yuzu Iroha 1997-2017\", which was released in 2017 to commemorate the 20th anniversary of their debut. It's been about 22 years since Nissan Stadium Live. It will be the \"ultimate anniversary live\" to commemorate the 30th anniversary of their debut in 2027, and the set list will be different for the two days. Release information \"Don't stop your heart\" https://ototoy.jp/_/default/p/4308787 Tour information YUZU 30th ANNIVERSARY STADIUM LIVE 2027 Nissan Stadium Saturday, May 15, 2027 DAY1 \"YU\" A..."
+    },
     {
       "id": "72877987190a1920",
       "title": "Japan Releases Life-Sized Female Body Pillows With Breasts, Curves & Customizable Bodies",
@@ -182,7 +201,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8819df72d4391483",
@@ -216,7 +236,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ca7daa9aa3305bfd",
@@ -250,7 +271,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e635b21ecc1bc712",
@@ -1139,7 +1161,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "391d4e28a33a62e1",
@@ -1473,7 +1496,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "23d7068beafb5178",
@@ -1490,7 +1514,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ff7d8990dbc10435",
@@ -1524,7 +1549,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "34daff2037fb4ecb",
@@ -1647,7 +1673,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "967b76c073e7e38c",
@@ -2289,7 +2316,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "882591ec9b169f52",
@@ -2509,7 +2537,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "789d6cd0014e7764",
@@ -2913,7 +2942,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7fb7e7203054d044",
@@ -2983,7 +3013,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ac80813f563e9bac",
@@ -3085,7 +3116,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f45177317369cb72",
@@ -3221,7 +3253,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "42c9a30c0dcd539d",
@@ -3405,7 +3438,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7e13314e5e9a1173",
@@ -3999,7 +4033,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6c03c9bdb160854e",
@@ -7128,7 +7163,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "72ae0c84968f17bd",
@@ -7145,7 +7181,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1975977edb4a3647",
@@ -7819,7 +7856,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f8cfbbbdaee02813",
@@ -7836,7 +7874,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ff9e4fb196c61c5e",
@@ -8821,7 +8860,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "dd5bc3b054a7c25c",
@@ -8838,7 +8878,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "78ee0fd0a7251e2a",
@@ -9487,7 +9528,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fce756ccf0ea00ff",
@@ -9504,7 +9546,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1249f0d0f81d40a2",
@@ -9752,7 +9795,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "373447c55e7ef60b",
@@ -9769,7 +9813,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6844891372020ab6",
@@ -10557,7 +10602,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "38adb8123cfd293f",
@@ -10574,7 +10620,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f62e15eb48bfb7de",
@@ -10910,7 +10957,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7fc60b8d6702778c",
@@ -10927,7 +10975,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3182c84ec53fbde9",
@@ -11424,7 +11473,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "64e0ceb9dd18db6c",
@@ -11441,7 +11491,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a618a402e3789845",
@@ -11714,7 +11765,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "51e6e71d7b35069c",
@@ -11731,7 +11783,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0b1247505f7f8fe8",
@@ -11850,7 +11903,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "49aa15534d65cf92",
@@ -11867,7 +11921,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "12d90e61743b3577",
@@ -12122,7 +12177,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7266a487894f3ae3",
@@ -12139,7 +12195,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8585194375dce8b0",
@@ -12156,7 +12213,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "169c7201da9651d6",
@@ -12666,7 +12724,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e922e499dc600424",
@@ -12683,7 +12742,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0bcbd96cb018d756",
@@ -13209,7 +13269,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4bec4aee487991d0",
@@ -13226,7 +13287,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f2acaa84437ee392",
@@ -13666,7 +13728,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e811ddd014598eab",
@@ -13683,7 +13746,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "d840da8d04d66b60",
@@ -13939,7 +14003,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ba1c48d4cfde43ca",
@@ -13956,7 +14021,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1af5b88c6a39cb04",
@@ -14049,7 +14115,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3f19a7c9bbbc9c97",
@@ -14066,7 +14133,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "edd0cf1aeb970ffd",
@@ -14151,7 +14219,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4501c9c5207ec4e5",
@@ -14168,7 +14237,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "69935c7a17261e1f",
@@ -14534,7 +14604,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f6c4bd1501541adf",
@@ -14551,7 +14622,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "edeb9938a98a3d57",
@@ -14714,7 +14786,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e80a6e889c137564",
@@ -14731,7 +14804,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "76f0ea930e1de960",
@@ -14991,7 +15065,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "39322c4199f7fe6a",
@@ -15008,7 +15083,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f73bae5276f7f615",
@@ -15042,7 +15118,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "dfd5861eef744f32",
@@ -15059,7 +15136,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a7adf3a24b98ee47",
@@ -15076,7 +15154,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "98837d959e0de917",
@@ -15093,7 +15172,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "969eee6522d75714",
@@ -15216,7 +15296,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2b356d7f161a7f75",
@@ -15233,7 +15314,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "624d3a528ebaba08",
@@ -15599,7 +15681,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1b01b5664e2a7e46",
@@ -15616,7 +15699,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c65493ccd844fb99",
@@ -16081,7 +16165,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5c73f0c13ec9f8d4",
@@ -16098,7 +16183,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0d07366039eaae2c",
@@ -16388,7 +16474,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5f43b3d2f00aa65a",
@@ -16405,7 +16492,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fe0e7e3678a78aeb",
@@ -16494,7 +16582,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6f56db5045ad04b1",
@@ -16511,7 +16600,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2128acdc93ea5450",
@@ -16562,7 +16652,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f1ba0ce7bf539ff0",
@@ -16579,7 +16670,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "103c6fda64df8c14",
@@ -17911,7 +18003,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "12e28af426724b01",
@@ -17928,7 +18021,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "de716ece1810a22f",
@@ -18377,25 +18471,6 @@
       },
       "translatedTitle": "New album “ASIAN KUNG-FU GENERATION” to be released after 5 years",
       "translatedExcerpt": "ASIAN KUNG-FU GENERATION has announced that they will release their first original album in about 5 years on January 27, 2027. The album title is the self-titled ``ASIAN KUNG-FU GENERATION'', which is named after the band's name. The new album includes songs such as ``Skins'', the opening theme for the third season of the TV anime ``Dr.STONE SCIENCE FUTURE'', ``Life is Beautiful'', the opening theme for the TV anime ``FARMAGIA'', ``Okaeri Johnny'', which was recorded at ``MUSIC inn Fujieda'', which was built by the NPO ``Apple Vinegar Music Support Organization'' in Fujieda City, Shizuoka Prefecture, and ``MAKUAKE'', which colors the climax of the live performance. In addition, Citizen Watch Co., Ltd. “LIGHT…"
-    },
-    {
-      "id": "f6880576b4ddbe0e",
-      "title": "テイト・マクレー、自立をテーマにした新曲「Housewife」MV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166558",
-      "publishedAt": "2026-10-16T07:30:00.000Z",
-      "excerpt": "テイト・マクレーが、米ビルボード・アルバム・チャート&ldquo;Billboard 200&rd",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166558/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Tate McRae releases music video for new song “Housewife” with the theme of independence",
-      "translatedExcerpt": "Tate McRae ranks on the US Billboard album chart “Billboard 200&rd"
     }
   ]
 }

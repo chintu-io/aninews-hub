@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T13:02:02.187Z",
+  "generatedAt": "2026-10-25T13:32:00.254Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 131,
+      "count": 130,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 122,
+      "count": 123,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 211,
+      "count": 214,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 254,
+      "count": 253,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 151,
+      "count": 149,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,122 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 612,
+    "translatedJapaneseArticles": 614,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "39b3957616a620af",
+      "title": "BE:FIRST、ニューアルバム『BE:4U』楽曲制作ビハインド映像のダイジェスト公開 ドームツアー追加公演を発表",
+      "link": "https://www.billboard-japan.com/d_news/detail/166777",
+      "publishedAt": "2026-10-25T13:25:00.000Z",
+      "excerpt": "BE:FIRSTが、2026年11月3日にリリースとなるニューアルバム『BE:4U』のBMSG M",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166777/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "BE:FIRST releases digest of behind-the-scenes footage of new album “BE:4U” and announces additional dome tour performances",
+      "translatedExcerpt": "BE:FIRST's new album \"BE:4U\" will be released on November 3, 2026."
+    },
+    {
+      "id": "3ad289568927f9ec",
+      "title": "STARGLOW、新曲「Slam Dunk」MVティザー＆HEARTSTEEL「Live My Life」カバー映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166776",
+      "publishedAt": "2026-10-25T13:20:00.000Z",
+      "excerpt": "STARGLOWが、2026年10月26日に配信リリースとなる新曲「Slam Dunk」のMVティ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166776/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "STARGLOW releases new song “Slam Dunk” MV teaser & HEARTSTEEL “Live My Life” cover video",
+      "translatedExcerpt": "STARGLOW has released the music video for their new song “Slam Dunk” which will be released on October 26, 2026."
+    },
+    {
+      "id": "c9b4acfdc18c6d2e",
+      "title": "川西拓実（JO1）、自身が作詞・作曲を手掛けたEP『tomorrow』配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/166775",
+      "publishedAt": "2026-10-25T13:10:00.000Z",
+      "excerpt": "川西拓実（JO1）が、2026年10月27日18時にニューEP『tomorrow』を配信リリースす",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166775/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Takumi Kawanishi (JO1) releases EP “tomorrow” which he wrote and composed himself",
+      "translatedExcerpt": "Takumi Kawanishi (JO1) will release his new EP “tomorrow” on October 27, 2026 at 6pm."
+    },
+    {
+      "id": "cf712d821df7ce79",
+      "title": "【ライブレポート】KiiiKiii、日本初の単独公演＜KiiiKiii FesTiiival JAPAN Edition＞にファンとの絆「幸せと感動をもらえました！」",
+      "link": "https://barks.jp/news/1100574",
+      "publishedAt": "2026-10-25T13:08:00.000Z",
+      "excerpt": "“Gen Z美”を持つK-POPグループKiiiKiii (JIYU / LEESOL / SUI / HAUM / KYA)が本日10月25日、東京・Zepp Haneda(TOKYO)にて、デビュー後初となる海外ファンコンサート＜KiiiKiii FesTiiival JAPAN Edition＞を開催した。同公演のオフィシャルレポートをお届けしたい。 今回の公演は、今年5月にソウルで開催された初のファンコンサート＜KiiiKiii FesTiiival＞の延長線上にあるもの。KiiiKiiiにとっては初の海外ファンコンサートながら全席完売を記録、ソウル公演の熱気を日本へとつなぎ、集まった日本のTiiiKiii (KiiiKiiiのファンダム名)を魅了した。 KiiiKiiiはデビュー以来、日本の主要…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/25220553/BBB03461-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "[Live Report] KiiiKiii's bond with fans at Japan's first solo performance <KiiiKiii FesTiiival JAPAN Edition> ``I felt happy and moved!''",
+      "translatedExcerpt": "K-Pop group KiiiKiii (JIYU / LEESOL / SUI / HAUM / KYA), which has a \"Gen Z beauty\", held its first overseas fan concert since its debut <KiiiKiii FesTiiival JAPAN Edition> today, October 25th, at Zepp Haneda (TOKYO) in Tokyo. We would like to bring you the official report of the performance. This performance is an extension of their first fan concert <KiiiKiii FesTiiival> held in Seoul in May of this year. Although it was KiiiKiii's first overseas fan concert, all seats were sold out, and the enthusiasm from the Seoul performance was transferred to Japan, captivating the gathered Japanese TiiiKiii (KiiiKiii fandom name). Since their debut, KiiiKiii has been a major..."
+    },
+    {
+      "id": "153ae65a48df6d7f",
+      "title": "Mrs. GREEN APPLE、大森元貴が監督・企画・脚本を担当した「シンデレラ」MVは自己肯定の物語",
+      "link": "https://www.billboard-japan.com/d_news/detail/166774",
+      "publishedAt": "2026-10-25T13:05:00.000Z",
+      "excerpt": "Mrs. GREEN APPLEが、新曲「シンデレラ」のミュージックビデオを公開した。 新曲「",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166774/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Mrs. GREEN APPLE's \"Cinderella\" MV, directed, planned, and written by Motoki Omori, is a story of self-affirmation.",
+      "translatedExcerpt": "Mrs. GREEN APPLE has released the music video for their new song \"Cinderella\". New song “"
+    },
+    {
+      "id": "fa0e517ac2a1aa4f",
+      "title": "Chainsaw robots helping keep trains running safely in east Japan [Video]",
+      "link": "https://soranews24.com/2026/10/25/chainsaw-robots-helping-keep-trains-running-safely-in-east-japan-video/",
+      "publishedAt": "2026-10-25T13:00:41.000Z",
+      "excerpt": "Chainsaw-wielding robots prove they can contribute to human mobility in ways other than people running away from them in terror. Japan’s rail network is famous for its sterling safety and reliability records, and neither of those would be achievable without a whole lot of preventive maintenance. East Japan Railway Company (a.k.a. JR East), one of […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/3_44fb60.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "b9280bfb7498c74b",
       "title": "Jazzy、洗練されたダンサブルな新ALリリース",
@@ -185,6 +297,23 @@
       },
       "translatedTitle": "Jazzy, sophisticated and danceable new AL release",
       "translatedExcerpt": "Jazzy released their new album ``Peace & Patience'' on Friday, October 23, 2026. This work, which includes a total of 13 songs, is a work that combines the experience she has cultivated in the club scene and her expressive power as a singer-songwriter. Through uplifting house, sophisticated dance-pop, and storytelling rooted in personal experience, Jazzy presents a musical world unique to Jazz. Production took place across Dublin, London, and Los Angeles, with the participation of producers who support modern pop/dance music, including Mark Ralph, Tre Jean Marie, and Theo Hutchcraft. Centering around Jazzy's unique husky voice, they created a sound that coexists with energy that shines in clubs and delicate emotional expression. Release information..."
+    },
+    {
+      "id": "5d24f63ae220ce73",
+      "title": "Tank Chair and Fool Night Manga Creators Share Collab Visual",
+      "link": "https://crunchyroll.com/news/latest/2026/10/25/tank-chair-fool-night-manga-creators-collab-visual",
+      "publishedAt": "2026-10-25T13:00:00.000Z",
+      "excerpt": "Tank Chair is currently airing, with Fool Night to follow on November 26",
+      "image": "https://a.storyblok.com/f/178900/960x540/3b70e965a1/fool-night-hero.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
     },
     {
       "id": "388cd8d7bef15df1",
@@ -669,7 +798,7 @@
     },
     {
       "id": "7b910366737128c7",
-      "title": "KiiiKiii、初の海外ファンコンサート＜KiiiKiii FESTIVAL JAPAN EDITION＞全席完売で開催",
+      "title": "KiiiKiii、初の海外ファンコンサート＜KiiiKiii FesTiiival JAPAN Edition＞の注目ポイントを解説",
       "link": "https://barks.jp/news/1100524",
       "publishedAt": "2026-10-25T06:14:30.000Z",
       "excerpt": "K-POPガールズグループのKiiiKiiiが本日25日、東京・Zepp Haneda(TOKYO)にてデビュー後初となる海外ファンコンサート＜KiiiKiii FesTiiival JAPAN Edition＞へと臨む。 今回の公演は、今年5月にソウルで開催された初のファンコンサート＜KiiiKiii FesTiiival＞の延長線上にあるもの。KiiiKiiiは初の海外ファンコンサートから全席完売を記録し、現地での人気を証明した。ソウル公演の熱気を日本へとつなぐKiiiKiiiが、どのような新たな魅力を披露するのか注目が集まっている。今回は＜KiiiKiii FesTiiival JAPAN Edition＞の注目ポイントをご紹介しよう。 KiiiKiiiはソウル公演で、「404 (New Era)」…",
@@ -683,7 +812,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "KiiiKiii's first overseas fan concert <KiiiKiii FESTIVAL JAPAN EDITION> held with all seats sold out",
+      "translatedTitle": "KiiiKiii explains the highlights of the first overseas fan concert <KiiiKiii FesTiiival JAPAN Edition>",
       "translatedExcerpt": "K-POP girl group KiiiKiii will be holding their first overseas fan concert ``KiiiKiii FesTiiival JAPAN Edition'' at Zepp Haneda (TOKYO) in Tokyo today, the 25th. This performance is an extension of their first fan concert <KiiiKiii FesTiiival> held in Seoul in May of this year. KiiiKiii's first overseas fan concert sold out all seats, proving their popularity locally. All eyes are on what kind of new charm KiiiKiii will show as they bring the excitement of their Seoul performance to Japan. This time, we will introduce the highlights of <KiiiKiii FesTiiival JAPAN Edition>. KiiiKiii performed “404 (New Era)” at their Seoul performance…"
     },
     {
@@ -18269,135 +18398,6 @@
       },
       "translatedTitle": "Bluey (Incognito), 4th Solo Album “Skint” Release & MV Release",
       "translatedExcerpt": "Incognito will release their fourth solo album, Skint, on October 16th on Digital Lilly"
-    },
-    {
-      "id": "53bb42ebfffa9482",
-      "title": "セレーナ・ゴメス、結婚1周年は夫ベニー・ブランコとパジャマで結婚式の動画を鑑賞",
-      "link": "https://www.billboard-japan.com/d_news/detail/166551",
-      "publishedAt": "2026-10-16T03:15:00.000Z",
-      "excerpt": "現地時間2026年10月14日の夜、セレーナ・ゴメスが、米ロサンゼルスのハリウッド・パラディアムで",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166551/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Selena Gomez Watches Wedding Video in Pyjamas with Husband Benny Branco on 1st Wedding Anniversary",
-      "translatedExcerpt": "Selena Gomez at the Hollywood Palladium in Los Angeles on the night of October 14, 2026"
-    },
-    {
-      "id": "ee28af3ba32988b0",
-      "title": "YOASOBI × トム・クルーズ、対談映像を今夜公開",
-      "link": "https://barks.jp/news/1094464",
-      "publishedAt": "2026-10-16T03:10:34.000Z",
-      "excerpt": "YOASOBIが、映画『DIGGER／ディガー』のワールドツアー最終地として来日したトム・クルーズと特別対談を行い、その模様を収めた対談映像を本日20時に公開することを発表した。 『DIGGER／ディガー』は、トム・クルーズが巨匠イニャリトゥ監督とタッグを組み、俳優人生45年の集大成として挑んだ最新主演作。対談では、物語と向き合いながら作品を生み出す表現者同士として、それぞれの創作への向き合い方や、ものづくりを続けていくことへの想いを語り合ったという。 世界のクリエイターと肩を並べ、活躍の場をさらに広げるYOASOBIの貴重な対談映像を是非チェックしてほしい。 また、年内にリリースを予定している新曲「KILLA」の原作小説『センパイを殺したいので女装する』が本日発売された。本作は、“『はじめての』文芸部”…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/08/31111912/YOASOBI_202606New-Artist-Photo3599.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "YOASOBI × トム・クルーズ、対談映像を今夜公開",
-      "translatedExcerpt": "YOASOBIが、映画『DIGGER／ディガー』のワールドツアー最終地として来日したトム・クルーズと特別対談を行い、その模様を収めた対談映像を本日20時に公開することを発表した。 『DIGGER／ディガー』は、トム・クルーズが巨匠イニャリトゥ監督とタッグを組み、俳優人生45年の集大成として挑んだ最新主演作。対談では、物語と向き合いながら作品を生み出す表現者同士として、それぞれの創作への向き合い方や、ものづくりを続けていくことへの想いを語り合ったという。 世界のクリエイターと肩を並べ、活躍の場をさらに広げるYOASOBIの貴重な対談映像を是非チェックしてほしい。 また、年内にリリースを予定している新曲「KILLA」の原作小説『センパイを殺したいので女装する』が本日発売された。本作は、“『はじめての』文芸部”…"
-    },
-    {
-      "id": "6503b571f0aa12e0",
-      "title": "Singer Kenshi Yonezu Goes on World Tour in Early 2027",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-15/singer-kenshi-yonezu-goes-on-world-tour-in-early-2027/.242870",
-      "publishedAt": "2026-10-16T03:05:31.000Z",
-      "excerpt": "Tour goes to S. Korea, Singapore, USA, Mexico, Canada, UK, France, Netherlands",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHG/cms/news.10/242870/yonezu.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "8bd3b5c91eccea3c",
-      "title": "Studio Ghibli adds new Totoro and Jiji blanket socks to its merchandise store in Japan",
-      "link": "https://soranews24.com/2026/10/16/studio-ghibli-adds-new-totoro-and-jiji-blanket-socks-to-its-merchandise-store-in-japan/",
-      "publishedAt": "2026-10-16T03:00:08.000Z",
-      "excerpt": "Beloved anime movie characters are perfectly placed for wiggle-toe animation. The cosy season has finally arrived in Japan, and here to herald its arrival is Studio Ghibli, with a duo of brand new blanket socks. Designed for homey nights in, these warm blanket socks will cuddle your feet and warm your heart, with Totoro and […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/Studio-Ghibli-Japan-anime-shop-blanket-socks-My-Neighbour-Totoro-Kikis-Delivery-Service-Jiji-Donguri-Kyowakoku-movie-film-merchandise-news-1-1.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "c742b6e882c79074",
-      "title": "〈iのかたち 3〉、butohes、In Morfine Sugar、in sea hole、サバノオミソニー迎えLIVE HAUSで開催",
-      "link": "https://ototoy.jp/news/132294",
-      "publishedAt": "2026-10-16T03:00:00.000Z",
-      "excerpt": "〈iのかたち 3〉が2026年10月16日(金)に下北沢LIVE HAUSで開催される。 〈iのかたち〉はshowとtaku tsushimaによる企画シリーズ。3回目の開催となる今回は、butohes、In Morfine Sugar、in sea hole、サバノオミソニーの4組が出演する。 butohesはポストロックやアンビエント、電子音楽など多様な要素を取り入れた4人組ロック・バンド。In Morfine Sugarは名古屋で始動し、現在は東京を拠点に活動するシューゲイザー・バンド。in sea holeはオルタナティヴからキャッチーまでを横断するサウンドと、Vo.かたがたの優しく儚い歌声が織りなす繊細な音像を特徴とする4ピース・ロック・バンド。サバノオミソニーはメンバー全員が作詞作曲を手がけ、…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132294/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "〈i-katachi 3〉, butohes, In Morfine Sugar, in sea hole, LIVE held at HAUS with Saba No Omi Sonny",
-      "translatedExcerpt": "<i no Katachi 3> will be held at Shimokitazawa LIVE HAUS on Friday, October 16, 2026. 〈Shape of i〉 is a series planned by show and taku tsushima. This time, which will be held for the third time, four groups will perform: butohes, In Morfine Sugar, in sea hole, and Saba no Omi Sonny. butohes is a four-piece rock band that incorporates various elements such as post-rock, ambient, and electronic music. In Morfine Sugar is a shoegaze band that started in Nagoya and is currently based in Tokyo. in sea hole is a 4-piece rock band that features a sound that ranges from alternative to catchy, and a delicate sound image created by vocalist Katagata's gentle and ephemeral singing voice. All members of Saba no Omi Sonny wrote and composed the lyrics..."
-    },
-    {
-      "id": "74b5e153a7f35b2c",
-      "title": "【インタビュー】愛美、原点回帰のEP「AIM STAR」で力強く鳴らす“渇望”の音楽",
-      "link": "https://barks.jp/news/1093898",
-      "publishedAt": "2026-10-16T03:00:00.000Z",
-      "excerpt": "声優アーティスト・愛美が、10月14日にEP「AIM STAR」をリリース。これまで出演作においてキャラクターソングの提供を受けてきた藤永龍太郎（Elements Garden）や黒須克彦と“愛美”とタッグを組み、さらには自ら作曲にも挑戦。そこに4月に配信リリースした「ドラマチック逃避行」を加えた4曲収録のEPとして仕上がった。 そんな本作の制作にあたって、基盤になった想いは“原点回帰”。そこには本作の制作プロセスや、ここ最近の彼女に訪れた心境の変化が大きく関係していた。本稿ではそれら一つひとつの要素に丁寧に迫り、その想いを軸に生み出した新曲3曲に込めたものについてもたっぷり語ってもらった。 ◆ ◆ ◆ ──まずは今回のEPについて、どんなテーマのもと制作されたのかをお聞きしたいのですが。 愛美：今回は「…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/12234505/0720_030-1.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "【インタビュー】愛美、原点回帰のEP「AIM STAR」で力強く鳴らす“渇望”の音楽",
-      "translatedExcerpt": "声優アーティスト・愛美が、10月14日にEP「AIM STAR」をリリース。これまで出演作においてキャラクターソングの提供を受けてきた藤永龍太郎（Elements Garden）や黒須克彦と“愛美”とタッグを組み、さらには自ら作曲にも挑戦。そこに4月に配信リリースした「ドラマチック逃避行」を加えた4曲収録のEPとして仕上がった。 そんな本作の制作にあたって、基盤になった想いは“原点回帰”。そこには本作の制作プロセスや、ここ最近の彼女に訪れた心境の変化が大きく関係していた。本稿ではそれら一つひとつの要素に丁寧に迫り、その想いを軸に生み出した新曲3曲に込めたものについてもたっぷり語ってもらった。 ◆ ◆ ◆ ──まずは今回のEPについて、どんなテーマのもと制作されたのかをお聞きしたいのですが。 愛美：今回は「…"
-    },
-    {
-      "id": "3d73c0b90c800086",
-      "title": "Ralphie Choo、メロディアスな新曲リリース",
-      "link": "https://ototoy.jp/news/132283",
-      "publishedAt": "2026-10-16T03:00:00.000Z",
-      "excerpt": "Ralphie Chooが2026年10月9日(金)にニューシングル「Amarillo nena」をリリースした。 デビューアルバム『SUPERNOVA』で提示したジャンル横断的な音楽性を背景に、本作ではアコースティックギターやピアノ、柔らかなファルセットを軸とした、より親密でメロディアスなサウンドを展開。大胆な音響実験だけにとどまらず、歌そのものが持つ美しさと感情表現に焦点を当てた、新たな創作の方向性を示す作品となっている。 タイトルの「Amarillo」はスペイン語で「黄色」を意味する言葉。本楽曲は、海岸や太陽を思わせるイメージと、恋愛にまつわる感情を想起させる楽曲に仕上がっている。 リリース情報 https://ototoy.jp/_/default/p/4302712 アーティスト情報 https…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132283/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Ralphie Choo releases melodious new song",
-      "translatedExcerpt": "Ralphie Choo released his new single \"Amarillo nena\" on Friday, October 9, 2026. Building on the genre-crossing musicality presented in their debut album \"SUPERNOVA,\" this album features a more intimate and melodious sound centered around acoustic guitar, piano, and soft falsetto. This work shows a new creative direction, focusing not only on bold acoustic experiments but also on the beauty and emotional expression of the song itself. The title ``Amarillo'' is a Spanish word that means ``yellow.'' This song is a song that evokes images of the coast and the sun, as well as emotions related to love. Release information https://ototoy.jp/_/default/p/4302712 Artist information https…"
     }
   ]
 }

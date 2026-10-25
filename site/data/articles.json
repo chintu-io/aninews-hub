@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:32:44.586Z",
+  "generatedAt": "2026-10-25T23:04:45.543Z",
   "sources": [
     {
       "id": "sankaku",
@@ -151,22 +151,41 @@
     {
       "id": "sankaku",
       "name": "Sankaku Complex",
-      "status": "error",
-      "mode": null,
-      "feedUrl": null,
+      "status": "ok",
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 75,
-      "fetchedCount": 0
+      "fetchedCount": 24
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 7,
-    "failedSources": 1,
+    "successfulSources": 8,
+    "failedSources": 0,
     "articleCount": 1000,
     "translatedJapaneseArticles": 615,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "ffc15e19238ad31d",
+      "title": "PSYプロデュースのガールズグループ・Baby DONT Cry、ワーナーミュージック・ジャパンより日本デビュー決定",
+      "link": "https://barks.jp/news/1100312",
+      "publishedAt": "2026-10-25T23:00:00.000Z",
+      "excerpt": "世界的ヒット曲「江南スタイル」で知られるPSY（サイ）が手掛ける初のガールズグループ・Baby DONT Cry（読み：ベイビードンクライ）が、2027年1月20日にJAPAN DEBUT MINI ALBUM『DAYBREAK/Replay -Japanese ver.-』のリリースにて、日本デビューすることを発表した。 本作の発売に先駆け、11月4日にダブルタイトル曲「Replay -Japanese ver.-」の先行配信も決定した。さらに同日、韓国でも「Replay」のオリジナルバージョンが配信リリースとなり、日韓同時に華々しいスタートを切る。 Baby DONT Cryは「世の中の偏見を打ち破り、堂々と突き進む“可愛い女の子たち”」という意味を持つ、PSYが率いるPNATIONが初めて世に送り出…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/24104605/%E9%9B%86%E5%90%88_%E3%83%A1%E3%82%A4%E3%83%B3_mini-1024x682.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Baby DONT Cry, a girl group produced by PSY, will debut in Japan from Warner Music Japan",
+      "translatedExcerpt": "Baby DONT Cry, the first girl group produced by PSY, known for the global hit song \"Gangnam Style,\" has announced that they will debut in Japan with the release of their JAPAN DEBUT MINI ALBUM \"DAYBREAK/Replay -Japanese ver.-\" on January 20, 2027. Prior to the release of this work, it has been decided that the double title song \"Replay -Japanese ver.-\" will be distributed in advance on November 4th. Furthermore, on the same day, the original version of \"Replay\" was released for distribution in South Korea, giving it a spectacular start in both Japan and South Korea. Baby DONT Cry, which means \"cute girls who break through the prejudices of the world and push forward boldly,\" was first released to the world by PNATION, led by PSY."
+    },
     {
       "id": "baaf4af502a26e9c",
       "title": "ゆず、来春10年ぶりベストAL＆日産スタジアムライブ決定",
@@ -201,8 +220,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8819df72d4391483",
@@ -236,8 +254,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ca7daa9aa3305bfd",
@@ -271,8 +288,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e635b21ecc1bc712",
@@ -1161,8 +1177,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "391d4e28a33a62e1",
@@ -1496,8 +1511,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "23d7068beafb5178",
@@ -1514,8 +1528,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ff7d8990dbc10435",
@@ -1549,8 +1562,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "34daff2037fb4ecb",
@@ -1673,8 +1685,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "967b76c073e7e38c",
@@ -2316,8 +2327,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "882591ec9b169f52",
@@ -2537,8 +2547,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "789d6cd0014e7764",
@@ -2942,8 +2951,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7fb7e7203054d044",
@@ -3013,8 +3021,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ac80813f563e9bac",
@@ -3116,8 +3123,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f45177317369cb72",
@@ -3253,8 +3259,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "42c9a30c0dcd539d",
@@ -3438,8 +3443,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7e13314e5e9a1173",
@@ -4033,8 +4037,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "6c03c9bdb160854e",
@@ -7163,8 +7166,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "72ae0c84968f17bd",
@@ -7181,8 +7183,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1975977edb4a3647",
@@ -7856,8 +7857,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f8cfbbbdaee02813",
@@ -7874,8 +7874,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ff9e4fb196c61c5e",
@@ -8860,8 +8859,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "dd5bc3b054a7c25c",
@@ -8878,8 +8876,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "78ee0fd0a7251e2a",
@@ -9528,8 +9525,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fce756ccf0ea00ff",
@@ -9546,8 +9542,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1249f0d0f81d40a2",
@@ -9795,8 +9790,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "373447c55e7ef60b",
@@ -9813,8 +9807,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "6844891372020ab6",
@@ -10602,8 +10595,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "38adb8123cfd293f",
@@ -10620,8 +10612,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f62e15eb48bfb7de",
@@ -10957,8 +10948,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7fc60b8d6702778c",
@@ -10975,8 +10965,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3182c84ec53fbde9",
@@ -11473,8 +11462,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "64e0ceb9dd18db6c",
@@ -11491,8 +11479,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a618a402e3789845",
@@ -11765,8 +11752,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "51e6e71d7b35069c",
@@ -11783,8 +11769,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "0b1247505f7f8fe8",
@@ -11903,8 +11888,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "49aa15534d65cf92",
@@ -11921,8 +11905,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "12d90e61743b3577",
@@ -12177,8 +12160,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7266a487894f3ae3",
@@ -12195,8 +12177,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8585194375dce8b0",
@@ -12213,8 +12194,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "169c7201da9651d6",
@@ -12724,8 +12704,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e922e499dc600424",
@@ -12742,8 +12721,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "0bcbd96cb018d756",
@@ -13269,8 +13247,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4bec4aee487991d0",
@@ -13287,8 +13264,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f2acaa84437ee392",
@@ -13728,8 +13704,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e811ddd014598eab",
@@ -13746,8 +13721,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "d840da8d04d66b60",
@@ -14003,8 +13977,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ba1c48d4cfde43ca",
@@ -14021,8 +13994,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1af5b88c6a39cb04",
@@ -14115,8 +14087,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3f19a7c9bbbc9c97",
@@ -14133,8 +14104,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "edd0cf1aeb970ffd",
@@ -14219,8 +14189,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4501c9c5207ec4e5",
@@ -14237,8 +14206,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "69935c7a17261e1f",
@@ -14604,8 +14572,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f6c4bd1501541adf",
@@ -14622,8 +14589,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "edeb9938a98a3d57",
@@ -14786,8 +14752,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e80a6e889c137564",
@@ -14804,8 +14769,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "76f0ea930e1de960",
@@ -15065,8 +15029,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "39322c4199f7fe6a",
@@ -15083,8 +15046,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f73bae5276f7f615",
@@ -15118,8 +15080,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "dfd5861eef744f32",
@@ -15136,8 +15097,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a7adf3a24b98ee47",
@@ -15154,8 +15114,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "98837d959e0de917",
@@ -15172,8 +15131,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "969eee6522d75714",
@@ -15296,8 +15254,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2b356d7f161a7f75",
@@ -15314,8 +15271,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "624d3a528ebaba08",
@@ -15681,8 +15637,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1b01b5664e2a7e46",
@@ -15699,8 +15654,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c65493ccd844fb99",
@@ -16165,8 +16119,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "5c73f0c13ec9f8d4",
@@ -16183,8 +16136,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "0d07366039eaae2c",
@@ -16474,8 +16426,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "5f43b3d2f00aa65a",
@@ -16492,8 +16443,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fe0e7e3678a78aeb",
@@ -16582,8 +16532,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "6f56db5045ad04b1",
@@ -16600,8 +16549,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2128acdc93ea5450",
@@ -16652,8 +16600,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f1ba0ce7bf539ff0",
@@ -16670,8 +16617,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "103c6fda64df8c14",
@@ -18003,8 +17949,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "12e28af426724b01",
@@ -18021,8 +17966,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "de716ece1810a22f",
@@ -18452,25 +18396,6 @@
       },
       "translatedTitle": "Suisei Hoshimachi will broadcast special terrestrial radio program “Suisei Hoshimachi’s ZOMBIE! ZOMBIE!! FRIDAY!!!”",
       "translatedExcerpt": "Suisei Hoshimachi has announced that the special program ``Suisei Hoshimachi's ZOMBIE! ZOMBIE!! FRIDAY!!!'', in which she will serve as a personality, will be broadcast on October 30, 2026 at 7pm. Ahead of the digital release of Natori's song ``Zombie Zombie Zombie'' on October 24th, this special program will look back at her journey so far, from ``GUM & DROP'' to her latest song ``Zombie Zombie Zombie.'' The program will also collect emails from listeners. The email theme is ``Memories and requests related to Suisei Hoshimachi's songs,'' as well as ``Small horrors that happened around you,'' in connection with the broadcast on the night before Halloween. We would like you to send us episodes that will enliven the broadcast. ◾️Broadcast date and time of Nippon Cultural Broadcasting “Hoshimachi Suisei no ZOMBIE! ZOMBIE!! FRIDAY!!!”"
-    },
-    {
-      "id": "2db934caa89b02ff",
-      "title": "約5年ぶりのニューアルバム『ASIAN KUNG-FU GENERATION』発売決定",
-      "link": "https://barks.jp/news/1094485",
-      "publishedAt": "2026-10-16T08:00:00.000Z",
-      "excerpt": "ASIAN KUNG-FU GENERATIONが、約5年ぶりとなるオリジナルアルバムを2027年1月27日にリリースすることを発表した。アルバムタイトルは、バンド名を冠したセルフタイトル『ASIAN KUNG-FU GENERATION』だ。 ニューアルバムには、TVアニメ『Dr.STONE SCIENCE FUTURE』最終シーズン第3クールオープニングテーマ「スキンズ」、TVアニメ『FARMAGIA』オープニングテーマ「ライフ イズ ビューティフル」、NPO法人「アップルビネガー音楽支援機構」が、静岡県藤枝市に建設した「MUSIC inn Fujieda」でレコーディングを行った「おかえりジョニー」、ライブのクライマックスを彩る「MAKUAKE」なども収録。ほかにも、シチズン時計株式会社“LIGHT…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/24140412/3_AKG%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "New album “ASIAN KUNG-FU GENERATION” to be released after 5 years",
-      "translatedExcerpt": "ASIAN KUNG-FU GENERATION has announced that they will release their first original album in about 5 years on January 27, 2027. The album title is the self-titled ``ASIAN KUNG-FU GENERATION'', which is named after the band's name. The new album includes songs such as ``Skins'', the opening theme for the third season of the TV anime ``Dr.STONE SCIENCE FUTURE'', ``Life is Beautiful'', the opening theme for the TV anime ``FARMAGIA'', ``Okaeri Johnny'', which was recorded at ``MUSIC inn Fujieda'', which was built by the NPO ``Apple Vinegar Music Support Organization'' in Fujieda City, Shizuoka Prefecture, and ``MAKUAKE'', which colors the climax of the live performance. In addition, Citizen Watch Co., Ltd. “LIGHT…"
     }
   ]
 }

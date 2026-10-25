@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T16:33:21.311Z",
+  "generatedAt": "2026-10-25T17:04:41.906Z",
   "sources": [
     {
       "id": "sankaku",
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 19,
+      "count": 20,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 215,
+      "count": 214,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 74,
       "fetchedCount": 24
     }
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 617,
+    "translatedJapaneseArticles": 615,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8819df72d4391483",
+      "title": "'Houseki no Kuni' Creator Launches New Manga",
+      "link": "https://myanimelist.net/news/74862294?_location=rss",
+      "publishedAt": "2026-10-25T16:56:41.000Z",
+      "excerpt": "The December 2026 issue of Monthly Afternoon magazine announced on Friday that manga creator Haruko Ichikawa will launch a new sci-fi manga, titled Cosmic Mimimi, in the magazine next issue, scheduled for a November 25 release. Haruko is best known for Houseki no Kuni (Land of the Lustrous), which ran in Monthly Afternoon magazine from October 2012 to Apr…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1792947256-48652f5832829a27561fe34a191b3265.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
     {
       "id": "cb65c881b7c3f2e5",
       "title": "Mangaka Forced to Change Black Villain to White to Avoid “Racism Complaints”",
@@ -206,7 +223,7 @@
       "title": "Castlevania: Belmont’s Curse Mocked Over Difference Between Promo Art & In-Game Art",
       "link": "https://news.sankakucomplex.com/n/DgBCLSzBSKbgrfrVcCw0Fg",
       "publishedAt": "2026-10-25T15:09:29.000Z",
-      "excerpt": "Castlevania: Belmont’s Curse has attracted criticism from some gamers over the noticeable difference between its attractive promotional character artwork and the actual in-game designs, with comparisons prompting jokes about how the finished product fails to live up to its advertisements.",
+      "excerpt": "Castlevania: Belmont’s Curse has attracted criticism from some gamers over the noticeable difference between its attractive promotional character artwork and the actual in-game designs, with comparisons prompting jokes about how the finished product fails to live up to its advertisements. The dis…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1095,7 +1112,7 @@
       "title": "Dead or Alive Xtreme Venus Vacation Adds Sexy Witch Outfits for Halloween",
       "link": "https://news.sankakucomplex.com/n/FTqxVGw7UtEQudHfqFSZNg",
       "publishedAt": "2026-10-25T05:00:46.000Z",
-      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire.",
+      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire. The latest SSR swimsuit, titled “Hexen Nagel,” arrived on October…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1429,7 +1446,7 @@
       "title": "Hatsune Miku Producer Supercell Returns With Two New Pokemon Songs After 10 Years",
       "link": "https://news.sankakucomplex.com/n/38pT5WuHMydYQSgiHov1IQ",
       "publishedAt": "2026-10-25T01:00:27.000Z",
-      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary.",
+      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary. The songs, titled “LEGENDS” and “1…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1446,7 +1463,7 @@
       "title": "Former BioWare Producer Allegedly Rejected Job Applicants Over Political Views",
       "link": "https://news.sankakucomplex.com/n/mOAwFYxzyRI46yXaIGec1A",
       "publishedAt": "2026-10-24T21:00:17.000Z",
-      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with.",
+      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with. Avello…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1603,7 +1620,7 @@
       "title": "Playasia Shuts Down Website After Weeks of Relentless Cyberattacks",
       "link": "https://news.sankakucomplex.com/n/WGaHCIW8aR5c6Z6oe0Qu1A",
       "publishedAt": "2026-10-24T13:05:11.000Z",
-      "excerpt": "Popular video game import retailer Playasia has temporarily shut down its website after suffering weeks of increasingly sophisticated cyberattacks, with the company’s CEO warning that the attacks appear to be part of a massive coordinated campaign targeting tens of thousands of organizations.",
+      "excerpt": "Popular video game import retailer Playasia has temporarily shut down its website after suffering weeks of increasingly sophisticated cyberattacks, with the company’s CEO warning that the attacks appear to be part of a massive coordinated campaign targeting tens of thousands of organizations. On…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2200,7 +2217,7 @@
         "language": "ja"
       },
       "translatedTitle": "Myke Towers releases new retro song",
-      "translatedExcerpt": "Myke Towers released his new single \"Te Imagino\" on Wednesday, October 21, 2026. This work combines retro synthesizers reminiscent of the 80s with modern, smooth urban beats. It depicts an unforgettable night encounter and the intense chemistry between two people who are drawn to each other. This song incorporates a vocal sample inspired by De La Ghetto's \"Tú Te Imaginas\", which is known as a Latin urban masterpiece. It balances respect for the genre's roots with modern sound design. Release information https://ototoy.jp/_/default/p/4362005 Artist information https://www.instagram.com/myketowers/"
+      "translatedExcerpt": "Myke Towers released his new single \"Te Imagino\" on Wednesday, October 21, 2026. This work combines retro synthesizers reminiscent of the 80's with modern, smooth urban beats. It depicts an unforgettable night encounter and the intense chemistry between two people who are drawn to each other. This song incorporates a vocal sample inspired by De La Ghetto's \"Tú Te Imaginas\", which is known as a Latin urban masterpiece. It balances respect for the genre's roots with modern sound design. Release information https://ototoy.jp/_/default/p/4362005 Artist information https://www.instagram.com/myketowers/"
     },
     {
       "id": "63470043ba569fcd",
@@ -2245,7 +2262,7 @@
       "title": "Disgaea Creator Secretly Took $127,000 Loan Without Telling Wife to Finish His New Game",
       "link": "https://news.sankakucomplex.com/n/dt4WiSZ8N0kr8t7f43r1Jg",
       "publishedAt": "2026-10-24T08:00:06.000Z",
-      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever.",
+      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever. Niikawa disclosed the fi…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4098,7 +4115,7 @@
         "language": "ja"
       },
       "translatedTitle": "ART-SCHOOL releases new SG “Tenement Angel / The Fragile Song”",
-      "translatedExcerpt": "ART-SCHOOL released their new single \"Tenement Angel / The Fragile Song\" on October 21, 2026. “Tenement Angel” is a song that has a light and speedy sound and a dreamy worldview that spreads freely. On the other hand, \"The Fragile Song\" has a rock sound that stands out with lyrics that feel like searching for a ray of light in the darkness and Riki Kinoshita's emotional singing.Through these two songs with contrasting expressions, it is a work that makes you feel the charm of ART-SCHOOL, which has two different sides like light and darkness. Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/1178 Artist information https://x.com/ART_…"
+      "translatedExcerpt": "ART-SCHOOL released their new single \"Tenement Angel / The Fragile Song\" on October 21, 2026. “Tenement Angel” is a song with a light and speedy sound, and a dreamy worldview that spreads freely. On the other hand, \"The Fragile Song\" has a rock sound that stands out with lyrics that feel like searching for a ray of light in the darkness and Riki Kinoshita's emotional singing.Through these two songs with contrasting expressions, it is a work that makes you feel the charm of ART-SCHOOL, which has two different sides like light and darkness. Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/1178 Artist information https://x.com/ART_…"
     },
     {
       "id": "067dec4a1207afb5",
@@ -10513,7 +10530,7 @@
       "title": "Magical Explorer’s Women Squeeze Into Tiny Swimsuits",
       "link": "https://news.sankakucomplex.com/n/QLQlUJyel9B6Ej5Ymn-PDQ",
       "publishedAt": "2026-10-20T10:00:35.000Z",
-      "excerpt": "This season’s current round of anime seems fixated on swimsuits as the latest airing of Magical Explorer has used them as their central fetish, offering watchers some prime lewdness that will feel like an absolute rarity in the current censorious state of the entertainment industry.",
+      "excerpt": "This season’s current round of anime seems fixated on swimsuits as the latest airing of Magical Explorer has used them as their central fetish, offering watchers some prime lewdness that will feel like an absolute rarity in the current censorious state of the entertainment industry. The 3rd episo…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18379,25 +18396,6 @@
         "accent": "#5ca8ff",
         "language": "en"
       }
-    },
-    {
-      "id": "b37bd87d114cc89e",
-      "title": "U2、新曲「ザ・グレイテスト・ショー・オン・アース」公開＆ツアー発表",
-      "link": "https://www.billboard-japan.com/d_news/detail/166557",
-      "publishedAt": "2026-10-16T07:00:00.000Z",
-      "excerpt": "U2が、2026年11月13日にリリースされる16枚目のスタジオ・アルバム『光の祝祭～カルナバル・",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166557/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "U2 release new song “The Greatest Show on Earth” and announce tour",
-      "translatedExcerpt": "U2 will release their 16th studio album “Festival of Lights” on November 13, 2026."
     }
   ]
 }

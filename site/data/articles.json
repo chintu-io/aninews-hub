@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T12:32:06.931Z",
+  "generatedAt": "2026-10-25T13:02:02.187Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 129,
+      "count": 131,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 121,
+      "count": 122,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 212,
+      "count": 211,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 255,
+      "count": 254,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 152,
+      "count": 151,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,80 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 614,
+    "translatedJapaneseArticles": 612,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "b9280bfb7498c74b",
+      "title": "Jazzy、洗練されたダンサブルな新ALリリース",
+      "link": "https://ototoy.jp/news/132438",
+      "publishedAt": "2026-10-25T13:00:00.000Z",
+      "excerpt": "Jazzyが2026年10月23日(金)にニューアルバム『Peace & Patience』をリリースした。 全13曲を収録した本作は、彼女がクラブシーンで培ってきた経験と、シンガー・ソングライターとしての表現力を融合させた作品。高揚感あふれるハウス、洗練されたダンスポップ、そして個人的な経験に根ざしたストーリーテリングを通じて、Jazzyならではの音楽世界を提示している。 制作はダブリン、ロンドン、ロサンゼルスを横断して行われ、Mark Ralph、Tre Jean Marie、Theo Hutchcraftら、現代のポップ／ダンスミュージックを支えるプロデューサー陣が参加。Jazzyの個性的なハスキーボイスを中心に、クラブで映えるエネルギーと、繊細な感情表現が共存するサウンドを作り上げた。 リリース情…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132438/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Jazzy, sophisticated and danceable new AL release",
+      "translatedExcerpt": "Jazzy released their new album ``Peace & Patience'' on Friday, October 23, 2026. This work, which includes a total of 13 songs, is a work that combines the experience she has cultivated in the club scene and her expressive power as a singer-songwriter. Through uplifting house, sophisticated dance-pop, and storytelling rooted in personal experience, Jazzy presents a musical world unique to Jazz. Production took place across Dublin, London, and Los Angeles, with the participation of producers who support modern pop/dance music, including Mark Ralph, Tre Jean Marie, and Theo Hutchcraft. Centering around Jazzy's unique husky voice, they created a sound that coexists with energy that shines in clubs and delicate emotional expression. Release information..."
+    },
+    {
+      "id": "388cd8d7bef15df1",
+      "title": "Yen Press Licenses Cross-Dressing Villainess Cecilia Sylvie: Extra Round!, 'And Thus, the Wizard Noi Garené Became a Bride 100 Years Later,' 8 More Titles",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-25/yen-press-licenses-cross-dressing-villainess-cecilia-sylvie-extra-round-and-thus-the-wizard-noi-/.243162",
+      "publishedAt": "2026-10-25T12:45:00.000Z",
+      "excerpt": "Also: Secret: Homicide Edition, About a Place in the Kinki Region, more",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF3/cms/news.10/243162/and-thus-the-wizard-noi-garene-became-a-bride-100-years-later-cnf.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "6fc4c729f1116523",
+      "title": "BanG Dream! It's MyGO!!!!! / Ave Mujica – The Die is Cast – Sequel Anime Shares New Teaser",
+      "link": "https://crunchyroll.com/news/latest/2026/10/25/bang-dream-its-mygo-ave-mujica-the-die-is-cast-sequel-anime-teaser",
+      "publishedAt": "2026-10-25T12:34:00.000Z",
+      "excerpt": "The crossover series premieres January 8, 2027",
+      "image": "https://a.storyblok.com/f/178900/1460x822/355425c3d2/bang-dream-my-go-ave-mujica-teaser-2-hero.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "e910eb982524d8c6",
+      "title": "BanG Dream! It's MyGo!!!!! // Ave Mujica Anime's 2nd Teaser Unveils January 8 Debut",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-25/bang-dream-its-mygo-ave-mujica-anime-2nd-teaser-unveils-january-8-debut/.243183",
+      "publishedAt": "2026-10-25T12:33:50.000Z",
+      "excerpt": "Sequel TV anime to air in NTV's \"Friday Anime Night\" block",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHG/herald/202478/mygoavemujica-tv-00008.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "acc24ab3ae46332e",
       "title": "HEY-SMITH主催＜OSAKA HAZIKETEMAZARE FESTIVAL 2027＞開催決定",
@@ -18328,82 +18398,6 @@
       },
       "translatedTitle": "Ralphie Choo releases melodious new song",
       "translatedExcerpt": "Ralphie Choo released his new single \"Amarillo nena\" on Friday, October 9, 2026. Building on the genre-crossing musicality presented in their debut album \"SUPERNOVA,\" this album features a more intimate and melodious sound centered around acoustic guitar, piano, and soft falsetto. This work shows a new creative direction, focusing not only on bold acoustic experiments but also on the beauty and emotional expression of the song itself. The title ``Amarillo'' is a Spanish word that means ``yellow.'' This song is a song that evokes images of the coast and the sun, as well as emotions related to love. Release information https://ototoy.jp/_/default/p/4302712 Artist information https…"
-    },
-    {
-      "id": "3122918195967219",
-      "title": "Salanの新作AL『CINEMA』、OTOTOY限定で「卒業」MVディレクターズカット版が付属",
-      "link": "https://ototoy.jp/news/132300",
-      "publishedAt": "2026-10-16T03:00:00.000Z",
-      "excerpt": "LenとKaitoによる2人組バンド、Salanが、2026年10月14日(水)に約5年ぶりとなるフル・アルバム『CINEMA』をリリースした。 OTOTOYでは本作のリリースを記念して、収録曲「卒業」のミュージックビデオ「ディレクターズカット版」の映像データを購入特典としてプレゼントするキャンペーンを実施中。ロスレス音源、ハイレゾ音源のいずれを購入した場合も特典が付属する。特典映像は、OTOTOYの『CINEMA』配信ページからアルバムとあわせてダウンロードできる。なお、ダウンロードにはパソコンの利用を推奨している。 「人生は、映画か。J-POPは、狂おしいか。」をテーマに掲げた本作は、収録10曲すべてに名作映画のタイトルを冠したコンセプト・アルバム。マイク・ニコルズ監督の『卒業』に始まり、ジュゼッペ・…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132300/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Salan's new AL \"CINEMA\" comes with \"Graduation\" MV director's cut version exclusively on OTOTOY",
-      "translatedExcerpt": "Salan, the two-man band consisting of Len and Kaito, released their first full-length album \"CINEMA\" in about five years on Wednesday, October 14, 2026. To commemorate the release of this work, OTOTOY is running a campaign where they will give away the video data of the music video \"Director's Cut Version\" of the song \"Sotsutsu\" as a bonus for purchase. Benefits are included when purchasing either lossless or high-resolution audio sources. The bonus video can be downloaded along with the album from OTOTOY's ``CINEMA'' distribution page. Please note that we recommend using a computer for downloading. This work is a concept album with the theme of \"Is life a movie? Is J-POP crazy?\" All 10 songs are named after classic movies. Starting with Mike Nichols' The Graduate, Giuseppe..."
-    },
-    {
-      "id": "cad613998c1a66a5",
-      "title": "アフターソウル、ニキドラム脱退を受け1st ミニAL配信リリース緊急決定",
-      "link": "https://ototoy.jp/news/132291",
-      "publishedAt": "2026-10-16T03:00:00.000Z",
-      "excerpt": "今年3月にリリースされたファーストアルバムのツアーも大成功に納めたアフターソウルが早くも新作ミニアルバム「PLAY WITH MEAN」をリリースすることが決定した。 1曲目に収録される「ギター」は、アルバムツアー中からライブで披露され、ファンの間でも音源化が待ち望まれていた楽曲。ギターに人生を捧げ、狂わされた山田亮一がすべてのギタリストに向けて言葉を紡ぐアンセムだ。 ツアーを経てレコーディングされた本作からは、バンドとしてのフィジカルがより強靭に、より深く進化したことがうかがえる。収録された新曲はいずれもこれからのアフターソウルを代表する楽曲となるポテンシャルを秘めている。本作は年内をもってニキドラムが脱退することの発表を受け、急遽配信リリースが決定した。 6曲目には「ポケモンセンター」の再録バージョン…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132291/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "After Soul, 1st mini AL distribution release urgently decided after leaving Niki Drum",
-      "translatedExcerpt": "After Soul, whose tour for their first album released in March of this year was a huge success, it has been decided that they will be releasing a new mini-album, ``PLAY WITH MEAN.'' The first song, \"Guitar,\" was performed live during the album tour, and fans were eagerly awaiting its release. This is an anthem for all guitarists by Ryoichi Yamada, who devoted his life to the guitar and was driven crazy. This album, recorded after touring, shows that the band has become stronger physically and has evolved deeper. All of the new songs included have the potential to become representative songs of After Soul in the future. This work was suddenly decided to be released for distribution in response to the announcement that Nikidrum would be leaving the group by the end of the year. The 6th song is a re-recorded version of \"Pokémon Center\"..."
-    },
-    {
-      "id": "48ce97e5023210bc",
-      "title": "オリヴィア・ロドリゴ、チャペル・ローンを迎えた「expectations（Remix）」配信リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/166552",
-      "publishedAt": "2026-10-16T03:00:00.000Z",
-      "excerpt": "オリヴィア・ロドリゴが、チャペル・ローンを迎えた「expectations （Remix） fea",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166552/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Olivia Rodrigo Releases Chapel Loan 'Expectations (Remix)'",
-      "translatedExcerpt": "Olivia Rodrigo takes out a chapel loan for “expectations (Remix) fea"
-    },
-    {
-      "id": "9ddabd7a1941c055",
-      "title": "きゃりーぱみゅぱみゅ、アニメ『パンどろぼう』ED主題歌「Pang Pang Pang」MV公開",
-      "link": "https://barks.jp/news/1094462",
-      "publishedAt": "2026-10-16T03:00:00.000Z",
-      "excerpt": "きゃりーぱみゅぱみゅが、2026年10月2日にリリースした新曲「Pang Pang Pang」のMVを公開した。 本楽曲は、シリーズ累計550万部を突破する絵本を原作とした、NHK Eテレで放送中のアニメ『パンどろぼう』のエンディング主題歌で、〈Pang Pang Pang〉というフレーズがリズミカルに繰り返されるエレクトロニックナンバーだ。 MVでは、きゃりーちゃんと不思議なキャラクター「生地くん」が繰り広げるパン作りの物語が描かれている。カラフルでレトロなキッチンを舞台に、二人のコミカルな動きやポップでシュールな演出など、絵本の世界に迷い込んだようなユーモアと温かみにあふれた映像に。今回監督を務めたのは、デビュー曲「PONPONPON」以来、数々の作品でタッグを組んできた田向潤。今回で17作目となるタ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/16115347/Pang3_mv_1.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "きゃりーぱみゅぱみゅ、アニメ『パンどろぼう』ED主題歌「Pang Pang Pang」MV公開",
-      "translatedExcerpt": "きゃりーぱみゅぱみゅが、2026年10月2日にリリースした新曲「Pang Pang Pang」のMVを公開した。 本楽曲は、シリーズ累計550万部を突破する絵本を原作とした、NHK Eテレで放送中のアニメ『パンどろぼう』のエンディング主題歌で、〈Pang Pang Pang〉というフレーズがリズミカルに繰り返されるエレクトロニックナンバーだ。 MVでは、きゃりーちゃんと不思議なキャラクター「生地くん」が繰り広げるパン作りの物語が描かれている。カラフルでレトロなキッチンを舞台に、二人のコミカルな動きやポップでシュールな演出など、絵本の世界に迷い込んだようなユーモアと温かみにあふれた映像に。今回監督を務めたのは、デビュー曲「PONPONPON」以来、数々の作品でタッグを組んできた田向潤。今回で17作目となるタ…"
     }
   ]
 }

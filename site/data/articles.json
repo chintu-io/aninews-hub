@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T04:32:59.085Z",
+  "generatedAt": "2026-10-25T05:03:01.529Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 41,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 125,
+      "count": 122,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 209,
+      "count": 214,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -153,8 +153,8 @@
       "name": "Sankaku Complex",
       "status": "ok",
       "mode": "jina-reader",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
-      "count": 79,
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "count": 78,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,105 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 603,
+    "translatedJapaneseArticles": 608,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "9854cdbf1759beae",
+      "title": "ClariS、TVアニメ『バーテックスフォース』OPテーマ「シンクロブルー」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166765",
+      "publishedAt": "2026-10-25T04:55:00.000Z",
+      "excerpt": "ClariSが、11月11日に発売する32ndシングル「シンクロブルー」のミュージックビデオを公開",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166765/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "ClariS releases MV for TV anime “Vertex Force” opening theme “Synchro Blue”",
+      "translatedExcerpt": "ClariS releases music video for 32nd single “Synchro Blue” to be released on November 11th"
+    },
+    {
+      "id": "25686f56be9aa943",
+      "title": "アイナ・ジ・エンド、台風による台北イベント中止を受けセットリスト楽曲のライブ映像公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166768",
+      "publishedAt": "2026-10-25T04:50:00.000Z",
+      "excerpt": "アイナ・ジ・エンドが、10月24日にスペシャルライブ映像をプレミア公開した。 同日に開催予定だ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166768/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Aina The End releases live video of setlist songs after Taipei event canceled due to typhoon",
+      "translatedExcerpt": "Aina The End premiered a special live video on October 24th. It will be held on the same day"
+    },
+    {
+      "id": "46b63e024e145baa",
+      "title": "MAN WITH A MISSION、TVアニメ『朱色の仮面』OPテーマ「Firestarter」MV公開決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166767",
+      "publishedAt": "2026-10-25T04:45:00.000Z",
+      "excerpt": "MAN WITH A MISSIONが、新曲「Firestarter」のミュージックビデオを10月",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166767/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "MAN WITH A MISSION, TV anime “Vermilion Mask” opening theme “Firestarter” MV to be released",
+      "translatedExcerpt": "MAN WITH A MISSION will release music video for new song “Firestarter” in October"
+    },
+    {
+      "id": "ed77ecbb45790496",
+      "title": "加藤ミリヤ、17年前の「Aitai」新解釈した新曲「会いたい」配信リリース決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166766",
+      "publishedAt": "2026-10-25T04:40:00.000Z",
+      "excerpt": "加藤ミリヤが、新曲「会いたい」を11月2日に配信リリースすることを発表した。 この発表は、10",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166766/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Miliyah Kato will release a new song “Aitai” which is a new interpretation of “Aitai” from 17 years ago",
+      "translatedExcerpt": "Miliyah Kato has announced that she will release her new song ``Aitai'' on November 2nd. This announcement is 10"
+    },
+    {
+      "id": "718f8b22f257e12c",
+      "title": "パンダドラゴン、ベストALリード曲「パンダでGO！」配信開始＆MV公開決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166764",
+      "publishedAt": "2026-10-25T04:30:00.000Z",
+      "excerpt": "パンダドラゴンが、新曲「パンダでGO！」を配信リリースした。 同曲は、12月1日に発売されるベ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166764/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Panda Dragon begins distribution of best AL lead song “Panda de GO!” & MV release decision",
+      "translatedExcerpt": "Panda Dragon has released a new song “Panda de GO!”. The song will be released on December 1st."
+    },
     {
       "id": "5572a2c78f40df11",
       "title": "Kucci、新曲「ぬくもり」が唐田えりか×知英W主演映画『過怠』主題歌に",
@@ -185,6 +280,23 @@
       },
       "translatedTitle": "Kucci's new song \"Nukumori\" will be used as the theme song for the movie \"Shinaku\" starring Erika Karata and Tomoyo",
       "translatedExcerpt": "Singer-songwriter Kucci's new song ``Nukumori'' has been selected as the theme song for the movie ``Suretsu'', which will be released nationwide on Friday, February 5, 2027. This work is written by Shiho Tanimura, an author who has written about the subtleties of family, love, and life in works such as ``Umineko'' and ``Life Expectancy.'' This short film depicts the intertwining lives of two women with roots in Japan and Korea, set against the backdrop of cutting-edge reproductive medicine. This film adaptation of the theory ``Negashi'' is directed by Akira Yamamoto, who vividly depicted the urgency of love and the madness that lies deep within the human heart in ``After the Heat'' (24). It was decided to enter the competition section and was selected as one of three works selected from Japan. The two main characters, Ji-hyun and Nanako, are played by actors who have appeared in popular works such as the Netflix series “The Evil Queen” (24) and “The Road to the Seaside” (25)."
+    },
+    {
+      "id": "e38b3f8afeb1767e",
+      "title": "Land of the Lustrous' Haruko Ichikawa Launches New Manga Cosmic Mimimi",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-25/land-of-the-lustrous-haruko-ichikawa-launches-new-manga-cosmic-mimimi/.243167",
+      "publishedAt": "2026-10-25T04:15:00.000Z",
+      "excerpt": "\"Neo kawaii sci-fi\" series debuts on November 25",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gKT/cms/news.10/243167/cosmic-mimimi.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "736b5814c6a8e12d",
@@ -341,7 +453,7 @@
       "title": "Hatsune Miku Producer Supercell Returns With Two New Pokemon Songs After 10 Years",
       "link": "https://news.sankakucomplex.com/n/38pT5WuHMydYQSgiHov1IQ",
       "publishedAt": "2026-10-25T01:00:27.000Z",
-      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary. The songs, titled “LEGENDS” and “1…",
+      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -9425,7 +9537,7 @@
       "title": "Magical Explorer’s Women Squeeze Into Tiny Swimsuits",
       "link": "https://news.sankakucomplex.com/n/QLQlUJyel9B6Ej5Ymn-PDQ",
       "publishedAt": "2026-10-20T10:00:35.000Z",
-      "excerpt": "This season’s current round of anime seems fixated on swimsuits as the latest airing of Magical Explorer has used them as their central fetish, offering watchers some prime lewdness that will feel like an absolute rarity in the current censorious state of the entertainment industry. The 3rd episo…",
+      "excerpt": "This season’s current round of anime seems fixated on swimsuits as the latest airing of Magical Explorer has used them as their central fetish, offering watchers some prime lewdness that will feel like an absolute rarity in the current censorious state of the entertainment industry.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18288,108 +18400,6 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "d62d4fff4d164d57",
-      "title": "Boichi’s The Marshal King Manga Ends with 34th Chapter",
-      "link": "https://crunchyroll.com/news/latest/2026/10/15/boichi-the-marshal-king-manga-ends",
-      "publishedAt": "2026-10-15T15:15:00.000Z",
-      "excerpt": "Latest installment now available to read",
-      "image": "https://a.storyblok.com/f/178900/960x540/ae1bd996e7/marshal-king-hero.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "04da17173a7036f1",
-      "title": "Ushiyama-san, Mouse Royale Manga and More Coming from Seven Seas",
-      "link": "https://crunchyroll.com/news/latest/2026/10/15/ushiyama-san-mouse-royale-manga-and-more-seven-seas",
-      "publishedAt": "2026-10-15T15:10:00.000Z",
-      "excerpt": "Six new titles on the way from the North American publisher",
-      "image": "https://a.storyblok.com/f/178900/1280x720/06711be50f/seven-seas_ushiyama-san-hero.jpeg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f8142c4397744ea1",
-      "title": "10 Anime Characters We’d Ask to Help Make Our Halloween Costumes",
-      "link": "https://crunchyroll.com/news/features/2026/10/15/anime-character-halloween-costume-help",
-      "publishedAt": "2026-10-15T15:00:00.000Z",
-      "excerpt": "The time to plan your Halloween costume was yesterday",
-      "image": "https://a.storyblok.com/f/178900/960x540/7fdcf5c79b/my-dress-up-darling.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "12470667ced1d592",
-      "title": "Japanese Animation TV Ranking, September 28-October 4",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-15/japanese-animation-tv-ranking-september-28-october-4/.242842",
-      "publishedAt": "2026-10-15T14:15:00.000Z",
-      "excerpt": "The Apothecary Diaries season 3 debuts with 4.8% rating, Tougen Anki: Nikko Kegon Falls Arc with 2.7% rating",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGC/encyc/A37931-397630352.1789645121.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "eac9ef5980f3676c",
-      "title": "We hunt for treasure at an all-you-can-stuff Kanagawa secondhand shop for just 1,000 yen",
-      "link": "https://soranews24.com/2026/10/15/we-hunt-for-treasure-at-an-all-you-can-stuff-kanagawa-secondhand-shop-for-just-1000-yen/",
-      "publishedAt": "2026-10-15T14:00:32.000Z",
-      "excerpt": "From kimono to kitchenware, character goods to cleaning sponges, can we fill a basket and get our money’s worth? Secondhand shops can sometimes appear to look like mounds of junk, but to the intrepid explorer, a careful perusal can occasionally turn up some hidden gems. For our Japanese-language reporter Takuya Inaba, secondhand shops have become […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/imgi_327_42034_0.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "9b20d80f6af2366a",
-      "title": "Madoka Magica Smartwatches Transform Characters When Your Heart Rate Rises",
-      "link": "https://news.sankakucomplex.com/n/Qxhqo4-WrrTYxENEaK-PRg",
-      "publishedAt": "2026-10-15T14:00:06.000Z",
-      "excerpt": "A new collection of Puella Magi Madoka Magica smartwatches is launching in Japan, featuring interactive watch faces that transform characters into magical girls when the wearer’s heart rate increases.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

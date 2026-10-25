@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T10:02:35.870Z",
+  "generatedAt": "2026-10-25T10:32:28.812Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 128,
+      "count": 129,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 119,
+      "count": 120,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 257,
+      "count": 256,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 151,
+      "count": 152,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 75,
+      "count": 73,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 612,
+    "translatedJapaneseArticles": 614,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "c8a3ed50be779fed",
+      "title": "Date A Live F Last Date Anime Premieres on March 26, 2027",
+      "link": "https://crunchyroll.com/news/latest/2026/10/25/date-a-live-f-last-date-anime-march-26-2027-release-date-trailer-teaser-visual",
+      "publishedAt": "2026-10-25T10:01:00.000Z",
+      "excerpt": "A new trailer and a teaser visual were also unveiled today",
+      "image": "https://a.storyblok.com/f/178900/960x540/a569a8d914/date-a-live-f-last-date.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "be3950cea0b99308",
+      "title": "ADAM at、ニューアルバム『Until Dawn』 2027年1月リリース決定。多彩なゲストボーカル曲も収録",
+      "link": "https://barks.jp/news/1100553",
+      "publishedAt": "2026-10-25T10:00:47.000Z",
+      "excerpt": "ADAM atが、2027年1月20日(水)にニューアルバム『Until Dawn』をリリースすることを発表した。 ピアノ・インストを軸にしながら、近年はライブでモッシュやダイブが巻き起こるほどの熱量を誇るADAM at。新作『Until Dawn』はオリジナルアルバムとしては2023年9月発売の『P.T.』以来、約3年4ヶ月ぶりのリリース作となる。その切れ味抜群のインストナンバーはもちろん、今作では多彩なゲストボーカルを迎えた楽曲もふんだんに収録し、ADAM atの現在地を詰め込んだボリューム満載の一枚となっている。 ゲストボーカルには、磯野くん（YONA YONA WEEKENDERS）、LEE YONGWON（GUMX）、きのホ。、w-shun（KNOCK OUT MONKEY）、JOEY（EGG…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/06/02133108/pt_3_ADAM-at_main_small.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "ADAM at's new album \"Until Dawn\" will be released in January 2027. Also includes a variety of guest vocal songs",
+      "translatedExcerpt": "ADAM at has announced that they will release their new album ``Until Dawn'' on Wednesday, January 20, 2027. ADAM at, which focuses on piano instrumentals, has been so passionate that in recent years their live performances have caused moshing and dives. The new album \"Until Dawn\" will be the first original album released in about 3 years and 4 months since \"P.T.\" released in September 2023. In addition to those outstanding instrumental numbers, this album also includes a plethora of songs with a variety of guest vocals, making it a volume-packed album that captures ADAM at's current location. Guest vocalists include Isono-kun (YONA YONA WEEKENDERS), LEE YONGWON (GUMX), and Kinoho. , w-shun (KNOCK OUT MONKEY), JOEY (EGG…"
+    },
     {
       "id": "7bfcf1f3a81a5b80",
       "title": "BE:FIRST、ニューアルバム『BE:4U』楽曲制作ドキュメンタリーのダイジェスト映像公開",
@@ -204,6 +240,42 @@
       },
       "translatedTitle": "moon drop to hold spring one-man tour visiting 11 locations nationwide",
       "translatedExcerpt": "moon drop has announced that they will be holding a one-man tour ``moon drop 2027 Spring ONEMAN TOUR'' that will tour 11 locations nationwide starting in May 2027. The announcement was made at the FC live event held at Daikanyama UNIT today. The new tour will start on May 8th (Saturday) at Mie, the birthplace of the group, and will continue until June 20th (Sunday) in Aichi. Moon Drop has just held their first concept tour in the band's history, Moon Drop Concept Oneman Live \"Love Story Until the Moon\", in 2026. Please pay attention to the future of the band as it continues to evolve. Tickets for <Moon Drop Spring 2027 ONEMAN TOUR> are available for fan club and official tickets starting today. ■<mo…"
+    },
+    {
+      "id": "26e42c1d692c43fe",
+      "title": "【連載コラム】AFAMooのCreative Life―第172回 “エレクトロニックなダンスチューン” IVE「Looks Can Kill」",
+      "link": "https://ototoy.jp/news/132414",
+      "publishedAt": "2026-10-25T10:00:00.000Z",
+      "excerpt": "みなさんこんばんは。フリーライターとしてOTOTOYでニュース記事を書いているAFAMooと申します。今回も毎週更新中のSpotifyプレイリスト「Tokyo Chill Dance」に掲載している楽曲をトラックメイカー目線で解説します。本日取り上げるのは、IVE「Looks Can Kill」です。 IVE「Looks Can Kill」」 本作はIVEが2026年10月19日(月)にリリースしたニューシングルです。トラックのプロデュースを手掛けたのはBAVA、inverness。エレクトロニックなダンスチューンに仕上がっています。 楽曲は、カットアップされたエレクトロニックなシンセからスタート。まるで今からデスゲームが始まるかのような、緊張感があるクールなサウンドから幕を開けます。イントロが終わると、…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132414/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Serial Column] AFAMoo's Creative Life - 172nd \"Electronic Dance Tune\" IVE \"Looks Can Kill\"",
+      "translatedExcerpt": "Good evening everyone. My name is AFAMoo and I write news articles for OTOTOY as a freelance writer. This time, we will be explaining the songs featured in the weekly updated Spotify playlist \"Tokyo Chill Dance\" from the perspective of a track maker. Today's topic is IVE \"Looks Can Kill\". IVE “Looks Can Kill”” This is a new single released by IVE on October 19, 2026 (Monday). The track was produced by BAVA and inverness. It is finished as an electronic dance tune. The song starts with a cut-up electronic synth. The song opens with a tense and cool sound, as if a death game is about to begin. After the intro ends..."
+    },
+    {
+      "id": "cad07d0e0ad0bf49",
+      "title": "Date A Live F Last Date Anime Reveals Film Format, March 26, 2027 Opening in Teaser Video",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-25/date-a-live-f-last-date-anime-reveals-film-format-march-26-2027-opening-in-teaser-video/.243174",
+      "publishedAt": "2026-10-25T10:00:00.000Z",
+      "excerpt": "2 returning staff members also announced",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH4/cms/news.10/243174/date.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "eb991fe101d6383f",
@@ -18338,78 +18410,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "8b2adafb395a37df",
-      "title": "山下大輝、2nd EP『Dive in !』収録曲解禁。「ハートプロトコル」先行配信決定も",
-      "link": "https://barks.jp/news/1094445",
-      "publishedAt": "2026-10-16T02:03:28.000Z",
-      "excerpt": "山下大輝が、2026年11月18日に発売する2nd EP『Dive in !』の収録曲を公開した。 本作には、これまで山下大輝の音楽活動や声優としての活動を通じてつながってきたクリエイターに加え、アニメやアイドルなど、さまざまなカルチャーシーンで活躍するクリエイターが参加。これまでの活動で培ってきたつながりと、新たな出会いから生まれた5曲が収録されている。 インストゥルメンタル曲「Bon Voyage !」では、2023年発表の「ヒトコキュウノ」でタッグを組んだ湯浅 篤が作曲・編曲を担当。そして「ハートプロトコル」では、山下が担当する『あんさんぶるスターズ！！』の朔間凛月役が歌う「真夜中のノクターン」でともに作品を作り上げた本多友紀（EverNest）が作詞・作曲・編曲を手掛けた。「キセキは風と共に」では…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/16105936/main_0726s_97763et_yori.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "山下大輝、2nd EP『Dive in !』収録曲解禁。「ハートプロトコル」先行配信決定も",
-      "translatedExcerpt": "山下大輝が、2026年11月18日に発売する2nd EP『Dive in !』の収録曲を公開した。 本作には、これまで山下大輝の音楽活動や声優としての活動を通じてつながってきたクリエイターに加え、アニメやアイドルなど、さまざまなカルチャーシーンで活躍するクリエイターが参加。これまでの活動で培ってきたつながりと、新たな出会いから生まれた5曲が収録されている。 インストゥルメンタル曲「Bon Voyage !」では、2023年発表の「ヒトコキュウノ」でタッグを組んだ湯浅 篤が作曲・編曲を担当。そして「ハートプロトコル」では、山下が担当する『あんさんぶるスターズ！！』の朔間凛月役が歌う「真夜中のノクターン」でともに作品を作り上げた本多友紀（EverNest）が作詞・作曲・編曲を手掛けた。「キセキは風と共に」では…"
-    },
-    {
-      "id": "09ada667a8378482",
-      "title": "Malfoid’s AI-Generated Anime Parodies Exceeding Expectations",
-      "link": "https://news.sankakucomplex.com/n/YDFHRsalWGIg2WYP_T56vg",
-      "publishedAt": "2026-10-16T02:00:00.000Z",
-      "excerpt": "Yet more AI-generated anime parodies are releasing that center on the “Malfoid” meme, with other characters having now established a foothold in the “canon”, and pushing out a level of quality that many were not expecting (especially due to the parodies being created via AI).",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "cfc9209e76c55409",
-      "title": "Malfoid’s AI-Generated Anime Parodies Exceeding Expectations",
-      "link": "https://news.sankakucomplex.com/n/LbX7aRU1VMVe5VBfmjzdAg",
-      "publishedAt": "2026-10-16T02:00:00.000Z",
-      "excerpt": "Yet more AI-generated anime parodies are releasing that center on the “Malfoid” meme, with other characters having now established a foothold in the “canon”, and pushing out a level of quality that many were not expecting (especially due to the parodies being created via AI).",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "231a1b01d9d74f3f",
-      "title": "シャイトープ、ラストライブのライブ音源配信＆「マーガリン」ライブ映像公開",
-      "link": "https://barks.jp/news/1094437",
-      "publishedAt": "2026-10-16T01:50:14.000Z",
-      "excerpt": "シャイトープが、ライブ音源『shytaupe last oneman live – LA LA BYE -』を2026年10月15日に配信リリースした。 本作は、2026年9月5日に東京・豊洲PITで開催されたラストライブ＜shytaupe last oneman live – LA LA BYE -＞の模様を収録したもの。2022年6月のバンド結成から4年3カ月にわたる活動を締めくくった同公演で披露された、全28曲が収録されている。 さらに、同公演より「マーガリン」のライブ映像もYouTubeで公開された。本楽曲はバンド結成初期に制作され、これまで数々のライブで披露されてきた。ラストライブではアンコールの最後を飾り、シャイトープとして最後に演奏された一曲となった。映像では、ラストライブのパフォーマンスに…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/16104913/%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%88%E3%83%BC%E3%83%97_%E3%83%9F%E3%82%B9%E3%83%BB%E3%83%A6%E3%83%BC_A%E5%86%99_main_SS.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "シャイトープ、ラストライブのライブ音源配信＆「マーガリン」ライブ映像公開",
-      "translatedExcerpt": "シャイトープが、ライブ音源『shytaupe last oneman live – LA LA BYE -』を2026年10月15日に配信リリースした。 本作は、2026年9月5日に東京・豊洲PITで開催されたラストライブ＜shytaupe last oneman live – LA LA BYE -＞の模様を収録したもの。2022年6月のバンド結成から4年3カ月にわたる活動を締めくくった同公演で披露された、全28曲が収録されている。 さらに、同公演より「マーガリン」のライブ映像もYouTubeで公開された。本楽曲はバンド結成初期に制作され、これまで数々のライブで披露されてきた。ラストライブではアンコールの最後を飾り、シャイトープとして最後に演奏された一曲となった。映像では、ラストライブのパフォーマンスに…"
     }
   ]
 }

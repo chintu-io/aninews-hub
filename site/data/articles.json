@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T15:02:13.704Z",
+  "generatedAt": "2026-10-25T15:32:00.289Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 122,
+      "count": 123,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 74,
+      "count": 73,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,40 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "fe4f89bdc9db8dcc",
+      "title": "Castlevania: Belmont’s Curse Mocked Over Difference Between Promo Art & In-Game Art",
+      "link": "https://news.sankakucomplex.com/n/DgBCLSzBSKbgrfrVcCw0Fg",
+      "publishedAt": "2026-10-25T15:09:29.000Z",
+      "excerpt": "Castlevania: Belmont’s Curse has attracted criticism from some gamers over the noticeable difference between its attractive promotional character artwork and the actual in-game designs, with comparisons prompting jokes about how the finished product fails to live up to its advertisements.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "e635b21ecc1bc712",
+      "title": "Lulutto Lilly, Sabagebu! Anime Battle Crabs in Second Crossover",
+      "link": "https://crunchyroll.com/news/latest/2026/10/25/lulutto-lilly-sabagebu-anime-battle-crabs-in-second-crossover",
+      "publishedAt": "2026-10-25T15:02:00.000Z",
+      "excerpt": "Magical idols face down a killer crab in latest episode",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/365261f691/magical-sisters-lulutto-lilly-crab.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "e8645de9bfd3dfeb",
       "title": "伊東歌詞太郎、アニメ『わたしの幸せな結婚』特別篇ED主題歌 「プレリュードの手前に 〜for me&you」リリックビデオ公開",
@@ -18364,40 +18398,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1aeb12569a1872d5",
-      "title": "Hyundai Announces $15.5 Billion Investment in India",
-      "link": "https://news.sankakucomplex.com/n/JK57fRVW0dqhheG-Veatbg",
-      "publishedAt": "2026-10-16T06:00:16.000Z",
-      "excerpt": "Hyundai Motor Group has announced plans to invest $15.5 billion in India between 2026 and 2032, expanding its manufacturing operations, research facilities, and supply chains as the South Korean automaker strengthens its presence in the country.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "022dde4266fbc8df",
-      "title": "Hyundai Announces $15.5 Billion Investment in India",
-      "link": "https://news.sankakucomplex.com/n/hTW9F9dDlXcisAwZXlMTcw",
-      "publishedAt": "2026-10-16T06:00:16.000Z",
-      "excerpt": "Hyundai Motor Group has announced plans to invest $15.5 billion in India between 2026 and 2032, expanding its manufacturing operations, research facilities, and supply chains as the South Korean automaker strengthens its presence in the country.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

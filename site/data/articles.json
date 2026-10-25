@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T02:03:52.366Z",
+  "generatedAt": "2026-10-25T02:32:03.399Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 130,
+      "count": 129,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 244,
+      "count": 245,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 597,
+    "translatedJapaneseArticles": 598,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8af1365cf1762468",
+      "title": "純名里沙、実力派ミュージシャンと贈る冬のコンサートを開催",
+      "link": "https://barks.jp/news/1100440",
+      "publishedAt": "2026-10-25T02:18:39.000Z",
+      "excerpt": "純名里沙の冬のコンサート＜純名里沙 Concert 2026 Christmas Time in GRACE＞が、11月24日（火）に東京、12月24日（木）に大阪にて開催となる。 大黒摩季のツアーバンドマスターも務めるピアニスト柴田敏孝をはじめ、ジャンルを超えて幅広い音楽シーンで活躍する吉田篤貴（violin）、飯島奏人（cello）、Kan（Per）が参加し、個性豊かな4人が織りなすサウンドと、純名里沙の透明感あふれる歌声で特別なクリスマスタイムが繰り広げられる。冬の名曲やクリスマスソングを中心に、多彩な音楽表現で彩る、特別なひとときだ。 純名里沙より ミュージカルが好きでこの世界に入った私にとって、音楽は人生に欠かせない存在です。宝塚歌劇団に入団する前から歌は大好きでずっと歌ってまいりましたが、特に…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/25111810/%E3%80%88%E3%81%8A%E6%B8%A1%E3%81%97%E7%94%A8%E3%80%89%E2%98%862026090859790_ir.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Risa Junna holds a winter concert with talented musicians",
+      "translatedExcerpt": "Risa Junna's winter concert <Risa Junna Concert 2026 Christmas Time in GRACE> will be held in Tokyo on November 24th (Tuesday) and in Osaka on December 24th (Thursday). Pianist Toshitaka Shibata, who also serves as Maki Daiguro's tour band master, will be joined by Atsuki Yoshida (violin), Kanato Iijima (cello), and Kan (performer), who are active in a wide range of music scenes across genres, and a special Christmas time will be held with the unique sound woven by these four people and Risa Junna's clear singing voice. It's a special moment filled with a variety of musical expressions, centered around classic winter songs and Christmas songs. From Risa Junna I entered this world because I love musicals, so music is an essential part of my life. I have always loved singing and have been singing since before I joined the Takarazuka Revue, but especially..."
+    },
     {
       "id": "19a28e3ad90e3886",
       "title": "Hatsune Miku Producer Supercell Returns With Two New Pokemon Songs After 10 Years",
@@ -18363,23 +18382,6 @@
       },
       "translatedTitle": "Flowers are cold. , releases music video for new pop song \"Baribari Buddy\"",
       "translatedExcerpt": "Flowers are cold. has released the music video for their new single \"Baribari Buddy\" released on Thursday, October 8, 2026. This work is the ending theme for the TV anime \"I Got Reincarnated as a Sword II.\" Flowers are cold. This is a song that stands out for its edgy and pop appeal. This song has a loud sound that gives you a sense of the power and roughness of taking off to a world you have never seen before, and a chorus that is sure to be a sing-along. The song is sure to become a new live anthem. The music video released this time is set in a unique set filled with the \"likes\" that have made each member who they are, and the members move around as if following a 360-degree rotating camera, giving a playful performance. The result is a dynamic video that vividly expresses the roots and sensibilities of each member..."
-    },
-    {
-      "id": "d401430daa2bcfb6",
-      "title": "Firefly Wedding Anime Casts Kanon Amane as Yukari",
-      "link": "https://crunchyroll.com/news/latest/2026/10/15/firefly-wedding-anime-kanon-amane-cast-as-yukari",
-      "publishedAt": "2026-10-15T12:20:00.000Z",
-      "excerpt": "Crunchyroll streams adaptation based on historical romance manga by Oreco Tachibana",
-      "image": "https://a.storyblok.com/f/178900/960x540/06618ea5f7/firefly-wedding-kanon-cast.jpeg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

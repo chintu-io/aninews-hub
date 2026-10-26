@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T02:02:00.854Z",
+  "generatedAt": "2026-10-26T02:31:55.913Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 124,
+      "count": 125,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 214,
+      "count": 217,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 251,
+      "count": 248,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 149,
+      "count": 148,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,103 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 614,
+    "translatedJapaneseArticles": 613,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "22de880f291ef520",
+      "title": "SiM初登場、アニメ『進撃の巨人 The Final Season Part 2』OPテーマ「The Rumbling」披露 ＜THE FIRST TAKE＞",
+      "link": "https://www.billboard-japan.com/d_news/detail/166789",
+      "publishedAt": "2026-10-26T02:20:00.000Z",
+      "excerpt": "SiMの一発撮りパフォーマンス映像『SiM - The Rumbling / THE FIRST",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166789/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "SiM's first appearance to perform the anime \"Attack on Titan The Final Season Part 2\" opening theme \"The Rumbling\" <THE FIRST TAKE>",
+      "translatedExcerpt": "SiM's one-shot performance video \"SiM - The Rumbling / THE FIRST\""
+    },
+    {
+      "id": "d106bfae24393b46",
+      "title": "Konomi Suzuki Drops Even Though I'm a Super Timid Noble Girl, I Accepted the Bet from My Cunning Fiancé Anime Opening Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/10/26/even-though-im-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fiance-anime-opening-song-music-video-konomi-suzuki",
+      "publishedAt": "2026-10-26T02:05:00.000Z",
+      "excerpt": "Crunchyroll streams the new isekai fantasy series",
+      "image": "https://a.storyblok.com/f/178900/960x540/47037bc9dc/konomi-suzuki-tsuyoki-max-mv.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "40cedaab14fb1979",
+      "title": "FM802主催年末フェス＜RADIO CRAZY 2026＞、稲葉浩志の出演決定",
+      "link": "https://barks.jp/news/1100588",
+      "publishedAt": "2026-10-26T02:00:00.000Z",
+      "excerpt": "FM802主催による年末恒例のロック大忘年会＜FM802 ROCK FESTIVAL RADIO CRAZY 2026＞が、12月26日(土)から28日(月)の3日間、インテックス大阪にて開催される。同フェスの最終日12月28日に稲葉浩志の出演が決定した。 FM802のイベントへの出演は、2017年にB’zとして出演した＜FM802 ROCK FESTIVAL RADIO CRAZY 2017」以来となる。チケットのオフィシャルHP4次先行は本日10月26日(月)より。 ■＜FM802 ROCK FESTIVAL RADIO CRAZY 2026＞12月26日(土) 大阪・インテックス大阪12月27日(日) 大阪・インテックス大阪12月28日(月) 大阪・インテックス大阪open10:00 / start…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/26035713/%E3%80%90%E3%82%A2%E3%83%BC%E5%86%99%E3%80%91%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97-1024x598.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Hiroshi Inaba will appear at the year-end festival <RADIO CRAZY 2026> sponsored by FM802",
+      "translatedExcerpt": "FM802's annual year-end rock party <FM802 ROCK FESTIVAL RADIO CRAZY 2026> will be held at Intex Osaka for three days from December 26th (Saturday) to December 28th (Monday). It has been decided that Koshi Inaba will appear on the last day of the festival, December 28th. This will be FM802's first appearance at an event since <FM802 ROCK FESTIVAL RADIO CRAZY 2017> where they appeared as B'z in 2017. The 4th advance ticket sale on the official website starts today, October 26th (Monday). ■＜FM802 ROCK FESTIVAL RADIO CRAZY 2026＞December 26th (Saturday) Osaka/Intex OsakaDecember 27th (Sunday) Osaka/Intex OsakaDecember 28th (Monday) Osaka/Intex Osakaopen10:00 / start…"
+    },
+    {
+      "id": "bdf7abfb8d67b436",
+      "title": "小谷美紗子、新曲「蘇生」11/25配信リリース＆デビュー30周年記念ライブ開催発表",
+      "link": "https://www.billboard-japan.com/d_news/detail/166784",
+      "publishedAt": "2026-10-26T02:00:00.000Z",
+      "excerpt": "小谷美紗子が、デビュー30周年の始まりに新曲「蘇生」を11月25日に配信リリースすることが発表され",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166784/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Misako Kotani releases new song “Resuscitation” on November 25th & announces live performance to commemorate 30th anniversary of debut",
+      "translatedExcerpt": "It has been announced that Misako Kotani will be releasing a new song \"Susei\" on November 25th to mark the beginning of her 30th anniversary since her debut."
+    },
+    {
+      "id": "4ed621380f846251",
+      "title": "稲葉浩志、年末ロックフェス【FM802 RADIO CRAZY】に出演決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166763",
+      "publishedAt": "2026-10-26T02:00:00.000Z",
+      "excerpt": "FM802が12月26日から28日までの3日間、大阪・インテックス大阪で開催する年末恒例のロックフ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166763/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Hiroshi Inaba will appear at the year-end rock festival [FM802 RADIO CRAZY]",
+      "translatedExcerpt": "FM802 will be holding the year-end rock festival for three days from December 26th to 28th at Intex Osaka, Osaka."
+    },
     {
       "id": "5bcf73844901b75d",
       "title": "「俺たちの箱根駅伝」“甲斐”山下智久のライバル“平川”山本耕史が登場 「悪い顔の山本耕史が好き過ぎる」「正月の箱根駅伝が楽しみ」",
@@ -18299,101 +18392,6 @@
       },
       "translatedTitle": "DEZERT releases 2nd major album “DEZERT” TRACK LIST video",
       "translatedExcerpt": "DEZERT has released the full tracklist of their 2nd major album ``DEZERT'', which will be released on Wednesday, October 28th, on YouTube. This video was directed by SORA (Dr.). Although only a portion of the 20-track 2-disc set has been released, it has finally been released to the world. The worldview of this work, which will be released to coincide with the band's 15th anniversary, is condensed into 4 minutes and is a video that will excite viewers. What we get a glimpse of from the video, which can be considered a glimpse of the album, is the range of songs that the band DEZERT possesses. A wide variety of melodies and sounds are packed into one album, and the fact that they all have the \"DEZERT color\" is a manifestation of the strength and pride they have accumulated as a rock band over the past 15 years. ■＜DEZERT 15th ANNIV…"
-    },
-    {
-      "id": "1a34b0c7684ff54e",
-      "title": "Hearts2Hearts、ゲーム『Arena of Valor』10周年記念コラボシングル「Next Chapter」MV公開",
-      "link": "https://barks.jp/news/1094545",
-      "publishedAt": "2026-10-16T09:00:00.000Z",
-      "excerpt": "Hearts2Heartsが本日10月16日(金)18:00、Tencent GamesとGarenaが共同開発したMOBA (Multiplayer Online Battle Arena)ゲーム『Arena of Valor』とのコラボレーションシングル「Next Chapter」を各種音楽配信サービスにてリリースした。 「Next Chapter」はゲーム『Arena of Valor』のサービス開始10周年を記念したコラボレーションシングルだ。ゲームの世界に入り込んだかのような弾けるサウンドが印象的なシンセポップベースのダンスナンバーで、Hearts2Heartsのフレッシュでエネルギッシュなボーカルが調和し、楽曲の魅力をさらに引き立てている。 歌詞には、“新たなチャプターの扉を開き、未知の世界へ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/16173435/01_%ED%95%98%EC%B8%A0%ED%88%AC%ED%95%98%EC%B8%A0-_Next-Chapter_-%ED%8B%B0%EC%A0%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-1-768x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Hearts2Hearts releases music video for “Next Chapter”, a collaboration single commemorating the 10th anniversary of the game “Arena of Valor”",
-      "translatedExcerpt": "Hearts2Hearts released their collaboration single \"Next Chapter\" with the MOBA (Multiplayer Online Battle Arena) game \"Arena of Valor\" jointly developed by Tencent Games and Garena on various music distribution services today, October 16th (Friday) at 18:00. \"Next Chapter\" is a collaboration single commemorating the 10th anniversary of the game \"Arena of Valor\". It's a synth pop-based dance number with an impressive sound that makes you feel like you've entered the world of a game, and Hearts2Hearts' fresh and energetic vocals harmonize with it, further enhancing the charm of the song. The lyrics include, “Opening the door to a new chapter and heading into the unknown..."
-    },
-    {
-      "id": "94262fa0bd92db5d",
-      "title": "OKAMOTO’S、2027年1月にアルバム『OK』発売決定",
-      "link": "https://barks.jp/news/1094497",
-      "publishedAt": "2026-10-16T09:00:00.000Z",
-      "excerpt": "OKAMOTO’Sが、11thアルバム『OK』を2027年1月27日にリリースすることを発表した。 約2年ぶりとなる本アルバムには、KEIJUとの共作曲「Seasons」、ABEMA『ガールオアレディ3』主題歌「That’s All I Wish」、TVアニメ『ちびゴジラの逆襲』主題歌「あの日のMadness」、現在配信中の「今ここで」、「LOSTRANGER」を含む全13曲が収録される。 Blu-rayには、2025年6月15日に東京・日比谷野外大音楽堂で行った＜OKAMOTO’S 15th Anniversary FORTY SEVEN LIVE TOUR -SPECIAL FINAL- at 日比谷野外大音楽堂＞のライブ映像を収録予定だ。 なお本作は、完全生産限定盤のみの発売となる。本日より『OK』…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/10131743/OKAMOTOS_A%E5%86%99web.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "OKAMOTO’S will release album “OK” in January 2027",
-      "translatedExcerpt": "OKAMOTO’S has announced that their 11th album “OK” will be released on January 27, 2027. This album, which will be his first in about two years, will feature a total of 13 songs, including ``Seasons'' co-written with KEIJU, ``That's All I Wish'', the theme song for ABEMA's ``Girl or Lady 3'', ``Ano Hi no Madness'', the theme song for the TV anime ``Chibi Godzilla Strikes Back'', ``Ima Kokode'', and ``LOSTRANGER'', which are currently being distributed. The Blu-ray will include live footage from OKAMOTO'S 15th Anniversary FORTY SEVEN LIVE TOUR -SPECIAL FINAL- at Hibiya Open-Air Concert Hall, held on June 15, 2025 at Hibiya Open-Air Concert Hall in Tokyo. This work will only be released as a limited edition. \"OK\" from today..."
-    },
-    {
-      "id": "be96d217df8a8e04",
-      "title": "Ray Vaughn、スキルフルな新曲リリース",
-      "link": "https://ototoy.jp/news/132286",
-      "publishedAt": "2026-10-16T09:00:00.000Z",
-      "excerpt": "Ray Vaughnが2026年10月9日(金)にニューシングル「Set It Off」をリリースした。 本作は、実力派プロデューサーHitmakaらを迎え、重厚なビートと鋭いラップを融合させた意欲作。滑らかなグルーヴから一転して激しさを増すビート展開を通じて、Ray Vaughnの卓越したラップスキルと表現力を鮮烈に打ち出している。 Ray Vaughnは、ロングビーチを拠点とするTDE所属のラッパー。2025年にはミックステープ『The Good The Bad The Dollar Menu』を発表し、自身の生い立ちや葛藤、成功への意志を反映したリリックと、メロディアスなプロダクションの融合で注目を集めた。 リリース情報 https://ototoy.jp/_/default/p/4190994 ア…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132286/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Ray Vaughn releases new skillful song",
-      "translatedExcerpt": "Ray Vaughn released his new single \"Set It Off\" on Friday, October 9, 2026. This work features talented producer Hitmaka and others, and is an ambitious work that combines heavy beats and sharp rap. Ray Vaughn's outstanding rapping skills and expressiveness are clearly demonstrated through the beat development, which changes from a smooth groove and becomes more intense. Ray Vaughn is a Long Beach-based rapper under TDE. In 2025, he released the mixtape ``The Good The Bad The Dollar Menu,'' which attracted attention for its fusion of melodic production and lyrics that reflected his upbringing, struggles, and will to succeed. Release information https://ototoy.jp/_/default/p/4190994 A…"
-    },
-    {
-      "id": "72a12f18b471c2d9",
-      "title": "SEKAI NO OWARI、「Blue Flower」ドームライブ映像をYouTube“ステーション”にて公開",
-      "link": "https://barks.jp/news/1094543",
-      "publishedAt": "2026-10-16T09:00:00.000Z",
-      "excerpt": "SEKAI NO OWARIが、YouTubeチャンネルで24時間配信中の「ステーション（Station）」にドームツアー＜THE CINEMA＞で披露した「Blue Flower」のライブ映像を新たに追加した。 2019年リリースのアルバム『Eye』に収録されている「Blue Flower」は、＜THE CINEMA＞のオープニングナンバーとして披露された。巨大スクリーンに映し出される数々のショートフィルムと生演奏が重なり合った、＜THE CINEMA＞というツアーの世界観を象徴する一曲になったという。そんな会場の熱気をそのまま閉じ込めた映像を是非チェックしてほしい。 なお＜THE CINEMA＞は、国際短編映画祭＜ショートショート フィルムフェスティバル & ASIA＞が主催する映像ブランディングの祭…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/03/31185107/Main_01_SS.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "SEKAI NO OWARI releases “Blue Flower” dome live video on YouTube “Station”",
-      "translatedExcerpt": "SEKAI NO OWARI has added a new live video of \"Blue Flower\" performed at their dome tour <THE CINEMA> to the 24-hour \"Station\" YouTube channel. “Blue Flower”, which is included in the album “Eye” released in 2019, was performed as the opening number of <THE CINEMA>. It is said that this song symbolizes the world view of the tour called ``THE CINEMA'', which combines a number of short films projected on a giant screen with live music. Please check out the video that captures the excitement of the venue. <THE CINEMA> is a video branding festival hosted by the international short film festival <Short Shorts Film Festival & ASIA>."
-    },
-    {
-      "id": "44a8600b19927330",
-      "title": "亀梨和也、『THE FIRST TAKE』に初登場。「ごくせん」挿入歌「絆」をパフォーマンス",
-      "link": "https://barks.jp/news/1094494",
-      "publishedAt": "2026-10-16T09:00:00.000Z",
-      "excerpt": "亀梨和也がYouTubeチャンネル『THE FIRST TAKE』の第717回にロアーティストとして初登場する。 今回披露するのは、日本テレビ系 土曜ドラマ『ごくせん』挿入歌として広く知られ、2005年に「青春アミーゴ」のカップリング曲としてリリースされた「絆」。 自身が作詞を手がけた思い入れの深い本楽曲を、リリースから20年以上の時を経て、しっとりとそしてエモーショナルに歌い上げる。 ◆ ◆ ◆ ■亀梨和也コメントこの度、ついにTHE FIRST TAKEに参加させていただくことになりました。ずっと視聴者として見ていたので、あの空間にはすごく緊張しましたが、「絆」は20年以上前に歌わせてもらった曲で、それを40歳になった自分が一発撮りでみなさんにお届けできるということで、気合いを入れて挑みました。ぜひお…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/16141623/1-16.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Kazuya Kamenashi makes his first appearance in \"THE FIRST TAKE\". Performance of “Gokusen” insert song “Kizuna”",
-      "translatedExcerpt": "Kazuya Kamenashi will appear for the first time as a professional artist on the 717th episode of the YouTube channel \"THE FIRST TAKE\". The song that will be performed this time is \"Kizuna,\" which is widely known as the insert song for the Nippon TV Saturday drama \"Gokusen,\" and was released in 2005 as the coupling song for \"Seishun Amigo.\" More than 20 years after its release, she sings this song, which she wrote the lyrics for with deep feelings, in a soft and emotional way. ◆ ◆ ◆ ■Comment from Kazuya Kamenashi I have finally decided to participate in THE FIRST TAKE. I was very nervous in that space, as I had been watching as a viewer for a long time, but ``Kizuna'' is a song I sang over 20 years ago, and since I was 40 years old and was able to deliver it to everyone in one shot, I took on the challenge with enthusiasm. Please..."
     }
   ]
 }

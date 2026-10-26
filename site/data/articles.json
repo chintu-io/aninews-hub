@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T00:04:42.398Z",
+  "generatedAt": "2026-10-26T00:32:37.080Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 123,
+      "count": 124,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 213,
+      "count": 212,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
       "count": 76,
       "fetchedCount": 24
     }
@@ -163,16 +163,33 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 615,
+    "translatedJapaneseArticles": 613,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "9f266854f5baa2b1",
+      "title": "Star Detective Precure! Anime Film Shares Action-Packed Opening Footage",
+      "link": "https://crunchyroll.com/news/latest/2026/10/26/star-detective-precure-anime-film-action-packed-opening-footage",
+      "publishedAt": "2026-10-26T00:21:00.000Z",
+      "excerpt": "Moviegoers in the 7th week will receive a newly drawn \"Future Card\"",
+      "image": "https://a.storyblok.com/f/178900/960x540/df87946315/star-detective-precure-movie.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "cfe5650daa571dac",
       "title": "South Korea Unveils “Award-Winning Technologies” Such as Humanoid Robots & Self-Driving Cars",
       "link": "https://news.sankakucomplex.com/n/kopHD6aBiTmPM0xVmvs2rA",
       "publishedAt": "2026-10-25T23:00:48.000Z",
-      "excerpt": "South Korea has showcased nine “cutting-edge technologies” ranging from humanoid robots capable of delicate hand movements to self-driving taxis and AI-powered cooling systems, highlighting the country’s efforts to advance robotics, automation, and artificial intelligence. The innovations were pr…",
+      "excerpt": "South Korea has showcased nine “cutting-edge technologies” ranging from humanoid robots capable of delicate hand movements to self-driving taxis and AI-powered cooling systems, highlighting the country’s efforts to advance robotics, automation, and artificial intelligence.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -227,7 +244,7 @@
       "title": "Japan Releases Life-Sized Female Body Pillows With Breasts, Curves & Customizable Bodies",
       "link": "https://news.sankakucomplex.com/n/vQisIpqzhUHUeIvKsKgRYw",
       "publishedAt": "2026-10-25T19:00:29.000Z",
-      "excerpt": "Japanese company BIBILAB has introduced a new life-sized female body pillow designed for otaku who want to cuddle, dress up, and sleep alongside their favorite fictional characters, complete with three-dimensional breasts, shapely waists, and adjustable stuffing to recreate their ideal waifu. Ann…",
+      "excerpt": "Japanese company BIBILAB has introduced a new life-sized female body pillow designed for otaku who want to cuddle, dress up, and sleep alongside their favorite fictional characters, complete with three-dimensional breasts, shapely waists, and adjustable stuffing to recreate their ideal waifu.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -295,7 +312,7 @@
       "title": "Castlevania: Belmont’s Curse Mocked Over Difference Between Promo Art & In-Game Art",
       "link": "https://news.sankakucomplex.com/n/DgBCLSzBSKbgrfrVcCw0Fg",
       "publishedAt": "2026-10-25T15:09:29.000Z",
-      "excerpt": "Castlevania: Belmont’s Curse has attracted criticism from some gamers over the noticeable difference between its attractive promotional character artwork and the actual in-game designs, with comparisons prompting jokes about how the finished product fails to live up to its advertisements. The dis…",
+      "excerpt": "Castlevania: Belmont’s Curse has attracted criticism from some gamers over the noticeable difference between its attractive promotional character artwork and the actual in-game designs, with comparisons prompting jokes about how the finished product fails to live up to its advertisements.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1184,7 +1201,7 @@
       "title": "Dead or Alive Xtreme Venus Vacation Adds Sexy Witch Outfits for Halloween",
       "link": "https://news.sankakucomplex.com/n/FTqxVGw7UtEQudHfqFSZNg",
       "publishedAt": "2026-10-25T05:00:46.000Z",
-      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire. The latest SSR swimsuit, titled “Hexen Nagel,” arrived on October…",
+      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1518,7 +1535,7 @@
       "title": "Hatsune Miku Producer Supercell Returns With Two New Pokemon Songs After 10 Years",
       "link": "https://news.sankakucomplex.com/n/38pT5WuHMydYQSgiHov1IQ",
       "publishedAt": "2026-10-25T01:00:27.000Z",
-      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary. The songs, titled “LEGENDS” and “1…",
+      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1535,7 +1552,7 @@
       "title": "Former BioWare Producer Allegedly Rejected Job Applicants Over Political Views",
       "link": "https://news.sankakucomplex.com/n/mOAwFYxzyRI46yXaIGec1A",
       "publishedAt": "2026-10-24T21:00:17.000Z",
-      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with. Avello…",
+      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1692,7 +1709,7 @@
       "title": "Playasia Shuts Down Website After Weeks of Relentless Cyberattacks",
       "link": "https://news.sankakucomplex.com/n/WGaHCIW8aR5c6Z6oe0Qu1A",
       "publishedAt": "2026-10-24T13:05:11.000Z",
-      "excerpt": "Popular video game import retailer Playasia has temporarily shut down its website after suffering weeks of increasingly sophisticated cyberattacks, with the company’s CEO warning that the attacks appear to be part of a massive coordinated campaign targeting tens of thousands of organizations. On…",
+      "excerpt": "Popular video game import retailer Playasia has temporarily shut down its website after suffering weeks of increasingly sophisticated cyberattacks, with the company’s CEO warning that the attacks appear to be part of a massive coordinated campaign targeting tens of thousands of organizations.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2334,7 +2351,7 @@
       "title": "Disgaea Creator Secretly Took $127,000 Loan Without Telling Wife to Finish His New Game",
       "link": "https://news.sankakucomplex.com/n/dt4WiSZ8N0kr8t7f43r1Jg",
       "publishedAt": "2026-10-24T08:00:06.000Z",
-      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever. Niikawa disclosed the fi…",
+      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8866,7 +8883,7 @@
       "title": "Yani Neko Gets New Goods Featuring Sexy Swimsuit Illustrations",
       "link": "https://news.sankakucomplex.com/n/_YrSkp4KQprsS0vI58ZANw",
       "publishedAt": "2026-10-21T03:00:06.000Z",
-      "excerpt": "The addicted catgirls of Yani Neko are receiving a new collection of merchandise courtesy of Japanese retailer Sofmap, which has announced a limited-time promotional event featuring newly drawn illustrations of the anime’s characters. The collaboration will take place from October 28 to November…",
+      "excerpt": "The addicted catgirls of Yani Neko are receiving a new collection of merchandise courtesy of Japanese retailer Sofmap, which has announced a limited-time promotional event featuring newly drawn illustrations of the anime’s characters.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -9532,7 +9549,7 @@
       "title": "Monster Musume no Iru Nichijou AI Animation Introduces Miia’s Mom",
       "link": "https://news.sankakucomplex.com/n/ycCQtMKEgEMDj7iF2dZXyg",
       "publishedAt": "2026-10-20T23:03:50.000Z",
-      "excerpt": "AI anime parodies have continued to evolve and reach new heights as this latest creation partially adapts a chapter from Monster Musume no Iru Nichijou, giving fans some slightly lewd service and bound to have many wondering if a full anime adaptation will arrive in the future. Shared on Twitter,…",
+      "excerpt": "AI anime parodies have continued to evolve and reach new heights as this latest creation partially adapts a chapter from Monster Musume no Iru Nichijou, giving fans some slightly lewd service and bound to have many wondering if a full anime adaptation will arrive in the future.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -9797,7 +9814,7 @@
       "title": "Japanese Indie Developer Threatened With AI Game Clone Unless He Pays $200",
       "link": "https://news.sankakucomplex.com/n/MObdZEDRsa1RclPJMQyD5Q",
       "publishedAt": "2026-10-20T18:37:22.000Z",
-      "excerpt": "A Japanese indie game developer has revealed that he received a threatening email demanding $200 worth of Steam items, with the sender claiming they would use AI to release a copy of his upcoming game before the original launched. Takashi Mochibe of Studio At Home, the developer behind Dragon’s C…",
+      "excerpt": "A Japanese indie game developer has revealed that he received a threatening email demanding $200 worth of Steam items, with the sender claiming they would use AI to release a copy of his upcoming game before the original launched.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -10955,7 +10972,7 @@
       "title": "Pokemon Lopunny Mod for Marvel Rivals Definitely Lewd",
       "link": "https://news.sankakucomplex.com/n/-IoePmw0RnW3pX9VNNRaYQ",
       "publishedAt": "2026-10-20T06:00:50.000Z",
-      "excerpt": "Modders have continued to meet the ever strange demands of more “unique” individuals as this mod swaps out Rogue in Marvel Rivals for Pokemon’s Lopunny, incorporating a level of sex appeal that will certainly leave some people questioning themselves. A Twitter user shared a video of the mod in-ac…",
+      "excerpt": "Modders have continued to meet the ever strange demands of more “unique” individuals as this mod swaps out Rogue in Marvel Rivals for Pokemon’s Lopunny, incorporating a level of sex appeal that will certainly leave some people questioning themselves.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18375,25 +18392,6 @@
       },
       "translatedTitle": "Beck releases first live video of “Ride Lonesome” performed with Sydney Symphony Orchestra",
       "translatedExcerpt": "Beck performs the title track \"Ride Lonesome\" from his latest album \"Ride Lonesome\" at the Sydney Symphony Orchestra"
-    },
-    {
-      "id": "cc6a56b7aa7e3c72",
-      "title": "一十三十一、Joan Pageの新曲「Todo mi amor」にコラボ参加",
-      "link": "https://www.billboard-japan.com/d_news/detail/166509",
-      "publishedAt": "2026-10-16T08:00:00.000Z",
-      "excerpt": "一十三十一が、メキシコのアーティストJoan Page（ジョアン・ペイジ）の新曲「Todo mi",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166509/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "131 collaborates on Joan Page's new song \"Todomi amor\"",
-      "translatedExcerpt": "131 is the new song \"Todomi\" by Mexican artist Joan Page."
     }
   ]
 }

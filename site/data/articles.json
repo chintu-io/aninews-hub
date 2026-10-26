@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T20:34:38.152Z",
+  "generatedAt": "2026-10-26T21:02:19.576Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 130,
+      "count": 131,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 244,
+      "count": 243,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
       "count": 75,
       "fetchedCount": 24
     }
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 611,
+    "translatedJapaneseArticles": 610,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "6af620854ba6feb6",
+      "title": "Sho Yamazaki Launches New Manga with Fuyu Aoki",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-25/sho-yamazaki-launches-new-manga-with-fuyu-aoki/.243189",
+      "publishedAt": "2026-10-26T21:00:00.000Z",
+      "excerpt": "Shuran Reijō no Yarakashi: Seiryaku Kekkonmae Yakesake, Ki ga Tsuku to Reikokuna Konyakusha to Dragon no Hate no Naka debuts on October 30",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g7G/cms/news.10/243189/hvplalcaoaip8gt.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "5f3c21ef756f373a",
+      "title": "EAT-MAN The Over Order New Anime Gets Spinoff Manga Series",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-26/eat-man-the-over-order-new-anime-gets-spinoff-manga-series/.243206",
+      "publishedAt": "2026-10-26T20:00:00.000Z",
+      "excerpt": "Akihito Yoshitomi to launch Desert-Dessert From EAT-MAN The Over Order manga on November 26",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI4/cms/news.10/243206/dessert.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "b803d048f1d7af3a",
       "title": "Manga Mavericks Books Licenses Gago Hunters Manga",
@@ -444,7 +478,7 @@
       "title": "Blue Archive Producer Wants Third-Person Shooter, Survival Game & More Anime Spin-Offs",
       "link": "https://news.sankakucomplex.com/n/_b4GIRiRW6OXlDCcxkCd2Q",
       "publishedAt": "2026-10-26T14:45:28.000Z",
-      "excerpt": "Blue Archive producer Yong-ha Kim has revealed his ambitions to expand the popular schoolgirl RPG into entirely different genres, including third-person shooters, survival games, and strategy RPGs, while also expressing interest in producing additional anime adaptations. The developer discussed h…",
+      "excerpt": "Blue Archive producer Yong-ha Kim has revealed his ambitions to expand the popular schoolgirl RPG into entirely different genres, including third-person shooters, survival games, and strategy RPGs, while also expressing interest in producing additional anime adaptations.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1351,7 +1385,7 @@
       "title": "Blue Archive’s Kirara Lets Her Toes Out in New Figurine",
       "link": "https://news.sankakucomplex.com/n/39eewlu2eVVW7Z6qdPFm3w",
       "publishedAt": "2026-10-26T07:00:14.000Z",
-      "excerpt": "A certain sect of individuals will really appreciate this new figurine of Blue Archive’s Kirara as it focuses on her exposed feet, though her plump thighs and curvaceous bosom might also prove appealing for those with more normal tastes. Standing at 1/7 scale, Kirara leisurely relaxes on a school…",
+      "excerpt": "A certain sect of individuals will really appreciate this new figurine of Blue Archive’s Kirara as it focuses on her exposed feet, though her plump thighs and curvaceous bosom might also prove appealing for those with more normal tastes.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2389,7 +2423,7 @@
       "title": "South Korea Unveils “Award-Winning Technologies” Such as Humanoid Robots & Self-Driving Cars",
       "link": "https://news.sankakucomplex.com/n/kopHD6aBiTmPM0xVmvs2rA",
       "publishedAt": "2026-10-25T23:00:48.000Z",
-      "excerpt": "South Korea has showcased nine “cutting-edge technologies” ranging from humanoid robots capable of delicate hand movements to self-driving taxis and AI-powered cooling systems, highlighting the country’s efforts to advance robotics, automation, and artificial intelligence. The innovations were pr…",
+      "excerpt": "South Korea has showcased nine “cutting-edge technologies” ranging from humanoid robots capable of delicate hand movements to self-driving taxis and AI-powered cooling systems, highlighting the country’s efforts to advance robotics, automation, and artificial intelligence.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2444,7 +2478,7 @@
       "title": "Japan Releases Life-Sized Female Body Pillows With Breasts, Curves & Customizable Bodies",
       "link": "https://news.sankakucomplex.com/n/vQisIpqzhUHUeIvKsKgRYw",
       "publishedAt": "2026-10-25T19:00:29.000Z",
-      "excerpt": "Japanese company BIBILAB has introduced a new life-sized female body pillow designed for otaku who want to cuddle, dress up, and sleep alongside their favorite fictional characters, complete with three-dimensional breasts, shapely waists, and adjustable stuffing to recreate their ideal waifu. Ann…",
+      "excerpt": "Japanese company BIBILAB has introduced a new life-sized female body pillow designed for otaku who want to cuddle, dress up, and sleep alongside their favorite fictional characters, complete with three-dimensional breasts, shapely waists, and adjustable stuffing to recreate their ideal waifu.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2512,7 +2546,7 @@
       "title": "Castlevania: Belmont’s Curse Mocked Over Difference Between Promo Art & In-Game Art",
       "link": "https://news.sankakucomplex.com/n/DgBCLSzBSKbgrfrVcCw0Fg",
       "publishedAt": "2026-10-25T15:09:29.000Z",
-      "excerpt": "Castlevania: Belmont’s Curse has attracted criticism from some gamers over the noticeable difference between its attractive promotional character artwork and the actual in-game designs, with comparisons prompting jokes about how the finished product fails to live up to its advertisements. The dis…",
+      "excerpt": "Castlevania: Belmont’s Curse has attracted criticism from some gamers over the noticeable difference between its attractive promotional character artwork and the actual in-game designs, with comparisons prompting jokes about how the finished product fails to live up to its advertisements.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3401,7 +3435,7 @@
       "title": "Dead or Alive Xtreme Venus Vacation Adds Sexy Witch Outfits for Halloween",
       "link": "https://news.sankakucomplex.com/n/FTqxVGw7UtEQudHfqFSZNg",
       "publishedAt": "2026-10-25T05:00:46.000Z",
-      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire. The latest SSR swimsuit, titled “Hexen Nagel,” arrived on October…",
+      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3735,7 +3769,7 @@
       "title": "Hatsune Miku Producer Supercell Returns With Two New Pokemon Songs After 10 Years",
       "link": "https://news.sankakucomplex.com/n/38pT5WuHMydYQSgiHov1IQ",
       "publishedAt": "2026-10-25T01:00:27.000Z",
-      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary. The songs, titled “LEGENDS” and “1…",
+      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3909,7 +3943,7 @@
       "title": "Playasia Shuts Down Website After Weeks of Relentless Cyberattacks",
       "link": "https://news.sankakucomplex.com/n/WGaHCIW8aR5c6Z6oe0Qu1A",
       "publishedAt": "2026-10-24T13:05:11.000Z",
-      "excerpt": "Popular video game import retailer Playasia has temporarily shut down its website after suffering weeks of increasingly sophisticated cyberattacks, with the company’s CEO warning that the attacks appear to be part of a massive coordinated campaign targeting tens of thousands of organizations. On…",
+      "excerpt": "Popular video game import retailer Playasia has temporarily shut down its website after suffering weeks of increasingly sophisticated cyberattacks, with the company’s CEO warning that the attacks appear to be part of a massive coordinated campaign targeting tens of thousands of organizations.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4551,7 +4585,7 @@
       "title": "Disgaea Creator Secretly Took $127,000 Loan Without Telling Wife to Finish His New Game",
       "link": "https://news.sankakucomplex.com/n/dt4WiSZ8N0kr8t7f43r1Jg",
       "publishedAt": "2026-10-24T08:00:06.000Z",
-      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever. Niikawa disclosed the fi…",
+      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18352,42 +18386,6 @@
       },
       "translatedTitle": "Inui Toko's \"Tokyo City Night\" has been selected as the opening theme song for the drama \"Empress\"",
       "translatedExcerpt": "Inui Toko has announced that \"Tokyo City Night\" will be used as the opening theme song for the drama \"Emotei\" on the Yomiuri TV drama DiVE slot, which will begin broadcasting from midnight on October 22, 2026. \"Tokyo City Night\" is a sophisticated pop tune with nuances of 1980s city pop, and is included in the band's second mini-album \"One day\" released on October 7th. ◆ ◆ ◆ ◾️ Comment from Toko Inui My name is Toko Inui and I will be in charge of the opening theme song. A new look at the work ``Empress,'' which has influenced many people in various ways since its original serialization began in 1996. I am very happy to be able to accompany my song on this very precious occasion, and the song \"Tokyo City Night\" will be featured in the drama..."
-    },
-    {
-      "id": "cad4b64a4a82d20e",
-      "title": "ずっと真夜中でいいのに。、全国23都市36公演を巡るホールツアー＜「アピクラ電機」LÚ.NIM.LÀL＞を2027年1月より開催",
-      "link": "https://barks.jp/news/1094699",
-      "publishedAt": "2026-10-17T07:47:47.000Z",
-      "excerpt": "ずっと真夜中でいいのに。が、2027年1月より全国ホールツアー＜アピクラ電機」LÚ.NIM.LÀL＞(読み：アピクラデンキ ルニムラル) を開催することが発表となった。同ツアーは2027年1月15日の広島文化学園HBGホールを皮切りに、5月23日の和歌山県民文化会館まで、全国23都市36公演を巡るもの。 ずっと真夜中でいいのに。は10月10日および11日、奈良・平城宮跡歴史公園で特別公演祭＜LEGACY ZOMBIE LABO「文禍伝雷」奈良・平城京＞を開催。会場レイアウトの調整による規模拡大を経て、チケット6万5,000枚が完売するなど、ずとまよ史上最大規模の野外ライブとなった。雅楽を取り入れた演出と圧巻のバンドパフォーマンスに加え、奈良県内の50を超える企業・店舗とのコラボレーションや、入場無料の“祭…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/17164512/0_ZTMY_Asya_Icon_Obenkyou0514-1024x576.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "I wish it was midnight all the time. , a hall tour of 36 performances in 23 cities nationwide will be held from January 2027.",
-      "translatedExcerpt": "I wish it was midnight all the time. has announced that they will be holding a nationwide hall tour <Apicura Denki LÚ.NIM.LÀL> (pronunciation: Apikura Denki LÚ.NIM.LÀL) from January 2027. The tour will start at Hiroshima Bunka Gakuen HBG Hall on January 15, 2027, and end at Wakayama Prefectural Cultural Center on May 23, 2027, with 36 performances in 23 cities nationwide. I wish it was midnight all the time. will hold a special performance festival <LEGACY ZOMBIE LABO \"Bunkaden Rai\" Nara/Heijokyo> on October 10th and 11th at Heijo Palace Historical Park in Nara. After expanding the scale by adjusting the venue layout, 65,000 tickets were sold out, making it the largest outdoor concert in Zutomaya's history. In addition to the production incorporating gagaku and a spectacular band performance, there will be collaborations with over 50 companies and stores in Nara Prefecture, and a “festival” with free admission."
-    },
-    {
-      "id": "c8d933b45d2874d3",
-      "title": "Stranger Than Heaven Game Streams Story Trailer for 1st Act 'Kokura'",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-17/stranger-than-heaven-game-streams-story-trailer-for-1st-act-kokura/.242936",
-      "publishedAt": "2026-10-17T07:45:00.000Z",
-      "excerpt": "Game launches on January 15 for Xbox Series X|S, PlayStation 5, PC via Steam",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gM9/youtube/-RtKGcSnNYY.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
     }
   ]
 }

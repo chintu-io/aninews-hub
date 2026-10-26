@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T08:34:34.453Z",
+  "generatedAt": "2026-10-26T09:02:50.211Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 127,
+      "count": 126,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 238,
+      "count": 240,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 150,
+      "count": 149,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
       "count": 76,
       "fetchedCount": 24
     }
@@ -163,10 +163,162 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 608,
+    "translatedJapaneseArticles": 609,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "f3e357398321306f",
+      "title": "スピッツ、ニューアルバムから「キツネノボタン」先行配信決定。『キリン 午後の紅茶』CMソング",
+      "link": "https://barks.jp/news/1100651",
+      "publishedAt": "2026-10-26T09:00:23.000Z",
+      "excerpt": "スピッツが新作オリジナルアルバム『kettle』（11月25日発売）からの先行配信として、新曲「キツネノボタン」を11月2日(月)に配信リリースすることを発表した。 本楽曲は、目黒蓮出演の『キリン 午後の紅茶』「遠くの町の夏の午後」篇・午後の紅茶 FRUITS & ICE TEA「午後のフルーツティー」篇CMに起用されている楽曲。 スピッツ18作目のオリジナルアルバムとなる『kettle』には本楽曲のほか、TBS系 金曜ドラマ『Ｔシャツが乾くまで』主題歌「見知らぬ糸」や、アニメ『SPY×FAMILY』Season 3 オープニング主題歌「灯を護る」など、全13曲が収録される。現在、各ECサイト、CDショップで予約を受付中。 また、アルバムタイトルを冠した全国ツアー＜SPITZ JAMBOREE TOUR…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/21185104/SPITZ%E6%9C%80%E6%96%B0%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F2026%E5%B9%B49%E6%9C%8811%E6%97%A5%E6%AD%A3%E5%8D%88%E8%A7%A3%E7%A6%81%E2%80%BB%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B3%E3%82%B0%E4%B8%8D%E5%8F%AF-1-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Spitz's new album \"Kitsune no Button\" will be distributed in advance. “Kirin Afternoon Tea” CM song",
+      "translatedExcerpt": "Spitz has announced that they will be releasing their new song ``Kitsuno Button'' on November 2nd (Monday) as a pre-release from their new original album ``Kettle'' (released on November 25th). This song has been used in the commercials for ``Kirin Gogo no Kocha'' ``Summer Afternoon in a Distant Town'' and Gogo no Kocha FRUITS & ICE TEA ``Gogo no Fruit Tea'' starring Ren Meguro. ``Kettle'', Spitz's 18th original album, includes 13 songs in total, including this song, ``Shirai Ito'', the theme song for the TBS Friday drama ``Until the T-Shirt Dry'', and ``Tamaru wo Mamoru'', the opening theme song for the Season 3 anime ``SPY×FAMILY''. Reservations are currently being accepted at various EC sites and CD shops. In addition, a national tour bearing the album title <SPITZ JAMBOREE TOUR…"
+    },
+    {
+      "id": "f1dc06e456ae159c",
+      "title": "アジカン伊地知を擁する“Name the Night”、2ndアルバム『Starfall』決定＋先行シングル「WHAT IF」配信へ",
+      "link": "https://barks.jp/news/1100677",
+      "publishedAt": "2026-10-26T09:00:02.000Z",
+      "excerpt": "伊地知潔(ASIAN KUNG-FU GENERATION / PHONO TONES)、山森大輔(SKA SKA CLUB / ROCK’A’TRENCH)、畠山拓也、MIYAによる4ピースバンドName the Nightが、11月25日(水)に2ndアルバム『Starfall』をリリースすることを発表した。 今作アルバムにはアルバムを象徴するリード曲「ブルーアワー」から「WHAT IF」まで、全10曲を収録。バンド結成時の初期衝動をパッケージした1stアルバム、今作はよりオルタナティブサウンド色を強めたダイナミックな音像へと進化した作品になっている。 アルバムリリースに先駆け、明日10月27日(火)には新曲「WHAT IF」も先行配信される。この楽曲は、スケール感あふれるバンドサウンドと幻想的なシン…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/06/01161230/01_GS1_0439_FIX-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "“Name the Night” featuring Ajikan Ijichi, 2nd album “Starfall” decided + lead single “WHAT IF” to be released",
+      "translatedExcerpt": "Name the Night, a four-piece band consisting of Kiyoshi Ijichi (ASIAN KUNG-FU GENERATION / PHONO TONES), Daisuke Yamamori (SKA SKA CLUB / ROCK'A'TRENCH), Takuya Hatakeyama, and MIYA, has announced that they will release their second album \"Starfall\" on Wednesday, November 25th. This album contains a total of 10 songs, from the lead song \"Blue Hour\" to \"WHAT IF\", which symbolize the album. Their first album is a package of their initial impulses when the band was formed, and this work has evolved into a dynamic sound image with a stronger alternative sound. Prior to the release of the album, the new song \"WHAT IF\" will also be distributed in advance tomorrow, October 27th (Tuesday). This song features a band sound full of scale and a fantastic syn..."
+    },
+    {
+      "id": "a9aa38be8b40539c",
+      "title": "＜イベントレポート＞高中正義、世界初単独ポップアップストア「SUPER TAKANAKA POP UP! in HARAJUKU」で体感する『虹伝説』の世界",
+      "link": "https://www.billboard-japan.com/d_news/detail/166773",
+      "publishedAt": "2026-10-26T09:00:00.000Z",
+      "excerpt": "日本を代表するギタリスト・高中正義のポップアップストア「SUPER TAKANAKA POP UP",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166773/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "<Event Report> Masayoshi Takanaka experiences the world of \"Rainbow Legend\" at the world's first solo pop-up store \"SUPER TAKANAKA POP UP! in HARAJUKU\"",
+      "translatedExcerpt": "SUPER TAKANAKA POP UP is a pop-up store by Japan's leading guitarist, Masayoshi Takanaka."
+    },
+    {
+      "id": "7f4a883ff8684fb9",
+      "title": "＜ライブレポート＞「一生で一度きり」を「またいつか」に――kurayamisaka、自身最大規模のステージで交わした“再会の約束”",
+      "link": "https://www.billboard-japan.com/d_news/detail/166781",
+      "publishedAt": "2026-10-26T09:00:00.000Z",
+      "excerpt": "都内の最高気温が26度を記録し、まだ夏の匂いが残る10月17日、kurayamisakaがワンマン",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166781/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "<Live Report> Turning “once in a lifetime” into “someday” - Kurayamisaka's “promise to reunite” on her biggest stage",
+      "translatedExcerpt": "On October 17th, when the highest temperature in Tokyo was recorded at 26 degrees and the smell of summer still lingers, kurayamisaka performed as a solo artist."
+    },
+    {
+      "id": "5abb0f51d7018ac3",
+      "title": "シユイ、獅子志司書き下ろしの新曲「ホラゲ」配信リリース決定",
+      "link": "https://barks.jp/news/1100665",
+      "publishedAt": "2026-10-26T09:00:00.000Z",
+      "excerpt": "シユイの新曲「ホラゲ」が、10月28日に配信リリースされる。 「ホラゲ」は、ハロウィンシーズンにぴったりの、スリリングで遊び心あふれる楽曲。 ボカロPとしてもシンガーソングライターとしても活躍する“獅子志司”が書き下ろした一曲で、「君君舞」以来となるタッグが実現。 独特の世界観と中毒性のあるサウンドで、ハロウィンをさらに盛り上げる楽曲となっている。 ◆ ◆ ◆ ▼獅子志司コメント 「君君舞」に続いて2回目の楽曲制作依頼とても嬉しかったです。 自分で言うのは恥ずかしいですが「君君舞」めっちゃ好きなので。 今回作らせて頂いた「ホラゲ」は ホラーゲームをしている時の人間の感情みたいなのを書いてみました。 恐怖や不安があるのに好奇心が勝ってしまう、 そんなダークで遊び心のあるサウンドに シユイさんのクールな歌声が…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/26155454/1-37.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Shui decides to release new song “Horage” written by Shishishi",
+      "translatedExcerpt": "Shui's new song \"Horage\" will be released on October 28th. “Horage” is a thrilling and playful song perfect for the Halloween season. This is a song written by Shishi Shiji, who is active as a Vocaloid P and singer-songwriter, and it is the first collaboration since \"Kimi Kimimai\". With its unique world view and addictive sound, it is a song that will make Halloween even more exciting. ◆ ◆ ◆ ▼Comment from Shishi Shiji: I was very happy to be asked to produce a song for the second time after \"Kimi Kimimai\". I'm embarrassed to say it myself, but I really like Kimi Kimimai. The ``horage game'' I created this time was about the emotions people feel when playing a horror game. Even though I have fear and anxiety, my curiosity takes over, and the dark and playful sound is accompanied by Shui's cool singing voice..."
+    },
+    {
+      "id": "f20d4da875b9c07a",
+      "title": "絢香、20周年ツアー大阪公演に三浦大知がサプライズ登場",
+      "link": "https://barks.jp/news/1100653",
+      "publishedAt": "2026-10-26T09:00:00.000Z",
+      "excerpt": "絢香のデビュー20周年を記念した全国ツアー＜絢香 20th ANNIVERSARY LIVE TOUR＞の大阪公演が、10月25日(日)に大阪城ホールで開催された。 ライブ終盤、MCで絢香が20周年記念ベストアルバムについて語り始めた。 DISC-3が豪華アーティストとのコラボレーションで生まれた作品群のテーマ【縁】であることに触れ、「この曲、久しぶりに歌いたいと思うんだけど、一人じゃ歌えないよね。それでは呼んじゃいます、三浦大知！」と呼びかけると、サプライズでスペシャルゲストの三浦大知がステージに登場し、会場はさらに大歓声に包まれた。 2人はジャンルは違えど、それぞれのフィールドで活躍しているお互いの音楽性をリスペクトをしており、これまでにコラボレーション楽曲を2曲リリースしている。 三浦大知は「20周…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/26153222/2-18.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Daichi Miura makes a surprise appearance at Ayaka's 20th anniversary tour Osaka performance",
+      "translatedExcerpt": "The Osaka performance of the Ayaka 20th ANNIVERSARY LIVE TOUR, a nationwide tour commemorating Ayaka's 20th anniversary since her debut, was held at Osaka Castle Hall on October 25th (Sunday). At the end of the live show, Ayaka started talking about the 20th anniversary best album as MC. He mentioned that DISC-3 is the theme of a series of works created in collaboration with gorgeous artists, and called out, ``I've been wanting to sing this song for the first time in a while, but I can't sing it alone.Then I'll call you, Daichi Miura!'' Then a special guest, Daichi Miura, appeared on stage as a surprise, and the venue was filled with even louder cheers. Although the two are in different genres, they respect each other's musicality as they are active in their respective fields, and have released two collaborative songs so far. Daichi Miura said, ``20 laps..."
+    },
+    {
+      "id": "8367638be055ecfa",
+      "title": "千葉雄喜、「アニョハセヨ」など全17曲収録のニューアルバム『◯』（えん）配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/166809",
+      "publishedAt": "2026-10-26T08:55:00.000Z",
+      "excerpt": "千葉雄喜が、ニューアルバム『◯』（読み：えん）を配信リリースした。 2024年に発表した「チー",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166809/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Yuki Chiba releases new album ``◯'' (en), which includes 17 songs including ``Anyohaseyo''",
+      "translatedExcerpt": "Yuki Chiba has released his new album ``◯'' (pronunciation: En). “Chi” announced in 2024"
+    },
+    {
+      "id": "433e0ddd18116064",
+      "title": "NOT WONK加藤発案の〈表現の交換市 — FAHDAY 2026〉、11/21から3日間開催",
+      "link": "https://ototoy.jp/news/132463",
+      "publishedAt": "2026-10-26T08:42:00.000Z",
+      "excerpt": "加藤修平（NOT WONK／SADFRANK）が発案した「表現の交換市 — FAHDAY 2026」が、2026年11月21日（土）から23日（月・祝）の3日間にわたって開催されることが決定した。 11月21日（土）はNOT WONK主宰レーベル〈Pattheskin〉が運営するアートスペース / リスニング・バー「Yewbi」で「Day_1」を、22日（日）は、FAHDAY MEETINGの一員「おうちcoffee」との共同企画 で「Day_2(AM)」を開催する。同日午後には、同じくFAHDAY MEETINGの「CLUB ROOTS」と「Yewbi」2会場で「Day_2(PM)」が行われる。 チケット料金は、苫小牧市民文化ホールで開催される”Day_3”が3,500円（＋1ドリンク）、FAHDAY…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132463/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "NOT WONK Kato's ``Exchange of Expression Market — FAHDAY 2026'' will be held for 3 days from November 21st.",
+      "translatedExcerpt": "It has been decided that the \"Exchange of Expression Fair - FAHDAY 2026\" proposed by Shuhei Kato (NOT WONK/SADFRANK) will be held for three days from November 21st (Saturday) to November 23rd (Monday/holiday), 2026. On November 21st (Saturday), ``Day_1'' will be held at Yewbi, an art space/listening bar run by NOT WONK's label Pattheskin, and on 22nd (Sunday), ``Day_2 (AM)'' will be held in collaboration with ``Ouchi coffee'', a member of FAHDAY MEETING. In the afternoon of the same day, ``Day_2 (PM)'' will be held at the same FAHDAY MEETING venues ``CLUB ROOTS'' and ``Yewbi''. Ticket prices are 3,500 yen (+1 drink) for “Day_3” held at Tomakomai Civic Culture Hall, FAHDAY…"
+    },
     {
       "id": "c54f228393a3b642",
       "title": "〈第59回 日本作詩大賞〉ノミネート作品発表",
@@ -227,7 +379,7 @@
       "title": "Blue Archive’s Kirara Lets Her Toes Out in New Figurine",
       "link": "https://news.sankakucomplex.com/n/39eewlu2eVVW7Z6qdPFm3w",
       "publishedAt": "2026-10-26T07:00:14.000Z",
-      "excerpt": "A certain sect of individuals will really appreciate this new figurine of Blue Archive’s Kirara as it focuses on her exposed feet, though her plump thighs and curvaceous bosom might also prove appealing for those with more normal tastes. Standing at 1/7 scale, Kirara leisurely relaxes on a school…",
+      "excerpt": "A certain sect of individuals will really appreciate this new figurine of Blue Archive’s Kirara as it focuses on her exposed feet, though her plump thighs and curvaceous bosom might also prove appealing for those with more normal tastes.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1265,7 +1417,7 @@
       "title": "South Korea Unveils “Award-Winning Technologies” Such as Humanoid Robots & Self-Driving Cars",
       "link": "https://news.sankakucomplex.com/n/kopHD6aBiTmPM0xVmvs2rA",
       "publishedAt": "2026-10-25T23:00:48.000Z",
-      "excerpt": "South Korea has showcased nine “cutting-edge technologies” ranging from humanoid robots capable of delicate hand movements to self-driving taxis and AI-powered cooling systems, highlighting the country’s efforts to advance robotics, automation, and artificial intelligence. The innovations were pr…",
+      "excerpt": "South Korea has showcased nine “cutting-edge technologies” ranging from humanoid robots capable of delicate hand movements to self-driving taxis and AI-powered cooling systems, highlighting the country’s efforts to advance robotics, automation, and artificial intelligence.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1320,7 +1472,7 @@
       "title": "Japan Releases Life-Sized Female Body Pillows With Breasts, Curves & Customizable Bodies",
       "link": "https://news.sankakucomplex.com/n/vQisIpqzhUHUeIvKsKgRYw",
       "publishedAt": "2026-10-25T19:00:29.000Z",
-      "excerpt": "Japanese company BIBILAB has introduced a new life-sized female body pillow designed for otaku who want to cuddle, dress up, and sleep alongside their favorite fictional characters, complete with three-dimensional breasts, shapely waists, and adjustable stuffing to recreate their ideal waifu. Ann…",
+      "excerpt": "Japanese company BIBILAB has introduced a new life-sized female body pillow designed for otaku who want to cuddle, dress up, and sleep alongside their favorite fictional characters, complete with three-dimensional breasts, shapely waists, and adjustable stuffing to recreate their ideal waifu.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1388,7 +1540,7 @@
       "title": "Castlevania: Belmont’s Curse Mocked Over Difference Between Promo Art & In-Game Art",
       "link": "https://news.sankakucomplex.com/n/DgBCLSzBSKbgrfrVcCw0Fg",
       "publishedAt": "2026-10-25T15:09:29.000Z",
-      "excerpt": "Castlevania: Belmont’s Curse has attracted criticism from some gamers over the noticeable difference between its attractive promotional character artwork and the actual in-game designs, with comparisons prompting jokes about how the finished product fails to live up to its advertisements. The dis…",
+      "excerpt": "Castlevania: Belmont’s Curse has attracted criticism from some gamers over the noticeable difference between its attractive promotional character artwork and the actual in-game designs, with comparisons prompting jokes about how the finished product fails to live up to its advertisements.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2277,7 +2429,7 @@
       "title": "Dead or Alive Xtreme Venus Vacation Adds Sexy Witch Outfits for Halloween",
       "link": "https://news.sankakucomplex.com/n/FTqxVGw7UtEQudHfqFSZNg",
       "publishedAt": "2026-10-25T05:00:46.000Z",
-      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire. The latest SSR swimsuit, titled “Hexen Nagel,” arrived on October…",
+      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2611,7 +2763,7 @@
       "title": "Hatsune Miku Producer Supercell Returns With Two New Pokemon Songs After 10 Years",
       "link": "https://news.sankakucomplex.com/n/38pT5WuHMydYQSgiHov1IQ",
       "publishedAt": "2026-10-25T01:00:27.000Z",
-      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary. The songs, titled “LEGENDS” and “1…",
+      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2628,7 +2780,7 @@
       "title": "Former BioWare Producer Allegedly Rejected Job Applicants Over Political Views",
       "link": "https://news.sankakucomplex.com/n/mOAwFYxzyRI46yXaIGec1A",
       "publishedAt": "2026-10-24T21:00:17.000Z",
-      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with. Avello…",
+      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2785,7 +2937,7 @@
       "title": "Playasia Shuts Down Website After Weeks of Relentless Cyberattacks",
       "link": "https://news.sankakucomplex.com/n/WGaHCIW8aR5c6Z6oe0Qu1A",
       "publishedAt": "2026-10-24T13:05:11.000Z",
-      "excerpt": "Popular video game import retailer Playasia has temporarily shut down its website after suffering weeks of increasingly sophisticated cyberattacks, with the company’s CEO warning that the attacks appear to be part of a massive coordinated campaign targeting tens of thousands of organizations. On…",
+      "excerpt": "Popular video game import retailer Playasia has temporarily shut down its website after suffering weeks of increasingly sophisticated cyberattacks, with the company’s CEO warning that the attacks appear to be part of a massive coordinated campaign targeting tens of thousands of organizations.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3287,7 +3439,7 @@
         "language": "ja"
       },
       "translatedTitle": "<EIGHT-JAM> 10/25 is “Special feature on amazing vocalists in the Reiwa idol world”",
-      "translatedExcerpt": "On October 25th, <EIGHT-JAM> will broadcast a special feature on the amazing vocalists of the Reiwa idol world. Guests include Masaki Imai, Mofuku-chan, and Metal Takada. We will introduce 14 people with amazing singing voices from popular groups such as FRUITS ZIPPER, =LOVE, Nogizaka46, and Shiritsu Ebisu Chugaku. Program information Information https://www.tv-asahi.co.jp/eightjam/ https://x.com/EIGHTJAMtvasahi Release information https://ototoy.jp/_/default/p/4297062"
+      "translatedExcerpt": "On October 25th, <EIGHT-JAM> will broadcast a special feature on the amazing vocalists of the Reiwa idol world. Guests include Masaki Imai, Mofuku-chan, and Metal Takada. Introducing 14 people with amazing singing voices from popular groups such as FRUITS ZIPPER, =LOVE, Nogizaka46, and Shiritsu Ebisu Chugaku. Program information Information https://www.tv-asahi.co.jp/eightjam/ https://x.com/EIGHTJAMtvasahi Release information https://ototoy.jp/_/default/p/4297062"
     },
     {
       "id": "0a631f42ca1e139d",
@@ -3419,7 +3571,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Misako Kotani releases new song “Resurrection” & 30th anniversary live show to be held",
+      "translatedTitle": "Misako Kotani releases new song “Resurrection” & 30th anniversary live concert to be held",
       "translatedExcerpt": "Singer-songwriter Misako Kotani has announced that she will release her new song \"Resuscitation\" on November 25th (Wednesday) on October 23rd, 2026, exactly 30 years since her debut. In addition, it has been decided that a 30th anniversary live show ``Odani Misako Trio Live2027 -nuhehe30-'' will be held at Shibuya duo MUSIC EXCHANGE on Monday, March 29, 2027. The full text of his 30th anniversary comment has been released, and he has opened an official account on TikTok and Instagram. The new song \"Resurrection\" delivered at the beginning of the 30th anniversary is a song that sings \"You don't have to look forward, you don't have to look up\" and \"Even if you don't have the strength, let's try to live one more day\". I don't tell people in the midst of despair, ``Do your best.'' Still, I hold out my hand to live just one more day. 30…"
     },
     {
@@ -3427,7 +3579,7 @@
       "title": "Disgaea Creator Secretly Took $127,000 Loan Without Telling Wife to Finish His New Game",
       "link": "https://news.sankakucomplex.com/n/dt4WiSZ8N0kr8t7f43r1Jg",
       "publishedAt": "2026-10-24T08:00:06.000Z",
-      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever. Niikawa disclosed the fi…",
+      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -9959,7 +10111,7 @@
       "title": "Yani Neko Gets New Goods Featuring Sexy Swimsuit Illustrations",
       "link": "https://news.sankakucomplex.com/n/_YrSkp4KQprsS0vI58ZANw",
       "publishedAt": "2026-10-21T03:00:06.000Z",
-      "excerpt": "The addicted catgirls of Yani Neko are receiving a new collection of merchandise courtesy of Japanese retailer Sofmap, which has announced a limited-time promotional event featuring newly drawn illustrations of the anime’s characters. The collaboration will take place from October 28 to November…",
+      "excerpt": "The addicted catgirls of Yani Neko are receiving a new collection of merchandise courtesy of Japanese retailer Sofmap, which has announced a limited-time promotional event featuring newly drawn illustrations of the anime’s characters.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -10625,7 +10777,7 @@
       "title": "Monster Musume no Iru Nichijou AI Animation Introduces Miia’s Mom",
       "link": "https://news.sankakucomplex.com/n/ycCQtMKEgEMDj7iF2dZXyg",
       "publishedAt": "2026-10-20T23:03:50.000Z",
-      "excerpt": "AI anime parodies have continued to evolve and reach new heights as this latest creation partially adapts a chapter from Monster Musume no Iru Nichijou, giving fans some slightly lewd service and bound to have many wondering if a full anime adaptation will arrive in the future. Shared on Twitter,…",
+      "excerpt": "AI anime parodies have continued to evolve and reach new heights as this latest creation partially adapts a chapter from Monster Musume no Iru Nichijou, giving fans some slightly lewd service and bound to have many wondering if a full anime adaptation will arrive in the future.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -10890,7 +11042,7 @@
       "title": "Japanese Indie Developer Threatened With AI Game Clone Unless He Pays $200",
       "link": "https://news.sankakucomplex.com/n/MObdZEDRsa1RclPJMQyD5Q",
       "publishedAt": "2026-10-20T18:37:22.000Z",
-      "excerpt": "A Japanese indie game developer has revealed that he received a threatening email demanding $200 worth of Steam items, with the sender claiming they would use AI to release a copy of his upcoming game before the original launched. Takashi Mochibe of Studio At Home, the developer behind Dragon’s C…",
+      "excerpt": "A Japanese indie game developer has revealed that he received a threatening email demanding $200 worth of Steam items, with the sender claiming they would use AI to release a copy of his upcoming game before the original launched.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18232,156 +18384,6 @@
       },
       "translatedTitle": "Say Now releases new gorgeous pop song",
       "translatedExcerpt": "Say Now released their new single \"Hot & talking\" on Friday, October 16, 2026. This work centers on the group's flamboyance and frank expressiveness. It exudes an energetic charm befitting modern pop music. The title \"Hot & talking\" brings to mind an attractive presence and a dignified attitude that is not afraid to attract attention. This work has a high affinity with the pop style that Say Now has cultivated over the years, which incorporates humor and bold self-expression. Release information https://ototoy.jp/_/default/p/4329754 Artist information https://www.instagram.com/saynow/"
-    },
-    {
-      "id": "c1bdf55e16e8e2a6",
-      "title": "TRACK15、創作への葛藤＆変化を「手と手」MVで描く",
-      "link": "https://www.billboard-japan.com/d_news/detail/166578",
-      "publishedAt": "2026-10-16T13:00:00.000Z",
-      "excerpt": "TRACK15が、新曲「手と手」のミュージックビデオを公開した。 2026年10月14日に配信",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166578/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "TRACK15 depicts conflicts and changes in creation with “Hand to Hand” MV",
-      "translatedExcerpt": "TRACK15 has released the music video for their new song \"Te to Te\". Delivered on October 14, 2026"
-    },
-    {
-      "id": "ee70c11d58f4160d",
-      "title": "Kroi、アニメ『ジョジョ』OPテーマ「SPIN」初披露ライブ映像を公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166577",
-      "publishedAt": "2026-10-16T12:55:00.000Z",
-      "excerpt": "Kroiが、新曲「SPIN」のライブ映像を公開した。 新曲「SPIN」は、アニメ『スティール・",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166577/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Kroi releases first live performance video of anime “Jojo” opening theme “SPIN”",
-      "translatedExcerpt": "Kroi has released a live video of their new song \"SPIN\". The new song \"SPIN\" is from the anime \"Steel\""
-    },
-    {
-      "id": "7cf733a99c2d20da",
-      "title": "Ettone、1st EP『お見知りおき』予約開始。商品詳細と購入者参加型企画、リリース記念ライブを発表",
-      "link": "https://barks.jp/news/1094598",
-      "publishedAt": "2026-10-16T12:47:00.000Z",
-      "excerpt": "Ettoneが、1st EP『お見知りおき』のパッケージ予約受付を10月16日（金）21時より開始。全3形態の商品詳細と購入特典、11月・12月に開催するリリース記念ライブの情報を公開した。 本作は、2026年11月11日（水）にストリーミング／ダウンロードで配信、12月25日（金）にパッケージリリースされる。 メンバー自身が制作の起点から関わり、O21 Label Head・ALYSAとともに国内外のクリエイターとのコライトを重ねてきたEttone。初のEPには、Paul Blanco、Rol3ert、Furui Riho、VivaOla、VIDA Hollywood、芦田菜名子 from 7co、根津まなみ（showmore）、YAMORI、Wez Atlasらが参加した全9曲を収録する。 パッケージ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/16214648/1-18.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Ettone's 1st EP \"Omi Shichi Oki\" is now available for pre-order. Announcement of product details, buyer participation project, and release commemorative live performance",
-      "translatedExcerpt": "Ettone will start accepting package pre-orders for their 1st EP “Omi Shichi Oki” from 21:00 on Friday, October 16th. We have released product details and purchase benefits for all three forms, as well as information on the release commemorative live performances to be held in November and December. This work will be distributed via streaming/download on Wednesday, November 11, 2026, and will be released as a package on Friday, December 25, 2026. Ettone's members have been involved in the production from the beginning, and together with O21 Label Head ALYSA, they have collaborated with creators both domestically and internationally. The first EP will include a total of 9 songs with participation from Paul Blanco, Rol3ert, Furui Riho, VivaOla, VIDA Hollywood, Nanako Ashida from 7co, Manami Nezu (showmore), YAMORI, Wez Atlas, and more. package…"
-    },
-    {
-      "id": "83777edab7d2bf47",
-      "title": "櫻井優衣（FRUITS ZIPPER）、新曲「Are You Merry ?」でソロ曲初のラップに挑戦",
-      "link": "https://www.billboard-japan.com/d_news/detail/166576",
-      "publishedAt": "2026-10-16T12:45:00.000Z",
-      "excerpt": "櫻井優衣（FRUITS ZIPPER）が、2026年11月2日に新曲「Are You Merry",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166576/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Yui Sakurai (FRUITS ZIPPER) attempts her first rap on a solo song with her new song “Are You Merry?”",
-      "translatedExcerpt": "Yui Sakurai (FRUITS ZIPPER) will release her new song “Are You Merry” on November 2, 2026."
-    },
-    {
-      "id": "9f252cb7fd2485c9",
-      "title": "NMB48、「ナギイチ ～all members 2026～」配信開始 & オマージュを散りばめたMV公開",
-      "link": "https://ototoy.jp/news/132310",
-      "publishedAt": "2026-10-16T12:30:00.000Z",
-      "excerpt": "NMB48が、2026年10月16日（金）午前0時に「ナギイチ ～all members 2026～」を配信リリースした。 また、同日21時には、NMB48オフィシャルYouTubeチャンネルでミュージックビデオを公開した。 本作は、ファンに愛されてきた名曲のミュージックビデオを、現メンバーの出演バージョンで制作する「MVリメイクプロジェクト」から生まれたもの。NMB48の代表曲「ナギイチ」を、2026年のメンバーたちが新たに届ける。淡路島で撮影された今回のMVは、メンバーたちによる賑やかなダンスシーンと、歴代のNMB48のMVを彷彿とさせるイメージシーンで構成。オリジナルの「ナギイチ」を受け継ぎながら、今のメンバーたちの個性とフレッシュな魅力が詰まった映像に仕上がっている。随所に散りばめられた歴代MVへ…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132310/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "NMB48 starts streaming “Nagiichi ~all members 2026~” & releases MV sprinkled with homages",
-      "translatedExcerpt": "NMB48 released \"Nagiichi ~all members 2026~\" at midnight on Friday, October 16, 2026. Also, at 9pm on the same day, a music video was released on NMB48's official YouTube channel. This work was born out of the ``MV Remake Project,'' in which music videos of famous songs that have been loved by fans are produced with versions starring the current members. The members of 2026 will deliver a new version of NMB48's representative song \"Nagiichi\". This MV, which was shot on Awaji Island, consists of lively dance scenes by the members and image scenes reminiscent of past NMB48 MVs. While inheriting the original \"Nagiichi\", the video is filled with the individuality and fresh charm of the current members. To the past MVs scattered everywhere..."
-    },
-    {
-      "id": "45ffc3fcb110eae7",
-      "title": "iLiFE!、メジャーデビュー第1弾シングル「アイドルライフメガパック」発売決定",
-      "link": "https://barks.jp/news/1094540",
-      "publishedAt": "2026-10-16T12:26:38.000Z",
-      "excerpt": "iLiFE!が、ソニー・ミュージックレーベルズからのメジャーデビュー第1弾シングル「アイドルライフメガパック」を、2027年1月11日にリリースすることを発表した。 本作には、iLiFE!を象徴する楽曲のひとつ「アイドルライフ」シリーズを冠した楽曲「アイドルライフメガパック」に加え、初回生産限定盤・通常盤には「きゃわぽっぴんどぅー」の新録ver.を収録。メンバー盤には、各メンバーがセレクトした“推し曲”を収録するなど、iLiFE!の現在をさまざまな角度から楽しめる作品になっているという。 初回生産限定盤には、Blu-rayと「トランプランダムトレカ（初回生産限定盤ver.）」を1枚封入。各メンバー盤には「メンバーステッカーメガパックシート」、通常盤の初回仕様には「トランプランダムトレカ（通常盤ver.）」…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/16172146/%E3%80%90iLiFE%E3%80%91%E9%9B%86%E5%90%88%E3%82%A2%E3%83%BC%E5%86%99.png",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "iLiFE!, first major debut single “Idol Life Mega Pack” to be released",
-      "translatedExcerpt": "iLiFE! has announced that they will release their first major debut single \"Idol Life Mega Pack\" from Sony Music Labels on January 11, 2027. In addition to the song \"Idol Life Mega Pack\", which is based on the \"Idol Life\" series, which is one of the songs that symbolizes iLiFE!, the first production limited edition and regular edition include a new recorded version of \"Kyawa Poppin Dou\". The members' edition includes ``favorite songs'' selected by each member, allowing you to enjoy iLiFE!'s current state from various angles. The first production limited edition includes a Blu-ray and one \"Trump Random Trading Card (first production limited edition ver.)\". Each member edition includes a ``Member Sticker Mega Pack Sheet'', and the first version of the regular edition includes a ``Trump Random Trading Card (regular edition ver.)''..."
-    },
-    {
-      "id": "4e675281d6c05fb1",
-      "title": "BanG Dream! Ave Mujica prima aurora Anime Film Shares Second Trailer",
-      "link": "https://crunchyroll.com/news/latest/2026/10/16/bang-dream-ave-mujica-prima-aurora-anime-film-second-trailer",
-      "publishedAt": "2026-10-16T12:19:00.000Z",
-      "excerpt": "Check out new footage and insert song “A Song of Romance”",
-      "image": "https://a.storyblok.com/f/178900/1460x821/7d0ec22538/bang-dream-ave-mujica-prima-aurora.jpeg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "114a790bec0e350e",
-      "title": "LOLOET、二面性を表現した初コンセプトEP「at dusk」配信リリース決定",
-      "link": "https://ototoy.jp/news/132309",
-      "publishedAt": "2026-10-16T12:15:00.000Z",
-      "excerpt": "LOLOETが、2026年11月11日にEP「at dusk」を配信リリースする。 「at dusk」は、LOLOETの音楽性から「アンビエント」「ダンス」の二面に注目し、それぞれに特化した3曲ずつの6曲を収録したコンセプトEP。 メランコリックな歌モノアンビエントから、人力ダーク・アンビエント・ダブテクノまで、音のテクスチャに浸れる一枚となっている。 11月17日（火）には、ワンマンライブ「小春日和」が渋谷Spotify O-WESTにて開催されるほか、12月には名阪ツアーも予定されている。 リリース情報 ライブ情報 https://www.red-hot.ne.jp/play/detail.php?pid=py28544 〈LOLOET TOUR「めぐる小春日和」名古屋〉 illiomote http…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132309/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "LOLOET decides to release their first concept EP “at dusk” expressing duality",
-      "translatedExcerpt": "LOLOET will digitally release the EP “at dusk” on November 11, 2026. \"at dusk\" is a concept EP that focuses on two aspects of LOLOET's musicality: \"ambient\" and \"dance\" and contains six songs, three of which are specialized in each. This is a record that allows you to immerse yourself in the textures of sounds, from melancholic vocal ambient to human-powered dark ambient dub techno. On November 17th (Tuesday), their one-man live show ``Koharubiyori'' will be held at Shibuya Spotify O-WEST, and a tour of Meihan is also scheduled for December. Release information Live information https://www.red-hot.ne.jp/play/detail.php?pid=py28544 <LOLOET TOUR “Meguru Koharu Biyori” Nagoya> illiomote http…"
     }
   ]
 }

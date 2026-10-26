@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T07:33:08.414Z",
+  "generatedAt": "2026-10-26T08:05:15.182Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 129,
+      "count": 128,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 126,
+      "count": 127,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 76,
       "fetchedCount": 24
     }
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 609,
+    "translatedJapaneseArticles": 608,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "0486c0da6c1864b2",
+      "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3 Anime Previews Fujimiya Arc in New Trailer",
+      "link": "https://crunchyroll.com/news/latest/2026/10/26/as-a-reincarnated-aristocrat-i-ll-use-my-appraisal-skill-to-rise-in-the-world-season-3-anime-fujimiya-arc-trailer",
+      "publishedAt": "2026-10-26T08:00:00.000Z",
+      "excerpt": "The cast of the Fujimiya family were also revealed",
+      "image": "https://a.storyblok.com/f/178900/1920x1076/82cbcb3982/as-a-reincarnated-aristocrat-i-ll-use-my-appraisal-skill-to-rise-in-the-world-season-3-anime-third-trailer.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "e4b47a0149295069",
       "title": "H ZETT M本人が監修、H ZETTRIOの最新AL『QUESTUNE』ピアノスコア発売＆演奏動画を募集する企画も",
@@ -1229,7 +1246,7 @@
       "title": "South Korea Unveils “Award-Winning Technologies” Such as Humanoid Robots & Self-Driving Cars",
       "link": "https://news.sankakucomplex.com/n/kopHD6aBiTmPM0xVmvs2rA",
       "publishedAt": "2026-10-25T23:00:48.000Z",
-      "excerpt": "South Korea has showcased nine “cutting-edge technologies” ranging from humanoid robots capable of delicate hand movements to self-driving taxis and AI-powered cooling systems, highlighting the country’s efforts to advance robotics, automation, and artificial intelligence. The innovations were pr…",
+      "excerpt": "South Korea has showcased nine “cutting-edge technologies” ranging from humanoid robots capable of delicate hand movements to self-driving taxis and AI-powered cooling systems, highlighting the country’s efforts to advance robotics, automation, and artificial intelligence.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2241,7 +2258,7 @@
       "title": "Dead or Alive Xtreme Venus Vacation Adds Sexy Witch Outfits for Halloween",
       "link": "https://news.sankakucomplex.com/n/FTqxVGw7UtEQudHfqFSZNg",
       "publishedAt": "2026-10-25T05:00:46.000Z",
-      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire. The latest SSR swimsuit, titled “Hexen Nagel,” arrived on October…",
+      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2575,7 +2592,7 @@
       "title": "Hatsune Miku Producer Supercell Returns With Two New Pokemon Songs After 10 Years",
       "link": "https://news.sankakucomplex.com/n/38pT5WuHMydYQSgiHov1IQ",
       "publishedAt": "2026-10-25T01:00:27.000Z",
-      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary.",
+      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary. The songs, titled “LEGENDS” and “1…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2592,7 +2609,7 @@
       "title": "Former BioWare Producer Allegedly Rejected Job Applicants Over Political Views",
       "link": "https://news.sankakucomplex.com/n/mOAwFYxzyRI46yXaIGec1A",
       "publishedAt": "2026-10-24T21:00:17.000Z",
-      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with.",
+      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with. Avello…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2749,7 +2766,7 @@
       "title": "Playasia Shuts Down Website After Weeks of Relentless Cyberattacks",
       "link": "https://news.sankakucomplex.com/n/WGaHCIW8aR5c6Z6oe0Qu1A",
       "publishedAt": "2026-10-24T13:05:11.000Z",
-      "excerpt": "Popular video game import retailer Playasia has temporarily shut down its website after suffering weeks of increasingly sophisticated cyberattacks, with the company’s CEO warning that the attacks appear to be part of a massive coordinated campaign targeting tens of thousands of organizations.",
+      "excerpt": "Popular video game import retailer Playasia has temporarily shut down its website after suffering weeks of increasingly sophisticated cyberattacks, with the company’s CEO warning that the attacks appear to be part of a massive coordinated campaign targeting tens of thousands of organizations. On…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3391,7 +3408,7 @@
       "title": "Disgaea Creator Secretly Took $127,000 Loan Without Telling Wife to Finish His New Game",
       "link": "https://news.sankakucomplex.com/n/dt4WiSZ8N0kr8t7f43r1Jg",
       "publishedAt": "2026-10-24T08:00:06.000Z",
-      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever.",
+      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever. Niikawa disclosed the fi…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -10854,7 +10871,7 @@
       "title": "Japanese Indie Developer Threatened With AI Game Clone Unless He Pays $200",
       "link": "https://news.sankakucomplex.com/n/MObdZEDRsa1RclPJMQyD5Q",
       "publishedAt": "2026-10-20T18:37:22.000Z",
-      "excerpt": "A Japanese indie game developer has revealed that he received a threatening email demanding $200 worth of Steam items, with the sender claiming they would use AI to release a copy of his upcoming game before the original launched.",
+      "excerpt": "A Japanese indie game developer has revealed that he received a threatening email demanding $200 worth of Steam items, with the sender claiming they would use AI to release a copy of his upcoming game before the original launched. Takashi Mochibe of Studio At Home, the developer behind Dragon’s C…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18365,23 +18382,6 @@
       },
       "translatedTitle": "OKAMOTO'S, new album \"OK\" released in January",
       "translatedExcerpt": "OKAMOTO'S will release their new album \"OK\" on January 27, 2027. After 2 years,"
-    },
-    {
-      "id": "4efe00c02746eb85",
-      "title": "Record of Lodoss War: The Crown of the Covenant Novel Series Resumes",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-16/record-of-lodoss-war-the-crown-of-the-covenant-novel-series-resumes/.242895",
-      "publishedAt": "2026-10-16T12:05:58.000Z",
-      "excerpt": "Kadokawa to publish portion of manuscript on Kakuyomu website on October 22",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gR5/cms/news.10/242895/lodoss-war-covenant-novel-cover.jfif.jpeg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
     }
   ]
 }

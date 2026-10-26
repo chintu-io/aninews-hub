@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T22:02:47.373Z",
+  "generatedAt": "2026-10-26T22:34:34.474Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 131,
+      "count": 132,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -144,29 +144,46 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 145,
+      "count": 144,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
     {
       "id": "sankaku",
       "name": "Sankaku Complex",
-      "status": "error",
-      "mode": null,
-      "feedUrl": null,
+      "status": "ok",
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 76,
-      "fetchedCount": 0
+      "fetchedCount": 24
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 7,
-    "failedSources": 1,
+    "successfulSources": 8,
+    "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 609,
+    "translatedJapaneseArticles": 608,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "5a7af2c9e8fe4ae4",
+      "title": "Magical Girl Raising Project F2P Manga Spinoff Ends in 5th Volume",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-25/magical-girl-raising-project-f2p-manga-spinoff-ends-in-5th-volume/.243191",
+      "publishedAt": "2026-10-26T22:00:00.000Z",
+      "excerpt": "Manga launched in 2016, entered long hiatus from October 2017 until February 2026",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g84/cms/news.7/217167/magical-girl-raising-project-f2p.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "f4677e0ca5ce5b8f",
       "title": "DLsite’s Alternative Pay System Surpasses ¥100 Million Monthly Amid Censorship Concerns",
@@ -182,13 +199,12 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "6af620854ba6feb6",
       "title": "Sho Yamazaki Launches New Manga with Fuyu Aoki",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-25/sho-yamazaki-launches-new-manga-with-fuyu-aoki/.243189",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-26/sho-yamazaki-launches-new-manga-with-fuyu-aoki/.243189",
       "publishedAt": "2026-10-26T21:00:00.000Z",
       "excerpt": "Shuran Reijō no Yarakashi: Seiryaku Kekkonmae Yakesake, Ki ga Tsuku to Reikokuna Konyakusha to Dragon no Hate no Naka debuts on October 30",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g7G/cms/news.10/243189/hvplalcaoaip8gt.png.jpg",
@@ -319,8 +335,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4230f146c818072b",
@@ -497,7 +512,7 @@
       "title": "Blue Archive Producer Wants Third-Person Shooter, Survival Game & More Anime Spin-Offs",
       "link": "https://news.sankakucomplex.com/n/_b4GIRiRW6OXlDCcxkCd2Q",
       "publishedAt": "2026-10-26T14:45:28.000Z",
-      "excerpt": "Blue Archive producer Yong-ha Kim has revealed his ambitions to expand the popular schoolgirl RPG into entirely different genres, including third-person shooters, survival games, and strategy RPGs, while also expressing interest in producing additional anime adaptations.",
+      "excerpt": "Blue Archive producer Yong-ha Kim has revealed his ambitions to expand the popular schoolgirl RPG into entirely different genres, including third-person shooters, survival games, and strategy RPGs, while also expressing interest in producing additional anime adaptations. The developer discussed h…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -507,8 +522,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2f985688ceb3c704",
@@ -1405,7 +1419,7 @@
       "title": "Blue Archive’s Kirara Lets Her Toes Out in New Figurine",
       "link": "https://news.sankakucomplex.com/n/39eewlu2eVVW7Z6qdPFm3w",
       "publishedAt": "2026-10-26T07:00:14.000Z",
-      "excerpt": "A certain sect of individuals will really appreciate this new figurine of Blue Archive’s Kirara as it focuses on her exposed feet, though her plump thighs and curvaceous bosom might also prove appealing for those with more normal tastes.",
+      "excerpt": "A certain sect of individuals will really appreciate this new figurine of Blue Archive’s Kirara as it focuses on her exposed feet, though her plump thighs and curvaceous bosom might also prove appealing for those with more normal tastes. Standing at 1/7 scale, Kirara leisurely relaxes on a school…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1415,8 +1429,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "5e76bd35b25e11e5",
@@ -1974,8 +1987,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "66de1ff346ab1481",
@@ -2445,7 +2457,7 @@
       "title": "South Korea Unveils “Award-Winning Technologies” Such as Humanoid Robots & Self-Driving Cars",
       "link": "https://news.sankakucomplex.com/n/kopHD6aBiTmPM0xVmvs2rA",
       "publishedAt": "2026-10-25T23:00:48.000Z",
-      "excerpt": "South Korea has showcased nine “cutting-edge technologies” ranging from humanoid robots capable of delicate hand movements to self-driving taxis and AI-powered cooling systems, highlighting the country’s efforts to advance robotics, automation, and artificial intelligence.",
+      "excerpt": "South Korea has showcased nine “cutting-edge technologies” ranging from humanoid robots capable of delicate hand movements to self-driving taxis and AI-powered cooling systems, highlighting the country’s efforts to advance robotics, automation, and artificial intelligence. The innovations were pr…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2455,8 +2467,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ffc15e19238ad31d",
@@ -2501,7 +2512,7 @@
       "title": "Japan Releases Life-Sized Female Body Pillows With Breasts, Curves & Customizable Bodies",
       "link": "https://news.sankakucomplex.com/n/vQisIpqzhUHUeIvKsKgRYw",
       "publishedAt": "2026-10-25T19:00:29.000Z",
-      "excerpt": "Japanese company BIBILAB has introduced a new life-sized female body pillow designed for otaku who want to cuddle, dress up, and sleep alongside their favorite fictional characters, complete with three-dimensional breasts, shapely waists, and adjustable stuffing to recreate their ideal waifu.",
+      "excerpt": "Japanese company BIBILAB has introduced a new life-sized female body pillow designed for otaku who want to cuddle, dress up, and sleep alongside their favorite fictional characters, complete with three-dimensional breasts, shapely waists, and adjustable stuffing to recreate their ideal waifu. Ann…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2511,8 +2522,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8819df72d4391483",
@@ -2546,8 +2556,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ca7daa9aa3305bfd",
@@ -2571,7 +2580,7 @@
       "title": "Castlevania: Belmont’s Curse Mocked Over Difference Between Promo Art & In-Game Art",
       "link": "https://news.sankakucomplex.com/n/DgBCLSzBSKbgrfrVcCw0Fg",
       "publishedAt": "2026-10-25T15:09:29.000Z",
-      "excerpt": "Castlevania: Belmont’s Curse has attracted criticism from some gamers over the noticeable difference between its attractive promotional character artwork and the actual in-game designs, with comparisons prompting jokes about how the finished product fails to live up to its advertisements.",
+      "excerpt": "Castlevania: Belmont’s Curse has attracted criticism from some gamers over the noticeable difference between its attractive promotional character artwork and the actual in-game designs, with comparisons prompting jokes about how the finished product fails to live up to its advertisements. The dis…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2581,8 +2590,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e635b21ecc1bc712",
@@ -3471,8 +3479,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "391d4e28a33a62e1",
@@ -3796,7 +3803,7 @@
       "title": "Hatsune Miku Producer Supercell Returns With Two New Pokemon Songs After 10 Years",
       "link": "https://news.sankakucomplex.com/n/38pT5WuHMydYQSgiHov1IQ",
       "publishedAt": "2026-10-25T01:00:27.000Z",
-      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary.",
+      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary. The songs, titled “LEGENDS” and “1…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3806,15 +3813,14 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "23d7068beafb5178",
       "title": "Former BioWare Producer Allegedly Rejected Job Applicants Over Political Views",
       "link": "https://news.sankakucomplex.com/n/mOAwFYxzyRI46yXaIGec1A",
       "publishedAt": "2026-10-24T21:00:17.000Z",
-      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with.",
+      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with. Avello…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3824,8 +3830,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ff7d8990dbc10435",
@@ -3859,8 +3864,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "34daff2037fb4ecb",
@@ -3973,7 +3977,7 @@
       "title": "Playasia Shuts Down Website After Weeks of Relentless Cyberattacks",
       "link": "https://news.sankakucomplex.com/n/WGaHCIW8aR5c6Z6oe0Qu1A",
       "publishedAt": "2026-10-24T13:05:11.000Z",
-      "excerpt": "Popular video game import retailer Playasia has temporarily shut down its website after suffering weeks of increasingly sophisticated cyberattacks, with the company’s CEO warning that the attacks appear to be part of a massive coordinated campaign targeting tens of thousands of organizations. On…",
+      "excerpt": "Popular video game import retailer Playasia has temporarily shut down its website after suffering weeks of increasingly sophisticated cyberattacks, with the company’s CEO warning that the attacks appear to be part of a massive coordinated campaign targeting tens of thousands of organizations.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3983,8 +3987,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "967b76c073e7e38c",
@@ -4616,7 +4619,7 @@
       "title": "Disgaea Creator Secretly Took $127,000 Loan Without Telling Wife to Finish His New Game",
       "link": "https://news.sankakucomplex.com/n/dt4WiSZ8N0kr8t7f43r1Jg",
       "publishedAt": "2026-10-24T08:00:06.000Z",
-      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever. Niikawa disclosed the fi…",
+      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4626,8 +4629,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "882591ec9b169f52",
@@ -4847,8 +4849,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "789d6cd0014e7764",
@@ -5252,8 +5253,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7fb7e7203054d044",
@@ -5323,8 +5323,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "dcaa627bb215d65a",
@@ -5341,8 +5340,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ac80813f563e9bac",
@@ -5444,8 +5442,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c883c94f12530d0f",
@@ -5462,8 +5459,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f45177317369cb72",
@@ -5599,8 +5595,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "25d6f7a4c2a13496",
@@ -5617,8 +5612,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "42c9a30c0dcd539d",
@@ -5802,8 +5796,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "bc764dabf7eb2bc1",
@@ -5820,8 +5813,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7e13314e5e9a1173",
@@ -6415,8 +6407,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "bbf0728898356eae",
@@ -6433,8 +6424,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "6c03c9bdb160854e",
@@ -9563,8 +9553,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "72ae0c84968f17bd",
@@ -9581,8 +9570,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1975977edb4a3647",
@@ -10256,8 +10244,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f8cfbbbdaee02813",
@@ -10274,8 +10261,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ff9e4fb196c61c5e",
@@ -11260,8 +11246,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "dd5bc3b054a7c25c",
@@ -11278,8 +11263,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "78ee0fd0a7251e2a",
@@ -11928,8 +11912,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fce756ccf0ea00ff",
@@ -11946,8 +11929,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1249f0d0f81d40a2",
@@ -12195,8 +12177,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "373447c55e7ef60b",
@@ -12213,8 +12194,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "6844891372020ab6",
@@ -13002,8 +12982,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "38adb8123cfd293f",
@@ -13020,8 +12999,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f62e15eb48bfb7de",
@@ -13357,8 +13335,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7fc60b8d6702778c",
@@ -13375,8 +13352,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3182c84ec53fbde9",
@@ -13873,8 +13849,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "64e0ceb9dd18db6c",
@@ -13891,8 +13866,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a618a402e3789845",
@@ -14165,8 +14139,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "51e6e71d7b35069c",
@@ -14183,8 +14156,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "0b1247505f7f8fe8",
@@ -14303,8 +14275,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "49aa15534d65cf92",
@@ -14321,8 +14292,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "12d90e61743b3577",
@@ -14577,8 +14547,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7266a487894f3ae3",
@@ -14595,8 +14564,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8585194375dce8b0",
@@ -14613,8 +14581,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "169c7201da9651d6",
@@ -15124,8 +15091,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e922e499dc600424",
@@ -15142,8 +15108,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "0bcbd96cb018d756",
@@ -15669,8 +15634,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4bec4aee487991d0",
@@ -15687,8 +15651,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f2acaa84437ee392",
@@ -16128,8 +16091,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e811ddd014598eab",
@@ -16146,8 +16108,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "d840da8d04d66b60",
@@ -16403,8 +16364,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ba1c48d4cfde43ca",
@@ -16421,8 +16381,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1af5b88c6a39cb04",
@@ -16515,8 +16474,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3f19a7c9bbbc9c97",
@@ -16533,8 +16491,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "edd0cf1aeb970ffd",
@@ -16619,8 +16576,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4501c9c5207ec4e5",
@@ -16637,8 +16593,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "69935c7a17261e1f",
@@ -17004,8 +16959,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f6c4bd1501541adf",
@@ -17022,8 +16976,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "edeb9938a98a3d57",
@@ -17186,8 +17139,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e80a6e889c137564",
@@ -17204,8 +17156,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "76f0ea930e1de960",
@@ -17465,8 +17416,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "39322c4199f7fe6a",
@@ -17483,8 +17433,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f73bae5276f7f615",
@@ -17518,8 +17467,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "dfd5861eef744f32",
@@ -17536,8 +17484,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a7adf3a24b98ee47",
@@ -17554,8 +17501,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "98837d959e0de917",
@@ -17572,8 +17518,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "969eee6522d75714",
@@ -17696,8 +17641,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2b356d7f161a7f75",
@@ -17714,8 +17658,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "624d3a528ebaba08",
@@ -18081,8 +18024,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1b01b5664e2a7e46",
@@ -18099,8 +18041,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c65493ccd844fb99",
@@ -18441,25 +18382,6 @@
       },
       "translatedTitle": "RADWIMPS, new song “You, Starry” MV to be released tomorrow",
       "translatedExcerpt": "RADWIMPS has announced that the music video for their new song \"Thou, Star no Gotoku\" will be premiered on YouTube at 9pm on October 18, 2026. This song was created separately from the theme song for the movie \"You Are Like a Star,\" which is currently being released. This work, which was born in the early stages of the film's production, captures the pain and difficulty of life that the main characters, Kai and Akemi, face, as well as the fierceness of their lives. Digital distribution has started from October 16th, so be sure to check it out along with the theme song ``Yusei -Yuzutsu-''. The movie ``You Are Like a Star'' is a live-action movie starring Yokohama Ryusei and Hirose Suzu and directed by Fujii Michito, based on the million-selling novel by novelist Yu Nagira, which has sold over 2 million copies in total. The story is set on a certain island in the scenic Seto Inland Sea. A high school boy transfers from Kyoto to an island and dreams of becoming a manga author..."
-    },
-    {
-      "id": "763d6ab529b2b814",
-      "title": "今夜〈Venue101〉10/17見どころ",
-      "link": "https://ototoy.jp/news/132324",
-      "publishedAt": "2026-10-17T08:00:00.000Z",
-      "excerpt": "10月17日に放送されるNHK〈Venue101〉の見どころが発表された。 今回パフォーマンスするのはNumber_i、櫻坂46、日向坂46の3組。 今回のVenueはライブパフォーマンスの大切な要素である「振り付け」に注目。ゲスト3組の“忘れられない名振り付け”を懐かしの映像とともに発表する。 櫻坂46は「愛MUST BE」、日向坂46は「イチャイチャ虫」を披露。Number_iは「REBON」を披露。視聴者が選ぶ“Number_iのいちばん好きなサビの振り”を発表する。 インフォメーション Venue101 EXTRA 2026年10月17日（土） 23:00～23:30 リリース情報 https://ototoy.jp/_/default/p/4219340 HP https://www.nhk.j…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132324/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Tonight's Venue 101 10/17 Highlights",
-      "translatedExcerpt": "10月17日に放送されるNHK〈Venue101〉の見どころが発表された。 今回パフォーマンスするのはNumber_i、櫻坂46、日向坂46の3組。 今回のVenueはライブパフォーマンスの大切な要素である「振り付け」に注目。ゲスト3組の“忘れられない名振り付け”を懐かしの映像とともに発表する。 櫻坂46は「愛MUST BE」、日向坂46は「イチャイチャ虫」を披露。Number_iは「REBON」を披露。視聴者が選ぶ“Number_iのいちばん好きなサビの振り”を発表する。 インフォメーション Venue101 EXTRA 2026年10月17日（土） 23:00～23:30 リリース情報 https://ototoy.jp/_/default/p/4219340 HP https://www.nhk.j…"
     }
   ]
 }

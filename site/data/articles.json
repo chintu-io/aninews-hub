@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T13:01:59.149Z",
+  "generatedAt": "2026-10-26T13:31:57.265Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 127,
+      "count": 128,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 121,
+      "count": 117,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 216,
+      "count": 221,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 78,
+      "count": 76,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,156 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 615,
+    "translatedJapaneseArticles": 619,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "60de396d518177ad",
+      "title": "BE:FIRST、MANATOが制作に参加した新曲「NOW U KNOW」先行配信決定＆MVティザー公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166817",
+      "publishedAt": "2026-10-26T13:30:00.000Z",
+      "excerpt": "BE:FIRSTが、2026年11月2日に新曲「NOW U KNOW」を先行配信リリースする。",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166817/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "BE:FIRST, new song “NOW U KNOW” produced by MANATO decided to be distributed in advance & MV teaser released",
+      "translatedExcerpt": "BE:FIRST will pre-release their new song \"NOW U KNOW\" on November 2, 2026."
+    },
+    {
+      "id": "e4d4c837b18d837f",
+      "title": "アレックス・ラスティグ、11/13に来日公演【Ambient Hours Tokyo 2026】を渋谷で開催",
+      "link": "https://www.billboard-japan.com/d_news/detail/166818",
+      "publishedAt": "2026-10-26T13:30:00.000Z",
+      "excerpt": "ベルギー出身、トロントを拠点に活動するエレクトロニック・ミュージック・アーティストのアレックス・ラ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166818/800x_image.png",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Alex Lustig will come to Japan to perform [Ambient Hours Tokyo 2026] on November 13th in Shibuya",
+      "translatedExcerpt": "Alex La is a Belgian-born, Toronto-based electronic music artist."
+    },
+    {
+      "id": "e65066c388ded37e",
+      "title": "The World's Strongest Witch Anime Reveals Two New Cast Additions",
+      "link": "https://crunchyroll.com/news/latest/2026/10/26/the-worlds-strongest-witch-anime-reveals-two-new-cast-additions",
+      "publishedAt": "2026-10-26T13:28:00.000Z",
+      "excerpt": "Crunchyroll streams adaptation based on fantasy comedy light novel series",
+      "image": "https://a.storyblok.com/f/178900/1036x583/8223dab10c/the_worlds_strongest_witch_cast_additions_header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "b7c9d2d2fbcc2562",
+      "title": "M!LK、エネルギッシュな「ザッツ！超常」ダンスパフォーマンス映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166816",
+      "publishedAt": "2026-10-26T13:25:00.000Z",
+      "excerpt": "M!LKが、新曲「ザッツ！超常」を配信リリースし、ダンスパフォーマンス映像を公開した。 新曲「",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166816/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "M!LK releases energetic “That’s! Sujou” dance performance video",
+      "translatedExcerpt": "M!LK has released a new song ``That's! Sujou'' and released a dance performance video. New song “"
+    },
+    {
+      "id": "59159b3f206c6b10",
+      "title": "STARGLOW、宙に浮かぶバスケットゴールの上で「Slam Dunk」をパフォーマンスするMV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166812",
+      "publishedAt": "2026-10-26T13:10:00.000Z",
+      "excerpt": "STARGLOWが、新曲「Slam Dunk」を配信リリースし、ミュージックビデオを公開した。",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166812/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "STARGLOW releases MV of performing “Slam Dunk” on top of a floating basketball goal",
+      "translatedExcerpt": "STARGLOW has released their new song \"Slam Dunk\" and released the music video."
+    },
+    {
+      "id": "a7e3f063234cba24",
+      "title": "JO1、アニメ『東リベ』OP主題歌「IGNITE」MVは神話をモチーフにしたストーリー",
+      "link": "https://www.billboard-japan.com/d_news/detail/166815",
+      "publishedAt": "2026-10-26T13:05:00.000Z",
+      "excerpt": "JO1が、新曲「IGNITE」のミュージックビデオを公開した。 2026年9月9日に配信リリー",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166815/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "JO1's MV for anime \"Higashi Libe\" opening theme song \"IGNITE\" has a story based on mythology",
+      "translatedExcerpt": "JO1 has released the music video for their new song \"IGNITE\". Released on September 9, 2026"
+    },
+    {
+      "id": "6450ac2e7607b3f2",
+      "title": "'As a Reincarnated Aristocrat, I'll Use My Appraisal Skill' Season 3's 3rd Video Unveils New Arc, More Cast",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-26/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-season-3-3rd-video-unveils-new-arc-more-cast/.243205",
+      "publishedAt": "2026-10-26T13:01:28.000Z",
+      "excerpt": "\"Fujimiya Family Arc\" starts in episode 6 on November 1",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH5/youtube/-T0umnrZA4s.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "858817744c765eaa",
+      "title": "Fishing information website for Susaki, Japan, hit by data leak, all 3 users affected",
+      "link": "https://soranews24.com/2026/10/26/fishing-information-website-for-susaki-japan-hit-by-data-leak-all-3-users-affected/",
+      "publishedAt": "2026-10-26T13:00:48.000Z",
+      "excerpt": "Personal information for everyone posting to the site over the past year compromised. For the past week, there has been an inordinate number of hacking and data leakage from all kinds of websites, from 6.6 million people’s names, emails, and, in some cases, driver’s license info taken from major car rental and parking service Times […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/shikunyuugataturi_TP_V4.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "e0d283d2bab7ba80",
       "title": "山崎育三郎、ロバート秋山も出演する「高輪サバイバー」MVでゆかりの地を巡る",
@@ -185,6 +331,23 @@
       },
       "translatedTitle": "Tour the places connected to Takanawa Survivor in the MV, which also features Ikusaburo Yamazaki and Robert Akiyama.",
       "translatedExcerpt": "Ikusaburo Yamazaki has released the music video for his song \"Takanawa Survivor\". The song “Takanawa Survivor” is"
+    },
+    {
+      "id": "bb4fa6449efa7d3f",
+      "title": "The Eternal Fool's Words of Wisdom Anime Casts Minori Fujidera",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-26/the-eternal-fool-words-of-wisdom-anime-casts-minori-fujidera/.243200",
+      "publishedAt": "2026-10-26T12:55:31.000Z",
+      "excerpt": "Fujidera joins cast of January 2027 series as Rina",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF6/cms/news.10/243200/rina-voiced-by-miyu-fujidera.jpeg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "6ae2c450870b3542",
@@ -336,7 +499,7 @@
         "language": "ja"
       },
       "translatedTitle": "ONE N’ ONLY releases “CRUSH ON YOU” drama PV using the main footage of the drama “Ao to Aoi” starring NAOYA",
-      "translatedExcerpt": "\"CRUSH ON YOU\" is a song that will be included in the second major album \"MEGA GOLDEN\" released on December 2nd (Wednesday), and is the opening theme song for the drama \"Ao to Aoi\". Prior to the album's release, advance distribution will begin on October 7th (Wednesday). This song is a slightly more mature love song, with a stylish and cool sound that reveals a passion that instantly makes sparks fly. Contrary to her true feelings, which are at the mercy of love, she pretends to be calm and plays games, and the swaying movements of her heart are expressed through words and sounds, making it a song that matches the drama depicting \"unrequited love.\" The drama PV to be released this time consists of footage from episodes 1 to 3 of ``Ao to Aoi''. The video allows you to enjoy the chorus of the first chorus of \"CRUSH ON YOU\", and the lyrics of the song are also displayed on the screen..."
+      "translatedExcerpt": "\"CRUSH ON YOU\" is a song that will be included in the second major album \"MEGA GOLDEN\" released on December 2nd (Wednesday), and is the opening theme song for the drama \"Ao to Aoi\". Prior to the album's release, advance distribution will begin on October 7th (Wednesday). This song is a love song for adults, with a stylish and cool sound, and a passion that instantly makes sparks fly. Contrary to her true feelings, which are at the mercy of love, she pretends to be calm and plays games, and the swaying movements of her heart are expressed through words and sounds, making it a song that matches the drama depicting \"unrequited love.\" The drama PV to be released this time consists of footage from episodes 1 to 3 of ``Ao to Aoi''. The video allows you to enjoy the chorus of the first chorus of \"CRUSH ON YOU\", and the lyrics of the song are also displayed on the screen..."
     },
     {
       "id": "0ee1817db5814713",
@@ -3834,7 +3997,7 @@
         "language": "ja"
       },
       "translatedTitle": "<EIGHT-JAM> 10/25 is “Special feature on amazing vocalists in the Reiwa idol world”",
-      "translatedExcerpt": "On October 25th, <EIGHT-JAM> will broadcast a special feature on the amazing vocalists of the Reiwa idol world. Guests include Masaki Imai, Mofuku-chan, and Metal Takada. Introducing 14 people with amazing singing voices from popular groups such as FRUITS ZIPPER, =LOVE, Nogizaka46, and Shiritsu Ebisu Chugaku. Program information Information https://www.tv-asahi.co.jp/eightjam/ https://x.com/EIGHTJAMtvasahi Release information https://ototoy.jp/_/default/p/4297062"
+      "translatedExcerpt": "On October 25th, <EIGHT-JAM> will broadcast a special feature on the amazing vocalists of the Reiwa idol world. Guests include Masaki Imai, Mofuku-chan, and Metal Takada. We will introduce 14 people with amazing singing voices from popular groups such as FRUITS ZIPPER, =LOVE, Nogizaka46, and Shiritsu Ebisu Chugaku. Program information Information https://www.tv-asahi.co.jp/eightjam/ https://x.com/EIGHTJAMtvasahi Release information https://ototoy.jp/_/default/p/4297062"
     },
     {
       "id": "0a631f42ca1e139d",
@@ -18239,159 +18402,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2128acdc93ea5450",
-      "title": "Bleach: Thousand-Year Blood War - The Calamity Anime Goes Out with a Bang in Final Trailer",
-      "link": "https://crunchyroll.com/news/latest/2026/10/16/bleach-thousand-year-blood-war-the-calamity-anime-final-trailer",
-      "publishedAt": "2026-10-16T20:01:00.000Z",
-      "excerpt": "Final two episodes close out the saga this month",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/903af40feb/bleach-ep49.jpeg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "3a3d09c69cc8ac77",
-      "title": "JoJolion Manga, DAN DA DAN Character Guide and More Set for Summer 2027",
-      "link": "https://crunchyroll.com/news/latest/2026/10/16/jojolion-manga-dandadan-character-guide-summer-2027-viz-media",
-      "publishedAt": "2026-10-16T19:52:00.000Z",
-      "excerpt": "VIZ Media reveals a bunch of print plans for next summer’s releases",
-      "image": "https://a.storyblok.com/f/178900/960x540/69367ea470/dan-da-dan-ep22.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "4dbfbdad8bf0bf6c",
-      "title": "Atelier Karia Now Letting Players Make Its Heroine Gain Weight",
-      "link": "https://news.sankakucomplex.com/n/7sl3gBYLQGp1jQ6hE6X9_w",
-      "publishedAt": "2026-10-16T17:41:35.000Z",
-      "excerpt": "Koei Tecmo and Gust have confirmed that Atelier Karia: The Night Kingdom & the Guide of Memories will feature a body-shape system that allows protagonist Karia to gain weight depending on how much she eats, following overwhelmingly positive feedback from fans.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f1ba0ce7bf539ff0",
-      "title": "Atelier Karia Now Letting Players Make Its Heroine Gain Weight",
-      "link": "https://news.sankakucomplex.com/n/pvH6cFbZz2sC1ckgTuxIDw",
-      "publishedAt": "2026-10-16T17:41:35.000Z",
-      "excerpt": "Koei Tecmo and Gust have confirmed that Atelier Karia: The Night Kingdom & the Guide of Memories will feature a body-shape system that allows protagonist Karia to gain weight depending on how much she eats, following overwhelmingly positive feedback from fans.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "103c6fda64df8c14",
-      "title": "Magical Girl Raising Project restart Anime Shares Creditless Opening and Ending Videos",
-      "link": "https://crunchyroll.com/news/latest/2026/10/16/magical-girl-raising-project-restart-anime-creditless-opening-ending-videos",
-      "publishedAt": "2026-10-16T16:50:00.000Z",
-      "excerpt": "Crunchyroll streams the original series",
-      "image": "https://a.storyblok.com/f/178900/2360x1312/b4184d1650/magical-girl-raising-project-restart-op-hero.jpeg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e853c5a2e962be5f",
-      "title": "This Japanese sandwich mascot is filled with fiery rage, and he’s got a point [Video]",
-      "link": "https://soranews24.com/2026/10/17/this-japanese-sandwich-mascot-is-filled-with-fiery-rage-and-hes-got-a-point-video/",
-      "publishedAt": "2026-10-16T16:00:21.000Z",
-      "excerpt": "Pocket sandwich innovator is sick and tired of being called an imitation, and furious too. Npa might not be Japan’s most famous mascot character, perhaps because of his difficult-to-pronounce name, but you can’t really fault his design. Not only is the spokescharacter for Fuji Baking cute, he’s also an anthropomorphized version of the company’s pocket […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/SS-1.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "71eb3734391d47e0",
-      "title": "Black Clover Season 2 English Dub Now Streaming on Crunchyroll",
-      "link": "https://crunchyroll.com/news/announcements/2026/10/16/black-clover-season-2-anime-english-dub-release-date-cast-crew",
-      "publishedAt": "2026-10-16T16:00:00.000Z",
-      "excerpt": "New episodes will release weekly",
-      "image": "https://a.storyblok.com/f/178900/960x540/e1bf4bd618/black-clover-season-2.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "c0cb36fe11ebde45",
-      "title": "The Irregular at Magic High School THE MOVIE -Yotsuba Succession Arc- Tickets Now on Sale",
-      "link": "https://crunchyroll.com/news/announcements/2026/10/16/the-irregular-at-magic-high-school-the-movie-yotsuba-succession-arc-tickets-now-on-sale",
-      "publishedAt": "2026-10-16T16:00:00.000Z",
-      "excerpt": "The movie will release theatrically in the United States, Canada on November 1, 3 and 4",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/cce11c3b70/the-irregular-at-magic-high-school-the-movie-yotsuba-succession-arc.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "58ab5fba78206636",
-      "title": "Final Love Live! Nijigasaki High School Idol Club Anime Film's Teaser Unveils February 5 Opening",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-16/final-love-live-nijigasaki-high-school-idol-club-anime-film-teaser-unveils-february-5-opening/.242898",
-      "publishedAt": "2026-10-16T15:33:12.000Z",
-      "excerpt": "3rd film features theme song \"Dreaming Free\"",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJF/youtube/T4S-2lR-164.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

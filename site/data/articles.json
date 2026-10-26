@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T12:32:08.687Z",
+  "generatedAt": "2026-10-26T13:01:59.149Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 122,
+      "count": 121,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 20,
+      "count": 19,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 214,
+      "count": 216,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 251,
+      "count": 250,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "count": 78,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,48 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 613,
+    "translatedJapaneseArticles": 615,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "e0d283d2bab7ba80",
+      "title": "山崎育三郎、ロバート秋山も出演する「高輪サバイバー」MVでゆかりの地を巡る",
+      "link": "https://www.billboard-japan.com/d_news/detail/166813",
+      "publishedAt": "2026-10-26T13:00:00.000Z",
+      "excerpt": "山崎育三郎が、楽曲「高輪サバイバー」のミュージックビデオを公開した。 楽曲「高輪サバイバー」は",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166813/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Tour the places connected to Takanawa Survivor in the MV, which also features Ikusaburo Yamazaki and Robert Akiyama.",
+      "translatedExcerpt": "Ikusaburo Yamazaki has released the music video for his song \"Takanawa Survivor\". The song “Takanawa Survivor” is"
+    },
+    {
+      "id": "6ae2c450870b3542",
+      "title": "RADWIMPSの広告が東京メトロ3駅に突如出現、新曲「娑婆堕罵 -Shabadaba-」リリースをサプライズ発表",
+      "link": "https://www.billboard-japan.com/d_news/detail/166814",
+      "publishedAt": "2026-10-26T12:55:00.000Z",
+      "excerpt": "RADWIMPSが、2026年10月28日に新曲「娑婆堕罵 -Shabadaba-」を配信リリース",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166814/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "RADWIMPS advertisements suddenly appear at 3 Tokyo Metro stations, surprise announcement of release of new song \"Shabadaba-\"",
+      "translatedExcerpt": "RADWIMPS will release new song “Shabadaba” on October 28, 2026"
+    },
     {
       "id": "c5626c3da2735e2b",
       "title": "M!LK、新曲「ザッツ！超常」配信リリース＆ダンスパフォーマンスムービー公開",
@@ -3378,7 +3416,7 @@
         "language": "ja"
       },
       "translatedTitle": "Lennon Stella releases new AL with 12 songs",
-      "translatedExcerpt": "Lennon Stella released her new album ``Sleeping Lion'' on Friday, October 23, 2026. This is his first album in about 6 years since his debut album “Three. Two. One.” in 2020. This work reflects where she is now, having rediscovered her own sensibilities and love for music after taking a break from the music industry. Containing 12 songs in total, this work is a step forward from the previous gorgeous pop sound. Developing the world of introspective indie folk. Release information https://ototoy.jp/_/default/p/4297477 Artist information https://www.instagram.com/lennonstella"
+      "translatedExcerpt": "Lennon Stella released her new album ``Sleeping Lion'' on Friday, October 23, 2026. This is his first work in about 6 years since his debut album “Three. Two. One.” in 2020. This work reflects where she is now, having rediscovered her own sensibilities and love for music after taking a break from the music industry. Containing 12 songs in total, this work is a step forward from the previous gorgeous pop sound. Developing the world of introspective indie folk. Release information https://ototoy.jp/_/default/p/4297477 Artist information https://www.instagram.com/lennonstella"
     },
     {
       "id": "3ace76a54f59012f",
@@ -5046,6 +5084,23 @@
       },
       "translatedTitle": "[Sen Yomi Digital] Naniwa Danshi's \"Moonlit\" is running at the top of the DL song, followed by MAZZEL in 2nd place",
       "translatedExcerpt": "From the download song sales report by GfK/NIQ Japan from October 19, 2026 to October"
+    },
+    {
+      "id": "653a40dd4cd17b2a",
+      "title": "Hideo Kojima Says People Who Never Played Death Stranding Still Call It a “Walking Simulator”",
+      "link": "https://news.sankakucomplex.com/n/nsFgKKVGHRtTZ5fVIqfChg",
+      "publishedAt": "2026-10-23T12:32:21.000Z",
+      "excerpt": "Death Stranding creator Hideo Kojima has criticized the tendency of social media users to repeat opinions about games they have never played, pointing to the persistent description of his unconventional delivery adventure as a mere “walking simulator” as an example of how “online echo chambers di…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "bc764dabf7eb2bc1",
@@ -18337,59 +18392,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2fd3223c1c8f5291",
-      "title": "汐れいら、恋愛番組『星の見える町で』主題歌「もし、」配信リリース決定",
-      "link": "https://barks.jp/news/1094594",
-      "publishedAt": "2026-10-16T15:30:00.000Z",
-      "excerpt": "汐れいらが、2026年10月23日に新曲「もし、」を配信リリースすることを発表した。 本楽曲は、Hulu×日本テレビによる「恋」と「移住」がテーマの新・恋愛番組『星の見える町で』として書き下ろした楽曲。 『星の見える町で』は、都会での暮らしに生きづらさを感じる、自分の人生一度立ち止まって考えたい。そんな悩み抱える都会女性たちが、地元に根を張り力強く生きている地方の男性と出会ったら、恋は生まれるのだろうか。そして彼女達が生きたかった“本当の自分”を見つけることは出来るのだろうか。日本の町の魅力を再発見すると共に、大人な女性たちが”本当に生きたかった自分”を見つける、新たな恋愛番組だ。 「もし、」は、そんな番組のコンセプトや実際の映像からイメージを膨らませて制作されたという。「もし、の世界」を想像してしまうよ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/01/21185314/%E6%B1%90%E3%82%8C%E3%81%84%E3%82%89_%E6%9C%80%E6%96%B0A%E5%86%99s.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Reira Shio will release the theme song “Moshi,” for the romance show “Hoshi no Mieru Machi de”",
-      "translatedExcerpt": "Reira Shio has announced that she will digitally release her new song \"Moshi,\" on October 23, 2026. This song was written for Hulu x Nippon Television's new romance program ``In the Starry City'' with the themes of ``love'' and ``migration.'' ``In a Starry Town'' is about people who find it difficult to live in the city and want to stop and think about their own lives. If these troubled urban women meet rural men who have strong roots in their hometowns, will love ensue? And will they be able to find their true selves? This is a new romance program where adult women rediscover the charm of Japanese towns and discover who they truly wanted to be in life. ``Moshi,'' was created based on the concept of the program and the actual footage. I can't help but imagine what the world would be like..."
-    },
-    {
-      "id": "27fa485318206c84",
-      "title": "Happy Kanako's Killer Life Anime Announced for April 2027",
-      "link": "https://crunchyroll.com/news/latest/2026/10/16/happy-kanakos-killer-life-anime-announced-for-april-2027",
-      "publishedAt": "2026-10-16T15:14:00.000Z",
-      "excerpt": "Main cast and more revealed for adaptation based on Toshiya Wakabayashi's manga",
-      "image": "https://a.storyblok.com/f/178900/1000x563/b9b7ae661b/happy_kanakos_killer_life_header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "cc074e871f424427",
-      "title": "Manga 'Shiawase Kanako no Koroshiya Seikatsu' Gets TV Anime in Spring 2027",
-      "link": "https://myanimelist.net/news/74827326?_location=rss",
-      "publishedAt": "2026-10-16T15:13:08.000Z",
-      "excerpt": "Production company TOHO animation opened an official website for a television anime adaptation of Toshiya Wakabayashi's Shiawase Kanako no Koroshiya Seikatsu (Happy Kanako's Killer Life) manga on Saturday, revealing the main cast, staff, a teaser visual (pictured), and teaser promotional video. The anime series will premiere in April 2027. Cast Kanako Nis…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1792163358-e75304ffb0008ad6d2d7664c4accec8c.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
         "language": "en"
       }
     }

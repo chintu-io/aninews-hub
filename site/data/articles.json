@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T15:02:03.447Z",
+  "generatedAt": "2026-10-27T15:32:16.892Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 42,
+      "count": 41,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 132,
+      "count": 134,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 119,
+      "count": 118,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 234,
+      "count": 231,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 245,
+      "count": 243,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 145,
+      "count": 150,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 532,
+    "translatedJapaneseArticles": 526,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "e253c478d94b4a85",
+      "title": "Amazon Flooded With Suspected AI-Generated Fire Emblem Guides",
+      "link": "https://news.sankakucomplex.com/n/ytRZD8DeYIdeZZ7uZnnxBQ",
+      "publishedAt": "2026-10-27T15:28:59.000Z",
+      "excerpt": "Nintendo’s Fire Emblem: Fortune’s Weave has become the latest video game targeted by publishers selling suspicious strategy guides on Amazon Japan, with numerous unofficial books featuring seemingly AI-generated artwork and questionable contents appearing just weeks after the game’s release.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "575bc1b85c3839d5",
       "title": "BAND-MAID、アニメ『BEYBLADE X』EDテーマの新曲「SPIN」MV公開",
@@ -187,6 +204,25 @@
       "translatedExcerpt": "BAND-MAIDが10月28日にニューシングル「SPIN」をリリースし、あわせてミュージックビデオを公開した。 表題曲「SPIN」は、アニメ『BEYBLADE X』の新章『BEYBLADE X ベイキングダム編』のエンディングテーマに起用されているナンバー。高速ビートを刻むドラムとスラップを交えた重厚なベースラインがリズムを牽引し、テクニカルなギターリフやタッピングソロが重なるアグレッシブなハードロックサウンドに仕上がっている。 回転や衝突など、ベイブレードからインスピレーションを受けたという要素をBAND-MAIDらしく音として落とし込み、どんな壁も乗り越えて前進し続ける、という強い意志が込められている。 公開されたミュージックビデオは、独楽（コマ）やゾエトロープ（回転のぞき絵）、メリーゴーラウンドと…"
     },
     {
+      "id": "92839b7752db1d47",
+      "title": "BAND-MAID、アニメ『BEYBLADE X』エンディングテーマの新曲「SPIN」MV公開",
+      "link": "https://ototoy.jp/news/132491",
+      "publishedAt": "2026-10-27T15:00:00.000Z",
+      "excerpt": "BAND-MAIDが2026年10月28日にニューシングル「SPIN」をリリース。併せて公式YouTubeチャンネルにて同曲のミュージックビデオを公開した。 表題曲「SPIN」は、アニメ『BEYBLADE X』の新章『BEYBLADE X ベイキングダム編』のエンディングテーマに起用されているナンバーだ。高速ビートを刻むドラムとスラップを交えた重厚なベースラインがリズムを牽引し、テクニカルなギターリフやタッピングソロが重なるアグレッシブなハードロックサウンドに仕上がっている。回転や衝突など、ベイブレードからインスピレーションを受けたという要素をBAND-MAIDらしく音として落とし込み、どんな壁も乗り越えて前進し続ける、という強い意志が込められている。 公開されたミュージックビデオは、独楽（コマ）やゾエト…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132491/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "BAND-MAID、アニメ『BEYBLADE X』エンディングテーマの新曲「SPIN」MV公開",
+      "translatedExcerpt": "BAND-MAIDが2026年10月28日にニューシングル「SPIN」をリリース。併せて公式YouTubeチャンネルにて同曲のミュージックビデオを公開した。 表題曲「SPIN」は、アニメ『BEYBLADE X』の新章『BEYBLADE X ベイキングダム編』のエンディングテーマに起用されているナンバーだ。高速ビートを刻むドラムとスラップを交えた重厚なベースラインがリズムを牽引し、テクニカルなギターリフやタッピングソロが重なるアグレッシブなハードロックサウンドに仕上がっている。回転や衝突など、ベイブレードからインスピレーションを受けたという要素をBAND-MAIDらしく音として落とし込み、どんな壁も乗り越えて前進し続ける、という強い意志が込められている。 公開されたミュージックビデオは、独楽（コマ）やゾエト…"
+    },
+    {
       "id": "123d68670bb364d7",
       "title": "Cozy Anime Corner: A Terrified Teacher at Ghoul School! is Made for Spooky Season",
       "link": "https://crunchyroll.com/news/features/2026/10/27/cozy-anime-corner-a-terrified-teacher-at-ghoul-school",
@@ -202,6 +238,80 @@
         "accent": "#ff6784",
         "language": "en"
       }
+    },
+    {
+      "id": "51e15e26f3840dc0",
+      "title": "flip-flops、新たな世界観を表現した新曲リリース",
+      "link": "https://ototoy.jp/news/132478",
+      "publishedAt": "2026-10-27T15:00:00.000Z",
+      "excerpt": "flip-flopsが2026年10月28日(水)にニューシングル「sweet liar(s)」をリリースした。 ミッドウエストエモとエレクトロニクスの融合に挑んだニューEPの発表から僅か1ヶ月。さらに多くのジャンルを取り込みながら発展していくために生まれた本作は、アコースティックの木質なサウンドと、シンセやグラニュラー処理で生まれた粒子のような電子音を組み合わせた、新たな世界観を表現した作品となっている。 ニューEPでも使ってきた、ボーカルを細かく刻む処理とそれを包み込むように存在するPadサウンドから曲は始まり、聴く人をすぐにflip-flopsの世界へ引き込む。アコースティックギターの弦が擦れる音と、鍵盤の上を細かく動くシンセが重なっていき、Bon IverやNovo Amorを思わせる透明感のある…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132478/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "flip-flops、新たな世界観を表現した新曲リリース",
+      "translatedExcerpt": "flip-flopsが2026年10月28日(水)にニューシングル「sweet liar(s)」をリリースした。 ミッドウエストエモとエレクトロニクスの融合に挑んだニューEPの発表から僅か1ヶ月。さらに多くのジャンルを取り込みながら発展していくために生まれた本作は、アコースティックの木質なサウンドと、シンセやグラニュラー処理で生まれた粒子のような電子音を組み合わせた、新たな世界観を表現した作品となっている。 ニューEPでも使ってきた、ボーカルを細かく刻む処理とそれを包み込むように存在するPadサウンドから曲は始まり、聴く人をすぐにflip-flopsの世界へ引き込む。アコースティックギターの弦が擦れる音と、鍵盤の上を細かく動くシンセが重なっていき、Bon IverやNovo Amorを思わせる透明感のある…"
+    },
+    {
+      "id": "eeaf0a4d811d5d46",
+      "title": "Rummy Nose Tetra、アッパーな新曲リリース",
+      "link": "https://ototoy.jp/news/132488",
+      "publishedAt": "2026-10-27T15:00:00.000Z",
+      "excerpt": "Rummy Nose Tetraが2026年10月28日(水)にニューシングル「ダンシングミッドナイトカンフードラゴン」をリリースした。 本作は、中毒性抜群の最新ダンスチューン。ファンクやディスコ、R&Bのグルーヴをベースに、チャイナテイストなエッセンスやカンフーの熱量を大胆にミックスしたアッパーなダンスナンバーに仕上がっている。 「難しいことは抜きにして、嫌なことを忘れて楽しく踊ろう」というストレートなメッセージを放つ本楽曲。エネルギーに満ちたカンフー映画のような世界観に仕上がった。 躍動感あふれるベースのスラップを軸に、ノリの良いディスコ/ファンクのテイストを軽快に展開。さらに遊び心のあるラップやアレンジが加わり、Rummy Nose Tetraならではのキャッチーな中毒性を生み出している。 また、本…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132488/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Rummy Nose Tetra、アッパーな新曲リリース",
+      "translatedExcerpt": "Rummy Nose Tetraが2026年10月28日(水)にニューシングル「ダンシングミッドナイトカンフードラゴン」をリリースした。 本作は、中毒性抜群の最新ダンスチューン。ファンクやディスコ、R&Bのグルーヴをベースに、チャイナテイストなエッセンスやカンフーの熱量を大胆にミックスしたアッパーなダンスナンバーに仕上がっている。 「難しいことは抜きにして、嫌なことを忘れて楽しく踊ろう」というストレートなメッセージを放つ本楽曲。エネルギーに満ちたカンフー映画のような世界観に仕上がった。 躍動感あふれるベースのスラップを軸に、ノリの良いディスコ/ファンクのテイストを軽快に展開。さらに遊び心のあるラップやアレンジが加わり、Rummy Nose Tetraならではのキャッチーな中毒性を生み出している。 また、本…"
+    },
+    {
+      "id": "8b0a36ce168e5cd0",
+      "title": "Witch on the Holy Night Film's Trailer Previews supercell's Theme Song",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-27/witch-on-the-holy-night-film-trailer-previews-supercell-theme-song/.243248",
+      "publishedAt": "2026-10-27T15:00:00.000Z",
+      "excerpt": "Film screens in U.S., Canada on January 29, 2027",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ8/youtube/UGnGTBBszJI.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "a4c46d7161cafb56",
+      "title": "オリジナルブッダマシーン「涅槃」発売 neco眠る、七尾旅人、東郷清丸、テンテンコ、imaiらが参加",
+      "link": "https://ototoy.jp/news/132475",
+      "publishedAt": "2026-10-27T15:00:00.000Z",
+      "excerpt": "「光と音の専門店ハオハオハオ」より、電子念仏機「涅槃」が2026年10月28日（水）に発売される。 「涅槃」は2021年に発表した「天界」に続く第2弾の“オリジナルブッダマシーン”。 ブッダマシーン（電子念仏機）とは、中国を中心としたアジア各国で製造されている、念仏や仏教音楽、民謡などを収録した電子音響機器のこと。ボタンひとつで音を再生でき、収録された音が繰り返し流れる。日本では、信仰のための道具として使用されるというよりは、見た目のポップさから自宅や飲食店のインテリアとして楽しまれたり、その楽曲性の高さからアーティストがライブやサンプリングで使用するなどしてカルト的な人気を集めている。 日本国内外で活躍するアーティストが書き下ろした楽曲や人気の楽曲を多数収録しており、豪華なアーティスト達がブッダマシーン…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132475/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "オリジナルブッダマシーン「涅槃」発売 neco眠る、七尾旅人、東郷清丸、テンテンコ、imaiらが参加",
+      "translatedExcerpt": "「光と音の専門店ハオハオハオ」より、電子念仏機「涅槃」が2026年10月28日（水）に発売される。 「涅槃」は2021年に発表した「天界」に続く第2弾の“オリジナルブッダマシーン”。 ブッダマシーン（電子念仏機）とは、中国を中心としたアジア各国で製造されている、念仏や仏教音楽、民謡などを収録した電子音響機器のこと。ボタンひとつで音を再生でき、収録された音が繰り返し流れる。日本では、信仰のための道具として使用されるというよりは、見た目のポップさから自宅や飲食店のインテリアとして楽しまれたり、その楽曲性の高さからアーティストがライブやサンプリングで使用するなどしてカルト的な人気を集めている。 日本国内外で活躍するアーティストが書き下ろした楽曲や人気の楽曲を多数収録しており、豪華なアーティスト達がブッダマシーン…"
     },
     {
       "id": "45347b95b55a1d1c",
@@ -221,6 +331,44 @@
       },
       "translatedTitle": "ボトルメール、バンド史上最速アップテンポな新曲「かくれユートピア」配信スタート",
       "translatedExcerpt": "ボトルメールのデジタルシングル「かくれユートピア」がリリースされた。 新体制5作目となる同曲は、バンド史上最速、アップテンポなナンバーに挑戦した新機軸の一曲。様々なジャンルに激突しながら独自の道を突き進む、ボトルメールらしい作品となっている。 なお、今回リリースされた「かくれユートピア」は、4ヶ月連続新曲リリースの第二弾となる。 配信シングル「かくれユートピア」2026年10月28日(水)配信https://lnk.to/Kakureutopia 関連リンク◆ボトルメール オフィシャルX◆ボトルメール オフィシャルInstagram The post ボトルメール、バンド史上最速アップテンポな新曲「かくれユートピア」配信スタート first appeared on BARKS."
+    },
+    {
+      "id": "5b435435ce0bac21",
+      "title": "坂本櫻、浮遊感のある新曲「銀河」リリース",
+      "link": "https://ototoy.jp/news/132489",
+      "publishedAt": "2026-10-27T15:00:00.000Z",
+      "excerpt": "坂本櫻が2026年10月28日(水)にニューシングル「銀河」をリリースした。 本作は、11ヶ月連続となる新曲。宇宙好き、銀色が好きな坂本櫻が、かねてより作ってみたかった「銀河」というテーマに挑戦した1曲となっている。 歪みのあるコード進行やアンビエントなサウンドで浮遊感を表現。歌詞においては、「わたしたちはこんなにも小さいのだから、何をしても、何もしなくても大丈夫。だけど、たどり着いた先に君がいたら嬉しい」というメッセージを伝えている。 なお、坂本櫻は12月5日(土)に東京・代官山にてワンマンライブ〈swaying〉を開催する。 リリース情報 https://ototoy.jp/_/default/a/935587 ライブ情報 http://haremame.com/schedule/82455/ htt…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132489/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "坂本櫻、浮遊感のある新曲「銀河」リリース",
+      "translatedExcerpt": "坂本櫻が2026年10月28日(水)にニューシングル「銀河」をリリースした。 本作は、11ヶ月連続となる新曲。宇宙好き、銀色が好きな坂本櫻が、かねてより作ってみたかった「銀河」というテーマに挑戦した1曲となっている。 歪みのあるコード進行やアンビエントなサウンドで浮遊感を表現。歌詞においては、「わたしたちはこんなにも小さいのだから、何をしても、何もしなくても大丈夫。だけど、たどり着いた先に君がいたら嬉しい」というメッセージを伝えている。 なお、坂本櫻は12月5日(土)に東京・代官山にてワンマンライブ〈swaying〉を開催する。 リリース情報 https://ototoy.jp/_/default/a/935587 ライブ情報 http://haremame.com/schedule/82455/ htt…"
+    },
+    {
+      "id": "de11ff66e86cfbfc",
+      "title": "文藝天国、1st AL『プールサイド・コア』のOTOTOY購入キャンペーンが決定！",
+      "link": "https://ototoy.jp/news/132483",
+      "publishedAt": "2026-10-27T15:00:00.000Z",
+      "excerpt": "文藝天国の1stフルアルバム『プールサイド・コア』が2026年10月28日(水)にリリース。本作をOTOTOYで購入すると、抽選で１名に「オリジナルPoolside Core Tシャツ」をプレゼントするキャンペーンを実施します。 「プールサイド・コア」は、文藝天国にとって初のフルアルバム。“音楽を起点に、映像・香り・味覚・そしてプロダクトへ。”という、文藝天国がこれまで断片的に提示してきた世界観を総称する造語がアルバムタイトルに冠されている。 オリジナルPoolside Core Tシャツプレゼント応募要項 応募期間 応募方法 購入履歴〉に『プールサイド・コア』があることをご確認ください) お問い合わせ〉ページより「プレゼントの応募」を選択し、 対象者 当選発表 OTOTOY配信リンク https://o…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132483/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "文藝天国、1st AL『プールサイド・コア』のOTOTOY購入キャンペーンが決定！",
+      "translatedExcerpt": "文藝天国の1stフルアルバム『プールサイド・コア』が2026年10月28日(水)にリリース。本作をOTOTOYで購入すると、抽選で１名に「オリジナルPoolside Core Tシャツ」をプレゼントするキャンペーンを実施します。 「プールサイド・コア」は、文藝天国にとって初のフルアルバム。“音楽を起点に、映像・香り・味覚・そしてプロダクトへ。”という、文藝天国がこれまで断片的に提示してきた世界観を総称する造語がアルバムタイトルに冠されている。 オリジナルPoolside Core Tシャツプレゼント応募要項 応募期間 応募方法 購入履歴〉に『プールサイド・コア』があることをご確認ください) お問い合わせ〉ページより「プレゼントの応募」を選択し、 対象者 当選発表 OTOTOY配信リンク https://o…"
     },
     {
       "id": "d589fc276110b467",
@@ -297,6 +445,23 @@
       "translatedExcerpt": "乃木坂46の6期生が、2026年12月16日に東京・日本武道館でワンマンライブ【乃木坂46 6期生"
     },
     {
+      "id": "eae36598c7c8ec52",
+      "title": "Phantom Busters TV Anime Reveals Main Cast, Staff",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-27/phantom-busters-tv-anime-reveals-main-cast-staff/.243246",
+      "publishedAt": "2026-10-27T14:32:22.000Z",
+      "excerpt": "Nobuhiko Okamoto, Natsuki Hanae, Kōki Uchiyama, Ryōta Suzuki star in TOHO animation STUDIO anime",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJH/cms/news.10/243246/busters.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
       "id": "240ab658876d8c92",
       "title": "Phantom Busters Anime Reveals Main Cast, Key Staff & Teaser Visual",
       "link": "https://crunchyroll.com/news/latest/2026/10/27/phantom-busters-anime-main-cast-key-staff-teaser-visual",
@@ -346,6 +511,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "dac41dd563a526d4",
+      "title": "Welcome to Demon School! Iruma-kun: IruMafia Edition TV Anime Reveals January 4 Debut, Returning Cast Members",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-27/welcome-to-demon-school-iruma-kun-irumafia-edition-tv-anime-reveals-january-4-debut-returning-cast-/.243245",
+      "publishedAt": "2026-10-27T14:09:29.000Z",
+      "excerpt": "Ayumu Murase, Ryōhei Kimura, Ayaka Asai, more return for spinoff series",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gID/cms/news.10/243245/if.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -18232,188 +18414,6 @@
         "accent": "#a78bfa",
         "language": "en"
       }
-    },
-    {
-      "id": "e811ddd014598eab",
-      "title": "Bandai Namco Reports Criminal Punishment for Person Who Sent Death Threats",
-      "link": "https://news.sankakucomplex.com/n/q9S29VvNBH0lg6SuAMVFWA",
-      "publishedAt": "2026-10-19T02:00:09.000Z",
-      "excerpt": "Bandai Namco Entertainment has revealed that an individual who repeatedly sent death threats targeting its executives, employees, and other associates through the company’s official website has been identified and subjected to criminal punishment.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "d840da8d04d66b60",
-      "title": "テイラー・スウィフト、人気スターたちを前に「The Fate of Ophelia」をライブ初披露",
-      "link": "https://www.billboard-japan.com/d_news/detail/166614",
-      "publishedAt": "2026-10-19T02:00:00.000Z",
-      "excerpt": "テイラー・スウィフトが、2026年の【アカデミー・ミュージアム・ガラ】で「The Fate of",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166614/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Taylor Swift performs \"The Fate of Ophelia\" live for the first time in front of popular stars",
-      "translatedExcerpt": "Taylor Swift will perform ``The Fate of'' at the 2026 Academy Museum Gala"
-    },
-    {
-      "id": "f14597876a4f27e1",
-      "title": "乃木坂46、43rdシングル「君ロス」表題曲センターが5期生・井上和に決定",
-      "link": "https://barks.jp/news/1094894",
-      "publishedAt": "2026-10-19T01:42:26.000Z",
-      "excerpt": "乃木坂46が12月2日(水)にリリースする最新シングル「君ロス」のフォーメーションセンターを、5期生・井上和が務めることが発表された。 「君ロス」の選抜フォーメーションは乃木坂46の冠バラエティ番組『乃木坂工事中』にて発表された。センターを務める井上和は「2026年にリリースされたシングルは同じ5期生の池田瑛紗と一ノ瀬美空が初センターを務めてくれて、2人に感化されてたくさん頑張ることが出来たので、私もセンターを任せていただいたからには周りの人に影響を与えられるような人でありたいと思います」と意気込みを語った。 また、今回の選抜メンバーは18名になることも併せて発表され、4期生・金川紗耶が5作ぶりに選抜に復帰し、5期生からは小川彩と岡本姫奈が合わせて選抜復帰となった。 5期生として2022年に加入した井上和…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/12124444/%E4%B9%83%E6%9C%A8%E5%9D%8246_42nd_%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F%EF%BC%8B.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Nogizaka46's 43rd single \"Kimiros\" title song center will be 5th generation member Kazu Inoue",
-      "translatedExcerpt": "It has been announced that 5th generation member Kazu Inoue will be the formation center for Nogizaka46's latest single \"Kimiros\" to be released on December 2nd (Wednesday). The selection formation for \"Kimiros\" was announced on Nogizaka46's variety show \"Nogizaka Under Construction\". Center member Kazu Inoue expressed his enthusiasm, saying, ``For the single released in 2026, fellow 5th generation members Eisa Ikeda and Misora ​​Ichinose served as the center for the first time, and I was inspired by them and was able to work hard.Now that I've been entrusted with the role of center, I want to be the kind of person who can influence the people around me.'' It was also announced that the number of senbatsu members this time will be 18, with 4th generation member Saya Kanagawa returning to the senbatsu for the first time in 5 works, and 5th generation members Aya Ogawa and Himena Okamoto also returning to the senbatsu. Kazu Inoue, who joined in 2022 as a 5th generation member..."
-    },
-    {
-      "id": "952d4f49cf800ca9",
-      "title": "Rock Band Yutori Releases The Vermilion Mask Anime Ending Song Music Video",
-      "link": "https://crunchyroll.com/news/latest/2026/10/19/the-vermilion-mask-anime-ending-song-music-video-yutori",
-      "publishedAt": "2026-10-19T01:42:00.000Z",
-      "excerpt": "The 100studio-animated battle fantasy series is available on Crunchyroll",
-      "image": "https://a.storyblok.com/f/178900/960x540/baa2dbcc10/yutori-koe-mv.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "dc1319cfca8a9a3b",
-      "title": "日曜劇場「VIVANT」「今回は全部チンギスが持っていった」「別班にも音楽隊があるのかな」",
-      "link": "https://www.billboard-japan.com/d_news/detail/166613",
-      "publishedAt": "2026-10-19T01:30:00.000Z",
-      "excerpt": "「VIVANT」（TBS系）の第21話が18日に放送された。 本作は、2023年夏、日本中を熱狂",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166613/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Sunday Theater ``VIVANT'' ``Genghis took everything this time'' ``I wonder if there's a band in the separate group too''",
-      "translatedExcerpt": "The 21st episode of \"VIVANT\" (TBS) was broadcast on the 18th. This work will be popular all over Japan in the summer of 2023."
-    },
-    {
-      "id": "c56771ec29fe0e16",
-      "title": "Love Live! Hasu no Sora Jōgakuin School Idol Club TV Anime Unveils 7-Episode Run, January 10 Debut",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-18/love-live-hasu-no-sora-jogakuin-school-idol-club-tv-anime-unveils-7-episode-run-january-10-debut/.242958",
-      "publishedAt": "2026-10-19T01:09:46.000Z",
-      "excerpt": "New visuals for 106th class characters also unveiled",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJD/cms/news.10/242958/ll-hasunosora-tvanime-kv.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1527e1c188210629",
-      "title": "New Studio Ghibli stamps – Too cute to wait until New Year’s to use, so they’re available right now",
-      "link": "https://soranews24.com/2026/10/19/new-studio-ghibli-stamps-too-cute-to-wait-until-new-years-to-use-so-theyre-available-right-now/",
-      "publishedAt": "2026-10-19T01:00:49.000Z",
-      "excerpt": "Totoro and the Catbus are ready to help you get started on wishing for good luck and happiness even before we get to nengajo season. Japan doesn’t really do Christmas cards, but the country does have a custom of New Year’s cards, or nengajo, as they’re called in Japanese. The end of the year tends […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/11_411add.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "297ea1d6e75c2a47",
-      "title": "9Lana、1stオリジナルフルアルバム『Puppet』2027年2月にリリースへ",
-      "link": "https://barks.jp/news/1094782",
-      "publishedAt": "2026-10-19T01:00:01.000Z",
-      "excerpt": "9Lanaが、自身初となるオリジナルフルアルバム『Puppet』を2027年2月17日(水)にリリースすることを発表した。 本作は、10月3日(土)に開催された自身初のオンラインライブ『DOLLS』の終演後にリリースが発表されていた1stアルバム。2024年4月のメジャーデビューから3年目を迎え、満を持して届ける本作には、これまでの9Lanaの歩みを彩ってきた楽曲に加え、新たな表現に挑んだ新曲も多数収録。楽曲によって力強くも、繊細、そして狂気さえ感じさせる変幻自在の9Lanaの歌声。まるで楽曲ごとに異なる人格が宿ったかのような9Lanaならではの表現力が詰め込まれた、まさに“歌役者”としての真骨頂を体感できる一枚となっている。 さらに、本日アルバムのアートワークも公開された。アートワークを手掛けたのは、「…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/18192215/9Lana_2026FY_ICON2_MID.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "9Lana to release 1st original full album “Puppet” in February 2027",
-      "translatedExcerpt": "9Lana has announced that she will release her first original full album ``Puppet'' on February 17, 2027 (Wednesday). This is his 1st album, which was announced to be released after his first online live \"DOLLS\" held on October 3rd (Saturday). Celebrating the third year since their major debut in April 2024, this long-awaited work includes songs that have colored 9Lana's journey to date, as well as many new songs that challenge new expressions. 9Lana's versatile singing voice can be powerful, delicate, or even crazy depending on the song. Packed with 9Lana's unique expressiveness, it's as if each song has a different personality, and it's a record that lets you experience the true essence of 9Lana as a \"singing actor.\" Furthermore, the album artwork was also released today. The artwork was created by “…"
-    },
-    {
-      "id": "6eeda763cbec4ecd",
-      "title": "〈人生、歌がある〉10/24は「坂本冬美名場面集」",
-      "link": "https://ototoy.jp/news/132332",
-      "publishedAt": "2026-10-19T01:00:00.000Z",
-      "excerpt": "BS朝日〈人生、歌がある〉10月24日は「もう一度みたい この1曲！」コーナーと坂本冬美特集を放送する。 坂本冬美特集ではゲストに坂本本人を迎えて、代表曲、渾身の一曲やコラボ傑作選、新曲を放送。 出演は、市川由紀乃、大石まどか、岡田美里、川中美幸、クミコ、香西かおり、伍代夏子、坂本冬美、真田ナオキ、島津亜矢、純烈、神野美伽、田原俊彦、坪井直樹、天童よしみ、原田悠里、福田こうへい、藤あや子、三山ひろし、森進一、由紀さおり。 番組情報 人生、歌がある 放送日時 毎週土曜 よる7時〜8時54分 放送 リリース情報 https://ototoy.jp/_/default/p/4164082 インフォメーション https://www.bs-asahi.co.jp/jinseiutagaaru/ https://w…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132332/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<Life has songs> October 24th is “Sakamoto Fuyumi Famous Scene Collection”",
-      "translatedExcerpt": "BS Asahi <Life has songs> October 24th will broadcast a ``This is the one song I want to try again!'' corner and a special feature on Fuyumi Sakamoto. In the Fuyumi Sakamoto special feature, Sakamoto herself will be the guest, and she will broadcast her representative songs, one of her best songs, a selection of collaboration masterpieces, and new songs. Starring Yukino Ichikawa, Madoka Oishi, Misato Okada, Miyuki Kawanaka, Kumiko, Kaori Kozai, Natsuko Goshiro, Fuyumi Sakamoto, Naoki Sanada, Aya Shimazu, Junretsu, Mika Kamino, Toshihiko Tahara, Naoki Tsuboi, Yoshimi Tendo, Yuri Harada, Kohei Fukuda, Ayako Fuji, Hiroshi Miyama, Shinichi Mori, Saori Yuki. Program information Life has songs Broadcast date and time Broadcast every Saturday from 7:00 to 8:54 Release information https://ototoy.jp/_/default/p/4164082 Information https://www.bs-asahi.co.jp/jinseiutagaaru/ https://w…"
-    },
-    {
-      "id": "2e31dc624d569bfe",
-      "title": "モグワイ、約30年の活動を追うドキュメンタリー映画『MOGWAI／星に音があったなら』12/4日本公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166612",
-      "publishedAt": "2026-10-19T01:00:00.000Z",
-      "excerpt": "モグワイの約30年にわたる活動を追った音楽ドキュメンタリー映画『MOGWAI／星に音があったなら』",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166612/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Mogwai documentary film “MOGWAI/If the Stars Had Sound” released in Japan on December 4th, which follows the activities of Mogwai for about 30 years",
-      "translatedExcerpt": "``MOGWAI/If the Stars Had Sound'' is a music documentary film that follows Mogwai's activities over the past 30 years."
     }
   ]
 }

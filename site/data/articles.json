@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T20:04:20.903Z",
+  "generatedAt": "2026-10-27T20:34:35.343Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 138,
+      "count": 139,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 118,
+      "count": 117,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 62,
       "fetchedCount": 24
     }
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 602,
+    "translatedJapaneseArticles": 603,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "a613dc6c24dd408f",
+      "title": "Manga Barcelona to Host Junji Ito, Hyuganatsu, Nao Iwamoto, Sakaomi Yuzaki, Yudetamago, Taizan 5, Kore Yamazaki, Shoji Kawamori, More",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-27/manga-barcelona-to-host-junji-ito-hyuganatsu-nao-iwamoto-sakaomi-yuzaki-yudetamago-taizan-5-kore-/.243251",
+      "publishedAt": "2026-10-27T20:00:00.000Z",
+      "excerpt": "Also: Kenny Ruiz, Risa Ebata, Keiichiro Saito, Yuichiro Fukushi, Reol, Lotus Juice, Ali, Nightmare, more",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGA/cms/news.10/243251/manga-barcelona.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "18639db81f9490f3",
       "title": "AniBiz Anime Licensing Platform Receives US$6 Million Investment From TBS, Toei Animation, TV Tokyo",
@@ -6136,8 +6153,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Michael Kiwanuka、新ALリリース",
-      "translatedExcerpt": "Michael Kiwanukaが2026年10月23日(金)にニューアルバム『FUDGE』をリリースした。 2024年のアルバム『Small Changes』と並行する時期に生まれた本作。約3年にわたる自由な創作の積み重ねから誕生した全12曲の作品となっている。 長年タッグを組んできたDanger MouseやInfloを中心とする制作体制から離れた本作。Kiwanuka自身がプロダクションの主導権を握った、キャリアにおける重要な転換点となるアルバムに仕上がっている。 リリース情報 https://ototoy.jp/_/default/p/4345837 アーティスト情報 https://www.instagram.com/michaelkiwanuka/"
+      "translatedTitle": "Michael Kiwanuka, new AL release",
+      "translatedExcerpt": "Michael Kiwanuka released his new album \"FUDGE\" on Friday, October 23, 2026. This work was born at the same time as the 2024 album \"Small Changes\". It is a total of 12 songs that was born from about 3 years of free creative work. This work departs from the production system centered around Danger Mouse and Inflo, who have been collaborating for many years. Kiwanuka himself took control of the production, making this album an important turning point in his career. Release information https://ototoy.jp/_/default/p/4345837 Artist information https://www.instagram.com/michaelkiwanuka/"
     },
     {
       "id": "e28266e5b832f836",
@@ -18389,23 +18406,6 @@
       },
       "translatedTitle": "[Live Report] Takui Nakajima completes all 31 songs requested by fans during a night of excitement at the Tokyo International Forum “Today is special”",
       "translatedExcerpt": "On October 12th (Monday/holiday), Takui Nakajima held a request live show <THE BEST REQUEST SONGS> at Tokyo International Forum Hall C, where he performed the best 30 songs chosen by his fans. It has been 6 years since Takui performed a request live since his 20th anniversary in 2019. The voting results, which closed at the end of August, will be performed according to the ranking starting from 30th place, and will include a total of 31 songs, including songs that the singers themselves have chosen as ``want to sing.'' I was overwhelmed by Zhuo Wei's singing ability and stamina, and I was touched by the way the fans sang passionately from beginning to end, and the intense three hours still leave an impression in my heart. The show starts at 5pm. When the SE began to sound, the fans stood up and chanted \"Zhuo Wei!\" Behind the gauze curtain, the silhouette of Zhuo Wei, who begins to sing \"CHANGE MY WORLD\" in a mesmerizing voice, appears, and the scene..."
-    },
-    {
-      "id": "88dd453c6ee0a7b3",
-      "title": "Tsugumi Project Anime Reveals Main Cast",
-      "link": "https://crunchyroll.com/news/latest/2026/10/19/tsugumi-project-anime-main-cast",
-      "publishedAt": "2026-10-19T03:00:00.000Z",
-      "excerpt": "The upcoming series adapts a post-apocalyptic action manga",
-      "image": "https://a.storyblok.com/f/178900/1200x630/3d608b1c62/tsugumi-project.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

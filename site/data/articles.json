@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T00:02:19.676Z",
+  "generatedAt": "2026-10-27T00:32:19.519Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 133,
+      "count": 134,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 124,
+      "count": 125,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 222,
+      "count": 219,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 76,
+      "count": 77,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,63 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 607,
+    "translatedJapaneseArticles": 605,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "0fdcb5c5e5b8ef85",
+      "title": "New Precure Spin-Off Anime \"Dual Shadow ～Precure Villain Heroines～\" Slated for 2027",
+      "link": "https://crunchyroll.com/news/latest/2026/10/27/precure-spin-off-anime-dual-shadow-precure-villain-heroines-2027",
+      "publishedAt": "2026-10-27T00:25:00.000Z",
+      "excerpt": "Original characters and story will be featured in the spin-off series",
+      "image": "https://a.storyblok.com/f/178900/960x540/cd1c0a5dce/dual-shadow-header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "b4d02bdd40747273",
+      "title": "Itsuwari no Kenta Manga Ends Next Chapter",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-26/itsuwari-no-kenta-manga-ends-next-chapter/.243213",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "excerpt": "Series debuted in December 2025",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g46/cms/news.10/243213/81stqxtluzl.sl1500.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "8ff482349c5d6527",
+      "title": "クリーン・バンディット、ターラとのコラボ曲「La Dolce Vita」公開 ナポリ近郊撮影のMVも解禁",
+      "link": "https://www.billboard-japan.com/d_news/detail/166823",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "excerpt": "クリーン・バンディットが、パレスチナ系イタリア人のシンガーソングライターのターラ（TARA）とタッ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166823/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Clean Bandit releases collaboration song “La Dolce Vita” with Tara, music video shot near Naples also released",
+      "translatedExcerpt": "Clean Bandit teams up with Palestinian-Italian singer-songwriter TARA."
+    },
     {
       "id": "9c51a3918438ec11",
       "title": "IVE、”ガールヒーロー”を提示した新EPリリース",
@@ -2548,7 +2601,7 @@
       "title": "Japan Releases Life-Sized Female Body Pillows With Breasts, Curves & Customizable Bodies",
       "link": "https://news.sankakucomplex.com/n/vQisIpqzhUHUeIvKsKgRYw",
       "publishedAt": "2026-10-25T19:00:29.000Z",
-      "excerpt": "Japanese company BIBILAB has introduced a new life-sized female body pillow designed for otaku who want to cuddle, dress up, and sleep alongside their favorite fictional characters, complete with three-dimensional breasts, shapely waists, and adjustable stuffing to recreate their ideal waifu. Ann…",
+      "excerpt": "Japanese company BIBILAB has introduced a new life-sized female body pillow designed for otaku who want to cuddle, dress up, and sleep alongside their favorite fictional characters, complete with three-dimensional breasts, shapely waists, and adjustable stuffing to recreate their ideal waifu.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5271,6 +5324,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "ffcdac15b2dc15bf",
+      "title": "LINE Manga Introduces AI Feature Letting Fans Create Stories & Chat With Manga Characters",
+      "link": "https://news.sankakucomplex.com/n/6gCdTvULBnfaxNYakRNPMg",
+      "publishedAt": "2026-10-24T00:00:22.000Z",
+      "excerpt": "Japanese digital manga platform LINE Manga has introduced a new AI-powered feature that allows readers to converse with their favorite fictional characters and create their own fan fiction stories, with the company emphasizing that all participating works have received approval from their origina…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18304,82 +18374,6 @@
       },
       "translatedTitle": "Momoiro Clover Z, new AL release decided for the first time in about 3 years",
       "translatedExcerpt": "It has been decided that Momoiro Clover Z will release their 8th album ``VOGUE AND ROMANCE'' on Wednesday, March 3, 2027. It was announced today, along with a special video, during the live performance of \"Momoclo Autumn Peach God Festival 2026\" DAY1, which was held at Amagadai General Park in Chosei Village, Chiba Prefecture. https://youtu.be/X4NLcWnHvhM In the video, Momoiro Clover Z, who will celebrate their 20th anniversary in May 2028, also announced that they will start [THE ULTIMATE YEAR]. The band's 8th original full-length album ``VOGUE AND ROMANCE'', the first in about 3 years since their 7th album ``Hydra'', marks the beginning of ``THE ULTIMATE YEAR''. [THE ULTIMATE YEAR…"
-    },
-    {
-      "id": "ba72bd6732af322c",
-      "title": "『羊文学のオールナイトニッポンGOLD』公開収録、コーナーやアコースティックライブを実施",
-      "link": "https://www.billboard-japan.com/d_news/detail/166592",
-      "publishedAt": "2026-10-17T08:35:00.000Z",
-      "excerpt": "羊文学が、2026年10月30日に放送となるニッポン放送『オールナイトニッポンGOLD』のパーソナ",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166592/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "“Sheep Literature All Night Nippon GOLD” public recording, corner and acoustic live performance",
-      "translatedExcerpt": "Hitsuji Bungaku will be the persona for Nippon Broadcasting System “All Night Nippon GOLD” which will be broadcast on October 30, 2026."
-    },
-    {
-      "id": "863b2e6c6d2f5087",
-      "title": "back number、ライブハウス／ホール／アリーナで行う2027年ファンクラブツアー開催",
-      "link": "https://www.billboard-japan.com/d_news/detail/166591",
-      "publishedAt": "2026-10-17T08:30:00.000Z",
-      "excerpt": "back numberが、2027年9月よりファンクラブツアー【back number fancl",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166591/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "back number will hold a 2027 fan club tour at live houses/halls/arenas",
-      "translatedExcerpt": "back number will be holding a fan club tour from September 2027 [back number fancl"
-    },
-    {
-      "id": "e539052604528eeb",
-      "title": "原因は自分にある。が『Quick Japan Monologue』第1号の特別版表紙、20代での変化や葛藤をインタビュー",
-      "link": "https://www.billboard-japan.com/d_news/detail/166590",
-      "publishedAt": "2026-10-17T08:25:00.000Z",
-      "excerpt": "原因は自分にある。が、2026年11月18日に発売となる雑誌『Quick Japan Monolo",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166590/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "The cause is myself. special edition cover of the first issue of \"Quick Japan Monologue\", interview about changes and conflicts in his 20s",
-      "translatedExcerpt": "The cause is myself. The magazine “Quick Japan Monolo” will be released on November 18, 2026."
-    },
-    {
-      "id": "d5111b7a3bb8f27b",
-      "title": "TWS、性格や習慣が反映された個人コンセプト映像『Being Myself』公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166589",
-      "publishedAt": "2026-10-17T08:20:00.000Z",
-      "excerpt": "TWSが、2026年11月2日にリリースとなるニューシングル『TO US』の個人コンセプト映像を公",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166589/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "TWS releases “Being Myself”, a personal concept video that reflects their personality and habits",
-      "translatedExcerpt": "TWS has released a personal concept video for their new single “TO US” which will be released on November 2, 2026."
     }
   ]
 }

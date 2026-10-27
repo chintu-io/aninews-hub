@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T01:03:15.424Z",
+  "generatedAt": "2026-10-27T01:32:59.342Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 41,
+      "count": 42,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 134,
+      "count": 135,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 241,
+      "count": 239,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 143,
+      "count": 142,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "count": 78,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 603,
+    "translatedJapaneseArticles": 601,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "408dd3206f968eb8",
+      "title": "Baum vending machine in a Yokohama station lets us eat cake served on a luxury cruise ship",
+      "link": "https://soranews24.com/2026/10/27/baum-vending-machine-in-a-yokohama-station-lets-us-eat-cake-served-on-a-luxury-cruise-ship/",
+      "publishedAt": "2026-10-27T01:00:36.000Z",
+      "excerpt": "Our favorite kind wasn’t even the one we expected, but they were all the baum-dot-com. It takes a lot to surprise us when it comes to Japanese vending machines, considering we’ve seen everything from Sriracha to sushi meals being sold in them. While the latter might sound a bit dubious, we’ve had relatively good results […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/1_a88bfd.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "f20d0c92de6690d3",
+      "title": "Final Fantasy Veteran Says AI Can’t Replace Human Creativity",
+      "link": "https://news.sankakucomplex.com/n/rQTiAQ8ycYpialkyCwTTZw",
+      "publishedAt": "2026-10-27T01:00:09.000Z",
+      "excerpt": "Veteran Final Fantasy developer Yoshinori Kitase believes artificial intelligence will become increasingly important in video game development, but insists that the technology should never replace the human creativity responsible for coming up with original ideas.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "1daec334cf8c7e40",
       "title": "東方神起 ユンホ、自身作詞含むDSG配信リリース",
@@ -200,6 +234,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "cf2a0490f2917ed6",
+      "title": "Precure Franchise Gets Spinoff TV Anime Dual Shadow ~Precure Villain Heroines~",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-26/precure-franchise-gets-spinoff-tv-anime-dual-shadow-~precure-villain-heroines~/.243229",
+      "publishedAt": "2026-10-27T00:35:02.000Z",
+      "excerpt": "Anime debuts in 2027 with original story, characters",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGI/youtube/4H3qrB9yaJA.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -2637,7 +2688,7 @@
       "title": "Japan Releases Life-Sized Female Body Pillows With Breasts, Curves & Customizable Bodies",
       "link": "https://news.sankakucomplex.com/n/vQisIpqzhUHUeIvKsKgRYw",
       "publishedAt": "2026-10-25T19:00:29.000Z",
-      "excerpt": "Japanese company BIBILAB has introduced a new life-sized female body pillow designed for otaku who want to cuddle, dress up, and sleep alongside their favorite fictional characters, complete with three-dimensional breasts, shapely waists, and adjustable stuffing to recreate their ideal waifu. Ann…",
+      "excerpt": "Japanese company BIBILAB has introduced a new life-sized female body pillow designed for otaku who want to cuddle, dress up, and sleep alongside their favorite fictional characters, complete with three-dimensional breasts, shapely waists, and adjustable stuffing to recreate their ideal waifu.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18315,63 +18366,6 @@
       },
       "translatedTitle": "Angèle releases new AL with 13 songs",
       "translatedExcerpt": "Angèle released her new album “Instinct” on Friday, October 16, 2026. This is an ambitious work that effortlessly transcends the framework of French pop, fusing the dynamism of electronic music with the artist's personal expression that addresses his inner self. Through all 13 songs, the album depicts the importance of moving forward by trusting your own intuition and moving away from the expectations of those around you. The production of this film took place over three years and took place in multiple locations including Brussels, Paris, New York, Rome, and Spain. Angèle writes, composes, and produces the songs himself, building on his previous production style and moving toward more creative freedom. Release information https://ototoy.jp/_/default/p/4343945 Artist information https://www.…"
-    },
-    {
-      "id": "973d6a85eb40c8f3",
-      "title": "FRUITS ZIPPER、新曲「じょい！×３」配信＆FC限定無料ライブ開催決定",
-      "link": "https://barks.jp/news/1094703",
-      "publishedAt": "2026-10-17T09:00:00.000Z",
-      "excerpt": "FRUITS ZIPPERが、新曲「じょい！×３」を2026年11月8日に配信リリースすることを発表した。 本楽曲は、自分らしさやみんなの「かわいい」を肯定するだけでなく、「やってみよう！」「楽しんじゃおう！」というポジティブなメッセージを通じて、新しいことに挑戦する楽しさを届けるハッピーチューンに仕上がっているという。本作の正式リリースに先駆け、10月18日よりTikTok／Instagramにて楽曲の一部を先行配信がスタートしているので是非チェックしてほしい。 またリリースを記念して、11月8日に東京ガーデンシアターでファンクラブ会員を対象とした無料招待ライブ＜FRUITS ZIPPER FANCLUB LIVE -じょい！×３-＞の開催も決定した。FRUITS ZIPPERからふるっぱー（ファンネー…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/17171306/fruitszipper_2026asha_web.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "FRUITS ZIPPER, new song “Joi! x 3” released & FC limited free live show decided",
-      "translatedExcerpt": "FRUITS ZIPPER has announced that their new song \"Joi! x 3\" will be released on November 8, 2026. This song is a happy tune that not only affirms who you are and how cute everyone is, but also conveys the joy of trying new things through positive messages such as \"Let's try it!\" and \"Let's have fun!\" Prior to the official release of this work, some of the songs will be distributed in advance on TikTok/Instagram from October 18th, so be sure to check it out. To commemorate the release, there will be a free invitation live performance for fan club members at Tokyo Garden Theater on November 8th <FRUITS ZIPPER FANCLUB LIVE -Joi! It has also been decided that ×3-> will be held. FRUITS ZIPPER to Furuppa (Fun Ne..."
-    },
-    {
-      "id": "164c1788e6537101",
-      "title": "FRUITS ZIPPER、新曲「じょい！×３」配信リリース決定",
-      "link": "https://ototoy.jp/news/132325",
-      "publishedAt": "2026-10-17T09:00:00.000Z",
-      "excerpt": "FRUITS ZIPPERが11月8日（日）に新曲「じょい！×３」（読み：じょいじょいじょい）を配信リリースすることが決定した。 本楽曲は、自分らしさやみんなの「かわいい」を肯定するだけでなく、「やってみよう！」「楽しんじゃおう！」というポジティブなメッセージを通じて、新しいことに挑戦する楽しさを届けるハッピーチューン。 リリース情報 「秘密のアティチュード」 https://ototoy.jp/_/default/p/4151820 アーティスト情報 https://instagram.com/fruits_zipper https://x.com/fruits_zipper",
-      "image": "https://imgs.ototoy.jp/news/image.php/132325/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "FRUITS ZIPPER, new song \"Joi! x 3\" to be released",
-      "translatedExcerpt": "It has been decided that FRUITS ZIPPER will release their new song “Joi! This song is a happy tune that not only affirms who you are and how cute everyone is, but also conveys the joy of trying new things through positive messages such as \"Let's try it!\" and \"Let's have fun!\" Release information “Secret Attitude” https://ototoy.jp/_/default/p/4151820 Artist information https://instagram.com/fruits_zipper https://x.com/fruits_zipper"
-    },
-    {
-      "id": "38da32284e8a9d20",
-      "title": "yutori、新曲「声」MV公開。“秩序”ある空間で暴走する“無秩序”",
-      "link": "https://barks.jp/news/1094684",
-      "publishedAt": "2026-10-17T09:00:00.000Z",
-      "excerpt": "yutoriが、TVアニメ『朱色の仮面』のエンディングテーマである「声」のMVを公開した。 『朱色の仮面』は、少年画報社のヤングキングアワーズにて連載中の原作・Dr.Poro、漫画・那波なばなによる仮面バトルファンタジー。2026年10月10日から読売テレビ・日本テレビ系 全国ネットにてアニメの放送がスタートしている。 アニメ放送開始日に「声」の音源配信もスタートし、同日にノンクレジットエンディング映像も公開されているので是非チェックしてほしい。 そして、TVアニメ「朱色の仮面」第2話の放送終了にあわせて「声」のMVが公開された。今回のMVではシルバー基調の衣装を纏ったメンバーの演奏シーンにフォーカスを当て、映像作家・エドソウタによるモーショングラフィックとエディットセンスが効いたダイナミックな映像に仕上…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/02/13150257/yutori_2026%E5%B9%B4%E3%82%A2%E3%83%BC%E5%86%99.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "yutori releases MV for new song \"Voice\". “Disorder” running wild in an “orderly” space",
-      "translatedExcerpt": "Yutori has released the music video for ``Voice'', the ending theme for the TV anime ``Vermilion Mask''. \"Vermilion Mask\" is a masked battle fantasy by the original author Dr. Poro and the manga Nanami Nabana, currently being serialized in Shonen Gahosha's Young King Hours. The anime will begin broadcasting on Yomiuri Television and Nippon Television networks nationwide from October 10, 2026. The audio distribution of the voice will begin on the day the anime begins broadcasting, and the non-credit ending video will also be released on the same day, so be sure to check it out. The music video for \"Voice\" was released to coincide with the end of the second episode of the TV anime \"Vermilion Mask\". This MV focuses on the performance scene of the members wearing silver-based costumes, and is finished with a dynamic video with motion graphics and editing sense by video artist Ed Sota."
     }
   ]
 }

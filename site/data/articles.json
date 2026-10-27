@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T01:32:59.342Z",
+  "generatedAt": "2026-10-27T02:04:19.075Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 126,
+      "count": 127,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 219,
+      "count": 220,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 142,
+      "count": 140,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,65 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 601,
+    "translatedJapaneseArticles": 599,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "3d26b3b2f13e05dc",
+      "title": "【米ビルボード・ソング・チャート】エラ・ラングレーが首位返り咲き、歴代最長記録を更新",
+      "link": "https://www.billboard-japan.com/d_news/detail/166826",
+      "publishedAt": "2026-10-27T02:00:00.000Z",
+      "excerpt": "今週（2026年10月31日付）の米ビルボード・ソング・チャート&ldquo;Hot 100&rd",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166826/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[U.S. Billboard Song Chart] Ella Langley returns to number one, breaking the all-time record",
+      "translatedExcerpt": "This week (as of October 31, 2026) US Billboard Song Chart “Hot 100&rd"
+    },
+    {
+      "id": "2d6c06f034187031",
+      "title": "Japan Box Office: Chiikawa the Movie: The Secret of the Mermaid Island Rises Back to No. 2 in 14th Weekend",
+      "link": "https://crunchyroll.com/news/latest/2026/10/27/chiikawa-the-movie-the-secret-of-the-mermaid-island-2nd-place-14th-weekend-japan-box-office",
+      "publishedAt": "2026-10-27T01:41:00.000Z",
+      "excerpt": "Made in Abyss: Mezameru Shinpi debuts in sixth",
+      "image": "https://a.storyblok.com/f/178900/960x519/d638da6d63/chiikawa-the-movie.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "69ca83c85d5575eb",
+      "title": "「南田南弁護士は天才肌」「（芦田）愛菜ちゃんのウェディングドレス姿がきれいだった」「見とれる（高橋）文哉くんもよかった」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166828",
+      "publishedAt": "2026-10-27T01:30:00.000Z",
+      "excerpt": "「南田南弁護士は天才肌」（関西テレビ／フジテレビ系）の第2話が、26日に放送された。 （C）KTV",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166828/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "``Attorney Minami Minami is a genius'' ``(Ashida) Mana looked beautiful in her wedding dress'' ``(Takahashi) Fumiya-kun was also great.''",
+      "translatedExcerpt": "The second episode of ``Minami Minami is a Genius'' (Kansai TV/Fuji TV) was broadcast on the 26th. (C)KTV"
+    },
     {
       "id": "408dd3206f968eb8",
       "title": "Baum vending machine in a Yokohama station lets us eat cake served on a luxury cruise ship",
@@ -189,7 +244,7 @@
       "title": "Final Fantasy Veteran Says AI Can’t Replace Human Creativity",
       "link": "https://news.sankakucomplex.com/n/rQTiAQ8ycYpialkyCwTTZw",
       "publishedAt": "2026-10-27T01:00:09.000Z",
-      "excerpt": "Veteran Final Fantasy developer Yoshinori Kitase believes artificial intelligence will become increasingly important in video game development, but insists that the technology should never replace the human creativity responsible for coming up with original ideas.",
+      "excerpt": "Veteran Final Fantasy developer Yoshinori Kitase believes artificial intelligence will become increasingly important in video game development, but insists that the technology should never replace the human creativity responsible for coming up with original ideas. Kitase discussed the future of g…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3645,7 +3700,7 @@
       "title": "Dead or Alive Xtreme Venus Vacation Adds Sexy Witch Outfits for Halloween",
       "link": "https://news.sankakucomplex.com/n/FTqxVGw7UtEQudHfqFSZNg",
       "publishedAt": "2026-10-25T05:00:46.000Z",
-      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire.",
+      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire. The latest SSR swimsuit, titled “Hexen Nagel,” arrived on October…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3996,7 +4051,7 @@
       "title": "Former BioWare Producer Allegedly Rejected Job Applicants Over Political Views",
       "link": "https://news.sankakucomplex.com/n/mOAwFYxzyRI46yXaIGec1A",
       "publishedAt": "2026-10-24T21:00:17.000Z",
-      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with.",
+      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with. Avello…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18309,63 +18364,6 @@
       },
       "translatedTitle": "Momoclo to release 8th album “VOGUE AND ROMANCE” and hold arena tour",
       "translatedExcerpt": "Momoiro Clover Z has announced that their 8th album ``VOGUE AND ROMANCE'' will be released on March 3, 2027. This announcement was made along with a special video during the DAY1 live performance of <Momoclo Autumn Peach God Festival 2026> held at Amagadai General Park in Chosei Village, Chiba today. In the video, it was also announced that Momoiro Clover Z, who will celebrate their 20th anniversary in May 2028, will start \"THE ULTIMATE YEAR\". The band's 8th original full-length album ``VOGUE AND ROMANCE'' marks the beginning of ``THE ULTIMATE YEAR'' and their first in about 3 years since their 7th album ``Hydra''. This work will be released in three forms: KING RECORDS STORE edition, first limited edition, and regular edition..."
-    },
-    {
-      "id": "36f61e52387c0ec0",
-      "title": "＜Archive＞JAPAN Hot 100開始から11年連続トップ10入り――aiko、「カブトムシ」「相思相愛」新旧超えて愛されるヒットの軌跡",
-      "link": "https://www.billboard-japan.com/d_news/detail/166404",
-      "publishedAt": "2026-10-17T09:00:00.000Z",
-      "excerpt": "社会的な反響を及ぼしたアーティストを毎週1組取り上げ、Billboard JAPAN Hot 10",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166404/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<Archive> Ranked in the top 10 for 11 consecutive years since the start of JAPAN Hot 100 - Aiko, \"Kabutomushi\" and \"Soushi Soai\" The trajectory of hits loved by both old and new",
-      "translatedExcerpt": "Billboard JAPAN Hot 10 features one artist each week who has had a social impact."
-    },
-    {
-      "id": "c05e539476c82687",
-      "title": "Alleh、軽快な新曲「uno+1」リリース",
-      "link": "https://ototoy.jp/news/132308",
-      "publishedAt": "2026-10-17T09:00:00.000Z",
-      "excerpt": "Allehが2026年10月16日(金)にニューシングル「uno+1」をリリースした。 本作は、Allehが培ってきたラテンアーバンの感覚が光る1曲。レゲトンを中心とするシーンの流れと、メロディーを重視したポップなアプローチが、彼の音楽性を語るうえで重要な要素となっている。 Allehは、Yorghakiとの共同プロジェクトで大きな注目を集めた後、ソロ活動でも独自の音楽的方向性を追求している。ニューアルバムに向けて精力的に活動しており、これまでの作品とは異なる音楽的なアプローチにも意欲を示している。 リリース情報 https://ototoy.jp/_/default/p/4341118 アーティスト情報 https://www.instagram.com/alleh/",
-      "image": "https://imgs.ototoy.jp/news/image.php/132308/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Alleh releases light new song “uno+1”",
-      "translatedExcerpt": "Alleh released their new single \"uno+1\" on Friday, October 16, 2026. This is a song that shines with the Latin urban sensibility that Alleh has cultivated. The flow of the scene centered around reggaeton and the pop approach that emphasizes melody are important elements when talking about his musicality. After garnering a lot of attention for his joint project with Yorghaki, Alleh is pursuing his own musical direction with his solo career. He has been actively working on his new album, and has shown a desire to take a different musical approach from his previous works. Release information https://ototoy.jp/_/default/p/4341118 Artist information https://www.instagram.com/alleh/"
-    },
-    {
-      "id": "642220d189768a69",
-      "title": "Angèle、全13曲を収録した新ALリリース",
-      "link": "https://ototoy.jp/news/132318",
-      "publishedAt": "2026-10-17T09:00:00.000Z",
-      "excerpt": "Angèleが2026年10月16日(金)にニューアルバム『Instinct』をリリースした。 本作はフレンチポップの枠組みを軽やかに飛び越え、エレクトロニックミュージックの躍動感と、アーティスト自身の内面に向き合うパーソナルな表現を融合させた意欲作。全13曲を通じて、周囲の期待から離れ、自らの直感を信じて進むことの大切さが描かれている。 本作の制作は約3年にわたり、ブリュッセル、パリ、ニューヨーク、ローマ、スペインなど、複数の場所を舞台に進められた。Angèleは作詞・作曲・プロデュースを自ら手がけながら、これまでの制作スタイルを土台に、より自由な創作へと踏み出している。 リリース情報 https://ototoy.jp/_/default/p/4343945 アーティスト情報 https://www.…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132318/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Angèle releases new AL with 13 songs",
-      "translatedExcerpt": "Angèle released her new album “Instinct” on Friday, October 16, 2026. This is an ambitious work that effortlessly transcends the framework of French pop, fusing the dynamism of electronic music with the artist's personal expression that addresses his inner self. Through all 13 songs, the album depicts the importance of moving forward by trusting your own intuition and moving away from the expectations of those around you. The production of this film took place over three years and took place in multiple locations including Brussels, Paris, New York, Rome, and Spain. Angèle writes, composes, and produces the songs himself, building on his previous production style and moving toward more creative freedom. Release information https://ototoy.jp/_/default/p/4343945 Artist information https://www.…"
     }
   ]
 }

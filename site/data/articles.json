@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T05:32:31.465Z",
+  "generatedAt": "2026-10-27T06:02:01.844Z",
   "sources": [
     {
       "id": "sankaku",
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 140,
+      "count": 141,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 72,
+      "count": 71,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 608,
+    "translatedJapaneseArticles": 609,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "1852c6efb50d2048",
+      "title": "RIIZE、アコースティックポップに初挑戦",
+      "link": "https://ototoy.jp/news/132472",
+      "publishedAt": "2026-10-27T06:00:00.000Z",
+      "excerpt": "RIIZEが新曲「Insomnia」をリリースした。 「Insomnia」は叙情的なギターサウンドを中心に展開されるアコースティックポップナンバー。MVでは眠れない人々の物語をシネマティックな演出で表現したドラマ仕立てで制作された。 RIIZEは10月30日(金)にKBS2TV「ミュージックバンク」、10月31日(土)にMBC「ショー！K-POPの中心」、11月1日(日)にSBS「人気歌謡」の韓国音楽番組に出演し「Insomnia」のステージを披露する。 リリース情報 https://ototoy.jp/_/default/p/4352230 アーティスト情報 https://riizeofficial.jp/ https://twitter.com/RIIZE_JPN@RIIZE_JPN https:/…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132472/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "RIIZE tries acoustic pop for the first time",
+      "translatedExcerpt": "RIIZE has released a new song \"Insomnia\". \"Insomnia\" is an acoustic pop number centered around a lyrical guitar sound. The MV was created in the style of a drama, expressing the story of people who can't sleep in a cinematic style. RIIZE will perform the song \"Insomnia\" on KBS2TV's \"Music Bank\" on Friday, October 30th, on MBC's \"Show! K-Pop Center\" on Saturday, October 31st, and on SBS's \"Inkigayo\" on Sunday, November 1st. Release information https://ototoy.jp/_/default/p/4352230 Artist information https://riizeofficial.jp/ https://twitter.com/RIIZE_JPN@RIIZE_JPN https:/…"
+    },
     {
       "id": "416cba56639b9b48",
       "title": "ザ・フレーミング・リップス、＜サード・マン・レコード＞移籍ALより「God Will Control The Werewolves」公開",
@@ -18363,23 +18382,6 @@
         "siteUrl": "https://soranews24.com/",
         "category": "Japan",
         "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "0bc9cd87247d1f45",
-      "title": "Seitokai ni mo Ana wa Aru Sukumizu Ad at Train Station Triggers Feminist Whining",
-      "link": "https://news.sankakucomplex.com/n/YejJ9AM9MYl7IROL5KBGZg",
-      "publishedAt": "2026-10-17T22:00:54.000Z",
-      "excerpt": "An advertisement for the anime Seitokai ni mo Ana wa Aru! (Even the Student Council Has Its Holes!) has sparked debate in Japan after a promotional image featuring the character Komaro Michinoku in a school swimsuit (sukumizu) appeared at Tokyo’s busy Ikebukuro Station. The advertisement drew att…",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

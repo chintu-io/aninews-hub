@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T12:02:32.584Z",
+  "generatedAt": "2026-10-27T12:31:47.601Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 131,
+      "count": 132,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 119,
+      "count": 118,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 22,
+      "count": 21,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 228,
+      "count": 229,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -146,7 +146,7 @@
       "feedUrl": "https://ototoy.jp/news/feed.rss",
       "count": 147,
       "imageEnrichment": null,
-      "fetchedCount": 50
+      "fetchedCount": 0
     },
     {
       "id": "sankaku",
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 580,
-    "translationAttempts": 160
+    "translatedJapaneseArticles": 553,
+    "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "1503625860d032e7",
+      "title": "＜レポート＞三代目JSB、MATEと作り上げた15年間の最高地点「MATEの皆さんが共に歩み続けてくれたおかげ」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166855",
+      "publishedAt": "2026-10-27T12:30:00.000Z",
+      "excerpt": "ライブフィルム『三代目 J SOUL BROTHERS 15TH ANNIVERSARY STAD",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166855/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "＜レポート＞三代目JSB、MATEと作り上げた15年間の最高地点「MATEの皆さんが共に歩み続けてくれたおかげ」",
+      "translatedExcerpt": "ライブフィルム『三代目 J SOUL BROTHERS 15TH ANNIVERSARY STAD"
+    },
     {
       "id": "061bd7cfb56d92bc",
       "title": "MON7A、1stアルバム発売＆ワンマンツアー開催決定。ジャケット＆新ビジュアル公開も",
@@ -183,8 +202,25 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "MON7A, 1st album release and one-man tour confirmed. jackets and new visuals.",
+      "translatedTitle": "MON7A、1stアルバム発売＆ワンマンツアー開催決定。ジャケット＆新ビジュアル公開も",
       "translatedExcerpt": "MON7Aが、1stアルバム『@7montaz』（読み：アットセブンモンタズ）を2027年1月27日にリリースすることを発表した。 本作は、TikTok総再生数1億回越えのスマッシュヒット曲「僕のかわい子ちゃん」、アーティストデビュー曲「おやすみTaxi」、ドラマ特区『ふったらどしゃぶり メロウレイン』エンディング主題歌「素直」など、これまでリリースした全配信シングル7曲に加え、新録10曲を含む全17曲が収録される。 初回限定盤は、スペシャルBOX仕様で48Pのフォトブックとオリジナルグッズ3点、ランダムフォトカード、さらに2026年4月に開催した初の全国ツアー＜LIVE HOUSE TOUR 2026 “B→DASH!!”＞の東京公演を、スマートフォンやテレビなどでストリーミング視聴できるシリアルコード…"
+    },
+    {
+      "id": "7aaf2faa12102809",
+      "title": "Shaman King's Hiroyuki Takei Designs Short Net Anime Mecha Samurai",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-27/shaman-king-hiroyuki-takei-designs-short-net-anime-mecha-samurai/.243242",
+      "publishedAt": "2026-10-27T11:11:22.000Z",
+      "excerpt": "TV Tokyo, Plott studio's anime to stream vertical shorts in November, main episodes next spring",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFF/youtube/6FdS26mkHvE.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "4eb5b8d101fdf002",
@@ -202,7 +238,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "iVy, from handmade dolls to shooting, \"Futago no Leica\" MV released by two people",
+      "translatedTitle": "iVy、手作りの人形から撮影まで2人で作り上げた「ふたごのライカ」MV公開",
       "translatedExcerpt": "iVyが、新曲「ふたごのライカ」のMVを公開した。 今作は2026年4月22日に配信リリースした楽曲で、11月11日にリリースする2ndアルバム『存在する理由』にも収録される。 公開されたMVは、fukiとpupuの2人が手がけた完全オリジナル作品。手作りの人形からストップモーションによるひとコマずつの撮影まで、2人が思い描く空想世界を手作業によって映像へと落とし込んでいる。結成以来、音楽だけでなくアートワークや映像を含めた表現を自分たちの手で探求してきたiVy。制作の規模を広げながらも変わらないDIYの姿勢と、2人の想像力から生まれた世界を凝縮したMVに仕上がっているとのことだ。 そんな「ふたごのライカ」を収録したアルバム『存在する理由』は、iVyにとって初の本格的なスタジオレコーディングで制作された全…"
     },
     {
@@ -221,7 +257,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "King & Prince, Kaito Takahashi solo name \"Kaito\", 1st EP \"salt boy\" selects \"video release",
+      "translatedTitle": "King & Prince・髙橋海人ソロ名義「KAITO」、1st EP『「SALT BOY」 SELECTS』映像公開",
       "translatedExcerpt": "King & Prince・髙橋海人が、ソロ名義である「KAITO」として2026年11月25日に1st EP『SALT BOY』をリリースする。本日、1st EPに収録される全7曲の視聴音源をまとめた映像『「SALT BOY」 SELECTS』がKAITOのオフィシャルYouTubeで公開された。 1st EP『SALT BOY』は、KAITO自身が収録曲全ての作詞作曲、アートワーク、MVの制作に携わり、KAITOならではのクリエイティブを詰め込んだ渾身の1枚に仕上がったとのこと。 今回公開された『「SALT BOY」 SELECTS』では、先日公開された「swim?」のメイキング映像に登場した謎のキャラクターと過ごす映像と共に、それぞれ違った魅力を持つ音楽性豊かな収録楽曲を少しだけ聴くことができる。…"
     },
     {
@@ -240,7 +276,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Starglow Releases' Slam Dunk 'MV Behind The Scenes Of The Most Difficult Dance In History",
+      "translatedTitle": "STARGLOW、史上最難関ダンスの「Slam Dunk」MVビハインド映像公開",
       "translatedExcerpt": "STARGLOWが、10月26日(月)配信リリースした新曲「Slam Dunk」のMVビハインド映像を公開した。 リリースと同日にMVも公開された「Slam Dunk」は、11月18日(水)リリースの1stアルバム『Aurora』からの先行配信シングル。 David ArkwrightとSKY-HIが手掛けた本作は、バスケットボールをモチーフに、目の前に立ちはだかる高い壁や周囲からの下馬評さえも蹴散らし、自分たちの力で未来を切り拓いていくSTARGLOWの強い意志を詰め込んだ、エネルギー溢れるHIP HOPチューンとなっている。 ビハインド映像では、グループ史上最難関となるダンスシーンや、屋外でのワイヤーアクションで撮影された、宙に浮かぶバスケットゴール上でのパフォーマンスシーンの裏側に密着。 副音声(Y…"
     },
     {
@@ -259,7 +295,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Skypiece, Live House Tour < day one (S) ~ Let's go and see everyone ~ > will be held",
+      "translatedTitle": "スカイピース、ライブハウスツアー＜DAY ONE(S) ～皆に会いに行きまスィスェん～＞開催決定",
       "translatedExcerpt": "スカイピースが、2027年4月より全国ツアー＜全国ツアー2027 DAY ONE(S) ～皆に会いに行きまスィスェん～＞を開催することを発表した。 2026年7月に結成10周年を迎えたスカイピースが届ける今回のツアーは、初心に立ち返り、全国のファンに直接会いに行くことをテーマにしたライブハウスツアーとなる。 2027年4月17日の東京・新宿ReNYを皮切りに、名古屋、札幌、旭川、新潟、静岡、神戸、広島、岡山、鹿児島、福岡、松山、高松、郡山、仙台、大阪、京都と、約5カ月にわたって全国17公演を開催する。なお、ツアータイトルに冠された「DAY ONE(S)」は、2027年3月3日に発売されるアルバム『DAY ONE(S)』と連動している。 ＜皆に会いに行きまスィスェん＞は、2018年に開催されたツアーで使用し…"
     },
     {
@@ -278,7 +314,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Sunday's Maison de, \"# Gal and Gal's Lily\" is the original \"Now Ailabyu\" music video release decision",
+      "translatedTitle": "日曜日のメゾンデ、『#ギャルとギャルの百合』が原作の「今あいらびゅ」MV公開決定",
       "translatedExcerpt": "日曜日のメゾンデが、漫画『#ギャルとギャルの百合』を原作とする新曲「今あいらびゅ」を2026年10月28日0時より配信リリースする。あわせて、同日20時に本楽曲のMVがプレミア公開されることも決定した。 漫画アプリ『サンデーうぇぶり』（小学館）にて連載中の原作『#ギャルとギャルの百合』は、ギャルの結愛と玲奈が、ふとした思いつきで“とりま1年”付き合ってみたことから始まるカップル青春コメディーだ。 「今あいらびゅ」の作詞を手がけたのは、バンド・フレンズのメインボーカルとしても活動するおかもとえみ。作曲・編曲は、ビートメイカー／プロデューサー・PARKGOLFが担当した。PARKGOLFのアルバム『REO』におかもとえみが参加するなど、縁のある2人がタッグを組んだ本作は、ギャル語を織り交ぜた歌詞で構成されてお…"
     },
     {
@@ -297,8 +333,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "RADWIMPS \"Evening Star - Yuzu-\" climbed the overall chart during the opening week of the movie \"You, Like a Star\". The original novel ranked 4th in the highest ranking.",
-      "translatedExcerpt": "The opening week of the movie \"You, Like the Stars\", the theme song and the original novel are on the Billboard Japan chart"
+      "translatedTitle": "映画『汝、星のごとく』公開週、RADWIMPS「夕星-ゆうづつ-」が総合チャート上昇 原作小説は最高位の4位",
+      "translatedExcerpt": "映画『汝、星のごとく』の公開週、主題歌と原作小説がBillboard JAPANのチャートでそれぞ"
     },
     {
       "id": "43ac598c213d5dd6",
@@ -333,7 +369,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Gan (Takanori Iwata) will appear in the \"NBA\" opening show \"I am sincerely grateful for the opportunity to be like a dream\"",
+      "translatedTitle": "GAN(岩田剛典)、「NBA」オープニングショーに出演決定「夢のような機会をいただけたことに、心から感謝しています」",
       "translatedExcerpt": "GAN(岩田剛典)が、2027年3月10日にLAインテュイット・ドーム（米カリフォルニア州）にて開催される、世界最高峰のプロバスケットボールリーグ「NBA」でのオープニングショーへ出演することを発表した。 出演は、LA Clippers vs NY Knicks戦の試合前のパフォーマンスショー。本試合は、ロサンゼルスを本拠地とした八村塁選手も所属するLA Clippersと、ニューヨークを代表する名門・New York Knicksという東西の大都市を象徴する両チームが激突する注目の一戦だ。 過去には、ケンドリック・ラマーやCORTISなど、数々のアーティストがNBAの試合でパフォーマンスを務める中、GAN(岩田剛典)が日本人アーティストとして初めてオープニングショーのステージに立つことになった。 ◆ ◆…"
     },
     {
@@ -352,7 +388,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "[Live Report] Yuzu, K Arena Yokohama 3Days Completion \"30th Anniversary Begins!\"",
+      "translatedTitle": "【ライブレポート】ゆず、Kアリーナ横浜3DAYS＜心をとめないで＞完遂「30周年はじまるぞ！」",
       "translatedExcerpt": "ゆずが10月23日から25日の3日間、神奈川・Kアリーナ横浜で＜ゆず 30周年開幕記念ライブ 心をとめないで＞を開催した。 2027年、1stミニアルバム『ゆずの素』でのCDデビューから30周年を迎えるゆず。今回のライブはタイトル通り、30周年のキックオフとなる公演だ。2023年にこけら落とし公演＜YUZU SPECIAL LIVE 2023 HIBIKI in K-Arena Yokohama＞を行ったKアリーナで、アニバーサリーイヤーの始まりに相応しい圧巻のステージを繰り広げた。ここでは23日の初日公演をレポートする。 ステージに掲げられたスクリーンには、縦書きで記された“心をとめないで”の文字。30周年のスタートに立ち会うべく会場に足を運んだ老若男女の“ゆずっこ”たちも、いつも以上に高揚しているよう…"
     },
     {
@@ -371,8 +407,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "< Live Report > This is last, completed the first Nippon Budokan performance \"I want to pass through here and go there. This is our plan, not a wish.\"",
-      "translatedExcerpt": "This is last's first Nippon Budokan performance [This is last one man live"
+      "translatedTitle": "＜ライブレポート＞This is LAST、初の日本武道館公演を完遂 「ここを通過してその先に行きたい。これは願いというよりは、俺たちの計画」",
+      "translatedExcerpt": "This is LASTが初の日本武道館公演【This is LAST one man live"
     },
     {
       "id": "482b00f3a34947ac",
@@ -390,7 +426,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Deco * 27, 10th album \"mixture pop\" release decision",
+      "translatedTitle": "DECO*27、10thアルバム『MIXTURE POP』リリース決定",
       "translatedExcerpt": "DECO*27が、10thアルバム『MIXTURE POP』を2027年2月17日にリリースすることを発表した。 記念すべき10枚目となるアルバム『MIXTURE POP』は、18年間の活動で獲得してきたポップセンスと実験精神を凝縮した一枚に。普遍的な「愛」と「恋」を、歌謡曲ライクなキャッチーさとJersey Club、Phonk、Colour Bass、Tearout Dubstepなどのジャンル横断サウンドで更新した作品に仕上がっているとのことだ。 アルバムは、通常盤、初回限定盤、モニタリング盤（受注生産限定盤）の3形態での発売される。初回限定盤には、2026年2月に開催したDECO*27プロデュースによる初音ミク3Dワンマンライブ＜デコミク LIVE starring 初音ミク『Hello』Prod…"
     },
     {
@@ -447,7 +483,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Leina, the theme song of the movie \"3mm love\" distribution and lyric video release decision",
+      "translatedTitle": "Leina、映画『３ミリの恋』主題歌配信＆リリックビデオ公開決定",
       "translatedExcerpt": "Leinaが、映画『３ミリの恋』主題歌として書き下ろした新曲「３ミリの恋」を、映画公開日にあわせ2026年11月6日0時に配信リリースすることを発表した。 情報解禁と同時にPre-add / Pre-saveもスタート。あわせてジャケット写真が公開され、同日0時には映画本編シーンのみで構成されたリリックビデオが公開されることも決定した。 映画『３ミリの恋』は、佐賀県唐津市で高校生活を送るタツヒコ（黒川想矢）と、韓国・釜山からやってきた留学生ユンスル（キム・ジアン）の出会いから始まる、日韓共同製作のラブストーリー。言葉も文化も違う二人が少しずつ距離を縮める中、すれ違いをきっかけにユンスルは韓国へ帰ってしまう。タツヒコが唐津と釜山の距離を地図上で測ると、その距離はわずか「３ミリ」。近くて遠い二人の距離を越え、…"
     },
     {
@@ -504,8 +540,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Shank announces 12/9 release of new EP \"still ours\" under the name \"slow shank\"",
-      "translatedExcerpt": "Shank announces new EP \"still O\" under the name of acoustic organization project \"slow shank\""
+      "translatedTitle": "SHANK、\"SLOW SHANK\"名義の新EP『STILL OURS』12/9リリース決定",
+      "translatedExcerpt": "SHANKが、アコースティック編成プロジェクト\"SLOW SHANK\"名義の新EP『STILL O"
     },
     {
       "id": "5699efcad4f7c648",
@@ -561,8 +597,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Japan-Taiwan music exchange event held in Tokyo for 3 days, Taiwanese and Japanese artists compete",
-      "translatedExcerpt": "Japan-Taiwan Music Exchange Event [Shinjuku loft 50th anniversary ×"
+      "translatedTitle": "日台音楽交流イベントが都内で3日間開催、台湾と日本アーティストが競演",
+      "translatedExcerpt": "日台音楽交流イベント【SHINJUKU LOFT 50th ANNIVERSARY &times;"
     },
     {
       "id": "89b14c2e06e3b096",
@@ -597,8 +633,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Hana Releases New Song “Slidin '” 10/29 & Releases Solo Artist Photos",
-      "translatedExcerpt": "Hana to release new song 'Slidin' on October 29"
+      "translatedTitle": "HANA、新曲「Slidin」10/29配信リリース＆ソロアーティスト写真公開",
+      "translatedExcerpt": "HANAが、新曲「Slidin」（読み：スライディン）を10月29日に配信リリースすることがサプラ"
     },
     {
       "id": "89de04f113ba08ee",
@@ -730,8 +766,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Travis Japan Releases Digest Teaser for New Album Jewelry Basket",
-      "translatedExcerpt": "Travis Japan to Release New Album “Jewelry Basket” on November 18"
+      "translatedTitle": "Travis Japan、ニューアルバム『Jewelry Basket』収録曲ダイジェストティザー公開",
+      "translatedExcerpt": "Travis Japanが、11月18日にリリースするニューアルバム『Jewelry Basket"
     },
     {
       "id": "20e610f27362ffb8",
@@ -749,8 +785,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Jack Antonoff harshly criticizes Ed Sheeran, who succumbed to billionaires in Macklemore's tour dismissal scandal, \"Stand up to him\"",
-      "translatedExcerpt": "Jacques Antonov was not afraid to speak of “freedom for Palestine.”"
+      "translatedTitle": "ジャック・アントノフ、マックルモアのツアー降板騒動で億万長者に屈したエド・シーランを痛烈に批判「堂々と立ち向かえ」",
+      "translatedExcerpt": "ジャック・アントノフは&rdquo;パレスチナに自由を&rdquo;と口にすることを恐れておらず、"
     },
     {
       "id": "663615147b4fe5d3",
@@ -768,8 +804,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Riria., \"Wata Marriage\" special episode op theme song \"What makes me happy and tears.\" MV released",
-      "translatedExcerpt": "Riria. But the new song \"Happiness and tears.” music video was released. This song is currently on air."
+      "translatedTitle": "りりあ。、全編アニメ映像による『わた婚』特別篇OP主題歌「幸せで涙が出るのは。」MV公開",
+      "translatedExcerpt": "りりあ。が、新曲「幸せで涙が出るのは。」のミュージックビデオを公開した。 本楽曲は、現在放送・"
     },
     {
       "id": "99c2baabe7b0a9b4",
@@ -806,8 +842,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Tinaliwen will be performing in Japan for the first time in nearly four years in March 2027",
-      "translatedExcerpt": "For the first time in nearly four years, Tinariwen, a pioneer of Tuareg music and also known as a Grammy Award-winning band,"
+      "translatedTitle": "ティナリウェン、約4年ぶりの来日公演が2027年3月に決定",
+      "translatedExcerpt": "トゥアレグ音楽の先駆者で、【グラミー賞】受賞バンドとしても知られるティナリウェンによる約4年ぶりの"
     },
     {
       "id": "fc8178d611862ec8",
@@ -825,8 +861,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "RIIZE's new song \"Insomnia\" music video is a dramatized video work that expresses the story of \"sleepless people\"",
-      "translatedExcerpt": "RIIZE has released a music video for their new song “Insomnia”. Insomnia is"
+      "translatedTitle": "RIIZE、新曲「Insomnia」MVは“眠れない人々の物語”を表現したドラマ仕立ての映像作品に",
+      "translatedExcerpt": "RIIZEが、新曲「Insomnia」のミュージックビデオを公開した。 「Insomnia」は"
     },
     {
       "id": "263dc8e1590dfed1",
@@ -918,8 +954,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "BE: first showcases' anan 'special edition cover, chic suits & flamboyant Western style",
-      "translatedExcerpt": "BE: first Magazine Anan Issue # 2518 Special Edition to be launched on November 4, 2026"
+      "translatedTitle": "BE:FIRSTが『anan』スペシャルエディション表紙、シックなスーツ＆華やかなウエスタンスタイルを披露",
+      "translatedExcerpt": "BE:FIRSTが、2026年11月4日に発売となる雑誌『anan』2518号スペシャルエディショ"
     },
     {
       "id": "1852c6efb50d2048",
@@ -956,8 +992,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Stick Men Announce Long-Awaited Replay at Tohsaka Billboard Live",
-      "translatedExcerpt": "The Stick Men, a progressive rock super trio, have decided to come to Japan for the first time in a while."
+      "translatedTitle": "スティック・メン、東阪ビルボードライブで待望の再演が決定",
+      "translatedExcerpt": "プログレッシブ・ロックのスーパー・トリオ、スティック・メンが久しぶりに来日することが決定した。"
     },
     {
       "id": "416cba56639b9b48",
@@ -975,8 +1011,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "The Flaming Lips Reveals' God Will Control The Werewolves' From Third Man Records",
-      "translatedExcerpt": "The Flaming Lips have announced the release of their third album, The Teardrop's."
+      "translatedTitle": "ザ・フレーミング・リップス、＜サード・マン・レコード＞移籍ALより「God Will Control The Werewolves」公開",
+      "translatedExcerpt": "ザ・フレーミング・リップスが、＜サード・マン・レコード＞移籍アルバムとなる『ザ・ティアドロップ・ス"
     },
     {
       "id": "397fc1fe276dde5f",
@@ -994,8 +1030,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Neil Young again sues President Trump over use of 'Rockin’ in the Free World 'at rallies",
-      "translatedExcerpt": "\"Rockin ’in the F\" at a political rally by US President Donald Trump a few years ago"
+      "translatedTitle": "ニール・ヤング、集会での「Rockin’ in the Free World」使用を巡り再びトランプ米大統領を提訴",
+      "translatedExcerpt": "数年前にドナルド・トランプ米大統領による政治集会での「Rockin&rsquo; in the F"
     },
     {
       "id": "3b42958c63bf50f4",
@@ -1013,8 +1049,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Sevens Vega Announces YouTube Version of “Super” Live Video from New AL “prism” “777 Box Edition”",
-      "translatedExcerpt": "Seventh Vega will release the 777 box edition of its new album prism on November 7 (full production limited edition)."
+      "translatedTitle": "セブンス・ベガ、ニューAL『PRISM』“777 BOX盤”より「SUPPER」ライブ映像のYouTubeバージョン特別公開",
+      "translatedExcerpt": "セブンス・ベガが、11月7日発売となるニューアルバム『PRISM』の777 BOX盤（完全生産限定"
     },
     {
       "id": "90985cbc2a0deba3",
@@ -1121,8 +1157,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Harry Styles Releases' Coming Up Roses' Video From Latest AL",
-      "translatedExcerpt": "Harry Styles announces his fourth studio album, Kiss All the Time. Disco, Okejo"
+      "translatedTitle": "ハリー・スタイルズ、最新ALより「Coming Up Roses」MV公開",
+      "translatedExcerpt": "ハリー・スタイルズが、4枚目のスタジオ・アルバム『キス・オール・ザ・タイム. ディスコ、オケージョ"
     },
     {
       "id": "a2f4ab736755cd3a",
@@ -1195,7 +1231,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Taylor Swift thanks fellow songwriters for her inaugural speech at the Nashville Songwriters Hall of Fame",
+      "translatedTitle": "テイラー・スウィフト、【ナッシュビル・ソングライターの殿堂】入りスピーチで原点＆ソングライター仲間へ感謝",
       "translatedExcerpt": "現地時間2026年10月26日の夜、テイラー・スウィフトが【ナッシュビル・ソングライターの殿堂】入"
     },
     {
@@ -18363,40 +18399,6 @@
       "publishedAt": "2026-10-18T12:24:00.000Z",
       "excerpt": "Kai Ikarashi (Cyberpunk: Edgerunners 2) directs the comedy series at studio Soigne",
       "image": "https://a.storyblok.com/f/178900/1080x675/d40c3ce22c/null-meta-manga-header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "41076f9c54194aaf",
-      "title": "Manga 'NullMeta' Gets TV Anime in 2027",
-      "link": "https://myanimelist.net/news/74833036?_location=rss",
-      "publishedAt": "2026-10-18T12:21:03.000Z",
-      "excerpt": "Production company Aniplex opened an official website for a television anime adaptation of Kokamumo's NullMeta manga on Sunday, revealing the main staff, a teaser visual (pictured right), and a celebratory illustration (pictured above) drawn by the author. Animation studio Soigne, known for Kamiina Botan, Yoeru Sugata wa Yuri no Hana (Botan Kamiina Fully…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1792325991-3fcedef8177b89b69f4886614a0ca21e.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2ee3104bf819d8d0",
-      "title": "VTuber Kazama Iroha Makes Cameo in The Detective Is Already Dead Season 2 Anime",
-      "link": "https://crunchyroll.com/news/latest/2026/10/18/vtuber-kazama-iroha-the-detective-is-already-dead-season-2-anime",
-      "publishedAt": "2026-10-18T12:10:00.000Z",
-      "excerpt": "Crunchyroll streams adaptation based on light novel series",
-      "image": "https://a.storyblok.com/f/178900/1460x821/3077e3f3ac/the_detective_is_already_dead_season2_kazama_iroha_header.jpg",
       "source": {
         "id": "crunchyroll",
         "name": "Crunchyroll News",

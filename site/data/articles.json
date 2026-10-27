@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T04:34:01.081Z",
+  "generatedAt": "2026-10-27T05:02:26.112Z",
   "sources": [
     {
       "id": "sankaku",
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 240,
+      "count": 241,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -146,7 +146,7 @@
       "feedUrl": "https://ototoy.jp/news/feed.rss",
       "count": 138,
       "imageEnrichment": null,
-      "fetchedCount": 50
+      "fetchedCount": 0
     },
     {
       "id": "sankaku",
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 76,
+      "count": 75,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 604,
-    "translationAttempts": 160
+    "translatedJapaneseArticles": 605,
+    "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "6fe1de3ac94d67bc",
+      "title": "山内総一郎、全国ツアー開催＆アルバム『UN』発売決定",
+      "link": "https://barks.jp/news/1100830",
+      "publishedAt": "2026-10-27T04:36:01.000Z",
+      "excerpt": "山内総一郎が、ニューアルバムアルバム『UN』（読み：うん）のリリースと、本アルバムを引っ提げた全国ツアーを2027年5月より行うことを発表した。 この発表は、10月25日に行われたバースデーライブにてアナウンスされた。本公演では、山内総一郎とサポートメンバーの大樋祐大（Key）、砂山淳一（B）、伊藤大地（Dr）が登場。大きな拍手で迎えられ、登場後のMCでは「ようこそいらっしゃいました。私、山内総一郎、今日10月25日で45歳になりました！ ここからまた新しい旅立ちだと思っています。今日はみなさん一緒に楽しみましょう！」と呼びかけた。 ライブは、山内総一郎のアグレッシブなギタープレイや優美で叙情的な演奏を起点に、温かみのある歌声とサポートメンバーとのバンドアンサンブルで会場を魅了。MCでは「本当に幸せな夜で…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/27133239/264551_5631_0-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Soichiro Yamauchi to hold nationwide tour and release album “UN”",
+      "translatedExcerpt": "Soichiro Yamauchi has announced the release of his new album ``UN'' (pronounced: Un) and a nationwide tour to support this album starting in May 2027. This announcement was made at the birthday live held on October 25th. In this performance, Soichiro Yamauchi and support members Yudai Ohi (key), Junichi Sunayama (B), and Daichi Ito (Dr) will appear. He was greeted with a big round of applause, and after his appearance, the MC said, ``Welcome. I, Soichiro Yamauchi, turned 45 years old today, October 25th! I think I'm about to embark on a new journey. Let's all have fun together today!'' The live performance was based on Soichiro Yamauchi's aggressive guitar playing and graceful, lyrical performance, and captivated the venue with his warm singing voice and band ensemble with support members. MC: ``It was a really happy night..."
+    },
     {
       "id": "8783a278a94490c8",
       "title": "ハリー・スタイルズ、最新ALより「Coming Up Roses」MV公開",
@@ -352,7 +371,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "H ZETTRIO holds a secret live in Hamamatsu in the rain, performing 9 songs in total",
+      "translatedTitle": "H ZETTRIO holds a secret live show in the rainy Hamamatsu, performing a total of 9 songs",
       "translatedExcerpt": "H ZETTRIO held the [Street Jazz Festival] on October 24th at Kitara, JR Hamamatsu Station North Exit Square."
     },
     {
@@ -711,7 +730,7 @@
       "title": "Final Fantasy Veteran Says AI Can’t Replace Human Creativity",
       "link": "https://news.sankakucomplex.com/n/rQTiAQ8ycYpialkyCwTTZw",
       "publishedAt": "2026-10-27T01:00:09.000Z",
-      "excerpt": "Veteran Final Fantasy developer Yoshinori Kitase believes artificial intelligence will become increasingly important in video game development, but insists that the technology should never replace the human creativity responsible for coming up with original ideas. Kitase discussed the future of g…",
+      "excerpt": "Veteran Final Fantasy developer Yoshinori Kitase believes artificial intelligence will become increasingly important in video game development, but insists that the technology should never replace the human creativity responsible for coming up with original ideas.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1326,7 +1345,7 @@
         "language": "ja"
       },
       "translatedTitle": "Nogizaka46, Yusuki Suzuki Center's 6th generation song \"Once in Love\" released on distribution",
-      "translatedExcerpt": "Nogizaka46 will pre-release the 6th generation's song \"Once in Love\" on October 27, 2026."
+      "translatedExcerpt": "Nogizaka46 will pre-release their 6th generation song ``Once in Love'' on October 27, 2026."
     },
     {
       "id": "a5912ee609543a98",
@@ -4167,7 +4186,7 @@
       "title": "Dead or Alive Xtreme Venus Vacation Adds Sexy Witch Outfits for Halloween",
       "link": "https://news.sankakucomplex.com/n/FTqxVGw7UtEQudHfqFSZNg",
       "publishedAt": "2026-10-25T05:00:46.000Z",
-      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire.",
+      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire. The latest SSR swimsuit, titled “Hexen Nagel,” arrived on October…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18355,23 +18374,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "b73fec294b42904b",
-      "title": "Japanese Mosque’s Muslims Patrolling Streets Near Elementary Schools & Kindergarten",
-      "link": "https://news.sankakucomplex.com/n/KdgFdo-cta1FGkrrU-pCfA",
-      "publishedAt": "2026-10-17T14:00:43.000Z",
-      "excerpt": "A group of Muslims associated with a mosque in Ichikawa, Chiba Prefecture, Japan, has established a volunteer neighborhood patrol organization, with members beginning to monitor streets near local elementary schools and a kindergarten.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T05:02:26.112Z",
+  "generatedAt": "2026-10-27T05:32:31.465Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 43,
+      "count": 44,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 124,
+      "count": 122,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 19,
+      "count": 20,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 226,
+      "count": 229,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 241,
+      "count": 239,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,9 +144,9 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 138,
+      "count": 140,
       "imageEnrichment": null,
-      "fetchedCount": 0
+      "fetchedCount": 50
     },
     {
       "id": "sankaku",
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 75,
+      "count": 72,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,137 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 605,
-    "translationAttempts": 60
+    "translatedJapaneseArticles": 608,
+    "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "416cba56639b9b48",
+      "title": "ザ・フレーミング・リップス、＜サード・マン・レコード＞移籍ALより「God Will Control The Werewolves」公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166844",
+      "publishedAt": "2026-10-27T05:30:00.000Z",
+      "excerpt": "ザ・フレーミング・リップスが、＜サード・マン・レコード＞移籍アルバムとなる『ザ・ティアドロップ・ス",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166844/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "The Flaming Lips releases “God Will Control The Werewolves” from <Third Man Records> AL",
+      "translatedExcerpt": "The Flaming Lips will be releasing their new album ``The Teardrops'' on <Third Man Records>."
+    },
+    {
+      "id": "397fc1fe276dde5f",
+      "title": "ニール・ヤング、集会での「Rockin’ in the Free World」使用を巡り再びトランプ米大統領を提訴",
+      "link": "https://www.billboard-japan.com/d_news/detail/166843",
+      "publishedAt": "2026-10-27T05:30:00.000Z",
+      "excerpt": "数年前にドナルド・トランプ米大統領による政治集会での「Rockin&rsquo; in the F",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166843/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Neil Young sues President Trump again over use of “Rockin’ in the Free World” at rally",
+      "translatedExcerpt": "A few years ago, US President Donald Trump performed “Rockin’ in the F” at a political rally."
+    },
+    {
+      "id": "3b42958c63bf50f4",
+      "title": "セブンス・ベガ、ニューAL『PRISM』“777 BOX盤”より「SUPPER」ライブ映像のYouTubeバージョン特別公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166841",
+      "publishedAt": "2026-10-27T05:25:00.000Z",
+      "excerpt": "セブンス・ベガが、11月7日発売となるニューアルバム『PRISM』の777 BOX盤（完全生産限定",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166841/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "7th Vega, special release of YouTube version of live video of “SUPPER” from new AL “PRISM” “777 BOX edition”",
+      "translatedExcerpt": "Seventh Vega will be releasing their new album “PRISM” on November 7th, 777 BOX edition (limited production)."
+    },
+    {
+      "id": "90985cbc2a0deba3",
+      "title": "Manga Artist Tetsuya Chiba Passes Away at 87",
+      "link": "https://crunchyroll.com/news/latest/2026/10/27/manga-artist-tetsuya-chiba-passes-away-at-87",
+      "publishedAt": "2026-10-27T05:15:00.000Z",
+      "excerpt": "Chiba illustrated Ashita no Joe and more notable manga series over 70 years",
+      "image": "https://a.storyblok.com/f/178900/960x539/cb73664f55/tetsuya-chiba.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "3ef5520f7930d312",
+      "title": "NCT DREAM、フジテレビTWOでオリジナル番組放送決定",
+      "link": "https://ototoy.jp/news/132480",
+      "publishedAt": "2026-10-27T05:00:00.000Z",
+      "excerpt": "NCT DREAMが12月28日(月)21時〜22時にCSフジテレビTWO独占でオリジナル番組を放送することが決定した。 タイトルは『10th Anniversary NCT DREAM CLOSE TO YOU : LIVE supported by スカパー！30周年』。 今年8月25日にデビュー10周年を迎え、11月9日に6thフルアルバム『DREAM AFTER DREAM』でカムバック予定のNCT DREAM。番組では日本の某所に集められたNCT DREAMが一夜限りの特別なセットリストを作り上げながら本番を迎えるまでに密着する。 特別番組の放送を記念して、公式ファンクラブ会員及びスカパー! 契約者の中から抽選で本番組のライブ収録観覧に招待する。スカパー!は11月1日より応募受付開始予定。 番組…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132480/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "NCT DREAM, original program broadcast on Fuji TV TWO",
+      "translatedExcerpt": "It has been decided that NCT DREAM will broadcast an original program exclusively on CS Fuji TV TWO from 9:00 PM to 10:00 PM on Monday, December 28th. The title is “10th Anniversary NCT ​​DREAM CLOSE TO YOU: LIVE supported by SKY PerfecTV! 30th Anniversary”. NCT DREAM celebrated their 10th anniversary since their debut on August 25th this year, and is scheduled to make a comeback with their 6th full-length album \"DREAM AFTER DREAM\" on November 9th. In the program, NCT DREAM gathered at a certain place in Japan will create a special set list for one night only, and will closely follow them until the actual performance. To commemorate the broadcast of the special program, official fan club members and SKY PerfecTV! subscribers will be randomly selected to be invited to watch the live recording of the program. SKY PerfecTV! is scheduled to start accepting applications from November 1st. program…"
+    },
+    {
+      "id": "fdcde2cbe9d830e6",
+      "title": "One simple unexpected recipe swap will make your Japanese-style omelets extra fluffy and juicy",
+      "link": "https://soranews24.com/2026/10/27/one-simple-unexpected-recipe-swap-will-make-your-japanese-style-omelets-extra-fluffy-and-juicy/",
+      "publishedAt": "2026-10-27T05:00:00.000Z",
+      "excerpt": "And one more cooking hack will make your dashimaki tamago fluffier still. In terms of ingredients, dashimaki tamago is an incredibly simple dish. A type of Japanese omelet, you can make it with just three ingredients: eggs, water, and dashi (a stock made from fish and kelp that’s found in all sorts of Japanese dishes). […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/12_4ebc99.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "aade323630c0e168",
+      "title": "'Ashita no Joe' Manga Artist Tetsuya Chiba Dies at 87",
+      "link": "https://myanimelist.net/news/74869899?_location=rss",
+      "publishedAt": "2026-10-27T04:57:02.000Z",
+      "excerpt": "Tetsuya Chiba, best known as the artist for the Ashita no Joe (Ashita no Joe: Fighting for Tomorrow) manga, died on October 27. He was 87. Born in Tokyo in January 1993, Chiba made his professional debut with Fukushuu no Semushi in 1956. Following the end of World War II, he returned to Japan with his family after spending childhood in Manchuria, northeas…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793076980-c638c23f559929999c3682b767fc9387.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
     {
       "id": "6fe1de3ac94d67bc",
       "title": "山内総一郎、全国ツアー開催＆アルバム『UN』発売決定",
@@ -204,6 +331,42 @@
       },
       "translatedTitle": "Harry Styles releases “Coming Up Roses” MV from latest album",
       "translatedExcerpt": "Harry Styles releases his fourth studio album, Kiss All the Time."
+    },
+    {
+      "id": "a2f4ab736755cd3a",
+      "title": "Ashita no Joe Creator Tetsuya Chiba Dies at 87",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-27/ashita-no-joe-creator-tetsuya-chiba-dies-at-87/.243235",
+      "publishedAt": "2026-10-27T04:02:14.000Z",
+      "excerpt": "Best known for influential 1968-1973 boxing manga Ashita no Joe, anime adaptations",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gD3/cms/news.7/217153/chiba-tetsuya.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "270a8e2f5116f113",
+      "title": "山内総一郎、新アルバム『UN』リリース決定",
+      "link": "https://ototoy.jp/news/132481",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "excerpt": "山内総一郎が自身のバースデーライブにて2枚目のアルバム『UN』(読み：うん)のリリースと全国ツアー開催をサプライズで発表した。 バースデーライブでは登場後のMCで「ようこそいらっしゃいました。私、山内総一郎、今日10月25日で45歳になりました！ここからまた新しい旅立ちだと思っています。今日はみなさん一緒に楽しみましょう！」と呼びかけ、サポートメンバーの大樋祐大（Key）、砂山淳一（B）、伊藤大地（Dr）とのバンドアンサンブルで会場を魅了した。 ツアー情報 山内総一郎アルバムツアー2027「UN」 2027年5月8日(土)DRUM Be-1 リリース情報 https://ototoy.jp/_/default/p/3921304 フォトギャラリー フォトギャラリーはこちらからご覧いただけます アーティスト…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132481/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Soichiro Yamauchi to release new album “UN”",
+      "translatedExcerpt": "Soichiro Yamauchi made a surprise announcement at his birthday live that he would be releasing his second album ``UN'' (pronounced: Un) and holding a nationwide tour. After appearing at the birthday live, the MC said, ``Welcome. I, Soichiro Yamauchi, turned 45 years old today, October 25th! I think I'm starting a new journey from here. Let's all have fun together today!'' and captivated the venue with a band ensemble with support members Yuhiro Ohi (key), Junichi Sunayama (B), and Daichi Ito (Drums). Tour Information Soichiro Yamauchi Album Tour 2027 “UN” May 8, 2027 (Sat) DRUM Be-1 Release Information https://ototoy.jp/_/default/p/3921304 Photo Gallery You can view the photo gallery here Artist…"
     },
     {
       "id": "469fb2d1497c1831",
@@ -333,7 +496,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Raising word] Nogizaka46, 6th generation live song “Once Suki ni ni ni ni hito” pre-distribution begins",
+      "translatedTitle": "[Rising word] Nogizaka46, 6th generation live song “Once Suki ni ni ni ni hito” pre-distribution begins",
       "translatedExcerpt": "Nogizaka46, who will release their latest single \"Kimiros\" on December 2nd (Wednesday), has been ranked in the fastest-growing trend. Advance distribution of the 6th generation's song \"Once Suki ni Shikinatta Hito\", which will be included in this single, has started. Yuki Suzuki will serve as the formation center. There were 18 members selected for the title song \"Kimiros\", with 4th generation member Saya Kanagawa returning to the senbatsu for the first time in 5 songs, and 5th generation members Aya Ogawa and Himena Okamoto also returning to the senbatsu. Release information https://ototoy.jp/_/default/p/4355571 Live information 6th generation national tour 2026 November 10th (Tuesday) and 11th (Wednesday), 2026 Zepp Sapporo Artist information http://www.nogizaka46.com/ https://twitter.com/nogizaka46 https://www…"
     },
     {
@@ -1850,7 +2013,7 @@
         "language": "ja"
       },
       "translatedTitle": "<Best Hits USA> 10/29 includes Beck SP interview and more",
-      "translatedExcerpt": "BS Asahi (Best Hit USA) lineup for October 29th has been announced. Star of the Week is Beck. We will deliver unexpected points of contact with Katsuya Kobayashi and a special interview with Beck. John Legend appears on the hot menu. Introducing a new work from the latest album produced by Pharrell Williams that is themed around his own background. Mariah Carey appears in the time machine. Picking up nostalgic hit songs from 1995. A program recording event will be held at the Mitsukoshi Theater on November 12th (Thursday). We welcome Seiko Ito as a guest. Program Information <Best Hits USA> Thursday, October 29, 2026 Information https://x.com/besthitusa_bs5 https://www.facebook.c…"
+      "translatedExcerpt": "BS Asahi (Best Hit USA) lineup for October 29th has been announced. Star of the Week is Beck. We will deliver unexpected points of contact with Katsuya Kobayashi and a special interview with Beck. John Legend appears on the hot menu. Introducing a new work from the latest album produced by Pharrell Williams that is themed around his own background. Mariah Carey appears in the time machine. Picking up nostalgic hit songs from 1995. A recording event for the program will be held at the Mitsukoshi Theater on Thursday, November 12th. We welcome Seiko Ito as a guest. Program Information <Best Hits USA> Thursday, October 29, 2026 Information https://x.com/besthitusa_bs5 https://www.facebook.c…"
     },
     {
       "id": "e856d97a632775d8",
@@ -2017,7 +2180,7 @@
         "language": "ja"
       },
       "translatedTitle": "Spitz will release Gogo Tea CM song in advance",
-      "translatedExcerpt": "It has been announced that Spitz will pre-distribute ``Kitsuno Button'' from the album ``Kettle'', which will be released on November 25th, on November 2nd (Monday). \"Kitsune no Buton\" is a commercial song for Kirin Gogo no Kocha \"Summer Afternoon in a Distant Town\" and Gogo no Kocha FRUITS & ICE TEA \"Gogo no Fruit Tea\", starring Meguro Ren. Release information 18th Album “kettle” “Shirai Ito” https://ototoy.jp/_/default/p/4030106 01. Tiny Muteki Tour Information SPITZ JAMBOREE TOUR 2027 “kettle” Special site: https://spitz-web.com/kettle/tour/schedule/ Artist information https://spitz-web.com/ ht…"
+      "translatedExcerpt": "It has been announced that Spitz will pre-distribute ``Kitsuno Button'' from the album ``Kettle'', which will be released on November 25th, on November 2nd (Monday). \"Kitsune no Buton\" is a commercial song for Kirin Gogo no Kocha \"Summer Afternoon in a Distant Town\" and Gogo no Kocha FRUITS & ICE TEA \"Gogo no Fruit Tea\" version starring Meguro Ren. Release information 18th Album “kettle” “Shirai Ito” https://ototoy.jp/_/default/p/4030106 01. Tiny Muteki Tour Information SPITZ JAMBOREE TOUR 2027 “kettle” Special site: https://spitz-web.com/kettle/tour/schedule/ Artist information https://spitz-web.com/ ht…"
     },
     {
       "id": "f20d4da875b9c07a",
@@ -2467,7 +2630,7 @@
         "language": "ja"
       },
       "translatedTitle": "<MUSIC FAIR> 10/31 is Ami Ozaki x Hinatazaka46 collaboration and more",
-      "translatedExcerpt": "``MUSIC FAIR'' will be broadcast on October 31st, and Ami Ozaki, Naoki Sanada, Hinatazaka46, and Travis Japan will appear. Ami Ozaki x Hinatazaka46 collaborate on \"Angel's Wink\". Ami Ozaki will perform \"Tomorrow's Voice,\" Naoki Sanada, who will be appearing for the first time, will perform \"Happy Ice Cream,\" with lyrics written by Seiji Miyane, Hinatazaka46 will perform \"Ichaichamushi,\" and Travis Japan will perform \"EGO.\" Program information MUSIC FAIR Broadcast on Fuji TV Release information https://ototoy.jp/_/default/p/879498 https://ototoy.jp/_/default/p/4160626 Information https://x.com/MUSICFAIR_Fuji https://www.fujitv.co.jp/MUSICFAIR/"
+      "translatedExcerpt": "Ami Ozaki, Naoki Sanada, Hinatazaka46, and Travis Japan will appear on ``MUSIC FAIR'', which will be broadcast on October 31st. Ami Ozaki x Hinatazaka46 collaborate on \"Angel's Wink\". Ami Ozaki will perform \"Tomorrow's Voice,\" Naoki Sanada, who will be appearing for the first time, will perform \"Happy Ice Cream,\" with lyrics written by Seiji Miyane, Hinatazaka46 will perform \"Ichaichamushi,\" and Travis Japan will perform \"EGO.\" Program information MUSIC FAIR Broadcast on Fuji TV Release information https://ototoy.jp/_/default/p/879498 https://ototoy.jp/_/default/p/4160626 Information https://x.com/MUSICFAIR_Fuji https://www.fujitv.co.jp/MUSICFAIR/"
     },
     {
       "id": "c238242ba5621c16",
@@ -4186,7 +4349,7 @@
       "title": "Dead or Alive Xtreme Venus Vacation Adds Sexy Witch Outfits for Halloween",
       "link": "https://news.sankakucomplex.com/n/FTqxVGw7UtEQudHfqFSZNg",
       "publishedAt": "2026-10-25T05:00:46.000Z",
-      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire. The latest SSR swimsuit, titled “Hexen Nagel,” arrived on October…",
+      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4439,7 +4602,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Official Report] YOASOBI, Domestic/Asia Dome & Stadium Tour (Super Planet) begins in Osaka, debuting new song “KILLA”",
-      "translatedExcerpt": "YOASOBI held an Osaka performance at Kyocera Dome Osaka, marking the beginning of one of the largest domestic and Asian dome & stadium tours by Japanese artists (YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 “Super Planet”). YOASOBI celebrated their 7th anniversary on October 1st and entered their 8th year of activity. In 2024, they will hold dome performances in two cities, Tokyo and Osaka, and in 2025, they will complete a hall tour with 40 performances nationwide. In 2026, he successfully completed his largest arena tour in North America, and finally embarked on a new journey visiting domes and stadiums in 10 cities in Japan and Asia. The tour title \"Super Planet\" reflects the members' desire to \"go beyond conventional wisdom and imagination and create scenery that no one has ever seen before.\" Hon…"
+      "translatedExcerpt": "YOASOBI held an Osaka performance at Kyocera Dome Osaka, marking the beginning of one of the largest domestic and Asian dome & stadium tours by Japanese artists (YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 “Super Planet”). YOASOBI celebrated their 7th anniversary on October 1st and entered their 8th year of activity. In 2024, they will hold dome performances in Tokyo and Osaka, and in 2025 they will complete a hall tour with 40 performances nationwide. In 2026, he successfully completed his largest arena tour in North America, and finally embarked on a new journey visiting domes and stadiums in 10 cities in Japan and Asia. The tour title \"Super Planet\" reflects the members' desire to \"go beyond conventional wisdom and imagination and create scenery that no one has ever seen before.\" Hon…"
     },
     {
       "id": "55d0cfda60bd69af",
@@ -4458,7 +4621,7 @@
         "language": "ja"
       },
       "translatedTitle": "Michael Kiwanuka, new AL release",
-      "translatedExcerpt": "Michael Kiwanuka released his new album \"FUDGE\" on Friday, October 23, 2026. This work was born at the same time as the 2024 album \"Small Changes\". It is a total of 12 songs that was born from the accumulation of free creation over about 3 years. This work departs from the production system centered on Danger Mouse and Inflo, who have been collaborating for many years. Kiwanuka himself took control of the production, making this album an important turning point in his career. Release information https://ototoy.jp/_/default/p/4345837 Artist information https://www.instagram.com/michaelkiwanuka/"
+      "translatedExcerpt": "Michael Kiwanuka released his new album \"FUDGE\" on Friday, October 23, 2026. This work was born at the same time as the 2024 album \"Small Changes\". It is a total of 12 songs that was born from about 3 years of free creative work. This work departs from the production system centered around Danger Mouse and Inflo, who have been collaborating for many years. Kiwanuka himself took control of the production, making this album an important turning point in his career. Release information https://ototoy.jp/_/default/p/4345837 Artist information https://www.instagram.com/michaelkiwanuka/"
     },
     {
       "id": "e28266e5b832f836",
@@ -5043,7 +5206,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Eve decides to release an EP with the title song “AIYOU” as the ED theme song for the anime “Yakuya no Hitorigoto”",
+      "translatedTitle": "Eve decides to release an EP with the title song “AIYOU” as the ending theme song for the anime “Yakuya no Hitorigoto”",
       "translatedExcerpt": "It has been decided that Eve's first package release after moving to Echoes, the EP \"AIYOU\", will be released on Wednesday, November 25, 2026. Release information ▼ OTOTOY distribution page https://ototoy.jp/_/default/a/136704 Program information TV anime “Yakuya no Hitorigoto” Season 3 Official website: https://kusuriyanohitorigoto.jp/season3/ Release information ▼ OTOTOY distribution page https://ototoy.jp/_/default/a/136704 Artist information Eve https://eveofficial.com/ https://www.youtube.com/user/ooo0eve0ooo https://twitter.com/oO0Ev…"
     },
     {
@@ -18217,163 +18380,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "dfd5861eef744f32",
-      "title": "Seitokai ni mo Ana wa Aru Sukumizu Ad at Train Station Triggers Feminist Whining",
-      "link": "https://news.sankakucomplex.com/n/5ZTYTh5qP3Lk57lMPjH82Q",
-      "publishedAt": "2026-10-17T22:00:54.000Z",
-      "excerpt": "",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "a7adf3a24b98ee47",
-      "title": "Zelda: Ocarina of Time Remake’s Bombchu Bowling Lady Redesign Divides Fans",
-      "link": "https://news.sankakucomplex.com/n/oZfosa-7FRAOyQYPW3vGnw",
-      "publishedAt": "2026-10-17T18:00:27.000Z",
-      "excerpt": "Nintendo’s upcoming remake of The Legend of Zelda: Ocarina of Time has revealed the updated appearance of the Bombchu Bowling Alley attendant, a minor character whose redesign is attracting considerable attention from fans.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "98837d959e0de917",
-      "title": "Zelda: Ocarina of Time Remake’s Bombchu Bowling Lady Redesign Divides Fans",
-      "link": "https://news.sankakucomplex.com/n/HQDCwwbwKvwsOLFgRB1O4w",
-      "publishedAt": "2026-10-17T18:00:27.000Z",
-      "excerpt": "Nintendo’s upcoming remake of The Legend of Zelda: Ocarina of Time has revealed the updated appearance of the Bombchu Bowling Alley attendant, a minor character whose redesign is attracting considerable attention from fans.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "969eee6522d75714",
-      "title": "Black Clover Season 2 English Dub Reveals Cast & Crew, Release Date",
-      "link": "https://crunchyroll.com/news/announcements/2026/10/17/black-clover-season-2-anime-english-dub-release-date-cast-crew",
-      "publishedAt": "2026-10-17T17:00:00.000Z",
-      "excerpt": "New episodes will release weekly",
-      "image": "https://a.storyblok.com/f/178900/960x540/e1bf4bd618/black-clover-season-2.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1476755b031a5044",
-      "title": "Aoashi Season 2 English Dub Reveals Release Date, Cast and Crew",
-      "link": "https://crunchyroll.com/news/announcements/2026/10/17/aoashi-season-2-anime-english-dub-release-date-cast-crew",
-      "publishedAt": "2026-10-17T16:00:00.000Z",
-      "excerpt": "The first episode kicks off on Crunchyroll on October 18",
-      "image": "https://a.storyblok.com/f/178900/960x540/b7b75996f1/aoashi-season-2.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "7558da938d4732c0",
-      "title": "すりぃ、1年ぶりの全国ツアー完遂。2027年3月に活動9周年ワンマン開催決定",
-      "link": "https://barks.jp/news/1094749",
-      "publishedAt": "2026-10-17T15:00:11.000Z",
-      "excerpt": "すりぃが10月17日、ワンマンライブツアーのファイナルを完遂。さらに2027年3月3日にワンマンライブ＜THREEE CHEERS FOR THREEE vol.4＞を開催することを発表した。 今夏から「チューインガム feat. KANA-BOON」「地獄のロマン」と立て続けに楽曲を発表し、今月頭には現在オンエア中のTVアニメ『#ゾンビさがしてます』のオープニングテーマとして書き下ろした楽曲「ラキラキ」をリリースするなど精力的に活動する すりぃ 。1年ぶりのワンマンライブツアー＜リフレーム＞のファイナルを地元・大阪で「ただいま！」という第一声と共にスタートさせ、すりぃ とバンドメンバーが、縦横無尽に駆け回るアグレッシブなステージを展開した。アンコールでは自身の活動9周年を祝うワンマンライブ＜THREEE…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/18135558/THREEE_1017b-1-683x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Suri completes her first national tour in a year. 9th anniversary one-man event will be held in March 2027",
-      "translatedExcerpt": "Suri completed the final of her one-man live tour on October 17th. Furthermore, they announced that they will hold a one-man live <THREEE CHEERS FOR THREEE vol.4> on March 3, 2027. Since this summer, Suri has been releasing songs in quick succession such as ``Chewing Gum feat. The final of their one-man live tour ``Reframe'', which has been going on for the first time in a year, started in their hometown of Osaka with the first cry of ``I'm home!'', and Suri and her band members performed an aggressive stage where they ran around freely. The encore was a one-man live celebrating his 9th anniversary <THREEE...>"
-    },
-    {
-      "id": "88d38b4a3f91bce5",
-      "title": "10 Scary Episodes From Non-Horror Anime",
-      "link": "https://crunchyroll.com/news/features/2026/10/17/10-scary-episodes-from-non-horror-anime",
-      "publishedAt": "2026-10-17T15:00:00.000Z",
-      "excerpt": "Getting you into the spirit of Halloween... sometimes by surprise!",
-      "image": "https://a.storyblok.com/f/178900/960x540/27bf543248/apothecary-diaries-ep45.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f50d2d4457d66926",
-      "title": "Hey! Say! JUMP、新曲「再会愛 Lie 期待して Cry」先⾏配信＆MV公開決定",
-      "link": "https://barks.jp/news/1094708",
-      "publishedAt": "2026-10-17T14:30:00.000Z",
-      "excerpt": "Hey! Say! JUMPが、2026年11⽉11⽇に発売するアルバム『Juliet』より、「再会愛 Lie 期待して Cry」を10⽉24⽇に先⾏配信することを発表した。 本楽曲は、メンバー・髙⽊雄也が出演するテレビ朝⽇系10⽉期オシドラサタデー『はだかんぼうたち』の挿⼊歌として起用されている。Hey! Say! JUMPが得意とする「歌謡のメロディー × 洗練されたリズムダンス」が前⾯に押し出された、シティ＆J-POPだという。忙しなく進んでいく世界の中で、なかなか進み出せず取り残された葛藤を描いた、ドラマにもぴったりな楽曲に。 2コーラス⽬のピアノ、ラップ、静寂と空⽩を楽しむラストサビ前の吐息ブレイクなど、ドラマに出演している髙⽊のアイディアも散りばめられているとのことで、彼らの端正で⼤⼈シックな…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/07193048/HSJ_Juliet_%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%A2%E3%83%BC%E5%86%99.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Hey! Say! JUMP will release their new song “Sakai Ai Lie Expect Cry” in advance and release their music video.",
-      "translatedExcerpt": "Hey! Say! JUMP has announced that they will be pre-distributing ``Reunited Ai Lie Expect Cry'' from their album ``Juliet'' to be released on November 11, 2026, on October 24th. This song was used as an insert song for TV Asahi's October Oshidora Saturday show ``Hadakanbou Tachi'', in which member Yuya Takagi appears. It is said to be city & J-POP that brings Hey! Say! JUMP's specialty of ``popular melodies x sophisticated rhythm dance'' to the forefront. The song is perfect for a drama, depicting the conflict of being left behind and unable to move forward in a world that moves forward in a hectic pace. It is said that ideas from Takagi, who is appearing in the drama, are sprinkled throughout, such as the piano in the second chorus, the rap, and the sigh break before the last chorus that enjoys silence and emptiness."
-    },
-    {
-      "id": "1fe6cb503a7eed0c",
-      "title": "Japan's Video Game Rankings, October 5-11",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-17/japan-video-game-rankings-october-5-11/.242888",
-      "publishedAt": "2026-10-17T14:15:00.000Z",
-      "excerpt": "Kingdom Hearts Collection Switch 2 version debuts at #1, Ace Combat 8 ranks at #3",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gNK/cms/news.10/242888/khcollection.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

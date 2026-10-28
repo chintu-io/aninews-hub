@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T01:01:59.415Z",
+  "generatedAt": "2026-10-28T01:32:41.938Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 40,
+      "count": 41,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 142,
+      "count": 141,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 240,
+      "count": 238,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 63,
+      "count": 65,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 599,
+    "translatedJapaneseArticles": 598,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "94b6ea69a664889b",
+      "title": "Ocarina of Time Remake’s Great Fairy All Covered Up",
+      "link": "https://news.sankakucomplex.com/n/2KzF-RIT3d5aJQuf15P1DQ",
+      "publishedAt": "2026-10-28T01:00:06.000Z",
+      "excerpt": "Nintendo’s upcoming The Legend of Zelda: Ocarina of Time remake has attracted criticism over changes to the Great Fairy’s famously revealing appearance, with some accusing the company of censoring the character in its modernized version of the Nintendo 64 classic.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "7f5e1ab6fa06afa0",
+      "title": "Cup Noodle launching “isekai” crossover line featuring flavors from outside instant ramen world",
+      "link": "https://soranews24.com/2026/10/28/cup-noodle-launching-isekai-crossover-line-featuring-flavors-from-outside-instant-ramen-world/",
+      "publishedAt": "2026-10-28T01:00:03.000Z",
+      "excerpt": "An isekai trip for your taste buds, no truck accident required. Isekai translates to “alternate world,” but within the Japanese pop culture sphere it’s also the name of a genre of anime, novels, and other media in which someone gets transported from our mundane plane of existence to a realm with new adventures waiting for […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_3ba02d.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "c3a8455fb6055fee",
       "title": "Who-ya Extended Shares PSYREN Anime Ending Song Music Video",
@@ -183,6 +217,25 @@
         "accent": "#ff6784",
         "language": "en"
       }
+    },
+    {
+      "id": "38fb252d77b89972",
+      "title": "アリアナ・グランデ、ミュージカルのようなSwarovskiホリデー・キャンペーン“JOY”に登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/166868",
+      "publishedAt": "2026-10-28T01:00:00.000Z",
+      "excerpt": "アリアナ・グランデが、グローバル・ブランド・アンバサダーを務めるSwarovskiによるミュージカ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166868/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ariana Grande appears in Swarovski's musical holiday campaign 'JOY'",
+      "translatedExcerpt": "Musica by Swarovski, where Ariana Grande is a global brand ambassador"
     },
     {
       "id": "5e5be1fc2a6e8d25",
@@ -6477,6 +6530,23 @@
       },
       "translatedTitle": "Risa Junna holds a winter concert with talented musicians",
       "translatedExcerpt": "Risa Junna's winter concert <Risa Junna Concert 2026 Christmas Time in GRACE> will be held in Tokyo on November 24th (Tuesday) and in Osaka on December 24th (Thursday). Pianist Toshitaka Shibata, who also serves as Maki Daiguro's tour band master, will be joined by Atsuki Yoshida (violin), Kanato Iijima (cello), and Kan (performer), who are active in a wide range of music scenes across genres, and a special Christmas time will be held with the unique sound woven by these four people and Risa Junna's clear singing voice. It's a special moment filled with a variety of musical expressions, centered around classic winter songs and Christmas songs. From Risa Junna I entered this world because I love musicals, so music is an essential part of my life. I have always loved singing and have been singing since before I joined the Takarazuka Revue, but especially..."
+    },
+    {
+      "id": "1bca27cd53b1a419",
+      "title": "Hatsune Miku Producer Supercell Returns With Two New Pokemon Songs After 10 Years",
+      "link": "https://news.sankakucomplex.com/n/gN5dhQ1Rz5sctZrWsEircg",
+      "publishedAt": "2026-10-25T01:00:27.000Z",
+      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "19a28e3ad90e3886",
@@ -18324,80 +18394,6 @@
       },
       "translatedTitle": "STU48, [STU48 Live Tour 2026] Final performance live report arrives",
       "translatedExcerpt": "STU48, who is based in the 7 prefectures of Setouchi, released their 14th single “Winter Clothes ni Koitera” on October 7th."
-    },
-    {
-      "id": "c3365d90b841e5b9",
-      "title": "GRe4N BOYZ、全国43公演ツアー完走＆デビュー20周年記念日にFC限定ライブ開催発表",
-      "link": "https://www.billboard-japan.com/d_news/detail/166627",
-      "publishedAt": "2026-10-19T07:30:00.000Z",
-      "excerpt": "GRe4N BOYZが、全国ツアーのファイナル公演を10月18日に福島・郡山にて開催し、デビュー2",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166627/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "GRe4N BOYZ completes 43-concert tour nationwide and announces FC limited live show on 20th anniversary of debut",
-      "translatedExcerpt": "GRe4N BOYZ will hold the final performance of their national tour on October 18th in Koriyama, Fukushima, marking their debut 2"
-    },
-    {
-      "id": "21736f46b85ffc31",
-      "title": "Cygames States Uma Musume: Pretty Derby Franchise's U.S. Concerts May Be Canceled Due to Visa Issues",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-19/cygames-states-uma-musume-pretty-derby-franchise-u.s-concerts-may-be-canceled-due-to-visa-issues/.242979",
-      "publishedAt": "2026-10-19T07:25:11.000Z",
-      "excerpt": "L.A. concerts scheduled for October 22-23; final decision whether to hold concerts or not to be announced by Monday night",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG5/cms/news.9/239701/uma-musume-world-tour.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "8509cb977b224541",
-      "title": "【ライブレポート】Ken Yokoyama、ツアー＜The Rags To Riches Tour ⅥI＞ファイナルが全編クライマックス「きっと戻ってくる」",
-      "link": "https://barks.jp/news/1094861",
-      "publishedAt": "2026-10-19T07:01:00.000Z",
-      "excerpt": "横山健(G, Vo)、なんて人なんだ。だって、そうだろ。3都市6会場を回ったツアーがこの日、終わってしまうことが名残惜しいと思う反動なのか、最近珍しいくらいに下ネタを含めた悪ノリを繰り広げ、もちろん、それも見どころに違いないとは言え、「(曲間のMCは)チ●コとEKKUNのくだらない話しかしてない」「……(無言)」と南英紀(G)とJun Gray(B)を呆れさせた前半戦。 そうか。9月25日に突然発表したKen Yokoyamaの活動休止について、今日は敢えて触れずに観客とバンドの交歓を心行くまで楽しもうということなのか…と、この日の対バンだったKUZIRAの末武竜之介(Vo, G)による「今回のツアーに誘われたのがENTHとKUZIRAだなんて、その意味を何か感じませんか？」という発言を聞き、“なるほど。…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/19084319/01_2026_10_14_01047-1024x682.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Live Report] Ken Yokoyama, tour <The Rags To Riches Tour VII> Final climax is the climax of the entire tour \"I'm sure I'll be back\"",
-      "translatedExcerpt": "What a person Ken Yokoyama (G, Vo) is. Because, that's right. Perhaps it was a reaction to the feeling that it would be a shame to see the tour, which had visited 6 venues in 3 cities, come to an end on this day, but in the first half of the show they made a rarity, including dirty jokes, which is rare these days.Of course, that must have been a highlight, but in the first half of the show they made Hideki Minami (G) and Jun Gray (B) dumbfounded, saying, ``(The MC between songs) was only talking nonsense about dicks and EKKUN.'' ``...(Silence).'' I see. Regarding Ken Yokoyama's suspension of activities, which was suddenly announced on September 25th, I didn't dare to mention it today so that I could enjoy the interaction between the audience and the band to my heart's content.I heard Ryunosuke Suetake (Vo, G) of KUZIRA, who was our partner band that day, say, ``Don't you feel it means that ENTH and KUZIRA were invited to this tour?'' and I said, ``I see.''"
-    },
-    {
-      "id": "0c853fe1e9fc84ad",
-      "title": "【インタビュー】Dance Hall Crashers、＜AIR JAM 2026＞開催直前に語る再結成と『Purr Deluxe』のすべて「再び機会に恵まれたことを心から幸運だと思っています」",
-      "link": "https://barks.jp/news/1094519",
-      "publishedAt": "2026-10-19T07:00:00.000Z",
-      "excerpt": "2025年1月、21年ぶりとなるDance Hall Crashersの再結成がアナウンスされたとき、ここ日本でも歓喜に沸いたファンが少なからずいたことが、日本におけるDance Hall Crashersの根強い人気を改めて物語っていた。 Dance Hall Crashersは1989年にカリフォルニア州バークレーで結成されたスカパンクバンドだ。そもそもはスカパンク／スカコアに先鞭をつけたバンド、Operation IvyのメンバーだったTim ArmstrongとMatt Freemanがサイドプロジェクトとして始めたバンドだったが、2人が新たに始めたRancidの活動に専念することになったため、Elyse RogersとKarina Denikéという2人のシンガーがフロントに立つ5人組として再出…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/09144515/01_DHC_Band_2025_Alexander-Ripa-683x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Interview] Dance Hall Crashers talk about their reunion and \"Purr Deluxe\" just before <AIR JAM 2026> \"I feel really lucky to have had the opportunity again.\"",
-      "translatedExcerpt": "In January 2025, when it was announced that Dance Hall Crashers would reunite for the first time in 21 years, there were quite a few fans here in Japan who erupted with joy, proving once again the deep-rooted popularity of Dance Hall Crashers in Japan. Dance Hall Crashers is a ska-punk band formed in Berkeley, California in 1989. The band was originally started as a side project by Tim Armstrong and Matt Freeman, who were members of Operation Ivy, a band that pioneered ska-punk/ska-core, but when they decided to concentrate on their newly started Rancid, they re-emerged as a five-piece group fronted by two singers, Elyse Rogers and Karina Deniké."
     }
   ]
 }

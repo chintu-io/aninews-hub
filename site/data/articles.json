@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T00:02:09.471Z",
+  "generatedAt": "2026-10-28T00:31:53.549Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 41,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 140,
+      "count": 142,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 117,
+      "count": 118,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 149,
+      "count": 148,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 65,
+      "count": 64,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,63 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 600,
+    "translatedJapaneseArticles": 599,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "cf08cebc7b4b88fd",
+      "title": "Sins of Kujo Live-Action Film Unveils New Trailer Featuring Hitsujibungaku Theme Song",
+      "link": "https://crunchyroll.com/news/latest/2026/10/28/sins-of-kujo-live-action-film-new-trailer-hitsujibungaku-theme-song",
+      "publishedAt": "2026-10-28T00:24:00.000Z",
+      "excerpt": "The feature film edition hits Japanese theaters on January 8, 2027",
+      "image": "https://a.storyblok.com/f/178900/960x539/d01906831e/sins-of-kujo-live-action-header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "220e621b9d9b1e3f",
+      "title": "パペットスンスンのデビュー曲／新曲／リミックスを収録、初のCD＆アナログレコードが12月リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/166862",
+      "publishedAt": "2026-10-28T00:15:00.000Z",
+      "excerpt": "パペットスンスンが、デビュー曲「とてと」を収録した自身初のCDを2026年12月2日、アナログレコ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166862/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Puppet Soonsun's first CD and analog record containing debut songs/new songs/remixes will be released in December.",
+      "translatedExcerpt": "Puppet Seungsun will release his first CD containing his debut song “Toteto” on analog record on December 2, 2026."
+    },
+    {
+      "id": "ade4e48ecf4d48c0",
+      "title": "Eito Chida Launches New Hoshibarai no Chidori Manga",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-27/eito-chida-launches-new-hoshibarai-no-chidori-manga/.243220",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "excerpt": "Hoshibarai no Chidori debuts on November 20",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gM4/cms/news.10/243220/hvod8zzaoaakyoo.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "8e54e5a8940f21d5",
       "title": "ワイクリフ・ジョン、音楽キャリア30周年記念アルバム・シリーズ第2弾CD発売 ロバート・グラスパーら参加",
@@ -185,6 +238,23 @@
       },
       "translatedTitle": "Wyclef John releases 2nd CD in commemorative 30th anniversary album series, featuring Robert Glasper and others",
       "translatedExcerpt": "Wyclef John celebrates 30 years of his music career with an epic genre-crossing album, Quantum."
+    },
+    {
+      "id": "de3c5319c6e7cb0b",
+      "title": "Live-Action Sins of Kujo Film's New Trailer Unveils Theme Song",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-27/live-action-sins-of-kujo-film-new-trailer-unveils-theme-song/.243264",
+      "publishedAt": "2026-10-27T23:44:12.000Z",
+      "excerpt": "Hitsujibungaku performs \"Dispel\"",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGC/youtube/cTisUYp6xaI.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "8eba03ab529641e1",
@@ -206,7 +276,7 @@
     {
       "id": "14d18456540d2466",
       "title": "We Are Aliens Film Wins Awards at Rome, Philadelphia Film Festivals",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-26/we-are-aliens-film-wins-awards-at-rome-philadelphia-film-festivals/.243231",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-27/we-are-aliens-film-wins-awards-at-rome-philadelphia-film-festivals/.243231",
       "publishedAt": "2026-10-27T23:00:00.000Z",
       "excerpt": "New video showing film clip streams",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFE/youtube/0RbYr8CLWuA.jpg",
@@ -18326,78 +18396,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "4bec4aee487991d0",
-      "title": "Japanese Man in His 70s Loses $240,000 After Being Offered $57,000 for His Sperm",
-      "link": "https://news.sankakucomplex.com/n/WlMofQiS2Gk18vA4Xn-SUw",
-      "publishedAt": "2026-10-19T06:00:12.000Z",
-      "excerpt": "A Japanese man in his 70s was reportedly defrauded of approximately 38 million yen ($240,000) after an individual he met online promised to pay him 9 million yen ($57,000) in exchange for donating his sperm.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f2acaa84437ee392",
-      "title": "NHKで中森明菜特集3番組放送",
-      "link": "https://ototoy.jp/news/132334",
-      "publishedAt": "2026-10-19T06:00:00.000Z",
-      "excerpt": "NHKで中森明菜特集を3番組放送する。 各特集番組では、NHKに残る貴重な映像でたどる「過去」、ツアーで示した「現在」、そして撮りおろしインタビューから見えてくる「未来」を通して、中森明菜というアーティストの軌跡と現在地を描く。 10月24日 (土) 夜8:07～8:52は総合で〈SONGSスペシャル 中森明菜 “明菜オールタイム・ベスト”〉を放送。中森明菜がデビューした1982年から5年間に発表された大ヒット曲の数々を、NHKに残る貴重なアーカイブ映像とともに紹介。NHKのスタジオでは17年ぶりとなる生歌唱パフォーマンスを披露。撮りおろしインタビューではそれぞれの楽曲への感想や当時のエピソードを本人の言葉で振り返る。 10月31日 (土) 夜7:00～8:29(BSP4K)、11月7日 (土) 夜9:0…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132334/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "3 special programs about Akina Nakamori broadcast on NHK",
-      "translatedExcerpt": "NHK will broadcast three special programs on Akina Nakamori. Each special program depicts the trajectory and current location of the artist Akina Nakamori, through the ``past'' traced through NHK's precious footage, the ``present'' shown on tour, and the ``future'' seen through newly shot interviews. On October 24th (Saturday) from 8:07 to 8:52 p.m., SONGS Special Akina Nakamori “Akina All-Time Best” will be broadcast. Introducing a number of big hit songs released by Akina Nakamori in the five years since her debut in 1982, along with valuable archive footage left on NHK. They performed live singing at NHK's studio for the first time in 17 years. In the newly filmed interview, he looks back on his impressions of each song and episodes from that time in his own words. October 31st (Saturday) 7:00-8:29pm (BSP4K), November 7th (Saturday) 9:00pm…"
-    },
-    {
-      "id": "44f124a977dc4869",
-      "title": "歌手デビューの吉田沙保里、1stシングル発売記念イベント開催へ ミニライブ＆“だるま”目入れ会も",
-      "link": "https://www.billboard-japan.com/d_news/detail/166623",
-      "publishedAt": "2026-10-19T06:00:00.000Z",
-      "excerpt": "レスリング女子元日本代表の吉田沙保里が、メジャーデビューシングル『I&rsquo;m Here』発",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166623/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Saori Yoshida, who makes her debut as a singer, will hold an event to commemorate the release of her 1st single, including a mini live and \"Daruma\" eye-catching event.",
-      "translatedExcerpt": "Former Japan Women's Wrestling Representative Saori Yoshida releases major debut single \"I'm Here\""
-    },
-    {
-      "id": "2f39bdb7d7c7bbb3",
-      "title": "Eight low-key great places to spend the day (or half a day) in Japan this fall",
-      "link": "https://soranews24.com/2026/10/19/eight-low-key-great-places-to-spend-the-day-or-half-a-day-in-japan-this-fall/",
-      "publishedAt": "2026-10-19T05:00:58.000Z",
-      "excerpt": "Fall means an abundance of good weather but a shortage of time in Japan, but here are eight spots that are quick to see but you’ll remember for a long, long time. There’s a strong case to be made that autumn is the most comfortable time of year for going out in Japan. The summer […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/3_0ab0e4.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
         "language": "en"
       }
     }

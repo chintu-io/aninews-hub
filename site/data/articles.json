@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T16:02:38.942Z",
+  "generatedAt": "2026-10-28T16:32:18.204Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 39,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 126,
+      "count": 127,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 230,
+      "count": 229,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 59,
+      "count": 58,
       "fetchedCount": 24
     }
   ],
@@ -163,7 +163,7 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 548,
+    "translatedJapaneseArticles": 547,
     "translationAttempts": 160
   },
   "articles": [
@@ -181,6 +181,57 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "6da4a7b96d69735d",
+      "title": "Starbucks Japan releases “Let’s Par-TEA!” Frappuccino and drinks for the holiday season",
+      "link": "https://soranews24.com/2026/10/29/starbucks-japan-releases-lets-par-tea-frappuccino-and-drinks-for-the-holiday-season/",
+      "publishedAt": "2026-10-28T16:00:00.000Z",
+      "excerpt": "Each beverage has its own unique character so you can choose which one you’d like to party with. With the holiday season fast approaching, Starbucks is bringing the party spirit to its stores in Japan with a trio of new drinks based around the theme of “Let’s par-TEA!” As the name suggests, the three new holiday […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/Starbucks-Japan-Frappuccino-Christmas-2026-Holiday-Season-Tea-Party-limited-edition-drink-exclusive-Bearista-tea-latte-chocolate-joyful-Medley-Santa-cookie-menu-2.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "6ec2614ac1050cfd",
+      "title": "Bandai Namco Announces Mobile Suit Gundam Battle Operation 3 Game for PS5, PC",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-28/bandai-namco-announces-mobile-suit-gundam-battle-operation-3-game-for-ps5-pc/.243288",
+      "publishedAt": "2026-10-28T15:45:12.000Z",
+      "excerpt": "Trailer streamed for free-to-play team combat game",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gN7/youtube/Gu1qWj6gYks.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "9b4af5e0aab20a9d",
+      "title": "Cardfight!! Vanguard Announces New Veil Lift Anime, 2nd Season of Ghost Meets Gal Mini Anime",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-28/cardfight-vanguard-announces-new-veil-lift-anime-2nd-season-of-ghost-meets-gal-mini-anime/.243287",
+      "publishedAt": "2026-10-28T15:00:55.000Z",
+      "excerpt": "More details will be announced for Cardfight!! Vanguard Veil Lift on December 7",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g22/cms/news.10/243287/ghost-meets-gal-season-2.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -7456,6 +7507,23 @@
         "siteUrl": "https://myanimelist.net/news",
         "category": "Anime News",
         "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d156b4c6b2ab3514",
+      "title": "Mangaka Forced to Change Black Villain to White to Avoid “Racism Complaints”",
+      "link": "https://news.sankakucomplex.com/n/putj7m04Bv12JuMZNXpwKg",
+      "publishedAt": "2026-10-25T16:24:37.000Z",
+      "excerpt": "Japanese manga artist Masanao Kurihara, creator of Uramiya Honpo, has revealed that he was once instructed to change a Black villain into a white character over fears of “discrimination complaints”, an experience that ultimately convinced him to avoid including Black characters in his manga altog…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18390,76 +18458,6 @@
       },
       "translatedTitle": "Selena Gomez laments that nicotine e-cigarettes have \"changed\" her voice: \"It was really stupid.\"",
       "translatedExcerpt": "Selena Gomez, who has always tried to be candid with her fans, says nicotine e-cigarettes are her voice."
-    },
-    {
-      "id": "633135d085139fa7",
-      "title": "Cygames Cancels Uma Musume: Pretty Derby Franchise's U.S. Concerts",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/cygames-cancels-uma-musume-pretty-derby-franchise-u.s-concerts/.243013",
-      "publishedAt": "2026-10-20T06:18:43.000Z",
-      "excerpt": "Staff could not obtain U.S. visas for L.A. concerts slated for October 22-23",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG5/cms/news.9/239701/uma-musume-world-tour.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "58a123b264597651",
-      "title": "Pokemon Lopunny Mod for Marvel Rivals Definitely Lewd",
-      "link": "https://news.sankakucomplex.com/n/-IoePmw0RnW3pX9VNNRaYQ",
-      "publishedAt": "2026-10-20T06:00:50.000Z",
-      "excerpt": "Modders have continued to meet the ever strange demands of more “unique” individuals as this mod swaps out Rogue in Marvel Rivals for Pokemon’s Lopunny, incorporating a level of sex appeal that will certainly leave some people questioning themselves.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "7fc60b8d6702778c",
-      "title": "Pokemon Lopunny Mod for Marvel Rivals Definitely Lewd",
-      "link": "https://news.sankakucomplex.com/n/RvccAZbTSpgqa0jl4DUUiw",
-      "publishedAt": "2026-10-20T06:00:50.000Z",
-      "excerpt": "Modders have continued to meet the ever strange demands of more “unique” individuals as this mod swaps out Rogue in Marvel Rivals for Pokemon’s Lopunny, incorporating a level of sex appeal that will certainly leave some people questioning themselves.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "3182c84ec53fbde9",
-      "title": "シンディ・ローパー、ファッション業界と音楽業界はクリエイターを“搾り取っている”と語る「いったいどれだけ金が要るっていうの？」",
-      "link": "https://www.billboard-japan.com/d_news/detail/166671",
-      "publishedAt": "2026-10-20T06:00:00.000Z",
-      "excerpt": "シンディ・ローパーにとって、故郷の米ニューヨークのボナムスで現在開催中のオークション兼展示会【スー",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166671/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Cyndi Lauper says the fashion and music industries are 'milking' creators: 'How much money do they need?'",
-      "translatedExcerpt": "Cyndi Lauper is currently holding an auction and exhibition at Bonhams in her hometown of New York."
     }
   ]
 }

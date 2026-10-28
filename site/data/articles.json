@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T05:32:30.495Z",
+  "generatedAt": "2026-10-28T06:02:01.262Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 230,
+      "count": 229,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 234,
+      "count": 235,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 599,
+    "translatedJapaneseArticles": 598,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "84e019ad3a9e43fd",
+      "title": "Da-iCE、2枚目となるベストアルバム『Da-iCE BEST2』を2027年1月にリリース",
+      "link": "https://barks.jp/news/1101109",
+      "publishedAt": "2026-10-28T05:46:23.000Z",
+      "excerpt": "Da-iCEが、自身2枚目となるベストアルバム『Da-iCE BEST2』をデビュー日にあたる2027年1月15日(金)に発売する。 本作はCD3枚組に加え各種映像コンテンツをDVD・Blu-ray3枚組で収録予定。「Best Songs(Disc1)」には「CITRUS」「スターマイン」「I wonder」など、Da-iCEを代表するヒット楽曲を中心に選曲し、「New Song(Disc2)」には最新曲「うららか」「アンリミテッド」を含めた新曲・新録曲を収める。「Singles Selection(Disc3)」にはシングル作品でのみ発表をした楽曲を収録。DVD・Blu-ray3枚組には2020年以降に公開をしたMusic Video、Lyric VideoからDance Practiceなどの映像コン…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/05/13114150/252121_Da-iCE_DDD_%E3%82%A2%E3%83%BC%E5%86%99.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Da-iCE will release their second best album “Da-iCE BEST2” in January 2027",
+      "translatedExcerpt": "Da-iCE will release his second best album \"Da-iCE BEST2\" on January 15, 2027 (Friday), the day of his debut. This work is scheduled to include a 3-disc set of CDs, as well as various video content as a 3-disc set of DVD and Blu-ray. ``Best Songs (Disc 1)'' features a selection of Da-iCE's most representative hit songs such as ``CITRUS,'' ``Starmine,'' and ``I wonder,'' while ``New Song (Disc 2)'' includes new and newly recorded songs, including the latest songs ``Uraraka'' and ``Unlimited.'' \"Singles Selection (Disc3)\" includes songs that were only released as singles. The 3-disc DVD/Blu-ray set includes music video, lyric video, dance practice, and other videos released since 2020."
+    },
     {
       "id": "e7f2d5ca8225a387",
       "title": "Guilty Gear Strive Bridget Birthday Post Labels the Character a “She”",
@@ -1079,7 +1098,7 @@
       "title": "Sony Data Breach Exposes 2.58 Million Accounts & Thousands of Passwords",
       "link": "https://news.sankakucomplex.com/n/fT3hBNYzz2AdEuFg9MT7zA",
       "publishedAt": "2026-10-27T23:00:40.000Z",
-      "excerpt": "Sony Network Communications has suffered a massive data breach affecting approximately 2.58 million customer records, with hackers obtaining personal information, thousands of email passwords, and even a small number of bank account details. The Japanese company announced the security incident on…",
+      "excerpt": "Sony Network Communications has suffered a massive data breach affecting approximately 2.58 million customer records, with hackers obtaining personal information, thousands of email passwords, and even a small number of bank account details.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18377,25 +18396,6 @@
       },
       "translatedTitle": "Garari releases 1st major single “Night Flight”",
       "translatedExcerpt": "Garari will release their first major single “Night Flight” on October 28, 2026."
-    },
-    {
-      "id": "e1d86c7a4736f76b",
-      "title": "SEVENTEENの新ユニット・JxJ、旅路を幻想的に描いた「12 o&#039;clock」MV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166645",
-      "publishedAt": "2026-10-19T12:30:00.000Z",
-      "excerpt": "SEVENTEENのJEONGHANとJOSHUAによる新ユニット・JxJ (SEVENTEEN)",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166645/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "SEVENTEEN's new unit JxJ releases \"12 o'clock\" MV that depicts a fantastic journey",
-      "translatedExcerpt": "JxJ (SEVENTEEN), a new unit by SEVENTEEN's JEONGHAN and JOSHUA"
     }
   ]
 }

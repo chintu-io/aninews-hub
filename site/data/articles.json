@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T15:32:08.770Z",
+  "generatedAt": "2026-10-28T16:02:38.942Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 111,
+      "count": 112,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 231,
+      "count": 230,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 550,
+    "translatedJapaneseArticles": 548,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "1805bfb24576c08b",
+      "title": "Re:ZERO -Starting Life in Another World- Season 4 Ending, Explained",
+      "link": "https://crunchyroll.com/news/guides/2026/10/28/re-zero-season-4-ending-explained",
+      "publishedAt": "2026-10-28T16:00:00.000Z",
+      "excerpt": "Re:ZERO Season 4 had a lot going on!",
+      "image": "https://a.storyblok.com/f/178900/960x540/492ad39fdf/rezero-season-4.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "141f39cb064a3461",
       "title": "＜インタビュー＞チョコプラ×北山宏光が挑む新番組『オトバズ』――音楽とコメディの化学反応で“バズ”を生み出す",
@@ -18443,25 +18460,6 @@
       },
       "translatedTitle": "Cyndi Lauper says the fashion and music industries are 'milking' creators: 'How much money do they need?'",
       "translatedExcerpt": "Cyndi Lauper is currently holding an auction and exhibition at Bonhams in her hometown of New York."
-    },
-    {
-      "id": "68f1b89eee1c4d4c",
-      "title": "元ブロックハンプトンのベアーフェイスことキーラン、新曲「RED 99」公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166677",
-      "publishedAt": "2026-10-20T06:00:00.000Z",
-      "excerpt": "アイルランド出身のマルチ・インストゥルメンタリスト／ソングライター、キーランが、2026年11月6",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166677/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Former Brockhampton member Bearface, aka Kieran, releases new song “RED 99”",
-      "translatedExcerpt": "Kieran, a multi-instrumentalist/songwriter from Ireland, will be released on November 6, 2026."
     }
   ]
 }

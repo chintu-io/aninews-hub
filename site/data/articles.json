@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T01:32:41.938Z",
+  "generatedAt": "2026-10-28T02:02:09.874Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 119,
+      "count": 120,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 227,
+      "count": 226,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 238,
+      "count": 237,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 149,
+      "count": 150,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,84 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 598,
+    "translatedJapaneseArticles": 596,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "354b5e83f4424207",
+      "title": "向井康二（Snow Man）、映画『アベンジャーズ／ドゥームズデイ』＜アベンジャーズ＞アンバサダーに就任",
+      "link": "https://www.billboard-japan.com/d_news/detail/166869",
+      "publishedAt": "2026-10-28T02:00:00.000Z",
+      "excerpt": "向井康二（Snow Man）が、12月18日に全国公開となる映画『アベンジャーズ／ドゥームズデイ』",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166869/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Koji Mukai (Snow Man) becomes the Avengers ambassador for the movie “Avengers/Doomsday”",
+      "translatedExcerpt": "Koji Mukai (Snow Man) will be working on the movie “Avengers: Doomsday” which will be released nationwide on December 18th."
+    },
+    {
+      "id": "7730924a7eef43e1",
+      "title": "BAND-MAID Releases BEYBLADE X Anime Bey Kingdom Arc Ending Theme Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/10/28/beyblade-x-anime-bey-kingdom-arc-ending-theme-music-video-band-maid",
+      "publishedAt": "2026-10-28T01:52:00.000Z",
+      "excerpt": "The CD single hits Japanese stores today",
+      "image": "https://a.storyblok.com/f/178900/960x540/ef1198f9c1/band-maid-spin-mv.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "3f91b5f1ecc5456d",
+      "title": "NMIXX、日本デビューベストアルバム『N=MIXX』新ビジュアル＆ジャケ写公開",
+      "link": "https://ototoy.jp/news/132505",
+      "publishedAt": "2026-10-28T01:30:00.000Z",
+      "excerpt": "韓国の6人組ガールズグループ・NMIXX（エンミックス）が、2026年12月9日(水)にリリースする日本デビューベストアルバム『N=MIXX』（エヌイコールミックス）の新アーティスト写真とジャケット写真を公開。 あわせて、CD収録曲や各形態の商品仕様など詳細が明らかになった。 JYPエンターテインメントに所属するNMIXXは、LILY、HAEWON、SULLYOON、BAE、JIWOO、KYUJINからなる6人組ガールズグループ。異なるジャンルを融合させた独自の音楽スタイル「MIXX POP」と、圧倒的な歌唱力、パフォーマンス力を武器に、世界中から注目を集めている。2025年にリリースした「Blue Valentine」は韓国音楽番組で10冠を達成。さらに、2026年9月に開催された「THE FACT M…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132505/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "NMIXX releases new visual and jacket photo for Japanese debut best album “N=MIXX”",
+      "translatedExcerpt": "South Korean six-member girl group NMIXX has released a new artist photo and jacket photo for their Japanese debut best album ``N=MIXX'' (N=MIXX), which will be released on Wednesday, December 9, 2026. In addition, details such as the songs on the CD and product specifications for each format have been revealed. NMIXX, which belongs to JYP Entertainment, is a six-member girl group consisting of LILY, HAEWON, SULLYOON, BAE, JIWOO, and KYUJIN. They are attracting attention from all over the world with their unique music style \"MIXX POP\" that combines different genres, as well as their overwhelming singing and performance skills. “Blue Valentine” released in 2025 achieved 10 crowns on Korean music programs. In addition, “THE FACT M…” will be held in September 2026."
+    },
+    {
+      "id": "1a52e9fe8e3845b9",
+      "title": "ジェイ・Z、AI時代に警鐘「すべてを疑うことが大切」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166870",
+      "publishedAt": "2026-10-28T01:30:00.000Z",
+      "excerpt": "ジェイ・Zが、自身のコンサートのリセール・チケットの価格の安さに触れながら、米LA公演の評判やチケ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166870/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Jay-Z warns in the age of AI: ``It's important to doubt everything''",
+      "translatedExcerpt": "Jay-Z talks about the low prices of resale tickets for his concerts, and also talks about the reputation and ticket prices of his LA shows."
+    },
     {
       "id": "94b6ea69a664889b",
       "title": "Ocarina of Time Remake’s Great Fairy All Covered Up",
@@ -18318,82 +18392,6 @@
       },
       "translatedTitle": "<Showa Song Parade> October 22nd, Keisuke Yamauchi and others talk about their passionate feelings towards “Oshi”",
       "translatedExcerpt": "The performers for the October 22nd BS Fuji Showa Kayo Parade have been announced. Starring Keisuke Yamauchi, Yuji Matsuo, Konomi Mori, and Miho Asahana. This time, we will be broadcasting \"Oshi Talk!!\" where guests will talk about their passionate feelings towards \"Oshi\". He passionately sings his beloved ``Oshi'' masterpiece. Furthermore, Hibari Misora's treasured singing video and Keisuke Yamauchi's treasured collection will be unveiled in the studio. The songs to be performed include Miho Asahana's ``Sorrow Wharf (Misora Hibari)'', Miho Asahana's ``Sakura Enka'', Yuji Matsuo's ``Yukitsubaki (Sachiko Kobayashi)'', Yuji Matsuo's ``Watatashi'', Konomi Mori's ``Kokoro no Takashi'' (Takashi Hosokawa), and Konomi Mori's ``Shoku''. ``White'', Keisuke Yamauchi ``Midare-kami (Misora Hibari)'', Keisuke Yamauchi ``Life is a journey (Misora Hibari)'', Keisuke Yamauchi & Miho Asahana ``Tsugaru no Furusato (Misora Hibari)'', Keisuke Yamauchi ``This world is a festival'' (in alphabetical order of singers) . Release information https://ototoy.jp/_/de…"
-    },
-    {
-      "id": "d35473168c934330",
-      "title": "KATSEYE、メンバーLARAが手がけた楽曲「Unloveu」正式デジタル・リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/166629",
-      "publishedAt": "2026-10-19T08:00:00.000Z",
-      "excerpt": "KATSEYEが、3rd EP『WILD』限定盤にボーナス・トラックとして収録されていた、メンバー",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166629/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "KATSEYE, official digital release of song “Unloveu” created by member LARA",
-      "translatedExcerpt": "KATSEYE's 3rd EP \"WILD\" limited edition includes the members as a bonus track."
-    },
-    {
-      "id": "8671fa455af30cbd",
-      "title": "吉川晃司、『KIKKAWA KOJI LIVE 2026 Higher and Higher Tour Final』ライブレポート到着",
-      "link": "https://www.billboard-japan.com/d_news/detail/166624",
-      "publishedAt": "2026-10-19T08:00:00.000Z",
-      "excerpt": "「ごきげんよう。みなさん、ファイナルへようこそ。満員御礼ありがとうございます。いい眺めです」との挨",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166624/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Koji Yoshikawa, “KIKKAWA KOJI LIVE 2026 Higher and Higher Tour Final” live report arrives",
-      "translatedExcerpt": "``Good day, everyone. Welcome to the final. Thank you for the packed house. It's a nice view.''"
-    },
-    {
-      "id": "13cacab5e2ac8b12",
-      "title": "JxJ (SEVENTEEN)が語る、『DREAMSCAPE』の充実度「幻想と現実が交錯する旅路を」",
-      "link": "https://barks.jp/news/1094968",
-      "publishedAt": "2026-10-19T07:50:00.000Z",
-      "excerpt": "SEVENTEENのJEONGHANとJOSHUAによる新ユニット“JxJ (SEVENTEEN)”が本日10月19日午後6時に1stミニアルバム『DREAMSCAPE』をリリースする。 眠っている間に芽生える幻想の中の夢と、現実で叶えたい夢を行き来しながら、聴く者を感覚的な陶酔へと導く作品の完成だ。 タイトル曲「12 o’clock」は、昼12時と夜12時を行き来しながら、夢見る対象を追いかけるJxJ (SEVENTEEN)を描いたダンスロックジャンルの楽曲だ。 1970〜80年代のディスコ／ファンクを現代的に再解釈したサウンドに、二人のゆったりとして成熟したボーカルが加わった楽曲は強い中毒性を生み出した。 10月18日に公開されたミュージックビデオのティーザーは、超現実的な雰囲気が印象的な仕上がり。…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/19163558/261019_JxJ1-1024x682.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "JxJ (SEVENTEEN) talks about the fulfillment of “DREAMSCAPE” “A journey where fantasy and reality intersect”",
-      "translatedExcerpt": "SEVENTEEN's JEONGHAN and JOSHUA's new unit ``JxJ (SEVENTEEN)'' will release their 1st mini album ``DREAMSCAPE'' today, October 19th at 6 pm. The result is a work that leads the listener to a sensual ecstasy, moving back and forth between dreams in the fantasies that arise during sleep and dreams that would like to come true in reality. The title song ``12 o'clock'' is a dance-rock song about JxJ (SEVENTEEN) chasing the object of their dreams while going back and forth between 12 o'clock in the day and 12 o'clock at night. The song, which is a modern reinterpretation of 1970s and 1980s disco/funk, combined with the two's laid-back, mature vocals, has become highly addictive. The music video teaser released on October 18th has an impressive surreal atmosphere. …"
-    },
-    {
-      "id": "63fea10b18dfef5b",
-      "title": "STU48、【STU48 Live Tour 2026】ファイナル公演ライブレポート到着",
-      "link": "https://www.billboard-japan.com/d_news/detail/166625",
-      "publishedAt": "2026-10-19T07:45:00.000Z",
-      "excerpt": "瀬戸内7県を拠点に活動し、10月7日に14thシングル『冬服に着替えたら』をリリースしたSTU48",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166625/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "STU48, [STU48 Live Tour 2026] Final performance live report arrives",
-      "translatedExcerpt": "STU48, who is based in the 7 prefectures of Setouchi, released their 14th single “Winter Clothes ni Koitera” on October 7th."
     }
   ]
 }

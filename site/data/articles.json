@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T05:02:00.154Z",
+  "generatedAt": "2026-10-28T05:32:30.495Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 42,
+      "count": 43,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 140,
+      "count": 137,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 63,
+      "count": 65,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,63 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 598,
+    "translatedJapaneseArticles": 599,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "e7f2d5ca8225a387",
+      "title": "Guilty Gear Strive Bridget Birthday Post Labels the Character a “She”",
+      "link": "https://news.sankakucomplex.com/n/s_9A2CnNrqZWiYlZaInyBw",
+      "publishedAt": "2026-10-28T05:00:15.000Z",
+      "excerpt": "Arc System Works has once again reignited controversy surrounding Guilty Gear Strive character Bridget, as a birthday celebration referring to the male character as female attracted numerous Twitter users expressing their displeasure as this forced narrative.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "32ec3d33a66b6f69",
+      "title": "Japan’s super cute tanuki bread skips tricks, promises to be treat for your eyes and taste buds",
+      "link": "https://soranews24.com/2026/10/28/japans-super-cute-tanuki-bread-skips-tricks-promises-to-be-treat-for-your-eyes-and-taste-buds/",
+      "publishedAt": "2026-10-28T05:00:13.000Z",
+      "excerpt": "You can trust this tanuki to be as sweet on the inside as it looks on the outside. In Japanese folklore, tanuki are tricksters. There’s nothing they love more than playing pranks on us unsuspecting humans, and that image of them even extends to Japanese cuisine. “Tanuki soba” and “tanuki udon” are styles of noodles […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_c1c17a.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "b682c7223e46ed91",
+      "title": "Galileo Galilei、ニューEP『Rise of The Man』配信記念で生配信＆「Oxygen199」MV公開決定",
+      "link": "https://barks.jp/news/1101104",
+      "publishedAt": "2026-10-28T05:00:04.000Z",
+      "excerpt": "Galileo Galileiが、10月28日（水）に完全新曲6曲を収録したEP『Rise of The Man』を配信リリースした。 今作EPは、表題曲「Rise of The Man」で初めて語りに近い日本語ラップともいえる歌唱に挑戦したり、先行シングル「UREI」では夏の焦燥感を勢いのあるインディーロックサウンドで鳴らし、「光の中にはなんにもない」では同じ言葉を何度も繰り返し、思わず耳に残って癖になるような展開をみせるなど、プリミティブで幼さ、若さもあえて露見させた作品。音作りへのこだわりは変えず、こだわり方を自由にしたことで、ジャンルを超えてバラエティに富んだ楽曲たちが生まれ、一枚の作品に収められている。 アートワークは尾崎雄貴と尾崎和樹が描いた“落書き”を寄せ集めて作られており、中心には虹色の女…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/28140242/Galileo-Galilei_%E3%82%A2%E3%83%BC%E5%86%99.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Galileo Galilei to celebrate the release of new EP “Rise of The Man” live stream & “Oxygen199” MV released",
+      "translatedExcerpt": "Galileo Galilei released the EP ``Rise of The Man'', which includes 6 completely new songs, on October 28th (Wednesday). This EP is a work that dares to expose their primitive, immature, and youthful side, such as the title song \"Rise of The Man\" where they try singing in Japanese rap that is close to storytelling for the first time, the lead single \"UREI\" which evokes the feeling of summer frustration with a powerful indie rock sound, and \"There is nothing in the light\" where they repeat the same words over and over in a way that sticks in your ears and becomes addictive. By not changing his commitment to sound creation and being free in his approach, a wide variety of songs that transcend genres have been created and included in a single work. The artwork is a collection of \"doodles\" drawn by Yuki Ozaki and Kazuki Ozaki, with a rainbow-colored woman in the center..."
+    },
     {
       "id": "5f24c835eef6a699",
       "title": "Mariana Matsui、自身初のアルバム『Mariana Matsui』10/28デジタル先行リリース",
@@ -185,6 +238,25 @@
       },
       "translatedTitle": "Mariana Matsui, her first album “Mariana Matsui” digital advance release on 10/28",
       "translatedExcerpt": "Mariana Matsui will release her first album “Mariana Matsui” on October 28th."
+    },
+    {
+      "id": "e17e9762bcbf68f5",
+      "title": "チャーチズ、複雑な家族関係をテーマにした「Overthinker」公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166886",
+      "publishedAt": "2026-10-28T05:00:00.000Z",
+      "excerpt": "チャーチズが、ニュー・アルバム『All The King&rsquo;s Men』からの2ndシン",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166886/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Chvrches releases 'Overthinker', which explores complex family relationships",
+      "translatedExcerpt": "Chvrches releases second song from new album “All The King’s Men”"
     },
     {
       "id": "c8cd3acb49ea6404",
@@ -1007,7 +1079,7 @@
       "title": "Sony Data Breach Exposes 2.58 Million Accounts & Thousands of Passwords",
       "link": "https://news.sankakucomplex.com/n/fT3hBNYzz2AdEuFg9MT7zA",
       "publishedAt": "2026-10-27T23:00:40.000Z",
-      "excerpt": "Sony Network Communications has suffered a massive data breach affecting approximately 2.58 million customer records, with hackers obtaining personal information, thousands of email passwords, and even a small number of bank account details.",
+      "excerpt": "Sony Network Communications has suffered a massive data breach affecting approximately 2.58 million customer records, with hackers obtaining personal information, thousands of email passwords, and even a small number of bank account details. The Japanese company announced the security incident on…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6853,6 +6925,23 @@
       },
       "translatedTitle": "Ado surprises new song “Patient A” written by Yoeko on 24th birthday and releases music video",
       "translatedExcerpt": "Ado surprisingly released his new song \"Patient A\" on October 24th, his 24th birthday."
+    },
+    {
+      "id": "eaf0452665508808",
+      "title": "Dead or Alive Xtreme Venus Vacation Adds Sexy Witch Outfits for Halloween",
+      "link": "https://news.sankakucomplex.com/n/P1FYeZxtX9U8d_EgmwLfaw",
+      "publishedAt": "2026-10-25T05:00:46.000Z",
+      "excerpt": "Dead or Alive Xtreme Venus Vacation is celebrating Halloween with a new collection of revealing witch-themed costumes, giving its assortment of beautiful heroines another opportunity to show off their bodies in provocative attire.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "93246adfe18138a8",
@@ -18307,95 +18396,6 @@
       },
       "translatedTitle": "SEVENTEEN's new unit JxJ releases \"12 o'clock\" MV that depicts a fantastic journey",
       "translatedExcerpt": "JxJ (SEVENTEEN), a new unit by SEVENTEEN's JEONGHAN and JOSHUA"
-    },
-    {
-      "id": "5a18fc37d6d79702",
-      "title": "Hoshi in the Girls' Garden Tops Oricon's Comic Ranking for September",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-19/hoshi-in-the-girls-garden-tops-oricon-comic-ranking-for-september/.242956",
-      "publishedAt": "2026-10-19T12:15:00.000Z",
-      "excerpt": "Kagurabachi volume 12 ranks at #2, Dandadan volume 25 ranks at #3",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gO2/cms/news.10/242956/hoshi-5.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6a560d31cbd64076",
-      "title": "原因は自分にある。、“拗れた狂気さ”を映し出す「ラブリーズン」MV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166628",
-      "publishedAt": "2026-10-19T12:00:00.000Z",
-      "excerpt": "原因は自分にある。が、本日10月19日より先行配信がスタートした新曲「ラブリーズン」のミュージック",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166628/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "The cause is myself. , releases the MV for “Love Reason”, which shows “relenting madness”",
-      "translatedExcerpt": "The cause is myself. The music of the new song \"Love Reason\", which was released in advance from October 19th, is now available."
-    },
-    {
-      "id": "3a371a6046f7ccb6",
-      "title": "まふまふ、バンドセットワンマン2DAYSライブ開催決定",
-      "link": "https://barks.jp/news/1094740",
-      "publishedAt": "2026-10-19T11:30:00.000Z",
-      "excerpt": "10月18日に誕生日を迎えたまふまふが、生配信にて＜ひきこもりでもLIVEがしたい！～すーぱーまふまふわーるど2027@国立代々木競技場 第一体育館～「堕天」＞を2027年1月に開催することを発表した。 2025年に開催した初の歌ってみたライブと同じ会場となる国立代々木競技場 第一体育館での開催で、オリジナル楽曲を中心としたバンドセットでのソロワンマンライブとなる。 2025年末に活動15周年を迎え、2026年10月末からは自身初のアコースティックライブツアー、12月下旬にはライブ映像作品の発売を控えるまふまふだが、10周年を迎えたそらるとのユニットAfter the Rainでの活動のほか、ソロとしては毎月ボーカロイド曲をアレンジして歌ってみた動画を投稿するなど精力的な活動を魅せている状況だ。 チケット…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/18115509/mafumafu2027_KV_tate_w1920px-724x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Mafumafu will hold a band set one-man 2DAYS live show",
-      "translatedExcerpt": "Mafumafu, who celebrated her birthday on October 18th, announced in a live broadcast that ``Even if I'm a hikikomori, I want to do a LIVE!'' ～Super Mafuma World 2027@National Yoyogi Stadium First Gymnasium～``Fallen''> has been announced to be held in January 2027. It will be held at the First Gymnasium of Yoyogi National Stadium, the same venue as the first Utattemita live held in 2025, and will be a solo one-man live with a band set centered on original songs. Mafumafu will celebrate his 15th anniversary at the end of 2025, his first acoustic live tour from the end of October 2026, and the release of his live video work at the end of December.In addition to his activities in the unit After the Rain with Sorato, which is celebrating his 10th anniversary, Mafumafu is also active as a solo artist, posting videos of him arranging and singing Vocaloid songs every month. ticket…"
-    },
-    {
-      "id": "7821a16d1f508680",
-      "title": "Satomi, Nanamori Graduate From Strawberry Prince Group",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-19/satomi-nanamori-graduate-from-strawberry-prince-group/.242969",
-      "publishedAt": "2026-10-19T11:29:17.000Z",
-      "excerpt": "Nanamori to continue producer, manager role; Satomi to do solo activities",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gK1/cms/news.10/242969/strawberryprince.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "dd4d8083e001ecc8",
-      "title": "The Kingdoms of Ruin's yoruhashi Launches New Manga on Thursday",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-19/the-kingdoms-of-ruin-yoruhashi-launches-new-manga-on-thursday/.242961",
-      "publishedAt": "2026-10-19T11:13:25.000Z",
-      "excerpt": "Manga centers on boy Raran, out for revenge against curses",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ1/cms/news.10/242961/champion.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
     }
   ]
 }

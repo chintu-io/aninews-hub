@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T02:02:09.874Z",
+  "generatedAt": "2026-10-28T02:32:14.212Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 141,
+      "count": 142,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 226,
+      "count": 227,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 237,
+      "count": 236,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 150,
+      "count": 149,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 596,
+    "translatedJapaneseArticles": 595,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "aec82e9085e9b2bc",
+      "title": "KATSEYEのSOPHIA、INXS「Never Tear Us Apart」カバーの制作舞台裏を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166874",
+      "publishedAt": "2026-10-28T02:00:00.000Z",
+      "excerpt": "友情を軸とした物語が描かれる、フィリピン神話に着想を得たドリームワークス・アニメーションの新作映画",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166874/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "KATSEYE's SOPHIA reveals behind-the-scenes production of INXS's \"Never Tear Us Apart\" cover",
+      "translatedExcerpt": "DreamWorks Animation's new film is inspired by Filipino mythology and tells a story of friendship."
+    },
+    {
+      "id": "d866b2d63e025de9",
+      "title": "Yome ga Kuru Artist saku Launches New Kimi to Sakura no Hanataba wo Manga",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-27/yome-ga-kuru-artist-saku-launches-new-kimi-to-sakura-no-hanataba-wo-manga/.243258",
+      "publishedAt": "2026-10-28T02:00:00.000Z",
+      "excerpt": "Kimi to Sakura no Hanataba wo debuts on November 1",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g8B/cms/news.10/243258/hvtvxueauaaz-uo.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "354b5e83f4424207",
       "title": "向井康二（Snow Man）、映画『アベンジャーズ／ドゥームズデイ』＜アベンジャーズ＞アンバサダーに就任",
@@ -274,6 +310,25 @@
         "accent": "#6fc9e6",
         "language": "en"
       }
+    },
+    {
+      "id": "cb0422a38593a5d9",
+      "title": "BAND-MAID、アニメ『BEYBLADE X』EDテーマ「SPIN」のMV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166871",
+      "publishedAt": "2026-10-28T01:00:00.000Z",
+      "excerpt": "BAND-MAIDが本日10月28日にニューシングル『SPIN』をリリースし、公式YouTubeチ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166871/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "BAND-MAID releases music video for anime “BEYBLADE X” ending theme “SPIN”",
+      "translatedExcerpt": "BAND-MAID released their new single “SPIN” today, October 28th, and their official YouTube channel"
     },
     {
       "id": "c3a8455fb6055fee",
@@ -18335,63 +18390,6 @@
       },
       "translatedTitle": "Ae! group, \"Kono Asaha\" by Noriyuki Makihara and Kenichi Maeyamada will be released in advance on 10/21 and the music video will be released.",
       "translatedExcerpt": "Ae! group will release the common coupling song “Kono Asaha” for their 5th single “Emotion” on October 21st."
-    },
-    {
-      "id": "50372d6063b42084",
-      "title": "ハリー・スタイルズ、故リアム・ペインの命日に未発表曲で追悼",
-      "link": "https://www.billboard-japan.com/d_news/detail/166631",
-      "publishedAt": "2026-10-19T08:30:00.000Z",
-      "excerpt": "現地時間2026年10月16日、ハリー・スタイルズが米マディソン・スクエア・ガーデンの公演でワン・",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166631/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Harry Styles pays tribute to late Liam Payne with unreleased song on his death anniversary",
-      "translatedExcerpt": "On October 16, 2026, local time, Harry Styles will perform at Madison Square Garden in the US."
-    },
-    {
-      "id": "0021cd10ae9f37c8",
-      "title": "indigo la End、ABEMAオリジナル『この最低な夫婦の終わり』主題歌「遥かな最低」を書き下ろし",
-      "link": "https://barks.jp/news/1094966",
-      "publishedAt": "2026-10-19T08:00:11.000Z",
-      "excerpt": "indigo la Endが、11月より放送となる「ABEMA」オリジナル夫婦リアリティーショー『この最低な夫婦の終わり』に主題歌「遥かな最低」を書き下ろしたことがわかった。11月18日(水)0時より楽曲配信がスタートする。 本楽曲「遥かな最低」は、作詞作曲を担当した川谷絵音が以前から温めていたメロディとコードの原案を基に、番組内3組の夫婦の手紙のやり取りから歌詞を起こし制作された楽曲。切なさが漂うメロディの中で感情の起伏を絶妙に表現し、絶望だけではなく希望も織り交ぜられた楽曲に仕上がっている。 ジャケット写真では女優として幅広く活躍する木竜麻生を起用し、カメラマンの永峰拓也が撮影。楽曲の持つ切ない世界観を表現した。 また、「遥かな最低」の配信事前予約キャンペーンもスタート。こちらでは事前登録で「遥かな最…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/01/31195117/main_artistphoto_small.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "indigo la End writes ABEMA's original theme song \"Haruka na nai nai nai\"",
-      "translatedExcerpt": "It has been revealed that indigo la End has written the theme song ``Harukana Shimo'' for ABEMA's original couple reality show ``Kono na na na na wa wa ni wo'' (The End of the Worst Couple), which will be broadcast from November. Music distribution will start from 0:00 on Wednesday, November 18th. This song, ``Harukana Shimoi,'' was created based on the melody and chord idea that Eon Kawatani, who was in charge of composing and writing, had been working on for some time, and the lyrics were created based on the exchange of letters between the three couples in the program. The ups and downs of emotions are exquisitely expressed in a melody filled with sadness, resulting in a song that is laced with hope as well as despair. The jacket photo features Aso Kiryu, who is widely active as an actress, and was taken by photographer Takuya Nagamine. It expressed the sad world view of the song. In addition, a pre-order campaign for “Harukana Minami” has started. You can pre-register here for \"Harukana Sai..."
-    },
-    {
-      "id": "510ca696a52a91b4",
-      "title": "〈昭和歌謡パレード〉10/22は山内惠介ほか「推し」へのアツい思いを語る",
-      "link": "https://ototoy.jp/news/132335",
-      "publishedAt": "2026-10-19T08:00:00.000Z",
-      "excerpt": "BSフジ〈昭和歌謡パレード〉10月22日の出演者が発表された。 出演は、山内惠介・松尾雄史・杜このみ・朝花美穂。 今回は、ゲストが「推し」へのアツい思いを語る「推しトーーク！！」を放送。愛してやまない「推し」の名曲を熱唱する。さらに、美空ひばりのお宝歌唱映像＆山内惠介が秘蔵コレクションをスタジオで大公開する。 披露楽曲は、朝花美穂「哀愁波止場(美空ひばり)」、朝花美穂「桜縁歌」、松尾雄史「雪椿(小林幸子)」、松尾雄史「わたし」、杜このみ「心のこり(細川たかし)」、杜このみ「告白」、山内惠介「みだれ髪(美空ひばり)」、山内惠介「人生一路(美空ひばり)」、山内惠介＆朝花美穂「津軽のふるさと(美空ひばり)」、山内惠介「この世は祭り」（歌手50音順） 。 リリース情報 https://ototoy.jp/_/de…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132335/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<Showa Song Parade> October 22nd, Keisuke Yamauchi and others talk about their passionate feelings towards “Oshi”",
-      "translatedExcerpt": "The performers for the October 22nd BS Fuji Showa Kayo Parade have been announced. Starring Keisuke Yamauchi, Yuji Matsuo, Konomi Mori, and Miho Asahana. This time, we will be broadcasting \"Oshi Talk!!\" where guests will talk about their passionate feelings towards \"Oshi\". He passionately sings his beloved ``Oshi'' masterpiece. Furthermore, Hibari Misora's treasured singing video and Keisuke Yamauchi's treasured collection will be unveiled in the studio. The songs to be performed include Miho Asahana's ``Sorrow Wharf (Misora Hibari)'', Miho Asahana's ``Sakura Enka'', Yuji Matsuo's ``Yukitsubaki (Sachiko Kobayashi)'', Yuji Matsuo's ``Watatashi'', Konomi Mori's ``Kokoro no Takashi'' (Takashi Hosokawa), and Konomi Mori's ``Shoku''. ``White'', Keisuke Yamauchi ``Midare-kami (Misora Hibari)'', Keisuke Yamauchi ``Life is a journey (Misora Hibari)'', Keisuke Yamauchi & Miho Asahana ``Tsugaru no Furusato (Misora Hibari)'', Keisuke Yamauchi ``This world is a festival'' (in alphabetical order of singers) . Release information https://ototoy.jp/_/de…"
     }
   ]
 }

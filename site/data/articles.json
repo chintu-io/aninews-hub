@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T19:32:22.785Z",
+  "generatedAt": "2026-10-28T20:01:48.065Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 131,
+      "count": 132,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 224,
+      "count": 223,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 621,
+    "translatedJapaneseArticles": 620,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "1f11d6c4a014c265",
+      "title": "TANUKI: Pon's Summer Game Launches on November 10",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-28/tanuki-pon-summer-game-launches-on-november-10/.243296",
+      "publishedAt": "2026-10-28T19:30:00.000Z",
+      "excerpt": "Game launches for Switch, Switch 2, PS5, PS4, Xbox X|S, PC",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g39/youtube/PeF2MwJQwUM.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "cfa5136c6ef1b577",
       "title": "Bana Yoshida Launches New Kui Otoko no Majо̄ to Kyūseishu Manga",
@@ -18427,25 +18444,6 @@
       },
       "translatedTitle": "THE YELLOW MONKEY, special video shown at September's [Bakuon Viewing Party] will be released for a limited time on YouTube",
       "translatedExcerpt": "THE YELLOW MONKEY released a special video that was shown at the [Bakuon Viewing Party] held in September this year."
-    },
-    {
-      "id": "e7f893141e9eb1d9",
-      "title": "又吉直樹／宇垣美里／松風雅也が“本との出会い”を語る 【BOOK MEETS NEXT 2026】オープニングイベント開催",
-      "link": "https://www.billboard-japan.com/d_news/detail/166668",
-      "publishedAt": "2026-10-20T08:00:00.000Z",
-      "excerpt": "読書推進キャンペーン【BOOK MEETS NEXT 2026】のオープニングイベントが10月19",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166668/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Naoki Matayoshi/Misato Ugaki/Masaya Matsukaze talk about “encounters with books” [BOOK MEETS NEXT 2026] Opening event held",
-      "translatedExcerpt": "The opening event of the reading promotion campaign [BOOK MEETS NEXT 2026] will be held on October 19th."
     }
   ]
 }

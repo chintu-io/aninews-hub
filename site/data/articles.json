@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T07:31:52.989Z",
+  "generatedAt": "2026-10-29T08:01:50.196Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 128,
+      "count": 124,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 108,
+      "count": 107,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 234,
+      "count": 245,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 177,
+      "count": 173,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 62,
+      "count": 60,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,219 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 628,
+    "translatedJapaneseArticles": 635,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "daf7b643a156e6be",
+      "title": "カーディ・B、身近な人たちからの絶え間ない嫉妬で自分が\"冷たく意地悪に\"なっていると告白",
+      "link": "https://www.billboard-japan.com/d_news/detail/166947",
+      "publishedAt": "2026-10-29T08:00:00.000Z",
+      "excerpt": "カーディ・Bは、自分が上り調子のときに足を引っ張ろうとする周囲の人々に我慢の限界を迎えつつあるよう",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166947/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Cardi B admits constant jealousy from people close to her makes her \"cold and mean\"",
+      "translatedExcerpt": "Cardi B seems to be running out of patience with people trying to hold her back when she's on the rise."
+    },
+    {
+      "id": "66c010f3d59b4f1e",
+      "title": "【Hot Shot Books】『殉国のアルファ ～オメガ・ベルサイユ～ 1巻』首位、柚月裕子『風に立つ』文庫化で2位に",
+      "link": "https://www.billboard-japan.com/d_news/detail/166922",
+      "publishedAt": "2026-10-29T07:55:00.000Z",
+      "excerpt": "2026年10月29日公開（集計期間：10月19日～10月25日）の&ldquo;Billboar",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166922/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Hot Shot Books] ``Alpha of Martyrdom - Omega Versailles - Volume 1'' ranks first, Yuko Yuzuki ``Standing in the Wind'' becomes 2nd in paperback",
+      "translatedExcerpt": "“Billboar” released on October 29, 2026 (aggregation period: October 19 to October 25)"
+    },
+    {
+      "id": "e90324425c96397e",
+      "title": "【ビルボード】『暁のヨナ 48巻』が“Reiwa Books”首位、八木勇征の2nd写真集が2位に初登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/166913",
+      "publishedAt": "2026-10-29T07:55:00.000Z",
+      "excerpt": "2026年10月29日公開（集計期間：2026年10月19日～10月25日）のBillboard",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166913/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] “Akatsuki no Yona Volume 48” ranks first on “Reiwa Books”, Yusei Yagi’s 2nd photo book debuts at second place",
+      "translatedExcerpt": "Billboard released on October 29, 2026 (Aggregation period: October 19, 2026 to October 25, 2026)"
+    },
+    {
+      "id": "6a03e2d6296342aa",
+      "title": "【ビルボード】『本当の自由を手に入れるお金の大学』経済書籍チャート首位返り咲き 『買わない生活』が2位に続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/166938",
+      "publishedAt": "2026-10-29T07:55:00.000Z",
+      "excerpt": "2026年10月29日公開（集計期間：2026年10月19日～2026年10月25日）の経済書籍チ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166938/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] “The University of Money that Gains True Freedom” returns to the top of the economic book chart, followed by “The Life Without Buying” in second place",
+      "translatedExcerpt": "Economic book charts published on October 29, 2026 (collection period: October 19, 2026 to October 25, 2026)"
+    },
+    {
+      "id": "831dd056a04205d5",
+      "title": "【ビルボード】『汝、星のごとく』文芸書籍チャート3連覇＆トップ20に凪良ゆう4作品がチャートイン",
+      "link": "https://www.billboard-japan.com/d_news/detail/166923",
+      "publishedAt": "2026-10-29T07:55:00.000Z",
+      "excerpt": "2026年10月29日公開チャート（集計期間：2026年10月19日～10月25日）の文芸書籍チャ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166923/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] “You Are Like a Star” wins the Literary Book Chart for the third consecutive time and 4 works by Yu Nagira chart in the top 20",
+      "translatedExcerpt": "Literary book charts published on October 29, 2026 (collection period: October 19, 2026 to October 25, 2026)"
+    },
+    {
+      "id": "9c88b427ee96b396",
+      "title": "【ビルボード】八木勇征（FANTASTICS）2nd写真集『Be my』文化書籍チャート初登場首位 日向坂46金村美玖『機微』が2位",
+      "link": "https://www.billboard-japan.com/d_news/detail/166933",
+      "publishedAt": "2026-10-29T07:55:00.000Z",
+      "excerpt": "2026年10月29日公開チャート（集計期間：2026年10月19日～10月25日）のBillbo",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166933/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Yusei Yagi (FANTASTICS) 2nd photo book \"Be my\" debuts at the top of the cultural book chart Hinatazaka46 Miku Kanemura's \"Kiki\" comes in second place",
+      "translatedExcerpt": "Billbo chart published on October 29, 2026 (collection period: October 19, 2026 to October 25, 2026)"
+    },
+    {
+      "id": "5ce02dd5cff4193f",
+      "title": "【ビルボード】柚木麻子『BUTTER』が“Heisei Books”1位獲得 草凪みずほの『暁のヨナ 1巻』が9位に初登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/166946",
+      "publishedAt": "2026-10-29T07:55:00.000Z",
+      "excerpt": "2026年10月29日公開（集計期間：2026年10月19日～10月25日）の年号別チャート&ld",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166946/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Asako Yuzuki's \"BUTTER\" wins first place in \"Heisei Books\" Mizuho Kusanagi's \"Akatsuki no Yona Volume 1\" debuts at #9",
+      "translatedExcerpt": "Chart by year released on October 29, 2026 (collection period: October 19, 2026 to October 25, 2026) &ld"
+    },
+    {
+      "id": "6c9bf268cbc0d191",
+      "title": "【ビルボード】綾辻行人『十角館の殺人』が昭和チャートで11連覇、故・村上龍が2作チャートイン",
+      "link": "https://www.billboard-japan.com/d_news/detail/166936",
+      "publishedAt": "2026-10-29T07:55:00.000Z",
+      "excerpt": "年号別チャート&ldquo;Billboard JAPAN Showa Books&rdquo;の",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166936/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Ayatsuji Yukito's ``Decagonal House Murder'' wins the Showa chart for the 11th time in a row, the late Ryu Murakami's 2 works have entered the chart",
+      "translatedExcerpt": "Chart by year “Billboard JAPAN Showa Books”"
+    },
+    {
+      "id": "512619f3bfb4162d",
+      "title": "【ビルボード】草凪みずほ『暁のヨナ 48巻』が“Hot Manga”1位獲得",
+      "link": "https://www.billboard-japan.com/d_news/detail/166940",
+      "publishedAt": "2026-10-29T07:55:00.000Z",
+      "excerpt": "2026年10月29日公開（集計期間：2026年10月19日～10月25日）Billboard J",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166940/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Mizuho Kusanagi “Akatsuki no Yona Volume 48” wins 1st place in “Hot Manga”",
+      "translatedExcerpt": "Released on October 29, 2026 (Aggregation period: October 19, 2026 to October 25, 2026) Billboard J"
+    },
+    {
+      "id": "2bcd7d4437ba460f",
+      "title": "【ビルボード】草凪みずほ『暁のヨナ 48巻』総合書籍チャート初登場首位 八木勇征／コナンが続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/166918",
+      "publishedAt": "2026-10-29T07:55:00.000Z",
+      "excerpt": "2026年10月29日公開（集計期間：2026年10月19日～10月25日）のBillboard",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166918/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Mizuho Kusanagi's ``Akatsuki no Yona Volume 48'' debuts at the top of the general book chart, followed by Yusei Yagi/Conan",
+      "translatedExcerpt": "Billboard released on October 29, 2026 (Aggregation period: October 19, 2026 to October 25, 2026)"
+    },
+    {
+      "id": "5149abd8f0e8da0b",
+      "title": "GANG PARADE、10/29開催の解散ライブをニコ生独占生中継＆映像作品化も決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166943",
+      "publishedAt": "2026-10-29T07:50:00.000Z",
+      "excerpt": "GANG PARADEが本日10月29日に東京・Zepp Haneda (TOKYO)で開催するラ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166943/x200_image.jpeg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "GANG PARADE's disbandment live held on October 29th will be broadcast exclusively on Nico Live and will be made into a video work",
+      "translatedExcerpt": "GANG PARADE will be holding a concert on October 29th at Zepp Haneda (TOKYO) in Tokyo."
+    },
     {
       "id": "a66b086c4228a6b4",
       "title": "THE SUPER FRUIT、メジャーファーストアルバム『SUPER JAM』初回限定SUPER盤ティザー映像公開",
@@ -603,7 +812,7 @@
       "title": "＜徳間ジャパン 創立60周年記念スペシャルライブ＞、配信決定",
       "link": "https://barks.jp/news/1101221",
       "publishedAt": "2026-10-29T03:00:00.000Z",
-      "excerpt": "徳間ジャパンコミュニケーションズの創立60周年を記念して2025年12月3日、東京・LINE CUBE SHIBUYAにてスペシャルライブ＜あの歌もこの歌も軌跡～そして未来へ＞が開催された。 全30組のアーティストが出演、計57曲の名曲を披露した同公演の模様が11月2日より、毎日昼12:00に徳間ジャパン 演歌･歌謡曲チャンネルにて配信されることが発表となった。 スペシャルライブ当日の模様は2026年5月14日にBS日テレにて放送されたほか、今週末10月31日に再放送されるが、放送時間の都合上オンエア出来なかった29曲が徳間ジャパンYouTubeチャンネルで配信されるかたちだ。 徳間ジャパン所属歌手の三船和子、千昌夫、山本リンダ、松前ひろ子、北原ミレイ、吉幾三、金沢明子、佳山明生、松原のぶえ、コロッケ、森…",
+      "excerpt": "徳間ジャパンコミュニケーションズの創立60周年を記念して2025年12月3日、東京・LINE CUBE SHIBUYAにてスペシャルライブ＜あの歌もこの歌も軌跡～そして未来へ＞が開催された。全30組のアーティストが出演、計57曲の名曲を披露した同公演の模様が11月2日より、毎日昼12:00に徳間ジャパン 演歌･歌謡曲チャンネルにて配信されることが発表となった。 スペシャルライブ当日の模様は2026年5月14日にBS日テレにて放送されたほか、今週末10月31日に再放送されるが、放送時間の都合上オンエア出来なかった29曲が徳間ジャパンYouTubeチャンネルで配信されるかたちだ。 徳間ジャパン所属歌手の三船和子、千昌夫、山本リンダ、松前ひろ子、北原ミレイ、吉幾三、金沢明子、佳山明生、松原のぶえ、コロッケ、森若…",
       "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/29104929/%E5%BE%B3%E9%96%9360%E5%91%A8%E5%B9%B4%E8%A8%98%E5%BF%B5SP%E3%83%A9%E3%82%A4%E3%83%96_%E5%86%99%E7%9C%9F01-1024x731.jpg",
       "source": {
         "id": "barks",
@@ -615,7 +824,7 @@
         "language": "ja"
       },
       "translatedTitle": "<Tokuma Japan 60th Anniversary Special Live> to be distributed",
-      "translatedExcerpt": "To commemorate the 60th anniversary of the founding of Tokuma Japan Communications, a special live performance <That song, this song, the trajectory ~ and the future> was held at LINE CUBE SHIBUYA in Tokyo on December 3, 2025. It has been announced that the performance, in which a total of 30 artists performed and performed a total of 57 famous songs, will be streamed on the Tokuma Japan Enka/Popular Song Channel every day at 12:00 noon starting November 2nd. The day of the special live was broadcast on BS Nippon Television on May 14, 2026, and will be rebroadcast this weekend on October 31, but 29 songs that could not be aired due to broadcast time will be distributed on the Tokuma Japan YouTube channel. Tokuma Japan singers Kazuko Mifune, Masao Chi, Linda Yamamoto, Hiroko Matsumae, Mirai Kitahara, Ikuzo Yoshi, Akiko Kanazawa, Akio Kayama, Nobue Matsubara, Croquette, Mori..."
+      "translatedExcerpt": "To commemorate the 60th anniversary of the founding of Tokuma Japan Communications, a special live performance <That song, this song, the trajectory ~ and the future> was held at LINE CUBE SHIBUYA in Tokyo on December 3, 2025. It has been announced that the performance, in which a total of 30 artists performed and performed a total of 57 famous songs, will be streamed on the Tokuma Japan Enka/Popular Song Channel every day at 12:00 noon starting November 2nd. The day of the special live was broadcast on BS Nippon Television on May 14, 2026, and will be rebroadcast this weekend on October 31, but 29 songs that could not be aired due to broadcast time will be distributed on the Tokuma Japan YouTube channel. Tokuma Japan singers Kazuko Mifune, Masao Chi, Linda Yamamoto, Hiroko Matsumae, Mirai Kitahara, Ikuzo Yoshi, Akiko Kanazawa, Akio Kayama, Nobue Matsubara, Croquette, Moriwaka..."
     },
     {
       "id": "989008efea27dc51",
@@ -912,7 +1121,7 @@
       "title": "Japanese Idol Forced to Choose Between Fan Relationship & Career",
       "link": "https://news.sankakucomplex.com/n/Yx6IxgL_dVxdydlILseAGw",
       "publishedAt": "2026-10-29T01:00:07.000Z",
-      "excerpt": "A 20-year-old Japanese idol has issued a tearful public apology after admitting to privately communicating with a fan, revealing that her agency gave her an ultimatum: cut ties with the individual or abandon her idol career. Yumepirika, a member of the five-person idol group Aisunattsu, addressed…",
+      "excerpt": "A 20-year-old Japanese idol has issued a tearful public apology after admitting to privately communicating with a fan, revealing that her agency gave her an ultimatum: cut ties with the individual or abandon her idol career.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18265,201 +18474,6 @@
       },
       "translatedTitle": "The Rolling Stones release \"Who You Callin' Crazy\" featuring Courtney Pine from the latest DX version",
       "translatedExcerpt": "The Rolling Stones will release the deluxe edition “Fallin’ Ta” to be released on November 27, 2027."
-    },
-    {
-      "id": "f8c34e567b15694e",
-      "title": "Monster Musume no Iru Nichijou AI Animation Introduces Miia’s Mom",
-      "link": "https://news.sankakucomplex.com/n/ycCQtMKEgEMDj7iF2dZXyg",
-      "publishedAt": "2026-10-20T23:03:50.000Z",
-      "excerpt": "AI anime parodies have continued to evolve and reach new heights as this latest creation partially adapts a chapter from Monster Musume no Iru Nichijou, giving fans some slightly lewd service and bound to have many wondering if a full anime adaptation will arrive in the future.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "fce756ccf0ea00ff",
-      "title": "Monster Musume no Iru Nichijou AI Animation Introduces Miia’s Mom",
-      "link": "https://news.sankakucomplex.com/n/1a1hoOECkCU0_kR4AIRjAQ",
-      "publishedAt": "2026-10-20T23:03:50.000Z",
-      "excerpt": "AI anime parodies have continued to evolve and reach new heights as this latest creation partially adapts a chapter from Monster Musume no Iru Nichijou, giving fans some slightly lewd service and bound to have many wondering if a full anime adaptation will arrive in the future.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1249f0d0f81d40a2",
-      "title": "Bialystocks、2年ぶりALリリース決定",
-      "link": "https://ototoy.jp/news/132350",
-      "publishedAt": "2026-10-20T23:00:00.000Z",
-      "excerpt": "Bialystocksが12月16日に前作から約2年2ヶ月ぶりのフルアルバム『Savanna』をリリースすることが決定した。 『Savanna』には、TVアニメ『違国日記』エンディングテーマ「言伝」、フジテレビ水10ドラマ『ラムネモンキー』主題歌「Everyday」、テレビ朝日系報道番組『サタデーステーション』テーマ曲「一瞬」と新曲を収録予定。詳細は後日発表される。 また、2026年12月に開幕する全国ホールツアーの追加公演も決定。2027年7月29日、30日に東京ガーデンシアター（有明）で開催される。 リリース情報 「一瞬」 https://ototoy.jp/_/default/p/3732953 ツアー情報 https://bialystocks.com/tour2627/ アーティスト情報 htt…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132350/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Bialystocks decided to release AL for the first time in 2 years",
-      "translatedExcerpt": "Bialystocks has decided to release their first full album ``Savanna'' on December 16th, about 2 years and 2 months after their previous album. ``Savanna'' will include new songs such as ``Gonden'', the ending theme song for the TV anime ``Ikoku Nikki'', ``Everyday'', the theme song for the Fuji TV drama ``Ramune Monkey'', and ``Shinbutsu'', the theme song for the TV Asahi news program ``Saturday Station''. Details will be announced at a later date. Additionally, additional performances have been decided for the national hall tour starting in December 2026. It will be held at Tokyo Garden Theater (Ariake) on July 29th and 30th, 2027. Release information “Moment” https://ototoy.jp/_/default/p/3732953 Tour information https://bialystocks.com/tour2627/ Artist information https://ototoy.jp/_/default/p/3732953"
-    },
-    {
-      "id": "c2853bcc21142498",
-      "title": "Creepy Nuts、新曲「トムとジェリーとヘイターと私」サプライズリリース",
-      "link": "https://ototoy.jp/news/132347",
-      "publishedAt": "2026-10-20T23:00:00.000Z",
-      "excerpt": "Creepy Nutsが新曲「トムとジェリーとヘイターと私」をリリースした。 「トムとジェリーとヘイターと私」は事前の告知もなく突如リリース。配信サイトに加え、YouTubeにてフル尺音源も公開。 リリース情報 https://ototoy.jp/_/default/p/4345579 アーティスト情報 http://creepynuts.com/ https://www.youtube.com/channel/UCEc1YzMOSKKtJD7H-q71HgQ https://twitter.com/Creepy_Nuts_",
-      "image": "https://imgs.ototoy.jp/news/image.php/132347/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Creepy Nuts surprise release of new song “Tom and Jerry, Hater and Me”",
-      "translatedExcerpt": "Creepy Nuts has released a new song, \"Tom and Jerry, Hater and Me.\" “Tom and Jerry, Hater and Me” was suddenly released without prior notice. In addition to the distribution site, the full length sound source is also available on YouTube. Release information https://ototoy.jp/_/default/p/4345579 Artist information http://creepynuts.com/ https://www.youtube.com/channel/UCEc1YzMOSKKtJD7H-q71HgQ https://twitter.com/Creepy_Nuts_"
-    },
-    {
-      "id": "fd192fb3337fcf0a",
-      "title": "Limited Express (has gone?)、新曲「TAXPAYER」に込めたメッセージ “芸術こそが国境を越える平和のツール”",
-      "link": "https://ototoy.jp/news/132342",
-      "publishedAt": "2026-10-20T23:00:00.000Z",
-      "excerpt": "Limited Express (has gone?)が、2026年10月21日（水）に新曲「TAXPAYER」をLessThanTVよりデジタル・リリースした。 ドラマー・NASAの加入から1年。新曲「TAXPAYER」は、エンジニア・原浩一とともに作り上げた鮮烈なサウンドに、YUKARIとメンバーの声が交錯。誰もが声を重ねたくなるシンガロングが炸裂する、新生Limited Express (has gone?)渾身の一曲だ。 本作に寄せて、ボーカル・YUKARIからコメントが届いている。 コメント ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー 新曲「TAXPAYER」は、OTOTOYからハイレゾ＆ロスレスで配信中。また、3月にリリースした「JUST A NUMBE…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132342/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Limited Express (has gone?), message in new song “TAXPAYER” “Art is a tool for peace that transcends borders”",
-      "translatedExcerpt": "Limited Express (has gone?) digitally released their new song “TAXPAYER” from LessThanTV on Wednesday, October 21, 2026. One year has passed since drummer NASA joined. The new song \"TAXPAYER\" has a vivid sound created with engineer Koichi Hara, and the voices of YUKARI and the members intertwine. This is a song by the new Limited Express (has gone?) that explodes with a sing-along that makes everyone want to sing along. We have received a comment from vocalist YUKARI regarding this work. Comments The new song “TAXPAYER” is being distributed in high resolution and lossless from OTOTOY. In addition, “JUST A NUMBE” released in March…"
-    },
-    {
-      "id": "b058585b73fa2efe",
-      "title": "Writer Skyfarm, Artist Tentashi's Wildcard Alchemist Manga Ends",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/writer-skyfarm-artist-tentashi-wildcard-alchemist-manga-ends/.243019",
-      "publishedAt": "2026-10-20T23:00:00.000Z",
-      "excerpt": "Manga launched in April 2025",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF0/cms/news.9/241519/978.png.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "7516f574879694e4",
-      "title": "Hikaru Nakamura's Black Night Parade Manga Ends, Teases Major Announcement on December 18",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/hikaru-nakamura-black-night-parade-manga-ends-teases-major-announcement-on-december-18/.243021",
-      "publishedAt": "2026-10-20T22:00:00.000Z",
-      "excerpt": "Manga also gets side story in Ultra Jump magazine on December 18",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFE/cms/news.6/196285/blacknight.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "b352462e22c8db6d",
-      "title": "Sasaki and Peeps Season 2 English Dub Reveals Release Date, Cast and Crew",
-      "link": "https://crunchyroll.com/news/announcements/2026/10/20/sasaki-and-peeps-season-2-english-dub-release-date-cast-crew",
-      "publishedAt": "2026-10-20T22:00:00.000Z",
-      "excerpt": "The first episode drops on October 21",
-      "image": "https://a.storyblok.com/f/178900/960x540/e71d058961/sasaki-and-peeps-season-2.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "5b402180e10582a8",
-      "title": "齊藤京子、ソロ歌手デビュー曲「元気にしてた？」配信開始",
-      "link": "https://ototoy.jp/news/132343",
-      "publishedAt": "2026-10-20T22:00:00.000Z",
-      "excerpt": "芸能活動10周年を迎える齊藤京子がソロデビュー曲「元気にしてた？」を配信リリースした。 「元気にしてた？」は、家族や友人、大切な人に会いに行きたくなるような爽やかなポップミュージック。w.a.uが作曲、作詞は齊藤自身も親交が深い長屋晴子(緑黄色社会)が書き下ろした。 MVは今夜20時に公開。マルシェを廻るワンカット長回しに始まり、演技の現場でさらに磨きをかけた様々な表情や姿にフィーチャーした映像作品に仕上がっている。 コメント 長屋晴子 (緑黄色社会) コメント リリース情報 https://ototoy.jp/_/default/p/4337630 フォトギャラリー フォトギャラリーはこちらからご覧いただけます ライブ情報 齊藤京子 1st One Man Live アーティスト情報 https://x…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132343/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Kyoko Saito's solo singer debut song \"Do you do well?\" begins distribution",
-      "translatedExcerpt": "Kyoko Saito, who is celebrating her 10th anniversary in the entertainment industry, has released her solo debut song ``Genki Dota?''. “How have you been?” is refreshing pop music that makes you want to go see your family, friends, and loved ones. The music was composed by w.a.u, and the lyrics were written by Haruko Nagaya (Midori-Yoshi Society), who is also a close friend of Saito himself. The music video will be released tonight at 8pm. The film begins with a one-shot long take of him going around a marche, and is finished as a video work that features various facial expressions and figures that were further refined in the acting field. Comment Haruko Nagaya (Green Yellow Society) Comment Release information https://ototoy.jp/_/default/p/4337630 Photo gallery You can view the photo gallery here Live information Kyoko Saito 1st One Man Live Artist information https://x…"
-    },
-    {
-      "id": "e463364402617a15",
-      "title": "Shiten Akiyama's Horizon Manga Resumes",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/shiten-akiyama-horizon-manga-resumes/.243028",
-      "publishedAt": "2026-10-20T21:00:00.000Z",
-      "excerpt": "Manga debuted in June 2025; Kodama Tales to release manga in English in January 2027",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJT/cms/news.10/243028/horizon-1.png.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "4f071b1eb9dd7aa3",
-      "title": "Live-Action Twisted Sisters Series Reveals Cast",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/live-action-twisted-sisters-series-reveals-cast/.243006",
-      "publishedAt": "2026-10-20T20:00:00.000Z",
-      "excerpt": "Yumia Fujisaki, Hikari Ishida, Hisako Manda join cast",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF6/cms/news.10/243006/twistedsisters-cast.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
     }
   ]
 }

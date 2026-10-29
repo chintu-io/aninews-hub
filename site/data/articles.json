@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T08:32:07.474Z",
+  "generatedAt": "2026-10-29T09:02:09.300Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 40,
+      "count": 39,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 124,
+      "count": 123,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 107,
+      "count": 106,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 15,
+      "count": 14,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 243,
+      "count": 244,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 236,
+      "count": 239,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -146,14 +146,14 @@
       "feedUrl": "https://ototoy.jp/news/feed.rss",
       "count": 175,
       "imageEnrichment": null,
-      "fetchedCount": 50
+      "fetchedCount": 0
     },
     {
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
       "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 60,
       "fetchedCount": 24
     }
@@ -163,10 +163,124 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 635,
-    "translationAttempts": 160
+    "translatedJapaneseArticles": 639,
+    "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "e1aad50a2d0afc45",
+      "title": "【ライブレポート】iri、初のアリーナ単独公演で飾った10周年の節目「音楽は大切な誰かと会える場所」",
+      "link": "https://barks.jp/news/1101278",
+      "publishedAt": "2026-10-29T09:00:12.000Z",
+      "excerpt": "iriが10月22日（木）に横浜・ぴあアリーナMMにて、デビュー10周年を記念するライブ＜iri 10th Anniversary LIVE “Period”＞を行なった。オフィシャルからのレポートをお届けする。 2016年にファーストアルバム『Groove it』でメジャーデビューを果たし、10周年を迎えた2026年。1月に大阪、東京で行ったライブ＜iri 10th Anniversary LIVE Episode.0＞を皮切りに、６月から7月にかけ、点をつなぐように全国6会場のZeppを回ったツアー＜iri 10th Anniversary LIVE “DoT”＞を経て、iriは自身のライブとしては初めてアリーナのステージに立った。 暗転した会場に瞬くライト、響くハンドクラップとビート。一瞬の間を置い…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/29174824/s261022-01798_%E6%92%AE%E5%BD%B1%EF%BC%9A%E7%94%B0%E4%B8%AD%E8%81%96%E5%A4%AA%E9%83%8E-1024x682.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "[Live Report] iri celebrates 10th anniversary with first arena solo performance \"Music is a place where you can meet someone special\"",
+      "translatedExcerpt": "iri held a live performance <iri 10th Anniversary LIVE “Period”> to commemorate their 10th anniversary since their debut at Pia Arena MM in Yokohama on October 22nd (Thursday). We will deliver a report from the official. 2026 marks the 10th anniversary of their major debut with their first album “Groove it” in 2016. Starting with the live shows <iri 10th Anniversary LIVE Episode.0> held in Osaka and Tokyo in January, iri went on a tour <iri 10th Anniversary LIVE “DoT”> that traveled to six Zepp venues nationwide from June to July, and then stood on an arena stage for the first time in her own live performance. Twinkling lights in the darkened venue, echoing hand claps and beats. Pause for a moment..."
+    },
+    {
+      "id": "755990a096ff5537",
+      "title": "＜aiko Live Tour『Love Like Pop vol.26』＞ツアーグッズのラインナップが発表",
+      "link": "https://barks.jp/news/1101263",
+      "publishedAt": "2026-10-29T09:00:10.000Z",
+      "excerpt": "＜aiko Live Tour『Love Like Pop vol.26』＞ツアーグッズのラインナップが発表になった。 aikoのライブグッズは毎回本人がデザインを手掛けており、販売開始直後に売り切れとなるアイテムも出るなどファンの間で大いに注目を集めるアイテム群が揃う。 今回は初の試みとなるスープジャーやブランケットなど新アイテムも登場。その他、定番のタオルやステッカー、パンフレットなど今回も個性豊かなグッズが集結したラインナップになっている。さらにツアー会場では全17種を揃えたガチャガチャも実施予定だ。 また、ツアーグッズは会場での販売に加えて、オンライン販売が10月30日(金)18:00よりスタート予定となっている。aikoオフィシャルサイト内『aiko online store』での販売となるので…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/18112126/main_ap-1.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "<aiko Live Tour “Love Like Pop vol.26”> Tour goods lineup announced",
+      "translatedExcerpt": "<aiko Live Tour \"Love Like Pop vol.26\"> The lineup of tour goods has been announced. Aiko's live goods are designed by herself every time, and there are items that attract a lot of attention among fans, with some items selling out immediately after they go on sale. This time, new items such as soup jars and blankets will be introduced for the first time. In addition, the lineup includes standard towels, stickers, pamphlets, and other unique goods. Additionally, there will be a gacha gacha with a total of 17 types available at the tour venue. In addition to selling tour goods at the venue, online sales are scheduled to start from 18:00 on Friday, October 30th. It will be sold at the \"aiko online store\" on the aiko official website..."
+    },
+    {
+      "id": "bd5429e68bceac7c",
+      "title": "aiko本人がデザイン、【Love Like Pop vol.26】ツアーグッズのラインナップ解禁",
+      "link": "https://www.billboard-japan.com/d_news/detail/166950",
+      "publishedAt": "2026-10-29T09:00:00.000Z",
+      "excerpt": "aikoが、アリーナツアー【Love Like Pop vol.26】のグッズラインナップを発表し",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166950/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Aiko herself designed [Love Like Pop vol.26] tour goods lineup released",
+      "translatedExcerpt": "aiko has announced the merchandise lineup for her arena tour [Love Like Pop vol.26]."
+    },
+    {
+      "id": "58f69b1d0812e620",
+      "title": "【先ヨミ】Kis-My-Ft2『Kis SCENE』現在31.5万枚でアルバム首位独走中",
+      "link": "https://www.billboard-japan.com/d_news/detail/166948",
+      "publishedAt": "2026-10-29T08:50:00.000Z",
+      "excerpt": "今週のCDアルバム売上レポートから2026年10月26日～10月28日の集計が明らかとなり、Kis",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166948/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Sen-yomi] Kis-My-Ft2 “Kis SCENE” is currently leading the album with 315,000 copies sold",
+      "translatedExcerpt": "This week's CD album sales report reveals the total from October 26th to October 28th, 2026, and Kis"
+    },
+    {
+      "id": "0e80175cdb952b87",
+      "title": "【先ヨミ】NGT48『風の片想い』7.7万枚で現在シングル首位 ROIROM／GENERATIONSが続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/166945",
+      "publishedAt": "2026-10-29T08:50:00.000Z",
+      "excerpt": "今週のCDシングル売上レポートから2026年10月26日～10月28日の集計が明らかとなり、NGT",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166945/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Sen Yomi] NGT48 “Kaze no Kataomoi” currently leads the singles with 77,000 copies, followed by ROIROM/GENERATIONS",
+      "translatedExcerpt": "This week's CD single sales report reveals the total from October 26, 2026 to October 28, 2026, and NGT"
+    },
+    {
+      "id": "fcf49b6290c621ad",
+      "title": "瀬名ちひろ、「ミス・ワールド・ジャパン 2026」ファイナリストに決定",
+      "link": "https://barks.jp/news/1101280",
+      "publishedAt": "2026-10-29T08:43:12.000Z",
+      "excerpt": "瀬名ちひろのシングル「parallel remix」が2026年10月29日（木）にリリースとなる。8枚目となるシングルで、デビューシングルから続けているkawaiiシリーズのkawaii EDMに位置する楽曲だ。 「parallel remix」は、女の子が時空を超えて平行世界（parallel）の自分と交信する楽曲で、2ndシングル「parallel」を大胆にリミックスした約4分の大作だ。EDMの中でも Euphoric Hardstyle（ユーフォリック・ハードスタイル）と呼ばれる音楽スタイルで、力強く歪んだキックと高速なビートを軸にしながら、透明感のある瀬名のボーカルに、激しさと高揚感とドラマチックな美しさが織りなされる楽曲となっている。 Apple Musicエレクトロニック「最新ソング」部門で…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/29174209/%E3%82%A2%E3%83%BC%E5%86%99%EF%BC%88%E6%AD%A3%E6%96%B9%E5%BD%A2%EF%BC%89-1024x1024.jpeg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Chihiro Sena selected as \"Miss World Japan 2026\" finalist",
+      "translatedExcerpt": "Chihiro Sena's single \"parallel remix\" will be released on Thursday, October 29, 2026. This is her 8th single, and it is a song that falls under the kawaii EDM category of the kawaii series that has continued since her debut single. ``Parallel Remix'' is a song in which a girl communicates with herself in a parallel world beyond time and space, and is a 4-minute masterpiece that is a bold remix of her 2nd single ``Parallel.'' It is a musical style called Euphoric Hardstyle within EDM, and the song is centered around powerful distorted kicks and high-speed beats, with Sena's clear vocals interweaving intensity, exhilaration, and dramatic beauty. In the Apple Music electronic “latest song” category…"
+    },
     {
       "id": "daf7b643a156e6be",
       "title": "カーディ・B、身近な人たちからの絶え間ない嫉妬で自分が\"冷たく意地悪に\"なっていると告白",
@@ -786,7 +900,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Interview] BAND-MAID releases ED theme “SPIN” for anime “BEYBLADE",
-      "translatedExcerpt": "BAND-MAID's new single \"SPIN\" is a killer tune that can be considered a perfect example of how the scene changes and abundance of information unique to this band's songs all worked in a positive direction. Moreover, not only the title song, but also the two coupling songs have extremely important topics and meanings. As the final stage of their world tour approaches, the girls have just returned from a successful American tour where all performances were sold out, but this interview was actually conducted just before they left for the United States. So, I would appreciate it if you, my readers, read this with your mind set back to the end of summer. ◆ ◆ ◆ ──So, how was your summer full of festivals? SAIKI (Vo): It was fun. However, there are so many festivals in Japan..."
+      "translatedExcerpt": "BAND-MAID's new single \"SPIN\" is a killer tune that can be considered a perfect example of how the scene changes and abundance of information unique to this band's songs all worked in a positive direction. Moreover, not only the title song, but also the two coupling songs have extremely important topics and meanings. As the final stage of their world tour approaches, the girls have just returned from a successful American tour where all performances were sold out, but this interview was actually conducted just before they left for the United States. So, I would appreciate it if you, my readers, read this with your mind set back to the end of summer. ◆ ◆ ◆ ──So, how was your summer full of festivals? SAIKI (Vo): It was fun. However, I have appeared at so many festivals in Japan..."
     },
     {
       "id": "13aa9f9562ffc0d4",
@@ -18368,112 +18482,6 @@
       },
       "translatedTitle": "Novelbright, [HALL&ARENA TOUR 2026 ~PYRAMID~] Osaka Castle Hall final performance live report arrives",
       "translatedExcerpt": "Novelbright [Novelbright HALL&ARENA TOUR 2026"
-    },
-    {
-      "id": "bef4e0e1ec8db80c",
-      "title": "Japan’s Pokémon donuts are back at Mister Donut, with Slowpoke making dount debut! [Pics]",
-      "link": "https://soranews24.com/2026/10/21/japans-pokemon-donuts-are-back-at-mister-donut-with-slowpoke-making-dount-debut-pics/",
-      "publishedAt": "2026-10-21T01:00:20.000Z",
-      "excerpt": "Slowpoke will naturally, though, be arriving a little later than Pikachu and Diglett. It’s become a yearly tradition for Mister Donut, Japan’s favorite donut chain, to bake up batches of Pokémon donuts as we get into the back half of autumn. Every year sees the return of the Pikachu donut, because you can’t have a […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/0_4c56cc.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "3c04867f281e879b",
-      "title": "go!go!vanillas、JUN SKY WALKER(S)初の主催ロックフェス【電撃BEPPU】に出演決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/166666",
-      "publishedAt": "2026-10-21T01:00:00.000Z",
-      "excerpt": "5月22日、23日に大分・別府ビーコンプラザで開催される、JUN SKY WALKER(S)が主催",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166666/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "go!go!vanillas will perform at JUN SKY WALKER(S)'s first rock festival [Dengeki BEPPU]",
-      "translatedExcerpt": "Sponsored by JUN SKY WALKER(S) to be held on May 22nd and 23rd at Beppu Becon Plaza, Oita"
-    },
-    {
-      "id": "cc3a98a03f423c3c",
-      "title": "初来日公演を控えるフレイヤ・スカイ、Spotifyホリデー企画で プリテンダーズ「2000 Miles」カバー",
-      "link": "https://www.billboard-japan.com/d_news/detail/166696",
-      "publishedAt": "2026-10-21T01:00:00.000Z",
-      "excerpt": "来年2月に初来日公演が決定している17歳の新星ポップ・スター、フレイヤ・スカイがSpotifyのホ",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166696/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Freya Sky, who is about to perform in Japan for the first time, covers the Pretenders' \"2000 Miles\" as part of the Spotify holiday project",
-      "translatedExcerpt": "Freya Skye, a 17-year-old rising pop star who is scheduled to perform in Japan for the first time in February next year, will be joining the Spotify website."
-    },
-    {
-      "id": "a5794f7bdad10edb",
-      "title": "Ghost – End of Night Anime Film Announces Three New Cast Members",
-      "link": "https://crunchyroll.com/news/latest/2026/10/21/ghost-end-of-night-anime-film-3-new-cast-members",
-      "publishedAt": "2026-10-21T00:52:00.000Z",
-      "excerpt": "Shingo Natsume's first feature film releases in Japan on February 11, 2027",
-      "image": "https://a.storyblok.com/f/178900/960x540/062faf3a94/ghost-film-new-cast-members.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "0c89ce20595cde82",
-      "title": "ghost – end of night Anime Film Unveils 3 Cast Members",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/ghost-end-of-night-anime-film-unveils-3-cast-members/.243040",
-      "publishedAt": "2026-10-21T00:50:26.000Z",
-      "excerpt": "Kenjirō Tsuda, Hiroki Yasumoto, Hiroshi Kamiya join cast",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFK/cms/news.9/239177/ghostkey.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "74d86c069b9ae256",
-      "title": "'Ghost: Yoru no Hate' Announces Additional Cast",
-      "link": "https://myanimelist.net/news/74842607?_location=rss",
-      "publishedAt": "2026-10-21T00:43:12.000Z",
-      "excerpt": "The official website for the Ghost: Yoru no Hate original anime movie announced three additional cast members on Wednesday. The movie is scheduled to open in Japanese theaters on February 11, 2027. The movie was previewed at Sitges Film Festival on October 9 and at Animation Is Film Festival on October 17. Cast Moby Dick: Kenjirou Tsuda (Jujutsu Kaisen) K…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1792543763-79d038765292c1d19df1076ff987abb7.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
     }
   ]
 }

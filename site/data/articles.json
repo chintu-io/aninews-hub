@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T04:31:51.139Z",
+  "generatedAt": "2026-10-29T05:01:57.542Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 111,
+      "count": 110,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 16,
+      "count": 15,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 230,
+      "count": 231,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 235,
+      "count": 236,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -146,7 +146,7 @@
       "feedUrl": "https://ototoy.jp/news/feed.rss",
       "count": 176,
       "imageEnrichment": null,
-      "fetchedCount": 0
+      "fetchedCount": 50
     },
     {
       "id": "sankaku",
@@ -163,10 +163,48 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 622,
-    "translationAttempts": 60
+    "translatedJapaneseArticles": 624,
+    "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "88c5a6c5d582252f",
+      "title": "さらさ、R＆Bナンバーの新曲「そばにいて」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166937",
+      "publishedAt": "2026-10-29T04:55:00.000Z",
+      "excerpt": "さらさが、新曲「そばにいて」のミュージックビデオを公開した。 本楽曲は、詞をさらさ、曲をさらさ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166937/800x_image.png",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Sarasa releases MV for new R&B song “Soba Niite”",
+      "translatedExcerpt": "Sarasa has released the music video for her new song \"Soba niite\". In this song, the lyrics are exposed and the music is exposed."
+    },
+    {
+      "id": "5f0ff46f8121dac7",
+      "title": "Awesome City Club・PORINを中心に結成した新ユニット「Pauline」始動",
+      "link": "https://barks.jp/news/1101239",
+      "publishedAt": "2026-10-29T04:40:19.000Z",
+      "excerpt": "Awesome City ClubのPORINを中心に、日本・フィンランド・フランスにルーツを持つEmil Sana、Seiji Kokeguchiによる新音楽ユニット「Pauline」（読み：ポーリーヌ）が始動した。 Awesome City Clubの活動休止発表から約半年を経て、PORINが音楽活動を再開させた形となる。 ユニット始動とともに配信された1stデジタルシングル「Marrow」は、PORIN自身が作詞を担当。白黒つけようとする社会や世間の「正しさ」から距離を置き、自分自身の核（＝Marrow）を大切に生きる姿を描いた一曲だ。誰かに決められた基準ではなく、自身の感覚を信じて選ぶことの尊さを、揺れ動く恋心とともに紡いでいる。3つの国のルーツと感性が交差する、ボーダレスなサウンドに注目してほし…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/29132503/264751_Pauline_A.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "New unit \"Pauline\" formed mainly by Awesome City Club and PORIN starts",
+      "translatedExcerpt": "A new music unit ``Pauline'' (pronounced: Pauline) has started, centered around Awesome City Club's PORIN, Emil Sana, and Seiji Kokeguchi, who have roots in Japan, Finland, and France. Approximately half a year after Awesome City Club announced their suspension of activities, PORIN has resumed their music activities. PORIN himself wrote the lyrics for the 1st digital single \"Marrow\", which was released with the unit's launch. It is a song that depicts a person who distances himself from society and the world's \"correctness\" that tries to paint a black-and-white picture, and lives a life that cherishes his own core (=Marrow). The story depicts the preciousness of choosing by trusting your own feelings rather than the standards set by someone else, along with a wavering love story. Please pay attention to the borderless sound that intersects the roots and sensibilities of three countries..."
+    },
     {
       "id": "abe3b4fa21412cbd",
       "title": "Billyrrom「Mirror Ball」Heatseekers Songs首位にコメントが到着「皆さんに共鳴していたら嬉しいです」",
@@ -18412,40 +18450,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "3c9eb58784aac73f",
-      "title": "'Murciélago' Reveals Main Cast, Additional Staff, Second Teaser, Winter 2027 Debut",
-      "link": "https://myanimelist.net/news/74841491?_location=rss",
-      "publishedAt": "2026-10-20T18:20:03.000Z",
-      "excerpt": "The official website for the television anime adaptation of Kana Yoshimura's Murciélago manga revealed main cast, additional staff, a teaser visual, and a second teaser promo on Wednesday. The anime series will premiere on Tokyo MX, Kansai TV, and BS11 in January 2027. Cast Kuroko Koumori: Hitomi Ueda (Raise wa Tanin ga Ii) Hinako Tozakura: Minori Suzuki…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1792520193-f5c23dadcfb7c17591446e07e20408c3.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "aa42a0bc1fd0a09b",
-      "title": "HORROR COLLECTOR Anime Scares up Creditless Opening and Ending Videos",
-      "link": "https://crunchyroll.com/news/latest/2026/10/20/horror-collector-anime-creditless-opening-ending-videos",
-      "publishedAt": "2026-10-20T18:06:00.000Z",
-      "excerpt": "Crunchyroll streams the urban horror anime",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/f450e3f5c1/horror-collector-opening-hero.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
         "language": "en"
       }
     }

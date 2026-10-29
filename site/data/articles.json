@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T21:02:06.449Z",
+  "generatedAt": "2026-10-29T21:32:45.998Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 138,
+      "count": 140,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 241,
+      "count": 240,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 168,
+      "count": 166,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 64,
+      "count": 65,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,61 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 614,
+    "translatedJapaneseArticles": 612,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "7cb8607587b39f0a",
+      "title": "Fate/EXTRA Record Game Releases ALICE Character Trailer",
+      "link": "https://crunchyroll.com/news/latest/2026/10/29/fate-extra-record-game-alice-character-trailer",
+      "publishedAt": "2026-10-29T21:18:00.000Z",
+      "excerpt": "The game is scheduled for release on January 28, 2027",
+      "image": "https://a.storyblok.com/f/178900/1024x576/2459a58408/fate-extra-record-alice.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "796bfac1c2bb2265",
+      "title": "Shōta Kōno Launches Nightmare of Oveja Negra Manga",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-28/shota-kono-launches-nightmare-of-oveja-negra-manga/.243299",
+      "publishedAt": "2026-10-29T21:00:00.000Z",
+      "excerpt": "Science fiction horror story debuted on Tuesday",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gBB/herald/202612/nightmare-of-oveja-negra.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "9d29cbd94ab4101e",
+      "title": "Star Trek, X-Men Actor Patrick Stewart Dies at 86",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/star-trek-x-men-actor-patrick-stewart-dies-at-86/.243339",
+      "publishedAt": "2026-10-29T20:18:57.000Z",
+      "excerpt": "Stewart played Captain Picard in Star Trek, Professor Xavier in X-Men",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gCB/cms/news.10/243339/sir-patrick-stewart.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "84b8446c1dfff90f",
       "title": "Hotel Inhumans Anime's 2nd Season Casts Mitsuki Saiga",
@@ -5863,7 +5914,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Original Buddha Machine \"Nirvana\" released with participation by neco Neru, Tabito Nanao, Kiyomaru Togo, Tentenko, imai, etc.",
+      "translatedTitle": "Original Buddha machine \"Nirvana\" released neco Sleeping, Nanao Traveler, Togo Kiyomaru, Tentenko, imai and others participated",
       "translatedExcerpt": "The electronic nenbutsu device ``Nirvana'' will be released on October 28, 2026 (Wednesday) from ``Light and Sound Specialty Store Hao Haoh Hao''. “Nirvana” is the second “Original Buddha Machine” following “Heaven” released in 2021. A Buddha machine (electronic nenbutsu machine) is an electronic audio device that records nenbutsu, Buddhist music, folk songs, etc., and is manufactured in various Asian countries, mainly China. You can play the sound with a single button, and the recorded sound plays repeatedly. In Japan, rather than being used as a religious tool, it is enjoyed as an interior decoration for homes and restaurants due to its pop-like appearance, and because of its musicality, artists use it in live performances and sampling, making it a cult favorite. It includes a large number of newly written songs and popular songs by artists who are active in Japan and abroad, and the Buddha Machine is a collection of gorgeous artists."
     },
     {
@@ -7971,6 +8022,23 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "9612a72c51a8556c",
+      "title": "DLsite’s Alternative Pay System Surpasses ¥100 Million Monthly Amid Censorship Concerns",
+      "link": "https://news.sankakucomplex.com/n/_VmZrYhupn2wLPi3AxzsBg",
+      "publishedAt": "2026-10-26T21:00:58.000Z",
+      "excerpt": "Japanese digital marketplace DLsite has reported that its alternative bank-based payment system surpassed ¥100 million in monthly transactions, offering customers a way to purchase manga, games, and adult-oriented content without relying on international credit card companies that have previously…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18358,80 +18426,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "5ecd5ab4d7fc0eba",
-      "title": "JUN SKY WALKER(S)主催フェス＜電撃BEPPU＞、第4弾発表にgo!go!vanillas",
-      "link": "https://barks.jp/news/1099839",
-      "publishedAt": "2026-10-21T09:20:00.000Z",
-      "excerpt": "JUN SKY WALKER(S)が2027年5月22日および23日の2日間、大分県・別府ビーコンプラザにて自身初の主催ロックフェス＜電撃BEPPU＞を開催する。別府の街に湯けむりだけでなくロックの狼煙を上げるべく誕生する新たなフェスの第4弾アーティストが発表となった。 発表されたのはgo!go!vanillasだ。すでに出演が決定しているハルカミライの出演日も確定し、両バンドとも5月22日に出演する。 go!go!vanillasとJUN SKY WALKER(S)には意外な縁がある。長崎県出身のジェットセイヤ(Dr)は、幼い頃からロック好きの父親に連れられてライブに足を運び、さまざまな音楽に触れて育った。自身の音楽的ルーツのひとつとしてJUN SKY WALKER(S)を挙げているが、そのつながりは古…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/21180246/JUN-SKY-WALKERS-1024x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "JUN SKY WALKER(S) sponsored festival <Dengeki BEPPU>, 4th edition announced go!go!vanillas",
-      "translatedExcerpt": "JUN SKY WALKER(S) will hold his first rock festival ``Dengeki BEPPU'' on May 22nd and 23rd, 2027 at Beppu Beacon Plaza in Oita Prefecture. The fourth artist for the new festival that will be born to not only bring steam to the streets of Beppu but also to raise the flames of rock music has been announced. What was announced was go!go!vanillas. The performance date of Harukamirai, who has already been scheduled to perform, has also been confirmed, and both bands will perform on May 22nd. go!go!vanillas and JUN SKY WALKER(S) have a surprising connection. Born in Nagasaki Prefecture, Jet Seiya (Dr.) grew up being exposed to a variety of music, taking him to concerts with his rock-loving father from an early age. He cites JUN SKY WALKER(S) as one of his musical roots, but the connection goes back a long way..."
-    },
-    {
-      "id": "a950b0459e76db3a",
-      "title": "ELECEED Anime Broadcasts in April 2027",
-      "link": "https://crunchyroll.com/news/latest/2026/10/21/eleceed-anime-april-2027-release-date",
-      "publishedAt": "2026-10-21T09:19:00.000Z",
-      "excerpt": "Crunchyroll will stream the supernatural action series",
-      "image": "https://a.storyblok.com/f/178900/960x540/7af05318ee/eleceed.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e0bb3e6130daf859",
-      "title": "Meg Bonus、本日「森を燃やす」がコンセプトのEPをリリース",
-      "link": "https://ototoy.jp/news/132365",
-      "publishedAt": "2026-10-21T09:15:00.000Z",
-      "excerpt": "野本慶によるソロプロジェクト・Meg Bonusの新作EP『3 Songs ＋ 4 Instrumentals』が10月21日配信リリース。リリースに寄せて、本人からのコメントも公開された。 「森を燃やす」をコンセプトに制作された本作には8月に配信リリースした「Ⅱ」に加え、エンジニアに葛西敏彦氏を迎えた「Ⅵ」など、EPタイトルのとおり歌唱楽曲3曲とインスト楽曲4曲の全7曲が収録されている。 Meg Bonusは11月に東京・大阪にて初のワンマンツアーの開催も決定している。本作収録楽曲も披露予定なので、EPとあわせてぜひチェックしてほしい。 アーティストコメント 「森を燃やす」というコンセプトでEPを作りました。 日常の中で自然とできたメロディを軸にできたのが偶数の曲！ 「Ⅰ」から「Ⅶ」までコンセプトが続い…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132365/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Meg Bonus releases EP with the concept of “burning the forest” today",
-      "translatedExcerpt": "Kei Nomoto's solo project Meg Bonus' new EP \"3 Songs + 4 Instrumentals\" will be released on October 21st. A comment from the person himself was also published in conjunction with the release. This album, created with the concept of \"burning the forest,\" includes a total of seven songs, including \"II,\" which was released digitally in August, and \"VI,\" which features engineer Toshihiko Kasai, as well as three vocal songs and four instrumental songs, as the EP title suggests. Meg Bonus will also hold her first one-man tour in Tokyo and Osaka in November. The songs from this album are also scheduled to be performed, so be sure to check them out along with the EP. Artist Comment: I created this EP with the concept of \"burning the forest.\" Even-numbered songs were created based on melodies that came naturally in everyday life! The concept continues from \"I\" to \"VII\"..."
-    },
-    {
-      "id": "1f469a4941bc464a",
-      "title": "【連載コラム】遊津場の関西アーティスト週報vol.128「10年代の邦ロック×現代の京阪神ライブハウスシーンを合わせたアルバム！mogari」",
-      "link": "https://ototoy.jp/news/132362",
-      "publishedAt": "2026-10-21T09:00:00.000Z",
-      "excerpt": "こんにちは。神戸在住の音楽キュレーター、遊津場(ゆつば)です。普段は邦ロック系インディーズアーティスト情報をSNS、メディア寄稿、自主イベント開催など、様々な手法で発信する活動をしています。 そして今回、OTOTOYで私のメインの活動地域である関西エリアで活躍する若手アーティストの様々なトピックを発信する機会をいただきました。これを読めば、関西邦ロックシーンの最前線が分かります。どうぞ、ご贔屓に。 「10年代の邦ロック×現代の京阪神ライブハウスシーンを合わせたアルバム！mogari」 mogariが1stフルアルバム『Bypass Pop』をリリースしました。そしてこのアルバムリリースパーティが11月京都、12月東京、来年1月大阪で行われます。既に京都と東京は対バン相手も解禁されています。 昨年書いたコラ…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132362/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Serial Column] Yutsuba's Kansai Artist Weekly Report vol.128 \"An album that combines 10's Japanese rock and the modern Keihanshin live house scene! mogari\"",
-      "translatedExcerpt": "Hello. My name is Yutsuba, a music curator living in Kobe. I usually disseminate information on Japanese rock indie artists through various methods such as SNS, media contributions, and holding independent events. And this time, at OTOTOY, I had the opportunity to share various topics about young artists who are active in the Kansai area, which is my main area of ​​activity. If you read this, you will understand the forefront of the Kansai Japanese rock scene. Thank you for your patronage. \"An album that combines 10's Japanese rock and the modern Keihanshin live house scene! mogari\" mogari has released their 1st full album \"Bypass Pop\". This album release party will be held in Kyoto in November, Tokyo in December, and Osaka in January next year. The ban has already been lifted for opponents in Kyoto and Tokyo. This is what I wrote last year..."
     }
   ]
 }

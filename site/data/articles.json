@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T02:02:12.662Z",
+  "generatedAt": "2026-10-29T02:32:18.403Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 40,
+      "count": 41,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 138,
+      "count": 136,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 18,
+      "count": 17,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 222,
+      "count": 223,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 173,
+      "count": 174,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,137 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 610,
+    "translatedJapaneseArticles": 612,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "15dd5ff8427e6990",
+      "title": "ザ・ローリング・ストーンズ、故ブライアン・ジョーンズが故チャーリー・ワッツに加入を呼びかけた未公開の手紙がサザビーズに出品",
+      "link": "https://www.billboard-japan.com/d_news/detail/166916",
+      "publishedAt": "2026-10-29T02:30:00.000Z",
+      "excerpt": "ザ・ローリング・ストーンズのギタリストで共同創設者の故ブライアン・ジョーンズが、ドラマーの故チャー",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166916/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Unpublished letter from late Brian Jones inviting Charlie Watts to join The Rolling Stones goes on sale at Sotheby's",
+      "translatedExcerpt": "The late Rolling Stones guitarist and co-founder Brian Jones has announced his"
+    },
+    {
+      "id": "626d4a37861b9ae4",
+      "title": "CANDY TUNE、各メンバーの世界観をもとに制作したソロ曲“全7曲”のEP『CANDY TUNE SOLO BOX』配信",
+      "link": "https://www.billboard-japan.com/d_news/detail/166917",
+      "publishedAt": "2026-10-29T02:25:00.000Z",
+      "excerpt": "CANDY TUNEが、メンバー7名のソロ楽曲を収録したデジタルEP『CANDY TUNE SOL",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166917/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "CANDY TUNE releases EP “CANDY TUNE SOLO BOX” of 7 solo songs created based on each member’s worldview",
+      "translatedExcerpt": "CANDY TUNE releases digital EP “CANDY TUNE SOL” which includes solo songs by 7 members."
+    },
+    {
+      "id": "14d5c070a6efa77d",
+      "title": "Japanese government still lists refusing to pay for dates as a form of domestic violence",
+      "link": "https://soranews24.com/2026/10/29/japanese-government-still-lists-refusing-to-pay-for-dates-as-a-form-of-domestic-violence/",
+      "publishedAt": "2026-10-29T02:00:02.000Z",
+      "excerpt": "Once again, there’s a lot of nuance that’s lost in the attempt to be succinct. As you can probably guess from its name, the Japanese government’s Gender Equality Bureau isn’t a fan of imbalance in interpersonal relationships. What is surprising to many people, though, is the bureau’s assertion that “not paying for any dating expenses” […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_ce3e65.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "29207592125e9043",
+      "title": "Rainbow Days' Minami Mizuno Launches New Fujikawa Minori wa Erabenai. Manga",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-28/rainbow-days-minami-mizuno-launches-new-fujikawa-minori-wa-erabenai-manga/.243279",
+      "publishedAt": "2026-10-29T02:00:00.000Z",
+      "excerpt": "Mizuno to launch Fujikawa Minori wa Erabenai. manga on November 28",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJC/cms/news.10/243279/mizuno.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "0bf21cca373bc1e9",
+      "title": "リアーナ、エイサップ・ロッキーがいつも“盗んでいく”愛用アイテムを明かす「気づくとボトルが空っぽに」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166915",
+      "publishedAt": "2026-10-29T02:00:00.000Z",
+      "excerpt": "億万長者のビューティー・ブランド創業者であるリアーナだが、ボディウォッシュはいくらあっても足りない",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166915/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Rihanna reveals A$AP Rocky's favorite item that she always \"steals\": \"Before you know it, the bottle is empty\"",
+      "translatedExcerpt": "Billionaire beauty brand founder Rihanna can never have enough body wash"
+    },
+    {
+      "id": "20dcc1276bce612f",
+      "title": "小倉 唯、新SG名は「すーぱーとくべつみらくるパフェ♡」",
+      "link": "https://ototoy.jp/news/132524",
+      "publishedAt": "2026-10-29T02:00:00.000Z",
+      "excerpt": "小倉 唯が2027年2月3日（水）にニューシングル「すーぱーとくべつみらくるパフェ♡」をリリースすることが決定した。 新ビジュアルでは、楽曲の世界観を表現したキュートな衣装を披露。衣装に散りばめられたぬいぐるみのどうぶつたちは、これまで小倉 唯を支えてきた多くのファンやスタッフをイメージしている。 楽曲は、ライブでも人気の「治癒治癒ちゅっ♡」を手掛けた佐々木喫茶が作詞・作曲・編曲を担当。フルーツやスイーツをモチーフにした小倉 唯ならではの世界観をさらに進化させ、さまざまな魅力をパフェのように重ね合わせた、カラフルでキャッチーな楽曲に仕上がっている。 リリース情報 「Q.E.D.」 https://ototoy.jp/_/default/p/3921629 アーティスト情報 https://ogurayui…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132524/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Yui Ogura's new SG name is \"Super Tokubetsu Mirakuru Parfait♡\"",
+      "translatedExcerpt": "It has been decided that Yui Ogura will release her new single ``Super Tokubetsu Mirakuru Parfait♡'' on Wednesday, February 3, 2027. In the new visual, she shows off cute costumes that express the worldview of the song. The stuffed animals scattered throughout the costume are inspired by the many fans and staff who have supported Yui Ogura over the years. The song was written, composed, and arranged by Kissa Sasaki, who also wrote the popular live performance \"Healing Healing Chu♡\". Yui Ogura's unique world view with fruits and sweets as motifs has been further evolved into a colorful and catchy song that layers various charms like a parfait. Release information “Q.E.D.” https://ototoy.jp/_/default/p/3921629 Artist information https://ogurayui…"
+    },
+    {
+      "id": "594209d2df499260",
+      "title": "Seven Seas Licenses Nighthawk, Once Again, Will You Take a Bath with Me?, 2 More Titles",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-28/seven-seas-licenses-nighthawk-once-again-will-you-take-a-bath-with-me-2-more-titles/.243298",
+      "publishedAt": "2026-10-29T01:55:42.000Z",
+      "excerpt": "Also licensed: Dumbass Zombies!!! An Intermediate-Level Survival Guide for a World Where You Can Die Just Going to Borrow Soy Sauce, Misdeeds of an Extremely Arrogant Villain Aristocrat audiobook",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG9/cms/news.10/243298/dumbass-zombies-m1-cover-jpn.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "b27890adcaf937f3",
       "title": "KISS、最後のツアーに密着した2部構成ドキュメンタリー11月公開＆予告編解禁",
@@ -184,7 +311,7 @@
         "language": "ja"
       },
       "translatedTitle": "KISS will release a two-part documentary on their last tour in November and release the trailer",
-      "translatedExcerpt": "A two-part documentary chronicling KISS's final tour, KISS: End of the"
+      "translatedExcerpt": "A two-part documentary chronicling KISS' final tour, KISS: End of the"
     },
     {
       "id": "0103456c752f6ff2",
@@ -1126,7 +1253,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Sara's new song \"Soba ni Te\" MV released & Tokyo Nagoya/Osaka tour sold out",
+      "translatedTitle": "Sarasa's new song \"Soba niite\" MV released & Tokyo, Nagoya and Osaka tours sold out",
       "translatedExcerpt": "Singer-songwriter Sarasa has released the music video for her latest song \"Soba ni Te\" released on Wednesday, October 14, 2026. This MV was directed by Yuto Mizutani. In addition to Sarasa herself, actor/model Tsubasa Nasu appears in the video work, which expresses the sense of speed and worldview of the song in a story style. Additionally, starting tomorrow, October 29th (Thursday), Sarasa will be holding her first Tokyo, Nagoya, and Osaka tour since her major debut, Live Bluesy TOUR 2026. Both the Nagoya performance with Emi Nakamura as a guest and the Osaka performance with Toko Miura are sold out. After making their major debut, Sarasa continues to expand her range of activities. I would like to pay attention to the tour that is finally starting along with the music video for the new song. Sarasa \"Side by me\" Live information ★Tokyo performance ticket sales..."
     },
     {
@@ -1771,7 +1898,7 @@
         "language": "ja"
       },
       "translatedTitle": "TK from Rin Toshi Sigure to release new song “Aside Matoi”",
-      "translatedExcerpt": "TK from Rin Toshi Sigure, who will be celebrating his 15th anniversary as a solo artist this year in 2026, has decided to release his new song ``Aside Matoi'' on November 4, 2026 (Wednesday), and the jacket photo has also been released. This is a long-awaited new song delivered on the occasion of the 15th anniversary of his solo career. Amidst a mix of emotions, a carefully constructed choir part, strings, and a diverse ensemble featuring koto player LEO intertwine, transcending the boundaries of genre. TK, who wanders and continues to sing while trying to grasp his instincts even in the songs, wrote the following about this work. ``You and I are both Asidematoi, your instincts and my thoughts are Asidematoi. Still, we are begging for our lives. Or are we in love with life?'' Even now, 15 years later, this dense five and a half minutes, created while struggling, may be his natural habit. This year marks the 15th anniversary..."
+      "translatedExcerpt": "TK from Rin Toshi Sigure, who will be celebrating his 15th anniversary as a solo artist this year in 2026, has decided to release his new song ``Aside Matoi'' on November 4, 2026 (Wednesday), and the jacket photo has also been released. This is a long-awaited new song delivered on the occasion of the 15th anniversary of his solo career. Amidst a mix of emotions, a carefully constructed choir part, strings, and a diverse ensemble featuring koto player LEO intertwine, transcending the boundaries of genre. TK, who wanders and continues to sing while trying to grasp his instincts even in the song, wrote the following about this work. ``You and I are both Asidematoi, your instincts and my thoughts are Asidematoi. Still, we are begging for our lives. Or are we in love with life?'' Even now, 15 years later, this dense five and a half minutes, created while struggling, may be his natural habit. This year marks the 15th anniversary..."
     },
     {
       "id": "8940f2ea9e9e660a",
@@ -1847,7 +1974,7 @@
         "language": "ja"
       },
       "translatedTitle": "Shinmon releases refreshing new song “Machikaze”",
-      "translatedExcerpt": "Shinmon released their new single “Machikaze” on Wednesday, October 28, 2026. This work is a single work with the theme of \"what you often feel when walking around town\". The track is handled by TANNØ, who is working with them for the first time. Cosaqu is in charge of all studio work. The result is a song filled with the essence of Shinmon. In addition, an EP containing 6 songs including this song will be released on November 11th (Wednesday). Release information https://ototoy.jp/_/default/p/4358608 Tour information Artist information https://www.instagram.com/_goudo_/ https://x.com/_goudo_"
+      "translatedExcerpt": "Shinmon released their new single “Machikaze” on Wednesday, October 28, 2026. This work is a single work with the theme of \"what you often feel when walking around town\". The track is handled by TANNØ, who is working with them for the first time. Cosaqu is in charge of all studio work. The result is a song filled with Shinmon-ness. In addition, an EP containing 6 songs including this song will be released on November 11th (Wednesday). Release information https://ototoy.jp/_/default/p/4358608 Tour information Artist information https://www.instagram.com/_goudo_/ https://x.com/_goudo_"
     },
     {
       "id": "858f6e767a5710d4",
@@ -2503,8 +2630,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Raising keywords] Negicco releases new SG “Beware of Phantom Thief Negi”",
-      "translatedExcerpt": "Negicco, who released their new single \"Kaito Negii ni Goyoji\", is ranked in the trending trend. This work includes two songs and an instrumental that were first performed at the \"Negicco 23rd Anniversary Concert: TO THREE supported by Sato Shokuhin\" Toyosu PIT performance held on July 20th this year. The title song \"Kaito Negii ni Goujijin\" is a song produced by Takeshi Nakatsuka, who is working with Negicco for the first time. The coupling song includes ``Ashi no Odoriko feat. minan'' featuring former lyrical school member minan as a guest. It was created in collaboration with Junya Okubo (Anna) and Shuhei Ueda, the writers of Megu's solo song \"So good\", and Negicco producer Connie. Release information…"
+      "translatedTitle": "[Trending keywords] Negicco releases new SG “Beware of Phantom Thief Negi”",
+      "translatedExcerpt": "Negicco, who released their new single \"Kaito Negii ni Goujin\", has been ranked in the trending trend. This work includes two songs and an instrumental that were first performed at the \"Negicco 23rd Anniversary Concert: TO THREE supported by Sato Shokuhin\" Toyosu PIT performance held on July 20th this year. The title song \"Kaito Negii ni Goujijin\" is a song produced by Takeshi Nakatsuka, who is working with Negicco for the first time. The coupling song includes ``Ashi no Odoriko feat. minan'' featuring former lyrical school member minan as a guest. It was created in collaboration with Junya Okubo (Anna) and Shuhei Ueda, the writers of Megu's solo song \"So good\", and Negicco producer Connie. Release information…"
     },
     {
       "id": "6c5dd1e7762a4711",
@@ -2730,7 +2857,7 @@
         "language": "ja"
       },
       "translatedTitle": "Hitsuji Bungaku's new song has been selected as the theme song for the movie \"The Great Sins of Kujo\"",
-      "translatedExcerpt": "Hitsuji Bungaku's new song ``Dispel'' has been selected as the theme song for ``The Great Sin of Kujo'', which will be released in theaters nationwide on Friday, January 8, 2027. Furthermore, it has been decided that this song will be released on various music distribution sites on Wednesday, December 16th. The Netflix series \"The Great Sin of Kujo\" has been in the Netflix Global Weekly Top 10 (non-English series) for two consecutive weeks and has become a hot topic not only in Japan but all over the world. Following ``Dogs,'' which was written as the theme song for the drama series, Hitsuji Bungaku will also be in charge of the theme song for the movie version. It is still fresh in our minds that Hitsuji Bungaku attracted a lot of attention with their spectacular performance of ``Dogs'' at Japan's largest international music awards ``MUSIC AWARDS JAPAN'' held in June of this year. The girls, who continue to make great strides both domestically and internationally, have written a new piece for the movie..."
+      "translatedExcerpt": "Hitsuji Bungaku's new song ``Dispel'' has been selected as the theme song for ``The Great Sin of Kujo'', which will be released in theaters nationwide on Friday, January 8, 2027. Furthermore, it has been decided that this song will be released on various music distribution sites on Wednesday, December 16th. The Netflix series \"The Great Sin of Kujo\" has been in the Netflix Global Weekly Top 10 (non-English series) for two consecutive weeks and has become a hot topic not only in Japan but all over the world. Following ``Dogs,'' which was written as the theme song for the drama series, Hitsuji Bungaku will also be in charge of the theme song for the movie version. It is still fresh in our minds that Sheep Bungaku attracted a lot of attention with their spectacular performance of ``Dogs'' at Japan's largest international music awards ``MUSIC AWARDS JAPAN'' held in June of this year. The girls, who continue to make great strides both domestically and internationally, have written a new piece for the movie..."
     },
     {
       "id": "aec82e9085e9b2bc",
@@ -3152,7 +3279,7 @@
       "title": "Zero Escape Creator Says Rejecting AI Could Hurt Game Developers",
       "link": "https://news.sankakucomplex.com/n/As9m_bL9ZZtrJJs_ytfGFg",
       "publishedAt": "2026-10-27T21:54:03.000Z",
-      "excerpt": "Zero Escape creator Kotaro Uchikoshi has defended the use of generative AI in video game development, suggesting that the technology could have helped save a recently canceled project at his new studio, Crash Keys, by reducing production costs and development time.",
+      "excerpt": "Zero Escape creator Kotaro Uchikoshi has defended the use of generative AI in video game development, suggesting that the technology could have helped save a recently canceled project at his new studio, Crash Keys, by reducing production costs and development time. Speaking with Japanese gaming o…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4184,7 +4311,7 @@
         "language": "ja"
       },
       "translatedTitle": "ILLIT releases MV for new song “You’re Under Arrest”",
-      "translatedExcerpt": "ILLIT released the music video for the title song 'You're Under Arrest' of their 5th Mini Album 'BREAK EVEN' on the HYBE LABELS YouTube channel at 6 pm on October 26th. The music video humorously depicts a story in which ILLIT members disguised as ``black agents'' track down a missing person by skillfully shaking their hearts. Although these angry girls have little information about their target, they use their tenacity and resourcefulness to narrow down the encirclement. During this process, Song Kang, a popular actor in Japan, makes a surprise appearance as a key character, adding further depth to the story. The various visual changes of ILLIT, which carries out an undercover investigation, are also a highlight. A charismatic special agent..."
+      "translatedExcerpt": "ILLIT released the music video for the title song 'You're Under Arrest' of their 5th Mini Album 'BREAK EVEN' on the HYBE LABELS YouTube channel at 6 pm on October 26th. The music video humorously depicts a story in which ILLIT members disguised as ``black agents'' track down a missing person by skillfully shaking their hearts. The angry girls have little information about their target, but use their tenacity and resourcefulness to narrow down the encirclement. During this process, Song Kang, a popular actor in Japan, makes a surprise appearance as a key character, adding further depth to the story. The various visual changes of ILLIT, which carries out an undercover investigation, are also a highlight. A charismatic special agent..."
     },
     {
       "id": "4288cf529f490fe9",
@@ -4805,7 +4932,7 @@
         "language": "ja"
       },
       "translatedTitle": "NCT DREAM, original program broadcast on Fuji TV TWO",
-      "translatedExcerpt": "It has been decided that NCT DREAM will broadcast an original program exclusively on CS Fuji TV TWO from 9:00 PM to 10:00 PM on Monday, December 28th. The title is “10th Anniversary NCT ​​DREAM CLOSE TO YOU: LIVE supported by SKY PerfecTV! 30th Anniversary”. NCT DREAM celebrated their 10th anniversary since their debut on August 25th this year, and is scheduled to make a comeback with their 6th full-length album \"DREAM AFTER DREAM\" on November 9th. In the program, NCT DREAM gathered at a certain place in Japan will create a special set list for one night only, and will closely follow them until the actual performance. To commemorate the broadcast of the special program, official fan club members and SKY PerfecTV! subscribers will be randomly selected to be invited to watch the live recording of the program. SKY PerfecTV! is scheduled to start accepting applications from November 1st. program…"
+      "translatedExcerpt": "It has been decided that NCT DREAM will broadcast an original program exclusively on CS Fuji TV TWO from 9:00 PM to 10:00 PM on Monday, December 28th. The title is “10th Anniversary NCT ​​DREAM CLOSE TO YOU: LIVE supported by SKY PerfecTV! 30th Anniversary”. NCT DREAM celebrated their 10th anniversary since their debut on August 25th this year, and is scheduled to make a comeback with their 6th full-length album \"DREAM AFTER DREAM\" on November 9th. In the program, NCT DREAM, who gathered in a certain place in Japan, will create a special set list for one night only, and will closely follow them until the actual performance. To commemorate the broadcast of the special program, official fan club members and SKY PerfecTV! subscribers will be randomly selected to be invited to watch the live recording of the program. SKY PerfecTV! is scheduled to start accepting applications from November 1st. program…"
     },
     {
       "id": "fdcde2cbe9d830e6",
@@ -5044,7 +5171,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Rising word] Nogizaka46, 6th generation live song “Once Suki ni ni ni ni hito” pre-distribution begins",
-      "translatedExcerpt": "Nogizaka46, who will release their latest single \"Kimiros\" on December 2nd (Wednesday), is ranked in the fastest-growing trend. Advance distribution of the 6th generation's song \"Once Suki ni Shikinatta Hito\", which will be included in this single, has started. Yuki Suzuki will serve as the formation center. There were 18 members selected for the title song \"Kimiros\", with 4th generation member Saya Kanagawa returning to the senbatsu for the first time in 5 songs, and 5th generation members Aya Ogawa and Himena Okamoto also returning to the senbatsu. Release information https://ototoy.jp/_/default/p/4355571 Live information 6th generation national tour 2026 November 10th (Tuesday) and 11th (Wednesday), 2026 Zepp Sapporo Artist information http://www.nogizaka46.com/ https://twitter.com/nogizaka46 https://www…"
+      "translatedExcerpt": "Nogizaka46, who will release their latest single \"Kimiros\" on December 2nd (Wednesday), is ranked in the fastest-growing trend. Pre-distribution of the 6th generation's song \"Once Suki ni Shikinatta Hito\", which will be included in this single, has started. Yuki Suzuki will serve as the formation center. There were 18 members selected for the title song \"Kimiros\", with 4th generation member Saya Kanagawa returning to the senbatsu for the first time in 5 songs, and 5th generation members Aya Ogawa and Himena Okamoto also returning to the senbatsu. Release information https://ototoy.jp/_/default/p/4355571 Live information 6th generation national tour 2026 November 10th (Tuesday) and 11th (Wednesday), 2026 Zepp Sapporo Artist information http://www.nogizaka46.com/ https://twitter.com/nogizaka46 https://www…"
     },
     {
       "id": "2de14bb58912f9d9",
@@ -5158,7 +5285,7 @@
         "language": "ja"
       },
       "translatedTitle": "RADWIMPS, new advertisements suddenly appear at 3 Tokyo Metro stations",
-      "translatedExcerpt": "New advertisements for RADWIMPS have suddenly appeared at three Tokyo Metro stations: Kokugakujiji-mae Station, Kasumigaseki Station, and Nagatacho Station. ``Are your ethics okay?'' What catches the eye is the provocative copy that asks the viewer. The advertisements posted at three stations located in the heart of Japan consist of multiple designs based on the jacket visuals, with various visuals displayed randomly. What this advertisement revealed is that RADWIMPS' new song \"Shabadaba-\" will be digitally released on October 28th (Wednesday). The new song \"Shabadaba -\" is the theme song for Fuji TV's October drama \"Political Pan\". Set in a world swirling with money and desire, the story echoes the worldview of the drama, where unpredictable stories and thrilling tactics unfold..."
+      "translatedExcerpt": "New advertisements for RADWIMPS have suddenly appeared at three Tokyo Metro stations: Kagakujijimae Station, Kasumigaseki Station, and Nagatacho Station. ``Are your ethics okay?'' What catches the eye is the provocative copy that asks the viewer. The advertisements posted at three stations located in the heart of Japan consist of multiple designs based on the jacket visuals, with various visuals displayed randomly. What this advertisement revealed is that RADWIMPS' new song \"Shabadaba-\" will be digitally released on October 28th (Wednesday). The new song \"Shabadaba -\" is the theme song for Fuji TV's October drama \"Political Pan\". Set in a world swirling with money and desire, the story echoes the worldview of the drama, where unpredictable stories and thrilling tactics unfold..."
     },
     {
       "id": "7c97562184f713ba",
@@ -18299,129 +18426,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6bee0634f8662bc5",
-      "title": "XG、新曲「DEPENDS」振り付けの一部公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166689",
-      "publishedAt": "2026-10-20T13:15:00.000Z",
-      "excerpt": "XGが、新曲「DEPENDS」のコレオスニペット映像を公開した。 新曲「DEPENDS」は、2",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166689/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "XG releases part of the choreography for new song “DEPENDS”",
-      "translatedExcerpt": "XG has released a choreography snippet video for their new song \"DEPENDS\". The new song “DEPENDS” is 2"
-    },
-    {
-      "id": "00aae9a8c36ce729",
-      "title": "TOMORROW X TOGETHER、“Z世代の青春痛”を描くミニアルバム『PERFECT STORM』トレーラー公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166690",
-      "publishedAt": "2026-10-20T13:10:00.000Z",
-      "excerpt": "TOMORROW X TOGETHERが、2026年11月16日にリリースとなるニューミニアルバム",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166690/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "TOMORROW",
-      "translatedExcerpt": "TOMORROW X TOGETHER's new mini album to be released on November 16, 2026"
-    },
-    {
-      "id": "f633c873517aa238",
-      "title": "The Iceblade Sorcerer Shall Rule the World Light Novels' 10th Volume Teases Finale",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/the-iceblade-sorcerer-shall-rule-the-world-light-novels-10th-volume-teases-finale/.243002",
-      "publishedAt": "2026-10-20T13:00:03.000Z",
-      "excerpt": "10th volume out on December 2",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI8/cms/news.10/243002/iceblade-nov09.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "8438a442b8ad4508",
-      "title": "Crunchyroll Reveals The Detective Is Already Dead Season 2's English Dub Cast, Staff, Debut Date",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/crunchyroll-reveals-the-detective-is-already-dead-season-2-english-dub-cast-staff-debut-date/.243014",
-      "publishedAt": "2026-10-20T12:54:23.000Z",
-      "excerpt": "Crunchyroll also adds more anime music videos",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH7/cms/news.9/241372/visual-logo.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "d428daaab39621f1",
-      "title": "Wuxiaworld Founder Buys Back Web Fiction Platform From Tapas",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/wuxiaworld-founder-buys-back-web-fiction-platform-from-tapas/.242970",
-      "publishedAt": "2026-10-20T12:15:00.000Z",
-      "excerpt": "Deal was finalized shortly before Kakao Ent. announced that Tapas will shut down on March 31, 2027",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gEC/cms/news.10/242970/guess-who-s-back-back-again-10-18-2026-09-25-pm.png.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f5be964a69c0ec96",
-      "title": "Haikyu!! ALL Challengers Training Simulation Mobile Game Streams New Video",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/haikyu-all-challengers-training-simulation-mobile-game-streams-new-video/.243020",
-      "publishedAt": "2026-10-20T11:48:15.000Z",
-      "excerpt": "Game's main visual also revealed",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI8/cms/news.10/243020/haikyuall.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "372ab066551dc586",
-      "title": "Light Novel 'Maou 2099' Concludes with 6th Volume",
-      "link": "https://myanimelist.net/news/74840116?_location=rss",
-      "publishedAt": "2026-10-20T11:38:08.000Z",
-      "excerpt": "The official X (formerly Twitter) account of Kadokawa's Fantasia Bunko label announced on Tuesday that Daigo Murasaki's Maou 2099 (Demon Lord 2099) light novel will end with its sixth volume. Murasaki won the Grand Prize at the 33rd Fantasia Taisho with the title Ken to Maou no Cyberpunk in 2020. He renamed the work to Maou 2099 and began publishing it un…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1792496216-dafca47315e930a5b30a55bdf209101b.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
         "language": "en"
       }
     }

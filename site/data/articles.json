@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T03:31:49.296Z",
+  "generatedAt": "2026-10-29T04:02:01.671Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 40,
+      "count": 39,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 133,
+      "count": 132,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 17,
+      "count": 16,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 225,
+      "count": 227,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 234,
+      "count": 235,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 617,
+    "translatedJapaneseArticles": 619,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "f33fa6ee720ced33",
+      "title": "吉田沙保里、メジャーデビュー曲「I‘m Here」MV公開",
+      "link": "https://barks.jp/news/1101237",
+      "publishedAt": "2026-10-29T03:53:55.000Z",
+      "excerpt": "レスリング女子元日本代表の吉田沙保里が、2026年10月28日（水）にシングル「I’m Here」をリリースしメジャーデビュー。翌29日（木）に楽曲のミュージックビデオを公開した。 レスリング界で数々の歴史を刻んできた彼女が今回新たに挑戦するのは「音楽」という表現。メジャーデビューシングル表題曲「I’m Here」は、迷いや葛藤を抱えながらも、自分自身を信じて前へ進もうとする姿を描いた楽曲だ。これまで勝負の世界で戦い続けてきた吉田だからこそ伝えられる、勝ち負けだけでは測れない人生の価値や、ありのままの自分を受け入れることの大切さが込められている。 作詞には吉田沙保里本人とシンガーソングライターの小林柊矢が参加。作曲を小林柊矢、編曲をKoTaが担当した。ミュージックビデオは山口圭吾が監督・編集を手がけ、アス…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/14184023/%E5%90%89%E7%94%B0%E6%B2%99%E4%BF%9D%E9%87%8C_%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Saori Yoshida releases music video for major debut song “I’m Here”",
+      "translatedExcerpt": "Saori Yoshida, a former member of Japan's women's wrestling team, will release her single \"I'm Here\" on Wednesday, October 28, 2026, making her major debut. The music video for the song was released the following day, the 29th (Thursday). She has carved out a lot of history in the wrestling world, and this time she is taking on a new challenge: \"music.\" The title song of their major debut single, “I’m Here,” is a song that depicts a person who believes in themselves and tries to move forward despite having doubts and conflicts. Yoshida, who has continued to compete in the world of competition, can convey the value of life that cannot be measured by winning or losing alone, and the importance of accepting yourself as you are. The lyrics were written by Saori Yoshida herself and singer-songwriter Shuya Kobayashi. Composed by Shuya Kobayashi and arranged by KoTa. The music video was directed and edited by Keigo Yamaguchi, and..."
+    },
+    {
+      "id": "c88766df3a55b604",
+      "title": "Inherit the Winds Anime Shoots the Breeze in Fall Illustration",
+      "link": "https://crunchyroll.com/news/latest/2026/10/29/inherit-the-winds-anime-fall-illustration",
+      "publishedAt": "2026-10-29T03:42:00.000Z",
+      "excerpt": "The original series begins airing in January 2027",
+      "image": "https://a.storyblok.com/f/178900/1200x848/4aa0c6bad5/inherit-the-winds-fall-illustration.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "d1e92d09ebd7a1bb",
       "title": "GENERATIONS、CDシングル『VIBE』10/28リリース＆「SAIKO!!」MV公開",
@@ -185,6 +221,25 @@
       },
       "translatedTitle": "GENERATIONS, CD single “VIBE” released on 10/28 & “SAIKO!!” MV released",
       "translatedExcerpt": "GENERATIONS released their first CD single in 4 years, ``VIBE'', on October 28th."
+    },
+    {
+      "id": "a90d28464e70dd9c",
+      "title": "KATSEYE、【THE WILDWORLD TOUR】日本公演が2027年1月に決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166928",
+      "publishedAt": "2026-10-29T03:30:00.000Z",
+      "excerpt": "KATSEYEによる【THE WILDWORLD TOUR】日本公演が、2027年1月27日に神奈",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166928/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "KATSEYE, [THE WILDWORLD TOUR] Japan performance decided in January 2027",
+      "translatedExcerpt": "KATSEYE's [THE WILDWORLD TOUR] Japan performance will be held in Kana on January 27, 2027."
     },
     {
       "id": "02b9e417c397873d",
@@ -223,6 +278,25 @@
       },
       "translatedTitle": "BE:FIRST releases content calendar for new album “BE:4U”",
       "translatedExcerpt": "BE:FIRST has released the content calendar for their original album ``BE:4U,'' which will be released on November 3rd (Tuesday), the 5th anniversary of their debut. BE:FIRST recently released a teaser video for their album lead song \"NOW U KNOW.\" From 23:05 on Sunday, November 1st, to commemorate BE:FIRST's 5th anniversary, a 55-minute special video ``BE:FIRST / 5th Anniversary Special Movie'' will be premiered on YouTube for one night only, depicting the 5-year trajectory with live footage of their representative songs and behind-the-scenes scenes. (*No archive distribution) After the premiere, the music video and official audio of “NOW U KNOW” will be released at “BE:FIRST “NOW U KNOW” STATION.” 5 laps..."
+    },
+    {
+      "id": "f1120f2379b9fe77",
+      "title": "「ポリティカルパン」“雅”河合優実の演説に「つらくて涙が出た」 「“250円”の重みが分かる政治家が、今どのくらいいるのか」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166930",
+      "publishedAt": "2026-10-29T03:00:00.000Z",
+      "excerpt": "石原さとみが主演するドラマ「ポリティカルパン」（フジテレビ系）の第4話が、28日に放送された。（※",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166930/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "``Political Pan'' ``Miyabi'' Yumi Kawai's speech ``It was painful and brought me to tears.'' ``How many politicians now understand the weight of ``250 yen''?''",
+      "translatedExcerpt": "The fourth episode of the drama ``Political Pan'' (Fuji TV) starring Satomi Ishihara was broadcast on the 28th. (※"
     },
     {
       "id": "58335e5505491444",
@@ -18366,74 +18440,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "01a7a31a5383e0b2",
-      "title": "It’s time for the kokia to shine at this herb gardens and ropeway attraction in Kobe",
-      "link": "https://soranews24.com/2026/10/21/its-time-for-the-kokia-to-shine-at-this-herb-gardens-and-ropeway-attraction-in-kobe/",
-      "publishedAt": "2026-10-20T16:00:34.000Z",
-      "excerpt": "The park’s Garden Fest 2026 -Autumn- event is enveloped in a sea of fire this year that’s perfect for making fall memories. ’Tis the season for kochia (bassia scoparia), nicknamed kokia in Japanese and firebush in English, to have their moment in the spotlight. Mt. Hakodate’s Kokia Park in Shiga Prefecture and Hitachi Seaside Park in […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_f86df9.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "eb62d818684332b5",
-      "title": "Pandora Hearts Manga Gets 3rd Stage Musical",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/pandora-hearts-manga-gets-3rd-stage-musical/.243027",
-      "publishedAt": "2026-10-20T16:00:00.000Z",
-      "excerpt": "PandoraHearts Retrace III -Reverse corte- runs in Tokyo in September 2027, Osaka in October 2027",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGI/cms/news.10/243027/pandorahearts-stage-musical-2.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "00bae2f7367f08bb",
-      "title": "'Shingeki no Kyojin' Voice Actor Hiroshi Tsuchida Dies at 54",
-      "link": "https://myanimelist.net/news/74840663?_location=rss",
-      "publishedAt": "2026-10-20T15:30:59.000Z",
-      "excerpt": "Voice actor Hiroshi Tsuchida, best known for Grisha Yeager in Shingeki no Kyojin (Attack on Titan) and Daikichi Kawachi in Usagi Drop (Bunny Drop), died on October 11 of heart failure. He was 54. His agency, 81 Produce, announced the news on Tuesday, noting that the funeral was held privately for family members only, at the family’s request. Born in Tokyo…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1792510025-e1fe5c7c4bb4c0ff78e6e4970a35a20f.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "17fcf59423bcf6b4",
-      "title": "Ys VIII: Lacrimosa of DANA Action-RPG Heads to Switch 2 in February 2027",
-      "link": "https://crunchyroll.com/news/latest/2026/10/20/ys-8-lacrimosa-of-dana-switch-2-february-2027",
-      "publishedAt": "2026-10-20T15:16:00.000Z",
-      "excerpt": "120 frames per second, GameShare and Spanish-language support added",
-      "image": "https://a.storyblok.com/f/178900/960x540/1dfbceaebf/ys8-switch2.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
         "language": "en"
       }
     }

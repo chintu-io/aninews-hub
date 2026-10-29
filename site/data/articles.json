@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T05:33:37.791Z",
+  "generatedAt": "2026-10-29T06:01:43.520Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 231,
+      "count": 233,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -152,9 +152,9 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://news.sankakucomplex.com/feed/",
-      "count": 63,
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "count": 61,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,48 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 624,
+    "translatedJapaneseArticles": 626,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8b57f5705347e73a",
+      "title": "ドレイク、40歳の誕生日にジェフ・ロスからサプライズで毒舌いじりの洗礼を受ける",
+      "link": "https://www.billboard-japan.com/d_news/detail/166941",
+      "publishedAt": "2026-10-29T06:00:00.000Z",
+      "excerpt": "ドレイクが40歳の誕生日に望んでいたのはジム・キャリーに\"ロースト\"（主役を愛情を込めて辛辣にこき",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166941/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Drake receives a surprise baptism from Jeff Ross on his 40th birthday",
+      "translatedExcerpt": "All Drake wanted for his 40th birthday was a \"roast\" of Jim Carrey."
+    },
+    {
+      "id": "6e15915169f94969",
+      "title": "ONE N&#039; ONLY、アルバム『MEGA GOLDEN』発売記念ポップアップストアを全国3都市で開催",
+      "link": "https://www.billboard-japan.com/d_news/detail/166939",
+      "publishedAt": "2026-10-29T05:45:00.000Z",
+      "excerpt": "ONE N&#039; ONLYが、メジャー2ndアルバム『MEGA GOLDEN』の発売を記念したポップア",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166939/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "ONE N' ONLY will hold pop-up stores in three cities nationwide to commemorate the release of their album \"MEGA GOLDEN\"",
+      "translatedExcerpt": "ONE N' ONLY holds a pop-up event to commemorate the release of their 2nd major album \"MEGA GOLDEN\""
+    },
     {
       "id": "0b5a51dbd883a865",
       "title": "Caladrius 2 Disappears From Steam Amid Censorship Concerns",
@@ -6531,7 +6569,7 @@
       "title": "Blue Archive Producer Wants Third-Person Shooter, Survival Game & More Anime Spin-Offs",
       "link": "https://news.sankakucomplex.com/n/_b4GIRiRW6OXlDCcxkCd2Q",
       "publishedAt": "2026-10-26T14:45:28.000Z",
-      "excerpt": "Blue Archive producer Yong-ha Kim has revealed his ambitions to expand the popular schoolgirl RPG into entirely different genres, including third-person shooters, survival games, and strategy RPGs, while also expressing interest in producing additional anime adaptations. The developer discussed h…",
+      "excerpt": "Blue Archive producer Yong-ha Kim has revealed his ambitions to expand the popular schoolgirl RPG into entirely different genres, including third-person shooters, survival games, and strategy RPGs, while also expressing interest in producing additional anime adaptations.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18416,40 +18454,6 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "0242301610640325",
-      "title": "Japanese Indie Developer Threatened With AI Game Clone Unless He Pays $200",
-      "link": "https://news.sankakucomplex.com/n/MObdZEDRsa1RclPJMQyD5Q",
-      "publishedAt": "2026-10-20T18:37:22.000Z",
-      "excerpt": "A Japanese indie game developer has revealed that he received a threatening email demanding $200 worth of Steam items, with the sender claiming they would use AI to release a copy of his upcoming game before the original launched.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "373447c55e7ef60b",
-      "title": "Japanese Indie Developer Threatened With AI Game Clone Unless He Pays $200",
-      "link": "https://news.sankakucomplex.com/n/ton3UxybzDKqs7Me1bwweg",
-      "publishedAt": "2026-10-20T18:37:22.000Z",
-      "excerpt": "A Japanese indie game developer has revealed that he received a threatening email demanding $200 worth of Steam items, with the sender claiming they would use AI to release a copy of his upcoming game before the original launched.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

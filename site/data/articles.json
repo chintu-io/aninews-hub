@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T04:02:01.671Z",
+  "generatedAt": "2026-10-29T04:31:51.139Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 39,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 132,
+      "count": 130,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 113,
+      "count": 111,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 227,
+      "count": 230,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -146,7 +146,7 @@
       "feedUrl": "https://ototoy.jp/news/feed.rss",
       "count": 176,
       "imageEnrichment": null,
-      "fetchedCount": 50
+      "fetchedCount": 0
     },
     {
       "id": "sankaku",
@@ -163,10 +163,84 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 619,
-    "translationAttempts": 160
+    "translatedJapaneseArticles": 622,
+    "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "abe3b4fa21412cbd",
+      "title": "Billyrrom「Mirror Ball」Heatseekers Songs首位にコメントが到着「皆さんに共鳴していたら嬉しいです」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166927",
+      "publishedAt": "2026-10-29T04:30:00.000Z",
+      "excerpt": "2026年10月21日公開（集計期間：10月12日～10月18日）の&ldquo;JAPAN He",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166927/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Billyrrom's \"Mirror Ball\" Comment arrives at the top of Heatseekers Songs \"I hope it resonates with everyone\"",
+      "translatedExcerpt": "“JAPAN He” released on October 21, 2026 (aggregation period: October 12 to October 18)"
+    },
+    {
+      "id": "21766d86e7dc153c",
+      "title": "DIIV、2027年2月に来日公演決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166935",
+      "publishedAt": "2026-10-29T04:30:00.000Z",
+      "excerpt": "今年7月の来日中止を経て、DIIVによる初の単独来日公演が決定した。 米NYブルックリンを拠点",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166935/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "DIIV to perform in Japan in February 2027",
+      "translatedExcerpt": "After canceling their visit to Japan in July of this year, DIIV's first solo performance in Japan has been decided. Based in Brooklyn, NY"
+    },
+    {
+      "id": "9c73244ed91b28b3",
+      "title": "Studio Ghibli homeware brand’s faux oil lamp brings light, smiles, and Kiki’s Jiji to your home",
+      "link": "https://soranews24.com/2026/10/29/studio-ghibli-homeware-brands-faux-oil-lamp-brings-light-smiles-and-kikis-jiji-to-your-home/",
+      "publishedAt": "2026-10-29T04:00:00.000Z",
+      "excerpt": "Kiki’s Delivery Service scene-stealer is adorably transfixed by Donguri Kyowakoku’s latest homeware offering. Any branch of Ghibli specialty shop chain Donguri Kyowakoku will be filled with amazing merch from the anime studio’s films, but a few locations are extra-special thanks to their inclusion of items from the Donguri Closet sub-brand. As the name al…",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_8347ec.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "4019b2cfda66c524",
+      "title": "ビョーク、ハムラフリーズ・クワイアとの「Where Is The Line」ライブ映像公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166931",
+      "publishedAt": "2026-10-29T04:00:00.000Z",
+      "excerpt": "2021年10月24日にレイキャビクのハルパ・コンサート・ホールで収録されたコンサート『ビョーク・",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166931/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Björk releases live video of “Where Is The Line” with Hamrafree’s Choir",
+      "translatedExcerpt": "Concert “Björk"
+    },
     {
       "id": "f33fa6ee720ced33",
       "title": "吉田沙保里、メジャーデビュー曲「I‘m Here」MV公開",
@@ -18372,74 +18446,6 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "cdfc4ea20f643e29",
-      "title": "Demon Lord 2099 Novels End With 6th Volume",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/demon-lord-2099-novels-end-with-6th-volume/.243031",
-      "publishedAt": "2026-10-20T18:00:00.000Z",
-      "excerpt": "Daigo Murasaki, Kureta debuted light novels in January 2021",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gS0/cms/news.10/243031/demon-lord-2099-6.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "fc2023383509337e",
-      "title": "Mission: Yozakura Family Season 2 Part 2 Anime Shares Creditless Ending Video",
-      "link": "https://crunchyroll.com/news/latest/2026/10/20/mission-yozakura-family-season-2-part-2-anime-creditless-ending-video",
-      "publishedAt": "2026-10-20T17:42:00.000Z",
-      "excerpt": "The spy family series returns for the fall season",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/ddb215fd50/mission-yozakura-family-2-2-ending-hero.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f6c91c757d6ab4a9",
-      "title": "Magical Sisters Lulutto Lilly and Maebashi Witches Anime Cross Over in New Visual",
-      "link": "https://crunchyroll.com/news/latest/2026/10/20/magical-sisters-lulutto-lilly-maebashi-witches-anime-crossover-visual",
-      "publishedAt": "2026-10-20T17:07:00.000Z",
-      "excerpt": "Voice actor Tomokazu Sugita links the two magical idol series",
-      "image": "https://a.storyblok.com/f/178900/1460x821/3791f585dc/magical-sisters-lulutto-lilly-hero.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "877e51b15724b45c",
-      "title": "Compile Heart's Villion:Code Game Launches in West on January 26",
-      "link": "https://www.animenewsnetwork.com/daily-briefs/2026-10-20/compile-heart-villion-code-game-launches-in-west-on-january-26/.243029",
-      "publishedAt": "2026-10-20T16:30:00.000Z",
-      "excerpt": "Idea Factory International announced on Tuesday that it will release Villion:Code, developer Compile Heart's new school RPG, in the West for Nintendo Switch...",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gKD/cms/news.9/233591/villioncode-vertical.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

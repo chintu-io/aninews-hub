@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T07:02:04.667Z",
+  "generatedAt": "2026-10-29T07:31:52.989Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 129,
+      "count": 128,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 109,
+      "count": 108,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 233,
+      "count": 234,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 61,
+      "count": 62,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 627,
+    "translatedJapaneseArticles": 628,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "a66b086c4228a6b4",
+      "title": "THE SUPER FRUIT、メジャーファーストアルバム『SUPER JAM』初回限定SUPER盤ティザー映像公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166944",
+      "publishedAt": "2026-10-29T07:10:00.000Z",
+      "excerpt": "THE SUPER FRUITが、11月11日発売のメジャーファーストアルバム『SUPER JAM",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166944/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "THE SUPER FRUIT releases teaser video for first limited SUPER edition of major first album “SUPER JAM”",
+      "translatedExcerpt": "THE SUPER FRUIT will release their first major album “SUPER JAM” on November 11th."
+    },
     {
       "id": "6045a50466c0a32b",
       "title": "MAZZEL「Touch」ビルボード総合首位に喜びのコメントが到着「これからも地に足をつけて、コツコツと頑張っていきたい」",
@@ -893,7 +912,7 @@
       "title": "Japanese Idol Forced to Choose Between Fan Relationship & Career",
       "link": "https://news.sankakucomplex.com/n/Yx6IxgL_dVxdydlILseAGw",
       "publishedAt": "2026-10-29T01:00:07.000Z",
-      "excerpt": "A 20-year-old Japanese idol has issued a tearful public apology after admitting to privately communicating with a fan, revealing that her agency gave her an ultimatum: cut ties with the individual or abandon her idol career.",
+      "excerpt": "A 20-year-old Japanese idol has issued a tearful public apology after admitting to privately communicating with a fan, revealing that her agency gave her an ultimatum: cut ties with the individual or abandon her idol career. Yumepirika, a member of the five-person idol group Aisunattsu, addressed…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1092,7 +1111,7 @@
       "title": "Bandai Namco Suffers Cyberattack, Customer Data Potentially Leaked",
       "link": "https://news.sankakucomplex.com/n/zO6y9yesXv6oeySXpRmitA",
       "publishedAt": "2026-10-28T21:00:28.000Z",
-      "excerpt": "Japanese entertainment giant Bandai Namco has suffered a cyberattack targeting one of its logistics subsidiaries, potentially exposing the personal information of customers using its popular Ichiban Kuji Online lottery service. Bandai Namco Holdings announced the security incident on October 26,…",
+      "excerpt": "Japanese entertainment giant Bandai Namco has suffered a cyberattack targeting one of its logistics subsidiaries, potentially exposing the personal information of customers using its popular Ichiban Kuji Online lottery service.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -7508,6 +7527,23 @@
       },
       "translatedTitle": "Supervised by H ZETT M himself, there is also a project to release H ZETTRIO's latest AL \"QUESTUNE\" piano score and solicit performance videos.",
       "translatedExcerpt": "The official piano score of H ZETTRIO's latest album \"QUESTUNE\" is available digitally for Japan."
+    },
+    {
+      "id": "98e058c5153c1d8f",
+      "title": "Blue Archive’s Kirara Lets Her Toes Out in New Figurine",
+      "link": "https://news.sankakucomplex.com/n/9qfjbcXzACKtOjDMLzup1A",
+      "publishedAt": "2026-10-26T07:00:14.000Z",
+      "excerpt": "A certain sect of individuals will really appreciate this new figurine of Blue Archive’s Kirara as it focuses on her exposed feet, though her plump thighs and curvaceous bosom might also prove appealing for those with more normal tastes.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "4122503568a9b4a0",
@@ -18415,40 +18451,6 @@
       "publishedAt": "2026-10-20T20:00:00.000Z",
       "excerpt": "Yumia Fujisaki, Hikari Ishida, Hisako Manda join cast",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF6/cms/news.10/243006/twistedsisters-cast.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "db889a554e9aabc9",
-      "title": "Villion:Code Action-RPG Release Date Set for North America and Europe",
-      "link": "https://crunchyroll.com/news/latest/2026/10/20/villion-code-release-date-north-america-europe",
-      "publishedAt": "2026-10-20T19:38:00.000Z",
-      "excerpt": "Producer Cozy Okada’s latest touches down on January 26, 2027",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/2bd664ad92/villion-code-date.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "40696967864266d6",
-      "title": "Live-Action Look Back Film Screens in N. American Theaters on December 30",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/live-action-look-back-film-screens-in-n-american-theaters-on-december-30/.243034",
-      "publishedAt": "2026-10-20T19:00:04.000Z",
-      "excerpt": "GKIDS screens film nationwide in theaters on January 15",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gD9/youtube/ILBDFlYMGAY.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",

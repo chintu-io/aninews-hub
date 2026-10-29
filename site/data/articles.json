@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:32:07.234Z",
+  "generatedAt": "2026-10-29T13:01:48.071Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 129,
+      "count": 128,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 16,
+      "count": 15,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 234,
+      "count": 236,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,67 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 632,
+    "translatedJapaneseArticles": 634,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "7bc403a5a73edc31",
+      "title": "SEKAI NO OWARI、ドームツアー【Du Gara Di Du】ライブ映像を1日限りの全編公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166959",
+      "publishedAt": "2026-10-29T12:50:00.000Z",
+      "excerpt": "SEKAI NO OWARIが、ドームツアー【DOME TOUR 2022『Du Gara Di",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166959/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "SEKAI NO OWARI, dome tour [Du Gara Di Du] live video released in full for one day only",
+      "translatedExcerpt": "SEKAI NO OWARI will be holding a dome tour [DOME TOUR 2022 “Du Gara Di"
+    },
+    {
+      "id": "26913dc9f88f15cf",
+      "title": "supercell、劇場アニメ『魔法使いの夜』主題歌「夜と青」リリース情報を解禁",
+      "link": "https://www.billboard-japan.com/d_news/detail/166957",
+      "publishedAt": "2026-10-29T12:45:00.000Z",
+      "excerpt": "supercellが、新曲「夜と青」のリリース情報を解禁した。 新曲「夜と青」は、2026年1",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166957/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "supercell releases release information for the theme song “Yoru to Ao” for the theatrical anime “The Wizard’s Night”",
+      "translatedExcerpt": "supercell has released the release information for their new song \"Yoru to Ao\". The new song “Yoru to Ao” will be released in January 2026."
+    },
+    {
+      "id": "fad1bf84032920ce",
+      "title": "IMP.、新曲「Period」先行配信／アルバム『PERIOD.』へのソロ楽曲収録／リリイベ開催が決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166955",
+      "publishedAt": "2026-10-29T12:35:00.000Z",
+      "excerpt": "IMP.が、2026年11月9日に新曲「Period」を先行配信リリースし、ミュージックビデオをY",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166955/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "IMP., new song “Period” will be distributed in advance / Solo song will be included in the album “PERIOD.” / Lily event will be held",
+      "translatedExcerpt": "IMP. will pre-release the new song “Period” on November 9, 2026, and the music video will be released on Y"
+    },
     {
       "id": "f3b002be452c6065",
       "title": "G-FREAK FACTORY、初の日本武道館ライブを2027年4月開催決定",
@@ -2166,7 +2223,7 @@
       "title": "Bandai Namco Suffers Cyberattack, Customer Data Potentially Leaked",
       "link": "https://news.sankakucomplex.com/n/zO6y9yesXv6oeySXpRmitA",
       "publishedAt": "2026-10-28T21:00:28.000Z",
-      "excerpt": "Japanese entertainment giant Bandai Namco has suffered a cyberattack targeting one of its logistics subsidiaries, potentially exposing the personal information of customers using its popular Ichiban Kuji Online lottery service.",
+      "excerpt": "Japanese entertainment giant Bandai Namco has suffered a cyberattack targeting one of its logistics subsidiaries, potentially exposing the personal information of customers using its popular Ichiban Kuji Online lottery service. Bandai Namco Holdings announced the security incident on October 26,…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18415,59 +18472,6 @@
       },
       "translatedTitle": "``Iroha's love lasts for ages'' ``I wonder if Iroha (Mone Kamishiraishi) was called in because of Iku Ryu (Koji Mukai)'' ``I thought it was a romantic comedy, but it turns out to be a surprisingly passionate educational drama.''",
       "translatedExcerpt": "The second episode of \"Iroha no Koi wa Jidai Kakeru\" (TBS) was broadcast on the 20th. This work is starring Mone Kamishiraishi"
-    },
-    {
-      "id": "7f54d07f2bd00d96",
-      "title": "'Haru to Gen ~70-sai, Hajimete Kosodate~' Short Anime's Teaser Reveals Cast, January 4 Debut",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-21/haru-to-gen-~70-sai-hajimete-kosodate~-short-anime-teaser-reveals-cast-january-4-debut/.243050",
-      "publishedAt": "2026-10-21T04:54:32.000Z",
-      "excerpt": "Bin Shimada, Hiromi Igarashi, Mayuko Kazama star",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIG/youtube/DFbZN4QYhao.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "d04aa1d76ad039c0",
-      "title": "「kiDnap GAME」“新出”坂口健太郎とアムのやり取りに「泣けた」 犯人を巡りさまざまな声「尾野真千子がラスボス?」「記者が詳し過ぎる」",
-      "link": "https://www.billboard-japan.com/d_news/detail/166711",
-      "publishedAt": "2026-10-21T04:30:00.000Z",
-      "excerpt": "坂口健太郎が主演する国際共同製作ドラマ「kiDnap GAME」（フジテレビ系）の第3話が、20日",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166711/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "``kiDnap GAME'' ``I cried'' at the exchange between Kentaro Sakaguchi and Amu, ``Shinde'' Various voices surrounding the culprit: ``Is Machiko Ono the final boss?'' ``The reporter knows too much information.''",
-      "translatedExcerpt": "The third episode of the international co-produced drama \"kiDnap GAME\" (Fuji TV) starring Kentaro Sakaguchi will be released on the 20th."
-    },
-    {
-      "id": "49b940358a3209a9",
-      "title": "'Seibetsu \"Mona Lisa\" no Kimi e.' Unveils Additional Cast, Staff, Ending Theme, First Promo, 2027 Debut",
-      "link": "https://myanimelist.net/news/74843217?_location=rss",
-      "publishedAt": "2026-10-21T04:10:10.000Z",
-      "excerpt": "The official website for the television anime adaptation of Tsumuji Yoshimura's Seibetsu \"Mona Lisa\" no Kimi e. (Just Like Mona Lisa) manga unveiled additional cast, staff, a key visual (pictured right), the ending theme, and first promotional video on Wednesday. The anime series will premiere in 2027. Cast Yoshino Aoyama (Bocchi the Rock!) Nobuhiko Okamo…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1792555769-087463e39aef266a6a8657e4e4da919a.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
     }
   ]
 }

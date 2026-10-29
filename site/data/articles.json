@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T06:01:43.520Z",
+  "generatedAt": "2026-10-29T06:33:12.341Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 110,
+      "count": 109,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 176,
+      "count": 177,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 61,
       "fetchedCount": 24
     }
@@ -163,10 +163,48 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 626,
+    "translatedJapaneseArticles": 627,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "6045a50466c0a32b",
+      "title": "MAZZEL「Touch」ビルボード総合首位に喜びのコメントが到着「これからも地に足をつけて、コツコツと頑張っていきたい」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166929",
+      "publishedAt": "2026-10-29T06:30:00.000Z",
+      "excerpt": "2026年10月28日公開（集計期間：2026年10月19日～10月25日）のBillboard",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166929/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "MAZZEL's ``Touch'' received comments of joy on Billboard's overall top spot ``I want to continue to keep my feet on the ground and work hard''",
+      "translatedExcerpt": "Billboard released on October 28, 2026 (Aggregation period: October 19, 2026 to October 25, 2026)"
+    },
+    {
+      "id": "0506157fc78a0c09",
+      "title": "KATSEYE、横浜アリーナで来日公演開催",
+      "link": "https://ototoy.jp/news/132529",
+      "publishedAt": "2026-10-29T06:15:00.000Z",
+      "excerpt": "KATSEYEのアリーナ来日公演が決定。2027年1月27日(水)に横浜アリーナにて開催される。 本公演は、各地でソールドアウトを記録しているワールド・ツアー〈THE WILDWORLD TOUR〉の一環として開催される、待望のアリーナ来日公演となる。 最新EP『WILD』を引っ下げたグループ初のアリーナ・ツアーとなる同ツアーは、現地時間9月1日にアイルランド・ダブリンからスタート。現在開催中の、ヨーロッパと北米の10カ国・27都市を巡る全31公演のチケットはすべてソールドアウトとなっている。KATSEYEは今年、米Billboardや全英オフィシャル・チャートなど、世界の主要音楽チャートで相次いで好成績を記録し、グローバルな人気を拡大してきた。8月14日にリリースした3rd EP『WILD』は、米Bil…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132529/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "KATSEYE to hold performance in Japan at Yokohama Arena",
+      "translatedExcerpt": "KATSEYE's arena performance in Japan has been decided. It will be held at Yokohama Arena on Wednesday, January 27, 2027. This performance will be the long-awaited arena performance in Japan, which will be held as part of the world tour <THE WILDWORLD TOUR>, which has sold out in various places. The tour, which will be the group's first arena tour in support of their latest EP ``WILD'', will begin in Dublin, Ireland on September 1st local time. All tickets for the 31 performances currently being held in 27 cities in 10 countries in Europe and North America are sold out. This year, KATSEYE has continued to record strong results on major music charts around the world, including the US Billboard and UK Official Charts, expanding their global popularity. The 3rd EP “WILD” released on August 14th was released by Bill…"
+    },
     {
       "id": "8b57f5705347e73a",
       "title": "ドレイク、40歳の誕生日にジェフ・ロスからサプライズで毒舌いじりの洗礼を受ける",
@@ -18418,42 +18456,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "3b24cdf3181a8827",
-      "title": "back number「高嶺の花子さん」ストリーミング累計9億回突破 「花束」も7億回突破【ビルボード】",
-      "link": "https://www.billboard-japan.com/d_news/detail/166683",
-      "publishedAt": "2026-10-20T19:00:00.000Z",
-      "excerpt": "back number「高嶺の花子さん」が、Billboard JAPANチャートのストリーミング",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166683/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "back number “Takamine no Hanako-san” has been streamed more than 900 million times “Bouquet” has also been streamed more than 700 million times [Billboard]",
-      "translatedExcerpt": "back number “Takamine no Hanako-san” is streaming on the Billboard JAPAN chart"
-    },
-    {
-      "id": "659f3513cc4667a6",
-      "title": "MURCIÉLAGO Anime Reveals Teaser Trailer, Visual and Cast Additions",
-      "link": "https://crunchyroll.com/news/latest/2026/10/20/murcielago-anime-teaser-trailer-visual-cast",
-      "publishedAt": "2026-10-20T18:49:00.000Z",
-      "excerpt": "The adaptation of Yoshimurakana's manga premieres in January 2027",
-      "image": "https://a.storyblok.com/f/178900/1460x821/6eeee64ffd/murcielago_kuroko_header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
         "language": "en"
       }
     }

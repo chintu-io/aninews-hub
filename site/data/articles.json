@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T09:02:09.300Z",
+  "generatedAt": "2026-10-29T09:32:08.312Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 106,
+      "count": 105,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 14,
+      "count": 15,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 244,
+      "count": 241,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 239,
+      "count": 241,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -153,8 +153,8 @@
       "name": "Sankaku Complex",
       "status": "ok",
       "mode": "jina-reader",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
-      "count": 60,
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "count": 61,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,61 @@
     "translationAttempts": 60
   },
   "articles": [
+    {
+      "id": "c321433dbcc6c425",
+      "title": "Valve Won’t Ban AI Games Despite Steam’s Growing Problems",
+      "link": "https://news.sankakucomplex.com/n/Afh9LuNv5tm-uBFz76rgKg",
+      "publishedAt": "2026-10-29T09:00:40.000Z",
+      "excerpt": "Valve has acknowledged growing concerns over the flood of low-quality and AI-generated games appearing on Steam, revealing that numerous employees are working to improve game visibility. However, the company has no intention of restricting developers from using artificial intelligence.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "38ec322b6955fa6d",
+      "title": "TUBE、夏の横浜スタジアム公演を映像化。松山千春との共演も完全収録",
+      "link": "https://barks.jp/news/1101259",
+      "publishedAt": "2026-10-29T09:00:14.000Z",
+      "excerpt": "TUBEが今年の夏に開催した横浜スタジアム公演の模様を収めた映像作品『TUBE LIVE AROUND SPECIAL 2026 No TUBE, No Summer.』のリリースが決定した。 3万7,000人を動員した夏恒例の横浜スタジアム公演は1988年にスタート。今年も開催され、自身が持つ同会場での最多公演記録を37回に更新した。「シーズン・イン・ザ・サン」「夏を抱きしめて」「あー夏休み」といった代表曲に加え、根強い人気を誇る「十年先のラブストーリー」なども披露され、セットリストがファンからの好評を集めた公演だ。 また、TUBEメンバーと親交の深い松山千春がサプライズゲストとして登場し、コラボレーションを披露。その模様を含め、ライブの全演目が収録される。噴水や水柱、花火に加え、総勢30名を超えるダン…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/29153318/TUBE_2026_%E6%98%A0%E5%83%8F%E5%95%86%E5%93%81JK%E5%86%99%EF%BD%93.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "TUBE will film their summer performance at Yokohama Stadium. Complete recording of co-starring with Chiharu Matsuyama",
+      "translatedExcerpt": "It has been decided to release ``TUBE LIVE AROUND SPECIAL 2026 No TUBE, No Summer.'', a video work that captures the Yokohama Stadium performance held by TUBE this summer. The annual summer performance at Yokohama Stadium, which attracted 37,000 people, began in 1988. It was held again this year, breaking his own record for the most performances at the same venue to 37 times. In addition to representative songs such as ``Season in the Sun,'' ``Embrace Summer,'' and ``Ah, Summer Vacation,'' they also performed the ever-popular ``Love Story 10 Years Ahead,'' and the setlist was well-received by fans. In addition, Chiharu Matsuyama, who is close friends with TUBE members, appeared as a surprise guest and performed a collaboration. The entire live performance, including the footage, will be recorded. In addition to fountains, water columns, and fireworks, there was a dance performance with over 30 people in total..."
+    },
+    {
+      "id": "da56c1ca88d1d536",
+      "title": "IMP.、3rdアルバムにメンバーセルフプロデュースのソロ楽曲を初収録。「Period」先行配信＆MVプレミア公開も",
+      "link": "https://barks.jp/news/1101270",
+      "publishedAt": "2026-10-29T09:00:13.000Z",
+      "excerpt": "IMP.が3rdアルバム『PERIOD.』を12月14日(月)にリリースする。このたびアルバムの予約受付がスタートするとともに、リードトラック「Period」の先行配信が11月9日(月)0時にスタートすることと「Period」ミュージックビデオのYouTubeプレミア公開が発表された。 11月9日(月)より先行配信がスタートする新曲「Period」は、小渕健太郎(コブクロ)プロデュースの風景や心情が聴く人の心の中に鮮やかに浮かぶような冬のラブソング。MV公開に先駆け、ティザー映像も解禁されている。 また、3rdアルバム『PERIOD.』ではメンバーセルフプロデュースのソロ楽曲が全形態に収録されることが決定。楽曲とメンバーは以下のとおりだ。 ■メンバーセルフプロデュースソロ楽曲 (『PERIOD.』全形態収…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/19135232/IMP._PERIOD._Aphoto.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "IMP.'s 3rd album includes solo songs self-produced by the members for the first time. “Period” advance distribution & MV premiere released",
+      "translatedExcerpt": "IMP. will release their 3rd album “PERIOD.” on December 14th (Monday). In addition to accepting pre-orders for the album, it was also announced that advance distribution of the lead track \"Period\" will start at midnight on Monday, November 9th, and the YouTube premiere of the \"Period\" music video will be released. The new song \"Period\", which will be available for pre-release on November 9th (Monday), is a winter love song produced by Kentaro Obuchi (Kobukuro) whose scenery and emotions will vividly appear in the hearts of the listeners. A teaser video has also been released ahead of the MV release. In addition, it has been decided that all versions of the 3rd album ``PERIOD.'' will include solo songs self-produced by the members. The songs and members are as follows. ■Member self-produced solo songs (includes all forms of “PERIOD.”)"
+    },
     {
       "id": "e1aad50a2d0afc45",
       "title": "【ライブレポート】iri、初のアリーナ単独公演で飾った10周年の節目「音楽は大切な誰かと会える場所」",
@@ -204,6 +259,23 @@
       },
       "translatedTitle": "<aiko Live Tour “Love Like Pop vol.26”> Tour goods lineup announced",
       "translatedExcerpt": "<aiko Live Tour \"Love Like Pop vol.26\"> The lineup of tour goods has been announced. Aiko's live goods are designed by herself every time, and there are items that attract a lot of attention among fans, with some items selling out immediately after they go on sale. This time, new items such as soup jars and blankets will be introduced for the first time. In addition, the lineup includes standard towels, stickers, pamphlets, and other unique goods. Additionally, there will be a gacha gacha with a total of 17 types available at the tour venue. In addition to selling tour goods at the venue, online sales are scheduled to start from 18:00 on Friday, October 30th. It will be sold at the \"aiko online store\" on the aiko official website..."
+    },
+    {
+      "id": "53293c5b2e50446a",
+      "title": "'Saijaku na Boku wa \"Kabenuke Bug\" de Nariagaru' Announces Additional Cast, Staff",
+      "link": "https://myanimelist.net/news/74880301?_location=rss",
+      "publishedAt": "2026-10-29T09:00:03.000Z",
+      "excerpt": "The official website of the Saijaku na Boku wa \"Kabenuke Bug\" de Nariagaru (No-Clipping My Way to Supremacy!) television anime announced additional cast and staff on Thursday. The anime series adapting Nikita Kitagawa's adventure fantasy light novel will premiere in 2027. Cast Auroia Schmiket: Nao Ojika (Mahou no Shimai Lulutto Lilly) Don: Kengo Tsujii (L…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793262421-2394a19e94efff0e1add8e8e38083e6c.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
     },
     {
       "id": "bd5429e68bceac7c",
@@ -18408,80 +18480,6 @@
         "accent": "#ff6784",
         "language": "en"
       }
-    },
-    {
-      "id": "5c04f183f2806600",
-      "title": "スガ シカオ、アニメ『恐怖コレクター』EDテーマの新曲「迷路」配信スタート",
-      "link": "https://www.billboard-japan.com/d_news/detail/166700",
-      "publishedAt": "2026-10-21T01:35:00.000Z",
-      "excerpt": "スガ シカオが、現在放送中のNHK総合テレビアニメ『恐怖コレクター』エンディングテーマの新曲「迷路",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166700/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Suga Shikao releases new song “Maze”, ending theme for anime “Terror Collector”",
-      "translatedExcerpt": "Suga Shikao's new song \"Maze"
-    },
-    {
-      "id": "78904fa3bbdf20cd",
-      "title": "Nana Mizuki Releases Red River Anime Cour 2 Opening Song Music Video",
-      "link": "https://crunchyroll.com/news/latest/2026/10/21/red-river-anime-cour-2-opening-song-music-video-nana-mizuki",
-      "publishedAt": "2026-10-21T01:32:00.000Z",
-      "excerpt": "The adaptation of Chie Yoshihara's manga is available on Crunchyroll",
-      "image": "https://a.storyblok.com/f/178900/960x540/33356bd048/nana-mizuki-akatsuki-no-hoshi-mv.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "da8ba91dbd178012",
-      "title": "ウィリアム・タイラー初来日公演11/4開催、SPゲストとして岡田拓郎出演",
-      "link": "https://www.billboard-japan.com/d_news/detail/166697",
-      "publishedAt": "2026-10-21T01:30:00.000Z",
-      "excerpt": "米ナッシュビルを拠点に活動するギタリスト／作曲家、ウィリアム・タイラーの初来日公演が、2026年1",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166697/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "William Tyler's first performance in Japan will be held on November 4th, Takuro Okada will appear as special guest",
-      "translatedExcerpt": "Nashville-based guitarist/composer William Tyler will perform in Japan for the first time in January 2026."
-    },
-    {
-      "id": "997f1551280b7a9d",
-      "title": "Novelbright、【HALL&ARENA TOUR 2026～PYRAMID～】大阪城ホールファイナル公演のライブレポート到着",
-      "link": "https://www.billboard-japan.com/d_news/detail/166698",
-      "publishedAt": "2026-10-21T01:15:00.000Z",
-      "excerpt": "Novelbrightが【Novelbright HALL&ARENA TOUR 2026",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166698/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Novelbright, [HALL&ARENA TOUR 2026 ~PYRAMID~] Osaka Castle Hall final performance live report arrives",
-      "translatedExcerpt": "Novelbright [Novelbright HALL&ARENA TOUR 2026"
     }
   ]
 }

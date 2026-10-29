@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T13:01:48.071Z",
+  "generatedAt": "2026-10-29T13:31:47.042Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 38,
+      "count": 37,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 107,
+      "count": 105,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 236,
+      "count": 238,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 243,
+      "count": 244,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 174,
+      "count": 173,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 59,
+      "count": 60,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,139 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 634,
+    "translatedJapaneseArticles": 637,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "b5b971f604186ed6",
+      "title": "ダンスアーティスト・GANMI、作詞・作曲・プロデュースに挑戦した新曲「CAR CHASE」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166962",
+      "publishedAt": "2026-10-29T13:30:00.000Z",
+      "excerpt": "GANMIが、作詞・作曲・プロデュースに挑戦した新曲「CAR CHASE (feat. Bestt",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166962/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Dance artist GANMI releases MV for new song “CAR CHASE” in which he takes on the challenge of writing, composing, and producing lyrics.",
+      "translatedExcerpt": "GANMI takes on the challenge of writing, composing, and producing a new song “CAR CHASE (feat. Bestt"
+    },
+    {
+      "id": "94a99e85eeb182a6",
+      "title": "iiONDOの初冠特番『はじめまして、iiONDOです』、東武動物公園でお仕事ミッションに挑む",
+      "link": "https://www.billboard-japan.com/d_news/detail/166961",
+      "publishedAt": "2026-10-29T13:15:00.000Z",
+      "excerpt": "iiONDOの初冠特番『はじめまして、iiONDOです』が、2026年11月7日にテレビ東京ほかで",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166961/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "iiONDO's first special program \"Nice to meet you, I'm iiONDO\" takes on a work mission at Tobu Zoo",
+      "translatedExcerpt": "iiONDO's first special program \"Nice to meet you, I'm iiONDO\" will air on TV Tokyo and other channels on November 7, 2026."
+    },
+    {
+      "id": "b09dea7db198b539",
+      "title": "Japanese Animation TV Ranking, October 12-18",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-29/japanese-animation-tv-ranking-october-12-18/.243177",
+      "publishedAt": "2026-10-29T13:15:00.000Z",
+      "excerpt": "The Apothecary Diaries season 3 earns 3.6% rating, Dragon Ball Super: Beerus earns 2.8% rating",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g93/encyc/A38367-2361689916.1791813611.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "7ca9722694063dcf",
+      "title": "10-FEET、初の日本武道館ライブを2027年4月開催決定",
+      "link": "https://barks.jp/news/1101372",
+      "publishedAt": "2026-10-29T13:10:00.000Z",
+      "excerpt": "10-FEETが2027年4月27日、自身初の日本武道館公演＜10-FEET 30th Anniversary ONE-MAN LIVE『10-FEET HISTORY』〜日本武道館〜＞を開催することが発表となった。 本公演は、10-FEETとG-FREAK FACTORYが来年2027年に開催するツーマン全国ツアーの終着点として開催されるもの。2027年、ともに30周年を迎える両バンドだが、そのツーマンツアーのタイトルで一部伏せられていた“〜2本◯◯◯〜”の部分が、＜10-FEET × G-FREAK FACTORY 30th Anniversary『10-FREAK HISTORY』〜2本武道館〜＞となることが今回正式に明かされた。 なお、10-FEETによる日本武道館公演の翌日4月28日には、盟友G…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/29215558/01_261002%E6%9B%B4%E6%96%B0_10-FEET%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F-2048x1365-1-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "10-FEET will hold their first Nippon Budokan live in April 2027",
+      "translatedExcerpt": "It has been announced that 10-FEET will hold their first Nippon Budokan performance <10-FEET 30th Anniversary ONE-MAN LIVE \"10-FEET HISTORY\" ~ Nippon Budokan ~> on April 27, 2027. This performance will be held as the final stop of a two-man national tour that 10-FEET and G-FREAK FACTORY will hold next year in 2027. Both bands will celebrate their 30th anniversary in 2027, and it has now been officially revealed that the part of their two-man tour title that had been kept a secret, \"~2 ◯◯◯~\", will be ``10-FEET × G-FREAK FACTORY 30th Anniversary \"10-FREAK HISTORY\" ~2 Budokan~''. In addition, on April 28th, the day after 10-FEET's performance at Nippon Budokan, their ally G..."
+    },
+    {
+      "id": "c36c7b185c57f463",
+      "title": "BE:FIRST、ニューアルバム『BE:4U』コンテンツカレンダーを公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166960",
+      "publishedAt": "2026-10-29T13:10:00.000Z",
+      "excerpt": "BE:FIRSTが、2026年11月3日にリリースとなるニューアルバム『BE:4U』のコンテンツカ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166960/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "BE:FIRST releases content calendar for new album “BE:4U”",
+      "translatedExcerpt": "BE:FIRST will release the content of their new album “BE:4U” on November 3, 2026."
+    },
+    {
+      "id": "941ff7fe7c45a96b",
+      "title": "Japan Still Classifies Refusing to Pay for Dates as “Domestic Violence”",
+      "link": "https://news.sankakucomplex.com/n/QB91tWuj2Nxae3otrFIYgw",
+      "publishedAt": "2026-10-29T13:00:50.000Z",
+      "excerpt": "Japan’s government has once again sparked controversy over its official domestic violence guidelines, which continue to list refusing to pay for any dating expenses as a form of economic abuse.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "a883d7e3befa4bd5",
+      "title": "フジテレビ『STAR』、11/5はAぇ! group、KAITO、氣志團、GENERATIONS、DA PUMP、PUFFYが登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/166949",
+      "publishedAt": "2026-10-29T13:00:00.000Z",
+      "excerpt": "フジテレビの音楽番組『STAR』の11月5日放送回の出演者が発表された。 『FNS歌謡祭』を手",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166949/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Fuji TV “STAR” will feature Ae! group, KAITO, Kishidan, GENERATIONS, DA PUMP, and PUFFY on November 5th",
+      "translatedExcerpt": "The performers for the November 5th broadcast of Fuji TV's music program ``STAR'' have been announced. Hands on “FNS Kayosai”"
+    },
     {
       "id": "7bc403a5a73edc31",
       "title": "SEKAI NO OWARI、ドームツアー【Du Gara Di Du】ライブ映像を1日限りの全編公開",
@@ -2223,7 +2352,7 @@
       "title": "Bandai Namco Suffers Cyberattack, Customer Data Potentially Leaked",
       "link": "https://news.sankakucomplex.com/n/zO6y9yesXv6oeySXpRmitA",
       "publishedAt": "2026-10-28T21:00:28.000Z",
-      "excerpt": "Japanese entertainment giant Bandai Namco has suffered a cyberattack targeting one of its logistics subsidiaries, potentially exposing the personal information of customers using its popular Ichiban Kuji Online lottery service. Bandai Namco Holdings announced the security incident on October 26,…",
+      "excerpt": "Japanese entertainment giant Bandai Namco has suffered a cyberattack targeting one of its logistics subsidiaries, potentially exposing the personal information of customers using its popular Ichiban Kuji Online lottery service.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18347,131 +18476,6 @@
       },
       "translatedTitle": "\"Charisma\", official guidebook cover & shop benefits released",
       "translatedExcerpt": "Superhuman share house story ``Charisma'' has released the cover and shop bonus images of their first official guidebook ``Charisma's Friends.'' This is a newly drawn illustration for this guidebook, and chibi characters also appear, creating a lively design. The official guidebook ``Charismatic Friends'' is a thorough study of characters and stories. It is not only an introductory guide to ``Charisma,'' but also features many enjoyable sections such as 7 type diagnosis. In addition, the attached appendix will be ``stickers'' and ``sugoroku'', and it is said that it has a large volume of content that can be played many times with just one book. In addition, the first limited edition comes with a CD containing the new song ``Romance no Charisma,'' which is a partial cover of Hirose Kami's representative song ``Romance no Kamisama.'' This song was newly composed by himself..."
-    },
-    {
-      "id": "814504a7bed2c291",
-      "title": "ドーチー、新曲「CATWOMAN」の広大な荒野を舞台にしたMV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166718",
-      "publishedAt": "2026-10-21T06:00:00.000Z",
-      "excerpt": "ドーチーが、新曲「CATWOMAN」のパフォーマンス映像を自身の&rdquo;スワンプ・セッション",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166718/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Dorchy releases music video for new song “CATWOMAN” set in vast wilderness",
-      "translatedExcerpt": "Dorchy releases performance video for new song “CATWOMAN” from his own “swamp session”"
-    },
-    {
-      "id": "b7d0bbc80cd19765",
-      "title": "Just Like Mona Lisa TV Anime's 1st Trailer Unveils More Cast & Staff, 2027 Debut",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-21/just-like-mona-lisa-tv-anime-1st-trailer-unveils-more-cast-and-staff-2027-debut/.243048",
-      "publishedAt": "2026-10-21T05:52:21.000Z",
-      "excerpt": "Trailer reveals ending song \"Mayoi wa Hikari\" by imase",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gCD/cms/news.10/243048/mona.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "b8f6bb7b7ccc52f4",
-      "title": "Pokémon TCG Pocket Debuts New Typing, Special Promos in New Dual Fusion Set",
-      "link": "https://crunchyroll.com/news/latest/2026/10/21/pokemon-tcg-pocket-dual-fusion-set-announced",
-      "publishedAt": "2026-10-21T05:41:00.000Z",
-      "excerpt": "Pikachu and the rest of the starters get their own special packs",
-      "image": "https://a.storyblok.com/f/178900/1920x1076/cbb49e6340/pokemon-tcg-pocket-dual-fusion-set.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "175c898ec020f9ad",
-      "title": "Voice Actor Hiroshi Tsuchida Passes Away at 54",
-      "link": "https://crunchyroll.com/news/latest/2026/10/21/voice-actor-hiroshi-tsuchida-passes-away",
-      "publishedAt": "2026-10-21T05:33:00.000Z",
-      "excerpt": "Tsuchida was also known as Ninja Blue in Ninja Sentai Kakuranger",
-      "image": "https://a.storyblok.com/f/178900/960x539/88d16ec88f/hiroshi-tsuchida.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "ae5e1e834891df4e",
-      "title": "NMB48、「ナギイチ ～all members 2026～」新衣装ライブ映像公開＆「ミステリー講座」ユニット曲収録決定",
-      "link": "https://ototoy.jp/news/132360",
-      "publishedAt": "2026-10-21T05:30:00.000Z",
-      "excerpt": "NMB48が、「ナギイチ ～all members 2026～」のライブ映像をYouTubeで公開した。 今回公開されたのは、10月18日に大阪・オリックス劇場で開催された「NMB48 16th Anniversary LIVE GO TO 城 〜皆と共に〜」での映像。同公演で初披露された、新衣装での「ナギイチ ～all members 2026～」のパフォーマンスを楽しむことができる。 「ナギイチ ～all members 2026～」は、12月9日発売のNMB48の34thシングルにカップリング曲として収録されることも決定。10月16日に音源配信とミュージックビデオの公開を迎えた同曲に、新たにライブ映像が加わった。 さらに、10月19日に生配信されたYouTube「田中美空のミステリー講座」では、田中…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132360/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "NMB48, “Nagiichi ~all members 2026~” new costume live video released & “Mystery Course” unit song recording decided",
-      "translatedExcerpt": "NMB48 has released a live video of \"Nagiichi ~all members 2026~\" on YouTube. This time, the video was released at \"NMB48 16th Anniversary LIVE GO TO Castle ~With Everyone~\" held at Osaka's Orix Theater on October 18th. You can enjoy the performance of \"Nagiichi ~all members 2026~\" in the new costume that was unveiled for the first time at the same performance. It has also been decided that \"Nagiichi ~all members 2026~\" will be included as a coupling song on NMB48's 34th single, which will be released on December 9th. A new live video has been added to the song, which was released on October 16th as the audio source and music video. Furthermore, in the YouTube “Misora ​​Tanaka Mystery Lecture” that was live-streamed on October 19th, Tanaka…"
-    },
-    {
-      "id": "4c05a2bfd6b1a12f",
-      "title": "New Studio Ghibli anime gets extended run at the only cinema in Japan where it’s being shown",
-      "link": "https://soranews24.com/2026/10/21/new-studio-ghibli-anime-gets-extended-run-at-the-only-cinema-in-japan-where-its-being-shown/",
-      "publishedAt": "2026-10-21T05:00:44.000Z",
-      "excerpt": "If you’re planning a trip to Japan soon, you’ll have a better chance of seeing A Night in the Valley of Witches. Studio Ghibli is world-famous for its feature-length anime movies, but what a lot of fans don’t know is that the studio has a roster of animated shorts that are just as captivating. These […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/Studio-Ghibli-Park-new-anime-Valley-of-Witches-movie-film-cinema-Goro-Miyazaki-travel-Aichi-news-1.jpeg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "98ae5f6b3857a353",
-      "title": "「いろはの恋は時代をかける」「いろは（上白石萌音）は生琉（向井康二）のために呼ばれたのかな」「ラブコメかと思ったら、意外と熱い教育ドラマになっている」",
-      "link": "https://www.billboard-japan.com/d_news/detail/166715",
-      "publishedAt": "2026-10-21T05:00:00.000Z",
-      "excerpt": "「いろはの恋は時代をかける」（TBS系）の第2話が20日に放送された。 本作は、主演・上白石萌音",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166715/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "``Iroha's love lasts for ages'' ``I wonder if Iroha (Mone Kamishiraishi) was called in because of Iku Ryu (Koji Mukai)'' ``I thought it was a romantic comedy, but it turns out to be a surprisingly passionate educational drama.''",
-      "translatedExcerpt": "The second episode of \"Iroha no Koi wa Jidai Kakeru\" (TBS) was broadcast on the 20th. This work is starring Mone Kamishiraishi"
     }
   ]
 }

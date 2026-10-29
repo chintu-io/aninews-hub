@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T03:02:10.843Z",
+  "generatedAt": "2026-10-29T03:31:49.296Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 135,
+      "count": 133,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 114,
+      "count": 113,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 222,
+      "count": 225,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 237,
+      "count": 234,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 174,
+      "count": 176,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 61,
+      "count": 62,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,67 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 614,
+    "translatedJapaneseArticles": 617,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "d1e92d09ebd7a1bb",
+      "title": "GENERATIONS、CDシングル『VIBE』10/28リリース＆「SAIKO!!」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166925",
+      "publishedAt": "2026-10-29T03:30:00.000Z",
+      "excerpt": "GENERATIONSが、約4年ぶりのCDシングル『VIBE』を10月28日にリリースした。",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166925/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "GENERATIONS, CD single “VIBE” released on 10/28 & “SAIKO!!” MV released",
+      "translatedExcerpt": "GENERATIONS released their first CD single in 4 years, ``VIBE'', on October 28th."
+    },
+    {
+      "id": "02b9e417c397873d",
+      "title": "Junna、ニュー・シングル「恋は続く」配信リリース 小久保柚乃（私立恵比寿中学）出演のMVも公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/166924",
+      "publishedAt": "2026-10-29T03:15:00.000Z",
+      "excerpt": "TVアニメ『マクロス&Delta;』で戦術音楽ユニット&ldquo;ワルキューレ&rdquo;のエ",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166924/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Junna releases new single “Koi wa Tsuzuki” and music video starring Yuno Kokubo (Ebisu Shiritsu Junior High School) is also released.",
+      "translatedExcerpt": "In the TV anime “Macross Delta”, the tactical music unit “Valkyrie”"
+    },
+    {
+      "id": "31355972e9c951b7",
+      "title": "BE:FIRST、ニューアルバム『BE:4U』コンテンツカレンダーを公開",
+      "link": "https://barks.jp/news/1101231",
+      "publishedAt": "2026-10-29T03:00:38.000Z",
+      "excerpt": "BE:FIRSTが、デビュー5周年記念日である11月3日(火)にリリースするオリジナルアルバム『BE:4U』のコンテンツカレンダーを公開した。 先日、アルバムリード曲「NOW U KNOW」のティザー映像を公開したBE:FIRST。11月1日(日)23:05からは、BE:FIRSTの5周年を記念し、5年間の軌跡を代表曲のLIVE映像やビハインドシーンで紡いだ55分の特別映像『BE:FIRST / 5th Anniversary Special Movie』がYouTubeで一夜限りプレミア公開される。（※アーカイブ配信なし） そしてプレミア公開終了後には、「NOW U KNOW」のミュージックビデオとオフィシャルオーディオが「BE:FIRST “NOW U KNOW” STATION」にて公開される。5周…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/25170311/264391_260804_BF_B4U_ArtistPhoto_trim_Large.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "BE:FIRST releases content calendar for new album “BE:4U”",
+      "translatedExcerpt": "BE:FIRST has released the content calendar for their original album ``BE:4U,'' which will be released on November 3rd (Tuesday), the 5th anniversary of their debut. BE:FIRST recently released a teaser video for their album lead song \"NOW U KNOW.\" From 23:05 on Sunday, November 1st, to commemorate BE:FIRST's 5th anniversary, a 55-minute special video ``BE:FIRST / 5th Anniversary Special Movie'' will be premiered on YouTube for one night only, depicting the 5-year trajectory with live footage of their representative songs and behind-the-scenes scenes. (*No archive distribution) After the premiere, the music video and official audio of “NOW U KNOW” will be released at “BE:FIRST “NOW U KNOW” STATION.” 5 laps..."
+    },
     {
       "id": "58335e5505491444",
       "title": "【インタビュー】BAND-MAID、アニメ『BEYBLADE X ベイキングダム編』EDテーマ「SPIN」リリース「こういう進み方がBAND-MAIDのスタイル」",
@@ -184,7 +241,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Interview] BAND-MAID releases ED theme “SPIN” for anime “BEYBLADE",
-      "translatedExcerpt": "BAND-MAID's new single \"SPIN\" is a killer tune that can be considered a perfect example of how the scene changes and abundance of information unique to this band's songs all worked in a positive direction. Moreover, not only the title song, but also the two coupling songs have extremely important topics and meanings. As the final stage of their world tour approaches, the girls have just returned from a successful American tour where all performances were sold out, but this interview was actually conducted just before they left for the United States. So, I would appreciate it if you, my readers, read this with your mind set back to the end of summer. ◆ ◆ ◆ ──So, how was your summer full of festivals? SAIKI (Vo): It was fun. However, I have appeared at so many festivals in Japan..."
+      "translatedExcerpt": "BAND-MAID's new single \"SPIN\" is a killer tune that can be considered a perfect example of how the scene changes and abundance of information unique to this band's songs all worked in a positive direction. Moreover, not only the title song, but also the two coupling songs have extremely important topics and meanings. As the final stage of their world tour approaches, the girls have just returned from a successful American tour where all performances were sold out, but this interview was actually conducted just before they left for the United States. So, I would appreciate it if you, my readers, read this with your mind set back to the end of summer. ◆ ◆ ◆ ──So, how was your summer full of festivals? SAIKI (Vo): It was fun. However, there are so many festivals in Japan..."
     },
     {
       "id": "13aa9f9562ffc0d4",
@@ -225,6 +282,25 @@
       "translatedExcerpt": "Comprehensive album charts released on October 28, 2026 (collection period: October 19, 2026 to October 25, 2026)"
     },
     {
+      "id": "c97704edb4ad659d",
+      "title": "【急上昇ワード】PassCode、人気曲を再構築",
+      "link": "https://ototoy.jp/news/132521",
+      "publishedAt": "2026-10-29T03:00:00.000Z",
+      "excerpt": "新アルバム『RE:CODE』をリリースしたPassCodeが急上昇ワードにランクイン。 本作はメジャーデビュー10周年を記念して「MISS UNLIMITED」「Ray」THE FIRST TAKEバージョンなど人気曲17曲を現メンバーで再録したアルバムとなっている。 PassCodeは現在全国ツアー『PassCode UNLIMITED X'』を開催中。 リリース情報 https://ototoy.jp/_/default/p/4341069 アーティスト情報 https://passcode-official.com https://twitter.com/passcodeo https://www.youtube.com/user/PASSCODE0000 https://www.facebook.…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132521/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Trending keywords] PassCode rebuilds popular songs",
+      "translatedExcerpt": "PassCode, who released their new album \"RE:CODE\", is ranked in the trending keywords. This album commemorates the band's 10th anniversary since their major debut and features 17 popular songs re-recorded by the current members, including the FIRST TAKE versions of \"MISS UNLIMITED\" and \"Ray.\" PassCode is currently holding a national tour called ``PassCode UNLIMITED X'''. Release information https://ototoy.jp/_/default/p/4341069 Artist information https://passcode-official.com https://twitter.com/passcodeo https://www.youtube.com/user/PASSCODE0000 https://www.facebook.…"
+    },
+    {
       "id": "22b2070fae61c9e0",
       "title": "＜徳間ジャパン 創立60周年記念スペシャルライブ＞、配信決定",
       "link": "https://barks.jp/news/1101221",
@@ -244,6 +320,25 @@
       "translatedExcerpt": "To commemorate the 60th anniversary of the founding of Tokuma Japan Communications, a special live performance <That song, this song, the trajectory ~ and the future> was held at LINE CUBE SHIBUYA in Tokyo on December 3, 2025. It has been announced that the performance, in which a total of 30 artists performed and performed a total of 57 famous songs, will be streamed on the Tokuma Japan Enka/Popular Song Channel every day at 12:00 noon starting November 2nd. The day of the special live was broadcast on BS Nippon Television on May 14, 2026, and will be rebroadcast this weekend on October 31, but 29 songs that could not be aired due to broadcast time will be distributed on the Tokuma Japan YouTube channel. Tokuma Japan singers Kazuko Mifune, Masao Chi, Linda Yamamoto, Hiroko Matsumae, Mirai Kitahara, Ikuzo Yoshi, Akiko Kanazawa, Akio Kayama, Nobue Matsubara, Croquette, Mori..."
     },
     {
+      "id": "989008efea27dc51",
+      "title": "CANDY TUNE、メンバーソロ曲収録EPリリース",
+      "link": "https://ototoy.jp/news/132525",
+      "publishedAt": "2026-10-29T03:00:00.000Z",
+      "excerpt": "CANDY TUNEメンバー7名のソロ楽曲を収録したデジタルEP『CANDY TUNE SOLO BOX』がリリースされた。 今作は楽曲制作の段階から本人たちの意見や想いを取り入れ、表現したい世界観をもとに制作された7曲を収録。各楽曲名は、桐原美月「BLACK KITTY」、福山梨乃「SKY GIRL」、南なつ「100パーセントめたもるふぉ～ぜ！」、立花琴未「Dear Rose」、小川奈々子「ましゅまろL♡VE」、村川緋杏「Quantum Love」、宮野静「アメジスタ不完全神話」。 リリース情報 https://ototoy.jp/_/default/p/4354882 アーティスト情報 https://candytune.asobisystem.com/ https://twitter.com/can…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132525/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "CANDY TUNE releases EP containing member solo songs",
+      "translatedExcerpt": "The digital EP ``CANDY TUNE SOLO BOX'' containing solo songs by 7 CANDY TUNE members has been released. This work includes seven songs that were created based on the world view that they wanted to express, incorporating their opinions and thoughts from the song production stage. The song titles are Mizuki Kirihara's ``BLACK KITTY'', Rino Fukuyama's ``SKY GIRL'', Natsu Minami's ``100 Percent Metamorphose!'', Kotomi Tachibana's ``Dear Rose'', Nanako Ogawa's ``Marshumaro L♡VE'', Hian Murakawa's ``Quantum Love'', and Shizuka Miyano's ``Amethyst Incomplete Myth''. Release information https://ototoy.jp/_/default/p/4354882 Artist information https://candytune.asobisystem.com/ https://twitter.com/can…"
+    },
+    {
       "id": "12ca00d8867f6d81",
       "title": "Fujii Kaze、「藤井風 ピアノリサイタル」11/20公演のYouTube生中継決定",
       "link": "https://www.billboard-japan.com/d_news/detail/166919",
@@ -261,6 +356,25 @@
       },
       "translatedTitle": "Fujii Kaze, \"Fujii Kaze Piano Recital\" 11/20 performance to be broadcast live on YouTube",
       "translatedExcerpt": "Fujii Kaze will perform \"Fujii Kaze Piano Recital\" to be held at Tokyo Dome on November 20th."
+    },
+    {
+      "id": "a80b43ce2e4de026",
+      "title": "オジー・オズボーン／ブラック・サバス、ライブ映画『バック・トゥ・ザ・ビギニング』日本限定盤が発売",
+      "link": "https://www.billboard-japan.com/d_news/detail/166926",
+      "publishedAt": "2026-10-29T03:00:00.000Z",
+      "excerpt": "オジー・オズボーンの生涯最後のライブとなった伝説の1日の記録映画『バック・トゥ・ザ・ビギニング』に",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166926/200x_image.jpeg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ozzy Osbourne/Black Sabbath's live movie \"Back to the Beginning\" Japan limited edition released",
+      "translatedExcerpt": "Back to the Beginning is a film chronicling the legendary day of Ozzy Osbourne's last live performance."
     },
     {
       "id": "05ccd1b3dd2bb14f",
@@ -333,8 +447,25 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "CANDY TUNE releases EP “CANDY TUNE SOLO BOX” of 7 solo songs created based on each member’s worldview",
+      "translatedTitle": "CANDY TUNE releases EP ``CANDY TUNE SOLO BOX'' of ``7 songs'' of solo songs created based on each member's worldview",
       "translatedExcerpt": "CANDY TUNE releases digital EP “CANDY TUNE SOL” which includes solo songs by 7 members."
+    },
+    {
+      "id": "1e5c5f2b44374813",
+      "title": "Solo Leveling: Arise Overdrive Game Launches for PS5, Xbox Series X|S on November 3",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-28/solo-leveling-arise-overdrive-game-launches-for-ps5-xbox-series-x-s-on-november-3/.243300",
+      "publishedAt": "2026-10-29T02:00:16.000Z",
+      "excerpt": "Game launched for PC via Steam, Xbox PC in November 2025",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHD/cms/news.10/243300/ariseoverdrive.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "14d5c070a6efa77d",
@@ -2988,7 +3119,7 @@
         "language": "ja"
       },
       "translatedTitle": "Hitsuji Bungaku's new song has been selected as the theme song for the movie \"The Great Sins of Kujo\"",
-      "translatedExcerpt": "Hitsuji Bungaku's new song ``Dispel'' has been selected as the theme song for ``The Great Sin of Kujo'', which will be released in theaters nationwide on Friday, January 8, 2027. Furthermore, it has been decided that this song will be released on various music distribution sites on Wednesday, December 16th. The Netflix series \"The Great Sin of Kujo\" has been in the Netflix Global Weekly Top 10 (non-English series) for two consecutive weeks and has become a hot topic not only in Japan but all over the world. Following ``Dogs,'' which was written as the theme song for the drama series, Hitsuji Bungaku will also be in charge of the theme song for the movie version. It is still fresh in our minds that Sheep Bungaku attracted a lot of attention with their spectacular performance of ``Dogs'' at Japan's largest international music awards ``MUSIC AWARDS JAPAN'' held in June of this year. The girls, who continue to make great strides both domestically and internationally, have written a new piece for the movie..."
+      "translatedExcerpt": "Hitsuji Bungaku's new song ``Dispel'' has been selected as the theme song for ``The Great Sin of Kujo'', which will be released in theaters nationwide on Friday, January 8, 2027. Furthermore, it has been decided that this song will be released on various music distribution sites on Wednesday, December 16th. The Netflix series \"The Great Sin of Kujo\" has been in the Netflix Global Weekly Top 10 (non-English series) for two consecutive weeks and has become a hot topic not only in Japan but all over the world. Following ``Dogs,'' which was written as the theme song for the drama series, Hitsuji Bungaku will also be in charge of the theme song for the movie version. It is still fresh in our minds that Hitsuji Bungaku attracted a lot of attention with their spectacular performance of ``Dogs'' at Japan's largest international music awards ``MUSIC AWARDS JAPAN'' held in June of this year. The girls, who continue to make great strides both domestically and internationally, have written a new piece for the movie..."
     },
     {
       "id": "aec82e9085e9b2bc",
@@ -5301,8 +5432,8 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Rising word] Nogizaka46, 6th generation live song “Once Suki ni ni ni ni hito” pre-distribution begins",
-      "translatedExcerpt": "Nogizaka46, who will release their latest single \"Kimiros\" on December 2nd (Wednesday), is ranked in the fastest-growing trend. Advance distribution of the 6th generation's song \"Once Suki ni Shikinatta Hito\", which will be included in this single, has started. Yuki Suzuki will serve as the formation center. There were 18 members selected for the title song \"Kimiros\", with 4th generation member Saya Kanagawa returning to the senbatsu for the first time in 5 songs, and 5th generation members Aya Ogawa and Himena Okamoto also returning to the senbatsu. Release information https://ototoy.jp/_/default/p/4355571 Live information 6th generation national tour 2026 November 10th (Tuesday) and 11th (Wednesday), 2026 Zepp Sapporo Artist information http://www.nogizaka46.com/ https://twitter.com/nogizaka46 https://www…"
+      "translatedTitle": "[Raising word] Nogizaka46, 6th generation live song “Once Suki ni ni ni ni hito” pre-distribution begins",
+      "translatedExcerpt": "Nogizaka46, who will release their latest single \"Kimiros\" on December 2nd (Wednesday), is ranked in the fastest-growing trend. Pre-distribution of the 6th generation's song \"Once Suki ni Shikinatta Hito\", which will be included in this single, has started. Yuki Suzuki will serve as the formation center. There were 18 members selected for the title song \"Kimiros\", with 4th generation member Saya Kanagawa returning to the senbatsu for the first time in 5 songs, and 5th generation members Aya Ogawa and Himena Okamoto also returning to the senbatsu. Release information https://ototoy.jp/_/default/p/4355571 Live information 6th generation national tour 2026 November 10th (Tuesday) and 11th (Wednesday), 2026 Zepp Sapporo Artist information http://www.nogizaka46.com/ https://twitter.com/nogizaka46 https://www…"
     },
     {
       "id": "2de14bb58912f9d9",
@@ -7656,6 +7787,23 @@
       },
       "translatedTitle": "Vickeblanka releases new visual and teaser movie on 10th anniversary of debut. Next spring album and national tour announced",
       "translatedExcerpt": "Bikkeblanka celebrated their 10th debut anniversary today, October 26th, and released a new artist photo to mark the start of the anniversary year. Yesterday, on the 25th, the hall tour <VK Blanka Joyride to 10th Tour> had just reached its final stage at LINE CUBE SHIBUYA in Tokyo. A logo and teaser movie symbolizing the 10th anniversary have also been released, giving a sense of a major milestone. The art direction for the new artist photo was handled by Amazing JIRO, who collaborated with Bikkeblanka on the headgear and makeup for the latest MV for ``Perfect no Peki''. Amazing JIRO, an internationally active modeling artist who has been in charge of special makeup for many popular works including the movie ``National Treasure'' and the drama ``Fall into Hell,'' ``Gas Man,'' and ``Downtime,'' has created a surprise..."
+    },
+    {
+      "id": "8667463eae880647",
+      "title": "Square Enix Developing AI That Can Play Games & Automatically Test Them for Bugs",
+      "link": "https://news.sankakucomplex.com/n/ExTZw8wtONxz3sncs_KV-g",
+      "publishedAt": "2026-10-26T03:00:10.000Z",
+      "excerpt": "Japanese video game developer Square Enix is developing an AI-powered system capable of playing video games and performing quality assurance tests without human assistance, allowing the technology to navigate environments, complete objectives, and check whether game mechanics function correctly u…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "1b6232cf552b054a",
@@ -18288,150 +18436,6 @@
         "accent": "#ff6784",
         "language": "en"
       }
-    },
-    {
-      "id": "7d8669d718ec7045",
-      "title": "Creepy Nuts、新曲「トムとジェリーとヘイターと私」突如リリース",
-      "link": "https://barks.jp/news/1099649",
-      "publishedAt": "2026-10-20T15:00:00.000Z",
-      "excerpt": "Creepy Nutsが、新曲「トムとジェリーとヘイターと私」を本日リリースした。 なんの前触れもなく、突如リリースされた新曲「トムとジェリーとヘイターと私」は、各音楽配信サービスで配信中。YouTubeではフル尺音源も公開されている。 New Digital Single「トムとジェリーとヘイターと私」作詞：R-指定作曲：DJ松永配信日：2026年10月21日(水)配信リンク：https://creepynuts.lnk.to/qNpN6yYouTube：https://youtu.be/5wzj_uyhJow※10月21日(水)0時公開 ＜The Weeknd: After Hours Til Dawn Tour＞詳細：https://www.theweeknd.com/tour/9月19日（土）To…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/20184634/1-20.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Creepy Nuts suddenly releases new song “Tom and Jerry, Hater and Me”",
-      "translatedExcerpt": "Creepy Nuts released their new song \"Tom and Jerry, Hater and Me\" today. The new song \"Tom and Jerry, Hater and I\" was suddenly released without any warning and is now available on various music distribution services. The full length sound source is also available on YouTube. New Digital Single \"Tom and Jerry, Hater and Me\" Lyrics: R-Rated Composer: DJ Matsunaga Distribution date: Wednesday, October 21, 2026 Distribution link: https://creepynuts.lnk.to/qNpN6y YouTube: https://youtu.be/5wzj_uyhJow *Released at 0:00 on Wednesday, October 21st <The Weeknd: After Hours Til Dawn Tour＞Details: https://www.theweeknd.com/tour/September 19th (Sat) Tour…"
-    },
-    {
-      "id": "036d9477f4e7bb83",
-      "title": "Culdcept Begins Game's Trailer Reveals PC Release on October 28",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/culdcept-begins-game-trailer-reveals-pc-release-on-october-28/.243024",
-      "publishedAt": "2026-10-20T15:00:00.000Z",
-      "excerpt": "Game debuted for Switch 2, Switch on July 16",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gYE/youtube/GiZ1OLoUb4Q.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "835b6b2f700853f4",
-      "title": "FINAL FANTASY RESONANCE Producer Keisuke Nakashima and Director Hiroto Furuya on the Vision Roster, Combat System, and More",
-      "link": "https://crunchyroll.com/news/interviews/2026/10/20/final-fantasy-resonance-interview",
-      "publishedAt": "2026-10-20T15:00:00.000Z",
-      "excerpt": "What if FINAL FANTASY had continued to push the boundaries of pixel art?",
-      "image": "https://a.storyblok.com/f/178900/960x540/1743b09c92/final-fantasy-resonance-cloud.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "9be9e3a36447b76f",
-      "title": "w.o.d.、新曲「Feelin’」先行配信スタート。Instagramで新企画開始も",
-      "link": "https://barks.jp/news/1099678",
-      "publishedAt": "2026-10-20T15:00:00.000Z",
-      "excerpt": "w.o.d.が、2026年11月18日に発売するアルバム『ふれる』より、先行トラック「Feelin‘」を本日配信リリースした。 本楽曲は、w.o.d.らしさを詰め込みながらハモンドオルガンや打楽器を大胆に導入した“踊れる人生賛歌”だという。ツアーで披露されていた楽曲で、「考えるな、感じろ」というメッセージもファンから支持を得ているとのことだ。 アルバム『ふれる』はメジャー移籍後2枚目となる、2枚組オリジナルアルバムだ。ライブ映像やMV集、ドキュメント映像が入ったBru-layや、ポスターなどが付属するボックス仕様の完全生産限定盤CD、CD2枚組の通常盤初回仕様CD、180グラム重量盤2枚組の完全生産限定アナログ盤の3形態で発売となる。 そして本日、収録楽曲情報も解禁となった。2025年〜2026年にかけて…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/06/10140121/%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F-3.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "w.o.d., new song “Feelin’” pre-distribution started. Starting a new project on Instagram",
-      "translatedExcerpt": "w.o.d. released the lead track “Feelin’” from the album “Fure” to be released on November 18, 2026. This song is said to be a ``danceable hymn to life'' that boldly incorporates the Hammond organ and percussion instruments while being packed with W.O.D. characteristics. The song that was performed during the tour, with the message ``Don't think, just feel,'' is said to have received support from fans. The album ``Fure'' is a two-disc original album, the second since moving to a major label. It will be released in 3 formats: a Blu-ray containing live footage, a music video collection, and a documentary video, a fully limited edition CD in a box format that comes with a poster, a 2-CD regular edition first edition CD, and a 180-gram 2-disc limited edition analog edition. Today, information on the songs recorded has also been released. From 2025 to 2026..."
-    },
-    {
-      "id": "56d9091c5c632aa2",
-      "title": "桑田佳祐 × 桜井和寿、チャリティAL先行配信第3弾「奇跡の地球」配信スタート",
-      "link": "https://barks.jp/news/1099637",
-      "publishedAt": "2026-10-20T15:00:00.000Z",
-      "excerpt": "桑田佳祐が、2026年11月3日にリリースするチャリティライブアルバム『九段下フォーク・フェスティバル’25』より、桜井和寿との楽曲「奇跡の地球」を本日リリースした。 2025年秋、日本武道館にて桑田佳祐の発案で開催され、豪華アーティストがシークレットゲストとして集結した一夜限りのライブイベント＜九段下フォーク・フェスティバル’25＞。そのライブが、各地で続発する自然災害への支援を目的としたチャリティライブアルバムとしてリリースされる。現在、そのリリースに向けた4週連続での楽曲先行配信企画が進行中だ。 第1弾のあいみょん×桑田佳祐「なごり雪」、第2弾の吉井和哉×桑田佳祐「みらいのうた」に続き、第3弾として配信されるのは、桜井和寿×桑田佳祐による「奇跡の地球(ほし)」だ。 「奇跡の地球(ほし)」は、桑田佳祐…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/20170023/LIVE-ALBUM%E3%80%8E%E4%B9%9D%E6%AE%B5%E4%B8%8B%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB25%E3%80%8FKV_For-WEB.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Keisuke Kuwata x Kazutoshi Sakurai, 3rd charity AL advance distribution “Miracle Earth” begins distribution",
-      "translatedExcerpt": "Keisuke Kuwata today released the song \"Kiraku no Chikyu\" with Kazutoshi Sakurai from his charity live album \"Kudanshita Folk Festival '25\" which will be released on November 3, 2026. Kudanshita Folk Festival '25 is a one-night-only live event that will be held at the Nippon Budokan in the fall of 2025 at the idea of ​​Keisuke Kuwata, and will feature gorgeous artists as secret guests. The live performance will be released as a charity live album aimed at supporting natural disasters that occur one after another in various places. Currently, a project is underway to pre-distribute songs for four consecutive weeks in preparation for its release. Following the first installment, ``Nagori Yuki'' by Aimyon and Keisuke Kuwata, and the second, ``Future Song'' by Kazuya Yoshii and Keisuke Kuwata, the third installment will be ``Miracle Earth (Hoshi)'' by Kazutoshi Sakurai and Keisuke Kuwata. “Miracle Earth” is by Keisuke Kuwata…"
-    },
-    {
-      "id": "27252949be06cb06",
-      "title": "Manta Opens Platform to Independent Creators, Launches Program for Users Who Unlocked Episodes on Tapas to Rebuild Library on Platform",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/manta-opens-platform-to-independent-creators-launches-program-for-users-who-unlocked-episodes-on-/.242949",
-      "publishedAt": "2026-10-20T14:15:00.000Z",
-      "excerpt": "New initiative aims to help independent creators reach new audiences, build fan communities",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gL5/cms/news.10/242949/myb.jfif.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "43fae0ae67c6d3f9",
-      "title": "Ys VIII: Lacrimosa Of Dana Game Gets Switch 2 Release on February 25",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/ys-viii-lacrimosa-of-dana-game-gets-switch-2-release-on-february-25/.243023",
-      "publishedAt": "2026-10-20T14:00:00.000Z",
-      "excerpt": "Switch 2 version features 120 fps, co-op via GameShare",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gUC/youtube/-Ii8LYe00Fg.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "ed14d5f778bc5335",
-      "title": "Hi-STANDARD × 妻夫木聡、Indeed新CMで「STAY GOLD」共演「もう、大好きです！」",
-      "link": "https://barks.jp/news/1099720",
-      "publishedAt": "2026-10-20T13:55:00.000Z",
-      "excerpt": "Hi-STANDARDと妻夫木聡の共演による求人サイト『Indeed』新TVCM「STAY GOLD」篇30秒が10月20日から全国で順次放送をスタートした。また、同CMのロングバージョン「Documentary of Hi-STANDARD Episode 1 “Always In My Heart..”」が同日より特設サイトで公開。Hi-STANDARDにとって初のCM出演となる。 Hi-STANDARDのCM起用は、“いい未来は探せる”というIndeedのブランドコンセプトと、そこに込めた“全ての人のいい未来を望んでいる”という思いに、Hi-STANDARDメンバーが共感したことから実現したもの。働いている人や、自分に合う仕事について悩んでいる人を応援したいという思いは、メンバー3人が普段から共有し…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/20224310/PR%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9_KV-2-1024x604.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Hi-STANDARD x Satoshi Tsumabuki co-stars with \"STAY GOLD\" in Indeed's new commercial, \"I love you so much!\"",
-      "translatedExcerpt": "Hi-STANDARD and Satoshi Tsumabuki co-starred in the new 30-second TV commercial \"STAY GOLD\" for job site Indeed, which began airing nationwide from October 20th. Additionally, a longer version of the same commercial, “Documentary of Hi-STANDARD Episode 1 “Always In My Heart..”” will be released on a special website from the same day. This will be Hi-STANDARD's first commercial appearance. Hi-STANDARD's use in the commercial was made possible because Hi-STANDARD members sympathized with Indeed's brand concept of ``finding a good future'' and the idea that ``hopes for a good future for everyone'' embedded within that concept. The three members always share the desire to support people who are working or are worried about finding a job that suits them..."
     }
   ]
 }

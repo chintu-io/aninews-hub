@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T05:01:57.542Z",
+  "generatedAt": "2026-10-29T05:33:37.791Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 130,
+      "count": 129,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -152,9 +152,9 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 62,
+      "mode": "direct",
+      "feedUrl": "https://news.sankakucomplex.com/feed/",
+      "count": 63,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,23 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "0b5a51dbd883a865",
+      "title": "Caladrius 2 Disappears From Steam Amid Censorship Concerns",
+      "link": "https://news.sankakucomplex.com/n/FbVPx96KkF5fVqOIR939AA",
+      "publishedAt": "2026-10-29T05:00:34.000Z",
+      "excerpt": "The upcoming bullet hell shooter Caladrius 2/Dark Element has mysteriously disappeared from Steam just weeks before its scheduled release, with changes to the game’s nudity and sexual content classifications raising questions about whether its revealing character designs played a role in the remo…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "88c5a6c5d582252f",
       "title": "さらさ、R＆Bナンバーの新曲「そばにいて」MV公開",
@@ -5404,7 +5421,7 @@
       "title": "'Ashita no Joe' Manga Artist Tetsuya Chiba Dies at 87",
       "link": "https://myanimelist.net/news/74869899?_location=rss",
       "publishedAt": "2026-10-27T04:57:02.000Z",
-      "excerpt": "Tetsuya Chiba, best known as the artist for the Ashita no Joe (Ashita no Joe: Fighting for Tomorrow) manga, died on October 27. He was 87. Born in Tokyo in January 1939, Chiba made his professional debut with Fukushuu no Semushi in 1956. Following the end of World War II, he returned to Japan with his family after spending childhood in Manchuria, northeas…",
+      "excerpt": "Tetsuya Chiba, best known as the artist for the Ashita no Joe (Ashita no Joe: Fighting for Tomorrow) manga, died on October 22. He was 87. Born in Tokyo in January 1939, Chiba made his professional debut with Fukushuu no Semushi in 1956. Following the end of World War II, he returned to Japan with his family after spending childhood in Manchuria, northeas…",
       "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793076980-c638c23f559929999c3682b767fc9387.jpeg",
       "source": {
         "id": "mal",
@@ -6514,7 +6531,7 @@
       "title": "Blue Archive Producer Wants Third-Person Shooter, Survival Game & More Anime Spin-Offs",
       "link": "https://news.sankakucomplex.com/n/_b4GIRiRW6OXlDCcxkCd2Q",
       "publishedAt": "2026-10-26T14:45:28.000Z",
-      "excerpt": "Blue Archive producer Yong-ha Kim has revealed his ambitions to expand the popular schoolgirl RPG into entirely different genres, including third-person shooters, survival games, and strategy RPGs, while also expressing interest in producing additional anime adaptations.",
+      "excerpt": "Blue Archive producer Yong-ha Kim has revealed his ambitions to expand the popular schoolgirl RPG into entirely different genres, including third-person shooters, survival games, and strategy RPGs, while also expressing interest in producing additional anime adaptations. The developer discussed h…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18433,23 +18450,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6844891372020ab6",
-      "title": "Murciélago TV Anime's Teaser Trailer Reveals Cast",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-20/murcielago-tv-anime-teaser-trailer-reveals-cast/.243033",
-      "publishedAt": "2026-10-20T18:23:37.000Z",
-      "excerpt": "Hitomi Ueda, Minori Suzuki, Sumire Uesaka star in January 2027 anime",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gB0/youtube/7VHLNvvxWfQ.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

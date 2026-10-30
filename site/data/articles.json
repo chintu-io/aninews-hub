@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T03:01:52.055Z",
+  "generatedAt": "2026-10-30T03:31:56.887Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 40,
+      "count": 41,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 115,
+      "count": 114,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 15,
+      "count": 16,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 228,
+      "count": 233,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 233,
+      "count": 227,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 164,
+      "count": 163,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 65,
+      "count": 66,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,82 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 606,
+    "translatedJapaneseArticles": 604,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "2246c794b9f56b76",
+      "title": "ペンタトニックス、ホリデーAL『Christmas in the City』DX版配信 新曲＆ライブ音源追加収録",
+      "link": "https://www.billboard-japan.com/d_news/detail/166978",
+      "publishedAt": "2026-10-30T03:30:00.000Z",
+      "excerpt": "ペンタトニックスが、2025年に発表したホリデー・アルバム『Christmas in the Ci",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166978/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Pentatonix, holiday AL “Christmas in the City” DX version distribution, new songs and live sound sources added",
+      "translatedExcerpt": "Pentatonix's 2025 holiday album \"Christmas in the Ci\""
+    },
+    {
+      "id": "c4c2742286495915",
+      "title": "&TEAM、SANTOS BRAVOSとのコラボ曲「ORIGAMI」11/20配信リリース決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/166976",
+      "publishedAt": "2026-10-30T03:15:00.000Z",
+      "excerpt": "&TEAMが、SANTOS BRAVOSとのコラボレーション曲「ORIGAMI」を11月2",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166976/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "&TEAM, collaboration song “ORIGAMI” with SANTOS BRAVOS will be released on November 20th",
+      "translatedExcerpt": "&TEAM releases collaboration song “ORIGAMI” with SANTOS BRAVOS on November 2nd"
+    },
+    {
+      "id": "d4bb65f8cf45be9a",
+      "title": "Burger King Japan shuns Shibuya Halloween spirit, but keeps it alive everywhere else",
+      "link": "https://soranews24.com/2026/10/30/burger-king-japan-shuns-shibuya-halloween-spirit-but-keeps-it-alive-everywhere-else/",
+      "publishedAt": "2026-10-30T03:00:52.000Z",
+      "excerpt": "No tricks or treats is the plan at Shibuya Center-gai, but cool sweets will be waiting at every other branch. In a way, I suppose you could accuse Burger King Japan of having lost its Halloween spirit. The chain’s Shibuya Center-gai branch in downtown Tokyo, just a short walk from the world-famous Shibuya Scramble intersection, […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/0_dc62b5.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d1f478d8fcfe2dfb",
+      "title": "Konami’s Gaming Profits Surge 75% Thanks to Strong Game Sales",
+      "link": "https://news.sankakucomplex.com/n/WtY9baugBSrcl_c1WxFJZg",
+      "publishedAt": "2026-10-30T03:00:32.000Z",
+      "excerpt": "Konami has reported a massive 75.1% increase in profits from its video game business, with the continued success of eFootball, Yu-Gi-Oh!, and several major releases helping the Japanese publisher achieve record-breaking financial results.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "9ea2e20dd50f6782",
       "title": "【インタビュー】DEZERT、結成15周年に放つ2枚組全20曲収録のセルフタイトルアルバム完成「DEZERTをどうやって終わらせるか」",
@@ -185,6 +257,44 @@
       },
       "translatedTitle": "[Interview] DEZERT completes self-titled album with 20 songs released on 15th anniversary as a 2-disc set \"How will DEZERT end?\"",
       "translatedExcerpt": "DEZERT released their second major album ``DEZERT'' on October 28th. Their latest original full album, which has entered a new phase as they celebrate their 15th anniversary, is a large 2-disc set containing 20 songs. In addition, the album will be delivered as a work with their own band name in the title. Their first 47-prefecture tour, which started in June 2025, and the tour's final performance at Makuhari Messe in March 2026 were a huge success, and about two months later, they started a new tour called ``study.'' The momentum of Hatake speaks to the band's good condition. In addition to previously released songs such as “Music” produced by Ken (L’Arc-en-Ciel) and “Hibana”, the insert song for the Amazon Prime drama “Human Specimen”, it also includes numbers composed by all members."
+    },
+    {
+      "id": "df3e17ebb6b149e2",
+      "title": "Re:name、最新アルバム収録曲「one room」が「今日、好きになりました。」と味の素AGF(株)「ブレンディ®カフェラトリー®」スティックのタイアップCMソングに決定",
+      "link": "https://barks.jp/news/1101388",
+      "publishedAt": "2026-10-30T03:00:00.000Z",
+      "excerpt": "Re:nameが2026年3月にリリースした最新アルバム『1626』収録曲「one room」が、ABEMAオリジナル恋愛リアリティーショー「今日、好きになりました。」と味の素AGF(株)「ブレンディ®カフェラトリー®」スティックのタイアップCMソングに決定した。CMは10月19日より放送開始となっている。 Re:nameは2026年3月に結成10周年を迎え、結成日にアルバム『1626』を発売し、大阪城音楽堂でのフリーライブを開催。アルバムを携え全国5箇所で開催された東名阪クラブクアトロ公演を含むワンマンツアーを7月に完走し、8月には＜SUMMER SONIC 2026＞大阪公演にも初出演を果たした。10月10日〜12日に開催されたサーキットイベント＜FM802 MINAMI WHEEL 2026＞では最…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/29232330/Re-name-2026AP_main_s_forNews-1.jpeg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Re:name's latest album song \"One Room\" has been selected as the tie-up commercial song for Ajinomoto AGF Co., Inc.'s \"Blendy® Café L'Atry®\" stick.",
+      "translatedExcerpt": "The song \"one room\" from Re:name's latest album \"1626\" released in March 2026 has been selected as the tie-up CM song for ABEMA's original love reality show \"Today I Love You\" and Ajinomoto AGF Inc.'s \"Blendy® Café Latry®\" stick. The commercial will begin airing on October 19th. Re:name will celebrate their 10th anniversary in March 2026, releasing the album \"1626\" on the day of their formation, and holding a free live concert at Osaka Castle Music Hall. With the album in hand, they completed a one-man tour in July that included performances at Tokyo, Nagoya, and Club Quattro held in five locations across the country, and in August, they made their first appearance at the <SUMMER SONIC 2026> Osaka performance. At the circuit event <FM802 MINAMI WHEEL 2026> held from October 10th to 12th,..."
+    },
+    {
+      "id": "972ba6506959b402",
+      "title": "Tele、タイザン5による描き下ろしジャケットで新曲「らびゅー」配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/166964",
+      "publishedAt": "2026-10-30T03:00:00.000Z",
+      "excerpt": "Teleが、2026年11月25日に新曲「らびゅー」を配信リリースする。 新曲「らびゅー」は、",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166964/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Tele releases new song “Raview” with original jacket drawn by Taizan 5",
+      "translatedExcerpt": "Tele will release a new song \"Raview\" on November 25, 2026. The new song “Raview” is"
     },
     {
       "id": "fb3d9e1c2d655abb",
@@ -206,6 +316,44 @@
       "translatedExcerpt": "It has been announced that Tele's new song ``Rabyu'' will be the theme song for the movie ``Tacopee no Original Sin - Thank You, See You Tomorrow'', which will be released on Friday, November 27, 2026. “Labyew” will be released on November 25th. The jacket artwork was newly drawn by Taizan 5, the manga's original author, at the passionate request of Tele himself, making the best collaboration with the movie possible. Currently, a trailer video of the movie in which \"Raview\" is played is being released on YouTube. The song will be aired for the first time on FM802 \"ROCK KIDS 802 -Lisa Lit Friday-\" today, October 30th, and part of the song will be distributed in advance on TikTok the following day, October 31st. Release information Artist information https://x.com/KitrTele?lang=ja"
     },
     {
+      "id": "d2b9463ab9dfbce9",
+      "title": "こっちのけんと、自身最大規模ワンマンを2027/3/6に開催＆新曲「ことのはfeat. SO-SO」リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/166975",
+      "publishedAt": "2026-10-30T03:00:00.000Z",
+      "excerpt": "こっちのけんとが、自身最大規模となるワンマンライブ【こっちのけんとのプラネット】を2027年3月6",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166975/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Kocchinoken will hold his largest one-man show on March 6, 2027 & release new song “Konoha feat. SO-SO”",
+      "translatedExcerpt": "Kocchi no Kento will hold his largest one-man live [Kocchi no Kento's Planet] on March 6, 2027"
+    },
+    {
+      "id": "5ebe99c6b6dbaacf",
+      "title": "故プリンス、『3121』DX盤より未発表音源「Time of Ur Life」＆「Black Sweat」ライブ映像解禁",
+      "link": "https://www.billboard-japan.com/d_news/detail/166977",
+      "publishedAt": "2026-10-30T03:00:00.000Z",
+      "excerpt": "今年発売20周年を迎えるプリンスのアルバム『3121』のデラックス盤が2026年12月11日に全世",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166977/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Late Prince releases live footage of unreleased tracks “Time of Ur Life” & “Black Sweat” from “3121” DX edition",
+      "translatedExcerpt": "The deluxe edition of Prince's album \"3121\", which celebrates its 20th anniversary this year, will be released worldwide on December 11, 2026."
+    },
+    {
       "id": "ebe7440a0d7022da",
       "title": "砂場泥棒、1st AL『公◯ “ko-en”』リリース",
       "link": "https://ototoy.jp/news/132534",
@@ -223,6 +371,42 @@
       },
       "translatedTitle": "Sandbox Thief releases 1st AL “Ko◯ “ko-en””",
       "translatedExcerpt": "Sandbox Thieves released their 1st album “Ko◯ “ko-en”” on October 28, 2026. “Ko◯ “ko-en”” is the 1st album recorded in one public live recording. This is a work that conveys an incomprehensible explosion of emotions that cannot be fully conveyed by listening to and recording clicks behind closed doors. Opening with the heavy and technical “Fusaide Yureide” and reaching the emotional peak with the self-titled song “Sandbox Thief”, the majestic anthem “5-4”, a performance with precise composition and transcendental skill. A diverse group of songs, such as \"Heilner\" and \"Hana\" that are spun one after another, the mysterious and cynical classic \"Hone\", and the sensual \"Teasobi\" and \"Winter Night Sea\", will keep you listening for a moment. The Sandbox Thieves team handles everything from song production to planning and operation of public recordings, and the Oaiko label..."
+    },
+    {
+      "id": "30192e99aebcf0ed",
+      "title": "角松敏生、デビュー45周年記念ライブの映像作品が2027年元旦に発売",
+      "link": "https://www.billboard-japan.com/d_news/detail/166974",
+      "publishedAt": "2026-10-30T03:00:00.000Z",
+      "excerpt": "角松敏生が、2026年6月27日に横浜アリーナで開催したデビュー45周年記念ライブ【TOSHIKI",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166974/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Toshio Kadomatsu's 45th debut anniversary live video will be released on New Year's Day 2027",
+      "translatedExcerpt": "Toshiki Kadomatsu held his 45th debut anniversary live at Yokohama Arena on June 27, 2026 [TOSHIKI"
+    },
+    {
+      "id": "12ecff359e3a0b26",
+      "title": "'Death Stranding: Isolations' Reveals Additional Staff, Teaser Promo",
+      "link": "https://myanimelist.net/news/74883978?_location=rss",
+      "publishedAt": "2026-10-30T02:56:32.000Z",
+      "excerpt": "The official X of Kojima Productions revealed additional staff, teaser visual (pictured), and a teaser promotional video for the Death Stranding: Isolations anime series on Friday. The anime is scheduled to premiere worldwide on the Disney+ streaming service in 2027. Staff Series Composition, Script: Tow Ubukata (RWBY: Hyousetsu Teikoku) Character Design:…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793328837-0665dd82068919c724d95ebed2d48e6b.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
     },
     {
       "id": "669ad2d55a26d5bf",
@@ -18228,194 +18412,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "ac72a1ca6c730528",
-      "title": "Haru to Gen Anime Premieres on January 4",
-      "link": "https://crunchyroll.com/news/latest/2026/10/21/haru-to-gen-anime-premiere-date-cast-trailer",
-      "publishedAt": "2026-10-21T12:21:00.000Z",
-      "excerpt": "Teaser trailer and main cast revealed for adaptation based on Yuka Oshima's manga",
-      "image": "https://a.storyblok.com/f/178900/960x538/4810c12011/haru_to_gen_header2.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "8af68b0ba00d6399",
-      "title": "syrup16g、約10年ぶりのMV「セブンティーン」で衝動を映し出す",
-      "link": "https://www.billboard-japan.com/d_news/detail/166723",
-      "publishedAt": "2026-10-21T12:10:00.000Z",
-      "excerpt": "syrup16gが、新曲「セブンティーン」のミュージックビデオを公開した。 新曲「セブンティー",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166723/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "syrup16g shows their impulses in their first MV in about 10 years, “Seventeen”",
-      "translatedExcerpt": "syrup16g has released the music video for their new song \"Seventeen\". New song “Seventy”"
-    },
-    {
-      "id": "fb26c8bd3240ec43",
-      "title": "iri、TVアニメ『ホタルの嫁入り』OPテーマ「Period」MV公開決定",
-      "link": "https://barks.jp/news/1099897",
-      "publishedAt": "2026-10-21T12:03:38.000Z",
-      "excerpt": "iriが、新曲「Period」のMVを2026年10月23日21時にプレミア公開することを発表した。 本楽曲は、TVアニメ『ホタルの嫁入り』オープニングテーマに起用されており、iriにとって初のアニメタイアップとなる。 『ホタルの嫁入り』は、ドラマ化された『プロミス・シンデレラ』の著者であり、TVアニメ『謎解きはディナーのあとで』ではキャラクター原案も手がけた橘オレコが描く話題作。累計発行部数500万部を突破し、「電子コミック大賞2024」大賞に輝いた漫画のアニメ作品だ。 「Period」のMVは、iriの楽曲「Only One」「摩天楼」など、過去にもタッグを組んでいる丸山雄大が監督を務めた。MVが垣間見えるティザーも公開されているので是非ご覧いただきたい。 なおiriは、明日にデビュー10周年の集大成…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/21205916/iri_Period-Visual_srgb2.5MB.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "iri, TV anime “Hotaru no Yomeiri” opening theme “Period” MV to be released",
-      "translatedExcerpt": "iri has announced that the music video for their new song \"Period\" will be premiered at 9pm on October 23, 2026. This song was used as the opening theme for the TV anime ``Hotaru no Yomeiri'', and is iri's first anime tie-up. ``Firefly's Wedding'' is a much-talked-about work written by Oreco Tachibana, who is the author of the drama ``Promise Cinderella'' and also designed the character for the TV anime ``The Mystery is After Dinner''. It is an anime work of a manga that has exceeded 5 million copies in total circulation and won the Grand Prize of the ``Electronic Comic Awards 2024''. The music video for \"Period\" was directed by Yudai Maruyama, who has collaborated with iri in the past on songs such as \"Only One\" and \"Matenrou.\" A teaser showing a glimpse of the MV has also been released, so please take a look. Furthermore, iri will celebrate the culmination of their 10th anniversary since their debut tomorrow..."
-    },
-    {
-      "id": "35c8a88d1be78dc6",
-      "title": "KOTORI、主催フェス＜TORI ROCK FESTIVAL’26＞最終出演アーティストにFOMARE、ハク。、ハンブレッダーズ",
-      "link": "https://barks.jp/news/1099875",
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "excerpt": "KOTORIが、12月4日・5日の2日間にわたり豊洲PITで開催する主催フェス＜TORI ROCK FESTIVAL’26＞の最終出演アーティストを発表した。 発表されたのは、FOMARE、ハク。、ハンブレッダーズの3組。これで出演する全13組のアーティストが出揃った。 チケットは10月22日正午より一般発売がスタートする。場所を東京・豊洲PITに移してからは初の2days開催となる今年の＜トリロック＞、ぜひチェックしてほしい。 ◾️＜KOTORI pre. TORI ROCK FESTIVAL’26＞ 2026年12月4日（金）開場17:00 / 開演18:002026年12月5日（土）開場12:00 / 開演13:00会場：東京・豊洲PIT ▼チケット（ドリンク代別）通し券 前売券 13,000円（税…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/08/07185644/00_KOTORI2026_main_min.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "KOTORI sponsored festival <TORI ROCK FESTIVAL'26> Final performing artists include FOMARE and Haku. , Humblebreders",
-      "translatedExcerpt": "KOTORI has announced the final performing artists for the festival ``TORI ROCK FESTIVAL'26'', which will be held at Toyosu PIT for two days on December 4th and 5th. What was announced was FOMARE and Haku. , three sets of Humblebreders. A total of 13 artists have now appeared. Tickets will go on sale to the general public from noon on October 22nd. Be sure to check out this year's Trirock, which will be held for two days for the first time since moving to Toyosu PIT in Tokyo. ◾️＜KOTORI pre. TORI ROCK FESTIVAL’26＞ December 4, 2026 (Friday) Doors open at 17:00 / Show starts at 18:00 December 5, 2026 (Saturday) Doors open at 12:00 / Show starts at 13:00 Venue: Toyosu PIT, Tokyo ▼Tickets (drink fee not included) Pass ticket Advance ticket 13,000 yen (tax…"
-    },
-    {
-      "id": "64e5c55a97b7357d",
-      "title": "OddRe:、デジタルシングル「黄泉還」MV公開",
-      "link": "https://barks.jp/news/1099787",
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "excerpt": "OddRe:が、デジタルシングル「黄泉還」のミュージックビデオを公開した。 「黄泉還」は、夏の夕暮れに漂う記憶や喪失感を静かに映し出した1曲。ノスタルジックなモチーフを散りばめながら、現実と幻想、この世とその先の境界が溶け合うような世界観を描いている。 ミュージックビデオは、新進気鋭のクリエイター・雑草movieがディレクションを担当。実写映像とアニメーションを組み合わせた独特の映像表現によって、楽曲が持つ曖昧で幻想的な空気感を繊細かつ大胆なタッチで描き出している。 また、10月30日からスタートする初の全国ツアー＜OddRe: JAPAN TOUR 2026 “UNDERGROUND MIRRORBALL”＞が全公演ソールドアウトしたことを受け、大阪・GORILLA HALLでの追加公演を発表。東京・L…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/07/08165916/OddRe_Asha_2602.jpeg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "OddRe:, digital single “Yosenkan” MV released",
-      "translatedExcerpt": "OddRe: has released the music video for their digital single \"Yosenkan\". ``Yomikan'' is a song that quietly reflects the memories and sense of loss that drift in the summer evening. While sprinkled with nostalgic motifs, he depicts a worldview where the boundaries between reality and fantasy, this world and the world beyond, blend together. The music video was directed by up-and-coming creator Weed Movie. Using a unique visual expression that combines live-action footage and animation, the song's ambiguous and fantastical atmosphere is portrayed with a delicate yet bold touch. Additionally, as all performances of their first national tour <OddRe: JAPAN TOUR 2026 “UNDERGROUND MIRRORBALL”> starting October 30th have been sold out, they have announced an additional performance at GORILLA HALL in Osaka. Tokyo/L…"
-    },
-    {
-      "id": "7077de5497d6ae60",
-      "title": "ヨツドメノディ、2nd EP『morph of spore』より先行配信曲「眩暈」リリース＆MV公開",
-      "link": "https://barks.jp/news/1099790",
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "excerpt": "ヨツドメノディが11月4日にリリースする2nd EP『morph of spore』から、「眩暈」の先行配信をスタート。同曲のミュージックビデオも公開した。 ミュージックビデオは、光あふれる青い情景を、現実と非現実の境界が揺らぐような映像を通じて描き出したことで、楽曲の持つ世界観と疾走感を表現した作品となっている。 彼女たちの“今”を余すことなく詰め込んだ2nd EP『morph of spore』は、「生命」をテーマに静謐な美しさと轟くような激しさが交錯する。 生命の誕生を彷彿とさせる静寂の中、静かなギターストロークから幕を開けるM01「未明」。ヨツドメノディの持つ“静”の美しさを鮮やかに描き出す。そこから熱量を徐々に高めていくM02「I’m coming back to you」へと続き、ノリの良いリ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/21145227/2-11.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Yotsdomenody releases pre-release song “Madora” from 2nd EP “morph of spore” & releases music video",
-      "translatedExcerpt": "Yotsudomenodi has started pre-distribution of \"Madora\" from their 2nd EP \"morph of spore\" which will be released on November 4th. A music video for the same song was also released. The music video depicts a blue scene full of light through images that shake the boundary between reality and unreality, creating a work that expresses the worldview and sense of speed that the song has. Their 2nd EP ``morph of spore,'' which is packed with all of their ``now,'' is a mix of tranquil beauty and roaring intensity, with the theme of ``life.'' M01 “Mimei” opens with a quiet guitar stroke in a silence reminiscent of the birth of life. It vividly depicts the beauty of ``tranquility'' that Yotsudomenodi possesses. From there, it continues into M02 “I’m coming back to you” which gradually increases the heat, with a good rhythm…"
-    },
-    {
-      "id": "ce622b78468bd577",
-      "title": "山下大輝、2nd EPより「ハートプロトコル」先行配信＆MV公開",
-      "link": "https://barks.jp/news/1099759",
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "excerpt": "山下大輝が、2026年11月18日に発売する2nd EPより新曲「ハートプロトコル」のMVを公開した。 本楽曲は、『あんさんぶるスターズ！！』のキャラクター・朔間凛月役として声優参加した「真夜中のノクターン」で共に作品を作り上げた、本多友紀とのタッグによる新曲だ。今回のMVは、架空の都市や場所を巡る主人公がテーマになっており、声優として、アーティストとしての山下大輝の魅力が詰まった表現がされた、リアルファンタジー感のある映像に仕上がっているという。 EP『Dive in !』は「ハートプロトコル」を含めた全5曲が収録される。初回限定盤Blu-rayにはジャケット撮影のBehind The Scenesに加え、アーティスト活動5周年を記念したインタビュー映像を収録。付属のメモリアルフォトブックには、ジャケッ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/16105936/main_0726s_97763et_yori.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Daiki Yamashita releases “Heart Protocol” in advance from 2nd EP & releases music video",
-      "translatedExcerpt": "Daiki Yamashita has released the music video for his new song \"Heart Protocol\" from his 2nd EP, which will be released on November 18, 2026. This song is “Ensemble Stars! ! This is a new song in collaboration with Yuki Honda, who was the voice actor for the character Rinzuki Sakuma in ``Midnight Nocturne.'' The theme of this music video is the main character traveling through fictional cities and places, and the video is said to have a realistic fantasy feel, expressing Daiki Yamashita's charm as a voice actor and artist. The EP ``Dive in!'' will contain a total of 5 songs including ``Heart Protocol.'' The first limited edition Blu-ray includes Behind The Scenes from the jacket shoot, as well as an interview video commemorating the artist's 5th anniversary. The included memorial photo book includes a jacket..."
-    },
-    {
-      "id": "796351a284edd659",
-      "title": "西川貴教、最新曲「残響≠ブラスター」MV解禁",
-      "link": "https://barks.jp/news/1099824",
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "excerpt": "西川貴教が、10月4日(日)に配信リリースした最新曲「残響≠ブラスター」(ざんきょうブラスター)のミュージックビデオを解禁した。 「残響≠ブラスター」は、2026年10月クール放送のTVアニメ『獣王武神ダンデヴァイン』(じゅうおうむじん ダンデヴァイン)オープニングテーマとして書き下ろされた楽曲で、TeddyLoidが作詞・作曲・編曲、楽曲プロデュースを手掛け、西川貴教自身も作詞に参加。 傷つき、迷いながらも、自らの存在を証明し、未来を掴もうとする強い意志を、TeddyLoidによる疾走感あふれるサウンドと西川貴教の力強い歌声で描き出した、熱量あふれる1曲。 ミュージックビデオは、現在開催中のワンマンツアー＜Takanori Nishikawa LIVE TOUR 2026 REWIND of VOYAG…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/21171342/1-25-698x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Takanori Nishikawa's latest song \"Zankyō≠Blaster\" MV released",
-      "translatedExcerpt": "Takanori Nishikawa has released the music video for his latest song ``Zankyō≠ Blaster'' (Zankyo Blaster), which was released on Sunday, October 4th. \"Zankyo≠Blaster\" is a song written as the opening theme for the TV anime \"Juuou Mujin Dandevine\" which will be aired in October 2026. TeddyLoid wrote, composed, arranged, and produced the music, and Takanori Nishikawa himself also participated in writing the lyrics. A passionate song that depicts a strong will to prove one's existence and seize the future, even though one is hurt and lost, with TeddyLoid's fast-paced sound and Takanori Nishikawa's powerful singing voice. The music video is part of Takanori Nishikawa's currently underway solo tour <Takanori Nishikawa LIVE TOUR 2026 REWIND of VOYAG..."
-    },
-    {
-      "id": "597b16d844289e95",
-      "title": "西川貴教、熱量溢れる新曲「残響≠ブラスター」MV公開",
-      "link": "https://ototoy.jp/news/132364",
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "excerpt": "西川貴教が2026年10月4日(日)にリリースしたニューシングル「残響≠ブラスター」のミュージックビデオを公開した。 本作は、10月クール放送のTVアニメ『獣王武神ダンデヴァイン』オープニングテーマとして書き下ろされた楽曲。TeddyLoidが作詞・作曲・編曲、楽曲プロデュースを手掛け、西川貴教自身も作詞に参加している。 傷つき、迷いながらも、自らの存在を証明し、未来を掴もうとする強い意志を綴った本楽曲。TeddyLoidによる疾走感あふれるサウンドと西川貴教の力強い歌声が耳に残る、熱量溢れる1曲となっている。 ミュージックビデオは、現在開催中のワンマンツアー〈Takanori Nishikawa LIVE TOUR 2026 REWIND of VOYAGE transit〉でのパフォーマンス映像を使用…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132364/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Takanori Nishikawa releases MV for his passionate new song “Zankyō≠Blaster”",
-      "translatedExcerpt": "Takanori Nishikawa has released the music video for his new single ``Zankyō≠Blaster'' released on Sunday, October 4, 2026. This song was written as the opening theme for the TV anime \"Beast King Bujin Dandevine\" which will be aired in October. TeddyLoid wrote, composed, arranged, and produced the song, and Takanori Nishikawa himself also participated in writing the lyrics. This song describes a strong will to prove one's existence and grasp the future even though one is hurt and lost. TeddyLoid's fast-paced sound and Takanori Nishikawa's powerful singing voice leave an impression on your ears, making it a song full of energy. The music video uses performance footage from Takanori Nishikawa's currently underway solo tour <Takanori Nishikawa LIVE TOUR 2026 REWIND of VOYAGE transit>."
-    },
-    {
-      "id": "b50bac915163a4a9",
-      "title": "「M-SPOT」Vol.067「ボカロP作品に見る、AI時代の強み」",
-      "link": "https://barks.jp/news/1094934",
-      "publishedAt": "2026-10-21T11:00:00.000Z",
-      "excerpt": "音楽というアート／エンターテイメントがテクノロジーの恩恵を多分に受けて発展していた事実を鑑みると、テクノロジーの最尖端であるAIが音楽に与える影響は消して小さくないと思われる。 そんな時代の転換期の真っ只中にいる2026年、今後のアーティストはどうあるべきか。人類全アーティスト時代がくるのか、それともアーティストたる存在は、いかなる時代も稀有な存在なのか。 コメンテーターはTuneCore Japanの野邊拓実、そして進行役はいつもの烏丸哲也（BARKS）である。 ◆ ◆ ◆ ──今回紹介するアーティストはけいじぃというボカロPです。バイオグラフィには「キャッチーな曲を作ります」とあるんですが、はっさくP名義の時代から、様々なボカロ曲を発表している方です。もちろんボーカロイドを中心に合成音声で歌わせている…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2025/11/30123234/000-80.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "\"M-SPOT\" Vol.067 \"Strengths of the AI ​​era seen in Vocaloid P works\"",
-      "translatedExcerpt": "Considering the fact that the art/entertainment of music has developed largely with the benefits of technology, it seems that the impact that AI, which is the most cutting-edge technology, will have on music will be significant. In 2026, when we are in the middle of such a turning point, what should future artists be like? Will the age of all human beings be artists come, or will being an artist be a rare existence in any era? The commentator will be Takumi Nobe of TuneCore Japan, and the moderator will be the usual Tetsuya Karasuma (BARKS). ◆ ◆ ◆ ──The artist we will be introducing this time is a Vocaloid P named Keiji. His biography says that he \"makes catchy songs,\" and he has been releasing various Vocaloid songs since his days under the name Hassaku P. Of course, vocaloids are mainly used to sing with synthesized voices..."
     }
   ]
 }

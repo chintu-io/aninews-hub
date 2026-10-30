@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T00:01:52.096Z",
+  "generatedAt": "2026-10-30T00:31:51.037Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 112,
+      "count": 113,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 240,
+      "count": 241,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 166,
+      "count": 164,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,84 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 611,
+    "translatedJapaneseArticles": 610,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "16b7bbbbb56f5fe2",
+      "title": "ONE OK ROCK、日本未配信6曲を収録したデジタルEP 本日リリース",
+      "link": "https://barks.jp/news/1101418",
+      "publishedAt": "2026-10-30T00:28:29.000Z",
+      "excerpt": "ONE OK ROCKが、デジタル作品『Unreleased Collection – Japan Exclusive』を本日リリースした。 本作には、新曲「Fever」に加え、過去のアルバム3作品から、これまで輸入盤CDでしか聴くことのできなかった日本未配信曲6曲を収録している。 「Fever」は、作詞・作曲にTakaやMasato（coldrain）などが参加している。力強いロックサウンドとアンセム感が印象的で、後半に向けて加速するビルドアップがオーディエンスの一体感を生み出すような展開に。タイトル「Fever」の通り、熱気を帯びた歌詞がTakaの力強い歌声とマッチして、壮大な世界観を描き出した1曲に仕上がっているという。また本楽曲は、リリース前に公開された2本のティザー動画を含め、他にもインストゥル…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/04/24191338/ONE-OK-ROCK-Artist-Photo.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "ONE OK ROCK, digital EP containing 6 songs not distributed in Japan released today",
+      "translatedExcerpt": "ONE OK ROCK released their digital work ``Unreleased Collection – Japan Exclusive'' today. In addition to the new song \"Fever,\" this album includes six songs from three past albums that were previously only available on imported CDs and have not been released in Japan. \"Fever\" is written and composed by Taka, Masato (coldrain), and others. The powerful rock sound and anthemic feel are impressive, and the build-up that accelerates toward the second half creates a sense of unity among the audience. As the title \"Fever\" suggests, the passionate lyrics match Taka's powerful singing voice, creating a song that depicts a magnificent worldview. This song also includes other instrumentals, including two teaser videos released before its release."
+    },
+    {
+      "id": "42d417c193127373",
+      "title": "Macross Delta Idol Unit Walküre to Release 10th-Anniversary Single in March 2027",
+      "link": "https://crunchyroll.com/news/latest/2026/10/30/macross-delta-idol-unit-walkuere-10th-anniversary-single-march-2027",
+      "publishedAt": "2026-10-30T00:28:00.000Z",
+      "excerpt": "The anime series' 10th-anniversary event is also scheduled for January 17, 2027",
+      "image": "https://a.storyblok.com/f/178900/960x540/ebf1665f15/macross-delta-walkure-10th-anniversary-single-header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "b8d0ec3206f76263",
+      "title": "【MTV VMAJ 2026】Mrs. GREEN APPLEが史上初となる3年連続＜Video of the Year＞受賞",
+      "link": "https://www.billboard-japan.com/d_news/detail/166965",
+      "publishedAt": "2026-10-30T00:10:00.000Z",
+      "excerpt": "MTVが主催する音楽イベント【MTV VMAJ 2026】が、10月29日に東京ドームで開催された",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166965/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[MTV VMAJ 2026] Mrs. GREEN APPLE wins <Video of the Year> for 3 consecutive years for the first time in history",
+      "translatedExcerpt": "The music event [MTV VMAJ 2026] sponsored by MTV was held at Tokyo Dome on October 29th."
+    },
+    {
+      "id": "a066e37eeee7e33e",
+      "title": "小田和正、明治安田生命の企業CM楽曲でギネス世界記録™認定。27年間にわたり寄り添う",
+      "link": "https://barks.jp/news/1101326",
+      "publishedAt": "2026-10-30T00:00:27.000Z",
+      "excerpt": "小田和正が、明治安田生命保険相互会社との長年にわたる楽曲タイアップの取り組みを評価され、「企業テレビCMにおいて同一アーティストの楽曲が使用された最長期間」として2026年9月22日にギネス世界記録™（Longest continuous use of music by the same artist in a corporate TV commercial）達成の認定を受けたことが明らかになった。 その期間は実に27年。四半世紀を超えて、小田の音楽は人々の日常に寄り添い、かけがえのない瞬間を彩り続けてきたことになる。 始まりは1999年。明治生命が掲げた「あなたがいる しあわせ。」というテーマのもと、視聴者から寄せられた写真と、小田和正の名曲「言葉にできない」を組み合わせたテレビCMがスタートした。20…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/08/17111942/%E5%B0%8F%E7%94%B0%E5%92%8C%E6%AD%A3.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Kazumasa Oda receives Guinness World Record™ certification for Meiji Yasuda Life Insurance's corporate commercial song. Staying close to each other for 27 years",
+      "translatedExcerpt": "It has been announced that Kazumasa Oda has been awarded the Guinness World Record™ (Longest continuous use of music by the same artist in a corporate TV commercial) on September 22, 2026, in recognition of his long-standing collaboration with Meiji Yasuda Life Insurance Company. The period was actually 27 years. For more than a quarter of a century, Oda's music has been a part of people's daily lives and has continued to color irreplaceable moments. It started in 1999. Under Meiji Life's theme of ``Happiness is having you,'' a TV commercial has started that combines photos submitted by viewers with Kazumasa Oda's famous song ``I can't put it into words.'' 20…"
+    },
     {
       "id": "ed49a2062ab2d511",
       "title": "Good Smile Company Data Breach Exposes Up to 2,800 Customers’ Credit Cards",
@@ -5231,7 +5305,7 @@
         "language": "ja"
       },
       "translatedTitle": "Hitsuji Bungaku's new song has been selected as the theme song for the movie \"The Great Sins of Kujo\"",
-      "translatedExcerpt": "Hitsuji Bungaku's new song ``Dispel'' has been selected as the theme song for ``The Great Sin of Kujo'', which will be released in theaters nationwide on Friday, January 8, 2027. Furthermore, it has been decided that this song will be released on various music distribution sites on Wednesday, December 16th. The Netflix series \"The Great Sin of Kujo\" has been in the Netflix Global Weekly Top 10 (non-English series) for two consecutive weeks and has become a hot topic not only in Japan but all over the world. Following ``Dogs,'' which was written as the theme song for the drama series, Hitsuji Bungaku will also be in charge of the theme song for the movie version. It is still fresh in our minds that Sheep Bungaku attracted a lot of attention with their spectacular performance of ``Dogs'' at Japan's largest international music awards ``MUSIC AWARDS JAPAN'' held in June of this year. The girls, who continue to make great strides both domestically and internationally, have written a new piece for the movie..."
+      "translatedExcerpt": "Hitsuji Bungaku's new song ``Dispel'' has been selected as the theme song for ``The Great Sin of Kujo'', which will be released in theaters nationwide on Friday, January 8, 2027. Furthermore, it has been decided that this song will be released on various music distribution sites on Wednesday, December 16th. The Netflix series \"The Great Sin of Kujo\" has been in the Netflix Global Weekly Top 10 (non-English series) for two consecutive weeks and has become a hot topic not only in Japan but all over the world. Following ``Dogs,'' which was written as the theme song for the drama series, Hitsuji Bungaku will also be in charge of the theme song for the movie version. It is still fresh in our minds that Hitsuji Bungaku attracted a lot of attention with their spectacular performance of ``Dogs'' at Japan's largest international music awards ``MUSIC AWARDS JAPAN'' held in June of this year. The girls, who continue to make great strides both domestically and internationally, have written a new piece for the movie..."
     },
     {
       "id": "aec82e9085e9b2bc",
@@ -6001,7 +6075,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Original Buddha Machine \"Nirvana\" released with participation by neco Neru, Tabito Nanao, Kiyomaru Togo, Tentenko, imai, etc.",
+      "translatedTitle": "Original Buddha machine \"Nirvana\" released neco Sleeping, Nanao Traveler, Togo Kiyomaru, Tentenko, imai and others participated",
       "translatedExcerpt": "The electronic nenbutsu device ``Nirvana'' will be released on October 28, 2026 (Wednesday) from ``Light and Sound Specialty Store Hao Haoh Hao''. “Nirvana” is the second “Original Buddha Machine” following “Heaven” released in 2021. A Buddha machine (electronic nenbutsu machine) is an electronic audio device that records nenbutsu, Buddhist music, folk songs, etc., and is manufactured in various Asian countries, mainly China. You can play the sound with a single button, and the recorded sound plays repeatedly. In Japan, rather than being used as a religious tool, it is enjoyed as an interior decoration for homes and restaurants due to its pop-like appearance, and because of its musicality, artists use it in live performances and sampling, making it a cult favorite. It includes a large number of newly written songs and popular songs by artists who are active in Japan and abroad, and the Buddha Machine is a collection of gorgeous artists."
     },
     {
@@ -18350,82 +18424,6 @@
       },
       "translatedTitle": "sz2u releases new song “AT THE BENCH (feat. pikomaruko)”",
       "translatedExcerpt": "sz2u released a new song \"AT THE BENCH (feat. pikomaruko)\" on October 19, 2026. sz2u is a singer-songwriter/composer who started his music activities mainly on the internet scene around the summer of his first year of junior high school in 2019. He will release his 1st album ``Full Planning'' in 2023. The new song \"AT THE BENCH\" with pikomaruko as a featured artist is a fast-paced song with colorful tones flying around, with a sound reminiscent of alternative rock and hyper pop. Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/1648951 Artist information https:…"
-    },
-    {
-      "id": "aed039e7018833ee",
-      "title": "vidro、1st EP 『On the Verge』リリース",
-      "link": "https://ototoy.jp/news/132340",
-      "publishedAt": "2026-10-21T10:00:00.000Z",
-      "excerpt": "vidroが1st EP 『On the Verge』を2026年10月21日にリリースした。 vidroは2025年、京都で結成された3ピース・バンド。オルタナティブを土台に、シューゲイザーやポストロックの要素を取り入れた楽曲を制作している。 初のEPとなる本作には、既発曲「さよなら」「await」「Summer was My Enemy」や、先行シングル「坩堝」など全6曲を収録。宇宙や星を想起させるサウンドと歌詞を軸に、「音の揺らぎ」を通じた感情表現を追求した作品となっている。 リリース情報 ハイレゾ ロスレス ▼OTOTOY配信中 https://ototoy.jp/_/default/a/1901591 アーティスト情報 https://x.com/vidro_kyoto",
-      "image": "https://imgs.ototoy.jp/news/image.php/132340/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "vidro releases 1st EP “On the Verge”",
-      "translatedExcerpt": "vidro released his 1st EP “On the Verge” on October 21, 2026. vidro is a 3-piece band formed in Kyoto in 2025. Based on alternative music, he creates songs that incorporate elements of shoegaze and post-rock. This is their first EP, and includes a total of 6 songs, including previously released songs ``Sayonara'', ``Await'', ``Summer was My Enemy'', and the lead single ``Crucible''. Centered on sounds and lyrics that evoke the universe and stars, this work pursues emotional expression through the \"fluctuation of sound.\" Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/1901591 Artist information https://x.com/vidro_kyoto"
-    },
-    {
-      "id": "ca4e01f7d30a5b8a",
-      "title": "スピッツ、ニューAL『kettle』ジャケ写公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166733",
-      "publishedAt": "2026-10-21T10:00:00.000Z",
-      "excerpt": "スピッツが、11月25日に発売する18作目のオリジナルアルバム『kettle』のジャケット写真を公",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166733/x200_image.jpeg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Spitz releases new AL “kettle” jacket photo",
-      "translatedExcerpt": "Spitz has released the jacket photo of his 18th original album “kettle” to be released on November 25th."
-    },
-    {
-      "id": "31ab7ec757c4fc44",
-      "title": "ん・フェニ、新曲「ビンテージマンション」リリース",
-      "link": "https://ototoy.jp/news/132336",
-      "publishedAt": "2026-10-21T10:00:00.000Z",
-      "excerpt": "ん・フェニが新曲「ビンテージマンション」を2026年10月21日にリリースした。 「ビンテージマンション」は、作詞・作曲・編曲・プロデュースをん・フェニ本人が手がけた一曲。夜風の中で街を眺め、他人の暮らしの灯りにやるせなさを覚えながら、「いつか住みたい」という憧れと、「叶えた瞬間に足りなくなってしまう欲」の間で揺れる心情を描く。「夏はそうめん冬はお鍋」といった生活感のある言葉にユーモアとアイロニーを滲ませつつ、ラストでは大切な人と過ごす未来を思い描く、等身大のリアリティが詰まった仕上がりとなっている。 平木監督による「ビンテージマンション」のMVも公開。台湾・台南の街を舞台に、パステルカラーの壁や「鉄窓花」と呼ばれる可愛らしい装飾の柵が並ぶ建物をめぐりながら、日々の暮らしを懐かしい質感で綴る映像作品に仕上…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132336/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "N Feni releases new song “Vintage Mansion”",
-      "translatedExcerpt": "N Feni released a new song “Vintage Mansion” on October 21, 2026. \"Vintage Mansion\" is a song written, composed, arranged, and produced by Feni himself. Looking at the city in the night breeze, feeling the sadness of seeing the lights of other people's lives, the story depicts a man's feelings wavering between his yearning to live there someday and his desire to run out the moment it comes true. Humor and irony are imbued with life-like words such as ``somen noodles in the summer and hot pot in the winter,'' while the ending is full of life-sized reality as he envisions a future where he can spend time with his loved ones. The music video for \"Vintage Mansion\" directed by Hiraki has also been released. Set in the streets of Tainan, Taiwan, the film depicts daily life in a nostalgic way while touring pastel-colored walls and buildings lined with cutely decorated fences called \"iron window flowers.\""
-    },
-    {
-      "id": "f36378a175d3070c",
-      "title": "スピッツ、18thアルバム『kettle』ジャケットにこだわり満載",
-      "link": "https://barks.jp/news/1099852",
-      "publishedAt": "2026-10-21T09:55:00.000Z",
-      "excerpt": "スピッツが11月25日、18作目のオリジナルアルバム『kettle』をリリースする。同作品のジャケット写真が公開となった。 ジャケットデザインは、念力でケトルを持ち上げている姿が印象的だが、彼女が身に着けているドレスに施された色鮮やかな刺繡にも目を奪われるところ。その刺繡の絵柄は、前作『ひみつスタジオ』で登場したロボットのデザインほか、直近のシングル「見知らぬ糸」や「灯を護る」のジャケット絵も手掛けた画家のjunaidaによるもの。細部にまで拘った仕上がりだ。 前作『ひみつスタジオ』(2023年5月17日発売)から、約3年半ぶりのリリースとなるアルバム『kettle』には、TBS系 金曜ドラマ『Ｔシャツが乾くまで』主題歌「見知らぬ糸」をはじめ、現在放映中のキリン 午後の紅茶FRUITS & ICE TEA…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/21185104/SPITZ%E6%9C%80%E6%96%B0%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F2026%E5%B9%B49%E6%9C%8811%E6%97%A5%E6%AD%A3%E5%8D%88%E8%A7%A3%E7%A6%81%E2%80%BB%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B3%E3%82%B0%E4%B8%8D%E5%8F%AF-1-1024x683.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Spitz is particular about the jacket of his 18th album “kettle”",
-      "translatedExcerpt": "Spitz will release their 18th original album ``kettle'' on November 25th. The jacket photo of the same work has been released. The jacket design has an impressive image of her lifting a kettle with telekinesis, but the colorful embroidery on the dress she is wearing is also eye-catching. The embroidery design was created by artist junaida, who also designed the robot that appeared in the previous work ``Himitsu Studio'', as well as the cover art for the recent singles ``Shirai Ito'' and ``Tamaru wo Mamoru''. The finish is made with attention to detail. The album \"kettle\", which will be released for the first time in about three and a half years since the previous work \"Himitsu Studio\" (released on May 17, 2023), includes songs such as \"Shirai Ito\", the theme song for the TBS Friday drama \"Until the T-Shirt Dry\", as well as songs from the currently airing Kirin Afternoon Tea FRUITS & ICE TEA..."
     }
   ]
 }

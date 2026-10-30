@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T06:31:54.589Z",
+  "generatedAt": "2026-10-30T07:01:55.290Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 113,
+      "count": 112,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 240,
+      "count": 241,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 611,
+    "translatedJapaneseArticles": 612,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "b9dd8229279a1626",
+      "title": "Baby Canta、新曲「Shooting Star」はナイトクルージングなシティポップ",
+      "link": "https://www.billboard-japan.com/d_news/detail/166990",
+      "publishedAt": "2026-10-30T06:50:00.000Z",
+      "excerpt": "シンガーソングライターBaby Cantaが、新曲「Shooting Star」を11月11日に配",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166990/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Baby Canta's new song \"Shooting Star\" is night cruising city pop",
+      "translatedExcerpt": "Singer-songwriter Baby Canta will release a new song “Shooting Star” on November 11th."
+    },
     {
       "id": "68b6726474ff0562",
       "title": "ATEEZ、15thミニアルバム『GOLDEN HOUR : Part.6』コンセプトフォト第2弾を公開",
@@ -5411,7 +5430,7 @@
         "language": "ja"
       },
       "translatedTitle": "Houkago Hotaru releases emotional new song “Torus”",
-      "translatedExcerpt": "Houkago Hotaru released their new single \"Torus\" on Wednesday, October 28, 2026. This work is an emotional song that depicts past pain and self-transformation, centered around a sad melody. Using the motifs of rings and marks left on fingers, he expresses the memories that repeat even after a relationship with someone ends, and the changes in oneself as one looks at the same past. In the second rap part, the conflict between one's own weaknesses and wanting to change comes to light. A story of self-acceptance and rebirth, going through a cycle of regret and regret, and finally moving towards a new vow despite the pain. While the sound is based on ballads, it ranges from rap parts to anthems, with arrangements linked to changing emotions. The members of Houkago Hotaru have commented on this single as follows. Comment Release information https://otot…"
+      "translatedExcerpt": "Houkago Hotaru released their new single \"Torus\" on Wednesday, October 28, 2026. This work is an emotional song that depicts past pain and self-transformation, centered around a sad melody. Using the motifs of rings and marks left on fingers, he expresses the memories that repeat even after a relationship with someone ends, and the changes in oneself as one looks at the same past. In the second rap part, the conflict between one's own weaknesses and wanting to change comes to light. This is a story of self-acceptance and rebirth, going through a cycle of regret and regret, and finally moving towards a new vow despite the pain. While the sound is based on ballads, it ranges from rap parts to anthems, with arrangements linked to changing emotions. The members of Houkago Hotaru have commented on this single as follows. Comment Release information https://otot…"
     },
     {
       "id": "1cb31488c90204b9",
@@ -18400,23 +18419,6 @@
       "publishedAt": "2026-10-21T15:15:00.000Z",
       "excerpt": "The first episode is available now!",
       "image": "https://a.storyblok.com/f/178900/960x540/185bc8e71d/magic-knight-rayearth.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "deb399a580b2bc8c",
-      "title": "10 Anime Like Haikyu!! To Soar Into",
-      "link": "https://crunchyroll.com/news/features/2026/10/21/anime-like-haikyu",
-      "publishedAt": "2026-10-21T15:00:00.000Z",
-      "excerpt": "Time to fly high!",
-      "image": "https://a.storyblok.com/f/178900/960x540/2671c2188e/haikyu-karasuno-high.jpg",
       "source": {
         "id": "crunchyroll",
         "name": "Crunchyroll News",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T07:01:55.290Z",
+  "generatedAt": "2026-10-30T07:33:12.133Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 41,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 137,
+      "count": 136,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 112,
+      "count": 111,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 16,
+      "count": 17,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 241,
+      "count": 242,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 63,
+      "count": 64,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,80 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 612,
+    "translatedJapaneseArticles": 613,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "542560b48853b728",
+      "title": "'Kizuguchi to Houtai' Unveils Additional Cast, Third Teaser Promo",
+      "link": "https://myanimelist.net/news/74884610?_location=rss",
+      "publishedAt": "2026-10-30T07:21:46.000Z",
+      "excerpt": "The official website of the Kizuguchi to Houtai (Wound and Bandage) television anime unveiled additional cast, third teaser visual (pictured), and third promotional video on Friday. The anime series adapting Nanai Umihoshi's romantic comedy manga will premiere on January 9, 2027 at 11:00 p.m. on AT-X, followed by ABC TV and TV Asahi on the ANiMAZiNG progr…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793344878-185b496bb20c0f391f599cc37709a808.png",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "0bc0232c213f1a03",
+      "title": "Hololive Forces Minor to Pay Damages Over False Rumors About VTuber",
+      "link": "https://news.sankakucomplex.com/n/NYf5T0C5mfw1jDFQ1ftjZA",
+      "publishedAt": "2026-10-30T07:00:31.000Z",
+      "excerpt": "Japanese VTuber agency Hololive has reached a legal settlement with a minor who spread false personal information about one of its talents online, with the individual’s parents agreeing to pay financial compensation and supervise their child’s future behavior.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "8aeb0ef8e7f48f37",
+      "title": "セレーナ・ゴメス＆デミ・ロヴァート、25年以上にわたる友情を振り返る「心から愛している」",
+      "link": "https://www.billboard-japan.com/d_news/detail/166991",
+      "publishedAt": "2026-10-30T07:00:00.000Z",
+      "excerpt": "セレーナ・ゴメスとデミ・ロヴァートの再会を多くのファンが喜んでいるが、その再会がどれほど大きな意味",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166991/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Selena Gomez and Demi Lovato reflect on over 25 years of friendship: 'I love you with all my heart'",
+      "translatedExcerpt": "Many fans are happy to see Selena Gomez and Demi Lovato reunite, but how much does it mean?"
+    },
+    {
+      "id": "694d8f192a6be545",
+      "title": "Kadokawa Launches 'Kadokawa World Manga' English Label on its KadoComi Platform",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-30/kadokawa-launches-kadokawa-world-manga-english-label-on-its-kadocomi-platform/.243355",
+      "publishedAt": "2026-10-30T06:54:00.000Z",
+      "excerpt": "Brain Alive, Kung Fu Kung Fool, Spica and Voice of Books, more manga available now in English",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gO9/cms/news.10/243355/image-4.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "b9dd8229279a1626",
       "title": "Baby Canta、新曲「Shooting Star」はナイトクルージングなシティポップ",
@@ -6401,7 +6471,7 @@
       "title": "Sony Data Breach Exposes 2.58 Million Accounts & Thousands of Passwords",
       "link": "https://news.sankakucomplex.com/n/fT3hBNYzz2AdEuFg9MT7zA",
       "publishedAt": "2026-10-27T23:00:40.000Z",
-      "excerpt": "Sony Network Communications has suffered a massive data breach affecting approximately 2.58 million customer records, with hackers obtaining personal information, thousands of email passwords, and even a small number of bank account details.",
+      "excerpt": "Sony Network Communications has suffered a massive data breach affecting approximately 2.58 million customer records, with hackers obtaining personal information, thousands of email passwords, and even a small number of bank account details. The Japanese company announced the security incident on…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6509,7 +6579,7 @@
       "title": "Zero Escape Creator Says Rejecting AI Could Hurt Game Developers",
       "link": "https://news.sankakucomplex.com/n/As9m_bL9ZZtrJJs_ytfGFg",
       "publishedAt": "2026-10-27T21:54:03.000Z",
-      "excerpt": "Zero Escape creator Kotaro Uchikoshi has defended the use of generative AI in video game development, suggesting that the technology could have helped save a recently canceled project at his new studio, Crash Keys, by reducing production costs and development time.",
+      "excerpt": "Zero Escape creator Kotaro Uchikoshi has defended the use of generative AI in video game development, suggesting that the technology could have helped save a recently canceled project at his new studio, Crash Keys, by reducing production costs and development time. Speaking with Japanese gaming o…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18358,74 +18428,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "deb88d72f20735d7",
-      "title": "Pokémon Company announces first-ever permanent Pokémon store to open outside Asia",
-      "link": "https://soranews24.com/2026/10/22/pokemon-company-announces-first-ever-permanent-pokemon-store-to-open-outside-asia/",
-      "publishedAt": "2026-10-21T16:30:28.000Z",
-      "excerpt": "After decades of delighting fans in Asia, Pokémon store heads to a new continent. It’s impossible to overstate how much of a pop cultural institution Pokémon is in Japan. Between the anime, video games, cards, and mountains of plushies, Pokémon has been sparking the imaginations and warming the hearts of multiple generations of fans, and […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/21_6db0d4.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "59582e8efa22ae8c",
-      "title": "The Apothecary Diaries: The False Imperial Brother Mystery Game's Trailer Reveals March 18 Release",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-21/the-apothecary-diaries-the-false-imperial-brother-mystery-game-trailer-reveals-march-18-release/.243072",
-      "publishedAt": "2026-10-21T16:01:06.000Z",
-      "excerpt": "Video previews mysteries, concoctions, investigations",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH9/youtube/UB9PxFw_ESk.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1ce016d62ab0615f",
-      "title": "Singer AKINO Graduates from bless4; Band Changes Name to 'bless∞(Forever)'",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-21/singer-akino-graduates-from-bless4-band-changes-name-to-bless/.243069",
-      "publishedAt": "2026-10-21T15:35:12.000Z",
-      "excerpt": "AKINO to perform in final graduation performance with band on December 21",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGD/cms/news.10/243069/akino-bless4-graduation.webp",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "3d0e773c722acf0f",
-      "title": "Magic Knight Rayearth English Dub Reveals Release Date, Cast and Crew",
-      "link": "https://crunchyroll.com/news/announcements/2026/10/21/magic-knight-rayearth-anime-english-dub-release-date-cast-crew",
-      "publishedAt": "2026-10-21T15:15:00.000Z",
-      "excerpt": "The first episode is available now!",
-      "image": "https://a.storyblok.com/f/178900/960x540/185bc8e71d/magic-knight-rayearth.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
         "language": "en"
       }
     }

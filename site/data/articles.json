@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T08:02:17.408Z",
+  "generatedAt": "2026-10-30T08:31:59.259Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 132,
+      "count": 133,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 17,
+      "count": 18,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 243,
+      "count": 244,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 232,
+      "count": 231,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 161,
+      "count": 159,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 617,
+    "translatedJapaneseArticles": 615,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "4c82cd68e5b68d7c",
+      "title": "Aぇ! groupの小島健＆佐野晶哉、SG『Emotion』発売記念のラジオ特番パーソナリティを2人で担当",
+      "link": "https://www.billboard-japan.com/d_news/detail/166995",
+      "publishedAt": "2026-10-30T08:10:00.000Z",
+      "excerpt": "Aぇ! groupの小島健と佐野晶哉が出演する、文化放送の特別番組『ニューシングル「Emotion",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166995/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ae! group's Ken Kojima and Akiya Sano will be hosting a special radio program to commemorate the release of SG's \"Emotion\"",
+      "translatedExcerpt": "Ae! group's Ken Kojima and Akiya Sano will appear on a special program on Nippon Cultural Broadcasting, \"New Single \"Emotion\"."
+    },
+    {
+      "id": "99e1073e512f77d3",
+      "title": "'Destiny Unchain Online' Reveals Main Cast, Staff, Teaser Promo, 2027 Debut",
+      "link": "https://myanimelist.net/news/74884436?_location=rss",
+      "publishedAt": "2026-10-30T08:00:02.000Z",
+      "excerpt": "An official website opened for the Destiny Unchain Online television anime on Friday, revealing the main cast, staff, a teaser visual (pictured), and teaser promotional video. The anime series adapting resn's adventure fantasy light novel will premiere in 2027. Voice actress Ikumi Hasegawa (86, Bocchi the Rock!) is starring as the main character Crim. Sta…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793338936-02884c8a799b2322fa6cbff70b7957cf.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
     {
       "id": "4d6668f27bc4d730",
       "title": "Leo Iwamura、3年を経て完成した12thアルバム『Mindscape』本日リリース",
@@ -238,6 +274,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "dffbe6015b54143c",
+      "title": "Yōko Hikasa, Yuka Iguchi Join Cast of Wound & Bandage Anime",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-30/yoko-hikasa-yuka-iguchi-join-cast-of-wound-and-bandage-anime/.243359",
+      "publishedAt": "2026-10-30T07:44:53.000Z",
+      "excerpt": "Series debuts on January 9",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gOE/youtube/QNKnK31TUow.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -4609,7 +4662,7 @@
         "language": "ja"
       },
       "translatedTitle": "“Ninsaburo Furuhata” complete soundtrack BOX to be released on December 23rd",
-      "translatedExcerpt": "The legendary drama ``Ninsaburo Furuhata'' was broadcast on Fuji TV in the 1990s and is still extremely popular. It has been decided that the highest-quality collection of works, ``Ninsaburo Furuhata Original Soundtrack Complete Box,'' which covers the famous songs that vividly colored the play, will be released on December 23, 2026. The complete box to be released this time includes the three works that were released at the time: \"Inspector Ninzaburo Furuhata Soundtrack\", \"Ninsaburo Furuhata Soundtrack Vol. 2\", and \"Ninsaburo Furuhata Soundtrack Vol. 3\". Additionally, individual CDs (Vols. 1-3) will also be released on the same day. The latest digital remastering has been carried out under the supervision of Yusuke Homma, a master of the world of theatrical music who worked on the music for ``Ninzaburo Furuhata''. In addition, the format is a high-quality CD \"UHQCD (Ultimate..."
+      "translatedExcerpt": "The legendary drama ``Ninsaburo Furuhata'' was broadcast on Fuji TV in the 1990s and is still extremely popular. It has been decided that the highest-quality collection of works, ``Ninsaburo Furuhata Original Soundtrack Complete Box,'' which covers the famous songs that vividly colored the play, will be released on December 23, 2026. The complete box to be released this time includes the three works that were released at the time: \"Inspector Ninzaburo Furuhata Soundtrack\", \"Ninsaburo Furuhata Soundtrack Vol. 2\", and \"Ninsaburo Furuhata Soundtrack Vol. 3\". In addition, individual CDs (Vols. 1-3) will also be released on the same day. The latest digital remastering has been carried out under the supervision of Yusuke Homma, a master of the world of theatrical music who worked on the music for ``Ninzaburo Furuhata''. In addition, the format is a high-quality CD \"UHQCD (Ultimate..."
     },
     {
       "id": "5ad513b23d899597",
@@ -5657,7 +5710,7 @@
       "title": "Guilty Gear Strive Bridget Birthday Post Labels the Character a “She”",
       "link": "https://news.sankakucomplex.com/n/s_9A2CnNrqZWiYlZaInyBw",
       "publishedAt": "2026-10-28T05:00:15.000Z",
-      "excerpt": "Arc System Works has once again reignited controversy surrounding Guilty Gear Strive character Bridget, as a birthday celebration referring to the male character as female attracted numerous Twitter users expressing their displeasure as this forced narrative. On October 26, the European branch of…",
+      "excerpt": "Arc System Works has once again reignited controversy surrounding Guilty Gear Strive character Bridget, as a birthday celebration referring to the male character as female attracted numerous Twitter users expressing their displeasure as this forced narrative.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18381,63 +18434,6 @@
       },
       "translatedTitle": "Yuki Koyanagi releases new song with the theme of “choose yourself”",
       "translatedExcerpt": "Yuki Koyanagi has released a new song \"Choosin' Me\". \"Choosin' Me\" is a song created by Koyanagi's first collaboration with composer Kazuhiro Hara, who worked on her hit songs \"Aishi\" and \"Be Alive.\" The lyrics were written by Yui Mugino and the arrangement was done by Takashi Asano. A song with the theme of \"choosing yourself\" and the message of \"don't look down on yourself and prioritize yourself.\" Koyanagi will be holding \"Yuki Koyanagi Billboard Live 2026\" from the end of this month. Release information https://ototoy.jp/_/default/p/4336202 Choosin' Me special site https://yuki-k.fanmo.jp/choosin-me/ Live information Yuki Koyanagi Billboard Live 2026 October 31, 2026..."
-    },
-    {
-      "id": "0f80f94d59deb3bc",
-      "title": "小柳ゆき、新曲「Choosin‘ Me」リリース。Billboard Live開催",
-      "link": "https://barks.jp/news/1099922",
-      "publishedAt": "2026-10-21T23:00:00.000Z",
-      "excerpt": "小柳ゆきが10月22日に新曲「Choosin‘ Me」(読み：チュージンミー)を配信リリースした。 「愛情」「be alive」など数々のヒット曲を生んだ作曲家・原一博との久しぶりのタッグによる楽曲。 ジャンルを超え、多くの楽曲を手がける瑞々しい感性を持つ浅野尚志のアレンジと、話題作の詞を手がけてきたYui Muginoが紡ぐ「Choosin’ Me＝自分を選ぶ」。「自分を蔑ろにせず優先してあげる」という温かなメッセージを小柳ゆきのソウルフルで伸びやかな歌声が届ける一曲となっている。 また、小柳は10月31日の東京公演を皮切りに、＜小柳ゆき Billboard Live 2026＞を開催。11月5日、6日に大阪、11月10日に横浜で公演を行う。チケットの販売状況など最新情報はBillboard Live公…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/22001821/1-27-768x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Yuki Koyanagi releases new song “Choosin’ Me”. Billboard Live held",
-      "translatedExcerpt": "Yuki Koyanagi released her new song ``Choosin' Me'' on October 22nd. This song is a collaboration for the first time in a long time with composer Kazuhiro Hara, who has produced many hit songs such as ``Aiji'' and ``Be Alive.'' “Choosin’ Me” is woven by Takashi Asano, who has a fresh sensibility that transcends genres and has written many songs, and Yui Mugino, who has written lyrics for popular songs. The song is a song that uses Yuki Koyanagi's soulful and easy-going voice to convey the warm message of ``don't underestimate yourself and prioritize yourself.'' In addition, Koyanagi will hold <Yuki Koyanagi Billboard Live 2026>, starting with the Tokyo performance on October 31st. Performances will be held in Osaka on November 5th and 6th, and in Yokohama on November 10th. For the latest information such as ticket sales status, please visit Billboard Live..."
-    },
-    {
-      "id": "eaee1c56e5226dc0",
-      "title": "スピッツ、新AL『kettle』ジャケット写真公開",
-      "link": "https://ototoy.jp/news/132374",
-      "publishedAt": "2026-10-21T22:00:00.000Z",
-      "excerpt": "スピッツが11月25日にリリースする18作目のオリジナルアルバム『kettle』のジャケット写真が公開された。 ジャケット写真の彼女が身に着けているドレスに施された刺繡の絵柄は、前作『ひみつスタジオ』で登場したロボットのデザイン、直近のシングル「見知らぬ糸」や「灯を護る」のジャケット絵も手掛けた画家のjunaida氏によるもの。 本アルバムには、TBS系 金曜ドラマ『Ｔシャツが乾くまで』主題歌「見知らぬ糸」や、現在放映中のキリン 午後の紅茶FRUITS & ICE TEA「午後のフルーツティー」篇 CMソング「キツネノボタン」、アニメ『SPY×FAMILY』Season 3 オープニング主題歌「灯を護る」のほか、「ちっちゃな無敵」「夢でも会おうね」「変なトモダチ」「逸脱希望サバイバー」など全13曲を収録。…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132374/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Spitz releases new AL “kettle” jacket photo",
-      "translatedExcerpt": "The jacket photo of Spitz's 18th original album ``kettle'', which will be released on November 25th, has been released. The embroidery pattern on the dress she is wearing in the jacket photo was created by artist junaida, who also designed the robot that appeared in her previous work, ``Himitsu Studio,'' and also did the jacket art for her recent singles, ``Shirai Ito'' and ``Tamaru wo Mamoru.'' This album includes the theme song \"Shirai Ito\" for the TBS Friday drama \"Until the T-Shirt ga Dry\", the commercial song \"Kitsune no Button\" for the currently airing Kirin Gogo no Kochachi FRUITS & ICE TEA \"Gogo no Fruits Tea\", and the anime \"SPY×FAMILY\" Season 3. In addition to the opening theme song ``Aka wo Mamoru'', it includes a total of 13 songs, including ``Titty Muteki'', ``Let's meet in a dream'', ``Henn na Tomodachi'', and ``Getsu Kibou Survivor''. …"
-    },
-    {
-      "id": "b599ecc344cf13d6",
-      "title": "Ayumu Imazu、「結び」初披露映像公開",
-      "link": "https://ototoy.jp/news/132371",
-      "publishedAt": "2026-10-21T21:00:00.000Z",
-      "excerpt": "Ayumu Imazuが新曲「結び」のライブ映像を公開した。 本映像は、10月に開催されたBMSG主催の大規模フェス『BMSG FES'26』での初披露パフォーマンスを収めたもの。 また、10月22日(木)20:00より公式YouTubeにて、弾き語りライブを実施することが決定。「結び」を弾き語りで届ける。 リリース情報 https://ototoy.jp/_/default/p/4274323 アーティスト情報 https://ayumuimazu-official.com/ https://x.com/ayumu__imazu https://x.com/AyumuStaff https://www.instagram.com/ayumu_imazu https://www.instagram.com…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132371/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Ayumu Imazu releases first video of “Musubi”",
-      "translatedExcerpt": "Ayumu Imazu has released a live video of her new song \"Musubi\". This video contains the first performance at the large-scale festival ``BMSG FES'26'' sponsored by BMSG, which was held in October. In addition, it has been decided that a singing and singing live performance will be held on the official YouTube from 20:00 on October 22nd (Thursday). Deliver \"Musubi\" by playing and singing. Release information https://ototoy.jp/_/default/p/4274323 Artist information https://ayumuimazu-official.com/ https://x.com/ayumu__imazu https://x.com/AyumuStaff https://www.instagram.com/ayumu_imazu https://www.instagram.com…"
     }
   ]
 }

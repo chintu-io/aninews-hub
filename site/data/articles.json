@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T12:02:36.415Z",
+  "generatedAt": "2026-10-30T12:31:53.934Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 108,
+      "count": 105,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 253,
+      "count": 257,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 147,
+      "count": 146,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -153,7 +153,7 @@
       "name": "Sankaku Complex",
       "status": "ok",
       "mode": "jina-reader",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
       "count": 65,
       "fetchedCount": 24
     }
@@ -163,10 +163,86 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 627,
+    "translatedJapaneseArticles": 630,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "09f02bf54a5b91c1",
+      "title": "森七菜、二つの異なる視点から構成した「Lovlog」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167010",
+      "publishedAt": "2026-10-30T12:20:00.000Z",
+      "excerpt": "森七菜が、楽曲「Lovlog」のミュージックビデオを公開した。 楽曲「Lovlog」は、202",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167010/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Nana Mori releases “Lovlog” MV composed from two different perspectives",
+      "translatedExcerpt": "Nana Mori has released the music video for her song \"Lovlog\". The song \"Lovlog\" is 202"
+    },
+    {
+      "id": "fe0066d50a61b924",
+      "title": "TWICE、MUFGスタジアム（国立競技場）公演より「ENEMY」ライブ映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167006",
+      "publishedAt": "2026-10-30T12:15:00.000Z",
+      "excerpt": "TWICEが、楽曲「ENEMY」のライブ映像を公開した。 楽曲「ENEMY」は、TWICEの最",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167006/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "TWICE releases “ENEMY” live video from MUFG Stadium (National Stadium) performance",
+      "translatedExcerpt": "TWICE has released a live video of their song \"ENEMY\". The song \"ENEMY\" is TWICE's best song."
+    },
+    {
+      "id": "23a3f31acb4d1b7c",
+      "title": "Ado、アニメ『デモンズ・クレスト』OPテーマ「シンカ」配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/167007",
+      "publishedAt": "2026-10-30T12:10:00.000Z",
+      "excerpt": "Adoが、2026年11月6日に新曲「シンカ」を配信リリースする。 新曲「シンカ」は、同日より",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167007/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ado releases the opening theme “Shinka” for the anime “Demon’s Crest”",
+      "translatedExcerpt": "Ado will release a new song \"Shinka\" on November 6, 2026. The new song “Shinka” will be released on the same day."
+    },
+    {
+      "id": "ec54a83912edf2a7",
+      "title": "秦 基博、“欠片と欠片の恋の始まり”を「フラグメンツ」MVで描く",
+      "link": "https://www.billboard-japan.com/d_news/detail/167009",
+      "publishedAt": "2026-10-30T12:05:00.000Z",
+      "excerpt": "秦 基博が、新曲「フラグメンツ」のミュージックビデオを公開した。 2026年10月27日に配信",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167009/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Motohiro Hata depicts the “beginning of love between fragments” with “Fragments” MV",
+      "translatedExcerpt": "Motohiro Hata has released the music video for his new song \"Fragments\". Delivered on October 27, 2026"
+    },
     {
       "id": "f7dd60445f4836fe",
       "title": "ACIDMAN、結成30周年イヤー始動。新企画ライブ＋アコースティックツアー開催、特設サイト開設と一挙解禁",
@@ -356,6 +432,25 @@
       },
       "translatedTitle": "Queen Bee, <Av-chan Birthday Festival 2026~COSMIC GAL~> will be held",
       "translatedExcerpt": "Queen Bee has announced that she will hold a solo performance titled ``Av-chan Birthday Festival 2026~COSMIC GAL~'' on December 25, 2026 at Zepp DiverCity (TOKYO) in Tokyo. This performance, which is held every year on Av-chan's birthday, will be held again this year. Tickets are available for advance fan club tickets starting today at the official fan club \"CLLUB OF QB\". ◾️ <Queen Bee Solo Performance “Av-chan Birthday Festival 2026 ~COSMIC GAL~”> Date: Friday, December 25, 2026 Venue: Zepp DiverCity (TOKYO) Time: 18:00 / 19:00 Price: 7,500 yen (tax included / 1F standing / 2F reserved seat / (Separate drink fee required) *Tickets required for ages 6 and over, children under 6 cannot enter Release date: 12/5 (Sat) 10:…"
+    },
+    {
+      "id": "84de1bf121e05f81",
+      "title": "山崎育三郎プロデュース「OK！Diamonds」完結。誕生した6人組ボーイズグループ・PRIMOが涙の初ステージへ",
+      "link": "https://barks.jp/news/1101610",
+      "publishedAt": "2026-10-30T12:00:00.000Z",
+      "excerpt": "山崎育三郎がプロデュースするミュージカル×ボーイズグループオーディション「OK！Diamonds」（通称：オケダイ）が、本日21時に最終幕となる「第十四幕」を公開し、全14幕にわたるオーディションの物語がついに完結した。 「OK！Diamonds」が掲げてきたのは、誰かを否定してふるい落とすのではなく、一人ひとりの個性と可能性を肯定する、“全肯定型”という新しいオーディションの形だ。年齢も経歴も異なる候補者たちが、それぞれの夢や挫折を胸に集結し、歌やダンスを通して自分自身と向き合い、仲間と励まし合いながら成長していく姿を様々な感情とともに描いてきた。 中でも話題を呼んだのが、最終審査で11人の候補者が披露した、反町隆史の「POISON ～言いたい事も言えないこんな世の中は～」のカバー。候補者たちの心境と重…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/30203027/%E2%91%A0OKDiamonds-logo-1-1024x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "\"OK! Diamonds\" produced by Ikusaburo Yamazaki has been completed. The newly born 6-member boy group PRIMO takes to the tearful first stage",
+      "translatedExcerpt": "The musical x boy group audition \"OK! Diamonds\" (commonly known as Okedai) produced by Ikusaburo Yamazaki released the final act, \"Act 14,\" today at 9pm, and the story of the audition, which spanned 14 acts, has finally come to an end. What ``OK! Diamonds'' has advocated is a new form of audition called ``all-affirmation type,'' which affirms each individual's individuality and potential, rather than rejecting and weeding them out. The film depicts candidates of different ages and backgrounds coming together with their dreams and setbacks in mind, facing themselves through song and dance, and growing while encouraging each other with their friends, with a variety of emotions. What attracted a lot of attention was the cover of Takashi Sorimachi's \"POISON ~In this kind of world where you can't say what you want to say~\", which was performed by 11 candidates at the final screening. Candidates' state of mind and weight..."
     },
     {
       "id": "aac623114679136b",
@@ -18369,95 +18464,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "77f340808a6dd230",
-      "title": "Firefly Wedding Anime Casts Kazuyuki Okitsu as Eishin Nitobe",
-      "link": "https://crunchyroll.com/news/latest/2026/10/22/firefly-wedding-anime-casts-kazuyuki-okitsu-as-eishin-nitobe",
-      "publishedAt": "2026-10-22T12:18:00.000Z",
-      "excerpt": "Crunchyroll streams adaptation based on manga by Oreco Tachibana",
-      "image": "https://a.storyblok.com/f/178900/960x540/4a94995b4c/firefly_wedding_eishin_nitobe_header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "b7421eaef89e44a7",
-      "title": "PSYREN Anime Reveals Two New Cast Members",
-      "link": "https://crunchyroll.com/news/latest/2026/10/22/psyren-anime-two-new-cast-members",
-      "publishedAt": "2026-10-22T12:14:00.000Z",
-      "excerpt": "Crunchyroll streams adaptation based on manga by Toshiaki Iwashiro",
-      "image": "https://a.storyblok.com/f/178900/1000x563/896bcffddb/psyren_van_tenjuin_elmore_tenjuin_header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e261dd4c1c4c6d74",
-      "title": "The Seven Knights of the Marronnier Kingdom Anime Reveals Four New Cast Members",
-      "link": "https://crunchyroll.com/news/latest/2026/10/22/the-seven-knights-of-the-marronnier-kingdom-anime-four-new-cast-members",
-      "publishedAt": "2026-10-22T12:10:00.000Z",
-      "excerpt": "Adaptation based on josei fantasy manga is currently broadcasting in Japan",
-      "image": "https://a.storyblok.com/f/178900/1460x821/ffc653db5d/the_seven_knights_of_the_marrionnier_kingdom_kastehelmi_header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "61e0d58976418c90",
-      "title": "iri、2027年春にホールツアー＆アルバム発売決定。年末には初のビルボードライブ開催も",
-      "link": "https://barks.jp/news/1100037",
-      "publishedAt": "2026-10-22T12:06:43.000Z",
-      "excerpt": "iriが、2027年春にホールツアーを開催することを発表した。 5月3日の大阪・梅田芸術劇場メインホールを皮切りに、ファイナルは7月2日の東京・SGCホール有明まで全9カ所を巡る。本日からオフィシャルメンバーズサイト「Wavy Club」でのチケット先行もスタート。 そして、同じく2027年春に7枚目のフルアルバムの発売も決定した。こちらの詳細は後日発表とのことなので、続報をお待ちいただきたい。 加えて、2026年12月20日には初のビルボードライブ＜iri 10th Anniversary LIVE “after party” at Billboard Live TOKYO＞を開催することも発表された。1日2回公演となり、こちらのチケットも本日からオフィシャルメンバーズサイト「Wavy Club」でのチ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/21205916/iri_Period-Visual_srgb2.5MB.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "iri will be holding a hall tour and album release in the spring of 2027. The first Billboard Live will be held at the end of the year.",
-      "translatedExcerpt": "iri has announced that they will be holding a hall tour in the spring of 2027. Starting at the main hall of Umeda Arts Theater in Osaka on May 3rd, the final will travel to a total of nine locations until July 2nd at SGC Hall Ariake in Tokyo. Ticket advance sales start today on the official members site \"Wavy Club\". It has also been decided that their seventh full-length album will be released in the spring of 2027. Details will be announced at a later date, so please wait for further updates. In addition, it was announced that the first Billboard Live <iri 10th Anniversary LIVE “after party” at Billboard Live TOKYO> will be held on December 20, 2026. There will be two performances a day, and tickets for this one will also be available for purchase on the official member's site \"Wavy Club\" from today..."
-    },
-    {
-      "id": "bd8479c2ed75b00d",
-      "title": "なとり、新曲「pupa」MV公開",
-      "link": "https://ototoy.jp/news/132387",
-      "publishedAt": "2026-10-22T12:05:00.000Z",
-      "excerpt": "なとりが2026年10月1日(木)にリリースしたニューシングル「pupa」のミュージックビデオを公開した。 本作は、U-NEXTで独占配信中のドラマ『チンギス―VIVANT THE ORIGIN STORY―』のために書き下ろされた楽曲。なとり自身も愛するドラマ『VIVANT』の登場人物・チンギスの幼少期に寄り添い、大きな存在にもがきながら抗う姿をテーマに制作された。 共編曲には、今回が初タッグとなる、盟友muqueのtakachiを迎えている。そして、ミュージックビデオは、これまでにもなとりの過去作を多く手掛ける深山詠美が監督を務めた。 イラストレーションは、なとりの映像作品へ初参加となるテナテル（ARUGA Utena）が担当。「蛹」を意味する「pupa」の通り、主人公が地下世界から抜け出し、あがき苦…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132387/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Natori releases new song “pupa” MV",
-      "translatedExcerpt": "Natori has released the music video for her new single \"pupa\" released on Thursday, October 1, 2026. This song was written for the drama \"Genghis - VIVANT THE ORIGIN STORY\" which is being distributed exclusively on U-NEXT. The film was created based on the childhood of Genghis, a character from the drama ``VIVANT'' that Natori herself loves, and depicts him struggling and resisting a big presence. Co-arranging the song is his ally Takachi from muque, who is collaborating with him for the first time. The music video was directed by Emi Miyama, who has worked on many of Natori's past works. The illustrations were handled by ARUGA Utena, who is participating in Natori's video work for the first time. As ``pupa'' means ``pupa'', the protagonist escapes from the underground world and struggles..."
     }
   ]
 }

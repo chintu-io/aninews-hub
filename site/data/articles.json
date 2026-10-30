@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T04:02:14.268Z",
+  "generatedAt": "2026-10-30T04:32:54.094Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 138,
+      "count": 137,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 236,
+      "count": 237,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 609,
+    "translatedJapaneseArticles": 610,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "af9f75cdb3536002",
+      "title": "セリーヌ・ディオン、パリで約197億円の記録破りのカムバック",
+      "link": "https://www.billboard-japan.com/d_news/detail/166980",
+      "publishedAt": "2026-10-30T04:15:00.000Z",
+      "excerpt": "セリーヌ・ディオンが前回ツアーを行っていた際、彼女もファンも、コンサート会場（そして世界中）が1年",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166980/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Celine Dion makes record-breaking comeback in Paris with 19.7 billion yen",
+      "translatedExcerpt": "The last time Celine Dion was on tour, she and her fans knew that concert venues (and the world)"
+    },
     {
       "id": "15ddd24e045afef1",
       "title": "Baby Canta、新曲「Shooting Star」リリース決定",
@@ -823,7 +842,7 @@
       "title": "Good Smile Company Data Breach Exposes Up to 2,800 Customers’ Credit Cards",
       "link": "https://news.sankakucomplex.com/n/y6LrFrY4mSGcIy1qkOxJJA",
       "publishedAt": "2026-10-29T23:00:47.000Z",
-      "excerpt": "Japanese figure manufacturer Good Smile Company has revealed that a major cyberattack on its official online store may have compromised the complete credit card information of approximately 2,800 customers, including card numbers, expiration dates, and security codes. The company, best known for…",
+      "excerpt": "Japanese figure manufacturer Good Smile Company has revealed that a major cyberattack on its official online store may have compromised the complete credit card information of approximately 2,800 customers, including card numbers, expiration dates, and security codes.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -11138,7 +11157,7 @@
       "title": "South Korea Unveils “Award-Winning Technologies” Such as Humanoid Robots & Self-Driving Cars",
       "link": "https://news.sankakucomplex.com/n/ZT5SFs5_4_uQoRKfJcU2kg",
       "publishedAt": "2026-10-25T23:00:48.000Z",
-      "excerpt": "South Korea has showcased nine “cutting-edge technologies” ranging from humanoid robots capable of delicate hand movements to self-driving taxis and AI-powered cooling systems, highlighting the country’s efforts to advance robotics, automation, and artificial intelligence.",
+      "excerpt": "South Korea has showcased nine “cutting-edge technologies” ranging from humanoid robots capable of delicate hand movements to self-driving taxis and AI-powered cooling systems, highlighting the country’s efforts to advance robotics, automation, and artificial intelligence. The innovations were pr…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18396,23 +18415,6 @@
       "publishedAt": "2026-10-21T12:53:49.000Z",
       "excerpt": "Jaku Amano to publish final chapter in Monthly Young Magazine's December issue",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF6/cms/news.8/223743/a-do.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "fd406ebc3b3705ad",
-      "title": "Firefly Wedding's Oreko Tachibana Launches New Manga in Winter",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-21/firefly-wedding-oreko-tachibana-launches-new-manga-in-winter/.243042",
-      "publishedAt": "2026-10-21T12:47:52.000Z",
-      "excerpt": "Tachibana's Firefly Wedding manga ended in February, inspires ongoing TV anime",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF5/cms/news.10/243042/fireflyweddingvol13.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",

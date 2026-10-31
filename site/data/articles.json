@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T08:33:50.232Z",
+  "generatedAt": "2026-10-31T09:01:58.942Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 122,
+      "count": 121,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 101,
+      "count": 100,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 265,
+      "count": 266,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 145,
+      "count": 146,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,67 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 620,
+    "translatedJapaneseArticles": 622,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "d5322a3149a582af",
+      "title": "【連載コラム】遊津場の関西アーティスト週報vol.129「心斎橋JANUSの彼はまた一味違う！君がそうなら僕はこう」",
+      "link": "https://ototoy.jp/news/132558",
+      "publishedAt": "2026-10-31T09:00:00.000Z",
+      "excerpt": "こんにちは。神戸在住の音楽キュレーター、遊津場(ゆつば)です。普段は邦ロック系インディーズアーティスト情報をSNS、メディア寄稿、自主イベント開催など、様々な手法で発信する活動をしています。 そして今回、OTOTOYで私のメインの活動地域である関西エリアで活躍する若手アーティストの様々なトピックを発信する機会をいただきました。これを読めば、関西邦ロックシーンの最前線が分かります。どうぞ、ご贔屓に。 「心斎橋JANUSの彼はまた一味違う！君がそうなら僕はこう」 大阪発青春メロきゅんバンド・君がそうなら僕はこうが初の東名阪ツアー「よろー！君僕のおしゃべりライブハウス」を開催中です。東京と名古屋は見事ソールドアウトを達成して既に終了しており、残すは11月6日の地元大阪・心斎橋JANUSのみとなっております。こち…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132558/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Serial Column] Yutsuba's Kansai Artist Weekly Report vol.129 \"He of Shinsaibashi JANUS is a bit different! If you are like this, I will be like this\"",
+      "translatedExcerpt": "Hello. I'm Yutsuba, a music curator living in Kobe. I usually disseminate information on Japanese rock indie artists through various methods such as SNS, media contributions, and holding independent events. And this time, at OTOTOY, I had the opportunity to share various topics about young artists who are active in the Kansai area, which is my main area of ​​activity. If you read this, you will understand the forefront of the Kansai Japanese rock scene. Thank you for your patronage. \"He of Shinsaibashi JANUS is a little different! If you are like that, then I will be like this.\" Osaka's youth melody band, If you are like that, I'll be like this, is currently holding their first Tokyo, Nagoya, and Osaka tour \"Yoro! You and me chatting live house\". Tokyo and Nagoya have already sold out and the only venue remaining is Shinsaibashi JANUS in Osaka on November 6th. Here..."
+    },
+    {
+      "id": "1f5d4b99f3193522",
+      "title": "＜Archive＞「YELL」「ありがとう」でHot 100首位、「ブルーバード」グローバルチャート席巻――いきものがかり、デビュー20周年のヒットの足跡",
+      "link": "https://www.billboard-japan.com/d_news/detail/166790",
+      "publishedAt": "2026-10-31T09:00:00.000Z",
+      "excerpt": "社会的な反響を及ぼしたアーティストを毎週1組取り上げ、Billboard JAPAN Hot 10",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166790/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "<Archive> \"YELL\" and \"Arigatou\" top the Hot 100, \"Bluebird\" dominates the global chart - Ikimonogakari's hit footprint on the 20th anniversary of their debut",
+      "translatedExcerpt": "Billboard JAPAN Hot 10 features one artist each week who has had a social impact."
+    },
+    {
+      "id": "d72c45d6d2da21ed",
+      "title": "M!LK、「“イイみるくの日”週間」開催。「爆裂愛しすぎて滅！(Crazy Mashup by TeddyLoid)」配信決定も",
+      "link": "https://barks.jp/news/1101646",
+      "publishedAt": "2026-10-31T09:00:00.000Z",
+      "excerpt": "M!LKが、2026年11月1日〜9日まで「“イイみるくの日”週間」として毎日コンテンツを公開していくことを発表した。 11月3日を「イイみるくの日」として開催される「“イイみるくの日”週間」に先立ち、明日より公開されるコンテンツのカレンダーが公開された。先日配信リリースされた「ザッツ！超常」の推しカメラコンテンツをはじめ、11月9日の「YouTube おちゃのまスペシャル」公開まで、多種多様なコンテンツがM!LK公式YouTubeにて順次配信予定だ。 「ザッツ！超常」の推しカメラ配信に先駆けて、YouTubeのプレミア配信枠が用意されている。どのメンバーがどのタイミングで登場するのか、楽しみお待ちいただきたい。「おちゃのまSP」では、7月22日に発売された映像作品『M!LK ARENA TOUR 202…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/30224803/MLK_LOVEENGNE_A%E5%86%99%E7%9C%9FFIX_%E8%BB%BD%E9%87%8F-1.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "M!LK holds \"'Ii Milk Day' Week\". “Crazy Mashup by TeddyLoid” will be distributed",
+      "translatedExcerpt": "M!LK has announced that they will be releasing content every day from November 1st to 9th, 2026 as part of the \"Ii Milk Day\" week. Ahead of the ``Ii Milk Day'' week, which will be held on November 3rd as ``Ii Milk Day,'' a calendar of content that will be released starting tomorrow has been released. A wide variety of content will be distributed sequentially on M!LK's official YouTube, including the recently released recommended camera content of \"That's! Supernatural\" and the release of \"YouTube Ochanoma Special\" on November 9th. Prior to the Oshi camera distribution of \"That's! Supernatural\", a YouTube premiere distribution slot has been prepared. Please look forward to seeing which members will appear and when. “Ochanoma SP” will feature the video work “M!LK ARENA TOUR 202…” released on July 22nd."
+    },
     {
       "id": "9e3e4f24219d0d11",
       "title": "HY、沖縄・野外フェス＜HY SKY Fes 2027＆前夜祭＞出演者第三弾発表。OZworld、中島美嘉ら出演へ",
@@ -18403,59 +18460,6 @@
       },
       "translatedTitle": "Year-end tradition <DECEMBER’S CHILDREN>, East Of Eden announces third performer",
       "translatedExcerpt": "The annual omnibus event <DECEMBER'S CHILDREN>, which music agency Moving On has held every December since 2012, will be held at LIQUIDROOM in Tokyo on December 21st in 2026. Zilqy and Hina Aoki have already been announced as the third performers for the festival. East Of Eden was announced. This will be the final announcement of the main stage. East Of Eden is a five-member rock band formed by female artists who Ayasa, who is active in various fields as a solo violinist, was keen to collaborate with. The dramatic songs, which are based on each member's advanced performance techniques and combine passion and lyricism, are attractive. In November 2026, he will release his first anime tie-up song, the latest anime in the “Toaru” series, “A Certain Dark Girl Coexist”…"
-    },
-    {
-      "id": "ac1c4d380c9d9710",
-      "title": "Shōya Ishige Joins Cast of Wound & Bandage TV Anime",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-23/shoya-ishige-joins-cast-of-wound-and-bandage-tv-anime/.243137",
-      "publishedAt": "2026-10-23T08:55:57.000Z",
-      "excerpt": "Ishige voices Ginsuke Hatobane in series debuting on January 9",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG0/cms/news.10/243137/ginsuke.webp",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "92d6227235fc3486",
-      "title": "Pococha発のサックスシンガー・ななえ、TeddyLoidプロデュースでメジャーデビュー。「Night Trip」が『全力！脱力タイムズ』EDに",
-      "link": "https://barks.jp/news/1100222",
-      "publishedAt": "2026-10-23T08:24:11.000Z",
-      "excerpt": "ライブコミュニケーションアプリ「Pococha」発のサックスシンガー・ななえのメジャーデビュー曲「Night Trip」が、10月14日にビクターエンタテインメントより配信リリースされた。TeddyLoidが作詞・作曲・プロデュースを手がけた同曲は、フジテレビ系全国ネット『全力！脱力タイムズ』の10〜11月度エンディングテーマに起用され、10月2日よりオンエアされている。 今回のメジャーデビューにつながったのは、Pocochaとビクターエンタテインメントが共同開催した＜Pococha × Victor Entertainment -THE PRODUCER-＞だ。ななえは2026年3月に同イベントでNo.1を獲得。TeddyLoidによる楽曲提供とビクターエンタテインメントからの配信リリース、ミュージック…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/23164357/%E3%81%AA%E3%81%AA%E3%81%88_%E3%82%A2%E3%83%BC%E5%86%99202608-683x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Saxophone singer Nanae from Pococha makes her major debut with TeddyLoid production. “Night Trip” is “Full power! Kyoroku Times” ED",
-      "translatedExcerpt": "Saxophone singer Nanae's major debut song \"Night Trip\" from the live communication app \"Pococha\" was released on October 14th by Victor Entertainment. The song, written, composed, and produced by TeddyLoid, was released on Fuji TV's national network ``Zenryoku! It was used as the ending theme for the October-November episode of ``Yakuroku Times'' and has been aired since October 2nd. What led to this major debut was <Pococha x Victor Entertainment -THE PRODUCER->, which was jointly held by Pococha and Victor Entertainment. Nanae won No. 1 at the same event in March 2026. Music provided by TeddyLoid and distributed by Victor Entertainment, music..."
-    },
-    {
-      "id": "34e61e06e55c63f3",
-      "title": "Wound & Bandage Anime Reveals Cast for Ginsuke Hatobane",
-      "link": "https://crunchyroll.com/news/latest/2026/10/23/wound-and-bandage-anime-ginsuke-hatobane-cast",
-      "publishedAt": "2026-10-23T07:49:00.000Z",
-      "excerpt": "Miyuki Ishida directs the series at studio J.C.Staff",
-      "image": "https://a.storyblok.com/f/178900/1460x821/d50b0af636/wound-and-bandange-ginsuke-hatobane-shoya-ishige.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

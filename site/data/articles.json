@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T01:34:35.129Z",
+  "generatedAt": "2026-10-31T02:04:55.068Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 37,
+      "count": 36,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 99,
+      "count": 100,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 264,
+      "count": 265,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 241,
+      "count": 240,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 72,
       "fetchedCount": 24
     }
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 547,
+    "translatedJapaneseArticles": 545,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "e47ccfd1f3d7e862",
+      "title": "テイラー【ナッシュビル・ソングライターの殿堂】入り、ボン・ジョヴィ9年ぶり来日公演決定、故アヴィーチー2011年の出演映像初公開：今週の洋楽まとめ",
+      "link": "https://www.billboard-japan.com/d_news/detail/166968",
+      "publishedAt": "2026-10-31T02:00:00.000Z",
+      "excerpt": "今週の洋楽まとめニュースは、テイラー・スウィフトに関する話題から。 現地時間2026年10月2",
+      "image": "https://www.billboard-japan.com/scale/news/00000166/166968/800x_image.png",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "テイラー【ナッシュビル・ソングライターの殿堂】入り、ボン・ジョヴィ9年ぶり来日公演決定、故アヴィーチー2011年の出演映像初公開：今週の洋楽まとめ",
+      "translatedExcerpt": "今週の洋楽まとめニュースは、テイラー・スウィフトに関する話題から。 現地時間2026年10月2"
+    },
+    {
+      "id": "fe2142f08ef60223",
+      "title": "Kagura Nana Releases The Detective Is Already Dead Season 2 Anime Ending Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/10/31/the-detective-is-already-dead-season-2-anime-ending-song-music-video-kagura-nana",
+      "publishedAt": "2026-10-31T01:46:00.000Z",
+      "excerpt": "The new season is currently available on Crunchyroll",
+      "image": "https://a.storyblok.com/f/178900/960x540/4105a808d8/kagura-nana-hakuchumu-mv.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "91655269e8f09579",
       "title": "秦 基博、「フラグメンツ」ストーリー仕立てのMV公開",
@@ -244,7 +280,7 @@
       "title": "Japan’s Used Anime Merchandise Is Booming Overseas, Mercari Reveals",
       "link": "https://news.sankakucomplex.com/n/1b7V8BrQadtSOKfny39zzQ",
       "publishedAt": "2026-10-30T23:00:25.000Z",
-      "excerpt": "Japanese online marketplace Mercari has revealed that overseas demand for secondhand Japanese merchandise has skyrocketed, with international transactions growing approximately 19-fold in just four years, driven partly by the worldwide popularity of anime, manga, and video games.",
+      "excerpt": "Japanese online marketplace Mercari has revealed that overseas demand for secondhand Japanese merchandise has skyrocketed, with international transactions growing approximately 19-fold in just four years, driven partly by the worldwide popularity of anime, manga, and video games. To celebrate the…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -316,7 +352,7 @@
       "title": "Azur Lane Shows Off Five New Shipgirls & Revealing Costumes",
       "link": "https://news.sankakucomplex.com/n/mYXdyfkDlPuSkAhz9eDthQ",
       "publishedAt": "2026-10-30T19:00:56.000Z",
-      "excerpt": "Azur Lane has released a promotional trailer showcasing five new shipgirls and a collection of revealing costumes for its latest Tempesta event, featuring an assortment of pirate-themed characters dressed as angels and demons.",
+      "excerpt": "Azur Lane has released a promotional trailer showcasing five new shipgirls and a collection of revealing costumes for its latest Tempesta event, featuring an assortment of pirate-themed characters dressed as angels and demons. The trailer, published on October 22, 2026, introduces Merkuriy, Selim…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -486,7 +522,7 @@
       "title": "Universal Studios Japan Condemns Man for Hugging Female Zombie Performer",
       "link": "https://news.sankakucomplex.com/n/GRz_6_eORPXk0FkQExJiDw",
       "publishedAt": "2026-10-30T15:00:11.000Z",
-      "excerpt": "Universal Studios Japan (USJ) has condemned a male visitor who was filmed grabbing a female zombie performer from behind during the theme park’s Halloween celebrations, sparking widespread criticism and concerns about employee safety.",
+      "excerpt": "Universal Studios Japan (USJ) has condemned a male visitor who was filmed grabbing a female zombie performer from behind during the theme park’s Halloween celebrations, sparking widespread criticism and concerns about employee safety. The incident reportedly occurred on October 22 during USJ’s po…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -919,10 +955,10 @@
     },
     {
       "id": "f7dd60445f4836fe",
-      "title": "ACIDMAN、結成30周年イヤー始動。新企画ライブ＋アコースティックツアー開催、特設サイト開設と一挙解禁",
+      "title": "ACIDMAN結成30周年イヤー始動、新企画ライブ＋アコースティックツアー＋特設サイト開設",
       "link": "https://barks.jp/news/1101623",
       "publishedAt": "2026-10-30T12:00:00.000Z",
-      "excerpt": "ACIDMANが、2027年に迎える結成30周年に向けてアニバーサリーイヤーの始動を発表した。 30周年記念企画第1弾として、ワンマンライブ＜ACIDMAN ONE-MAN LIVE “deep”＞開催、さらに第2弾として全国ツアー＜ACIDMAN LIVE TOUR “Second line & Acoustic collection III”＞の開催を発表。 合わせて、30周年特設サイトも公開となった。メインビジュアルとして目を惹く地球の映像は、日本テレビ放送網株式会社と株式会社バスキュールが共同で事業推進する、地球観測映像プラットフォーム「TerraCaster（テラキャスター）」によるもの。気象衛星「ひまわり」の観測データを活用し、宇宙から見た地球の姿を映像化。実際の観測データをもとに、雲の動きや…",
+      "excerpt": "ACIDMANが、2027年に迎える結成30周年に向けてアニバーサリーイヤーの始動を発表した。30周年記念企画第1弾として、ワンマンライブ＜ACIDMAN ONE-MAN LIVE “deep”＞開催、さらに第2弾として全国ツアー＜ACIDMAN LIVE TOUR “Second line & Acoustic collection III”＞の開催を発表したことに加え、30周年特設サイトも公開となった。 30周年特設サイトのメインビジュアルとして目を惹く地球の映像は、日本テレビ放送網株式会社と株式会社バスキュールが共同で事業推進する、地球観測映像プラットフォーム“TerraCaster (テラキャスター)”によるもの。これは、気象衛星“ひまわり”の実際の観測データをもとに、雲の動きや太陽の光によって刻…",
       "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/30204612/ACIDMAN_20231129%E8%A7%A3%E7%A6%81%E3%82%A2%E3%83%BC%E5%86%99_.jpg",
       "source": {
         "id": "barks",
@@ -933,8 +969,8 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "ACIDMAN、結成30周年イヤー始動。新企画ライブ＋アコースティックツアー開催、特設サイト開設と一挙解禁",
-      "translatedExcerpt": "ACIDMANが、2027年に迎える結成30周年に向けてアニバーサリーイヤーの始動を発表した。 30周年記念企画第1弾として、ワンマンライブ＜ACIDMAN ONE-MAN LIVE “deep”＞開催、さらに第2弾として全国ツアー＜ACIDMAN LIVE TOUR “Second line & Acoustic collection III”＞の開催を発表。 合わせて、30周年特設サイトも公開となった。メインビジュアルとして目を惹く地球の映像は、日本テレビ放送網株式会社と株式会社バスキュールが共同で事業推進する、地球観測映像プラットフォーム「TerraCaster（テラキャスター）」によるもの。気象衛星「ひまわり」の観測データを活用し、宇宙から見た地球の姿を映像化。実際の観測データをもとに、雲の動きや…"
+      "translatedTitle": "ACIDMAN結成30周年イヤー始動、新企画ライブ＋アコースティックツアー＋特設サイト開設",
+      "translatedExcerpt": "ACIDMANが、2027年に迎える結成30周年に向けてアニバーサリーイヤーの始動を発表した。30周年記念企画第1弾として、ワンマンライブ＜ACIDMAN ONE-MAN LIVE “deep”＞開催、さらに第2弾として全国ツアー＜ACIDMAN LIVE TOUR “Second line & Acoustic collection III”＞の開催を発表したことに加え、30周年特設サイトも公開となった。 30周年特設サイトのメインビジュアルとして目を惹く地球の映像は、日本テレビ放送網株式会社と株式会社バスキュールが共同で事業推進する、地球観測映像プラットフォーム“TerraCaster (テラキャスター)”によるもの。これは、気象衛星“ひまわり”の実際の観測データをもとに、雲の動きや太陽の光によって刻…"
     },
     {
       "id": "7e2ccbecf13d946f",
@@ -1243,7 +1279,7 @@
       "title": "Japan’s KDDI Plans 1,000 AI Robots to Combat Labor Shortages",
       "link": "https://news.sankakucomplex.com/n/UP-xj_vO1Ie0XG7PQKmSgQ",
       "publishedAt": "2026-10-30T11:00:00.000Z",
-      "excerpt": "Japanese telecommunications giant KDDI has announced plans to invest ¥30 billion ($200 million) in artificial intelligence-powered robots, aiming to deploy more than 1,000 autonomous machines across Japanese workplaces by fiscal 2030.",
+      "excerpt": "Japanese telecommunications giant KDDI has announced plans to invest ¥30 billion ($200 million) in artificial intelligence-powered robots, aiming to deploy more than 1,000 autonomous machines across Japanese workplaces by fiscal 2030. The initiative, announced on October 27, 2026, will focus on d…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18428,42 +18464,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "60292a1586b5e808",
-      "title": "謎に包まれた女性2人組ユニット・Fluid Flower、1年ぶりの新作EP『平熱』リリース決定",
-      "link": "https://barks.jp/news/1100095",
-      "publishedAt": "2026-10-23T01:48:47.000Z",
-      "excerpt": "Fluid Flowerが、2026年11月4日にデジタルEP『平熱』をリリースすることを発表した。 Fluid Flowerは2025年7月「獣のブルース」でメジャーデビュー。ANJIのジャズとR&Bを基盤とした繊細で神秘的な歌声と、ボカロPとしての活動歴があるというDABINの感性、さらに楽曲の世界観も相まって日本テレビ系「バズリズム02」などでもピックアップされ注目を集めた。その後、等身大の女子の気持ちを歌った「ドラマ」「シュガーハイ」を同年10月に立て続けにリリースし、「ドラマ」は日本国外で日本の音楽を紹介するSNSで楽曲が紹介をされたことにより、海外にも楽曲が大きく広まったという。 そんな中で、およそ1年ぶりの11月4日にリリースとなるデジタルEP『平熱』は、メンバー2人がそれぞれの生活の中で感…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/23104644/Fluid-Flower_photo2026_s-1024x768.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Mysterious female duo Fluid Flower will release their first new EP in a year, “Heinetsu”",
-      "translatedExcerpt": "Fluid Flower has announced that they will release their digital EP “Heinetsu” on November 4, 2026. Fluid Flower will make their major debut with “Beast Blues” in July 2025. ANJI's delicate and mysterious singing voice based on jazz and R&B, DABIN's sensibility as a member of Vocaloid P, and the worldview of the song combined to attract attention as it was picked up on Nippon Television's \"Buzz Rhythm 02\". After that, they released ``Drama'' and ``Sugar High'', which sang about the feelings of a life-sized girl, in quick succession in October of the same year.``Drama'' was introduced outside of Japan on social media that introduces Japanese music, and the song spread widely overseas. Under such circumstances, the digital EP \"Heinetsu\", which will be released on November 4th for the first time in about a year, will be released by the two members in their respective lives."
-    },
-    {
-      "id": "7b2c0b634951d6e7",
-      "title": "Japan’s newest tempura is…potato salad tempura?!? [Taste test]",
-      "link": "https://soranews24.com/2026/10/23/japans-newest-tempura-is-potato-salad-tempura-taste-test/",
-      "publishedAt": "2026-10-23T01:00:00.000Z",
-      "excerpt": "Annual idea contest takes Tenya to a bold new tempura frontier. Tempura is one of the most versatile styles of Japanese cuisine, especially when it comes to vegetables. Onion, carrots, eggplant, and kabocha (Japanese pumpkin), to name just a few, all lend themselves to Japan’s traditional method of deep-frying, and they’re all things the staff […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_cb7f58.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
         "language": "en"
       }
     }

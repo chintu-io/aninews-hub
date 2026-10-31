@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T16:01:46.176Z",
+  "generatedAt": "2026-10-31T16:31:47.444Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 120,
+      "count": 121,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 273,
+      "count": 272,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 622,
+    "translatedJapaneseArticles": 621,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "440cbc1ec59479a6",
+      "title": "Romelia War Chronicle Anime's 2nd Part Unveils April 2027 Debut, Ending Song's Artist",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-31/romelia-war-chronicle-anime-2nd-part-unveils-april-2027-debut-ending-song-artist/.243390",
+      "publishedAt": "2026-10-31T15:13:57.000Z",
+      "excerpt": "Hiro Shimono to perform ending theme",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gDK/cms/news.9/241689/romelia-kv.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "e5443d0e6c2e8f01",
       "title": "10 Best Anime Characters to Take Trick-Or-Treating",
@@ -18441,25 +18458,6 @@
       },
       "translatedTitle": "[Billboard] Tomoko Akane's ``Fighting War Crimes'' tops the cultural book chart for the second time Kou Takano's complete book debuts at 4th place",
       "translatedExcerpt": "Billbo chart published on October 22, 2026 (collection period: October 12, 2026 to October 18, 2026)"
-    },
-    {
-      "id": "448f3f680886cca2",
-      "title": "【ビルボード】青山剛昌『名探偵コナン 109巻』が“Hot Manga”1位を獲得",
-      "link": "https://www.billboard-japan.com/d_news/detail/166751",
-      "publishedAt": "2026-10-23T12:00:00.000Z",
-      "excerpt": "2026年10月22日公開（集計期間：2026年10月12日～10月18日）Billboard J",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166751/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Gosho Aoyama’s “Detective Conan Volume 109” ranks first in “Hot Manga”",
-      "translatedExcerpt": "Released on October 22, 2026 (Aggregation period: October 12, 2026 - October 18, 2026) Billboard J"
     }
   ]
 }

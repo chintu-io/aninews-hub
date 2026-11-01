@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T16:01:56.646Z",
+  "generatedAt": "2026-11-01T16:31:51.891Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 35,
+      "count": 36,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 120,
+      "count": 121,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 95,
+      "count": 94,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 24,
+      "count": 25,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 242,
+      "count": 241,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 142,
+      "count": 141,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,61 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 624,
+    "translatedJapaneseArticles": 622,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "3351a84aeb8f06d7",
+      "title": "Japanese Animation TV Ranking, October 19-25",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-01/japanese-animation-tv-ranking-october-19-25/.243409",
+      "publishedAt": "2026-11-01T16:15:00.000Z",
+      "excerpt": "Apothecary Diaries earns 3.5% rating; both Vermilion Mask, Dragon Ball Super: Beerus earn 2.9%",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gQJ/encyc/A36879-3355659636.1789101899.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "601e8c5a93185f09",
+      "title": "'Claymore' Creator Norihiro Yagi Begins New Manga",
+      "link": "https://myanimelist.net/news/74894409?_location=rss",
+      "publishedAt": "2026-11-01T16:06:04.000Z",
+      "excerpt": "Norihiro Yagi, the creator of Claymore, began serializing a new manga titled Batrlet Fairy Basslet on the Shounen Jump+ platform on Monday. Yagi serialized Claymore in Monthly Shounen Jump from June 2001 to June 2007. Following the magazine's discontinuance, the manga switched to Jump SQ. in November 2007, where it ended in October 2014. Shueisha publishe…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793549056-60754f7772674795350001367f81c0c5.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "055bd3a9a4b3b44b",
+      "title": "Pokémon guitars from Fender Japan come with 8-bit sound mode for covering retro game music [Vid]",
+      "link": "https://soranews24.com/2026/11/02/pokemon-guitars-from-fender-japan-come-with-8-bit-sound-mode-for-covering-retro-game-music-vid/",
+      "publishedAt": "2026-11-01T16:00:09.000Z",
+      "excerpt": "Fender celebrates Red and Green’s 30th anniversary with guitars saluting the Pokémon world in both looks and sound. In the English-speaking world, the start of the Pokémon video game series were the paired releases of Pokémon Red and Blue for the Game Boy in 1998. However, unbeknownst to many young fans at the time, the […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/0_e7cb6b.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "f640cbe7dbc8f377",
       "title": "BE:FIRST、揺るぎない自信＆音楽への純粋な衝動を「NOW U KNOW」MVで描く",
@@ -1042,7 +1093,7 @@
       "title": "Japan’s Shibuya Locks Down for Halloween With Police & Alcohol Restrictions",
       "link": "https://news.sankakucomplex.com/n/yWLujxCUGPWU3KqVFodAbA",
       "publishedAt": "2026-10-31T21:00:22.000Z",
-      "excerpt": "Tokyo’s Shibuya district has introduced extensive security measures for Halloween 2026, deploying hundreds of police officers, restricting alcohol sales, and barricading its famous Hachiko statue as authorities prepare for large crowds of costumed visitors.",
+      "excerpt": "Tokyo’s Shibuya district has introduced extensive security measures for Halloween 2026, deploying hundreds of police officers, restricting alcohol sales, and barricading its famous Hachiko statue as authorities prepare for large crowds of costumed visitors. This year’s Halloween falls on a Saturd…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18409,61 +18460,6 @@
       },
       "translatedTitle": "eill will release their first self-cover EP. Includes the song “Yumei” provided to BE:FIRST",
       "translatedExcerpt": "eill has announced that he will release his first self-cover EP ``self-covers.'' on November 4, 2026. This work includes 3 songs carefully selected from the songs that eill has provided so far, including BE:FIRST's \"Yumei\", which was provided with SKY-HI and Ryo 'Lefty' Miyata, \"STAY WITH ME\", which was provided to NEWS in March 2020, and GENERATIONS' Ryota Katayose's \"tenkiame\", which was released in August 2024. It is also said that all the songs were rearranged for this work, and \"STAY WITH ME\" was produced featuring NEWS' Takahisa Masuda. Furthermore, eill will hold a one-man live project with Furui Riho on November 13th at Zepp Shinjuku in Tokyo <eill p…"
-    },
-    {
-      "id": "ef2189fc9f82988f",
-      "title": "G-FREAK FACTORY、30周年ツアーゲスト第一弾発表にHAWAIIAN6、山嵐、ロットン、四星球など7組",
-      "link": "https://barks.jp/news/1100335",
-      "publishedAt": "2026-10-24T03:00:00.000Z",
-      "excerpt": "G-FREAK FACTORYが2027年1月より、30周年記念全国ツアーを開催する。そのツアータイトルおよび、1stシリーズのゲスト7組が発表となった。 ツアータイトルは＜G-FREAK FACTORY 30th ANNVERSARY TOUR “NOROSHI”＞だ。現在開催中の結成30周年を見据えた軌跡ツアー＜Path to 30th TOUR “TOMOSHIBI -燈/灯-”＞に続き、G-FREAK FACTORYの止まらない意志を示したツアータイトルとなる。 その1stシリーズのゲスト第一弾として発表されたのは、HAWAIIAN6、STAB 4 REASON AND THE STYLES、THE FOREVER YOUNG、山嵐、locofrank、ROTTENGRAFFTY、四星球。同時に、…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/24113013/G-FREAK-FACTORY_ArtistPhoto_2026-1024x671.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "G-FREAK FACTORY announces first guests for 30th anniversary tour, 7 groups including HAWAIIAN6, Yama Arashi, Rotten, and Four Star Ball",
-      "translatedExcerpt": "G-FREAK FACTORY will hold a 30th anniversary nationwide tour starting January 2027. The title of the tour and the 7 guests for the 1st series have been announced. The tour title is <G-FREAK FACTORY 30th ANNVERSARY TOUR “NOROSHI”>. This tour title follows G-FREAK FACTORY's unstoppable will, following the Path to 30th TOUR “TOMOSHIBI -Tou/Tou-” which is currently being held in anticipation of the group's 30th anniversary. The first guests announced for the 1st series were HAWAIIAN6, STAB 4 REASON AND THE STYLES, THE FOREVER YOUNG, Yama Arashi, locofrank, ROTTENGRAFFTY, and Shisei Kyū. at the same time,…"
-    },
-    {
-      "id": "9caf1f1005298e61",
-      "title": "Haute & Freddy、ダークな新SGリリース",
-      "link": "https://ototoy.jp/news/132411",
-      "publishedAt": "2026-10-24T03:00:00.000Z",
-      "excerpt": "Haute & Freddyが2026年10月23日(金)にニューシングル「Film Noir」をリリースした。 クラシックなフィルム・ノワール映画に見られる危険な魅力と、影のあるロマンティシズムから着想を得た本作。愛を美しくも歪んだミステリーとして描き、欲望と危険の境界が曖昧になっていく物語を、Haute & Freddyならではのドラマティックなポップ表現へと昇華している。 楽曲のソングライティングとプロデュースは、Haute & Freddy自身が担当。2人のクリエイティブなビジョンを中心に制作された本作は、サウンドだけでなく、物語性やビジュアルを含めた総合的な表現を追求する彼らの姿勢を示している。 リリース情報 https://ototoy.jp/_/default/p/4357301 アーティス…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132411/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Haute & Freddy, dark new SG release",
-      "translatedExcerpt": "Haute & Freddy released their new single \"Film Noir\" on Friday, October 23, 2026. The film is inspired by the dangerous glamor and dark romanticism of classic film noir films. It depicts love as a beautiful yet twisted mystery, and the story where the line between desire and danger becomes blurred, has been elevated to the dramatic pop expression unique to Haute & Freddy. The song was written and produced by Haute & Freddy themselves. This work, which was produced centering on the creative vision of the duo, shows their commitment to pursuing comprehensive expression that includes not only sound but also narrative and visuals. Release information https://ototoy.jp/_/default/p/4357301 Artist…"
-    },
-    {
-      "id": "4fa3882d315ccacc",
-      "title": "The Iceblade Sorcerer Shall Rule the World II English Dub Now Streaming on Crunchyroll",
-      "link": "https://crunchyroll.com/news/announcements/2026/10/24/the-iceblade-sorcerer-shall-rule-the-world-season-2-english-dub-now-streaming-on-crunchyroll",
-      "publishedAt": "2026-10-24T03:00:00.000Z",
-      "excerpt": "It's time for the Magicks War tournament!",
-      "image": "https://a.storyblok.com/f/178900/960x540/7c734f0a7b/the-iceblade-sorcerer-shall-rule-the-world-ii.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

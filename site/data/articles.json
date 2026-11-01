@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T23:31:54.970Z",
+  "generatedAt": "2026-11-01T00:01:56.153Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 36,
+      "count": 37,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 268,
+      "count": 267,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 617,
+    "translatedJapaneseArticles": 616,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "64a0b557db9c1d33",
+      "title": "Japan’s TeamLab digital art group is opening a permanent museum in America",
+      "link": "https://soranews24.com/2026/11/01/japans-teamlab-digital-art-group-is-opening-a-permanent-museum-in-america/",
+      "publishedAt": "2026-10-31T23:30:58.000Z",
+      "excerpt": "Internationally acclaimed art collective will have a new home not far from Disneyland. Japan’s TeamLab has risen from relative obscurity to become one of the most admired digital art collectives in the world, using their technological wizardry and ethereally emotional sensibilities to craft experiences unlike those from anyone else. Their exhibits and mus…",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/0_ccd2a4.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "14e19598afa715d8",
       "title": "Japan’s Shibuya Locks Down for Halloween With Police & Alcohol Restrictions",
@@ -18431,25 +18448,6 @@
       },
       "translatedTitle": "[Billboard] Mrs. GREEN APPLE's \"POPS\" tops the overall album list for the first time in two weeks Tatsuro Yamashita's \"JOY 2\" debuts at number two",
       "translatedExcerpt": "Comprehensive album chart released on October 21, 2026 (collection period: October 12, 2026 to October 18, 2026)"
-    },
-    {
-      "id": "c3d73d40c803b22a",
-      "title": "【ビルボード】凪良ゆう『汝、星のごとく』文芸書籍チャート2連覇 阿部暁子『カフネ』が続く",
-      "link": "https://www.billboard-japan.com/d_news/detail/166755",
-      "publishedAt": "2026-10-23T12:00:00.000Z",
-      "excerpt": "2026年10月22日公開チャート（集計期間：2026年10月12日～10月18日）の文芸書籍チャ",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166755/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Yu Nagira's ``You Are Like a Star'' wins the literary book chart for the second consecutive time, followed by Akiko Abe's ``Kafune''",
-      "translatedExcerpt": "Literary book charts published on October 22, 2026 (collection period: October 12, 2026 to October 18, 2026)"
     }
   ]
 }

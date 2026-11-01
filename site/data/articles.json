@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T03:01:53.393Z",
+  "generatedAt": "2026-11-01T03:31:56.784Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 121,
+      "count": 122,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 231,
+      "count": 232,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -153,8 +153,8 @@
       "name": "Sankaku Complex",
       "status": "ok",
       "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 82,
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "count": 80,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 613,
+    "translatedJapaneseArticles": 614,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "75472184557e5038",
+      "title": "宇多田ヒカル、新曲「Intentions」配信決定。プレオーダーキャンペーン＆先行フル試聴会も実施",
+      "link": "https://barks.jp/news/1101800",
+      "publishedAt": "2026-11-01T03:00:50.000Z",
+      "excerpt": "宇多田ヒカルが、新曲「Intentions」を11月25日に配信リリースすることが決定した。本楽曲はJR東海「GOOD DAY EXPRESS」テーマソングとして起用されている。 発表にあわせ公開されたジャケット写真は、パリを拠点とする日本人イラストレーター、アーティストのYUKIKO NORITAKE氏が手掛けたもの。 また、リリース決定に伴い楽曲のプレオーダーキャンペーンもスタート。iTunesでプレオーダーをした方の中から、抽選で100名様に「オリジナルハンカチ」がプレゼントされる。Apple MusicでのPre-Add、SpotifyでのPre-Save、Amazon Musicでの配信予約もふくめたキャンペーン参加者全員には「オリジナル待ち受け画像」をプレゼント。キャンペーンの詳細は特設ページ…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/01114646/%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%ABIntentions_%E5%91%8A%E7%9F%A5%E7%94%A8A%E5%86%99.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Hikaru Utada's new song \"Intentions\" will be released. Pre-order campaign and advance full listening session also held",
+      "translatedExcerpt": "It has been decided that Hikaru Utada will release her new song \"Intentions\" on November 25th. This song was used as the theme song for JR Tokai's \"GOOD DAY EXPRESS\". The jacket photo released along with the announcement was created by YUKIKO NORITAKE, a Japanese illustrator and artist based in Paris. Additionally, with the release decision, a pre-order campaign for the song has started. Among those who pre-order on iTunes, 100 people will be randomly selected to receive an ``original handkerchief.'' All campaign participants, including Pre-Add on Apple Music, Pre-Save on Spotify, and distribution reservations on Amazon Music, will receive an \"original wallpaper image\" as a gift. For details about the campaign, please see the special page..."
+    },
     {
       "id": "d3bfd4ce91c78e4c",
       "title": "【ライブレポ】PompadollSが、歌舞伎町を巨大なライブハウスに変えた──ツアー前夜祭フリーライブで届けた熱狂",
@@ -188,7 +207,7 @@
     },
     {
       "id": "5ff9ff7b9cd9bc2a",
-      "title": "'Shibatsuki Bukken' Gets TV Anime Adaptation in Summer 2027",
+      "title": "Manga 'Shibatsuki Bukken' Gets TV Anime Adaptation in Summer 2027",
       "link": "https://myanimelist.net/news/74892534?_location=rss",
       "publishedAt": "2026-11-01T02:52:56.000Z",
       "excerpt": "Publishing company Shueisha announced a television anime adaptation of Esu Omori's Shibatsuki Bukken (Shiba Inu Rooms) on Sunday. An official website also opened and revealed the main staff, cast, a teaser visual (pictured), and a teaser promotional video. The anime is scheduled to air in Summer 2027. Voice actresses Niina Nakabayashi (Awajima Hyakkei) an…",
@@ -217,6 +236,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "7245f2d0ab119c11",
+      "title": "Shiba Inu Rooms Manga Gets TV Anime in Summer 2027",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-31/shiba-inu-rooms-manga-gets-tv-anime-in-summer-2027/.243404",
+      "publishedAt": "2026-11-01T02:44:52.000Z",
+      "excerpt": "Niina Nakabayashi, Mutsumi Tamura star in series at TMS Entertainment",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFE/cms/news.10/243404/shiba-inu-illust.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -18408,40 +18444,6 @@
       },
       "translatedTitle": "[Sen Yomi Digital] Naniwa Danshi's \"Moonlit\" is running at the top of the DL song, followed by MAZZEL in 2nd place",
       "translatedExcerpt": "From the download song sales report by GfK/NIQ Japan from October 19, 2026 to October"
-    },
-    {
-      "id": "653a40dd4cd17b2a",
-      "title": "Hideo Kojima Says People Who Never Played Death Stranding Still Call It a “Walking Simulator”",
-      "link": "https://news.sankakucomplex.com/n/nsFgKKVGHRtTZ5fVIqfChg",
-      "publishedAt": "2026-10-23T12:32:21.000Z",
-      "excerpt": "Death Stranding creator Hideo Kojima has criticized the tendency of social media users to repeat opinions about games they have never played, pointing to the persistent description of his unconventional delivery adventure as a mere “walking simulator” as an example of how “online echo chambers di…",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "bc764dabf7eb2bc1",
-      "title": "Hideo Kojima Says People Who Never Played Death Stranding Still Call It a “Walking Simulator”",
-      "link": "https://news.sankakucomplex.com/n/u6ZhpMBKcGxQmLb7BDPwbQ",
-      "publishedAt": "2026-10-23T12:32:21.000Z",
-      "excerpt": "Death Stranding creator Hideo Kojima has criticized the tendency of social media users to repeat opinions about games they have never played, pointing to the persistent description of his unconventional delivery adventure as a mere “walking simulator” as an example of how “online echo chambers di…",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
     }
   ]
 }

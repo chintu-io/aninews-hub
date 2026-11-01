@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T13:31:42.874Z",
+  "generatedAt": "2026-11-01T14:01:51.137Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 36,
+      "count": 35,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 97,
+      "count": 96,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 259,
+      "count": 263,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 245,
+      "count": 244,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 78,
+      "count": 77,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,120 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 623,
+    "translatedJapaneseArticles": 626,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "5576b0c9b1426c85",
+      "title": "セブンス・ベガ、新曲「OVERDRIVE」MVティザーを6日連続公開 ニューアルバム『PRISM』パネル展も実施",
+      "link": "https://www.billboard-japan.com/d_news/detail/167027",
+      "publishedAt": "2026-11-01T13:55:00.000Z",
+      "excerpt": "セブンス・ベガが、新曲「OVERDRIVE」のMVティザー映像を6日連続で公開する。 新曲「O",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167027/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Seventh Vega releases new song \"overdrive\" music video teaser for 6 consecutive days New album \"prism\" panel exhibition will also be held",
+      "translatedExcerpt": "7th Vega will release the MV teaser video for their new song \"OVERDRIVE\" for 6 consecutive days. New song “O"
+    },
+    {
+      "id": "43df115503c7bc12",
+      "title": "コブクロ×堤幸彦監督がコラボ、最新曲「霞日和」にインスパイアされたショートフィルム公開へ",
+      "link": "https://www.billboard-japan.com/d_news/detail/167026",
+      "publishedAt": "2026-11-01T13:45:00.000Z",
+      "excerpt": "コブクロが、2026年11月21日より順次、最新曲「霞日和」をモチーフにした堤幸彦監督によるショー",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167026/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Kobukuro x Yukihiko Tsutsumi will collaborate to release a short film inspired by the latest song \"Kasumi-satsu\"",
+      "translatedExcerpt": "Kobukuro will be holding a show directed by Yukihiko Tsutsumi based on their latest song “Kasumibiyori” starting November 21, 2026."
+    },
+    {
+      "id": "af0ba7e1739a8e50",
+      "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Anime Welcomes November with New Visual",
+      "link": "https://crunchyroll.com/news/latest/2026/11/1/spice-and-wolf-merchant-meets-the-wise-wolf-anime-november-visual",
+      "publishedAt": "2026-11-01T13:40:00.000Z",
+      "excerpt": "Season 2 of the new anime will premiere in 2027",
+      "image": "https://a.storyblok.com/f/178900/1504x846/c5f1fc928a/spice-and-wolf-ep2.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "e07e9bc30d6741a1",
+      "title": "アイナ・ジ・エンド、2027年ホールツアーに伴うコーラス＆ダンサーオーディションを開催",
+      "link": "https://www.billboard-japan.com/d_news/detail/167028",
+      "publishedAt": "2026-11-01T13:35:00.000Z",
+      "excerpt": "アイナ・ジ・エンドが、2027年のホールツアーに伴うコーラス＆ダンサーオーディションを開催する。",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167028/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Aina The End to Host Chorus & Dancer Audition for 2027 Hall Tour",
+      "translatedExcerpt": "Aina The End will hold chorus and dancer auditions for their 2027 hall tour."
+    },
+    {
+      "id": "2143c1b2070d59e8",
+      "title": "Charisma Anime Confirms January 7 Premiere in Full-Length Trailer",
+      "link": "https://crunchyroll.com/news/latest/2026/11/1/charisma-anime-confirms-january-7-premiere-in-full-length-trailer",
+      "publishedAt": "2026-11-01T13:33:00.000Z",
+      "excerpt": "Plus, two new cast members join the upcoming series",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/7bc3065438/charisma-trailer-hero.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "ff334e9db4a0b6e3",
+      "title": "TWS、新曲「Call My Name」パフォーマンスの一部＆チャレンジ動画を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167025",
+      "publishedAt": "2026-11-01T13:30:00.000Z",
+      "excerpt": "TWSが、新曲「Call My Name」のパフォーマンスの一部とチャレンジ動画を公開した。",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167025/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "TWS Releases Partial Performance & Challenge Video for New Song “Call My Name”",
+      "translatedExcerpt": "TWS has released part of their performance and challenge video for their new song \"Call My Name.\""
+    },
     {
       "id": "d11d114e725d520e",
       "title": "'Bocchi the Rock!' Gets Prequel Anime Movie in 2027",
@@ -18356,110 +18466,6 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "a22ee5862c65efaa",
-      "title": "Koume Releases The Detective Is Already Dead Season 2 Anime Opening Song Music Video",
-      "link": "https://crunchyroll.com/news/latest/2026/10/24/the-detective-is-already-dead-season-2-anime-opening-song-music-video-koume",
-      "publishedAt": "2026-10-24T01:58:00.000Z",
-      "excerpt": "Crunchyroll currently streams the new season",
-      "image": "https://a.storyblok.com/f/178900/960x540/0616e6e5de/koume-kono-shinzou-mv.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "93faf630e7da310a",
-      "title": "Anime Director Rintaro Selected as a Person of Cultural Merit by the Japanese Government",
-      "link": "https://crunchyroll.com/news/latest/2026/10/24/anime-director-rintaro-person-of-cultural-merit-shigeru-miyamoto-order-of-culture-awards",
-      "publishedAt": "2026-10-24T01:28:00.000Z",
-      "excerpt": "Shigeru Miyamoto also received the Order of Culture award",
-      "image": "https://a.storyblok.com/f/178900/960x539/1680c29e14/rintaro-header.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "43836c213ef81797",
-      "title": "【ライブレポート】岸本ゆめの、笑顔と熱唱が響いた＜渾身CRAZY FOR YOU!!＞",
-      "link": "https://barks.jp/news/1100292",
-      "publishedAt": "2026-10-24T01:17:40.000Z",
-      "excerpt": "岸本ゆめののワンマンライブ＜渾身CRAZY FOR YOU!!＞が10月23日、東京・新代田FEVERにて開催された。本公演は今年8月1日に配信リリースされた、渋谷系を代表するアーティスト・カジヒデキが作曲・編曲を手掛けた「渾身CRAZY FOR YOU!!」を携えて実施されたもの。岡愛子（G）、えらめぐみ（B）、短パン（Dr）という気心知れたバンドメンバーとともに、終始エネルギッシュで開放感に満ち溢れたステージを展開した。 オープニングSEが流れ始めると、観客のクラップに導かれるようにバンドメンバーが登場し、最後に赤い花をあしらったシャツにデニム姿の岸本がステージに上がると、彼女のリズミカルなギターリフとともに「シカゴ」にてライブはスタート。岸本はグルーヴィーなバンド演奏に合わせて、終始笑顔を浮かべなが…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/24101401/3K3A3171-1024x683.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Live Report] Yumeno Kishimoto's smile and passionate singing resonated <CRAZY FOR YOU!!>",
-      "translatedExcerpt": "Yumeno Kishimoto's one-man live <Zenshin CRAZY FOR YOU!!> was held at Shindaita FEVER in Tokyo on October 23rd. This performance was held in conjunction with the song \"Zenshin CRAZY FOR YOU!!\", which was released on August 1st this year and was composed and arranged by Hideki Kaji, a representative Shibuya-kei artist. Together with familiar band members Aiko Oka (G), Megumi Era (B), and Short Pan (Dr), the stage was full of energy and openness from beginning to end. As the opening sound effects began to play, the band members appeared as if guided by the audience's claps. Finally, Kishimoto took the stage wearing a shirt decorated with red flowers and denim, and the live performance began with \"Chicago\" accompanied by her rhythmic guitar riff. Kishimoto was smiling throughout as he listened to the groovy band performance..."
-    },
-    {
-      "id": "bdbf25959e738b99",
-      "title": "Pikachu Shortcake Sandwich set to be Tokyo’s newest photogenic treat for Pokémon Trainers",
-      "link": "https://soranews24.com/2026/10/24/pikachu-shortcake-sandwich-set-to-be-tokyos-newest-photogenic-treat-for-pokemon-trainers/",
-      "publishedAt": "2026-10-24T01:00:06.000Z",
-      "excerpt": "Pikachu Sweets bakes up new treats to celebrate Pokémon’s 30th birthday. This year marks the 30th anniversary of Pokémon, which is another way of saying it’s the franchise’s 30th birthday…and everyone knows you can’t celebrate a birthday without cake, right? And if you’re looking for a cake to celebrate this particular birthday, there’s no more […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/0_1899b4.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "ed2515647e7f51b6",
-      "title": "The Prince of Tennis II U-17 WORLD CUP: Final Member Selection Match English Dub Now Streaming on Crunchyroll",
-      "link": "https://crunchyroll.com/news/announcements/2026/10/24/the-prince-of-tennis-ii-u-17-world-cup-final-member-selection-match-english-dub-now-streaming-on-crunchyroll",
-      "publishedAt": "2026-10-24T01:00:00.000Z",
-      "excerpt": "Who has what it takes to play the World Cup final against Spain?",
-      "image": "https://a.storyblok.com/f/178900/960x540/ec598fec8f/the-prince-of-tennis-ii-u-17-world-cup-final-member-selection-match.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "ffcdac15b2dc15bf",
-      "title": "LINE Manga Introduces AI Feature Letting Fans Create Stories & Chat With Manga Characters",
-      "link": "https://news.sankakucomplex.com/n/6gCdTvULBnfaxNYakRNPMg",
-      "publishedAt": "2026-10-24T00:00:22.000Z",
-      "excerpt": "Japanese digital manga platform LINE Manga has introduced a new AI-powered feature that allows readers to converse with their favorite fictional characters and create their own fan fiction stories, with the company emphasizing that all participating works have received approval from their origina…",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

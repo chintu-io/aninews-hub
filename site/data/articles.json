@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T09:31:48.751Z",
+  "generatedAt": "2026-11-01T10:01:40.095Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 124,
+      "count": 123,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 100,
+      "count": 99,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 21,
+      "count": 22,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 235,
+      "count": 236,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 611,
+    "translatedJapaneseArticles": 612,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "a051d66f5330c8a9",
+      "title": "'Rock wa Lady no Tashinami deshite' Creator Launches New Manga",
+      "link": "https://myanimelist.net/news/74893568?_location=rss",
+      "publishedAt": "2026-11-01T09:53:25.000Z",
+      "excerpt": "The official X (formerly Twitter) account of Comic Heaven announced on Friday that manga creator Hiroshi Fukuda will launch a new manga, titled Koko wa Kagari no Territory (Here is Kagari's territory), in the magazine next issue, scheduled for a November 30 release. Fukuda is best known for Rock wa Lady no Tashinami deshite (Rock Is a Lady's Modesty), whi…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793526492-10c2749d2a721b1806f3198071afeb12.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "c9aebb73d619aba4",
+      "title": "セブンス・ベガ、CD工場訪問でアルバム『PRISM』組立と特典封入作業に参加",
+      "link": "https://barks.jp/news/1101836",
+      "publishedAt": "2026-11-01T09:30:00.000Z",
+      "excerpt": "セブンス・ベガが11月7日、2ndアルバム『PRISM』をリリースする。特典“7thFortune”は、アルバム通常盤の初回生産分7枚にのみメンバー4人の直筆サイン入りブックレットがランダム封入されるというもの。これに伴って、メンバーはソニー・ミュージックソリューションズ 静岡プロダクションセンターを訪問、自ら組立と特典封入作業に参加した。 当日はソラ(B)が体調不良のため、CD工場へはシブヤカンナ(G / Vo)、ハイブリッドマイマイ(Dr)、サコティッシュフォールド(G)の3名が訪問。ソラは後日リモートで参加することになった。 CD工場でメンバーは製造工程の見学や作業を体験。それらCDが完成するまでの光景や感激するメンバー、直筆サインを入れる模様を収めた『Road to「PRISM」7thFortun…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/08/20175942/7thVega_artist-photo-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "7th Vega visits CD factory and participates in assembling album \"PRISM\" and including bonus material",
+      "translatedExcerpt": "7th Vega will release their 2nd album ``PRISM'' on November 7th. The bonus \"7th Fortune\" is that a booklet autographed by the four members will be randomly included in the first 7 regular editions of the album. Along with this, the members visited Sony Music Solutions Shizuoka Production Center and participated in the assembly and bonus inclusion work themselves. On that day, Sora (B) was not feeling well, so Kanna Shibuya (G/Vo), Hybrid Maimai (Dr), and Sacotish Fold (G) visited the CD factory. Sora will participate remotely at a later date. At the CD factory, members observed the manufacturing process and experienced work. \"Road to \"PRISM\" 7thFortun..."
+    },
     {
       "id": "ab681494b83ce0a6",
       "title": "Snow Man、大晦日生配信ライブ映像作品『Snow Man Special Live ～みんなと楽しむ大晦日！2023-2025～』をFC会員限定発売",
@@ -18395,40 +18431,6 @@
       "publishedAt": "2026-10-23T15:00:00.000Z",
       "excerpt": "How they embodied Naruto's energy and Sasuke's trauma",
       "image": "https://a.storyblok.com/f/178900/960x697/0d8593ea7b/naruto-x-ninku-key-art.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e32dbd1f294df952",
-      "title": "Manhwa-Based Live-Action Series The Blue Road Releases Teaser Trailer Ahead of November 20 Premiere",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-23/manhwa-based-live-action-series-the-blue-road-releases-teaser-trailer-ahead-of-november-20-premiere/.243124",
-      "publishedAt": "2026-10-23T14:15:00.000Z",
-      "excerpt": "Seok-gu Son, Eita Nagayama star in series based on 2002 Korean-Japanese collaborative comic",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gWC/youtube/aJsCec5meBc.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e6587b8a86972e64",
-      "title": "GROTESQQQUE Anime Anthology Film Shares Two Collab Visuals with Darling in the FRANXX",
-      "link": "https://crunchyroll.com/news/latest/2026/10/23/grotesqqque-anime-anthology-film-collab-visuals-darling-in-the-franxx",
-      "publishedAt": "2026-10-23T14:09:00.000Z",
-      "excerpt": "The three-part film premieres in Japan on November 6",
-      "image": "https://a.storyblok.com/f/178900/1200x675/43cb37128d/grotesqqque.jpg",
       "source": {
         "id": "crunchyroll",
         "name": "Crunchyroll News",

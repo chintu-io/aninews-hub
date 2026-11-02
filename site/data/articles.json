@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T00:31:56.187Z",
+  "generatedAt": "2026-11-02T01:02:33.285Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 121,
+      "count": 120,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 268,
+      "count": 270,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 143,
+      "count": 142,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,16 +163,35 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 620,
+    "translatedJapaneseArticles": 621,
     "translationAttempts": 160
   },
   "articles": [
     {
+      "id": "dcef4c982f9c2062",
+      "title": "嶋野百恵、約10年ぶりの新曲リリース",
+      "link": "https://ototoy.jp/news/132569",
+      "publishedAt": "2026-11-02T01:00:00.000Z",
+      "excerpt": "嶋野百恵が自身名義では10年ぶりの新曲「Magic hour (feat. ポチョムキン)」を配信リリースした。 「Magic hour」は客演に餓鬼レンジャーのMCポチョムキンを迎えひとときの逢瀬に揺れる男女の夜を描いた1曲。楽曲プロデュースは嶋野百恵の楽曲を手がけてきた藤本和則が担当した。 リリース情報 https://ototoy.jp/_/default/p/4270292 インフォメーション https://x.com/ShimanoMomoe",
+      "image": "https://imgs.ototoy.jp/news/image.php/132569/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Hyakue Shimano Releases First New Song in Nearly 10 Years",
+      "translatedExcerpt": "Momoe Shimano has released her first new song in 10 years under her own name, ``Magic hour (feat. Potemkin)''. ``Magic hour'' is a song that features Gaki Ranger's MC Potemkin as a guest performer and depicts a man and woman's night in the throes of a moment of lovemaking. The song was produced by Kazunori Fujimoto, who has worked on Momoe Shimano's songs. Release information https://ototoy.jp/_/default/p/4270292 Information https://x.com/ShimanoMomoe"
+    },
+    {
       "id": "65e4f8cc8f0e6b5e",
       "title": "マイ・ケミカル・ロマンス、ビリー・アイリッシュや小島秀夫らを声優に起用した短編アニメ『Prelude to the End』公開",
       "link": "https://www.billboard-japan.com/d_news/detail/167034",
-      "publishedAt": "2026-11-02T00:20:00.000Z",
-      "excerpt": "マイ・ケミカル・ロマンス、ビリー・アイリッシュや小島秀夫らを声優に起用した短編アニメ『Prelude",
+      "publishedAt": "2026-11-02T00:50:00.000Z",
+      "excerpt": "マイ・ケミカル・ロマンスは、記念碑的な3rdアルバム『ザ・ブラック・パレード』の20周年を祝うため",
       "image": "https://www.billboard-japan.com/scale/news/00000167/167034/800x_image.jpg",
       "source": {
         "id": "billboardjapan",
@@ -184,7 +203,45 @@
         "language": "ja"
       },
       "translatedTitle": "My Chemical Romance releases short animation ``Prelude to the End'' featuring voice actors such as Billie Eilish and Hideo Kojima",
-      "translatedExcerpt": "My Chemical Romance, the short animation ``Prelude'' featuring voice actors such as Billie Eilish and Hideo Kojima"
+      "translatedExcerpt": "My Chemical Romance celebrates the 20th anniversary of the monumental 3rd album The Black Parade"
+    },
+    {
+      "id": "0c0945266fdb924f",
+      "title": "乃木坂46、冠番組『乃木坂工事中』映像作品4タイトル12/16発売決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167036",
+      "publishedAt": "2026-11-02T00:50:00.000Z",
+      "excerpt": "乃木坂46の冠番組『乃木坂工事中』の映像作品4タイトルが、12月16日に発売されることが決定した。",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167036/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Nogizaka 46, crown show \"Nogizaka under construction\" video work 4 title 12/16 release decision",
+      "translatedExcerpt": "It has been decided that the four video titles of Nogizaka46's flagship program ``Nogizaka Under Construction'' will be released on December 16th."
+    },
+    {
+      "id": "45faf1f7358cb0ff",
+      "title": "クイーン、公式和訳MV第1弾として「ボヘミアン・ラプソディ」「ボーン・トゥ・ラヴ・ユー」「伝説のチャンピオン」公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167035",
+      "publishedAt": "2026-11-02T00:45:00.000Z",
+      "excerpt": "1975年10月31日にUKでシングルがリリースされた、クイーンの名曲「ボヘミアン・ラプソディ」が",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167035/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Queen releases ``Bohemian Rhapsody'', ``Born to Love You'', and ``Legendary Champion'' as the first official Japanese translated MV",
+      "translatedExcerpt": "Queen's classic song \"Bohemian Rhapsody\" was released in the UK on October 31, 1975."
     },
     {
       "id": "71f993236dfcbc31",
@@ -18399,61 +18456,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "882591ec9b169f52",
-      "title": "BOL4（赤頬思春期）、東京来日公演決定",
-      "link": "https://ototoy.jp/news/132434",
-      "publishedAt": "2026-10-24T08:00:00.000Z",
-      "excerpt": "BOL4（赤頬思春期）が2027年1月10日（日）にSESION SUGINAMIにてツアー日本公演を開催する。 BOL4は2016年4月22日にデビューし今年10周年を迎え、10月22日に10枚目とのミニアルバム『October Archive』をリリースした。 ライブ情報 2026-2027 BOL4 CONCERT TOUR 【Red Square】in TOKYO 日程 2027年1月10日（日） https://www.mahocast.com/ce/c/180 アーティスト情報 https://x.com/BOL4_Official リリース情報 https://ototoy.jp/_/default/p/4110186",
-      "image": "https://imgs.ototoy.jp/news/image.php/132434/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "BOL4 (Red Cheeks Puberty) to perform in Tokyo",
-      "translatedExcerpt": "BOL4 (Red Cheeks Puberty) will hold a tour in Japan at SESION SUGINAMI on Sunday, January 10, 2027. BOL4 debuted on April 22, 2016 and celebrated their 10th anniversary this year, releasing their 10th mini-album ``October Archive'' on October 22. Live information 2026-2027 BOL4 CONCERT TOUR [Red Square] in TOKYO Date Sunday, January 10, 2027 https://www.mahocast.com/ce/c/180 Artist information https://x.com/BOL4_Official Release information https://ototoy.jp/_/default/p/4110186"
-    },
-    {
-      "id": "b15a2eed2111af87",
-      "title": "CUTIE STREET、「キュートなキューたい」が日韓〈アニポケ〉EDテーマに",
-      "link": "https://ototoy.jp/news/132437",
-      "publishedAt": "2026-10-24T08:00:00.000Z",
-      "excerpt": "CUTIE STREETがテレビアニメ「ポケットモンスター ワンダーボヤージュ」エンディングテーマ「キュートなキューたい」の韓国語版である「동글동글 동글이」を配信リリースした。 「キュートなキューたい Korean ver.」は韓国で11月3日よりJEI 재능TVにて放送されるテレビアニメ「ポケットモンスター ワンダーボヤージュ」のエンディングテーマとして起用。日韓エンディングテーマを務めるのは史上初となる。 リリース情報 https://ototoy.jp/_/default/p/4346225 アーティスト情報 https://www.instagram.com/cutie_street https://x.com/CUTIE_STREET_",
-      "image": "https://imgs.ototoy.jp/news/image.php/132437/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "CUTIE STREET, “Cute Kyuu Tai” will be the ending theme for Japan-Korea “AniPoke”",
-      "translatedExcerpt": "CUTIE STREET has released ``동글동글 동글이'', the Korean version of the ending theme for the TV anime ``Pokémon Wonder Voyage'', ``Cute Na Kyu Tai''. \"Cute Na Kyu Tai Korean ver.\" will be used as the ending theme for the TV anime \"Pokémon Wonder Voyage\" which will be broadcast on JEI TV from November 3rd in Korea. This is the first time in history that the song will serve as the ending theme for Japan and Korea. Release information https://ototoy.jp/_/default/p/4346225 Artist information https://www.instagram.com/cutie_street https://x.com/CUTIE_STREET_"
-    },
-    {
-      "id": "60547a327254b55c",
-      "title": "Kaiju No. 8 Anime's 'Conclusion Arc' Revealed as Film Opening in 2027",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-24/kaiju-no-8-anime-conclusion-arc-revealed-as-film-opening-in-2027/.243156",
-      "publishedAt": "2026-10-24T07:01:29.000Z",
-      "excerpt": "Shigeyuki Miya returns to direct the film at Production I.G",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gE1/cms/news.10/243156/kaiju-no-8-film.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

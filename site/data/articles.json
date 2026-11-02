@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T14:02:41.487Z",
+  "generatedAt": "2026-11-02T14:32:02.791Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 33,
+      "count": 34,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 123,
+      "count": 124,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 298,
+      "count": 297,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 229,
+      "count": 228,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -153,7 +153,7 @@
       "name": "Sankaku Complex",
       "status": "ok",
       "mode": "jina-reader",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
       "count": 74,
       "fetchedCount": 24
     }
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 642,
+    "translatedJapaneseArticles": 640,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "56322795ac328af8",
+      "title": "AI no Idenshi's Kyūri Yamada Launches New Manga",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-02/ai-no-idenshi-kyuri-yamada-launches-new-manga/.243421",
+      "publishedAt": "2026-11-02T14:15:00.000Z",
+      "excerpt": "Nanabun no Survivor earthquake manga debuts on Monday",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gND/cms/news.10/243421/20261028091347.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "942a3049c4bb5987",
+      "title": "Japan’s mini Shikoku Pilgrimage walking tour left us feeling immensely satisfied",
+      "link": "https://soranews24.com/2026/11/02/japans-mini-shikoku-pilgrimage-walking-tour-left-us-feeling-immensely-satisfied/",
+      "publishedAt": "2026-11-02T14:00:31.000Z",
+      "excerpt": "The full pilgrimage takes weeks to complete, but if you’ve got a couple hours, this Matsuyama experience will show you what makes the tradition so special. The Shikoku Pilgrimage route is, unquestionably, a great Japan travel experience. After all, people have been walking it, tracing the footsteps of famed Buddhist monk Kukai (also known as […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_b1005f.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "1fffbb63262506cc",
       "title": "Who-ya Extended、龍（REAL AKIBA BOYZ）とのコラボによる「FLY2FLY」パフォーマンスビデオ公開",
@@ -18450,44 +18484,6 @@
       },
       "translatedTitle": "Takumi Kawanishi (JO1) releases EP “tomorrow” which he wrote and composed himself",
       "translatedExcerpt": "Takumi Kawanishi (JO1) will release his new EP “tomorrow” on October 27, 2026 at 6pm."
-    },
-    {
-      "id": "cf712d821df7ce79",
-      "title": "【ライブレポート】KiiiKiii、日本初の単独公演＜KiiiKiii FesTiiival JAPAN Edition＞にファンとの絆「幸せと感動をもらえました！」",
-      "link": "https://barks.jp/news/1100574",
-      "publishedAt": "2026-10-25T13:08:00.000Z",
-      "excerpt": "“Gen Z美”を持つK-POPグループKiiiKiii (JIYU / LEESOL / SUI / HAUM / KYA)が本日10月25日、東京・Zepp Haneda(TOKYO)にて、デビュー後初となる海外ファンコンサート＜KiiiKiii FesTiiival JAPAN Edition＞を開催した。同公演のオフィシャルレポートをお届けしたい。 今回の公演は、今年5月にソウルで開催された初のファンコンサート＜KiiiKiii FesTiiival＞の延長線上にあるもの。KiiiKiiiにとっては初の海外ファンコンサートながら全席完売を記録、ソウル公演の熱気を日本へとつなぎ、集まった日本のTiiiKiii (KiiiKiiiのファンダム名)を魅了した。 KiiiKiiiはデビュー以来、日本の主要…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/25220553/BBB03461-1024x683.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Live Report] KiiiKiii's bond with fans at Japan's first solo performance <KiiiKiii FesTiiival JAPAN Edition> ``I felt happy and moved!''",
-      "translatedExcerpt": "K-Pop group KiiiKiii (JIYU / LEESOL / SUI / HAUM / KYA), which has a \"Gen Z beauty\", held its first overseas fan concert since its debut <KiiiKiii FesTiiival JAPAN Edition> today, October 25th, at Zepp Haneda (TOKYO) in Tokyo. We would like to bring you the official report of the performance. This performance is an extension of their first fan concert <KiiiKiii FesTiiival> held in Seoul in May of this year. Although it was KiiiKiii's first overseas fan concert, all seats were sold out, and the enthusiasm from the Seoul performance was transferred to Japan, captivating the gathered Japanese TiiiKiii (KiiiKiii fandom name). Since their debut, KiiiKiii has been a major..."
-    },
-    {
-      "id": "153ae65a48df6d7f",
-      "title": "Mrs. GREEN APPLE、大森元貴が監督・企画・脚本を担当した「シンデレラ」MVは自己肯定の物語",
-      "link": "https://www.billboard-japan.com/d_news/detail/166774",
-      "publishedAt": "2026-10-25T13:05:00.000Z",
-      "excerpt": "Mrs. GREEN APPLEが、新曲「シンデレラ」のミュージックビデオを公開した。 新曲「",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166774/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Mrs. GREEN APPLE's \"Cinderella\" MV, directed, planned, and written by Motoki Omori, is a story of self-affirmation.",
-      "translatedExcerpt": "Mrs. GREEN APPLE has released the music video for their new song \"Cinderella\". New song “"
     }
   ]
 }

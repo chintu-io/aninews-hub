@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T01:02:33.285Z",
+  "generatedAt": "2026-11-02T01:32:13.834Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 93,
+      "count": 94,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 270,
+      "count": 271,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 142,
+      "count": 141,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 80,
+      "count": 79,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,63 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 621,
+    "translatedJapaneseArticles": 622,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "07e242ce664afe9b",
+      "title": "コリィ・テイラー率いるストーン・サワー、『オーディオ・シークレシー』15周年記念3枚組CD発売",
+      "link": "https://www.billboard-japan.com/d_news/detail/167037",
+      "publishedAt": "2026-11-02T01:15:00.000Z",
+      "excerpt": "コリィ・テイラー率いるロック・バンド、ストーン・サワーが2010年に発表した通算3作目となるスタジ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167037/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Corey Taylor's Stone Sour releases 15th anniversary 3-CD set of ``Audio Secrecy''",
+      "translatedExcerpt": "Stone Sour, the rock band led by Corey Taylor, released their third studio album in 2010."
+    },
+    {
+      "id": "830f2f3789a7d1cc",
+      "title": "Ai Higuchi Releases Aoashi Season 2 Part 1 Anime Ending Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/11/2/aoashi-season-2-part-1-anime-ending-song-music-video-ai-higuchi",
+      "publishedAt": "2026-11-02T01:01:00.000Z",
+      "excerpt": "Crunchyroll is currently streaming the new season",
+      "image": "https://a.storyblok.com/f/178900/960x540/7c67958e69/ai-higuchi-triangle-mv.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "b1076823ad1f0937",
+      "title": "Hagure Idol: Jigoku-hen Reportedly Getting Uncensored Anime in 2027",
+      "link": "https://news.sankakucomplex.com/n/GKRglhFprczLIhXaiTGVBw",
+      "publishedAt": "2026-11-02T01:00:20.000Z",
+      "excerpt": "The sexually explicit martial arts manga Hagure Idol: Jigoku-hen (Booty Royale: Never Go Down Without a Fight!) is reportedly receiving a television anime adaptation in 2027, complete with an uncensored version that could preserve some of the original series’ notoriously revealing content.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "dcef4c982f9c2062",
       "title": "嶋野百恵、約10年ぶりの新曲リリース",
@@ -183,7 +236,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Hyakue Shimano Releases First New Song in Nearly 10 Years",
+      "translatedTitle": "Momoe Shimano releases new song for the first time in about 10 years",
       "translatedExcerpt": "Momoe Shimano has released her first new song in 10 years under her own name, ``Magic hour (feat. Potemkin)''. ``Magic hour'' is a song that features Gaki Ranger's MC Potemkin as a guest performer and depicts a man and woman's night in the throes of a moment of lovemaking. The song was produced by Kazunori Fujimoto, who has worked on Momoe Shimano's songs. Release information https://ototoy.jp/_/default/p/4270292 Information https://x.com/ShimanoMomoe"
     },
     {
@@ -203,7 +256,7 @@
         "language": "ja"
       },
       "translatedTitle": "My Chemical Romance releases short animation ``Prelude to the End'' featuring voice actors such as Billie Eilish and Hideo Kojima",
-      "translatedExcerpt": "My Chemical Romance celebrates the 20th anniversary of the monumental 3rd album The Black Parade"
+      "translatedExcerpt": "My Chemical Romance celebrates 20th anniversary of monumental third album 'The Black Parade'"
     },
     {
       "id": "0c0945266fdb924f",
@@ -221,7 +274,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Nogizaka 46, crown show \"Nogizaka under construction\" video work 4 title 12/16 release decision",
+      "translatedTitle": "Nogizaka46, title program “Nogizaka Under Construction” 4 video titles to be released on 12/16",
       "translatedExcerpt": "It has been decided that the four video titles of Nogizaka46's flagship program ``Nogizaka Under Construction'' will be released on December 16th."
     },
     {
@@ -241,7 +294,7 @@
         "language": "ja"
       },
       "translatedTitle": "Queen releases ``Bohemian Rhapsody'', ``Born to Love You'', and ``Legendary Champion'' as the first official Japanese translated MV",
-      "translatedExcerpt": "Queen's classic song \"Bohemian Rhapsody\" was released in the UK on October 31, 1975."
+      "translatedExcerpt": "Queen's famous song \"Bohemian Rhapsody\" was released as a single in the UK on October 31, 1975."
     },
     {
       "id": "71f993236dfcbc31",
@@ -18405,59 +18458,6 @@
       },
       "translatedTitle": "Rai Inami releases 1st mini AL “Hero”",
       "translatedExcerpt": "Rai Inami has released her first mini-album ``Hero''. This work includes a total of 7 songs written by a talented team of creators that bring out Rai Inami's multifaceted charm, from themes such as \"hero\" and \"mechanic\" that symbolize Rai Inami, to the weak sounds and conflicts behind her strength, and the world line of IF. To commemorate the release, a 3D solo live \"Behavior\" will be held from 21:00 on Saturday, December 5th. You can watch the entire episode for free on Inami Rai's YouTube channel. Comment: I made a mini album completely independently. This is a piece that captures what it means to be a ``hero'' within yourself. I would be happy if this album could be a little bit closer to everyone's daily life. Please enjoy the best members and the best songs! Release information https://ototoy…"
-    },
-    {
-      "id": "f3aace6b7b051828",
-      "title": "小谷美紗子、新曲「蘇生」リリース＆30周年記念ライブ開催決定",
-      "link": "https://ototoy.jp/news/132420",
-      "publishedAt": "2026-10-24T09:00:00.000Z",
-      "excerpt": "シンガーソングライター・小谷美紗子が、デビューからちょうど30年となる2026年10月23日、新曲「蘇生」を11月25日（水）に配信リリースすることを発表した。 あわせて、2027年3月29日（月）に渋谷duo MUSIC EXCHANGEにて30周年記念ライブ〈Odani Misako Trio Live2027 -nuhehe30-〉を開催することも決定。本人による30周年コメントの全文を公開し、TikTok・Instagramでは公式アカウントを開設した。 30周年の始まりに届ける新曲「蘇生」は、《前を向かなくていい 上を見上げなくていい》《力が湧かなくても もう一日生きてみようよ》と歌いかける一曲。絶望の只中にいる人に「がんばれ」とは言わない。それでも、もう一日だけ生きてみようと手を差し出す。30…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132420/1.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Misako Kotani releases new song “Resurrection” & 30th anniversary live concert to be held",
-      "translatedExcerpt": "Singer-songwriter Misako Kotani has announced that she will release her new song \"Resuscitation\" on November 25th (Wednesday) on October 23rd, 2026, exactly 30 years since her debut. In addition, it has been decided that a 30th anniversary live show ``Odani Misako Trio Live2027 -nuhehe30-'' will be held at Shibuya duo MUSIC EXCHANGE on Monday, March 29, 2027. The full text of his 30th anniversary comment has been released, and he has opened an official account on TikTok and Instagram. The new song \"Resurrection\" delivered at the beginning of the 30th anniversary is a song that sings \"You don't have to look forward, you don't have to look up\" and \"Even if you don't have the strength, let's try to live one more day\". I don't tell people in the midst of despair, ``Do your best.'' Still, I hold out my hand to live just one more day. 30…"
-    },
-    {
-      "id": "3e0084756db3d0c4",
-      "title": "Disgaea Creator Secretly Took $127,000 Loan Without Telling Wife to Finish His New Game",
-      "link": "https://news.sankakucomplex.com/n/_Qd0qetSfxaBALpwLJJzPw",
-      "publishedAt": "2026-10-24T08:00:06.000Z",
-      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "37fce273b62fd7ce",
-      "title": "Disgaea Creator Secretly Took $127,000 Loan Without Telling Wife to Finish His New Game",
-      "link": "https://news.sankakucomplex.com/n/dt4WiSZ8N0kr8t7f43r1Jg",
-      "publishedAt": "2026-10-24T08:00:06.000Z",
-      "excerpt": "Disgaea creator and former Nippon Ichi Software president Sohei Niikawa has revealed that he secretly borrowed ¥20 million (approximately $127,000) from a bank without telling his wife, using the money to finish development of his latest strategy RPG, Demons’ Night Fever.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
     }
   ]
 }

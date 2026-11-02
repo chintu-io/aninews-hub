@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T05:31:53.356Z",
+  "generatedAt": "2026-11-02T06:02:05.922Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 92,
+      "count": 91,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 284,
+      "count": 286,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 134,
+      "count": 135,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 79,
+      "count": 77,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 625,
+    "translatedJapaneseArticles": 628,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "102c9bc189cdb662",
+      "title": "高橋 優、NHK『みんなのうた』新曲「願いの風と珊瑚礁」12月～1月放送決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167049",
+      "publishedAt": "2026-11-02T06:00:00.000Z",
+      "excerpt": "高橋 優が、NHK『みんなのうた』に書き下ろした「願いの風と珊瑚礁」が、2026年12月から202",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167049/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Yu Takahashi, NHK “Minna no Uta” new song “Wishing Wind and Coral Reef” to be broadcast from December to January",
+      "translatedExcerpt": "“Wind of Wishes and Coral Reef” written by Yu Takahashi for NHK’s “Minna no Uta” will be released from December 2026 to 2020."
+    },
     {
       "id": "cee9291613447dda",
       "title": "新東京／えんどあ。が出演、新時代のアーティストプロモーションブランド「ArtLed」初のリアルイベント開催決定",
@@ -244,6 +263,25 @@
       "translatedExcerpt": "Kuromu held a one-man performance at LINE CUBE SHIBUYA in Tokyo on October 30th, Kiyoharu's birthday. We would like to bring you the official report of the last one-man live of 2026, where the venue was enthusiastic about the \"divine set\" of famous songs, from nostalgic masterpieces to songs for the first time in about 20 years. Since restarting in 2025, Kuroyume has been energetically active with the nationwide Zepp tour, <SUMMER SONIC 2025>, 3DAYS performance at TOYOTA ARENA TOKYO <THE PERFECT DAYS TO DIE>, and Tokyo Garden Theater performance. On October 30th, Kiyoharu's birthday, a special night was held in front of about 2,000 people who gathered at LINE CUBE SHIBUYA. The opening song was “FAKE STAR”. The following “DRIVE” and “BARTER” are the beginning..."
     },
     {
+      "id": "284d780629b25f36",
+      "title": "ニッキー・ミナージュ、トランプ集会への登場を受けて米『サタデー・ナイト・ライブ』でパロディにされる",
+      "link": "https://www.billboard-japan.com/d_news/detail/167051",
+      "publishedAt": "2026-11-02T05:10:00.000Z",
+      "excerpt": "ニッキー・ミナージュがドナルド・トランプ米大統領の選挙遊説に参加してから1週間後の現地時間2026",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167051/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Nicki Minaj parodied on 'Saturday Night Live' after appearing at Trump rally",
+      "translatedExcerpt": "local time in 2026, one week after Nicki Minaj joined US President Donald Trump's election campaign."
+    },
+    {
       "id": "3d11c9ea8ae1c9f5",
       "title": "Shokugeki no Soma Artist Shun Saeki Ends Exclusive Contract With Shueisha",
       "link": "https://news.sankakucomplex.com/n/gtvjmM4Zs6Kw69xQMvn9Lw",
@@ -297,6 +335,25 @@
       },
       "translatedTitle": "Mariah Carey releases 25th anniversary edition of “Glitter” & releases 4K remastered version of “Loverboy” MV",
       "translatedExcerpt": "Mariah Carey celebrates the 25th anniversary of Glitter by releasing a deluxe version digitally."
+    },
+    {
+      "id": "4c883966a14fd4a2",
+      "title": "乃木坂46、「君ロス」J写解禁",
+      "link": "https://ototoy.jp/news/132588",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "excerpt": "乃木坂46が12月2日（水）にリリースする43枚目となる最新シングル「君ロス」のジャケットアートワークが公開された。 今作のビジュアルコンセプトは「雪の回転木馬」。薄暮の雪原に置かれた純白のメリーゴーランドが各ジャケットアートワークに散りばめられ、子どものための遊具に、少し大人びた表情のメンバーが静かに佇む姿を印象的に映し出し、幼さと成熟のあいだにある一瞬を、雪が音を吸い込んだような静けさの中で切り取られたジャケット写真となっている。クリエイティブはKASICOが手掛けた。 フォトギャラリー フォトギャラリーはこちらからご覧いただけます リリース情報 「君ロス」 「一度好きになった人」 https://ototoy.jp/_/default/p/4355571 ライブ情報 6期⽣全国ツアー2026 202…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132588/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Nogizaka46, “Kimiros” J photo released",
+      "translatedExcerpt": "The jacket artwork for Nogizaka46's 43rd and latest single ``Kimiros'' to be released on December 2nd (Wednesday) has been released. The visual concept of this work is \"Snow Carousel\". A snow-white merry-go-round placed in a snowy field at dusk is scattered throughout each jacket artwork, giving an impressive image of the members with slightly more mature expressions standing quietly on the playground equipment for children.The jacket photo captures a moment between childhood and maturity in a stillness that feels as if the snow has absorbed the sound. Creative work was done by KASICO. Photo gallery You can view the photo gallery here Release information “Kimi Ross” “The one I fell in love with once” https://ototoy.jp/_/default/p/4355571 Live information 6th Generation National Tour 2026 202…"
     },
     {
       "id": "506d3d1145ac6b94",
@@ -2186,7 +2243,7 @@
       "title": "Former Adult Actress Sora Aoi Warns Women Against Entering Industry",
       "link": "https://news.sankakucomplex.com/n/AvLyqVZlhuV1KE1sbBc1UA",
       "publishedAt": "2026-10-31T17:01:48.000Z",
-      "excerpt": "Former Japanese adult film actress Sora Aoi has revealed that she actively discourages young women from entering the adult entertainment industry, warning that its potentially lifelong consequences outweigh the glamour and financial opportunities often associated with the profession.",
+      "excerpt": "Former Japanese adult film actress Sora Aoi has revealed that she actively discourages young women from entering the adult entertainment industry, warning that its potentially lifelong consequences outweigh the glamour and financial opportunities often associated with the profession. Aoi, who bec…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18393,57 +18450,6 @@
       "link": "https://news.sankakucomplex.com/n/mOAwFYxzyRI46yXaIGec1A",
       "publishedAt": "2026-10-24T21:00:17.000Z",
       "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with. Avello…",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "ff7d8990dbc10435",
-      "title": "Full Clearing Another World under a Goddess with Zero Believers English Dub Reveals Release Date, Cast and Crew",
-      "link": "https://crunchyroll.com/news/announcements/2026/10/24/full-clearing-another-world-under-a-goddess-with-zero-believers-anime-english-dub-release-date-cast-crew",
-      "publishedAt": "2026-10-24T19:00:00.000Z",
-      "excerpt": "The first episode drops on October 25",
-      "image": "https://a.storyblok.com/f/178900/960x540/9b9176d243/full-clearing-another-world-under-a-goddess-with-zero-believers.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "5a4d9db88a0eacb5",
-      "title": "EA Shuts Down BioWare After 30 Years, Cancels Next Mass Effect & Lays Off Hundreds",
-      "link": "https://news.sankakucomplex.com/n/IzN7yUWpvLGIOQvd_wn91g",
-      "publishedAt": "2026-10-24T18:23:08.000Z",
-      "excerpt": "Electronic Arts has announced the closure of RPG developer BioWare after more than 30 years of operation, bringing an unceremonious end to the studio responsible for Mass Effect, Dragon Age, and Star Wars: Knights of the Old Republic, while also canceling the next Mass Effect game and laying off…",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e59b1ce20ec61a14",
-      "title": "EA Shuts Down BioWare After 30 Years, Cancels Next Mass Effect & Lays Off Hundreds",
-      "link": "https://news.sankakucomplex.com/n/czrPKFSESYMJUkULyPkPZQ",
-      "publishedAt": "2026-10-24T18:23:08.000Z",
-      "excerpt": "Electronic Arts has announced the closure of RPG developer BioWare after more than 30 years of operation, bringing an unceremonious end to the studio responsible for Mass Effect, Dragon Age, and Star Wars: Knights of the Old Republic, while also canceling the next Mass Effect game and laying off…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",

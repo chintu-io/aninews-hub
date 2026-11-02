@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T16:02:11.447Z",
+  "generatedAt": "2026-11-02T16:32:06.074Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 34,
+      "count": 35,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 125,
+      "count": 126,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 87,
+      "count": 86,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 230,
+      "count": 229,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 637,
+    "translatedJapaneseArticles": 636,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "cd0595aef6ca78a7",
+      "title": "Japan ends tax-free shopping system for foreign tourists, new refund request system now in effect",
+      "link": "https://soranews24.com/2026/11/03/japan-ends-tax-free-shopping-system-for-foreign-tourists-new-refund-request-system-now-in-effect/",
+      "publishedAt": "2026-11-02T16:00:49.000Z",
+      "excerpt": "What to be aware of as Japan tightens the rules for tourists saving 10 percent on their purchases. As of November 1, Japan has ended its tax-free shopping system for foreign tourists. Up until now, non-residents making purchases in Japan could avoid paying sales tax when shopping at participating stores by showing their passport as […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/tf-1.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d42920f24ea97c66",
+      "title": "Voice Actor Ryūji Nakagi Dies at 89",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-02/voice-actor-ryuji-nakagi-dies-at-89/.243446",
+      "publishedAt": "2026-11-02T15:50:52.000Z",
+      "excerpt": "Nakagi voiced Gōzō in Yawara!, Tokuo in Oishinbo, Sakuma in Patlabor",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gW8/cms/news.10/243446/ryuji-nakagi.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "dfed40d6ffa11bbd",
       "title": "BE:FIRST、本日デビュー5周年。ニューアルバム『BE:4U』リリース",
@@ -189,7 +223,7 @@
     {
       "id": "10c1db84e941916e",
       "title": "Comic CMOA Partially Resumes Service",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-01/comic-cmoa-partially-resumes-service/.243414",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-02/comic-cmoa-partially-resumes-service/.243414",
       "publishedAt": "2026-11-02T15:15:00.000Z",
       "excerpt": "Partial service resumed on October 29; service has been down since October 15 due to unauthorized external access",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGE/cms/news.10/242977/cmoa.jpg",
@@ -18442,42 +18476,6 @@
         "accent": "#a78bfa",
         "language": "en"
       }
-    },
-    {
-      "id": "e635b21ecc1bc712",
-      "title": "Lulutto Lilly, Sabagebu! Anime Battle Crabs in Second Crossover",
-      "link": "https://crunchyroll.com/news/latest/2026/10/25/lulutto-lilly-sabagebu-anime-battle-crabs-in-second-crossover",
-      "publishedAt": "2026-10-25T15:02:00.000Z",
-      "excerpt": "Magical idols face down a killer crab in latest episode",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/365261f691/magical-sisters-lulutto-lilly-crab.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e8645de9bfd3dfeb",
-      "title": "伊東歌詞太郎、アニメ『わたしの幸せな結婚』特別篇ED主題歌 「プレリュードの手前に 〜for me&you」リリックビデオ公開",
-      "link": "https://barks.jp/news/1100568",
-      "publishedAt": "2026-10-25T15:00:27.000Z",
-      "excerpt": "伊東歌詞太郎が、新曲「プレリュードの手前に 〜for me&you〜」のリリックビデオを公開した。 本楽曲は2026年10月25日より放送・配信スタートしたTVアニメ『わたしの幸せな結婚』特別篇のエンディング主題歌。また配信シングルとしても10月26日にリリースを迎えた。 サウンド面ではアップテンポで明るい曲調に乗せ、大切な人へのまっすぐな決意と深い愛を届ける王道ラブソングに仕上がっている。四季の巡りやこれまでの思い出を糧に、「いつでもすぐそばで笑顔にする」「絶対に1人にさせない」という温かな誓いを歌い、聴く人の心を明るく照らし、幸せな気持ちで満たす一曲となった。 リリックビデオでは、ヒロインが気持ちを表現しているサビのキャッチーなダンスシーンも見どころだ。 The post 伊東歌詞太郎、アニメ『わたし…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/02/25111239/2025.10.01%E4%BC%8A%E6%9D%B1%E6%AD%8C%E8%A9%9E%E5%A4%AA%E9%83%8E%E6%9C%80%E6%96%B0A%E5%86%99_low.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Lyrics Taro Ito releases lyric video for the ED theme song for the special edition of the anime “My Happy Marriage” “Prelude no Shomei ~for me&you”",
-      "translatedExcerpt": "Ryotaro Ito has released the lyric video for his new song ``Prelude no Mae ni ~for me&you~''. This song is the ending theme song for the special edition of the TV anime \"My Happy Marriage\" which started broadcasting and distribution from October 25, 2026. It was also released as a digital single on October 26th. In terms of sound, it has an up-tempo and bright melody, making it a classic love song that conveys straightforward determination and deep love for your loved one. Drawing on the changing seasons and memories of the past, the song sings the warm vows of ``I'll always be right next to you, making you smile'' and ``I'll never leave you alone,'' making it a song that brightens the hearts of listeners and fills them with happiness. The highlight of the lyric video is the catchy dance scene in the chorus where the heroine expresses her feelings. The post Lyrics Taro Ito, anime “My…”"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T10:01:53.003Z",
+  "generatedAt": "2026-11-02T10:32:02.319Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 122,
+      "count": 123,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 287,
+      "count": 289,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 231,
+      "count": 229,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 135,
+      "count": 134,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 634,
+    "translatedJapaneseArticles": 633,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "631ed1268ab932b2",
+      "title": "Tomoo Performs Ending Theme for Hirayasumi TV Anime",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-02/tomoo-performs-ending-theme-for-hirayasumi-tv-anime/.243439",
+      "publishedAt": "2026-11-02T10:01:48.000Z",
+      "excerpt": "Series debuts in January 2027",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGG/cms/news.10/242284/cwop-26817-hirayasumi-japansociety-posters-1-copy.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "7c17af4e0f53d403",
       "title": "【ライブレポート】[Alexandros]主催フェス＜THIS FES ’26 in Sagamihara＞2日間の熱い歌声「愛してるぜ、相模原！」",
@@ -187,6 +204,44 @@
       "translatedExcerpt": "This FES ’26 in Sagamihara is an outdoor music festival sponsored by [Alexandros] that has been held for three consecutive years since 2024. This year's event was held on October 31st (Saturday) and November 1st (Sunday) in Sagamihara City, Kanagawa Prefecture, the hometown of Yohei Kawakami (Vo, G) and Maki Shirai (G). On November 1st (Sunday), seven groups performed including [Alexandros], Yabai T-Shirt Shop, Harukamirai, Rekishi, Saucy Dog, and sumika. In this article, we will deliver a report from the official about the performance on the second day. ◆Live Photos ◆ ◆ ◆ ■After the opening greetings of the second day by the members of Yabai T-Shirt Shop [Alexandros], the top batter Yabai T-Shirt Shop appeared after receiving a loud invitation from Yohei Kawakami. One folding piece after another..."
     },
     {
+      "id": "cbcc47930fe9a419",
+      "title": "【ビルボード】Kis-My-Ft2『Kis SCENE』32.9万枚でアルバム・セールス首位獲得 VOLTACTIONが2位に続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/167069",
+      "publishedAt": "2026-11-02T10:00:00.000Z",
+      "excerpt": "2026年11月4日公開（集計期間：2026年10月26日～11月1日）のBillboard JA",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167069/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Kis-My-Ft2 “Kis SCENE” takes first place in album sales with 329,000 copies, followed by VOLTACTION in second place",
+      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
+    },
+    {
+      "id": "2ffda6fcd9b3dd16",
+      "title": "【ビルボード】NGT48『風の片想い』8.3万枚でシングル・セールス首位 ROIROM／FRUITS ZIPPERが続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/167067",
+      "publishedAt": "2026-11-02T10:00:00.000Z",
+      "excerpt": "2026年11月4日公開（集計期間：2026年10月26日～11月1日）のBillboard JA",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167067/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] NGT48 “Kaze no Kataomoi” tops single sales with 83,000 copies, followed by ROIROM/FRUITS ZIPPER",
+      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
+    },
+    {
       "id": "4ded7f5f46fcf4d5",
       "title": "DXTEEN、夜にパジャマ姿でYouTube生配信『恋バナSP』実施へ ニューSG『相思想愛』発売記念",
       "link": "https://www.billboard-japan.com/d_news/detail/167068",
@@ -204,6 +259,23 @@
       },
       "translatedTitle": "DXTEEN will perform YouTube live broadcast “Koibana SP” in pajamas at night to commemorate the release of new SG “Soisho Ai”",
       "translatedExcerpt": "DXTEEN is celebrating the release of their new single “Soisho Ai” with a YouTube live stream “DXTEEN PA”."
+    },
+    {
+      "id": "42e067927931d766",
+      "title": "Claymore's Norihiro Yagi Launches Bartlet Fairy Basslet Manga",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-02/claymore-norihiro-yagi-launches-bartlet-fairy-basslet-manga/.243435",
+      "publishedAt": "2026-11-02T09:42:36.000Z",
+      "excerpt": "Manga Plus, Viz Media both publish \"hack and slash fantasy epic\" series in English",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gDC/cms/news.10/243435/bartlet-fairy-basslet.jfif.jpeg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "30544ed44877f945",
@@ -3507,7 +3579,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "ACIDMAN's 30th anniversary year starts, new project solo & acoustic nationwide tour decided",
+      "translatedTitle": "ACIDMAN's 30th anniversary year starts, new project one-man & acoustic nationwide tour decided",
       "translatedExcerpt": "Rock band ACIDMAN has announced the start of their anniversary year in preparation for their 30th anniversary in 2027. As the first part of the 30th anniversary project, they announced that they will hold a one-man live show <ACIDMAN ONE-MAN LIVE \"deep\">, and as the second part, they will hold a nationwide tour [ACIDMAN LIVE TOUR “Second line & Acoustic collection III]”. At the same time, a special 30th anniversary website has also been released. The eye-catching image of the earth as the main visual is created by TerraCaster, an earth observation video platform jointly promoted by Nippon Television Network Corporation and Bascule Corporation. Utilizing observation data from the meteorological satellite Himawari, the Earth's appearance as seen from space is visualized. Based on actual observation data..."
     },
     {
@@ -3527,7 +3599,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ado will release the opening song “Shinka” for the anime “Demon’s Crest”",
-      "translatedExcerpt": "Ado's new song ``Shinka'', which has been selected as the opening theme for the anime ``Demon's Crest'', which will be distributed exclusively worldwide on Prime Video from 21:00 on Friday, November 6, 2026, will be distributed on Friday, November 6, the same day as the anime distribution start date. \"Shinka\" is a new song written by Vocaloid P Yuurii Kanon, who has been in contact with Ado for some time. It depicts the desire to believe in one's own voice and expression in a world covered in lies and fiction, where even life and people's will is looked down upon. Emotional melodies and dynamic sounds combine to powerfully express determination for growth and hope for the future. The song is a mix of delicate emotions and dynamic development, making it a song that will help each listener's ``evolution.'' This is an up-tempo song that is close to the worldview of anime where \"reality\" and \"game\" invade each other..."
+      "translatedExcerpt": "Ado's new song ``Shinka'', which has been selected as the opening theme for the anime ``Demon's Crest'', which will be distributed exclusively worldwide on Prime Video from 21:00 on Friday, November 6, 2026, will be distributed on Friday, November 6, the same day as the anime distribution start date. \"Shinka\" is a new song written by Vocaloid P Yuurii Kanon, who has been in contact with Ado for some time. It depicts the desire to believe in one's own voice and expression in a world covered in lies and fiction, where even life and people's will is looked down upon. The emotional melody and lively sound overlap to powerfully express determination for growth and hope for the future. The song is a mix of delicate emotions and dynamic development, making it a song that will help each listener's ``evolution.'' This is an up-tempo song that is close to the worldview of anime where \"reality\" and \"game\" invade each other..."
     },
     {
       "id": "9cadf49f1a94e293",
@@ -3565,7 +3637,7 @@
         "language": "ja"
       },
       "translatedTitle": "Peanuts-kun releases latest EP “SUMMON TAPE”",
-      "translatedExcerpt": "Peanuts-kun released his latest EP “SUMMON TAPE” on October 28, 2026. Peanut-kun is a rapper/VTuber who started his activities in 2017. Koga-ryu Ninja is the main character of the short anime “I want to be fashionable! Peanut-kun” and a character created from the same anime! His latest EP \"SUMMON TAPE\", which is gaining popularity as a member of \"Pokopi\" along with Pon Poko, contains a total of 9 songs including \"Rinne\" and \"Chancho Narase 808\". Peanuts himself is credited as the producer for almost all of the songs, and nerdwitchkomugichan (Age Factory) participates in M6. De Niro Tamada (Satellite) is in charge of mixing and mastering. The dark textured jacket is a member of Vampillia/VMO..."
+      "translatedExcerpt": "Peanuts-kun released his latest EP “SUMMON TAPE” on October 28, 2026. Peanut-kun is a rapper/VTuber who started his activities in 2017. Koga-ryu Ninja is the main character of the short anime “I want to be fashionable! Peanut-kun” and a character created from the same anime! His latest EP \"SUMMON TAPE\", which is gaining popularity as a member of \"Pokopi\" along with Pon Poko, contains a total of 9 songs including \"Rinne\" and \"Chancho Narase 808\". Peanuts himself is credited as the producer for almost all of the songs, and nerdwitchkomugichan (Age Factory) participates in M6. De Niro Tamada (Satellite) is in charge of mixing and mastering. The dark textured jacket is made with Vampillia/VMO members..."
     },
     {
       "id": "90fe17a8bbeb9994",
@@ -18389,80 +18461,6 @@
       "publishedAt": "2026-10-25T09:10:00.000Z",
       "excerpt": "Key visual also revealed ahead of new season's January 2027 debut",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJB/cms/news.10/243178/ab2-tespv-013.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "d6a007c7169c9273",
-      "title": "【ライブレポート】郷ひろみ、日本武道館で届けた55年分の愛「みなさんと一緒に作り上げたいと思いました」",
-      "link": "https://barks.jp/news/1100537",
-      "publishedAt": "2026-10-25T09:00:47.000Z",
-      "excerpt": "ファンクラブ発足55周年を記念して開催された郷ひろみの全国ツアーが、ついにクライマックスを迎えた。グランドフィナーレの舞台は東京・日本武道館。10月24日・25日の2日間にわたって開催された＜Hiromi Go Concert Tour 2026～ALL MY LOVE～ THE GRAND FINAL at 日本武道館＞は、全国ツアーの集大成であり、長年育んできたファンとの強い絆が結実したステージだった。満開の熱気に包まれた会場で、圧巻の歌唱力と躍動感あふれるパフォーマンスを見せた10月24日の公演をオフィシャルレポートからお届けする。 客電が落ちた瞬間、無数のペンライトの光が会場一面に広がる様子は壮観だった。開演前からステージに立っていたハート型の赤い風船がふわりと舞い上がり、天井へと消えていく。大き…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/25152222/%E2%98%85%E9%83%B7%E3%81%B2%E3%82%8D%E3%81%BF%E6%AD%A6%E9%81%93%E9%A4%A8_2-1024x682.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Live Report] Hiromi Go delivered 55 years of love at Nippon Budokan “I wanted to create this together with everyone”",
-      "translatedExcerpt": "Hiromi Go's nationwide tour, held to commemorate the 55th anniversary of the fan club, has finally reached its climax. The stage for the grand finale is Nippon Budokan in Tokyo. <Hiromi Go Concert Tour 2026 ~ALL MY LOVE~ THE GRAND FINAL at Nippon Budokan>, which was held over two days on October 24th and 25th, was the culmination of the nationwide tour and the stage where the strong bond with fans that she had cultivated over the years came to fruition. We bring you the official report of the performance on October 24th, where they showed off their amazing singing ability and a lively performance at a venue filled with excitement. The moment the electric lights went down, the sight of countless penlights spreading across the venue was a spectacular sight. A heart-shaped red balloon that had been standing on the stage before the performance began to float up and disappear into the ceiling. Big..."
-    },
-    {
-      "id": "b9b6e818c4e83f53",
-      "title": "【ライブレポート】After the Rain、そらるとまふまふが10年の絆を確かめた夜",
-      "link": "https://barks.jp/news/1100364",
-      "publishedAt": "2026-10-25T09:00:00.000Z",
-      "excerpt": "そらるとまふまふによるユニット・After the Rainの結成10周年を記念したアリーナツアー＜After the Rain 10th Anniversary Tour ～ 春夏秋冬 ～＞。その“秋”公演が10月17日と18日に広島県・広島サンプラザホールにて開催された。 このツアーは「アニバーサリーイヤーとなる1年間を、季節の移ろいに添いながらリスナーとともに過ごしたい」という思いが込められており、各季節各都市で四季折々の演出やパフォーマンスが予定されている。春の神奈川県・ぴあアリーナMM公演、夏の兵庫県・神戸ワールド記念ホール公演に続いて開催されたこの秋公演は、最新フルアルバム『春夏秋冬』の楽曲や過去のアルバム収録曲などを用いて秋に似合うセットリストを組み、春公演や夏公演とは異なる趣を作り出した。…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/24130106/AtR_1-1024x683.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Live Report] After the Rain, the night when Sora and Mafumafu confirmed their 10-year bond",
-      "translatedExcerpt": "After the Rain is an arena tour commemorating the 10th anniversary of the formation of the unit After the Rain by Sora and Mafumafu. The \"autumn\" performance was held on October 17th and 18th at Hiroshima Sunplaza Hall in Hiroshima Prefecture. This tour incorporates the desire to \"spend this anniversary year with our listeners as the seasons change,\" with seasonal productions and performances scheduled in each city each season. This fall performance, which was held following the Pia Arena MM performance in Kanagawa Prefecture in the spring and the Kobe World Memorial Hall performance in Hyogo Prefecture in the summer, created a set list suitable for autumn using songs from the latest full album ``Spring Summer Fall Winter'' and songs from past albums, creating a different atmosphere from the spring and summer performances. …"
-    },
-    {
-      "id": "bb95c1f8cb26c383",
-      "title": "BUNT.、全15曲を収録した新AL配信開始",
-      "link": "https://ototoy.jp/news/132436",
-      "publishedAt": "2026-10-25T09:00:00.000Z",
-      "excerpt": "BUNT.が2026年10月23日(金)にニューアルバム『Levi Did It』をリリースした。 全15曲を収録したデビューアルバムである本作は、彼が音楽家として歩んできた道のりと、幾度もの挫折を乗り越えてつかんだ成功を映し出す作品。温かなハウスのリズム、耳に残るメロディー、そして大きな会場を一体にする高揚感を融合させ、個人的な経験を世代や国境を越えて共有できるダンスミュージックへと昇華している。 本作のタイトル『Levi Did It』には、アーティストとしての成功を自らの手でつかみ取ったという意味が込められている。ハウスを基盤としながら、フォークやカントリー由来の温かな質感と、感情に訴えかけるポップなメロディーを取り入れたサウンドのアルバムに仕上がっている。 リリース情報 https://ototo…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132436/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "BUNT., new AL distribution containing all 15 songs started",
-      "translatedExcerpt": "BUNT. released their new album ``Levi Did It'' on Friday, October 23, 2026. This debut album, which includes a total of 15 songs, is a work that reflects his journey as a musician and the success he achieved after overcoming numerous setbacks. By fusing warm house rhythms, catchy melodies, and the exhilaration that unites large venues, they elevate personal experiences into dance music that can be shared across generations and borders. The title of this work, ``Levi Did It,'' conveys the meaning that he took his success as an artist into his own hands. The album is based on house, but incorporates warm textures derived from folk and country, as well as pop melodies that appeal to the emotions. Release information https://ototo…"
-    },
-    {
-      "id": "064538b272cdf92c",
-      "title": "Nigozyu Plans to End The Detective Is Already Dead Novels in 15th Volume",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-25/nigozyu-plans-to-end-the-detective-is-already-dead-novels-in-15th-volume/.243168",
-      "publishedAt": "2026-10-25T07:15:00.000Z",
-      "excerpt": "Light novel series debuted in November 2019",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF5/cms/news.10/243168/9781975325756.webp",
       "source": {
         "id": "ann",
         "name": "Anime News Network",

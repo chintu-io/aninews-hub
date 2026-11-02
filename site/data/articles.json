@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T13:31:54.697Z",
+  "generatedAt": "2026-11-02T14:02:41.487Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 34,
+      "count": 33,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 297,
+      "count": 298,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -153,7 +153,7 @@
       "name": "Sankaku Complex",
       "status": "ok",
       "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 74,
       "fetchedCount": 24
     }
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 641,
+    "translatedJapaneseArticles": 642,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "1fffbb63262506cc",
+      "title": "Who-ya Extended、龍（REAL AKIBA BOYZ）とのコラボによる「FLY2FLY」パフォーマンスビデオ公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167080",
+      "publishedAt": "2026-11-02T13:45:00.000Z",
+      "excerpt": "Who-ya Extendedが、新曲「FLY2FLY」（読み：フラフラ）のパフォーマンスビデオを",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167080/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Who-ya Extended releases “FLY2FLY” performance video in collaboration with Ryu (REAL AKIBA BOYZ)",
+      "translatedExcerpt": "Who-ya Extended has released a performance video for their new song “FLY2FLY” (pronounced: Furafura)."
+    },
     {
       "id": "8ef805319bc1b76a",
       "title": "eyed、肖像画を映像にしたような“動く絵画”「silence」ポートレートビデオ公開",
@@ -18469,23 +18488,6 @@
       },
       "translatedTitle": "Mrs. GREEN APPLE's \"Cinderella\" MV, directed, planned, and written by Motoki Omori, is a story of self-affirmation.",
       "translatedExcerpt": "Mrs. GREEN APPLE has released the music video for their new song \"Cinderella\". New song “"
-    },
-    {
-      "id": "fa0e517ac2a1aa4f",
-      "title": "Chainsaw robots helping keep trains running safely in east Japan [Video]",
-      "link": "https://soranews24.com/2026/10/25/chainsaw-robots-helping-keep-trains-running-safely-in-east-japan-video/",
-      "publishedAt": "2026-10-25T13:00:41.000Z",
-      "excerpt": "Chainsaw-wielding robots prove they can contribute to human mobility in ways other than people running away from them in terror. Japan’s rail network is famous for its sterling safety and reliability records, and neither of those would be achievable without a whole lot of preventive maintenance. East Japan Railway Company (a.k.a. JR East), one of […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/3_44fb60.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
     }
   ]
 }

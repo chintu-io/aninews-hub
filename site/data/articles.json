@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T06:02:05.922Z",
+  "generatedAt": "2026-11-02T06:32:00.669Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 124,
+      "count": 125,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 286,
+      "count": 287,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 226,
+      "count": 227,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "count": 74,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,48 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 628,
+    "translatedJapaneseArticles": 630,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "0139412334a5f852",
+      "title": "ヒグチアイ、新曲「砕石」も収録の“初の弾き語りアルバム『備忘録』”配信限定リリース決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167055",
+      "publishedAt": "2026-11-02T06:10:00.000Z",
+      "excerpt": "ヒグチアイのキャリア初の弾き語りアルバム『備忘録』が11月18日に配信限定リリースされる。 2",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167055/200x_image.jpeg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Higuchiai's \"first singing album 'Memoroku'\", which also includes the new song \"Kaiishi\", will be released exclusively on digital distribution",
+      "translatedExcerpt": "Higuchiai's first career singing album ``Memoroku'' will be released exclusively on digital distribution on November 18th. 2"
+    },
+    {
+      "id": "bb0281b30ee3aefe",
+      "title": "高橋優、NHK『みんなのうた』初登場。新曲「願いの風と珊瑚礁」を書き下ろし",
+      "link": "https://barks.jp/news/1101994",
+      "publishedAt": "2026-11-02T06:00:30.000Z",
+      "excerpt": "高橋優が、NHK『みんなのうた』に新曲「願いの風と珊瑚礁」を書き下ろしたことがわかった。12-1月にかけ番組内にて放送される。 2010年にシングル「素晴らしき日常」でメジャーデビューして以来、時代と向き合い前向きなメッセージを歌い続けてきた高橋優。今回の新曲「願いの風と珊瑚礁」では、「願い」に込められた想いを俯瞰的な視点から表現力豊かに歌い上げている。作詞・作曲は高橋 優自身が手がけ、編曲は宗像仁志が担当した。 NHK『みんなのうた』では、繊細な色彩感覚で人の「思い」を描くアニメーション作家・福地明乃が楽曲の世界観を映像化する。湧き起こる感情を色彩に込め、誰かの“心の故郷”となるようなアニメーションと、優しく包み込むような音楽が織りなすハーモニー。冬の日に、静かに心温まる『みんなのうた』となりそうだ。…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/18170732/%E3%83%BB%E9%AB%98%E6%A9%8B%E5%84%AA-%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F%EF%BC%881%E7%82%B9%EF%BC%89.jpeg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Yu Takahashi makes his first appearance on NHK's \"Minna no Uta\". New song “Wishing Wind and Coral Reef” newly written",
+      "translatedExcerpt": "It has been revealed that Yu Takahashi has written a new song for NHK's ``Minna no Uta'' called ``Wishing Wind and Coral Reef.'' The program will be broadcast from December to January. Since making his major debut with the single ``Wonderful Daily Life'' in 2010, Yu Takahashi has continued to face the times and sing positive messages. In this new song, ``Wishes of Wishes and Coral Reefs,'' she expresses the feelings contained in ``wish'' from a bird's-eye perspective. The lyrics and music were written by Yu Takahashi himself, and the arrangement was done by Hitoshi Munakata. In NHK's ``Minna no Uta'', animation artist Akeno Fukuchi, who depicts people's ``thoughts'' with a delicate sense of color, visualizes the worldview of the song. A harmony created by the animation that captures the emotions that spring up in the colors and creates a home for someone, and the music that gently envelops you. It's sure to be a quiet, heart-warming ``everyone's song'' on a winter's day. …"
+    },
     {
       "id": "102c9bc189cdb662",
       "title": "高橋 優、NHK『みんなのうた』新曲「願いの風と珊瑚礁」12月～1月放送決定",
@@ -204,6 +242,23 @@
       },
       "translatedTitle": "New Tokyo/Endoa. will appear, and the first real event of the new era artist promotion brand \"ArtLed\" will be held.",
       "translatedExcerpt": "\"ArtLed\" is a promotional brand that supports artists' activities from various angles."
+    },
+    {
+      "id": "ecf3a2429b618a6f",
+      "title": "2026 Today's Korean Comics Awards Announce 5 Winners",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-02/2026-today-korean-comics-awards-announce-5-winners/.243308",
+      "publishedAt": "2026-11-02T05:26:41.000Z",
+      "excerpt": "Low Orbit Human by artist Cho Eun-young also receives Korea Cartoonist Association President's Award",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gPA/cms/news.10/243308/hvdp9oxbyaa-t2f.jfif.jpeg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "88876b52a1b79a9f",
@@ -2243,7 +2298,7 @@
       "title": "Former Adult Actress Sora Aoi Warns Women Against Entering Industry",
       "link": "https://news.sankakucomplex.com/n/AvLyqVZlhuV1KE1sbBc1UA",
       "publishedAt": "2026-10-31T17:01:48.000Z",
-      "excerpt": "Former Japanese adult film actress Sora Aoi has revealed that she actively discourages young women from entering the adult entertainment industry, warning that its potentially lifelong consequences outweigh the glamour and financial opportunities often associated with the profession. Aoi, who bec…",
+      "excerpt": "Former Japanese adult film actress Sora Aoi has revealed that she actively discourages young women from entering the adult entertainment industry, warning that its potentially lifelong consequences outweigh the glamour and financial opportunities often associated with the profession.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18399,57 +18454,6 @@
       "link": "https://news.sankakucomplex.com/n/gN5dhQ1Rz5sctZrWsEircg",
       "publishedAt": "2026-10-25T01:00:27.000Z",
       "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "19a28e3ad90e3886",
-      "title": "Hatsune Miku Producer Supercell Returns With Two New Pokemon Songs After 10 Years",
-      "link": "https://news.sankakucomplex.com/n/38pT5WuHMydYQSgiHov1IQ",
-      "publishedAt": "2026-10-25T01:00:27.000Z",
-      "excerpt": "Vocaloid producer Ryo (Supercell), best known for creating Hatsune Miku classics such as “Melt” and “World Is Mine,” has returned with two new songs featuring the virtual singer, this time collaborating with Pokémon to celebrate the franchise’s 30th anniversary.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "776297bcd5f1cfb8",
-      "title": "Former BioWare Producer Allegedly Rejected Job Applicants Over Political Views",
-      "link": "https://news.sankakucomplex.com/n/wmya4RG35Yq2WGxhnazo4g",
-      "publishedAt": "2026-10-24T21:00:17.000Z",
-      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "23d7068beafb5178",
-      "title": "Former BioWare Producer Allegedly Rejected Job Applicants Over Political Views",
-      "link": "https://news.sankakucomplex.com/n/mOAwFYxzyRI46yXaIGec1A",
-      "publishedAt": "2026-10-24T21:00:17.000Z",
-      "excerpt": "Former BioWare employees are facing additional scrutiny following the studio’s closure, as veteran RPG writer Chris Avellone has alleged that a producer at the company would examine job applicants’ LinkedIn activity and oppose hiring those whose political or social views he disagreed with. Avello…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",

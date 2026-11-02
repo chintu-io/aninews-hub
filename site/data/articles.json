@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T15:02:15.391Z",
+  "generatedAt": "2026-11-02T15:33:57.051Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 124,
+      "count": 125,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 294,
+      "count": 291,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 229,
+      "count": 230,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 74,
+      "count": 75,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 639,
+    "translatedJapaneseArticles": 638,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "10c1db84e941916e",
+      "title": "Comic CMOA Partially Resumes Service",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-01/comic-cmoa-partially-resumes-service/.243414",
+      "publishedAt": "2026-11-02T15:15:00.000Z",
+      "excerpt": "Partial service resumed on October 29; service has been down since October 15 due to unauthorized external access",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGE/cms/news.10/242977/cmoa.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "209159c659652b6b",
+      "title": "ドレスコーズ、文化の日に新曲「リベラシオン」配信。2027年ワンマンツアーも決定",
+      "link": "https://barks.jp/news/1102103",
+      "publishedAt": "2026-11-02T15:00:32.000Z",
+      "excerpt": "ドレスコーズの新曲「リベラシオン」が、文化の日である本日11月3日0時より配信スタートした。 本作は、5月にリリースされた“反戦シングル”「ノイズ時代」と対をなす世界観の新曲。ノイジーかつ浮遊感のあるサウンドが特徴的な、ドレスコーズの新境地ともいえる楽曲となっている。楽曲タイトル「リベラシオン(libération)」はフランス語で「抑圧からの解放」を意味する。 リリースはサプライズでの配信という形になったが、本楽曲はワンマンツアー＜the dresscodes TOUR2026《夏、十字架、ノイズ》＞にて初披露されており、ファンにとっては嬉しいリリースとなった。 配信スタートにあわせジャケット写真も公開された。群衆が写し出されたモノクロの写真の上に「リベラシオン」の文字をコラージュしたデザインが特徴的だ…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/02195704/%E3%80%8C%E3%83%AA%E3%83%99%E3%83%A9%E3%82%B7%E3%82%AA%E3%83%B3%E3%80%8D%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E5%86%99%E7%9C%9F.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Dresscodes releases new song \"Liberation\" on Bunka Day. 2027 solo tour also decided",
+      "translatedExcerpt": "Dresscodes' new song ``Liberation'' was released on Culture Day, November 3rd, at midnight. This work is a new song with a world view that is a companion to the \"anti-war single\" \"Noise Jidai\" released in May. It is a song that can be considered a new frontier for Dresscodes, with its noisy and floating sound. The song title ``Liberation'' means ``liberation from oppression'' in French. Although the release was a surprise distribution, this song was performed for the first time during the one-man tour ＜The Dresscodes TOUR2026《Summer, Cross, Noise》＞, making it a happy release for fans. The jacket photo was also released in conjunction with the start of distribution. The design features a collage of the words \"Liberation\" on top of a monochrome photograph of a crowd..."
+    },
     {
       "id": "ffc9e97804fbdaef",
       "title": "Crunchyroll News Puzzles Vol. 79: Mid Game and Bruised",
@@ -3128,7 +3164,7 @@
       "title": "Hello Kitty Cancels Vivant Collaboration After China Backlash",
       "link": "https://news.sankakucomplex.com/n/DGJYQ7Btluk-kSyaXFuoVQ",
       "publishedAt": "2026-11-01T09:00:30.000Z",
-      "excerpt": "Japanese entertainment company Sanrio has abruptly canceled its collaboration between Hello Kitty and the hit television drama Vivant, following criticism from Chinese state media over scenes depicting Chinese intelligence agents brutally torturing Japanese operatives.",
+      "excerpt": "Japanese entertainment company Sanrio has abruptly canceled its collaboration between Hello Kitty and the hit television drama Vivant, following criticism from Chinese state media over scenes depicting Chinese intelligence agents brutally torturing Japanese operatives. Sanrio announced the decisi…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4985,6 +5021,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "e8ca6f8133691af0",
+      "title": "Universal Studios Japan Condemns Man for Hugging Female Zombie Performer",
+      "link": "https://news.sankakucomplex.com/n/5z9miKRrK7QYGxiWuPURJw",
+      "publishedAt": "2026-10-30T15:00:11.000Z",
+      "excerpt": "Universal Studios Japan (USJ) has condemned a male visitor who was filmed grabbing a female zombie performer from behind during the theme park’s Halloween celebrations, sparking widespread criticism and concerns about employee safety.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -7044,7 +7097,7 @@
       "title": "Konami’s Gaming Profits Surge 75% Thanks to Strong Game Sales",
       "link": "https://news.sankakucomplex.com/n/e7CT9pskp63tPTVvQDN9NQ",
       "publishedAt": "2026-10-30T03:00:32.000Z",
-      "excerpt": "Konami has reported a massive 75.1% increase in profits from its video game business, with the continued success of eFootball, Yu-Gi-Oh!, and several major releases helping the Japanese publisher achieve record-breaking financial results.",
+      "excerpt": "Konami has reported a massive 75.1% increase in profits from its video game business, with the continued success of eFootball, Yu-Gi-Oh!, and several major releases helping the Japanese publisher achieve record-breaking financial results. The company announced its financial results on October 29,…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18425,63 +18478,6 @@
       },
       "translatedTitle": "Centimilimal to hold Latin American tour in May 2027",
       "translatedExcerpt": "Centimillimental has announced that they will hold <Centimillimental LATIN AMERICA TOUR 2027> in May 2027. For the Mexico and Chile performances of the world tour held in February 2026, all four performances were sold out in just a few minutes after tickets went on sale. The scale of this tour will be expanded, starting with the Mexico City performance on May 7, 2027, and traveling to six cities: Buenos Aires, São Paulo, Santiago, Lima, and Monterrey. Details and ticket information for each performance will be announced at a later date. Furthermore, Sentimilimal is currently holding his first national hall tour. Also, on November 18th, they will release a new single, ``Kanawanai, / Kimi ni Aitai Deshi Sou''. ◾️＜Centimillimental LATIN AMERI…"
-    },
-    {
-      "id": "8d49f7d3ed7bd453",
-      "title": "KEY TO LIT、奇天烈で奇抜な「KEY TERUYA2 ～キテルヤツ～」MVテーマは“日の出”",
-      "link": "https://www.billboard-japan.com/d_news/detail/166780",
-      "publishedAt": "2026-10-25T14:05:00.000Z",
-      "excerpt": "KEY TO LITが、デビュー曲「KEY TERUYA2 ～キテルヤツ～」（読み：キテルヤツ）の",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166780/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "KEY TO LIT's bizarre and eccentric \"KEY TERUYA2 ~Kiteru Yatsu~\" MV theme is \"Sunrise\"",
-      "translatedExcerpt": "KEY TO LIT has released their debut song “KEY TERUYA2 ~Kiteru Yatsu~” (pronunciation: Kiteru Yatsu)."
-    },
-    {
-      "id": "406485d02b435eee",
-      "title": "Travis Japan、ニューアルバム『Jewelry Basket』初回T盤の特典映像ダイジェストを公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166779",
-      "publishedAt": "2026-10-25T13:50:00.000Z",
-      "excerpt": "Travis Japanが、2026年11月18日にリリースとなるニューアルバム『Jewelry",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166779/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Travis Japan releases bonus video digest for first T edition of new album “Jewelry Basket”",
-      "translatedExcerpt": "Travis Japan will release his new album “Jewelry” on November 18, 2026."
-    },
-    {
-      "id": "f7e4289d7824e6d2",
-      "title": "Da-iCE、新曲「うららか」ダンスパフォーマンス映像のビハインド公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166778",
-      "publishedAt": "2026-10-25T13:45:00.000Z",
-      "excerpt": "Da-iCEが、新曲「うららか」のダンスパフォーマンス映像のビハインド映像を公開した。 202",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166778/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Da-iCE releases behind-the-scenes dance performance video for new song “Uraraka”",
-      "translatedExcerpt": "Da-iCE has released a behind-the-scenes video of the dance performance video for their new song \"Uraraka.\" 202"
     }
   ]
 }

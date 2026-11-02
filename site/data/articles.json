@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T13:01:56.443Z",
+  "generatedAt": "2026-11-02T13:31:54.697Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 88,
+      "count": 86,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 293,
+      "count": 297,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 230,
+      "count": 229,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 135,
+      "count": 134,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,120 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 639,
+    "translatedJapaneseArticles": 641,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8ef805319bc1b76a",
+      "title": "eyed、肖像画を映像にしたような“動く絵画”「silence」ポートレートビデオ公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167079",
+      "publishedAt": "2026-11-02T13:30:00.000Z",
+      "excerpt": "5人組ガールズグループ・eyed（読み：アイディー）が、新曲「silence」のポートレートビデオ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167079/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "eyed releases “silence” portrait video, a “moving painting” that looks like a portrait turned into a video",
+      "translatedExcerpt": "Five-member girl group eyed releases portrait video for new song \"silence\""
+    },
+    {
+      "id": "971a284c9f1f02c0",
+      "title": "Galileo Galilei、第二章へ入るバンドの“夜明け”を感じさせる「Rise of The Man」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167075",
+      "publishedAt": "2026-11-02T13:25:00.000Z",
+      "excerpt": "Galileo Galileiが、新曲「Rise of The Man」のミュージックビデオを公開",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167075/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Galileo Galilei releases MV for “Rise of The Man,” which makes you feel the “dawn” of the band entering its second chapter.",
+      "translatedExcerpt": "Galileo Galilei releases music video for new song “Rise of The Man”"
+    },
+    {
+      "id": "1879b6aa33442683",
+      "title": "電気グルーヴ、2年半ぶりの新曲「モザイク」配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/167076",
+      "publishedAt": "2026-11-02T13:20:00.000Z",
+      "excerpt": "電気グルーヴが、2026年11月4日に新曲「モザイク」を配信リリースする。 約2年半ぶりの新曲",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167076/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Denki Groove releases new song “Mosaic” for the first time in two and a half years",
+      "translatedExcerpt": "Denki Groove will digitally release their new song “Mosaic” on November 4, 2026. New song for the first time in about two and a half years"
+    },
+    {
+      "id": "2fb55f7b73d4b1c8",
+      "title": "Toshimichi Uzō Launches New Manga",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-02/toshimichi-uzo-launches-new-manga/.243422",
+      "publishedAt": "2026-11-02T13:15:00.000Z",
+      "excerpt": "Yome wo Dungeon de Koroshitai debuts on Tuesday",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gR8/cms/news.10/243422/69814.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "18c90b2e9fd00622",
+      "title": "ヤングスキニー、華やかで切ない新曲「秘密のクリスマス」配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/167077",
+      "publishedAt": "2026-11-02T13:15:00.000Z",
+      "excerpt": "ヤングスキニーが、2026年11月18日に新曲「秘密のクリスマス」を配信リリースする。 新曲「",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167077/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Young Skinny releases gorgeous and sad new song “Secret Christmas”",
+      "translatedExcerpt": "Young Skinny will release a new song \"Secret Christmas\" on November 18, 2026. New song “"
+    },
+    {
+      "id": "4c001aa6afb639de",
+      "title": "The Bloodthirsty Bride Devours the King Manga Gets TV Anime in 2027",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-02/the-bloodthirsty-bride-devours-the-king-manga-gets-tv-anime-in-2027/.243444",
+      "publishedAt": "2026-11-02T12:59:54.000Z",
+      "excerpt": "Imagica Infos/Imageworks Studio animate \"forbidden dark romantic fantasy\" about vampire princess",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFI/cms/news.10/243444/hwfvzc6a8aadkpv.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "be1215771e6316c8",
       "title": "YOASOBIが出演、NHK特番『連続テレビ小説「ブラッサム」 主題歌ができるまで』放送",
@@ -18376,112 +18486,6 @@
         "accent": "#6fc9e6",
         "language": "en"
       }
-    },
-    {
-      "id": "b9280bfb7498c74b",
-      "title": "Jazzy、洗練されたダンサブルな新ALリリース",
-      "link": "https://ototoy.jp/news/132438",
-      "publishedAt": "2026-10-25T13:00:00.000Z",
-      "excerpt": "Jazzyが2026年10月23日(金)にニューアルバム『Peace & Patience』をリリースした。 全13曲を収録した本作は、彼女がクラブシーンで培ってきた経験と、シンガー・ソングライターとしての表現力を融合させた作品。高揚感あふれるハウス、洗練されたダンスポップ、そして個人的な経験に根ざしたストーリーテリングを通じて、Jazzyならではの音楽世界を提示している。 制作はダブリン、ロンドン、ロサンゼルスを横断して行われ、Mark Ralph、Tre Jean Marie、Theo Hutchcraftら、現代のポップ／ダンスミュージックを支えるプロデューサー陣が参加。Jazzyの個性的なハスキーボイスを中心に、クラブで映えるエネルギーと、繊細な感情表現が共存するサウンドを作り上げた。 リリース情…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132438/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Jazzy, sophisticated and danceable new AL release",
-      "translatedExcerpt": "Jazzy released their new album ``Peace & Patience'' on Friday, October 23, 2026. This work, which includes a total of 13 songs, is a work that combines the experience she has cultivated in the club scene and her expressive power as a singer-songwriter. Through uplifting house, sophisticated dance-pop, and storytelling rooted in personal experience, Jazzy presents a musical world unique to Jazz. Production took place across Dublin, London, and Los Angeles, with the participation of producers who support modern pop/dance music, including Mark Ralph, Tre Jean Marie, and Theo Hutchcraft. Centering around Jazzy's unique husky voice, they created a sound that coexists with energy that shines in clubs and delicate emotional expression. Release information..."
-    },
-    {
-      "id": "5d24f63ae220ce73",
-      "title": "Tank Chair and Fool Night Manga Creators Share Collab Visual",
-      "link": "https://crunchyroll.com/news/latest/2026/10/25/tank-chair-fool-night-manga-creators-collab-visual",
-      "publishedAt": "2026-10-25T13:00:00.000Z",
-      "excerpt": "Tank Chair is currently airing, with Fool Night to follow on November 26",
-      "image": "https://a.storyblok.com/f/178900/960x540/3b70e965a1/fool-night-hero.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "388cd8d7bef15df1",
-      "title": "Yen Press Licenses Cross-Dressing Villainess Cecilia Sylvie: Extra Round!, 'And Thus, the Wizard Noi Garené Became a Bride 100 Years Later,' 8 More Titles",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-25/yen-press-licenses-cross-dressing-villainess-cecilia-sylvie-extra-round-and-thus-the-wizard-noi-/.243162",
-      "publishedAt": "2026-10-25T12:45:00.000Z",
-      "excerpt": "Also: Secret: Homicide Edition, About a Place in the Kinki Region, more",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF3/cms/news.10/243162/and-thus-the-wizard-noi-garene-became-a-bride-100-years-later-cnf.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6fc4c729f1116523",
-      "title": "BanG Dream! It's MyGO!!!!! / Ave Mujica – The Die is Cast – Sequel Anime Shares New Teaser",
-      "link": "https://crunchyroll.com/news/latest/2026/10/25/bang-dream-its-mygo-ave-mujica-the-die-is-cast-sequel-anime-teaser",
-      "publishedAt": "2026-10-25T12:34:00.000Z",
-      "excerpt": "The crossover series premieres January 8, 2027",
-      "image": "https://a.storyblok.com/f/178900/1460x822/355425c3d2/bang-dream-my-go-ave-mujica-teaser-2-hero.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e910eb982524d8c6",
-      "title": "BanG Dream! It's MyGo!!!!! // Ave Mujica Anime's 2nd Teaser Unveils January 8 Debut",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-25/bang-dream-its-mygo-ave-mujica-anime-2nd-teaser-unveils-january-8-debut/.243183",
-      "publishedAt": "2026-10-25T12:33:50.000Z",
-      "excerpt": "Sequel TV anime to air in NTV's \"Friday Anime Night\" block",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHG/herald/202478/mygoavemujica-tv-00008.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "acc24ab3ae46332e",
-      "title": "HEY-SMITH主催＜OSAKA HAZIKETEMAZARE FESTIVAL 2027＞開催決定",
-      "link": "https://barks.jp/news/1100545",
-      "publishedAt": "2026-10-25T12:00:04.000Z",
-      "excerpt": "HEY-SMITH主催による野外フェス＜OSAKA HAZIKETEMAZARE FESTIVAL＞が、2027年10月23日・24日に、泉大津フェニックスにて開催されることが発表された。 10月24日・25日に大阪・泉大津フェニックスで開催された＜OSAKA HAZIKETEMAZARE FESTIVAL 2026＞は、両日ともにチケットがソールドアウト。国内外のアーティストが熱演を繰り広げ、会場を埋め尽くした観客の大熱狂のうちに幕を下ろした。その興奮も冷めやらぬなか、早くも2027年の開催が発表された。 “ハジマザ”の愛称で親しまれ、HEY-SMITHが仲間たちとともに作り上げてきた本イベント。来年はどのようなアーティストが集い、熱演を繰り広げるのか、続報にも期待いただきたい。開催発表にあわせ、10月…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/25161834/S__39493692_0.jpeg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "<OSAKA HAZIKETEMAZARE FESTIVAL 2027> sponsored by HEY-SMITH to be held",
-      "translatedExcerpt": "It has been announced that the outdoor festival <OSAKA HAZIKETEMAZARE FESTIVAL> sponsored by HEY-SMITH will be held at Izumiotsu Phoenix on October 23rd and 24th, 2027. Tickets for ＜OSAKA HAZIKETEMAZARE FESTIVAL 2026＞ held in Izumiotsu Phoenix, Osaka on October 24th and 25th were sold out on both days. Domestic and international artists performed passionately, and the event ended amidst great enthusiasm from the audience who filled the venue. While the excitement hasn't died down, it has already been announced that the event will be held in 2027. This event, affectionately known as “Hajimaza”, was created by HEY-SMITH with his friends. Please look forward to the follow-up report on what kind of artists will gather and give passionate performances next year. In conjunction with the event announcement, October..."
     }
   ]
 }

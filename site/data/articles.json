@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T02:01:57.647Z",
+  "generatedAt": "2026-11-03T02:32:12.935Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 89,
+      "count": 90,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 289,
+      "count": 287,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 227,
+      "count": 228,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 630,
+    "translatedJapaneseArticles": 629,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "edf7e40ddc346e39",
+      "title": "さらさ、新曲「そばにいて」アナログレコードを810枚限定で発売決定",
+      "link": "https://barks.jp/news/1102156",
+      "publishedAt": "2026-11-03T02:14:36.000Z",
+      "excerpt": "さらさが、『レコードの日2026』のアンバサダーを務めているなか、Day2である2026年12月5日に最新曲「そばにいて」の7インチアナログレコード盤をリリースすることを発表した。 こちらのアナログレコード盤は、 「そばにいて」のモチーフのひとつでもある“電話”になぞらえて、日本の国番号である“＋81”より810枚の限定販売というコンセプチュアルな企画に。また、本作をAmazon.co.jpで購入すると、『レコードの日2026』のビジュアルを使用した「メガジャケ」が手に入る。 そして、リリース日の12月5日には都市型カルチャーフェス＜J-WAVE presents INSPIRE TOKYO 2026 WINTER -Best Music & Market- supported by Gran Turis…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/03110950/%E3%81%95%E3%82%89%E3%81%95A%E5%86%99-686x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Sarasa will release a limited edition of 810 analog records for her new song “Soba ni Te”",
+      "translatedExcerpt": "While serving as an ambassador for \"Record Day 2026,\" Sarasa has announced that she will release a 7-inch analog record of her latest song \"Soba ni Te\" on Day 2, December 5, 2026. This analog record is a conceptual project with a limited edition of 810 copies, based on Japan's country code \"+81\", which is likened to a \"telephone\", which is one of the motifs of \"Stay by my side\". Additionally, if you purchase this work on Amazon.co.jp, you will receive a ``mega jacket'' that uses the visuals from ``Record Day 2026''. And on December 5th, the release date, there will be an urban culture festival <J-WAVE presents INSPIRE TOKYO 2026 WINTER -Best Music & Market- supported by Gran Turis…"
+    },
+    {
+      "id": "12227bfb94a08dd0",
+      "title": "Centimillimental Releases Hello, I am a Witch and my Crush Wants me to Make a Love Potion! Anime Opening Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/11/3/hello-i-am-a-witch-and-my-crush-wants-me-to-make-a-love-potion-anime-opening-song-music-video-centimillimental",
+      "publishedAt": "2026-11-03T02:00:00.000Z",
+      "excerpt": "The anime is currently streaming on Crunchyroll",
+      "image": "https://a.storyblok.com/f/178900/960x540/e265ff23c9/centimillimental-kanawanai-mv.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "e4713146c6cd898c",
       "title": "Tokyo Skytree set to offer breathtaking Diamond Fuji natural phenomenon view this month",
@@ -1850,7 +1886,7 @@
       "title": "Shokugeki no Soma Artist Shun Saeki Ends Exclusive Contract With Shueisha",
       "link": "https://news.sankakucomplex.com/n/gtvjmM4Zs6Kw69xQMvn9Lw",
       "publishedAt": "2026-11-02T05:00:30.000Z",
-      "excerpt": "Shun Saeki, the Japanese manga artist best known for illustrating Food Wars! Shokugeki no Soma, has announced that his long-standing exclusive contract with manga publisher Shueisha has officially ended, revealing that he is now seeking new professional opportunities.",
+      "excerpt": "Shun Saeki, the Japanese manga artist best known for illustrating Food Wars! Shokugeki no Soma, has announced that his long-standing exclusive contract with manga publisher Shueisha has officially ended, revealing that he is now seeking new professional opportunities. The artist shared the news o…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18426,44 +18462,6 @@
       },
       "translatedTitle": "Sunday theater \"VIVANT\" \"It doesn't matter who is alive anymore\" \"What is Ryu's real aim?\"",
       "translatedExcerpt": "The 22nd episode of \"VIVANT\" (TBS) was broadcast on the 25th. This work will be popular all over Japan in the summer of 2023."
-    },
-    {
-      "id": "4ed621380f846251",
-      "title": "稲葉浩志、年末ロックフェス【FM802 RADIO CRAZY】に出演決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/166763",
-      "publishedAt": "2026-10-26T02:00:00.000Z",
-      "excerpt": "FM802が12月26日から28日までの3日間、大阪・インテックス大阪で開催する年末恒例のロックフ",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166763/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Hiroshi Inaba will appear at the year-end rock festival [FM802 RADIO CRAZY]",
-      "translatedExcerpt": "FM802 will be holding the year-end rock festival for three days from December 26th to 28th at Intex Osaka, Osaka."
-    },
-    {
-      "id": "5bcf73844901b75d",
-      "title": "「俺たちの箱根駅伝」“甲斐”山下智久のライバル“平川”山本耕史が登場 「悪い顔の山本耕史が好き過ぎる」「正月の箱根駅伝が楽しみ」",
-      "link": "https://www.billboard-japan.com/d_news/detail/166786",
-      "publishedAt": "2026-10-26T01:45:00.000Z",
-      "excerpt": "大泉洋が主演するドラマ「俺たちの箱根駅伝」（日本テレビ系）の第3話が、24日に放送された。（※以下",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166786/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "“Our Hakone Ekiden” “Kai” Tomohisa Yamashita’s rival “Hirakawa” Koji Yamamoto appears “I like Koji Yamamoto with a bad face too much” “I’m looking forward to the Hakone Ekiden in the New Year”",
-      "translatedExcerpt": "The third episode of the drama ``Oretachi no Hakone Ekiden'' (Nippon Television Network) starring Yo Oizumi was broadcast on the 24th. (※below"
     }
   ]
 }

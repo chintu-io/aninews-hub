@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T17:01:57.097Z",
+  "generatedAt": "2026-11-03T17:32:01.958Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 138,
+      "count": 139,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 272,
+      "count": 270,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 73,
+      "count": 74,
       "fetchedCount": 24
     }
   ],
@@ -163,7 +163,7 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 620,
+    "translatedJapaneseArticles": 619,
     "translationAttempts": 160
   },
   "articles": [
@@ -181,6 +181,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "c4b72fc6ab481f4b",
+      "title": "Cyberpunk Edgerunners 2 Anime Streams New Music Videos",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-03/cyberpunk-edgerunners-2-anime-streams-new-music-videos/.243487",
+      "publishedAt": "2026-11-03T16:58:17.000Z",
+      "excerpt": "Jack-Amin Ibrahim directs new music video about Weak Kingsley, Avida",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gE7/youtube/c8vjJ43bCVY.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -4963,6 +4980,23 @@
       "link": "https://news.sankakucomplex.com/n/yWLujxCUGPWU3KqVFodAbA",
       "publishedAt": "2026-10-31T21:00:22.000Z",
       "excerpt": "Tokyo’s Shibuya district has introduced extensive security measures for Halloween 2026, deploying hundreds of police officers, restricting alcohol sales, and barricading its famous Hachiko statue as authorities prepare for large crowds of costumed visitors.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "dea084365e43a493",
+      "title": "Former Adult Actress Sora Aoi Warns Women Against Entering Industry",
+      "link": "https://news.sankakucomplex.com/n/YFt5hGa4p_b57w-cfNdvqg",
+      "publishedAt": "2026-10-31T17:01:48.000Z",
+      "excerpt": "Former Japanese adult film actress Sora Aoi has revealed that she actively discourages young women from entering the adult entertainment industry, warning that its potentially lifelong consequences outweigh the glamour and financial opportunities often associated with the profession.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18406,44 +18440,6 @@
       },
       "translatedTitle": "Baby DONT Cry produced by PSY will debut in Japan via Warner Music Japan, mini album will also be released",
       "translatedExcerpt": "Baby DONT Cry will debut in Japan from Warner Music Japan on January 20, 2027."
-    },
-    {
-      "id": "b346ea4cb6036333",
-      "title": "【ビルボード】JxJ『DREAMSCAPE』7.3万枚でアルバム・セールス首位 WATWINGが2位に続く",
-      "link": "https://www.billboard-japan.com/d_news/detail/166810",
-      "publishedAt": "2026-10-26T10:20:00.000Z",
-      "excerpt": "2026年10月28日公開（集計期間：2026年10月19日～2026年10月25日）のBillb",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166810/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] JxJ “DREAMSCAPE” tops album sales with 73,000 copies WATWING follows in second place",
-      "translatedExcerpt": "Billb released on October 28, 2026 (collection period: October 19, 2026 to October 25, 2026)"
-    },
-    {
-      "id": "b62054ac68195ac1",
-      "title": "【ビルボード】なにわ男子『Moonlit』40.7万枚でシングル・セールス首位獲得 Lienel／MAZZELが続く",
-      "link": "https://www.billboard-japan.com/d_news/detail/166808",
-      "publishedAt": "2026-10-26T10:20:00.000Z",
-      "excerpt": "2026年10月28日公開（集計期間：2026年10月19日～10月25日）のBillboard",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166808/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Naniwa Danshi's \"Moonlit\" takes first place in single sales with 407,000 copies, followed by Lienel/MAZZEL",
-      "translatedExcerpt": "Billboard released on October 28, 2026 (Aggregation period: October 19, 2026 to October 25, 2026)"
     }
   ]
 }

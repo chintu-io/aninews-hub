@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T03:32:19.962Z",
+  "generatedAt": "2026-11-03T04:02:19.182Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 135,
+      "count": 134,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 72,
+      "count": 73,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 629,
+    "translatedJapaneseArticles": 628,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "ac85cb89cb0dcf70",
+      "title": "Japanese Governor Says Japan Has Always Been Multicultural, Sparking Backlash",
+      "link": "https://news.sankakucomplex.com/n/lJfrgi5u5HCgSDZuwR_G0A",
+      "publishedAt": "2026-11-03T04:00:02.000Z",
+      "excerpt": "Mie Prefecture Governor Katsuyuki Ichimi has attracted criticism on Japanese social media after arguing that Japanese people are descendants of ancient immigrants and that the difference between modern foreign residents and their Japanese neighbors is essentially when their ancestors arrived.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "96f5b0c8a6fac6c6",
       "title": "SEVENTEEN・DINO、新曲「AUTOMATIC」本日サプライズリリース",
@@ -7619,7 +7636,7 @@
       "title": "Konami’s Gaming Profits Surge 75% Thanks to Strong Game Sales",
       "link": "https://news.sankakucomplex.com/n/e7CT9pskp63tPTVvQDN9NQ",
       "publishedAt": "2026-10-30T03:00:32.000Z",
-      "excerpt": "Konami has reported a massive 75.1% increase in profits from its video game business, with the continued success of eFootball, Yu-Gi-Oh!, and several major releases helping the Japanese publisher achieve record-breaking financial results. The company announced its financial results on October 29,…",
+      "excerpt": "Konami has reported a massive 75.1% increase in profits from its video game business, with the continued success of eFootball, Yu-Gi-Oh!, and several major releases helping the Japanese publisher achieve record-breaking financial results.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18443,23 +18460,6 @@
       },
       "translatedTitle": "[U.S. Billboard Album Chart] Olivia Rodrigo returns to number one, Zach Bryan debuts at number two",
       "translatedExcerpt": "This week (dated October 31, 2026) US Billboard album chart “Billboard"
-    },
-    {
-      "id": "6b32f4ecefe96fcf",
-      "title": "Rainy Day Serenade Manga Gets Spinoff Series in November",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-25/rainy-day-serenade-manga-gets-spinoff-series-in-november/.243186",
-      "publishedAt": "2026-10-26T02:25:05.000Z",
-      "excerpt": "Namidaame to Serenade: Gaiden launches on November 25",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG3/cms/news.9/230341/91ta9cn5r-l._sl1500_.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
     }
   ]
 }

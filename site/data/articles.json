@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T01:01:52.588Z",
+  "generatedAt": "2026-11-04T01:32:21.415Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 35,
+      "count": 36,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 89,
+      "count": 88,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 263,
+      "count": 264,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 76,
+      "count": 75,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 602,
+    "translatedJapaneseArticles": 603,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8d6e9923f7c020f6",
+      "title": "RADWIMPS、「娑婆堕罵 -Shabadaba-」MV 11/4プレミア公開決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167096",
+      "publishedAt": "2026-11-04T01:15:00.000Z",
+      "excerpt": "RADWIMPSが、新曲「娑婆堕罵 -Shabadaba-」のミュージック・ビデオを11月4日にY",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167096/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "RADWIMPS, “Shaba Dakaku -Shabadaba-” MV premiere will be released on 11/4",
+      "translatedExcerpt": "RADWIMPS will release the music video for their new song “Shaba Dakan -Shabadaba-” on November 4th."
+    },
+    {
+      "id": "9f9ae6df21227302",
+      "title": "Mr. Sato searches for the mysterious new wall of fortune in Tokyo",
+      "link": "https://soranews24.com/2026/11/04/mr-sato-searches-for-the-mysterious-new-wall-of-fortune-in-tokyo/",
+      "publishedAt": "2026-11-04T01:00:52.000Z",
+      "excerpt": "Our new favorite hole in the wall. Every city has a few mystery spots here and there where something is created and left for others to discover, but the reason why is sometimes only known to the people who did it. Our reporter Mr. Sato discovered one such spot not too far from him in […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/kabeuranai1.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "91e004b4aced2c6d",
       "title": "THE SUPER FRUIT、「ちんぷんかんぷんLIFE」先行配信＆MV解禁",
@@ -206,6 +242,23 @@
       "translatedExcerpt": "Sam Fender stars in The Rolling Stone for British department store John Lewis' Christmas TV commercial."
     },
     {
+      "id": "4e1dfb4bc0b37ecc",
+      "title": "Witch on the Holy Night Film Gets Manga Adaptation",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-03/witch-on-the-holy-night-film-gets-manga-adaptation/.243494",
+      "publishedAt": "2026-11-04T00:56:45.000Z",
+      "excerpt": "Shikimori's Not Just a Cutie's Keigo Maki debuts manga on November 11",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHC/youtube/Hf4-i5u3Bbs.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
       "id": "5d29ade68b9cf480",
       "title": "【オフィシャルレポ】小嶋花梨、FM大阪「iDoBuddy」初公開収録 映画『ビリーと魔法のはじまり』をテーマに、DJみぃ・片山優と近畿大学・生駒祭ステージで学生たちとも交流",
       "link": "https://ototoy.jp/news/132610",
@@ -222,7 +275,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Official Report] Karin Kojima recorded for the first time on FM Osaka's \"iDoBuddy\" With the theme of the movie \"Billy and the Beginning of Magic,\" she interacted with DJ Mii Yu Katayama and students on the Kinki University Ikoma Festival stage.",
-      "translatedExcerpt": "FM大阪の平日昼のワイド番組『iDoBuddy（イドバディ）』が、2026年11月3日（火・祝）屋台が連なる道を多くの学生が行き交い、活気に包まれた近畿大学東大阪キャンパスにて公開収録イベント〈iDoBuddy公開収録 in 近畿大学 生駒祭 supported by 映画『ビリーと魔法のはじまり』〉を開催した。 〈iDoBuddy公開収録 in 近畿大学 生駒祭 supported by 映画『ビリーと魔法のはじまり』〉は、番組にとって初めての公開収録となる。 In addition to Thursday Buddy Karin Kojima, Disney-loving DJs Mii from ``Yoshimoto Radio High School'' and Yu Katayama from ``Asatoku'' will appear. 12月4日（金）公開の同作品の魅力を紹介するとともに、主人公ビリーの生き方を通して、学生世代にも身近な「自分らしさ」や「自分の…"
+      "translatedExcerpt": "FM Osaka's weekday daytime wide program \"iDoBuddy\" held a public recording event \"iDoBuddy Public Recording in Kindai University Ikoma Festival supported by the movie \"Billy and the Beginning of Magic\" on November 3, 2026 (Tuesday/holiday) at Kinki University's Higashiosaka Campus, which was filled with activity and many students passing through the streets lined with food stalls. 〈iDoBuddy public recording in Kinki University Ikoma Festival supported by the movie ``Billy and the Beginning of Magic''〉 will be the first public recording for the program. In addition to Thursday Buddy Karin Kojima, Disney-loving DJs Mii from ``Yoshimoto Radio High School'' and Yu Katayama from ``Asatoku'' will appear. In addition to introducing the charm of the work, which will be released on Friday, December 4th, we will also introduce the ``self-ness'' and ``one's own..."
     },
     {
       "id": "2407e3a8b1c522bb",
@@ -398,7 +451,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kuroyume x NEEDLES, collaboration tracksuit limited release",
-      "translatedExcerpt": "A limited release of collaboration tracksuits by Kuroyume x NEEDLES has been decided. Sales started at 18:00 on November 3rd at Kuroyume collaboration web store. 両者の世界観が融合したコラボレーショントラックスーツは、NEEDLESのシグネチャーアイテムであるトラックスーツに、黒夢ロゴを刺繍したもの。 The Kuroyume logo is embroidered on the bottom of the back collar of the jacket and on the back pocket of the pants. The design is based on black with bronze lines, and is both chic and has an outstanding presence. その配色にロゴ刺繍を組み合わせることで、トラックスーツの持つスポーティーな印象の中に、黒夢ならではの世界観を落とし込んだとのことだ。 In addition to the basic straight and boot cut pants, there are also voluminous pants that are unique to NEEDLES..."
+      "translatedExcerpt": "A limited release of collaboration tracksuits by Kuroyume x NEEDLES has been decided. Sales started at 18:00 on November 3rd at Kuroyume collaboration web store. The collaboration tracksuit is a fusion of both worldviews, and is embroidered with the Kuroyume logo on NEEDLES' signature tracksuit. The Kuroyume logo is embroidered on the bottom of the back collar of the jacket and on the back pocket of the pants. The design is based on black with bronze lines, and is both chic and has an outstanding presence. By combining the color scheme with logo embroidery, Kuroyume's unique worldview has been incorporated into the sporty impression of a tracksuit. In addition to the basic straight and boot cut pants, there are also voluminous pants that are unique to NEEDLES..."
     },
     {
       "id": "c8c5b63e55bcac9b",
@@ -4524,7 +4577,7 @@
       "title": "SEGA Removes Amy Rose’s Love for Sonic From Official Character Bio",
       "link": "https://news.sankakucomplex.com/n/AJcmt64X-09MBoJxZTamRw",
       "publishedAt": "2026-11-01T19:42:24.000Z",
-      "excerpt": "SEGA has rewritten Amy Rose’s official character biography, removing references to her romantic feelings for Sonic and her longstanding desire to become his girlfriend, and even removing this trait on the Japanese version of the biography. Comparisons between the old and updated English descripti…",
+      "excerpt": "SEGA has rewritten Amy Rose’s official character biography, removing references to her romantic feelings for Sonic and her longstanding desire to become his girlfriend, and even removing this trait on the Japanese version of the biography.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18369,57 +18422,6 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "ffc4d31f4df0fe0f",
-      "title": "Dragon Ball Xenoverse 2 10th Anniversary Update Trailer Prepares for Final Festival",
-      "link": "https://crunchyroll.com/news/latest/2026/10/26/dragon-ball-xenoverse-2-10th-anniversary-update-trailer",
-      "publishedAt": "2026-10-26T14:53:00.000Z",
-      "excerpt": "The long-running fighter is about to pass the baton to the next entry",
-      "image": "https://a.storyblok.com/f/178900/960x540/b1c86da903/xenoverse-2-10th-anni.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f73bafb0418d17fe",
-      "title": "Looney Tunes Voice Actor Eric Bauza Dies at 46",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-26/looney-tunes-voice-actor-eric-bauza-dies-at-46/.243204",
-      "publishedAt": "2026-10-26T14:46:39.000Z",
-      "excerpt": "Bauza died due to hypertensive cardiovascular disease according to records",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gKH/cms/news.10/243204/bauza.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "8764c81a6f6cd5ea",
-      "title": "Blue Archive Producer Wants Third-Person Shooter, Survival Game & More Anime Spin-Offs",
-      "link": "https://news.sankakucomplex.com/n/B3B-upI3XFLMtkKojg7isg",
-      "publishedAt": "2026-10-26T14:45:28.000Z",
-      "excerpt": "Blue Archive producer Yong-ha Kim has revealed his ambitions to expand the popular schoolgirl RPG into entirely different genres, including third-person shooters, survival games, and strategy RPGs, while also expressing interest in producing additional anime adaptations.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

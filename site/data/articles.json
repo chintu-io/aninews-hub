@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T23:32:18.804Z",
+  "generatedAt": "2026-11-04T00:02:32.552Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 91,
+      "count": 92,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 23,
+      "count": 24,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 267,
+      "count": 265,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 611,
+    "translatedJapaneseArticles": 569,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "0d3af021ffd7fbd1",
+      "title": "Otaku Vampire's Love Bite TV Anime Adaptation Announced",
+      "link": "https://crunchyroll.com/news/latest/2026/11/3/otaku-vampires-love-bite-anime-adaptation-announced",
+      "publishedAt": "2026-11-03T23:51:00.000Z",
+      "excerpt": "A announcement trailer and visual were also released",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/f92f8043a5/otaku-vampires-love-bite-teaser-hero.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "1d74bc5eb221a5cb",
+      "title": "Manga 'Oshi ni Amagami' Receives TV Anime Adaptation",
+      "link": "https://myanimelist.net/news/74902452?_location=rss",
+      "publishedAt": "2026-11-03T23:33:08.000Z",
+      "excerpt": "Production company Shogakukan-Shueisha Productions announced a television anime adaptation of Julietta Suzuki's Oshi ni Amagami (Otaku Vampire's Love Bite) manga on Wednesday, revealing special visual (pictured) and announcement promo. Suzuki began serializing the comedy romance manga in Hana to Yume magazine in April 2022. Hakusensha published the tenth…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793748748-c96ad854085af4bd83258a4b6c28d7b0.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
     {
       "id": "c0f8bec0e75a2744",
       "title": "黒夢 × NEEDLES、コラボレーショントラックスーツ限定発売",
@@ -2273,8 +2307,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Yoasobi starred in the NHK special \"Until the Theme Song of the Serial TV Novel\" Blatham \"",
-      "translatedExcerpt": "Yoasobi's special \"Until the Theme Song of the Serial TV Novel\" Blassam \"is released in 2026."
+      "translatedTitle": "YOASOBIが出演、NHK特番『連続テレビ小説「ブラッサム」 主題歌ができるまで』放送",
+      "translatedExcerpt": "YOASOBIが出演する特別番組『連続テレビ小説「ブラッサム」 主題歌ができるまで』が、2026年"
     },
     {
       "id": "778df165500924dc",
@@ -2293,7 +2327,7 @@
         "language": "ja"
       },
       "translatedTitle": "Tomoo is in charge of the editorial theme of the anime \"Hira no Yasumi\"",
-      "translatedExcerpt": "Endeavor of the TV anime \"Hirayasumi\" that Tomoo will start broadcasting on NHK Sogo TV from January 2027"
+      "translatedExcerpt": "TOMOOが、2027年1月よりNHK総合テレビにて放送開始となるTVアニメ『ひらやすみ』のエンデ"
     },
     {
       "id": "b0e2eb55d24f34d5",
@@ -2347,8 +2381,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Reiko releases new version of “First Christmas” featuring miyou (Little Glee Monster)",
-      "translatedExcerpt": "Reiko announces new version of the Christmas song “First Christmas” on November 9, 2026"
+      "translatedTitle": "REIKO、miyou（Little Glee Monster）を迎えた「First Christmas」新バージョンを配信リリース",
+      "translatedExcerpt": "REIKOが、2026年11月9日にクリスマスソング「First Christmas」の新バージョ"
     },
     {
       "id": "244bf28c1932dc46",
@@ -2478,7 +2512,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "\"FAHDAY2026\", the idea of not WONK Kato, appeared on the last day of TV Continental Ondo, LAUSBAB and others",
+      "translatedTitle": "NOT WONK加藤発案の〈FAHDAY 2026〉、最終日にテレビ大陸音頭、LAUSBABら出演",
       "translatedExcerpt": "加藤修平（NOT WONK／SADFRANK）が発案した「表現の交換市 — FAHDAY 2026」が、2026年11月21日（土）から23日（月・祝）の3日間にわたって開催。フィナーレを飾る”DAY_3”の出演者として、NOT WONKに加え、テレビ大陸音頭、LAUSBAB、Tattletale、黄金中央の4組が発表された。 11月21日（土）はNOT WONK主宰レーベル〈Pattheskin〉が運営するアートスペース / リスニング・バー「Yewbi」で「Day_1」を、22日（日）は、FAHDAY MEETINGの一員「おうちcoffee」との共同企画 で「Day_2(AM)」を開催する。同日午後には、同じくFAHDAY MEETINGの「CLUB ROOTS」と「Yewbi」2会場で「Day_2…"
     },
     {
@@ -2535,7 +2569,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "The release of the new song \"Bibimbap!\", humorously depicting the chaos and human diversity of the world with the motif of \"Bibimba\"",
+      "translatedTitle": "つるうちはな、“ビビンバ”をモチーフに世界の混沌と人間の多様性をユーモラスに描いた新曲「Bibimbap!」配信リリース",
       "translatedExcerpt": "シンガーソングライターのつるうちはなが、2026年11月11日(水)にニューシングル「Bibimbap!」をデジタルリリースすることが決定した。 「Bibimbap!」は、韓国を代表する料理・ビビンバをモチーフに、SOULやR&B、ラップなど多彩な音楽要素を取り入れた楽曲。世界の混沌や人間の多様性を、ユーモアたっぷりに描き出している。 つるうちといえば、音楽活動の傍ら、「 #モーニングはな 」のハッシュタグで朝ごはんをSNSに長年投稿しており、レシピ本CD「こてんぱん食堂」をリリースするなど、料理と音楽を通してメッセージを伝えていることで知られている。 「Bibimbap!」は、鋭い社会風刺やメッセージを織り込みながらも、あくまでポップミュージックとして、世代や国境を越えて誰もが口ずさめる仕上がり。音楽へ…"
     },
     {
@@ -2624,8 +2658,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Billboard] Kis-My-Ft2 \"Kis scene\" won the album sales first place with 329,000 copies, followed by volume",
-      "translatedExcerpt": "Billboard JA released on November 4, 2026 (aggregation period: October 26 - November 1, 2026)"
+      "translatedTitle": "【ビルボード】Kis-My-Ft2『Kis SCENE』32.9万枚でアルバム・セールス首位獲得 VOLTACTIONが2位に続く",
+      "translatedExcerpt": "2026年11月4日公開（集計期間：2026年10月26日～11月1日）のBillboard JA"
     },
     {
       "id": "2ffda6fcd9b3dd16",
@@ -2829,7 +2863,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Official Repo] Official Street Live Event in Shinjuku Kabukicho [Kabukicho Street Live +] Yuhito Aramaki, Akyk and GoodMoon perform unique music",
+      "translatedTitle": "【オフィシャルレポ】新宿歌舞伎町の公認ストリートライブイベント〈Kabukicho Street Live+〉荒巻勇仁、Akyk、GoodMoonが個性豊かな音楽を熱演",
       "translatedExcerpt": "新宿歌舞伎町の公認ストリートライブイベント〈Kabukicho Street Live+〉が2026年10月19日(月)東急歌舞伎町タワー前にある「歌舞伎町シネシティ広場」にて行われ、荒巻勇仁、Akyk、GoodMoonの3組が出演。個性あふれる熱演の連続に、新宿の街を往く大勢の人々が足を止め耳を傾けた。 このイベントは、株式会社TSTエンタテイメントが運営する公認ストリートライブプロジェクト〈Kabukicho Street Live〉の一環として行われたもの。〈Kabukicho Street Live〉は、“歌舞伎町をストリートライブの聖地に”をコンセプトとして、2022年より東急歌舞伎町タワー公開空地および歌舞伎町シネシティ広場を拠点に毎週のように開催されており、これまでに延べ1,000組が出演。…"
     },
     {
@@ -2848,7 +2882,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "J.Y. Park to perform in Japan for 2 days in January",
+      "translatedTitle": "J.Y. Park、1月に来日公演2days決定",
       "translatedExcerpt": "J.Y. Parkの来日公演が決定した。 2027年1月30日（木）＆31日にKanadevia Hall (TOKYO DOME CITY HALL)で行われる。 J.Y. Parkは7月23日にラテンポップ・ダンストラック・シングル｢WET｣をリリース。ライブは12月24日からソウルOlympic Hallで3days公演がスタート、韓国公演の熱気そのままに真冬の東京でライブ＆ダンスパフォーマンスを披露予定。 ライブ情報 2027 J.Y. PARK CONCERT〈WET〉IN JAPAN 特設サイト https://jypj-store.com/pages/j-y-park-wet アーティスト情報 https://x.com/followjyp"
     },
     {
@@ -3112,7 +3146,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Tonight's CDTV Live! Live!] 11/2 Highlights",
+      "translatedTitle": "今夜放送〈CDTVライブ！ライブ！〉11/2見どころ",
       "translatedExcerpt": "11月2日放送のTBS〈CDTVライブ！ライブ！〉出演者と歌唱曲が発表された。 出演は、ano、Ayumu Imazu、Aぇ! group、Kis-My-Ft2、JO1、島袋寛子、BUDDiiS、Mrs. GREEN APPLE、ヤバイTシャツ屋さん、BE:FIRST。 2週連続出演のMrs. GREEN APPLEはテレビ初披露の「ア・ポステリオリ」と「Brand New」をフルサイズで、Ayumu Imazuは「結び」、初登場のヤバイTシャツ屋さんは「アルゴリズムの犬」、BUDDiiSは「無限大LOVE!!!」をフルサイズでテレビ初披露する。 今月の〈マンスリーライブ！〉にはBE:FIRSTが登場。新アルバム『BE:4U』リード曲「NOW U KNOW」のほか「Boom Boom Back」「Mast…"
     },
     {
@@ -3353,7 +3387,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Emi Aramaki covers the classics \"Do You Remember Love\" and \"Yokohama Rainy Blue\"",
+      "translatedTitle": "Emi Aramaki、名曲「愛・おぼえていますか」「ヨコハマ・レイニー・ブルー」をカバー",
       "translatedExcerpt": "Emi Aramakiが11月20日(金)に「愛・おぼえていますか」と「ヨコハマ・レイニー・ブルー」のカバーを配信リリースすることが決定した。 「愛・おぼえていますか」はアニメ映画『超時空要塞マクロス 愛・おぼえていますか』の主題歌、「ヨコハマ・レイニー・ブルー」はペドロ＆カプリシャスの代表曲。 アレンジ＆プロデュースは両曲ともにGOOD BYE APRILの倉品翔が担当。原曲のメロディラインを尊重しつつ、ブラックミュージックの⽣演奏グルーヴを取り⼊れ、オーガニックで上質なサウンドへと昇華させた。 「ヨコハマ・レイニー・ブルー」はTBS系列『ひるおび』の11月エンディングテーマに決定。11月2日(月)よりオンエアがスタートした。 リリース情報 アーティスト情報 https://www.youtube.co…"
     },
     {
@@ -3391,7 +3425,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Nogizaka 46, \"Kimirosu\" J copy release",
+      "translatedTitle": "乃木坂46、「君ロス」J写解禁",
       "translatedExcerpt": "乃木坂46が12月2日（水）にリリースする43枚目となる最新シングル「君ロス」のジャケットアートワークが公開された。 今作のビジュアルコンセプトは「雪の回転木馬」。薄暮の雪原に置かれた純白のメリーゴーランドが各ジャケットアートワークに散りばめられ、子どものための遊具に、少し大人びた表情のメンバーが静かに佇む姿を印象的に映し出し、幼さと成熟のあいだにある一瞬を、雪が音を吸い込んだような静けさの中で切り取られたジャケット写真となっている。クリエイティブはKASICOが手掛けた。 フォトギャラリー フォトギャラリーはこちらからご覧いただけます リリース情報 「君ロス」 「一度好きになった人」 https://ototoy.jp/_/default/p/4355571 ライブ情報 6期⽣全国ツアー2026 202…"
     },
     {
@@ -3499,7 +3533,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Girls ² release new song “Umbrella” music video featuring “you & me”",
+      "translatedTitle": "Girls²、“you & me”がテーマの新曲「Umbrella」MV公開",
       "translatedExcerpt": "Girls²が11月11日(水)に発売する新EP『EASY』収録の新曲「Umbrella」ミュージックビデオが公開された。 「Umbrella」は、EDMサウンドとGirls²らしいキャッチーさが融合したダンスポップ。雨の日だからこそ生まれるふたりだけの特別な時間を舞台に、“このまま晴れないで”という淡い想いを、相合傘をモチーフに描いたラブソング。 MVのコンセプトは “you & me”。韓国の異国情緒あふれる街並みを舞台に、雨宿りや相合傘など、楽曲のストーリーとリンクしたシーンが展開されている。 リリース情報 https://ototoy.jp/_/default/p/4312332 New EP「EASY」 アーティスト情報 https://www.girls2.jp/ https://x.com/…"
     },
     {
@@ -3518,7 +3552,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Hammer Head Shark, 2nd EP \"a i r\" Detailed Public Tour Guests Unblock All Locations",
+      "translatedTitle": "Hammer Head Shark、2nd EP『a i r』詳細公開 ツアーゲスト全箇所解禁",
       "translatedExcerpt": "Hammer Head Sharkが、11月にリリースするEP『a i r』の詳細を発表した。 11月18日にデジタルリリース、そしてCDは11月20から開催する2nd EP『a i r』リリースツアー『air in hurt TOUR』会場限定盤として初日の千葉LOOKから販売する。 同作はEPと謳っているものの、全8曲を収録。配信シングルとしてリリースした「ぼくらふたりきり」はもちろん、ライブでもすでに披露されている「愛着」や「屋上で」、渋谷クラブクアトロでの単独公演で初披露された「Ribbon」など今のHammer Head Sharkの空気感が詰め込まれた作品に仕上がっている。マスタリングは、数々のグラミー受賞アルバムも手掛けるN.Y.のEmily Lazarが手掛けている。 また、11月20日か…"
     },
     {
@@ -3704,7 +3738,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Live Repo] TrySail, a big sports event where you can run with all your strength by laughing, jumping, and singing!── \"Koyisail's Trick Athletic Meet\"",
+      "translatedTitle": "【ライブレポ】TrySail、笑って跳んで歌って全力疾走の大運動会！──「コワイセイルのTrick運動会」",
       "translatedExcerpt": "2026年10月31日、11月1日の2日間に渡って、TrySailによるイベント「LAWSON presents TrySail Event 2026 コワイセイルのTrick運動会」東京公演が開催された。ハロウィンと運動会を掛け合わせた本イベントでは、麻倉もも、雨宮天、夏川椎菜の3人が選手として競技に挑むだけでなく、進行から実況までを自分たちで担当。ステージをところ狭しと駆け回り、笑いを生み出し、最後にはハロウィンスペシャルライブで圧巻のパフォーマンスを届けた。OTOTOYでは、11年の活動で培われた3人の息の合った掛け合いと、何事にも全力で挑む姿が存分に発揮された、TrySailならではのお祭り騒ぎのDay1の昼公演をレポートする。 イベントは選手入場からスタート。雨宮天は「青軍」、麻倉ももは「もちも…"
     },
     {
@@ -3723,7 +3757,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Spitz begins pre-release of afternoon tea commercial \"Fox Button\"",
+      "translatedTitle": "スピッツ、午後ティーCM曲「キツネノボタン」先行配信開始",
       "translatedExcerpt": "スピッツが11月25日にリリースするアルバム『kettle』から、「キツネノボタン」の先行配信がスタートした。 「キツネノボタン」は目黒蓮出演のキリン 午後の紅茶「遠くの町の夏の午後」篇・午後の紅茶 FRUITS & ICE TEA「午後のフルーツティー」篇CMソング。 前作から約3年半ぶりのリリースとなる『kettle』には「キツネノボタン」のほか、TBS系 金曜ドラマ『Ｔシャツが乾くまで』主題歌「見知らぬ糸」や、アニメ『SPY×FAMILY』Season 3 オープニング主題歌「灯を護る」など、全13曲が収録される。 リリース情報 https://ototoy.jp/_/default/p/4378429 「見知らぬ糸」 https://ototoy.jp/_/default/p/4030106 01…"
     },
     {
@@ -3761,7 +3795,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Utada Hikaru, JR Tokai \"good day express\" theme song release date decided",
+      "translatedTitle": "宇多田ヒカル、JR東海〈GOOD DAY EXPRESS〉テーマ曲配信日決定",
       "translatedExcerpt": "宇多田ヒカルが11月25日にJR東海〈GOOD DAY EXPRESS〉テーマソング「Intentions」を配信リリースすることが決定した。 ジャケット写真はパリを拠点とする日本人イラストレーター、アーティストのYUKIKO NORITAKE氏が手掛けたもの。 11月6日(金)よりソニーストア5店舗(ソニーストア 銀座・札幌・名古屋・大阪・福岡天神)にて 「Intentions」先行フル試聴会を開催。フル尺楽曲試聴体験のほか、音の聴き比べ特別試聴体験会やノベルティがもらえるキャンペーンも実施される。 リリース情報 「パッパパラダイス」 https://ototoy.jp/_/default/p/3719047 アーティスト情報 https://www.utadahikaru.jp/ https://x.…"
     },
     {
@@ -3799,7 +3833,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Gracie Abrams Reveals New Song 'Here You Come, There You Go'",
+      "translatedTitle": "グレイシー・エイブラムス、新曲「Here You Come, There You Go」を米人気番組で披露",
       "translatedExcerpt": "グレイシー・エイブラムス（Gracie Abrams）が、現地時間2026年10月31日（土）、米NBCの人気番組『サタデー・ナイト・ライブ』(Saturday Night Live/SNL) に音楽ゲストとして出演。最新アルバム『Daughter from Hell』からの「Hit the Wall」と、10月30日にリリースしたばかりの新曲「Here You Come, There You Go」の2曲を披露した。 今回の出演は、2024年12月以来、約2年ぶり2度目。ハロウィン当日の放送に合わせ、グレイシー・エイブラムスは1996年公開の映画『ロミオ＋ジュリエット』に着想を得た衣装で登場した。最初のパフォーマンス「Hit the Wall」では、映画でクレア・デインズが演じたジュリエットを思わせる天…"
     },
     {
@@ -3873,7 +3907,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Takehito Nakajima becomes a hero of love with☆ the new SG \"Super HENSHIN\"",
+      "translatedTitle": "中島健人、新SG「超☆HENSHIN」で愛のヒーローに",
       "translatedExcerpt": "中島健人が12月16日(水)に4thシングル「超☆HENSHIN」（よみ：ちょうへんしん）をリリースすることが決定した。 表題曲の「超☆HENSHIN」は愛と勇気で地球を超えて宇宙を照らす、予測不能のハイテンション・ポップチューン。11月13日(金)から先行配信される。 ほかシングル収録楽曲は、中島健人自身が作詞作曲したクリスマスソング「クリスマスChu」、過去のソロ曲「Black Cinderella」の再録など全5曲が形態別に収録。 リリース情報 「GENTO (with Kento Nakajima)」 https://ototoy.jp/_/default/p/4354689 アーティスト情報 https://www.instagram.com/kento.nakajima_313 https:/…"
     },
     {
@@ -3911,7 +3945,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Tohoku Shinki Yunho opens his first concert in Japan",
+      "translatedTitle": "東方神起 ユンホ、初コンサート日本公演開幕",
       "translatedExcerpt": "東方神起のユンホの初コンサート日本公演が横浜アリーナで開幕した。 本公演はU-KNOW PROJECTというタイトルのもと、日本オリジナルで制作、“EDIT”された日本公演は全国4都市8公演をまわるアリーナツアー。 日本での物語を表現したいと「君は先へ行く」「繋がれた舟」や、10月26日にリリースされた最新曲「君がいる」、そして「Biscuit」まで日本ならではのセットリストで観客を魅了。1月にWOWOWで東京体育館メインアリーナ公演の模様が放送される。 フォトギャラリー フォトギャラリーはこちらからご覧いただけます リリース情報 「君がいる」 https://ototoy.jp/_/default/p/4364489 U-KNOW PROJECT 26 : SCENE ♯1 – EDIT アーティスト情…"
     },
     {
@@ -3985,7 +4019,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "The Weeknd's new song “Hong Kong (feat. Wang Xi monsoon)\" release",
+      "translatedTitle": "ザ・ウィークエンド、香港への愛を込めた新曲「HONG KONG (feat. 王菲季候風)」リリース",
       "translatedExcerpt": "ザ・ウィークエンドが、新曲「HONG KONG (feat. 王菲季候風)」をリリースした。 同曲は、男性アーティスト史上最高の興行収入を記録するツアー〈After Hours Til Dawn Stadium Tour〉香港公演の終幕を迎えるにあたり、ザ・ウィークエンドが香港への愛と敬意を込めて2026年11月1日午前1時にサプライズリリースしたもの。 香港での4公演の幕開けとなった10月24日のカイタック・スタジアム公演で初披露されたもので、香港の街と音楽文化へのトリビュートとして制作された。楽曲には、フェイ・ウォンが1993年に発表したヒット曲「季候風（Monsoon）」のオリジナル音源と広東語のボーカルをサンプリングしている。 ザ・ウィークエンドは以前から広東ポップスやウォン・カーウァイ監督作品へ…"
     },
     {
@@ -4057,7 +4091,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Hyakue Shimano Releases First New Song in Nearly 10 Years",
+      "translatedTitle": "嶋野百恵、約10年ぶりの新曲リリース",
       "translatedExcerpt": "嶋野百恵が自身名義では10年ぶりの新曲「Magic hour (feat. ポチョムキン)」を配信リリースした。 「Magic hour」は客演に餓鬼レンジャーのMCポチョムキンを迎えひとときの逢瀬に揺れる男女の夜を描いた1曲。楽曲プロデュースは嶋野百恵の楽曲を手がけてきた藤本和則が担当した。 リリース情報 https://ototoy.jp/_/default/p/4270292 インフォメーション https://x.com/ShimanoMomoe"
     },
     {
@@ -4152,7 +4186,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Higuchi Eye Releases First Album of His Career",
+      "translatedTitle": "ヒグチアイ、キャリア初の弾き語りALリリース",
       "translatedExcerpt": "ヒグチアイが11月18日にキャリア初の弾き語りアルバム『備忘録』を配信リリースすることが決定した。 アルバムにはインディーズ時代から、テイチク時代、ポニーキャニオン移籍後にリリースした楽曲に加え、新曲「砕石」まですべて新たにレコーディングした全13曲を収録。 また、最新曲「トライアングル」のミュージックビデオも公開された。 リリース情報 【収録曲】 『トライアングル』 https://ototoy.jp/_/default/p/4273392 https://www.youtube.com/watch?v=udTs9ZbxojI アーティスト情報 https://www.instagram.com/higuchiai.1128/ https://x.com/HiguchiAi"
     },
     {
@@ -4190,7 +4224,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[music fair] 11/7 is Hikawa, adieu, etc.",
+      "translatedTitle": "〈MUSIC FAIR〉11/7は氷川、adieuほか",
       "translatedExcerpt": "11月7日放送の〈MUSIC FAIR〉氷川きよし、adieu、&TEAM、ME:Iが出演する。 adieuとME：Iが宇多田ヒカル「花束を君に」コラボ。氷川きよしは「川の流れのように」、adieuは「ささくれ」、&TEAMは「Good Boy (Japanese ver.)」、ME:Iは「Rock & Roll Pretty」を披露する。 番組情報 MUSIC FAIR フジテレビ系で放送 リリース情報 https://ototoy.jp/_/default/p/4107556 インフォメーション https://x.com/MUSICFAIR_Fuji https://www.fujitv.co.jp/MUSICFAIR/"
     },
     {
@@ -4209,7 +4243,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Nogizaka 46, \"Nogizaka under construction\" 4 titles to be released",
+      "translatedTitle": "乃木坂46、〈乃木坂工事中〉4タイトル発売決定",
       "translatedExcerpt": "乃木坂46が12月16日(水)にレギュラー番組「乃木坂工事中」のBlu-ray4タイトルを発売することが決定した。 今回リリースされるのは、乃木坂46を卒業した3期生の久保史緒里と梅澤美波の卒業記念盤、食事にまつわる放送回にフォーカスした「乃木坂もぐもぐ中」、恒例のB級ネタをまとめた「乃木坂B級まとめ中」の計4タイトル。 各盤にはメンバーによるオーディオコメンタリーも収録されることが決定している。 商品情報 『久保工事中 卒業記念盤』（SRXW-102） ￥6,600（税込） リリース情報 https://ototoy.jp/_/default/p/4355571 ライブ情報 6期⽣全国ツアー2026 2026年11⽉10⽇(火)・11⽇(水) Zepp Sapporo 乃木坂46 43rdSGアンダーラ…"
     },
     {
@@ -4228,7 +4262,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Genji Yonezu, the theme song of the movie \"Tiger and Wings\" is \"Hello, Greetings!\"",
+      "translatedTitle": "米津玄師、劇場版〈虎に翼〉主題歌は「こんにちはごきげんよう！」",
       "translatedExcerpt": "米津玄師の書き下ろし新曲「こんにちはごきげんよう！」が、2027年1月15日（金）全国公開の劇場版「虎に翼」の主題歌に決定した。 NHK連続テレビ小説「虎に翼」の主題歌として広く親しまれた「さよーならまたいつか！」に続き、劇場版でもオープニングテーマ・主題歌の両方を米津玄師が手がける。 コメント 伊藤沙莉 コメント 上映情報 リリース情報 https://ototoy.jp/_/default/p/2052870 アーティスト情報 http://reissuerecords.net/ https://www.youtube.com/@KenshiYonezu https://x.com/hachi_08 https://www.instagram.com/hachi_08/ https://www.tik…"
     },
     {
@@ -4247,7 +4281,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "11/7 is \"Noguchi & Tendo, Maekawa & Ishikawa Collaboration\"",
+      "translatedTitle": "〈人生、歌がある〉11/7は「野口＆天童、前川＆石川コラボ」",
       "translatedExcerpt": "BS朝日〈人生、歌がある〉11月7日は「プレシャス・タイム 」コーナーの2本立てで届ける。 パート1は野口五郎＆天童よしみを特集。ふたりは小学生の頃「ちびっ子のど自慢」からの歌仲間。友情、愛情が伝わる作品の数々をコラボする。パート2は前川清と石川さゆりがコラボ。前川清ファミリーも勢揃いする。 番組後半はゲストが昭和の大ヒット曲を2曲コラボする。 出演は、石川さゆり、大石まどか、岡田美里、華MEN組、坪井直樹、天童よしみ、新浜レオン、野口五郎、平山花羽、紘毅、福田こうへい、前川清、前川侑那 番組情報 人生、歌がある 放送日時 毎週土曜 よる7時〜8時54分 放送 リリース情報 https://ototoy.jp/_/default/p/3673155 インフォメーション https://www.bs-asa…"
     },
     {
@@ -4266,7 +4300,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "BE: first premieres new AL lead track “now U know”",
+      "translatedTitle": "BE:FIRST、新ALリード曲「NOW U KNOW」先行配信開始",
       "translatedExcerpt": "BE:FIRSTが11月3日(火)にリリースするニューアルバム『BE:4U』のリード曲「NOW U KNOW」を先行配信した。 「NOW U KNOW」はメジャーデビュー5周年の集大成であると同時に、次のステージへ向けたBE:FIRSTの決意を力強く示すエネルギッシュなHIP HOPアンセムに仕上がっている。 ツアー情報 https://befirst.tokyo/tour/dometour2027/ 2027年1月11日(月・祝)【東京】東京ドーム リリース情報 https://ototoy.jp/_/default/p/4297635 アーティスト情報 https://befirst.tokyo/ https://twitter.com/BEFIRSTofficial https://twitter.…"
     },
     {
@@ -4302,7 +4336,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Asakura and Momo, the artist's 10th anniversary song \"Momo Super Strongest!\" has been released.",
+      "translatedTitle": "麻倉もも、アーティスト10周年記念曲「もー超 最強！」配信開始",
       "translatedExcerpt": "麻倉ももがアーティストデビュー10周年を記念したデジタルシングル「もー超最強！」を配信リリースした。 「もー超 最強！」は浅野尚志が作詞・作曲・編曲を担当。アーティストデビュー10周年を記念するにふさわしい、ポップでキャッチーなメロディと、麻倉ももの愛称“もちょ”にちなんだ遊び心あふれるコールが盛りだくさんの一曲に仕上がっている。 麻倉は11月4日にベストアルバム『Momo Asakura Best Album “relier”』をリリースする。 リリース情報 「もー超 最強！」 https://ototoy.jp/_/default/p/4346554 ツアー情報 LAWSON presents 麻倉もも 10th Anniversary Live Tour 2027 “relier” 2027年1月9…"
     },
     {
@@ -4751,7 +4785,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "w.o.d., suddenly released the soundtrack of the 2-piece set New AL \"Furu\" on SNS",
+      "translatedTitle": "w.o.d.、2枚組ニューAL『ふれる』収録曲音源を突如SNSにて公開",
       "translatedExcerpt": "w.o.d.が、2026年11月18日にリリースする2枚組オリジナルニューアルバム『ふれる』。 10月より、w.o.d. 公式Instagramアカウントで“Fureru_files”としてフォルダだけが表示されたデスクトップ画面が投稿され、フォルダごとにタグ付けされた全20個の新規アカウントが公開となり、楽曲名や手書き歌詞などが投稿されている中、11月1日に突如楽曲の一部分が公開された。各曲の一部分が公開となり、リリースに先駆けてここでしか視聴できない音源となっている。 尚、アルバムのタイトルトラックであり、次なる先行配信楽曲『ふれる』が11月4日にリリースされる。w.o.d.の現在地を刻む楽曲。全20曲収録されるアルバムを包括し、象徴するような楽曲となっている。 また、アルバム『ふれる』の発売を記念し…"
     },
     {
@@ -4827,7 +4861,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Aina The End Chorus & Dancer Audition",
+      "translatedTitle": "アイナ・ジ・エンド、コーラス&ダンサーオーディション開催",
       "translatedExcerpt": "アイナ・ジ・エンドが、2027年開催のホールツアーに伴い、コーラス&ダンサーオーディションの開催を発表した。 先日解禁された台北含む19都市22公演をまわる自身最長のホールツアーに向けて、アイナ・ジ・エンドのライブパフォーマンスのさらなる向上を目指し、共にステージを創り上げるコーラス＆ダンサーを公募する。 ステージのクオリティを最優先するため、該当者がいない場合は採用を見送る方針のもと、厳選を重ねて審査が進められる。 審査員にはアイナ・ジ・エンド本人のほか、共にアイナソロ活動を初期より支えるコーラス＆ダンサー「ゆかんぬ」が参加。合格者には本番に向けた指導・リハーサルも行われる予定だ。 募集要項や応募方法の詳細はこちら https://ainatheend.jp/news/detail.php?id=113…"
     },
     {
@@ -4920,7 +4954,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Column Series] AFAMoo's Creative Life - The 173rd \"Dark Dance Number\" candy tune \"black Kitty\"",
+      "translatedTitle": "【連載コラム】AFAMooのCreative Life―第173回 “ダークなダンスナンバー” CANDY TUNE「BLACK KITTY」",
       "translatedExcerpt": "みなさんこんばんは。フリーライターとしてOTOTOYでニュース記事を書いているAFAMooと申します。今回も毎週更新中のSpotifyプレイリスト「Tokyo Chill Dance」に掲載している楽曲をトラックメイカー目線で解説します。本日取り上げるのは、CANDY TUNE「BLACK KITTY」です。 CANDY TUNE「BLACK KITTY」 本作はCANDY TUNEが2026年10月28日(水)にリリースしたニューEPの収録曲です。トラックのプロデュースを手掛けたのはMasamichi Nagai。ダークなダンスナンバーに仕上がっています。 楽曲は、現代的でクリアな音像のシンセの音からスタート。冒頭からスタイリッシュな雰囲気で個人的にとても好みです。その後はクラップが加わり、キックドラム…"
     },
     {
@@ -5172,7 +5206,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Live Repo] PompadollS transformed Kabukicho into a huge live house, delivering enthusiasm on the eve of the── tour.",
+      "translatedTitle": "【ライブレポ】PompadollSが、歌舞伎町を巨大なライブハウスに変えた──ツアー前夜祭フリーライブで届けた熱狂",
       "translatedExcerpt": "2026年10月30日、新宿・歌舞伎町シネシティ広場にて、PompadollSがワンマンツアー「Lost Tales」の前夜祭となるフリーライブを開催した。入場無料、全編撮影可能という開かれたスタイルで行われたこの日の公演。街を行き交う人々が集まる広場は、約30分にわたってロックの熱気に包まれた。全国各地を巡るワンマンツアーを目前に控えたPompadollSが、この場所で探していたのは、これからの旅をともにする「仲間」だった。 ライブは「ホワイトジャーニー」からスタート。五十嵐五十（Gt.&Vo.）の突き抜ける歌声と、バンドの力強い演奏が新宿の夜に響き渡る。続く「ラブソング」「悪食」と、勢いを緩めることなく楽曲を畳みかけ、観客の熱気を引き上げていった。普段のライブハウスとは異なる屋外の開放的な空間でありな…"
     },
     {
@@ -5471,7 +5505,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Wienners hold one-man tour \"Riko tour 2027\" in Tomeihan",
+      "translatedTitle": "Wienners、東名阪ワンマンツアー〈来光TOUR 2027〉開催",
       "translatedExcerpt": "玉屋2060%率いる、銀河系パンクバンドWiennersが、2027年の年始にワンマンツアー〈来光TOUR 2027〉を開催する。 1月30日(土) 愛知・ElectricLadyLandを皮切りに、2月6日(土) 大阪・Yogibo META VALLEY、そしてファイナルは 2月22日(月) 東京・Zepp Shinjuku (TOKYO) となる。 新ボーカルYUURIがメンバーに加入し、新体制お披露目ツアーも注目を集め、大型野外フェスへの出演も多数決定するなど、勢いに乗るWiennersのワンマンツアー。チケットのオフィシャル最速先行受付は10/31(土)〜11/8(日)23:59まで。 ツアー情報 https://w.pia.jp/t/wienners-official/ アーティスト情報 ht…"
     },
     {
@@ -5623,7 +5657,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Jun Togawa and Yapoo's Worldwide Viral Hit \"I Love You, I Love You\" 1985 Live Video Released",
+      "translatedTitle": "戸川純とヤプーズ、世界的バイラルヒット「好き好き大好き」1985年ライブ映像公開",
       "translatedExcerpt": "戸川純とヤプーズの楽曲「好き好き大好き」の1985年ライヴ映像がHDリマスターとリストアが施され、公開された。 「好き好き大好き」は、戸川純が1985年に発表した異形のラブソング。「愛してるって言わなきゃ殺す」という本人作詞の衝撃的なフレーズも相俟って長らく根強い支持を集めているが、近年では海外のTikTokをきっかけに世界的なバイラルヒットとなり、国境を超えて日々新たな聴き手を爆発的に増やしている。この度ハロウィンのタイミングで、YouTubeと中国の動画サイトbilibiliのアルファミュージック公式チャンネル上で、そのライヴ映像がアップされた。 映像は「戸川純とヤプーズ」として1985年11月28日に大阪厚生年金会館で行ったライブからの抜粋で、『TOUR-LIVE ’85～’86』として既に商品化済…"
     },
     {
@@ -5883,7 +5917,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Five New Old Announces New Holiday Song 'Holiday'",
+      "translatedTitle": "FIVE NEW OLD、ホリデーシーズン彩る新曲「Holiday」リリース決定",
       "translatedExcerpt": "FIVE NEW OLDが、2026年11月6日(金)にホリデーシーズンを彩る冬ソング「Holiday」を配信リリースする。 本楽曲は、年末年始に向けて忙しなく加速していく街の空気を、自分流に楽しむほっこり系ソング。ゴスペル調の明るいコーラスやクールなラップパートなど、曲中で見せる表情のギャップも楽しい、聴きどころ満載の仕上がりとなっている。 11月2日(月)放送のJ-WAVE（81.3FM）「STEP ONE」にVo/Gt：HIROSHIが生ゲスト出演し、番組内にて本楽曲の音源が初解禁される。 また3年半ぶりの開催となる2マン企画〈FIVE NEW OLD presents \"Easy Come, Easy Go.\"〉は現在チケット発売中。11月23日(月・祝)札幌cube gardenで開催されるvo…"
     },
     {
@@ -6016,7 +6050,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Oaiko FES2026 winter Announced the lifting of the ban on the final performers and the holding of the Eve Festival and Eve Festival",
+      "translatedTitle": "〈Oaiko FES 2026 winter〉最終出演者解禁、前夜祭・後夜祭の開催も発表",
       "translatedExcerpt": "時代に「適応する」をコンセプトに、ポストコロナ以降のインディーオルタナティブシーンを牽引するレーベルOaikoによる、フェス型イベント〈Oaiko FES 2026 winter〉が2026年12月6日 (日) に開催される。 最終出演者として、新たに8組の出演アーティストが発表され、全57組のアーティストが渋谷の街に集結する。 株式会社PARCOとの共催により開催される本公演は、2026年6月7日 (日) に初開催された〈Oaiko FES 2026〉の第2回開催となる。初開催では、新たなシーンの熱量を体感できるイベントとして大きな反響を呼んだ。今回開催は、渋谷CLUB QUATTROを中心に渋谷PARCO内のDOMMUNE、QUATTRO LABOといった多彩な9会場へと規模を拡大する。 Oaikoは…"
     },
     {
@@ -6035,7 +6069,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Launch of the 30th anniversary year of ACIDMAN, the new one-man & acoustic nationwide tour will be held",
+      "translatedTitle": "ACIDMAN結成30周年イヤー始動、新企画ワンマン＆アコースティック全国ツアー開催決定",
       "translatedExcerpt": "ロックバンドACIDMANが、2027年に迎える結成30周年に向けて、アニバーサリーイヤーの始動を発表した。 30周年記念企画第1弾として、ワンマンライブ〈ACIDMAN ONE-MAN LIVE \"deep\"〉開催、さらに第2弾として全国ツアー〈ACIDMAN LIVE TOUR “Second line & Acoustic collection III”〉の開催を発表。合わせて、30周年特設サイトも公開となった。 メインビジュアルとして目を惹く地球の映像は、日本テレビ放送網株式会社と株式会社バスキュールが共同で事業推進する地球観測映像プラットフォーム「TerraCaster（テラキャスター）」によるもの。気象衛星「ひまわり」の観測データを活用し、宇宙から見た地球の姿を映像化。実際の観測データをもとに…"
     },
     {
@@ -6054,7 +6088,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Ado announces release of \"Demon's Crest\" OP song \"Thinka\"",
+      "translatedTitle": "Ado、 アニメ『デモンズ・クレスト』OP曲「シンカ」配信リリース決定",
       "translatedExcerpt": "Adoが2026年11月6日（金）21時よりPrime Videoにて世界独占配信となるアニメ『デモンズ・クレスト』のオープニングテーマに決定している新曲「シンカ」が、アニメ配信開始日と同日の11月6日（金）に配信スタートすることが決定した。 「シンカ」は、Adoとかねてから交流のあるボカロP・ユリイ・カノンが書き下ろした新曲。嘘や虚構に覆われ、命や人の意志さえも軽んじられる世界で、それでも自分の声や表現を信じようとする思いを描いている。 エモーショナルなメロディと躍動感のあるサウンドが重なり、成長への決意や未来への希望を力強く表現。繊細な感情とダイナミックな展開が交錯し、聴く人それぞれの「進化」に寄り添う一曲となっている。“現実”と“ゲーム”が侵食し合うアニメの世界観に寄り添った、アップテンポな楽曲に仕…"
     },
     {
@@ -6092,7 +6126,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Peanuts-kun releases new EP Summon Tape",
+      "translatedTitle": "ピーナッツくん、最新EP『SUMMON TAPE』リリース",
       "translatedExcerpt": "ピーナッツくんが最新EP『SUMMON TAPE』を2026年10月28日にリリースした。 ピーナッツくんは2017年に活動開始したラッパー / VTuber。ショートアニメ「オシャレになりたい！ピーナッツくん」の主人公であり、同アニメから生まれたキャラクター・甲賀流忍者！ぽんぽことともに「ぽこピー」としても活動して人気を集めている 最新EP『SUMMON TAPE』は「輪廻」「チャンチョ鳴らせ808」を含む全9曲入り。ほぼ全曲にわたってプロデューサーとしてもピーナッツくん自身がクレジットされており、M6にはnerdwitchkomugichan (Age Factory)が参加。ミックスとマスタリングは玉田デニーロ（衛星）が担当している。 ダークな質感のジャケットはVampillia／VMOのメンバーと…"
     },
     {
@@ -6128,7 +6162,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Column series] Weekly Bulletin of Kansai Artists vol.129 \"Shinsaibashi Janus is different again! If you were me, I'd be like this.\"",
+      "translatedTitle": "【連載コラム】遊津場の関西アーティスト週報vol.129「心斎橋JANUSの彼はまた一味違う！君がそうなら僕はこう」",
       "translatedExcerpt": "こんにちは。神戸在住の音楽キュレーター、遊津場(ゆつば)です。普段は邦ロック系インディーズアーティスト情報をSNS、メディア寄稿、自主イベント開催など、様々な手法で発信する活動をしています。 そして今回、OTOTOYで私のメインの活動地域である関西エリアで活躍する若手アーティストの様々なトピックを発信する機会をいただきました。これを読めば、関西邦ロックシーンの最前線が分かります。どうぞ、ご贔屓に。 「心斎橋JANUSの彼はまた一味違う！君がそうなら僕はこう」 大阪発青春メロきゅんバンド・君がそうなら僕はこうが初の東名阪ツアー「よろー！君僕のおしゃべりライブハウス」を開催中です。東京と名古屋は見事ソールドアウトを達成して既に終了しており、残すは11月6日の地元大阪・心斎橋JANUSのみとなっております。こち…"
     },
     {
@@ -6340,7 +6374,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "tripleS, 1st full AL release in Japan in January",
+      "translatedTitle": "tripleS、1月に日本1stフルALリリース",
       "translatedExcerpt": "tripleSが1月27日（水）に日本1stフルアルバム「＜LOVE&POP＞ pt.3」がリリースされることが決定した。 現在tripleSはユニットプロジェクト「msnz（moon・sun・neptune・zenith）」による日本オリジナル楽曲を4か月連続で配信リリースしている。 アルバムリリースに先駆け、msnzプロジェクトの第四章として、ユニット最後の配信リリースとなるtripleS zenithの日本オリジナル楽曲「See You」が11月1日（日）に配信リリース。「See You」は、“崩壊”をテーマに、エモーショナルなサウンドと繊細な歌詞世界が印象的な一曲に仕上がっている。 2月11日（木・祝）には24人完全体での日本オリジナル公演が開催されることも決定。詳細は後日発表される。 リリース情…"
     },
     {
@@ -18388,44 +18422,6 @@
         "accent": "#ff6784",
         "language": "en"
       }
-    },
-    {
-      "id": "b7c9d2d2fbcc2562",
-      "title": "M!LK、エネルギッシュな「ザッツ！超常」ダンスパフォーマンス映像を公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166816",
-      "publishedAt": "2026-10-26T13:25:00.000Z",
-      "excerpt": "M!LKが、新曲「ザッツ！超常」を配信リリースし、ダンスパフォーマンス映像を公開した。 新曲「",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166816/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "M!LK releases energetic “That’s! Sujou” dance performance video",
-      "translatedExcerpt": "M!LK has released a new song ``That's! Sujou'' and released a dance performance video. New song “"
-    },
-    {
-      "id": "59159b3f206c6b10",
-      "title": "STARGLOW、宙に浮かぶバスケットゴールの上で「Slam Dunk」をパフォーマンスするMV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166812",
-      "publishedAt": "2026-10-26T13:10:00.000Z",
-      "excerpt": "STARGLOWが、新曲「Slam Dunk」を配信リリースし、ミュージックビデオを公開した。",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166812/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "STARGLOW releases MV of performing “Slam Dunk” on top of a floating basketball goal",
-      "translatedExcerpt": "STARGLOW has released their new song \"Slam Dunk\" and released the music video."
     }
   ]
 }

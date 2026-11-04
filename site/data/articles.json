@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T03:32:03.318Z",
+  "generatedAt": "2026-11-04T04:02:00.283Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 35,
+      "count": 34,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 140,
+      "count": 139,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 84,
+      "count": 82,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 25,
+      "count": 26,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 272,
+      "count": 277,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 233,
+      "count": 234,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 139,
+      "count": 138,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 72,
+      "count": 70,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,122 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 620,
+    "translatedJapaneseArticles": 625,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "0526a944098c3791",
+      "title": "BE:FIRST、ニューAL『BE:4U』リード曲「NOW U KNOW」ダンスパフォーマンス映像公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167112",
+      "publishedAt": "2026-11-04T03:50:00.000Z",
+      "excerpt": "BE:FIRSTが、11月3日にリリースした4thアルバム『BE:4U』のリード曲「NOW U K",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167112/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "BE:FIRST releases dance performance video for new AL “BE:4U” lead song “NOW U KNOW”",
+      "translatedExcerpt": "BE:FIRST's lead song \"NOW U K\" from their 4th album \"BE:4U\" released on November 3rd"
+    },
+    {
+      "id": "e369b1a800a012d9",
+      "title": "Da-iCE、アリーナツアー映像作品より「TERMINAL」ライブ映像をプレミア公開",
+      "link": "https://barks.jp/news/1102423",
+      "publishedAt": "2026-11-04T03:45:26.000Z",
+      "excerpt": "Da-iCEが本日11月4日(水)にLIVE DVD/Blu-ray『Da-iCE ARENA TOUR 2026 -TERMiNaL-』をリリース。21時より、YouTubeにてツアーの幕開けを飾った「TERMINAL」のライブ映像をYouTubeプレミア公開する。 本作には、Da-iCE結成15周年の幕開けとともにリリースされた通算9枚目のフルアルバム『TERMiNaL』を引っ提げ行われたツアーから東京・有明アリーナ公演を収録。あわせてツアーリハーサルからドーム発表、各地での移動やツアーの合間に密着した『Behind Da-iCE ARENA TOUR 2026 -TERMiNaL-』を収録する。 初回生産限定盤は、アルバム『TERMiNaL』と共に『Da-iCE ARENA TOUR 2026 -T…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/05/13114150/252121_Da-iCE_DDD_%E3%82%A2%E3%83%BC%E5%86%99.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Da-iCE premieres “TERMINAL” live video from arena tour video work",
+      "translatedExcerpt": "Da-iCE will release LIVE DVD/Blu-ray \"Da-iCE ARENA TOUR 2026 -TERMiNaL-\" today, November 4th (Wednesday). From 9pm, the live video of \"TERMINAL\", which opened the tour, will be premiered on YouTube. This work includes the Ariake Arena performance in Tokyo from the tour held in support of their 9th full-length album \"TERMiNaL\", which was released at the beginning of Da-iCE's 15th anniversary. In addition, \"Behind Da-iCE ARENA TOUR 2026 -TERMiNaL-\" will be recorded, covering everything from tour rehearsals to dome announcements, traveling to various places, and between tours. The first production limited edition includes the album “TERMiNaL” and “Da-iCE ARENA TOUR 2026 -T…"
+    },
+    {
+      "id": "5d7cf43de3170388",
+      "title": "スガ シカオ、TVアニメ『恐怖コレクター』OPテーマ「カゲボウシ」配信開始",
+      "link": "https://www.billboard-japan.com/d_news/detail/167115",
+      "publishedAt": "2026-11-04T03:45:00.000Z",
+      "excerpt": "スガ シカオが、NHK総合テレビアニメ『恐怖コレクター』のオープニング・テーマ「カゲボウシ」を配信",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167115/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Suga Shikao begins distribution of TV anime “Terror Collector” opening theme “Kageboushi”",
+      "translatedExcerpt": "Suga Shikao delivers the opening theme “Kageboushi” for NHK general TV anime “Terror Collector”"
+    },
+    {
+      "id": "71f2952f86d8e33c",
+      "title": "キタニタツヤ、AL『PURE』収録曲「君と生きて君と死にたい！」MVプレミア公開決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167114",
+      "publishedAt": "2026-11-04T03:40:00.000Z",
+      "excerpt": "キタニタツヤが、アルバム『PURE』収録曲「君と生きて君と死にたい！」のミュージックビデオを11月",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167114/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Tatsuya Kitani's music video premiere for \"I want to live with you and die with you!\" from AL \"PURE\" will be released",
+      "translatedExcerpt": "Tatsuya Kitani will release a music video for the song “I want to live with you and die with you!” from the album “PURE” in November."
+    },
+    {
+      "id": "181a3fa9920ae0d4",
+      "title": "'Watashi wo Center ni Suru to Chikaimasu ka?' Reveals Main Cast, Staff, Opening Theme, Teaser Promo",
+      "link": "https://myanimelist.net/news/74903023?_location=rss",
+      "publishedAt": "2026-11-04T03:37:09.000Z",
+      "excerpt": "The official website of the Watashi wo Center ni Suru to Chikaimasu ka? (Promise Me the Spotlight) television anime revealed the main cast, staff, a key visual (pictured), the opening theme, and a teaser promotional video on Wednesday. The anime series adapting Jun Wakatsuki's idol romance manga is scheduled to air on TV Tokyo's six affiliated stations. C…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793763367-b200fef32ba95c4a43022cebaf10ce4d.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "8268cc24c822d578",
+      "title": "Bimi、7都市巡る【Bimi Live Tour 2027 -巡業行脚-】開催決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167113",
+      "publishedAt": "2026-11-04T03:35:00.000Z",
+      "excerpt": "Bimiが、2027年2月14日の千葉LOOK公演を皮切りに、全国7都市を巡るライブツアー【Bim",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167113/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Bimi to tour 7 cities [Bimi Live Tour 2027 - Tour Pilgrimage-] decided",
+      "translatedExcerpt": "Bimi will be on a live tour of 7 cities nationwide, starting with the Chiba LOOK performance on February 14, 2027 [Bim"
+    },
     {
       "id": "32280852064e795f",
       "title": "【ビルボード】“ニコニコ VOCALOID SONGS TOP20”、ryo「LEGENDS」2週連続首位に",
@@ -185,6 +297,44 @@
       },
       "translatedTitle": "[Billboard] “Nico Nico VOCALOID SONGS TOP20”, ryo “LEGENDS” tops the list for 2 weeks in a row",
       "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
+    },
+    {
+      "id": "ed28674f0aee5024",
+      "title": "堂本光一「数年後も受け継がれる作品に」 ジュニアの新作舞台が開幕 戸塚祥太&薮宏太&松崎祐介「後輩たちが育っていく未来が楽しみ」",
+      "link": "https://www.billboard-japan.com/d_news/detail/167116",
+      "publishedAt": "2026-11-04T03:30:00.000Z",
+      "excerpt": "EX THEATER ARIAKE OPENING LINEUP「百鬼夜鏡」の初日会見及び公開ゲネ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167116/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Koichi Domoto: ``This will be a work that will be passed down for years to come.'' Junior's new play opens. Shota Totsuka, Kota Yabu, and Yusuke Matsuzaki: ``I'm looking forward to the future as our juniors grow.''",
+      "translatedExcerpt": "EX THEATER ARIAKE OPENING LINEUP “Hyakki Yogami” opening day press conference and public genealogy"
+    },
+    {
+      "id": "734db35d97ad107f",
+      "title": "muque、芦田愛菜主演ドラマ『南田南弁護士は天才肌』主題歌「いいんじゃない」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167111",
+      "publishedAt": "2026-11-04T03:25:00.000Z",
+      "excerpt": "muqueが、ドラマ『南田南弁護士は天才肌』の主題歌「いいんじゃない」のミュージックビデオを公開し",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167111/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "muque releases music video for “Iinjanai,” the theme song for the drama “Minamida Minami Bengo wa Genius Hada” starring Mana Ashida.",
+      "translatedExcerpt": "muque has released the music video for the theme song ``Iinjanai'' for the drama ``Minamida Minami Bengo wa Genius Hada''."
     },
     {
       "id": "2aa0475389581cac",
@@ -789,7 +939,7 @@
         "language": "ja"
       },
       "translatedTitle": "Olivia Rodrigo releases teaser for her first Christmas song, ``Take Me Home (4 Christmas)''",
-      "translatedExcerpt": "Olivia Rodrigo sings her first Christmas song, ``Take Me Home (4 Chris"
+      "translatedExcerpt": "Olivia Rodrigo releases her first Christmas song, ``Take Me Home (4 Chris"
     },
     {
       "id": "3f348394b9d3bb94",
@@ -4583,7 +4733,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kento Nakajima becomes the hero of love in the new SG “Chou☆HENSHIN”",
-      "translatedExcerpt": "It has been decided that Kento Nakajima will release his 4th single ``Cho☆HENSHIN'' on December 16th (Wednesday). The title song \"Chou☆HENSHIN\" is an unpredictable high-tension pop tune that goes beyond the earth and lights up the universe with love and courage. It will be distributed in advance from November 13th (Friday). The other songs included in the single include a Christmas song ``Christmas Chu'' written and composed by Kento Nakajima himself, and a re-recording of his past solo song ``Black Cinderella.'' A total of 5 songs are included in each format. Release information “GENTO (with Kento Nakajima)” https://ototoy.jp/_/default/p/4354689 Artist information https://www.instagram.com/kento.nakajima_313 https:/…"
+      "translatedExcerpt": "It has been decided that Kento Nakajima will release his 4th single ``Cho☆HENSHIN'' on December 16th (Wednesday). The title song \"Chou☆HENSHIN\" is an unpredictable high-tension pop tune that goes beyond the earth and lights up the universe with love and courage. It will be distributed in advance from November 13th (Friday). The other songs included in the single include ``Christmas Chu,'' a Christmas song written and composed by Kento Nakajima himself, and a re-recording of his past solo song ``Black Cinderella.'' A total of 5 songs are included in each format. Release information “GENTO (with Kento Nakajima)” https://ototoy.jp/_/default/p/4354689 Artist information https://www.instagram.com/kento.nakajima_313 https:/…"
     },
     {
       "id": "a15f7ce3688cf17d",
@@ -18314,146 +18464,6 @@
       },
       "translatedTitle": "``Attorney Minami Minami is a genius'' ``(Ashida) Mana looked beautiful in her wedding dress'' ``(Takahashi) Fumiya-kun was also great.''",
       "translatedExcerpt": "The second episode of ``Minami Minami is a Genius'' (Kansai TV/Fuji TV) was broadcast on the 26th. (C)KTV"
-    },
-    {
-      "id": "048149c271dd1fdd",
-      "title": "brainchild&#039;s、ツアー【THE ORIGIN】に先駆けアコースティックセッション映像を12月に配信",
-      "link": "https://www.billboard-japan.com/d_news/detail/166830",
-      "publishedAt": "2026-10-27T01:15:00.000Z",
-      "excerpt": "菊地英昭（THE YELLOW MONKEY）のソロ・プロジェクト、brainchild&#039;sが、2",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166830/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "brainchild's will release acoustic session video in December ahead of tour [THE ORIGIN]",
-      "translatedExcerpt": "Hideaki Kikuchi's (THE YELLOW MONKEY) solo project, brainchild's, has released 2"
-    },
-    {
-      "id": "408dd3206f968eb8",
-      "title": "Baum vending machine in a Yokohama station lets us eat cake served on a luxury cruise ship",
-      "link": "https://soranews24.com/2026/10/27/baum-vending-machine-in-a-yokohama-station-lets-us-eat-cake-served-on-a-luxury-cruise-ship/",
-      "publishedAt": "2026-10-27T01:00:36.000Z",
-      "excerpt": "Our favorite kind wasn’t even the one we expected, but they were all the baum-dot-com. It takes a lot to surprise us when it comes to Japanese vending machines, considering we’ve seen everything from Sriracha to sushi meals being sold in them. While the latter might sound a bit dubious, we’ve had relatively good results […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/1_a88bfd.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "bb1e0a8844f4cad6",
-      "title": "Final Fantasy Veteran Says AI Can’t Replace Human Creativity",
-      "link": "https://news.sankakucomplex.com/n/ffc9VuGmPRbdNpt1FwyDOQ",
-      "publishedAt": "2026-10-27T01:00:09.000Z",
-      "excerpt": "Veteran Final Fantasy developer Yoshinori Kitase believes artificial intelligence will become increasingly important in video game development, but insists that the technology should never replace the human creativity responsible for coming up with original ideas.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f20d0c92de6690d3",
-      "title": "Final Fantasy Veteran Says AI Can’t Replace Human Creativity",
-      "link": "https://news.sankakucomplex.com/n/rQTiAQ8ycYpialkyCwTTZw",
-      "publishedAt": "2026-10-27T01:00:09.000Z",
-      "excerpt": "Veteran Final Fantasy developer Yoshinori Kitase believes artificial intelligence will become increasingly important in video game development, but insists that the technology should never replace the human creativity responsible for coming up with original ideas.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1daec334cf8c7e40",
-      "title": "東方神起 ユンホ、自身作詞含むDSG配信リリース",
-      "link": "https://ototoy.jp/news/132471",
-      "publishedAt": "2026-10-27T01:00:00.000Z",
-      "excerpt": "東方神起のユンホが2曲入りデジタルシングル「君がいる」をリリースした。 「君がいる」はネオソウル感漂うジャジーなミディアムバラード。ユンホ自身が日本語で作詞(共作)し、既発曲「君は先へ行く」と同様に「君=もう一人の自分」として、苦悩や葛藤をリアルに歌唱表現した1曲。「Biscuit」は、ファンキーなヒップホップをベースにした、遊び心あふれるエレクトロ・ポップに仕上がった。 ユンホは10月31日横浜アリーナ公演を皮切りに初ツアーを開催。1月にWOWOWで東京体育館メインアリーナ公演の模様が放送される。 リリース情報 https://ototoy.jp/_/default/p/4364489 U-KNOW PROJECT 26 : SCENE ♯1 – EDIT アーティスト情報 https://toho-j…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132471/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "TVXQ Yunho releases DSG distribution including lyrics written by himself",
-      "translatedExcerpt": "TVXQ's Yunho has released a digital single ``Kimi ga Iru'' containing two songs. “Kimi ga Iru” is a jazzy medium ballad with a neo-soul feel. Yunho himself wrote (co-wrote) the lyrics in Japanese, and like his previously released song \"You Go First,\" this is a song that portrays \"you = another self\" and realistically expresses suffering and conflict. \"Biscuit\" is a playful electro-pop song based on funky hip-hop. Yunho will hold his first tour on October 31st, starting with a performance at Yokohama Arena. The performance at the Tokyo Metropolitan Gymnasium Main Arena will be broadcast on WOWOW in January. Release information https://ototoy.jp/_/default/p/4364489 U-KNOW PROJECT 26 : SCENE ♯1 – EDIT Artist information https://toho-j…"
-    },
-    {
-      "id": "9baf5cecc2521d03",
-      "title": "Classic Shojo Manga Georgie Coming from Omoi, Manga Mavericks",
-      "link": "https://crunchyroll.com/news/latest/2026/10/27/classic-shojo-manga-georgie-omoi-manga-mavericks",
-      "publishedAt": "2026-10-27T00:52:00.000Z",
-      "excerpt": "Omoi handles digital, Manga Mavericks handles print",
-      "image": "https://a.storyblok.com/f/178900/960x540/16b3b67dd6/omoi-mm2.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "cf2a0490f2917ed6",
-      "title": "Precure Franchise Gets Spinoff TV Anime Dual Shadow ~Precure Villain Heroines~",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-26/precure-franchise-gets-spinoff-tv-anime-dual-shadow-~precure-villain-heroines~/.243229",
-      "publishedAt": "2026-10-27T00:35:02.000Z",
-      "excerpt": "Anime debuts in 2027 with original story, characters",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGI/youtube/4H3qrB9yaJA.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "0fdcb5c5e5b8ef85",
-      "title": "New Precure Spin-Off Anime \"Dual Shadow ～Precure Villain Heroines～\" Slated for 2027",
-      "link": "https://crunchyroll.com/news/latest/2026/10/27/precure-spin-off-anime-dual-shadow-precure-villain-heroines-2027",
-      "publishedAt": "2026-10-27T00:25:00.000Z",
-      "excerpt": "Original characters and story will be featured in the spin-off series",
-      "image": "https://a.storyblok.com/f/178900/960x540/cd1c0a5dce/dual-shadow-header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

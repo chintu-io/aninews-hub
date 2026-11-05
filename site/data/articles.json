@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:31:54.008Z",
+  "generatedAt": "2026-11-05T01:01:46.017Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 139,
+      "count": 138,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 272,
+      "count": 273,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 626,
+    "translatedJapaneseArticles": 627,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "23ca01b7c5d30614",
+      "title": "ジャングル、米NPR『Tiny Desk Concert』で「Back on 74」など全7曲披露",
+      "link": "https://www.billboard-japan.com/d_news/detail/167144",
+      "publishedAt": "2026-11-05T00:45:00.000Z",
+      "excerpt": "ジャングルが、米公共ラジオ局NPRのライブ企画『Tiny Desk Concert』に初登場し、最",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167144/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Jungle performs 7 songs including \"Back on 74\" on NPR's \"Tiny Desk Concert\"",
+      "translatedExcerpt": "Jungle appeared for the first time on the US public radio station NPR's live program \"Tiny Desk Concert\" and was the latest"
+    },
     {
       "id": "55166f2350891c4b",
       "title": "MASHLE: MAGIC AND MUSCLES Live-Action Movie Super Teaser Trailer, Visual Reveal Mackenyu Maeda as Mash Burnedead",
@@ -5625,7 +5644,7 @@
       "title": "Former Adult Actress Mao Hamasaki Hospitalized After Suspected Drugging",
       "link": "https://news.sankakucomplex.com/n/F-50th5rLfm1Hh4Ix8_3fg",
       "publishedAt": "2026-11-02T09:00:53.000Z",
-      "excerpt": "Former Japanese adult film actress Mao Hamasaki was rushed to a hospital in Hong Kong after allegedly consuming a drugged drink while working as a DJ, suffering convulsions and hallucinations before being admitted to intensive care.",
+      "excerpt": "Former Japanese adult film actress Mao Hamasaki was rushed to a hospital in Hong Kong after allegedly consuming a drugged drink while working as a DJ, suffering convulsions and hallucinations before being admitted to intensive care. The incident occurred during the early hours of November 1, 2026…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18425,23 +18444,6 @@
         "siteUrl": "https://soranews24.com/",
         "category": "Japan",
         "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "710abcbd13c9cda9",
-      "title": "Detective Conan Anime's 4th Collection of Episodes 'Clash of the Red and Black' Streams on Crunchyroll, Netflix on November 1",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/detective-conan-anime-4th-collection-of-episodes-clash-of-the-red-and-black-streams-on-crunchyroll-/.243257",
-      "publishedAt": "2026-10-27T17:00:00.000Z",
-      "excerpt": "\"Clash of the Red and Black\" arc centers on FBI vs. Black Organization",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gQP/cms/news.8/226053/detective-conan.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

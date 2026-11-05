@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T15:02:07.681Z",
+  "generatedAt": "2026-11-05T15:32:07.841Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 87,
+      "count": 88,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 223,
+      "count": 222,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 132,
+      "count": 131,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 74,
+      "count": 75,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 616,
+    "translatedJapaneseArticles": 615,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "87214ba916327195",
+      "title": "The Seven Knights of the Marronnier Kingdom Anime Casts Ryota Takeuchi as Saturno",
+      "link": "https://crunchyroll.com/news/latest/2026/11/5/the-seven-knights-of-the-marronnier-kingdom-anime-ryota-takeuchi-saturno-cast",
+      "publishedAt": "2026-11-05T15:20:00.000Z",
+      "excerpt": "Takeuchi will debut as the character in Episode 6",
+      "image": "https://a.storyblok.com/f/178900/1460x821/035ffca69f/the_seven_knights_of_the_marronnier_kingdom_saturno_header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "fb941f8a7957870a",
+      "title": "Goddess of Victory: NIKKE PC Launcher Compromised",
+      "link": "https://news.sankakucomplex.com/n/dZXG9eZzfUU0Cd6KLo2pIQ",
+      "publishedAt": "2026-11-05T15:00:24.000Z",
+      "excerpt": "The PC launcher for Goddess of Victory: NIKKE has reportedly been compromised in a supply-chain cyberattack, potentially exposing players’ passwords, authentication credentials, and other sensitive information to hackers.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "3cdc56451082b7ca",
       "title": "Continuing cyberattacks hit Japanese arcade hard [Photos]",
@@ -274,7 +308,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Mrs. GREEN APPLE releases a YouTube short effect that turns you into an alien in the MV for her new song “Accomplice”",
+      "translatedTitle": "Mrs. GREEN APPLE releases YouTube short effect that turns you into an alien for new song “Accomplice” MV",
       "translatedExcerpt": "Mrs. GREEN APPLE created the YouTube short effect “MGA Kyohan Mat"
     },
     {
@@ -1831,7 +1865,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Raising word] YOASOBI's first Tokyo Dome performance becomes audio source",
-      "translatedExcerpt": "YOASOBI, which released “YOASOBI 5th ANNIVERSARY DOME LIVE 2024 “Super Reality” at TOKYO DOME,” is ranked in the trending keywords. This work is the live sound source of his first dome performance, and includes 27 songs from Day 2 of the Tokyo Dome performance held on November 10, 2024. It was released to commemorate the largest-ever dome and stadium tour, which is currently being held in 5 cities in Japan and 5 cities in Asia. The theme song for the currently airing NHK TV drama series ``Blossom'', ``Sakigagere'', is also being distributed. Release information https://ototoy.jp/_/default/p/4378417 https://ototoy.jp/_/default/p/4278279 Artist information https://www.yoasobi…"
+      "translatedExcerpt": "YOASOBI, which released “YOASOBI 5th ANNIVERSARY DOME LIVE 2024 “Super Reality” at TOKYO DOME,” is ranked in the trending keywords. This work is the live sound source of his first dome performance, and includes 27 songs from Day 2 of the Tokyo Dome performance held on November 10, 2024. It was released to commemorate the largest-ever dome and stadium tour, which is currently being held in 5 cities in Japan and 5 cities in Asia. The theme song for the currently airing NHK TV drama series ``Blossom'', ``Sakigaagere,'' is also being distributed. Release information https://ototoy.jp/_/default/p/4378417 https://ototoy.jp/_/default/p/4278279 Artist information https://www.yoasobi…"
     },
     {
       "id": "a1599f95d9e21aa4",
@@ -18396,44 +18430,6 @@
       },
       "translatedTitle": "titi releases new song “Tsukihare” with impressive delicate sound usage",
       "translatedExcerpt": "titi released their new single \"Tsukihare\" on Wednesday, October 28, 2026. This work is a new song released for the first time in about a year and a half since \"Feminin\". Titi wrote the lyrics, composed the song, sang it, played the double bass, and did the artwork. Beja (Khamai Leon) did the arrangement/mixing, Tomohiro Ishii did the violin/cello, and Moe Kazama (studio Chatri) did the mastering. The song expands titi's acoustic worldview, creating an impressive song with an exquisite balance of electro sounds and delicate use of sounds. The thrilling development based on odd time signatures and the overlapping of mystical sounds elevate it to an unprecedented musical expression. In the lyrics, the story unfolds in a strange and mysterious way, about how, after an encounter with a mysterious \"someone,\" he realizes his true self and returns to himself..."
-    },
-    {
-      "id": "f8dc49670a96606b",
-      "title": "シドのAKi、2026年を締めくくる大晦日ライブ開催決定「鳴り止まない衝動と、2026年の最終章へ」",
-      "link": "https://barks.jp/news/1101139",
-      "publishedAt": "2026-10-28T11:00:00.000Z",
-      "excerpt": "シドの明希(B)によるソロプロジェクト“AKi”が12月31日、神奈川・Thunder Snake ATSUGIにて、2部公演の＜AKi LIVE 2026 New Year’s Eve Special＞を開催することが決定した。 一年の締めくくりを飾る本公演は、昼夜2部構成で開催。当日は、たっぱ(G)、YOUSAY(G)、志雄(Dr)のAKiメンバーによるライブはもちろん、AKi自ら心を込めて選んだギフトや、翌2027年1月1日に届くAKiからの新年デジタルメッセージ、終演後の握手会、そしてライブ映像撮影可能な場面が1曲用意されているなど、スペシャルな内容で届けられる。 チケットの明希オフィシャルオンラインサロン“Resonants”最速受付は本日10月28日20:00より。 なおAKiは、12月19日…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/28163736/AKi-%E3%82%A2%E3%83%BC%E5%86%99-683x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Sid's AKi will hold a New Year's Eve live show to close out 2026 \"Unstoppable impulses and the final chapter of 2026\"",
-      "translatedExcerpt": "It has been decided that the solo project “AKi” by Aki (B) of SID will hold a two-part performance “AKi LIVE 2026 New Year’s Eve Special” at Thunder Snake ATSUGI in Kanagawa on December 31st. This performance, which marks the end of the year, will be held in two parts, day and night. On the day of the event, there will be a live performance by AKi members Tappa (G), YOUSAY (G), and Shio (Dr), as well as gifts carefully selected by AKi himself, a New Year's digital message from AKi that will be delivered the following day on January 1, 2027, a handshake event after the performance, and one song that can be filmed live, and other special content will be delivered. The earliest reception for tickets at Aki's official online salon \"Resonants\" is from 20:00 today, October 28th. In addition, AKi will be released on December 19th..."
-    },
-    {
-      "id": "3263cf49109b8349",
-      "title": "たなか × 天竜川ナコン、2マンライブ開催決定",
-      "link": "https://ototoy.jp/news/132490",
-      "publishedAt": "2026-10-28T11:00:00.000Z",
-      "excerpt": "2026年1月に初のソロアルバム『GAME』を放ったたなかと、YouTube「現実チャンネル」からラップに人生を賭け1stアルバム『人生』を届けた天竜川ナコン。ワンマンを即完させてきた2人が登場する。 2026年1月に初のソロアルバム『GAME』をリリースしたたなか。「catwalk」「conflict」「茶番」「単独犯」など全9曲を収め、東京・大阪で開催したワンマンライブ「GAME Release Party」のチケットは即完売となった。2019年1月に「ぼくのりりっくのぼうよみ」としての活動を終え、以降はたなか名義で作品を重ねている。 YouTube「現実チャンネル」を続けながら、ラップに人生を賭けて1stアルバム『人生』を作り上げた天竜川ナコン。「心の備忘録」「夜を乗り越えて」「証明」など、これまで…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132490/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Tanaka × Tenryugawa Nacon, 2-man live held decided",
-      "translatedExcerpt": "Tanaka, who released her first solo album “GAME” in January 2026, and Nakon Tenryugawa, who bet his life on rapping and delivered his first album “Life” from YouTube “Reality Channel”. Two people who have completed one-man shows will appear. Tanaka released his first solo album “GAME” in January 2026. Tickets for the one-man live \"GAME Release Party\" held in Tokyo and Osaka, which included a total of 9 songs such as \"catwalk\", \"conflict\", \"farce\", and \"dokuhan\", were sold out immediately. In January 2019, he finished his activities as \"Boku no Lyric no Bouyomi\" and has been producing works under the name Tanaka ever since. Tenryugawa Nacon, who continued his YouTube \"Reality Channel\" and devoted his life to rapping, created his first album \"Life.\" \"Memorandum of the Heart\", \"Overcoming the Night\", \"Proof\", etc..."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T23:31:45.704Z",
+  "generatedAt": "2026-11-05T00:02:05.377Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 270,
+      "count": 271,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 78,
+      "count": 77,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 624,
+    "translatedJapaneseArticles": 625,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "777865a5ca235195",
+      "title": "『ハンガー・ゲーム』最新作サントラ全収録曲が発表、エラ・ラングレー／ノア・カーンら29組が参加",
+      "link": "https://www.billboard-japan.com/d_news/detail/167143",
+      "publishedAt": "2026-11-04T23:45:00.000Z",
+      "excerpt": "2026年11月20日に全米公開される映画『ハンガー・ゲーム』シリーズ最新作のサウンドトラック『T",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167143/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "All songs from the latest Hunger Games soundtrack announced, 29 groups including Ella Langley and Noah Khan participating",
+      "translatedExcerpt": "Soundtrack \"T"
+    },
+    {
+      "id": "2151c501390bbb5f",
+      "title": "Valve Tightens Steam Game Submission Rules as Review Delays Hit 12 Days",
+      "link": "https://news.sankakucomplex.com/n/MRDTW0uDXX92XB4l80aWAQ",
+      "publishedAt": "2026-11-04T23:31:43.000Z",
+      "excerpt": "Valve has introduced stricter requirements for developers submitting games to Steam after acknowledging that a substantial increase in new releases has overwhelmed its review process, causing approval delays of up to 12 business days and forcing some independent developers to postpone their launc…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "e2495ea645b6e7e0",
       "title": "生田斗真、1stAL『NASCENCE』全曲先行配信開始",
@@ -18404,40 +18440,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "9d824944ae1695c2",
-      "title": "Amazon Flooded With Suspected AI-Generated Fire Emblem Guides",
-      "link": "https://news.sankakucomplex.com/n/FPFkDowAWaMtjMbf0HrHaQ",
-      "publishedAt": "2026-10-27T15:28:59.000Z",
-      "excerpt": "Nintendo’s Fire Emblem: Fortune’s Weave has become the latest video game targeted by publishers selling suspicious strategy guides on Amazon Japan, with numerous unofficial books featuring seemingly AI-generated artwork and questionable contents appearing just weeks after the game’s release.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e253c478d94b4a85",
-      "title": "Amazon Flooded With Suspected AI-Generated Fire Emblem Guides",
-      "link": "https://news.sankakucomplex.com/n/ytRZD8DeYIdeZZ7uZnnxBQ",
-      "publishedAt": "2026-10-27T15:28:59.000Z",
-      "excerpt": "Nintendo’s Fire Emblem: Fortune’s Weave has become the latest video game targeted by publishers selling suspicious strategy guides on Amazon Japan, with numerous unofficial books featuring seemingly AI-generated artwork and questionable contents appearing just weeks after the game’s release.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

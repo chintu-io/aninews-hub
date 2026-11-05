@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T22:02:09.329Z",
+  "generatedAt": "2026-11-05T22:32:09.001Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 276,
+      "count": 275,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "count": 78,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,23 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "323ebe9d2cc49af6",
+      "title": "Tokyo Births Rise 4.7% as Japan Records First Increase in 11 Years",
+      "link": "https://news.sankakucomplex.com/n/tac3RfzM_1CXsdzbfwwxLw",
+      "publishedAt": "2026-11-05T22:00:09.000Z",
+      "excerpt": "Tokyo has recorded a surprising 4.7% increase in births during the first half of 2026, significantly outperforming the rest of Japan and helping the country achieve its first nationwide increase in births in 11 years – though, many are undoubtedly going to wonder if the births were actual Japanes…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "1d4aaecc65566fda",
       "title": "PlayStation 5 Reaches Over 97 Million Shipments",
@@ -3972,7 +3989,7 @@
       "title": "Nearly Half of New Steam Games Now Disclose AI-Generated Content",
       "link": "https://news.sankakucomplex.com/n/jAQnW4-mWGyzpQGlu-x7QA",
       "publishedAt": "2026-11-04T09:00:09.000Z",
-      "excerpt": "Nearly half of all video games released on Steam in October 2026 disclosed using generative artificial intelligence, according to a new analysis revealing how rapidly AI-generated content has spread throughout Valve’s digital storefront. The findings come from Reddit, the thread examining approxi…",
+      "excerpt": "Nearly half of all video games released on Steam in October 2026 disclosed using generative artificial intelligence, according to a new analysis revealing how rapidly AI-generated content has spread throughout Valve’s digital storefront.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18379,25 +18396,6 @@
         "accent": "#ff6784",
         "language": "en"
       }
-    },
-    {
-      "id": "bc0dbef710c9a44e",
-      "title": "MON7A、1stアルバム『@7montaz』リリース＆自身2度目のワンマンツアー開催",
-      "link": "https://www.billboard-japan.com/d_news/detail/166905",
-      "publishedAt": "2026-10-28T12:40:00.000Z",
-      "excerpt": "MON7Aが、デビューから1周年を迎える2027年1月27日に、1stアルバム『@7montaz』",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166905/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "MON7A releases 1st album “@7montaz” & holds second solo tour",
-      "translatedExcerpt": "MON7A will release their 1st album “@7montaz” on January 27, 2027, the 1st anniversary of their debut."
     }
   ]
 }

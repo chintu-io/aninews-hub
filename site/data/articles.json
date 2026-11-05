@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T01:01:46.017Z",
+  "generatedAt": "2026-11-05T01:32:08.455Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 138,
+      "count": 137,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 273,
+      "count": 272,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "count": 79,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,82 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 627,
+    "translatedJapaneseArticles": 626,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "93b3e803d7bddbae",
+      "title": "Transformers Toy Giant Takara Tomy Launches Indie Game Publisher",
+      "link": "https://news.sankakucomplex.com/n/skA6uZcZVgUgFyOTxDC0XQ",
+      "publishedAt": "2026-11-05T01:29:51.000Z",
+      "excerpt": "Japanese toy manufacturer Takara Tomy, best known for popular franchises such as Transformers, Beyblade, and Tomica, has announced its entry into the independent video game publishing market, unveiling a new label called ENJOYN GAMES alongside three upcoming titles.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "193ab1f76c0dd3f7",
+      "title": "モグワイ、初の長編ドキュメンタリー映画『MOGWAI／星に音があったなら』予告編公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167146",
+      "publishedAt": "2026-11-05T01:15:00.000Z",
+      "excerpt": "モグワイの約30年にわたる活動を追ったドキュメンタリー映画『MOGWAI／星に音があったなら』の予",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167146/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Mogwai releases trailer for first feature-length documentary film “MOGWAI/If the Stars Had Sound”",
+      "translatedExcerpt": "Preliminaries for the documentary film ``MOGWAI/If the Stars Had Sound'', which follows Mogwai's activities over the past 30 years."
+    },
+    {
+      "id": "a2466c4a01f3b3e1",
+      "title": "ニッキー・ミナージュ、チャッキーのAI画像で共和党への投票を呼びかけるも生みの親が皮肉で応酬",
+      "link": "https://www.billboard-japan.com/d_news/detail/167148",
+      "publishedAt": "2026-11-05T01:05:00.000Z",
+      "excerpt": "ニッキー・ミナージュは自分と『チャイルド・プレイ』のチャッキーが\"最後まで友達\"だと思っているのか",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167148/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Nicki Minaj uses AI image of Chucky to encourage people to vote Republican, but creator responds with sarcasm",
+      "translatedExcerpt": "Does Nicki Minaj think she and Chucky from Child's Play will be \"friends till the end\"?"
+    },
+    {
+      "id": "35a19add0d65b1bd",
+      "title": "Liquid croissant coffee is coming to Japanese stores this month",
+      "link": "https://soranews24.com/2026/11/05/liquid-croissant-coffee-is-coming-to-japanese-stores-this-month/",
+      "publishedAt": "2026-11-05T01:00:06.000Z",
+      "excerpt": "Suntory’s newest Craft Boss release promises the taste of freshly dunked buttery pastry in a single bottle. One of the things I’ve enjoyed since coming to Japan has been stopping at vending machines I walk past to check out what new and unusual drinks they have on offer and scouring different supermarket and convenience store […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/main.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "23ca01b7c5d30614",
       "title": "ジャングル、米NPR『Tiny Desk Concert』で「Back on 74」など全7曲披露",
@@ -185,6 +257,23 @@
       },
       "translatedTitle": "Jungle performs 7 songs including \"Back on 74\" on NPR's \"Tiny Desk Concert\"",
       "translatedExcerpt": "Jungle appeared for the first time on the US public radio station NPR's live program \"Tiny Desk Concert\" and was the latest"
+    },
+    {
+      "id": "2c8813ef8e7f1459",
+      "title": "Seven Seas Licenses Led by Stars Manga, Melting Point Manhwa, 3 Audiobooks",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-04/seven-seas-licenses-led-by-stars-manga-melting-point-manhwa-3-audiobooks/.243530",
+      "publishedAt": "2026-11-05T00:26:43.000Z",
+      "excerpt": "Beacon of Light in the Dark Sea, Dangers in My Heart, 7th Time Loop audiobooks",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gY6/cms/news.10/243530/led-by-stars-m1-cover-jpn.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "55166f2350891c4b",
@@ -5644,7 +5733,7 @@
       "title": "Former Adult Actress Mao Hamasaki Hospitalized After Suspected Drugging",
       "link": "https://news.sankakucomplex.com/n/F-50th5rLfm1Hh4Ix8_3fg",
       "publishedAt": "2026-11-02T09:00:53.000Z",
-      "excerpt": "Former Japanese adult film actress Mao Hamasaki was rushed to a hospital in Hong Kong after allegedly consuming a drugged drink while working as a DJ, suffering convulsions and hallucinations before being admitted to intensive care. The incident occurred during the early hours of November 1, 2026…",
+      "excerpt": "Former Japanese adult film actress Mao Hamasaki was rushed to a hospital in Hong Kong after allegedly consuming a drugged drink while working as a DJ, suffering convulsions and hallucinations before being admitted to intensive care.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6921,6 +7010,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "0611456977d7eb5c",
+      "title": "Hagure Idol: Jigoku-hen Reportedly Getting Uncensored Anime in 2027",
+      "link": "https://news.sankakucomplex.com/n/JjEUITuK0vZ0yTgEvmnPfw",
+      "publishedAt": "2026-11-02T01:00:20.000Z",
+      "excerpt": "The sexually explicit martial arts manga Hagure Idol: Jigoku-hen (Booty Royale: Never Go Down Without a Fight!) is reportedly receiving a television anime adaptation in 2027, complete with an uncensored version that could preserve some of the original series’ notoriously revealing content.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18336,114 +18442,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "a613dc6c24dd408f",
-      "title": "Manga Barcelona to Host Junji Ito, Hyuganatsu, Nao Iwamoto, Sakaomi Yuzaki, Yudetamago, Taizan 5, Kore Yamazaki, Shoji Kawamori, More",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/manga-barcelona-to-host-junji-ito-hyuganatsu-nao-iwamoto-sakaomi-yuzaki-yudetamago-taizan-5-kore-/.243251",
-      "publishedAt": "2026-10-27T20:00:00.000Z",
-      "excerpt": "Also: Kenny Ruiz, Risa Ebata, Keiichiro Saito, Yuichiro Fukushi, Reol, Lotus Juice, Ali, Nightmare, more",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGA/cms/news.10/243251/manga-barcelona.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "18639db81f9490f3",
-      "title": "AniBiz Anime Licensing Platform Receives US$6 Million Investment From TBS, Toei Animation, TV Tokyo",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/anibiz-anime-licensing-platform-receives-usd6-million-investment-from-tbs-toei-animation-tv-tokyo/.243261",
-      "publishedAt": "2026-10-27T19:00:00.000Z",
-      "excerpt": "Kun Gao's Nakama launched dedicated B2B marketplace for global anime industry AniBiz on July 2",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gLG/cms/news.10/243261/anibiz.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "d3cb6ebd38117852",
-      "title": "back number「ブルーアンバー」ストリーミング累計3億回再生突破【ビルボード】",
-      "link": "https://www.billboard-japan.com/d_news/detail/166839",
-      "publishedAt": "2026-10-27T19:00:00.000Z",
-      "excerpt": "back number「ブルーアンバー」が、Billboard JAPANチャートのストリーミング",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166839/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "back number “Blue Amber” has been streamed over 300 million times [Billboard]",
-      "translatedExcerpt": "back number “Blue Amber” streaming on Billboard JAPAN chart"
-    },
-    {
-      "id": "360c260021f850a3",
-      "title": "Mrs. GREEN APPLE「Brand New」ストリーミング累計1億回突破【ビルボード】",
-      "link": "https://www.billboard-japan.com/d_news/detail/166682",
-      "publishedAt": "2026-10-27T19:00:00.000Z",
-      "excerpt": "Mrs. GREEN APPLE「Brand New」が、Billboard JAPANチャートの",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166682/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Mrs. GREEN APPLE “Brand New” has been streamed over 100 million times [Billboard]",
-      "translatedExcerpt": "Mrs. GREEN APPLE's \"Brand New\" is on the Billboard JAPAN chart."
-    },
-    {
-      "id": "7a0758afc6a15c54",
-      "title": "Mrs. GREEN APPLE「インフェルノ」ストリーミング累計8億回突破【ビルボード】",
-      "link": "https://www.billboard-japan.com/d_news/detail/166838",
-      "publishedAt": "2026-10-27T19:00:00.000Z",
-      "excerpt": "Mrs. GREEN APPLE「インフェルノ」が、Billboard JAPANチャートのストリ",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166838/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Mrs. GREEN APPLE “Inferno” has been streamed over 800 million times [Billboard]",
-      "translatedExcerpt": "Mrs. GREEN APPLE's \"Inferno\" hits the Billboard JAPAN chart."
-    },
-    {
-      "id": "80c399d98083429f",
-      "title": "Starbucks Japan unveils new Christmas goods for 2026, with exclusive holiday surprises",
-      "link": "https://soranews24.com/2026/10/28/starbucks-japan-unveils-new-christmas-goods-for-2026-with-exclusive-holiday-surprises/",
-      "publishedAt": "2026-10-27T17:30:48.000Z",
-      "excerpt": "Festive cheer is here, with mugs, tumblers, candles and keychains you won’t find at any other time of year. It’s that time of year again, when we look at the calendar and realise there’s now less than eight weeks until Christmas. That means it’s time for Starbucks to start bringing us some holiday cheer, and […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/Starbucks-Japan-Christmas-holiday-2026-limited-edition-exclusive-merchandise-drinkware-tumblers-cups-mugs-candle-Bearista-canister-gift-card-news-001.jpeg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
         "language": "en"
       }
     }

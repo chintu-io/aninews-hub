@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T12:32:40.016Z",
+  "generatedAt": "2026-11-05T13:03:26.238Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 272,
+      "count": 274,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 229,
+      "count": 226,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 134,
+      "count": 137,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -152,9 +152,9 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 76,
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "count": 74,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,105 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 587,
+    "translatedJapaneseArticles": 545,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "fb5c99ed0b42f911",
+      "title": "eill、BE:FIRSTに提供した「夢中」セルフカバーのスタジオライブ映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167184",
+      "publishedAt": "2026-11-05T13:00:00.000Z",
+      "excerpt": "eillが、セルフカバーEP『self-covers.』より「夢中」のスタジオライブ映像を公開した",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167184/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "eill、BE:FIRSTに提供した「夢中」セルフカバーのスタジオライブ映像を公開",
+      "translatedExcerpt": "eillが、セルフカバーEP『self-covers.』より「夢中」のスタジオライブ映像を公開した"
+    },
+    {
+      "id": "59608fdbee11ec0e",
+      "title": "Emilia、ポップで官能的な新曲リリース",
+      "link": "https://ototoy.jp/news/132643",
+      "publishedAt": "2026-11-05T13:00:00.000Z",
+      "excerpt": "Emiliaが2026年10月29日(木)にニューシングル「BODYPAINTING」をリリースした。 自身の30歳の誕生日に発表された本作は、彼女の新たな音楽的フェーズの幕開けを告げる重要な1曲。これまでのポップサウンドを進化させながら、誘惑、欲望、官能性、そして自己表現をテーマに、より成熟したアーティストとしての姿を提示している。 プロデュースを手がけたのは、LIOHNとZecca。Max Martinの制作チームとの仕事でも知られるLIOHNと、DrakeやKAROL Gらとの仕事で実績を持つZeccaという実力派プロデューサー陣を迎え、Emiliaの新たな音楽的方向性を形にした。 親しみやすいポップの魅力を残しながらも、より大胆で洗練されたサウンドとボーカル表現へと進化。ラテンポップの枠を越え、グ…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132643/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Emilia、ポップで官能的な新曲リリース",
+      "translatedExcerpt": "Emiliaが2026年10月29日(木)にニューシングル「BODYPAINTING」をリリースした。 自身の30歳の誕生日に発表された本作は、彼女の新たな音楽的フェーズの幕開けを告げる重要な1曲。これまでのポップサウンドを進化させながら、誘惑、欲望、官能性、そして自己表現をテーマに、より成熟したアーティストとしての姿を提示している。 プロデュースを手がけたのは、LIOHNとZecca。Max Martinの制作チームとの仕事でも知られるLIOHNと、DrakeやKAROL Gらとの仕事で実績を持つZeccaという実力派プロデューサー陣を迎え、Emiliaの新たな音楽的方向性を形にした。 親しみやすいポップの魅力を残しながらも、より大胆で洗練されたサウンドとボーカル表現へと進化。ラテンポップの枠を越え、グ…"
+    },
+    {
+      "id": "56a40f9ab5ab35a1",
+      "title": "Haiden Henderson、新ALリリース",
+      "link": "https://ototoy.jp/news/132638",
+      "publishedAt": "2026-11-05T13:00:00.000Z",
+      "excerpt": "Haiden Hendersonが2026年10月30日(金)にニューアルバム『bleach』をリリースした。 恋愛、欲望、男性性、自己認識、そして他者からの承認を求める心の葛藤をテーマにした本作。彼にとって最もパーソナルで野心的な作品に仕上がっている。 オルタナティブポップを基盤に、歪んだギター、ヒップホップ由来のビート、R&Bのニュアンス、そして艶やかなポップメロディを融合した本作。大胆さと繊細さ、ユーモアと脆さが共存する、Haiden Hendersonの新たな音楽的アイデンティティを提示するアルバムとなっている。 リリース情報 https://ototoy.jp/_/default/p/4375232 アーティスト情報 https://www.instagram.com/haidenhenderson/",
+      "image": "https://imgs.ototoy.jp/news/image.php/132638/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Haiden Henderson、新ALリリース",
+      "translatedExcerpt": "Haiden Hendersonが2026年10月30日(金)にニューアルバム『bleach』をリリースした。 恋愛、欲望、男性性、自己認識、そして他者からの承認を求める心の葛藤をテーマにした本作。彼にとって最もパーソナルで野心的な作品に仕上がっている。 オルタナティブポップを基盤に、歪んだギター、ヒップホップ由来のビート、R&Bのニュアンス、そして艶やかなポップメロディを融合した本作。大胆さと繊細さ、ユーモアと脆さが共存する、Haiden Hendersonの新たな音楽的アイデンティティを提示するアルバムとなっている。 リリース情報 https://ototoy.jp/_/default/p/4375232 アーティスト情報 https://www.instagram.com/haidenhenderson/"
+    },
+    {
+      "id": "fbd1b76c74aedd81",
+      "title": "ゆるめるモ！、ゆるすぎる新曲と再録ミニアルバム第2弾を同時リリース",
+      "link": "https://ototoy.jp/news/132640",
+      "publishedAt": "2026-11-05T13:00:00.000Z",
+      "excerpt": "ゆるめるモ！が、配信シングル「ゆるすぎてBoooooo!!」と、再録ミニアルバム「ロクロクビ！２」を11月6日に同時リリースすることが決定した。 両作品は各種音楽配信サービスにて配信開始。「ロクロクビ！２」はCDでも発売される。 新曲「ゆるすぎてBoooooo!!」は、「ゆるさ」を持ったすべての人を肯定する、ゆるめるモ！なりの応援歌。BPM210のハッピーハードコアとヒップホップを掛け合わせたハイテンションなサウンドに乗せて、社会から押し付けられる「ちゃんとしろ」という価値観に、痛快なブーイングを叩きつける。 一方、再録ミニアルバム「ロクロクビ！２」は、ゆるめるモ！の再録企画第2弾。結成から15年目に突入し、これまでに140曲以上の楽曲を発表してきた彼女たちが、その膨大なレパートリーから6曲をセレクト。現…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132640/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "ゆるめるモ！、ゆるすぎる新曲と再録ミニアルバム第2弾を同時リリース",
+      "translatedExcerpt": "ゆるめるモ！が、配信シングル「ゆるすぎてBoooooo!!」と、再録ミニアルバム「ロクロクビ！２」を11月6日に同時リリースすることが決定した。 両作品は各種音楽配信サービスにて配信開始。「ロクロクビ！２」はCDでも発売される。 新曲「ゆるすぎてBoooooo!!」は、「ゆるさ」を持ったすべての人を肯定する、ゆるめるモ！なりの応援歌。BPM210のハッピーハードコアとヒップホップを掛け合わせたハイテンションなサウンドに乗せて、社会から押し付けられる「ちゃんとしろ」という価値観に、痛快なブーイングを叩きつける。 一方、再録ミニアルバム「ロクロクビ！２」は、ゆるめるモ！の再録企画第2弾。結成から15年目に突入し、これまでに140曲以上の楽曲を発表してきた彼女たちが、その膨大なレパートリーから6曲をセレクト。現…"
+    },
+    {
+      "id": "681220d56ce08a0e",
+      "title": "Ayumu Imazu、自身最大規模となる全国5都市ホールツアーへ",
+      "link": "https://www.billboard-japan.com/d_news/detail/167182",
+      "publishedAt": "2026-11-05T12:50:00.000Z",
+      "excerpt": "Ayumu Imazuが、2027年7月よりホールツアーを開催する。 本ツアーは自身最大規模と",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167182/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ayumu Imazu、自身最大規模となる全国5都市ホールツアーへ",
+      "translatedExcerpt": "Ayumu Imazuが、2027年7月よりホールツアーを開催する。 本ツアーは自身最大規模と"
+    },
     {
       "id": "9ea2b0dcd0decee1",
       "title": "NMB48、坂田心咲が初単独センターを務める34thシングル『人生 味変や！』アー写&ジャケ写公開",
@@ -183,7 +278,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "NMB48 and Shinsaki Sakata serve as the first solo center for the 34th single \"Life Tastes Weird!\" Ah Shi & Jake Shi Shi Publishing \"",
+      "translatedTitle": "NMB48、坂田心咲が初単独センターを務める34thシングル『人生 味変や！』アー写&ジャケ写公開",
       "translatedExcerpt": "大阪・難波を拠点に活動し、結成16周年を迎えたNMB48が、2026年12月9日(水)に発売する34thシングルのタイトルが、『人生 味変や！』に決定。 あわせて、アーティスト写真とジャケット写真、詳細が公開された。 本作では、坂田心咲(さかた みさき)が初の単独センターを務める。表題曲の選抜メンバーには、初選抜となる田中美空(たなか みそら)、松岡さくら(まつおか さくら)、谷口詩乃(たにぐち しの)を含む16名が名を連ねた。 アートワークでは、ピンクや水色の小道具ときらめく装飾が彩るパーティールームを舞台に、メンバーがにぎやかに楽しむ姿を撮影した。ラブリーな雰囲気にモダンさとY2Kのムードを取り入れたビジュアルにも注目。 シングルは通常盤Type-A・Type-B・Type-C、劇場盤の全4形態で発売…"
     },
     {
@@ -202,7 +297,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "IS: Sue, 2nd national tour ended successfully \"I will continue to make everyone smile!\"",
+      "translatedTitle": "IS:SUE、2nd全国ツアー無事終了「これからもみんなを笑顔にするからね！」",
       "translatedExcerpt": "IS:SUEにとって2回目となる全国ツアー＜2026 IS:SUE 2ND TOUR – THE EDITION＞ のファイナル公演が、昨日、11月4日(水)に東京都・豊洲PITで開催された。 本ツアーは全国8都市・8公演に渡って開催。この日は全国ツアーのファイナル公演日だけではなく、IS:SUEにとって5枚目となるSINGLE『COMING SOON』のリリース日という事で、IS:SUEのファン・REBORN(リボン)にとってはより特別な日となった。 本ツアーでは、上記、5TH SINGLE『COMING SOON』(読み：カミングスーン)のタイトル曲「New Look」や、同作品に収録される「Top To Toe」をファン・REBORNの前で初披露。さらに、来週11月9日(月)に「New Look (…"
     },
     {
@@ -238,7 +333,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Meg Bonus Announces Affiliation with IRORI Records",
+      "translatedTitle": "Meg Bonus、IRORI Recordsへの所属を発表",
       "translatedExcerpt": "Meg Bonusが2026年11月5日(木)に開催したワンマンツアー東京公演にてポニーキャニオン内のレーベル・IRORI Recordsへ所属することを発表した。 Meg Bonusは、2005年生まれのアーティスト・野本慶によるソロプロジェクト。全楽曲において野本自身が作詞・作曲・プロデュースのほか、ジャケットアートワークや映像作品まで手掛けている。 2023年の活動を皮切りに2枚のアルバムと2枚のEPをリリース、10月にはEP『3 Songs + 4 Instrumentals』を配信リリースした。2027年にはIRORI Recordsから作品のリリースも予定している。 Meg Bonusは今回の発表について、以下のようにコメントを寄せている。 コメント リリース情報 https://ototoy…"
     },
     {
@@ -257,7 +352,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Meg Bonus, part of IRORI Records",
+      "translatedTitle": "Meg Bonus、IRORI Recordsへ所属",
       "translatedExcerpt": "Meg Bonusが、11月5日に開催したワンマンツアー東京公演にてポニーキャニオン内のレーベル・IRORI Recordsへ所属することを発表した。 Meg Bonusは、2005年生まれのアーティスト・野本慶によるソロプロジェクト。全楽曲において野本自身が作詞・作曲・プロデュースのほか、ジャケットアートワークや映像作品まで手掛ける。2023年の活動を皮切りに2枚のアルバムと2枚のEPをリリース、10月にはEP『3 Songs + 4 Instrumentals』を配信リリースした。 2027年にはIRORI Recordsから作品のリリースも予定している。 ◆ ◆ ◆ ▼本人コメントなんとこの度ポニーキャニオン内「IRORI Records」に所属させていただくことになりました…！自分の感性を第一に考…"
     },
     {
@@ -293,7 +388,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Mrs. green Apple unveils “MGA Kyohan Match,” a YouTube short effect that lets you become an alien in the “Accomplice” video",
+      "translatedTitle": "Mrs. GREEN APPLE、「共犯」MVの宇宙人になれるYouTube ショート エフェクト「MGA Kyohan Match」公開",
       "translatedExcerpt": "Mrs. GREEN APPLEが、6thオリジナルフルアルバム『POPS』収録曲「共犯」のMVのエンディングに登場する宇宙人に変身できる、YouTubeショート エフェクト「MGA Kyohan Match」を11月5日（木）に公開した。 日本のアーティストによるオリジナルのYouTube ショート エフェクトとしては、史上初となる。 エフェクトを起動して撮影を始めると、青りんごをモチーフにしたラインが画面をスキャン。スキャンが完了すると、「共犯」のMVに登場する4種類の宇宙人、キョウハン星人、キョウカン星人、キョウラン星人、キョウラク星人のうち、いずれかの3Dマスクがランダムに現れ、顔が宇宙人の姿に変わる。 さらに、宇宙船ボタンをタップすると、背景をMVさながらの宇宙船内に切り替えて撮影できる。「共犯…"
     },
     {
@@ -312,7 +407,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "milet Announces CD Release of New Song “My Voice, My Life”",
+      "translatedTitle": "milet、新曲「My Voice, My Life」CDリリース決定",
       "translatedExcerpt": "miletが、2026年10月22日(木)より放送がスタートしたテレビ朝日系・木曜ドラマ『アナログナース〜デジタルってなんなんだよ!?〜』の主題歌として書き下ろした新曲「My Voice, My Life」を12月16日(水)にシングルCDとしてリリースされることが決定した。 本楽曲は、デビュー曲「inside you」以来、数々の楽曲を共に制作してきたToru（ONE OK ROCK）と約4年ぶりにタッグを組んだ作品。「自分の声で自分の人生を切り拓いていく」という強い意志が込められた楽曲となっている。 今回のCDリリース決定にあわせて、ジャケット写真と新アーティスト写真も初公開された。初回生産限定盤と通常盤の2形態でリリースされ、それぞれロックテイストのmiletが印象的なビジュアルに仕上がっている。…"
     },
     {
@@ -348,7 +443,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "eill releases its first self-cover EP, BE: first, featuring live footage from the studio of \"Lost in Love\"",
+      "translatedTitle": "eill、初のセルフカバーEPよりBE:FIRSTへの提供曲「夢中」スタジオライブ映像公開",
       "translatedExcerpt": "eillが、自身初のセルフカバーEP『self-covers.』を11月4日にリリースした。 本作は、eill がこれまでに楽曲提供してきた厳選3曲を収録したセルフカバーEP。2025年4月にBE:FIRSTのためSKY-HI、Ryo‘Lefty’Miyataとともに提供し、フジテレビ系ドラマ『波うららかに、めおと日和』の主題歌として各チャートを席巻し続けた「夢中」を初め、2020年3月に NEWS に提供した「STAY WITH ME」、2024年8月に片寄涼太 (GENERATIONS) に提供した「tenkiame」の3曲が収録されている。 その中から「夢中」のスタジオライブ映像が公開された。この映像は、ピアノデュオで収録されたここだけでしか聴けないスペシャルアレンジとなっており、『self-cov…"
     },
     {
@@ -384,7 +479,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "o_all announces guest act for 1st album release tour in Tokyo and Osaka",
+      "translatedTitle": "o_all、1stアルバムのリリースツアー東京・大阪公演のゲストアクト発表",
       "translatedExcerpt": "o_all（オール）が、1stアルバムのリリースツアー東京・大阪公演のゲストアクトを発表した。 すでに日程と会場が発表されていた同ツアー。今回、12月4日（金）開催の東京公演にはÅlborg、リュベンス、2027年1月11日（月・祝）開催の大阪公演にはMoritaSaki in the poolの出演が決定した。なお、大阪公演には、さらにもう1組のゲストアクトが追加される予定だ。 1stアルバムのリリースにも期待が高まるo_allだが、アルバムの発売日については現時点で未発表。今後の続報にも注目したい。 ツアー情報 出演： 前売￥3,500 / 当日￥4,000 / U-23￥2,000 LivePocket：http://livepocket.jp/e/ch7oa ＜大阪公演＞ 出演： 前売￥3,500…"
     },
     {
@@ -420,8 +515,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Hot Shot Books] Since I was reincarnated as a lost heroine in the profession of childhood friendship of the brave, I will change jobs to a concoctor. The first volume, Chiikawa's 6 existing titles, is in the top 10",
-      "translatedExcerpt": "\"Billboard\" published on November 5, 2026 (aggregation period: October 26 to November 1)"
+      "translatedTitle": "【Hot Shot Books】『勇者様の幼馴染という職業の負けヒロインに転生したので、調合師にジョブチェンジします。 1巻』首位、『ちいかわ』既刊6作がトップ10入り",
+      "translatedExcerpt": "2026年11月5日公開（集計期間：10月26日～11月1日）の&ldquo;Billboard"
     },
     {
       "id": "ca68b98b127e3157",
@@ -439,7 +534,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Da-iCE reveals live footage of the latest song \"Uraraka\", which was first shown at \"live Azuma 2026\"",
+      "translatedTitle": "Da-iCE、〈LIVE AZUMA 2026〉にて初披露した最新曲「うららか」のライブ映像公開",
       "translatedExcerpt": "Da-iCEが、2026年10月17日(土)に福島・福島あづま球場／あづま総合運動公園で開催された音楽フェス〈LIVE AZUMA 2026〉にて初披露した、最新曲「うららか」のライブ映像をYouTubeにて公開した。 初披露という緊張感のあるシチュエーションの中、圧巻の歌唱力とパフォーマンス力が存分に発揮された、ライブの臨場感を堪能できる映像となっている。 本楽曲は、フジテレビ系木曜劇場「波うららかに、めおと日和」主題歌として書き下ろされレ、Da-iCEのメンバー花村想太と、GENICのメンバーで指原莉乃プロデュース=LOVEに楽曲提供を行うなど作家活動にも定評のある小池竜暉が作詞作曲を担当。「どんなに時代が変わっても、人を想うシンプルな衝動は100年前から変わらず、そしてその想いが100年後も続いて欲…"
     },
     {
@@ -475,8 +570,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Billboard] \"You, Like the Stars\" won the first place in \"Reiwa Books\" and \"Kahune\" rose to second place",
-      "translatedExcerpt": "Billboard JA released on November 5, 2026 (aggregation period: October 26 to November 1, 2026)"
+      "translatedTitle": "【ビルボード】『汝、星のごとく』が“Reiwa Books”首位獲得、『カフネ』が2位に浮上",
+      "translatedExcerpt": "2026年11月5日公開（集計期間：2026年10月26日～11月1日）のBillboard JA"
     },
     {
       "id": "d48686537efc04f0",
@@ -494,8 +589,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Billboard] \"You, Like the Stars\" Literary Book Chart 4 Consecutive Champions \"Bride of the Oni Wedding Volume 6 (Light Novel Version)\" First Appearance",
-      "translatedExcerpt": "Literary Books Chart of the November 5, 2026 Publication Chart (Aggregation Period: October 26-November 1, 2026)"
+      "translatedTitle": "【ビルボード】『汝、星のごとく』文芸書籍チャート4連覇 『鬼の花嫁 新婚編 6巻 (ライトノベル版)』初登場",
+      "translatedExcerpt": "2026年11月5日公開チャート（集計期間：2026年10月26日～11月1日）の文芸書籍チャート"
     },
     {
       "id": "c20fc06998f0a00c",
@@ -513,8 +608,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Billboard] Fruit Zipper 4th Anniversary Photo Album \"synergy\" Cultural Books Chart First Appearance First Bowy Testimonial Album \"Bowy hunt 1981-1988\" First Appearance 5th Place",
-      "translatedExcerpt": "Billboar on the November 5, 2026 Public Chart (aggregate period: October 26-November 1, 2026)"
+      "translatedTitle": "【ビルボード】FRUITS ZIPPER 4周年記念写真集『SYNERGY』文化書籍チャート初登場首位 BOOWYの証言集『BOOWY HUNT 1981-1988』が初登場5位",
+      "translatedExcerpt": "2026年11月5日公開チャート（集計期間：2026年10月26日～11月1日）のBillboar"
     },
     {
       "id": "6824badead727cca",
@@ -532,8 +627,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Billboard] The first comprehensive book chart of \"You, Like the Stars\" by Yutaka Nani",
-      "translatedExcerpt": "Billboard JA released on November 5, 2026 (aggregation period: October 26 to November 1, 2026)"
+      "translatedTitle": "【ビルボード】凪良ゆう『汝、星のごとく』初の総合書籍チャート首位",
+      "translatedExcerpt": "2026年11月5日公開（集計期間：2026年10月26日～11月1日）のBillboard JA"
     },
     {
       "id": "7daafe8971509474",
@@ -551,8 +646,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Billboard] Asako Yuuki \"Butter\" wins first place in \"Heisei Books\" Many appearances in the \"Angel Legend\" series by Norihiro Yagi",
-      "translatedExcerpt": "November 5, 2026 Public Chart (Aggregation period: October 26, 2026 - November 1) Chart by Year &"
+      "translatedTitle": "【ビルボード】柚木麻子『BUTTER』が“Heisei Books”1位獲得 八木教広の『エンジェル伝説』シリーズが多数登場",
+      "translatedExcerpt": "2026年11月5日公開チャート（集計期間：2026年10月26日～11月1日）の年号別チャート&"
     },
     {
       "id": "3bb45f3a2a65f2d5",
@@ -570,8 +665,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Billboard] Emiko Inagaki's \"Life Not Buying\" Economic Book Chart is back at the top",
-      "translatedExcerpt": "Economic book char published on November 5, 2026 (aggregation period: October 26, 2026 - November 1, 2026)"
+      "translatedTitle": "【ビルボード】稲垣えみ子『買わない生活』経済書籍チャート首位返り咲き",
+      "translatedExcerpt": "2026年11月5日公開（集計期間：2026年10月26日～2026年11月1日）の経済書籍チャー"
     },
     {
       "id": "7a8ece0f66dd7fae",
@@ -589,8 +684,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Billboard] Yukito Ayatsuji's \"Murder at Jukaku-kan\" won the Showa Chart for 12 consecutive weeks, and Chiyo Uno's \"Living Me\" surfaced",
-      "translatedExcerpt": "Chart by Year \"Billboard Japan Showa Books\""
+      "translatedTitle": "【ビルボード】綾辻行人『十角館の殺人』が昭和チャート12週連覇、宇野千代『生きて行く私』が浮上",
+      "translatedExcerpt": "年号別チャート&ldquo;Billboard JAPAN Showa Books&rdquo;の"
     },
     {
       "id": "6b0cd7b9aa6a7043",
@@ -608,8 +703,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Billboard] Cai Waku/August 8/Ohashi Kikka \"The Sata of the Other World: Volume 8 (Comic Version)\" won first place in \"Hot Manga\"",
-      "translatedExcerpt": "November 5, 2026 Public Chart (Aggregation Period: October 26 - November 1, 2026) Billboard"
+      "translatedTitle": "【ビルボード】采和輝／八月八／大橋キッカ『異世界の沙汰は社畜次第 8巻 (コミック版)』が“Hot Manga”1位を獲得",
+      "translatedExcerpt": "2026年11月5日公開チャート（集計期間：2026年10月26日～11月1日）Billboard"
     },
     {
       "id": "f83e009d6b91869c",
@@ -644,8 +739,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "< Live Report > Lex, his biggest live event, Darkness and Suffering are all songs of hope",
-      "translatedExcerpt": "On October 30, 2026, Lex's first arena solo performance at Toyota arena Tokyo, Tokyo ["
+      "translatedTitle": "＜ライブレポート＞LEX、自身最大規模ライブ開催 闇も苦しみもすべて希望の歌に",
+      "translatedExcerpt": "2026年10月30日、東京・TOYOTA ARENA TOKYOにてLEX初のアリーナ単独公演【"
     },
     {
       "id": "21b941d42176f6f6",
@@ -663,7 +758,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Jet held a special tour in Osaka and Tokyo featuring their debut album “get born” for the first time in 9 years",
+      "translatedTitle": "JET、9年ぶり来日決定 デビューアルバム『GET BORN』をフィーチャーしたスペシャル・ツアーを大阪・東京で開催",
       "translatedExcerpt": "オーストラリア・メルボルン出身のロックバンドジェット（JET）が、2027年3月に9年ぶりとなる来日ツアー〈JET JAPAN TOUR “GET BORN” 2027〉を開催することが発表された。 今回のツアーでは、2003年にリリースされ、世界的なブレイクのきっかけとなったデビューアルバム『GET BORN』をフィーチャー。「Are You Gonna Be My Girl」「Rollover DJ」「Look What You’ve Done」「Cold Hard Bitch」を含む、『GET BORN』から多数楽曲を披露する予定となっている。 2023年にアルバム『GET BORN』リリース20周年を記念したワールドツアーを開催したJET。JETというバンドを世界へと送り出した原点を、今度は日本で…"
     },
     {
@@ -682,7 +777,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "RADWIMPS Releases New Song “Shabadaba”",
+      "translatedTitle": "RADWIMPS、新曲「娑婆堕罵 -Shabadaba-」MV公開",
       "translatedExcerpt": "RADWIMPSの新曲「娑婆堕罵 -Shabadaba-」のミュージックビデオが公開になった。 現在放送中のフジテレビ系10月期 水10ドラマ『ポリティカルパン』の主題歌として書き下ろした新曲「娑婆堕罵 -Shabadaba-」は、ドラマ主題歌とは思えないほど挑発的で尖った楽曲として話題に。 ミュージックビデオの監督を務めたのは、国内外で活躍する映像クリエーターであるMasaki Watanabe。狂気と遊び心を綯い交ぜにした、現代アートのような抽象的な映像世界を展開。多様な映像表現とメタファーで社会への違和感や皮肉を描き、キャッチーな演出と怒りを帯びた臨場感あふれるパフォーマンスを通して、楽曲のメッセージを鮮烈に届ける。 架空の国・ニッポニアを舞台に、石原さとみ演じる女ルパン・如月弥生（きさらぎ・やよい…"
     },
     {
@@ -735,8 +830,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Dezert, 15th Anniversary Tour [Dezert 15th anniversary Hall tour 2026 \"Welcome To My Beginning\"] Arrival of the official report of the final performance",
-      "translatedExcerpt": "Dezert 15th Anniversary Hall Tou"
+      "translatedTitle": "DEZERT、15周年記念ツアー【DEZERT 15th ANNIVERSARY HALL TOUR 2026 \"Welcome To My Beginning\"】ファイナル公演の公式レポ到着",
+      "translatedExcerpt": "DEZERTの15周年記念ツアー【DEZERT 15th ANNIVERSARY HALL TOU"
     },
     {
       "id": "a4b3695d5cae1b84",
@@ -822,7 +917,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "The 26th Osaka Melody of My Heart Set List Announced",
+      "translatedTitle": "〈第26回わが心の大阪メロディー〉セットリスト発表",
       "translatedExcerpt": "11月10日(火)にNHK大阪ホールから生放送される〈第26回わが心の大阪メロディー〉のセットリストが発表された。 出演者はfox capture plan、ハンバート ハンバート、山本彩、モナキ、南こうせつ、岡林信康、T.M.Revolution、植村花菜、ヨネダ2000、西川貴教、天童よしみ。 幕開きは連続テレビ小説「ブラッサム」の音楽を手がけるfox capture planが生パフォーマンス。ハンバート ハンバートは「笑ったり転んだり」、山本彩は「365日の紙飛行機」を披露。さらに、出演者が選ぶ朝ドラ名曲を、ＮＨＫに残るアーカイブス映像から紹介する。 ハンバート ハンバート・南こうせつ・山本彩は1960年代後半から1970年代前半、日本中の若者を熱狂させた“関西フォーク”のスペシャルメドレーで披露…"
     },
     {
@@ -841,7 +936,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Ayumu Imazu Announces His Largest Hall Tour of 5 Cities Nationwide",
+      "translatedTitle": "Ayumu Imazu、自身最大規模となる全国5都市を巡るホールツアー開催決定",
       "translatedExcerpt": "Ayumu Imazuが、自身最大規模となる全国5都市を巡るホールツアーの開催を発表した。2027年7月23日(金)の北海道公演を皮切りに、大阪、福岡、愛知、東京の全国5都市で開催される。 1月31日(日)に控える自身初の日本武道館公演は、すでにチケットがソールドアウト。また、2026年10月2日(金)にリリースした新曲「結び」は、配信直後から各配信サービスのランキングで続々と1位を獲得し計9冠を達成、SNSの総再生数は12億回を突破。こうした数々の実績を重ね、今回自身最大規模となる全国5都市のホールツアーへと歩みを進める。 ホールツアーのチケット最速先行受付は、本日11月5日(木)18時より「Ayumu Imazu Official Fan Club」にてスタート。 ◾️＜Ayumu Imazu LIV…"
     },
     {
@@ -860,7 +955,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Ayumu Imazu Announces His Largest Hall Tour of 5 Cities Nationwide",
+      "translatedTitle": "Ayumu Imazu、自身最大規模となる全国5都市を巡るホールツアー開催決定",
       "translatedExcerpt": "Ayumu Imazuが、自身最大規模となる全国5都市を巡るホールツアーの開催を発表した。2027年7月23日(金)の北海道公演を皮切りに、大阪、福岡、愛知、東京の全国5都市で開催される。 1月31日(日)に控える自身初の日本武道館公演は、すでにチケットがソールドアウト。また、2026年10月2日(金)にリリースした新曲「結び」は、配信直後から各配信サービスのランキングで続々と1位を獲得し、計9冠を達成。SNSの総再生数は12億回を突破した。こうした数々の実績を重ね、今回自身最大規模となる全国5都市のホールツアーへと歩みを進める。 なお、ホールツアーのチケット最速先行受付は、11月5日(木)18:00より「Ayumu Imazu Official Fan Club」にてスタートしている。 ツアー情報 ht…"
     },
     {
@@ -879,7 +974,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Jordan Davis releases romantic new song",
+      "translatedTitle": "Jordan Davis、ロマンティックな新曲リリース",
       "translatedExcerpt": "Jordan Davisが2026年10月30日(金)にニューシングル「Steady Flame」をリリースした。 本作は、Jordan DavisとJacob Davis、Josh Jenkins、Matt Jenkinsという、これまで数々のヒット曲を生み出してきたソングライター陣による共作。大ヒット曲“Buy Dirt”や“Tucson Too Late”を手がけたクリエイティブチームが再び集結し、Davisの持ち味である親しみやすいストーリーテリングと、心に残るメロディを融合させた1曲となっている。 プロデュースはPaul DiGiovanniが担当。ミッドテンポの親しみやすい楽曲でありながら、力強いメッセージとロマンティックな余韻を兼ね備えた作品に仕上がっている。 リリース情報 https://…"
     },
     {
@@ -898,7 +993,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Presley Regier launches new AL featuring all 12 songs",
+      "translatedTitle": "Presley Regier、全12曲を収録した新AL発売",
       "translatedExcerpt": "Presley Regierが2026年10月30日(金)にニューアルバム『Sensitive to the room, sensitive to the sound』をリリースした。 全12曲、約41分で構成される本作。ポップを軸に、インディーの感覚やエレクトロニックなサウンドを取り入れている。 繊細な感情の揺れと、現代的でキャッチーな音楽性が交差する本作。Presley Regierの現在地を示すアルバムとなっている。 リリース情報 https://ototoy.jp/_/default/p/4381525 アーティスト情報 https://www.instagram.com/presleyregier/"
     },
     {
@@ -917,7 +1012,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Shota Aoi, Live Tour Live Blu-ray Release Decision",
+      "translatedTitle": "蒼井翔太、ライブツアー＜LIMITLESS＞LIVE Blu-rayリリース決定",
       "translatedExcerpt": "蒼井翔太が、今年7月にリリースしたアルバム『LIMITLESS』を引っ提げ今夏に開催したライブツアー＜蒼井翔太 LIVE 2026 WONDER lab. LIMITLESS＞の国内千秋楽（8月11日／埼玉・大宮ソニックシティ 大ホール）の模様を収録したLIVE Blu-rayを2027年1月20日にリリースすることが決定した。 アルバム『LIMITLESS』の新曲を中心に、蒼井の新章幕開けとなる新たな表現を追求したノンストップのライブ・アンコールを含む全24曲はもちろん、特典映像としてリハーサルの模様やライブの裏側を捉えたメイキングドキュメンタリー映像も収録される。 さらに、8月・9月に開催された蒼井初の海外ツアー単独公演、台北・香港の様子もメイキングにあわせて収録。初回製造分は別冊ライブフォトブックを…"
     },
     {
@@ -936,8 +1031,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Former Dragon Ball Z composer elected Texas Attorney General in US midterm elections",
-      "translatedExcerpt": "Blue Wave, which swept through Texas this week, also contained the energy of Dragon Ball Z."
+      "translatedTitle": "米中間選挙で『ドラゴンボールZ』の元作曲家がテキサス州司法長官に当選",
+      "translatedExcerpt": "今週米テキサス州を席巻した\"ブルー・ウェーブ\"には、『ドラゴンボールZ』のエネルギーも宿っていた。"
     },
     {
       "id": "c4b731f6df2f9960",
@@ -955,8 +1050,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Seventh Vega releases full trailer for New AL 'prism' on 11/7",
-      "translatedExcerpt": "Seventh Vega has released a full-length trailer for their new album, prism, which will be released on November 7."
+      "translatedTitle": "セブンス・ベガ、11/7発売のニューAL『PRISM』全曲トレーラー公開",
+      "translatedExcerpt": "セブンス・ベガが、11月7日にリリースするニューアルバム『PRISM』の全曲トレーラーを公開した。"
     },
     {
       "id": "4606f3dd32537e76",
@@ -974,7 +1069,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Seventh Vega Releases 2nd Album 'prism' Track List Trailer",
+      "translatedTitle": "セブンス・ベガ、2ndアルバム『PRISM』トラックリストトレーラー公開",
       "translatedExcerpt": "セブンス・ベガが11月7日、2ndアルバム『PRISM』をリリースする。同アルバムのフラゲ日である本日11月5日、アルバム全曲を少しずつ視聴可能なトラックリストトレーラーをオフィシャルYouTubeチャンネルに公開した。 トレーラーは既に配信中の楽曲をはじめ、本日解禁となる新曲もダイジェストで紹介しているなど、作品全貌への期待が高まる仕上がりだ。 また、セブンス・ベガは明後日11月7日19:00、2ndアルバム『PRISM』収録新曲「OVERDRIVE」のミュージックビデオを公開するほか、同日20:00から、恒例セブンスの日(毎月7日)の公式Instagram生配信も決定している。メンバー自らがアルバムについて語る内容になるとのことだ。 なお、本日11月5日より『PRISM』リリースを記念したパネル展と掲…"
     },
     {
@@ -993,8 +1088,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Baby dont Cry releases new song “Replay” simultaneously in Japan and Korea",
-      "translatedExcerpt": "Baby dont Cry released a new song “Replay” simultaneously on November 4th in Japan and South Korea."
+      "translatedTitle": "Baby DONT Cry、新曲「Replay」日韓同時リリース＆MV公開",
+      "translatedExcerpt": "Baby DONT Cryが、新曲「Replay」を11月4日に日韓同時リリースし、あわせてミュー"
     },
     {
       "id": "5b639e7d62f9421a",
@@ -1012,7 +1107,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Atsumu Wonderful releases light new song",
+      "translatedTitle": "アツムワンダフル、軽やかな新曲リリース",
       "translatedExcerpt": "アツムワンダフルが2026年11月4日(水)にニューシングル「Oh! Autumn」をリリースした。 季節の移ろいを軽やかに切り取った本作。ボサテイストのリズムを取り入れたエレクトロニックポップを軸に、どこか渋谷系を思わせる洒落たポップ感を散りばめたサウンドに仕上がっている。 軽やかに揺れるリズムと電子音が重なり合った本楽曲。懐かしさと新しさが入り混じる秋の景色を描いている。 アツムワンダフルは今回のシングルについて、以下のようにコメントを寄せている。 コメント リリース情報 https://ototoy.jp/_/default/p/4345127 アーティスト情報 https://instagram.com/atsumu_wonderful https://x.com/atsumusic"
     },
     {
@@ -1031,7 +1126,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Tonight's \"star\" 11/5 Performer Announcement",
+      "translatedTitle": "今夜放送〈STAR〉11/5出演者発表",
       "translatedExcerpt": "フジテレビの音楽番組〈STAR〉11月5日は2時間スペシャル。氣志團、PUFFY、DA PUMP、GENERATIONS、Aぇ! group、KAITOが出演する。 氣志團は「One Night Carnival」、PUFFYは「アジアの純真」「愛のしるし」「渚にまつわるエトセトラ」「これが私の生きる道」の30周年スペシャルメドレー、DA PUMPは「Rhapsody in Blue」、GENERATIONSは「Y.M.C.A.」「VIBE」、Aぇ! groupは「Emotion」、ソロ活動がスタートしたKAITO(King & Prince 髙橋海人)は「swim?」を披露する。 VTR企画は「歌おう！踊ろう！一世風靡ソング55連発！」。今週のSTARナビゲーターは永尾柚乃とキンタロー。が担当する。 番…"
     },
     {
@@ -1050,8 +1145,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Tomorrow X together, 9th mini album \"perfect storm\" preview video released",
-      "translatedExcerpt": "Tomorrow X together previews 9th mini album perfect storm"
+      "translatedTitle": "TOMORROW X TOGETHER、9thミニアルバム『PERFECT STORM』プレビュー映像公開",
+      "translatedExcerpt": "TOMORROW X TOGETHERが、9thミニアルバム『PERFECT STORM』のプレビ"
     },
     {
       "id": "8b6359621155d8b7",
@@ -1069,8 +1164,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Yomi first] A! group \"Emotion\" with 395,000 copies is currently the first single to go solo",
-      "translatedExcerpt": "From this week's CD single sales report, the aggregation from November 2 to November 4, 2026 is revealed, A! g"
+      "translatedTitle": "【先ヨミ】Aぇ! group『Emotion』39.5万枚で現在シングル首位独走中",
+      "translatedExcerpt": "今週のCDシングル売上レポートから2026年11月2日～11月4日の集計が明らかとなり、Aぇ! g"
     },
     {
       "id": "393a7a1967c631ce",
@@ -1088,8 +1183,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[Yomi] Be: first \"BE: 4U\" is currently the number one album on the road with 89,000 copies",
-      "translatedExcerpt": "This week's CD album sales report reveals the aggregation from November 2 to November 4, 2026, BE: FI"
+      "translatedTitle": "【先ヨミ】BE:FIRST『BE:4U』8.9万枚で現在アルバム首位走行中",
+      "translatedExcerpt": "今週のCDアルバム売上レポートから2026年11月2日～11月4日の集計が明らかとなり、BE:FI"
     },
     {
       "id": "419d5cfe3183a9b8",
@@ -1107,7 +1202,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "< air jam 2026 >, live broadcast Hi-standard stage",
+      "translatedTitle": "＜AIR JAM 2026＞、Hi-STANDARDのステージを生中継",
       "translatedExcerpt": "Hi-STANDARDが11月7日、自身主催フェス＜AIR JAM 2026＞を開催する。会場は、2000年にHi-STANDARDが日本で初めてスタジアム規模のフェスを開催した場所である千葉・ZOZOマリンスタジアムだ。同フェスより、Hi-STANDARDのライブがYouTubeとSpace Shower TVで生中継されることが決定した。 先ごろHi-STANDARDは、PIZZA OF DEATHのオフィシャルSNSにて、“Hi-STANDARD 11/7(Sat) 19:00 JST”なる予告を行っていたが、上記のとおり、今週末開催される＜AIR JAM 2026＞のステージよりHi-STANDARDのライブが生中継ことが明らかとなったかたちだ。そのトレーラー映像も公開となった。 ■生中継『Hi-…"
     },
     {
@@ -1126,7 +1221,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Straight Angeli arrives at the official report of the 1st Anniversary Live held on the day of his major debut",
+      "translatedTitle": "Straight Angeli、メジャーデビュー当日に開催した1周年アニバーサリーライブの公式レポ到着",
       "translatedExcerpt": "スターダストプロモーション所属の6人組女性アイドルグループ、Straight Angeliがデビュ"
     },
     {
@@ -18345,97 +18440,6 @@
       },
       "translatedTitle": "Gang parade decides to make the final live video",
       "translatedExcerpt": "GANG PARADEが、10月29日(木)にZepp Hanedaで開催するワンマンライブ〈GANG PARADE LAST SAY HELLO!!〉をもって、その活動に終止符を打つ。 チケットがすでにソールドアウトしているこの超プレミアムなラストステージの映像商品が、2027年3月31日に発売されることが決定した。 映像商品『GANG PARADE LAST SAY HELLO!! at Zepp Haneda (TOKYO)』は、Blu-ray Disc 2枚組の大ボリュームで発売される。Disc1にはGANG PARADE最後のパフォーマンスとなるラストライブ「GANG PARADE LAST SAY HELLO!!」の模様を完全収録。Disc2ではファン必携の特典映像をふんだんに収録予定。 また…"
-    },
-    {
-      "id": "ee487efda2027f8f",
-      "title": "GANG PARADE、ラストワンマンライブ『GANG PARADE LAST SAY HELLO!!』を映像作品化",
-      "link": "https://barks.jp/news/1101166",
-      "publishedAt": "2026-10-28T09:08:32.000Z",
-      "excerpt": "GANG PARADE が、10月29日（木）にZepp Hanedaで開催するワンマンライブ＜GANG PARADE LAST SAY HELLO!!＞をもって約10年間の活動に終止符を打つ。チケットがすでにソールドアウトしている本公演の映像商品が、2027年3月31日（水）に発売されることが決定した。 映像商品『GANG PARADE LAST SAY HELLO!! at Zepp Haneda (TOKYO)』は、Blu-ray Disc 2枚組の大ボリュームで発売される。Disc1にはGANG PARADE最後のパフォーマンスとなるラストライブ＜GANG PARADE LAST SAY HELLO!!＞の模様を完全収録。Disc2ではファン必携の特典映像をふんだんに収録予定だ。 また、ラストライ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/05/16161255/GP_GANG-FINALE_Aphoto.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "GANG PARADE's last one-man live \"GANG PARADE LAST SAY HELLO!!\" turned into a video work",
-      "translatedExcerpt": "GANG PARADE will end their 10-year career with a one-man live <GANG PARADE LAST SAY HELLO!!> to be held at Zepp Haneda on October 29th (Thursday). It has been decided that the video products for this performance, for which tickets have already sold out, will be released on Wednesday, March 31, 2027. The video product ``GANG PARADE LAST SAY HELLO!! at Zepp Haneda (TOKYO)'' will be released as a large volume set of 2 Blu-ray Discs. Disc 1 includes the complete recording of GANG PARADE's last performance, the last live <GANG PARADE LAST SAY HELLO!!>. Disc 2 will include plenty of bonus footage that is a must-have for fans. Also, the last try..."
-    },
-    {
-      "id": "d548f8b6ed923505",
-      "title": "World of Warcraft: Forever Censors Breast Jiggle Physics",
-      "link": "https://news.sankakucomplex.com/n/hwysd7VWY8fGuKM6Iz_etw",
-      "publishedAt": "2026-10-28T09:00:49.000Z",
-      "excerpt": "Blizzard has attracted criticism from World of Warcraft fans after comparisons between WoW Classic and the upcoming World of Warcraft: Forever revealed that female characters have lost much of their original breast jiggle physics.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "4d9ab2f619726e12",
-      "title": "World of Warcraft: Forever Censors Breast Jiggle Physics",
-      "link": "https://news.sankakucomplex.com/n/_5xckCBlgRv0343q2fJ8vw",
-      "publishedAt": "2026-10-28T09:00:49.000Z",
-      "excerpt": "Blizzard has attracted criticism from World of Warcraft fans after comparisons between WoW Classic and the upcoming World of Warcraft: Forever revealed that female characters have lost much of their original breast jiggle physics.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "37b892e5f205978e",
-      "title": "Neil、ミニAL『FLOOR』リード曲はAyumu Imazuが楽曲提供「才能に驚かされることがたくさんあります」",
-      "link": "https://barks.jp/news/1101153",
-      "publishedAt": "2026-10-28T09:00:23.000Z",
-      "excerpt": "Neilが11月25日（水）に3rdミニアルバム『FLOOR』を配信リリースする。このたび収録内容が解禁され、リード曲「Feel That Bass」をAyumu Imazuがプロデュースし、Neilと共作、ビートメーカーのA.G.Oが編曲していることが明らかになった。 「Feel That Bass」が収録される3rdミニアルバム『FLOOR』は、昨年リリースしたミニアルバム『STAIRS』から続く、Neil自身の成長の物語を表現した作品。2025年11月、14歳でリリースした2ndミニアルバム『STAIRS』から約1年、「その先の『FLOOR』で、自分らしく踊りながら、自分自身の音楽と存在を刻んでいく。」という思いが込められた。 現在15歳。成長期、そして変声期を経て、ひとりの男性アーティストとして新…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/02171828/Neil.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Neil's mini-AL \"FLOOR\" lead song provided by Ayumu Imazu \"There are many things that surprise me with your talent\"",
-      "translatedExcerpt": "Neil will release his 3rd mini album ``FLOOR'' on November 25th (Wednesday). The contents of the album have now been released, and it has been revealed that the lead song \"Feel That Bass\" was produced by Ayumu Imazu, co-written with Neil, and arranged by beat maker A.G.O. The third mini-album \"FLOOR\", which includes \"Feel That Bass\", is a work that expresses the story of Neil's own growth, continuing from the mini-album \"STAIRS\" released last year. In November 2025, it has been about a year since he released his second mini-album ``STAIRS'' at the age of 14, and his thoughts are ``In the ``FLOOR'' of the future, I will dance in my own way and carve out my own music and existence.'' Currently 15 years old. After a period of growth and a period of changing voice, he has emerged as a male artist..."
-    },
-    {
-      "id": "8ce6c7fc0732535c",
-      "title": "亀梨和也、『THE FIRST TAKE』で1stアルバム収録曲「POMPEII」をパフォーマンス",
-      "link": "https://barks.jp/news/1101116",
-      "publishedAt": "2026-10-28T09:00:09.000Z",
-      "excerpt": "亀梨和也がYouTubeチャンネル『THE FIRST TAKE』の第720回に登場することが明らかになった。「絆」を披露した第717回に続く、第2弾となる。 今回披露するのは、7月8日に発売された1stアルバム『WAVE』収録曲の「POMPEII」。シンガーソングライターの友成空による書き下ろし作品で、マグマのように熱い愛情を古代遺跡の悲劇をモチーフに描いた一曲となっている。 10月6日放送の日本テレビ系『夜の音-TOKYO MIDNIGHT MUSIC-』でテレビ初披露された本楽曲だが、今回の「THE FIRST TAKE」ではストリングス生演奏とともに、ドラマチックかつ情熱的に歌い上げる。 ◆ ◆ ◆ ■亀梨和也コメント今回は2曲目としてアルバム『WAVE』から「POMPEII」を歌わせていただきま…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/28151013/261017_POMPEII_Youtube.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Kazuya Kamenashi performs the song “POMPEII” from his 1st album at “THE FIRST TAKE”",
-      "translatedExcerpt": "It has been revealed that Kazuya Kamenashi will appear on the 720th episode of the YouTube channel \"THE FIRST TAKE\". This is the second installment following the 717th episode where they performed \"Kizuna\". The song they will be performing this time is \"POMPEII\", a song from their 1st album \"WAVE\" released on July 8th. This song was written by singer-songwriter Sora Tomonari and depicts love as passionate as magma, with the tragedy of ancient ruins as its motif. This song was first performed on TV on Nippon Television's \"Yoronoto -TOKYO MIDNIGHT MUSIC-\" broadcast on October 6th, but in this \"THE FIRST TAKE\", it will be sung dramatically and passionately with live string music. ◆ ◆ ◆ ■Comment from Kazuya Kamenashi This time, I would like to sing “POMPEII” from the album “WAVE” as the second song..."
     }
   ]
 }

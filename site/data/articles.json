@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T13:03:26.238Z",
+  "generatedAt": "2026-11-05T13:32:44.084Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 138,
+      "count": 139,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 274,
+      "count": 277,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 137,
+      "count": 133,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
       "count": 74,
       "fetchedCount": 24
     }
@@ -163,10 +163,67 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 545,
+    "translatedJapaneseArticles": 541,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "12234e3dd6af0276",
+      "title": "Mrs. GREEN APPLE、新曲「共犯」MVの宇宙人になれるYouTubeショートエフェクト公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167185",
+      "publishedAt": "2026-11-05T13:15:00.000Z",
+      "excerpt": "Mrs. GREEN APPLEが、YouTubeショートエフェクト「MGA Kyohan Mat",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167185/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Mrs. GREEN APPLE、新曲「共犯」MVの宇宙人になれるYouTubeショートエフェクト公開",
+      "translatedExcerpt": "Mrs. GREEN APPLEが、YouTubeショートエフェクト「MGA Kyohan Mat"
+    },
+    {
+      "id": "1630a1550bea27a6",
+      "title": "GAN（岩田剛典）、音楽とファッションが一体となった「Watch」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167183",
+      "publishedAt": "2026-11-05T13:10:00.000Z",
+      "excerpt": "GAN（三代目 J SOUL BROTHERS・岩田剛典）が、新曲「Watch」のミュージックビデ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167183/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "GAN（岩田剛典）、音楽とファッションが一体となった「Watch」MV公開",
+      "translatedExcerpt": "GAN（三代目 J SOUL BROTHERS・岩田剛典）が、新曲「Watch」のミュージックビデ"
+    },
+    {
+      "id": "386ae5d22461ccde",
+      "title": "Da-iCE、音楽フェス【LIVE AZUMA 2026】での「うららか」初披露ライブ映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167186",
+      "publishedAt": "2026-11-05T13:05:00.000Z",
+      "excerpt": "Da-iCEが、新曲「うららか」のライブ映像を公開した。 2026年10月16日に配信リリース",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167186/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Da-iCE、音楽フェス【LIVE AZUMA 2026】での「うららか」初披露ライブ映像を公開",
+      "translatedExcerpt": "Da-iCEが、新曲「うららか」のライブ映像を公開した。 2026年10月16日に配信リリース"
+    },
     {
       "id": "fb5c99ed0b42f911",
       "title": "eill、BE:FIRSTに提供した「夢中」セルフカバーのスタジオライブ映像を公開",
@@ -261,6 +318,23 @@
       },
       "translatedTitle": "Ayumu Imazu、自身最大規模となる全国5都市ホールツアーへ",
       "translatedExcerpt": "Ayumu Imazuが、2027年7月よりホールツアーを開催する。 本ツアーは自身最大規模と"
+    },
+    {
+      "id": "c7ec4d46c0417e70",
+      "title": "A Few Moments of Cheers' Studio Hurray! Animates Wondering Mate Net Shorts",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-05/a-few-moments-of-cheers-studio-hurray-animates-wondering-mate-net-shorts/.243559",
+      "publishedAt": "2026-11-05T12:44:43.000Z",
+      "excerpt": "Yuno Nakahara, Nobuhiko Okamoto play avatars from discontinued apps",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gCF/youtube/XPyht8yzgeE.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "9ea2b0dcd0decee1",
@@ -18364,82 +18438,6 @@
       },
       "translatedTitle": "HOME releases teaser for new song “Mirror Muscle” used in NIKE “AIR JORDAN 1 ROYAL” campaign video",
       "translatedExcerpt": "HOME, a three-person band based in Okinawa, released their new single \"Mirror Muscle\" today, October 28th. Along with this, the music video teaser for the song was released. The new song \"Mirror Muscle\" is also featured in the campaign video for NIKE's iconic model \"AIR JORDAN 1 ROYAL\" which will be reprinted and released by the sneaker select shop \"atmos\" concept shop TOKYO 23. Although it has a retro feel, the lead synthesizer's melodious phrase leaves a strong aftertaste, creating a synth pop tune that boasts a grand scale. The concept of the song is \"Mirror Muscle\". A clear and moody song unique to HOME depicts the sad love story between a man and a woman who take care of their appearance and appearance and compete with their bravado..."
-    },
-    {
-      "id": "5c296092834f109c",
-      "title": "HOME、新曲「Mirror Muscle」リリース＆全国7都市を巡る対バンツアー開催",
-      "link": "https://ototoy.jp/news/132512",
-      "publishedAt": "2026-10-28T10:00:00.000Z",
-      "excerpt": "沖縄を拠点に活動する3人組バンド・HOMEが、2026年10月28日(水)にニューシングル「Mirror Muscle」を配信リリースした。 本作は、スニーカーセレクトショップ「atmos」のコンセプトショップ「TOKYO 23」より復刻発売されるNIKE「AIR JORDAN 1 ROYAL」のキャンペーン映像にも起用された楽曲。レトロな質感とメロディアスなシンセサイザーのフレーズが印象的な、スケール感あふれるシンセポップに仕上がっている。 楽曲のテーマは「見せかけの筋肉（Mirror Muscle）」。外見を取り繕い、互いに虚勢を張り合う男女の恋愛模様を、ムーディーな歌詞で描いている。メンバーのShunta Higaが楽曲の骨格を制作し、エッジの効いたギターソロを披露。o-pngがシンセサイザーとプロ…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132512/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "HOME releases new song “Mirror Muscle” & holds band tour in 7 cities nationwide",
-      "translatedExcerpt": "HOME, a three-person band based in Okinawa, released their new single \"Mirror Muscle\" on Wednesday, October 28, 2026. This song was also used in the campaign video for NIKE's ``AIR JORDAN 1 ROYAL,'' which will be reprinted and released by concept shop ``TOKYO 23'' of sneaker select shop ``atmos.'' It is a synth pop song with an impressive retro texture and melodious synthesizer phrases, full of scale. The theme of the song is \"Mirror Muscle\". The song's moody lyrics depict a love story between a man and a woman who take care of their appearances and put on a false front for each other. Member Shunta Higa created the framework of the song and performed an edgy guitar solo. o-png is a synthesizer and professional..."
-    },
-    {
-      "id": "85f1269713f14738",
-      "title": "LOLOET、初EP「at dusk」より「La nuit」を先行配信リリース",
-      "link": "https://ototoy.jp/news/132504",
-      "publishedAt": "2026-10-28T10:00:00.000Z",
-      "excerpt": "LOLOETが、自分たちの音楽性を「ダンス」「アンビエント」の二面から捉えたコンセプトEP「at dusk」を2026年11月11日に配信リリースする。 その「ダンスサイド」から、アンビエント・テクノ〜エクスペリメンタル・ダブの境界をフィジカルなバンドサウンドで探求するようなグルーヴ・ナンバー、「La nuit」を先行リリースした。 「La nuit」は、LOLOETらしい生楽器とエフェクトのみで構築されたアナログな音のレイヤーはそのままながら、より抽象的に、ダンスミュージックとして無心に踊れることを意識した人力ダーク・アンビエント・ダブテクノになっている。 11月17日（火）には、ワンマンライブ〈小春日和〉が渋谷Spotify O-WESTにて開催されるほか、12月には名阪ツアーも予定されている。 ライ…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132504/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "LOLOET pre-releases “La nuit” from first EP “at dusk”",
-      "translatedExcerpt": "LOLOET will release a concept EP ``at dusk'' on November 11, 2026, which captures their musicality from two aspects: ``dance'' and ``ambient.'' From that \"dance side\", they pre-released \"La nuit\", a groove number that explores the boundary between ambient techno and experimental dub with a physical band sound. \"La nuit\" retains LOLOET's analog layer of sound, built only with live instruments and effects, but is more abstract, human-powered dark ambient dub techno that is conscious of being able to be danced to as dance music. On November 17th (Tuesday), a one-man live \"Koharubiyori\" will be held at Shibuya Spotify O-WEST, and a tour of Meihan is also scheduled for December. Light…"
-    },
-    {
-      "id": "1b90dd570b2271c9",
-      "title": "梓川、冬をテーマにしたカバーAL『Torch』リリース",
-      "link": "https://ototoy.jp/news/132500",
-      "publishedAt": "2026-10-28T10:00:00.000Z",
-      "excerpt": "アーティスト・梓川が、冬をテーマにしたカバーアルバム『Torch』を2026年10月28日にリリースした。 あわせて、自身のYouTubeチャンネルにて、収録曲全9曲を試聴できるトレーラー映像を公開した。 梓川が季節をテーマに展開するカバーアルバムシリーズ。その最新作となる『Torch』では、「冬」をテーマに選曲した全9曲を収録する。梓川自身が選曲したJ-POPの王道冬ソングをはじめ、VOCALOID楽曲やインディーズシーンの冬の楽曲まで、幅広いジャンルの楽曲をラインナップとなっている。 凛とした冬の空気感や雪が降り積もる静けさを感じさせる楽曲の数々を、梓川ならではの透明感とぬくもりを兼ね備えた歌声で表現。冬の情景に寄り添いながら、聴く人の心を優しく温める、季節感に特化したコンセプチュアルなカバーアルバム…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132500/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Azusagawa releases winter-themed cover AL “Torch”",
-      "translatedExcerpt": "Artist Azusagawa released a winter-themed cover album \"Torch\" on October 28, 2026. At the same time, he released a trailer video on his YouTube channel where you can listen to all 9 songs. A cover album series by Azusagawa based on seasonal themes. Their latest work, ``Torch,'' includes a total of 9 songs selected with the theme of ``winter.'' The lineup includes songs from a wide range of genres, including classic J-POP winter songs selected by Azusagawa himself, as well as VOCALOID songs and winter songs from the indie scene. A number of songs that evoke the feeling of a dignified winter atmosphere and the silence of falling snow are expressed with a singing voice that combines the clarity and warmth unique to Azusa River. A conceptual cover album specializing in the sense of the season, which gently warms the heart of the listener while nestling in the winter scene..."
-    },
-    {
-      "id": "17f2b62e7ff46dee",
-      "title": "GANG PARADE、ラストライブの映像化決定",
-      "link": "https://ototoy.jp/news/132514",
-      "publishedAt": "2026-10-28T09:15:00.000Z",
-      "excerpt": "GANG PARADEが、10月29日(木)にZepp Hanedaで開催するワンマンライブ〈GANG PARADE LAST SAY HELLO!!〉をもって、その活動に終止符を打つ。 チケットがすでにソールドアウトしているこの超プレミアムなラストステージの映像商品が、2027年3月31日に発売されることが決定した。 映像商品『GANG PARADE LAST SAY HELLO!! at Zepp Haneda (TOKYO)』は、Blu-ray Disc 2枚組の大ボリュームで発売される。Disc1にはGANG PARADE最後のパフォーマンスとなるラストライブ「GANG PARADE LAST SAY HELLO!!」の模様を完全収録。Disc2ではファン必携の特典映像をふんだんに収録予定。 また…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132514/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Gang parade decides to make the final live video",
-      "translatedExcerpt": "GANG PARADEが、10月29日(木)にZepp Hanedaで開催するワンマンライブ〈GANG PARADE LAST SAY HELLO!!〉をもって、その活動に終止符を打つ。 チケットがすでにソールドアウトしているこの超プレミアムなラストステージの映像商品が、2027年3月31日に発売されることが決定した。 映像商品『GANG PARADE LAST SAY HELLO!! at Zepp Haneda (TOKYO)』は、Blu-ray Disc 2枚組の大ボリュームで発売される。Disc1にはGANG PARADE最後のパフォーマンスとなるラストライブ「GANG PARADE LAST SAY HELLO!!」の模様を完全収録。Disc2ではファン必携の特典映像をふんだんに収録予定。 また…"
     }
   ]
 }

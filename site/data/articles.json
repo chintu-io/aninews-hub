@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T02:31:45.070Z",
+  "generatedAt": "2026-11-05T03:01:55.173Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 137,
+      "count": 134,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 85,
+      "count": 87,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 274,
+      "count": 276,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 236,
+      "count": 235,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 130,
+      "count": 132,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "count": 75,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,158 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 627,
+    "translatedJapaneseArticles": 630,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "0f2e9e0496aeb22e",
+      "title": "〈鶴瓶のええ歌やなぁ〉日野美歌が登場",
+      "link": "https://ototoy.jp/news/132628",
+      "publishedAt": "2026-11-05T03:00:00.000Z",
+      "excerpt": "BS11〈鶴瓶のええ歌やなぁ〉11月7日は日野美歌が登場する。 19歳で歌手デビューし「男と女のラブゲーム」など数々のヒット曲を生み出した日野。自身を代表する大ヒット曲で紅白初出場を果たした「氷雨」を熱唱。新コーナー「鶴瓶さん聞いて」では「氷雨」について最もよく知る人物である〇〇がサプライズで登場、当時の裏話を語る。 自身の青春時代に聞いていた荒井由美の「海を見ていた午後」、そして、10代から歌っていた髙橋真梨子の「五番街のマリーへ」も披露。幼いころから歌手への夢を応援してくれた亡き両親、そして「やまない雨も明けない夜もない」というメッセージを伝えるべく自身で作詞作曲した「明けの明星」を歌唱する。 番組情報 鶴瓶のええ歌やなぁ 1,「氷雨」 インフォメーション https://www.bs11.jp/en…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132628/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "<Tsurube's great song> Mika Hino appears",
+      "translatedExcerpt": "Mika Hino will appear on BS11 〈Tsurube no Ee Uta Ya Naa〉 on November 7th. Hino made his debut as a singer at the age of 19 and produced many hit songs such as \"Otoko to Onna no Love Game.\" He passionately sang \"Hyoen,\" his signature big hit song that made him appear in Kohaku for the first time. In the new corner, ``Listen to Mr. Tsurube,'' 〇〇, the person who knows the most about ``Hyoen,'' makes a surprise appearance and tells the story behind the time. She also performed Yumi Arai's ``Afternoon Watching the Sea'', which she had listened to in her youth, and Mariko Takahashi's ``To Marie on Fifth Avenue'', which she had been singing since she was a teenager. She sings ``Morning Star,'' which she wrote and composed to convey the message of her late parents, who supported her dream of becoming a singer since she was a child, and ``There is no rain that never stops, and there is no night that never ends.'' Program information Tsurube's great song 1, \"Iroi\" Information https://www.bs11.jp/en..."
+    },
+    {
+      "id": "d467b5084e2fa0d3",
+      "title": "【ビルボード】Kis-My-Ft2『Kis SCENE』が総合アルバム首位 VOLTACTION／ILLITが初登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/167124",
+      "publishedAt": "2026-11-05T03:00:00.000Z",
+      "excerpt": "2026年11月4日公開（集計期間：2026年10月26日～11月1日）の総合アルバム・チャート&",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167124/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Kis-My-Ft2 “Kis SCENE” ranks first in overall albums VOLTACTION/ILLIT appears for the first time",
+      "translatedExcerpt": "Comprehensive album chart released on November 4, 2026 (collection period: October 26, 2026 - November 1, 2026)"
+    },
+    {
+      "id": "d232cceb9e519ab5",
+      "title": "【ビルボード】ONE OK ROCK『Unreleased Collection - Japan Exclusive』がDLアルバム初登場首位 ILLIT／Mrs. GREEN APPLEが続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/167154",
+      "publishedAt": "2026-11-05T03:00:00.000Z",
+      "excerpt": "2026年11月4日公開（集計期間：2026年10月26日～11月1日）のBillboard JA",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167154/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] ONE OK ROCK's \"Unreleased Collection - Japan Exclusive\" debuts at number one on DL albums, followed by ILLIT/Mrs. GREEN APPLE",
+      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
+    },
+    {
+      "id": "e6128dc9e452cb76",
+      "title": "【急上昇ワード】YOASOBI、初東京ドーム公演が音源化",
+      "link": "https://ototoy.jp/news/132627",
+      "publishedAt": "2026-11-05T03:00:00.000Z",
+      "excerpt": "『YOASOBI 5th ANNIVERSARY DOME LIVE 2024 “超現実” at TOKYO DOME』を配信リリースしたYOASOBIが急上昇ワードにランクイン。 本作は自身初のドーム公演のライブ音源で、2024年11月10日に開催された東京ドーム公演Day2の音源を27曲収録。現在開催中の国内5都市とアジア5都市を巡る過去最大規模のドーム＆スタジアム・ツアー開催を記念してリリースされた。 現在放送中のNHK連続テレビ小説〈ブラッサム〉主題歌「咲き誇れ」も好評配信中。 リリース情報 https://ototoy.jp/_/default/p/4378417 https://ototoy.jp/_/default/p/4278279 アーティスト情報 https://www.yoasobi…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132627/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Raising word] YOASOBI's first Tokyo Dome performance becomes audio source",
+      "translatedExcerpt": "YOASOBI, which released “YOASOBI 5th ANNIVERSARY DOME LIVE 2024 “Super Reality” at TOKYO DOME,” is ranked in the trending keywords. This work is the live sound source of his first dome performance, and includes 27 songs from Day 2 of the Tokyo Dome performance held on November 10, 2024. It was released to commemorate the largest-ever dome and stadium tour, which is currently being held in 5 cities in Japan and 5 cities in Asia. The theme song for the currently airing NHK TV drama series ``Blossom'', ``Sakigagere'', is also being distributed. Release information https://ototoy.jp/_/default/p/4378417 https://ototoy.jp/_/default/p/4278279 Artist information https://www.yoasobi…"
+    },
+    {
+      "id": "a1599f95d9e21aa4",
+      "title": "Wandance Live-Action Movie Drops Extended Trailer",
+      "link": "https://crunchyroll.com/news/latest/2026/11/5/wandance-live-action-movie-extended-trailer",
+      "publishedAt": "2026-11-05T02:53:00.000Z",
+      "excerpt": "The adaptation opens in Japan on November 27",
+      "image": "https://a.storyblok.com/f/178900/960x540/823cc86832/wandance-live-action-header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "6a9d1d38c3777727",
+      "title": "レ・アンプリメ、2027年4月に来日公演決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167147",
+      "publishedAt": "2026-11-05T02:45:00.000Z",
+      "excerpt": "ノルウェー発、モーテン・マーテンスによるヴィンテージ・ソウル・プロジェクトのレ・アンプリメが、20",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167147/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Les Enprimes to perform in Japan in April 2027",
+      "translatedExcerpt": "Les Enprimes, a vintage soul project by Morten Martens from Norway, will be released for 20"
+    },
+    {
+      "id": "be419b5486313363",
+      "title": "今最もトキメく人気急上昇アイドルグループ・可憐なアイボリー「ファンの言葉にキュンキュンしちゃう」あのHoneyWorks名曲カバーや恋心沸かす最新アルバム曲お届け",
+      "link": "https://www.billboard-japan.com/d_news/detail/167153",
+      "publishedAt": "2026-11-05T02:40:00.000Z",
+      "excerpt": "HoneyWorksサウンドプロデュースの今最もトキメく人気急上昇アイドルグループ・可憐なアイボリ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167153/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Pretty Ivory, the most popular idol group at the moment, “I get excited when I hear the words of the fans” Covers of HoneyWorks masterpieces and songs from the latest album that will make you fall in love!",
+      "translatedExcerpt": "Kareena Ivory, the most exciting and rapidly rising idol group produced by HoneyWorks Sound"
+    },
+    {
+      "id": "7b0f76eae373faf2",
+      "title": "East Of Eden Releases A Certain Dark Item Anime Opening Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/11/5/a-certain-dark-item-anime-opening-song-music-video-east-of-eden",
+      "publishedAt": "2026-11-05T02:39:00.000Z",
+      "excerpt": "Crunchyroll is currently streaming the anime series",
+      "image": "https://a.storyblok.com/f/178900/960x540/ed6189cbfb/east-of-eden-ghost-sequence-mv.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "99894e2d34c2046b",
       "title": "ザ・キュアーのロバート・スミス、2027年のツアーは“新曲がぎっしり”と予告",
@@ -1329,10 +1477,10 @@
     },
     {
       "id": "da35ee6850f4a127",
-      "title": "Game Sekai Tensei \"DANKATSU\": Gamer wa \"Dungeon Shuukatsu no Susume\" wo \"Hajime kara\" Play Suru Anime Reveals New Teaser Trailer & Cast",
+      "title": "Game Sekai Tensei \"DANKATSU\": Gamer wa \"Dungeon Shuukatsu no Susume\" wo \"Hajime kara\" Play Suru Anime Reveals New Teaser Trailer and Cast",
       "link": "https://crunchyroll.com/news/latest/2026/11/4/game-sekai-tensei-dankatsu-gamer-wa-dungeon-shuukatsu-no-susume-wo-hajime-kara-play-suru-anime-reveals-new-teaser-trailer-cast",
       "publishedAt": "2026-11-04T11:59:00.000Z",
-      "excerpt": "Adaptation based on light novel series broadcasts in Japan in January",
+      "excerpt": "The series debuts in Japan in January 2027",
       "image": "https://a.storyblok.com/f/178900/1000x563/259e5fc69b/dankatsu_header2.jpg",
       "source": {
         "id": "crunchyroll",
@@ -1442,7 +1590,7 @@
       "title": "Ramen Akaneko Season 2 Anime Shares New Key Art",
       "link": "https://crunchyroll.com/news/latest/2026/11/4/ramen-akaneko-season-2-anime-shares-new-key-art",
       "publishedAt": "2026-11-04T11:26:00.000Z",
-      "excerpt": "Ongoing adaptation of Angyaman's manga broadcasts in Japan in January",
+      "excerpt": "The second season premieres in Japan in January 2027",
       "image": "https://a.storyblok.com/f/178900/1200x675/90c0ae1b16/red-cat-ramen-titelbild.jpg",
       "source": {
         "id": "crunchyroll",
@@ -18304,148 +18452,6 @@
         "accent": "#ff6784",
         "language": "en"
       }
-    },
-    {
-      "id": "220e621b9d9b1e3f",
-      "title": "パペットスンスンのデビュー曲／新曲／リミックスを収録、初のCD＆アナログレコードが12月リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/166862",
-      "publishedAt": "2026-10-28T00:15:00.000Z",
-      "excerpt": "パペットスンスンが、デビュー曲「とてと」を収録した自身初のCDを2026年12月2日、アナログレコ",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166862/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Puppet Soonsun's first CD and analog record containing debut songs/new songs/remixes will be released in December.",
-      "translatedExcerpt": "Puppet Seungsun will release his first CD containing his debut song “Toteto” on analog record on December 2, 2026."
-    },
-    {
-      "id": "ade4e48ecf4d48c0",
-      "title": "Eito Chida Launches New Hoshibarai no Chidori Manga",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/eito-chida-launches-new-hoshibarai-no-chidori-manga/.243220",
-      "publishedAt": "2026-10-28T00:00:00.000Z",
-      "excerpt": "Hoshibarai no Chidori debuts on November 20",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gM4/cms/news.10/243220/hvod8zzaoaakyoo.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "8e54e5a8940f21d5",
-      "title": "ワイクリフ・ジョン、音楽キャリア30周年記念アルバム・シリーズ第2弾CD発売 ロバート・グラスパーら参加",
-      "link": "https://www.billboard-japan.com/d_news/detail/166866",
-      "publishedAt": "2026-10-28T00:00:00.000Z",
-      "excerpt": "ワイクリフ・ジョンが、自身の音楽キャリア30周年を記念した壮大なジャンル横断型アルバム『クオンタム",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166866/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Wyclef John releases 2nd CD in commemorative 30th anniversary album series, featuring Robert Glasper and others",
-      "translatedExcerpt": "Wyclef John celebrates 30 years of his music career with an epic genre-crossing album, Quantum."
-    },
-    {
-      "id": "de3c5319c6e7cb0b",
-      "title": "Live-Action Sins of Kujo Film's New Trailer Unveils Theme Song",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/live-action-sins-of-kujo-film-new-trailer-unveils-theme-song/.243264",
-      "publishedAt": "2026-10-27T23:44:12.000Z",
-      "excerpt": "Hitsujibungaku performs \"Dispel\"",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGC/youtube/cTisUYp6xaI.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "c0841771118c8f31",
-      "title": "Sony Data Breach Exposes 2.58 Million Accounts & Thousands of Passwords",
-      "link": "https://news.sankakucomplex.com/n/pntHW85Pb6m4L6WhA6W84w",
-      "publishedAt": "2026-10-27T23:00:40.000Z",
-      "excerpt": "Sony Network Communications has suffered a massive data breach affecting approximately 2.58 million customer records, with hackers obtaining personal information, thousands of email passwords, and even a small number of bank account details.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "8eba03ab529641e1",
-      "title": "Sony Data Breach Exposes 2.58 Million Accounts & Thousands of Passwords",
-      "link": "https://news.sankakucomplex.com/n/fT3hBNYzz2AdEuFg9MT7zA",
-      "publishedAt": "2026-10-27T23:00:40.000Z",
-      "excerpt": "Sony Network Communications has suffered a massive data breach affecting approximately 2.58 million customer records, with hackers obtaining personal information, thousands of email passwords, and even a small number of bank account details.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "14d18456540d2466",
-      "title": "We Are Aliens Film Wins Awards at Rome, Philadelphia Film Festivals",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/we-are-aliens-film-wins-awards-at-rome-philadelphia-film-festivals/.243231",
-      "publishedAt": "2026-10-27T23:00:00.000Z",
-      "excerpt": "New video showing film clip streams",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFE/youtube/0RbYr8CLWuA.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "5bd5c5741010e3e8",
-      "title": "桑田佳祐 × 竹内まりや、チャリティAL先行配信第4弾はビートルズカバー「Two Of Us」",
-      "link": "https://barks.jp/news/1100994",
-      "publishedAt": "2026-10-27T23:00:00.000Z",
-      "excerpt": "桑田佳祐が、2026年11月3日にリリースするチャリティライブアルバム『九段下フォーク・フェスティバル’25』より、竹内まりやとの楽曲「Two Of Us」を本日配信リリースした。 2025年秋、日本武道館にて桑田佳祐の発案で開催され、豪華アーティストがシークレットゲストとして集結した一夜限りのライブイベント＜九段下フォーク・フェスティバル’25＞。そのライブが、各地で続発する自然災害への支援を目的としたチャリティライブアルバムとしてリリースされる。現在、そのリリースに向けた4週連続での楽曲先行配信企画が進行中だ。 第1弾のあいみょん×桑田佳祐「なごり雪」、第2弾の吉井和哉×桑田佳祐「みらいのうた」、第3弾の桜井和寿×桑田佳祐「奇跡の地球(ほし)」に続き、最終週の第4弾は竹内まりや×桑田佳祐による「Two…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/20170023/LIVE-ALBUM%E3%80%8E%E4%B9%9D%E6%AE%B5%E4%B8%8B%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB25%E3%80%8FKV_For-WEB.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Keisuke Kuwata x Mariya Takeuchi, 4th charity AL advance distribution is Beatles cover “Two Of Us”",
-      "translatedExcerpt": "Keisuke Kuwata released the song \"Two Of Us\" with Mariya Takeuchi from the charity live album \"Kudanshita Folk Festival '25\" to be released on November 3, 2026. Kudanshita Folk Festival '25 is a one-night-only live event that will be held at the Nippon Budokan in the fall of 2025 at the idea of ​​Keisuke Kuwata, and will feature gorgeous artists as secret guests. The live performance will be released as a charity live album aimed at supporting natural disasters that occur one after another in various places. Currently, a project is underway to pre-distribute songs for four consecutive weeks in preparation for its release. Following the first installment, Aimyon x Keisuke Kuwata, “Nagori Snow,” the second, Kazuya Yoshii x Keisuke Kuwata, “Future Song,” and the third, Kazutoshi Sakurai x Keisuke Kuwata, “Miracle Earth,” the fourth installment of the final week is “Two…” by Mariya Takeuchi x Keisuke Kuwata."
     }
   ]
 }

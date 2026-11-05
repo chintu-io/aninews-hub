@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T01:32:08.455Z",
+  "generatedAt": "2026-11-05T02:02:10.964Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 137,
+      "count": 136,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 272,
+      "count": 273,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 130,
+      "count": 131,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 79,
+      "count": 78,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,48 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 626,
+    "translatedJapaneseArticles": 628,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "dc68307775763487",
+      "title": "音楽に出逢える雑貨店「MASHROOM Our Goodies」原宿に期間限定オープン Aooo 、QUEEN、キタニタツヤ、PEOPLE 1、MAISONdes、DISH//ら全13組のアーティスト参加",
+      "link": "https://ototoy.jp/news/132622",
+      "publishedAt": "2026-11-05T02:00:00.000Z",
+      "excerpt": "音楽に出逢える雑貨店「MASHROOM Our Goodies」（マッシュルーム アワグッディーズ）が2026年11月20日(金)から2026年12月25日(金)までの期間限定で、東京・原宿にオープンすることが発表された。 本店舗では、音楽ジャンルや世代の垣根を越えた全13組のアーティストが参加。CONVERSE（コンバース）のスニーカー、NEW ERA®のキャップ/バケットハット、コクヨのキャンパスノートなど、さまざまなブランドの代表的なプロダクツとアーティストのエッセンスが掛け合わさったコラボレーションアイテムをはじめ、ファッションアイテムからお菓子/コーヒーまで、日常を彩る魅力的なアイテムを多数展開する。 さらに2Fには、音楽とドリンクが楽しめるカフェもオープン。sumika/ハンブレッダーズ/PE…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132622/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "MASHROOM Our Goodies, a general store where you can encounter music, opens for a limited time in Harajuku. A total of 13 artists including Aooo, QUEEN, Tatsuya Kitani, PEOPLE 1, MAISONdes, and DISH// will be participating.",
+      "translatedExcerpt": "It has been announced that MASHROOM Our Goodies, a general merchandise store where you can encounter music, will open in Harajuku, Tokyo for a limited time from November 20, 2026 (Friday) to December 25, 2026 (Friday). A total of 13 artists will be participating at this store, transcending the boundaries of music genres and generations. From fashion items to sweets and coffee, we offer a wide range of attractive items that will brighten up your daily life, including collaboration items that combine representative products from various brands with the essence of artists, such as CONVERSE sneakers, NEW ERA® caps/bucket hats, and KOKUYO campus notebooks. There is also a cafe on the second floor where you can enjoy music and drinks. sumika/Hanbreders/PE…"
+    },
+    {
+      "id": "5eb057bb1967f183",
+      "title": "ボブ・ディラン、ローマ教皇レオ14世とバチカンで面会",
+      "link": "https://www.billboard-japan.com/d_news/detail/167149",
+      "publishedAt": "2026-11-05T01:45:00.000Z",
+      "excerpt": "現地時間2026年11月4日、ボブ・ディランがバチカンでローマ教皇レオ14世と面会した。 バチ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167149/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Bob Dylan meets Pope Leo XIV at the Vatican",
+      "translatedExcerpt": "On November 4, 2026 local time, Bob Dylan met with Pope Leo XIV at the Vatican. drumstick"
+    },
     {
       "id": "93b3e803d7bddbae",
       "title": "Transformers Toy Giant Takara Tomy Launches Indie Game Publisher",
@@ -18408,40 +18446,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "5c2d6667438dea64",
-      "title": "Zero Escape Creator Says Rejecting AI Could Hurt Game Developers",
-      "link": "https://news.sankakucomplex.com/n/As9m_bL9ZZtrJJs_ytfGFg",
-      "publishedAt": "2026-10-27T21:54:03.000Z",
-      "excerpt": "Zero Escape creator Kotaro Uchikoshi has defended the use of generative AI in video game development, suggesting that the technology could have helped save a recently canceled project at his new studio, Crash Keys, by reducing production costs and development time.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "748c672f1189ffa0",
-      "title": "Manga Mavericks Books, Omoi License Georgie Manga in English",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-27/manga-mavericks-books-omoi-license-georgie-manga-in-english/.243227",
-      "publishedAt": "2026-10-27T21:00:00.000Z",
-      "excerpt": "Series launches digitally in spring 2027, in print in August 2027",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gDE/cms/news.10/243227/1080x1350-georgie-announcement.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

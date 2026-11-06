@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T16:02:32.709Z",
+  "generatedAt": "2026-11-06T16:32:31.959Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 36,
+      "count": 37,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 134,
+      "count": 133,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 90,
+      "count": 91,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 271,
+      "count": 270,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 616,
+    "translatedJapaneseArticles": 615,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "4b265e9e8ddf93d6",
+      "title": "Magical Sisters Lulutto Lilly Anime Casts 3 Magical Creatures",
+      "link": "https://crunchyroll.com/news/latest/2026/11/6/magical-sisters-lulutto-lilly-anime-new-magical-creature-cast",
+      "publishedAt": "2026-11-06T16:29:00.000Z",
+      "excerpt": "The second cour of the magical girl series is now airing",
+      "image": "https://a.storyblok.com/f/178900/1460x821/db628315d8/magical-sisters-lulutto-lilly-alien-hero.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "3e20ceec775d4036",
+      "title": "Japanese government hires leading comedy agency to explain national defense spending",
+      "link": "https://soranews24.com/2026/11/07/japanese-government-hires-leading-comedy-agency-to-explain-national-defense-spending/",
+      "publishedAt": "2026-11-06T16:00:59.000Z",
+      "excerpt": "The number one rule of comedy is unwavering loyalty to the government. I suppose in terms of things on a global scale, the Japanese government isn’t doing all that bad. It’s just that with all the talk of how Prime Minister Takaichi works constantly and rarely sleeps, I was sort of expecting something more in […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/29501-5432-17c8930a5572779a2d4db685b7e1ee76-780x600.png.jpeg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "ec9c0a2f3cbd4377",
       "title": "Starbucks Japan unveils new winter drinkware collection with limited-edition Stanley cups",
@@ -4791,7 +4825,7 @@
       "title": "Transformers Toy Giant Takara Tomy Launches Indie Game Publisher",
       "link": "https://news.sankakucomplex.com/n/skA6uZcZVgUgFyOTxDC0XQ",
       "publishedAt": "2026-11-05T01:29:51.000Z",
-      "excerpt": "Japanese toy manufacturer Takara Tomy, best known for popular franchises such as Transformers, Beyblade, and Tomica, has announced its entry into the independent video game publishing market, unveiling a new label called ENJOYN GAMES alongside three upcoming titles.",
+      "excerpt": "Japanese toy manufacturer Takara Tomy, best known for popular franchises such as Transformers, Beyblade, and Tomica, has announced its entry into the independent video game publishing market, unveiling a new label called ENJOYN GAMES alongside three upcoming titles. Announced on November 4, 2026,…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18398,42 +18432,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "11a8dda0761e00e3",
-      "title": "Expelled from Paradise -The Stellar Angel- Visual Novel's Video Previews Story, Systems, New Characters",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-29/expelled-from-paradise-the-stellar-angel-visual-novel-video-previews-story-systems-new-characters/.243324",
-      "publishedAt": "2026-10-29T12:11:01.000Z",
-      "excerpt": "Game also gets English release on Switch, PC via Steam on November 26",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gY9/youtube/pabXOS3j-eM.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "cfc7c6cde2ec0612",
-      "title": "【ビルボード】TERIYAKI BOYZ「TOKYO DRIFT (FAST & FURIOUS)」6か国で日本語曲トップ ビッケブランカ『ブラッククローバー』OPが最高位",
-      "link": "https://www.billboard-japan.com/d_news/detail/166953",
-      "publishedAt": "2026-10-29T12:00:00.000Z",
-      "excerpt": "世界各国でヒットしている日本の楽曲をランキング化した &ldquo;Japan Songs（国/地",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166953/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] TERIYAKI BOYZ's \"TOKYO DRIFT (FAST & FURIOUS)\" tops Japanese songs in 6 countries; Vickeblanka's \"Black Clover\" OP ranks highest",
-      "translatedExcerpt": "“Japan Songs” is a ranking of Japanese songs that are hits around the world."
     }
   ]
 }

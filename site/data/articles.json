@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:01:51.742Z",
+  "generatedAt": "2026-11-06T20:32:47.836Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 270,
+      "count": 269,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 73,
+      "count": 74,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,23 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "51dec9b7ab3fb5e3",
+      "title": "Blue Archive English Localization Removes “Make Gehenna Great Again” Reference",
+      "link": "https://news.sankakucomplex.com/n/PeG8WFmybB4RwxhdKJ7rOw",
+      "publishedAt": "2026-11-06T20:23:21.000Z",
+      "excerpt": "The English localization of Blue Archive has changed the title of an upcoming story chapter from “Make Gehenna Great Again!” to “Glory to Gehenna!”, removing an apparent reference to US President Donald Trump’s famous political slogan that remains intact in the Japanese and Korean versions.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "23d7b79b02d12bbb",
       "title": "Nippon Anime Awards Revealed for 2027",
@@ -5198,7 +5215,7 @@
       "title": "Square Enix Wanted Cheap Final Fantasy Port, Producer Rejected Gacha",
       "link": "https://news.sankakucomplex.com/n/9h_t3s9_D-Rd1NFc_-u74Q",
       "publishedAt": "2026-11-04T17:00:53.000Z",
-      "excerpt": "Final Fantasy Resonance producer Keisuke Nakashima has revealed that Square Enix executives initially wanted to release a cheaper, straightforward port of the mobile RPG Final Fantasy Brave Exvius, but he pushed for a more ambitious console adaptation without gacha mechanics or microtransactions.",
+      "excerpt": "Final Fantasy Resonance producer Keisuke Nakashima has revealed that Square Enix executives initially wanted to release a cheaper, straightforward port of the mobile RPG Final Fantasy Brave Exvius, but he pushed for a more ambitious console adaptation without gacha mechanics or microtransactions.…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18413,25 +18430,6 @@
         "accent": "#ff6784",
         "language": "en"
       }
-    },
-    {
-      "id": "c9f09704c24fbcb8",
-      "title": "TWS、世界へ走り出すまでの感情を描いた「Call My Name」MVティザー公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166958",
-      "publishedAt": "2026-10-29T12:20:00.000Z",
-      "excerpt": "TWSが、新曲「Call My Name」のMVティザー映像を公開した。 新曲「Call My",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166958/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "TWS releases MV teaser for “Call My Name” depicting their emotions before running out into the world",
-      "translatedExcerpt": "TWS has released the MV teaser video for their new song \"Call My Name\". New song “Call My"
     }
   ]
 }

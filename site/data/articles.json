@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T21:01:52.881Z",
+  "generatedAt": "2026-11-06T21:31:49.138Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 132,
+      "count": 133,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 269,
+      "count": 268,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,7 +163,7 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 614,
+    "translatedJapaneseArticles": 613,
     "translationAttempts": 160
   },
   "articles": [
@@ -181,6 +181,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "e882f3fa8dd2d54f",
+      "title": "Odd Taxi Manga Author Launches New Rematch With You Manga in Late November",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-06/odd-taxi-manga-author-launches-new-rematch-with-you-manga-in-late-november/.243576",
+      "publishedAt": "2026-11-06T21:00:00.000Z",
+      "excerpt": "Abaraya previously published dōjin version of manga at Comitia in November 2025",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g2C/cms/news.10/243576/rematchwithyou.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -18411,25 +18428,6 @@
         "accent": "#ff6784",
         "language": "en"
       }
-    },
-    {
-      "id": "f5f2fe7ce69b4527",
-      "title": "King & Prince、8thアルバムのリリース＆アリーナツアー開催を発表",
-      "link": "https://www.billboard-japan.com/d_news/detail/166954",
-      "publishedAt": "2026-10-29T12:25:00.000Z",
-      "excerpt": "King & Princeが、2027年2月にニューアルバムをリリースし、3月からアリーナ",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166954/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "King & Prince announce release of 8th album and arena tour",
-      "translatedExcerpt": "King & Prince will release a new album in February 2027, and will be performing at arenas starting in March."
     }
   ]
 }

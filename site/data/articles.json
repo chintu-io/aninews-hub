@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T14:02:03.052Z",
+  "generatedAt": "2026-11-06T14:32:03.189Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 35,
+      "count": 36,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 272,
+      "count": 271,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 617,
+    "translatedJapaneseArticles": 616,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "ec9c0a2f3cbd4377",
+      "title": "Starbucks Japan unveils new winter drinkware collection with limited-edition Stanley cups",
+      "link": "https://soranews24.com/2026/11/06/starbucks-japan-unveils-new-winter-drinkware-collection-with-limited-edition-stanley-cups/",
+      "publishedAt": "2026-11-06T14:00:28.000Z",
+      "excerpt": "New collection brings warmth and style to tumblers and mugs this winter. When the seasons change in Japan, so too do the limited-edition goods at Starbucks, and this season we’ll be getting a new limited-edition collection just for winter. With icy hues of white and mint green, these items are said to blend easily into […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/Starbucks-Japan-drinkware-winter-merchandise-limited-edition-exclusive-collection-christmas-stanley-bottle-cup-tumbler-mug-glass-2026-001.jpeg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "8699a01ef0b0db06",
       "title": "〈Venue101〉11/7出演者発表",
@@ -18417,25 +18434,6 @@
       },
       "translatedTitle": "[Billboard] TERIYAKI BOYZ's \"TOKYO DRIFT (FAST & FURIOUS)\" tops Japanese songs in 6 countries; Vickeblanka's \"Black Clover\" OP ranks highest",
       "translatedExcerpt": "“Japan Songs” is a ranking of Japanese songs that are hits around the world."
-    },
-    {
-      "id": "06d9556197e7db14",
-      "title": "【ビルボード】TERIYAKI BOYZ「TOKYO DRIFT(FAST & FURIOUS)」グローバル・ジャパン・ソングスV19 Ado／ヨルシカ／YOASOBIの新曲が躍進",
-      "link": "https://www.billboard-japan.com/d_news/detail/166942",
-      "publishedAt": "2026-10-29T12:00:00.000Z",
-      "excerpt": "世界でヒットしている日本の楽曲をランキング化した&ldquo;Global Japan Songs",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166942/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] TERIYAKI BOYZ “TOKYO DRIFT (FAST & FURIOUS)” Global Japan Songs V19 Ado/Yorushika/YOASOBI’s new song is making great progress",
-      "translatedExcerpt": "“Global Japan Songs” is a ranking of Japanese songs that are hits around the world."
     }
   ]
 }

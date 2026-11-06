@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T04:02:18.850Z",
+  "generatedAt": "2026-11-06T04:32:06.440Z",
   "sources": [
     {
       "id": "sankaku",
@@ -121,11 +121,12 @@
     {
       "id": "billboardjapan",
       "name": "Billboard JAPAN",
-      "status": "error",
-      "mode": null,
-      "count": 281,
-      "error": "Billboard JAPAN news listing unavailable",
-      "fetchedCount": 0
+      "status": "ok",
+      "mode": "html-list",
+      "feedUrl": "https://www.billboard-japan.com/d_news/",
+      "count": 282,
+      "imageEnrichment": null,
+      "fetchedCount": 20
     },
     {
       "id": "barks",
@@ -143,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 128,
+      "count": 127,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -159,11 +160,11 @@
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 7,
-    "failedSources": 1,
+    "successfulSources": 8,
+    "failedSources": 0,
     "articleCount": 1000,
     "translatedJapaneseArticles": 619,
-    "translationAttempts": 120
+    "translationAttempts": 160
   },
   "articles": [
     {
@@ -180,6 +181,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "0c76fae906222911",
+      "title": "Amahara's 33 Years Old Single Girl Knight Captain Manga Gets Anime",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-05/amahara-33-years-old-single-girl-knight-captain-manga-gets-anime/.243579",
+      "publishedAt": "2026-11-06T03:47:35.000Z",
+      "excerpt": "Digital Shokunin produces anime about overworked, sex-starved knight captain",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH6/cms/news.10/243579/33saifdokushinonnakishi-02.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -201,6 +219,25 @@
       }
     },
     {
+      "id": "8c4ff687f305a4bf",
+      "title": "イェー、2022年以来初となるYeezyファッション・ショーで新曲を披露",
+      "link": "https://www.billboard-japan.com/d_news/detail/167206",
+      "publishedAt": "2026-11-06T03:40:00.000Z",
+      "excerpt": "イェー（旧名カニエ・ウェスト）が現地時間2026年11月4日に再びランウェイを復活させ、米ロサンゼ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167206/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Yeezy performs new song at first Yeezy fashion show since 2022",
+      "translatedExcerpt": "Ye (formerly known as Kanye West) will be back on the runway on November 4, 2026, local time, in Los Angeles, USA."
+    },
+    {
       "id": "39cac3def4e12b66",
       "title": "Manga '33-sai Dokushin Onna Kishi Taichou.' Gets Anime Adaptation",
       "link": "https://myanimelist.net/news/74909101?_location=rss",
@@ -216,6 +253,25 @@
         "accent": "#5ca8ff",
         "language": "en"
       }
+    },
+    {
+      "id": "273f82d99406589d",
+      "title": "【2027ソングライターの殿堂】レディー・ガガ／シャキーラ／ジャック・ホワイトらが候補に",
+      "link": "https://www.billboard-japan.com/d_news/detail/167208",
+      "publishedAt": "2026-11-06T03:30:00.000Z",
+      "excerpt": "2026年6月に開催された【ソングライターの殿堂】入り式典では、テイラー・スウィフトが華やかなスタ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167208/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[2027 Songwriters Hall of Fame] Lady Gaga, Shakira, Jack White and others are nominated",
+      "translatedExcerpt": "At the [Songwriters Hall of Fame] induction ceremony held in June 2026, Taylor Swift made a spectacular appearance."
     },
     {
       "id": "58d2af015c24c86b",
@@ -234,8 +290,7 @@
         "language": "ja"
       },
       "translatedTitle": "Aerosmith revival, US Hollywood Bowl live report arrives",
-      "translatedExcerpt": "American rock band Aerosmith will perform at Hariu in Los Angeles on October 29, 2026 and November 1, 2026 local time.",
-      "stale": true
+      "translatedExcerpt": "American rock band Aerosmith will perform at Hariu in Los Angeles on October 29, 2026 and November 1, 2026 local time."
     },
     {
       "id": "c3d789c4fb4587d9",
@@ -254,8 +309,7 @@
         "language": "ja"
       },
       "translatedTitle": "Karol G records record number of attendees at “NO ME ARREPIENTO DE SENTIR TANTO” commemorative event on TikTok Live",
-      "translatedExcerpt": "Karol G commemorates the album “NO ME ARREPIENTO DE SENTIR TANTO”",
-      "stale": true
+      "translatedExcerpt": "Karol G commemorates the album “NO ME ARREPIENTO DE SENTIR TANTO”"
     },
     {
       "id": "dd2ef8d02d0f9c64",
@@ -312,8 +366,7 @@
         "language": "ja"
       },
       "translatedTitle": "Third generation J SOUL BROTHERS appears on anan cover for the first time in about 3 years",
-      "translatedExcerpt": "The third generation J SOUL BROTHERS will be creating a special edition for “anan” issue 2519, which will be released on November 11th.",
-      "stale": true
+      "translatedExcerpt": "The third generation J SOUL BROTHERS will be creating a special edition for “anan” issue 2519, which will be released on November 11th."
     },
     {
       "id": "7c94038fe08fdd4d",
@@ -331,7 +384,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Checkers will hold “Live House Explosive Scream Screening” for the third consecutive year in January",
+      "translatedTitle": "Checkers will hold “Live House Bakun Scream Screening” for the third consecutive year in January",
       "translatedExcerpt": "To commemorate the Blu-ray release of \"Checkers 1986 FLASH!! TOUR at Nippon Budokan [Remaster Edition]\", it has been decided that the \"Checkers Live House Bakon Scream Screening\" will be held at Ikebukuro harevutai on January 21, 2027. This event will be held for the third consecutive year. This is a popular project that has previously screened ``1987 GO TOUR'' and ``1988 SCREW TOUR,'' and you can enjoy the loud volume and powerful images that can only be found at a live house. Standing, screaming, and dancing are also allowed at the venue. It is an event where fans can have fun in their own way, just as if they were at a live venue. What will be shown this time is 1986 WINTER TOUR FLASH!! A video work that records the Nippon Budokan performance from. 4K with the latest technology..."
     },
     {
@@ -368,7 +421,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Interview] No pressure, full-fledged start of artist activities \"Becoming a star born from the world of live streaming\"",
-      "translatedExcerpt": "Currently, he is an artist/live music creator who is active at the forefront of live streaming, mainly using the singing live streaming app “ColorSing”. Among them, in live streaming, he has a number of achievements, such as 1st place in the \"TikTok LIVE All Stars music category\" (2022 and 2023), won the \"TikTok Creator Awards Japan 2023 \"LIVE Music Creator of the Year\", and is a certified TikTok \"LIVE Pro\" creator, and has entertained many viewers. Such a rebranding company will be rebranding and releasing ``Panee Kiss'' on November 6th. How did she approach the song, which was produced by Akito Tokunaga and produced by Masaaki Watanuki? Past activities and aims of rebranding..."
+      "translatedExcerpt": "Currently, he is an artist/live music creator who is active at the forefront of live streaming, mainly using the singing live streaming app “ColorSing”. 中でもライブ配信では「TikTok LIVE All Stars 音楽部門」1位（2022年、2023年）、「TikTok Creator Awards Japan 2023『LIVE Music Creator of the Year』」受賞、TikTok「LIVE Pro」公認クリエイターなど、数々の実績を持ち、多くの視聴者を楽しませてきた。 Such a rebranding company will be rebranding and releasing ``Panee Kiss'' on November 6th. How did she approach the song, which was produced by Akito Tokunaga and produced by Masaaki Watanuki? Past activities and aims of rebranding..."
     },
     {
       "id": "e95efc393e435e2c",
@@ -387,7 +440,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Interview] Bungei Tengoku, the moment when the everyday and the extraordinary intersect in the first full-length album of the alternative art group ``Things that I have felt to be beautiful''",
-      "translatedExcerpt": "Bungei Tengoku is an alternative art clique that started its activities in 2019 by Ko Shinonome, a musician who is responsible for writing, composing, arranging, and performing, and Kaori Sumi, a color artist and current president of Bungei Co., Ltd., who is in charge of videos, visuals, and stage direction. Pursuing \"art that can be felt through the five senses,\" his activities range from music and video works to creating perfumes, pop-ups, and cafe events. In October 2026, their first full-length album was finally released as “Poolside Core.” The love for the guitar that lives at the core of ko shinonome and the sound that embodies the band's initial impulses are becoming more and more concentrated, while the artistic musicality shown in the instrumental album ``Chasse (i)'' (released in June 2026) continues to deepen. Also,…"
+      "translatedExcerpt": "作詞 作曲 編曲に加えて演奏を担う音楽家のko shinonomeと、映像やビジュアル面、舞台演出を担当する色彩作家にして現・株式会社文藝の代表取締役社長すみあいかにより、2019年に活動を開始したオルタナ的藝術徒党が、文藝天国だ。 “五感を通じて感じるアート”を追求し、音楽作品や映像作品はもとより、香水などの制作やポップアップ、喫茶イベントなど活動展開は幅広い。 In October 2026, their first full-length album was finally released as ``Poolside Core''. The love for the guitar that lives at the core of ko shinonome and the sound that embodies the band's initial impulses are becoming more and more concentrated, while the artistic musicality shown in the instrumental album ``Chasse (i)'' (released in June 2026) continues to deepen. Also,…"
     },
     {
       "id": "2e3c3e646b2ec6b1",
@@ -405,9 +458,8 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[27th Latin Grammy Awards] Additional performances by Karol G/VisaRap/Nati Peluso/DJ Premier and others",
-      "translatedExcerpt": "On November 5, 2026 local time, a new performer at the [27th Latin Grammy Awards] will be a Latin recorder.",
-      "stale": true
+      "translatedTitle": "【第27回ラテン・グラミー賞】カロルG／ビザラップ／ナティ・ペルーソ／DJプレミアらのパフォーマンス追加",
+      "translatedExcerpt": "On November 5, 2026 local time, a new performer at the [27th Latin Grammy Awards] will be a Latin recorder."
     },
     {
       "id": "414a981ff61129f8",
@@ -426,7 +478,7 @@
         "language": "ja"
       },
       "translatedTitle": "<Kishidan Expo 2026>, 2DAYS stage and behind-the-scenes special programs will be broadcast for a total of 13 hours",
-      "translatedExcerpt": "<Kishidan Expo 2026 ~Boso Bakuon Resort~> will be held for two days, November 7th and 8th, at Makuhari Messe International Exhibition Center Hall 4-7, Chiba. It has been announced that a special program featuring the strongest lineup of the festival and capturing the excitement behind the scenes will be broadcast on WOWOW from January to March 2027. <Kishidan Expo> was first held in 2003, and since 2012 it has been turned into a festival at Chiba's Sodegaura Seaside Park. Since then, although they have faced various difficulties such as the coronavirus pandemic, they have been able to overcome them with the passion of Kishidan members, including Kishidan leader Sho Ayanokoji, and participating artists. From 2024, the venue will be moved to Makuhari Messe in Chiba. Under Sho Ayanokoji's motto, ``I want to gather the best friends, play the best music, and create the best time,'' Sho Ayanokoji not only performs rock music, but also pop music, idols, popular songs..."
+      "translatedExcerpt": "<Kishidan Expo 2026 ~Boso Bakuon Resort~> will be held for two days, November 7th and 8th, at Makuhari Messe International Exhibition Center Hall 4-7, Chiba.最強ラインナップによる同フェスの模様と舞台裏の熱気を捉えた特番が2027年1月から3月にWOWOWで放送配信されることが発表となった。 <Kishidan Expo> was first held in 2003, and since 2012 it has been turned into a festival at Chiba's Sodegaura Seaside Park.その後、コロナ禍などのさまざまな困難に直面しながらも、團長・綾小路 翔をはじめとする氣志團メンバーや参加アーティストたちの熱い想いで、それらを乗り越えてきた。 From 2024, the venue will be moved to Makuhari Messe in Chiba. Under Sho Ayanokoji's motto, ``I want to gather the best friends, play the best music, and create the best time,'' Sho Ayanokoji not only performs rock music, but also pop music, idols, popular songs..."
     },
     {
       "id": "45f529c50a0e6c20",
@@ -445,7 +497,7 @@
         "language": "ja"
       },
       "translatedTitle": "UP&DAMN 2026 will be held on December 5th, an intense event with 15 bands appearing on 2 stages of 15 minutes each.",
-      "translatedExcerpt": "A live event ``UP&DAMN 2026'' will be held at Nakano MOONSTEP on Saturday, December 5, 2026. UP&DAMN 2026 is an event hosted by penisboys, Ken Takakura, and Morishima, and will be held for the second time since last year. This time, 15 bands will perform in quick succession for 15 minutes each on two stages using the 1st and 2nd floors of Nakano MOONSTEP. The event was scheduled to end at 10:00 p.m., with all bands running for 15 minutes, running non-stop for just under three hours. Event information Cast soccer. U.G MAN Fat Cornelius EX flyer: Yo Pei (the futures) Information https://nakano-dynamite.com/moonstep/ https://x.com/livepubMOONSTEP"
+      "translatedExcerpt": "A live event ``UP&DAMN 2026'' will be held at Nakano MOONSTEP on Saturday, December 5, 2026. 〈UP&DAMN 2026〉は、penisboys、高倉健、モリシマの3組が主催するイベントで、昨年に続いての開催となる。 今回も、中野MOONSTEP の1Fと2Fを使った2ステージで、矢継ぎ早に15分ずつ15バンドが出演。ノンストップ進行で全バンド持ち時間15分、3時間弱突っ走り、22時にイベント終了予定となっている。 Event information Cast soccer. U.G MAN Fat Cornelius EX flyer: Yo Pei (the futures) Information https://nakano-dynamite.com/moonstep/ https://x.com/livepubMOONSTEP"
     },
     {
       "id": "e0a482e68fd5093b",
@@ -464,7 +516,7 @@
         "language": "ja"
       },
       "translatedTitle": "963 will be selling an \"OTOTOY limited package\" that includes the sound source of the album \"20xx\", a 10-inch jacket autographed by the members, and an instax.",
-      "translatedExcerpt": "It has been decided that the OTOTOY limited package of the 4th album ``20xx'' by the duo idol group 963, consisting of Ayuka Maeda and Yui Tsuji, will be on sale for a limited time. The OTOTOY limited package that will be sold this time is a special specification that combines the sound source of \"20xx\" with a 10-inch jacket and instax autographed by the members. In addition to the standard package that comes with one random solo instax, there is also a ``special set'' that comes with one solo instax for each member. It will be sold for a limited time on the sound source distribution site OTOTOY from 0:00 on Wednesday, November 11, 2026 to 23:59 on Wednesday, November 25, 2026. ``20xx'' sets itself apart from the ``high-density cuteness'' of recent mainstream culture, and focuses on the ``incompleteness'' that can be said to be the original charm of idols."
+      "translatedExcerpt": "It has been decided that the OTOTOY limited package of the 4th album ``20xx'' by the duo idol group 963, consisting of Ayuka Maeda and Yui Tsuji, will be on sale for a limited time. The OTOTOY limited package that will be sold this time is a special specification that combines the sound source of \"20xx\" with a 10-inch jacket and instax autographed by the members.ランダムソロチェキ1枚が付属する通常パッケージのほか、メンバーそれぞれのソロチェキが1枚ずつ付属する「スペシャルセット」も用意されている。 It will be sold for a limited time on the sound source distribution site OTOTOY from 0:00 on Wednesday, November 11, 2026 to 23:59 on Wednesday, November 25, 2026. ``20xx'' sets itself apart from the ``high-density cuteness'' of recent mainstream culture, and focuses on the ``incompleteness'' that can be said to be the original charm of idols."
     },
     {
       "id": "3a1c250e56a74276",
@@ -483,7 +535,7 @@
         "language": "ja"
       },
       "translatedTitle": "Amira Elfeky releases new song depicting complex emotions",
-      "translatedExcerpt": "Amira Elfeky released her new single “I don’t want to fall in love” on Wednesday, October 28, 2026. This work is the second single from the debut full-length album \"It Was Only A Dream\" scheduled to be released on Friday, November 13th. The song depicts the fear of losing oneself through love, the pain that comes from loving someone, and the complicated feelings of wanting to protect oneself even if it means choosing solitude. In terms of sound, the album combines dark electronic sounds and alternative rock energy, centered around pulsating bass and dreamy synthesizers. The vocals develop from a whisper-like delicate singing voice to a powerful shout that exposes emotion, further heightening the tension of the song. Sau has a beautiful yet disturbing atmosphere..."
+      "translatedExcerpt": "Amira Elfeky released her new single “I don’t want to fall in love” on Wednesday, October 28, 2026. This work is the second single from the debut full-length album \"It Was Only A Dream\" scheduled to be released on Friday, November 13th. The song depicts the fear of losing oneself through love, the pain that comes from loving someone, and the complicated feelings of wanting to protect oneself even if it means choosing solitude. In terms of sound, the album combines dark electronic sounds and alternative rock energy, centered around pulsating bass and dreamy synthesizers.囁くような繊細な歌声から、感情をむき出しにした力強いシャウトへと展開するボーカルが、楽曲の緊張感を一層高めている。 Sau has a beautiful yet disturbing atmosphere..."
     },
     {
       "id": "b135050dcd69cf4f",
@@ -502,8 +554,7 @@
         "language": "ja"
       },
       "translatedTitle": "Fujii Kaze, video work \"Pre: Prema Tour\" to be released on 12/16 & \"Love Like This\" premiere released",
-      "translatedExcerpt": "Fujii Kaze has decided to release the video work ``Pre: Prema Tour'' on December 16th.",
-      "stale": true
+      "translatedExcerpt": "Fujii Kaze has decided to release the video work ``Pre: Prema Tour'' on December 16th."
     },
     {
       "id": "9e0eb7f602ce5f50",
@@ -617,8 +668,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kohei Matsushita's new song \"PRECIOUS\" will be aired at the earliest on his own radio program J-WAVE \"DK SELECT WEEKEND LIVING\"",
-      "translatedExcerpt": "Kohei Matsushita will release his new song \"PRECIOUS\" on November 27th. “PRECIOUS” is",
-      "stale": true
+      "translatedExcerpt": "Kohei Matsushita will release his new song \"PRECIOUS\" on November 27th. “PRECIOUS” is"
     },
     {
       "id": "401be2fd46f45d72",
@@ -692,8 +742,7 @@
         "language": "ja"
       },
       "translatedTitle": "30th Anniversary Ozzfest to be held in 3 cities in 2027, curated by Sharon Osbourne",
-      "translatedExcerpt": "[Ozzfest], which started the countdown towards the big announcement earlier this week, will be announced in November 2026 local time.",
-      "stale": true
+      "translatedExcerpt": "[Ozzfest], which started the countdown towards the big announcement earlier this week, will be announced in November 2026 local time."
     },
     {
       "id": "52918fc030d4e998",
@@ -712,8 +761,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kazukei Sakai's first autobiography, a book about his childhood, formation of Junretsu, and production of Monaki, including secret stories.",
-      "translatedExcerpt": "Kazukei Sakai, the leader/producer of Junretsu and also the producer of their younger brother group Monaki, has released his first autobiography, ``Jibun''.",
-      "stale": true
+      "translatedExcerpt": "Kazukei Sakai, the leader/producer of Junretsu and also the producer of their younger brother group Monaki, has released his first autobiography, ``Jibun''."
     },
     {
       "id": "0c7828e77fd2611d",
@@ -768,8 +816,7 @@
         "language": "ja"
       },
       "translatedTitle": "NMB48, 34th single “Seikatsu Ajihenya!” ” Jacket photo & artist photo released",
-      "translatedExcerpt": "NMB48 will release their 34th single “Seikatsu Ajihenya!” on December 9th. ” jacket photo and artist",
-      "stale": true
+      "translatedExcerpt": "NMB48 will release their 34th single “Seikatsu Ajihenya!” on December 9th. ” jacket photo and artist"
     },
     {
       "id": "b78a741d8ba86da6",
@@ -805,8 +852,7 @@
         "language": "ja"
       },
       "translatedTitle": "``Nami Urarakani, Meo and Hiyori'' ``A baby for those two innocent people!'' ``Mr. Takimasa (Honda Kyouya), I need to tell you about my transfer soon.''",
-      "translatedExcerpt": "The fourth episode of ``Nami Urarakani, Meoto Biyori'' (Fuji TV) was broadcast on the 5th. This work takes place in Showa 12.",
-      "stale": true
+      "translatedExcerpt": "The fourth episode of ``Nami Urarakani, Meoto Biyori'' (Fuji TV) was broadcast on the 5th. This work takes place in Showa 12."
     },
     {
       "id": "5ece3b568a2bc882",
@@ -825,8 +871,7 @@
         "language": "ja"
       },
       "translatedTitle": "HYUKOH will perform in Tokyo for one night only in March 2027",
-      "translatedExcerpt": "It has been announced that HYUKOH will be performing in Tokyo for one night only. Flexible musicality unrestricted by genre",
-      "stale": true
+      "translatedExcerpt": "It has been announced that HYUKOH will be performing in Tokyo for one night only. Flexible musicality unrestricted by genre"
     },
     {
       "id": "e5ea1fd148b63ef1",
@@ -917,8 +962,7 @@
         "language": "ja"
       },
       "translatedTitle": "Late Phil Lynott, 40th anniversary commemorative box “The Story Of My Life” released, also includes unreleased AL",
-      "translatedExcerpt": "A box set commemorating 40 years since the death of Thin Lizzy frontman Phil Lynott.",
-      "stale": true
+      "translatedExcerpt": "A box set commemorating 40 years since the death of Thin Lizzy frontman Phil Lynott."
     },
     {
       "id": "33bfdec5806303f7",
@@ -954,8 +998,7 @@
         "language": "ja"
       },
       "translatedTitle": "Bruce Springsteen's 1975 New Year's Eve Tower Theater performance released on first official CD",
-      "translatedExcerpt": "Bruce Springsteen performs at the Tower Theater in suburban Philadelphia on December 31, 1975.",
-      "stale": true
+      "translatedExcerpt": "Bruce Springsteen performs at the Tower Theater in suburban Philadelphia on December 31, 1975."
     },
     {
       "id": "11c0ce3061e004aa",
@@ -974,8 +1017,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] “TOKYO DRIFT (FAST & FURIOUS)” tops Global Japan Songs for the 20th time",
-      "translatedExcerpt": "“Global Japan Songs” is a ranking of Japanese songs that are hits around the world.",
-      "stale": true
+      "translatedExcerpt": "“Global Japan Songs” is a ranking of Japanese songs that are hits around the world."
     },
     {
       "id": "ee1b87623f0603c7",
@@ -994,8 +1036,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Ryuichi Sakamoto's \"Merry Christmas Mr. Lawrence\" tops Japanese songs in Taiwan Ayumu Imazu ranks in top 10 in Thailand",
-      "translatedExcerpt": "“Japan Songs” is a ranking of Japanese songs that are hits around the world.",
-      "stale": true
+      "translatedExcerpt": "“Japan Songs” is a ranking of Japanese songs that are hits around the world."
     },
     {
       "id": "c73b605cdbb1500c",
@@ -1014,8 +1055,7 @@
         "language": "ja"
       },
       "translatedTitle": "Pink Floyd's ``Animals'' 50th anniversary edition released, includes unreleased songs and live sound source from Oakland performance",
-      "translatedExcerpt": "The 50th anniversary edition of Pink Floyd's album ``Animals'' will be released on January 22, 2027.",
-      "stale": true
+      "translatedExcerpt": "The 50th anniversary edition of Pink Floyd's album ``Animals'' will be released on January 22, 2027."
     },
     {
       "id": "53bcef8f618814d6",
@@ -1429,8 +1469,7 @@
         "language": "ja"
       },
       "translatedTitle": "SEKAI NO OWARI, dome tour [THE CINEMA] turned into a video work",
-      "translatedExcerpt": "SEKAI NO OWARI will be performing on February 10, 2027 on LIVE Blu-ray & DVD “SEKAI",
-      "stale": true
+      "translatedExcerpt": "SEKAI NO OWARI will be performing on February 10, 2027 on LIVE Blu-ray & DVD “SEKAI"
     },
     {
       "id": "59c0a21a6808d5ee",
@@ -1449,8 +1488,7 @@
         "language": "ja"
       },
       "translatedTitle": "milet releases new song \"My Voice, My Life\" CD, MV and new artist photos also released",
-      "translatedExcerpt": "milet will release their new song “My Voice, My Life” as a single CD on December 16, 2026.",
-      "stale": true
+      "translatedExcerpt": "milet will release their new song “My Voice, My Life” as a single CD on December 16, 2026."
     },
     {
       "id": "0da2cfaaa036d869",
@@ -1469,8 +1507,7 @@
         "language": "ja"
       },
       "translatedTitle": "MAISONdes releases live video of \"Tokyo Shandy Rendezvous\" co-starring Tsumiki & asmi",
-      "translatedExcerpt": "The live video of MAISONdes' song \"Tokyo Shandy Rendezvous\" is now available on YouTube channel.",
-      "stale": true
+      "translatedExcerpt": "The live video of MAISONdes' song \"Tokyo Shandy Rendezvous\" is now available on YouTube channel."
     },
     {
       "id": "47f575168880c21b",
@@ -1506,8 +1543,7 @@
         "language": "ja"
       },
       "translatedTitle": "Mrs. GREEN APPLE releases a YouTube short effect that turns you into an alien in the MV for her new song “Accomplice”",
-      "translatedExcerpt": "Mrs. GREEN APPLE created the YouTube short effect “MGA Kyohan Mat",
-      "stale": true
+      "translatedExcerpt": "Mrs. GREEN APPLE created the YouTube short effect “MGA Kyohan Mat"
     },
     {
       "id": "1630a1550bea27a6",
@@ -1526,8 +1562,7 @@
         "language": "ja"
       },
       "translatedTitle": "GAN (Takanori Iwata) releases “Watch” MV that combines music and fashion",
-      "translatedExcerpt": "GAN (Sandaime J SOUL BROTHERS, Takanori Iwata) releases music video for new song “Watch”",
-      "stale": true
+      "translatedExcerpt": "GAN (Sandaime J SOUL BROTHERS, Takanori Iwata) releases music video for new song “Watch”"
     },
     {
       "id": "386ae5d22461ccde",
@@ -1546,8 +1581,7 @@
         "language": "ja"
       },
       "translatedTitle": "Da-iCE releases the first live performance video of \"Uraraka\" at the music festival [LIVE AZUMA 2026]",
-      "translatedExcerpt": "Da-iCE has released a live video of their new song \"Uraraka\". Distribution release on October 16, 2026",
-      "stale": true
+      "translatedExcerpt": "Da-iCE has released a live video of their new song \"Uraraka\". Distribution release on October 16, 2026"
     },
     {
       "id": "fb5c99ed0b42f911",
@@ -1566,8 +1600,7 @@
         "language": "ja"
       },
       "translatedTitle": "eill releases the studio live video of the “Miss” self-cover provided to BE:FIRST",
-      "translatedExcerpt": "eill has released a studio live video of ``Dream'' from their self-cover EP ``self-covers.''",
-      "stale": true
+      "translatedExcerpt": "eill has released a studio live video of ``Dream'' from their self-cover EP ``self-covers.''"
     },
     {
       "id": "59608fdbee11ec0e",
@@ -1643,8 +1676,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ayumu Imazu to embark on his biggest hall tour in 5 cities nationwide",
-      "translatedExcerpt": "Ayumu Imazu will be holding a hall tour starting July 2027. This tour is his largest",
-      "stale": true
+      "translatedExcerpt": "Ayumu Imazu will be holding a hall tour starting July 2027. This tour is his largest"
     },
     {
       "id": "c7ec4d46c0417e70",
@@ -1917,8 +1949,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Hot Shot Books] “I was reincarnated as a defeated heroine who was a childhood friend of the hero, so I changed my job to a compounder. 1st volume” and 6 published works of “Chiikawa” are in the top 10",
-      "translatedExcerpt": "“Billboard” released on November 5, 2026 (collection period: October 26th to November 1st)",
-      "stale": true
+      "translatedExcerpt": "“Billboard” released on November 5, 2026 (collection period: October 26th to November 1st)"
     },
     {
       "id": "ca68b98b127e3157",
@@ -1973,8 +2004,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] “You, Like a Star” takes first place on “Reiwa Books” and “Kafune” rises to second place",
-      "translatedExcerpt": "Billboard JA released on November 5, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboard JA released on November 5, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
     },
     {
       "id": "d48686537efc04f0",
@@ -1993,8 +2023,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] “You, like a star” wins 4th consecutive literary book chart “Oni no Bride Newlywed Volume 6 (Light Novel Version)” debuts",
-      "translatedExcerpt": "Literary book chart published on November 5, 2026 (collection period: October 26, 2026 - November 1, 2026)",
-      "stale": true
+      "translatedExcerpt": "Literary book chart published on November 5, 2026 (collection period: October 26, 2026 - November 1, 2026)"
     },
     {
       "id": "c20fc06998f0a00c",
@@ -2013,8 +2042,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] FRUITS ZIPPER's 4th anniversary photo book \"SYNERGY\" debuts at No. 1 on the cultural book chart BOOWY's testimonial collection \"BOOWY HUNT 1981-1988\" debuts at No. 5",
-      "translatedExcerpt": "Billboar chart published on November 5, 2026 (collection period: October 26, 2026 - November 1, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboar chart published on November 5, 2026 (collection period: October 26, 2026 - November 1, 2026)"
     },
     {
       "id": "6824badead727cca",
@@ -2033,8 +2061,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Yu Nagira's \"You Are Like a Star\" tops the general book chart for the first time",
-      "translatedExcerpt": "Billboard JA released on November 5, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboard JA released on November 5, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
     },
     {
       "id": "7daafe8971509474",
@@ -2053,8 +2080,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Asako Yuzuki's \"BUTTER\" wins first place in \"Heisei Books\" Norihiro Yagi's \"Angel Legend\" series is now available",
-      "translatedExcerpt": "Charts by year for charts released on November 5, 2026 (collection period: October 26, 2026 - November 1, 2026) &",
-      "stale": true
+      "translatedExcerpt": "Charts by year for charts released on November 5, 2026 (collection period: October 26, 2026 - November 1, 2026) &"
     },
     {
       "id": "3bb45f3a2a65f2d5",
@@ -2073,8 +2099,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Emiko Inagaki's \"Life Without Buying\" returns to the top of the economic book chart",
-      "translatedExcerpt": "Economic book charts published on November 5, 2026 (collection period: October 26, 2026 to November 1, 2026)",
-      "stale": true
+      "translatedExcerpt": "Economic book charts published on November 5, 2026 (collection period: October 26, 2026 to November 1, 2026)"
     },
     {
       "id": "7a8ece0f66dd7fae",
@@ -2093,8 +2118,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Ayatsuji Yukito's ``Decagonal House Murder'' topped the Showa chart for 12 consecutive weeks, Uno Chiyo's ``Ikikuru Watashi'' emerged",
-      "translatedExcerpt": "Chart by year “Billboard JAPAN Showa Books”",
-      "stale": true
+      "translatedExcerpt": "Chart by year “Billboard JAPAN Showa Books”"
     },
     {
       "id": "6b0cd7b9aa6a7043",
@@ -2113,8 +2137,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Kazuki Kazumi/Hachi August/Kikka Ohashi “The fate of the other world depends on the company animals Volume 8 (comic version)” ranks 1st in “Hot Manga”",
-      "translatedExcerpt": "Chart released on November 5, 2026 (Aggregation period: October 26, 2026 - November 1, 2026) Billboard",
-      "stale": true
+      "translatedExcerpt": "Chart released on November 5, 2026 (Aggregation period: October 26, 2026 - November 1, 2026) Billboard"
     },
     {
       "id": "f83e009d6b91869c",
@@ -2150,8 +2173,7 @@
         "language": "ja"
       },
       "translatedTitle": "<Live Report> LEX holds his biggest live show. Darkness and suffering all become songs of hope.",
-      "translatedExcerpt": "On October 30, 2026, LEX's first arena solo performance will be held at TOYOTA ARENA TOKYO, Tokyo [",
-      "stale": true
+      "translatedExcerpt": "On October 30, 2026, LEX's first arena solo performance will be held at TOYOTA ARENA TOKYO, Tokyo ["
     },
     {
       "id": "21b941d42176f6f6",
@@ -2189,7 +2211,7 @@
         "language": "ja"
       },
       "translatedTitle": "RADWIMPS releases MV for new song “Saba Daanaku -Shabadaba-”",
-      "translatedExcerpt": "The music video for RADWIMPS' new song \"Shabadaba-\" has been released. The new song ``Shabadaba'', which was written as the theme song for Fuji TV's October drama ``Political Pan'' currently airing, has become a hot topic as it is so provocative and edgy that it is hard to believe that it is a drama theme song. The music video was directed by Masaki Watanabe, a video creator active both domestically and internationally. He develops an abstract visual world that resembles contemporary art, with a mixture of madness and playfulness. Using a variety of visual expressions and metaphors to depict the discomfort and irony of society, the song's message is delivered vividly through catchy production and an angry, immersive performance. Set in the fictional country of Nipponia, Satomi Ishihara plays the female Lupine, Yayoi Kisaragi..."
+      "translatedExcerpt": "The music video for RADWIMPS' new song \"Shabadaba-\" has been released. The new song ``Shabadaba'', which was written as the theme song for Fuji TV's October drama ``Political Pan'' currently airing, has become a hot topic as it is so provocative and edgy that it is hard to believe that it is a drama theme song. The music video was directed by Masaki Watanabe, a video creator active both domestically and internationally. Developing an abstract visual world that resembles contemporary art, a mixture of madness and playfulness. Using a variety of visual expressions and metaphors to depict the discomfort and irony of society, the song's message is delivered vividly through catchy production and an angry, immersive performance. Set in the fictional country of Nipponia, Satomi Ishihara plays the female Lupine, Yayoi Kisaragi..."
     },
     {
       "id": "f36523b843e2eaeb",
@@ -2242,8 +2264,7 @@
         "language": "ja"
       },
       "translatedTitle": "DEZERT, 15th Anniversary Tour [DEZERT 15th ANNIVERSARY HALL TOUR 2026 \"Welcome To My Beginning\"] Official report of final performance arrives",
-      "translatedExcerpt": "DEZERT 15th Anniversary Tour [DEZERT 15th ANNIVERSARY HALL TOU]",
-      "stale": true
+      "translatedExcerpt": "DEZERT 15th Anniversary Tour [DEZERT 15th ANNIVERSARY HALL TOU]"
     },
     {
       "id": "a4b3695d5cae1b84",
@@ -2444,8 +2465,7 @@
         "language": "ja"
       },
       "translatedTitle": "Former Dragon Ball Z composer elected Texas attorney general in US midterm elections",
-      "translatedExcerpt": "The \"Blue Wave\" that swept through Texas this week also contained the energy of \"Dragon Ball Z.\"",
-      "stale": true
+      "translatedExcerpt": "The \"Blue Wave\" that swept through Texas this week also contained the energy of \"Dragon Ball Z.\""
     },
     {
       "id": "c4b731f6df2f9960",
@@ -2464,8 +2484,7 @@
         "language": "ja"
       },
       "translatedTitle": "セブンス・ベガ、11/7発売のニューAL『PRISM』全曲トレーラー公開",
-      "translatedExcerpt": "セブンス・ベガが、11月7日にリリースするニューアルバム『PRISM』の全曲トレーラーを公開した。",
-      "stale": true
+      "translatedExcerpt": "セブンス・ベガが、11月7日にリリースするニューアルバム『PRISM』の全曲トレーラーを公開した。"
     },
     {
       "id": "4606f3dd32537e76",
@@ -2503,8 +2522,7 @@
         "language": "ja"
       },
       "translatedTitle": "Baby DONT Cry、新曲「Replay」日韓同時リリース＆MV公開",
-      "translatedExcerpt": "Baby DONT Cryが、新曲「Replay」を11月4日に日韓同時リリースし、あわせてミュー",
-      "stale": true
+      "translatedExcerpt": "Baby DONT Cryが、新曲「Replay」を11月4日に日韓同時リリースし、あわせてミュー"
     },
     {
       "id": "5b639e7d62f9421a",
@@ -2561,8 +2579,7 @@
         "language": "ja"
       },
       "translatedTitle": "TOMORROW X TOGETHER、9thミニアルバム『PERFECT STORM』プレビュー映像公開",
-      "translatedExcerpt": "TOMORROW X TOGETHERが、9thミニアルバム『PERFECT STORM』のプレビ",
-      "stale": true
+      "translatedExcerpt": "TOMORROW X TOGETHERが、9thミニアルバム『PERFECT STORM』のプレビ"
     },
     {
       "id": "8b6359621155d8b7",
@@ -2581,8 +2598,7 @@
         "language": "ja"
       },
       "translatedTitle": "【先ヨミ】Aぇ! group『Emotion』39.5万枚で現在シングル首位独走中",
-      "translatedExcerpt": "今週のCDシングル売上レポートから2026年11月2日～11月4日の集計が明らかとなり、Aぇ! g",
-      "stale": true
+      "translatedExcerpt": "今週のCDシングル売上レポートから2026年11月2日～11月4日の集計が明らかとなり、Aぇ! g"
     },
     {
       "id": "393a7a1967c631ce",
@@ -2601,8 +2617,7 @@
         "language": "ja"
       },
       "translatedTitle": "【先ヨミ】BE:FIRST『BE:4U』8.9万枚で現在アルバム首位走行中",
-      "translatedExcerpt": "今週のCDアルバム売上レポートから2026年11月2日～11月4日の集計が明らかとなり、BE:FI",
-      "stale": true
+      "translatedExcerpt": "今週のCDアルバム売上レポートから2026年11月2日～11月4日の集計が明らかとなり、BE:FI"
     },
     {
       "id": "419d5cfe3183a9b8",
@@ -2640,8 +2655,7 @@
         "language": "ja"
       },
       "translatedTitle": "Straight Angeli、メジャーデビュー当日に開催した1周年アニバーサリーライブの公式レポ到着",
-      "translatedExcerpt": "スターダストプロモーション所属の6人組女性アイドルグループ、Straight Angeliがデビュ",
-      "stale": true
+      "translatedExcerpt": "スターダストプロモーション所属の6人組女性アイドルグループ、Straight Angeliがデビュ"
     },
     {
       "id": "a554c466e89dde0a",
@@ -2660,8 +2674,7 @@
         "language": "ja"
       },
       "translatedTitle": "Juming, TV anime \"Magic Knight Ray Earth\" open theme \"Maiden's Sword\" music video \"Showa music program\" homage",
-      "translatedExcerpt": "十明が、TVアニメ『魔法騎士レイアース』オープニングテーマとして書き下ろした新曲「乙女の剣」のミュ",
-      "stale": true
+      "translatedExcerpt": "十明が、TVアニメ『魔法騎士レイアース』オープニングテーマとして書き下ろした新曲「乙女の剣」のミュ"
     },
     {
       "id": "8054610260337673",
@@ -2697,8 +2710,7 @@
         "language": "ja"
       },
       "translatedTitle": "MUCC、結成30周年の幕開けを飾る「ラブレター」MV公開 ニュー・アルバム発売＆全国ツアー開催も発表",
-      "translatedExcerpt": "2027年に結成30周年を迎えるMUCCが、11月17日にリリースする50枚目のシングル『ラブレタ",
-      "stale": true
+      "translatedExcerpt": "2027年に結成30周年を迎えるMUCCが、11月17日にリリースする50枚目のシングル『ラブレタ"
     },
     {
       "id": "75c4047f513c219a",
@@ -2755,8 +2767,7 @@
         "language": "ja"
       },
       "translatedTitle": "Dojin Ikuta Releases All Lyric Videos of 1stAL \"NASCENCE\" for a Limited Time",
-      "translatedExcerpt": "Todama Ikuta has released a limited time lyric video for his first album, NASCENCE. November",
-      "stale": true
+      "translatedExcerpt": "Todama Ikuta has released a limited time lyric video for his first album, NASCENCE. November"
     },
     {
       "id": "ded5f5c51c13baf4",
@@ -2775,8 +2786,7 @@
         "language": "ja"
       },
       "translatedTitle": "TK from Rin Toshi Sigure releases new song “Aside Matoi” & MV teaser released",
-      "translatedExcerpt": "TK from Rin Toshi Sigure has released a new song “Aside Matoi” and the music video teaser for the same song has been released.",
-      "stale": true
+      "translatedExcerpt": "TK from Rin Toshi Sigure has released a new song “Aside Matoi” and the music video teaser for the same song has been released."
     },
     {
       "id": "07d4fe427c4342c3",
@@ -2795,8 +2805,7 @@
         "language": "ja"
       },
       "translatedTitle": "Me Kobayashi releases music video for latest EP song \"Uchimado - Arrange Ver.\"",
-      "translatedExcerpt": "I, Kobayashi, have released the song \"Uchimado - Arrange Ver.\" from my latest EP \"Peeking into the Distant View\".",
-      "stale": true
+      "translatedExcerpt": "I, Kobayashi, have released the song \"Uchimado - Arrange Ver.\" from my latest EP \"Peeking into the Distant View\"."
     },
     {
       "id": "46c7d25468705164",
@@ -2815,8 +2824,7 @@
         "language": "ja"
       },
       "translatedTitle": "w.o.d., new song “Fure” released & MV released",
-      "translatedExcerpt": "w.o.d. will digitally release “Fure” from their new album “Fure” to be released on November 18th.",
-      "stale": true
+      "translatedExcerpt": "w.o.d. will digitally release “Fure” from their new album “Fure” to be released on November 18th."
     },
     {
       "id": "7d73541de60cff4a",
@@ -2835,8 +2843,7 @@
         "language": "ja"
       },
       "translatedTitle": "Tokinosora, 9th anniversary EP “CHECK! \"release",
-      "translatedExcerpt": "Tokino Sora's 9th anniversary EP \"CHECK! \", and the first song is \"Margot Tomirai\".",
-      "stale": true
+      "translatedExcerpt": "Tokino Sora's 9th anniversary EP \"CHECK! \", and the first song is \"Margot Tomirai\"."
     },
     {
       "id": "ced13163333e050e",
@@ -2872,8 +2879,7 @@
         "language": "ja"
       },
       "translatedTitle": "``Political Pan'' Shingo Katori plays the role of ``Prime Minister'' ``Amazing casting'' ``The best script that makes you wonder who is Shingo Katori?'' ``The yakitori scene is excellent''",
-      "translatedExcerpt": "The fifth episode of the drama ``Political Pan'' (Fuji TV) starring Satomi Ishihara was aired on the 4th. (*Hereafter",
-      "stale": true
+      "translatedExcerpt": "The fifth episode of the drama ``Political Pan'' (Fuji TV) starring Satomi Ishihara was aired on the 4th. (*Hereafter"
     },
     {
       "id": "b82df2a067799951",
@@ -2892,8 +2898,7 @@
         "language": "ja"
       },
       "translatedTitle": "THE RAMPAGE releases “Kamen Rider Myce” theme song “One Shot”",
-      "translatedExcerpt": "THE RAMPAGE sings the theme song “One Shot” for “Kamen Rider Myce” currently being broadcast on TV Asahi.",
-      "stale": true
+      "translatedExcerpt": "THE RAMPAGE sings the theme song “One Shot” for “Kamen Rider Myce” currently being broadcast on TV Asahi."
     },
     {
       "id": "3f515b2255e2d9a4",
@@ -2912,8 +2917,7 @@
         "language": "ja"
       },
       "translatedTitle": "Underworld x Brutalismus 3000, SP live held in Tokyo in March 2027",
-      "translatedExcerpt": "Underworld has been at the cutting edge of dance music for over 30 years, and the club scene from Berlin.",
-      "stale": true
+      "translatedExcerpt": "Underworld has been at the cutting edge of dance music for over 30 years, and the club scene from Berlin."
     },
     {
       "id": "8792a22b5f9b6b0a",
@@ -2985,8 +2989,7 @@
         "language": "ja"
       },
       "translatedTitle": "Elton John becomes the first to reach over 1 billion views on YouTube with 1989's 'Sacrifice'",
-      "translatedExcerpt": "The music video for Elton John's 1989 single \"Sacrifice\" is now available on YouT",
-      "stale": true
+      "translatedExcerpt": "The music video for Elton John's 1989 single \"Sacrifice\" is now available on YouT"
     },
     {
       "id": "703f6afea4f1b6c5",
@@ -3039,7 +3042,7 @@
         "language": "ja"
       },
       "translatedTitle": "<Tsurube's great song> Mika Hino appears",
-      "translatedExcerpt": "Mika Hino will appear on BS11 〈Tsurube no Ee Uta Ya Naa〉 on November 7th. Hino made his debut as a singer at the age of 19 and produced many hit songs such as \"Otoko to Onna no Love Game.\" He enthusiastically sang \"Hyouu\", which is his representative hit song and which made him appear in Kouhaku for the first time. In the new corner, ``Listen to Mr. Tsurube,'' 〇〇, the person who knows the most about ``Hyoen,'' makes a surprise appearance and tells the story behind the time. She also performed Yumi Arai's ``Afternoon Watching the Sea'', which she had listened to in her youth, and Mariko Takahashi's ``To Marie on Fifth Avenue'', which she had been singing since she was a teenager. She sings ``Morning Star,'' which she wrote and composed to convey the message of her late parents, who supported her dream of becoming a singer since she was a child, and ``There is no rain that never stops, and there is no night that never ends.'' Program information Tsurube's great song 1, \"Iroi\" Information https://www.bs11.jp/en..."
+      "translatedExcerpt": "Mika Hino will appear on BS11 〈Tsurube no Ee Uta Ya Naa〉 on November 7th. Hino made his debut as a singer at the age of 19 and produced many hit songs such as \"Otoko to Onna no Love Game.\" He enthusiastically sang \"Hyouu\", which is his representative hit song and which made him appear in Kouhaku for the first time. In the new corner, ``Listen to Mr. Tsurube,'' 〇〇, the person who knows the most about ``Hyoen,'' makes a surprise appearance and tells the story behind the time. She also performed Yumi Arai's ``Afternoon Watching the Sea'', which she had listened to in her youth, and Mariko Takahashi's ``To Marie on Fifth Avenue'', which she had been singing since she was a teenager. She sings ``Morning Star,'' which she wrote and composed to convey the message of her late parents, who supported her dream of becoming a singer since she was a child, and ``There is no rain that never stops, and there is no night that never ends.'' Program information Tsurube's good song 1, \"Iroi\" Information https://www.bs11.jp/en..."
     },
     {
       "id": "d467b5084e2fa0d3",
@@ -3058,8 +3061,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Kis-My-Ft2 “Kis SCENE” ranks first in overall albums VOLTACTION/ILLIT appears for the first time",
-      "translatedExcerpt": "Comprehensive album chart released on November 4, 2026 (collection period: October 26, 2026 - November 1, 2026)",
-      "stale": true
+      "translatedExcerpt": "Comprehensive album chart released on November 4, 2026 (collection period: October 26, 2026 - November 1, 2026)"
     },
     {
       "id": "d232cceb9e519ab5",
@@ -3078,8 +3080,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] ONE OK ROCK's \"Unreleased Collection - Japan Exclusive\" debuts at number one on DL albums, followed by ILLIT/Mrs. GREEN APPLE",
-      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
     },
     {
       "id": "e6128dc9e452cb76",
@@ -3134,8 +3135,7 @@
         "language": "ja"
       },
       "translatedTitle": "Les Enprimes to perform in Japan in April 2027",
-      "translatedExcerpt": "Les Enprimes, a vintage soul project by Morten Martens from Norway, will be released for 20",
-      "stale": true
+      "translatedExcerpt": "Les Enprimes, a vintage soul project by Morten Martens from Norway, will be released for 20"
     },
     {
       "id": "be419b5486313363",
@@ -3154,8 +3154,7 @@
         "language": "ja"
       },
       "translatedTitle": "Pretty Ivory, the most popular idol group at the moment, “I get excited when I hear the words of the fans” Covers of HoneyWorks masterpieces and songs from the latest album that will make you fall in love!",
-      "translatedExcerpt": "Kareena Ivory, the most exciting and rapidly rising idol group produced by HoneyWorks Sound",
-      "stale": true
+      "translatedExcerpt": "Kareena Ivory, the most exciting and rapidly rising idol group produced by HoneyWorks Sound"
     },
     {
       "id": "7b0f76eae373faf2",
@@ -3191,8 +3190,7 @@
         "language": "ja"
       },
       "translatedTitle": "The Cure's Robert Smith teases 2027 tour will be \"packed with new songs\"",
-      "translatedExcerpt": "After a busy 2026, The Cure frontman Robert Smith has announced plans for the band's 2027 tour.",
-      "stale": true
+      "translatedExcerpt": "After a busy 2026, The Cure frontman Robert Smith has announced plans for the band's 2027 tour."
     },
     {
       "id": "63b08d3ee52cc603",
@@ -3228,7 +3226,7 @@
         "language": "ja"
       },
       "translatedTitle": "MASHROOM Our Goodies, a general store where you can encounter music, opens for a limited time in Harajuku. A total of 13 artists including Aooo, QUEEN, Tatsuya Kitani, PEOPLE 1, MAISONdes, and DISH// will be participating.",
-      "translatedExcerpt": "It has been announced that MASHROOM Our Goodies, a general merchandise store where you can encounter music, will open in Harajuku, Tokyo for a limited time from November 20, 2026 (Friday) to December 25, 2026 (Friday). A total of 13 artists from across music genres and generations will be participating at this store. From fashion items to sweets and coffee, we offer a wide range of attractive items that will brighten up your daily life, including collaboration items that combine representative products from various brands with the essence of artists, such as CONVERSE sneakers, NEW ERA® caps/bucket hats, and KOKUYO campus notebooks. There is also a cafe on the second floor where you can enjoy music and drinks. sumika/Hanbreders/PE…"
+      "translatedExcerpt": "It has been announced that MASHROOM Our Goodies, a general merchandise store where you can encounter music, will open in Harajuku, Tokyo for a limited time from November 20, 2026 (Friday) to December 25, 2026 (Friday). A total of 13 artists will be participating at this store, transcending the boundaries of music genres and generations. From fashion items to sweets and coffee, we offer a wide range of attractive items that will brighten up your daily life, including collaboration items that combine representative products from various brands with the essence of artists, such as CONVERSE sneakers, NEW ERA® caps/bucket hats, and KOKUYO campus notebooks. Additionally, there is a cafe on the second floor where you can enjoy music and drinks. sumika/Hanbreders/PE…"
     },
     {
       "id": "5eb057bb1967f183",
@@ -3247,8 +3245,7 @@
         "language": "ja"
       },
       "translatedTitle": "Bob Dylan meets Pope Leo XIV at the Vatican",
-      "translatedExcerpt": "On November 4, 2026 local time, Bob Dylan met with Pope Leo XIV at the Vatican. drumstick",
-      "stale": true
+      "translatedExcerpt": "On November 4, 2026 local time, Bob Dylan met with Pope Leo XIV at the Vatican. drumstick"
     },
     {
       "id": "4a812c4a11cebc5d",
@@ -3318,8 +3315,7 @@
         "language": "ja"
       },
       "translatedTitle": "Mogwai releases trailer for first feature-length documentary film “MOGWAI/If the Stars Had Sound”",
-      "translatedExcerpt": "Preliminaries for the documentary film ``MOGWAI/If the Stars Had Sound'', which follows Mogwai's activities over the past 30 years.",
-      "stale": true
+      "translatedExcerpt": "Preliminaries for the documentary film ``MOGWAI/If the Stars Had Sound'', which follows Mogwai's activities over the past 30 years."
     },
     {
       "id": "a2466c4a01f3b3e1",
@@ -3338,8 +3334,7 @@
         "language": "ja"
       },
       "translatedTitle": "Nicki Minaj uses AI image of Chucky to encourage people to vote Republican, but creator responds with sarcasm",
-      "translatedExcerpt": "Does Nicki Minaj think she and Chucky from Child's Play will be \"friends till the end\"?",
-      "stale": true
+      "translatedExcerpt": "Does Nicki Minaj think she and Chucky from Child's Play will be \"friends till the end\"?"
     },
     {
       "id": "35a19add0d65b1bd",
@@ -3375,8 +3370,7 @@
         "language": "ja"
       },
       "translatedTitle": "Jungle performs 7 songs including \"Back on 74\" on NPR's \"Tiny Desk Concert\"",
-      "translatedExcerpt": "Jungle appeared for the first time on the US public radio station NPR's live program \"Tiny Desk Concert\" and was the latest",
-      "stale": true
+      "translatedExcerpt": "Jungle appeared for the first time on the US public radio station NPR's live program \"Tiny Desk Concert\" and was the latest"
     },
     {
       "id": "2c8813ef8e7f1459",
@@ -3429,8 +3423,7 @@
         "language": "ja"
       },
       "translatedTitle": "Oasis, Tower Records panel & photo spot tour expands to 2 stores in Tokyo and Kagoshima",
-      "translatedExcerpt": "Oasis' panel and photo spot tour, which is currently touring Tower Records stores nationwide, includes Shinjuku and Shibu stores in Tokyo.",
-      "stale": true
+      "translatedExcerpt": "Oasis' panel and photo spot tour, which is currently touring Tower Records stores nationwide, includes Shinjuku and Shibu stores in Tokyo."
     },
     {
       "id": "777865a5ca235195",
@@ -3449,8 +3442,7 @@
         "language": "ja"
       },
       "translatedTitle": "All songs from the latest Hunger Games soundtrack announced, 29 groups including Ella Langley and Noah Khan participating",
-      "translatedExcerpt": "Soundtrack \"T",
-      "stale": true
+      "translatedExcerpt": "Soundtrack \"T"
     },
     {
       "id": "2151c501390bbb5f",
@@ -3853,8 +3845,7 @@
         "language": "ja"
       },
       "translatedTitle": "God Doesn't Roll, Releases New Song '99' From New Label",
-      "translatedExcerpt": "God doesn't roll the dice, but He does launch a new independent label, Nighty Night.",
-      "stale": true
+      "translatedExcerpt": "God doesn't roll the dice, but He does launch a new independent label, Nighty Night."
     },
     {
       "id": "35a287d486161259",
@@ -3926,8 +3917,7 @@
         "language": "ja"
       },
       "translatedTitle": "Bialystocks writes a new ending theme for Kotake Justice Sense [Discourse 2026]",
-      "translatedExcerpt": "Bialystocks will be in charge of the ending theme for Kotake Seishikan's solo live [Benten 2026].",
-      "stale": true
+      "translatedExcerpt": "Bialystocks will be in charge of the ending theme for Kotake Seishikan's solo live [Benten 2026]."
     },
     {
       "id": "764e480f085d2d9b",
@@ -3963,8 +3953,7 @@
         "language": "ja"
       },
       "translatedTitle": "Lavt completes \"Tohgen-go\" music video expressing the crucible of introspective emotions",
-      "translatedExcerpt": "Distribution of Lavt's 2nd digital single \"Tohgen-go\", which made its major debut in August 2026 with \"Untrained\"",
-      "stale": true
+      "translatedExcerpt": "Distribution of Lavt's 2nd digital single \"Tohgen-go\", which made its major debut in August 2026 with \"Untrained\""
     },
     {
       "id": "4b78221d07b4a75d",
@@ -3983,8 +3972,7 @@
         "language": "ja"
       },
       "translatedTitle": "Yuzu premiered the first Nissan Stadium live footage in 2005",
-      "translatedExcerpt": "Yuzu will release the video work \"live films GO home\" from 19:00 on November 7, 2026 for one night only.",
-      "stale": true
+      "translatedExcerpt": "Yuzu will release the video work \"live films GO home\" from 19:00 on November 7, 2026 for one night only."
     },
     {
       "id": "60c79ceedf3ee686",
@@ -4003,8 +3991,7 @@
         "language": "ja"
       },
       "translatedTitle": "imase's new song \"It's a Beautiful Life\" will be the theme song for [INCLUSIVE DANCE FES 26-27]",
-      "translatedExcerpt": "imase's new song \"It's a Beautiful Life\" will be released on January 30th and 31st, 2027.",
-      "stale": true
+      "translatedExcerpt": "imase's new song \"It's a Beautiful Life\" will be released on January 30th and 31st, 2027."
     },
     {
       "id": "f07b610c9e6031d9",
@@ -4042,8 +4029,7 @@
         "language": "ja"
       },
       "translatedTitle": "THE SUPER FRUIT releases the music video for “Gibber, Kanpun LIFE,” which searches for “gibber and kanpun” around us.",
-      "translatedExcerpt": "THE SUPER FRUIT releases new song “Jinpun Kanpun LIFE” and music video.",
-      "stale": true
+      "translatedExcerpt": "THE SUPER FRUIT releases new song “Jinpun Kanpun LIFE” and music video."
     },
     {
       "id": "35538e8210285079",
@@ -4062,8 +4048,7 @@
         "language": "ja"
       },
       "translatedTitle": "Nomurasaki releases new song “Nakibokuro” featuring band ensemble",
-      "translatedExcerpt": "Nomura will release a new song “Nakibokuro” on November 25, 2026. The new song “Nakibokuro” is",
-      "stale": true
+      "translatedExcerpt": "Nomura will release a new song “Nakibokuro” on November 25, 2026. The new song “Nakibokuro” is"
     },
     {
       "id": "08c05bfe4bdd995d",
@@ -4082,7 +4067,7 @@
         "language": "ja"
       },
       "translatedTitle": "w.o.d. New song “Fure” distribution started & MV released",
-      "translatedExcerpt": "W.O.D.'s new 2-disc original new album \"Fure\" will be released on November 18, 2026, and the new song \"Fure\" has been released in advance. “Fure” is the title track of the album, and is a song that marks W.O.D.’s current location. It is a symbolic song that encompasses the entire 20-track album. In addition, the music video for \"Fure\" was also released. The changing landscape, emotional singing, and performance make this a touching piece. Artist information https://www.wodband.com/ https://twitter.com/wodofficial7 https://www.instagram.com/wodofficial7/ http://www.youtube.com/c/wodband https://www.tiktok.com/…"
+      "translatedExcerpt": "W.O.D.'s new 2-disc original album \"Fure\" will be released on November 18, 2026, and the new song \"Fure\" has been released in advance. “Fure” is the title track of the album, and is a song that marks W.O.D.’s current location. It is a symbolic song that encompasses the entire 20-track album. In addition, the music video for \"Fure\" was also released. The changing landscape, emotional singing, and performance make this a touching piece. Artist information https://www.wodband.com/ https://twitter.com/wodofficial7 https://www.instagram.com/wodofficial7/ http://www.youtube.com/c/wodband https://www.tiktok.com/…"
     },
     {
       "id": "70aabd171e4eacbc",
@@ -4136,7 +4121,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Ryan Castro releases a simple and powerful new song",
+      "translatedTitle": "Ryan Castro releases simple yet powerful new song",
       "translatedExcerpt": "Ryan Castro released his new single \"BRINCAITO\" on Thursday, October 29, 2026. This album brings to the fore Ryan Castro's signature reggaeton with a strong street feel and party sounds that will get the dance floor excited. It is a work that returns to his roots in Colombian urban music while maintaining the presence he has cultivated through his recent global activities. Producer SOG, who has a long-standing musical affinity with Ryan Castro, participated in the production and composition of the song. The simple yet powerful sound design maximizes the energy of the song. Release information https://ototoy.jp/_/default/p/4385858 Artist information https://www.i…"
     },
     {
@@ -4156,7 +4141,7 @@
         "language": "ja"
       },
       "translatedTitle": "Gusokumuzu releases new song with the title of their one-man performance",
-      "translatedExcerpt": "Gusokumuzu released their new single “Paradise” on November 4, 2026 (Wednesday). This song is the title of Gusokumuzu's one-man hall performance, which held its final performance at Otemachi Mitsui Hall yesterday. Bassist Yusuke Horibe wrote the lyrics and produced the song, which was produced by Hitoshi Yoshida, just like the previous album. The worldview of the song, centered around a tense guitar riff, that gradually expands like a dream, and the dizzying and chaotic development of the arrangement invites you to feel as if you are traveling through a spiritual world. It is a song that opens a new door for Gusokumuzu. The jacket features visuals created by model and collage artist Karin. The world view and message of the song is translated into a collage work, creating a visual that allows you to visually immerse yourself in the song. In addition, music along with the release..."
+      "translatedExcerpt": "Gusokumuzu released their new single “Paradise” on November 4, 2026 (Wednesday). This song is the title of Gusokumuzu's one-man hall performance, which held its final performance at Otemachi Mitsui Hall yesterday. Bassist Yusuke Horibe wrote the lyrics and produced the song, with Hitoshi Yoshida as the producer, as in the previous work. The worldview of the song, centered around a tense guitar riff, that gradually expands like a dream, and the dizzying and chaotic development of the arrangement invites you to feel as if you are traveling through a spiritual world. It is a song that opens a new door for Gusokumuzu. The jacket features visuals created by model and collage artist Karin. The world view and message of the song is translated into a collage work, creating a visual that allows you to visually immerse yourself in the song. In addition, music along with the release..."
     },
     {
       "id": "c217db16df96bf39",
@@ -4175,8 +4160,7 @@
         "language": "ja"
       },
       "translatedTitle": "ENHYPEN releases concept film & photo “DREAM” that awakens in dazzling light",
-      "translatedExcerpt": "ENHYPEN releases concept for spin-off single “THE SIN: PARALLEL WORLD”",
-      "stale": true
+      "translatedExcerpt": "ENHYPEN releases concept for spin-off single “THE SIN: PARALLEL WORLD”"
     },
     {
       "id": "a0c6f373527d4b9f",
@@ -4214,8 +4198,7 @@
         "language": "ja"
       },
       "translatedTitle": "Takumi Kawanishi (JO1) releases liner notes for the epic “Last Love” MV & EP “tomorrow”",
-      "translatedExcerpt": "Takumi Kawanishi (JO1) has released the music video for her new song \"Sawari Ai\". The new song “Last Love” is 2",
-      "stale": true
+      "translatedExcerpt": "Takumi Kawanishi (JO1) has released the music video for her new song \"Sawari Ai\". The new song “Last Love” is 2"
     },
     {
       "id": "e15a165c0229bbde",
@@ -4329,8 +4312,7 @@
         "language": "ja"
       },
       "translatedTitle": "Fudanjuku releases music video for “SETSUNA”, a performance in gorgeous Japanese clothing set in a temple",
-      "translatedExcerpt": "Cross-dressing idol group Fudanjuku has released the music video for their new song \"SETSUNA\".",
-      "stale": true
+      "translatedExcerpt": "Cross-dressing idol group Fudanjuku has released the music video for their new song \"SETSUNA\"."
     },
     {
       "id": "0566b06e6a9295f0",
@@ -4385,8 +4367,7 @@
         "language": "ja"
       },
       "translatedTitle": "RAN (MAZZEL) presents \"NAILON ISSUE 04\" double cover, 3 patterns of designed nails and looks",
-      "translatedExcerpt": "RAN (MAZZEL) will be featured in the magazine “NAILON ISSUE 04” which will be released on December 1, 2026.",
-      "stale": true
+      "translatedExcerpt": "RAN (MAZZEL) will be featured in the magazine “NAILON ISSUE 04” which will be released on December 1, 2026."
     },
     {
       "id": "ba351303412bd2b8",
@@ -4424,8 +4405,7 @@
         "language": "ja"
       },
       "translatedTitle": "BE:FIRST releases dynamic “NOW U KNOW” dance practice video",
-      "translatedExcerpt": "BE:FIRST has released a dance practice video for their new song \"NOW U KNOW\". New song “N",
-      "stale": true
+      "translatedExcerpt": "BE:FIRST has released a dance practice video for their new song \"NOW U KNOW\". New song “N"
     },
     {
       "id": "e29cb143ea95b25d",
@@ -4573,8 +4553,7 @@
         "language": "ja"
       },
       "translatedTitle": "luv starts distribution of 1st full album “wabi-sabi” & releases MV of “easy, no way!!”",
-      "translatedExcerpt": "Luv, a 5-member future soul band from Kansai, will release their 1st full album “wabi-sabi” in November.",
-      "stale": true
+      "translatedExcerpt": "Luv, a 5-member future soul band from Kansai, will release their 1st full album “wabi-sabi” in November."
     },
     {
       "id": "71e20c08f3615687",
@@ -4612,7 +4591,7 @@
         "language": "ja"
       },
       "translatedTitle": "Sar mo waits releases new song \"Nosei\" depicting breakup",
-      "translatedExcerpt": "Sar mo waits released their new single \"Nosei\" on Wednesday, November 4, 2026. Sar mo waits, who released their debut single in July of this year, is already releasing their third new song, which is a work depicting a \"breakup.\" The song has a sound reminiscent of 90's UK rock, with straightforward lyrics and a hymn-like chorus. In addition, the music video released today includes the first performance scene of the members since the start of their activities, and expresses the world view of the song through video. The rough-touch visuals and captions that give an early Heisei era feel fully express the musicality of the group, which aims to ``continue without being caught up in the times.'' Sar mo waits' Yuddy (Vo.&Gt.) commented on the new song as follows. Comments Release Information ht…"
+      "translatedExcerpt": "Sar mo waits released their new single \"Nosei\" on Wednesday, November 4, 2026. Sar mo waits' third new song, which released their debut single in July of this year, is a work depicting a \"breakup.\" The song has a sound reminiscent of 90's UK rock, with straightforward lyrics and a hymn-like chorus. In addition, the music video released today includes the first performance scene of the members since the start of their activities, and expresses the world view of the song through video. The rough-touch visuals and captions that give an early Heisei era feel fully express the musicality of the group, which aims to ``continue without being caught up in the times.'' Sar mo waits' Yuddy (Vo.&Gt.) commented on the new song as follows. Comments Release Information ht…"
     },
     {
       "id": "9044d8b6054dae10",
@@ -4798,8 +4777,7 @@
         "language": "ja"
       },
       "translatedTitle": "34 Girl's new song \"Hikari\" is her first full-fledged \"winter song\" and will be aired for the first time on live radio",
-      "translatedExcerpt": "Sansu Girl will release her new song ``Hikari'' on November 13th. Major in April this year",
-      "stale": true
+      "translatedExcerpt": "Sansu Girl will release her new song ``Hikari'' on November 13th. Major in April this year"
     },
     {
       "id": "38259f90a084c8a9",
@@ -4949,8 +4927,7 @@
         "language": "ja"
       },
       "translatedTitle": "<Interview> DIIV talks about the revolution, the “spirit of reconstruction”, and the “cowardice” of artists who do not speak out",
-      "translatedExcerpt": "In this century, in this economic climate, it's not easy to make a living as an indie rock band for 15 years.",
-      "stale": true
+      "translatedExcerpt": "In this century, in this economic climate, it's not easy to make a living as an indie rock band for 15 years."
     },
     {
       "id": "ef30ae0f38385eeb",
@@ -5026,7 +5003,7 @@
         "language": "ja"
       },
       "translatedTitle": "WAZGOGG releases collaboration EP with Koshun Nakao",
-      "translatedExcerpt": "WAZGOGG released their collaborative EP “Blue Tape” with Koshun Nakao on Wednesday, November 4, 2026. Contains 6 songs with the theme of blue things such as rain and the sea. This work is also a song that samples the piano and adds arrangements by reconstructing it, making it a song that gives you a live feeling. WAZGOGG commented on this EP as follows. Comment Release information https://ototoy.jp/_/default/a/192751 Artist information https://www.instagram.com/wata820/?hl=ja https://x.com/dj_wata820"
+      "translatedExcerpt": "WAZGOGG released their collaborative EP “Blue Tape” with Koshun Nakao on Wednesday, November 4, 2026. Contains 6 songs with the theme of blue things such as rain and the sea. This work is also a song that samples the piano and adds arrangements by reconstructing it, making it a song that gives you a live feel. WAZGOGG commented on this EP as follows. Comment Release information https://ototoy.jp/_/default/a/192751 Artist information https://www.instagram.com/wata820/?hl=ja https://x.com/dj_wata820"
     },
     {
       "id": "cc812a2830e01d7b",
@@ -5045,8 +5022,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kou Arata (WONK) releases new song “Fade Into Silence”",
-      "translatedExcerpt": "Kou Arata (WONK) will release his new single “Fade Into Silence” on November 4th.",
-      "stale": true
+      "translatedExcerpt": "Kou Arata (WONK) will release his new single “Fade Into Silence” on November 4th."
     },
     {
       "id": "33991ed410b2b404",
@@ -5084,8 +5060,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Heatseekers Songs] Billyrrom “Mirror Ball” wins 3rd consecutive victory “Tamagawa De Koi...Shiitai” appears for the first time",
-      "translatedExcerpt": "“JAPAN Heat” released on November 4, 2026 (aggregation period: October 26th to November 1st)",
-      "stale": true
+      "translatedExcerpt": "“JAPAN Heat” released on November 4, 2026 (aggregation period: October 26th to November 1st)"
     },
     {
       "id": "e264f5b5890633d8",
@@ -5104,8 +5079,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Hot Shot Songs] M!LK “That’s! Sujou” takes first place, Travis Japan “Checkmate” takes second place",
-      "translatedExcerpt": "Rising song chart released on November 4, 2026 (collection period: October 26, 2026 - November 1, 2026) &",
-      "stale": true
+      "translatedExcerpt": "Rising song chart released on November 4, 2026 (collection period: October 26, 2026 - November 1, 2026) &"
     },
     {
       "id": "4ece864fb0413279",
@@ -5124,8 +5098,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] M!LK “That’s! Chojo” ranks No. 1 on the “JAPAN Hot Animation” chart, achieving the second top spot on the anime chart since “Dashino Pendulum” in 2017",
-      "translatedExcerpt": "Released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026) Billboard JAP",
-      "stale": true
+      "translatedExcerpt": "Released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026) Billboard JAP"
     },
     {
       "id": "ef2f7cf1b2ff21f1",
@@ -5144,8 +5117,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] M!LK's \"That's! Sujou\" is his second overall number one, Vaundy's \"Shiwaawase\" is in the top three for the first time",
-      "translatedExcerpt": "Billboard JAPAN total released on November 4, 2026 (collection period: October 26th to November 1st)",
-      "stale": true
+      "translatedExcerpt": "Billboard JAPAN total released on November 4, 2026 (collection period: October 26th to November 1st)"
     },
     {
       "id": "4145224d2ee36e1e",
@@ -5164,8 +5136,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Travis Japan's \"Checkmate\" takes first place as a DL song with over 20,000 downloads, followed by M!LK in second place",
-      "translatedExcerpt": "Billboa released on November 4, 2026 (collection period: October 26, 2026 to November 1, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboa released on November 4, 2026 (collection period: October 26, 2026 to November 1, 2026)"
     },
     {
       "id": "03bb87b2d0c0df12",
@@ -5184,8 +5155,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Vaundy's \"Shiwaawase\" wins 2nd consecutive streaming song debut M!LK's new song makes its highest ranking debut & back number's first release of a song released about 14 and a half years ago",
-      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
     },
     {
       "id": "148bfa37aa97b700",
@@ -5204,8 +5174,7 @@
         "language": "ja"
       },
       "translatedTitle": "Hey! Say! JUMP re-records after 16 years and releases MV for “Romeo & Juliet+” captivating with his “adult prince” appearance",
-      "translatedExcerpt": "Hey! Say! JUMP releases “Romeo & Ju” from their new album “Juliet”.",
-      "stale": true
+      "translatedExcerpt": "Hey! Say! JUMP releases “Romeo & Ju” from their new album “Juliet”."
     },
     {
       "id": "342fc7048cc7bc99",
@@ -5224,8 +5193,7 @@
         "language": "ja"
       },
       "translatedTitle": "Galliards will perform in Japan for the first time in February 2027",
-      "translatedExcerpt": "Gurriers, a cutting-edge new generation of post-punk from Dublin, Ireland, will be performing in Japan for the first time.",
-      "stale": true
+      "translatedExcerpt": "Gurriers, a cutting-edge new generation of post-punk from Dublin, Ireland, will be performing in Japan for the first time."
     },
     {
       "id": "1afb290977b1208e",
@@ -5244,8 +5212,7 @@
         "language": "ja"
       },
       "translatedTitle": "Koji Tamaki x Orchestra Tour 2027 [Destiny] 22 performances in 11 prefectures nationwide will be held, including arena performances in 3 cities of Kanagawa, Hyogo, and Okinawa",
-      "translatedExcerpt": "Koji Tamaki x Orchestra's latest tour [billboard classics Koji Tamaki L",
-      "stale": true
+      "translatedExcerpt": "Koji Tamaki x Orchestra's latest tour [billboard classics Koji Tamaki L"
     },
     {
       "id": "642b435e3787cb44",
@@ -5283,8 +5250,7 @@
         "language": "ja"
       },
       "translatedTitle": "XG releases new song “DEPENDS” MV teaser & starts North American tour",
-      "translatedExcerpt": "XG released the music video teaser for their new song “DEPENDS” to be released on November 6th, and on November 3rd local time.",
-      "stale": true
+      "translatedExcerpt": "XG released the music video teaser for their new song “DEPENDS” to be released on November 6th, and on November 3rd local time."
     },
     {
       "id": "cc946fae7224bc11",
@@ -5390,8 +5356,7 @@
         "language": "ja"
       },
       "translatedTitle": "``kiDnap GAME'' The connections between the seven game participants have become clear. ``Is Tokyo from 5 years ago the key to connecting the incident?'' ``Which side is 'Higa' Shinnosuke Mitsushima on?''",
-      "translatedExcerpt": "The fifth episode of the international co-produced drama \"kiDnap GAME\" (Fuji TV) starring Kentaro Sakaguchi will be released on the 3rd.",
-      "stale": true
+      "translatedExcerpt": "The fifth episode of the international co-produced drama \"kiDnap GAME\" (Fuji TV) starring Kentaro Sakaguchi will be released on the 3rd."
     },
     {
       "id": "9b960da0f4efcb84",
@@ -5427,8 +5392,7 @@
         "language": "ja"
       },
       "translatedTitle": "Little Mix's Jade Includes Solo's First US Billboard 'Hot 100' in 'Angel of My Dreams'",
-      "translatedExcerpt": "Jade Is the First Solo Billboard Song Chart “Hot 100”",
-      "stale": true
+      "translatedExcerpt": "Jade Is the First Solo Billboard Song Chart “Hot 100”"
     },
     {
       "id": "34498801829c791b",
@@ -5464,8 +5428,7 @@
         "language": "ja"
       },
       "translatedTitle": "BE: first, new AL \"BE: 4U\" lead song \"now U know\" dance performance video released",
-      "translatedExcerpt": "BE: first released their 4th album BE: 4U on November 3rd with the lead track \"now U K",
-      "stale": true
+      "translatedExcerpt": "BE: first released their 4th album BE: 4U on November 3rd with the lead track \"now U K"
     },
     {
       "id": "e369b1a800a012d9",
@@ -5503,8 +5466,7 @@
         "language": "ja"
       },
       "translatedTitle": "Suga Shikao TV anime \"Horror Collector\" op theme \"Kageboshi\" launched",
-      "translatedExcerpt": "Suga Shikao broadcasts \"Kageboshi\", the opening theme of the NHK general TV anime \"Horror Collector\"",
-      "stale": true
+      "translatedExcerpt": "Suga Shikao broadcasts \"Kageboshi\", the opening theme of the NHK general TV anime \"Horror Collector\""
     },
     {
       "id": "71f2952f86d8e33c",
@@ -5523,8 +5485,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kitanitatsuya, AL \"pure\" song included \"I want to live with you and die with you!\" MV Premier Release Decision",
-      "translatedExcerpt": "Tatsuya Kitani shares the song \"I want to live with you and die with you\" from the album pure! ”music video released in November.",
-      "stale": true
+      "translatedExcerpt": "Tatsuya Kitani shares the song \"I want to live with you and die with you\" from the album pure! ”music video released in November."
     },
     {
       "id": "181a3fa9920ae0d4",
@@ -5560,8 +5521,7 @@
         "language": "ja"
       },
       "translatedTitle": "Bimi Announces Seven Cities' Bimi Live Tour 2027 '",
-      "translatedExcerpt": "Starting with the Chiba look performance on February 14, 2027, Bimi will tour seven cities across the country [Bim",
-      "stale": true
+      "translatedExcerpt": "Starting with the Chiba look performance on February 14, 2027, Bimi will tour seven cities across the country [Bim"
     },
     {
       "id": "32280852064e795f",
@@ -5580,8 +5540,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] “Nico Nico VOCALOID SONGS TOP20”, ryo “LEGENDS” tops the list for 2 weeks in a row",
-      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
     },
     {
       "id": "ed28674f0aee5024",
@@ -5600,8 +5559,7 @@
         "language": "ja"
       },
       "translatedTitle": "Koichi Domoto: ``This will be a work that will be passed down for years to come.'' Junior's new play opens. Shota Totsuka, Kota Yabu, and Yusuke Matsuzaki: ``I'm looking forward to the future as our juniors grow.''",
-      "translatedExcerpt": "EX THEATER ARIAKE OPENING LINEUP “Hyakki Yogami” opening day press conference and public genealogy",
-      "stale": true
+      "translatedExcerpt": "EX THEATER ARIAKE OPENING LINEUP “Hyakki Yogami” opening day press conference and public genealogy"
     },
     {
       "id": "734db35d97ad107f",
@@ -5620,8 +5578,7 @@
         "language": "ja"
       },
       "translatedTitle": "muque releases music video for “Iinjanai,” the theme song for the drama “Minamida Minami Bengo wa Genius Hada” starring Mana Ashida.",
-      "translatedExcerpt": "muque has released the music video for the theme song ``Iinjanai'' for the drama ``Minamida Minami Bengo wa Genius Hada''.",
-      "stale": true
+      "translatedExcerpt": "muque has released the music video for the theme song ``Iinjanai'' for the drama ``Minamida Minami Bengo wa Genius Hada''."
     },
     {
       "id": "2aa0475389581cac",
@@ -5748,8 +5705,7 @@
         "language": "ja"
       },
       "translatedTitle": "Mariah Carey declares the arrival of the 2026 holiday season and once again mentions the shelved grunge AL",
-      "translatedExcerpt": "Mariah Carey has announced the arrival of the 2026 holiday season with her annual video. This year",
-      "stale": true
+      "translatedExcerpt": "Mariah Carey has announced the arrival of the 2026 holiday season with her annual video. This year"
     },
     {
       "id": "aa67457dceb24f16",
@@ -5806,8 +5762,7 @@
         "language": "ja"
       },
       "translatedTitle": "Yuta Kishi (Number_i), Hibicare series new TV commercial “Big Cleaning” edition starts airing",
-      "translatedExcerpt": "The new TV commercial “Big Cleaning” version of the Hibi Care series starring Yuta Kishi (Number_i) will be released sequentially from November 4th.",
-      "stale": true
+      "translatedExcerpt": "The new TV commercial “Big Cleaning” version of the Hibi Care series starring Yuta Kishi (Number_i) will be released sequentially from November 4th."
     },
     {
       "id": "333da5355753e868",
@@ -5879,8 +5834,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ariana Grande interrupts interview with 'Meet the Parents' co-stars",
-      "translatedExcerpt": "As the premiere of the movie ``Meet the Parents'' approaches, Ariana Grande barges in.",
-      "stale": true
+      "translatedExcerpt": "As the premiere of the movie ``Meet the Parents'' approaches, Ariana Grande barges in."
     },
     {
       "id": "5402bbc08e499bcb",
@@ -5899,8 +5853,7 @@
         "language": "ja"
       },
       "translatedTitle": "``Iroha's love lasts for ages'' ``Mone-chan's crying play always takes my heart away'' ``If this happens, another Nagoryu (Koji Mukai) will also appear.''",
-      "translatedExcerpt": "The 4th episode of \"Iroha no Koi wa Jidai Kakeru\" (TBS) was broadcast on the 3rd. This work stars Mone Kamishiraishi x",
-      "stale": true
+      "translatedExcerpt": "The 4th episode of \"Iroha no Koi wa Jidai Kakeru\" (TBS) was broadcast on the 3rd. This work stars Mone Kamishiraishi x"
     },
     {
       "id": "a23bcb4f5f420ec4",
@@ -5974,8 +5927,7 @@
         "language": "ja"
       },
       "translatedTitle": "Hiroshi Oizumi “The thing that has changed the most is my body” “BYE BYE LOVE The Detective is in the Bar” Stage Greetings",
-      "translatedExcerpt": "The stage greeting for the movie \"BYE BYE LOVE The Detective is in the Bar\" (to be released on December 25th) was held on the 2nd and 3rd.",
-      "stale": true
+      "translatedExcerpt": "The stage greeting for the movie \"BYE BYE LOVE The Detective is in the Bar\" (to be released on December 25th) was held on the 2nd and 3rd."
     },
     {
       "id": "ce66b7604e4fff15",
@@ -5994,8 +5946,7 @@
         "language": "ja"
       },
       "translatedTitle": "Da-iCE releases video work “Da-iCE ARENA TOUR 2026 -TERMiNaL-” & “TERMINAL” live video premiere to be released",
-      "translatedExcerpt": "Da-iCE will release the video work “Da-iCE ARENA TOUR 2026 -TERMiN” on November 4th.",
-      "stale": true
+      "translatedExcerpt": "Da-iCE will release the video work “Da-iCE ARENA TOUR 2026 -TERMiN” on November 4th."
     },
     {
       "id": "c2a49cd78a56cdc0",
@@ -6031,8 +5982,7 @@
         "language": "ja"
       },
       "translatedTitle": "``Lawyer Minami Minami is a genius'' ``Minato (Fumiya Takahashi) is unparalleled this time as well. He's extremely kind'' ``This time the theme was so heavy that it was hard to watch.''",
-      "translatedExcerpt": "The third episode of ``Minami Minami is a Genius'' (Kansai TV/Fuji TV) was broadcast on the 2nd. This work is from Korea",
-      "stale": true
+      "translatedExcerpt": "The third episode of ``Minami Minami is a Genius'' (Kansai TV/Fuji TV) was broadcast on the 2nd. This work is from Korea"
     },
     {
       "id": "8d6e9923f7c020f6",
@@ -6051,8 +6001,7 @@
         "language": "ja"
       },
       "translatedTitle": "RADWIMPS, “Shaba Dakaku -Shabadaba-” MV premiere will be released on 11/4",
-      "translatedExcerpt": "RADWIMPS will release the music video for their new song “Shaba Dakan -Shabadaba-” on November 4th.",
-      "stale": true
+      "translatedExcerpt": "RADWIMPS will release the music video for their new song “Shaba Dakan -Shabadaba-” on November 4th."
     },
     {
       "id": "9f9ae6df21227302",
@@ -6088,8 +6037,7 @@
         "language": "ja"
       },
       "translatedTitle": "AKASAKI performs \"Bunny Girl\" with 800,000 illuminations illuminating the night in Hakata",
-      "translatedExcerpt": "AKASAKI held the ``Hakata City of Lights'' illumination event on November 3rd at JR Hakata Station Square in Fukuoka.",
-      "stale": true
+      "translatedExcerpt": "AKASAKI held the ``Hakata City of Lights'' illumination event on November 3rd at JR Hakata Station Square in Fukuoka."
     },
     {
       "id": "91e004b4aced2c6d",
@@ -6127,8 +6075,7 @@
         "language": "ja"
       },
       "translatedTitle": "Sam Fender covers The Rolling Stones' classic song in major UK department store commercial; Mick Jagger reacts",
-      "translatedExcerpt": "Sam Fender stars in The Rolling Stone for British department store John Lewis' Christmas TV commercial.",
-      "stale": true
+      "translatedExcerpt": "Sam Fender stars in The Rolling Stone for British department store John Lewis' Christmas TV commercial."
     },
     {
       "id": "4e1dfb4bc0b37ecc",
@@ -6217,8 +6164,7 @@
         "language": "ja"
       },
       "translatedTitle": "Hitsuji Bungaku, Kyary Pamyu Pamyu, and Otoboke Beaver appear on [Matsuri ‘26]",
-      "translatedExcerpt": "Sheep Bungaku, Kyary Pamyu Pamyu, and Otoboke Biba will appear [matsuri ‘26: J",
-      "stale": true
+      "translatedExcerpt": "Sheep Bungaku, Kyary Pamyu Pamyu, and Otoboke Biba will appear [matsuri ‘26: J"
     },
     {
       "id": "ad61fe7ea343f3a7",
@@ -6237,8 +6183,7 @@
         "language": "ja"
       },
       "translatedTitle": "Olivia Rodrigo releases teaser for her first Christmas song, ``Take Me Home (4 Christmas)''",
-      "translatedExcerpt": "Olivia Rodrigo releases her first Christmas song, ``Take Me Home (4 Chris",
-      "stale": true
+      "translatedExcerpt": "Olivia Rodrigo releases her first Christmas song, ``Take Me Home (4 Chris"
     },
     {
       "id": "3f348394b9d3bb94",
@@ -6575,8 +6520,7 @@
         "language": "ja"
       },
       "translatedTitle": "Yorushika “Haru” has been streamed over 300 million times [Billboard]",
-      "translatedExcerpt": "Yorushika's ``Haru'' has surpassed 300 million streaming views on Billboard JAPAN.",
-      "stale": true
+      "translatedExcerpt": "Yorushika's ``Haru'' has surpassed 300 million streaming views on Billboard JAPAN."
     },
     {
       "id": "1989ec9e3da382d9",
@@ -7467,8 +7411,7 @@
         "language": "ja"
       },
       "translatedTitle": "LEX releases MV for new song “Mahonshon Ikiru Iku” using live footage from TOYOTA ARENA TOKYO performance",
-      "translatedExcerpt": "LEX has released the music video for their new song \"Mahonshon Iki Iruyuku\". In this work, on October 30th,",
-      "stale": true
+      "translatedExcerpt": "LEX has released the music video for their new song \"Mahonshon Iki Iruyuku\". In this work, on October 30th,"
     },
     {
       "id": "21c5348e6c8b49f0",
@@ -7487,8 +7430,7 @@
         "language": "ja"
       },
       "translatedTitle": "BAND-MAID's new song \"BONDS\" will be included in the new pachinko machine \"e Gifu Dodo!! ~Kanetsugu to Keiji~4\"",
-      "translatedExcerpt": "BAND-MAID's new song \"BONDS\" will be featured on a new machine scheduled to be introduced at pachinko halls nationwide from January 2027.",
-      "stale": true
+      "translatedExcerpt": "BAND-MAID's new song \"BONDS\" will be featured on a new machine scheduled to be introduced at pachinko halls nationwide from January 2027."
     },
     {
       "id": "6d652b27532ba301",
@@ -7507,8 +7449,7 @@
         "language": "ja"
       },
       "translatedTitle": "36km/h, AL \"Gazer\" live video released from the \"Red that remains even when you close your eyes\" video bonus",
-      "translatedExcerpt": "36km/h is a live video of \"Gazer\" from the video bonus of the major 1st album \"Red that remains even when you close your eyes\".",
-      "stale": true
+      "translatedExcerpt": "36km/h is a live video of \"Gazer\" from the video bonus of the major 1st album \"Red that remains even when you close your eyes\"."
     },
     {
       "id": "dd19be379418fe1f",
@@ -7527,8 +7468,7 @@
         "language": "ja"
       },
       "translatedTitle": "milet to release “milet × Toru”, a digital EP that collects co-written songs with Toru (ONE OK ROCK)",
-      "translatedExcerpt": "milet will be releasing a distribution-only EP “milet &t” which is a collection of co-written songs with Toru (ONE OK ROCK).",
-      "stale": true
+      "translatedExcerpt": "milet will be releasing a distribution-only EP “milet &t” which is a collection of co-written songs with Toru (ONE OK ROCK)."
     },
     {
       "id": "0aab527616d199bd",
@@ -7547,8 +7487,7 @@
         "language": "ja"
       },
       "translatedTitle": "BE:FIRST releases new AL “BE:4U”",
-      "translatedExcerpt": "BE:FIRST released their 4th album ``BE:4U'' on November 3rd, the 5th anniversary of their debut.",
-      "stale": true
+      "translatedExcerpt": "BE:FIRST released their 4th album ``BE:4U'' on November 3rd, the 5th anniversary of their debut."
     },
     {
       "id": "07ab36fb20c5ecb9",
@@ -7567,8 +7506,7 @@
         "language": "ja"
       },
       "translatedTitle": "Dresscodes surprise release of new song “Liberation”",
-      "translatedExcerpt": "Dresscodes surprise released their new song ``Liberation'' on November 3rd, Culture Day. This work is",
-      "stale": true
+      "translatedExcerpt": "Dresscodes surprise released their new song ``Liberation'' on November 3rd, Culture Day. This work is"
     },
     {
       "id": "c587478595704b61",
@@ -7587,8 +7525,7 @@
         "language": "ja"
       },
       "translatedTitle": "BUDDiiS releases MV for new SG lead song “Mugendai LOVE!!!”",
-      "translatedExcerpt": "BUDDiiS will release the lead song of their 2nd major single “Mugendai LOVE!!!” on November 18th.",
-      "stale": true
+      "translatedExcerpt": "BUDDiiS will release the lead song of their 2nd major single “Mugendai LOVE!!!” on November 18th."
     },
     {
       "id": "2f1c7c14f63246fd",
@@ -7607,8 +7544,7 @@
         "language": "ja"
       },
       "translatedTitle": "MORISAKI WIN, classical concert tour [MORISAKI WIN CLASSICS] to be held",
-      "translatedExcerpt": "MORISAKI WIN will hold a classical concert tour [MORISAK] in the spring of 2027.",
-      "stale": true
+      "translatedExcerpt": "MORISAKI WIN will hold a classical concert tour [MORISAK] in the spring of 2027."
     },
     {
       "id": "788685eddd66c5e2",
@@ -7627,8 +7563,7 @@
         "language": "ja"
       },
       "translatedTitle": "SiM releases MV for song “DALALA” from new AL “HOOMAN AFTER ALL”",
-      "translatedExcerpt": "SiM releases music for the song “DALALA” from their 7th album “HOOMAN AFTER ALL”",
-      "stale": true
+      "translatedExcerpt": "SiM releases music for the song “DALALA” from their 7th album “HOOMAN AFTER ALL”"
     },
     {
       "id": "529eb0c93249530d",
@@ -7861,8 +7796,7 @@
         "language": "ja"
       },
       "translatedTitle": "[U.S. Billboard Song Chart] Ella Langley takes the top spot for 26th week, Adela rises to her highest ranking of 6th place",
-      "translatedExcerpt": "This week (dated November 7, 2026) US Billboard Song Chart “Hot 100&rdq",
-      "stale": true
+      "translatedExcerpt": "This week (dated November 7, 2026) US Billboard Song Chart “Hot 100&rdq"
     },
     {
       "id": "0d9d78c195f39005",
@@ -8365,8 +8299,7 @@
         "language": "ja"
       },
       "translatedTitle": "Who-ya Extended releases “FLY2FLY” performance video in collaboration with Ryu (REAL AKIBA BOYZ)",
-      "translatedExcerpt": "Who-ya Extended has released a performance video for their new song “FLY2FLY” (pronounced: Furafura).",
-      "stale": true
+      "translatedExcerpt": "Who-ya Extended has released a performance video for their new song “FLY2FLY” (pronounced: Furafura)."
     },
     {
       "id": "8ef805319bc1b76a",
@@ -8385,8 +8318,7 @@
         "language": "ja"
       },
       "translatedTitle": "eyed releases “silence” portrait video, a “moving painting” that looks like a portrait turned into a video",
-      "translatedExcerpt": "Five-member girl group eyed releases portrait video for new song \"silence\"",
-      "stale": true
+      "translatedExcerpt": "Five-member girl group eyed releases portrait video for new song \"silence\""
     },
     {
       "id": "971a284c9f1f02c0",
@@ -8405,8 +8337,7 @@
         "language": "ja"
       },
       "translatedTitle": "Galileo Galilei releases MV for “Rise of The Man,” which makes you feel the “dawn” of the band entering its second chapter.",
-      "translatedExcerpt": "Galileo Galilei releases music video for new song “Rise of The Man”",
-      "stale": true
+      "translatedExcerpt": "Galileo Galilei releases music video for new song “Rise of The Man”"
     },
     {
       "id": "1879b6aa33442683",
@@ -8425,8 +8356,7 @@
         "language": "ja"
       },
       "translatedTitle": "Denki Groove releases new song “Mosaic” for the first time in two and a half years",
-      "translatedExcerpt": "Denki Groove will digitally release their new song “Mosaic” on November 4, 2026. New song for the first time in about two and a half years",
-      "stale": true
+      "translatedExcerpt": "Denki Groove will digitally release their new song “Mosaic” on November 4, 2026. New song for the first time in about two and a half years"
     },
     {
       "id": "2fb55f7b73d4b1c8",
@@ -8462,8 +8392,7 @@
         "language": "ja"
       },
       "translatedTitle": "Young Skinny releases gorgeous and sad new song “Secret Christmas”",
-      "translatedExcerpt": "Young Skinny will release a new song \"Secret Christmas\" on November 18, 2026. New song “",
-      "stale": true
+      "translatedExcerpt": "Young Skinny will release a new song \"Secret Christmas\" on November 18, 2026. New song “"
     },
     {
       "id": "4c001aa6afb639de",
@@ -8499,8 +8428,7 @@
         "language": "ja"
       },
       "translatedTitle": "YOASOBIが出演、NHK特番『連続テレビ小説「ブラッサム」 主題歌ができるまで』放送",
-      "translatedExcerpt": "YOASOBIが出演する特別番組『連続テレビ小説「ブラッサム」 主題歌ができるまで』が、2026年",
-      "stale": true
+      "translatedExcerpt": "YOASOBIが出演する特別番組『連続テレビ小説「ブラッサム」 主題歌ができるまで』が、2026年"
     },
     {
       "id": "778df165500924dc",
@@ -8519,8 +8447,7 @@
         "language": "ja"
       },
       "translatedTitle": "TOMOO、アニメ『ひらやすみ』EDテーマを担当",
-      "translatedExcerpt": "TOMOOが、2027年1月よりNHK総合テレビにて放送開始となるTVアニメ『ひらやすみ』のエンデ",
-      "stale": true
+      "translatedExcerpt": "TOMOOが、2027年1月よりNHK総合テレビにて放送開始となるTVアニメ『ひらやすみ』のエンデ"
     },
     {
       "id": "b0e2eb55d24f34d5",
@@ -8575,8 +8502,7 @@
         "language": "ja"
       },
       "translatedTitle": "REIKO、miyou（Little Glee Monster）を迎えた「First Christmas」新バージョンを配信リリース",
-      "translatedExcerpt": "REIKOが、2026年11月9日にクリスマスソング「First Christmas」の新バージョ",
-      "stale": true
+      "translatedExcerpt": "REIKOが、2026年11月9日にクリスマスソング「First Christmas」の新バージョ"
     },
     {
       "id": "244bf28c1932dc46",
@@ -8595,8 +8521,7 @@
         "language": "ja"
       },
       "translatedTitle": "OCTPATH ​​depicts “excitement for the future” in the MV for “Smile Song”, which spreads through a dream-like world",
-      "translatedExcerpt": "OCTPATH ​​has released the music video for their new song \"Smile Song\". October 27, 2026",
-      "stale": true
+      "translatedExcerpt": "OCTPATH ​​has released the music video for their new song \"Smile Song\". October 27, 2026"
     },
     {
       "id": "0c04054871f20b6c",
@@ -8615,8 +8540,7 @@
         "language": "ja"
       },
       "translatedTitle": "TWS, dynamic dance in “Call My Name” MV depicting a story of enjoying the challenge itself",
-      "translatedExcerpt": "TWS has released the music video for their new song \"Call My Name.\" New song “Call M",
-      "stale": true
+      "translatedExcerpt": "TWS has released the music video for their new song \"Call My Name.\" New song “Call M"
     },
     {
       "id": "0948678c1ae16d19",
@@ -8855,8 +8779,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Kis-My-Ft2 “Kis SCENE” takes first place in album sales with 329,000 copies, followed by VOLTACTION in second place",
-      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
     },
     {
       "id": "2ffda6fcd9b3dd16",
@@ -8875,8 +8798,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] NGT48 “Kaze no Kataomoi” tops single sales with 83,000 copies, followed by ROIROM/FRUITS ZIPPER",
-      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
     },
     {
       "id": "4ded7f5f46fcf4d5",
@@ -8895,8 +8817,7 @@
         "language": "ja"
       },
       "translatedTitle": "DXTEEN will perform YouTube live broadcast “Koibana SP” in pajamas at night to commemorate the release of new SG “Soisho Ai”",
-      "translatedExcerpt": "DXTEEN is celebrating the release of their new single “Soisho Ai” with a YouTube live stream “DXTEEN PA”.",
-      "stale": true
+      "translatedExcerpt": "DXTEEN is celebrating the release of their new single “Soisho Ai” with a YouTube live stream “DXTEEN PA”."
     },
     {
       "id": "42e067927931d766",
@@ -8951,8 +8872,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ikimonogakari will be broadcasting a special live broadcast of a portion of their Hokkaido live on November 3rd, the anniversary of their formation, on YouTube and other channels.",
-      "translatedExcerpt": "Ikimonogakari will hold an event on November 3rd, the anniversary of its formation [Hello everyone at Ikimonogakari!!",
-      "stale": true
+      "translatedExcerpt": "Ikimonogakari will hold an event on November 3rd, the anniversary of its formation [Hello everyone at Ikimonogakari!!"
     },
     {
       "id": "d89dd2cb48da0ad8",
@@ -9157,8 +9077,7 @@
         "language": "ja"
       },
       "translatedTitle": "Sambo Master x Aina The End, Netflix “Talk Survivor! DEAD or LAUGH” theme song released for distribution",
-      "translatedExcerpt": "Sambo Master will release a new song “Hanaboutsu Sambo Master to Aina The End” on November 10th.",
-      "stale": true
+      "translatedExcerpt": "Sambo Master will release a new song “Hanaboutsu Sambo Master to Aina The End” on November 10th."
     },
     {
       "id": "0de29b128c9ee5d9",
@@ -9196,8 +9115,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kenshi Yonezu's new song ``Hello Gokigenyo!'' has been selected as the theme song for the movie ``Tora ni Tsubasa''",
-      "translatedExcerpt": "Kenshi Yonezu's new song \"Hello Gokigenyo!\" will be released nationwide on January 15, 2027.",
-      "stale": true
+      "translatedExcerpt": "Kenshi Yonezu's new song \"Hello Gokigenyo!\" will be released nationwide on January 15, 2027."
     },
     {
       "id": "f9eaeb5c5a0af2a4",
@@ -9290,8 +9208,7 @@
         "language": "ja"
       },
       "translatedTitle": "wacci will release two new songs “Osetsusuke” and “Amayaki” at the same time",
-      "translatedExcerpt": "It has been decided that wacci will simultaneously release two new songs, ``Osetsusuke'' and ``Tenjaki'', on November 13th.",
-      "stale": true
+      "translatedExcerpt": "It has been decided that wacci will simultaneously release two new songs, ``Osetsusuke'' and ``Tenjaki'', on November 13th."
     },
     {
       "id": "f69e1254a697bec7",
@@ -9310,8 +9227,7 @@
         "language": "ja"
       },
       "translatedTitle": "Girls2 releases music video for song “Umbrella” from new EP “EASY”",
-      "translatedExcerpt": "Girls2 will release the music video for the song “Umbrella” from their EP “EASY” to be released on November 11th.",
-      "stale": true
+      "translatedExcerpt": "Girls2 will release the music video for the song “Umbrella” from their EP “EASY” to be released on November 11th."
     },
     {
       "id": "a6543a63ae1a5c2c",
@@ -9330,8 +9246,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kento Nakajima's new SG \"Chou☆HENSHIN\" will be released",
-      "translatedExcerpt": "It has been decided that Kento Nakajima will release his 4th single ``Cho☆HENSHIN'' on December 16th.",
-      "stale": true
+      "translatedExcerpt": "It has been decided that Kento Nakajima will release his 4th single ``Cho☆HENSHIN'' on December 16th."
     },
     {
       "id": "de3bcbe20077d1de",
@@ -9350,8 +9265,7 @@
         "language": "ja"
       },
       "translatedTitle": "Harry Styles recreates his 2010 'X Factor' audition appearance and performs 'Isn't She Lovely' at 'Harryween'",
-      "translatedExcerpt": "Harry Styles returns to where it all started for this year's Harryween. local time",
-      "stale": true
+      "translatedExcerpt": "Harry Styles returns to where it all started for this year's Harryween. local time"
     },
     {
       "id": "4496f0e830b5424b",
@@ -9389,8 +9303,7 @@
         "language": "ja"
       },
       "translatedTitle": "jo0ji starts distribution of new song “Akutsu” & holds hall tour including Taipei one-man from April 2027",
-      "translatedExcerpt": "jo0ji has released a new song \"Akutsu\" (pronunciation: Akiaki). This song is inspired by the moon floating in the night sky.",
-      "stale": true
+      "translatedExcerpt": "jo0ji has released a new song \"Akutsu\" (pronunciation: Akiaki). This song is inspired by the moon floating in the night sky."
     },
     {
       "id": "664294d196464d76",
@@ -9426,8 +9339,7 @@
         "language": "ja"
       },
       "translatedTitle": "Higuchiai's \"first singing album 'Memoroku'\", which also includes the new song \"Kaiishi\", will be released exclusively on digital distribution",
-      "translatedExcerpt": "Higuchiai's first career singing album ``Memoroku'' will be released exclusively on digital distribution on November 18th. 2",
-      "stale": true
+      "translatedExcerpt": "Higuchiai's first career singing album ``Memoroku'' will be released exclusively on digital distribution on November 18th. 2"
     },
     {
       "id": "bb0281b30ee3aefe",
@@ -9465,8 +9377,7 @@
         "language": "ja"
       },
       "translatedTitle": "Yu Takahashi, NHK “Minna no Uta” new song “Wishing Wind and Coral Reef” to be broadcast from December to January",
-      "translatedExcerpt": "“Wind of Wishes and Coral Reef” written by Yu Takahashi for NHK’s “Minna no Uta” will be released from December 2026 to 2020.",
-      "stale": true
+      "translatedExcerpt": "“Wind of Wishes and Coral Reef” written by Yu Takahashi for NHK’s “Minna no Uta” will be released from December 2026 to 2020."
     },
     {
       "id": "cee9291613447dda",
@@ -9485,8 +9396,7 @@
         "language": "ja"
       },
       "translatedTitle": "New Tokyo/Endoa. will appear, and the first real event of the new era artist promotion brand \"ArtLed\" will be held.",
-      "translatedExcerpt": "\"ArtLed\" is a promotional brand that supports artists' activities from various angles.",
-      "stale": true
+      "translatedExcerpt": "\"ArtLed\" is a promotional brand that supports artists' activities from various angles."
     },
     {
       "id": "ecf3a2429b618a6f",
@@ -9579,8 +9489,7 @@
         "language": "ja"
       },
       "translatedTitle": "Nicki Minaj parodied on 'Saturday Night Live' after appearing at Trump rally",
-      "translatedExcerpt": "local time in 2026, one week after Nicki Minaj joined US President Donald Trump's election campaign.",
-      "stale": true
+      "translatedExcerpt": "local time in 2026, one week after Nicki Minaj joined US President Donald Trump's election campaign."
     },
     {
       "id": "576f5d0057d7f695",
@@ -9652,8 +9561,7 @@
         "language": "ja"
       },
       "translatedTitle": "Mariah Carey releases 25th anniversary edition of “Glitter” & releases 4K remastered version of “Loverboy” MV",
-      "translatedExcerpt": "Mariah Carey celebrates the 25th anniversary of Glitter by releasing a deluxe version digitally.",
-      "stale": true
+      "translatedExcerpt": "Mariah Carey celebrates the 25th anniversary of Glitter by releasing a deluxe version digitally."
     },
     {
       "id": "4c883966a14fd4a2",
@@ -9710,8 +9618,7 @@
         "language": "ja"
       },
       "translatedTitle": "Nogizaka46, New SG “Kimiros” jacket released, visual concept is “snow carousel”",
-      "translatedExcerpt": "Nogizaka46 has released the jacket artwork for their new single ``Kimiros'', which will be released on December 2nd.",
-      "stale": true
+      "translatedExcerpt": "Nogizaka46 has released the jacket artwork for their new single ``Kimiros'', which will be released on December 2nd."
     },
     {
       "id": "be8242148185c651",
@@ -9819,8 +9726,7 @@
         "language": "ja"
       },
       "translatedTitle": "Gracie Abrams performs two songs on US show 'SNL', paying homage to the movie 'Romeo + Juliet'",
-      "translatedExcerpt": "Gracie Abrams will appear on the US NBC program \"Saturday Night Live\" on October 31, 2026 local time.",
-      "stale": true
+      "translatedExcerpt": "Gracie Abrams will appear on the US NBC program \"Saturday Night Live\" on October 31, 2026 local time."
     },
     {
       "id": "94bcda15a708aeb0",
@@ -9873,8 +9779,7 @@
         "language": "ja"
       },
       "translatedTitle": "Spitz starts distributing “Kitsuno Button” from the album “kettle”",
-      "translatedExcerpt": "Spitz will start distributing “Kitsune no Button” from their 18th album “kettle” on November 2nd.",
-      "stale": true
+      "translatedExcerpt": "Spitz will start distributing “Kitsune no Button” from their 18th album “kettle” on November 2nd."
     },
     {
       "id": "ca87b744c1b0bc10",
@@ -9893,8 +9798,7 @@
         "language": "ja"
       },
       "translatedTitle": "Lil Baby wants to collaborate with Sabrina Carpenter: 'I'm more open to going outside the box'",
-      "translatedExcerpt": "Collaborations between rappers and pop stars, once a staple of pop music, are now rare.",
-      "stale": true
+      "translatedExcerpt": "Collaborations between rappers and pop stars, once a staple of pop music, are now rare."
     },
     {
       "id": "165927288671f9cd",
@@ -9932,8 +9836,7 @@
         "language": "ja"
       },
       "translatedTitle": "ENHYPEN will release the title song “I Want You” MV in advance on 11/13",
-      "translatedExcerpt": "ENHYPEN releases the title of spin-off single “THE SIN: PARALLEL WORLD”",
-      "stale": true
+      "translatedExcerpt": "ENHYPEN releases the title of spin-off single “THE SIN: PARALLEL WORLD”"
     },
     {
       "id": "0585063cd76d1a95",
@@ -10028,8 +9931,7 @@
         "language": "ja"
       },
       "translatedTitle": "Mariah Carey once again touches on the possibility of releasing a phantom grunge album: ``I get asked this question about once a week.''",
-      "translatedExcerpt": "Mariah Carey has revealed that her long-shelf phantom grunge album will soon see the light of day.",
-      "stale": true
+      "translatedExcerpt": "Mariah Carey has revealed that her long-shelf phantom grunge album will soon see the light of day."
     },
     {
       "id": "ad2c29296d1d0a90",
@@ -10067,8 +9969,7 @@
         "language": "ja"
       },
       "translatedTitle": "[U.S. Billboard Album Chart] My Chemical Romance becomes the first group to reach number one, a feat 20 years after its release",
-      "translatedExcerpt": "This week (dated November 7, 2026) US Billboard album chart “Billboard",
-      "stale": true
+      "translatedExcerpt": "This week (dated November 7, 2026) US Billboard album chart “Billboard"
     },
     {
       "id": "cd29a84f5e6eb79f",
@@ -10106,8 +10007,7 @@
         "language": "ja"
       },
       "translatedTitle": "US Billboard looks back at the first issue that conveyed \"everything new, bright, and interesting on the board\"",
-      "translatedExcerpt": "On November 1, 1894, Billboard published its first issue. The contents include current magazines and the ever-expanding American Bilbo",
-      "stale": true
+      "translatedExcerpt": "On November 1, 1894, Billboard published its first issue. The contents include current magazines and the ever-expanding American Bilbo"
     },
     {
       "id": "4b810334e6538623",
@@ -10126,8 +10026,7 @@
         "language": "ja"
       },
       "translatedTitle": "Jack Antonoff and Margaret Qualley to divorce after 3 years of marriage",
-      "translatedExcerpt": "Billboard reports that Jack Antonoff and Margaret Qualley have filed for divorce after three years of marriage.",
-      "stale": true
+      "translatedExcerpt": "Billboard reports that Jack Antonoff and Margaret Qualley have filed for divorce after three years of marriage."
     },
     {
       "id": "9fb9a800d4fb48c9",
@@ -10182,8 +10081,7 @@
         "language": "ja"
       },
       "translatedTitle": "Sunday Theater \"VIVANT\" \"I won't be fooled anymore. Nozaki (Hiroshi Abe) will not die\" \"Most of the people I thought were dead are still alive. That's VIVANT\"",
-      "translatedExcerpt": "Episode 23 of \"VIVANT\" (TBS) was broadcast on the 1st. This work will be a hot topic in Japan in the summer of 2023.",
-      "stale": true
+      "translatedExcerpt": "Episode 23 of \"VIVANT\" (TBS) was broadcast on the 1st. This work will be a hot topic in Japan in the summer of 2023."
     },
     {
       "id": "b64a6b806769a2a8",
@@ -10238,8 +10136,7 @@
         "language": "ja"
       },
       "translatedTitle": "DIIV releases MV for “Dare Me” from new AL “ZIRP!”",
-      "translatedExcerpt": "DIIV releases new album “ZIRP!” and latest single “Dare Me”",
-      "stale": true
+      "translatedExcerpt": "DIIV releases new album “ZIRP!” and latest single “Dare Me”"
     },
     {
       "id": "1b8ff6ba1de62c94",
@@ -10258,8 +10155,7 @@
         "language": "ja"
       },
       "translatedTitle": "Episode 4 of “Our Hakone Ekiden” is “a moving episode with so many highlights” “The scene where the cables are passed through made me cry” “The student union team meeting was heartwarming”",
-      "translatedExcerpt": "The fourth episode of the drama ``Oretachi no Hakone Ekiden'' (Nippon Television Network) starring Yo Oizumi was broadcast on the 31st. (※below",
-      "stale": true
+      "translatedExcerpt": "The fourth episode of the drama ``Oretachi no Hakone Ekiden'' (Nippon Television Network) starring Yo Oizumi was broadcast on the 31st. (※below"
     },
     {
       "id": "df56a624bf0c5caa",
@@ -10297,8 +10193,7 @@
         "language": "ja"
       },
       "translatedTitle": "Corey Taylor's Stone Sour releases 15th anniversary 3-CD set of ``Audio Secrecy''",
-      "translatedExcerpt": "Stone Sour, the rock band led by Corey Taylor, released their third studio album in 2010.",
-      "stale": true
+      "translatedExcerpt": "Stone Sour, the rock band led by Corey Taylor, released their third studio album in 2010."
     },
     {
       "id": "830f2f3789a7d1cc",
@@ -10387,8 +10282,7 @@
         "language": "ja"
       },
       "translatedTitle": "My Chemical Romance releases short animation ``Prelude to the End'' featuring voice actors such as Billie Eilish and Hideo Kojima",
-      "translatedExcerpt": "My Chemical Romance celebrates 20th anniversary of monumental third album 'The Black Parade'",
-      "stale": true
+      "translatedExcerpt": "My Chemical Romance celebrates 20th anniversary of monumental third album 'The Black Parade'"
     },
     {
       "id": "0c0945266fdb924f",
@@ -10407,8 +10301,7 @@
         "language": "ja"
       },
       "translatedTitle": "Nogizaka46, title program “Nogizaka Under Construction” 4 video titles to be released on 12/16",
-      "translatedExcerpt": "It has been decided that the four video titles of Nogizaka46's flagship program ``Nogizaka Under Construction'' will be released on December 16th.",
-      "stale": true
+      "translatedExcerpt": "It has been decided that the four video titles of Nogizaka46's flagship program ``Nogizaka Under Construction'' will be released on December 16th."
     },
     {
       "id": "45faf1f7358cb0ff",
@@ -10427,8 +10320,7 @@
         "language": "ja"
       },
       "translatedTitle": "Queen releases ``Bohemian Rhapsody'', ``Born to Love You'', and ``Legendary Champion'' as the first official Japanese translated MV",
-      "translatedExcerpt": "Queen's famous song \"Bohemian Rhapsody\" was released as a single in the UK on October 31, 1975.",
-      "stale": true
+      "translatedExcerpt": "Queen's famous song \"Bohemian Rhapsody\" was released as a single in the UK on October 31, 1975."
     },
     {
       "id": "71f993236dfcbc31",
@@ -10447,8 +10339,7 @@
         "language": "ja"
       },
       "translatedTitle": "Sam Smith releases new version of “My Guy” performed at [MAJ] featuring Jacob Rusk",
-      "translatedExcerpt": "Sam Smith performed “My",
-      "stale": true
+      "translatedExcerpt": "Sam Smith performed “My"
     },
     {
       "id": "a58e3cbfd694be83",
@@ -10486,8 +10377,7 @@
         "language": "ja"
       },
       "translatedTitle": "The Weeknd releases \"HONG KONG (feat. Wang Fei Season Wind)\" with love for Hong Kong, sampling Faye Wong's masterpiece",
-      "translatedExcerpt": "To mark the end of the Hong Kong performance, The Weeknd released a new song \"HONG KON\" that expresses his love and respect for Hong Kong.",
-      "stale": true
+      "translatedExcerpt": "To mark the end of the Hong Kong performance, The Weeknd released a new song \"HONG KON\" that expresses his love and respect for Hong Kong."
     },
     {
       "id": "9a168485a922f5c3",
@@ -10756,8 +10646,7 @@
         "language": "ja"
       },
       "translatedTitle": "BE:FIRST depicts their unwavering confidence and pure impulse towards music in their “NOW U KNOW” MV",
-      "translatedExcerpt": "BE:FIRST released their new song “NOW U KNOW” in advance and released the music video.",
-      "stale": true
+      "translatedExcerpt": "BE:FIRST released their new song “NOW U KNOW” in advance and released the music video."
     },
     {
       "id": "b7dbc12e1a4e5e81",
@@ -10795,8 +10684,7 @@
         "language": "ja"
       },
       "translatedTitle": "TRACK15 makes major debut, releases 1st album “Re member” & holds tour with band",
-      "translatedExcerpt": "TRACK15 will release their first major album “Re membe” from Pony Canyon on March 3, 2027.",
-      "stale": true
+      "translatedExcerpt": "TRACK15 will release their first major album “Re membe” from Pony Canyon on March 3, 2027."
     },
     {
       "id": "652dd4287b4d8c8c",
@@ -10815,8 +10703,7 @@
         "language": "ja"
       },
       "translatedTitle": "Uru releases first live performance video of drama “Animouto” theme song “Sore Nanoni”",
-      "translatedExcerpt": "Uru has released a live video of their new song \"Sore Nanoni\". Released on October 21, 2026",
-      "stale": true
+      "translatedExcerpt": "Uru has released a live video of their new song \"Sore Nanoni\". Released on October 21, 2026"
     },
     {
       "id": "0a5a41ec221b8255",
@@ -10886,8 +10773,7 @@
         "language": "ja"
       },
       "translatedTitle": "7th Vega releases MV teaser for new song “OVERDRIVE” for 6 consecutive days; panel exhibition for new album “PRISM” also held",
-      "translatedExcerpt": "7th Vega will release the MV teaser video for their new song \"OVERDRIVE\" for 6 consecutive days. New song “O",
-      "stale": true
+      "translatedExcerpt": "7th Vega will release the MV teaser video for their new song \"OVERDRIVE\" for 6 consecutive days. New song “O"
     },
     {
       "id": "43df115503c7bc12",
@@ -10906,8 +10792,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kobukuro and director Yukihiko Tsutsumi collaborate to release a short film inspired by their latest song \"Kasumibiyori\"",
-      "translatedExcerpt": "Kobukuro will be holding a show directed by Yukihiko Tsutsumi based on their latest song “Kasumibiyori” starting November 21, 2026.",
-      "stale": true
+      "translatedExcerpt": "Kobukuro will be holding a show directed by Yukihiko Tsutsumi based on their latest song “Kasumibiyori” starting November 21, 2026."
     },
     {
       "id": "af0ba7e1739a8e50",
@@ -10943,8 +10828,7 @@
         "language": "ja"
       },
       "translatedTitle": "Aina The End holds chorus and dancer auditions for 2027 hall tour",
-      "translatedExcerpt": "Aina The End will hold chorus and dancer auditions for their 2027 hall tour.",
-      "stale": true
+      "translatedExcerpt": "Aina The End will hold chorus and dancer auditions for their 2027 hall tour."
     },
     {
       "id": "2143c1b2070d59e8",
@@ -10980,8 +10864,7 @@
         "language": "ja"
       },
       "translatedTitle": "TWS releases part of new song “Call My Name” performance & challenge video",
-      "translatedExcerpt": "TWS has released part of their performance and challenge video for their new song \"Call My Name.\"",
-      "stale": true
+      "translatedExcerpt": "TWS has released part of their performance and challenge video for their new song \"Call My Name.\""
     },
     {
       "id": "d11d114e725d520e",
@@ -11805,8 +11688,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kenshi Yonezu tour [GHOST] Goods range from fashion to character items",
-      "translatedExcerpt": "Kenshi Yonezu will be participating in the tour [Kenshi Yonezu 2026 TOUR / GHOST] which will be held from November 2026.",
-      "stale": true
+      "translatedExcerpt": "Kenshi Yonezu will be participating in the tour [Kenshi Yonezu 2026 TOUR / GHOST] which will be held from November 2026."
     },
     {
       "id": "e3201125de8cedd9",
@@ -11861,8 +11743,7 @@
         "language": "ja"
       },
       "translatedTitle": "BE:FIRST's stadium live video that attracted approximately 100,000 people topped music video sales in October 2026 [SoundScan Japan research]",
-      "translatedExcerpt": "October 2026 by SoundScan Japan (Aggregation period: September 28, 2026 - October 25, 2026)",
-      "stale": true
+      "translatedExcerpt": "October 2026 by SoundScan Japan (Aggregation period: September 28, 2026 - October 25, 2026)"
     },
     {
       "id": "ff651c8df7d592a1",
@@ -11900,8 +11781,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Top Japan Hits by Women] Drama “Animouto” theme song, Uru “Sore Nanoni” etc. are listed for the first time",
-      "translatedExcerpt": "Collaboration playlist “Top Jap” by Billboard JAPAN and Spotify",
-      "stale": true
+      "translatedExcerpt": "Collaboration playlist “Top Jap” by Billboard JAPAN and Spotify"
     },
     {
       "id": "1800695822b2e43d",
@@ -12015,8 +11895,7 @@
         "language": "ja"
       },
       "translatedTitle": "Chevon co-stars with Tsuyoshi Muro, the “three uncles of Tokyo”, in the “Alpaca Syndrome” MV",
-      "translatedExcerpt": "Chevon will digitally release a new song “Alpaca Syndrome” on October 31, 2026, and will release music on October 31, 2026.",
-      "stale": true
+      "translatedExcerpt": "Chevon will digitally release a new song “Alpaca Syndrome” on October 31, 2026, and will release music on October 31, 2026."
     },
     {
       "id": "b44cd7372cc75684",
@@ -12054,8 +11933,7 @@
         "language": "ja"
       },
       "translatedTitle": "The cause is myself. is the ``All Night Nippon 0'' personality, and this time for the 6th time, there are 4 members.",
-      "translatedExcerpt": "The cause is myself. However, Nippon Broadcasting System “All Night Nippon 0 (Z",
-      "stale": true
+      "translatedExcerpt": "The cause is myself. However, Nippon Broadcasting System “All Night Nippon 0 (Z"
     },
     {
       "id": "c71af0e522f7ce5e",
@@ -12074,8 +11952,7 @@
         "language": "ja"
       },
       "translatedTitle": "Da-iCE releases “Uraraka” lyric video that combines live-action and one-stroke illustrations",
-      "translatedExcerpt": "Da-iCE has released the lyric video for their new song \"Uraraka\". Released on October 16, 2026",
-      "stale": true
+      "translatedExcerpt": "Da-iCE has released the lyric video for their new song \"Uraraka\". Released on October 16, 2026"
     },
     {
       "id": "dcc4b7abde91b50e",
@@ -12149,8 +12026,7 @@
         "language": "ja"
       },
       "translatedTitle": "M!LK's \"Ii Milk Day\" week will be held, and TeddyLoid's mashup song \"Bakuretsu Aisugite Mete!\" will be distributed",
-      "translatedExcerpt": "M!LK will hold “Ii Milk Day” Week from November 1st to 9th, 2026",
-      "stale": true
+      "translatedExcerpt": "M!LK will hold “Ii Milk Day” Week from November 1st to 9th, 2026"
     },
     {
       "id": "68ad299b01133f09",
@@ -12188,8 +12064,7 @@
         "language": "ja"
       },
       "translatedTitle": "Hey! Say! JUMP's new album \"Juliet\" includes song \"TRUE\" provided by Rira Ikuta",
-      "translatedExcerpt": "Hey! Say! JUMP will release their new album “Juliet” on November 11, 2026.",
-      "stale": true
+      "translatedExcerpt": "Hey! Say! JUMP will release their new album “Juliet” on November 11, 2026."
     },
     {
       "id": "425119cd57c4c563",
@@ -12261,8 +12136,7 @@
         "language": "ja"
       },
       "translatedTitle": "ALAN SHIRAHAMA will hold his first self-produced live tour",
-      "translatedExcerpt": "GENERATIONS's Alan Shirahama to perform his first self-produced live tour [ALAN SHI",
-      "stale": true
+      "translatedExcerpt": "GENERATIONS's Alan Shirahama to perform his first self-produced live tour [ALAN SHI"
     },
     {
       "id": "02d14a48535fe158",
@@ -12338,8 +12212,7 @@
         "language": "ja"
       },
       "translatedTitle": "TWS releases “Call My Name” MV teaser as they dive into new challenges",
-      "translatedExcerpt": "TWS has released the second MV teaser video for their new song \"Call My Name\". New song “Call",
-      "stale": true
+      "translatedExcerpt": "TWS has released the second MV teaser video for their new song \"Call My Name\". New song “Call"
     },
     {
       "id": "b0820ba7636ca2ea",
@@ -12565,8 +12438,7 @@
         "language": "ja"
       },
       "translatedTitle": "<Archive> \"YELL\" and \"Arigatou\" top the Hot 100, \"Bluebird\" dominates the global chart - Ikimonogakari's hit footprint on the 20th anniversary of their debut",
-      "translatedExcerpt": "Billboard JAPAN Hot 10 features one artist each week who has had a social impact.",
-      "stale": true
+      "translatedExcerpt": "Billboard JAPAN Hot 10 features one artist each week who has had a social impact."
     },
     {
       "id": "d72c45d6d2da21ed",
@@ -13030,8 +12902,7 @@
         "language": "ja"
       },
       "translatedTitle": "Taylor [Nashville Songwriters Hall of Fame] inducted, Bon Jovi to perform in Japan for the first time in 9 years, late Avicii's 2011 performance video released for the first time: This week's Western music summary",
-      "translatedExcerpt": "This week's Western music summary news begins with topics related to Taylor Swift. Local time October 2, 2026",
-      "stale": true
+      "translatedExcerpt": "This week's Western music summary news begins with topics related to Taylor Swift. Local time October 2, 2026"
     },
     {
       "id": "fe2142f08ef60223",
@@ -13500,8 +13371,7 @@
         "language": "ja"
       },
       "translatedTitle": "TOMOO's new song \"Birthday\" MV features \"TOMOO in the water\" and \"TOMOO in the city\"",
-      "translatedExcerpt": "TOMOO has released the music video for their new song \"Birthday\". Distribution restart on September 30, 2026",
-      "stale": true
+      "translatedExcerpt": "TOMOO has released the music video for their new song \"Birthday\". Distribution restart on September 30, 2026"
     },
     {
       "id": "41741a7cc216176e",
@@ -13520,8 +13390,7 @@
         "language": "ja"
       },
       "translatedTitle": "TOMORROW X TOGETHER releases concept photo “HOLDING THE STORM” that captures the storm",
-      "translatedExcerpt": "TOMORROW X TOGETHER's new mini album to be released on November 16, 2026",
-      "stale": true
+      "translatedExcerpt": "TOMORROW X TOGETHER's new mini album to be released on November 16, 2026"
     },
     {
       "id": "5da30a74b71c5769",
@@ -13540,8 +13409,7 @@
         "language": "ja"
       },
       "translatedTitle": "SUPER★DRAGON releases new song “Instinct” MV teaser and songs from new album “STAR”",
-      "translatedExcerpt": "SUPER★DRAGON has released a new song \"Instinct\" and released the MV teaser video. New song “",
-      "stale": true
+      "translatedExcerpt": "SUPER★DRAGON has released a new song \"Instinct\" and released the MV teaser video. New song “"
     },
     {
       "id": "4e0ea43a1ca48e99",
@@ -13560,8 +13428,7 @@
         "language": "ja"
       },
       "translatedTitle": "Hitoshi Yoshida (M!LK) releases ``Ai no Kata'', the ending theme for the drama ``Doaiai'' in which he stars.",
-      "translatedExcerpt": "Hitoshi Yoshida (M!LK) will release a new song \"Ai no Kata\" on November 9, 2026. The new song “Shape of Love”",
-      "stale": true
+      "translatedExcerpt": "Hitoshi Yoshida (M!LK) will release a new song \"Ai no Kata\" on November 9, 2026. The new song “Shape of Love”"
     },
     {
       "id": "913f6df4e27c3812",
@@ -13684,8 +13551,7 @@
         "language": "ja"
       },
       "translatedTitle": "SEKAI NO OWARI x Rira Ikuta's duet version of \"The Day When Time Stopped\" will be used as insert song for the drama \"Merry Berry Love\"",
-      "translatedExcerpt": "Fukase (SEKAI NO OWARI) and Rira Ikuta collaborate on the song “Time Stops”.",
-      "stale": true
+      "translatedExcerpt": "Fukase (SEKAI NO OWARI) and Rira Ikuta collaborate on the song “Time Stops”."
     },
     {
       "id": "cbea73f6a7721eda",
@@ -13704,8 +13570,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kroi will release the entire live video of Pia Arena MM performance for a limited time",
-      "translatedExcerpt": "Kroi held the [Kroi Live Tour] on February 1, 2025 at Pia Arena MM in Kanagawa.",
-      "stale": true
+      "translatedExcerpt": "Kroi held the [Kroi Live Tour] on February 1, 2025 at Pia Arena MM in Kanagawa."
     },
     {
       "id": "02a1500f213fb7b4",
@@ -13724,8 +13589,7 @@
         "language": "ja"
       },
       "translatedTitle": "Nogizaka46's new under song is \"edited\", Nippon Budokan performance will be held for 2 days including Ririan Ito's graduation ceremony",
-      "translatedExcerpt": "Undermen will be included in Nogizaka46's new single \"Kimiros\" to be released on December 2, 2026.",
-      "stale": true
+      "translatedExcerpt": "Undermen will be included in Nogizaka46's new single \"Kimiros\" to be released on December 2, 2026."
     },
     {
       "id": "d8c8a2c42d5bdd3c",
@@ -13799,8 +13663,7 @@
         "language": "ja"
       },
       "translatedTitle": "Nana Mori releases “Lovlog” MV composed from two different perspectives",
-      "translatedExcerpt": "Nana Mori has released the music video for her song \"Lovlog\". The song \"Lovlog\" is 202",
-      "stale": true
+      "translatedExcerpt": "Nana Mori has released the music video for her song \"Lovlog\". The song \"Lovlog\" is 202"
     },
     {
       "id": "fe0066d50a61b924",
@@ -13819,8 +13682,7 @@
         "language": "ja"
       },
       "translatedTitle": "TWICE releases “ENEMY” live video from MUFG Stadium (National Stadium) performance",
-      "translatedExcerpt": "TWICE has released a live video of their song \"ENEMY\". The song \"ENEMY\" is TWICE's best song.",
-      "stale": true
+      "translatedExcerpt": "TWICE has released a live video of their song \"ENEMY\". The song \"ENEMY\" is TWICE's best song."
     },
     {
       "id": "23a3f31acb4d1b7c",
@@ -13839,8 +13701,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ado releases the opening theme “Shinka” for the anime “Demon’s Crest”",
-      "translatedExcerpt": "Ado will release a new song \"Shinka\" on November 6, 2026. The new song “Shinka” will be released on the same day.",
-      "stale": true
+      "translatedExcerpt": "Ado will release a new song \"Shinka\" on November 6, 2026. The new song “Shinka” will be released on the same day."
     },
     {
       "id": "ec54a83912edf2a7",
@@ -13859,8 +13720,7 @@
         "language": "ja"
       },
       "translatedTitle": "Motohiro Hata depicts the “beginning of love between fragments” with “Fragments” MV",
-      "translatedExcerpt": "Motohiro Hata has released the music video for his new song \"Fragments\". Delivered on October 27, 2026",
-      "stale": true
+      "translatedExcerpt": "Motohiro Hata has released the music video for his new song \"Fragments\". Delivered on October 27, 2026"
     },
     {
       "id": "f7dd60445f4836fe",
@@ -14012,8 +13872,7 @@
         "language": "ja"
       },
       "translatedTitle": "Second Backer releases new song “Nasake Nai Love Story” about daily life with lover",
-      "translatedExcerpt": "Second Backer will release a new song \"Nasake Nai Love Story\" on November 11, 2026.",
-      "stale": true
+      "translatedExcerpt": "Second Backer will release a new song \"Nasake Nai Love Story\" on November 11, 2026."
     },
     {
       "id": "e2d207421cc4af0b",
@@ -14311,8 +14170,7 @@
         "language": "ja"
       },
       "translatedTitle": "VIDA Hollywood will release new song “Hodojanai” on November 4th & start selling tickets for Taipei Two-Man Live",
-      "translatedExcerpt": "VIDA Hollywood has announced that their new song \"Hodojanai\" will be released on November 4th.",
-      "stale": true
+      "translatedExcerpt": "VIDA Hollywood has announced that their new song \"Hodojanai\" will be released on November 4th."
     },
     {
       "id": "401f3522ee7af63b",
@@ -14572,8 +14430,7 @@
         "language": "ja"
       },
       "translatedTitle": "Original Love's first appearance, \"Kiss\" performed in a special formation with the chorus <THE FIRST TAKE>",
-      "translatedExcerpt": "Original Love one shot performance video “Original Love - Kiss /",
-      "stale": true
+      "translatedExcerpt": "Original Love one shot performance video “Original Love - Kiss /"
     },
     {
       "id": "7210627bb1f47c96",
@@ -14628,8 +14485,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Sen Yomi Digital] M!LK “That’s! Sujou” is running at the top of the DL song list Tracking Travis Japan/Hey! Say! JUMP’s new song",
-      "translatedExcerpt": "From the download song sales report by GfK/NIQ Japan from October 26, 2026 to October",
-      "stale": true
+      "translatedExcerpt": "From the download song sales report by GfK/NIQ Japan from October 26, 2026 to October"
     },
     {
       "id": "1dc2724229070f4f",
@@ -14648,8 +14504,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Sakiyomi Digital] Vaundy's \"Shiwaawase\" continues to be the number one streaming song M!LK's latest song \"That's! Chojo\" is currently in 4th place",
-      "translatedExcerpt": "October 26, 2026 - October 2, 2026 from streaming playback report by GfK/NIQ Japan",
-      "stale": true
+      "translatedExcerpt": "October 26, 2026 - October 2, 2026 from streaming playback report by GfK/NIQ Japan"
     },
     {
       "id": "3e6c7f1b0423296b",
@@ -14668,8 +14523,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Yomi Digital] Takumi Kawanishi's ``tomorrow'' DL album is running at number one, with Mrs. GREEN APPLE following closely behind",
-      "translatedExcerpt": "From the download/album sales report by GfK/NIQ Japan, October 26, 2026 - 1",
-      "stale": true
+      "translatedExcerpt": "From the download/album sales report by GfK/NIQ Japan, October 26, 2026 - 1"
     },
     {
       "id": "48f29057e1064bd4",
@@ -14764,8 +14618,7 @@
         "language": "ja"
       },
       "translatedTitle": "MAZZEL's TAKUTO & RYUKI talk about their first meeting with SKY-HI, audition secrets, etc. on \"Akane Osawa LUCKY 7\"",
-      "translatedExcerpt": "MAZZEL's TAKUTO and RYUKI will appear on Nippon Broadcasting System's \"Akane Osawa LUCKY 7\" from November 2nd.",
-      "stale": true
+      "translatedExcerpt": "MAZZEL's TAKUTO and RYUKI will appear on Nippon Broadcasting System's \"Akane Osawa LUCKY 7\" from November 2nd."
     },
     {
       "id": "b34c6cb0a2a5aa89",
@@ -14801,8 +14654,7 @@
         "language": "ja"
       },
       "translatedTitle": "noteで綴られた言葉が、読者の声を呼ぶ Payao『それでも光に手を伸ばす』『欠けたまま満ちる』のチャート動向を追う",
-      "translatedExcerpt": "ビルボードの総合書籍チャート「Billboard JAPAN Book Charts」のSNS指標",
-      "stale": true
+      "translatedExcerpt": "ビルボードの総合書籍チャート「Billboard JAPAN Book Charts」のSNS指標"
     },
     {
       "id": "7708adb69ba91f21",
@@ -14840,8 +14692,7 @@
         "language": "ja"
       },
       "translatedTitle": "U2 releases new Apple Music interview video & announces 2027 UK & Europe tour dates",
-      "translatedExcerpt": "A new U2 interview video by Apple Music's Zane Lowe has been released. interview",
-      "stale": true
+      "translatedExcerpt": "A new U2 interview video by Apple Music's Zane Lowe has been released. interview"
     },
     {
       "id": "3f84cc17c94a9fd3",
@@ -14915,8 +14766,7 @@
         "language": "ja"
       },
       "translatedTitle": "Lato says the presence of antis motivates him: ``Thank you for putting the battery in my back.''",
-      "translatedExcerpt": "Rato relies on the existence of opponents to keep him sharp, and that attitude is unlikely to change any time soon. rice atla",
-      "stale": true
+      "translatedExcerpt": "Rato relies on the existence of opponents to keep him sharp, and that attitude is unlikely to change any time soon. rice atla"
     },
     {
       "id": "4c82cd68e5b68d7c",
@@ -14935,8 +14785,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ae! group's Ken Kojima and Akiya Sano will be hosting a special radio program to commemorate the release of SG's \"Emotion\"",
-      "translatedExcerpt": "Ae! group's Ken Kojima and Akiya Sano will appear on a special program on Nippon Cultural Broadcasting, \"New Single \"Emotion\".",
-      "stale": true
+      "translatedExcerpt": "Ae! group's Ken Kojima and Akiya Sano will appear on a special program on Nippon Cultural Broadcasting, \"New Single \"Emotion\"."
     },
     {
       "id": "99e1073e512f77d3",
@@ -15063,8 +14912,7 @@
         "language": "ja"
       },
       "translatedTitle": "Olivia Rodrigo enjoys My Chemical Romance performance",
-      "translatedExcerpt": "On October 28, 2026 local time, Olivia Rodrigo updated her Instagram Stories and now",
-      "stale": true
+      "translatedExcerpt": "On October 28, 2026 local time, Olivia Rodrigo updated her Instagram Stories and now"
     },
     {
       "id": "542560b48853b728",
@@ -15134,8 +14982,7 @@
         "language": "ja"
       },
       "translatedTitle": "Selena Gomez and Demi Lovato reflect on over 25 years of friendship: 'I love you with all my heart'",
-      "translatedExcerpt": "Many fans are happy to see Selena Gomez and Demi Lovato reunite, but how much does it mean?",
-      "stale": true
+      "translatedExcerpt": "Many fans are happy to see Selena Gomez and Demi Lovato reunite, but how much does it mean?"
     },
     {
       "id": "694d8f192a6be545",
@@ -15171,8 +15018,7 @@
         "language": "ja"
       },
       "translatedTitle": "Baby Canta's new song \"Shooting Star\" is night cruising city pop",
-      "translatedExcerpt": "Singer-songwriter Baby Canta will release a new song “Shooting Star” on November 11th.",
-      "stale": true
+      "translatedExcerpt": "Singer-songwriter Baby Canta will release a new song “Shooting Star” on November 11th."
     },
     {
       "id": "68b6726474ff0562",
@@ -15191,8 +15037,7 @@
         "language": "ja"
       },
       "translatedTitle": "ATEEZ releases second concept photo for 15th mini album “GOLDEN HOUR: Part.6”",
-      "translatedExcerpt": "ATEEZ's 15th mini album \"GOLDEN HOUR: Part.6\" concept photo",
-      "stale": true
+      "translatedExcerpt": "ATEEZ's 15th mini album \"GOLDEN HOUR: Part.6\" concept photo"
     },
     {
       "id": "b978254a174a87cb",
@@ -15211,8 +15056,7 @@
         "language": "ja"
       },
       "translatedTitle": "BLACKPINK's Lisa talks about the inspiration she got from her home country of Thailand in \"SaWaDiKa\" and her passion for lovey-dovey",
-      "translatedExcerpt": "It will open on November 12, 2026 local time at The Coliseum at Caesars Palace in Las Vegas, USA.",
-      "stale": true
+      "translatedExcerpt": "It will open on November 12, 2026 local time at The Coliseum at Caesars Palace in Las Vegas, USA."
     },
     {
       "id": "42933ada638a6b3f",
@@ -15231,8 +15075,7 @@
         "language": "ja"
       },
       "translatedTitle": "5 Seconds of Summer releases dance music focused EP “CLUBSOS VOL. 1”",
-      "translatedExcerpt": "5 Seconds of Summer release six songs from their latest album Everyone's A Star!",
-      "stale": true
+      "translatedExcerpt": "5 Seconds of Summer release six songs from their latest album Everyone's A Star!"
     },
     {
       "id": "aa57f30dcba966ea",
@@ -15270,8 +15113,7 @@
         "language": "ja"
       },
       "translatedTitle": "ENHYPEN's JAY & NI-KI enjoy Yamanashi's scenic spots and gourmet food in their first special program \"Holiday Journey\"",
-      "translatedExcerpt": "Special program by ENHYPEN's JAY and NI-KI \"ENHYPEN JAY & NI-KI",
-      "stale": true
+      "translatedExcerpt": "Special program by ENHYPEN's JAY and NI-KI \"ENHYPEN JAY & NI-KI"
     },
     {
       "id": "68ad46ccc0d5342e",
@@ -15307,8 +15149,7 @@
         "language": "ja"
       },
       "translatedTitle": "Complete streaming of Bob Dylan's 1976 Fort Collins performance",
-      "translatedExcerpt": "Bob Dylan's 39-CD box set \"Rolling Thunder\" will be released on November 6, 2026.",
-      "stale": true
+      "translatedExcerpt": "Bob Dylan's 39-CD box set \"Rolling Thunder\" will be released on November 6, 2026."
     },
     {
       "id": "a3edc2348ce785d0",
@@ -15363,8 +15204,7 @@
         "language": "ja"
       },
       "translatedTitle": "Celine Dion makes record-breaking comeback in Paris with 19.7 billion yen",
-      "translatedExcerpt": "The last time Celine Dion was on tour, she and her fans knew that concert venues (and the world)",
-      "stale": true
+      "translatedExcerpt": "The last time Celine Dion was on tour, she and her fans knew that concert venues (and the world)"
     },
     {
       "id": "15ddd24e045afef1",
@@ -15402,8 +15242,7 @@
         "language": "ja"
       },
       "translatedTitle": "Mary J. Blige hits back at audience who booed her at a concert: ``What did you pay for?''",
-      "translatedExcerpt": "Mary J. Blige held a residency performance in Las Vegas, USA on the night of October 28, 2026 local time.",
-      "stale": true
+      "translatedExcerpt": "Mary J. Blige held a residency performance in Las Vegas, USA on the night of October 28, 2026 local time."
     },
     {
       "id": "a482b0a006a39704",
@@ -15441,8 +15280,7 @@
         "language": "ja"
       },
       "translatedTitle": "Usher and Chris Brown lead R&B to number one on US Billboard monthly tour chart",
-      "translatedExcerpt": "US Billboard launched a monthly tour chart “Boxscore” in 2019.",
-      "stale": true
+      "translatedExcerpt": "US Billboard launched a monthly tour chart “Boxscore” in 2019."
     },
     {
       "id": "2246c794b9f56b76",
@@ -15461,8 +15299,7 @@
         "language": "ja"
       },
       "translatedTitle": "Pentatonix, holiday AL “Christmas in the City” DX version distribution, new songs and live sound sources added",
-      "translatedExcerpt": "Pentatonix's 2025 holiday album \"Christmas in the Ci\"",
-      "stale": true
+      "translatedExcerpt": "Pentatonix's 2025 holiday album \"Christmas in the Ci\""
     },
     {
       "id": "c4c2742286495915",
@@ -15481,8 +15318,7 @@
         "language": "ja"
       },
       "translatedTitle": "&TEAM, collaboration song “ORIGAMI” with SANTOS BRAVOS will be released on November 20th",
-      "translatedExcerpt": "&TEAM releases collaboration song “ORIGAMI” with SANTOS BRAVOS on November 2nd",
-      "stale": true
+      "translatedExcerpt": "&TEAM releases collaboration song “ORIGAMI” with SANTOS BRAVOS on November 2nd"
     },
     {
       "id": "d4bb65f8cf45be9a",
@@ -15552,8 +15388,7 @@
         "language": "ja"
       },
       "translatedTitle": "``Uraraka Nami, Meoto Hiyori'' ``That's why they're all so cute, Yoshine-chan'' ``It's not suspenseful or exciting, but there aren't many dramas that leave your cheeks relaxed all the time.''",
-      "translatedExcerpt": "The third episode of ``Nami Urarakani, Meoto Biyori'' (Fuji TV) was broadcast on the 29th. This work was created in 1933.",
-      "stale": true
+      "translatedExcerpt": "The third episode of ``Nami Urarakani, Meoto Biyori'' (Fuji TV) was broadcast on the 29th. This work was created in 1933."
     },
     {
       "id": "9ea2e20dd50f6782",
@@ -15610,8 +15445,7 @@
         "language": "ja"
       },
       "translatedTitle": "Tele releases new song “Raview” with original jacket drawn by Taizan 5",
-      "translatedExcerpt": "Tele will release a new song \"Raview\" on November 25, 2026. The new song “Raview” is",
-      "stale": true
+      "translatedExcerpt": "Tele will release a new song \"Raview\" on November 25, 2026. The new song “Raview” is"
     },
     {
       "id": "fb3d9e1c2d655abb",
@@ -15649,8 +15483,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kocchinoken will hold his largest one-man show on March 6, 2027 & release new song “Konoha feat. SO-SO”",
-      "translatedExcerpt": "Kocchi no Kento will hold his largest one-man live [Kocchi no Kento's Planet] on March 6, 2027",
-      "stale": true
+      "translatedExcerpt": "Kocchi no Kento will hold his largest one-man live [Kocchi no Kento's Planet] on March 6, 2027"
     },
     {
       "id": "5ebe99c6b6dbaacf",
@@ -15669,8 +15502,7 @@
         "language": "ja"
       },
       "translatedTitle": "Late Prince releases live footage of unreleased tracks “Time of Ur Life” & “Black Sweat” from “3121” DX edition",
-      "translatedExcerpt": "The deluxe edition of Prince's album \"3121\", which celebrates its 20th anniversary this year, will be released worldwide on December 11, 2026.",
-      "stale": true
+      "translatedExcerpt": "The deluxe edition of Prince's album \"3121\", which celebrates its 20th anniversary this year, will be released worldwide on December 11, 2026."
     },
     {
       "id": "ebe7440a0d7022da",
@@ -15708,8 +15540,7 @@
         "language": "ja"
       },
       "translatedTitle": "Toshio Kadomatsu's 45th debut anniversary live video will be released on New Year's Day 2027",
-      "translatedExcerpt": "Toshiki Kadomatsu held his 45th debut anniversary live at Yokohama Arena on June 27, 2026 [TOSHIKI",
-      "stale": true
+      "translatedExcerpt": "Toshiki Kadomatsu held his 45th debut anniversary live at Yokohama Arena on June 27, 2026 [TOSHIKI"
     },
     {
       "id": "12ecff359e3a0b26",
@@ -15745,8 +15576,7 @@
         "language": "ja"
       },
       "translatedTitle": "STARGLOW receives <Rising Star Award> at [MTV VMAJ 2026] & performs “Slam Dunk” live for the first time",
-      "translatedExcerpt": "STARGLOW performed <Risi at [MTV VMAJ 2026] held at Tokyo Dome on October 29th.",
-      "stale": true
+      "translatedExcerpt": "STARGLOW performed <Risi at [MTV VMAJ 2026] held at Tokyo Dome on October 29th."
     },
     {
       "id": "6a71b63e0846d712",
@@ -15765,8 +15595,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ayumu Murase ``I never thought I would play the role of Michael'', report arrives for the ``eve festival'' commemorating the screening of the Japanese dubbed version of the movie ``Michael''",
-      "translatedExcerpt": "The movie “Mich” depicts the life of “King of Pop” = Michael Jackson.",
-      "stale": true
+      "translatedExcerpt": "The movie “Mich” depicts the life of “King of Pop” = Michael Jackson."
     },
     {
       "id": "da1f47a73217ff0b",
@@ -15802,8 +15631,7 @@
         "language": "ja"
       },
       "translatedTitle": "ONE OK ROCK releases “Unreleased Collection - Japan Exclusive” including new song “Fever” on October 30th",
-      "translatedExcerpt": "ONE OK ROCK releases the digital work “Unrelease”, which includes a total of 7 songs including the new song “Fever”.",
-      "stale": true
+      "translatedExcerpt": "ONE OK ROCK releases the digital work “Unrelease”, which includes a total of 7 songs including the new song “Fever”."
     },
     {
       "id": "ff9ec8fccd56f84b",
@@ -15822,8 +15650,7 @@
         "language": "ja"
       },
       "translatedTitle": "Gracie Abrams releases new song “Here You Come, There You Go” from latest album DX version",
-      "translatedExcerpt": "Gracie Abrams has added five new songs to her third album, Daughter from Hell, which was released in July of this year.",
-      "stale": true
+      "translatedExcerpt": "Gracie Abrams has added five new songs to her third album, Daughter from Hell, which was released in July of this year."
     },
     {
       "id": "045ba24b87cfd082",
@@ -15842,8 +15669,7 @@
         "language": "ja"
       },
       "translatedTitle": "Two new songs by Goro Inagaki, Tsuyoshi Kusanagi, and Shingo Katori will be released simultaneously on November 2nd.",
-      "translatedExcerpt": "Goro Inagaki, Tsuyoshi Kusanagi, and Shingo Katori will simultaneously release their new songs “Ikebutebutaiidemo” and “Diamond Cut” on November 2nd.",
-      "stale": true
+      "translatedExcerpt": "Goro Inagaki, Tsuyoshi Kusanagi, and Shingo Katori will simultaneously release their new songs “Ikebutebutaiidemo” and “Diamond Cut” on November 2nd."
     },
     {
       "id": "b85f39dea16b2cda",
@@ -15862,8 +15688,7 @@
         "language": "ja"
       },
       "translatedTitle": "Chanmina releases new album “LEGEND” songs and new art photos",
-      "translatedExcerpt": "Chanmina has released the songs included in her new album ``LEGEND'' and the latest artist photo. 202",
-      "stale": true
+      "translatedExcerpt": "Chanmina has released the songs included in her new album ``LEGEND'' and the latest artist photo. 202"
     },
     {
       "id": "2df87b719b38dcd0",
@@ -15882,8 +15707,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kazuya Yoshii premieres music video for drama theme song \"MUJO\" from new AL \"Ikimono Energy\"",
-      "translatedExcerpt": "Kazuya Yoshii releases advance digital release of his 8th original full album “Ikimono Energy”, his first in 12 years.",
-      "stale": true
+      "translatedExcerpt": "Kazuya Yoshii releases advance digital release of his 8th original full album “Ikimono Energy”, his first in 12 years."
     },
     {
       "id": "22880da2f93bf00f",
@@ -15955,8 +15779,7 @@
         "language": "ja"
       },
       "translatedTitle": "Tom Petty & The Heartbreakers hold Dolby Atmos listening event to commemorate 50th anniversary of debut",
-      "translatedExcerpt": "Origins 197 is a box set commemorating Tom Petty and the Heartbreakers' 50th anniversary.",
-      "stale": true
+      "translatedExcerpt": "Origins 197 is a box set commemorating Tom Petty and the Heartbreakers' 50th anniversary."
     },
     {
       "id": "f3e5be4c9a03291e",
@@ -16030,8 +15853,7 @@
         "language": "ja"
       },
       "translatedTitle": "[MTV VMAJ 2026] Mrs. GREEN APPLE wins <Video of the Year> for 3 consecutive years for the first time in history",
-      "translatedExcerpt": "The music event [MTV VMAJ 2026] sponsored by MTV was held at Tokyo Dome on October 29th.",
-      "stale": true
+      "translatedExcerpt": "The music event [MTV VMAJ 2026] sponsored by MTV was held at Tokyo Dome on October 29th."
     },
     {
       "id": "a066e37eeee7e33e",
@@ -16120,8 +15942,7 @@
         "language": "ja"
       },
       "translatedTitle": "Bon Jovi to perform in Japan for the first time in 9 years at Tokyo Dome for 2 days",
-      "translatedExcerpt": "Vocalist Jon Bon Jovi has made a huge comeback after undergoing vocal cord surgery and rehabilitation.",
-      "stale": true
+      "translatedExcerpt": "Vocalist Jon Bon Jovi has made a huge comeback after undergoing vocal cord surgery and rehabilitation."
     },
     {
       "id": "a53814bf4c00375c",
@@ -16694,8 +16515,7 @@
         "language": "ja"
       },
       "translatedTitle": "Dance artist GANMI releases MV for new song “CAR CHASE” in which he takes on the challenge of writing, composing, and producing lyrics.",
-      "translatedExcerpt": "GANMI takes on the challenge of writing, composing, and producing a new song “CAR CHASE (feat. Bestt",
-      "stale": true
+      "translatedExcerpt": "GANMI takes on the challenge of writing, composing, and producing a new song “CAR CHASE (feat. Bestt"
     },
     {
       "id": "94a99e85eeb182a6",
@@ -16714,8 +16534,7 @@
         "language": "ja"
       },
       "translatedTitle": "iiONDO's first special program \"Nice to meet you, I'm iiONDO\" takes on a work mission at Tobu Zoo",
-      "translatedExcerpt": "iiONDO's first special program \"Nice to meet you, I'm iiONDO\" will air on TV Tokyo and other channels on November 7, 2026.",
-      "stale": true
+      "translatedExcerpt": "iiONDO's first special program \"Nice to meet you, I'm iiONDO\" will air on TV Tokyo and other channels on November 7, 2026."
     },
     {
       "id": "b09dea7db198b539",
@@ -16770,8 +16589,7 @@
         "language": "ja"
       },
       "translatedTitle": "BE:FIRST releases content calendar for new album “BE:4U”",
-      "translatedExcerpt": "BE:FIRST will release the content of their new album “BE:4U” on November 3, 2026.",
-      "stale": true
+      "translatedExcerpt": "BE:FIRST will release the content of their new album “BE:4U” on November 3, 2026."
     },
     {
       "id": "f7e0024674a34050",
@@ -16824,8 +16642,7 @@
         "language": "ja"
       },
       "translatedTitle": "Fuji TV “STAR” will feature Ae! group, KAITO, Kishidan, GENERATIONS, DA PUMP, and PUFFY on November 5th",
-      "translatedExcerpt": "The performers for the November 5th broadcast of Fuji TV's music program ``STAR'' have been announced. Hands on “FNS Kayosai”",
-      "stale": true
+      "translatedExcerpt": "The performers for the November 5th broadcast of Fuji TV's music program ``STAR'' have been announced. Hands on “FNS Kayosai”"
     },
     {
       "id": "7bc403a5a73edc31",
@@ -16844,8 +16661,7 @@
         "language": "ja"
       },
       "translatedTitle": "SEKAI NO OWARI, dome tour [Du Gara Di Du] live video released in full for one day only",
-      "translatedExcerpt": "SEKAI NO OWARI will be holding a dome tour [DOME TOUR 2022 “Du Gara Di",
-      "stale": true
+      "translatedExcerpt": "SEKAI NO OWARI will be holding a dome tour [DOME TOUR 2022 “Du Gara Di"
     },
     {
       "id": "26913dc9f88f15cf",
@@ -16864,8 +16680,7 @@
         "language": "ja"
       },
       "translatedTitle": "supercell releases release information for the theme song “Yoru to Ao” for the theatrical anime “The Wizard’s Night”",
-      "translatedExcerpt": "supercell has released the release information for their new song \"Yoru to Ao\". The new song “Yoru to Ao” will be released in January 2026.",
-      "stale": true
+      "translatedExcerpt": "supercell has released the release information for their new song \"Yoru to Ao\". The new song “Yoru to Ao” will be released in January 2026."
     },
     {
       "id": "fad1bf84032920ce",
@@ -16884,8 +16699,7 @@
         "language": "ja"
       },
       "translatedTitle": "IMP., new song “Period” will be distributed in advance / Solo song will be included in the album “PERIOD.” / Lily event will be held",
-      "translatedExcerpt": "IMP. will pre-release the new song “Period” on November 9, 2026, and the music video will be released on Y",
-      "stale": true
+      "translatedExcerpt": "IMP. will pre-release the new song “Period” on November 9, 2026, and the music video will be released on Y"
     },
     {
       "id": "f3b002be452c6065",
@@ -16957,8 +16771,7 @@
         "language": "ja"
       },
       "translatedTitle": "King & Prince announce release of 8th album and arena tour",
-      "translatedExcerpt": "King & Prince will release a new album in February 2027, and will be performing at arenas starting in March.",
-      "stale": true
+      "translatedExcerpt": "King & Prince will release a new album in February 2027, and will be performing at arenas starting in March."
     },
     {
       "id": "1bc2226443c4a75a",
@@ -16994,8 +16807,7 @@
         "language": "ja"
       },
       "translatedTitle": "TWS releases MV teaser for “Call My Name” depicting their emotions before running out into the world",
-      "translatedExcerpt": "TWS has released the MV teaser video for their new song \"Call My Name\". New song “Call My",
-      "stale": true
+      "translatedExcerpt": "TWS has released the MV teaser video for their new song \"Call My Name\". New song “Call My"
     },
     {
       "id": "75003e4c47a833b3",
@@ -17065,8 +16877,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] TERIYAKI BOYZ's \"TOKYO DRIFT (FAST & FURIOUS)\" tops Japanese songs in 6 countries; Vickeblanka's \"Black Clover\" OP ranks highest",
-      "translatedExcerpt": "“Japan Songs” is a ranking of Japanese songs that are hits around the world.",
-      "stale": true
+      "translatedExcerpt": "“Japan Songs” is a ranking of Japanese songs that are hits around the world."
     },
     {
       "id": "06d9556197e7db14",
@@ -17085,8 +16896,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] TERIYAKI BOYZ “TOKYO DRIFT (FAST & FURIOUS)” Global Japan Songs V19 Ado/Yorushika/YOASOBI’s new song is making great progress",
-      "translatedExcerpt": "“Global Japan Songs” is a ranking of Japanese songs that are hits around the world.",
-      "stale": true
+      "translatedExcerpt": "“Global Japan Songs” is a ranking of Japanese songs that are hits around the world."
     },
     {
       "id": "6f9f81223f2f552a",
@@ -17346,8 +17156,7 @@
         "language": "ja"
       },
       "translatedTitle": "<Live Report> NOA moves on to a new chapter. “Current NOA” is exposed despite its weaknesses and doubts [CLEAN+NOISE=]",
-      "translatedExcerpt": "NOA will hold a one-man live [CLEAN+NOI] on October 23rd at Spotify O-EAST in Tokyo.",
-      "stale": true
+      "translatedExcerpt": "NOA will hold a one-man live [CLEAN+NOI] on October 23rd at Spotify O-EAST in Tokyo."
     },
     {
       "id": "39d358e9bf46ac5d",
@@ -17601,8 +17410,7 @@
         "language": "ja"
       },
       "translatedTitle": "Aiko herself designed [Love Like Pop vol.26] tour goods lineup released",
-      "translatedExcerpt": "aiko has announced the merchandise lineup for her arena tour [Love Like Pop vol.26].",
-      "stale": true
+      "translatedExcerpt": "aiko has announced the merchandise lineup for her arena tour [Love Like Pop vol.26]."
     },
     {
       "id": "b130bda3170c9463",
@@ -17659,8 +17467,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Sen-yomi] Kis-My-Ft2 “Kis SCENE” is currently leading the album with 315,000 copies sold",
-      "translatedExcerpt": "This week's CD album sales report reveals the total from October 26th to October 28th, 2026, and Kis",
-      "stale": true
+      "translatedExcerpt": "This week's CD album sales report reveals the total from October 26th to October 28th, 2026, and Kis"
     },
     {
       "id": "0e80175cdb952b87",
@@ -17679,8 +17486,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Sen Yomi] NGT48 “Kaze no Kataomoi” currently leads the singles with 77,000 copies, followed by ROIROM/GENERATIONS",
-      "translatedExcerpt": "This week's CD single sales report reveals the total from October 26, 2026 to October 28, 2026, and NGT",
-      "stale": true
+      "translatedExcerpt": "This week's CD single sales report reveals the total from October 26, 2026 to October 28, 2026, and NGT"
     },
     {
       "id": "fcf49b6290c621ad",
@@ -17718,8 +17524,7 @@
         "language": "ja"
       },
       "translatedTitle": "Cardi B admits constant jealousy from people close to her makes her \"cold and mean\"",
-      "translatedExcerpt": "Cardi B seems to be running out of patience with people trying to hold her back when she's on the rise.",
-      "stale": true
+      "translatedExcerpt": "Cardi B seems to be running out of patience with people trying to hold her back when she's on the rise."
     },
     {
       "id": "5681d25884f452be",
@@ -17757,8 +17562,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Hot Shot Books] ``Alpha of Martyrdom - Omega Versailles - Volume 1'' ranks first, Yuko Yuzuki ``Standing in the Wind'' becomes 2nd in paperback",
-      "translatedExcerpt": "“Billboar” released on October 29, 2026 (aggregation period: October 19 to October 25)",
-      "stale": true
+      "translatedExcerpt": "“Billboar” released on October 29, 2026 (aggregation period: October 19 to October 25)"
     },
     {
       "id": "e90324425c96397e",
@@ -17777,8 +17581,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] “Akatsuki no Yona Volume 48” ranks first on “Reiwa Books”, Yusei Yagi’s 2nd photo book debuts at second place",
-      "translatedExcerpt": "Billboard released on October 29, 2026 (Aggregation period: October 19, 2026 to October 25, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboard released on October 29, 2026 (Aggregation period: October 19, 2026 to October 25, 2026)"
     },
     {
       "id": "6a03e2d6296342aa",
@@ -17797,8 +17600,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] “The University of Money that Gains True Freedom” returns to the top of the economic book chart, followed by “The Life Without Buying” in second place",
-      "translatedExcerpt": "Economic book charts published on October 29, 2026 (collection period: October 19, 2026 to October 25, 2026)",
-      "stale": true
+      "translatedExcerpt": "Economic book charts published on October 29, 2026 (collection period: October 19, 2026 to October 25, 2026)"
     },
     {
       "id": "831dd056a04205d5",
@@ -17817,8 +17619,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] “You Are Like a Star” wins the Literary Book Chart for the third consecutive time and 4 works by Yu Nagira chart in the top 20",
-      "translatedExcerpt": "Literary book charts published on October 29, 2026 (collection period: October 19, 2026 to October 25, 2026)",
-      "stale": true
+      "translatedExcerpt": "Literary book charts published on October 29, 2026 (collection period: October 19, 2026 to October 25, 2026)"
     },
     {
       "id": "9c88b427ee96b396",
@@ -17837,8 +17638,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Yusei Yagi (FANTASTICS) 2nd photo book \"Be my\" debuts at the top of the cultural book chart Hinatazaka46 Miku Kanemura's \"Kiki\" comes in second place",
-      "translatedExcerpt": "Billbo chart published on October 29, 2026 (collection period: October 19, 2026 to October 25, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billbo chart published on October 29, 2026 (collection period: October 19, 2026 to October 25, 2026)"
     },
     {
       "id": "5ce02dd5cff4193f",
@@ -17857,8 +17657,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Asako Yuzuki's \"BUTTER\" wins first place in \"Heisei Books\" Mizuho Kusanagi's \"Akatsuki no Yona Volume 1\" debuts at #9",
-      "translatedExcerpt": "Chart by year released on October 29, 2026 (collection period: October 19, 2026 to October 25, 2026) &ld",
-      "stale": true
+      "translatedExcerpt": "Chart by year released on October 29, 2026 (collection period: October 19, 2026 to October 25, 2026) &ld"
     },
     {
       "id": "6c9bf268cbc0d191",
@@ -17877,8 +17676,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Ayatsuji Yukito's ``Decagonal House Murder'' wins the Showa chart for the 11th time in a row, the late Ryu Murakami's 2 works have entered the chart",
-      "translatedExcerpt": "Chart by year “Billboard JAPAN Showa Books”",
-      "stale": true
+      "translatedExcerpt": "Chart by year “Billboard JAPAN Showa Books”"
     },
     {
       "id": "512619f3bfb4162d",
@@ -17897,8 +17695,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Mizuho Kusanagi “Akatsuki no Yona Volume 48” wins 1st place in “Hot Manga”",
-      "translatedExcerpt": "Released on October 29, 2026 (Aggregation period: October 19, 2026 to October 25, 2026) Billboard J",
-      "stale": true
+      "translatedExcerpt": "Released on October 29, 2026 (Aggregation period: October 19, 2026 to October 25, 2026) Billboard J"
     },
     {
       "id": "2bcd7d4437ba460f",
@@ -17917,8 +17714,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Mizuho Kusanagi's ``Akatsuki no Yona Volume 48'' debuts at the top of the general book chart, followed by Yusei Yagi/Conan",
-      "translatedExcerpt": "Billboard released on October 29, 2026 (Aggregation period: October 19, 2026 to October 25, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboard released on October 29, 2026 (Aggregation period: October 19, 2026 to October 25, 2026)"
     },
     {
       "id": "5149abd8f0e8da0b",
@@ -17937,8 +17733,7 @@
         "language": "ja"
       },
       "translatedTitle": "GANG PARADE's disbandment live held on October 29th will be broadcast exclusively on Nico Live and will be made into a video work",
-      "translatedExcerpt": "GANG PARADE will be holding a concert on October 29th at Zepp Haneda (TOKYO) in Tokyo.",
-      "stale": true
+      "translatedExcerpt": "GANG PARADE will be holding a concert on October 29th at Zepp Haneda (TOKYO) in Tokyo."
     },
     {
       "id": "a66b086c4228a6b4",
@@ -17957,8 +17752,7 @@
         "language": "ja"
       },
       "translatedTitle": "THE SUPER FRUIT releases teaser video for first limited SUPER edition of major first album “SUPER JAM”",
-      "translatedExcerpt": "THE SUPER FRUIT will release their first major album “SUPER JAM” on November 11th.",
-      "stale": true
+      "translatedExcerpt": "THE SUPER FRUIT will release their first major album “SUPER JAM” on November 11th."
     },
     {
       "id": "9327d15a3250cfb4",
@@ -17996,8 +17790,7 @@
         "language": "ja"
       },
       "translatedTitle": "MAZZEL's ``Touch'' received comments of joy on Billboard's overall top spot ``I want to continue to keep my feet on the ground and work hard''",
-      "translatedExcerpt": "Billboard released on October 28, 2026 (Aggregation period: October 19, 2026 to October 25, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboard released on October 28, 2026 (Aggregation period: October 19, 2026 to October 25, 2026)"
     },
     {
       "id": "0506157fc78a0c09",
@@ -18035,8 +17828,7 @@
         "language": "ja"
       },
       "translatedTitle": "Drake receives a surprise baptism from Jeff Ross on his 40th birthday",
-      "translatedExcerpt": "All Drake wanted for his 40th birthday was a \"roast\" of Jim Carrey.",
-      "stale": true
+      "translatedExcerpt": "All Drake wanted for his 40th birthday was a \"roast\" of Jim Carrey."
     },
     {
       "id": "6e15915169f94969",
@@ -18055,8 +17847,7 @@
         "language": "ja"
       },
       "translatedTitle": "ONE N' ONLY will hold pop-up stores in three cities nationwide to commemorate the release of their album \"MEGA GOLDEN\"",
-      "translatedExcerpt": "ONE N' ONLY holds a pop-up event to commemorate the release of their 2nd major album \"MEGA GOLDEN\"",
-      "stale": true
+      "translatedExcerpt": "ONE N' ONLY holds a pop-up event to commemorate the release of their 2nd major album \"MEGA GOLDEN\""
     },
     {
       "id": "d667798b4edcf8bf",
@@ -18109,8 +17900,7 @@
         "language": "ja"
       },
       "translatedTitle": "Sarasa releases MV for new R&B song “Soba Niite”",
-      "translatedExcerpt": "Sarasa has released the music video for her new song \"Soba niite\". In this song, the lyrics are exposed and the music is exposed.",
-      "stale": true
+      "translatedExcerpt": "Sarasa has released the music video for her new song \"Soba niite\". In this song, the lyrics are exposed and the music is exposed."
     },
     {
       "id": "5f0ff46f8121dac7",
@@ -18148,8 +17938,7 @@
         "language": "ja"
       },
       "translatedTitle": "Billyrrom's \"Mirror Ball\" Comment arrives at the top of Heatseekers Songs \"I hope it resonates with everyone\"",
-      "translatedExcerpt": "“JAPAN He” released on October 21, 2026 (aggregation period: October 12 to October 18)",
-      "stale": true
+      "translatedExcerpt": "“JAPAN He” released on October 21, 2026 (aggregation period: October 12 to October 18)"
     },
     {
       "id": "21766d86e7dc153c",
@@ -18168,8 +17957,7 @@
         "language": "ja"
       },
       "translatedTitle": "DIIV to perform in Japan in February 2027",
-      "translatedExcerpt": "After canceling their visit to Japan in July of this year, DIIV's first solo performance in Japan has been decided. Based in Brooklyn, NY",
-      "stale": true
+      "translatedExcerpt": "After canceling their visit to Japan in July of this year, DIIV's first solo performance in Japan has been decided. Based in Brooklyn, NY"
     },
     {
       "id": "9c73244ed91b28b3",
@@ -18205,8 +17993,7 @@
         "language": "ja"
       },
       "translatedTitle": "Björk releases live video of “Where Is The Line” with Hamrafree’s Choir",
-      "translatedExcerpt": "Concert “Björk",
-      "stale": true
+      "translatedExcerpt": "Concert “Björk"
     },
     {
       "id": "f33fa6ee720ced33",
@@ -18280,8 +18067,7 @@
         "language": "ja"
       },
       "translatedTitle": "GENERATIONS, CD single “VIBE” released on 10/28 & “SAIKO!!” MV released",
-      "translatedExcerpt": "GENERATIONS released their first CD single in 4 years, ``VIBE'', on October 28th.",
-      "stale": true
+      "translatedExcerpt": "GENERATIONS released their first CD single in 4 years, ``VIBE'', on October 28th."
     },
     {
       "id": "a90d28464e70dd9c",
@@ -18300,8 +18086,7 @@
         "language": "ja"
       },
       "translatedTitle": "KATSEYE, [THE WILDWORLD TOUR] Japan performance decided in January 2027",
-      "translatedExcerpt": "KATSEYE's [THE WILDWORLD TOUR] Japan performance will be held in Kana on January 27, 2027.",
-      "stale": true
+      "translatedExcerpt": "KATSEYE's [THE WILDWORLD TOUR] Japan performance will be held in Kana on January 27, 2027."
     },
     {
       "id": "02b9e417c397873d",
@@ -18320,8 +18105,7 @@
         "language": "ja"
       },
       "translatedTitle": "Junna releases new single “Koi wa Tsuzuki” and music video starring Yuno Kokubo (Ebisu Shiritsu Junior High School) is also released.",
-      "translatedExcerpt": "In the TV anime “Macross Delta”, the tactical music unit “Valkyrie”",
-      "stale": true
+      "translatedExcerpt": "In the TV anime “Macross Delta”, the tactical music unit “Valkyrie”"
     },
     {
       "id": "31355972e9c951b7",
@@ -18359,8 +18143,7 @@
         "language": "ja"
       },
       "translatedTitle": "``Political Pan'' ``Miyabi'' Yumi Kawai's speech ``It was painful and brought me to tears.'' ``How many politicians now understand the weight of ``250 yen''?''",
-      "translatedExcerpt": "The fourth episode of the drama ``Political Pan'' (Fuji TV) starring Satomi Ishihara was broadcast on the 28th. (※",
-      "stale": true
+      "translatedExcerpt": "The fourth episode of the drama ``Political Pan'' (Fuji TV) starring Satomi Ishihara was broadcast on the 28th. (※"
     },
     {
       "id": "58335e5505491444",
@@ -18398,8 +18181,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] MAX CHANGMIN's \"All Of My Life\" debuts at number one on DL album, followed by Rai Inami/GLAY",
-      "translatedExcerpt": "Billboard released on October 28, 2026 (Aggregation period: October 19, 2026 to October 25, 2026)",
-      "stale": true
+      "translatedExcerpt": "Billboard released on October 28, 2026 (Aggregation period: October 19, 2026 to October 25, 2026)"
     },
     {
       "id": "882b28081bc8d351",
@@ -18418,8 +18200,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Mrs. GREEN APPLE's \"POPS\" tops overall album for 2 consecutive weeks JxJ's \"DREAMSCAPE\" debuts at #3",
-      "translatedExcerpt": "Comprehensive album charts released on October 28, 2026 (collection period: October 19, 2026 to October 25, 2026)",
-      "stale": true
+      "translatedExcerpt": "Comprehensive album charts released on October 28, 2026 (collection period: October 19, 2026 to October 25, 2026)"
     },
     {
       "id": "c97704edb4ad659d",
@@ -18495,8 +18276,7 @@
         "language": "ja"
       },
       "translatedTitle": "Fujii Kaze, \"Fujii Kaze Piano Recital\" 11/20 performance to be broadcast live on YouTube",
-      "translatedExcerpt": "Fujii Kaze will perform \"Fujii Kaze Piano Recital\" to be held at Tokyo Dome on November 20th.",
-      "stale": true
+      "translatedExcerpt": "Fujii Kaze will perform \"Fujii Kaze Piano Recital\" to be held at Tokyo Dome on November 20th."
     },
     {
       "id": "a80b43ce2e4de026",
@@ -18515,8 +18295,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ozzy Osbourne/Black Sabbath's live movie \"Back to the Beginning\" Japan limited edition released",
-      "translatedExcerpt": "Back to the Beginning is a film chronicling the legendary day of Ozzy Osbourne's last live performance.",
-      "stale": true
+      "translatedExcerpt": "Back to the Beginning is a film chronicling the legendary day of Ozzy Osbourne's last live performance."
     },
     {
       "id": "05ccd1b3dd2bb14f",
@@ -18571,8 +18350,7 @@
         "language": "ja"
       },
       "translatedTitle": "Unpublished letter from late Brian Jones inviting Charlie Watts to join The Rolling Stones goes on sale at Sotheby's",
-      "translatedExcerpt": "The late Rolling Stones guitarist and co-founder Brian Jones has announced his",
-      "stale": true
+      "translatedExcerpt": "The late Rolling Stones guitarist and co-founder Brian Jones has announced his"
     },
     {
       "id": "626d4a37861b9ae4",
@@ -18591,8 +18369,7 @@
         "language": "ja"
       },
       "translatedTitle": "CANDY TUNE releases EP ``CANDY TUNE SOLO BOX'' of ``7 songs'' of solo songs created based on each member's worldview",
-      "translatedExcerpt": "CANDY TUNE releases digital EP “CANDY TUNE SOL” which includes solo songs by 7 members.",
-      "stale": true
+      "translatedExcerpt": "CANDY TUNE releases digital EP “CANDY TUNE SOL” which includes solo songs by 7 members."
     },
     {
       "id": "1e5c5f2b44374813",
@@ -18662,64 +18439,7 @@
         "language": "ja"
       },
       "translatedTitle": "Rihanna reveals A$AP Rocky's favorite item that she always \"steals\": \"Before you know it, the bottle is empty\"",
-      "translatedExcerpt": "Billionaire beauty brand founder Rihanna can never have enough body wash",
-      "stale": true
-    },
-    {
-      "id": "20dcc1276bce612f",
-      "title": "小倉 唯、新SG名は「すーぱーとくべつみらくるパフェ♡」",
-      "link": "https://ototoy.jp/news/132524",
-      "publishedAt": "2026-10-29T02:00:00.000Z",
-      "excerpt": "小倉 唯が2027年2月3日（水）にニューシングル「すーぱーとくべつみらくるパフェ♡」をリリースすることが決定した。 新ビジュアルでは、楽曲の世界観を表現したキュートな衣装を披露。衣装に散りばめられたぬいぐるみのどうぶつたちは、これまで小倉 唯を支えてきた多くのファンやスタッフをイメージしている。 楽曲は、ライブでも人気の「治癒治癒ちゅっ♡」を手掛けた佐々木喫茶が作詞・作曲・編曲を担当。フルーツやスイーツをモチーフにした小倉 唯ならではの世界観をさらに進化させ、さまざまな魅力をパフェのように重ね合わせた、カラフルでキャッチーな楽曲に仕上がっている。 リリース情報 「Q.E.D.」 https://ototoy.jp/_/default/p/3921629 アーティスト情報 https://ogurayui…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132524/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Yui Ogura's new SG name is \"Super Tokubetsu Mirakuru Parfait♡\"",
-      "translatedExcerpt": "It has been decided that Yui Ogura will release her new single ``Super Tokubetsu Mirakuru Parfait♡'' on Wednesday, February 3, 2027. In the new visual, she shows off cute costumes that express the worldview of the song. The stuffed animals scattered throughout the costume are inspired by the many fans and staff who have supported Yui Ogura over the years. The song was written, composed, and arranged by Kissa Sasaki, who also wrote the popular live performance \"Healing Healing Chu♡\". Yui Ogura's unique world view with fruits and sweets as motifs has been further evolved into a colorful and catchy song that layers various charms like a parfait. Release information “Q.E.D.” https://ototoy.jp/_/default/p/3921629 Artist information https://ogurayui…"
-    },
-    {
-      "id": "594209d2df499260",
-      "title": "Seven Seas Licenses Nighthawk, Once Again, Will You Take a Bath with Me?, 2 More Titles",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/seven-seas-licenses-nighthawk-once-again-will-you-take-a-bath-with-me-2-more-titles/.243298",
-      "publishedAt": "2026-10-29T01:55:42.000Z",
-      "excerpt": "Also licensed: Dumbass Zombies!!! An Intermediate-Level Survival Guide for a World Where You Can Die Just Going to Borrow Soy Sauce, Misdeeds of an Extremely Arrogant Villain Aristocrat audiobook",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG9/cms/news.10/243298/dumbass-zombies-m1-cover-jpn.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "b27890adcaf937f3",
-      "title": "KISS、最後のツアーに密着した2部構成ドキュメンタリー11月公開＆予告編解禁",
-      "link": "https://www.billboard-japan.com/d_news/detail/166914",
-      "publishedAt": "2026-10-29T01:30:00.000Z",
-      "excerpt": "KISSによる最後のツアーを記録した2部構成のドキュメンタリー『KISS: End of the",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166914/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "KISS will release a two-part documentary on their last tour in November and release the trailer",
-      "translatedExcerpt": "A two-part documentary chronicling KISS's final tour, KISS: End of the",
-      "stale": true
+      "translatedExcerpt": "Billionaire beauty brand founder Rihanna can never have enough body wash"
     }
   ]
 }

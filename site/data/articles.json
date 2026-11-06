@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T02:01:50.675Z",
+  "generatedAt": "2026-11-06T02:31:52.413Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 36,
+      "count": 35,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 148,
+      "count": 146,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 277,
+      "count": 278,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 128,
+      "count": 129,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "count": 78,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,101 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 602,
+    "translatedJapaneseArticles": 604,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "52918fc030d4e998",
+      "title": "酒井一圭の初自伝、幼少期～純烈結成そしてモナキをプロデュースするまでの軌跡を秘話も交えて一冊に",
+      "link": "https://www.billboard-japan.com/d_news/detail/167200",
+      "publishedAt": "2026-11-06T02:30:00.000Z",
+      "excerpt": "純烈のリーダー／プロデューサーで、弟分グループのモナキもプロデュースする酒井一圭が、初の自伝『自供",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167200/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Kazukei Sakai's first autobiography, a book about his childhood, formation of Junretsu, and production of Monaki, including secret stories.",
+      "translatedExcerpt": "Kazukei Sakai, the leader/producer of Junretsu and also the producer of their younger brother group Monaki, has released his first autobiography, ``Jibun''."
+    },
+    {
+      "id": "0c7828e77fd2611d",
+      "title": "Chakura Releases A Wild Last Boss Appeared! Season 2 Anime Ending Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/11/6/a-wild-last-boss-appeared-season-2-anime-ending-song-music-video-chakura",
+      "publishedAt": "2026-11-06T02:20:00.000Z",
+      "excerpt": "The new season is currently available on Crunchyroll",
+      "image": "https://a.storyblok.com/f/178900/960x540/91a1925e83/chakura-yurete-skirt-mv.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "a68dd457bf1b9c97",
+      "title": "DaiShunがホストを務める、新イベント〈PASSPORT 001〉始動 国内外のDJ 11組が集結、音楽、ファッション、アート、人が交差する一夜に",
+      "link": "https://ototoy.jp/news/132649",
+      "publishedAt": "2026-11-06T02:15:00.000Z",
+      "excerpt": "音楽、ファッション、アート、そして人が交差するカルチャーイベント〈PASSPORT 001 — A BORDERLESS NIGHT IN TOKYO.〉が、2026年11月13日（金）東京・代官山のORD. DAIKANYAMAで開催される。 「PASSPORT」は、東京・代官山を舞台に、音楽、ファッション、アート、そして人が交差するカルチャーイベント。国籍、ジェンダー、セクシュアリティ、肩書き、ジャンルにとらわれず、一人ひとりの個性やSTYLEそのものを\"PASSPORT\"として、新しい人、音楽、カルチャーと出会う場をつくる。 ホストはDai NakaiとShun OnitsukaによるDaiShun。Tokyo Misfitsとのパートナーシップのもと、国内外で活動するクリエイター、アーティスト、モ…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132649/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "A new event, PASSPORT 001, hosted by DaiShun has started. 11 domestic and international DJs will gather for a night where music, fashion, art, and people intersect.",
+      "translatedExcerpt": "PASSPORT 001 — A BORDERLESS NIGHT IN TOKYO., a cultural event where music, fashion, art, and people intersect, will be held at ORD. DAIKANYAMA in Daikanyama, Tokyo on Friday, November 13, 2026. \"PASSPORT\" is a cultural event set in Daikanyama, Tokyo, where music, fashion, art, and people intersect. Regardless of nationality, gender, sexuality, title, or genre, we create a place where you can meet new people, music, and culture, using each individual's individuality and style as their \"PASSPORT.\" Hosted by DaiShun by Dai Nakai and Shun Onitsuka. In partnership with Tokyo Misfits, creators, artists, and artists active in Japan and abroad..."
+    },
+    {
+      "id": "c32249bb24331674",
+      "title": "NMB48、34thシングル『人生 味変や！』ジャケット写真＆アーティスト写真公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167201",
+      "publishedAt": "2026-11-06T02:15:00.000Z",
+      "excerpt": "NMB48が、12月9日に発売する34thシングル『人生 味変や！』のジャケット写真とアーティスト",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167201/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "NMB48, 34th single “Seikatsu Ajihenya!” ” Jacket photo & artist photo released",
+      "translatedExcerpt": "NMB48 will release their 34th single “Seikatsu Ajihenya!” on December 9th. ” jacket photo and artist"
+    },
+    {
+      "id": "b78a741d8ba86da6",
+      "title": "Kodansha Considers Canceling Mii-chan Anime Following Disability Group Complaints",
+      "link": "https://news.sankakucomplex.com/n/CdP__y3X7KLdfJ8VIsgnHg",
+      "publishedAt": "2026-11-06T02:00:59.000Z",
+      "excerpt": "Japanese publisher Kodansha is reconsidering its upcoming anime adaptation of Mii-chan and Miss Yamada, potentially canceling the project following criticism from disability advocacy organizations over its portrayal of people with intellectual and developmental disabilities.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "c3d789c4fb4587d9",
       "title": "カロルG、TikTok Liveでの『NO ME ARREPIENTO DE SENTIR TANTO』記念イベントで史上最多の入室数を記録",
@@ -314,6 +405,23 @@
       },
       "translatedTitle": "Late Phil Lynott, 40th anniversary commemorative box “The Story Of My Life” released, also includes unreleased AL",
       "translatedExcerpt": "A box set commemorating 40 years since the death of Thin Lizzy frontman Phil Lynott."
+    },
+    {
+      "id": "33bfdec5806303f7",
+      "title": "Leviathan Live-Action Film Reveals 36 Student Cast Members",
+      "link": "https://crunchyroll.com/news/latest/2026/11/6/leviathan-live-action-film-36-student-cast-members",
+      "publishedAt": "2026-11-06T00:59:00.000Z",
+      "excerpt": "The adaptaion of Shiro Kuroi's manga will open on February 11, 2027",
+      "image": "https://a.storyblok.com/f/178900/960x540/36ad06c45f/leviathan-film-student-cast.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
     },
     {
       "id": "1ea3ec452d9497ae",
@@ -5242,7 +5350,7 @@
         "language": "ja"
       },
       "translatedTitle": "muque releases theme song MV for drama <Minamida Minami Lawyer wa Genius Hada>",
-      "translatedExcerpt": "muque has released the music video for the theme song ``Iinjanai'' for the drama ``Minamida Minami Lawyers wa Genius Hada''. “Iinjanai” is a warm pop number that closely follows the main character, Minami Minami, and gently pushes the back of the listener. In the music video, the story of Vo. Asakura finding a videotape filled with childhood memories and getting lost in the world of the Muppets reflected there unfolds through nostalgic images.監督は今原電気が務めた。 Release information https://ototoy.jp/_/default/p/4271864 Artist information https://muque.jp/ https://www.instagram.com/muque.official https://www.youtube.com/@muque https://ww…"
+      "translatedExcerpt": "muque has released the music video for the theme song ``Iinjanai'' for the drama ``Minamida Minami Lawyers wa Genius Hada''. “Iinjanai” is a warm pop number that closely follows the main character, Minami Minami, and gently pushes the back of the listener. In the music video, the story of Vo. Asakura finding a videotape filled with childhood memories and getting lost in the world of the Muppets reflected there unfolds through nostalgic images. The director was Denki Imahara. Release information https://ototoy.jp/_/default/p/4271864 Artist information https://muque.jp/ https://www.instagram.com/muque.official https://www.youtube.com/@muque https://ww…"
     },
     {
       "id": "92df95b5b9ddf906",
@@ -18300,110 +18408,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1805bfb24576c08b",
-      "title": "Re:ZERO -Starting Life in Another World- Season 4 Ending, Explained",
-      "link": "https://crunchyroll.com/news/guides/2026/10/28/re-zero-season-4-ending-explained",
-      "publishedAt": "2026-10-28T16:00:00.000Z",
-      "excerpt": "Re:ZERO Season 4 had a lot going on!",
-      "image": "https://a.storyblok.com/f/178900/960x540/492ad39fdf/rezero-season-4.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6da4a7b96d69735d",
-      "title": "Starbucks Japan releases “Let’s Par-TEA!” Frappuccino and drinks for the holiday season",
-      "link": "https://soranews24.com/2026/10/29/starbucks-japan-releases-lets-par-tea-frappuccino-and-drinks-for-the-holiday-season/",
-      "publishedAt": "2026-10-28T16:00:00.000Z",
-      "excerpt": "Each beverage has its own unique character so you can choose which one you’d like to party with. With the holiday season fast approaching, Starbucks is bringing the party spirit to its stores in Japan with a trio of new drinks based around the theme of “Let’s par-TEA!” As the name suggests, the three new holiday […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/Starbucks-Japan-Frappuccino-Christmas-2026-Holiday-Season-Tea-Party-limited-edition-drink-exclusive-Bearista-tea-latte-chocolate-joyful-Medley-Santa-cookie-menu-2.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6ec2614ac1050cfd",
-      "title": "Bandai Namco Announces Mobile Suit Gundam Battle Operation 3 Game for PS5, PC",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/bandai-namco-announces-mobile-suit-gundam-battle-operation-3-game-for-ps5-pc/.243288",
-      "publishedAt": "2026-10-28T15:45:12.000Z",
-      "excerpt": "Trailer streamed for free-to-play team combat game",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gN7/youtube/Gu1qWj6gYks.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "9b4af5e0aab20a9d",
-      "title": "Cardfight!! Vanguard Announces New Veil Lift Anime, 2nd Season of Ghost Meets Gal Mini Anime",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/cardfight-vanguard-announces-new-veil-lift-anime-2nd-season-of-ghost-meets-gal-mini-anime/.243287",
-      "publishedAt": "2026-10-28T15:00:55.000Z",
-      "excerpt": "More details will be announced for Cardfight!! Vanguard Veil Lift on December 7",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g22/cms/news.10/243287/ghost-meets-gal-season-2.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "141f39cb064a3461",
-      "title": "＜インタビュー＞チョコプラ×北山宏光が挑む新番組『オトバズ』――音楽とコメディの化学反応で“バズ”を生み出す",
-      "link": "https://www.billboard-japan.com/d_news/detail/166875",
-      "publishedAt": "2026-10-28T15:00:00.000Z",
-      "excerpt": "チョコレートプラネットと北山宏光がMCを務める、音楽&times;コメディの新感覚音楽バラエティ番",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166875/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<Interview> Chocopla x Hiromitsu Kitayama's new program \"Otobuzz\" - Creating \"buzz\" through the chemical reaction of music and comedy",
-      "translatedExcerpt": "Chocolate Planet and Hiromitsu Kitayama serve as MCs for a new musical variety show combining music and comedy."
-    },
-    {
-      "id": "ff72ea216a8fde2e",
-      "title": "Mobile Suit Gundam Battle Operation 3 Revealed for PS5 and Steam",
-      "link": "https://crunchyroll.com/news/latest/2026/10/28/mobile-suit-gundam-battle-operation-3-revealed-for-ps5-and-steam",
-      "publishedAt": "2026-10-28T14:38:00.000Z",
-      "excerpt": "Third entry was announced during Gundam Games 40th anniversary stream",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/9c474a5c60/battle-operation-3.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
         "language": "en"
       }
     }

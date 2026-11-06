@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T03:02:19.372Z",
+  "generatedAt": "2026-11-06T03:32:12.616Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 35,
+      "count": 36,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 144,
+      "count": 134,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 90,
+      "count": 89,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 280,
+      "count": 282,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 216,
+      "count": 226,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 76,
+      "count": 74,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,255 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 607,
+    "translatedJapaneseArticles": 619,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "58d2af015c24c86b",
+      "title": "エアロスミス復活、米ハリウッド・ボウルのライブ・レポート到着",
+      "link": "https://www.billboard-japan.com/d_news/detail/167202",
+      "publishedAt": "2026-11-06T03:30:00.000Z",
+      "excerpt": "米ロック・バンド、エアロスミスが、現地時間2026年10月29日と11月1日にロサンゼルスのハリウ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167202/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Aerosmith revival, US Hollywood Bowl live report arrives",
+      "translatedExcerpt": "American rock band Aerosmith will perform at Hariu in Los Angeles on October 29, 2026 and November 1, 2026 local time."
+    },
+    {
+      "id": "c3d789c4fb4587d9",
+      "title": "カロルG、TikTok Liveでの『NO ME ARREPIENTO DE SENTIR TANTO』記念イベントで史上最多の入室数を記録",
+      "link": "https://www.billboard-japan.com/d_news/detail/167196",
+      "publishedAt": "2026-11-06T03:25:00.000Z",
+      "excerpt": "カロルGが、アルバム『NO ME ARREPIENTO DE SENTIR TANTO』を記念して",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167196/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Karol G records record number of attendees at “NO ME ARREPIENTO DE SENTIR TANTO” commemorative event on TikTok Live",
+      "translatedExcerpt": "Karol G commemorates the album “NO ME ARREPIENTO DE SENTIR TANTO”"
+    },
+    {
+      "id": "dd2ef8d02d0f9c64",
+      "title": "浅井健一 × ACIDMAN、＜M bit Live＞第9弾で一夜限りのスペシャルツーマン",
+      "link": "https://barks.jp/news/1102807",
+      "publishedAt": "2026-11-06T03:25:00.000Z",
+      "excerpt": "浅井健一 × ACIDMANによる一夜限りのスペシャルツーマンライブ＜M bit Live 第9弾＞が2027年2月3日、東京・Zepp DiverCityにて開催されることが発表となった。 ＜M bit Live＞は、“生きていく 好きな曲がふえていく”をスローガンに、ひとりひとりの人生に音楽との出会いを届けるプロジェクト＜M bit Project＞による一夜限りのスペシャルライブ企画だ。その第9弾として、BLANKEY JET CITYのボーカル&ギターとして日本ロックシーンを牽引し、解散後も様々なプロジェクトで活躍を続けるレジェンド浅井健一と、大木伸夫(Vo＆G)を中心に“生命” “宇宙”をテーマにした壮大な世界を表現し続ける3ピースロックバンドACIDMANの貴重なツーマンライブが実現する。 チ…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/06122305/MbitLive9-1024x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Kenichi Asai x ACIDMAN, special two-man one night only in the 9th episode of <M bit Live>",
+      "translatedExcerpt": "It has been announced that a one-night-only special two-man live performance by Kenichi Asai x ACIDMAN <M bit Live Part 9> will be held on February 3, 2027 at Zepp DiverCity in Tokyo. <M bit Live> is a one-night-only special live project by <M bit Project>, a project that brings encounters with music into each person's life, with the slogan \"As you live, your favorite songs will increase.\" The 9th installment will feature a rare two-man live performance between legendary Kenichi Asai, who led the Japanese rock scene as the vocalist and guitarist of BLANKEY JET CITY, and who continues to be active in various projects even after disbanding, and ACIDMAN, a three-piece rock band centered on Nobuo Oki (Vo & G) that continues to express a magnificent world with the themes of \"life\" and \"cosmos.\" blood…"
+    },
+    {
+      "id": "0fed381cfeffcce1",
+      "title": "Soala、メジャーデビューソング「ReaL」本日リリース。2027年1月にEP配信も",
+      "link": "https://barks.jp/news/1102804",
+      "publishedAt": "2026-11-06T03:24:32.000Z",
+      "excerpt": "Soalaが、新曲「ReaL」を本日配信リリースし、あわせてユニバーサルミュージックよりメジャーデビューを果たした。 本楽曲は、アニメ『デモンズ・クレスト』エンディングテーマとして書き下ろしたもので、“たとえ孤独に感じる時があっても支えてくれる仲間や自分自身を信じる気持ちを忘れない”という、Soalaの強い想いが込められた楽曲になっているという。 エンディングテーマを務める『デモンズ・クレスト』は、『ソードアート・オンライン』、『アクセル・ワールド』の著者・川原 礫による、MR≪複合現実≫の世界を舞台とした完全新作だ。本日よりPrime Videoで世界独占配信がスタートしているので、楽曲「ReaL」と共にアニメも楽しんでいただきたい。 そして、2027年1月11日には「ReaL」を表題曲にしたメジャー1…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/06122227/Soala%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F%EF%BC%8811%E6%9C%886%E6%97%A5-%E5%85%AC%E9%96%8B%EF%BC%89.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Soala releases major debut song \"ReaL\" today. EP will be released in January 2027",
+      "translatedExcerpt": "Soala released their new song \"ReaL\" today, making their major debut on Universal Music. This song was written as the ending theme for the anime ``Demon's Crest,'' and it is said to be a song that incorporates Soala's strong feelings, ``Even if you feel lonely at times, don't forget your friends who support you and the feeling of believing in yourself.'' ``Demon's Crest,'' which serves as the ending theme, is a completely new work by Reki Kawahara, author of ``Sword Art Online'' and ``Accel World,'' set in the world of mixed reality. Exclusive worldwide distribution has started on Prime Video starting today, so please enjoy the anime along with the song \"ReaL\". Then, on January 11, 2027, there will be a major release with “ReaL” as the title song..."
+    },
+    {
+      "id": "51d7bb06d23d6702",
+      "title": "三代目 J SOUL BROTHERS、約3年ぶりanan表紙登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/167197",
+      "publishedAt": "2026-11-06T03:15:00.000Z",
+      "excerpt": "三代目 J SOUL BROTHERSが、11月11日発売の『anan』2519号スペシャルエディ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167197/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Third generation J SOUL BROTHERS appears on anan cover for the first time in about 3 years",
+      "translatedExcerpt": "The third generation J SOUL BROTHERS will be creating a special edition for “anan” issue 2519, which will be released on November 11th."
+    },
+    {
+      "id": "7c94038fe08fdd4d",
+      "title": "チェッカーズ、3年連続「ライブハウス爆音絶叫上映会」1月に開催",
+      "link": "https://barks.jp/news/1102796",
+      "publishedAt": "2026-11-06T03:00:27.000Z",
+      "excerpt": "『チェッカーズ 1986 FLASH!! TOUR at 日本武道館【Remaster Edition】』のBlu-ray発売を記念して、「チェッカーズ ライブハウス爆音絶叫上映会」が2027年1月21日池袋harevutaiにて開催されることが決定した。 3年連続の開催となる本イベント。これまで「1987 GO TOUR」「1988 SCREW TOUR」の上映を行ってきた人気企画で、ライブハウスならではの大音量と迫力ある映像を楽しめる。会場ではスタンディングや絶叫、ダンスもOK。まるでライブ会場にいるかのように、ファンが思い思いのスタイルで盛り上がれるイベントとなっている。 今回上映されるのは、1986年のWINTER TOUR FLASH‼からの日本武道館公演を収録した映像作品。最新技術によって4K…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/06115904/Bakuonjouei_top-768x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Checkers will hold “Live House Explosive Scream Screening” for the third consecutive year in January",
+      "translatedExcerpt": "To commemorate the Blu-ray release of \"Checkers 1986 FLASH!! TOUR at Nippon Budokan [Remaster Edition]\", it has been decided that the \"Checkers Live House Bakon Scream Screening\" will be held at Ikebukuro harevutai on January 21, 2027. This event will be held for the third consecutive year. This is a popular project that has previously screened ``1987 GO TOUR'' and ``1988 SCREW TOUR,'' and you can enjoy the loud volume and powerful images that can only be found at a live house. Standing, screaming, and dancing are also allowed at the venue. It is an event where fans can have fun in their own way, just as if they were at a live venue. What will be shown this time is 1986 WINTER TOUR FLASH!! A video work that records the Nippon Budokan performance from. 4K with the latest technology..."
+    },
+    {
+      "id": "fd9ac1b6cde51721",
+      "title": "Discount retailers known for massive bargains releases massive Japanese egg sandwich",
+      "link": "https://soranews24.com/2026/11/06/discount-retailers-known-for-massive-bargains-releases-massive-japanese-egg-sandwich/",
+      "publishedAt": "2026-11-06T03:00:11.000Z",
+      "excerpt": "Don Quijote doubles up its “Peculiar Preference” sandwich. Japanese egg sandwiches have recently become an unexpected hit among the international foodie community, but within Japan, they’ve been a staple for generations. You really don’t have to go very far to find one, as just about every convenience store or supermarket stocks them. But if you […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/2_6cd2ec.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d632c0196bd64c3d",
+      "title": "【インタビュー】圧ねぇ、アーティスト活動本格始動「ライブ配信の世界から生まれたスターに」",
+      "link": "https://barks.jp/news/1102461",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "現在、歌特化ライブ配信アプリ「ColorSing」を中心に、ライブ配信の最前線で活動するアーティスト／ライブミュージッククリエイター・圧ねぇ。 中でもライブ配信では「TikTok LIVE All Stars 音楽部門」1位（2022年、2023年）、「TikTok Creator Awards Japan 2023『LIVE Music Creator of the Year』」受賞、TikTok「LIVE Pro」公認クリエイターなど、数々の実績を持ち、多くの視聴者を楽しませてきた。 そんな圧ねぇがリブランディングを行い、11月6日に「パネェkiss」を配信リリースする。プロデューサーに徳永暁人、楽曲制作に綿貫正顕を迎えた同曲に、彼女はどう向き合ったのだろうか。これまでの活動や、リブランディングの狙い…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/04153756/20261022_barks_at_5406.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "[Interview] No pressure, full-fledged start of artist activities \"Becoming a star born from the world of live streaming\"",
+      "translatedExcerpt": "Currently, he is an artist/live music creator who is active at the forefront of live streaming, mainly using the singing live streaming app “ColorSing”. Among them, in live streaming, he has a number of achievements, such as 1st place in the \"TikTok LIVE All Stars music category\" (2022 and 2023), won the \"TikTok Creator Awards Japan 2023 \"LIVE Music Creator of the Year\", and is a certified TikTok \"LIVE Pro\" creator, and has entertained many viewers. Such a rebranding company will be rebranding and releasing ``Panee Kiss'' on November 6th. How did she approach the song, which was produced by Akito Tokunaga and produced by Masaaki Watanuki? Past activities and aims of rebranding..."
+    },
+    {
+      "id": "e95efc393e435e2c",
+      "title": "【インタビュー】文藝天国、オルタナ的藝術徒党の初フルアルバムに日常と非日常が交差する瞬間「美しいと感じてきたもの」",
+      "link": "https://barks.jp/news/1102489",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "作詞 作曲 編曲に加えて演奏を担う音楽家のko shinonomeと、映像やビジュアル面、舞台演出を担当する色彩作家にして現・株式会社文藝の代表取締役社長すみあいかにより、2019年に活動を開始したオルタナ的藝術徒党が、文藝天国だ。“五感を通じて感じるアート”を追求し、音楽作品や映像作品はもとより、香水などの制作やポップアップ、喫茶イベントなど活動展開は幅広い。そして2026年10月、遂にリリースされた初のフルアルバムが『プールサイド・コア』となる。 ko shinonomeの核に息づくギターへの愛やバンドの初期衝動を具現化するかのようなサウンドはますます濃度を高める一方、インストゥルメンタルアルバム『シャッセ (i)』(2026年6月発表)でみせたアート色の強い音楽性は深化の度を強めて止まらない。また、…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/05102643/%E6%96%87%E8%97%9D%E5%A4%A9%E5%9B%BD%E6%A7%98%E3%81%AE%E5%8F%96%E6%9D%90158-2-1024x768.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "[Interview] Bungei Tengoku, the moment when the everyday and the extraordinary intersect in the first full-length album of the alternative art group ``Things that I have felt to be beautiful''",
+      "translatedExcerpt": "Bungei Tengoku is an alternative art clique that started its activities in 2019 by Ko Shinonome, a musician who is responsible for writing, composing, arranging, and performing, and Kaori Sumi, a color artist and current president of Bungei Co., Ltd., who is in charge of videos, visuals, and stage direction. Pursuing \"art that can be felt through the five senses,\" his activities range from music and video works to creating perfumes, pop-ups, and cafe events. In October 2026, their first full-length album was finally released as “Poolside Core.” The love for the guitar that lives at the core of ko shinonome and the sound that embodies the band's initial impulses are becoming more and more concentrated, while the artistic musicality shown in the instrumental album ``Chasse (i)'' (released in June 2026) continues to deepen. Also,…"
+    },
+    {
+      "id": "2e3c3e646b2ec6b1",
+      "title": "【第27回ラテン・グラミー賞】カロルG／ビザラップ／ナティ・ペルーソ／DJプレミアらのパフォーマンス追加",
+      "link": "https://www.billboard-japan.com/d_news/detail/167205",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "現地時間2026年11月5日、【第27回ラテン・グラミー賞】の新たなパフォーマーがラテン・レコーデ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167205/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[27th Latin Grammy Awards] Additional performances by Karol G/VisaRap/Nati Peluso/DJ Premier and others",
+      "translatedExcerpt": "On November 5, 2026 local time, a new performer at the [27th Latin Grammy Awards] will be a Latin recorder."
+    },
+    {
+      "id": "45f529c50a0e6c20",
+      "title": "2ステージ15分ずつ15バンド登場の激烈イベント〈UP&DAMN 2026〉12/5開催",
+      "link": "https://ototoy.jp/news/132651",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "2026年12月5日(土)中野MOONSTEPにて、ライブイベント〈UP&DAMN 2026〉が開催される。 〈UP&DAMN 2026〉は、penisboys、高倉健、モリシマの3組が主催するイベントで、昨年に続いての開催となる。 今回も、中野MOONSTEP の1Fと2Fを使った2ステージで、矢継ぎ早に15分ずつ15バンドが出演。ノンストップ進行で全バンド持ち時間15分、3時間弱突っ走り、22時にイベント終了予定となっている。 イベント情報 出演 soccer. U.G MAN でぶコーネリアスEX flyer:よーぺい(the futures) インフォメーション https://nakano-dynamite.com/moonstep/ https://x.com/livepubMOONSTEP",
+      "image": "https://imgs.ototoy.jp/news/image.php/132651/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "UP&DAMN 2026 will be held on December 5th, an intense event with 15 bands appearing on 2 stages of 15 minutes each.",
+      "translatedExcerpt": "A live event ``UP&DAMN 2026'' will be held at Nakano MOONSTEP on Saturday, December 5, 2026. UP&DAMN 2026 is an event hosted by penisboys, Ken Takakura, and Morishima, and will be held for the second time since last year. This time, 15 bands will perform in quick succession for 15 minutes each on two stages using the 1st and 2nd floors of Nakano MOONSTEP. The event was scheduled to end at 10:00 p.m., with all bands running for 15 minutes, running non-stop for just under three hours. Event information Cast soccer. U.G MAN Fat Cornelius EX flyer: Yo Pei (the futures) Information https://nakano-dynamite.com/moonstep/ https://x.com/livepubMOONSTEP"
+    },
+    {
+      "id": "e0a482e68fd5093b",
+      "title": "963、アルバム「20xx」の音源にメンバーの直筆サイン入り10インチジャケット、チェキがセットになった「OTOTOY限定パッケージ」販売決定",
+      "link": "https://ototoy.jp/news/132650",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "前田鮎花と辻優衣からなる2人組アイドルグループ・963の4thアルバム『20xx』のOTOTOY限定パッケージが、期間限定で販売されることが決定した。 今回販売されるOTOTOY限定パッケージは、『20xx』の音源に、メンバーの直筆サイン入り10インチジャケットとチェキを組み合わせたスペシャル仕様。ランダムソロチェキ1枚が付属する通常パッケージのほか、メンバーそれぞれのソロチェキが1枚ずつ付属する「スペシャルセット」も用意されている。 音源配信サイト・OTOTOYにて、2026年11月11日（水）0:00から11月25日（水）23:59までの期間限定で販売される。 『20xx』は、昨今のメインカルチャーにおける「高密度なカワイイ」とは一線を画し、アイドル本来の魅力ともいえる「未完成」であることにフォーカス…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132650/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "963 will be selling an \"OTOTOY limited package\" that includes the sound source of the album \"20xx\", a 10-inch jacket autographed by the members, and an instax.",
+      "translatedExcerpt": "It has been decided that the OTOTOY limited package of the 4th album ``20xx'' by the duo idol group 963, consisting of Ayuka Maeda and Yui Tsuji, will be on sale for a limited time. The OTOTOY limited package that will be sold this time is a special specification that combines the sound source of \"20xx\" with a 10-inch jacket and instax autographed by the members. In addition to the standard package that comes with one random solo instax, there is also a ``special set'' that comes with one solo instax for each member. It will be sold for a limited time on the sound source distribution site OTOTOY from 0:00 on Wednesday, November 11, 2026 to 23:59 on Wednesday, November 25, 2026. ``20xx'' sets itself apart from the ``high-density cuteness'' of recent mainstream culture, and focuses on the ``incompleteness'' that can be said to be the original charm of idols."
+    },
+    {
+      "id": "3a1c250e56a74276",
+      "title": "Amira Elfeky、複雑な感情を描いた新曲リリース",
+      "link": "https://ototoy.jp/news/132645",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "Amira Elfekyが2026年10月28日(水)にニューシングル「I don’t want to fall in love」をリリースした。 本作は、11月13日(金)に発売予定のデビューフルアルバム『It Was Only A Dream』からのセカンドシングル。恋愛によって自分自身を失うことへの恐怖や、誰かを愛することで生まれる痛み、そして孤独を選んででも自分を守りたいという複雑な感情を描いた楽曲となっている。 サウンド面では、脈打つようなベースと幻想的なシンセサイザーを軸に、ダークなエレクトロニックサウンドとオルタナティブロックのエネルギーを融合。囁くような繊細な歌声から、感情をむき出しにした力強いシャウトへと展開するボーカルが、楽曲の緊張感を一層高めている。 美しくも不穏な空気をまとったサウ…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132645/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Amira Elfeky releases new song depicting complex emotions",
+      "translatedExcerpt": "Amira Elfeky released her new single “I don’t want to fall in love” on Wednesday, October 28, 2026. This work is the second single from the debut full-length album \"It Was Only A Dream\" scheduled to be released on Friday, November 13th. The song depicts the fear of losing oneself through love, the pain that comes from loving someone, and the complicated feelings of wanting to protect oneself even if it means choosing solitude. In terms of sound, the album combines dark electronic sounds and alternative rock energy, centered around pulsating bass and dreamy synthesizers. The vocals develop from a whisper-like delicate singing voice to a powerful shout that exposes emotion, further heightening the tension of the song. Sau has a beautiful yet disturbing atmosphere..."
+    },
     {
       "id": "b135050dcd69cf4f",
       "title": "Fujii Kaze、映像作品『Pre: Prema Tour』12/16発売決定＆「Love Like This」プレミア公開",
@@ -185,6 +430,120 @@
       },
       "translatedTitle": "Fujii Kaze, video work \"Pre: Prema Tour\" to be released on 12/16 & \"Love Like This\" premiere released",
       "translatedExcerpt": "Fujii Kaze has decided to release the video work ``Pre: Prema Tour'' on December 16th."
+    },
+    {
+      "id": "9e0eb7f602ce5f50",
+      "title": "Hana Hope、Rol3ertとのコラボ曲「Teenage Devotion」リリース決定。“Hanaの日”にワンマン開催も",
+      "link": "https://barks.jp/news/1102773",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "Hana Hopeが、Rol3ertとのコラボレーションによるシングル「Teenage Devotion」を2026年11月25日に配信リリースすること発表した。 これまで高橋幸宏、TOWA TEI、ROTH BART BARON、HONNE、jo0ji、高城昌平（cero）、江﨑文武、STUTS、Kohjiyaら数多くのアーティストとの楽曲提供・コラボレーションを通じて、自身の音楽性を表現してきたHana Hope。直近では“フォルクポップ”と称するサウンドを打ち出してきた彼女が次なるコラボレーションの相手に迎えたのは、同世代のシンガーソングライター・Rol3ertだ。 両者は「MUSIC AWARDS JAPAN 2026」の全国のラジオ局が選ぶ「受賞後にブレイクが期待できる国内アーティスト」を讃える…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/06110133/HanaHope%C3%97Rol3ert_artistphoto_Main-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Hana Hope and Rol3ert will release their collaboration song \"Teenage Devotion\". One-man event held on “Hana Day”",
+      "translatedExcerpt": "Hana Hope has announced that she will release her collaboration single \"Teenage Devotion\" with Rol3ert on November 25, 2026. Until now, Hana Hope has expressed her musicality through providing songs and collaborating with numerous artists such as Yukihiro Takahashi, TOWA TEI, ROTH BART BARON, HONNE, jo0ji, Shohei Takagi (cero), Fumitake Ezaki, STUTS, and Kohjiya. Recently, she has been creating a sound that she calls \"folk pop,\" and her next collaboration partner is Rol3ert, a singer-songwriter from the same generation. Both parties will praise \"domestic artists who can be expected to break out after winning\" selected by radio stations across the country for \"MUSIC AWARDS JAPAN 2026\"..."
+    },
+    {
+      "id": "f6c8123f79ec751b",
+      "title": "The Birthday、約4年半ぶり＆現体制初のワンマンツアー開催決定",
+      "link": "https://barks.jp/news/1102779",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "The Birthday（クハラカズユキ, ヒライハルキ, フジイケンジ）が、ワンマンツアー＜Play the Present＞を2027年3月より開催することを発表した。彼らのツアーは、2025年に実施した対バンツアー＜Quattro×Quattro Tour’25＞以来となる。 本ツアーは＜Quattro×Quattro Tour’25＞とは開催形態が異なり、現体制では初のワンマンツアーとなっている。数々のフェスや対バン出演を経て成熟していった“今”のThe Birthdayによるライブをぜひ目撃していただきたい。 チケットは、The Birthdayオフィシャルのニュースレター会員限定の先行受付が本日正午よりスタートしている。 ◾️＜The Birthday (クハラカズユキ, ヒライハルキ, フジ…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/06111510/TBD_2026-1024x689.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "The Birthday will hold their first one-man tour in about 4 and a half years and their first one-man tour under the current system",
+      "translatedExcerpt": "The Birthday (Kuhara Kazuyuki, Hirai Haruki, Fujii Kenji) has announced that they will hold a one-man tour called ``Play the Present'' starting in March 2027. This will be their first tour since the band tour <Quattro x Quattro Tour'25> held in 2025. The format of this tour is different from the <Quattro x Quattro Tour'25>, and it is the first one-man tour under the current system. We would like you to witness the \"current\" live performance of The Birthday, which has matured through numerous festivals and performances against bands. Tickets are available for pre-order starting at noon today, exclusively for members of The Birthday's official newsletter. ◾️＜The Birthday (Kuhara Kazuyuki, Hirai Haruki, Fuji…"
+    },
+    {
+      "id": "93535d1de2965238",
+      "title": "Яu-a、新曲「MONSTER」配信＆リリックビデオ公開 「この楽曲は私の自己紹介ソングだと思っています」",
+      "link": "https://barks.jp/news/1102767",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "Яu-aが、デジタルシングル「MONSTER」を本日リリースした。 本楽曲はトラックメイカーにNGAを迎え、jarkやrageを取り入れた重厚感のあるサウンドとЯu-a自身の秘める“反抗心”を赤裸々に綴ったリリックが絡み合った1曲だという。また、Яu-aは本楽曲について以下のようにコメントしている。 ◆ ◆ ◆ ◾️Яu-a コメントこの楽曲は私の自己紹介ソングだと思っています。誰に嫌われても別にいいと思ってこのリリックを書きました。何度も失い、何度も蘇ってしまった『本物の私』をありのままに歌いました。 ◆ ◆ ◆ さらに、本日20時「MONSTER」のオフィシャルリリックビデオの公開も決定。楽曲世界観を増幅させているという映像を是非ご覧いただきたい。 ◾️デジタルシングル「MONSTER」2026年11…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/06/03114246/%D0%AFu-a-%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Яu-a releases new song \"MONSTER\" & releases lyric video \"I think this song is my self-introduction song\"",
+      "translatedExcerpt": "Яu-a released the digital single \"MONSTER\" today. This song was produced by NGA, and is said to be a song that combines a deep sound that incorporates jerk and rage with lyrics that openly express Яu-a's own hidden \"rebellious spirit.\" In addition, Яu-a commented on this song as follows. ◆ ◆ ◆ ◾️Яu-a Comment I think this song is my self-introduction song. I wrote this lyric thinking that I don't care if anyone hates me. I sang the ``real me'' as it is, which I have lost many times and revived many times. ◆ ◆ ◆ Furthermore, the official lyric video for \"MONSTER\" will be released today at 8pm. Please take a look at the video that amplifies the worldview of the song. ◾️Digital single “MONSTER” November 2026…"
+    },
+    {
+      "id": "d1891cec86765bc7",
+      "title": "崎山蒼志、ツーマンライブ3カ月連続開催",
+      "link": "https://barks.jp/news/1102747",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "崎山蒼志が2027年2月から4月にかけて、3カ月連続のツーマンライブ＜ningen_ryoko_2027＞を東京・渋谷WWW Xにて開催することを発表した。 本公演は、崎山蒼志がリスペクトをするアーティストを迎える人気企画で前回の2022年から5年ぶりに開催される。 2月5日（金）公演には吉澤嘉代子、3月5日（金）公演にはlilbesh ramkoの出演が決定。本日11月6日（金）正午から崎山蒼志オフィシャルファンクラブ「崎山寝返りの湯」でチケット最速先行が開始された。また、最終公演となる4月2日（金）のゲストアーティストは後日発表される。 独自の言葉とメロディで音楽表現を追求してきた崎山蒼志が、それぞれ異なる音楽的背景と個性を持つアーティストと共演。ジャンルや世代を越えた組み合わせによって、各公演でどの…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/05222404/1-15.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Soushi Sakiyama, two-man live held for 3 consecutive months",
+      "translatedExcerpt": "Soushi Sakiyama has announced that he will hold a two-man live <ningen_ryoko_2027> for three consecutive months from February to April 2027 at WWW X in Shibuya, Tokyo. This performance is a popular project in which Soshi Sakiyama welcomes artists he respects, and will be held for the first time in five years since the last performance in 2022. Kayoko Yoshizawa will appear on the Friday, February 5th performance, and lilbesh Ramko will appear on the Friday, March 5th performance. Early ticket advance sales began today, November 6th (Friday) at noon at Soushi Sakiyama's official fan club ``Sakiyama Nekeri no Yu''. Additionally, the guest artist for the final performance on April 2nd (Friday) will be announced at a later date. Soushi Sakiyama, who has pursued musical expression with his own words and melodies, collaborates with artists who each have different musical backgrounds and personalities. Depending on the combination of genres and generations, each performance..."
+    },
+    {
+      "id": "1877b715b7f88a19",
+      "title": "松下洸平、新曲「PRECIOUS」を自身のラジオ番組J-WAVE『DK SELECT WEEKEND LIVING』で最速OA",
+      "link": "https://www.billboard-japan.com/d_news/detail/167204",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "松下洸平が、新曲「PRECIOUS」を11月27日に配信リリースする。 「PRECIOUS」は",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167204/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Kohei Matsushita's new song \"PRECIOUS\" will be aired at the earliest on his own radio program J-WAVE \"DK SELECT WEEKEND LIVING\"",
+      "translatedExcerpt": "Kohei Matsushita will release his new song \"PRECIOUS\" on November 27th. “PRECIOUS” is"
+    },
+    {
+      "id": "401be2fd46f45d72",
+      "title": "松下洸平、新曲「PRECIOUS」配信決定。『DK SELECT WEEKEND LIVING』で最速OAも",
+      "link": "https://barks.jp/news/1102770",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "松下洸平が、新曲「PRECIOUS」を2026年11月27日に配信リリースすることを発表した。 本楽曲は、「誰かに憧れたり。みんなと同じモノを欲しがったり。誰かの真似をしてみてもみんなと同じようにしてみても窮屈になるならやっぱり自分らしくいたい」という松下からの素直な想いが込められた1曲だという。作詞は松下自身が手掛け、作曲は三浦大知・BTS・AIなど数多くのアーティストの楽曲制作に携わってきた音楽プロデューサー・UTAとの共作となっている。 また、本日放送のJ-WAVE「DK SELECT WEEKEND LIVING」では「PRECIOUS」を最速オンエア。本番組のナビゲーターを務める松下が楽曲に込めた想いや制作秘話など、ここでしか聴けないトークもお届けするとのことだ。 ◾️「PRECIOUS」202…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/07/04115702/%E6%9D%BE%E4%B8%8B%E6%B4%B8%E5%B9%B3_2026.5%EF%BD%9E_A%E5%86%99_main_SS.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Kohei Matsushita's new song \"PRECIOUS\" will be released. Fastest OA with “DK SELECT WEEKEND LIVING”",
+      "translatedExcerpt": "Kohei Matsushita has announced that his new song \"PRECIOUS\" will be released on November 27, 2026. This song is said to be a song that expresses Matsushita's honest feelings, ``I admire someone. I want the same things as everyone else. Even if I try to imitate someone, or try to be like everyone else, if I end up feeling uncomfortable, I want to be myself.'' The lyrics were written by Matsushita himself, and the music was co-written with UTA, a music producer who has been involved in producing songs for many artists such as Daichi Miura, BTS, and AI. In addition, \"PRECIOUS\" will be aired at the earliest on J-WAVE's \"DK SELECT WEEKEND LIVING\" broadcast today. Matsushita, who serves as the program's navigator, will also deliver talks that can only be heard here, such as the thoughts he put into the songs and behind-the-scenes stories about their production. ◾️“PRECIOUS” 202…"
     },
     {
       "id": "e3ff7a48996e23a8",
@@ -293,7 +652,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "DaiShunがホストを務める新イベント〈PASSPORT 001〉始動 国内外のDJ 11組が集結、音楽、ファッション、アート、人が交差する一夜に",
+      "translatedTitle": "A new event hosted by DaiShun, PASSPORT 001, has started. 11 domestic and international DJs will gather for a night where music, fashion, art, and people intersect.",
       "translatedExcerpt": "PASSPORT 001 — A BORDERLESS NIGHT IN TOKYO., a cultural event where music, fashion, art, and people intersect, will be held at ORD. DAIKANYAMA in Daikanyama, Tokyo on Friday, November 13, 2026. \"PASSPORT\" is a cultural event set in Daikanyama, Tokyo, where music, fashion, art, and people intersect. Regardless of nationality, gender, sexuality, title, or genre, we create a place where you can meet new people, music, and culture, using each individual's individuality and style as their \"PASSPORT.\" Hosted by DaiShun by Dai Nakai and Shun Onitsuka. In partnership with Tokyo Misfits, creators, artists, and artists active in Japan and abroad..."
     },
     {
@@ -331,25 +690,6 @@
         "accent": "#a78bfa",
         "language": "en"
       }
-    },
-    {
-      "id": "c3d789c4fb4587d9",
-      "title": "カロルG、TikTok Liveでの『NO ME ARREPIENTO DE SENTIR TANTO』記念イベントで史上最多の入室数を記録",
-      "link": "https://www.billboard-japan.com/d_news/detail/167196",
-      "publishedAt": "2026-11-06T01:50:00.000Z",
-      "excerpt": "カロルGが、アルバム『NO ME ARREPIENTO DE SENTIR TANTO』を記念して",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167196/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Karol G records record number of attendees at “NO ME ARREPIENTO DE SENTIR TANTO” commemorative event on TikTok Live",
-      "translatedExcerpt": "Karol G commemorates the album “NO ME ARREPIENTO DE SENTIR TANTO”"
     },
     {
       "id": "67a56b30655f0b73",
@@ -18100,322 +18440,6 @@
       },
       "translatedTitle": "Late Avicii releases first video of his 2011 [Tomorrowland] appearance to commemorate 15th anniversary of \"Levels\"",
       "translatedExcerpt": "On July 23, 2011, Avicii appeared on the main stage of Tomorrowland for the first time and gave a powerful performance."
-    },
-    {
-      "id": "ee4fb807a57630ce",
-      "title": "MAN WITH A MISSION Releases The Vermilion Mask Anime Opening Song Music Video",
-      "link": "https://crunchyroll.com/news/latest/2026/10/29/the-vermilion-mask-anime-opening-song-music-video-man-with-a-mission",
-      "publishedAt": "2026-10-29T00:38:00.000Z",
-      "excerpt": "Crunchyroll is streaming the new battle-fantasy series",
-      "image": "https://a.storyblok.com/f/178900/960x540/4b8f198681/man-with-a-mission-firestarter-mv.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "eeb0aa271f897c88",
-      "title": "ポスト・マローン、ニューALから新曲「Bad Mood」の一部を公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166911",
-      "publishedAt": "2026-10-29T00:30:00.000Z",
-      "excerpt": "ポスト・マローンが、リリースを控えるニュー・アルバム『エターナル・バズ』収録曲の一部をノリノリで聴",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166911/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Post Malone releases part of new song “Bad Mood” from New AL",
-      "translatedExcerpt": "Post Malone listens to some of the songs from his upcoming new album \"Eternal Buzz\""
-    },
-    {
-      "id": "d62dac73280c3775",
-      "title": "Natsume Ono to Launch Korore Spinoff Manga of ACCA-13, Badon Manga",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/natsume-ono-to-launch-korore-spinoff-manga-of-acca-13-badon-manga/.243271",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "excerpt": "New KORORE manga launches on February 25",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gA2/cms/news.10/243271/korore.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "fd16f581f6b1903f",
-      "title": "ガザ医療チームを追うドキュメンタリー『ライフ・サポート』サントラ発売、マッシヴ・アタックの3Dが共同キュレート",
-      "link": "https://www.billboard-japan.com/d_news/detail/166910",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "excerpt": "ドキュメンタリー映画『ライフ・サポート』のオリジナル・サウンドトラック・アルバムがリリースされる。",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166910/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "“Life Support” soundtrack released, co-curated by Massive Attack’s 3D documentary about medical teams in Gaza",
-      "translatedExcerpt": "The original soundtrack album for the documentary film ``Life Support'' will be released."
-    },
-    {
-      "id": "81ee0f2fb419c04c",
-      "title": "Sachiko Uguisu's Kaikai Gigigigigi Manga Ends",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/sachiko-uguisu-kaikai-gigigigigi-manga-ends/.243263",
-      "publishedAt": "2026-10-28T23:00:00.000Z",
-      "excerpt": "Series debuted in April 2025",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g8A/cms/news.10/243263/81qlv05kbtl.sl1500.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2b8b1822b00663d8",
-      "title": "〈ベストヒット歌謡祭 2026〉出演者28組発表",
-      "link": "https://ototoy.jp/news/132527",
-      "publishedAt": "2026-10-28T22:00:00.000Z",
-      "excerpt": "読売テレビ・日本テレビ系で11月11日(水)19時から生放送される〈ベストヒット歌謡祭〉の出演アーティストが発表された。 出演は、INI、アイナ・ジ・エンド、＝LOVE、&TEAM、Kis-My-Ft2、倉木麻衣、真田ナオキ、JO1、島袋寛子、Juice=Juice、Stray Kids、Da-iCE、高橋克典 with 草彅剛、T.M.Revolution、なにわ男子、Number_i、NiziU、乃木坂46、≠ME、HANA、BE:FIRST、FANTASTICS、ふぉ～ゆ～、FRUITS ZIPPER、Mrs. GREEN APPLE、M!LK、モナキ、ゆず。 島袋寛子、Juice=Juice、Stray Kids、高橋克典 with 草彅剛、≠ME、ふぉ～ゆ～、モナキが初出演。 当日は大阪城ホール…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132527/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<Best Hit Song Festival 2026> 28 performers announced",
-      "translatedExcerpt": "The performing artists for the Best Hit Song Festival, which will be broadcast live on Wednesday, November 11th from 7pm on Yomiuri TV and Nippon Television, have been announced. Starring INI, Aina The End, =LOVE, &TEAM, Kis-My-Ft2, Mai Kuraki, Naoki Sanada, JO1, Hiroko Shimabukuro, Juice=Juice, Stray Kids, Da-iCE, Katsunori Takahashi with Tsuyoshi Kusanagi, T.M.Revolution, Naniwa Danshi, Number_i, NiziU, Nogizaka46, ≠ME, HANA, BE:FIRST, FANTASTICS, Foyuu, FRUITS ZIPPER, Mrs. GREEN APPLE, M!LK, Monaki, Yuzu. Hiroko Shimabukuro, Juice=Juice, Stray Kids, Katsunori Takahashi with Tsuyoshi Kusanagi, ≠ME, Foyuu, and Monaki will appear for the first time. On the day, Osaka Castle Hall..."
-    },
-    {
-      "id": "4c273d3ee0b957c3",
-      "title": "Da-iCE、デビュー日に新ベストALリリースへ",
-      "link": "https://ototoy.jp/news/132526",
-      "publishedAt": "2026-10-28T22:00:00.000Z",
-      "excerpt": "Da-iCEが1月15日(金)のデビュー日にに2020年からの楽曲を収録した自身2枚目となるベストアルバム『Da-iCE BEST2』をリリースすることが決定した。 本作はヒット楽曲を中心に選曲した「Best Songs(Disc1)」、話題の最新曲「うららか」「アンリミテッド」を含めた新曲・新録曲を収めた「New Song(Disc2)」の2枚組タイプに加え、Singleでのみ発表をした楽曲をまとめた「Singles Selection(Disc3)」がプラスされた3枚組タイプ、2020年以降に公開をしたMusic Video、Lyric VideoからDance Practiceなどの映像コンテンツをDVD・Blu-ray3枚組など5形態でリリースされる。 リリース情報 https://ototoy.…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132526/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Da-iCE to release new best album on debut day",
-      "translatedExcerpt": "It has been decided that Da-iCE will release his second best album \"Da-iCE BEST2\", which includes songs from 2020, on his debut day on Friday, January 15th. This work is a 2-disc set of \"Best Songs (Disc 1)\" which mainly contains hit songs, \"New Song (Disc 2)\" which contains new and newly recorded songs including the latest songs \"Uraraka\" and \"Unlimited\", and a 3-disc set which includes \"Singles Selection (Disc 3)\" which is a collection of songs that have only been released as singles, as well as music videos and lyrics released after 2020. Video content such as Dance Practice will be released in 5 formats including DVD and 3-disc Blu-ray. Release information https://ototoy.…"
-    },
-    {
-      "id": "4ef1659df3a73bf4",
-      "title": "The Full-Time Wife Escapist's Tsunami Umino Launches New Manga in December",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/the-full-time-wife-escapist-tsunami-umino-launches-new-manga-in-december/.243280",
-      "publishedAt": "2026-10-28T22:00:00.000Z",
-      "excerpt": "Umino to launch series of previous 1-shot Omiai Tantei Katabiranotsuji Nagi",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIH/cms/news.10/243280/nagi.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f4cf68910172cdae",
-      "title": "Bandai Namco Suffers Cyberattack, Customer Data Potentially Leaked",
-      "link": "https://news.sankakucomplex.com/n/wOmZERe2Z3YeA6rVkJOP2w",
-      "publishedAt": "2026-10-28T21:00:28.000Z",
-      "excerpt": "Japanese entertainment giant Bandai Namco has suffered a cyberattack targeting one of its logistics subsidiaries, potentially exposing the personal information of customers using its popular Ichiban Kuji Online lottery service.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1f7b4fdef5204128",
-      "title": "Bandai Namco Suffers Cyberattack, Customer Data Potentially Leaked",
-      "link": "https://news.sankakucomplex.com/n/zO6y9yesXv6oeySXpRmitA",
-      "publishedAt": "2026-10-28T21:00:28.000Z",
-      "excerpt": "Japanese entertainment giant Bandai Namco has suffered a cyberattack targeting one of its logistics subsidiaries, potentially exposing the personal information of customers using its popular Ichiban Kuji Online lottery service.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "a347725a8d45681e",
-      "title": "HANA、新曲「Slidin」配信開始",
-      "link": "https://ototoy.jp/news/132522",
-      "publishedAt": "2026-10-28T21:00:00.000Z",
-      "excerpt": "HANAが新曲「Slidin」(ヨミ：スライディン)を配信リリースした。 約7か月ぶりの新曲「Slidin」はデビュー2年目を迎えて初の楽曲。制作にはプロデューサーのちゃんみなを筆頭に「NON STOP」も手掛けたJIGG、Ricky Rickyが参加。配信ジャケットはメンバーのMAHINAが描き下ろした。 リリース情報 https://ototoy.jp/_/default/p/4337312 アーティスト情報 https://hana.b-rave.tokyo https://x.com/@HANA__BRAVE https://www.instagram.com/hana_brave_official/ https://www.tiktok.com/@hana_brave_official http…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132522/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "HANA starts distribution of new song “Slidin”",
-      "translatedExcerpt": "HANA has released a new song \"Slidin\" (Yomi: Slidin). \"Slidin\" is their first new song in about seven months, and is their first song since their debut two years ago. Producer Chanmina, JIGG and Ricky Ricky, who also worked on \"NON STOP\", participated in the production. The distribution jacket was drawn by member MAHINA. Release information https://ototoy.jp/_/default/p/4337312 Artist information https://hana.b-rave.tokyo https://x.com/@HANA__BRAVE https://www.instagram.com/hana_brave_official/ https://www.tiktok.com/@hana_brave_official http…"
-    },
-    {
-      "id": "4eebfab6de474a50",
-      "title": "Yuki Amemiya, Yukino Ichihara's My Husband is a Doomsday Weapon Manga Ends",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/yuki-amemiya-yukino-ichihara-my-husband-is-a-doomsday-weapon-manga-ends/.243272",
-      "publishedAt": "2026-10-28T21:00:00.000Z",
-      "excerpt": "Manga launched in November 2024; Kodansha USA to release 1st volume in English on December 22",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gO9/cms/news.10/243272/doomsdayweapon.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "33480075b51fb1db",
-      "title": "Digimon Alysion Smartphone Card Game Opens Pre-Registration with New Trailer",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/digimon-alysion-smartphone-card-game-opens-pre-registration-with-new-trailer/.243297",
-      "publishedAt": "2026-10-28T20:30:00.000Z",
-      "excerpt": "Game slated for 2026 release",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJA/youtube/hVOArd4R8PA.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6b81c004747f54a5",
-      "title": "Reiko Shimizu's Himitsu Season 0 Spinoff Manga Enters Final Arc",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/reiko-shimizu-himitsu-season-0-spinoff-manga-enters-final-arc/.243284",
-      "publishedAt": "2026-10-28T20:00:00.000Z",
-      "excerpt": "Final arc starts on December 25",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gEA/cms/news.10/243284/himitsu.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1f11d6c4a014c265",
-      "title": "TANUKI: Pon's Summer Game Launches on November 10",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/tanuki-pon-summer-game-launches-on-november-10/.243296",
-      "publishedAt": "2026-10-28T19:30:00.000Z",
-      "excerpt": "Game launches for Switch, Switch 2, PS5, PS4, Xbox X|S, PC",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g39/youtube/PeF2MwJQwUM.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "cfa5136c6ef1b577",
-      "title": "Bana Yoshida Launches New Kui Otoko no Majо̄ to Kyūseishu Manga",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/bana-yoshida-launches-new-kui-otoko-no-maj-to-kyuseishu-manga/.243260",
-      "publishedAt": "2026-10-28T19:00:00.000Z",
-      "excerpt": "Kui Otoko no Majо̄ to Kyūseishu debuts on February 25",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ7/cms/news.10/243260/bana-yoshida.png.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "528e74f4b5ed7cd8",
-      "title": "Urban Myth Dissolution Center, Schrödinger's Call Games Get Switch 2 Releases",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/urban-myth-dissolution-center-schrodinger-call-games-get-switch-2-releases/.243295",
-      "publishedAt": "2026-10-28T18:35:35.000Z",
-      "excerpt": "Switch 2 editions launch on Thursday",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHC/cms/news.10/243295/unnamed.png.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "0873747ee2956a5c",
-      "title": "Good Smile Company Announces Data Breach of Online Store",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/good-smile-company-announces-data-breach-of-online-store/.243267",
-      "publishedAt": "2026-10-28T18:00:00.000Z",
-      "excerpt": "User info, order info, basic (but incomplete) credit card info were accessed",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIH/cms/news.9/232514/goodsmile.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
     }
   ]
 }

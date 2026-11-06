@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T22:01:51.583Z",
+  "generatedAt": "2026-11-06T22:31:53.030Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 133,
+      "count": 134,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 91,
+      "count": 90,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 235,
+      "count": 234,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 75,
+      "count": 76,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,40 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "fddf65e801f92e1c",
+      "title": "Pixiv Loses Wise Payouts After Account Suspension",
+      "link": "https://news.sankakucomplex.com/n/h10uLuxEcp9V6xeyDAlFWA",
+      "publishedAt": "2026-11-06T22:00:28.000Z",
+      "excerpt": "Japanese illustration platform Pixiv has announced that Wise will no longer be available for creator payouts starting in November 2026, leaving some international artists unable to withdraw their earnings and forcing others to abandon their subscriptions.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "987c8f8ea72d85e2",
+      "title": "North American Anime, Manga Releases, November 1-7",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-06/north-american-anime-manga-releases-november-1-7/.243459",
+      "publishedAt": "2026-11-06T22:00:00.000Z",
+      "excerpt": "KPop Demon Hunters animated film; Black Jack, Full Metal Panic! Family manga ship",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gNC/herald/202851/kpop-demon-hunters-4k-uhd.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "a57a9abf74db5c68",
       "title": "Navigating Survivor's Guilt Through Godzilla Minus Zero",
@@ -754,7 +788,7 @@
       "title": "Laid-Back Camp Season 4 Anime Announces April 2027 Premiere in New Trailer",
       "link": "https://crunchyroll.com/news/latest/2026/11/6/laid-back-camp-season-4-anime-trailer-key-visual-april-2027-premiere",
       "publishedAt": "2026-11-06T10:58:00.000Z",
-      "excerpt": "Opening and ending theme songs were also revealed",
+      "excerpt": "The opening and ending theme songs were also revealed",
       "image": "https://a.storyblok.com/f/178900/1000x563/ced917c02a/laid-back-camp-season-4-anime-trailer-point.png",
       "source": {
         "id": "crunchyroll",
@@ -5155,7 +5189,7 @@
         "language": "ja"
       },
       "translatedTitle": "<Best Hit Song Festival 2026> 28 groups singing songs announced",
-      "translatedExcerpt": "The songs to be sung for the Best Hit Song Festival, which will be broadcast live on November 11th (Wednesday) from 7pm on Yomiuri Television and Nippon Television, have been announced. Starring INI, Aina The End, =LOVE, &TEAM, Kis-My-Ft2, Mai Kuraki, Naoki Sanada, JO1, Hiroko Shimabukuro, Juice=Juice, Stray Kids, Da-iCE, Katsunori Takahashi with Tsuyoshi Kusanagi, T.M.Revolution, Naniwa Danshi, Number_i, NiziU, Nogizaka46, ≠ME, HANA, BE:FIRST, FANTASTICS, Foyuu, FRUITS ZIPPER, Mrs. GREEN APPLE, M!LK, Monaki, Yuzu. Hiroko Shimabukuro, Juice=Juice, Stray Kids, Katsunori Takahashi with Tsuyoshi Kusanagi, ≠ME, Foyuu, and Monaki will appear for the first time. On the day, from Osaka Castle Hall..."
+      "translatedExcerpt": "The songs to be sung for the Best Hit Song Festival, which will be broadcast live on Wednesday, November 11th from 7pm on Yomiuri Television and Nippon Television, have been announced. Starring INI, Aina The End, =LOVE, &TEAM, Kis-My-Ft2, Mai Kuraki, Naoki Sanada, JO1, Hiroko Shimabukuro, Juice=Juice, Stray Kids, Da-iCE, Katsunori Takahashi with Tsuyoshi Kusanagi, T.M.Revolution, Naniwa Danshi, Number_i, NiziU, Nogizaka46, ≠ME, HANA, BE:FIRST, FANTASTICS, Foyuu, FRUITS ZIPPER, Mrs. GREEN APPLE, M!LK, Monaki, Yuzu. Hiroko Shimabukuro, Juice=Juice, Stray Kids, Katsunori Takahashi with Tsuyoshi Kusanagi, ≠ME, Foyuu, and Monaki will appear for the first time. On the day, from Osaka Castle Hall..."
     },
     {
       "id": "bbaa57cb9aa0482f",
@@ -18392,42 +18426,6 @@
       },
       "translatedTitle": "IMP., new song “Period” will be distributed in advance / Solo song will be included in the album “PERIOD.” / Lily event will be held",
       "translatedExcerpt": "IMP. will pre-release the new song “Period” on November 9, 2026, and the music video will be released on Y"
-    },
-    {
-      "id": "f3b002be452c6065",
-      "title": "G-FREAK FACTORY、初の日本武道館ライブを2027年4月開催決定",
-      "link": "https://barks.jp/news/1101297",
-      "publishedAt": "2026-10-29T12:30:23.000Z",
-      "excerpt": "G-FREAK FACTORYが2027年4月28日、自身初となる日本武道館公演＜G-FREAK FACTORY 30th Anniversary ONE-MAN LIVE 『G-FREAK HISTORY』〜日本武道館〜＞を開催することが発表となった。 本公演は、G-FREAK FACTORYと10-FEETが来年2027年に開催するツーマン全国ツアーの終着点として開催されるもの。2027年、ともに30周年を迎える両バンドだが、そのツーマンツアーのタイトルで一部伏せられていた“〜2本◯◯◯〜”の部分が、＜10-FEET × G-FREAK FACTORY 30th Anniversary『10-FREAK HISTORY』〜2本武道館〜＞となることが今回正式に明かされた。 なお、G-FREAK FACT…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/24113013/G-FREAK-FACTORY_ArtistPhoto_2026-1024x671.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "G-FREAK FACTORY will hold their first Nippon Budokan live in April 2027",
-      "translatedExcerpt": "It has been announced that G-FREAK FACTORY will hold their first Nippon Budokan performance <G-FREAK FACTORY 30th Anniversary ONE-MAN LIVE \"G-FREAK HISTORY\" ~ Nippon Budokan ~> on April 28, 2027. This performance will be held as the final stop of a two-man national tour that G-FREAK FACTORY and 10-FEET will hold next year in 2027. Both bands will celebrate their 30th anniversary in 2027, and it has now been officially revealed that the part of their two-man tour title that had been kept a secret, \"~2 ◯◯◯~\", will be ``10-FEET × G-FREAK FACTORY 30th Anniversary \"10-FREAK HISTORY\" ~2 Budokan~''. In addition, G-FREAK FACT…"
-    },
-    {
-      "id": "e818dfd38d38454b",
-      "title": "Disney Twisted-Wonderland The Animation Season 2 Anime Premieres on December 23",
-      "link": "https://crunchyroll.com/news/latest/2026/10/29/disney-twisted-wonderland-the-animation-season-2-episode-of-savanaclaw-anime-release-date-visual",
-      "publishedAt": "2026-10-29T12:27:00.000Z",
-      "excerpt": "A new visual was also unveiled today",
-      "image": "https://a.storyblok.com/f/178900/2660x1496/eb01cff173/disney-twisted-wonderland-the-animation-episode-of-savanaclaw.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

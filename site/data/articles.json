@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T02:31:52.413Z",
+  "generatedAt": "2026-11-06T03:02:19.372Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 146,
+      "count": 144,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 89,
+      "count": 90,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 278,
+      "count": 280,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 215,
+      "count": 216,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 78,
+      "count": 76,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,84 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 604,
+    "translatedJapaneseArticles": 607,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "b135050dcd69cf4f",
+      "title": "Fujii Kaze、映像作品『Pre: Prema Tour』12/16発売決定＆「Love Like This」プレミア公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167195",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "excerpt": "Fujii Kazeが、映像作品『Pre: Prema Tour』を12月16日に発売することが決",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167195/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Fujii Kaze, video work \"Pre: Prema Tour\" to be released on 12/16 & \"Love Like This\" premiere released",
+      "translatedExcerpt": "Fujii Kaze has decided to release the video work ``Pre: Prema Tour'' on December 16th."
+    },
+    {
+      "id": "e3ff7a48996e23a8",
+      "title": "KEN LLOYD × INORANによるユニット・FAKE?、再始動へ。二夜限りのライブ＜Full Circle＞開催決定",
+      "link": "https://barks.jp/news/1102790",
+      "publishedAt": "2026-11-06T02:51:50.000Z",
+      "excerpt": "FAKE?が、KEN LLOYDとINORANのオリジナルメンバー2人による、二夜限りのライブを開催することを発表した。 KEN LLOYD（Vo／OBLIVION DUST）とINORAN（G／LUNA SEA）によって2001年に結成され、2005年のINORAN脱退後はKEN LLOYDによるソロプロジェクトとして活動を続けてきたFAKE?。INORAN脱退から22年経った今、デビュー25周年のアニバーサリーイヤーに再始動する。 再始動を告げるライブは、2027年2月28日に東京・Spotify O-EASTにて＜Full Circle Breathe In… ~Setlist by KEN LLOYD~＞を、3月20日に東京・EX THEATER ROPPONGIにて＜Full Circle Br…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/06114815/FAKE_A%E5%86%99-1024x682.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "FAKE?, a unit formed by KEN LLOYD x INORAN, will restart. Two-night-only live performance <Full Circle> will be held",
+      "translatedExcerpt": "FAKE? has announced that they will be holding a two-night-only live performance featuring two original members, KEN LLOYD and INORAN. FAKE? was formed in 2001 by KEN LLOYD (Vo/OBLIVION DUST) and INORAN (G/LUNA SEA), and after leaving INORAN in 2005, FAKE? continued as a solo project by KEN LLOYD. Now, 22 years after leaving INORAN, they will restart on the 25th anniversary year of their debut. 再始動を告げるライブは、2027年2月28日に東京・Spotify O-EASTにて＜Full Circle Breathe In… ~Setlist by KEN LLOYD~＞を、3月20日に東京・EX THEATER ROPPONGIにて＜Full Circle Br…"
+    },
+    {
+      "id": "20a81abd1f787790",
+      "title": "NINJA SKOOLER Anime Releases Pilot Film",
+      "link": "https://crunchyroll.com/news/latest/2026/11/6/ninja-skooler-anime-pilot-film",
+      "publishedAt": "2026-11-06T02:40:00.000Z",
+      "excerpt": "The eight-minute film tells the story of a young wannabe ninja",
+      "image": "https://a.storyblok.com/f/178900/1460x821/9d34491bd4/ninja-skooler.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "8420d9cdf6208ff0",
+      "title": "30周年記念【Ozzfest】が2027年に3都市で開催、シャロン・オズボーンがキュレート",
+      "link": "https://www.billboard-japan.com/d_news/detail/167203",
+      "publishedAt": "2026-11-06T02:30:00.000Z",
+      "excerpt": "今週初めに大型発表に向けたカウントダウンを開始していた【Ozzfest】が、現地時間2026年11",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167203/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "30th Anniversary Ozzfest to be held in 3 cities in 2027, curated by Sharon Osbourne",
+      "translatedExcerpt": "[Ozzfest], which started the countdown towards the big announcement earlier this week, will be announced in November 2026 local time."
+    },
     {
       "id": "52918fc030d4e998",
       "title": "酒井一圭の初自伝、幼少期～純烈結成そしてモナキをプロデュースするまでの軌跡を秘話も交えて一冊に",
@@ -205,7 +279,7 @@
     },
     {
       "id": "a68dd457bf1b9c97",
-      "title": "DaiShunがホストを務める、新イベント〈PASSPORT 001〉始動 国内外のDJ 11組が集結、音楽、ファッション、アート、人が交差する一夜に",
+      "title": "DaiShunがホストを務める新イベント〈PASSPORT 001〉始動 国内外のDJ 11組が集結、音楽、ファッション、アート、人が交差する一夜に",
       "link": "https://ototoy.jp/news/132649",
       "publishedAt": "2026-11-06T02:15:00.000Z",
       "excerpt": "音楽、ファッション、アート、そして人が交差するカルチャーイベント〈PASSPORT 001 — A BORDERLESS NIGHT IN TOKYO.〉が、2026年11月13日（金）東京・代官山のORD. DAIKANYAMAで開催される。 「PASSPORT」は、東京・代官山を舞台に、音楽、ファッション、アート、そして人が交差するカルチャーイベント。国籍、ジェンダー、セクシュアリティ、肩書き、ジャンルにとらわれず、一人ひとりの個性やSTYLEそのものを\"PASSPORT\"として、新しい人、音楽、カルチャーと出会う場をつくる。 ホストはDai NakaiとShun OnitsukaによるDaiShun。Tokyo Misfitsとのパートナーシップのもと、国内外で活動するクリエイター、アーティスト、モ…",
@@ -219,7 +293,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "A new event, PASSPORT 001, hosted by DaiShun has started. 11 domestic and international DJs will gather for a night where music, fashion, art, and people intersect.",
+      "translatedTitle": "DaiShunがホストを務める新イベント〈PASSPORT 001〉始動 国内外のDJ 11組が集結、音楽、ファッション、アート、人が交差する一夜に",
       "translatedExcerpt": "PASSPORT 001 — A BORDERLESS NIGHT IN TOKYO., a cultural event where music, fashion, art, and people intersect, will be held at ORD. DAIKANYAMA in Daikanyama, Tokyo on Friday, November 13, 2026. \"PASSPORT\" is a cultural event set in Daikanyama, Tokyo, where music, fashion, art, and people intersect. Regardless of nationality, gender, sexuality, title, or genre, we create a place where you can meet new people, music, and culture, using each individual's individuality and style as their \"PASSPORT.\" Hosted by DaiShun by Dai Nakai and Shun Onitsuka. In partnership with Tokyo Misfits, creators, artists, and artists active in Japan and abroad..."
     },
     {
@@ -1796,25 +1870,6 @@
       "translatedExcerpt": "The set list for the 26th Osaka Melody of My Heart, which will be broadcast live from NHK Osaka Hall on November 10th (Tuesday), has been announced. The cast includes Fox Capture Plan, Humbert Humbert, Aya Yamamoto, Monaki, Kosetsu Minami, Nobuyasu Okabayashi, T.M.Revolution, Kana Uemura, Yoneda 2000, Takanori Nishikawa, and Yoshimi Tendo. The show opened with a live performance by Fox Capture Plan, who created the music for the TV drama series ``Blossom.'' Humbert Humbert performed ``Laughing and Falling'' and Aya Yamamoto performed ``365 Days of Paper Planes.'' In addition, we will introduce famous morning drama songs selected by the performers from archived footage on NHK. Humbert Humbert, Kosetsu Minami, and Aya Yamamoto performed a special medley of \"Kansai folk\" that excited young people across Japan from the late 1960s to the early 1970s..."
     },
     {
-      "id": "34a6125acd4bc82a",
-      "title": "Ayumu Imazu、自身最大規模となる全国5都市を巡るホールツアー開催決定",
-      "link": "https://barks.jp/news/1102705",
-      "publishedAt": "2026-11-05T09:00:00.000Z",
-      "excerpt": "Ayumu Imazuが、自身最大規模となる全国5都市を巡るホールツアーの開催を発表した。2027年7月23日(金)の北海道公演を皮切りに、大阪、福岡、愛知、東京の全国5都市で開催される。 1月31日(日)に控える自身初の日本武道館公演は、すでにチケットがソールドアウト。また、2026年10月2日(金)にリリースした新曲「結び」は、配信直後から各配信サービスのランキングで続々と1位を獲得し計9冠を達成、SNSの総再生数は12億回を突破。こうした数々の実績を重ね、今回自身最大規模となる全国5都市のホールツアーへと歩みを進める。 ホールツアーのチケット最速先行受付は、本日11月5日(木)18時より「Ayumu Imazu Official Fan Club」にてスタート。 ◾️＜Ayumu Imazu LIV…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/05172933/1-11-819x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Ayumu Imazu will hold his largest hall tour in 5 cities nationwide",
-      "translatedExcerpt": "Ayumu Imazu has announced that he will be holding his biggest hall tour in five cities across the country. Starting with the Hokkaido performance on Friday, July 23, 2027, it will be held in five cities nationwide: Osaka, Fukuoka, Aichi, and Tokyo. Tickets for his first performance at Nippon Budokan, scheduled for January 31st (Sunday), are already sold out. In addition, the new song \"Musubi\" released on October 2, 2026 (Friday) has been ranked first on various distribution services immediately after its release, achieving a total of 9 crowns, and the total number of views on SNS exceeded 1.2 billion. With these numerous accomplishments under his belt, he is now embarking on his biggest hall tour in 5 cities across the country. The fastest advance ticket reception for the hall tour will begin today, November 5th (Thursday) at 6:00 pm at the \"Ayumu Imazu Official Fan Club\". ◾️＜Ayumu Imazu LIV…"
-    },
-    {
       "id": "6d0bdac1d281a25c",
       "title": "Ayumu Imazu、自身最大規模となる全国5都市を巡るホールツアー開催決定",
       "link": "https://ototoy.jp/news/132642",
@@ -1832,6 +1887,25 @@
       },
       "translatedTitle": "Ayumu Imazu will hold his largest hall tour in 5 cities nationwide",
       "translatedExcerpt": "Ayumu Imazu has announced that he will be holding his biggest hall tour in five cities across the country. Starting with the Hokkaido performance on Friday, July 23, 2027, it will be held in five cities nationwide: Osaka, Fukuoka, Aichi, and Tokyo. Tickets for his first performance at Nippon Budokan, scheduled for January 31st (Sunday), are already sold out. In addition, the new song \"Musubi\" released on Friday, October 2, 2026, has been ranked number one on various distribution services one after another immediately after its release, achieving a total of 9 crowns. The total number of views on SNS exceeded 1.2 billion. With these numerous accomplishments under his belt, he is now embarking on his biggest hall tour in 5 cities across the country. The earliest advance ticket reception for the hall tour will begin at 18:00 on November 5th (Thursday) at the \"Ayumu Imazu Official Fan Club\". Tour information ht…"
+    },
+    {
+      "id": "34a6125acd4bc82a",
+      "title": "Ayumu Imazu、自身最大規模となる全国5都市を巡るホールツアー開催決定",
+      "link": "https://barks.jp/news/1102705",
+      "publishedAt": "2026-11-05T09:00:00.000Z",
+      "excerpt": "Ayumu Imazuが、自身最大規模となる全国5都市を巡るホールツアーの開催を発表した。2027年7月23日(金)の北海道公演を皮切りに、大阪、福岡、愛知、東京の全国5都市で開催される。 1月31日(日)に控える自身初の日本武道館公演は、すでにチケットがソールドアウト。また、2026年10月2日(金)にリリースした新曲「結び」は、配信直後から各配信サービスのランキングで続々と1位を獲得し計9冠を達成、SNSの総再生数は12億回を突破。こうした数々の実績を重ね、今回自身最大規模となる全国5都市のホールツアーへと歩みを進める。 ホールツアーのチケット最速先行受付は、本日11月5日(木)18時より「Ayumu Imazu Official Fan Club」にてスタート。 ◾️＜Ayumu Imazu LIV…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/05172933/1-11-819x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Ayumu Imazu will hold his largest hall tour in 5 cities nationwide",
+      "translatedExcerpt": "Ayumu Imazu has announced that he will be holding his biggest hall tour in five cities across the country. Starting with the Hokkaido performance on Friday, July 23, 2027, it will be held in five cities nationwide: Osaka, Fukuoka, Aichi, and Tokyo. Tickets for his first performance at Nippon Budokan, scheduled for January 31st (Sunday), are already sold out. In addition, the new song \"Musubi\" released on October 2, 2026 (Friday) has been ranked first on various distribution services immediately after its release, achieving a total of 9 crowns, and the total number of views on SNS exceeded 1.2 billion. With these numerous accomplishments under his belt, he is now embarking on his biggest hall tour in 5 cities across the country. The fastest advance ticket reception for the hall tour will begin today, November 5th (Thursday) at 6:00 pm at the \"Ayumu Imazu Official Fan Club\". ◾️＜Ayumu Imazu LIV…"
     },
     {
       "id": "f7fb344282073113",
@@ -18333,74 +18407,6 @@
       "publishedAt": "2026-10-28T18:00:00.000Z",
       "excerpt": "User info, order info, basic (but incomplete) credit card info were accessed",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIH/cms/news.9/232514/goodsmile.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "5e61ad2585b0bcf4",
-      "title": "Action Taimanin Gets Allegedly Uncensored Release on FETAMIX",
-      "link": "https://news.sankakucomplex.com/n/ZTHG9tttWuOnZGbegigarw",
-      "publishedAt": "2026-10-28T17:00:15.000Z",
-      "excerpt": "Action Taimanin has officially launched on FETAMIX, a new third-party gaming platform, offering players an alternative to Google Play’s restrictive content policies after the popular action RPG previously faced censorship and the removal of numerous revealing outfits.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "a1b7695b70b7d72f",
-      "title": "Action Taimanin Gets Allegedly Uncensored Release on FETAMIX",
-      "link": "https://news.sankakucomplex.com/n/9hq06dMWqUGnHXpl8D5Byg",
-      "publishedAt": "2026-10-28T17:00:15.000Z",
-      "excerpt": "Action Taimanin has officially launched on FETAMIX, a new third-party gaming platform, offering players an alternative to Google Play’s restrictive content policies after the popular action RPG previously faced censorship and the removal of numerous revealing outfits.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "969fcc344f1ca21b",
-      "title": "Bakudo Action Game's Trailer Reveals Switch 2 Version, 2027 Release",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/bakudo-action-game-trailer-reveals-switch-2-version-2027-release/.243289",
-      "publishedAt": "2026-10-28T17:00:00.000Z",
-      "excerpt": "Shueisha Games to release sci-fi action battle game for Switch 2, PC",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGA/youtube/AlNMHFs7y58.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1be6eae6543b8d16",
-      "title": "Crunchyroll to Stream Mashle: Magic and Muscles Season 3 Anime",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/crunchyroll-to-stream-mashle-magic-and-muscles-season-3-anime/.243281",
-      "publishedAt": "2026-10-28T16:30:00.000Z",
-      "excerpt": "3rd season debuts in January",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHB/youtube/RBZQCHzX2wY.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",

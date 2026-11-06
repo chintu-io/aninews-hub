@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T04:32:06.440Z",
+  "generatedAt": "2026-11-06T05:02:21.325Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 36,
+      "count": 35,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 134,
+      "count": 133,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 228,
+      "count": 229,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 127,
+      "count": 128,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,67 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 619,
+    "translatedJapaneseArticles": 621,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "3b4ef4fa9d1524dc",
+      "title": "ザ・ウィークエンド、【After Hours Til Dawn Stadium Tour】全176公演完走",
+      "link": "https://www.billboard-japan.com/d_news/detail/167209",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "excerpt": "ザ・ウィークエンドが、11月5日にマレーシア・クアラルンプールのTM Stadium Nation",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167209/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "The Weeknd completes all 176 performances of [After Hours Til Dawn Stadium Tour]",
+      "translatedExcerpt": "The Weeknd will perform at TM Stadium Nation in Kuala Lumpur, Malaysia on November 5th."
+    },
+    {
+      "id": "f7f98642c2626c8b",
+      "title": "-真天地開闢集団-ジグザグが語る、禊活動のひと区切りと心境",
+      "link": "https://barks.jp/news/1102814",
+      "publishedAt": "2026-11-06T04:30:00.000Z",
+      "excerpt": "“読むロックマガジン”こと『ROCK AND READ』の最新刊第127号が11月4日に発売となった。同号の表紙巻頭は、本格始動10周年を記念した東阪アリーナ単独禊＜ジグザグ 10周年記念禊＞開催を控える-真天地開闢集団-ジグザグだ。 ＜ジグザグ 10周年記念禊＞は11月23日にTOYTA ARENA TOKYO、12月13日に大阪城ホールで行われるもの。この2本の禊(ライブ)をもって真天地開闢集団-ジグザグは、まとまった禊活動に一度区切りを設けることが明らかとなっている。 同号では、この禊を前にした今の正直な気持ちが、命 -mikoto-(vo, g)単独および、龍矢 -ryuya-(b)と影丸 -kagemaru-(dr)のリズム隊ふたりに分けたロングインタビューで語られた。また、12月23日にリリー…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/06132056/01_RR127_H1-722x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "- Shintenchi Kaisei Group - Zigzag talks about the end of purification activities and his feelings",
+      "translatedExcerpt": "The latest issue No. 127 of “ROCK AND READ”, also known as “Read Rock Magazine”, was released on November 4th. The front cover of the same issue features Zigzag, the Shintenchi Kaisei Group, who is about to hold a solo purification event at Tohan Arena to commemorate the 10th anniversary of the official launch of Zigzag. <Zigzag 10th Anniversary Purification> will be held at TOYTA ARENA TOKYO on November 23rd and at Osaka Castle Hall on December 13th. With these two live concerts, it has become clear that Shintenchi Kaisei Group - Zigzag will put a break in their collective purification activities. In the same issue, Mikoto (vo, g) spoke about his honest feelings ahead of this purification in a long interview with Mikoto (vocals, guitar) and the rhythm members Ryuya (b) and Kagemaru (dr). Also, on December 23rd, Lily…"
+    },
+    {
+      "id": "25d60f70271d68c1",
+      "title": "HYUKOH、3月に来日公演決定",
+      "link": "https://ototoy.jp/news/132656",
+      "publishedAt": "2026-11-06T04:00:00.000Z",
+      "excerpt": "韓国のロック・バンド、HYUKOH（ヒョゴ）が2027年3月16日(火)に豊洲PITにて来日公演を開催することが決定した。 HYUKOHは今年〈FUJI ROCK FESTIVAL’26〉RED MARQUEEに出演。11月25日に約7年ぶりとなるソロ・アルバム『33』をリリースする。来日公演は新作を引っ提げたワールドツアー〈HYUKOH [33] TOUR - TOKYO〉の東京公演で、一夜限りの開催となる。 ライブ情報 HYUKOH [33] TOUR - TOKYO リリース情報 https://ototoy.jp/_/default/p/4281583 インフォメーション https://eplus.jp/hyukoh/ https://www.instagram.com/hyukohoffici…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132656/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "HYUKOH to perform in Japan in March",
+      "translatedExcerpt": "It has been decided that Korean rock band HYUKOH will hold a performance in Japan on March 16, 2027 (Tuesday) at Toyosu PIT. HYUKOH will appear at FUJI ROCK FESTIVAL'26 RED MARQUEE this year. On November 25th, he will release his first solo album \"33\" in about 7 years. The performance in Japan will be the Tokyo performance of the world tour ``HYUKOH [33] TOUR - TOKYO'' featuring the new work, and will be held for one night only. Live information HYUKOH [33] TOUR - TOKYO Release information https://ototoy.jp/_/default/p/4281583 Information https://eplus.jp/hyukoh/ https://www.instagram.com/hyukohoffici…"
+    },
     {
       "id": "14a3f7d5ffcfc4e1",
       "title": "33-sai Dokushin Onna Kishi Taicho. Anime Adaptation Announced",
@@ -346,7 +403,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Soala releases major debut song \"ReaL\" today. EP will be released in January 2027",
+      "translatedTitle": "Soala's major debut song \"ReaL\" released today. EP will be released in January 2027",
       "translatedExcerpt": "Soala released their new song \"ReaL\" today, making their major debut on Universal Music. This song was written as the ending theme for the anime ``Demon's Crest,'' and it is said to be a song that incorporates Soala's strong feelings, ``Even if you feel lonely at times, don't forget your friends who support you and the feeling of believing in yourself.'' ``Demon's Crest,'' which serves as the ending theme, is a completely new work by Reki Kawahara, author of ``Sword Art Online'' and ``Accel World,'' set in the world of mixed reality. Exclusive worldwide distribution has started on Prime Video starting today, so please enjoy the anime along with the song \"ReaL\". Then, on January 11, 2027, there will be a major release with “ReaL” as the title song..."
     },
     {
@@ -384,7 +441,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Checkers will hold “Live House Bakun Scream Screening” for the third consecutive year in January",
+      "translatedTitle": "Checkers will hold “Live House Explosive Scream Screening” for the third consecutive year in January",
       "translatedExcerpt": "To commemorate the Blu-ray release of \"Checkers 1986 FLASH!! TOUR at Nippon Budokan [Remaster Edition]\", it has been decided that the \"Checkers Live House Bakon Scream Screening\" will be held at Ikebukuro harevutai on January 21, 2027. This event will be held for the third consecutive year. This is a popular project that has previously screened ``1987 GO TOUR'' and ``1988 SCREW TOUR,'' and you can enjoy the loud volume and powerful images that can only be found at a live house. Standing, screaming, and dancing are also allowed at the venue. It is an event where fans can have fun in their own way, just as if they were at a live venue. What will be shown this time is 1986 WINTER TOUR FLASH!! A video work that records the Nippon Budokan performance from. 4K with the latest technology..."
     },
     {
@@ -421,7 +478,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Interview] No pressure, full-fledged start of artist activities \"Becoming a star born from the world of live streaming\"",
-      "translatedExcerpt": "Currently, he is an artist/live music creator who is active at the forefront of live streaming, mainly using the singing live streaming app “ColorSing”. 中でもライブ配信では「TikTok LIVE All Stars 音楽部門」1位（2022年、2023年）、「TikTok Creator Awards Japan 2023『LIVE Music Creator of the Year』」受賞、TikTok「LIVE Pro」公認クリエイターなど、数々の実績を持ち、多くの視聴者を楽しませてきた。 Such a rebranding company will be rebranding and releasing ``Panee Kiss'' on November 6th. How did she approach the song, which was produced by Akito Tokunaga and produced by Masaaki Watanuki? Past activities and aims of rebranding..."
+      "translatedExcerpt": "Currently, he is an artist/live music creator who is active at the forefront of live streaming, mainly using the singing live streaming app “ColorSing”. Among them, in live streaming, he has a number of achievements, such as 1st place in the \"TikTok LIVE All Stars music category\" (2022 and 2023), won the \"TikTok Creator Awards Japan 2023 \"LIVE Music Creator of the Year\", and is a certified TikTok \"LIVE Pro\" creator, and has entertained many viewers. Such a rebranding company will be rebranding and releasing ``Panee Kiss'' on November 6th. How did she approach the song, which was produced by Akito Tokunaga and produced by Masaaki Watanuki? Past activities and aims of rebranding..."
     },
     {
       "id": "e95efc393e435e2c",
@@ -440,7 +497,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Interview] Bungei Tengoku, the moment when the everyday and the extraordinary intersect in the first full-length album of the alternative art group ``Things that I have felt to be beautiful''",
-      "translatedExcerpt": "作詞 作曲 編曲に加えて演奏を担う音楽家のko shinonomeと、映像やビジュアル面、舞台演出を担当する色彩作家にして現・株式会社文藝の代表取締役社長すみあいかにより、2019年に活動を開始したオルタナ的藝術徒党が、文藝天国だ。 “五感を通じて感じるアート”を追求し、音楽作品や映像作品はもとより、香水などの制作やポップアップ、喫茶イベントなど活動展開は幅広い。 In October 2026, their first full-length album was finally released as ``Poolside Core''. The love for the guitar that lives at the core of ko shinonome and the sound that embodies the band's initial impulses are becoming more and more concentrated, while the artistic musicality shown in the instrumental album ``Chasse (i)'' (released in June 2026) continues to deepen. Also,…"
+      "translatedExcerpt": "Bungei Tengoku is an alternative art clique that started its activities in 2019 by Ko Shinonome, a musician who is responsible for writing, composing, arranging, and performing, and Kaori Sumi, a color artist and current president of Bungei Co., Ltd., who is in charge of videos, visuals, and stage direction. Pursuing \"art that can be felt through the five senses,\" his activities range from music and video works to creating perfumes, pop-ups, and cafe events. In October 2026, their first full-length album was finally released as “Poolside Core.” The love for the guitar that lives at the core of ko shinonome and the sound that embodies the band's initial impulses are becoming more and more concentrated, while the artistic musicality shown in the instrumental album ``Chasse (i)'' (released in June 2026) continues to deepen. Also,…"
     },
     {
       "id": "2e3c3e646b2ec6b1",
@@ -458,7 +515,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "【第27回ラテン・グラミー賞】カロルG／ビザラップ／ナティ・ペルーソ／DJプレミアらのパフォーマンス追加",
+      "translatedTitle": "[27th Latin Grammy Awards] Additional performances by Karol G/VisaRap/Nati Peluso/DJ Premier and others",
       "translatedExcerpt": "On November 5, 2026 local time, a new performer at the [27th Latin Grammy Awards] will be a Latin recorder."
     },
     {
@@ -497,7 +554,7 @@
         "language": "ja"
       },
       "translatedTitle": "UP&DAMN 2026 will be held on December 5th, an intense event with 15 bands appearing on 2 stages of 15 minutes each.",
-      "translatedExcerpt": "A live event ``UP&DAMN 2026'' will be held at Nakano MOONSTEP on Saturday, December 5, 2026. 〈UP&DAMN 2026〉は、penisboys、高倉健、モリシマの3組が主催するイベントで、昨年に続いての開催となる。 今回も、中野MOONSTEP の1Fと2Fを使った2ステージで、矢継ぎ早に15分ずつ15バンドが出演。ノンストップ進行で全バンド持ち時間15分、3時間弱突っ走り、22時にイベント終了予定となっている。 Event information Cast soccer. U.G MAN Fat Cornelius EX flyer: Yo Pei (the futures) Information https://nakano-dynamite.com/moonstep/ https://x.com/livepubMOONSTEP"
+      "translatedExcerpt": "A live event ``UP&DAMN 2026'' will be held at Nakano MOONSTEP on Saturday, December 5, 2026. UP&DAMN 2026 is an event hosted by penisboys, Ken Takakura, and Morishima, and will be held for the second time since last year. This time, 15 bands will perform in quick succession for 15 minutes each on two stages using the 1st and 2nd floors of Nakano MOONSTEP. The event was scheduled to end at 10:00 p.m., with all bands running for 15 minutes, running non-stop for just under three hours. Event information Cast soccer. U.G MAN Fat Cornelius EX flyer: Yo Pei (the futures) Information https://nakano-dynamite.com/moonstep/ https://x.com/livepubMOONSTEP"
     },
     {
       "id": "e0a482e68fd5093b",
@@ -516,7 +573,7 @@
         "language": "ja"
       },
       "translatedTitle": "963 will be selling an \"OTOTOY limited package\" that includes the sound source of the album \"20xx\", a 10-inch jacket autographed by the members, and an instax.",
-      "translatedExcerpt": "It has been decided that the OTOTOY limited package of the 4th album ``20xx'' by the duo idol group 963, consisting of Ayuka Maeda and Yui Tsuji, will be on sale for a limited time. The OTOTOY limited package that will be sold this time is a special specification that combines the sound source of \"20xx\" with a 10-inch jacket and instax autographed by the members.ランダムソロチェキ1枚が付属する通常パッケージのほか、メンバーそれぞれのソロチェキが1枚ずつ付属する「スペシャルセット」も用意されている。 It will be sold for a limited time on the sound source distribution site OTOTOY from 0:00 on Wednesday, November 11, 2026 to 23:59 on Wednesday, November 25, 2026. ``20xx'' sets itself apart from the ``high-density cuteness'' of recent mainstream culture, and focuses on the ``incompleteness'' that can be said to be the original charm of idols."
+      "translatedExcerpt": "It has been decided that the OTOTOY limited package of the 4th album ``20xx'' by the duo idol group 963, consisting of Ayuka Maeda and Yui Tsuji, will be on sale for a limited time. The OTOTOY limited package that will be sold this time is a special specification that combines the sound source of \"20xx\" with a 10-inch jacket and instax autographed by the members. In addition to the standard package that comes with one random solo instax, there is also a ``special set'' that comes with one solo instax for each member. It will be sold for a limited time on the sound source distribution site OTOTOY from 0:00 on Wednesday, November 11, 2026 to 23:59 on Wednesday, November 25, 2026. ``20xx'' sets itself apart from the ``high-density cuteness'' of recent mainstream culture, and focuses on the ``incompleteness'' that can be said to be the original charm of idols."
     },
     {
       "id": "3a1c250e56a74276",
@@ -535,7 +592,7 @@
         "language": "ja"
       },
       "translatedTitle": "Amira Elfeky releases new song depicting complex emotions",
-      "translatedExcerpt": "Amira Elfeky released her new single “I don’t want to fall in love” on Wednesday, October 28, 2026. This work is the second single from the debut full-length album \"It Was Only A Dream\" scheduled to be released on Friday, November 13th. The song depicts the fear of losing oneself through love, the pain that comes from loving someone, and the complicated feelings of wanting to protect oneself even if it means choosing solitude. In terms of sound, the album combines dark electronic sounds and alternative rock energy, centered around pulsating bass and dreamy synthesizers.囁くような繊細な歌声から、感情をむき出しにした力強いシャウトへと展開するボーカルが、楽曲の緊張感を一層高めている。 Sau has a beautiful yet disturbing atmosphere..."
+      "translatedExcerpt": "Amira Elfeky released her new single “I don’t want to fall in love” on Wednesday, October 28, 2026. This work is the second single from the debut full-length album \"It Was Only A Dream\" scheduled to be released on Friday, November 13th. The song depicts the fear of losing oneself through love, the pain that comes from loving someone, and the complicated feelings of wanting to protect oneself even if it means choosing solitude. In terms of sound, the album combines dark electronic sounds and alternative rock energy, centered around pulsating bass and dreamy synthesizers. The vocals develop from a whisper-like delicate singing voice to a powerful shout that exposes emotion, further heightening the tension of the song. Sau has a beautiful yet disturbing atmosphere..."
     },
     {
       "id": "b135050dcd69cf4f",
@@ -649,7 +706,7 @@
         "language": "ja"
       },
       "translatedTitle": "Soushi Sakiyama, two-man live held for 3 consecutive months",
-      "translatedExcerpt": "Soushi Sakiyama has announced that he will hold a two-man live <ningen_ryoko_2027> for three consecutive months from February to April 2027 at WWW X in Shibuya, Tokyo. This performance is a popular project in which Soshi Sakiyama welcomes artists he respects, and will be held for the first time in five years since the last performance in 2022. Kayoko Yoshizawa will appear on the Friday, February 5th performance, and lilbesh Ramko will appear on the Friday, March 5th performance. Early ticket advance sales began today, November 6th (Friday) at noon at Soushi Sakiyama's official fan club ``Sakiyama Nekeri no Yu''. Additionally, the guest artists for the final performance on April 2nd (Friday) will be announced at a later date. Soushi Sakiyama, who has pursued musical expression with his own words and melodies, collaborates with artists who each have different musical backgrounds and personalities. Depending on the combination of genres and generations, each performance..."
+      "translatedExcerpt": "Soushi Sakiyama has announced that he will hold a two-man live <ningen_ryoko_2027> for three consecutive months from February to April 2027 at WWW X in Shibuya, Tokyo. This performance is a popular project in which Soshi Sakiyama welcomes artists he respects, and will be held for the first time in five years since the last performance in 2022. Kayoko Yoshizawa will appear on the Friday, February 5th performance, and lilbesh Ramko will appear on the Friday, March 5th performance. Early ticket advance sales began today, November 6th (Friday) at noon at Soushi Sakiyama's official fan club ``Sakiyama Nekeri no Yu''. Additionally, the guest artist for the final performance on April 2nd (Friday) will be announced at a later date. Soushi Sakiyama, who has pursued musical expression with his own words and melodies, collaborates with artists who each have different musical backgrounds and personalities. Depending on the combination of genres and generations, each performance..."
     },
     {
       "id": "1877b715b7f88a19",
@@ -668,7 +725,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kohei Matsushita's new song \"PRECIOUS\" will be aired at the earliest on his own radio program J-WAVE \"DK SELECT WEEKEND LIVING\"",
-      "translatedExcerpt": "Kohei Matsushita will release his new song \"PRECIOUS\" on November 27th. “PRECIOUS” is"
+      "translatedExcerpt": "松下洸平が、新曲「PRECIOUS」を11月27日に配信リリースする。 “PRECIOUS” is"
     },
     {
       "id": "401be2fd46f45d72",
@@ -2370,7 +2427,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ayumu Imazu will hold his largest hall tour in 5 cities nationwide",
-      "translatedExcerpt": "Ayumu Imazu has announced that he will be holding his biggest hall tour in five cities across the country. Starting with the Hokkaido performance on Friday, July 23, 2027, it will be held in five cities nationwide: Osaka, Fukuoka, Aichi, and Tokyo. Tickets for his first performance at Nippon Budokan, scheduled for January 31st (Sunday), are already sold out. In addition, the new song \"Musubi\" released on Friday, October 2, 2026, has been ranked number one on various distribution services one after another immediately after its release, achieving a total of 9 crowns. The total number of views on SNS exceeded 1.2 billion. With these numerous accomplishments under his belt, he is now embarking on his biggest hall tour in 5 cities across the country. The earliest advance ticket reception for the hall tour will begin at 18:00 on November 5th (Thursday) at the \"Ayumu Imazu Official Fan Club\". Tour information ht…"
+      "translatedExcerpt": "Ayumu Imazu has announced that he will be holding his biggest hall tour in five cities across the country. Starting with the Hokkaido performance on Friday, July 23, 2027, it will be held in five cities nationwide: Osaka, Fukuoka, Aichi, and Tokyo. Tickets for his first performance at Nippon Budokan, scheduled for January 31st (Sunday), are already sold out. In addition, the new song \"Musubi\" released on Friday, October 2, 2026, has been ranked number one on various distribution services one after another immediately after its release, achieving a total of 9 crowns. The total number of views on SNS exceeded 1.2 billion. With these numerous accomplishments under his belt, he is now embarking on his biggest hall tour in five cities across the country. The earliest advance ticket reception for the hall tour will begin at 18:00 on November 5th (Thursday) at the \"Ayumu Imazu Official Fan Club\". Tour information ht…"
     },
     {
       "id": "34a6125acd4bc82a",
@@ -3042,7 +3099,7 @@
         "language": "ja"
       },
       "translatedTitle": "<Tsurube's great song> Mika Hino appears",
-      "translatedExcerpt": "Mika Hino will appear on BS11 〈Tsurube no Ee Uta Ya Naa〉 on November 7th. Hino made his debut as a singer at the age of 19 and produced many hit songs such as \"Otoko to Onna no Love Game.\" He enthusiastically sang \"Hyouu\", which is his representative hit song and which made him appear in Kouhaku for the first time. In the new corner, ``Listen to Mr. Tsurube,'' 〇〇, the person who knows the most about ``Hyoen,'' makes a surprise appearance and tells the story behind the time. She also performed Yumi Arai's ``Afternoon Watching the Sea'', which she had listened to in her youth, and Mariko Takahashi's ``To Marie on Fifth Avenue'', which she had been singing since she was a teenager. She sings ``Morning Star,'' which she wrote and composed to convey the message of her late parents, who supported her dream of becoming a singer since she was a child, and ``There is no rain that never stops, and there is no night that never ends.'' Program information Tsurube's good song 1, \"Iroi\" Information https://www.bs11.jp/en..."
+      "translatedExcerpt": "Mika Hino will appear on BS11 〈Tsurube no Ee Uta Ya Naa〉 on November 7th. Hino made his debut as a singer at the age of 19 and produced many hit songs such as \"Otoko to Onna no Love Game.\" He passionately sang \"Hyoen,\" his signature big hit song that made him appear in Kohaku for the first time. In the new corner, ``Listen to Mr. Tsurube,'' 〇〇, the person who knows the most about ``Hyoen,'' makes a surprise appearance and tells the story behind the time. She also performed Yumi Arai's ``Afternoon Watching the Sea'', which she had listened to in her youth, and Mariko Takahashi's ``To Marie on Fifth Avenue'', which she had been singing since she was a teenager. She sings ``Morning Star,'' which she wrote and composed to convey the message of her late parents, who supported her dream of becoming a singer since she was a child, and ``There is no rain that never stops, and there is no night that never ends.'' Program information Tsurube's great song 1, \"Iroi\" Information https://www.bs11.jp/en..."
     },
     {
       "id": "d467b5084e2fa0d3",
@@ -3099,7 +3156,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Raising word] YOASOBI's first Tokyo Dome performance becomes audio source",
-      "translatedExcerpt": "YOASOBI, which released “YOASOBI 5th ANNIVERSARY DOME LIVE 2024 “Super Reality” at TOKYO DOME,” is ranked in the trending keywords. This work is the live sound source of his first dome performance, and includes 27 songs from Day 2 of the Tokyo Dome performance held on November 10, 2024. It was released to commemorate the largest-ever dome and stadium tour, which is currently being held in 5 cities in Japan and 5 cities in Asia. The theme song for the currently airing NHK TV drama series ``Blossom'', ``Sakigagere'', is also being distributed. Release information https://ototoy.jp/_/default/p/4378417 https://ototoy.jp/_/default/p/4278279 Artist information https://www.yoasobi…"
+      "translatedExcerpt": "YOASOBI, which released “YOASOBI 5th ANNIVERSARY DOME LIVE 2024 “Super Reality” at TOKYO DOME,” is ranked in the trending keywords. This work is the live sound source of his first dome performance, and includes 27 songs from Day 2 of the Tokyo Dome performance held on November 10, 2024. It was released to commemorate the largest-ever dome and stadium tour, which is currently being held in 5 cities in Japan and 5 cities in Asia. The theme song for the currently airing NHK TV drama series ``Blossom'', ``Sakigaagere,'' is also being distributed. Release information https://ototoy.jp/_/default/p/4378417 https://ototoy.jp/_/default/p/4278279 Artist information https://www.yoasobi…"
     },
     {
       "id": "a1599f95d9e21aa4",
@@ -3226,7 +3283,7 @@
         "language": "ja"
       },
       "translatedTitle": "MASHROOM Our Goodies, a general store where you can encounter music, opens for a limited time in Harajuku. A total of 13 artists including Aooo, QUEEN, Tatsuya Kitani, PEOPLE 1, MAISONdes, and DISH// will be participating.",
-      "translatedExcerpt": "It has been announced that MASHROOM Our Goodies, a general merchandise store where you can encounter music, will open in Harajuku, Tokyo for a limited time from November 20, 2026 (Friday) to December 25, 2026 (Friday). A total of 13 artists will be participating at this store, transcending the boundaries of music genres and generations. From fashion items to sweets and coffee, we offer a wide range of attractive items that will brighten up your daily life, including collaboration items that combine representative products from various brands with the essence of artists, such as CONVERSE sneakers, NEW ERA® caps/bucket hats, and KOKUYO campus notebooks. Additionally, there is a cafe on the second floor where you can enjoy music and drinks. sumika/Hanbreders/PE…"
+      "translatedExcerpt": "It has been announced that MASHROOM Our Goodies, a general merchandise store where you can encounter music, will open in Harajuku, Tokyo for a limited time from November 20, 2026 (Friday) to December 25, 2026 (Friday). A total of 13 artists will be participating at this store, transcending the boundaries of music genres and generations. From fashion items to sweets and coffee, we offer a wide range of attractive items that will brighten up your daily life, including collaboration items that combine representative products from various brands with the essence of artists, such as CONVERSE sneakers, NEW ERA® caps/bucket hats, and KOKUYO campus notebooks. There is also a cafe on the second floor where you can enjoy music and drinks. sumika/Hanbreders/PE…"
     },
     {
       "id": "5eb057bb1967f183",
@@ -5907,7 +5964,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "muque releases theme song MV for drama <Minamida Minami Lawyer wa Genius Hada>",
+      "translatedTitle": "muque releases the theme song MV for the drama “Minamida Minami Lawyer is a Genius Skin”",
       "translatedExcerpt": "muque has released the music video for the theme song ``Iinjanai'' for the drama ``Minamida Minami Lawyers wa Genius Hada''. “Iinjanai” is a warm pop number that closely follows the main character, Minami Minami, and gently pushes the back of the listener. In the music video, the story of Vo. Asakura finding a videotape filled with childhood memories and getting lost in the world of the Muppets reflected there unfolds through nostalgic images. The director was Denki Imahara. Release information https://ototoy.jp/_/default/p/4271864 Artist information https://muque.jp/ https://www.instagram.com/muque.official https://www.youtube.com/@muque https://ww…"
     },
     {
@@ -18387,59 +18444,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "14d5c070a6efa77d",
-      "title": "Japanese government still lists refusing to pay for dates as a form of domestic violence",
-      "link": "https://soranews24.com/2026/10/29/japanese-government-still-lists-refusing-to-pay-for-dates-as-a-form-of-domestic-violence/",
-      "publishedAt": "2026-10-29T02:00:02.000Z",
-      "excerpt": "Once again, there’s a lot of nuance that’s lost in the attempt to be succinct. As you can probably guess from its name, the Japanese government’s Gender Equality Bureau isn’t a fan of imbalance in interpersonal relationships. What is surprising to many people, though, is the bureau’s assertion that “not paying for any dating expenses” […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_ce3e65.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "29207592125e9043",
-      "title": "Rainbow Days' Minami Mizuno Launches New Fujikawa Minori wa Erabenai. Manga",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-28/rainbow-days-minami-mizuno-launches-new-fujikawa-minori-wa-erabenai-manga/.243279",
-      "publishedAt": "2026-10-29T02:00:00.000Z",
-      "excerpt": "Mizuno to launch Fujikawa Minori wa Erabenai. manga on November 28",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJC/cms/news.10/243279/mizuno.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "0bf21cca373bc1e9",
-      "title": "リアーナ、エイサップ・ロッキーがいつも“盗んでいく”愛用アイテムを明かす「気づくとボトルが空っぽに」",
-      "link": "https://www.billboard-japan.com/d_news/detail/166915",
-      "publishedAt": "2026-10-29T02:00:00.000Z",
-      "excerpt": "億万長者のビューティー・ブランド創業者であるリアーナだが、ボディウォッシュはいくらあっても足りない",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166915/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Rihanna reveals A$AP Rocky's favorite item that she always \"steals\": \"Before you know it, the bottle is empty\"",
-      "translatedExcerpt": "Billionaire beauty brand founder Rihanna can never have enough body wash"
     }
   ]
 }

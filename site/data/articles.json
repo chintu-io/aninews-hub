@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T01:02:02.306Z",
+  "generatedAt": "2026-11-07T01:31:58.414Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 37,
+      "count": 38,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 90,
+      "count": 91,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 267,
+      "count": 265,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 611,
+    "translatedJapaneseArticles": 609,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "d03c4acd5ed8ee0c",
+      "title": "Hana-Kimi Manga Celebrates 30th Anniversary with New Live-Action Drama and Stage Play",
+      "link": "https://crunchyroll.com/news/latest/2026/11/7/hana-kimi-manga-30th-anniversary-new-live-action-drama-stage-play",
+      "publishedAt": "2026-11-07T01:06:00.000Z",
+      "excerpt": "The 12 main cast will star in both the drama and the play",
+      "image": "https://a.storyblok.com/f/178900/960x540/c2e3c8057b/hana-kimi-drama-header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "dbeeeacfbe5b2964",
+      "title": "Get the taste of the U.K. in Tokyo with 99 Flakes, meat pies, and Jaffa Cakes",
+      "link": "https://soranews24.com/2026/11/07/get-the-taste-of-the-u-k-in-tokyo-with-99-flakes-meat-pies-and-jaffa-cakes/",
+      "publishedAt": "2026-11-07T01:00:47.000Z",
+      "excerpt": "This tiny Shibuya spot brings quintessential UK snacks straight to central Tokyo. Whether you have moved to a different country and pining for the foodstuffs of the motherland or you are interested in foreign cuisine without the hefty price tag of the airfare, specialty import stores are a treat to walk around. Tucked away amid […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/imgi_340_b1_e80dcf.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "53bdb6905b8593ce",
       "title": "Hana-Kimi Manga Gets New Live-Action Series, 1st Stage Play",
@@ -18386,44 +18420,6 @@
       },
       "translatedTitle": "Fuji TV “STAR” will feature Ae! group, KAITO, Kishidan, GENERATIONS, DA PUMP, and PUFFY on November 5th",
       "translatedExcerpt": "The performers for the November 5th broadcast of Fuji TV's music program ``STAR'' have been announced. Hands on “FNS Kayosai”"
-    },
-    {
-      "id": "7bc403a5a73edc31",
-      "title": "SEKAI NO OWARI、ドームツアー【Du Gara Di Du】ライブ映像を1日限りの全編公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/166959",
-      "publishedAt": "2026-10-29T12:50:00.000Z",
-      "excerpt": "SEKAI NO OWARIが、ドームツアー【DOME TOUR 2022『Du Gara Di",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166959/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "SEKAI NO OWARI, dome tour [Du Gara Di Du] live video released in full for one day only",
-      "translatedExcerpt": "SEKAI NO OWARI will be holding a dome tour [DOME TOUR 2022 “Du Gara Di"
-    },
-    {
-      "id": "26913dc9f88f15cf",
-      "title": "supercell、劇場アニメ『魔法使いの夜』主題歌「夜と青」リリース情報を解禁",
-      "link": "https://www.billboard-japan.com/d_news/detail/166957",
-      "publishedAt": "2026-10-29T12:45:00.000Z",
-      "excerpt": "supercellが、新曲「夜と青」のリリース情報を解禁した。 新曲「夜と青」は、2026年1",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166957/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "supercell releases release information for the theme song “Yoru to Ao” for the theatrical anime “The Wizard’s Night”",
-      "translatedExcerpt": "supercell has released the release information for their new song \"Yoru to Ao\". The new song “Yoru to Ao” will be released in January 2026."
     }
   ]
 }

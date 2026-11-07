@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T15:32:07.846Z",
+  "generatedAt": "2026-11-07T16:01:59.135Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 87,
+      "count": 88,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 260,
+      "count": 259,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 624,
+    "translatedJapaneseArticles": 623,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "a51b70c4f0154fa9",
+      "title": "Pokémon Composer Ed Goldfarb on the Series’ 30th Anniversary and Score Composing",
+      "link": "https://crunchyroll.com/news/interviews/2026/11/7/pokemon-composer-ed-goldfarb-interview",
+      "publishedAt": "2026-11-07T16:00:00.000Z",
+      "excerpt": "Gotta catch ‘em and write really cool tunes for ‘em all, too!",
+      "image": "https://a.storyblok.com/f/178900/960x540/5fd1f12114/pokemon-horizons-pokemon.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "0c2bba1458015001",
       "title": "Everyone's Darling Has a Secret Anime Reveals Additional Cast & Ending Theme Performers",
@@ -4435,7 +4452,7 @@
       "title": "Goddess of Victory: NIKKE PC Launcher Compromised",
       "link": "https://news.sankakucomplex.com/n/dZXG9eZzfUU0Cd6KLo2pIQ",
       "publishedAt": "2026-11-05T15:00:24.000Z",
-      "excerpt": "The PC launcher for Goddess of Victory: NIKKE has reportedly been compromised in a supply-chain cyberattack, potentially exposing players’ passwords, authentication credentials, and other sensitive information to hackers. The security breach was first reported by players on the Chinese gaming for…",
+      "excerpt": "The PC launcher for Goddess of Victory: NIKKE has reportedly been compromised in a supply-chain cyberattack, potentially exposing players’ passwords, authentication credentials, and other sensitive information to hackers.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18431,25 +18448,6 @@
       },
       "translatedTitle": "Pentatonix, holiday AL “Christmas in the City” DX version distribution, new songs and live sound sources added",
       "translatedExcerpt": "Pentatonix's 2025 holiday album \"Christmas in the Ci\""
-    },
-    {
-      "id": "c4c2742286495915",
-      "title": "&TEAM、SANTOS BRAVOSとのコラボ曲「ORIGAMI」11/20配信リリース決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/166976",
-      "publishedAt": "2026-10-30T03:15:00.000Z",
-      "excerpt": "&TEAMが、SANTOS BRAVOSとのコラボレーション曲「ORIGAMI」を11月2",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166976/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "&TEAM, collaboration song “ORIGAMI” with SANTOS BRAVOS will be released on November 20th",
-      "translatedExcerpt": "&TEAM releases collaboration song “ORIGAMI” with SANTOS BRAVOS on November 2nd"
     }
   ]
 }

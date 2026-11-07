@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T05:01:57.925Z",
+  "generatedAt": "2026-11-07T05:32:07.677Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 37,
+      "count": 38,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 133,
+      "count": 132,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 93,
+      "count": 92,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 33,
+      "count": 34,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 129,
+      "count": 128,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 76,
+      "count": 77,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 610,
+    "translatedJapaneseArticles": 609,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "819642f2bead4640",
+      "title": "Mixed Media Project 'Harajuku Himegoto House' Announces TV Anime Adaptation",
+      "link": "https://myanimelist.net/news/74912747?_location=rss",
+      "publishedAt": "2026-11-07T05:07:54.000Z",
+      "excerpt": "Entertainment company Plott announced a television anime adaptation of its Harajuku Himegoto House mixed-media project on Saturday, revealing the main cast, staff, a key visual (pictured), and a teaser promotional video. Cast Mizuki Otokozawa: Yuuya Hirose (Mato Seihei no Slave) Mero Togariishi: Tetsuei Sumiya (Fairy Ranmaru) Takara Rokurokusou: Souhei Ho…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794027991-1281ac9c9b704723dd7e5a94214eb5dd.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "302a2eb1a2bcf256",
+      "title": "Restaurant opens in Japan with all-dementia waitresses, serves up ramen, awareness, and kindness",
+      "link": "https://soranews24.com/2026/11/07/restaurant-opens-in-japan-with-all-dementia-waitresses-serves-up-ramen-awareness-and-kindness/",
+      "publishedAt": "2026-11-07T05:00:10.000Z",
+      "excerpt": "Restaurant of Mistaken Orders is upfront about potential problems in order to cultivate future understanding. Japan has incredibly high customer service standards, especially where restaurants are concerned. Because of that, a restaurant saying, in advance, that it might get your order wrong seems like a recipe for dissatisfied diners, but that strategy l…",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/21.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "03466b9b9487a0c9",
       "title": "FLOW、約1年に及ぶワールドツアー完走。アルバム発売＆ツアー開催発表も「忘れることのない素晴らしい夜をありがとう！」",
@@ -7231,6 +7265,23 @@
         "siteUrl": "https://soranews24.com/",
         "category": "Japan",
         "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d7f61dfd17371879",
+      "title": "Final Fantasy XIV Heavensward Censorship Resurfaces on Twitter",
+      "link": "https://news.sankakucomplex.com/n/FK4SXLuhneh2WdIazOmr1g",
+      "publishedAt": "2026-11-04T05:00:09.000Z",
+      "excerpt": "A scene from the English version of Final Fantasy XIV compared with the original Japanese version has attracted widespread attention on Twitter after it revealed just how much more different it was, making some wonder why such effort was removed.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18369,59 +18420,6 @@
       },
       "translatedTitle": "[Live Report] GANG PARADE comes to an end after 10 years of activities “It was thanks to you that we were able to come this far”",
       "translatedExcerpt": "GANG PARADE held their final stage ``GANG PARADE LAST SAY HELLO!!'' at Zepp Haneda (TOKYO), marking the end of their 10-year career. Tickets for the last live show are sold out. The day's event was exclusively broadcast live on Niconico Live Broadcasting. Before the performance, a thin gauze curtain was lowered on the stage, and the overcrowded floor was filled with a buzz that was different from the usual one-man performances, such as calls for the GANG PARADE song that was being played as background music, as they approached the one-off day of their disbandment live. At 7:04 p.m., the electricity went out. A video of each member was projected on the screen, and each member said one word, \"Ganpare, say hello,\" and then videos of their 12 years of activities, including training camp auditions and tours, were played, and all 11 members made the title call. Colorful lights on the gauze curtain..."
-    },
-    {
-      "id": "1c2ada766da41b6a",
-      "title": "Disney Twisted-Wonderland Anime's 'Episode of Savanaclaw' Begins 8-Episode Run on December 23",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-29/disney-twisted-wonderland-anime-episode-of-savanaclaw-begins-8-episode-run-on-december-23/.243328",
-      "publishedAt": "2026-10-29T14:45:51.000Z",
-      "excerpt": "Visual unveiled for 2nd season",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ1/cms/news.10/243328/disney-twisted-wonderland-savanaclaw.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "0882381aedcb6e09",
-      "title": "Sailor Moon Shining Theater -Shinagawa Tokyo- Dining Experience Confirms \"Phase 3\" for April 2027",
-      "link": "https://crunchyroll.com/news/latest/2026/10/29/sailor-moon-shining-theater-shinagawa-tokyo-dining-experience-confirms-phase-3-for-april-2027",
-      "publishedAt": "2026-10-29T14:42:00.000Z",
-      "excerpt": "The current Team Gold Moon and Team Silver Moon will depart at the end of March",
-      "image": "https://a.storyblok.com/f/178900/960x504/4e2927a99e/sailor-moon-shining-theater-hero.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "856dde5d490a3728",
-      "title": "未来電波基地プロデュース、Unslept Cityが1st SG「KK」リリース",
-      "link": "https://ototoy.jp/news/132533",
-      "publishedAt": "2026-10-29T14:30:00.000Z",
-      "excerpt": "Unslept Cityが1stシングル「KK」を2026年10月28日にリリースした。 Unslept Cityは未来電波基地がプロデュースしているプロジェクト。 「KK」は公募の中から選出された正体不明のシンガー・ENEを迎えた1st シングルだ。未来電波基地らしいインターネットグランジの空気感を纏った楽曲に仕上がっている。 リリース情報 ▼OTOTOY配信中 https://ototoy.jp/_/default/p/4193863 アーティスト情報 https://x.com/UnsleptCity",
-      "image": "https://imgs.ototoy.jp/news/image.php/132533/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Produced by Mirai Radio Base, Unslept City releases 1st SG “KK”",
-      "translatedExcerpt": "Unslept City released their first single \"KK\" on October 28, 2026. Unslept City is a project produced by Mirai Radio Base. \"KK\" is the first single featuring unknown singer ENE, who was selected from an open call. The song is finished with an Internet grunge atmosphere that is typical of Future Radio Base. Release information ▼OTOTOY now available https://ototoy.jp/_/default/p/4193863 Artist information https://x.com/UnsleptCity"
     }
   ]
 }

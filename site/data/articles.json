@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:01:59.135Z",
+  "generatedAt": "2026-11-07T16:31:52.949Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 88,
+      "count": 89,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 259,
+      "count": 258,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 623,
+    "translatedJapaneseArticles": 622,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8882456ff364cecb",
+      "title": "Rascal Does Not Dream of a Dear Friend Anime Film Shares New Clip Featuring Kaede",
+      "link": "https://crunchyroll.com/news/latest/2026/11/7/rascal-does-not-dream-of-a-dear-friend-anime-film-clip-kaede",
+      "publishedAt": "2026-11-07T16:08:00.000Z",
+      "excerpt": "Crunchyroll and Sony Pictures will release the film in the United States, Canada and Australia in February 2027",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/2b51642344/rascal-does-not-dream-of-a-dear-friend-kaede-hero.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "a51b70c4f0154fa9",
       "title": "Pokémon Composer Ed Goldfarb on the Series’ 30th Anniversary and Score Composing",
@@ -18429,25 +18446,6 @@
       },
       "translatedTitle": "Usher and Chris Brown lead R&B to number one on US Billboard monthly tour chart",
       "translatedExcerpt": "US Billboard launched a monthly tour chart “Boxscore” in 2019."
-    },
-    {
-      "id": "2246c794b9f56b76",
-      "title": "ペンタトニックス、ホリデーAL『Christmas in the City』DX版配信 新曲＆ライブ音源追加収録",
-      "link": "https://www.billboard-japan.com/d_news/detail/166978",
-      "publishedAt": "2026-10-30T03:30:00.000Z",
-      "excerpt": "ペンタトニックスが、2025年に発表したホリデー・アルバム『Christmas in the Ci",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166978/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Pentatonix, holiday AL “Christmas in the City” DX version distribution, new songs and live sound sources added",
-      "translatedExcerpt": "Pentatonix's 2025 holiday album \"Christmas in the Ci\""
     }
   ]
 }

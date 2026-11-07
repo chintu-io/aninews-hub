@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T14:02:24.526Z",
+  "generatedAt": "2026-11-07T14:31:53.053Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 37,
+      "count": 36,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 86,
+      "count": 87,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 257,
+      "count": 260,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 248,
+      "count": 247,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 75,
+      "count": 73,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,103 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 622,
+    "translatedJapaneseArticles": 624,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "0c2bba1458015001",
+      "title": "Everyone's Darling Has a Secret Anime Reveals Additional Cast & Ending Theme Performers",
+      "link": "https://crunchyroll.com/news/latest/2026/11/7/everyones-darling-has-a-secret-anime-additional-cast-ending-theme-performers",
+      "publishedAt": "2026-11-07T14:24:00.000Z",
+      "excerpt": "Crunchyroll will stream romantic comedy manga adaptation in April 2027",
+      "image": "https://a.storyblok.com/f/178900/1460x821/16c77d9d1e/everyones_darling_has_a_secret_rei_kuromiya_header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "a18259697af6284d",
+      "title": "STARGLOW、1stアルバム『Aurora』ムードフィルム＆リリースカレンダーを公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167249",
+      "publishedAt": "2026-11-07T14:20:00.000Z",
+      "excerpt": "STARGLOWが、2026年11月18日にリリースとなる1stアルバム『Aurora』のムードフ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167249/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "STARGLOW releases mood film & release calendar for 1st album “Aurora”",
+      "translatedExcerpt": "STARGLOW will be releasing their first album “Aurora” on November 18, 2026."
+    },
+    {
+      "id": "26634af67dbb5abf",
+      "title": "OWV、新曲「Lovey-Dovey」初披露ライブ映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167248",
+      "publishedAt": "2026-11-07T14:15:00.000Z",
+      "excerpt": "OWVが、新曲「Lovey-Dovey」のライブ映像を公開した。 新曲「Lovey-Dovey",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167248/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "OWV releases first live performance video of new song “Lovey-Dovey”",
+      "translatedExcerpt": "OWV has released a live video of their new song \"Lovey-Dovey.\" New song “Lovey-Dovey”"
+    },
+    {
+      "id": "e77d6acdbfc9e0f8",
+      "title": "セブンス・ベガ、パラレルワールドで夢を追いかける「OVERDRIVE」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167250",
+      "publishedAt": "2026-11-07T14:10:00.000Z",
+      "excerpt": "セブンス・ベガが、新曲「OVERDRIVE」のミュージックビデオを公開した。 新曲「OVERD",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167250/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "7th Vega releases “OVERDRIVE” music video about chasing dreams in a parallel world",
+      "translatedExcerpt": "7th Vega has released the music video for their new song \"OVERDRIVE\". New song “OVERD”"
+    },
+    {
+      "id": "4413c843870bc147",
+      "title": "MON7A、新曲「素直」リリックビデオ公開 伊藤あさひ＆武藤潤（原因は自分にある。）からのメッセージも",
+      "link": "https://www.billboard-japan.com/d_news/detail/167246",
+      "publishedAt": "2026-11-07T14:05:00.000Z",
+      "excerpt": "MON7Aが、新曲「素直」を配信リリースし、リリックビデオを公開した。 新曲「素直」は、202",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167246/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "MON7A releases lyric video for new song “Sunao” with messages from Asahi Ito & Jun Muto (The cause is mine)",
+      "translatedExcerpt": "MON7A has released a new song ``Sohono'' and released the lyric video. The new song “Moono” is 202"
+    },
     {
       "id": "2b2beeb8bce2e913",
       "title": "Hump Back、メジャーデビュー曲「拝啓、少年よ」披露 ＜THE FIRST TAKE＞",
@@ -582,7 +675,7 @@
       "title": "Fuji TV Plans to Introduce Generative AI Across All Its Live-Action Dramas by 2027",
       "link": "https://news.sankakucomplex.com/n/VyjMxPnqo05MOii5YUU7Bg",
       "publishedAt": "2026-11-07T10:00:24.000Z",
-      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks. The company…",
+      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18357,95 +18450,6 @@
       },
       "translatedTitle": "&TEAM, collaboration song “ORIGAMI” with SANTOS BRAVOS will be released on November 20th",
       "translatedExcerpt": "&TEAM releases collaboration song “ORIGAMI” with SANTOS BRAVOS on November 2nd"
-    },
-    {
-      "id": "d4bb65f8cf45be9a",
-      "title": "Burger King Japan shuns Shibuya Halloween spirit, but keeps it alive everywhere else",
-      "link": "https://soranews24.com/2026/10/30/burger-king-japan-shuns-shibuya-halloween-spirit-but-keeps-it-alive-everywhere-else/",
-      "publishedAt": "2026-10-30T03:00:52.000Z",
-      "excerpt": "No tricks or treats is the plan at Shibuya Center-gai, but cool sweets will be waiting at every other branch. In a way, I suppose you could accuse Burger King Japan of having lost its Halloween spirit. The chain’s Shibuya Center-gai branch in downtown Tokyo, just a short walk from the world-famous Shibuya Scramble intersection, […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/0_dc62b5.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "535cc07237ecc9ab",
-      "title": "Konami’s Gaming Profits Surge 75% Thanks to Strong Game Sales",
-      "link": "https://news.sankakucomplex.com/n/e7CT9pskp63tPTVvQDN9NQ",
-      "publishedAt": "2026-10-30T03:00:32.000Z",
-      "excerpt": "Konami has reported a massive 75.1% increase in profits from its video game business, with the continued success of eFootball, Yu-Gi-Oh!, and several major releases helping the Japanese publisher achieve record-breaking financial results.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "d1f478d8fcfe2dfb",
-      "title": "Konami’s Gaming Profits Surge 75% Thanks to Strong Game Sales",
-      "link": "https://news.sankakucomplex.com/n/WtY9baugBSrcl_c1WxFJZg",
-      "publishedAt": "2026-10-30T03:00:32.000Z",
-      "excerpt": "Konami has reported a massive 75.1% increase in profits from its video game business, with the continued success of eFootball, Yu-Gi-Oh!, and several major releases helping the Japanese publisher achieve record-breaking financial results.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "ef8497ba1142bf68",
-      "title": "「波うららかに、めおと日和」「だからいちいちかわいいだろ。芳根ちゃん」「ハラハラもドキドキもないけど、ずっと頬が緩むドラマなんてそうそうない」",
-      "link": "https://www.billboard-japan.com/d_news/detail/166982",
-      "publishedAt": "2026-10-30T03:00:00.000Z",
-      "excerpt": "「波うららかに、めおと日和」（フジテレビ系）の第3話が、29日に放送された。 本作は、昭和12年",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166982/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "``Uraraka Nami, Meoto Hiyori'' ``That's why they're all so cute, Yoshine-chan'' ``It's not suspenseful or exciting, but there aren't many dramas that leave your cheeks relaxed all the time.''",
-      "translatedExcerpt": "The third episode of ``Nami Urarakani, Meoto Biyori'' (Fuji TV) was broadcast on the 29th. This work was created in 1933."
-    },
-    {
-      "id": "9ea2e20dd50f6782",
-      "title": "【インタビュー】DEZERT、結成15周年に放つ2枚組全20曲収録のセルフタイトルアルバム完成「DEZERTをどうやって終わらせるか」",
-      "link": "https://barks.jp/news/1100978",
-      "publishedAt": "2026-10-30T03:00:00.000Z",
-      "excerpt": "DEZERTが10月28日、メジャー2ndアルバム『DEZERT』をリリースした。結成15周年という新フェーズに突入した彼らの最新オリジナルフルアルバムは、全20曲収録2枚組の大ボリューム。加えて、アルバムタイトルに自らのバンド名を冠した作品として届けられる。 2025年6月からスタートした自身初の47都道府県ツアーおよび、同ツアーファイナルとなった2026年3月の幕張メッセ公演を大成功に収め、その約2ヶ月後には新たなツアー＜study＞をスタートさせるなど、破竹の勢いが物語るものはバンドのコンディションの良さ。Ken(L’Arc-en-Ciel)プロデュースの「「音楽」」、Amazonプライムドラマ『人間標本』挿入歌の「火花」をはじめとする既発曲に加え、メンバー全員が作曲を手掛けたナンバーも収録するなど…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/27195131/DEZERT_%E3%82%A2%E3%83%BC%E5%86%99-1024x684.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Interview] DEZERT completes self-titled album with 20 songs released on 15th anniversary as a 2-disc set \"How will DEZERT end?\"",
-      "translatedExcerpt": "DEZERT released their second major album ``DEZERT'' on October 28th. Their latest original full album, which has entered a new phase as they celebrate their 15th anniversary, is a large 2-disc set containing 20 songs. In addition, the album will be delivered as a work with their own band name in the title. Their first 47-prefecture tour, which started in June 2025, and the tour's final performance at Makuhari Messe in March 2026 were a huge success, and about two months later, they started a new tour called ``study.'' The momentum of Hatake speaks to the band's good condition. In addition to previously released songs such as “Music” produced by Ken (L’Arc-en-Ciel) and “Hibana”, the insert song for the Amazon Prime drama “Human Specimen”, it also includes numbers composed by all members."
     }
   ]
 }

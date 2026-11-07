@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T08:32:03.077Z",
+  "generatedAt": "2026-11-07T09:03:47.679Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 130,
+      "count": 127,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 34,
+      "count": 35,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 268,
+      "count": 269,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 237,
+      "count": 240,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -152,9 +152,9 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 78,
+      "mode": "direct",
+      "feedUrl": "https://news.sankakucomplex.com/feed/",
+      "count": 76,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,137 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 615,
+    "translatedJapaneseArticles": 619,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "71e3ed4488a92ecc",
+      "title": "＜Archive＞「ひまわりの約束」通算156週チャートイン、Hot 100年間9位――秦 基博、デビュー20周年の節目に振り返る不朽の軌跡",
+      "link": "https://www.billboard-japan.com/d_news/detail/167058",
+      "publishedAt": "2026-11-07T09:00:00.000Z",
+      "excerpt": "社会的な反響を及ぼしたアーティストを毎週1組取り上げ、Billboard JAPAN Hot 10",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167058/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "<Archive> \"Himawari no Yakusoku\" charted for a total of 156 weeks, ranked 9th in the Hot 100 -- Motohiro Hata looks back on his immortal trajectory on the 20th anniversary of his debut",
+      "translatedExcerpt": "Billboard JAPAN Hot 10 features one artist each week who has had a social impact."
+    },
+    {
+      "id": "33a0eba026ff759a",
+      "title": "AI（アイ）vs. AI（エーアイ）――2つの“AI”が交差する「It’s AI」MV公開決定",
+      "link": "https://barks.jp/news/1103086",
+      "publishedAt": "2026-11-07T09:00:00.000Z",
+      "excerpt": "AIが、2026年10月にリリースした新曲「It’s AI」のMVをプレミア公開することを発表した。あわせて、MVのプレミア公開ページもオープンし、ティザー映像も公開となった。 デビュー25周年を経たAIが、新たなるフェーズに向かって放つ海外シーンへの最新チャレンジが、この「It’s AI」だ。米・マイアミのスタジオで書き下ろし、レコーディングを行い、そしてニューヨークでミックスを仕上げたヒップホップトラックになっている。 この夏に配信し、USマーケットでもバズが起き始めているという「Welcome To My City – Remix」に続き、本楽曲もラッパー・50セントやフューチャーなどのクリエイティブ仕掛人・Billy Wizと、ニューヨークの老舗ハウスレーベルとして名高いSOUNDMEN On W…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/02/13131059/%E3%80%90%E8%BB%BD%E3%80%91AI-%E3%82%A2%E3%83%BC%E5%86%99%E3%83%A1%E3%82%A4%E3%83%B3%EF%BC%88%E7%B8%A6%EF%BC%89-683x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "AI vs. AI - “It’s AI” MV in which two “AIs” intersect will be released",
+      "translatedExcerpt": "AI has announced that they will premiere the music video for their new song “It’s AI” released in October 2026. At the same time, the MV premiere page was also opened, and a teaser video was also released. “It’s AI” is the latest challenge to the overseas scene that AI, which has celebrated its 25th anniversary since its debut, is heading into a new phase. It is a hip-hop track that was written and recorded in a studio in Miami, USA, and mixed in New York. Following on from \"Welcome To My City - Remix,\" which was released this summer and is starting to generate buzz in the US market, this song was released by Billy Wiz, the creative instigator of rappers 50 Cent and Future, and SOUNDMEN On Wiz, a well-known and well-established New York house label."
+    },
+    {
+      "id": "8d27140176f10f37",
+      "title": "sumika、ニューシングル初回生産限定盤より「Lovers」ライブ映像公開",
+      "link": "https://barks.jp/news/1103080",
+      "publishedAt": "2026-11-07T09:00:00.000Z",
+      "excerpt": "sumikaが、2026年11月18日にリリースするシングル「エンバートーチ／はじまりのさよなら／Umm」の初回生産限定盤BDより、「Lovers」のライブ映像を公開した。 本シングルの初回生産限定盤に付属するBlu-rayには、＜sumika Film #18 sumika Live Tour 2026『Unique』2026.7.24 at 日本武道館＞の映像を収録。なおSNSでは、メンバーを個別に追ったマルチアングルのライブ映像も一部公開されている。 さらに、「エンバートーチ／はじまりのさよなら／Umm」リリースに際して、全国のCDショップでのライブ写真パネル展、タワーレコード渋谷店での衣裳展の開催も発表された。詳細は下記をチェックしていただきたい。 ◾️12thシングル「エンバートーチ／はじまりの…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2025/11/29112841/sumika_%E3%82%A2%E3%83%BC%E5%86%99202511.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "sumika releases live video of “Lovers” from new single first limited edition",
+      "translatedExcerpt": "sumika has released the live video of \"Lovers\" from the first limited edition BD of the single \"Ember Torch/Hajimari no Sayonara/Umm\" to be released on November 18, 2026. The Blu-ray that comes with the first limited edition of this single includes footage from ＜sumika Film #18 sumika Live Tour 2026 “Unique” 2026.7.24 at Nippon Budokan＞. Additionally, on SNS, some multi-angle live footage that follows the members individually has also been released. Furthermore, upon the release of \"Ember Torch/Hajimari no Sayonara/Umm\", it was announced that a live photo panel exhibition will be held at CD shops nationwide and a costume exhibition will be held at Tower Records Shibuya store. Please check below for details. ◾️12th single “Ember Torch/Hajimari no…”"
+    },
+    {
+      "id": "86dec1f2a511b72f",
+      "title": "Uru、シングル「それなのに」収録曲公開。離婚伝説「ファーストキス」カバー収録＆リリックビデオ公開も",
+      "link": "https://barks.jp/news/1103041",
+      "publishedAt": "2026-11-07T09:00:00.000Z",
+      "excerpt": "Uruが、2026年12月9日にCDリリースするシングル「それなのに」の収録内容、店舗別CD購入特典画像を公開した。 本シングルには、10月に配信リリースされたドラマ『あにいもうと』主題歌「それなのに」に加えて、離婚伝説「ファーストキス」のカバーを収録。スーパー登山部・小田智之が手掛けたピアノアレンジに載せたUruの包み込むような歌声によって、爽やかな楽曲がまた新たな一面をみせる仕上がりになっているという。さらに本日、「ファーストキス」のショートバージョンのリリックビデオも公開となった。 特別ケース仕様の初回生産限定盤限定で付属するBlu-rayには、自身3年ぶりのツアーとして開催された＜Uru Tour 2026「tone」＞の埼玉公演から「Never ends」「夜が明けるまで」「アンビバレント」のラ…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/17194509/Uru_artistphoto_0918.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Uru releases songs from single \"Sore Nanoni\". Divorce legend “First Kiss” cover recording and lyric video released",
+      "translatedExcerpt": "Uru has released the contents of the single \"Sore Nanoni\", which will be released on CD on December 9, 2026, and the CD purchase bonus images for each store. This single includes the theme song ``Sore Nanoni'' for the drama ``Ani Mouto'' released in October, as well as a cover of the divorce legend ``First Kiss.'' Uru's enveloping voice over the piano arrangement created by Tomoyuki Oda of Super Tozan Club gives the refreshing song a new side. Additionally, a short lyric video for \"First Kiss\" was also released today. The Blu-ray that comes with the first limited edition with a special case includes tracks from the Saitama performance of <Uru Tour 2026 \"tone\", which was held as his first tour in three years, to \"Never ends\", \"Until the night dawns\", and \"Ambivalent\"..."
+    },
+    {
+      "id": "c6300da26d950b07",
+      "title": "'Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.' Second Season in Production",
+      "link": "https://myanimelist.net/news/74913297?_location=rss",
+      "publishedAt": "2026-11-07T08:39:43.000Z",
+      "excerpt": "The official website for the television anime adaptation of Suisei and Kairi’s Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita. (There was a Cute Girl in the Hero’s Party, so I Tried Confessing to Her.) manga announced a second season on Saturday, revealing an announcement visual (pictured). Produced by Gekkou, the first season aired in 13-episo…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794040656-a437a59ea8b1fb486702298ff800ce8a.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "c47d348238d9a68b",
+      "title": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her Season 2 Anime Announced",
+      "link": "https://crunchyroll.com/news/latest/2026/11/7/there-was-a-cute-girl-in-the-heros-party-so-i-tried-confessing-to-her-season-2-anime-announced",
+      "publishedAt": "2026-11-07T08:37:00.000Z",
+      "excerpt": "Crunchyroll currently streams the first season",
+      "image": "https://a.storyblok.com/f/178900/1460x821/61aca10633/there-was-a-cute-girl-in-the-heroes-party-so-i-tried-confessing-to-her.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "3c2ac68b8e4b0bd9",
+      "title": "Abema Selects Project PRISMation's 1st Open Call Finalists to Make 3 Pilot Anime",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-07/abema-selects-project-prismation-1st-open-call-finalists-to-make-3-pilot-anime/.243602",
+      "publishedAt": "2026-11-07T08:19:34.000Z",
+      "excerpt": "\"OXY-HEAVEN,\" \"Amneka,\" \"Kandy-Killers for Hire\" pilots slated for 2027 or later",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHI/cms/news.10/243602/.png.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "ac9e13f3559a293b",
       "title": "GRe4N BOYZ、デビュー20周年プロジェクト第2弾のセルフカバーAL『マタウタイタイ』配信リリース決定",
@@ -2929,7 +3056,7 @@
         "language": "ja"
       },
       "translatedTitle": "A new event hosted by DaiShun, PASSPORT 001, has started. 11 domestic and international DJs will gather for a night where music, fashion, art, and people intersect.",
-      "translatedExcerpt": "PASSPORT 001 — A BORDERLESS NIGHT IN TOKYO., a cultural event where music, fashion, art, and people intersect, will be held at ORD. DAIKANYAMA in Daikanyama, Tokyo on Friday, November 13, 2026. \"PASSPORT\" is a cultural event set in Daikanyama, Tokyo, where music, fashion, art, and people intersect. Regardless of nationality, gender, sexuality, title, or genre, we create a place where you can meet new people, music, and culture, using each individual's individuality and style as their \"PASSPORT.\" Hosted by DaiShun by Dai Nakai and Shun Onitsuka. In partnership with Tokyo Misfits, creators, artists, and artists working both domestically and internationally..."
+      "translatedExcerpt": "PASSPORT 001 — A BORDERLESS NIGHT IN TOKYO., a cultural event where music, fashion, art, and people intersect, will be held at ORD. DAIKANYAMA in Daikanyama, Tokyo on Friday, November 13, 2026. \"PASSPORT\" is a cultural event set in Daikanyama, Tokyo, where music, fashion, art, and people intersect. Regardless of nationality, gender, sexuality, title, or genre, we create a place where you can meet new people, music, and culture, using each individual's individuality and style as their \"PASSPORT.\" Hosted by DaiShun by Dai Nakai and Shun Onitsuka. In partnership with Tokyo Misfits, creators, artists, and artists active in Japan and abroad..."
     },
     {
       "id": "c32249bb24331674",
@@ -4502,7 +4629,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ayumu Imazu will hold his largest hall tour in 5 cities nationwide",
-      "translatedExcerpt": "Ayumu Imazu has announced that he will be holding his biggest hall tour in five cities across the country. Starting with the Hokkaido performance on Friday, July 23, 2027, it will be held in five cities nationwide: Osaka, Fukuoka, Aichi, and Tokyo. Tickets for his first performance at Nippon Budokan, scheduled for January 31st (Sunday), are already sold out. In addition, the new song \"Musubi\" released on Friday, October 2, 2026, has been ranked number one on various distribution services one after another immediately after its release, achieving a total of 9 crowns. The total number of views on SNS exceeded 1.2 billion. With these numerous accomplishments under his belt, he is now embarking on his biggest hall tour in 5 cities across the country. The earliest advance ticket reception for the hall tour will begin at 18:00 on November 5th (Thursday) at the \"Ayumu Imazu Official Fan Club\". Tour information ht…"
+      "translatedExcerpt": "Ayumu Imazu has announced that he will be holding his biggest hall tour in five cities across the country. Starting with the Hokkaido performance on Friday, July 23, 2027, it will be held in five cities nationwide: Osaka, Fukuoka, Aichi, and Tokyo. Tickets for his first performance at Nippon Budokan, scheduled for January 31st (Sunday), are already sold out. In addition, the new song \"Musubi\" released on Friday, October 2, 2026, has been ranked number one on various distribution services one after another immediately after its release, achieving a total of 9 crowns. The total number of views on SNS exceeded 1.2 billion. With these numerous accomplishments under his belt, he is now embarking on his biggest hall tour in five cities across the country. The earliest advance ticket reception for the hall tour will begin at 18:00 on November 5th (Thursday) at the \"Ayumu Imazu Official Fan Club\". Tour information ht…"
     },
     {
       "id": "34a6125acd4bc82a",
@@ -7024,6 +7151,23 @@
       },
       "translatedTitle": "Meg Bonus releases collaborative video “Meg Bonus Is…” with SPACE SHOWER NEW FORCE",
       "translatedExcerpt": "Meg Bonus has released the video work ``Meg Bonus Is...'' on YouTube, which she created in collaboration with Space Shower's newcomer project ``NEW FORCE.'' This video consists of a 3DCG interview and a performance video of their latest song \"VI\". In the first half, the image of Meg Bonus told from the perspectives of her high school friend, support base Yoshiteru Takahashi, and AI is expressed with 3DCG and sound created by herself. In the second half, a three-piece saxophone and bassist performed a live performance of the song \"VI\" from the EP \"3 Songs + 4 Instrumentals\" released on October 21st at Koganezaki Park in Izu with the ocean in the background. The Meg Bonus seen by others and the Meg Bonus expressed by herself are contained in one work..."
+    },
+    {
+      "id": "1059c4070d6a1fc4",
+      "title": "Nearly Half of New Steam Games Now Disclose AI-Generated Content",
+      "link": "https://news.sankakucomplex.com/n/8YYN3Od6jM_piO4ahDjubg",
+      "publishedAt": "2026-11-04T09:00:09.000Z",
+      "excerpt": "Nearly half of all video games released on Steam in October 2026 disclosed using generative artificial intelligence, according to a new analysis revealing how rapidly AI-generated content has spread throughout Valve’s digital storefront.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "c16f3627675e673e",
@@ -18294,142 +18438,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "84c574481c8b2623",
-      "title": "Japanese Man Accused of Stealing $1.3 Million to Donate to Streamers",
-      "link": "https://news.sankakucomplex.com/n/z2fGRJlJg05cljPDF5d7vw",
-      "publishedAt": "2026-10-29T19:00:54.000Z",
-      "excerpt": "A 62-year-old Japanese man has been arrested on suspicion of embezzling millions of yen from his former employer, with police investigating allegations that he stole more than ¥200 million ($1.3 million) and spent the money on donations to online streamers and personal entertainment.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "20fe04418cb9a9a4",
-      "title": "The Grimm Reapress and the Drearytale Monster Game's Trailer Reveals May 13 Release in West",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-29/the-grimm-reapress-and-the-drearytale-monster-game-trailer-reveals-may-13-release-in-west/.243335",
-      "publishedAt": "2026-10-29T18:00:00.000Z",
-      "excerpt": "Game launches for Switch 2, Switch, PS5, PC",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGS/youtube/vhuWNmqYe5g.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "b3cd2baa20304a1b",
-      "title": "Marshmello x JUJUTSU KAISEN Collaboration Focuses on Gojo and Geto’s Past",
-      "link": "https://crunchyroll.com/news/latest/2026/10/29/marshmello-jujutsu-kaisen-collaboration-gojo-geto",
-      "publishedAt": "2026-10-29T17:18:00.000Z",
-      "excerpt": "New line of apparel is all about Hidden Inventory / Premature Death",
-      "image": "https://a.storyblok.com/f/178900/960x540/18deddb572/marshmello-jjk.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "27d444e52561a174",
-      "title": "FromSoftware Delays The Duskbloods Switch 2 Game to 2027",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-29/fromsoftware-delays-the-duskbloods-switch-2-game-to-2027/.243333",
-      "publishedAt": "2026-10-29T17:17:48.000Z",
-      "excerpt": "Developers to take additional time to adjust game balance following August's Closed Network Test",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gYY/cms/news.10/243333/the-duskbloods.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "00c2bfa846fc1c5c",
-      "title": "Japan Says Banks Shouldn’t Block Adult Game Sales, but Won’t Act Yet",
-      "link": "https://news.sankakucomplex.com/n/WIuRKf9Tmt_HzDWYgSNWIA",
-      "publishedAt": "2026-10-29T17:00:29.000Z",
-      "excerpt": "Japan’s Financial Services Agency (FSA) has reportedly acknowledged that banks should not refuse transactions simply because they involve adult video games, but the government has yet to recognize the growing number of affected developers as a widespread problem requiring intervention.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "c3f48593f8ecb1a0",
-      "title": "Japan Says Banks Shouldn’t Block Adult Game Sales, but Won’t Act Yet",
-      "link": "https://news.sankakucomplex.com/n/IM7rp6De8u3qsiS0RSQcQA",
-      "publishedAt": "2026-10-29T17:00:29.000Z",
-      "excerpt": "Japan’s Financial Services Agency (FSA) has reportedly acknowledged that banks should not refuse transactions simply because they involve adult video games, but the government has yet to recognize the growing number of affected developers as a widespread problem requiring intervention.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "7759de4d00c9be49",
-      "title": "Rascal Does Not Dream of a Dear Friend Film Screens in U.S., Canada on February 21, 23-24",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-29/rascal-does-not-dream-of-a-dear-friend-film-screens-in-u.s-canada-on-february-21-23-24/.243332",
-      "publishedAt": "2026-10-29T16:30:10.000Z",
-      "excerpt": "English-subbed trailer streamed",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIG/youtube/sRRF07LYA0E.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "371c40916413fbb5",
-      "title": "Daily Report About My Witch Senpai Manga Ends",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-29/daily-report-about-my-witch-senpai-manga-ends/.243241",
-      "publishedAt": "2026-10-29T16:15:00.000Z",
-      "excerpt": "Manga launched 2018, continued with sequel in 2022",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH7/cms/news.5/185045/dailyreport.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

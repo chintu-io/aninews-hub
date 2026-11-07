@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T20:02:14.700Z",
+  "generatedAt": "2026-11-07T20:32:07.140Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 257,
+      "count": 256,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 75,
+      "count": 76,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,23 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "42b2a299167aa012",
+      "title": "Japan Launches New Anime Awards Aiming to Become the “Oscars of Animation”",
+      "link": "https://news.sankakucomplex.com/n/W9UBuunCg77CVNHmVE4WfQ",
+      "publishedAt": "2026-11-07T20:12:59.000Z",
+      "excerpt": "Japan’s anime industry has announced a new awards ceremony called the Nippon Anime Awards, aiming to establish a prestigious equivalent of Hollywood’s Academy Awards that places greater emphasis on recognizing the creators behind Japanese animation.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "8729b29d54deefc5",
       "title": "Japanese Man Arrested for Assaulting Seven Women in Just 15 Minutes",
@@ -18423,25 +18440,6 @@
       },
       "translatedTitle": "Baby Canta releases new song “Shooting Star”",
       "translatedExcerpt": "Baby Canta has decided to release their new song \"Shooting Star\" on November 11th. The new song \"Shooting Star\" opens with a cheerful and impressive guitar riff, and the horn section and guitar overlap with a tight beat, creating a pleasant groove that leaves an impression. With an organic sound make-up, it is a night cruising city pop song that combines a shooting star that flashes through the night sky with a fleeting hope for tomorrow. Following the previous work \"NPC\", this work is completely self-produced by Baby Canta, who not only wrote and composed the lyrics but also produced it. Please pay attention to Baby Canta's unique groove, which has its roots in black music, and the sound where you can feel his individuality as a guitarist. Furthermore, ahead of the release..."
-    },
-    {
-      "id": "fc151c559fd7ddac",
-      "title": "メアリー・J. ブライジ、ライブでブーイングした観客に反撃「何のためにお金を払って来たの」",
-      "link": "https://www.billboard-japan.com/d_news/detail/166981",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "excerpt": "現地時間2026年10月28日夜、メアリー・J.ブライジが、米ラスベガスで開催したレジデンシー公演",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166981/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Mary J. Blige hits back at audience who booed her at a concert: ``What did you pay for?''",
-      "translatedExcerpt": "Mary J. Blige held a residency performance in Las Vegas, USA on the night of October 28, 2026 local time."
     }
   ]
 }

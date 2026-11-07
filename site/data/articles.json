@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T10:02:02.280Z",
+  "generatedAt": "2026-11-07T10:31:57.326Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 268,
+      "count": 267,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 73,
+      "count": 74,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,23 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "e4a991fdfeee6ac1",
+      "title": "Fuji TV Plans to Introduce Generative AI Across All Its Live-Action Dramas by 2027",
+      "link": "https://news.sankakucomplex.com/n/VyjMxPnqo05MOii5YUU7Bg",
+      "publishedAt": "2026-11-07T10:00:24.000Z",
+      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "8b6adce341bcc9fd",
       "title": "セブンス・ベガ、2ndアルバム『PRISM』本日リリース。収録曲「OVERDRIVE」MV公開も",
@@ -6632,7 +6649,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Gusokumuzu releases a new song with the title of their one-man performance",
+      "translatedTitle": "Gusokumuz releases new song titled One Man Show",
       "translatedExcerpt": "Gusokumuzu released their new single “Paradise” on November 4, 2026 (Wednesday). This song is the title of Gusokumuzu's one-man hall performance, which held its final performance at Otemachi Mitsui Hall yesterday. Bassist Yusuke Horibe wrote the lyrics and produced the song, with Hitoshi Yoshida as the producer, as in the previous work. The worldview of the song, centered around a tense guitar riff, that gradually expands like a dream, and the dizzying and chaotic development of the arrangement invites you to feel as if you are traveling through a spiritual world. It is a song that opens a new door for Gusokumuzu. The jacket features visuals created by model and collage artist Karin. The world view and message of the song is translated into a collage work, creating a visual that allows you to visually immerse yourself in the song. In addition, music along with the release..."
     },
     {
@@ -18429,25 +18446,6 @@
         "accent": "#ff6784",
         "language": "en"
       }
-    },
-    {
-      "id": "b8d0ec3206f76263",
-      "title": "【MTV VMAJ 2026】Mrs. GREEN APPLEが史上初となる3年連続＜Video of the Year＞受賞",
-      "link": "https://www.billboard-japan.com/d_news/detail/166965",
-      "publishedAt": "2026-10-30T00:10:00.000Z",
-      "excerpt": "MTVが主催する音楽イベント【MTV VMAJ 2026】が、10月29日に東京ドームで開催された",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166965/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[MTV VMAJ 2026] Mrs. GREEN APPLE wins <Video of the Year> for 3 consecutive years for the first time in history",
-      "translatedExcerpt": "The music event [MTV VMAJ 2026] sponsored by MTV was held at Tokyo Dome on October 29th."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T16:32:17.550Z",
+  "generatedAt": "2026-11-08T17:02:08.403Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 124,
+      "count": 125,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 91,
+      "count": 92,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 235,
+      "count": 234,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 144,
+      "count": 143,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 612,
+    "translatedJapaneseArticles": 610,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8192d7ccb76fced4",
+      "title": "Release the Villains: Zeke Jaeger Is Attack on Titan’s Ultimate Agent of Chaos",
+      "link": "https://crunchyroll.com/news/features/2026/11/8/anime-villains-zeke-jaeger",
+      "publishedAt": "2026-11-08T17:00:00.000Z",
+      "excerpt": "Zeke Jaeger makes an already complicated story even more complex",
+      "image": "https://a.storyblok.com/f/178900/960x540/e9deca326f/attack-on-titan.jpeg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "b4d4c7203a036521",
       "title": "My Crush's Crush Anime Premieres in April 2027",
@@ -181,6 +198,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "0106b236c5552e76",
+      "title": "My Crush's Crush Anime's Teaser Unveils Cast, Staff, April Debut",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/my-crush-crush-anime-teaser-unveils-cast-staff-april-debut/.243627",
+      "publishedAt": "2026-11-08T16:18:47.000Z",
+      "excerpt": "Gakuto Kajiwara, Haruna Mikawa, Nene Hieda star in 2027 anime",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHB/youtube/_iOewgdlvMM.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -18386,44 +18420,6 @@
         "accent": "#5ca8ff",
         "language": "en"
       }
-    },
-    {
-      "id": "c1b7e755833573a6",
-      "title": "みきとP、トリビュートライブ開催決定。天月、めいちゃんら10組のアーティストが集結",
-      "link": "https://barks.jp/news/1101607",
-      "publishedAt": "2026-10-30T11:23:04.000Z",
-      "excerpt": "みきとPのトリビュートライブ＜MIKITOP Tribute Live “MIKIROCK PARTY”＞が2027年2月10日（水）・11日（木・祝）の2日間、東京ガーデンシアターにて開催されることが決定した。 本公演は、みきとPが生み出してきた数々の楽曲を、多彩な個性と歌声を持つ豪華歌い手・アーティストたちが歌唱するトリビュートライブ。 「ロキ」「少女レイ」「いーあるふぁんくらぶ」「サリシノハラ」など、数々の人気楽曲を世に送り出してきたみきとP。その音楽の魅力を、出演者それぞれの表現と迫力あるバンドサウンドで届ける、二夜限りの特別なステージとなる。 出演者は、2月10日（水）に天月、あらき、Gero、伊東歌詞太郎、majiko、2月11日（木・祝）にめいちゃん、Reol、りぶ、Sou、水槽が登場。 2…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/30202130/sub1-1-683x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Mikito P, tribute live will be held. Ten artists including Amatsuki and Mei-chan gather together",
-      "translatedExcerpt": "It has been decided that Mikito P's tribute live <MIKITOP Tribute Live “MIKIROCK PARTY”> will be held at Tokyo Garden Theater on February 10th (Wednesday) and 11th (Thursday/holiday), 2027. This performance is a tribute live performance in which gorgeous singers and artists with diverse personalities and voices sing the many songs created by Mikito P. Mikito P has released many popular songs into the world such as \"Loki\", \"Shoujo Rei\", \"Iaru Fan Club\", and \"Sari Shino Hara\". It will be a special stage for two nights only, delivering the charm of that music through the expressions of each performer and the powerful band sound. Performers include Amazuki, Araki, Gero, Ryotaro Ito, majiko on February 10th (Wednesday), and Meichan, Reol, Ribu, Sou, and Mizutan on February 11th (Thursday/holiday). 2…"
-    },
-    {
-      "id": "fa10b0f162d12315",
-      "title": "Aooo、初の映像商品『Aooo Live Tour \"RINGRING\" at Zepp Haneda（TOKYO）』リリース決定",
-      "link": "https://ototoy.jp/news/132547",
-      "publishedAt": "2026-10-30T11:15:00.000Z",
-      "excerpt": "Aoooが初の映像商品『Aooo Live Tour \"RINGRING\" at Zepp Haneda（TOKYO）』を2026年12月2日(水)にリリースすることが決定した。 本作には、2026年5月より開催されたAooo初のZeppツアー〈Aooo Live Tour \"RINGRING\"〉より、5月29日に開催した東京・Zepp Haneda公演の模様を完全収録している。 Blu-rayとCDの両方に、「CALL」「魔法はスパイス」「Geeek」「CRAZZZY」「ポラリス」「Yankeeee」など、同公演で披露された全曲をフル尺で収録。Blu-rayではライブ本編のノーカット映像を、CDでは同公演のライブ音源20曲を楽しむことができる。 また、11月22日に開催される日本武道館ライブ“Budoo…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132547/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Aooo will release their first video product \"Aooo Live Tour \"RINGRING\" at Zepp Haneda (TOKYO)\"",
-      "translatedExcerpt": "It has been decided that Aooo will release their first video product \"Aooo Live Tour \"RINGRING\" at Zepp Haneda (TOKYO)\" on Wednesday, December 2, 2026. This work includes a complete recording of the Zepp Haneda performance in Tokyo held on May 29th from Aooo's first Zepp tour <Aooo Live Tour \"RINGRING\"> held from May 2026. Both the Blu-ray and CD include all the songs performed at the performance in full length, including \"CALL,\" \"Magic is Spice,\" \"Geeek,\" \"CRAZZZY,\" \"Polaris,\" and \"Yankeeee.\" You can enjoy uncut footage of the live performance on the Blu-ray, and 20 live songs from the same performance on the CD. In addition, the Nippon Budokan live “Budoo…” will be held on November 22nd."
     }
   ]
 }

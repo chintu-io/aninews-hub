@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T13:01:52.326Z",
+  "generatedAt": "2026-11-08T13:32:16.511Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 37,
+      "count": 38,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 247,
+      "count": 249,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 239,
+      "count": 237,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 146,
+      "count": 145,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,84 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 615,
+    "translatedJapaneseArticles": 614,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "22d7f062c41430d1",
+      "title": "flumpool、新曲「Love Again」配信リリース＆47都道府県を訪れるプロジェクト始動",
+      "link": "https://www.billboard-japan.com/d_news/detail/167260",
+      "publishedAt": "2026-11-08T13:30:00.000Z",
+      "excerpt": "flumpoolが、2026年11月9日に新曲「Love Again」のライブ音源、11月25日に",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167260/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "flumpool releases new song “Love Again” & launches project to visit 47 prefectures",
+      "translatedExcerpt": "flumpool will perform the live recording of their new song “Love Again” on November 9, 2026, and on November 25, 2026."
+    },
+    {
+      "id": "96b2689814c32a83",
+      "title": "YOASOBI、ツミキをアレンジャーに迎えた新曲「KILLA」配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/167262",
+      "publishedAt": "2026-11-08T13:20:00.000Z",
+      "excerpt": "YOASOBIが、2026年11月11日に新曲「KILLA」を配信リリースする。 新曲「KIL",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167262/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "YOASOBI releases new song “KILLA” with Tsumiki as arranger",
+      "translatedExcerpt": "YOASOBI will release a new song \"KILLA\" on November 11, 2026. New song “KIL"
+    },
+    {
+      "id": "1b70cc7bd9782b54",
+      "title": "武田創世（Lienel）が歌唱する「Love Me Madly」ソロレコーディング映像が公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167261",
+      "publishedAt": "2026-11-08T13:15:00.000Z",
+      "excerpt": "武田創世（Lienel）が歌唱する「Love Me Madly」のソロレコーディング映像が公開され",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167261/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Solo recording video of “Love Me Madly” sung by Sousei Takeda (Lienel) released",
+      "translatedExcerpt": "A solo recording video of \"Love Me Madly\" sung by Sousei Takeda (Lienel) has been released."
+    },
+    {
+      "id": "bd50af26f0bc897a",
+      "title": "Two Tokyo neighborhoods to gather on bridge and shift their recognized border through tug-of-war",
+      "link": "https://soranews24.com/2026/11/08/two-tokyo-neighborhoods-to-gather-on-bridge-and-shift-their-recognized-border-through-tug-of-war/",
+      "publishedAt": "2026-11-08T13:00:07.000Z",
+      "excerpt": "Sibling ward rivalry doesn’t need solid ground for its bragging-rights battlefield. My parents were very strict about the Baseel brothers not fighting with each other while we were growing up, but I’ve been told that it’s not unusual for siblings to squabble. And so it is that Tokyo’s Sumida and Taito Wards, neighbors who have […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/2_4b18a1.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "2f1dcde03f49f048",
       "title": "〈Anison Days〉11/11のゲストはClariS",
@@ -1682,7 +1756,7 @@
       "title": "Fuji TV Plans to Introduce Generative AI Across All Its Live-Action Dramas by 2027",
       "link": "https://news.sankakucomplex.com/n/VyjMxPnqo05MOii5YUU7Bg",
       "publishedAt": "2026-11-07T10:00:24.000Z",
-      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks.",
+      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks. The company…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2736,7 +2810,7 @@
         "language": "ja"
       },
       "translatedTitle": "Shygirl releases new AL with the theme of emotional changes",
-      "translatedExcerpt": "Shygirl released their new album \"SWALLOW!\" on Friday, November 6, 2026. This is his first album in about 4 years since his debut album “Nymph” in 2022. The album contains 11 songs with themes of love, self-awareness, desire, and emotional change. This work boldly incorporates elements of indie songwriting while building on the provocative and experimental club sounds of the past. This work presents a new musical frontier. Release information https://ototoy.jp/_/default/p/4415611 Artist information https://www.instagram.com/0800shygirl/"
+      "translatedExcerpt": "Shygirl released their new album \"SWALLOW!\" on Friday, November 6, 2026. This is his first album in about 4 years since his debut album “Nymph” in 2022. The album contains 11 songs with themes of love, self-awareness, desire, and emotional changes. This work boldly incorporates elements of indie songwriting while building on the provocative and experimental club sounds of the past. This work presents a new musical frontier. Release information https://ototoy.jp/_/default/p/4415611 Artist information https://www.instagram.com/0800shygirl/"
     },
     {
       "id": "6ef14786b1dbe34c",
@@ -18354,82 +18428,6 @@
       },
       "translatedTitle": "PR brand “ArtLed” announces a live event featuring Endo and Shin-Tokyo, two groups that they want to deliver with confidence",
       "translatedExcerpt": "ArtLed, a promotion brand that supports artists' activities in a variety of ways, has announced that it will hold its first live event, deLtrA, at Shimokitazawa ADRIFT on Friday, January 8, 2027. We will welcome two groups, ``Shin Tokyo'' and ``Endo.'', to perform on stage for one night only. ■ From digital to real. Thoughts behind the reversal concept \"deLtrA\" •SHINTOKYO A 4-piece guitarless band from Tokyo that embodies the next generation of Asian Pops. https://shintokyo.city/ https://x.com/shintokyo_city https://www.instagram.com/shintokyo_city/ https://www.youtube…"
-    },
-    {
-      "id": "0847522b5f094c82",
-      "title": "SUPER★DRAGON、新曲「本能」本日配信＆MVティザー映像公開。最新アルバム収録曲解禁も",
-      "link": "https://barks.jp/news/1101599",
-      "publishedAt": "2026-10-30T11:00:00.000Z",
-      "excerpt": "SUPER★DRAGONが、新曲「本能」を本日先行リリースした。 本楽曲は、本日23時より放送がスタートするドラマ『溺愛 ～ 実は、最強ヒーロー ～』のオープニングテーマに起用されており、疾走感あふれるスパドラらしいロックチューンに仕上がっているという。 リリースにあわせて、車を破壊する姿が鮮烈なインパクトを放つ「本能」のMVティザー映像も公開。モノクロを基調としたクールな衣装を身にまとい、楽曲の持つ“疾走感”を前面に押し出した映像になっているとのことで、MV本編の公開も楽しみにお待ちいただきたい。 さらに、メジャー2ndアルバム『STAR』に収録される全12曲のトラックリストも一挙公開された。本作には「Concealer」「Break off」「NUMBER」「Call Me Asap」といった既発の4…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/23112602/SUPER%E2%98%85DRAGON%E6%96%B0%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "SUPER★DRAGON, new song “Instinct” released today & MV teaser video released. Tracks from the latest album released",
-      "translatedExcerpt": "SUPER★DRAGON released their new song \"Instinct\" in advance today. This song will be used as the opening theme for the drama ``Doai ~Actually, the Strongest Hero~'' which starts airing from 11:00 PM today, and is said to be a rock tune typical of Superdora, full of speed. In conjunction with the release, the MV teaser video for \"Instinct\", which has a striking impact of destroying cars, was also released. Wearing cool costumes based on monochrome colors, the video emphasizes the \"fast-paced\" feel of the song, so please look forward to the release of the music video. In addition, the track list of all 12 songs included in the band's second major album ``STAR'' was also revealed. This work includes 4 previously released songs such as \"Concealer\", \"Break off\", \"NUMBER\", and \"Call Me Asap\"..."
-    },
-    {
-      "id": "647aa72c3f9b5656",
-      "title": "THE DO DO DO’s 「Blue」MV公開 3rd EPリリース記念＆東京大阪ワンマン開催も決定",
-      "link": "https://ototoy.jp/news/132545",
-      "publishedAt": "2026-10-30T11:00:00.000Z",
-      "excerpt": "THE DO DO DO’sが、2026年11月25日 (水）にリリースとなる新作3rd EP「Future」から先行配信リリース曲「Blue」のミュージックビデオを公開した。 このMVは、韓国のK-POPスターたちを手がけるクリエイターチームBeambusterとタッグを組んだフルアニメーション。 さらにリリース記念として、2026年12月19日(土）大阪・心斎橋Pangea、12月23日（水)東京・新代田FEVERにてワンマンライブを開催することも決定。チケットは10/31(土）10:00より発売となる。 ライブ情報 〈THE DO DO DO’s EP「Future」リリースワンマンライブ！！〉 2026年12月23日(水)東京・新代田FEVER 前売： ¥3,500( 税込) D別 https:/…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132545/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "THE DO DO DO’s “Blue” MV released 3rd EP release commemoration & Tokyo Osaka one-man event also decided",
-      "translatedExcerpt": "THE DO DO DO’s has released the music video for the pre-released song “Blue” from their new 3rd EP “Future” which will be released on Wednesday, November 25, 2026. This MV is a full animation created in collaboration with Beambuster, a creator team that works with Korean K-POP stars. Furthermore, to commemorate the release, it has been decided that a one-man live will be held at Shinsaibashi Pangea, Osaka on Saturday, December 19, 2026, and at Shindaita FEVER, Tokyo on Wednesday, December 23, 2026. Tickets will go on sale from 10:00 on Saturday, October 31st. Live information 〈THE DO DO DO’s EP “Future” release one-man live! ! 〉 December 23, 2026 (Wednesday) Tokyo Shindaita FEVER Advance sale: ¥3,500 (tax included) D not included https:/…"
-    },
-    {
-      "id": "ece67b9b977a28c8",
-      "title": "VIDA Hollywood、11月4日に新曲「ほどじゃない」を配信リリース決定＆台北ツーマンライブのチケット販売開始",
-      "link": "https://www.billboard-japan.com/d_news/detail/166993",
-      "publishedAt": "2026-10-30T11:00:00.000Z",
-      "excerpt": "VIDA Hollywoodが、新曲「ほどじゃない」を11月4日に配信リリースすることを発表した。",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166993/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "VIDA Hollywood will release new song “Hodojanai” on November 4th & start selling tickets for Taipei Two-Man Live",
-      "translatedExcerpt": "VIDA Hollywood has announced that their new song \"Hodojanai\" will be released on November 4th."
-    },
-    {
-      "id": "401f3522ee7af63b",
-      "title": "セカンドバッカー、新曲「ナサケナイラブストーリー」配信＆FM802『EVENING TAP』初OA決定",
-      "link": "https://barks.jp/news/1101504",
-      "publishedAt": "2026-10-30T11:00:00.000Z",
-      "excerpt": "セカンドバッカーが、新曲「ナサケナイラブストーリー」を2026年11月11日に配信リリースすることを発表した。 本楽曲は、恋人との何気ない日常や心の機微を、軽快でキャッチーなギターロックに乗せた1曲。イントロから疾走する爽快なギターリフと、一度聴いたら耳から離れないボーカルラインが光るポップチューンになっているという。本作リリースにあたり、ボーカル・こうへいは「この曲は、遠くにあるものばかりを追いかけて、身近な人の優しさを見落としてしまうことがある自分自身について歌っています」とコメントしている。 また、本楽曲が11月2日放送のFM802『EVENING TAP』にて初オンエアされることが決定した。ぜひ配信に先駆けて楽曲を楽しんでいただきたい。 さらに、Pre-add ＆ Pre-saveキャンペーンもス…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/30164853/Secondbacker_main2026_s.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Second backer releases new song “Nasake Nai Love Story” & FM802 “EVENING TAP” first OA decision",
-      "translatedExcerpt": "Second Backer has announced that their new song \"Nasake Nai Love Story\" will be released on November 11, 2026. This song is a light and catchy guitar rock song that depicts everyday life with a lover and the subtleties of the heart. It is said to be a pop tune with an exhilarating guitar riff that runs from the intro and a vocal line that you won't be able to get rid of once you hear it. Upon the release of this album, vocalist Kouhei commented, ``This song is about myself, who sometimes chase things far away and overlook the kindness of people close to me.'' In addition, it has been decided that this song will be aired for the first time on FM802 ``EVENING TAP'' on November 2nd. Please enjoy the song before it is released. In addition, the Pre-add & Pre-save campaign is also available..."
     }
   ]
 }

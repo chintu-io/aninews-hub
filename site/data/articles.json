@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T00:02:00.182Z",
+  "generatedAt": "2026-11-08T00:31:47.702Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 256,
+      "count": 255,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "count": 78,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 619,
+    "translatedJapaneseArticles": 618,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "0219a7236747eb36",
+      "title": "Shinobi Nexus: Senran Kagura Criticized for Being Safe & Unsexy",
+      "link": "https://news.sankakucomplex.com/n/bWBZxPBb_j9UOWLLkt-HkA",
+      "publishedAt": "2026-11-08T00:00:43.000Z",
+      "excerpt": "The recent release of the OP for Shinobi Nexus: Senran Kagura has sparked criticism from longtime fans of the franchise, with many accusing the upcoming game of abandoning the excessive fanservice and provocative character designs that helped establish the series’ identity. On November 6, develop…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "42b2a299167aa012",
       "title": "Japan Launches New Anime Awards Aiming to Become the “Oscars of Animation”",
@@ -18419,25 +18436,6 @@
         "accent": "#6fc9e6",
         "language": "en"
       }
-    },
-    {
-      "id": "af9f75cdb3536002",
-      "title": "セリーヌ・ディオン、パリで約197億円の記録破りのカムバック",
-      "link": "https://www.billboard-japan.com/d_news/detail/166980",
-      "publishedAt": "2026-10-30T04:15:00.000Z",
-      "excerpt": "セリーヌ・ディオンが前回ツアーを行っていた際、彼女もファンも、コンサート会場（そして世界中）が1年",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166980/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Celine Dion makes record-breaking comeback in Paris with 19.7 billion yen",
-      "translatedExcerpt": "The last time Celine Dion was on tour, she and her fans knew that concert venues (and the world)"
     }
   ]
 }

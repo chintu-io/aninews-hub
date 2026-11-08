@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T06:31:57.982Z",
+  "generatedAt": "2026-11-08T07:01:52.274Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 125,
+      "count": 126,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 89,
+      "count": 90,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 248,
+      "count": 247,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 80,
+      "count": 79,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 615,
+    "translatedJapaneseArticles": 614,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "5a58929fa04feb7a",
+      "title": "Minami-ke: Korekara Anime Reveals April 2027 Broadcast, Teaser Trailer and Visual",
+      "link": "https://crunchyroll.com/news/latest/2026/11/8/minami-ke-korekara-anime-april-2027-release-date-teaser-trailer-visual",
+      "publishedAt": "2026-11-08T07:00:00.000Z",
+      "excerpt": "The slice-of-life series returns for its fifth season",
+      "image": "https://a.storyblok.com/f/178900/1460x821/64fa7232c7/minami-ke-korekara.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "fc0ab87ff908cb6a",
+      "title": "'Minami-ke Korekara' Reveals New Staff, Teaser Promo, Spring 2027 Premiere",
+      "link": "https://myanimelist.net/news/74916427?_location=rss",
+      "publishedAt": "2026-11-08T06:43:49.000Z",
+      "excerpt": "The Minami-ke Special Event 2026 revealed new staff, teaser visual (pictured), and teaser promotional video for the Season 5 on Sunday. The fifth season adapting Coharu Sakuraba's comedy slice of life manga will premiere in April 2027. Voice actresses Rina Satou (Akiba Meido Sensou), Marina Inoue (Date A Live), and Minori Chihara (Kyoukai no Kanata) are r…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794120183-84e4f246c911c8bb13e865ccf47e2e7e.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
     {
       "id": "7f174349a5916f00",
       "title": "BE:FIRST、全国47都道府県のラジオ番組へコメント出演。アルバム『BE:4U』リリース記念で",
@@ -204,6 +238,23 @@
       },
       "translatedTitle": "[Report] ano will be the headliner at the largest festival in Tainan, Taiwan - Ronin Festival Vagabond Festival 2026",
       "translatedExcerpt": "On November 7th (Saturday), ano performed at the large-scale music festival ``Roninsai Vagabond Festival 2026'' (Tainan Anping Wireless Backdrop Airport) held in Tainan, Taiwan, and performed a total of 11 songs, including an encore.We would like to bring you the official report of the performance. Ano, who recently completed his first one-man 2DAYS in Korea, continued his momentum and performed his first live in Tainan at 9pm local time on the Kun Shen Stage.As the headliner of the day, he performed in front of an audience filled with anticipation and enthusiasm. ano's stage opened with \"Smile Agenai\" (\"McDonald's\" tie-up song), which is popular in the Asian region, followed by \"Shoukonkkyun\" (TV broadcaster), whose pop melody resonated with the atmosphere of the venue."
+    },
+    {
+      "id": "222925ea84ca5878",
+      "title": "New Minami-ke Korekara TV Anime's Teaser Unveils Cast, Staff, April Debut",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/new-minami-ke-korekara-tv-anime-teaser-unveils-cast-staff-april-debut/.243619",
+      "publishedAt": "2026-11-08T06:00:00.000Z",
+      "excerpt": "Cast returns after 14 years in Liden Films anime",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG8/youtube/3x5HMpHPbqE.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "4e2b83862899b8c5",
@@ -18377,59 +18428,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e333c783d479ba9c",
-      "title": "オリヴィア・ロドリゴ、マイ・ケミカル・ロマンスの公演を満喫",
-      "link": "https://www.billboard-japan.com/d_news/detail/166994",
-      "publishedAt": "2026-10-30T07:30:00.000Z",
-      "excerpt": "現地時間2026年10月28日に、オリヴィア・ロドリゴがインスタグラム・ストーリーズを更新し、現在",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166994/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Olivia Rodrigo enjoys My Chemical Romance performance",
-      "translatedExcerpt": "On October 28, 2026 local time, Olivia Rodrigo updated her Instagram Stories and now"
-    },
-    {
-      "id": "542560b48853b728",
-      "title": "'Kizuguchi to Houtai' Unveils Additional Cast, Third Teaser Promo",
-      "link": "https://myanimelist.net/news/74884610?_location=rss",
-      "publishedAt": "2026-10-30T07:21:46.000Z",
-      "excerpt": "The official website of the Kizuguchi to Houtai (Wound and Bandage) television anime unveiled additional cast, third teaser visual (pictured), and third promotional video on Friday. The anime series adapting Nanai Umihoshi's romantic comedy manga will premiere on January 9, 2027 at 11:00 p.m. on AT-X, followed by ABC TV and TV Asahi on the ANiMAZiNG progr…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793344878-185b496bb20c0f391f599cc37709a808.png",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "129c02cbe4b2cf2b",
-      "title": "Hololive Forces Minor to Pay Damages Over False Rumors About VTuber",
-      "link": "https://news.sankakucomplex.com/n/YXNOzUmx4cVgwms5MlfLkA",
-      "publishedAt": "2026-10-30T07:00:31.000Z",
-      "excerpt": "Japanese VTuber agency Hololive has reached a legal settlement with a minor who spread false personal information about one of its talents online, with the individual’s parents agreeing to pay financial compensation and supervise their child’s future behavior.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

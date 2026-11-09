@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T06:31:50.761Z",
+  "generatedAt": "2026-11-09T07:01:52.358Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 127,
+      "count": 126,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 91,
+      "count": 90,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 249,
+      "count": 252,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 228,
+      "count": 229,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 88,
+      "count": 86,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,103 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 607,
+    "translatedJapaneseArticles": 611,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8dd3ed7dc17ea070",
+      "title": "渡辺美里、21年ぶり【スタジアム伝説～復活～ Sweet 60】開催",
+      "link": "https://www.billboard-japan.com/d_news/detail/167283",
+      "publishedAt": "2026-11-09T07:00:00.000Z",
+      "excerpt": "渡辺美里が、11月8日に埼玉・西武ドーム（ベルーナドーム）で【スタジアム伝説～復活～ Sweet",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167283/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Misato Watanabe, held for the first time in 21 years [Stadium Legend ~Resurrection~ Sweet 60]",
+      "translatedExcerpt": "Misato Watanabe will perform at Seibu Dome (Belluna Dome) in Saitama on November 8th [Stadium Legend ~Resurrection~ Sweet]"
+    },
+    {
+      "id": "d3bf4a894f1f114e",
+      "title": "U2、エド・シーランとマックルモアのツアー騒動について見解を示す",
+      "link": "https://www.billboard-japan.com/d_news/detail/167284",
+      "publishedAt": "2026-11-09T06:55:00.000Z",
+      "excerpt": "U2が、エド・シーランの米国ツアーからマックルモアが外された件について見解を示し、このラッパーの発言",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167284/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "U2 share their thoughts on Ed Sheeran and Macklemore's tour controversy",
+      "translatedExcerpt": "U2 shares their views on Macklemore being removed from Ed Sheeran's US tour, the rapper's comments"
+    },
+    {
+      "id": "7d359c609b18e4fb",
+      "title": "angela、故郷・岡山で入場無料のアニソンフェス＜angela★Fes＞を開催",
+      "link": "https://barks.jp/news/1103437",
+      "publishedAt": "2026-11-09T06:50:58.000Z",
+      "excerpt": "angelaが2027年5月22日（土）、岡山県岡山市東区の金陵山西大寺（観音院）にて、入場無料のアニソンフェス＜angela★Fes＞を開催することが決定した。 本イベントは、西大寺で生まれ育ったボーカル・atsukoと、同じく岡山市出身で西大寺にもゆかりのあるKATSUが、故郷への思いから立ち上げたプロジェクト。 今回の開催は、あえて「第0回」と位置づけており、目指すのは一度きりのフェスではない。angelaを生んだ岡山にアニソンフェスを作り、将来的には西日本最大級のアニソンフェスへと育てていくことを目標としている。 記念すべき「第0回」は入場無料で開催し、約2,000人の来場を見込む。また、開催に向けて公式サイトを公開するとともに、クラウドファンディングによる支援の受付を開始する。 会場となるのは、…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/09155017/1_Photo.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "angela holds an anime song festival <angela★Fes> with free admission in her hometown Okayama",
+      "translatedExcerpt": "It has been decided that angela will hold an anime song festival ``angela★Fes'' on May 22, 2027 (Saturday) at Kinryoyama Saidaiji Temple (Kannon-in) in Higashi Ward, Okayama City, Okayama Prefecture, with free admission. This event is a project launched by vocalist atsuko, who was born and raised in Saidaiji, and KATSU, who is also from Okayama and has ties to Saidaiji, out of their feelings for their hometown. This year's event is intentionally positioned as the 0th edition, and our aim is not to be a one-time festival. The goal is to create an anime song festival in Okayama, the birthplace of angela, and grow it into one of the largest anime song festivals in western Japan in the future. The commemorative ``0th'' will be held with free admission, and approximately 2,000 people are expected to attend. In addition, in preparation for the event, we will open the official website and begin accepting support through crowdfunding. The venue will be..."
+    },
+    {
+      "id": "726745181b65b682",
+      "title": "IMP.、小渕健太郎（コブクロ）プロデュースによる冬のラブソング「Period」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167281",
+      "publishedAt": "2026-11-09T06:50:00.000Z",
+      "excerpt": "IMP.が、12月14日発売のニューアルバム『PERIOD.』から先行配信したリード曲「Perio",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167281/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "IMP. releases MV for winter love song “Period” produced by Kentaro Obuchi (Kobukuro)",
+      "translatedExcerpt": "IMP. released the lead song “Period.” in advance from their new album “PERIOD.” released on December 14th."
+    },
+    {
+      "id": "457b26a4fef08f1d",
+      "title": "Live-Action In the Clear Moonlit Dusk Film Rises to #2, 7th Be Forever Yamato: Rebel 3199 Film Opens at #10",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-09/live-action-in-the-clear-moonlit-dusk-film-rises-to-no.2-7th-be-forever-yamato-rebel-3199-film-/.243443",
+      "publishedAt": "2026-11-09T06:25:15.000Z",
+      "excerpt": "Live-action Resident Evil rises to #3",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gK0/cms/news.9/234220/hbov7itaqaatzn8.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "1af60e03316e811f",
       "title": "Nintendo Says No Further Switch 2 Price Hikes Planned Despite Memory Shortage",
@@ -18325,91 +18418,6 @@
       },
       "translatedTitle": "Nogizaka46, 43rdSG under song title is \"Edit\"",
       "translatedExcerpt": "The title of the under member song included in Nogizaka46's 43rd and latest single \"Kimiros\" to be released on December 2nd (Wednesday) has been decided as \"Edit\". The formation center of the under members will be 3rd generation members Ririan Ito and Renka Iwamoto. Ririan Ito will graduate with this single. It has been announced that an under live performance for their 43rd single will be held at Nippon Budokan on December 17th (Thursday) and December 18th (Friday). After the main concert on December 18th (Thursday), Ririan Ito's graduation ceremony will also be held. Release information https://ototoy.jp/_/default/p/4355571 Live information 6th Generation National Tour 2026 November 10th (Tuesday) and 11th (Wednesday), 2026 Zepp Sapporo Nogizaka46 43rdSG Under Live 20…"
-    },
-    {
-      "id": "4af5932882bcf377",
-      "title": "North American Anime, Manga Releases, October 25-31",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-30/north-american-anime-manga-releases-october-25-31/.243223",
-      "publishedAt": "2026-10-30T21:10:32.000Z",
-      "excerpt": "Yaiba: Samurai Legend, Sword of the Demon Hunter anime; Naruto x Teenage Mutant Ninja Turtles—Manga Style Edition, Tojima Wants to be a Kamen Rider manga ship",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gM9/cms/news.10/243223/yaiba-bd.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "5dc84324f8bf4574",
-      "title": "Azur Lane Shows Off Five New Shipgirls & Revealing Costumes",
-      "link": "https://news.sankakucomplex.com/n/dunqJphnESZfcHjF8S4XVA",
-      "publishedAt": "2026-10-30T19:00:56.000Z",
-      "excerpt": "Azur Lane has released a promotional trailer showcasing five new shipgirls and a collection of revealing costumes for its latest Tempesta event, featuring an assortment of pirate-themed characters dressed as angels and demons.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "898faaabf22585bf",
-      "title": "Azur Lane Shows Off Five New Shipgirls & Revealing Costumes",
-      "link": "https://news.sankakucomplex.com/n/mYXdyfkDlPuSkAhz9eDthQ",
-      "publishedAt": "2026-10-30T19:00:56.000Z",
-      "excerpt": "Azur Lane has released a promotional trailer showcasing five new shipgirls and a collection of revealing costumes for its latest Tempesta event, featuring an assortment of pirate-themed characters dressed as angels and demons. The trailer, published on October 22, 2026, introduces Merkuriy, Selim…",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "326640cdf3fd01a1",
-      "title": "Brazil's CCXP Screens World Premiere of Garena Free Fire Game's Free Fire Daybreak Anime",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-30/brazil-ccxp-screens-world-premiere-of-garena-free-fire-game-free-fire-daybreak-anime/.243371",
-      "publishedAt": "2026-10-30T18:34:33.000Z",
-      "excerpt": "Screening takes place at São Paulo Expo on December 5",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH0/cms/news.10/243371/free-fire-daybreak-world-premiere.jpeg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "32319cda9e5f2a41",
-      "title": "King Gnu 2027 US Tour Announced with Dates in LA, NY",
-      "link": "https://crunchyroll.com/news/latest/2026/10/30/king-gnu-2027-us-tour-los-angeles-new-york",
-      "publishedAt": "2026-10-30T16:55:00.000Z",
-      "excerpt": "Tickets presale starts soon for band’s first-ever headlining tour in the States",
-      "image": "https://a.storyblok.com/f/178900/960x540/e3ecbeee65/king-gnu-tour.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

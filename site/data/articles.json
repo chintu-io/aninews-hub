@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T21:32:22.894Z",
+  "generatedAt": "2026-11-09T22:01:46.540Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 131,
+      "count": 132,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 226,
+      "count": 225,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 612,
+    "translatedJapaneseArticles": 611,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "63f0879cf3c21520",
+      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-07/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
+      "publishedAt": "2026-11-09T21:30:00.000Z",
+      "excerpt": "K Manga, Comic Days to publish grand prize-winners' entries in December",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF0/cms/news.10/243616/unnamed.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "0203311d0a9c11c9",
       "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
@@ -18397,25 +18414,6 @@
       },
       "translatedTitle": "Da-iCE releases “Uraraka” lyric video that combines live-action and one-stroke illustrations",
       "translatedExcerpt": "Da-iCE has released the lyric video for their new song \"Uraraka\". Released on October 16, 2026"
-    },
-    {
-      "id": "dcc4b7abde91b50e",
-      "title": "GAN(岩田剛典)、国内外17都市を巡る初のファンミーティングツアー開催決定",
-      "link": "https://barks.jp/news/1101762",
-      "publishedAt": "2026-10-31T11:30:00.000Z",
-      "excerpt": "GAN(岩田剛典)が、2027年4月より自身初の国内外17都市を巡るファンミーティングツアー＜GAN FAN MEETING TOUR 2027 “kokokara”＞を開催することを発表した。 2022年に開催した初のソロツアー＜THE CHOCOLATE BOX＞以来、約4年半ぶりに全国各地のホール会場を巡る今回のツアー。2024年のアリーナツアー＜ARTLESS＞、2025〜2026年のアジアツアー＜SPACE COWBOY＞を経て、今回はファンとの距離をより身近に感じられるファンミーティングツアーとして開催される。日本全国14都市に加え、香港・台北・ソウルのアジア3都市でも開催され、国内外合わせて17都市を巡る。 ツアータイトルは“kokokara”。これまで国内外で精力的に活動を続けてきたGAN…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/31191142/FIX_Takanori-Iwata_B2poster_1030ver-724x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "GAN (Takanori Iwata) to hold first fan meeting tour visiting 17 cities in Japan and overseas",
-      "translatedExcerpt": "GAN (Takanori Iwata) has announced that he will hold his first fan meeting tour <GAN FAN MEETING TOUR 2027 “kokokara”> touring 17 cities in Japan and overseas from April 2027. This tour will tour hall venues across the country for the first time in about four and a half years since his first solo tour <THE CHOCOLATE BOX> held in 2022. After the 2024 arena tour ``ARTLESS'' and the 2025-2026 Asian tour ``SPACE COWBOY'', this time it will be held as a fan meeting tour to get closer to the fans. In addition to 14 cities across Japan, it will also be held in three Asian cities: Hong Kong, Taipei, and Seoul, making it to 17 cities in Japan and overseas. The tour title is “kokokara”. GAN, which has continued to be active both domestically and internationally..."
     }
   ]
 }

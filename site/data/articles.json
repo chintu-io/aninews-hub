@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T04:32:00.795Z",
+  "generatedAt": "2026-11-09T05:01:47.521Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 126,
+      "count": 127,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 95,
+      "count": 94,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 226,
+      "count": 227,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 88,
+      "count": 87,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,63 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 603,
+    "translatedJapaneseArticles": 604,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "30b79cb60af91271",
+      "title": "【ライブレポート】22/7、9周年アニバーサリーライブに万感「ナナニジは、これからもみなさんときれいな景色をいっぱい見たいです！」",
+      "link": "https://barks.jp/news/1103400",
+      "publishedAt": "2026-11-09T04:50:48.000Z",
+      "excerpt": "秋元康総合プロデュースのもと、Sony MusicとANIPLEXがタッグを組んだ声優アイドルプロジェクト22/7（ナナブンノニジュウニ、通称「ナナニジ」）のデビュー9周年を祝う＜22/7 ANNIVERSARY LIVE 2026＞が、11月7日に東京国際フォーラム ホールAで開催された。 パワフルな最新曲「CALL & RESPONSE」に始まり、客席に降りて会場を一つに盛り上げたお祭り曲メドレーや3期生を交えた特別なシャッフル編成でのパフォーマンスなど、今だからできる挑戦を交え、受け継がれてきたナナニジの魂を余すことなく見せつけた一夜。4年ぶりとなる単独最大規模の公演に向け、グループの冠バラエティ番組『22/7 計算外』で約半年に渡って行われた＜ROAD TO 東京国際フォーラム！ナナニジPR旅＞の…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/09132404/S__24264726_0.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "[Live Report] 22/7, 9th Anniversary Live Performance: \"Nananiji wants to continue to see lots of beautiful scenery with everyone!\"",
+      "translatedExcerpt": "<22/7 ANNIVERSARY LIVE 2026> was held on November 7th at Tokyo International Forum Hall A to celebrate the 9th anniversary of the debut of voice actor idol project 22/7 (Nanabunnonijuuni, commonly known as ``Nananiji''), produced by Yasushi Akimoto and collaborated with Sony Music and ANIPLEX. Starting with the powerful latest song \"CALL & RESPONSE,\" the night included challenges that can only be done now, such as a medley of festival songs that excited the audience and brought the venue together, and a special shuffle performance that included 3rd generation members.The night fully showcased the spirit of Nananiji that has been passed down. <ROAD TO Tokyo International Forum!, which was held for about half a year on the group's flagship variety show ``22/7 Calculations'' in preparation for its largest solo performance in four years! Nananiji PR trip>’s…"
+    },
+    {
+      "id": "a0c72ae4d52d356a",
+      "title": "Live-Action Golden Kamuy: Karafuto Pursuit Arc Series Unveils More Cast",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/live-action-golden-kamuy-karafuto-pursuit-arc-series-unveils-more-cast/.243635",
+      "publishedAt": "2026-11-09T04:30:18.000Z",
+      "excerpt": "Ayana Shiramoto, Hiroto Ōshita join cast",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gS5/cms/news.10/243635/karafutopursuit-kv.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "6565034bc77e1537",
+      "title": "Fool Night Manga Crosses 1 Million Copies Worldwide",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/fool-night-manga-crosses-1-million-copies-worldwide/.243609",
+      "publishedAt": "2026-11-09T04:22:41.000Z",
+      "excerpt": "Anime of manga will debut globally on Netflix on November 26",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF8/cms/news.6/203404/fool-night.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "73a7c8216f32bccc",
       "title": "Baki Gaiden: Retsu Kaioh wa Isekai Tensei Shitemo Ikko ni Kamawan Stage Play Unveils Key Visual, Main Cast",
@@ -181,6 +234,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "116b51ed24283396",
+      "title": "Ingoku Danchi: Deviant's Apartment Complex Anime's English Dub Streams on November 11",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-08/ingoku-danchi-deviant-apartment-complex-anime-english-dub-streams-on-november-11/.243606",
+      "publishedAt": "2026-11-09T04:02:35.000Z",
+      "excerpt": "English dub cast revealed for anime based on writer Sakusei Kenkyūjo, artist Yui Jōyama's manga",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gEO/encyc/A38301-623165368.1776256881.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -18332,74 +18402,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "96fa29862b4e2c11",
-      "title": "Universal Studios Japan Condemns Man for Hugging Female Zombie Performer",
-      "link": "https://news.sankakucomplex.com/n/GRz_6_eORPXk0FkQExJiDw",
-      "publishedAt": "2026-10-30T15:00:11.000Z",
-      "excerpt": "Universal Studios Japan (USJ) has condemned a male visitor who was filmed grabbing a female zombie performer from behind during the theme park’s Halloween celebrations, sparking widespread criticism and concerns about employee safety.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "61981c056079c48b",
-      "title": "Manga Up! Global Adds Crimson Prince, The Perfect Cross-Dressing Couple, 5 More Manga",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-30/manga-up-global-adds-crimson-prince-the-perfect-cross-dressing-couple-5-more-manga/.243247",
-      "publishedAt": "2026-10-30T15:00:00.000Z",
-      "excerpt": "Company also adds Not Quite Love, The Evil Princess Will Kill No More, The Witch of Dawn, Reading Our Way to a Happy New World, My Spooky Storyteller Is an Adorable Klutz in English",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ8/cms/news.10/243247/1135b.png.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "3d5573d380f5e50d",
-      "title": "What Happens After You Go Viral? Ask PSYCHIC FEVER",
-      "link": "https://crunchyroll.com/news/interviews/2026/10/30/psychic-fever-interview",
-      "publishedAt": "2026-10-30T15:00:00.000Z",
-      "excerpt": "Where do you go from there?",
-      "image": "https://a.storyblok.com/f/178900/960x540/3ff2211dd1/psychic-fever-band.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "49300d8c274b4967",
-      "title": "Anime Market Grew 15.8% to Record 4.45 Trillion Yen in 2025",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-30/anime-market-grew-15.8-percent-to-record-4.45-trillion-yen-in-2025/.243366",
-      "publishedAt": "2026-10-30T14:45:00.000Z",
-      "excerpt": "Domestic anime market grew by 14.1% while overseas market grew by 17.2%",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gEA/cms/news.9/230464/animejapan-2025-.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

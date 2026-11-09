@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T04:01:43.711Z",
+  "generatedAt": "2026-11-09T04:32:00.795Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 94,
+      "count": 95,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 249,
+      "count": 248,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 604,
+    "translatedJapaneseArticles": 603,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "73a7c8216f32bccc",
+      "title": "Baki Gaiden: Retsu Kaioh wa Isekai Tensei Shitemo Ikko ni Kamawan Stage Play Unveils Key Visual, Main Cast",
+      "link": "https://crunchyroll.com/news/latest/2026/11/9/baki-gaiden-retsu-kaioh-wa-isekai-tensei-shitemo-ikko-ni-kamawan-stage-play-key-visual-main-cast",
+      "publishedAt": "2026-11-09T04:20:00.000Z",
+      "excerpt": "General ticket sales will begin on January 6, 2027",
+      "image": "https://a.storyblok.com/f/178900/960x540/25721f876c/baki-gaiden-stage-play-header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "1aca6190ea26c27e",
       "title": "〈昭和歌謡パレード〉11/12は欽ちゃんファミリー大集合",
@@ -18385,25 +18402,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "be7c5c613e519937",
-      "title": "TOMOO、新曲「バースデイ」MVに“水中のTOMOO”と“街中のTOMOO”",
-      "link": "https://www.billboard-japan.com/d_news/detail/167017",
-      "publishedAt": "2026-10-30T14:40:00.000Z",
-      "excerpt": "TOMOOが、新曲「バースデイ」のミュージックビデオを公開した。 2026年9月30日に配信リ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167017/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "TOMOO's new song \"Birthday\" MV features \"TOMOO in the water\" and \"TOMOO in the city\"",
-      "translatedExcerpt": "TOMOO has released the music video for their new song \"Birthday\". Distribution restart on September 30, 2026"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T20:34:54.078Z",
+  "generatedAt": "2026-11-09T21:02:18.506Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 130,
+      "count": 131,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 91,
+      "count": 92,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 267,
+      "count": 266,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 227,
+      "count": 226,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
       "count": 82,
       "fetchedCount": 24
     }
@@ -163,10 +163,61 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 615,
+    "translatedJapaneseArticles": 612,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "0203311d0a9c11c9",
+      "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
+      "link": "https://crunchyroll.com/news/announcements/2026/11/9/puella-magi-madoka-magica-the-movie-trilogy-streaming-crunchyroll",
+      "publishedAt": "2026-11-09T21:00:00.000Z",
+      "excerpt": "The movies were originally released in 2012 and 2013",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/64d15cc9ac/puella-magi-madoka-magica-the-movie-rebellion.jpeg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "436670d46e839c7b",
+      "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
+      "link": "https://crunchyroll.com/news/features/2026/11/9/the-apothecary-diaries-season-3-episode-6-recap",
+      "publishedAt": "2026-11-09T21:00:00.000Z",
+      "excerpt": "It takes a village",
+      "image": "https://a.storyblok.com/f/178900/960x540/ba90a8ca36/the-apothecary-diaries-season-3-episode-6.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "4cbad05c07771394",
+      "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
+      "publishedAt": "2026-11-09T20:30:00.000Z",
+      "excerpt": "Final volume ships on November 19",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gCD/cms/news.10/243657/81p0wnmnbol.sl1500.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "b9b5de9d8f006e62",
       "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
@@ -917,7 +968,7 @@
       "title": "Former Warner Bros. Boss Pamela Abdy Slams Hollywood’s Loss of Female Executives",
       "link": "https://news.sankakucomplex.com/n/imTV7KQdDRqpkqaAcGu1yg",
       "publishedAt": "2026-11-09T10:00:49.000Z",
-      "excerpt": "Former Warner Bros. film chief Pamela Abdy has expressed frustration over the growing number of high-ranking female executives losing their positions in Hollywood, and is additionally becoming acquainted with the fact that producing garbage that no one wants to watch often comes with consequences…",
+      "excerpt": "Former Warner Bros. film chief Pamela Abdy has expressed frustration over the growing number of high-ranking female executives losing their positions in Hollywood, and is additionally becoming acquainted with the fact that producing garbage that no one wants to watch often comes with consequences.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1270,7 +1321,7 @@
       "title": "Nintendo Says No Further Switch 2 Price Hikes Planned Despite Memory Shortage",
       "link": "https://news.sankakucomplex.com/n/xf5NwyJm-nohPly4_7ajgg",
       "publishedAt": "2026-11-09T06:00:05.000Z",
-      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry. Speaking during the company’s latest financial results briefing on No…",
+      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1958,7 +2009,7 @@
       "title": "Hayao Miyazaki Criticizes Young Anime Artists for Only Watching Anime",
       "link": "https://news.sankakucomplex.com/n/Uz2rccifXXfshg5OKV2mZw",
       "publishedAt": "2026-11-08T22:00:35.000Z",
-      "excerpt": "Legendary Studio Ghibli director Hayao Miyazaki has criticized younger anime creators for drawing inspiration almost exclusively from other anime, arguing that the industry risks losing its originality when artists fail to explore literature, painting, and other forms of expression. The remarks w…",
+      "excerpt": "Legendary Studio Ghibli director Hayao Miyazaki has criticized younger anime creators for drawing inspiration almost exclusively from other anime, arguing that the industry risks losing its originality when artists fail to explore literature, painting, and other forms of expression.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2282,7 +2333,7 @@
       "title": "Japanese Man Arrested After Stealing 451 Shoe Insoles From Schoolgirls",
       "link": "https://news.sankakucomplex.com/n/3gO2zLVKsBaiWoYdJH7ZwA",
       "publishedAt": "2026-11-08T12:00:16.000Z",
-      "excerpt": "A 35-year-old Japanese man has been indicted after allegedly stealing hundreds of shoe insoles belonging to female students, with police recovering 451 insoles from his home and investigating suspected thefts at more than 30 schools. The defendant, identified as Daisuke Matsuzaki, was indicted on…",
+      "excerpt": "A 35-year-old Japanese man has been indicted after allegedly stealing hundreds of shoe insoles belonging to female students, with police recovering 451 insoles from his home and investigating suspected thefts at more than 30 schools.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3039,7 +3090,7 @@
       "title": "DMM TV Beats Netflix to Become Japan’s Highest-Rated Streaming Service",
       "link": "https://news.sankakucomplex.com/n/_1op1Il8zLNNMcCamgIVtA",
       "publishedAt": "2026-11-08T04:00:35.000Z",
-      "excerpt": "Japanese streaming platform DMM TV has overtaken Netflix to become Japan’s highest-rated subscription video service, marking the first time a domestically developed platform has topped Oricon’s annual customer satisfaction rankings. The results were announced on November 2 by research company ori…",
+      "excerpt": "Japanese streaming platform DMM TV has overtaken Netflix to become Japan’s highest-rated subscription video service, marking the first time a domestically developed platform has topped Oricon’s annual customer satisfaction rankings.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3145,7 +3196,7 @@
       "title": "Japan Launches New Anime Awards Aiming to Become the “Oscars of Animation”",
       "link": "https://news.sankakucomplex.com/n/W9UBuunCg77CVNHmVE4WfQ",
       "publishedAt": "2026-11-07T20:12:59.000Z",
-      "excerpt": "Japan’s anime industry has announced a new awards ceremony called the Nippon Anime Awards, aiming to establish a prestigious equivalent of Hollywood’s Academy Awards that places greater emphasis on recognizing the creators behind Japanese animation. The Association of Japanese Animations (AJA) un…",
+      "excerpt": "Japan’s anime industry has announced a new awards ceremony called the Nippon Anime Awards, aiming to establish a prestigious equivalent of Hollywood’s Academy Awards that places greater emphasis on recognizing the creators behind Japanese animation.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3162,7 +3213,7 @@
       "title": "Japanese Man Arrested for Assaulting Seven Women in Just 15 Minutes",
       "link": "https://news.sankakucomplex.com/n/xVXBbEZEGb8-mZvz1TIkLA",
       "publishedAt": "2026-11-07T18:51:56.000Z",
-      "excerpt": "A 39-year-old Japanese man has been arrested after allegedly assaulting seven young women in a series of seemingly random attacks across Tokyo, punching, slapping, and even delivering a flying kick to his victims within approximately 15 minutes. The suspect, Hikaru Hamaguchi, is accused of carryi…",
+      "excerpt": "A 39-year-old Japanese man has been arrested after allegedly assaulting seven young women in a series of seemingly random attacks across Tokyo, punching, slapping, and even delivering a flying kick to his victims within approximately 15 minutes.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4245,7 +4296,7 @@
       "title": "Japanese User Lambasted for Trying to Look up Skirt in Ocarina of Time Remake",
       "link": "https://news.sankakucomplex.com/n/RDWuAfW8GyDSdAJn-7oDLw",
       "publishedAt": "2026-11-07T06:00:21.000Z",
-      "excerpt": "The internet’s usual suspects are once again upset at someone doing something they don’t like, as a Japanese Twitter user who posted a video of himself attempting to look up the skirt of a female character in Ocarina of Time remake earned a great deal of criticism. The individual uploaded footage…",
+      "excerpt": "The internet’s usual suspects are once again upset at someone doing something they don’t like, as a Japanese Twitter user who posted a video of himself attempting to look up the skirt of a female character in Ocarina of Time remake earned a great deal of criticism.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4446,7 +4497,7 @@
       "title": "Hagure Idol Jigoku Hen Anime Officially Announced",
       "link": "https://news.sankakucomplex.com/n/OBmrGBggnZDa8GXcrQf8gQ",
       "publishedAt": "2026-11-07T02:00:15.000Z",
-      "excerpt": "The controversial action manga Booty Royale: Never Go Down Without a Fight!, known in Japan as Hagure Idol Jigoku-hen, is officially receiving a television anime adaptation scheduled to premiere in January 2027. The announcement was made on November 6 by animation label Deregula, which specialize…",
+      "excerpt": "The controversial action manga Booty Royale: Never Go Down Without a Fight!, known in Japan as Hagure Idol Jigoku-hen, is officially receiving a television anime adaptation scheduled to premiere in January 2027.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4550,7 +4601,7 @@
       "title": "Pixiv Loses Wise Payouts After Account Suspension",
       "link": "https://news.sankakucomplex.com/n/h10uLuxEcp9V6xeyDAlFWA",
       "publishedAt": "2026-11-06T22:00:28.000Z",
-      "excerpt": "Japanese illustration platform Pixiv has announced that Wise will no longer be available for creator payouts starting in November 2026, leaving some international artists unable to withdraw their earnings and forcing others to abandon their subscriptions. The decision affects several Pixiv-operat…",
+      "excerpt": "Japanese illustration platform Pixiv has announced that Wise will no longer be available for creator payouts starting in November 2026, leaving some international artists unable to withdraw their earnings and forcing others to abandon their subscriptions.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4618,7 +4669,7 @@
       "title": "Blue Archive English Localization Removes “Make Gehenna Great Again” Reference",
       "link": "https://news.sankakucomplex.com/n/n0AY3GduTkmhJCzO9y4tpw",
       "publishedAt": "2026-11-06T20:23:21.000Z",
-      "excerpt": "The English localization of Blue Archive has changed the title of an upcoming story chapter from “Make Gehenna Great Again!” to “Glory to Gehenna!”, removing an apparent reference to US President Donald Trump’s famous political slogan that remains intact in the Japanese and Korean versions. The c…",
+      "excerpt": "The English localization of Blue Archive has changed the title of an upcoming story chapter from “Make Gehenna Great Again!” to “Glory to Gehenna!”, removing an apparent reference to US President Donald Trump’s famous political slogan that remains intact in the Japanese and Korean versions.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5274,7 +5325,7 @@
       "title": "Hideo Kojima Says AI Takes the Fun Out of Creating Games",
       "link": "https://news.sankakucomplex.com/n/1AfGbwigwmiLB1bi_mOcyA",
       "publishedAt": "2026-11-06T10:00:08.000Z",
-      "excerpt": "Metal Gear Solid and Death Stranding creator Hideo Kojima has expressed concerns about the increasing use of artificial intelligence in creative industries, arguing that while AI makes development more efficient, it threatens to eliminate the very process that makes creating something enjoyable.…",
+      "excerpt": "Metal Gear Solid and Death Stranding creator Hideo Kojima has expressed concerns about the increasing use of artificial intelligence in creative industries, arguing that while AI makes development more efficient, it threatens to eliminate the very process that makes creating something enjoyable.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6001,7 +6052,7 @@
       "title": "Survey Claims Only 6.7% of Japanese People Have Stopped Reading Manga",
       "link": "https://news.sankakucomplex.com/n/AvFy8uoCACyx6fK1kiMXPw",
       "publishedAt": "2026-11-06T06:00:46.000Z",
-      "excerpt": "Despite growing concerns that Japanese audiences are abandoning manga, a new nationwide survey suggests that relatively few people have stopped reading the medium altogether over the past five years. Japanese digital manga company Comici released its 2026 Manga Awareness Survey on November 2, que…",
+      "excerpt": "Despite growing concerns that Japanese audiences are abandoning manga, a new nationwide survey suggests that relatively few people have stopped reading the medium altogether over the past five years.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6927,7 +6978,7 @@
       "title": "Kodansha Considers Canceling Mii-chan Anime Following Disability Group Complaints",
       "link": "https://news.sankakucomplex.com/n/O21GKFQnfHI2PkZD-OHG9g",
       "publishedAt": "2026-11-06T02:00:59.000Z",
-      "excerpt": "Japanese publisher Kodansha is reconsidering its upcoming anime adaptation of Mii-chan and Miss Yamada, potentially canceling the project following criticism from disability advocacy organizations over its portrayal of people with intellectual and developmental disabilities. The anime adaptation…",
+      "excerpt": "Japanese publisher Kodansha is reconsidering its upcoming anime adaptation of Mii-chan and Miss Yamada, potentially canceling the project following criticism from disability advocacy organizations over its portrayal of people with intellectual and developmental disabilities.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -7323,7 +7374,7 @@
       "title": "Duolingo Orders Artist to Delete Suggestive Fan Art of Goth Mascot Lily",
       "link": "https://news.sankakucomplex.com/n/porQSfMge4NGcIHWfa4C2g",
       "publishedAt": "2026-11-05T17:36:03.000Z",
-      "excerpt": "Language-learning company Duolingo has reportedly demanded the removal of suggestive fan art featuring Lily, its purple-haired goth mascot, prompting an online backlash after the artist announced that the company’s legal team had contacted them. Digital artist and animator Movail, who had attract…",
+      "excerpt": "Language-learning company Duolingo has reportedly demanded the removal of suggestive fan art featuring Lily, its purple-haired goth mascot, prompting an online backlash after the artist announced that the company’s legal team had contacted them.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -7578,7 +7629,7 @@
       "title": "Goddess of Victory: NIKKE PC Launcher Compromised",
       "link": "https://news.sankakucomplex.com/n/CFYMI2efQ7xsQirZCiChug",
       "publishedAt": "2026-11-05T15:00:24.000Z",
-      "excerpt": "The PC launcher for Goddess of Victory: NIKKE has reportedly been compromised in a supply-chain cyberattack, potentially exposing players’ passwords, authentication credentials, and other sensitive information to hackers. The security breach was first reported by players on the Chinese gaming for…",
+      "excerpt": "The PC launcher for Goddess of Victory: NIKKE has reportedly been compromised in a supply-chain cyberattack, potentially exposing players’ passwords, authentication credentials, and other sensitive information to hackers.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8020,7 +8071,7 @@
       "title": "Nexus Mods Removes Cyberpunk: Edgerunners 2 Character Mod",
       "link": "https://news.sankakucomplex.com/n/O_Xz3qgu3m1mCb2xo14vXQ",
       "publishedAt": "2026-11-05T11:00:43.000Z",
-      "excerpt": "Video game modding platform Nexus Mods has once again ousted another innocent mod, this time removing a Cyberpunk 2077 modification featuring Talia Yang from Cyberpunk: Edgerunners 2, and prompting accusations that the website is censoring an adult character because of her youthful appearance. Al…",
+      "excerpt": "Video game modding platform Nexus Mods has once again ousted another innocent mod, this time removing a Cyberpunk 2077 modification featuring Talia Yang from Cyberpunk: Edgerunners 2, and prompting accusations that the website is censoring an adult character because of her youthful appearance.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18365,61 +18416,6 @@
       },
       "translatedTitle": "GAN (Takanori Iwata) to hold first fan meeting tour visiting 17 cities in Japan and overseas",
       "translatedExcerpt": "GAN (Takanori Iwata) has announced that he will hold his first fan meeting tour <GAN FAN MEETING TOUR 2027 “kokokara”> touring 17 cities in Japan and overseas from April 2027. This tour will tour hall venues across the country for the first time in about four and a half years since his first solo tour <THE CHOCOLATE BOX> held in 2022. After the 2024 arena tour ``ARTLESS'' and the 2025-2026 Asian tour ``SPACE COWBOY'', this time it will be held as a fan meeting tour to get closer to the fans. In addition to 14 cities across Japan, it will also be held in three Asian cities: Hong Kong, Taipei, and Seoul, making it to 17 cities in Japan and overseas. The tour title is “kokokara”. GAN, which has continued to be active both domestically and internationally..."
-    },
-    {
-      "id": "7e7d8ab318df2fb5",
-      "title": "ROUNDUP: Anime Gets into the Halloween 2026 Spirit with Spooky Visuals and Illustrations",
-      "link": "https://crunchyroll.com/news/latest/2026/10/31/anime-halloween-art-roundup-2026",
-      "publishedAt": "2026-10-31T11:30:00.000Z",
-      "excerpt": "A highlight package of this year's tricks and treats from your favorite anime!",
-      "image": "https://a.storyblok.com/f/178900/1500x1061/69bad35be8/mashle-magic-and-muscles-halloween-art-2026.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "a5b783f6276098cd",
-      "title": "三代目 J SOUL BROTHER・今市隆二、2027年春に3年ぶりのソロツアー開催へ",
-      "link": "https://barks.jp/news/1101747",
-      "publishedAt": "2026-10-31T11:30:00.000Z",
-      "excerpt": "三代目 J SOUL BROTHERSのボーカル・今市隆二が、2027年3月よりソロツアー＜RYUJI IMAICHI RILY’S NIGHT 2027 “BLACK”＞を開催することを発表した。 この発表は、本日に大阪・ヤンマースタジアム長居で行われた＜三代目 J SOUL BROTHERS 15TH ANNIVERSARY STADIUM LIVE “JSB FOREVER ONE” ～GRAND FINALE～＞の初日公演にてアナウンスされた。 2024年以来約3年ぶりとなるソロツアーは、2027年3月3日の佐賀公演を皮切りに、5月15日の岩手公演まで全国11都市12公演を巡る。今回のツアータイトルに掲げられたのは「BLACK」。「変わったものもある。変わらないものもある。」というメッセージのもと…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/31165028/BLACK_main-724x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Third Generation J SOUL BROTHER Ryuji Imaichi to hold solo tour for the first time in three years in spring 2027",
-      "translatedExcerpt": "Sandaime J SOUL BROTHERS vocalist Ryuji Imaichi has announced that he will hold a solo tour <RYUJI IMAICHI RILY’S NIGHT 2027 “BLACK”> from March 2027. This announcement was made today at the opening day performance of <Sandaime J SOUL BROTHERS 15TH ANNIVERSARY STADIUM LIVE “JSB FOREVER ONE” ~GRAND FINALE~> held at Yanmar Stadium Nagai in Osaka. His solo tour, which will be his first in about three years since 2024, will begin with a performance in Saga on March 3, 2027, and will tour 12 performances in 11 cities across the country, ending with a performance in Iwate on May 15. The title of this tour is \"BLACK\". Under the message, \"Some things have changed. Some things remain the same.\""
-    },
-    {
-      "id": "c5b50f3c77f19719",
-      "title": "M!LK「“イイみるくの日”週間」開催、TeddyLoidによるマッシュアップ楽曲「爆裂愛しすぎて滅！」配信へ",
-      "link": "https://www.billboard-japan.com/d_news/detail/167019",
-      "publishedAt": "2026-10-31T11:15:00.000Z",
-      "excerpt": "M!LKが、2026年11月1日～9日まで「&ldquo;イイみるくの日&rdquo;週間」を開催",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167019/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "M!LK's \"Ii Milk Day\" week will be held, and TeddyLoid's mashup song \"Bakuretsu Aisugite Mete!\" will be distributed",
-      "translatedExcerpt": "M!LK will hold “Ii Milk Day” Week from November 1st to 9th, 2026"
     }
   ]
 }

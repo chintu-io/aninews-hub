@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T22:01:46.540Z",
+  "generatedAt": "2026-11-09T22:31:59.620Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 132,
+      "count": 133,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 266,
+      "count": 264,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 133,
+      "count": 132,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 82,
+      "count": 84,
       "fetchedCount": 24
     }
   ],
@@ -163,14 +163,48 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 611,
+    "translatedJapaneseArticles": 610,
     "translationAttempts": 160
   },
   "articles": [
     {
+      "id": "2485503245acbbd9",
+      "title": "Atelier Karia Game's Video Previews Story",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-09/atelier-karia-game-video-previews-story/.243659",
+      "publishedAt": "2026-11-09T22:30:00.000Z",
+      "excerpt": "Game launches on February 25 for Switch 2, PS5, Xbox X|S, PC via Steam",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI9/youtube/Z_-vajruWOs.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "adffff87bb902f11",
+      "title": "US Navy Uses Blend S Meme in Recruitment Video, Surprises Japanese Fans",
+      "link": "https://news.sankakucomplex.com/n/JRJJvxsJcBZWF2hlp_QXVg",
+      "publishedAt": "2026-11-09T22:00:42.000Z",
+      "excerpt": "The United States Navy has attracted attention in Japan after one of its official recruitment accounts published a promotional video based on the popular Blend S anime meme, combining footage of American warships with a joke that originally went viral nearly a decade ago.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
       "id": "63f0879cf3c21520",
       "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-07/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
       "publishedAt": "2026-11-09T21:30:00.000Z",
       "excerpt": "K Manga, Comic Days to publish grand prize-winners' entries in December",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF0/cms/news.10/243616/unnamed.png.jpg",
@@ -1338,7 +1372,7 @@
       "title": "Nintendo Says No Further Switch 2 Price Hikes Planned Despite Memory Shortage",
       "link": "https://news.sankakucomplex.com/n/xf5NwyJm-nohPly4_7ajgg",
       "publishedAt": "2026-11-09T06:00:05.000Z",
-      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry.",
+      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry. Speaking during the company’s latest financial results briefing on No…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4610,6 +4644,23 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "3bb94f01c0605ef7",
+      "title": "Pixiv Loses Wise Payouts After Account Suspension",
+      "link": "https://news.sankakucomplex.com/n/pyhCRPyi8u_w6HQH2gcXwQ",
+      "publishedAt": "2026-11-06T22:00:28.000Z",
+      "excerpt": "Japanese illustration platform Pixiv has announced that Wise will no longer be available for creator payouts starting in November 2026, leaving some international artists unable to withdraw their earnings and forcing others to abandon their subscriptions.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18357,63 +18408,6 @@
       },
       "translatedTitle": "Chevon co-stars with Tsuyoshi Muro, the “three uncles of Tokyo”, in the “Alpaca Syndrome” MV",
       "translatedExcerpt": "Chevon will digitally release a new song “Alpaca Syndrome” on October 31, 2026, and will release music on October 31, 2026."
-    },
-    {
-      "id": "b44cd7372cc75684",
-      "title": "戸川純とヤプーズ、世界的バイラルヒット「好き好き大好き」1985年ライブ映像公開",
-      "link": "https://ototoy.jp/news/132561",
-      "publishedAt": "2026-10-31T11:45:00.000Z",
-      "excerpt": "戸川純とヤプーズの楽曲「好き好き大好き」の1985年ライヴ映像がHDリマスターとリストアが施され、公開された。 「好き好き大好き」は、戸川純が1985年に発表した異形のラブソング。「愛してるって言わなきゃ殺す」という本人作詞の衝撃的なフレーズも相俟って長らく根強い支持を集めているが、近年では海外のTikTokをきっかけに世界的なバイラルヒットとなり、国境を超えて日々新たな聴き手を爆発的に増やしている。この度ハロウィンのタイミングで、YouTubeと中国の動画サイトbilibiliのアルファミュージック公式チャンネル上で、そのライヴ映像がアップされた。 映像は「戸川純とヤプーズ」として1985年11月28日に大阪厚生年金会館で行ったライブからの抜粋で、『TOUR-LIVE ’85～’86』として既に商品化済…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132561/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Jun Togawa and Yapoos release 1985 live video of global viral hit “Suki, Suki, Isai”",
-      "translatedExcerpt": "The 1985 live video of Jun Togawa and Yapooz's song ``Suki suki sai sai'' has been remastered and restored in HD and released. \"Suki Suki Aishi\" is an unusual love song released by Jun Togawa in 1985. Coupled with the shocking phrase \"If you don't say I love you, I'll kill you,\" which he wrote himself, has long earned him a strong following, and in recent years, he has become a global viral hit thanks to overseas TikTok, and the number of new listeners across borders is increasing exponentially every day. Just in time for Halloween, the live video was uploaded on YouTube and the Chinese video site bilibili's Alpha Music official channel. The video is an excerpt from a live performance performed by Jun Togawa and Yapoos on November 28, 1985 at the Osaka Welfare Pension Hall, and has already been commercialized as TOUR-LIVE '85-'86."
-    },
-    {
-      "id": "7065e7ebc17788ed",
-      "title": "原因は自分にある。が『オールナイトニッポン0』パーソナリティ、6度目の今回はメンバー4名で",
-      "link": "https://www.billboard-japan.com/d_news/detail/167023",
-      "publishedAt": "2026-10-31T11:40:00.000Z",
-      "excerpt": "原因は自分にある。が、2026年11月7日深夜に放送となるニッポン放送『オールナイトニッポン0（Z",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167023/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "The cause is myself. is the ``All Night Nippon 0'' personality, and this time for the 6th time, there are 4 members.",
-      "translatedExcerpt": "The cause is myself. However, Nippon Broadcasting System “All Night Nippon 0 (Z"
-    },
-    {
-      "id": "c71af0e522f7ce5e",
-      "title": "Da-iCE、実写×一筆書きイラストを融合した「うららか」リリックビデオ公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167022",
-      "publishedAt": "2026-10-31T11:35:00.000Z",
-      "excerpt": "Da-iCEが、新曲「うららか」のリリックビデオを公開した。 2026年10月16日に配信リリ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167022/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Da-iCE releases “Uraraka” lyric video that combines live-action and one-stroke illustrations",
-      "translatedExcerpt": "Da-iCE has released the lyric video for their new song \"Uraraka\". Released on October 16, 2026"
     }
   ]
 }

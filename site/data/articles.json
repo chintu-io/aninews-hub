@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:02:21.685Z",
+  "generatedAt": "2026-11-09T02:31:46.639Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 127,
+      "count": 126,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 249,
+      "count": 250,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 224,
+      "count": 223,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 144,
+      "count": 143,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 86,
+      "count": 88,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,65 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 602,
+    "translatedJapaneseArticles": 603,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "5ddb7bd06c6a5013",
+      "title": "セリーヌ・ディオン、メタリカのスフィア公演でエア・ベースを披露",
+      "link": "https://www.billboard-japan.com/d_news/detail/167274",
+      "publishedAt": "2026-11-09T02:30:00.000Z",
+      "excerpt": "セリーヌ・ディオンといえば壮大なパワー・バラードで最もよく知られているかもしれないが、このカナダ出",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167274/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Celine Dion performs air bass at Metallica's Sphere performance",
+      "translatedExcerpt": "Celine Dion may be best known for her epic power ballads, but this"
+    },
+    {
+      "id": "77a2dfc535ecb71d",
+      "title": "宮舘涼太（Snow Man）、『anan』2520号表紙＆グラビア登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/167272",
+      "publishedAt": "2026-11-09T02:30:00.000Z",
+      "excerpt": "宮舘涼太（Snow Man）が、11月18日発売の『anan』2520号の表紙に登場する。 特",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167272/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ryota Miyadate (Snow Man), \"anan\" issue 2520 cover & gravure appearance",
+      "translatedExcerpt": "Ryota Miyadate (Snow Man) will appear on the cover of \"anan\" issue 2520, which will be released on November 18th. Special"
+    },
+    {
+      "id": "75ee62c4c003b417",
+      "title": "EA Discovers 20,000 Forgotten Game Assets, Restores Wing Commander & Road Rash",
+      "link": "https://news.sankakucomplex.com/n/72jIF0gnDAs6QYBmE_09pA",
+      "publishedAt": "2026-11-09T02:00:52.000Z",
+      "excerpt": "Electronic Arts has released seven remastered versions of its classic video games after a producer stumbled upon a forgotten storage room containing nearly 20,000 archival assets, launching a years-long preservation effort that involved thousands of videotapes and contributions from dedicated fan…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "64a950b87a01c094",
       "title": "YOASOBI、ツアー【超惑星】香港・オーストラリア公演詳細発表",
@@ -5302,6 +5357,23 @@
       "translatedExcerpt": "NMB48 will release their 34th single “Seikatsu Ajihenya!” on December 9th. ” jacket photo and artist"
     },
     {
+      "id": "d0939b4e8979e9ec",
+      "title": "Kodansha Considers Canceling Mii-chan Anime Following Disability Group Complaints",
+      "link": "https://news.sankakucomplex.com/n/O21GKFQnfHI2PkZD-OHG9g",
+      "publishedAt": "2026-11-06T02:00:59.000Z",
+      "excerpt": "Japanese publisher Kodansha is reconsidering its upcoming anime adaptation of Mii-chan and Miss Yamada, potentially canceling the project following criticism from disability advocacy organizations over its portrayal of people with intellectual and developmental disabilities.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
       "id": "b78a741d8ba86da6",
       "title": "Kodansha Considers Canceling Mii-chan Anime Following Disability Group Complaints",
       "link": "https://news.sankakucomplex.com/n/CdP__y3X7KLdfJ8VIsgnHg",
@@ -7854,7 +7926,7 @@
       "title": "Transformers Toy Giant Takara Tomy Launches Indie Game Publisher",
       "link": "https://news.sankakucomplex.com/n/-zOZ9BPARsWKLyVR9iAfXQ",
       "publishedAt": "2026-11-05T01:29:51.000Z",
-      "excerpt": "Japanese toy manufacturer Takara Tomy, best known for popular franchises such as Transformers, Beyblade, and Tomica, has announced its entry into the independent video game publishing market, unveiling a new label called ENJOYN GAMES alongside three upcoming titles. Announced on November 4, 2026,…",
+      "excerpt": "Japanese toy manufacturer Takara Tomy, best known for popular franchises such as Transformers, Beyblade, and Tomica, has announced its entry into the independent video game publishing market, unveiling a new label called ENJOYN GAMES alongside three upcoming titles.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18326,80 +18398,6 @@
       },
       "translatedTitle": "Kroi will release the entire live video of Pia Arena MM performance for a limited time",
       "translatedExcerpt": "Kroi held the [Kroi Live Tour] on February 1, 2025 at Pia Arena MM in Kanagawa."
-    },
-    {
-      "id": "02a1500f213fb7b4",
-      "title": "乃木坂46の新アンダー曲は「編集」、伊藤理々杏の卒業セレモニー含む日本武道館公演2DAYS開催へ",
-      "link": "https://www.billboard-japan.com/d_news/detail/167012",
-      "publishedAt": "2026-10-30T13:40:00.000Z",
-      "excerpt": "乃木坂46が、2026年12月2日にリリースとなるニューシングル『君ロス』に収録されるアンダーメン",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167012/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Nogizaka46's new under song is \"edited\", Nippon Budokan performance will be held for 2 days including Ririan Ito's graduation ceremony",
-      "translatedExcerpt": "Undermen will be included in Nogizaka46's new single \"Kimiros\" to be released on December 2, 2026."
-    },
-    {
-      "id": "d8c8a2c42d5bdd3c",
-      "title": "Da-iCE、ドラマ『波うららかに、めおと日和』主題歌「うららか」リリックビデオを公開",
-      "link": "https://ototoy.jp/news/132548",
-      "publishedAt": "2026-10-30T13:30:00.000Z",
-      "excerpt": "Da-iCEが、フジテレビ系木曜劇場「波うららかに、めおと日和」主題歌として話題を集めている最新曲「うららか」のリリックビデオを公開した。 今回公開されたリリックビデオは、「うららか」のジャケットも手がけた一筆書きイラストレーター・ponchiがイラストを担当。「何気なくみえる、二人の特別な一日」をテーマに、実写映像と一筆書きのイラスト・アニメーションが融合したどこか懐かしさと温もりを感じる作品に仕上がっている。 ジャケットから統一された世界観で描かれる今作の公開後には、SNSにて、「多幸感のある映像で歌詞の良さを改めて感じた」「心にジーンときて、何度でも見たくなる」「ロマンチックでとても素敵でした」など、多くの反応が寄せられている。 本楽曲は、「CITRUS」をはじめ、「I wonder」、「ノンフィク…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132548/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Da-iCE releases lyric video for drama “Uraraka, Meoto Biyori” theme song “Uraraka”",
-      "translatedExcerpt": "Da-iCE has released the lyric video for their latest song ``Uraraka,'' which has been attracting attention as the theme song for Fuji TV's Thursday theater ``Nami Urarakani, Meoto Biyori.'' The lyric video released this time was illustrated by Ponchi, a one-stroke illustrator who also worked on the jacket of \"Uraraka\". With the theme of ``A special day for two people that seems casual,'' the work combines live-action footage with one-stroke illustrations and animation to create a work that feels nostalgic and warm. After the release of this work, which depicts a unified world view from the jacket, there were many reactions on social media, such as, ``The euphoric video made me realize once again how good the lyrics were,'' ``It touched my heart and made me want to watch it again and again,'' and ``It was so romantic and wonderful.'' This song includes \"CITRUS\", \"I wonder\", \"Nonfiction\"..."
-    },
-    {
-      "id": "fc3823b9e446ecde",
-      "title": "Virtua Fighter Crossroads Game Reveals Character Lionel Rafale in Trailer",
-      "link": "https://www.animenewsnetwork.com/news/2026-10-30/virtua-fighter-crossroads-game-reveals-character-lionel-rafale-in-trailer/.243357",
-      "publishedAt": "2026-10-30T13:15:00.000Z",
-      "excerpt": "Narrative-driven action-adventure game launches in 2027",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gAE/youtube/i-pDJQknmds.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "7e245b307509b009",
-      "title": "Da-iCE、一筆書きイラストレーター・ponchiが描いた新曲「うららか」リリックビデオ公開",
-      "link": "https://barks.jp/news/1101638",
-      "publishedAt": "2026-10-30T12:36:53.000Z",
-      "excerpt": "Da-iCEが、フジテレビ系木曜劇場『波うららかに、めおと日和』主題歌「うららか」のリリックビデオを公開した。 映像は、「うららか」のジャケットを手がけた一筆書きイラストレーター・ponchiがイラストを担当。「何気なくみえる、二人の特別な一日」をテーマに、実写映像と一筆書きのイラストアニメーションが融合した、懐かしさと温もりを感じるリリックビデオに仕上がっているという。 本楽曲は、「CITRUS」「I wonder」「ノンフィクションズ」といったDa-iCEの代表曲を手掛ける花村想太と、=LOVEに楽曲提供を行うなど作家活動にもGENIC・小池竜暉が作詞作曲を担当。「どんなに時代が変わっても、人を想うシンプルな衝動は100年前から変わらず、その想いが100年後も続いて欲しいという一途な願いも変わらない」…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/05/13114150/252121_Da-iCE_DDD_%E3%82%A2%E3%83%BC%E5%86%99.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Da-iCE releases lyric video for new song “Uraraka” drawn by one-stroke illustrator ponchi",
-      "translatedExcerpt": "Da-iCE has released the lyric video for ``Uraraka,'' the theme song for Fuji TV's Thursday Theater ``Nami Urarakani, Meoto Biyori.'' The video was illustrated by Ponchi, a one-stroke illustrator who worked on the jacket of \"Uraraka\". With the theme of ``A seemingly ordinary day for two people,'' the lyric video combines live-action footage and one-stroke illustration animation to create a lyric video that evokes nostalgia and warmth. This song was written and composed by Sota Hanamura, who has worked on Da-iCE's representative songs such as \"CITRUS,\" \"I wonder,\" and \"Nonfictions,\" and Ryuuki Koike of GENIC, who is also active as a writer and provides music for =LOVE. ``No matter how times change, the simple impulse to care for others remains the same as it did 100 years ago, and the sincere desire for that feeling to continue 100 years from now will also remain the same.''"
     }
   ]
 }

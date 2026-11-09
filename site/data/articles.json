@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T11:31:54.154Z",
+  "generatedAt": "2026-11-09T12:01:45.531Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 85,
+      "count": 84,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 236,
+      "count": 237,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 624,
+    "translatedJapaneseArticles": 625,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "6c40ad9a2eb43ce7",
+      "title": "マカロニえんぴつ、『運命さがしTikTok 生配信特番』のオンエア決定",
+      "link": "https://barks.jp/news/1103579",
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "excerpt": "マカロニえんぴつが11月13日20:00より、TikTok生配信特番をオンエアすることが決定した。 マカロニえんぴつがTikTok Liveを開催するのは4年ぶり。その内容は、先ごろ開催された「運命さがし」TikTokキャンペーンに寄せられた投稿動画をメンバーと一緒に視聴することをはじめ、キャンペーン優秀者との共演など、さまざまな企画が予定されているとのことだ。 なおマカロニえんぴつは、自身がパーソナリティを務める特別番組『TOKYO FMホリデースペシャル マカロニえんぴつ “今、きみが好き！”』を11月23日15時より放送するほか、現在、全国7都市11公演を巡るアリーナツアー＜マカロックツアーvol.22 ～いま、きみがすき！篇～＞を開催中だ。 ■番組『マカロニえんぴつ、運命さがしTikTok 生配信…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/06175747/01_%E3%83%9E%E3%82%AB%E3%83%AD%E3%83%8B%E3%81%88%E3%82%93%E3%81%B4%E3%81%A4_%E6%96%B0%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F-1024x768.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Macaroni Pencil will air “Fate Search TikTok Live Stream Special”",
+      "translatedExcerpt": "It has been decided that Macaroni Pencil will air a special TikTok live streaming program from 20:00 on November 13th. It's been four years since Macaroni Pencil held a TikTok Live. It is said that various events are planned, including watching videos submitted to the recently held \"Search for Destiny\" TikTok campaign with other members, as well as co-starring with campaign winners. In addition, Macaroni Pencil will be broadcasting the special program \"TOKYO FM Holiday Special Macaroni Pencil \"Now, I Love You!\"\" on November 23rd from 3:00 p.m., in which he will be the personality, and is currently on an arena tour <McCulloch Tour vol. 22 ~Now, I Love You!'' with 11 performances in 7 cities nationwide. The edition ~> is currently being held. ■Program “Macaroni Pencil, Destiny Search TikTok Live Streaming”"
+    },
     {
       "id": "3dbf4abf1432d2d7",
       "title": "KAITO（King & Princeの高橋海人）、1st EP『SALT BOY』制作ドキュメンタリー映像を公開",
@@ -18423,23 +18442,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "df63c3bff9c27a2c",
-      "title": "Inherit the Winds Anime Reveals Four More Cast Members",
-      "link": "https://crunchyroll.com/news/latest/2026/10/31/inherit-the-winds-anime-nishiki-niimi-kisaburo-kawai-toshimaro-yoshida-kyusai-momoyama-cast",
-      "publishedAt": "2026-10-31T07:26:00.000Z",
-      "excerpt": "The original series begins airing in January 2027",
-      "image": "https://a.storyblok.com/f/178900/1460x821/1cdb6dbc37/inherit-the-winds-four-cast.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
         "language": "en"
       }
     }

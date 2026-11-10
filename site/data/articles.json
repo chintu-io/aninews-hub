@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T16:32:02.886Z",
+  "generatedAt": "2026-11-10T17:02:04.740Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 95,
+      "count": 96,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 135,
+      "count": 134,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 612,
+    "translatedJapaneseArticles": 611,
     "translationAttempts": 159
   },
   "articles": [
+    {
+      "id": "8a953e6ff3cd4937",
+      "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime",
+      "link": "https://crunchyroll.com/news/interviews/2026/11/10/ayra-starr-starrgirl-interview",
+      "publishedAt": "2026-11-10T17:00:00.000Z",
+      "excerpt": "She also reveals which anime character could pull off the Starrgirl vibe",
+      "image": "https://a.storyblok.com/f/178900/960x540/f871d56345/ayra-starr.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "a916eca41f49807f",
       "title": "How Dragon Ball Super: Beerus Restructures Its Battles",
@@ -18397,25 +18414,6 @@
         "accent": "#6fc9e6",
         "language": "en"
       }
-    },
-    {
-      "id": "3d2c1db7bd7ee681",
-      "title": "中島健人、新SG「超☆HENSHIN」で愛のヒーローに",
-      "link": "https://ototoy.jp/news/132578",
-      "publishedAt": "2026-11-02T02:00:00.000Z",
-      "excerpt": "中島健人が12月16日(水)に4thシングル「超☆HENSHIN」（よみ：ちょうへんしん）をリリースすることが決定した。 表題曲の「超☆HENSHIN」は愛と勇気で地球を超えて宇宙を照らす、予測不能のハイテンション・ポップチューン。11月13日(金)から先行配信される。 ほかシングル収録楽曲は、中島健人自身が作詞作曲したクリスマスソング「クリスマスChu」、過去のソロ曲「Black Cinderella」の再録など全5曲が形態別に収録。 リリース情報 「GENTO (with Kento Nakajima)」 https://ototoy.jp/_/default/p/4354689 アーティスト情報 https://www.instagram.com/kento.nakajima_313 https:/…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132578/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Kento Nakajima becomes the hero of love in the new SG “Chou☆HENSHIN”",
-      "translatedExcerpt": "It has been decided that Kento Nakajima will release his 4th single ``Cho☆HENSHIN'' on December 16th (Wednesday). The title song \"Chou☆HENSHIN\" is an unpredictable high-tension pop tune that goes beyond the earth and lights up the universe with love and courage. It will be distributed in advance from November 13th (Friday). The other songs included in the single include ``Christmas Chu,'' a Christmas song written and composed by Kento Nakajima himself, and a re-recording of his past solo song ``Black Cinderella.'' A total of 5 songs are included in each format. Release information “GENTO (with Kento Nakajima)” https://ototoy.jp/_/default/p/4354689 Artist information https://www.instagram.com/kento.nakajima_313 https:/…"
     }
   ]
 }

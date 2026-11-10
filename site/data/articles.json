@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T00:01:43.867Z",
+  "generatedAt": "2026-11-10T00:31:42.244Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 92,
+      "count": 93,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 31,
+      "count": 32,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 264,
+      "count": 263,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 222,
+      "count": 221,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 608,
+    "translatedJapaneseArticles": 606,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "56da2f65cc8407d3",
+      "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
+      "link": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
+      "publishedAt": "2026-11-10T00:17:00.000Z",
+      "excerpt": "Shingo Natsume's feature film releases in Japan on February 11, 2027",
+      "image": "https://a.storyblok.com/f/178900/1509x850/df3eee2bf6/ghost-end-of-night.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "f713c21fea63f9ac",
+      "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
+      "link": "https://myanimelist.net/news/74922872?_location=rss",
+      "publishedAt": "2026-11-10T00:05:31.000Z",
+      "excerpt": "The official website for the Ghost: Yoru no Hate original anime movie unveiled additional cast, staff, a second key visual (pictured right), the theme song, and main trailer on Tuesday. The movie is scheduled to open in Japanese theaters on February 11, 2027. The movie was previewed at Sitges Film Festival on October 9 and at Animation Is Film Festival on…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794269033-d1c2fc2ee358184f36bf3aab1759f160.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
     {
       "id": "2bb8e2a81b57903b",
       "title": "MAPA、新曲「少女終戦記念日」配信＆2027年春ツアー開催",
@@ -18370,44 +18404,6 @@
       },
       "translatedTitle": "Wienners to hold Tokyo-Meihan one-man tour <Raikou TOUR 2027>",
       "translatedExcerpt": "The galactic punk band Wienners, led by Tamaya 2060%, will hold a one-man tour ``Raiko TOUR 2027'' at the beginning of 2027. Starting on January 30th (Saturday) at Aichi/Electric LadyLand, February 6th (Saturday) at Osaka/Yogibo META VALLEY, and the final will be February 22nd (Monday) at Zepp Shinjuku (TOKYO) in Tokyo. Wienners' one-man tour is gaining momentum, with new vocalist YUURI joining the group, the tour to introduce the new lineup, and many appearances at large outdoor festivals. The earliest official advance ticket reception is from 10/31 (Sat) to 11/8 (Sun) 23:59. Tour information https://w.pia.jp/t/wienners-official/ Artist information ht…"
-    },
-    {
-      "id": "042e8ec7415c2bdb",
-      "title": "【Top Japan Hits by Women】ドラマ『あにいもうと』主題歌、Uru「それなのに」など初登場でリストイン",
-      "link": "https://www.billboard-japan.com/d_news/detail/167005",
-      "publishedAt": "2026-10-31T12:00:00.000Z",
-      "excerpt": "Billboard JAPANとSpotifyによるコラボレーション・プレイリスト「Top Jap",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167005/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Top Japan Hits by Women] Drama “Animouto” theme song, Uru “Sore Nanoni” etc. are listed for the first time",
-      "translatedExcerpt": "Collaboration playlist “Top Jap” by Billboard JAPAN and Spotify"
-    },
-    {
-      "id": "1800695822b2e43d",
-      "title": "171、新曲「地球の真ん中」配信決定。明日出演のイベントで初披露も",
-      "link": "https://barks.jp/news/1101640",
-      "publishedAt": "2026-10-31T12:00:00.000Z",
-      "excerpt": "171が、新曲「地球の真ん中」を2026年11月4日に配信リリースすることを発表。あわせて、本楽曲のPre-add / Pre-saveもスタートした。 本楽曲は、「歌っていて楽しい曲を作りたい」という思いから生まれた、“地球”というスケールの大きなテーマを掲げるミドルテンポのロックチューン。歪んだベースラインにストイックなドラム、全力投球のギターという171のアイコニックなサウンドを、フルスロットルの田村（G, Vo）と、真っ直ぐに響くカナ（Vo, B）といった異なる個性をもった2人のボーカルが引っ張る、“新生171の真ん中”とも言える楽曲に仕上がっているという。 作詞・作曲を手がけた田村は「地球という情熱的なテーマを、どうにか手の届く言葉で構築できないか苦心しました」とコメント。 また171は、11月…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2025/10/31162934/171_Artist-Photo-2025.10_FINAL_S.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "171, new song “Chikyu no Midaka” will be released. It will be unveiled for the first time at an event tomorrow.",
-      "translatedExcerpt": "171 has announced that their new song “Chikyu no Naka” will be released on November 4, 2026. At the same time, Pre-add/Pre-save of this song has also started. This song is a mid-tempo rock tune with a large-scale theme of \"Earth\" that was born from the desire to \"make a song that is fun to sing.\" 171's iconic sound of a distorted bass line, stoic drums, and full-throttle guitar is brought to life by two vocalists with different personalities: Tamura (G, Vo) who goes full throttle and Kana (Vo, B) who sounds straight, creating a song that can be described as the \"middle of the new 171.\" Tamura, who wrote the lyrics and composed the song, commented, ``I struggled to find a way to express the passionate theme of the Earth in accessible words.'' Also 171 is November..."
     }
   ]
 }

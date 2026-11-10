@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T19:02:33.508Z",
+  "generatedAt": "2026-11-10T19:31:57.004Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 139,
+      "count": 140,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 269,
+      "count": 268,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 610,
+    "translatedJapaneseArticles": 608,
     "translationAttempts": 159
   },
   "articles": [
+    {
+      "id": "e898195726d540e6",
+      "title": "Rock Band FLOW Announce U.S. Dates for New 2027 World Tour",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-10/rock-band-flow-announce-u.s-dates-for-new-2027-world-tour/.243689",
+      "publishedAt": "2026-11-10T19:00:22.000Z",
+      "excerpt": "Band perform in U.S. in February 2027 starting in Boston",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH7/cms/news.10/243689/flow-world-tour-2027.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "ba9a29e4becbcf88",
       "title": "あいみょん「君はロックを聴かない」ストリーミング累計再生数6億回突破【ビルボード】",
@@ -18391,25 +18408,6 @@
       },
       "translatedTitle": "Hikaru Utada, JR Tokai <GOOD DAY EXPRESS> theme song distribution date decided",
       "translatedExcerpt": "It has been decided that Hikaru Utada will release the JR Tokai GOOD DAY EXPRESS theme song \"Intentions\" on November 25th. The jacket photo was created by YUKIKO NORITAKE, a Japanese illustrator and artist based in Paris. A preview full preview of \"Intentions\" will be held at five Sony Stores (Sony Store Ginza, Sapporo, Nagoya, Osaka, and Fukuoka Tenjin) from November 6th (Friday). In addition to the full-length music preview experience, there will also be a special listening experience where you can compare the sounds and a campaign where you can win novelty items. Release information “Pappa Paradise” https://ototoy.jp/_/default/p/3719047 Artist information https://www.utadahikaru.jp/ https://x.…"
-    },
-    {
-      "id": "510f5b66e484b99f",
-      "title": "【米ビルボード・アルバム・チャート】マイ・ケミカル・ロマンスがグループ初の1位獲得、リリースから20年の快挙",
-      "link": "https://www.billboard-japan.com/d_news/detail/167041",
-      "publishedAt": "2026-11-02T02:30:00.000Z",
-      "excerpt": "今週（2026年11月7日付）の米ビルボード・アルバム・チャート&ldquo;Billboard",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167041/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[U.S. Billboard Album Chart] My Chemical Romance becomes the first group to reach number one, a feat 20 years after its release",
-      "translatedExcerpt": "This week (dated November 7, 2026) US Billboard album chart “Billboard"
     }
   ]
 }

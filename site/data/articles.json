@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T08:01:52.399Z",
+  "generatedAt": "2026-11-10T08:31:47.884Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 133,
+      "count": 135,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 273,
+      "count": 274,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 215,
+      "count": 212,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,13 +163,51 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 612,
+    "translatedJapaneseArticles": 610,
     "translationAttempts": 160
   },
   "articles": [
     {
+      "id": "2c85e0c7fdbe8bca",
+      "title": "Stray Kids、ワールドツアー「Stray Kids World Tour 」追加公演開催",
+      "link": "https://barks.jp/news/1103680",
+      "publishedAt": "2026-11-10T08:24:49.000Z",
+      "excerpt": "Stray Kidsが、ワールドツアー「Stray Kids World Tour 」の追加公演開催を発表した。 追加公演は23の国・地域にて25公演にわたり開催。日本では、2027年4月24日(土)、25日(日)に横浜の日産スタジアム、そして5月4日(火・祝)、5日(水・祝)に大阪のヤンマースタジアム長居にて4公演の追加公演となる。Stray Kidsが、日産スタジアムとヤンマースタジアム長居にてライブを開催するのは今回が初。 昨日11月9日(月)22時より、Stray Kidsオフィシャルファンクラブ「STAY JAPAN」と「STAY JAPAN MOBILE」のW会員を対象にチケット最速先行受付がスタートしている。 そして、日本での追加公演を皮切りに、5月には、16日(日)アメリカ・シアトル、19…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/10172257/1-20-722x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Stray Kids holds additional performances for world tour “Stray Kids World Tour”",
+      "translatedExcerpt": "Stray Kids has announced additional performances for their world tour ``Stray Kids World Tour''. 25 additional performances will be held in 23 countries and regions. In Japan, there will be four additional performances at Yokohama's Nissan Stadium on Saturday, April 24th and Sunday, April 25th, 2027, and at Yanmar Stadium Nagai in Osaka on May 4th (Tuesday/Holiday) and May 5th (Wednesday/Holiday), 2027. This is the first time Stray Kids will hold a live performance at Nissan Stadium and Yanmar Stadium Nagai. From 10:00 p.m. yesterday, November 9th (Monday), early ticket pre-orders have begun for double members of Stray Kids' official fan clubs \"STAY JAPAN\" and \"STAY JAPAN MOBILE.\" Starting with an additional performance in Japan, in May 16th (Sunday) Seattle, USA, 19th..."
+    },
+    {
+      "id": "b3aa84d8b5533f82",
+      "title": "Ayumu Imazu、ファンの結婚式で「結び」を生パフォーマンスしたサプライズ企画の映像公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167321",
+      "publishedAt": "2026-11-10T08:10:00.000Z",
+      "excerpt": "Ayumu Imazuが、兵庫県で行われた結婚式にサプライズ登場し、新曲「結び」を生パフォーマンス",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167321/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ayumu Imazu releases video of a surprise project where he performs \"musubi\" live at a fan's wedding",
+      "translatedExcerpt": "Ayumu Imazu makes a surprise appearance at a wedding held in Hyogo Prefecture and performs her new song \"Musubi\" live."
+    },
+    {
       "id": "dcf0aa6e85978a72",
-      "title": "【MUSIC AWARDS JAPAN 2027】6/19 TOYOTA ARENA TOKYO開催決定",
+      "title": "【MUSIC AWARDS JAPAN 2027】6/19 TOYOTA ARENA TOKYOにて開催決定",
       "link": "https://www.billboard-japan.com/d_news/detail/167317",
       "publishedAt": "2026-11-10T08:00:00.000Z",
       "excerpt": "国際音楽賞【MUSIC AWARDS JAPAN 2027】の授賞式が、2027年6月19日にTO",
@@ -183,8 +221,61 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "[MUSIC AWARDS JAPAN 2027] 6/19 TOYOTA ARENA TOKYO to be held",
+      "translatedTitle": "[MUSIC AWARDS JAPAN 2027] 6/19 to be held at TOYOTA ARENA TOKYO",
       "translatedExcerpt": "The award ceremony for the International Music Awards [MUSIC AWARDS JAPAN 2027] will be held on June 19, 2027 at TO"
+    },
+    {
+      "id": "15d3c9a76a9f360b",
+      "title": "【ライブレポ】Junna、自身の誕生日に踏み出した、新たな一歩──〈Junna Birthday Live 2026 〜恋は続く〜〉",
+      "link": "https://ototoy.jp/news/132706",
+      "publishedAt": "2026-11-10T08:00:00.000Z",
+      "excerpt": "2026年11月2日、恵比寿ザ・ガーデンホールにて、Junnaのバースデーライブ〈Junna Birthday Live 2026 〜恋は続く〜〉が開催された。26歳の誕生日当日に実現した今回の公演。ポップなサウンドで幕を開け、アコースティック編成で歌声の豊かな表情を見せ、最後はロックサウンドで会場を熱狂させる。彼女が音楽とともに歩んできた道のりと、その先に見据える未来が浮かび上がる一夜となった。 ライブは「Believe In Myself」からスタート。あたたかな光を感じさせるサウンドの中、Junnaの熱いヴォーカルが会場いっぱいに広がっていく。優しく包み込むような音像と、芯の強さを感じさせる歌声。そのコントラストが、冒頭から彼女の歌の魅力を際立たせた。続く「You + Me = ?」では勢いよく会場…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132706/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Live Report] Junna takes a new step on her birthday──〈Junna Birthday Live 2026 ~Love continues~〉",
+      "translatedExcerpt": "On November 2, 2026, Junna's birthday live \"Junna Birthday Live 2026 ~Love Continues~\" was held at Ebisu The Garden Hall. This performance was held on the day of his 26th birthday. Opening with a pop sound, the acoustic lineup shows off the rich expression of the singing voice, and finally the rock sound sends the venue into a frenzy. It was a night that revealed the path she has taken with music and the future she has in mind. The live performance started with “Believe In Myself”. Junna's passionate vocals filled the venue amidst the warm, light-filled sound. A sound image that gently envelops you and a singing voice that makes you feel the strength of your core. This contrast highlighted the charm of her song from the beginning. The venue followed with “You + Me = ?” with great vigor…"
+    },
+    {
+      "id": "a6204066292d5ac7",
+      "title": "Japan's Video Game Rankings, October 26-November 1",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-10/japan-video-game-rankings-october-26-november-1/.243620",
+      "publishedAt": "2026-11-10T07:53:54.000Z",
+      "excerpt": "Minecraft for Switch 2 debuts at #3; Hello Kitty Party Land debuts at #7, #8",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gRE/cms/news.10/243620/resort.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "c15fc97a084ebb33",
+      "title": "Japanese Animation TV Ranking, October 26-November 1",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-10/japanese-animation-tv-ranking-october-26-november-1/.243621",
+      "publishedAt": "2026-11-10T07:52:54.000Z",
+      "excerpt": "The Apothecary Diaries up to 4.1% rating from 3.5% last week",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGC/encyc/A37931-397630352.1789645121.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "86fc205b8aafe871",
@@ -1510,7 +1601,7 @@
         "language": "ja"
       },
       "translatedTitle": "The cause is myself. , released the \"Love Reason\" performance video. Show off your charm with elegant formation and perfect expression management",
-      "translatedExcerpt": "The cause is myself. has released a performance video for their new song \"Love Reason.\" \"Love Reason\" is the title song of the CD single to be released on November 11th, and the music is provided by Vocaloid P/singer-songwriter syudou. Expressed with the unique world view created by Syudou x Genjibu, it is a crazy love song full of love. The performance video released today is a bit different from the music video, as it is captured with camera work that directly conveys the passion and three-dimensionality of the dance itself. While the flowing beauty of the formation changes permeates throughout the song, pay attention to the powerful and supple dance that does not break even in the midst of intense developments, as well as the facial expression management that perfectly expresses the worldview of the song, which is a mixture of madness and love. In addition, the costume in this video is made of shiny fabric that seems to be wrapped in surrounding light, and is made of beads of the same color."
+      "translatedExcerpt": "The cause is myself. has released a performance video for their new song \"Love Reason.\" \"Love Reason\" is the title song of the CD single to be released on November 11th, and the music is provided by Vocaloid P/singer-songwriter syudou. The song is expressed in the unique worldview created by Syudou x Genjib, and is a crazy love song full of love. The performance video released today is a bit different from the music video, as it is captured with camera work that directly conveys the passion and three-dimensionality of the dance itself. While the flowing beauty of the formation changes permeates throughout the song, pay attention to the powerful and supple dance that does not break even in the midst of intense developments, as well as the facial expression management that perfectly expresses the worldview of the song, which is a mixture of madness and love. In addition, the costume in this video is made of shiny fabric that seems to be wrapped in surrounding light, and is made of beads of the same color."
     },
     {
       "id": "6c40ad9a2eb43ce7",
@@ -18321,101 +18412,6 @@
       },
       "translatedTitle": "w.o.d. suddenly releases the sound source of the 2-disc new AL “Fure” on SNS",
       "translatedExcerpt": "w.o.d. will release their new 2-disc original album “Fure” on November 18, 2026. From October, w.o.d.'s official Instagram account posted a desktop screen with only folders displayed as \"Fureru_files\", and a total of 20 new accounts tagged by folder were made public, and while song names and handwritten lyrics were being posted, part of the song was suddenly made public on November 1st. A portion of each song has been made public, making it a sound source that can only be heard here prior to release. Furthermore, the title track of the album and the next pre-released song ``Fure'' will be released on November 4th. A song that marks the current location of w.o.d. It is a symbolic song that encompasses the entire 20-track album. Also, to commemorate the release of the album “Fure”..."
-    },
-    {
-      "id": "f5b1892a9c9c503d",
-      "title": "osage、活動10周年イヤーにメジャー初フルアルバム『何者』リリース決定。全国ツアー＆コンセプトワンマン開催も",
-      "link": "https://barks.jp/news/1101898",
-      "publishedAt": "2026-11-01T11:06:43.000Z",
-      "excerpt": "osageが、活動10周年を迎える2027年2月10日（水）に、メジャーデビュー後初となるフルアルバム『何者』（ヨミ：ナニモノ）を配信リリースすることを発表した。さらに、アルバムを引っさげた全国ツアーと、バンドの原点である下北沢でのコンセプトワンマンライブの開催も決定した。 アルバムタイトル『何者』には、絶えず変化を続けてきたosageの“今”が込められている。結成10周年という節目に、自分たちは何者なのか、そしてリスナーにとってosageは何者なのか。これまでの歩みを振り返りながら、一種の“答え合わせ”をテーマに制作された作品となっている。 11月1日（日）に全国5カ所を巡ったワンマンツアー＜Look ALive＞のファイナル公演がSHIBUYA CLUB QUATTROにて開催され、アルバムのリリース…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2025/11/29134310/osage_AP_FIX_mini.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "osage has decided to release their first major full-length album ``Nansha'' in the year of their 10th anniversary. National tour and concept one-man held",
-      "translatedExcerpt": "osage has announced that they will digitally release their first full-length album after their major debut, ``Nanimono'' (Yomi: Nanimono), on February 10, 2027 (Wednesday), which marks their 10th anniversary. Furthermore, it has been decided that a nationwide tour will be held in support of the album, and a concept one-man live will be held in Shimokitazawa, the band's birthplace. The album title ``Nansha'' reflects the ``now'' of Osage, which has been constantly changing. As we celebrate our 10th anniversary, we ask ourselves who we are, and who Osage is to our listeners. This work was created with the theme of a kind of \"matching of answers\" while looking back on the progress to date. On November 1st (Sunday), the final performance of the one-man tour <Look ALive> that visited 5 locations nationwide was held at SHIBUYA CLUB QUATTRO, and the album release..."
-    },
-    {
-      "id": "1c87ee42c1c48285",
-      "title": "TRACK15、メジャー1stフルアルバム『Re member』を2027年春リリース",
-      "link": "https://barks.jp/news/1101840",
-      "publishedAt": "2026-11-01T11:00:39.000Z",
-      "excerpt": "TRACK15が、2027年3月3日にポニーキャニオンからメジャー1stフルアルバム『Re member』をリリースすることを発表した。 ライブハウスを中心に活動を重ねてきたTRACK15は、2026年1月にLINE CUBE SHIBUYAで開催した初のホールワンマンをソールドアウト。同年6月からは東名阪Zeppを含む全国8都市を巡る＜TRACK15 ONE MAN Tour 2026＞を実施し、Zepp DiverCity（TOKYO）公演をはじめ各地でソールドアウトを記録。全国各地のフェスにも出演するなど、活躍の場を広げてきた。 そして11月1日、TRACK15として初めて大きなステージに立った地元・大阪城音楽堂で、初のワンマンライブを開催。思い入れの詰まった会場でメジャーデビューを発表すると、割れ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/01185422/260831_TY_0294_0924_s.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "TRACK15 will release their first major full-length album “Re member” in spring 2027",
-      "translatedExcerpt": "TRACK15 has announced that they will release their first major full-length album ``Re member'' on Pony Canyon on March 3, 2027. TRACK15, who has been active mainly at live houses, sold out their first hall one-man event held at LINE CUBE SHIBUYA in January 2026. From June of the same year, the <TRACK15 ONE MAN Tour 2026> was held in 8 cities nationwide including Tokyo, Meihan and Zepp, and sold out in various places including the Zepp DiverCity (TOKYO) performance. They have expanded their activities by appearing at festivals all over the country. Then, on November 1st, TRACK15 held their first one-man live at Osaka Castle Music Hall, their hometown, where they appeared on a big stage for the first time. When I announced my major debut at a venue filled with memories, I was shocked..."
-    },
-    {
-      "id": "95ad1d56191827d7",
-      "title": "[Alexandros]、2027年の年間ライブスケジュールを一挙発表",
-      "link": "https://barks.jp/news/1101827",
-      "publishedAt": "2026-11-01T11:00:16.000Z",
-      "excerpt": "[Alexandros]が、本日11月1日(日) に開催された主催フェス＜THIS FES ’26 in Sagamihara＞Day2の終演後、自身の2027年年間ライブスケジュールを発表した。 2027年は4月22日(木) GORILLA HALL OSAKA皮切りに5都市8公演を巡る＜FC TOUR 2027 “大饗宴”＞に始まり、6月22日(火) Zepp Fukuokaより対バンツアー＜[Alexandros] DEAR ENEMIES TOUR 2027＞で全国5都市のZepp会場9公演を巡る。そして9月4日(土) 、5日（日）有明アリーナ2Daysと9月12日(日) 大阪城ホールにてアリーナツアー＜[Alexandros] VIP PARTY TOUR＞、さらに2027年締め括りとして4度目…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/01171243/1101%E7%94%A8A%E5%86%99.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Alexandros] announces the annual live schedule for 2027",
-      "translatedExcerpt": "[Alexandros] announced his 2027 annual live schedule after the conclusion of Day 2 of the sponsored festival <THIS FES '26 in Sagamihara> held today, November 1st (Sunday). 2027 will begin on April 22nd (Thursday) at GORILLA HALL OSAKA, with a tour of 8 shows in 5 cities, <FC TOUR 2027 \"Great Feast\">, and on June 22nd (Tuesday), Zepp Fukuoka will begin the band tour <[Alexandros] DEAR ENEMIES TOUR 2027>, which will tour 9 shows at Zepp venues in 5 cities nationwide. Then, there will be an arena tour <[Alexandros] VIP PARTY TOUR> on September 4th (Saturday) and 5th (Sunday) at Ariake Arena and on September 12th (Sunday) at Osaka Castle Hall, and the fourth time to conclude 2027..."
-    },
-    {
-      "id": "116778ad2f5491ab",
-      "title": "アイナ・ジ・エンド、コーラス&ダンサーオーディション開催",
-      "link": "https://ototoy.jp/news/132566",
-      "publishedAt": "2026-11-01T11:00:00.000Z",
-      "excerpt": "アイナ・ジ・エンドが、2027年開催のホールツアーに伴い、コーラス&ダンサーオーディションの開催を発表した。 先日解禁された台北含む19都市22公演をまわる自身最長のホールツアーに向けて、アイナ・ジ・エンドのライブパフォーマンスのさらなる向上を目指し、共にステージを創り上げるコーラス＆ダンサーを公募する。 ステージのクオリティを最優先するため、該当者がいない場合は採用を見送る方針のもと、厳選を重ねて審査が進められる。 審査員にはアイナ・ジ・エンド本人のほか、共にアイナソロ活動を初期より支えるコーラス＆ダンサー「ゆかんぬ」が参加。合格者には本番に向けた指導・リハーサルも行われる予定だ。 募集要項や応募方法の詳細はこちら https://ainatheend.jp/news/detail.php?id=113…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132566/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Aina The End, chorus & dancer audition held",
-      "translatedExcerpt": "Aina The End has announced that they will hold chorus and dancer auditions in conjunction with their hall tour in 2027. In preparation for Aina The End's longest hall tour, which will include 22 performances in 19 cities, including Taipei, which was recently lifted, Aina The End is looking for chorus and dancers to work with them to create the stage with the aim of further improving their live performance. In order to give top priority to the quality of the stage, the screening will proceed through a careful selection process, with the policy of not hiring applicants if there are no suitable candidates. In addition to Aina The End herself, the judges include Yukannu, a chorus and dancer who has supported Aina's solo activities since the beginning. Successful candidates will also receive guidance and rehearsals in preparation for the actual performance. Click here for details on recruitment requirements and how to apply https://ainatheend.jp/news/detail.php?id=113…"
-    },
-    {
-      "id": "2de61e875f9d77ce",
-      "title": "中島健人、新曲「超☆HENSHIN」先行配信へ。配信ジャケット公開＋シングル収録曲も発表",
-      "link": "https://barks.jp/news/1101845",
-      "publishedAt": "2026-11-01T10:31:43.000Z",
-      "excerpt": "中島健人が、4thシングル「超☆HENSHIN」の表題曲を11月13日(金)から各種ストリーミング・ダウンロードサービスにて先行配信する。発表にあわせ配信ジャケットも公開された。 配信ジャケットでは、ヒーローケンティーがバイクに乗ってみんなのもとへ駆け抜けていく様を正面から捉えている。さらに楽曲「超☆HENSHIN」先行配信を記念したキャンペーンも実施予定だ。 また、12月16日(水)に発売となるシングルの収録楽曲も公開となった。こちらは中島健人自身が作詞作曲したクリスマスソング「クリスマスChu」、過去のソロ曲「Black Cinderella」の再録など個性豊かな全5曲が形態別に収録される。 ■「超☆HENSHIN」先行配信2026年11月13日(金)0:00~ 配信スタートhttps://Kento…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/19191100/%E4%B8%AD%E5%B3%B6%E5%81%A5%E4%BA%BA_4th_Aphoto_s.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Kento Nakajima's new song \"Cho☆HENSHIN\" will be released in advance. Distribution jacket released + single songs announced",
-      "translatedExcerpt": "Kento Nakajima will pre-distribute the title song of his 4th single ``Cho☆HENSHIN'' on various streaming and download services from November 13th (Friday). Along with the announcement, the distribution jacket was also released. The distribution jacket shows Hero Kenty riding a motorcycle and running towards everyone from the front. Additionally, a campaign is planned to commemorate the advance distribution of the song \"Chou☆HENSHIN\". In addition, the songs included in the single, which will be released on Wednesday, December 16th, have also been released. This CD contains a total of 5 unique songs divided into formats, including the Christmas song ``Christmas Chu'' written and composed by Kento Nakajima himself, and a re-recording of his past solo song ``Black Cinderella.'' ■“Super☆HENSHIN” advance distribution November 13, 2026 (Friday) 0:00~ Distribution starts https://Kento…"
     }
   ]
 }

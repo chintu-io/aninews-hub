@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T15:01:54.754Z",
+  "generatedAt": "2026-11-10T15:31:56.172Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 40,
+      "count": 41,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 93,
+      "count": 94,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 273,
+      "count": 271,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 616,
+    "translatedJapaneseArticles": 614,
     "translationAttempts": 159
   },
   "articles": [
+    {
+      "id": "825479ac47f233be",
+      "title": "Millennium Family Anime Casts Mutsumi Tamura as Arthur",
+      "link": "https://crunchyroll.com/news/latest/2026/11/10/millennium-family-anime-casts-mutsumi-tamura-as-arthur",
+      "publishedAt": "2026-11-10T15:26:00.000Z",
+      "excerpt": "New character art and a YouTube short showcase the Benfield family's youngest son",
+      "image": "https://a.storyblok.com/f/178900/960x540/0e8b003363/millennium-family-arthur-chara.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "02ac17f44655e7ef",
+      "title": "Japanese viewers of Godzilla Minus Zero angered by unusual number of restroom goers",
+      "link": "https://soranews24.com/2026/11/11/japanese-viewers-of-godzilla-minus-zero-angered-by-unusual-number-of-restroom-goers/",
+      "publishedAt": "2026-11-10T15:00:45.000Z",
+      "excerpt": "Godzilla films are famous for their subtlety and require complete concentration. Culture Day in Japan was on 3 November, and what better way to celebrate culture than by watching the latest Godzilla film, Godzilla Minus Zero? It was a thought held by many, as the monster movie drew in an amazing 910 million yen (US$5.8M) […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/img_2047.jpg.jpeg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "09a92e141d9d53eb",
       "title": "computer fight、渾身の新ALリリース",
@@ -18386,44 +18420,6 @@
         "accent": "#ff6784",
         "language": "en"
       }
-    },
-    {
-      "id": "c89335c43ed2becf",
-      "title": "DIIV、ニューAL『ZIRP!』より「Dare Me」MV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167038",
-      "publishedAt": "2026-11-02T01:45:00.000Z",
-      "excerpt": "DIIV（ダイヴ）が、ニュー・アルバム『ZIRP!』をリリースし、最新シングル「Dare Me」を",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167038/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "DIIV releases MV for “Dare Me” from new AL “ZIRP!”",
-      "translatedExcerpt": "DIIV releases new album “ZIRP!” and latest single “Dare Me”"
-    },
-    {
-      "id": "1b8ff6ba1de62c94",
-      "title": "「俺たちの箱根駅伝」第4話は「見どころが多過ぎる感動回」 「ケ－ブルを通すシ－ンは泣いた」「学生連合チ－ムのミ－ティングが胸熱」",
-      "link": "https://www.billboard-japan.com/d_news/detail/167040",
-      "publishedAt": "2026-11-02T01:30:00.000Z",
-      "excerpt": "大泉洋が主演するドラマ「俺たちの箱根駅伝」（日本テレビ系）の第4話が、31日に放送された。（※以下",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167040/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Episode 4 of “Our Hakone Ekiden” is “a moving episode with so many highlights” “The scene where the cables are passed through made me cry” “The student union team meeting was heartwarming”",
-      "translatedExcerpt": "The fourth episode of the drama ``Oretachi no Hakone Ekiden'' (Nippon Television Network) starring Yo Oizumi was broadcast on the 31st. (※below"
     }
   ]
 }

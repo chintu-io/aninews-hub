@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T07:31:44.094Z",
+  "generatedAt": "2026-11-10T08:01:52.399Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 134,
+      "count": 133,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 272,
+      "count": 273,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 611,
+    "translatedJapaneseArticles": 612,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "dcf0aa6e85978a72",
+      "title": "【MUSIC AWARDS JAPAN 2027】6/19 TOYOTA ARENA TOKYO開催決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167317",
+      "publishedAt": "2026-11-10T08:00:00.000Z",
+      "excerpt": "国際音楽賞【MUSIC AWARDS JAPAN 2027】の授賞式が、2027年6月19日にTO",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167317/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[MUSIC AWARDS JAPAN 2027] 6/19 TOYOTA ARENA TOKYO to be held",
+      "translatedExcerpt": "The award ceremony for the International Music Awards [MUSIC AWARDS JAPAN 2027] will be held on June 19, 2027 at TO"
+    },
     {
       "id": "86fc205b8aafe871",
       "title": "ビリー・アイドル、【ロックの殿堂】入りと式典で会いたい人について語る",
@@ -18397,23 +18416,6 @@
       },
       "translatedTitle": "Kento Nakajima's new song \"Cho☆HENSHIN\" will be released in advance. Distribution jacket released + single songs announced",
       "translatedExcerpt": "Kento Nakajima will pre-distribute the title song of his 4th single ``Cho☆HENSHIN'' on various streaming and download services from November 13th (Friday). Along with the announcement, the distribution jacket was also released. The distribution jacket shows Hero Kenty riding a motorcycle and running towards everyone from the front. Additionally, a campaign is planned to commemorate the advance distribution of the song \"Chou☆HENSHIN\". In addition, the songs included in the single, which will be released on Wednesday, December 16th, have also been released. This CD contains a total of 5 unique songs divided into formats, including the Christmas song ``Christmas Chu'' written and composed by Kento Nakajima himself, and a re-recording of his past solo song ``Black Cinderella.'' ■“Super☆HENSHIN” advance distribution November 13, 2026 (Friday) 0:00~ Distribution starts https://Kento…"
-    },
-    {
-      "id": "216f917cc9dee8a9",
-      "title": "Hiromasa Okujima Shijūkara ga Naku Koro ni Manga Ends in Next Chapter",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-01/hiromasa-okujima-shijukara-ga-naku-koro-ni-manga-ends-in-next-chapter/.243394",
-      "publishedAt": "2026-11-01T10:15:00.000Z",
-      "excerpt": "Series following lifestyle of 41-year-old businessman debuted in December 2025",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gK5/cms/news.10/243394/vs48o1lv.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
     }
   ]
 }

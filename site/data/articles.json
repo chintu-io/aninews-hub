@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T14:01:57.668Z",
+  "generatedAt": "2026-11-10T14:32:23.938Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 136,
+      "count": 137,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 278,
+      "count": 277,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 216,
+      "count": 217,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 136,
+      "count": 135,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 617,
+    "translatedJapaneseArticles": 616,
     "translationAttempts": 159
   },
   "articles": [
+    {
+      "id": "271fb6067f07d713",
+      "title": "Kis-My-Ft2、34thシングル 「La la la」発売決定",
+      "link": "https://barks.jp/news/1103749",
+      "publishedAt": "2026-11-10T14:14:57.000Z",
+      "excerpt": "Kis-My-Ft2が、通算34枚目となるニューシングル「La la la」を12月23日(水)に発売することが決定した。 この曲は、“受け取った優しさや温もりを、次は自分が誰かに贈る──”そんな感謝の気持ちと、人から人へと受け継がれる愛のかたちを描いた楽曲。 Kis-My-Ft2がデビューして15年間の歩みの中で育まれた皆との絆を、爽やかでエモーショナルな誰もが楽しめるJ-POPサウンドに乗せ、一人ひとりの想いが重なり合い、やがて大きな輪となって未来へ広がっていくことを願った「キスマイからの愛の讃歌」となっている。 ■「La la la」配信リンク：https://Kis-My-Ft2.lnk.to/Lalala11/10(火)0:00～ 配信開始 ※日本時間 ■34th Single「La la la…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/10231348/group_lalala.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Kis-My-Ft2, 34th single “La la la” to be released",
+      "translatedExcerpt": "Kis-My-Ft2 has decided to release their 34th new single \"La la la\" on Wednesday, December 23rd. This song depicts the feeling of gratitude and the form of love that is passed down from person to person. It is a ``hymn of love from Kis-My-Ft2'' that expresses the bonds that have been cultivated over the 15 years since Kis-My-Ft2 debuted with a refreshing and emotional J-POP sound that everyone can enjoy, and hopes that each person's feelings will overlap and eventually form a large circle and spread into the future. ■“La la la” distribution link: https://Kis-My-Ft2.lnk.to/Lalala11/10 (Tue) 0:00~ Distribution starts *Japan time ■34th Single “La la la…"
+    },
     {
       "id": "afffc91b737b4ea1",
       "title": "NOMELON NOLEMON、ガンダム挿入歌「ミッドナイト・リフレクション」ライブ映像を公開",
@@ -185,6 +204,23 @@
       },
       "translatedTitle": "NOMELON NOLEMON releases live video of Gundam insert song \"Midnight Reflection\"",
       "translatedExcerpt": "Live video of NOMELON NOLEMON's song \"Midnight Reflection\" is available on YouTube"
+    },
+    {
+      "id": "8ec46943f200098e",
+      "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-10/kodansha-comic-tint-digital-magazine-to-end-after-9-years/.243665",
+      "publishedAt": "2026-11-10T13:07:45.000Z",
+      "excerpt": "Last issue comes out on January 1, manga to move to Ane Friend, Palcy services",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI9/cms/news.10/243665/comictint.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "70237503fc6d9f68",
@@ -5322,7 +5358,7 @@
       "title": "Fuji TV Plans to Introduce Generative AI Across All Its Live-Action Dramas by 2027",
       "link": "https://news.sankakucomplex.com/n/4BvhAMYF6zvRp428fKkHpQ",
       "publishedAt": "2026-11-07T10:00:24.000Z",
-      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks.",
+      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks. The company…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5868,7 +5904,7 @@
       "title": "Japanese User Lambasted for Trying to Look up Skirt in Ocarina of Time Remake",
       "link": "https://news.sankakucomplex.com/n/dKx-LP8K-muwGhWrwQeoeA",
       "publishedAt": "2026-11-07T06:00:21.000Z",
-      "excerpt": "The internet’s usual suspects are once again upset at someone doing something they don’t like, as a Japanese Twitter user who posted a video of himself attempting to look up the skirt of a female character in Ocarina of Time remake earned a great deal of criticism.",
+      "excerpt": "The internet’s usual suspects are once again upset at someone doing something they don’t like, as a Japanese Twitter user who posted a video of himself attempting to look up the skirt of a female character in Ocarina of Time remake earned a great deal of criticism. The individual uploaded footage…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6086,7 +6122,7 @@
       "title": "Hagure Idol Jigoku Hen Anime Officially Announced",
       "link": "https://news.sankakucomplex.com/n/LOm5fvTaGvH2Q2r4uY1aKA",
       "publishedAt": "2026-11-07T02:00:15.000Z",
-      "excerpt": "The controversial action manga Booty Royale: Never Go Down Without a Fight!, known in Japan as Hagure Idol Jigoku-hen, is officially receiving a television anime adaptation scheduled to premiere in January 2027.",
+      "excerpt": "The controversial action manga Booty Royale: Never Go Down Without a Fight!, known in Japan as Hagure Idol Jigoku-hen, is officially receiving a television anime adaptation scheduled to premiere in January 2027. The announcement was made on November 6 by animation label Deregula, which specialize…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6207,7 +6243,7 @@
       "title": "Pixiv Loses Wise Payouts After Account Suspension",
       "link": "https://news.sankakucomplex.com/n/pyhCRPyi8u_w6HQH2gcXwQ",
       "publishedAt": "2026-11-06T22:00:28.000Z",
-      "excerpt": "Japanese illustration platform Pixiv has announced that Wise will no longer be available for creator payouts starting in November 2026, leaving some international artists unable to withdraw their earnings and forcing others to abandon their subscriptions.",
+      "excerpt": "Japanese illustration platform Pixiv has announced that Wise will no longer be available for creator payouts starting in November 2026, leaving some international artists unable to withdraw their earnings and forcing others to abandon their subscriptions. The decision affects several Pixiv-operat…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18388,44 +18424,6 @@
       },
       "translatedTitle": "Queen releases ``Bohemian Rhapsody'', ``Born to Love You'', and ``Legendary Champion'' as the first official Japanese translated MV",
       "translatedExcerpt": "Queen's famous song \"Bohemian Rhapsody\" was released as a single in the UK on October 31, 1975."
-    },
-    {
-      "id": "71f993236dfcbc31",
-      "title": "サム・スミス、【MAJ】で披露した「My Guy」にジェイコブ・ラスクを迎えた新ver.公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167033",
-      "publishedAt": "2026-11-02T00:15:00.000Z",
-      "excerpt": "サム・スミスが、今年6月開催の【MUSIC AWARDS JAPAN 2026】で披露した「My",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167033/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Sam Smith releases new version of “My Guy” performed at [MAJ] featuring Jacob Rusk",
-      "translatedExcerpt": "Sam Smith performed “My"
-    },
-    {
-      "id": "a58e3cbfd694be83",
-      "title": "ヒグチアイ、キャリア初の弾き語りALリリース",
-      "link": "https://ototoy.jp/news/132570",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "excerpt": "ヒグチアイが11月18日にキャリア初の弾き語りアルバム『備忘録』を配信リリースすることが決定した。 アルバムにはインディーズ時代から、テイチク時代、ポニーキャニオン移籍後にリリースした楽曲に加え、新曲「砕石」まですべて新たにレコーディングした全13曲を収録。 また、最新曲「トライアングル」のミュージックビデオも公開された。 リリース情報 【収録曲】 『トライアングル』 https://ototoy.jp/_/default/p/4273392 https://www.youtube.com/watch?v=udTs9ZbxojI アーティスト情報 https://www.instagram.com/higuchiai.1128/ https://x.com/HiguchiAi",
-      "image": "https://imgs.ototoy.jp/news/image.php/132570/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Higuchiai releases her first singing AL in her career.",
-      "translatedExcerpt": "It has been decided that Higuchiai will digitally release her career's first singing album ``Memoroku'' on November 18th. The album includes a total of 13 newly recorded songs from their indie days, Teichiku era, songs released after moving to Pony Canyon, and even the new song \"Kaishi\". Also, the music video for their latest song \"Triangle\" was released. Release information [Song] “Triangle” https://ototoy.jp/_/default/p/4273392 https://www.youtube.com/watch?v=udTs9ZbxojI Artist information https://www.instagram.com/higuchiai.1128/ https://x.com/HiguchiAi"
     }
   ]
 }

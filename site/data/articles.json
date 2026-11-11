@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T14:02:01.553Z",
+  "generatedAt": "2026-11-11T14:32:18.894Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 125,
+      "count": 129,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 97,
+      "count": 98,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 270,
+      "count": 268,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 149,
+      "count": 148,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 74,
+      "count": 72,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 627,
+    "translatedJapaneseArticles": 623,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "1584575fda650f13",
+      "title": "The Legend of Zelda: Ocarina of Time Remake Becomes Fastest-Selling Switch 2 Game",
+      "link": "https://crunchyroll.com/news/latest/2026/11/11/the-legend-of-zelda-ocarina-of-time-remake-fastest-selling-switch-2-game",
+      "publishedAt": "2026-11-11T14:17:00.000Z",
+      "excerpt": "Link’s updated adventure moves 5.2 million units in first four days",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/101488ccd7/thelegendofzeldaocarinaoftime_46.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "788b68d941d282e7",
+      "title": "Ettone、「はじめまして」が詰まった1st EP『お見知りおき』配信開始",
+      "link": "https://barks.jp/news/1103959",
+      "publishedAt": "2026-11-11T14:07:23.000Z",
+      "excerpt": "Ettoneが本日11月11日（水）、1st EP『お見知りおき』を配信リリースした。 あわせて、韓国のアーティスト・Paul Blancoを迎えたリード曲「君と灯籠 feat. Paul Blanco」のミュージックビデオも公開。国内外の多彩な作り手とともに音楽を生み出してきた7人が、その入り口となる一枚を届ける。 「えっとね、」と、本当の気持ちを話し始めるように──Ettoneの音楽づくりはメンバー自身の言葉や感情から始まる。2025年9月のデビュー以来、楽曲のテーマやコンセプト、作詞・作曲など制作の起点から参加し、O21 Label Head・ALYSAとともに、さまざまなアーティスト／クリエイターとのコライトを重ねてきた。 初のEP『お見知りおき』に集まったのは、その出会いから生まれた全9曲。We…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/11230652/265661_2026_10_27_Ettone_1203.jpeg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Ettone starts distribution of 1st EP “Oumichi Oki” filled with “Nice to meet you”",
+      "translatedExcerpt": "Ettone released their 1st EP ``Omi Shichi Oki'' today, November 11th (Wednesday). In addition, the music video for the lead song \"Kimi to Toro feat. Paul Blanco\" featuring Korean artist Paul Blanco has also been released. Seven people who have created music together with a variety of creators from Japan and abroad will deliver a piece that will serve as an entry point. ``Well,'' as if they were starting to talk about their true feelings -- Ettone's music creation begins with the members' own words and emotions. Since his debut in September 2025, he has been involved in the production from the beginning, including song themes and concepts, lyrics and composition, and has collaborated with various artists/creators along with O21 Label Head ALYSA. A total of 9 songs were born from that encounter into the first EP ``Omi Chichi Oki''. We…"
+    },
     {
       "id": "8dfa8a551be3e9db",
       "title": "41.5% of Japanese Middle Schoolers Doubt Benefits of Increased Immigration",
@@ -181,6 +217,74 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "a8675125376d2b22",
+      "title": "Elden Ring: Distant Tales Between Manga Ends in Next Chapter",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-11/elden-ring-distant-tales-between-manga-ends-in-next-chapter/.243710",
+      "publishedAt": "2026-11-11T13:59:04.000Z",
+      "excerpt": "Final chapter's date to be determined for manga which launched in July 2024",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI0/cms/news.9/234154/elden-ring-distant-tales-between-vol.1.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "1845f3a774692d26",
+      "title": "Sayaka Mogi's Happy Hypoxia Manga Ends",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-11/sayaka-mogi-happy-hypoxia-manga-ends/.243705",
+      "publishedAt": "2026-11-11T13:53:15.000Z",
+      "excerpt": "Manga launched in June 2025",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF8/cms/news.10/243705/happyhypoxia.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "ea4611a10364aa2d",
+      "title": "Unbreakable ~Yaburezaru Monotachi~ Manga Resumes With Final Arc Next Spring",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-11/unbreakable-~yaburezaru-monotachi~-manga-resumes-with-final-arc-next-spring/.243703",
+      "publishedAt": "2026-11-11T13:50:09.000Z",
+      "excerpt": "Adaptation moves from Young Champion magazine to Yanchan Web",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF7/cms/news.10/243703/711acpuhg2l.sl1500.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "74a52f7c081cd91e",
+      "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
+      "publishedAt": "2026-11-11T13:35:28.000Z",
+      "excerpt": "Sōma Saitō, Ryōta Suzuki join cast",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIF/cms/news.10/243719/c9c71aa5-d17e-44a7-bd67-790d1696af48.jpeg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -8262,7 +8366,7 @@
       "title": "Fuji TV Plans to Introduce Generative AI Across All Its Live-Action Dramas by 2027",
       "link": "https://news.sankakucomplex.com/n/4BvhAMYF6zvRp428fKkHpQ",
       "publishedAt": "2026-11-07T10:00:24.000Z",
-      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks.",
+      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks. The company…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18328,116 +18432,6 @@
       },
       "translatedTitle": "アジアの最前線を走るアーティストが渋谷に集結、〈BiKN shibuya 2026〉来週日曜日開催、今年のテーマは「渋谷系?!」",
       "translatedExcerpt": "アジアから世界をリードするアーティストたちが渋谷に集結。今年も開催される〈BiKN shibuya〉が、いよいよ来週日曜日と迫った。 今年の〈BiKN shibuya〉は、11月8日 (日) 、会場は渋谷 Spotify 渋谷 O-EAST, duo MUSIC EXCHANGE, O-nest, 7thFLOOR の4会場。出演は全21組。 今年のヘッドライナーは、上海発、Chace。Tomorrowland、Lollapaloozaからも声がかかる、世界で注目を集める新世代アーティスト。今回は日本初のフルバンド編成で出演。O-EASTにて、70分のロングセット。 duo MUSIC EXCHANGEのトリは、日本から、Hammer Head Shark。オルタナだシューゲだと評されるも、どこ吹く風、自…"
-    },
-    {
-      "id": "298c914aad413049",
-      "title": "Smoking Cat Anime Yani Neko Gets Official Catnip Alcohol",
-      "link": "https://news.sankakucomplex.com/n/PW1UvidpmAZg98n-7XIQqg",
-      "publishedAt": "2026-11-03T08:00:13.000Z",
-      "excerpt": "The notoriously trashy catgirls of Yani Neko are getting their own alcoholic beverage, with Japanese retailer Kurand announcing a special collaboration featuring a catnip-based liquor inspired by the anime’s cigarette-smoking protagonist.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e733140d0d63126a",
-      "title": "Smoking Cat Anime Yani Neko Gets Official Catnip Alcohol",
-      "link": "https://news.sankakucomplex.com/n/Ic6fvLAgMPVLhsPfPOsMzw",
-      "publishedAt": "2026-11-03T08:00:13.000Z",
-      "excerpt": "The notoriously trashy catgirls of Yani Neko are getting their own alcoholic beverage, with Japanese retailer Kurand announcing a special collaboration featuring a catnip-based liquor inspired by the anime’s cigarette-smoking protagonist.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "3955830ff18bfb0e",
-      "title": "【ライブレポート】KiiiKiii、初の日本ワンマン＜KiiiKiii FesTiiival＞に描いた忘れがたい一夜「幸せと感動が今ここにあると感じています」",
-      "link": "https://barks.jp/news/1102222",
-      "publishedAt": "2026-11-03T06:25:00.000Z",
-      "excerpt": "K-POPガールズグループ・KiiiKiiiが10月25日、東京・Zepp Haneda(TOKYO)にて初の日本ワンマン公演＜KiiiKiii FesTiiival JAPAN Edition＞を開催した。デビュー後初の海外ファンコンサートとなった本公演のチケットは全席完売。2階席までぎっしり埋め尽くされた会場で、TiiiKiii(ファンの総称)を大いに魅了した一夜をレポートする。 開演時刻になると、まばゆい光に包まれるような映像がモニターに映し出され、5人の登場を待つフロアの熱気が一気に高まった。颯爽とステージに現れたメンバーは、3rd EP収録曲「SWEET SOUR」のコンセプトフォトでも披露した制服ルック。“イケ散らかした”JKモードで、1曲目「DANCING ALONE」から弾むようなステップ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/03142628/%E2%98%85CCC02095-1024x683.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Live Report] KiiiKiii's unforgettable night during their first one-man show in Japan <KiiiKiii FesTiiival> \"I feel that happiness and excitement are here now\"",
-      "translatedExcerpt": "On October 25th, K-POP girl group KiiiKiii held their first one-man performance in Japan <KiiiKiii FesTiiival JAPAN Edition> at Zepp Haneda (TOKYO) in Tokyo. All tickets for this performance, which was their first overseas fan concert after their debut, were sold out. We report on a night that captivated TiiiKiii (a collective term for fans) in a venue that was packed to the 2nd floor. When the show started, a video that appeared to be surrounded by dazzling light was displayed on the monitor, and the excitement on the floor quickly increased as the five performers waited for their appearance. The members dashingly appeared on stage wearing uniform looks that were also shown in the concept photo for the song \"SWEET SOUR\" included in their 3rd EP. In her “cool and messy” JK mode, she takes bouncy steps from the first song “DANCING ALONE”…"
-    },
-    {
-      "id": "3c1c02f7c0adb4a9",
-      "title": "Dominic Fike、全15曲を収録した新ALリリース",
-      "link": "https://ototoy.jp/news/132596",
-      "publishedAt": "2026-11-03T06:00:00.000Z",
-      "excerpt": "Dominic Fikeが2026年10月30日(金)にニューアルバム『HOW TO QUIT SMOKING』をリリースした。 本作は、北米ツアーの移動中に楽曲制作・レコーディングを進めるという、これまでにない制作スタイルから誕生した全15曲のアルバム。ホテルの一室、ツアーバス、飛行機の中、そして旅先のさまざまな場所を制作拠点とし、その瞬間に生まれる感情や風景を音楽へと落とし込んでいる。 本作には、Emma Ogier、Gabriel Jacoby、Grace Ives、Hether、Love Spells、Jorjiana、Danny Brown、reggie、Tay-Kら、多彩なアーティストが参加。さらに、Kevin Abstractをはじめとするクリエイターたちとの交流も、アルバムの制作過程に影響…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132596/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Dominic Fike releases new AL with 15 songs",
-      "translatedExcerpt": "Dominic Fike released his new album ``HOW TO QUIT SMOKING'' on Friday, October 30, 2026. This is a 15-song album born from an unprecedented production style, in which the songs were produced and recorded while traveling on a North American tour. He uses hotel rooms, tour buses, airplanes, and other locations as his production bases, translating the emotions and scenery that arise in those moments into music. This work features a variety of artists including Emma Ogier, Gabriel Jacoby, Grace Ives, Heather, Love Spells, Jorjiana, Danny Brown, reggie, and Tay-K. Furthermore, interactions with creators such as Kevin Abstract influenced the album production process..."
-    },
-    {
-      "id": "9b1fa481ebc66d5a",
-      "title": "LEX、新曲「真っ直ぐ生きてゆく」MV公開 TOYOTA ARENA TOKYO公演のライブ映像使用",
-      "link": "https://www.billboard-japan.com/d_news/detail/167085",
-      "publishedAt": "2026-11-03T05:55:00.000Z",
-      "excerpt": "LEXが、新曲「真っ直ぐ生きてゆく」のミュージックビデオを公開した。 本作には、10月30日に",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167085/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "LEX releases MV for new song “Mahonshon Ikiru Iku” using live footage from TOYOTA ARENA TOKYO performance",
-      "translatedExcerpt": "LEX has released the music video for their new song \"Mahonshon Iki Iruyuku\". In this work, on October 30th,"
-    },
-    {
-      "id": "21c5348e6c8b49f0",
-      "title": "BAND-MAID、新曲「BONDS」がパチンコ新機種『e義風堂々!! ～兼続と慶次～4』搭載決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167091",
-      "publishedAt": "2026-11-03T05:50:00.000Z",
-      "excerpt": "BAND-MAIDの新曲「BONDS」が、2027年1月より全国のパチンコホールに導入予定の新機種",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167091/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "BAND-MAID's new song \"BONDS\" will be included in the new pachinko machine \"e Gifu Dodo!! ~Kanetsugu to Keiji~4\"",
-      "translatedExcerpt": "BAND-MAID's new song \"BONDS\" will be featured on a new machine scheduled to be introduced at pachinko halls nationwide from January 2027."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T20:01:56.329Z",
+  "generatedAt": "2026-11-11T20:31:57.551Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 133,
+      "count": 134,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 102,
+      "count": 103,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 210,
+      "count": 208,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 143,
+      "count": 142,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 74,
+      "count": 75,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,61 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 614,
+    "translatedJapaneseArticles": 612,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "f9d1f796ac05b4c9",
+      "title": "Nara Deer Injuries Hit Record High, Over 70% of Hospitalized Victims Are Foreigners",
+      "link": "https://news.sankakucomplex.com/n/gh_w-u4k1My-7Zna9xBvcA",
+      "publishedAt": "2026-11-11T20:14:27.000Z",
+      "excerpt": "Deer-related injuries in Japan’s famous Nara Park have reached a record high in 2026, with foreign nationals accounting for more than 70% of people transported to hospital after encounters with the animals.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "2a626eb1f60361e5",
+      "title": "Kamen Rider MY-TH Launches Official Tom and Jerry Crossover",
+      "link": "https://crunchyroll.com/news/latest/2026/11/11/kamen-rider-myth-tom-and-jerry-crossover",
+      "publishedAt": "2026-11-11T20:07:00.000Z",
+      "excerpt": "Ride X-Eggs, Seed X-Eggs and more will be available as part of the collab",
+      "image": "https://a.storyblok.com/f/178900/990x564/d131ca6079/kamen-rider-myth-tom-jerry.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "098987fc2c06ad3b",
+      "title": "Final Fantasy XIV Game Band The Primals' Bassist Eikichi Iwai Dies",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-11/final-fantasy-xiv-game-band-the-primals-bassist-eikichi-iwai-dies/.243729",
+      "publishedAt": "2026-11-11T19:35:02.000Z",
+      "excerpt": "Iwai had just performed concert with MMORPG's official rock band at event in Tokyo on November 1",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gB6/cms/news.10/243729/eikichi-iwai-primals.webp",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "9ccac2f0b09a88ba",
       "title": "Historical-themed illumination display returns to Osaka Castle this winter",
@@ -18351,63 +18402,6 @@
       },
       "translatedTitle": "WILD BLUE will be in charge of the new ending theme for the TV anime \"Bokura ga Chosen Best Adventure\". Announcement of 2027 tour",
       "translatedExcerpt": "WILD BLUE has announced that they will be in charge of the new ending theme song for the TV animation ``Bokura ga Chosen Best Adventure'', which is being broadcast every Sunday at 9am on Fuji TV and other channels. This anime is the first project of the \"Digimon 30th Anniversary Project\" in preparation for the memorable anniversary year of \"Digimon\" which will reach its 30th anniversary in 2027. Broadcasting will begin on October 4, 2026, with episodes selected by votes from Digimon fans from all over the world, all remastered, from four works that were serialized as early TV series, ``Digimon Adventure,'' ``Digimon Adventure 02,'' ``Digimon Tamers,'' and ``Digimon Frontier.'' WILD BLUE will serve as the new ending theme song for the broadcast starting December 27th. this…"
-    },
-    {
-      "id": "1bb4ccb69df7ad85",
-      "title": "キタニタツヤ、MVでタキシード姿を披露 「君と生きて君と死にたい！」明日公開へ",
-      "link": "https://barks.jp/news/1102220",
-      "publishedAt": "2026-11-03T12:00:00.000Z",
-      "excerpt": "キタニタツヤが、2026年11月4日に同時発売するオリジナルアルバム『DEKAI』/『PURE』より、『PURE』に収録される「君と生きて君と死にたい！」のMVを公開することを発表した。 MVでは、キタニタツヤがタキシード姿を披露。大量のマネキンたちと結婚式を開くといった、ハッピーな雰囲気とコミカルでシュールな世界観が共存した作品に仕上がっているという。なお、MVは11月4日20時にプレミア公開される。 アルバム『DEKAI』/『PURE』は、ともに完全生産限定盤と通常盤の二形態で販売される。完全生産限定盤のBlu-rayには収録曲のMVが収録されるほか、ジャケット絵柄がプリントされたTシャツなどが封入されたBOX仕様に。また、新たにアルバム限定のキタニタツヤのインタビュー、それぞれのアルバムジャケットか…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/01/09122436/Kitani_Asha_2026_m.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Tatsuya Kitani shows off a tuxedo in the music video “I want to live with you and die with you!” To be released tomorrow",
-      "translatedExcerpt": "Tatsuya Kitani has announced that he will release the music video for \"I want to live with you and die with you!\" from his original album \"DEKAI\"/\"PURE\", which will be released simultaneously on November 4, 2026. In the MV, Tatsuya Kitani appears in a tuxedo. The work is said to have a happy atmosphere, such as a wedding with a large number of mannequins, and a comical and surreal view of the world. The music video will be premiered on November 4th at 8pm. Both albums ``DEKAI'' and ``PURE'' will be sold in two forms: a limited edition and a regular edition. The limited edition Blu-ray will not only include music videos for the songs, but will also come in a box containing a T-shirt with the jacket design printed on it. Also, a new album limited interview with Tatsuya Kitani, each album jacket..."
-    },
-    {
-      "id": "ccd5424657e8e3fe",
-      "title": "Mellocat、地元・広島県福山市をテーマに描いた新曲「Hometown」今夜リリース",
-      "link": "https://barks.jp/news/1102342",
-      "publishedAt": "2026-11-03T11:55:53.000Z",
-      "excerpt": "Mellocatが、新曲「Hometown」を2026年11月3日24時（11月4日0時）に配信リリースすることを発表した。 本楽曲は、本人が経験してきた家族との出来事や、地元・広島県福山市をテーマにその想いをリリックへ落とし込んだ楽曲で、自身の人生観やルーツを色濃く映し出しているという。トラックは本人がプロデュースを担当し、生楽器を取り入れたネオソウル色の強いサウンドアプローチを採用。現在のMellocatが持つ音楽性や価値観を最大限に投影した作品であり、アーティストとしての輪郭や独自性を明確に打ち出す一曲になったとのことだ。また、楽曲への思いを赤裸々に綴ったセルフライナーノーツも公開されたので、ぜひチェックしてほしい。 なお、11月4日20時にはMVも公開される。Mellocatの近年の映像作品を手が…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/03205331/261022_Mellocat_Artist-Photo.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Mellocat releases new song “Hometown” based on their hometown, Fukuyama City, Hiroshima Prefecture tonight",
-      "translatedExcerpt": "Mellocat has announced that their new song \"Hometown\" will be released for distribution at 24:00 on November 3, 2026 (0:00 on November 4). This song is a song that reflects the events he has experienced with his family and his feelings about his hometown, Fukuyama City, Hiroshima Prefecture, into lyrics, and it is said to strongly reflect his own outlook on life and roots. The track was produced by himself and uses a strong neo-soul sound approach that incorporates live instruments. It is a work that reflects Mellocat's current musicality and values ​​to the fullest, and is said to be a song that clearly reveals the contours and uniqueness of Mellocat as an artist. In addition, self-liner notes have been released in which he candidly writes about his thoughts on the song, so be sure to check it out. The music video will also be released on November 4th at 8pm. Check out Mellocat's recent video works..."
-    },
-    {
-      "id": "00abb804964f2c15",
-      "title": "NEK!、台湾の音楽フェス〈浮現祭 EMERGE FEST 2027〉出演決定",
-      "link": "https://ototoy.jp/news/132602",
-      "publishedAt": "2026-11-03T11:00:00.000Z",
-      "excerpt": "NEK!が、台湾で開催される音楽フェスティバル〈浮現祭 EMERGE FEST 2027〉に出演することが決定した。 台湾・台中の清水鰲峰山運動公園にて2027年2月20日、21日に開催される〈浮現祭 EMERGE FEST 2027〉は、アジア各国の気鋭ロックアクトが集結し、チケットが6年連続でソールドアウトを記録している台湾屈指の野外フェス。NEK!にとって初の海外大型フェス出演となる。 さらに国内では、2027年1月10日の大阪・ESAKA MUSE公演を皮切りに、全国11カ所12公演を巡る全国ツアー〈NEK! LIVE TOUR 2027〉の開催を控える。同ツアーはHikaの地元である長崎や、初の北海道でのワンマンライブなど初進出エリア含めたツアーとなっており、ファイナルは3月22日に東京・恵比寿…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132602/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "NEK! to perform at Taiwanese music festival <Ukigensai EMERGE FEST 2027>",
-      "translatedExcerpt": "It has been decided that NEK! will appear at the music festival <Ukigensai EMERGE FEST 2027> to be held in Taiwan. EMERGE FEST 2027, which will be held on February 20th and 21st, 2027 at Qingshui Weifengshan Sports Park in Taichung, Taiwan, will bring together up-and-coming rock acts from all over Asia, and is one of Taiwan's best outdoor festivals, with tickets selling out for six consecutive years. This will be NEK!'s first appearance at a major overseas festival. Furthermore, in Japan, they will be holding a nationwide tour called ``NEK! LIVE TOUR 2027'', which will include 12 performances in 11 locations nationwide, starting with the ESAKA MUSE performance in Osaka on January 10, 2027. The tour will include Hika's hometown of Nagasaki and her first one-man live in Hokkaido, which will be her first foray into the area, and the final will be held in Ebisu, Tokyo on March 22nd."
     }
   ]
 }

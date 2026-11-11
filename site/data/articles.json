@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T03:31:50.962Z",
+  "generatedAt": "2026-11-11T04:01:55.069Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 140,
+      "count": 141,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 263,
+      "count": 264,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 216,
+      "count": 214,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,67 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 604,
+    "translatedJapaneseArticles": 603,
     "translationAttempts": 159
   },
   "articles": [
+    {
+      "id": "1d1af70ae20efeea",
+      "title": "CUTIE STREET、1stアルバム『CUTIE LAND』収録曲を公開 ユニット曲3曲の先行配信スタート",
+      "link": "https://www.billboard-japan.com/d_news/detail/167347",
+      "publishedAt": "2026-11-11T03:45:00.000Z",
+      "excerpt": "CUTIE STREETが、2026年12月2日にリリースとなる1stアルバム『CUTIE LAN",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167347/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "CUTIE STREET releases songs from 1st album “CUTIE LAND” Advance distribution of 3 unit songs begins",
+      "translatedExcerpt": "CUTIE STREET will release their 1st album “CUTIE LAN” on December 2, 2026."
+    },
+    {
+      "id": "7971db08fadb7770",
+      "title": "乃木坂46、雨に打たれながら舞い踊る「君ロス」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167346",
+      "publishedAt": "2026-11-11T03:35:00.000Z",
+      "excerpt": "乃木坂46が、新曲「君ロス」を配信リリースし、ミュージックビデオを公開した。 新曲「君ロス」は",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167346/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Nogizaka46 releases MV for “Kimiros” dancing while being hit by the rain",
+      "translatedExcerpt": "Nogizaka46 has released a new song \"Kimiros\" and released the music video. The new song “Kimiros” is"
+    },
+    {
+      "id": "03968c9e9df5daa1",
+      "title": "【ビルボード】“ニコニコ VOCALOID SONGS TOP20”、ryo「LEGENDS」3週連続首位に",
+      "link": "https://www.billboard-japan.com/d_news/detail/167345",
+      "publishedAt": "2026-11-11T03:30:00.000Z",
+      "excerpt": "2026年11月11日公開（集計期間：2026年11月2日～11月8日）のBillboard JA",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167345/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] “NicoNico VOCALOID SONGS TOP20”, ryo “LEGENDS” tops the list for 3 weeks in a row",
+      "translatedExcerpt": "Billboard JA released on November 11, 2026 (collection period: November 2, 2026 - November 8, 2026)"
+    },
     {
       "id": "36a5cef35b842137",
       "title": "CUTIE STREET、1stアルバムよりユニット曲3曲を同時先行配信",
@@ -204,6 +261,23 @@
       },
       "translatedTitle": "Ryuichi Sakamoto will hold a talk event on November 24th to commemorate the publication of his English autobiography “Music Sets You Free”",
       "translatedExcerpt": "A talk event commemorating the publication of Ryuichi Sakamoto's English autobiography \"Music Sets You Free\" will be held on November 24th."
+    },
+    {
+      "id": "fd3758b6d91a09d0",
+      "title": "Kodansha Launches 1999Tokoyo Building Horror Game on Steam",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-10/kodansha-launches-1999tokoyo-building-horror-game-on-steam/.243702",
+      "publishedAt": "2026-11-11T03:00:42.000Z",
+      "excerpt": "Visual novel/adventure game launched on Monday for PC",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIE/youtube/C-EVYvtl24s.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "a96897a13ae279f7",
@@ -4247,7 +4321,7 @@
         "language": "ja"
       },
       "translatedTitle": "〈Showa Song Parade〉Kin-chan family gathers on 11/12",
-      "translatedExcerpt": "The performers for the November 12th BS Fuji Showa Kayo Parade have been announced. Starring Imo Kin Trio, Naomi Matsui, Haru Mie, Mami Takahashi, Kinichi Hagimoto (video appearance), and Shingo Kazami (video appearance). This time, the Kin-chan family gathered together. Kindon, Kindoko, Weekly Kinyoubi, Imokin Trio, Warabe, Yosenabe Trio, etc. that were born from the big hit program... They will passionately sing many famous songs born from the big hit program and talk about the behind-the-scenes of unknown hits. An exclusive interview with Kinichi Hagimoto and a message from Shingo Kazami will also be broadcast. The songs to be performed include Imo Kin Trio ``High School Lullaby'', Imo Kin Trio ``Teardrop Detectives'', Imo Kin Trio ``Kin Don! Good, Bad, Ordinary Child Theme'', Shingo Kazami ``Namida no Take a Chance (video appearance)'', Hideyuki Nakayama ``I'm Laughing (Shingo Kazami)'', Naomi Matsui ``Subtle Tokone'', Naomi Matsui..."
+      "translatedExcerpt": "The performers for the November 12th BS Fuji Showa Kayo Parade have been announced. Starring Imo Kin Trio, Naomi Matsui, Haru Mie, Mami Takahashi, Kinichi Hagimoto (video appearance), and Shingo Kazami (video appearance). This time, the Kin-chan family gathered together. Kindon, Kindoko, Weekly Kinyoubi, Imokin Trio, Warabe, Yosenabe Trio, etc. that were born from the big hit program... They will passionately sing many famous songs born from the big hit program and talk about the behind-the-scenes behind the unknown hits. An exclusive interview with Kinichi Hagimoto and a message from Shingo Kazami will also be broadcast. The songs to be performed include Imo Kin Trio ``High School Lullaby'', Imo Kin Trio ``Teardrop Detectives'', Imo Kin Trio ``Kin Don! Good, Bad, Ordinary Child Theme'', Shingo Kazami ``Namida no Take a Chance (video appearance)'', Hideyuki Nakayama ``I'm Laughing (Shingo Kazami)'', Naomi Matsui ``Subtle Tokone'', Naomi Matsui..."
     },
     {
       "id": "cf3298c3012cea05",
@@ -18324,82 +18398,6 @@
       },
       "translatedTitle": "Sambo Master's new song \"Bouquet Sambo Master and Aina The End\" will be released. Netflix “Talk Survivor! DEAD or LAUGH” theme song",
       "translatedExcerpt": "It has been decided that Sambo Master's new song \"Hana Bouquet Sambo Master to Aina The End\" will be released on November 10th (Tuesday). This work is a rearrangement of Sambo Master's signature song \"Bouquet\" released in March 2020 with Aina The End. The Netflix comedy series “Talk Survivor!” will be distributed from the same day. Also serves as the theme song for ``DEAD or LAUGH''. Sambo Master has been in charge of the theme song for all \"Talk Survivor\" series so far, and this is the fourth time they have collaborated together. Along with the release information, the jacket has also been released, and the Pre-add and Pre-save campaigns for this work have also started. If you add the song from the target URL to your Apple Music or Spotify library, everyone will receive “Bouquet Sambo Master and Aina The End…”"
-    },
-    {
-      "id": "75c14286859fc6ed",
-      "title": "サンボマスター×アイナ・ジ・エンド、Netflix『トークサバイバー！DEAD or LAUGH』主題歌を配信リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/167062",
-      "publishedAt": "2026-11-02T09:00:00.000Z",
-      "excerpt": "サンボマスターが、新曲「花束 サンボマスターとアイナ・ジ・エンド」を11月10日に配信リリースする",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167062/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Sambo Master x Aina The End, Netflix “Talk Survivor! DEAD or LAUGH” theme song released for distribution",
-      "translatedExcerpt": "Sambo Master will release a new song “Hanaboutsu Sambo Master to Aina The End” on November 10th."
-    },
-    {
-      "id": "0de29b128c9ee5d9",
-      "title": "大型音楽プロジェクト『D.U.N.K. -DANCE UNIVERSE NEVER KILLED-』4週連続で地上波番組放送。SKY-HIのスペシャルインタビューも放送",
-      "link": "https://barks.jp/news/1102016",
-      "publishedAt": "2026-11-02T09:00:00.000Z",
-      "excerpt": "SKY-HIが発起人を務める大型音楽プロジェクト『D.U.N.K. -DANCE UNIVERSE NEVER KILLED-』の地上波番組『D.U.N.K.』が、日本テレビ系（一部地域を除く）にて、11月7日(土)より4週連続で放送されることが決定した。 『D.U.N.K.』は、2023年にSKY-HIと日本テレビが発足した音楽プロジェクト。音楽のジャンルや事務所の垣根、さらには言語や国境を越え、アーティストたちが音楽やダンスを通じてつながることを目的にスタートした。 本プロジェクトは、テレビ番組の枠を越えて大型音楽イベントへと成長し、＜D.U.N.K. Showcase＞と題したショーケースを4度開催、累計20万人以上を動員してきた。2023年の初開催以降、DREAMS COME TRUE、＆TEAM…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/02171627/1-2.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "The large-scale music project \"D.U.N.K. -DANCE UNIVERSE NEVER KILLED-\" will be broadcast on terrestrial TV for 4 consecutive weeks. A special interview with SKY-HI will also be broadcast.",
-      "translatedExcerpt": "It has been decided that the terrestrial program \"D.U.N.K.\" of the large-scale music project \"D.U.N.K. -DANCE UNIVERSE NEVER KILLED-\", which is the founder of SKY-HI, will be broadcast on Nippon Television (excluding some areas) for four consecutive weeks from November 7th (Saturday). \"D.U.N.K.\" is a music project launched by SKY-HI and Nippon Television in 2023. It was started with the aim of connecting artists through music and dance, transcending music genres, agency boundaries, languages, and national borders. This project has grown beyond the framework of a TV program to become a large-scale music event, holding four showcases entitled <D.U.N.K. Showcase> and mobilizing a total of over 200,000 people. After the first event in 2023, DREAMS COME TRUE, & TEAM…"
-    },
-    {
-      "id": "f22d6c2350c1f151",
-      "title": "米津玄師、劇場版『虎に翼』主題歌に新曲「こんにちはごきげんよう！」決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167064",
-      "publishedAt": "2026-11-02T09:00:00.000Z",
-      "excerpt": "米津玄師の書き下ろし新曲「こんにちはごきげんよう！」が、2027年1月15日に全国公開される劇場版",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167064/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Kenshi Yonezu's new song ``Hello Gokigenyo!'' has been selected as the theme song for the movie ``Tora ni Tsubasa''",
-      "translatedExcerpt": "Kenshi Yonezu's new song \"Hello Gokigenyo!\" will be released nationwide on January 15, 2027."
-    },
-    {
-      "id": "f9eaeb5c5a0af2a4",
-      "title": "Stray Kidsコラボタクシーが、本日より期間限定で登場",
-      "link": "https://barks.jp/news/1102023",
-      "publishedAt": "2026-11-02T08:41:50.000Z",
-      "excerpt": "Stray KidsがS.RIDEとのコラボレーションを実施する。 Stray Kidsが、ワールドツアー＜Stray Kids World Tour ＞を開催、そして11月25日(水)にJAPAN 4th Mini Album『SUIATSU』をリリースすることを記念して、S.RIDEとのコラボレーションが実現。 Stray Kidsのメンバー8人が東京の街を走るタクシーに登場、メンバーそれぞれのビジュアルをまとった各1台限定・全8種類のラッピング車両、さらに、Stray Kidsの映像コンテンツを楽しめる特別車両100台が運行する。 キャンペーン期間中は、タクシーアプリ「S.RIDE®」のマップ上でコラボタクシーの現在位置を確認でき、指定配車することも可能とのこと。また、キャンペーン期間中の一部期間に…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/02174109/S.RIDE%C3%97Stray-Kids%E3%82%B3%E3%83%A9%E3%83%9C%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BCKV.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Stray Kids collaboration taxi is available for a limited time starting today",
-      "translatedExcerpt": "Stray Kids will collaborate with S.RIDE. To commemorate Stray Kids holding their world tour ``Stray Kids World Tour'' and releasing their JAPAN 4th Mini Album ``SUIATSU'' on November 25th (Wednesday), a collaboration with S.RIDE has been realized. Eight members of Stray Kids will appear in taxis running through the streets of Tokyo, and there will be a total of eight types of wrapped vehicles, each with the visuals of each member, as well as 100 special vehicles in which you can enjoy Stray Kids' video content. During the campaign period, you can check the current location of collaboration taxis on the map of the taxi app \"S.RIDE®\" and it is also possible to dispatch a designated taxi. Also, during a part of the campaign period..."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T14:32:18.894Z",
+  "generatedAt": "2026-11-11T15:02:03.136Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 98,
+      "count": 100,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 29,
+      "count": 30,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 217,
+      "count": 216,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 148,
+      "count": 146,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,61 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 623,
+    "translatedJapaneseArticles": 622,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "4c6fa2c561080bd6",
+      "title": "Release the Villains: Askeladd and Setting a Path of Vengeance",
+      "link": "https://crunchyroll.com/news/features/2026/11/11/anime-villains-askeladd",
+      "publishedAt": "2026-11-11T15:00:00.000Z",
+      "excerpt": "How Askeladd’s actions set the course of Thorfinn’s life",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/4412ff58e7/askeladd-from-vinland-saga.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "1212819383c63224",
+      "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+      "link": "https://myanimelist.net/news/74928431?_location=rss",
+      "publishedAt": "2026-11-11T14:46:50.000Z",
+      "excerpt": "The official website of the Mashle (Mashle: Magic and Muscles) television anime revealed additional cast pair, a key visual and a promotional video for its third season on Wednesday. The new season is scheduled to premiere on January 10 at 12.00 a.m. on Tokyo MX, BS11, Gunma TV and Tochigi TV, followed by FBS Fukoka, Chukyo TV, Nagano Asahi, Okayama, Miya…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794408175-e0476084784c967fc79c4578a3bc0dcb.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "76f629f0184c3e8c",
+      "title": "Monogatari Series and Secret Society holoX Announce Collab and Exhibition",
+      "link": "https://crunchyroll.com/news/latest/2026/11/11/monogatari-series-secret-society-holox-collaboration-exhibition",
+      "publishedAt": "2026-11-11T14:37:00.000Z",
+      "excerpt": "The exhibition kicks off in Shibuya on January 3, 2027",
+      "image": "https://a.storyblok.com/f/178900/1280x720/06f3d285d1/_caramel-ribbon-cursetard_-_nademonogatari_-non-credit-op-video-_-_monogatari-series-off-monster-season_-1-3-screenshot.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "1584575fda650f13",
       "title": "The Legend of Zelda: Ocarina of Time Remake Becomes Fastest-Selling Switch 2 Game",
@@ -8366,7 +8417,7 @@
       "title": "Fuji TV Plans to Introduce Generative AI Across All Its Live-Action Dramas by 2027",
       "link": "https://news.sankakucomplex.com/n/4BvhAMYF6zvRp428fKkHpQ",
       "publishedAt": "2026-11-07T10:00:24.000Z",
-      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks. The company…",
+      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18375,63 +18426,6 @@
       },
       "translatedTitle": "Becky Hill、葛藤を赤裸々に描いた新曲リリース",
       "translatedExcerpt": "Becky Hillが2026年10月30日(金)にニューシングル「l0st the pl0t」をリリースした。 本作は、11月に発売予定の3rdアルバム『REBECCA』からの先行シングル。2024年のソールドアウトとなったUKアリーナツアーで初披露されて以来、ファンの間で正式リリースが待ち望まれていた楽曲が、ついにスタジオ音源として登場した。 力強く突き抜けるボーカルと、徐々に高揚感を増していくエレクトロニックプロダクション、そして一気に解放されるビートドロップが融合。ダンスフロアを熱狂させるエネルギーを持ちながら、成功の裏側にあるアーティストとしての葛藤を赤裸々に描いた1曲となっている。 リリース情報 https://ototoy.jp/_/default/p/4375294 アーティスト情報 ht…"
-    },
-    {
-      "id": "533629ddac4e8e07",
-      "title": "Chloe Qisha、キャッチーでポップな新作リリース",
-      "link": "https://ototoy.jp/news/132597",
-      "publishedAt": "2026-11-03T09:00:00.000Z",
-      "excerpt": "Chloe Qishaが2026年10月30日(金)にニューミックステープ『Fantasize』をリリースした。 2025年のEP『Modern Romance』以来となる本作。彼女自身の経験をもとに、恋愛への欲望、自己認識、孤独、失恋、そして自分らしく生きることを描いた全9曲のミックステープに仕上がっている。 キャッチーなメロディと大胆なポップサウンドを軸に、ディスコやエレクトロポップの華やかさ、そして率直でウィットに富んだリリックを融合。Chloe Qishaのアーティストとしての個性と、内面にある繊細な感情を鮮やかに映し出す作品となっている。 リリース情報 https://ototoy.jp/_/default/p/4361681 アーティスト情報 https://www.instagram.com…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132597/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Chloe Qisha、キャッチーでポップな新作リリース",
-      "translatedExcerpt": "Chloe Qishaが2026年10月30日(金)にニューミックステープ『Fantasize』をリリースした。 2025年のEP『Modern Romance』以来となる本作。彼女自身の経験をもとに、恋愛への欲望、自己認識、孤独、失恋、そして自分らしく生きることを描いた全9曲のミックステープに仕上がっている。 キャッチーなメロディと大胆なポップサウンドを軸に、ディスコやエレクトロポップの華やかさ、そして率直でウィットに富んだリリックを融合。Chloe Qishaのアーティストとしての個性と、内面にある繊細な感情を鮮やかに映し出す作品となっている。 リリース情報 https://ototoy.jp/_/default/p/4361681 アーティスト情報 https://www.instagram.com…"
-    },
-    {
-      "id": "85bcbb02d00c3e21",
-      "title": "スガ シカオ、アニメ『恐怖コレクター』OPテーマ「カゲボウシ」配信スタート",
-      "link": "https://barks.jp/news/1102163",
-      "publishedAt": "2026-11-03T09:00:00.000Z",
-      "excerpt": "スガ シカオが、NHK総合テレビアニメ『恐怖コレクター』のオープニングテーマを務める「カゲボウシ」を本日配信リリースした。 原作ファン、アニメファンのみならず都市伝説ファン、Jホラーファンまで話題が広がっている『恐怖コレクター』だが、スガ シカオがオープニングテーマソング、エンディングテーマソングの両方を書下ろしている。なお、エンディングテーマ「迷路」は「カゲボウシ」先駆けて配信中だ。 また、「カゲボウシ」についてスガ シカオは以下のようにコメントしている。 ◆ ◆ ◆ ◾️スガ シカオ コメント今までいくつかホラー系や不思議系の主題歌をやらせていただいたこともあって、ぼくはこのジャンルのテーマソングに絶対的な自信を持っていました。もう原作やプロットを読んでいるだけで、イメージがメラメラと湧いてきました。…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/20133203/suga_30th_Aphoto_%E8%BB%BD.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Suga Shikao starts distributing “Kageboushi”, the opening theme for the anime “Terror Collector”",
-      "translatedExcerpt": "Suga Shikao released ``Kageboushi'', the opening theme song for the NHK General TV anime ``Terror Collector'', today. ``Terror Collector'' has become a hot topic not only among fans of the original work and anime, but also among urban legend fans and J-horror fans, and Shikao Suga wrote both the opening and ending theme songs. In addition, the ending theme \"Maze\" is being distributed ahead of \"Kageboushi\". Shikao Suga also commented on ``Kageboushi'' as follows: ◆ ◆ ◆ ◾️Suga Shikao Comment I had previously done several theme songs for horror and mystery genres, so I had absolute confidence in theme songs for this genre. Just by reading the original story and the plot, images started to come to mind. …"
-    },
-    {
-      "id": "ae4fb217444c2ee1",
-      "title": "アジアの最前線を走るアーティストが渋谷に集結、〈BiKN shibuya 2026〉来週日曜日開催、今年のテーマは「渋谷系?!」",
-      "link": "https://ototoy.jp/news/132600",
-      "publishedAt": "2026-11-03T08:30:00.000Z",
-      "excerpt": "アジアから世界をリードするアーティストたちが渋谷に集結。今年も開催される〈BiKN shibuya〉が、いよいよ来週日曜日と迫った。 今年の〈BiKN shibuya〉は、11月8日 (日) 、会場は渋谷 Spotify 渋谷 O-EAST, duo MUSIC EXCHANGE, O-nest, 7thFLOOR の4会場。出演は全21組。 今年のヘッドライナーは、上海発、Chace。Tomorrowland、Lollapaloozaからも声がかかる、世界で注目を集める新世代アーティスト。今回は日本初のフルバンド編成で出演。O-EASTにて、70分のロングセット。 duo MUSIC EXCHANGEのトリは、日本から、Hammer Head Shark。オルタナだシューゲだと評されるも、どこ吹く風、自…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132600/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "アジアの最前線を走るアーティストが渋谷に集結、〈BiKN shibuya 2026〉来週日曜日開催、今年のテーマは「渋谷系?!」",
-      "translatedExcerpt": "アジアから世界をリードするアーティストたちが渋谷に集結。今年も開催される〈BiKN shibuya〉が、いよいよ来週日曜日と迫った。 今年の〈BiKN shibuya〉は、11月8日 (日) 、会場は渋谷 Spotify 渋谷 O-EAST, duo MUSIC EXCHANGE, O-nest, 7thFLOOR の4会場。出演は全21組。 今年のヘッドライナーは、上海発、Chace。Tomorrowland、Lollapaloozaからも声がかかる、世界で注目を集める新世代アーティスト。今回は日本初のフルバンド編成で出演。O-EASTにて、70分のロングセット。 duo MUSIC EXCHANGEのトリは、日本から、Hammer Head Shark。オルタナだシューゲだと評されるも、どこ吹く風、自…"
     }
   ]
 }

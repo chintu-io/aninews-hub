@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T03:02:11.411Z",
+  "generatedAt": "2026-11-11T03:31:50.962Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 41,
+      "count": 42,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 139,
+      "count": 140,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 99,
+      "count": 98,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 264,
+      "count": 263,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 217,
+      "count": 216,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 137,
+      "count": 138,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,65 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 605,
+    "translatedJapaneseArticles": 604,
     "translationAttempts": 159
   },
   "articles": [
+    {
+      "id": "36a5cef35b842137",
+      "title": "CUTIE STREET、1stアルバムよりユニット曲3曲を同時先行配信",
+      "link": "https://barks.jp/news/1103817",
+      "publishedAt": "2026-11-11T03:28:18.000Z",
+      "excerpt": "CUTIE STREETが、12月2日（水）発売の1stアルバム『CUTIE LAND』の収録楽曲を公開。さらに、収録曲よりユニット曲「おやすみサイレンナイト」「どんどんどん！」「君なんだ」の3曲を本日11月11日（水）に先行配信した。 今回先行配信された3曲は、現在開催中のアルバムと同タイトルの全国アリーナツアーで初披露され、ファンの間で話題になっていた楽曲。「おやすみサイレンナイト」は、真鍋凪咲・桜庭遥花によるユニット曲で、重厚感のある力強いサウンドに甘く中毒性のあるメロディを掛け合わせた、かわいらしさの中に芯の強さとミステリアスな魅力を感じさせる一曲。 キラキラとした多幸感があふれる「どんどんどん！」は、古澤里紗 · 川本笑瑠 · 梅田みゆによるユニット曲。ポジティブな歌詞とメロディは聴く人の日常に…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/11122635/cutiestreet_artistphoto-2026_web.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "CUTIE STREET, simultaneous advance distribution of 3 unit songs from 1st album",
+      "translatedExcerpt": "CUTIE STREET has released the songs from their 1st album ``CUTIE LAND'', which will be released on Wednesday, December 2nd. In addition, three unit songs from the album, ``Oyasumi Siren Night'', ``Dondon Don!'', and ``Kimi Nada'', were distributed in advance today, November 11th (Wednesday). The three songs that were distributed in advance this time were first performed on the national arena tour with the same title as the album that is currently being held, and have become a hot topic among fans. \"Oyasumi Siren Night\" is a unit song by Nagisaki Manabe and Haruka Sakuraba.It is a song that combines a deep and powerful sound with a sweet and addictive melody, giving you a sense of inner strength and mysterious charm within its cuteness. \"Don Don Don!\", full of sparkling euphoria, is a unit song by Risa Furusawa, Shoru Kawamoto, and Miyu Umeda. Positive lyrics and melodies add to the daily lives of those who listen to them..."
+    },
+    {
+      "id": "7883d490daec6576",
+      "title": "坂本龍一、英語版自伝『Music Sets You Free』刊行記念トークイベント11/24開催決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167344",
+      "publishedAt": "2026-11-11T03:15:00.000Z",
+      "excerpt": "坂本龍一の英語版自伝『Music Sets You Free』刊行記念トークイベントが、11月24",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167344/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ryuichi Sakamoto will hold a talk event on November 24th to commemorate the publication of his English autobiography “Music Sets You Free”",
+      "translatedExcerpt": "A talk event commemorating the publication of Ryuichi Sakamoto's English autobiography \"Music Sets You Free\" will be held on November 24th."
+    },
+    {
+      "id": "a96897a13ae279f7",
+      "title": "Tokyo neighborhood adds new “smart trash cans” to deal with increasing amounts of tourist litter",
+      "link": "https://soranews24.com/2026/11/11/tokyo-neighborhood-adds-new-smart-trash-cans-to-deal-with-increasing-amounts-of-tourist-litter/",
+      "publishedAt": "2026-11-11T03:00:30.000Z",
+      "excerpt": "A high-tech part of Tokyo gets some high-tech help in addressing an overtourism problem and responding to a common traveler complaint. Downtown Tokyo’s Akihabara neighborhood is already one of the most popular tourism destinations for travelers in Japan, by nature of being the country’s center of anime and video game fan culture, and a couple […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/0_8b7814.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "a6eafb2e5b0b27fc",
       "title": "【急上昇ワード】YOASOBI、“『はじめての』文芸部“発の新曲「KILLA」",
@@ -185,6 +240,25 @@
       },
       "translatedTitle": "[Rising keywords] YOASOBI, new song “KILLA” from “First Time” Literature Club",
       "translatedExcerpt": "YOASOBI, who released the new song \"KILLA\", is ranked in the trending keywords. This work is a song based on a novel created by the \"First Time\" Literature Club, a program aimed at discovering and nurturing new writers who will lead the next generation of literary circles. The original novel is Demon Cat's debut work, ``I Want to Kill Senpai, so I Dress as a Woman.'' This time, for the first time, Tsumiki, an old friend of Ayase and also active as a Vocaloid producer, has been hired as the arranger. Release information https://ototoy.jp/_/default/p/4425165 Artist information https://www.yoasobi-music.jp/ https://twitter.com/YOASOBI_staff https://www.youtube.com/c/Ayase0404 https://www.ti…"
+    },
+    {
+      "id": "d81c1d0daad350c7",
+      "title": "Funky Diamond 18（錦織一清×パパイヤ鈴木）、1stSGタイトル曲のハードロックナンバー「Fire Horse～君をのせて」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167339",
+      "publishedAt": "2026-11-11T03:00:00.000Z",
+      "excerpt": "錦織一清とパパイヤ鈴木によるユニット・Funky Diamond 18が、本日11月11日にリリー",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167339/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Funky Diamond 18 (Kazukiyo Nishikori x Papaya Suzuki), 1stSG title song hard rock number \"Fire Horse~Kimi wo Sete\" MV released",
+      "translatedExcerpt": "Funky Diamond 18, the unit formed by Kazukiyo Nishikori and Papaya Suzuki, will be released today on November 11th."
     },
     {
       "id": "b97b98457ba475f4",
@@ -301,6 +375,23 @@
       "translatedExcerpt": "Funky Diamond 18 released their first single ``Fire Horse'' today, and released the music video for the song ``Fire Horse~Kimi wo Tosete''. In 2026, the year of the Fire Horse, which comes around once every 60 years, Papaya Suzuki, who celebrated his 60th birthday, wrote and composed the song ``Fire Horse~Kimi wo Nosete'', set to a hard rock sound with a heavy electric guitar, and powerfully sings the ``adult passion'' of continuing to run with your loved one no matter how old you are. The music video for this song uses live footage and recording scenes from Tokyo's Marunouchi COTTON CLUB, allowing you to enjoy the two singing on stage, the dynamism of the live performance, and the expressions of the two as they concentrate on creating the song. Also, single..."
     },
     {
+      "id": "988ac7ea2f6192e3",
+      "title": "Mameshiba Characters Get Oyatsushiba Spinoff Short Net Anime",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-10/mameshiba-characters-get-oyatsushiba-spinoff-short-net-anime/.243704",
+      "publishedAt": "2026-11-11T02:43:00.000Z",
+      "excerpt": "Anime about characters inspired by sweet rice cakes debuts on Friday",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHC/cms/news.10/243704/oyatsushiba.jpg.webp",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
       "id": "6584584ec9687048",
       "title": "Colorful Runway! Precure Stage Play Shares Main Theme Song Music Video",
       "link": "https://crunchyroll.com/news/latest/2026/11/11/colorful-runway-precure-stage-play-main-theme-song-music-video",
@@ -409,6 +500,25 @@
       },
       "translatedTitle": "Perfume reveals the contents of the album “Favorites (Selected by Perfume) / Cold Sleep”",
       "translatedExcerpt": "Perfume has announced the contents of their album \"Favorites (Selected by Perfume) / Cold Sleep\" to be released on December 23, 2026. This work is a member-selected album in which A-chan, Kashiyuka, and Nocchi each selected their own songs from Perfume's songs at the end of 2025 before going into cold sleep. \"Side K\" selected by Kashiyuka, \"Side A\" selected by A-chan, and \"Side N\" selected by Nocchi each contain 13 songs, a total of 39 songs. The lineup allows you to feel the individuality of the songs each of the three members have chosen from among the many songs they have released as Perfume. “Side K” includes “STAR TRAIN”, “SEVENTH HEAVEN”, “Wish (album mix)”, “…"
+    },
+    {
+      "id": "9583df7cc81261c7",
+      "title": "Perfume、メンバー選曲AL収録曲発表",
+      "link": "https://ototoy.jp/news/132737",
+      "publishedAt": "2026-11-11T02:00:00.000Z",
+      "excerpt": "Perfumeが12月23日（水）にリリースするアルバム『Favorites (Selected by Perfume) / コールドスリープ』の収録内容を発表した。 本作はコールドスリープに入る前の2025年末に3人がPerfume楽曲から選曲したアルバム。かしゆかが選んだ「Side K」、あ～ちゃんが選んだ「Side A」、のっちが選んだ「Side N」には、それぞれ13曲、全39曲を収録。これまでPerfumeとして発表してきた数々の楽曲から、3人の個性が感じられるラインナップとなっている。 リリース情報 2026年12月23日（水）発売 収録内容 ■Side K ■Side A ■Side N ■Disc 4 (CD) ■Blu-ray アーティスト情報 https://www.perfume-w…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132737/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Perfume, member selection AL songs announced",
+      "translatedExcerpt": "Perfume has announced the contents of their album ``Favorites (Selected by Perfume) / Cold Sleep'', which will be released on December 23rd (Wednesday). This is an album in which the three members selected Perfume songs at the end of 2025 before going into cold sleep. \"Side K\" selected by Kashiyuka, \"Side A\" selected by A-chan, and \"Side N\" selected by Nocchi each contain 13 songs, a total of 39 songs. The lineup allows you to feel the individuality of the three members from the numerous songs that Perfume has released so far. Release information Released on Wednesday, December 23, 2026 Contents ■Side K ■Side A ■Side N ■Disc 4 (CD) ■Blu-ray Artist information https://www.perfume-w…"
     },
     {
       "id": "1f9f9c433ecd80dc",
@@ -18290,118 +18400,6 @@
       },
       "translatedTitle": "Stray Kids collaboration taxi is available for a limited time starting today",
       "translatedExcerpt": "Stray Kids will collaborate with S.RIDE. To commemorate Stray Kids holding their world tour ``Stray Kids World Tour'' and releasing their JAPAN 4th Mini Album ``SUIATSU'' on November 25th (Wednesday), a collaboration with S.RIDE has been realized. Eight members of Stray Kids will appear in taxis running through the streets of Tokyo, and there will be a total of eight types of wrapped vehicles, each with the visuals of each member, as well as 100 special vehicles in which you can enjoy Stray Kids' video content. During the campaign period, you can check the current location of collaboration taxis on the map of the taxi app \"S.RIDE®\" and it is also possible to dispatch a designated taxi. Also, during a part of the campaign period..."
-    },
-    {
-      "id": "955d9d9261306707",
-      "title": "Hirayasumi Anime Reveals Ending Theme Song Artist",
-      "link": "https://crunchyroll.com/news/latest/2026/11/2/hirayasumi-anime-tomoo-ending-theme-song-artist",
-      "publishedAt": "2026-11-02T08:28:00.000Z",
-      "excerpt": "Adaptation based on Keigo Shinzo's manga broadcasts in January 2027",
-      "image": "https://a.storyblok.com/f/178900/960x540/d40a129fd1/hirayasumi.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "a30de2645ac42b28",
-      "title": "TOMOO、新曲「風味絶佳」が2027年1月アニメ『ひらやすみ』EDテーマに",
-      "link": "https://barks.jp/news/1102006",
-      "publishedAt": "2026-11-02T08:00:41.000Z",
-      "excerpt": "TOMOOの新曲「風味絶佳」が、2027年1月より放送予定のTVアニメ『ひらやすみ』のエンディングテーマをつとめることが決定した。 TVアニメ『ひらやすみ』は、小学館『週刊ビッグコミックスピリッツ』にて連載中の真造圭伍によるコミック作品を映像化した作品。2025年秋には、岡山天音、森七菜出演でドラマ化されている。 主人公は、定職なし、恋人なし、普通ならあるはずの（？）将来の不安も一切ない、お気楽な自由人のヒロト。近所のおばあちゃん・和田はなえから、タダで一戸建ての平屋を譲り受け、その平屋で山形から美大進学のために上京してきた、18歳の従姉妹・小林なつみと2人暮らしをスタート。ヒロトと周りに集まる人々の心休まるあたたかな物語が幅広い世代に愛される作品となった。 エンディングテーマとなる「風味絶佳」制作にあた…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/30222438/1-45.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "TOMOO's new song \"Flavour Zekka\" will be the ending theme for the anime \"Hirayasumi\" in January 2027",
-      "translatedExcerpt": "It has been decided that TOMOO's new song \"Flavour Zekka\" will serve as the ending theme for the TV anime \"Hirayasumi\" scheduled to air from January 2027. The TV anime ``Hirayasumi'' is a visual adaptation of the comic work by Keigo Shinzo, which is currently being serialized in Shogakukan's ``Weekly Big Comic Spirits''. In the fall of 2025, it will be made into a drama starring Amane Okayama and Nana Mori. The main character is Hiroto, an easy-going, free man who has no regular job, no lover, and no worries about the future that would normally exist (?). He receives a one-story detached house for free from his neighbor's grandmother, Hanae Wada, and begins living there with his 18-year-old cousin, Natsumi Kobayashi, who has come to Tokyo from Yamagata to attend an art university. The heartwarming and heartwarming story of Hiroto and the people who gather around him has become a work that is loved by a wide range of generations. Working on the ending theme \"Flavour Zekka\"..."
-    },
-    {
-      "id": "e7e8b6c8a1bb61b3",
-      "title": "【ライヴレポート】黒夢、清春生誕祭にして2026年最後のワンマンにみた深化への新フェーズ「演れる音楽の幅を広げて」",
-      "link": "https://barks.jp/news/1101997",
-      "publishedAt": "2026-11-02T08:00:00.000Z",
-      "excerpt": "黒夢が10月30日、東京・LINE CUBE SHIBUYAにて2026年最後のワンマンライヴを行った。先ごろ公開したオフィシャルレポートに続いて、BARKSオリジナルレポートをお届けしたい。 この日は清春(Vo)の58回目の誕生日。2026年の今、彼が人時(B)と同じステージに立ち、ファンと共に時空を共有する光景には感慨深いものがある。2025年2月の劇的な復活以降、黒夢は精力的に活動し、我々にロックの体現者としての格の違いを見せつけてきた。今年は特に『CORKSCREW 2026』『Drug TReatment 2026』という2枚のリテイクアルバムをリリースし、＜THE PERFECT DAYS TO DIE＞と題してTOYOTA ARENA TOKYOでの自身最大規模のアリーナ会場3日連続公演に加…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/02151117/%E7%9F%B3%E4%BA%95%E9%BA%BB%E6%9C%A8_20261030_210422_D5D_0083-1024x682.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Live Report] Kuroyume, a new phase of deepening as seen in Kiyoharu's birthday festival and the last one-man of 2026 \"Expanding the range of music that can be performed\"",
-      "translatedExcerpt": "Kuromu performed his last one-man live of 2026 at LINE CUBE SHIBUYA in Tokyo on October 30th. Following the official report released recently, we would like to deliver an original BARKS report. Today is Kiyoharu's (Vo) 58th birthday. Now in 2026, the sight of him standing on the same stage as Jintoki (B) and sharing time and space with his fans is deeply moving. Since their dramatic comeback in February 2025, Kuromu has been active and shown us their unique status as the embodiment of rock. This year, in particular, he released two retake albums, \"CORKSCREW 2026\" and \"Drug TReatment 2026,\" and participated in a three-day consecutive performance at TOYOTA ARENA TOKYO, his largest arena venue, titled <THE PERFECT DAYS TO DIE>."
-    },
-    {
-      "id": "963ac7fce89ed878",
-      "title": "wacci、新曲「御節介」「天邪鬼」2曲同時配信リリース決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167061",
-      "publishedAt": "2026-11-02T07:55:00.000Z",
-      "excerpt": "wacciが、新曲「御節介」「天邪鬼」を11月13日に2曲同時配信リリースすることが決定した。",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167061/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "wacci will release two new songs “Osetsusuke” and “Amayaki” at the same time",
-      "translatedExcerpt": "It has been decided that wacci will simultaneously release two new songs, ``Osetsusuke'' and ``Tenjaki'', on November 13th."
-    },
-    {
-      "id": "f69e1254a697bec7",
-      "title": "Girls2、ニューEP『EASY』収録曲「Umbrella」MV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167060",
-      "publishedAt": "2026-11-02T07:50:00.000Z",
-      "excerpt": "Girls2が、11月11日に発売するEP『EASY』の収録曲「Umbrella」のミュージックビ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167060/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Girls2 releases music video for song “Umbrella” from new EP “EASY”",
-      "translatedExcerpt": "Girls2 will release the music video for the song “Umbrella” from their EP “EASY” to be released on November 11th."
-    },
-    {
-      "id": "a6543a63ae1a5c2c",
-      "title": "中島健人、ニューSG『超☆HENSHIN』リリース決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167059",
-      "publishedAt": "2026-11-02T07:45:00.000Z",
-      "excerpt": "中島健人が、4thシングル『超☆HENSHIN』を12月16日にリリースすることが決定した。",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167059/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Kento Nakajima's new SG \"Chou☆HENSHIN\" will be released",
-      "translatedExcerpt": "It has been decided that Kento Nakajima will release his 4th single ``Cho☆HENSHIN'' on December 16th."
     }
   ]
 }

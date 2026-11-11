@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T13:32:30.953Z",
+  "generatedAt": "2026-11-11T14:02:01.553Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 96,
+      "count": 97,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 272,
+      "count": 270,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 73,
+      "count": 74,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 628,
+    "translatedJapaneseArticles": 627,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8dfa8a551be3e9db",
+      "title": "41.5% of Japanese Middle Schoolers Doubt Benefits of Increased Immigration",
+      "link": "https://news.sankakucomplex.com/n/o63MAIA4y3anTft0tJhVVw",
+      "publishedAt": "2026-11-11T13:59:20.000Z",
+      "excerpt": "A new survey has revealed that 41.5% of Japanese middle school students do not believe an increase in foreign residents would benefit society, nearly doubling the proportion expressing such views just a few years earlier.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "ccb54cde23e3910d",
+      "title": "MASHLE: MAGIC AND MUSCLES Season 3 Anime Shares Trailer, Key Visual, Cast Additions",
+      "link": "https://crunchyroll.com/news/latest/2026/11/11/mashle-magic-and-muscles-season-3-anime-release-date-trailer-key-visual-cast",
+      "publishedAt": "2026-11-11T13:34:00.000Z",
+      "excerpt": "Crunchyroll will stream the Tri-Magicathlon Divine Visionary Final Exam Arc starting January 9",
+      "image": "https://a.storyblok.com/f/178900/960x540/478697b549/mashle-season-3-trailer-hero.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "e3d175202699d9f4",
       "title": "Gacha Girls Corps Anime Casts Momo Sakurai as Mofutto",
@@ -18404,44 +18438,6 @@
       },
       "translatedTitle": "BAND-MAID's new song \"BONDS\" will be included in the new pachinko machine \"e Gifu Dodo!! ~Kanetsugu to Keiji~4\"",
       "translatedExcerpt": "BAND-MAID's new song \"BONDS\" will be featured on a new machine scheduled to be introduced at pachinko halls nationwide from January 2027."
-    },
-    {
-      "id": "6d652b27532ba301",
-      "title": "時速36km、AL『目を閉じても残る赤』映像特典から「Gazer」ライブ映像公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167090",
-      "publishedAt": "2026-11-03T05:45:00.000Z",
-      "excerpt": "時速36kmが、メジャー1stアルバム『目を閉じても残る赤』の映像特典から「Gazer」のライブ映",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167090/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "36km/h, AL \"Gazer\" live video released from the \"Red that remains even when you close your eyes\" video bonus",
-      "translatedExcerpt": "36km/h is a live video of \"Gazer\" from the video bonus of the major 1st album \"Red that remains even when you close your eyes\"."
-    },
-    {
-      "id": "dd19be379418fe1f",
-      "title": "milet、Toru（ONE OK ROCK）との共作楽曲を集めた配信EP『milet × Toru』リリース決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167089",
-      "publishedAt": "2026-11-03T05:40:00.000Z",
-      "excerpt": "miletが、Toru（ONE OK ROCK）との共作楽曲を集めた配信限定EP『milet &t",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167089/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "milet to release “milet × Toru”, a digital EP that collects co-written songs with Toru (ONE OK ROCK)",
-      "translatedExcerpt": "milet will be releasing a distribution-only EP “milet &t” which is a collection of co-written songs with Toru (ONE OK ROCK)."
     }
   ]
 }

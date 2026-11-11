@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T22:34:20.037Z",
+  "generatedAt": "2026-11-11T23:02:02.649Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 268,
+      "count": 269,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 142,
+      "count": 143,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 76,
+      "count": 74,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 608,
+    "translatedJapaneseArticles": 609,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8e636ddad29acd73",
+      "title": "【コーチェラ2027】デュア・リパ／テーム・インパラ／シザがヘッドライナー",
+      "link": "https://www.billboard-japan.com/d_news/detail/167374",
+      "publishedAt": "2026-11-11T22:40:00.000Z",
+      "excerpt": "デュア・リパ、シザ、テーム・インパラが【コーチェラ2027】のヘッドライナーを務めることが、現地時",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167374/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Coachella 2027] Dua Lipa/Tame Impala/SZA headliners",
+      "translatedExcerpt": "Dua Lipa, SZA, and Tame Impala to headline Coachella 2027, local time"
+    },
     {
       "id": "f7a7f908b4b66a53",
       "title": "Godzilla Minus Zero Film Opens at #1 in Japan, Grotesqqque Anime Film at #8",
@@ -183,6 +202,25 @@
         "accent": "#ffb45f",
         "language": "en"
       }
+    },
+    {
+      "id": "f7ec13011c6cf8e8",
+      "title": "森口博子、「Get Wild」カバー先行配信＆MV公開",
+      "link": "https://ototoy.jp/news/132754",
+      "publishedAt": "2026-11-11T22:00:00.000Z",
+      "excerpt": "森口博子が12月16日にリリースする人気アニソンカバーシリーズ最新作『ANISON COVERS 3』リード曲「Get Wild」の先行配信がスタート。ミュージックビデオが公開された。 テレビアニメ『シティーハンター』のエンディングテーマとして、長年愛されるアニソン界を代表する名曲TM NETWORKの「Get Wild」カバーでは、華やかなシンセサイザーが印象的なオリジナルとはガラッと印象を変えた、ムーディーなシティーポップアレンジに仕上がっている。 ミュージックビデオではバンドメンバーを従え、SNSで話題になったグリーンのセクシーなボディコンで歌い上げる姿や、シャンパンゴールドのゴージャスなドレスに身を包んだリップ・シーンなど見どころ満載。 CD＆Blu-rayの収録内容詳細も解禁。来年3月〜4月にコ…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132754/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Hiroko Moriguchi, \"Get Wild\" cover advance distribution & MV release",
+      "translatedExcerpt": "Advance distribution of Hiroko Moriguchi's lead song \"Get Wild\" for the latest work in the popular anime song cover series \"ANISON COVERS 3\" to be released on December 16th has started. A music video has been released. The cover of TM NETWORK's \"Get Wild\", a long-loved and well-loved song that represents the anime song world, was used as the ending theme for the TV anime \"City Hunter\".The song is a moody city pop arrangement that is completely different from the original, which features gorgeous synthesizers. The music video is full of highlights, including the band members singing in a sexy green bodycon dress that has become a hot topic on SNS, and the lip scene in a gorgeous champagne gold dress. Details of the contents of the CD and Blu-ray have also been released. From March to April next year..."
     },
     {
       "id": "7539c80bc079734b",
@@ -359,7 +397,7 @@
       "title": "Tokyo’s Akihabara Installs 22 Smart Trash Cans to Combat Tourist Litter",
       "link": "https://news.sankakucomplex.com/n/77DW-tWnwxc0DnCe7UI8_A",
       "publishedAt": "2026-11-11T16:00:51.000Z",
-      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores. The new trash cans began operating on November 8, with Chiyoda Ward intro…",
+      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -950,7 +988,7 @@
       "title": "Ocarina of Time Remake Rabidly Criticized & Bizarrely Sexy",
       "link": "https://news.sankakucomplex.com/n/qif9XWRGQm9_Up1e32saNA",
       "publishedAt": "2026-11-11T11:20:18.000Z",
-      "excerpt": "Aside from the censorship with the Great Fairy, the Legend of Zelda: Ocarina of Time remake has been criticized on various different levels, from its occasionally eerie character designs to its horrid modern voice-acting – though, the game does have some oddly sexy moments as well. The most commo…",
+      "excerpt": "Aside from the censorship with the Great Fairy, the Legend of Zelda: Ocarina of Time remake has been criticized on various different levels, from its occasionally eerie character designs to its horrid modern voice-acting – though, the game does have some oddly sexy moments as well.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4691,7 +4729,7 @@
       "title": "Sega Suffers Data Breach Exposing 2.19 Million Email Addresses, Warns of Phishing Attacks",
       "link": "https://news.sankakucomplex.com/n/TTsQlVA-JYDMY3jIObbdYg",
       "publishedAt": "2026-11-10T02:00:21.000Z",
-      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company. In an official announcement on November 9, Sega r…",
+      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6141,7 +6179,7 @@
       "title": "Nintendo Says No Further Switch 2 Price Hikes Planned Despite Memory Shortage",
       "link": "https://news.sankakucomplex.com/n/xf5NwyJm-nohPly4_7ajgg",
       "publishedAt": "2026-11-09T06:00:05.000Z",
-      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry. Speaking during the company’s latest financial results briefing on No…",
+      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8118,7 +8156,7 @@
       "title": "Japan Launches New Anime Awards Aiming to Become the “Oscars of Animation”",
       "link": "https://news.sankakucomplex.com/n/V4sKBF-7Cx8lcEFFX4ygcw",
       "publishedAt": "2026-11-07T20:12:59.000Z",
-      "excerpt": "Japan’s anime industry has announced a new awards ceremony called the Nippon Anime Awards, aiming to establish a prestigious equivalent of Hollywood’s Academy Awards that places greater emphasis on recognizing the creators behind Japanese animation. The Association of Japanese Animations (AJA) un…",
+      "excerpt": "Japan’s anime industry has announced a new awards ceremony called the Nippon Anime Awards, aiming to establish a prestigious equivalent of Hollywood’s Academy Awards that places greater emphasis on recognizing the creators behind Japanese animation.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8723,7 +8761,7 @@
       "title": "Fuji TV Plans to Introduce Generative AI Across All Its Live-Action Dramas by 2027",
       "link": "https://news.sankakucomplex.com/n/4BvhAMYF6zvRp428fKkHpQ",
       "publishedAt": "2026-11-07T10:00:24.000Z",
-      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks. The company…",
+      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -9269,7 +9307,7 @@
       "title": "Japanese User Lambasted for Trying to Look up Skirt in Ocarina of Time Remake",
       "link": "https://news.sankakucomplex.com/n/dKx-LP8K-muwGhWrwQeoeA",
       "publishedAt": "2026-11-07T06:00:21.000Z",
-      "excerpt": "The internet’s usual suspects are once again upset at someone doing something they don’t like, as a Japanese Twitter user who posted a video of himself attempting to look up the skirt of a female character in Ocarina of Time remake earned a great deal of criticism. The individual uploaded footage…",
+      "excerpt": "The internet’s usual suspects are once again upset at someone doing something they don’t like, as a Japanese Twitter user who posted a video of himself attempting to look up the skirt of a female character in Ocarina of Time remake earned a great deal of criticism.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18358,40 +18396,6 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "c052addab5366808",
-      "title": "Steins;Gate’s Kurisu Makise Gets Sexy Racing Girl Figure",
-      "link": "https://news.sankakucomplex.com/n/3vDxMctn-QJEBt2RC6iCZA",
-      "publishedAt": "2026-11-03T12:00:33.000Z",
-      "excerpt": "Steins;Gate heroine Kurisu Makise is trading her familiar laboratory coat for a revealing racing girl outfit, with Chinese figure manufacturer Solarain unveiling a new 1/7-scale collectible featuring the popular character in an entirely different look.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "d651b6d5f012c277",
-      "title": "Steins;Gate’s Kurisu Makise Gets Sexy Racing Girl Figure",
-      "link": "https://news.sankakucomplex.com/n/jtfSIqo2i3_7Gsc2QSK_8w",
-      "publishedAt": "2026-11-03T12:00:33.000Z",
-      "excerpt": "Steins;Gate heroine Kurisu Makise is trading her familiar laboratory coat for a revealing racing girl outfit, with Chinese figure manufacturer Solarain unveiling a new 1/7-scale collectible featuring the popular character in an entirely different look.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

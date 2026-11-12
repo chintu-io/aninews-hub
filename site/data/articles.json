@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T01:03:35.744Z",
+  "generatedAt": "2026-11-12T01:34:41.345Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 41,
+      "count": 42,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 102,
+      "count": 104,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 203,
+      "count": 201,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 144,
+      "count": 143,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -152,7 +152,7 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
+      "mode": "direct",
       "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 75,
       "fetchedCount": 24
@@ -163,10 +163,61 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 610,
+    "translatedJapaneseArticles": 607,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "c1a5725963b82395",
+      "title": "Asaka Releases Tetsuryo! meet with Tetsudou Musume Anime Opening Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/11/12/tetsuryo-meet-with-tetsudou-musume-anime-opening-song-music-video-asaka",
+      "publishedAt": "2026-11-12T01:28:00.000Z",
+      "excerpt": "The CD single will be available on November 18",
+      "image": "https://a.storyblok.com/f/178900/960x540/4a8643b5cc/asaka-go-go-railway-mv.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "b40995d84b2c6ffc",
+      "title": "The Vermilion Mask Anime Shares More Details on Yuya Tegoshi's Guest Voice Role",
+      "link": "https://crunchyroll.com/news/latest/2026/11/12/the-vermilion-mask-anime-yuya-tegoshi-guest-voice-role-details",
+      "publishedAt": "2026-11-12T01:18:00.000Z",
+      "excerpt": "Tegoshi will appear in the anime's Episode 12",
+      "image": "https://a.storyblok.com/f/178900/960x540/ba4bea1e47/yuya-tegoshi.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "8a07e594475bdff6",
+      "title": "Is hamburger patty ramen a case of too many good things in one bowl? Let’s find out! [Taste test]",
+      "link": "https://soranews24.com/2026/11/12/is-hamburger-patty-ramen-a-case-of-too-many-good-things-in-one-bowl-lets-find-out-taste-test/",
+      "publishedAt": "2026-11-12T01:00:19.000Z",
+      "excerpt": "Far away from Japan’s most touristy neighborhoods is a daring fusion dish from a very old-school restaurant. Generally speaking, ramen and hamburger patties are pretty far apart from each other on the eastern-or-western culinary spectrum. Personally, we’re big fans of both here at SoraNews24, but it’s generally sort of an either/or question as to which […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/0_61f080.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "82ff8257de9b4945",
       "title": "KATSEYE、MEGANが脳震盪のため座ったままパフォーマンスしファンから懸念の声",
@@ -316,7 +367,7 @@
       "title": "Nara Deer Injuries Hit Record High, Over 70% of Hospitalized Victims Are Foreigners",
       "link": "https://news.sankakucomplex.com/n/gh_w-u4k1My-7Zna9xBvcA",
       "publishedAt": "2026-11-11T20:14:27.000Z",
-      "excerpt": "Deer-related injuries in Japan’s famous Nara Park have reached a record high in 2026, with foreign nationals accounting for more than 70% of people transported to hospital after encounters with the animals.",
+      "excerpt": "Deer-related injuries in Japan’s famous Nara Park have reached a record high in 2026, with foreign nationals accounting for more than 70% of people transported to hospital after encounters with the animals. According to a November 10 report by Japanese broadcaster TV Asahi, 51 people had been tra…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -452,7 +503,7 @@
       "title": "Tokyo’s Akihabara Installs 22 Smart Trash Cans to Combat Tourist Litter",
       "link": "https://news.sankakucomplex.com/n/77DW-tWnwxc0DnCe7UI8_A",
       "publishedAt": "2026-11-11T16:00:51.000Z",
-      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores.",
+      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores. The new trash cans began operating on November 8, with Chiyoda Ward intro…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -624,7 +675,7 @@
       "title": "41.5% of Japanese Middle Schoolers Doubt Benefits of Increased Immigration",
       "link": "https://news.sankakucomplex.com/n/o63MAIA4y3anTft0tJhVVw",
       "publishedAt": "2026-11-11T13:59:20.000Z",
-      "excerpt": "A new survey has revealed that 41.5% of Japanese middle school students do not believe an increase in foreign residents would benefit society, nearly doubling the proportion expressing such views just a few years earlier.",
+      "excerpt": "A new survey has revealed that 41.5% of Japanese middle school students do not believe an increase in foreign residents would benefit society, nearly doubling the proportion expressing such views just a few years earlier. The findings were reported by Kyodo News on November 7, based on research c…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3015,7 +3066,7 @@
       "title": "Persona 4 Revival Developers Debated How Thick Chie’s Thighs Should Be",
       "link": "https://news.sankakucomplex.com/n/Z9tlYMs4DfqYyPNS2JSWnw",
       "publishedAt": "2026-11-10T23:00:02.000Z",
-      "excerpt": "The developers of Persona 4 Revival have revealed that one of the unexpected challenges during production involved deciding just how thick Chie Satonaka’s thighs should be, with disagreements arising over the character’s appearance in 3D models and illustrations.",
+      "excerpt": "The developers of Persona 4 Revival have revealed that one of the unexpected challenges during production involved deciding just how thick Chie Satonaka’s thighs should be, with disagreements arising over the character’s appearance in 3D models and illustrations. Speaking in an interview with Jap…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3638,7 +3689,7 @@
       "title": "Battlefield 6 Player Sues EA Over Permanent Ban, Wins Account Back in Court",
       "link": "https://news.sankakucomplex.com/n/EC5Ni3DMSh2Zv2riFCyc3Q",
       "publishedAt": "2026-11-10T12:43:11.000Z",
-      "excerpt": "A Battlefield 6 player has reportedly defeated Electronic Arts in court after being permanently banned from the game for alleged cheating, successfully overturning the punishment and obtaining financial compensation from the publisher.",
+      "excerpt": "A Battlefield 6 player has reportedly defeated Electronic Arts in court after being permanently banned from the game for alleged cheating, successfully overturning the punishment and obtaining financial compensation from the publisher. The player, known as Rychadv on Reddit, announced his victory…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4784,7 +4835,7 @@
       "title": "Sega Suffers Data Breach Exposing 2.19 Million Email Addresses, Warns of Phishing Attacks",
       "link": "https://news.sankakucomplex.com/n/TTsQlVA-JYDMY3jIObbdYg",
       "publishedAt": "2026-11-10T02:00:21.000Z",
-      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company.",
+      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company. In an official announcement on November 9, Sega r…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5051,7 +5102,7 @@
       "title": "US Navy Uses Blend S Meme in Recruitment Video, Surprises Japanese Fans",
       "link": "https://news.sankakucomplex.com/n/JRJJvxsJcBZWF2hlp_QXVg",
       "publishedAt": "2026-11-09T22:00:42.000Z",
-      "excerpt": "The United States Navy has attracted attention in Japan after one of its official recruitment accounts published a promotional video based on the popular Blend S anime meme, combining footage of American warships with a joke that originally went viral nearly a decade ago.",
+      "excerpt": "The United States Navy has attracted attention in Japan after one of its official recruitment accounts published a promotional video based on the popular Blend S anime meme, combining footage of American warships with a joke that originally went viral nearly a decade ago. The approximately 21-sec…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5881,7 +5932,7 @@
       "title": "Former Warner Bros. Boss Pamela Abdy Slams Hollywood’s Loss of Female Executives",
       "link": "https://news.sankakucomplex.com/n/imTV7KQdDRqpkqaAcGu1yg",
       "publishedAt": "2026-11-09T10:00:49.000Z",
-      "excerpt": "Former Warner Bros. film chief Pamela Abdy has expressed frustration over the growing number of high-ranking female executives losing their positions in Hollywood, and is additionally becoming acquainted with the fact that producing garbage that no one wants to watch often comes with consequences.",
+      "excerpt": "Former Warner Bros. film chief Pamela Abdy has expressed frustration over the growing number of high-ranking female executives losing their positions in Hollywood, and is additionally becoming acquainted with the fact that producing garbage that no one wants to watch often comes with consequences…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6234,7 +6285,7 @@
       "title": "Nintendo Says No Further Switch 2 Price Hikes Planned Despite Memory Shortage",
       "link": "https://news.sankakucomplex.com/n/xf5NwyJm-nohPly4_7ajgg",
       "publishedAt": "2026-11-09T06:00:05.000Z",
-      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry.",
+      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry. Speaking during the company’s latest financial results briefing on No…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6922,7 +6973,7 @@
       "title": "Hayao Miyazaki Criticizes Young Anime Artists for Only Watching Anime",
       "link": "https://news.sankakucomplex.com/n/2voO9jRT7jc6Jma6SOuQMw",
       "publishedAt": "2026-11-08T22:00:35.000Z",
-      "excerpt": "Legendary Studio Ghibli director Hayao Miyazaki has criticized younger anime creators for drawing inspiration almost exclusively from other anime, arguing that the industry risks losing its originality when artists fail to explore literature, painting, and other forms of expression.",
+      "excerpt": "Legendary Studio Ghibli director Hayao Miyazaki has criticized younger anime creators for drawing inspiration almost exclusively from other anime, arguing that the industry risks losing its originality when artists fail to explore literature, painting, and other forms of expression. The remarks w…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -7280,7 +7331,7 @@
       "title": "Japanese Man Arrested After Stealing 451 Shoe Insoles From Schoolgirls",
       "link": "https://news.sankakucomplex.com/n/nPh_Ds-inDeRtYCX32N6sg",
       "publishedAt": "2026-11-08T12:00:16.000Z",
-      "excerpt": "A 35-year-old Japanese man has been indicted after allegedly stealing hundreds of shoe insoles belonging to female students, with police recovering 451 insoles from his home and investigating suspected thefts at more than 30 schools.",
+      "excerpt": "A 35-year-old Japanese man has been indicted after allegedly stealing hundreds of shoe insoles belonging to female students, with police recovering 451 insoles from his home and investigating suspected thefts at more than 30 schools. The defendant, identified as Daisuke Matsuzaki, was indicted on…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8071,7 +8122,7 @@
       "title": "DMM TV Beats Netflix to Become Japan’s Highest-Rated Streaming Service",
       "link": "https://news.sankakucomplex.com/n/y5v80OXMuJJyBFX29jl2Ag",
       "publishedAt": "2026-11-08T04:00:35.000Z",
-      "excerpt": "Japanese streaming platform DMM TV has overtaken Netflix to become Japan’s highest-rated subscription video service, marking the first time a domestically developed platform has topped Oricon’s annual customer satisfaction rankings.",
+      "excerpt": "Japanese streaming platform DMM TV has overtaken Netflix to become Japan’s highest-rated subscription video service, marking the first time a domestically developed platform has topped Oricon’s annual customer satisfaction rankings. The results were announced on November 2 by research company ori…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8211,7 +8262,7 @@
       "title": "Japan Launches New Anime Awards Aiming to Become the “Oscars of Animation”",
       "link": "https://news.sankakucomplex.com/n/V4sKBF-7Cx8lcEFFX4ygcw",
       "publishedAt": "2026-11-07T20:12:59.000Z",
-      "excerpt": "Japan’s anime industry has announced a new awards ceremony called the Nippon Anime Awards, aiming to establish a prestigious equivalent of Hollywood’s Academy Awards that places greater emphasis on recognizing the creators behind Japanese animation.",
+      "excerpt": "Japan’s anime industry has announced a new awards ceremony called the Nippon Anime Awards, aiming to establish a prestigious equivalent of Hollywood’s Academy Awards that places greater emphasis on recognizing the creators behind Japanese animation. The Association of Japanese Animations (AJA) un…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8245,7 +8296,7 @@
       "title": "Japanese Man Arrested for Assaulting Seven Women in Just 15 Minutes",
       "link": "https://news.sankakucomplex.com/n/rirwhWJbFYKMSZD3Na23iQ",
       "publishedAt": "2026-11-07T18:51:56.000Z",
-      "excerpt": "A 39-year-old Japanese man has been arrested after allegedly assaulting seven young women in a series of seemingly random attacks across Tokyo, punching, slapping, and even delivering a flying kick to his victims within approximately 15 minutes.",
+      "excerpt": "A 39-year-old Japanese man has been arrested after allegedly assaulting seven young women in a series of seemingly random attacks across Tokyo, punching, slapping, and even delivering a flying kick to his victims within approximately 15 minutes. The suspect, Hikaru Hamaguchi, is accused of carryi…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8816,7 +8867,7 @@
       "title": "Fuji TV Plans to Introduce Generative AI Across All Its Live-Action Dramas by 2027",
       "link": "https://news.sankakucomplex.com/n/4BvhAMYF6zvRp428fKkHpQ",
       "publishedAt": "2026-11-07T10:00:24.000Z",
-      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks.",
+      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks. The company…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18343,63 +18394,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "c9935ffcaef1ae9b",
-      "title": "Peder Elias、ロマンティックな新曲リリース",
-      "link": "https://ototoy.jp/news/132601",
-      "publishedAt": "2026-11-03T13:00:00.000Z",
-      "excerpt": "Peder Eliasが2026年10月30日(金)にニューシングル「GROW ON TREES」をリリースした。 本作は、人生をともにしたいと思える唯一無二の存在、そして自分をありのままに受け入れてくれる相手への感謝を歌った、ストレートなラブソング。温かくオーガニックなサウンドと、親密さを感じさせるボーカルが印象的な作品に仕上がっている。 世界各地を巡るツアーで新たな経験を重ねてきたPeder Eliasが、故郷ノルウェーで制作した本楽曲。自身の音楽的な成長と、変わらないロマンティックな感性が融合した最新シングルとなっている。 リリース情報 https://ototoy.jp/_/default/p/4325032 アーティスト情報 https://www.instagram.com/pedereliaas/",
-      "image": "https://imgs.ototoy.jp/news/image.php/132601/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Peder Elias releases romantic new song",
-      "translatedExcerpt": "Peder Elias released his new single \"GROW ON TREES\" on Friday, October 30, 2026. This work is a straightforward love song about being grateful for the one and only person you want to spend your life with, and for someone who accepts you as you are. The warm, organic sound and intimate vocals create an impressive work. This song was created in his hometown of Norway by Peder Elias, who has gained new experiences while touring around the world. Her latest single is a fusion of her own musical growth and her unchanged romantic sensibilities. Release information https://ototoy.jp/_/default/p/4325032 Artist information https://www.instagram.com/pedereliaas/"
-    },
-    {
-      "id": "901f3e40cd662d73",
-      "title": "BE:FIRST、最新アルバムよりリード曲「NOW U KNOW」ダンスパフォーマンス映像公開",
-      "link": "https://barks.jp/news/1102301",
-      "publishedAt": "2026-11-03T12:40:00.000Z",
-      "excerpt": "BE:FIRSTが、本日リリースした4thアルバム『BE:4U』のリード曲「NOW U KNOW」のダンスパフォーマンス映像を公開した。 2026年11月2日にTBS系『CDTVライブ！ライブ！』で初披露となった「NOW U KNOW」。BE:FIRSTのメジャーデビュー5周年という節目に相応しく、現在地とこれからの飛躍を力強く宣言するヒップホップナンバーだという本楽曲は、エネルギッシュなヒップホップアンセムに仕上がっている。なお、SNSには「激しいダンスなのに生歌ブレなくてすごい！」「5周年の覚悟をそのまま叩きつけられた気分！」といったコメントが番組放送中に続出したそうだ。 今回公開されたダンスパフォーマンス映像は、「Boom Boom Back」や「Stare In Wonder」など、これまでのBE…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/24115202/264321_260804_BF_B4U_ArtistPhoto_trim_Large_web-1024x747.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "BE:FIRST releases dance performance video for lead song “NOW U KNOW” from latest album",
-      "translatedExcerpt": "BE:FIRST has released a dance performance video for the lead song \"NOW U KNOW\" from their 4th album \"BE:4U\" released today. On November 2, 2026, TBS “CDTV Live! Live! “NOW U KNOW” was first performed on “NOW U KNOW”. This song is a hip-hop number that powerfully declares their current location and future leaps, making it an energetic hip-hop anthem that is appropriate for the 5th anniversary of BE:FIRST's major debut. In addition, comments such as ``It's amazing how the live singing didn't shake even though it was an intense dance!'' and ``I feel like I was hit with the same determination from the 5th anniversary!'' were posted on SNS during the program broadcast. The dance performance video released this time includes previous BE..."
-    },
-    {
-      "id": "504613ff48e5e724",
-      "title": "クズミミズク、4カ月連続で“研修ライブ”開催決定",
-      "link": "https://barks.jp/news/1102321",
-      "publishedAt": "2026-11-03T12:30:00.000Z",
-      "excerpt": "ゲーム『ガールズバンドクライ First Riff』と連動したバンド・クズミミズクが、4カ月連続で“研修ライブ”を開催することを発表した。 この発表は、本日行われた＜ガールズバンドクライ Special LIVE “赤色の響祭”＞にてアナウンスされた。本公演では「羽が生えた理由」を含む計2曲を披露し、鮮烈なパフォーマンスでオーディエンスを魅了したという。 発表された研修ライブは、2026年12月から2027年3月にかけて神奈川・川崎セルビアンナイトにて毎月開催。ステージを重ねるごとに磨かれていく彼女たちのリアルな成長を、至近距離で目撃できる絶好のチャンスとなる。 初回である12月11日の＜クズミミズク川崎ライブハウス研修LIVE vol.1〜オリ曲はまだ少ないけれど。〜＞のチケットは、本日22時より先着順…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/03192052/main_fix-1024x682.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Kuzumi Owl will hold “training live” for 4 consecutive months",
-      "translatedExcerpt": "The band Kuzumi Mizuku, which is linked to the game \"Girls Band Cry First Riff,\" has announced that they will be holding a \"training live\" for four consecutive months. This announcement was made at <Girls Band Cry Special LIVE “Aka no Hibiki Festival” held today. In this performance, they performed a total of two songs, including ``The reason why wings grew'', and captivated the audience with their vivid performance. The announced training live will be held monthly at Kanagawa/Kawasaki Serbian Night from December 2026 to March 2027. This will be a great chance to witness at close range the real growth of these girls as they progress through each stage. The first time, December 11th, is Kuzumizuku Kawasaki Live House Training LIVE vol.1~ although there aren't many original songs yet. Tickets for ~> will be available on a first-come, first-served basis from 10pm today..."
     }
   ]
 }

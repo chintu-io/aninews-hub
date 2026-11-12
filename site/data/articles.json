@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T03:02:10.273Z",
+  "generatedAt": "2026-11-12T03:32:15.317Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 132,
+      "count": 129,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 104,
+      "count": 102,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 274,
+      "count": 279,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,103 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 612,
+    "translatedJapaneseArticles": 617,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "eda58e04dfa5750b",
+      "title": "倖田來未、出産後初メディア『2026 FNS歌謡祭 第1夜』出演決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167388",
+      "publishedAt": "2026-11-12T03:30:00.000Z",
+      "excerpt": "倖田來未が、12月2日にフジテレビ系で放送される『2026 FNS歌謡祭 第1夜』に出演することが",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167388/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Kumi Koda will appear in the first media event after giving birth on “2026 FNS Song Festival Night 1”",
+      "translatedExcerpt": "Kumi Koda will appear on \"2026 FNS Kayo Festival 1st Night\" which will be broadcast on Fuji TV on December 2nd."
+    },
+    {
+      "id": "867a7070579ab053",
+      "title": "BABYMONSTER、【2027 Coachella Valley Music and Arts Festival】出演決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167384",
+      "publishedAt": "2026-11-12T03:15:00.000Z",
+      "excerpt": "BABYMONSTERが、米国カリフォルニア州インディオで開催される【2027 Coachella",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167384/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "BABYMONSTER will perform at [2027 Coachella Valley Music and Arts Festival]",
+      "translatedExcerpt": "BABYMONSTER will be held in Indio, California, USA [2027 Coachella"
+    },
+    {
+      "id": "0b8804fdb9b3215d",
+      "title": "KFC Japan starts selling soft-serve ice cream at select locations, and they’ve even put it in a biscuit",
+      "link": "https://soranews24.com/2026/11/12/kfc-japan-starts-selling-soft-serve-ice-cream-at-select-locations-and-theyve-even-put-it-in-a-biscuit/",
+      "publishedAt": "2026-11-12T03:00:34.000Z",
+      "excerpt": "There are many ways to enjoy this new sweet dessert, including as a dip for fried chicken. KFC is world-famous for its fried chicken, but right now it’s turning heads for something else in Japan, with the release of soft-serve ice cream. While that would be big news on its own, what’s even more impressive […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/KFC-Japan-ice-cream-soft-serve-biscuit-sweets-dessert-exclusive-limited-edition-fast-food-menu.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "40b9826eb7132edb",
+      "title": "【ビルボード】BE:FIRST『BE:4U』がDLアルバム初登場首位 『九段下フォーク・フェスティバル&#039;25』／ONE OK ROCKが続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/167383",
+      "publishedAt": "2026-11-12T03:00:00.000Z",
+      "excerpt": "2026年11月11日公開（集計期間：2026年11月2日～11月8日）のBillboard JA",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167383/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] BE:FIRST “BE:4U” debuts at number one on DL album “Kudanshita Folk Festival '25” / ONE OK ROCK follows",
+      "translatedExcerpt": "Billboard JA released on November 11, 2026 (collection period: November 2, 2026 - November 8, 2026)"
+    },
+    {
+      "id": "ae262b3513cacf6a",
+      "title": "【ビルボード】Mrs. GREEN APPLE『POPS』が2週ぶりに総合アルバム首位 BE:FIRST／『九段下フォーク・フェスティバル&#039;25』が初登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/167360",
+      "publishedAt": "2026-11-12T03:00:00.000Z",
+      "excerpt": "2026年11月11日公開（集計期間：2026年11月2日～11月8日）の総合アルバム・チャート&",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167360/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Mrs. GREEN APPLE's \"POPS\" tops the overall album list for the first time in two weeks BE:FIRST/\"Kudanshita Folk Festival '25\" debuts",
+      "translatedExcerpt": "Comprehensive album chart released on November 11, 2026 (collection period: November 2, 2026 - November 8, 2026)"
+    },
     {
       "id": "1bed88bd71f62d00",
       "title": "【急上昇ワード】デビュー10周年の鈴木みのり、新曲2曲同時リリース",
@@ -260,7 +353,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kikuo releases full live video at NIGHT HIKE 2026 in Makuhari",
-      "translatedExcerpt": "Kikuo has released a full-length live video on his YouTube channel. This time, the live footage from NIGHT HIKE 2026 in Makuhari, which was held from October 31st (Saturday) to November 1st (Sunday), was released.独創的かつ幻想的な音世界を展開するきくおのパフォーマンスを、会場の熱気や臨場感とともに楽しむことができる。 きくおならではの中毒性のあるサウンドと目まぐるしく展開する楽曲の数々を、ぜひ映像で体感してほしい。 Release information ▼ OTOTOY now available https://ototoy.jp/_/default/a/64058 Artist information https://x.com/kikuo_sound"
+      "translatedExcerpt": "Kikuo has released a full-length live video on his YouTube channel. This time, the live footage from NIGHT HIKE 2026 in Makuhari, which was held from October 31st (Saturday) to November 1st (Sunday), was released. You can enjoy Kikuo's performance, which unfolds a unique and fantastical sound world, along with the excitement and realism of the venue. Please watch the video to experience Kikuo's unique addictive sounds and rapidly unfolding songs. Release information ▼ OTOTOY now available https://ototoy.jp/_/default/a/64058 Artist information https://x.com/kikuo_sound"
     },
     {
       "id": "6db22a60804f3800",
@@ -297,6 +390,25 @@
         "accent": "#ff6784",
         "language": "en"
       }
+    },
+    {
+      "id": "76e0583dc5673775",
+      "title": "森田剛と操上和美による肖像作品集が2027年3月発売",
+      "link": "https://www.billboard-japan.com/d_news/detail/167381",
+      "publishedAt": "2026-11-12T02:50:00.000Z",
+      "excerpt": "森田剛と写真家・操上和美による肖像作品集『男と俳優』が幻冬舎より2027年3月4日に発売される。",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167381/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "A collection of portrait works by Tsuyoshi Morita and Kazumi Kurigami will be released in March 2027",
+      "translatedExcerpt": "A collection of portrait works by Tsuyoshi Morita and photographer Kazumi Kurigami, ``Otoko to Actor,'' will be released by Gentosha on March 4, 2027."
     },
     {
       "id": "3a11855d3e66d388",
@@ -18302,108 +18414,6 @@
       },
       "translatedTitle": "Yorushika “Haru” has been streamed over 300 million times [Billboard]",
       "translatedExcerpt": "Yorushika's ``Haru'' has surpassed 300 million streaming views on Billboard JAPAN."
-    },
-    {
-      "id": "1989ec9e3da382d9",
-      "title": "Hyperspace Neptunia: Unlimited Game Heads West in 2027",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-03/hyperspace-neptunia-unlimited-game-heads-west-in-2027/.243488",
-      "publishedAt": "2026-11-03T17:52:47.000Z",
-      "excerpt": "Game launches for Switch 2, Switch, PS5, PS4, PC",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gY0/youtube/vFn-9WbYPWw.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "b6dbfc68a63096b2",
-      "title": "HIDIVE to Stream I'm Dating a Dark Summoner Omake Shorts Anime",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-03/hidive-to-stream-im-dating-a-dark-summoner-omake-shorts-anime/.243489",
-      "publishedAt": "2026-11-03T17:24:33.000Z",
-      "excerpt": "HIDIVE streams chibi-style sketch show spinoff on Friday",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHG/youtube/at1PXP-VYgc.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "0c9e98a6917792a0",
-      "title": "Dreadnought on Anime's Fearless Creativity",
-      "link": "https://crunchyroll.com/news/interviews/2026/11/3/dreadnought-interview",
-      "publishedAt": "2026-11-03T17:00:00.000Z",
-      "excerpt": "With anime you aren’t confined in the same way that live-action film is",
-      "image": "https://a.storyblok.com/f/178900/960x540/590739804a/dreadnought-band.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "c4b72fc6ab481f4b",
-      "title": "Cyberpunk Edgerunners 2 Anime Streams New Music Videos",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-03/cyberpunk-edgerunners-2-anime-streams-new-music-videos/.243487",
-      "publishedAt": "2026-11-03T16:58:17.000Z",
-      "excerpt": "Jack-Amin Ibrahim directs new music video about Weak Kingsley, Avida",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gE7/youtube/c8vjJ43bCVY.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "59029a86a62df904",
-      "title": "Starbucks Japan releases now Tokyo Reserve Roastery Christmas drinkware collection [Photos]",
-      "link": "https://soranews24.com/2026/11/04/starbucks-japan-releases-now-tokyo-reserve-roastery-christmas-drinkware-collection-photos/",
-      "publishedAt": "2026-11-03T16:00:50.000Z",
-      "excerpt": "Starbucks Japan’s premium brand is ready to help you get started on Christmas shopping right now. Starbucks Japan didn’t waste much time transitioning from Halloween scares to the Christmas spirit, as it began serving up its new Frappuccino with optional Christmas cooking toppings on November 2. And for those looking to get an early start […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/2_497098.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1fd5b5a8a56a84a4",
-      "title": "A History of Dancing in Anime OPs and EDs",
-      "link": "https://crunchyroll.com/news/features/2026/11/3/a-history-of-dancing-in-anime-ops-and-eds",
-      "publishedAt": "2026-11-03T16:00:00.000Z",
-      "excerpt": "Let's boogie",
-      "image": "https://a.storyblok.com/f/178900/960x540/d92d4812a5/apocalypse-hotel-op.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

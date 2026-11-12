@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T11:02:02.970Z",
+  "generatedAt": "2026-11-12T11:32:06.190Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 124,
+      "count": 125,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 286,
+      "count": 285,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,7 +163,7 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 628,
+    "translatedJapaneseArticles": 627,
     "translationAttempts": 160
   },
   "articles": [
@@ -352,6 +352,23 @@
         "siteUrl": "https://myanimelist.net/news",
         "category": "Anime News",
         "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "6c20758aea0bd7a8",
+      "title": "Nabe ni Tama wo Ukenagara TV Anime Reveals Main Cast, Staff, January Debut",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-12/nabe-ni-tama-wo-ukenagara-tv-anime-reveals-main-cast-staff-january-debut/.243753",
+      "publishedAt": "2026-11-12T10:17:34.000Z",
+      "excerpt": "Shū Uchida, Masaaki Mizunaka both voice Juntarō in J.C.STAFF anime",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gLH/youtube/fmafMZNXeHw.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -18417,25 +18434,6 @@
         "accent": "#ff6784",
         "language": "en"
       }
-    },
-    {
-      "id": "79bda2224c6e0f68",
-      "title": "「kiDnap GAME」ゲ－ム参加者7人の接点が「見えてきた」 「5年前の東京が事件をつなぐ鍵に?」「“比嘉”満島真之介はどちら側なのか」",
-      "link": "https://www.billboard-japan.com/d_news/detail/167118",
-      "publishedAt": "2026-11-04T04:30:00.000Z",
-      "excerpt": "坂口健太郎が主演する国際共同製作ドラマ「kiDnap GAME」（フジテレビ系）の第5話が、3日に",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167118/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "``kiDnap GAME'' The connections between the seven game participants have become clear. ``Is Tokyo from 5 years ago the key to connecting the incident?'' ``Which side is 'Higa' Shinnosuke Mitsushima on?''",
-      "translatedExcerpt": "The fifth episode of the international co-produced drama \"kiDnap GAME\" (Fuji TV) starring Kentaro Sakaguchi will be released on the 3rd."
     }
   ]
 }

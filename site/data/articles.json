@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T05:02:53.390Z",
+  "generatedAt": "2026-11-12T05:32:05.622Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 41,
+      "count": 42,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 126,
+      "count": 125,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 103,
+      "count": 102,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 197,
+      "count": 198,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -151,22 +151,58 @@
     {
       "id": "sankaku",
       "name": "Sankaku Complex",
-      "status": "error",
-      "mode": null,
-      "feedUrl": null,
+      "status": "ok",
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
       "count": 75,
-      "fetchedCount": 0
+      "fetchedCount": 24
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 7,
-    "failedSources": 1,
+    "successfulSources": 8,
+    "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 621,
+    "translatedJapaneseArticles": 622,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "930c09b115c58577",
+      "title": "氷川きよし、「ほど酔い酒（ギター・バージョン）」配信決定 「ほっとひと息つく時間に聴いていただけたら嬉しい」",
+      "link": "https://barks.jp/news/1103980",
+      "publishedAt": "2026-11-12T05:30:00.000Z",
+      "excerpt": "氷川きよしが、シングル「ほど酔い酒」のギターバージョンを2026年11月22日に配信リリースすることを発表した。 「ほど酔い酒」は、生きづらい世の中で小さなしくじりやつまずきを、寛容な心で受け止めていこうというメッセージが込められた作品。今回のギターバージョンは、氷川自身の希望によってギタリスト・斉藤功が演奏を務めており、心地よいギターの響きが楽曲の持つ温もりや人情味を引き立て、肩の力を抜いて楽しめる1曲に仕上がったとのことだ。 あわせて公開された配信用のジャケット写真は、CDのパッケージビジュアルをスケッチ調にアレンジされており、楽曲に込められた優しさが視覚からも感じられる。 ◆ ◆ ◆ ◾️氷川きよし コメントこの度「ほど酔い酒」のギター・バージョンを配信リリースさせていただく事になりました。「ほど酔…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/01161323/%E6%B0%B7%E5%B7%9D%E3%81%8D%E3%82%88%E3%81%97-A%E5%86%99.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Kiyoshi Hikawa's \"Hododui Sake (Guitar Version)\" will be distributed \"I would be happy if you could listen to it while taking a break.\"",
+      "translatedExcerpt": "Kiyoshi Hikawa has announced that he will release the guitar version of his single \"Hodo Drunken Sake\" on November 22, 2026. ``Hodo Drunk Sake'' is a work that conveys the message of accepting small failures and stumbling blocks with a forgiving heart in a world where life is difficult. This guitar version was performed by guitarist Isao Saito at Hikawa's own request, and the pleasant sound of the guitar brings out the warmth and humanity of the song, making it a song that you can relax and enjoy. The jacket photo for distribution that was released at the same time is a sketch-like arrangement of the CD package visual, and the gentleness contained in the song can be felt visually. ◆ ◆ ◆ ◾️ Comment from Kiyoshi Hikawa We have decided to release the guitar version of \"Hodo Drunken Sake\" online. “Moderately drunk…"
+    },
+    {
+      "id": "3390b5840c7937d5",
+      "title": "Yakuza boss sues expressway owners for discrimination against criminals",
+      "link": "https://soranews24.com/2026/11/12/yakuza-boss-sues-expressway-owners-for-discrimination-against-criminals/",
+      "publishedAt": "2026-11-12T05:00:07.000Z",
+      "excerpt": "You gotta fight for your right to be a party to a contract. Ever since 2011, things have been getting rougher and rougher for members of organized crime groups in Japan. That was when a law was passed prohibiting companies from entering into contracts with any known member. That’s why any time you sign up […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/susi1123PAR50412310_TP_V4.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "d88cb3bf60b62fad",
       "title": "【Hot Shot Books】『SPY×FAMILY 18巻』首位、映画公開の髙田郁『星の教室』がトップ10入り",
@@ -370,8 +406,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "529f893298f51e53",
@@ -879,8 +914,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "6d708ff8987a3646",
@@ -1005,8 +1039,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2a626eb1f60361e5",
@@ -1142,8 +1175,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ca24c9bc03e1fd31",
@@ -1315,8 +1347,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a8675125376d2b22",
@@ -1735,8 +1766,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2339a161f64e284a",
@@ -2218,8 +2248,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2bf45e044be4b371",
@@ -2931,8 +2960,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c8a674138a4c03e9",
@@ -3710,8 +3738,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a4b6e9a7d4ca4146",
@@ -4334,8 +4361,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "05226f5c97aa462a",
@@ -5481,8 +5507,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4a3fd189cd17d79d",
@@ -5749,8 +5774,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "63f0879cf3c21520",
@@ -5888,8 +5912,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "53df64f567da6dde",
@@ -6581,8 +6604,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b96ec36f11483f70",
@@ -6935,8 +6957,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b9bfb8a335985b38",
@@ -7372,8 +7393,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "75ee62c4c003b417",
@@ -7390,8 +7410,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "64a950b87a01c094",
@@ -7643,8 +7662,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "488e33db1c5d041f",
@@ -7661,8 +7679,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "9f845feb9452138a",
@@ -7696,8 +7713,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b6254669a06b3285",
@@ -7714,8 +7730,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8192d7ccb76fced4",
@@ -8005,8 +8020,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "037bdf0a42f77d72",
@@ -8023,8 +8037,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "da7f0581dbb0119f",
@@ -8525,8 +8538,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fc4f0c45cf438d96",
@@ -8543,8 +8555,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3cc5cab59b60c9dc",
@@ -8800,8 +8811,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2e33df965d69b885",
@@ -8818,8 +8828,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "5b9d84a4c1baef62",
@@ -8908,8 +8917,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "0219a7236747eb36",
@@ -8926,15 +8934,14 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "5fd1990ae2160982",
       "title": "Japan Launches New Anime Awards Aiming to Become the “Oscars of Animation”",
       "link": "https://news.sankakucomplex.com/n/V4sKBF-7Cx8lcEFFX4ygcw",
       "publishedAt": "2026-11-07T20:12:59.000Z",
-      "excerpt": "Japan’s anime industry has announced a new awards ceremony called the Nippon Anime Awards, aiming to establish a prestigious equivalent of Hollywood’s Academy Awards that places greater emphasis on recognizing the creators behind Japanese animation. The Association of Japanese Animations (AJA) un…",
+      "excerpt": "Japan’s anime industry has announced a new awards ceremony called the Nippon Anime Awards, aiming to establish a prestigious equivalent of Hollywood’s Academy Awards that places greater emphasis on recognizing the creators behind Japanese animation.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8944,8 +8951,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "42b2a299167aa012",
@@ -8962,15 +8968,14 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "228acadcc2658a4d",
       "title": "Japanese Man Arrested for Assaulting Seven Women in Just 15 Minutes",
       "link": "https://news.sankakucomplex.com/n/rirwhWJbFYKMSZD3Na23iQ",
       "publishedAt": "2026-11-07T18:51:56.000Z",
-      "excerpt": "A 39-year-old Japanese man has been arrested after allegedly assaulting seven young women in a series of seemingly random attacks across Tokyo, punching, slapping, and even delivering a flying kick to his victims within approximately 15 minutes. The suspect, Hikaru Hamaguchi, is accused of carryi…",
+      "excerpt": "A 39-year-old Japanese man has been arrested after allegedly assaulting seven young women in a series of seemingly random attacks across Tokyo, punching, slapping, and even delivering a flying kick to his victims within approximately 15 minutes.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8980,8 +8985,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8729b29d54deefc5",
@@ -8998,8 +9002,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8882456ff364cecb",
@@ -9553,8 +9556,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e4a991fdfeee6ac1",
@@ -9571,8 +9573,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8b6adce341bcc9fd",
@@ -10101,8 +10102,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "512f26ffbe1d30b8",
@@ -10119,8 +10119,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "819642f2bead4640",
@@ -10321,8 +10320,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "af6c413618a08216",
@@ -10339,8 +10337,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "92744b3e0b0cfc17",
@@ -10444,8 +10441,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fddf65e801f92e1c",
@@ -10462,8 +10458,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "987c8f8ea72d85e2",
@@ -10531,8 +10526,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "51dec9b7ab3fb5e3",
@@ -10549,8 +10543,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "23d7b79b02d12bbb",
@@ -11189,8 +11182,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "789691823e2eed69",
@@ -11207,8 +11199,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a91653c308ea4dcd",
@@ -11918,8 +11909,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "495b576a7ff50e68",
@@ -11936,8 +11926,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "019061fd6be05f25",
@@ -12846,8 +12835,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b78a741d8ba86da6",
@@ -12864,8 +12852,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "67a56b30655f0b73",
@@ -13123,8 +13110,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "323ebe9d2cc49af6",
@@ -13141,8 +13127,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1d4aaecc65566fda",
@@ -13246,8 +13231,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c7155b3a1e7f241c",
@@ -13264,8 +13248,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c1be2e4f4878e24e",
@@ -13503,8 +13486,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fb941f8a7957870a",
@@ -13521,8 +13503,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3cdc56451082b7ca",
@@ -13947,8 +13928,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f81353a7e9ee5ea2",
@@ -13965,8 +13945,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e6673448cb6524ca",
@@ -14799,8 +14778,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8054610260337673",
@@ -14817,8 +14795,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a8e4e9f66fbffa6b",
@@ -15150,8 +15127,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ba57d83f74eb8cea",
@@ -15168,8 +15144,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "0f2e9e0496aeb22e",
@@ -15425,8 +15400,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "93b3e803d7bddbae",
@@ -15443,8 +15417,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "46a9de9d18cc72a4",
@@ -15624,8 +15597,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2151c501390bbb5f",
@@ -15642,8 +15614,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7259b11d1a773fc6",
@@ -15802,8 +15773,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4530447ee4ade320",
@@ -15820,8 +15790,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8193559da07677b8",
@@ -16287,8 +16256,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "70aabd171e4eacbc",
@@ -16305,8 +16273,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "bc2f2d2cc1a134b3",
@@ -17130,8 +17097,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c16f3627675e673e",
@@ -17148,8 +17114,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f154b4e6e8f971da",
@@ -17561,8 +17526,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "9919c78b490666f5",
@@ -17579,8 +17543,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "28520bc92c516190",
@@ -17855,8 +17818,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2aa0475389581cac",
@@ -17873,8 +17835,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "93c2578e4eed3f3e",
@@ -18463,40 +18424,6 @@
       },
       "translatedTitle": "Olivia Rodrigo releases teaser for her first Christmas song, ``Take Me Home (4 Christmas)''",
       "translatedExcerpt": "Olivia Rodrigo releases her first Christmas song, ``Take Me Home (4 Chris"
-    },
-    {
-      "id": "3f348394b9d3bb94",
-      "title": "Kaeruno Erefante Launches Manga Diary of a Male Porn Star Sequel",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-03/kaeruno-erefante-launches-manga-diary-of-a-male-porn-star-sequel/.243477",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "excerpt": "AV Danyū Hajimemashita Reiwa-hen sequel manga launched on October 30",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJJ/cms/news.10/243477/reiwa.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "0d3af021ffd7fbd1",
-      "title": "Otaku Vampire's Love Bite TV Anime Adaptation Announced",
-      "link": "https://crunchyroll.com/news/latest/2026/11/3/otaku-vampires-love-bite-anime-adaptation-announced",
-      "publishedAt": "2026-11-03T23:51:00.000Z",
-      "excerpt": "A announcement trailer and visual were also released",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/f92f8043a5/otaku-vampires-love-bite-teaser-hero.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

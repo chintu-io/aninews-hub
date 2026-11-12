@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T01:34:41.345Z",
+  "generatedAt": "2026-11-12T02:02:01.700Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 136,
+      "count": 135,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 270,
+      "count": 271,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
       "count": 75,
       "fetchedCount": 24
     }
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 607,
+    "translatedJapaneseArticles": 608,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "e851d06df5c15d27",
+      "title": "「ポリティカルパン」“夏目”高橋一生ら若手議員に視聴者エ－ル「光を見せてほしい」 「意外とタヌキな香取総理がいい」「電気・ガスの補助金の問題が知れた回」",
+      "link": "https://www.billboard-japan.com/d_news/detail/167378",
+      "publishedAt": "2026-11-12T01:30:00.000Z",
+      "excerpt": "石原さとみが主演するドラマ「ポリティカルパン」（フジテレビ系）の第6話が、11日に放送された。（※",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167378/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Viewers cheer on young lawmakers such as \"Political Bread\"'s \"Natsume,\" played by Issei Takahashi: \"I want you to show us the light.\" \"Prime Minister Katori, who is surprisingly cunning, is good.\" \"An episode that shed light on the issue of electricity and gas subsidies.\"",
+      "translatedExcerpt": "The sixth episode of the drama ``Political Pan'' (Fuji TV) starring Satomi Ishihara was broadcast on the 11th. (※"
+    },
     {
       "id": "c1a5725963b82395",
       "title": "Asaka Releases Tetsuryo! meet with Tetsudou Musume Anime Opening Song Music Video",
@@ -242,7 +261,7 @@
       "title": "Japanese Shop Creates Life-Size Anime Stands That Ride in Your Car",
       "link": "https://news.sankakucomplex.com/n/R-PqWiZpkJImd5R2rrL77Q",
       "publishedAt": "2026-11-12T00:00:30.000Z",
-      "excerpt": "A Japanese automotive customization shop has unveiled an unusual product allowing anime fans to take their favorite fictional characters on car rides, creating life-size acrylic figures that can be strapped into passenger seats with ordinary seat belts. The invention comes from F-DESIGN PROFESSIO…",
+      "excerpt": "A Japanese automotive customization shop has unveiled an unusual product allowing anime fans to take their favorite fictional characters on car rides, creating life-size acrylic figures that can be strapped into passenger seats with ordinary seat belts.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -367,7 +386,7 @@
       "title": "Nara Deer Injuries Hit Record High, Over 70% of Hospitalized Victims Are Foreigners",
       "link": "https://news.sankakucomplex.com/n/gh_w-u4k1My-7Zna9xBvcA",
       "publishedAt": "2026-11-11T20:14:27.000Z",
-      "excerpt": "Deer-related injuries in Japan’s famous Nara Park have reached a record high in 2026, with foreign nationals accounting for more than 70% of people transported to hospital after encounters with the animals. According to a November 10 report by Japanese broadcaster TV Asahi, 51 people had been tra…",
+      "excerpt": "Deer-related injuries in Japan’s famous Nara Park have reached a record high in 2026, with foreign nationals accounting for more than 70% of people transported to hospital after encounters with the animals.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -503,7 +522,7 @@
       "title": "Tokyo’s Akihabara Installs 22 Smart Trash Cans to Combat Tourist Litter",
       "link": "https://news.sankakucomplex.com/n/77DW-tWnwxc0DnCe7UI8_A",
       "publishedAt": "2026-11-11T16:00:51.000Z",
-      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores. The new trash cans began operating on November 8, with Chiyoda Ward intro…",
+      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -675,7 +694,7 @@
       "title": "41.5% of Japanese Middle Schoolers Doubt Benefits of Increased Immigration",
       "link": "https://news.sankakucomplex.com/n/o63MAIA4y3anTft0tJhVVw",
       "publishedAt": "2026-11-11T13:59:20.000Z",
-      "excerpt": "A new survey has revealed that 41.5% of Japanese middle school students do not believe an increase in foreign residents would benefit society, nearly doubling the proportion expressing such views just a few years earlier. The findings were reported by Kyodo News on November 7, based on research c…",
+      "excerpt": "A new survey has revealed that 41.5% of Japanese middle school students do not believe an increase in foreign residents would benefit society, nearly doubling the proportion expressing such views just a few years earlier.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1094,7 +1113,7 @@
       "title": "Ocarina of Time Remake Rabidly Criticized & Bizarrely Sexy",
       "link": "https://news.sankakucomplex.com/n/qif9XWRGQm9_Up1e32saNA",
       "publishedAt": "2026-11-11T11:20:18.000Z",
-      "excerpt": "Aside from the censorship with the Great Fairy, the Legend of Zelda: Ocarina of Time remake has been criticized on various different levels, from its occasionally eerie character designs to its horrid modern voice-acting – though, the game does have some oddly sexy moments as well. The most commo…",
+      "excerpt": "Aside from the censorship with the Great Fairy, the Legend of Zelda: Ocarina of Time remake has been criticized on various different levels, from its occasionally eerie character designs to its horrid modern voice-acting – though, the game does have some oddly sexy moments as well.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3066,7 +3085,7 @@
       "title": "Persona 4 Revival Developers Debated How Thick Chie’s Thighs Should Be",
       "link": "https://news.sankakucomplex.com/n/Z9tlYMs4DfqYyPNS2JSWnw",
       "publishedAt": "2026-11-10T23:00:02.000Z",
-      "excerpt": "The developers of Persona 4 Revival have revealed that one of the unexpected challenges during production involved deciding just how thick Chie Satonaka’s thighs should be, with disagreements arising over the character’s appearance in 3D models and illustrations. Speaking in an interview with Jap…",
+      "excerpt": "The developers of Persona 4 Revival have revealed that one of the unexpected challenges during production involved deciding just how thick Chie Satonaka’s thighs should be, with disagreements arising over the character’s appearance in 3D models and illustrations.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3689,7 +3708,7 @@
       "title": "Battlefield 6 Player Sues EA Over Permanent Ban, Wins Account Back in Court",
       "link": "https://news.sankakucomplex.com/n/EC5Ni3DMSh2Zv2riFCyc3Q",
       "publishedAt": "2026-11-10T12:43:11.000Z",
-      "excerpt": "A Battlefield 6 player has reportedly defeated Electronic Arts in court after being permanently banned from the game for alleged cheating, successfully overturning the punishment and obtaining financial compensation from the publisher. The player, known as Rychadv on Reddit, announced his victory…",
+      "excerpt": "A Battlefield 6 player has reportedly defeated Electronic Arts in court after being permanently banned from the game for alleged cheating, successfully overturning the punishment and obtaining financial compensation from the publisher.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4835,7 +4854,7 @@
       "title": "Sega Suffers Data Breach Exposing 2.19 Million Email Addresses, Warns of Phishing Attacks",
       "link": "https://news.sankakucomplex.com/n/TTsQlVA-JYDMY3jIObbdYg",
       "publishedAt": "2026-11-10T02:00:21.000Z",
-      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company. In an official announcement on November 9, Sega r…",
+      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5102,7 +5121,7 @@
       "title": "US Navy Uses Blend S Meme in Recruitment Video, Surprises Japanese Fans",
       "link": "https://news.sankakucomplex.com/n/JRJJvxsJcBZWF2hlp_QXVg",
       "publishedAt": "2026-11-09T22:00:42.000Z",
-      "excerpt": "The United States Navy has attracted attention in Japan after one of its official recruitment accounts published a promotional video based on the popular Blend S anime meme, combining footage of American warships with a joke that originally went viral nearly a decade ago. The approximately 21-sec…",
+      "excerpt": "The United States Navy has attracted attention in Japan after one of its official recruitment accounts published a promotional video based on the popular Blend S anime meme, combining footage of American warships with a joke that originally went viral nearly a decade ago.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5932,7 +5951,7 @@
       "title": "Former Warner Bros. Boss Pamela Abdy Slams Hollywood’s Loss of Female Executives",
       "link": "https://news.sankakucomplex.com/n/imTV7KQdDRqpkqaAcGu1yg",
       "publishedAt": "2026-11-09T10:00:49.000Z",
-      "excerpt": "Former Warner Bros. film chief Pamela Abdy has expressed frustration over the growing number of high-ranking female executives losing their positions in Hollywood, and is additionally becoming acquainted with the fact that producing garbage that no one wants to watch often comes with consequences…",
+      "excerpt": "Former Warner Bros. film chief Pamela Abdy has expressed frustration over the growing number of high-ranking female executives losing their positions in Hollywood, and is additionally becoming acquainted with the fact that producing garbage that no one wants to watch often comes with consequences.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6285,7 +6304,7 @@
       "title": "Nintendo Says No Further Switch 2 Price Hikes Planned Despite Memory Shortage",
       "link": "https://news.sankakucomplex.com/n/xf5NwyJm-nohPly4_7ajgg",
       "publishedAt": "2026-11-09T06:00:05.000Z",
-      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry. Speaking during the company’s latest financial results briefing on No…",
+      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6973,7 +6992,7 @@
       "title": "Hayao Miyazaki Criticizes Young Anime Artists for Only Watching Anime",
       "link": "https://news.sankakucomplex.com/n/2voO9jRT7jc6Jma6SOuQMw",
       "publishedAt": "2026-11-08T22:00:35.000Z",
-      "excerpt": "Legendary Studio Ghibli director Hayao Miyazaki has criticized younger anime creators for drawing inspiration almost exclusively from other anime, arguing that the industry risks losing its originality when artists fail to explore literature, painting, and other forms of expression. The remarks w…",
+      "excerpt": "Legendary Studio Ghibli director Hayao Miyazaki has criticized younger anime creators for drawing inspiration almost exclusively from other anime, arguing that the industry risks losing its originality when artists fail to explore literature, painting, and other forms of expression.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -7331,7 +7350,7 @@
       "title": "Japanese Man Arrested After Stealing 451 Shoe Insoles From Schoolgirls",
       "link": "https://news.sankakucomplex.com/n/nPh_Ds-inDeRtYCX32N6sg",
       "publishedAt": "2026-11-08T12:00:16.000Z",
-      "excerpt": "A 35-year-old Japanese man has been indicted after allegedly stealing hundreds of shoe insoles belonging to female students, with police recovering 451 insoles from his home and investigating suspected thefts at more than 30 schools. The defendant, identified as Daisuke Matsuzaki, was indicted on…",
+      "excerpt": "A 35-year-old Japanese man has been indicted after allegedly stealing hundreds of shoe insoles belonging to female students, with police recovering 451 insoles from his home and investigating suspected thefts at more than 30 schools.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8122,7 +8141,7 @@
       "title": "DMM TV Beats Netflix to Become Japan’s Highest-Rated Streaming Service",
       "link": "https://news.sankakucomplex.com/n/y5v80OXMuJJyBFX29jl2Ag",
       "publishedAt": "2026-11-08T04:00:35.000Z",
-      "excerpt": "Japanese streaming platform DMM TV has overtaken Netflix to become Japan’s highest-rated subscription video service, marking the first time a domestically developed platform has topped Oricon’s annual customer satisfaction rankings. The results were announced on November 2 by research company ori…",
+      "excerpt": "Japanese streaming platform DMM TV has overtaken Netflix to become Japan’s highest-rated subscription video service, marking the first time a domestically developed platform has topped Oricon’s annual customer satisfaction rankings.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8262,7 +8281,7 @@
       "title": "Japan Launches New Anime Awards Aiming to Become the “Oscars of Animation”",
       "link": "https://news.sankakucomplex.com/n/V4sKBF-7Cx8lcEFFX4ygcw",
       "publishedAt": "2026-11-07T20:12:59.000Z",
-      "excerpt": "Japan’s anime industry has announced a new awards ceremony called the Nippon Anime Awards, aiming to establish a prestigious equivalent of Hollywood’s Academy Awards that places greater emphasis on recognizing the creators behind Japanese animation. The Association of Japanese Animations (AJA) un…",
+      "excerpt": "Japan’s anime industry has announced a new awards ceremony called the Nippon Anime Awards, aiming to establish a prestigious equivalent of Hollywood’s Academy Awards that places greater emphasis on recognizing the creators behind Japanese animation.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8296,7 +8315,7 @@
       "title": "Japanese Man Arrested for Assaulting Seven Women in Just 15 Minutes",
       "link": "https://news.sankakucomplex.com/n/rirwhWJbFYKMSZD3Na23iQ",
       "publishedAt": "2026-11-07T18:51:56.000Z",
-      "excerpt": "A 39-year-old Japanese man has been arrested after allegedly assaulting seven young women in a series of seemingly random attacks across Tokyo, punching, slapping, and even delivering a flying kick to his victims within approximately 15 minutes. The suspect, Hikaru Hamaguchi, is accused of carryi…",
+      "excerpt": "A 39-year-old Japanese man has been arrested after allegedly assaulting seven young women in a series of seemingly random attacks across Tokyo, punching, slapping, and even delivering a flying kick to his victims within approximately 15 minutes.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8867,7 +8886,7 @@
       "title": "Fuji TV Plans to Introduce Generative AI Across All Its Live-Action Dramas by 2027",
       "link": "https://news.sankakucomplex.com/n/4BvhAMYF6zvRp428fKkHpQ",
       "publishedAt": "2026-11-07T10:00:24.000Z",
-      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks. The company…",
+      "excerpt": "Japanese broadcasting giant Fuji TV has announced plans to introduce generative artificial intelligence into the production of all its live-action television dramas by October 2027, following experiments that reportedly reduced workloads by as much as 80% in certain production tasks.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18375,23 +18394,6 @@
         "siteUrl": "https://myanimelist.net/news",
         "category": "Anime News",
         "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "fddbc3f63830a2e8",
-      "title": "Ramparts of Ice Manga Gets Epilogue Chapter in Fan Book",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-03/ramparts-of-ice-manga-gets-epilogue-chapter-in-fan-book/.243463",
-      "publishedAt": "2026-11-03T13:25:30.000Z",
-      "excerpt": "Fan book ships on January 4",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gMD/cms/news.10/243463/rampartsofice.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

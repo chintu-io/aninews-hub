@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T00:01:59.925Z",
+  "generatedAt": "2026-11-12T00:32:19.235Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 137,
+      "count": 136,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 103,
+      "count": 102,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 269,
+      "count": 270,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 74,
+      "count": 75,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 609,
+    "translatedJapaneseArticles": 610,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "82ff8257de9b4945",
+      "title": "KATSEYE、MEGANが脳震盪のため座ったままパフォーマンスしファンから懸念の声",
+      "link": "https://www.billboard-japan.com/d_news/detail/167375",
+      "publishedAt": "2026-11-12T00:10:00.000Z",
+      "excerpt": "MANONとSOPHIAの活動休止によってすでにメンバーが2人欠けているKATSEYEが、先日米テ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167375/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "KATSEYE and MEGAN perform while seated due to concussion, raising concerns from fans",
+      "translatedExcerpt": "KATSEYE, who is already missing two members due to the hiatus of MANON and SOPHIA, recently appeared on TV in the US."
+    },
+    {
+      "id": "db81c77c0149d52a",
+      "title": "Japanese Shop Creates Life-Size Anime Stands That Ride in Your Car",
+      "link": "https://news.sankakucomplex.com/n/R-PqWiZpkJImd5R2rrL77Q",
+      "publishedAt": "2026-11-12T00:00:30.000Z",
+      "excerpt": "A Japanese automotive customization shop has unveiled an unusual product allowing anime fans to take their favorite fictional characters on car rides, creating life-size acrylic figures that can be strapped into passenger seats with ordinary seat belts.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "8e636ddad29acd73",
       "title": "【コーチェラ2027】デュア・リパ／テーム・インパラ／シザがヘッドライナー",
@@ -847,7 +883,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Premiere of the series of music videos \"Osekkai\" and \"Amajaki\" featuring wacci and Shiori Kubo",
+      "translatedTitle": "wacci premieres their series MV “Osetsusuke” and “Amayaki” starring Shiori Kubo",
       "translatedExcerpt": "wacci will release music videos for new songs “Osetsusuke” and “Amayaki” on YouT on November 13, 2026."
     },
     {
@@ -905,7 +941,7 @@
         "language": "ja"
       },
       "translatedTitle": "Critic Squirrel “I got serious” Their first album in 6 years, a 2-CD set “Yarukkyanaissho!” ” Release decided",
-      "translatedExcerpt": "Critic Squirrel releases their first double-CD album in six years, ``Yarakkyanaissho!'' ” has been announced to be released on January 13, 2027. Kritrik Risu, also known as Sugim, has been at the forefront of the underground scene, performing over 120 live shows a year. The album commemorating their 20th anniversary is a 2-disc set of 20 songs, totaling about 100 minutes. This work, which includes a group of songs that have excited the live floor in recent years, is a masterpiece for fans and a definitive best-of album that is perfect for beginners. The album jacket was created by Sugim's friend, photographer Shinsuke Saeki. Prior to the release, it has been decided that the ``Crytrik Rhys One-Man Tour 2026'' will be held in December. Comments After 20 years of activity, I became serious about producing sound sources. album…"
+      "translatedExcerpt": "Critic Squirrel releases their first double-CD album in six years, ``Yarakkyanaissho!'' ” was announced to be released on January 13, 2027. Kritrik Risu, also known as Sugim, has been at the forefront of the underground scene, performing over 120 live shows a year. The album commemorating their 20th anniversary is a 2-disc set of 20 songs, totaling about 100 minutes. This work, which includes a group of songs that have excited the live floor in recent years, is a masterpiece for fans and a definitive best-of album that is perfect for beginners. The album jacket was created by Sugim's friend, photographer Shinsuke Saeki. Prior to the release, it has been decided that the ``Crytrik Rhys One-Man Tour 2026'' will be held in December. Comments After 20 years of activity, I became serious about producing sound sources. album…"
     },
     {
       "id": "592b80e40ca555fd",
@@ -923,7 +959,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Hitorie to Premiere Music Video for \"KEDAMONO_AYAKASHI,\" Their First New Song in About a Year",
+      "translatedTitle": "Hitrie will release the MV premiere of his new song “KEDAMONO_AYAKASHI” for the first time in about a year",
       "translatedExcerpt": "Hitrie has announced that the music video for their new song \"KEDAMONO_AYAKASHI\", which was released today, will be premiered on November 12, 2026 at 9:00 p.m. The music video for their new song \"KEDAMONO_AYAKASHI\", their first in about a year, was directed by keishi kondo, an old friend of vocalist Shinoda. The video is composed mainly of lively performance scenes of the members, and the video allows you to fully feel the energy of the song. ◆ ◆ ◆ ◾️ Shinoda's comment Last year, I saw the movie \"NEW RELIGION\" at Shinjuku Cinemart. And for the first time in a while, I wanted director Keishi Kondo (hereinafter referred to as Kondo) to take a picture of me. Kondo and I were classmates at a film university in Nagoya, and I think I spent most of my student days with him. His dedication towards images..."
     },
     {
@@ -981,7 +1017,7 @@
         "language": "ja"
       },
       "translatedTitle": "The cause is myself. , will hold his biggest tour <LIVE TOUR 2027 Shinjo>",
-      "translatedExcerpt": "The cause is myself. has announced that they will be holding <LIVE TOUR 2027 Shinjo> from spring 2027. This tour will be his largest, with 34 performances in 11 cities, starting with a performance at the Yokosuka Arts Theater in Kanagawa on March 17th and ending with a performance at Tachikawa Stage Garden in Tokyo on August 1st.チケットは本日20時からファンクラブ先行がスタートしている。 The cause is myself. released their 5th single ``Love Reason'' today, and the title song ``Love Reason'' topped the Oricon Weekly Streaming Ranking for 2 weeks in a row, and the music video has been viewed over 4.7 million times in about 2 weeks since its release, making various charts and rankings a hit. ◾️＜LIVE TOUR 2027 Shinjo＞ [Kanagawa] Yokosuka Arts Theater Wednesday, March 17, 2027 <Part 1> Doors open at 13:00 / Start at 14:00..."
+      "translatedExcerpt": "The cause is myself. has announced that they will be holding <LIVE TOUR 2027 Shinjo> from spring 2027. This tour will be his largest, with 34 performances in 11 cities, starting with a performance at the Yokosuka Arts Theater in Kanagawa on March 17th and ending with a performance at Tachikawa Stage Garden in Tokyo on August 1st. Tickets are available in advance from fan clubs starting today at 8pm. The cause is myself. released their 5th single ``Love Reason'' today, and the title song ``Love Reason'' topped the Oricon Weekly Streaming Ranking for 2 weeks in a row, and the music video has been viewed over 4.7 million times in about 2 weeks since its release, making various charts and rankings a hit. ◾️＜LIVE TOUR 2027 Shinjo＞ [Kanagawa] Yokosuka Arts Theater Wednesday, March 17, 2027 <Part 1> Doors open at 13:00 / Start at 14:00..."
     },
     {
       "id": "458a25c040724ff1",
@@ -1034,7 +1070,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Serial] Sakurazawa’s Seriousness II Part 12 “Sakurazawa in April 2026”",
-      "translatedExcerpt": "[April 4th (Sat)] Rayflower 47 prefecture tour <15th Anniversary LIVE 2026 “Moving on!”> Toyama performance. Although I have passed through Toyama Prefecture by land and used the expressway service areas within the prefecture many times, this was my first time visiting the so-called urban area. The day before the concert, I wanted to take a walk around the city for the first time, so I arrived in Toyama City in the afternoon. I decided to take a tour of the venue (Toyama SOUL POWER) and got on the tram. The tram I rode on was a very retro vehicle, probably a hand-me-down from some railroad company. The streetcar looks just like the Showa era, so it brought back memories of my childhood riding on the streetcar. I saw many cherry blossoms in full bloom from the train window. Place names with “Sakura” in them, such as “Sakuramachi”, “Sakuragicho”, “Sakurabashi”, and “Sakura” were found here and there. I'm curious because she calls herself Sakura. 会場に到着。 …"
+      "translatedExcerpt": "[April 4th (Sat)] Rayflower 47 prefecture tour <15th Anniversary LIVE 2026 “Moving on!”> Toyama performance. Although I have passed through Toyama Prefecture by land and used the expressway service areas within the prefecture many times, this was my first time visiting the so-called urban area. The day before the concert, I wanted to take a walk around the city for the first time, so I arrived in Toyama City in the afternoon. I decided to take a tour of the venue (Toyama SOUL POWER) and got on the tram. The tram I rode on was a very retro vehicle, probably a hand-me-down from some railroad company. The streetcar looks just like the Showa era, so it brought back memories of my childhood riding on the streetcar. I saw many cherry blossoms in full bloom from the train window. Place names with “Sakura” in them, such as “Sakuramachi”, “Sakuragicho”, “Sakurabashi”, and “Sakura” were found here and there. I'm curious because she calls herself Sakura. Arrived at the venue. …"
     },
     {
       "id": "c082806c811d5b97",
@@ -1242,7 +1278,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "<Live Report> JUJU “A journey back in memory” with letters and famous songs -- [Jun Cafe JUJU “Time Travel” Director: Masataka Matsutoya] Semi-final",
+      "translatedTitle": "<Live Report> JUJU “A trip back in memory” with letters and famous songs -- [Jun Cafe JUJU “Time Travel” Director: Masataka Matsutoya] Semi-final",
       "translatedExcerpt": "JUJU’s National Tour [JUJU HALL TOUR 2026 Pure Cafe JUJU “Time Travel” Director: Matsuto"
     },
     {
@@ -1390,7 +1426,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Akina Nakamori will release music videos for “Merry Christmas, My Heart” and “Casablanca” for 2 consecutive days",
+      "translatedTitle": "Akina Nakamori, \"Merry Christmas, My Heart\" and \"Casablanca\" MVs to be released for 2 consecutive days",
       "translatedExcerpt": "Akina Nakamori's first Christmas song since her debut, \"Merry Christmas,\""
     },
     {
@@ -2750,7 +2786,7 @@
         "language": "ja"
       },
       "translatedTitle": "Musical sound, new song is “melody” love song “zurui”",
-      "translatedExcerpt": "Gakuon has digitally released their 3rd single \"zurui\" (pronunciation: surui). \"zurui\" is an electro-pop song bursting with kitschy electronic sounds. A new type of ``melody'' love song that depicts the otaku spirit that soars at the casual gesture of ``Oshi'' with a humorous play on words. \"Zurui [Music Video?]\", also known as \"a video that looks like a music video\", will be premiered at 9pm on Friday, November 13th. Release information https://ototoy.jp/_/default/p/4425817 Artist information https://www.instagram.com/sa_sa_ne/ https://www.tiktok.com/@sasasasasasa078 https://www.tiktok.com/@sa_…"
+      "translatedExcerpt": "Gakuon has digitally released their 3rd single \"zurui\" (pronunciation: surui). \"zurui\" is an electro-pop song bursting with kitschy electronic sounds. A new type of ``melody'' love song that depicts the otaku spirit that soars at the casual gesture of ``Oshi'' with a humorous play on words. \"zurui [Music Video?],\" also known as a \"music video-like video,\" will be premiered at 9pm on Friday, November 13th. Release information https://ototoy.jp/_/default/p/4425817 Artist information https://www.instagram.com/sa_sa_ne/ https://www.tiktok.com/@sasasasasasa078 https://www.tiktok.com/@sa_…"
     },
     {
       "id": "225add9168508084",
@@ -2933,7 +2969,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Nogizaka46: \"Kimi Loss\" Pre-Release and Music Video Premiere",
+      "translatedTitle": "Nogizaka46 starts pre-distribution of “Kimiros” & releases music video",
       "translatedExcerpt": "Advance distribution and music video of Nogizaka46's latest single \"Kimiros\" to be released on December 2nd (Wednesday) have been released. \"Kimiros\" is a song in which 5th generation member Kazu Inoue served as the formation center for the fourth time. The MV depicts the girls facing their parting ways with their precious \"you\" and starting to move forward. The director was Suzuko Ohgaki. Release information https://ototoy.jp/_/default/p/4369170 Live information 6th Generation National Tour 2026 November 10th (Tuesday) and 11th (Wednesday), 2026 Zepp Sapporo Nogizaka46 43rdSG Under Live December 17th, 2026 (Thursday) Nippon Budokan Nogizaka46 Great Thanksgiving 2026 Saturday, December 19, 2026 Nippon Budokan Artist information http://www.nogizaka46…"
     },
     {
@@ -3583,7 +3619,7 @@
       "title": "Battlefield 6 Player Sues EA Over Permanent Ban, Wins Account Back in Court",
       "link": "https://news.sankakucomplex.com/n/EC5Ni3DMSh2Zv2riFCyc3Q",
       "publishedAt": "2026-11-10T12:43:11.000Z",
-      "excerpt": "A Battlefield 6 player has reportedly defeated Electronic Arts in court after being permanently banned from the game for alleged cheating, successfully overturning the punishment and obtaining financial compensation from the publisher.",
+      "excerpt": "A Battlefield 6 player has reportedly defeated Electronic Arts in court after being permanently banned from the game for alleged cheating, successfully overturning the punishment and obtaining financial compensation from the publisher. The player, known as Rychadv on Reddit, announced his victory…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3931,7 +3967,7 @@
         "language": "ja"
       },
       "translatedTitle": "Michiya Mitsuhashi starts reprint project, releases hard-to-find editions on CD & opens YouTube channel",
-      "translatedExcerpt": "To commemorate the 30th anniversary of Michiya Mitsuhashi's death, it has been decided that five CDs of concert recordings that have been difficult to obtain will be released. As a result, all of the concert albums left behind by Michiya Mitsuhashi will be made into CDs. What will be released this time are five valuable live recordings recorded from 1959 to 1983. Contains footage from a variety of stages, including folk song recitals, shamisen recitals, and song shows. All tracks are produced on CD using the latest mastering technology from original tapes. The lineup includes a total of 6 works, including the currently difficult-to-obtain ``20th Anniversary of Folk Song Life - Michiya Folk Song Recital'', ``Japanese Fantasy with Shamisen and Latin Rhythm - Michiya Mitsuhashi Shamisen Recital'' co-starred with Tokyo Cuban Boys, and ``Atsui Enjuku (20th Anniversary of Popular Song Life)'', which is currently on sale..."
+      "translatedExcerpt": "To commemorate the 30th anniversary of Michiya Mitsuhashi's death, it has been decided that five CDs of concert recordings that have been difficult to obtain will be released. As a result, all of the concert albums left behind by Michiya Mitsuhashi will be made into CDs. What will be released this time are five valuable live recordings recorded from 1959 to 1983. Contains footage from a variety of stages, including folk song recitals, shamisen recitals, and song shows. All tracks are produced on CD using the latest mastering technology from original tapes. The lineup includes a total of 6 works, including the currently difficult-to-obtain ``20th Anniversary of Folk Song Life - Michiya Minyo Recital'', ``Japanese Fantasy with Shamisen and Latin Rhythm - Michiya Mitsuhashi Shamisen Recital'' co-starred with Tokyo Cuban Boys, and ``Atsui Enjuku (20th Anniversary of Popular Song Life)'', which is currently on sale..."
     },
     {
       "id": "97395e7e4001d093",
@@ -3969,7 +4005,7 @@
         "language": "ja"
       },
       "translatedTitle": "Yuko Suzuka releases new song to commemorate 10th anniversary of solo career",
-      "translatedExcerpt": "Yuuko Suzuka, a vocalist in Wagakki Band, will release a new song \"Yui Rise Up\" on November 18th (Wednesday) to mark the 10th anniversary of her solo debut. Suzuka herself wrote and composed the lyrics. The song is an emotional anthem that depicts the power to choose today with one's own feet and stand up again and again, even when dealing with wounds and pain. The chorus was written in English out of a desire to ``deliver my feelings directly to listeners around the world.'' With Shin from the alternative rock band HeavensDust, Suzuka took on the challenge of authentically rapping in English for the first time. The music video will be premiered on the official YouTube channel from 8pm on Wednesday, November 18th. A short version of the music video is currently being released in advance on each official SNS. As a project in conjunction with the 10th anniversary of my solo debut, DD will be held in Setagaya Ward, Tokyo from November 21st (Saturday)..."
+      "translatedExcerpt": "Yuko Suzuhana, a vocalist in Wagakki Band, will release a new song \"Yui Rise Up\" on November 18th (Wednesday) to mark the 10th anniversary of her solo debut. Suzuka herself wrote and composed the lyrics. The song is an emotional anthem that depicts the power to choose today with one's own feet and stand up again and again, even when dealing with wounds and pain. The chorus was written in English out of a desire to ``deliver my feelings directly to listeners around the world.'' With Shin from the alternative rock band HeavensDust, Suzuka took on the challenge of authentically rapping in English for the first time. The music video will be premiered on the official YouTube channel from 8pm on Wednesday, November 18th. A short version of the music video is currently being released in advance on each official SNS. As a project in conjunction with the 10th anniversary of my solo debut, DD will be held in Setagaya Ward, Tokyo from November 21st (Saturday)..."
     },
     {
       "id": "9bf287b990d20ba8",
@@ -18364,40 +18400,6 @@
       },
       "translatedTitle": "Togenashi Togeari will hold a one-man live at K Arena Yokohama. “Girls Band Cry THE MOVIE” will be released in May 2027",
       "translatedExcerpt": "Togenashi Togeari, a real band that works with the band of the main characters in the anime \"Girls Band Cry\", made four important announcements about the future development of the anime \"Girls Band Cry\" and the band at the <Girls Band Cry Special LIVE \"Red Hibiki Festival\"> which they performed today. The first is Togenashi Togeari's new one-man live performance. It has been decided that the performance will be held on March 20, 2027 at Kanagawa's K Arena Yokohama, and the key visual for the performance, drawn by Nari Teshima, who is in charge of the character design for Girls Band Cry, was also released at the same time. Togenashi Togeari will be holding a one-man live at his largest capacity, surpassing the sold-out Nippon Budokan in 2025 with over 12,000 visitors. The title of this live show is..."
-    },
-    {
-      "id": "cb6ff3a03e8c0ee8",
-      "title": "I'm Not Even an NPC In This Otome Game! Manga Ends",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-03/im-not-even-an-npc-in-this-otome-game-manga-ends/.243461",
-      "publishedAt": "2026-11-03T12:26:05.000Z",
-      "excerpt": "Manga adaptation debuted in April 2020",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gQA/cms/news.10/243461/68.webp",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "390e242e380c143b",
-      "title": "The Iceblade Sorcerer Shall Rule the World II Anime Adds Five New Cast Members",
-      "link": "https://crunchyroll.com/news/latest/2026/11/3/the-iceblade-sorcerer-shall-rule-the-world-ii-anime-five-new-cast-members",
-      "publishedAt": "2026-11-03T12:24:00.000Z",
-      "excerpt": "Crunchyroll streams adaptation based on light novels by Nana Mikoshiba",
-      "image": "https://a.storyblok.com/f/178900/1460x821/14ed2d2088/the_iceblade_sorcerer_shall_rule_the_world2_abel_header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

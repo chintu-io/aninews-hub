@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T18:33:25.968Z",
+  "generatedAt": "2026-11-12T19:02:55.414Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 129,
+      "count": 131,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 276,
+      "count": 275,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 151,
+      "count": 150,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
       "count": 76,
       "fetchedCount": 24
     }
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 619,
+    "translatedJapaneseArticles": 617,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "f769f82e88fb5562",
+      "title": "Professor Layton and The New World of Steam Game Reveals English Dub, Cast",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-12/professor-layton-and-the-new-world-of-steam-game-reveals-english-dub-cast/.243767",
+      "publishedAt": "2026-11-12T18:30:41.000Z",
+      "excerpt": "Christopher Robin Miller, Lani Minella return as Professor Layton, Luke, respectively",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g05/cms/news.10/243767/professor-layton-and-the-new-world-of-steam.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "bfd9be20ab1ada63",
       "title": "Sonic the Hedgehog 35th Anniversary Animation Pits the Squad Against Metal Sonic",
@@ -181,6 +198,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d6d0f3c4efcbffec",
+      "title": "Disney to Premiere Lilas Dreams & Memories Documentary About YOASOBI's Lilas Ikuta on December 30",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-12/disney-to-premiere-lilas-dreams-and-memories-documentary-about-yoasobi-lilas-ikuta-on-december-30/.243764",
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "excerpt": "2-part documentary about ikura's experience with High School Musical streams/airs on December 30",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gS7/youtube/6vu6ubwgQoQ.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -7127,6 +7161,23 @@
       },
       "translatedTitle": "Number_i, \"Sekkisei\" new CM \"The Penetration Power, Serum Level\" edition starts airing on November 11th",
       "translatedExcerpt": "Number_i will appear in the new commercial for \"Sekkisei\" titled \"Sono Penetration, Serum Level\" and will be aired from November 11th."
+    },
+    {
+      "id": "3e2fb6a41999d15c",
+      "title": "Masahiro Sakurai Warns Developers Could Fall Behind Without AI",
+      "link": "https://news.sankakucomplex.com/n/5IuVjIlJY31Chv1qWJK3Zg",
+      "publishedAt": "2026-11-09T18:44:38.000Z",
+      "excerpt": "Super Smash Bros. and Kirby creator Masahiro Sakurai has warned that video game developers who refuse to use generative artificial intelligence risk falling behind their competitors, despite admitting that he personally avoids the technology because of its current limitations and potential for ex…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "02ae5824bea91b65",
@@ -18363,61 +18414,6 @@
         "accent": "#a78bfa",
         "language": "en"
       }
-    },
-    {
-      "id": "c16f3627675e673e",
-      "title": "Nearly Half of New Steam Games Now Disclose AI-Generated Content",
-      "link": "https://news.sankakucomplex.com/n/jAQnW4-mWGyzpQGlu-x7QA",
-      "publishedAt": "2026-11-04T09:00:09.000Z",
-      "excerpt": "Nearly half of all video games released on Steam in October 2026 disclosed using generative artificial intelligence, according to a new analysis revealing how rapidly AI-generated content has spread throughout Valve’s digital storefront.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f154b4e6e8f971da",
-      "title": "＜インタビュー＞DIIVが語る、革命と“再建の精神”、声を上げないアーティストの“臆病さ”",
-      "link": "https://www.billboard-japan.com/d_news/detail/167065",
-      "publishedAt": "2026-11-04T09:00:00.000Z",
-      "excerpt": "今世紀、この経済状況の中で、インディーロック・バンドとして15年間生計を立て続けることは決して簡単",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167065/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<Interview> DIIV talks about the revolution, the “spirit of reconstruction”, and the “cowardice” of artists who do not speak out",
-      "translatedExcerpt": "In this century, in this economic climate, it's not easy to make a living as an indie rock band for 15 years."
-    },
-    {
-      "id": "ef30ae0f38385eeb",
-      "title": "Mollie Elizabeth、幻想的な新EPリリース",
-      "link": "https://ototoy.jp/news/132615",
-      "publishedAt": "2026-11-04T09:00:00.000Z",
-      "excerpt": "Mollie Elizabethが2026年10月30日(金)にニューEP『People Pleaser』をリリースした。 2025年発表のデビューEP『Dirty Blonde』に続く本作には、全6曲を収録。華やかなキャバレーポップ、オーケストラルなアレンジメント、ドゥーワップの要素、そしてダークなユーモアを融合させた、彼女ならではの独創的な音楽世界が展開されている。 本作の中心にあるテーマは、社会や周囲の人々から押し付けられる期待、そしてそこから自分自身を解放すること。子どもの頃に思い描いていた夢と、成長する中で直面する厳しい現実とのギャップを、独特のストーリーテリングとドラマティックなサウンドで表現している。 リリース情報 https://ototoy.jp/_/default/p/4375290…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132615/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Mollie Elizabeth releases fantastic new EP",
-      "translatedExcerpt": "Mollie Elizabeth released her new EP “People Pleaser” on Friday, October 30, 2026. This follow-up to their debut EP “Dirty Blonde” released in 2025 includes a total of six songs. Her unique musical world is a fusion of glamorous cabaret pop, orchestral arrangements, doo-wop elements, and dark humor. The central theme of this work is the expectations imposed by society and those around you, and how to free yourself from these expectations. He uses his unique storytelling and dramatic sound to express the gap between the dreams he had as a child and the harsh reality he faces while growing up. Release information https://ototoy.jp/_/default/p/4375290…"
     }
   ]
 }

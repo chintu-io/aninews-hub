@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T14:33:17.736Z",
+  "generatedAt": "2026-11-12T15:01:57.774Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 96,
+      "count": 98,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 282,
+      "count": 279,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 152,
+      "count": 153,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,63 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 628,
+    "translatedJapaneseArticles": 626,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "bb0f0715209b6a0c",
+      "title": "『「楽園追放 心のレゾナンス」オリジナルサウンドトラック』のOTOTOY限定購入特典が決定！",
+      "link": "https://ototoy.jp/news/132694",
+      "publishedAt": "2026-11-12T15:00:00.000Z",
+      "excerpt": "『「楽園追放 心のレゾナンス」オリジナルサウンドトラック』が2026年11月13日（金）にリリース。本作をOTOTOYで購入すると、限定画像を特典としてもれなくプレゼント。さらに抽選で1名に劇場版告知ポスタ一が当たるキャンペーンも実施いたします。 本作は監督：水島精二 × 脚本：虚淵玄（ニトロプラス）で送る劇場作品「楽園追放 心のレゾナンス」のオリジナルサウンドトラック。 NARASAKI監修による珠玉の劇伴47曲が収録されています。 プレゼント応募要項 〈応募期間〉 OTOTOY配信リンク https://ototoy.jp/_/default/p/4399565 https://ototoy.jp/_/default/p/4399737",
+      "image": "https://imgs.ototoy.jp/news/image.php/132694/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "OTOTOY limited purchase benefits for “Exile from Paradise: Resonance of the Heart” Original Soundtrack have been decided!",
+      "translatedExcerpt": "\"'Exile from Paradise: Resonance of the Heart' Original Soundtrack\" will be released on Friday, November 13, 2026. If you purchase this work on OTOTOY, you will receive a limited edition image as a bonus. We will also be running a campaign where one person will be randomly selected to win a movie poster. This work is the original soundtrack of the theatrical work ``Expelled from Paradise: Resonance of the Heart'', directed by Seiji Mizushima and written by Gen Urobuchi (Nitroplus). Contains 47 gem accompaniments supervised by NARASAKI. Present application requirements <Application period> OTOTOY distribution link https://ototoy.jp/_/default/p/4399565 https://ototoy.jp/_/default/p/4399737"
+    },
+    {
+      "id": "4d6b7cfc7d426129",
+      "title": "Release the Villains: Tomura Shigaraki Is a Hero for the Villains",
+      "link": "https://crunchyroll.com/news/features/2026/11/12/anime-villains-tomura-shigaraki",
+      "publishedAt": "2026-11-12T15:00:00.000Z",
+      "excerpt": "Shigaraki adds a layer of complexity to the idea of what a villain, and what a hero, is",
+      "image": "https://a.storyblok.com/f/178900/960x540/c7c62514d0/my-hero-academia.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "f457cdd70ca43a32",
+      "title": "Nabe ni Tama o Ukenagara Food Travel Anime Sets January 2027 Premiere",
+      "link": "https://crunchyroll.com/news/latest/2026/11/12/nabe-ni-tama-o-ukenagara-food-travel-anime-january-2027-premiere-teaser-trailer",
+      "publishedAt": "2026-11-12T14:40:00.000Z",
+      "excerpt": "Juntaro's voice actors were revealed in the first teaser trailer",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/cd43d25951/nabe-ni-tama-o-ukenagara-getting-shots-on-a-frying-pan-anime-teaser-trailer-video.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "a98c4a2b1b78ffd6",
       "title": "【ビルボード】「TOKYO DRIFT(FAST & FURIOUS)」グローバル・ジャパン・ソングス21度目の首位",
@@ -18379,63 +18432,6 @@
       },
       "translatedTitle": "[Hot Shot Songs] M!LK “That’s! Sujou” takes first place, Travis Japan “Checkmate” takes second place",
       "translatedExcerpt": "Rising song chart released on November 4, 2026 (collection period: October 26, 2026 - November 1, 2026) &"
-    },
-    {
-      "id": "4ece864fb0413279",
-      "title": "【ビルボード】M!LK「ザッツ！超常」が“JAPAN Hot Animation”1位に輝く 2017年「疾走ペンデュラム」以来2度目のアニメチャート首位を達成",
-      "link": "https://www.billboard-japan.com/d_news/detail/167125",
-      "publishedAt": "2026-11-04T08:35:00.000Z",
-      "excerpt": "2026年11月4日公開（集計期間：2026年10月26日～11月1日）Billboard JAP",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167125/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] M!LK “That’s! Chojo” ranks No. 1 on the “JAPAN Hot Animation” chart, achieving the second top spot on the anime chart since “Dashino Pendulum” in 2017",
-      "translatedExcerpt": "Released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026) Billboard JAP"
-    },
-    {
-      "id": "ef2f7cf1b2ff21f1",
-      "title": "【ビルボード】M!LK「ザッツ！超常」が自身2作目の総合首位、Vaundy「しわあわせ」が初のトップ3入り",
-      "link": "https://www.billboard-japan.com/d_news/detail/167121",
-      "publishedAt": "2026-11-04T08:35:00.000Z",
-      "excerpt": "2026年11月4日公開（集計期間：10月26日～11月1日）のBillboard JAPAN 総",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167121/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] M!LK's \"That's! Sujou\" is his second overall number one, Vaundy's \"Shiwaawase\" is in the top three for the first time",
-      "translatedExcerpt": "Billboard JAPAN total released on November 4, 2026 (collection period: October 26th to November 1st)"
-    },
-    {
-      "id": "4145224d2ee36e1e",
-      "title": "【ビルボード】Travis Japan「チェックメイト」2万DL超でDLソング首位獲得 M!LKが2位に続く",
-      "link": "https://www.billboard-japan.com/d_news/detail/167122",
-      "publishedAt": "2026-11-04T08:35:00.000Z",
-      "excerpt": "2026年11月4日公開（集計期間：2026年10月26日～2026年11月1日）のBillboa",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167122/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Travis Japan's \"Checkmate\" takes first place as a DL song with over 20,000 downloads, followed by M!LK in second place",
-      "translatedExcerpt": "Billboa released on November 4, 2026 (collection period: October 26, 2026 to November 1, 2026)"
     }
   ]
 }

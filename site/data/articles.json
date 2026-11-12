@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T04:32:53.681Z",
+  "generatedAt": "2026-11-12T05:02:53.390Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 130,
+      "count": 126,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 102,
+      "count": 103,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 28,
+      "count": 27,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 280,
+      "count": 289,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 199,
+      "count": 197,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,29 +144,217 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 144,
+      "count": 142,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
     {
       "id": "sankaku",
       "name": "Sankaku Complex",
-      "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 76,
-      "fetchedCount": 24
+      "status": "error",
+      "mode": null,
+      "feedUrl": null,
+      "count": 75,
+      "fetchedCount": 0
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 8,
-    "failedSources": 0,
+    "successfulSources": 7,
+    "failedSources": 1,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 616,
+    "translatedJapaneseArticles": 621,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "d88cb3bf60b62fad",
+      "title": "【Hot Shot Books】『SPY×FAMILY 18巻』首位、映画公開の髙田郁『星の教室』がトップ10入り",
+      "link": "https://www.billboard-japan.com/d_news/detail/167393",
+      "publishedAt": "2026-11-12T05:00:00.000Z",
+      "excerpt": "2026年11月12日公開（集計期間：11月2日～11月8日）の&ldquo;Billboard",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167393/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Hot Shot Books] “SPY×FAMILY Volume 18” ranks first, and Iku Takada’s “Star Classroom”, which will be released as a movie, enters the top 10",
+      "translatedExcerpt": "“Billboard” released on November 12, 2026 (aggregation period: November 2nd to November 8th)"
+    },
+    {
+      "id": "c5d1967a066d9167",
+      "title": "【ビルボード】『SPY×FAMILY 18巻』が“Reiwa Books”首位獲得、人気コミックスの新刊が上位に集結",
+      "link": "https://www.billboard-japan.com/d_news/detail/167377",
+      "publishedAt": "2026-11-12T05:00:00.000Z",
+      "excerpt": "2026年11月12日公開（集計期間：2026年11月2日～11月8日）のBillboard JA",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167377/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] “SPY×FAMILY Volume 18” takes first place on “Reiwa Books”, new releases of popular comics gather at the top",
+      "translatedExcerpt": "Billboard JA released on November 12, 2026 (Aggregation period: November 2, 2026 - November 8, 2026)"
+    },
+    {
+      "id": "802ae7a697ce15a8",
+      "title": "【ビルボード】『SPY×FAMILY 18巻』が3指標1位で総合書籍チャート首位、『ダンダダン』『SAKAMOTO DAYS』最新刊が続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/167394",
+      "publishedAt": "2026-11-12T05:00:00.000Z",
+      "excerpt": "2026年11月12日公開（集計期間：11月2日～11月8日）の総合書籍チャート&ldquo;JA",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167394/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] \"SPY×FAMILY Volume 18\" tops the general book chart with 3 indicators, followed by the latest editions of \"Danda Dan\" and \"SAKAMOTO DAYS\"",
+      "translatedExcerpt": "Comprehensive book chart “JA” released on November 12, 2026 (collection period: November 2nd to November 8th)"
+    },
+    {
+      "id": "1913e901ffa743d3",
+      "title": "【ビルボード】『本当の自由を手に入れるお金の大学』経済書籍チャート通算27回目の首位",
+      "link": "https://www.billboard-japan.com/d_news/detail/167386",
+      "publishedAt": "2026-11-12T05:00:00.000Z",
+      "excerpt": "2026年11月12日公開（集計期間：2026年11月2日～2026年11月8日）の経済書籍チャー",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167386/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] “The University of Money that Gains True Freedom” tops the economic book chart for the 27th time in total",
+      "translatedExcerpt": "Economic book charts published on November 12, 2026 (collection period: November 2, 2026 to November 8, 2026)"
+    },
+    {
+      "id": "f5a5931a2526bfcc",
+      "title": "【ビルボード】『汝、星のごとく』文芸書籍チャート5連覇 岩谷翔吾の2作目『一人分の夜を生き直す』が初登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/167395",
+      "publishedAt": "2026-11-12T05:00:00.000Z",
+      "excerpt": "2026年11月12日公開チャート（集計期間：2026年11月2日～11月8日）の文芸書籍チャート",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167395/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] “You Are Like a Star” wins the literary book chart for the fifth time in a row Shogo Iwatani’s second work “Reliving the Night for One” debuts for the first time",
+      "translatedExcerpt": "Literary book chart published on November 12, 2026 (collection period: November 2, 2026 - November 8, 2026)"
+    },
+    {
+      "id": "7fe930897281480b",
+      "title": "【ビルボード】大川隆法『不滅なるものへの挑戦』文化書籍チャート初の首位 加藤心の初スタイルブック『C+LOVER』が初登場5位に",
+      "link": "https://www.billboard-japan.com/d_news/detail/167376",
+      "publishedAt": "2026-11-12T05:00:00.000Z",
+      "excerpt": "2026年11月12日公開チャート（集計期間：2026年11月2日～11月8日）のBillboar",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167376/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Ryuho Okawa's \"Challenge to Immortality\" tops the cultural book chart for the first time Kokoro Kato's first style book \"C+LOVER\" debuts at number 5",
+      "translatedExcerpt": "Billboar chart published on November 12, 2026 (collection period: November 2, 2026 - November 8, 2026)"
+    },
+    {
+      "id": "96be40e33508befa",
+      "title": "【ビルボード】柚木麻子『BUTTER』が“Heisei Books”1位獲得 甲斐谷忍『ONE OUTS』シリーズがTOP10にチャートイン",
+      "link": "https://www.billboard-japan.com/d_news/detail/167389",
+      "publishedAt": "2026-11-12T05:00:00.000Z",
+      "excerpt": "2026年11月12日公開（集計期間：2026年11月2日～11月8日）の年号別チャート&ldqu",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167389/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Asako Yuzuki’s “BUTTER” ranks 1st in “Heisei Books” Shinobu Kaitani’s “ONE OUTS” series charts in the TOP 10",
+      "translatedExcerpt": "Chart by year released on November 12, 2026 (collection period: November 2, 2026 - November 8, 2026)"
+    },
+    {
+      "id": "a4cf94b7880a40e0",
+      "title": "【ビルボード】綾辻行人『十角館の殺人』が13週連続で昭和チャート首位、マキシーン・ホン・キングストン／藤本和子『チャイナタウンの女武者』が初登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/167385",
+      "publishedAt": "2026-11-12T05:00:00.000Z",
+      "excerpt": "年号別チャート&ldquo;Billboard JAPAN Showa Books&rdquo;の",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167385/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Yukito Ayatsuji's \"Murder in the Decagonal House\" tops the Showa chart for 13 consecutive weeks, Maxine Hong Kingston/Kazuko Fujimoto's \"Woman Warrior of Chinatown\" debuts",
+      "translatedExcerpt": "Chart by year “Billboard JAPAN Showa Books”"
+    },
+    {
+      "id": "59b6a2e1a7e51365",
+      "title": "【ビルボード】遠藤達哉『SPY×FAMILY 18巻』が“Hot Manga”1位に輝く ダンダダン／SAKAMOTO DAYSの最新刊が続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/167387",
+      "publishedAt": "2026-11-12T05:00:00.000Z",
+      "excerpt": "2026年11月12日公開（集計期間：2026年11月2日～11月8日）Billboard JAP",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167387/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Tatsuya Endo's \"SPY×FAMILY Volume 18\" ranks first in \"Hot Manga\" The latest editions of Dandadan/SAKAMOTO DAYS continue",
+      "translatedExcerpt": "Released on November 12, 2026 (Aggregation period: November 2, 2026 - November 8, 2026) Billboard JAP"
+    },
+    {
+      "id": "3613b6771c14ee60",
+      "title": "Hiroko Moriguchi Shares City Hunter TV Anime Ending Song \"Get Wild\" Cover Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/11/12/hiroko-moriguchi-city-hunter-tv-anime-ending-song-get-wild-cover-music-video",
+      "publishedAt": "2026-11-12T04:39:00.000Z",
+      "excerpt": "\"ANISON COVERS 3\" album hits stores on December 16",
+      "image": "https://a.storyblok.com/f/178900/960x540/b878aacce6/hiroko-moriguchi-get-wild-cover-mv.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "321bf0d29d6775e2",
       "title": "70% of Male Social VR Users Choose Anime Girl Avatars",
@@ -182,7 +370,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "529f893298f51e53",
@@ -690,7 +879,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6d708ff8987a3646",
@@ -815,7 +1005,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2a626eb1f60361e5",
@@ -951,7 +1142,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ca24c9bc03e1fd31",
@@ -1123,7 +1315,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a8675125376d2b22",
@@ -1542,7 +1735,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2339a161f64e284a",
@@ -2024,7 +2218,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2bf45e044be4b371",
@@ -2736,7 +2931,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c8a674138a4c03e9",
@@ -3514,7 +3710,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a4b6e9a7d4ca4146",
@@ -4137,7 +4334,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "05226f5c97aa462a",
@@ -5283,7 +5481,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4a3fd189cd17d79d",
@@ -5550,7 +5749,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "63f0879cf3c21520",
@@ -5688,7 +5888,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "53df64f567da6dde",
@@ -6380,7 +6581,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b96ec36f11483f70",
@@ -6733,7 +6935,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b9bfb8a335985b38",
@@ -7169,7 +7372,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "75ee62c4c003b417",
@@ -7186,7 +7390,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "64a950b87a01c094",
@@ -7438,7 +7643,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "488e33db1c5d041f",
@@ -7455,7 +7661,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "9f845feb9452138a",
@@ -7489,7 +7696,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b6254669a06b3285",
@@ -7506,7 +7714,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8192d7ccb76fced4",
@@ -7796,7 +8005,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "037bdf0a42f77d72",
@@ -7813,7 +8023,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "da7f0581dbb0119f",
@@ -8314,7 +8525,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fc4f0c45cf438d96",
@@ -8331,7 +8543,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3cc5cab59b60c9dc",
@@ -8587,7 +8800,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2e33df965d69b885",
@@ -8604,7 +8818,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5b9d84a4c1baef62",
@@ -8693,7 +8908,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0219a7236747eb36",
@@ -8710,7 +8926,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5fd1990ae2160982",
@@ -8727,7 +8944,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "42b2a299167aa012",
@@ -8744,7 +8962,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "228acadcc2658a4d",
@@ -8761,7 +8980,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8729b29d54deefc5",
@@ -8778,7 +8998,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8882456ff364cecb",
@@ -9332,7 +9553,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e4a991fdfeee6ac1",
@@ -9349,7 +9571,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8b6adce341bcc9fd",
@@ -9878,7 +10101,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "512f26ffbe1d30b8",
@@ -9895,7 +10119,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "819642f2bead4640",
@@ -10096,7 +10321,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "af6c413618a08216",
@@ -10113,7 +10339,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "92744b3e0b0cfc17",
@@ -10217,7 +10444,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fddf65e801f92e1c",
@@ -10234,7 +10462,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "987c8f8ea72d85e2",
@@ -10302,7 +10531,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "51dec9b7ab3fb5e3",
@@ -10319,7 +10549,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "23d7b79b02d12bbb",
@@ -10958,7 +11189,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "789691823e2eed69",
@@ -10975,7 +11207,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a91653c308ea4dcd",
@@ -11685,7 +11918,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "495b576a7ff50e68",
@@ -11702,7 +11936,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "019061fd6be05f25",
@@ -12611,7 +12846,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b78a741d8ba86da6",
@@ -12628,7 +12864,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "67a56b30655f0b73",
@@ -12886,7 +13123,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "323ebe9d2cc49af6",
@@ -12903,7 +13141,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1d4aaecc65566fda",
@@ -13007,7 +13246,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c7155b3a1e7f241c",
@@ -13024,7 +13264,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c1be2e4f4878e24e",
@@ -13262,7 +13503,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fb941f8a7957870a",
@@ -13279,7 +13521,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3cdc56451082b7ca",
@@ -13704,7 +13947,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f81353a7e9ee5ea2",
@@ -13721,7 +13965,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e6673448cb6524ca",
@@ -14554,7 +14799,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8054610260337673",
@@ -14571,7 +14817,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a8e4e9f66fbffa6b",
@@ -14903,7 +15150,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ba57d83f74eb8cea",
@@ -14920,7 +15168,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0f2e9e0496aeb22e",
@@ -15176,7 +15425,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "93b3e803d7bddbae",
@@ -15193,7 +15443,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "46a9de9d18cc72a4",
@@ -15373,7 +15624,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2151c501390bbb5f",
@@ -15390,7 +15642,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7259b11d1a773fc6",
@@ -15549,7 +15802,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4530447ee4ade320",
@@ -15566,7 +15820,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8193559da07677b8",
@@ -16032,7 +16287,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "70aabd171e4eacbc",
@@ -16049,7 +16305,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "bc2f2d2cc1a134b3",
@@ -16873,7 +17130,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c16f3627675e673e",
@@ -16890,7 +17148,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f154b4e6e8f971da",
@@ -17302,7 +17561,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "9919c78b490666f5",
@@ -17319,7 +17579,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "28520bc92c516190",
@@ -17594,7 +17855,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2aa0475389581cac",
@@ -17611,7 +17873,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "93c2578e4eed3f3e",
@@ -18232,184 +18495,6 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "936e1940636d8731",
-      "title": "Otaku Vampire's Love Bite Manga Gets TV Anime",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-03/otaku-vampire-love-bite-manga-gets-tv-anime/.243498",
-      "publishedAt": "2026-11-03T23:41:39.000Z",
-      "excerpt": "\"Bloody romantic comedy\" from Kamisama Kiss creator Julietta Suzuki",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gCG/cms/news.10/243498/ovlb-igpost-1080x1350.jpeg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1d74bc5eb221a5cb",
-      "title": "Manga 'Oshi ni Amagami' Receives TV Anime Adaptation",
-      "link": "https://myanimelist.net/news/74902452?_location=rss",
-      "publishedAt": "2026-11-03T23:33:08.000Z",
-      "excerpt": "Production company Shogakukan-Shueisha Productions announced a television anime adaptation of Julietta Suzuki's Oshi ni Amagami (Otaku Vampire's Love Bite) manga on Wednesday, revealing special visual (pictured) and announcement promo. Suzuki (Kamisama Hajimemashita) began serializing the comedy romance manga in Hana to Yume magazine in April 2022. Hakuse…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793748748-c96ad854085af4bd83258a4b6c28d7b0.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6573773f47157133",
-      "title": "Mashle: Magic and Muscles Manga Gets Live-Action Film on March 19",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-03/mashle-magic-and-muscles-manga-gets-live-action-film-on-march-19/.243497",
-      "publishedAt": "2026-11-03T23:20:53.000Z",
-      "excerpt": "Warner Brothers, Fuji TV, Credeus, Toho collaborate on project",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHA/cms/news.10/243497/hwpds1eaaaatbry.jpeg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "c0f8bec0e75a2744",
-      "title": "黒夢 × NEEDLES、コラボレーショントラックスーツ限定発売",
-      "link": "https://barks.jp/news/1102391",
-      "publishedAt": "2026-11-03T23:10:00.000Z",
-      "excerpt": "黒夢 × NEEDLESによるコラボレーショントラックスーツの限定発売が決定。黒夢 collaboration web storeにて11月3日18:00より販売がスタートした。 両者の世界観が融合したコラボレーショントラックスーツは、NEEDLESのシグネチャーアイテムであるトラックスーツに、黒夢ロゴを刺繍したもの。黒夢ロゴの刺繍は、ジャケットはバックカラー下、パンツはバックポケットに施された。黒地を基調にブロンズのラインを配したデザインは、シックでありながら存在感も抜群。 その配色にロゴ刺繍を組み合わせることで、トラックスーツの持つスポーティーな印象の中に、黒夢ならではの世界観を落とし込んだとのことだ。 なお、パンツはベーシックなストレートやブーツカットに加え、NEEDLESならではのボリューム感のあ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/04080607/main-3-1024x669.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Kuroyume x NEEDLES, collaboration tracksuit limited release",
-      "translatedExcerpt": "A limited release of collaboration tracksuits by Kuroyume x NEEDLES has been decided. Sales started at 18:00 on November 3rd at Kuroyume collaboration web store. The collaboration tracksuit is a fusion of both worldviews, and is embroidered with the Kuroyume logo on NEEDLES' signature tracksuit. The Kuroyume logo is embroidered on the bottom of the back collar of the jacket and on the back pocket of the pants. The design is based on black with bronze lines, and is both chic and has an outstanding presence. By combining the color scheme with logo embroidery, Kuroyume's unique worldview has been incorporated into the sporty impression of a tracksuit. In addition to the basic straight and boot cut pants, there are also voluminous pants that are unique to NEEDLES..."
-    },
-    {
-      "id": "c8c5b63e55bcac9b",
-      "title": "Watari Sakou's Honey Trap Method Manga Ends on December 1",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-03/watari-sakou-honey-trap-method-manga-ends-on-december-1/.243466",
-      "publishedAt": "2026-11-03T23:00:00.000Z",
-      "excerpt": "Spy romance manga launched in March earlier this year",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gO5/cms/news.10/243466/honeytrapmethod.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "b534168f79da5420",
-      "title": "マライア・キャリー、『Glitter』デラックス版配信開始",
-      "link": "https://ototoy.jp/news/132609",
-      "publishedAt": "2026-11-03T23:00:00.000Z",
-      "excerpt": "マライア・キャリーが『Glitter』の発売25周年を記念し、デラックス版をデジタルでリリースした。 『Glitter』は2001年9月11日にリリース。マライアにとって8作目のスタジオ・アルバムで、同名映画のサウンドトラックでもある。 デラックス版はマライアの個人アーカイブから発掘された貴重な音源や未発表音源、新たなリミックスに加え、チャンネル・トレス、ロシェル・ジョーダンとのコラボレーションなど15曲を追加したバージョン。記念企画の一環として、マライアの代表的なミュージック・ビデオ「Loverboy」の4K修復・リマスター版も公開された。 今回の修復では、両ビデオの未編集のオリジナル35ミリフィルムから映像を再構成。レーザーグラフィックス・ディレクターを使用し、真の4K解像度で1コマずつスキャンした後…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132609/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Mariah Carey's \"Glitter\" deluxe version now available",
-      "translatedExcerpt": "Mariah Carey has digitally released a deluxe version of Glitter to celebrate its 25th anniversary. \"Glitter\" was released on September 11, 2001. It is Mariah's eighth studio album and is also the soundtrack for the film of the same name. The deluxe version includes 15 additional songs, including rare and unreleased material unearthed from Mariah's personal archive, new remixes, and collaborations with Channel Tres and Rochelle Jordan. As part of the commemorative project, a 4K restored and remastered version of Mariah's signature music video \"Loverboy\" was also released. This restoration reconstructed the footage from the original, unedited 35mm film of both videos. After scanning each frame at true 4K resolution using Laser Graphics Director..."
-    },
-    {
-      "id": "7f84e53e00e6b181",
-      "title": "麻倉もも、ソロデビュー10周年記念ベストALリリース",
-      "link": "https://ototoy.jp/news/132605",
-      "publishedAt": "2026-11-03T23:00:00.000Z",
-      "excerpt": "麻倉ももがソロデビュー10周年を記念したベストアルバム『Momo Asakura Best Album “relier”』をリリースした。 2016年11月2日に1stシングル「明日は君と。」でソロアーティストデビューした麻倉もも。デビュー記念日当日には、新曲「もー超最強！」をサプライズで配信リリースした。 本作のタイトル“relier（ルリエ）”は、フランス語で「結ぶ・繋ぐ」を意味する言葉。これまでの歩みを振り返るとともに、現在から未来へと繋いでいくという意味。ソロアーティストとしての10年間を凝縮した作品となっている。 リリース情報 https://ototoy.jp/_/default/p/4365209 「もー超 最強！」 https://ototoy.jp/_/default/p/4346554…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132605/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Momo Asakura releases best AL to commemorate 10th anniversary of solo debut",
-      "translatedExcerpt": "Momo Asakura has released a best album “Momo Asakura Best Album “relier”” to commemorate the 10th anniversary of her solo debut. Momo Asakura made her debut as a solo artist on November 2, 2016 with her 1st single “Ashi wa Kimito.” On the day of their debut anniversary, they released a surprise new song, ``Mo Cho Saisai!''. The title of this work, \"relier,\" is a French word that means \"to connect.\" It means looking back on the progress we have made so far and connecting the present to the future. This is a work that condenses 10 years as a solo artist. Release information https://ototoy.jp/_/default/p/4365209 “Super strong!” https://ototoy.jp/_/default/p/4346554…"
-    },
-    {
-      "id": "86f29fbce056a35c",
-      "title": "KU、父・吉幾三が作詞作曲を手掛けた両A面シングルのリリースイベント開幕「カバーさせてほしいと父にお願いしました」",
-      "link": "https://barks.jp/news/1102375",
-      "publishedAt": "2026-11-03T22:30:00.000Z",
-      "excerpt": "吉幾三の長女・KU(クー)が11月4日、両A面シングルCD「シルクロード／花しのぶ」をリリースする。これに先駆けて11月3日よりCD発売記念イベントがスタートした。 両A面シングルCDに収録された2曲は、いずれも吉幾三が作詞作曲を手掛けた楽曲だ。「シルクロード」は、吉幾三のアルバム『元気かい・・・』(1986年発表)収録曲であり、令和の今、KUによってカバーされた。吉幾三は今回のカバーにあたり、「“楽曲が欲しい”と言うので、今回のために歌詞を変えているところもあるし、少しアレンジも変えた」とコメント。愛娘のために、オリジナルの魅力を大切にしながら、新たな変化を加えて生まれ変わった楽曲が、KUの「シルクロード」となる。 一方の「花しのぶ」は、今回のリリースに向けて吉幾三が書き下ろした最新曲だ。阿蘇の厳しい自…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/04072656/KU_silkrord_hnashinobu_apmOK-1024x683.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "KU opens release event for double A-side single written and composed by father Ikuzo Yoshi \"I asked my father to let me cover it\"",
-      "translatedExcerpt": "Ikuzo Yoshi's eldest daughter KU will release a double A-side single CD ``Silk Road/Hana Shinobu'' on November 4th. Prior to this, a CD release commemorative event started on November 3rd. The two songs included on the double A-side single CD are both songs written and composed by Ikuzo Yoshi. \"Silk Road\" is a song from Ikuzo Yoshi's album \"Genki Kai...\" (released in 1986), and was covered by KU in the Reiwa era. Regarding this cover, Ikuzo Yoshi commented, ``I said, ``I want a song,'' so I changed some of the lyrics and the arrangement a little for this time.'' KU's ``Silk Road'' is a song that was reborn for his beloved daughter by adding new changes while valuing the charm of the original. On the other hand, \"Hana Shinobu\" is the latest song written by Ikuzo Yoshi for this release. Aso's tough self..."
-    },
-    {
-      "id": "a5f3fee06e1124c7",
-      "title": "'I'm Running for Crown Princess, but All I Want is a Steady Paycheck!' Manga Ends",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-03/im-running-for-crown-princess-but-all-i-want-is-a-steady-paycheck-manga-ends/.243474",
-      "publishedAt": "2026-11-03T22:00:00.000Z",
-      "excerpt": "Makana Watari's manga adaptation of Yuuri Seo's light novels launched in 2019",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gL2/cms/news.8/220355/crownprincess-img.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "dab9a9d083600402",
-      "title": "SEGA Cyberattack Shuts Down Arcade Games Across Japan",
-      "link": "https://news.sankakucomplex.com/n/C19Mm7542i-N7lWG9W1M2g",
-      "publishedAt": "2026-11-03T21:59:31.000Z",
-      "excerpt": "SEGA has suffered a major server breach that has disrupted arcade gaming across Japan, forcing numerous popular titles offline while the company investigates unauthorized access to its network infrastructure.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

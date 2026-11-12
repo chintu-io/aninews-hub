@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T19:35:33.213Z",
+  "generatedAt": "2026-11-12T20:01:24.819Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 101,
+      "count": 102,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -151,22 +151,39 @@
     {
       "id": "sankaku",
       "name": "Sankaku Complex",
-      "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://news.sankakucomplex.com/feed/",
-      "count": 76,
-      "fetchedCount": 24
+      "status": "error",
+      "mode": null,
+      "feedUrl": null,
+      "count": 75,
+      "fetchedCount": 0
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 8,
-    "failedSources": 0,
+    "successfulSources": 7,
+    "failedSources": 1,
     "articleCount": 1000,
     "translatedJapaneseArticles": 617,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "3f6a9c96d2b47c9f",
+      "title": "Romancing SaGa 3: Destinies United Launch Date Shifts Nearly Two Weeks Earlier",
+      "link": "https://crunchyroll.com/news/latest/2026/11/12/romancing-saga-3-destinies-united-launch-date-change",
+      "publishedAt": "2026-11-12T19:52:00.000Z",
+      "excerpt": "New date has the remake landing on February 4",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/2ab269b6f9/romancing-saga3.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "f769f82e88fb5562",
       "title": "Professor Layton and The New World of Steam Game Reveals English Dub, Cast",
@@ -284,7 +301,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "320861b6fe946eee",
@@ -534,7 +552,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4bfab078d76c3572",
@@ -1164,7 +1183,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "33b61149ee482f76",
@@ -1671,7 +1691,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "529f893298f51e53",
@@ -2179,7 +2200,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6d708ff8987a3646",
@@ -2304,7 +2326,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2a626eb1f60361e5",
@@ -2440,7 +2463,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ca24c9bc03e1fd31",
@@ -2612,7 +2636,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a8675125376d2b22",
@@ -3031,7 +3056,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2339a161f64e284a",
@@ -3513,7 +3539,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2bf45e044be4b371",
@@ -4225,7 +4252,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c8a674138a4c03e9",
@@ -5003,7 +5031,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a4b6e9a7d4ca4146",
@@ -5626,7 +5655,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "05226f5c97aa462a",
@@ -6772,7 +6802,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4a3fd189cd17d79d",
@@ -7039,7 +7070,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "63f0879cf3c21520",
@@ -7177,7 +7209,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "02ae5824bea91b65",
@@ -7194,7 +7227,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "53df64f567da6dde",
@@ -7886,7 +7920,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b7326af8bcfc2983",
@@ -7903,7 +7938,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b96ec36f11483f70",
@@ -8256,7 +8292,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1af60e03316e811f",
@@ -8273,7 +8310,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b9bfb8a335985b38",
@@ -8709,7 +8747,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "75ee62c4c003b417",
@@ -8726,7 +8765,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "64a950b87a01c094",
@@ -8978,7 +9018,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "488e33db1c5d041f",
@@ -8995,7 +9036,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "9f845feb9452138a",
@@ -9029,7 +9071,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b6254669a06b3285",
@@ -9046,7 +9089,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8192d7ccb76fced4",
@@ -9336,7 +9380,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "037bdf0a42f77d72",
@@ -9353,7 +9398,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "da7f0581dbb0119f",
@@ -9854,7 +9900,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fc4f0c45cf438d96",
@@ -9871,7 +9918,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3cc5cab59b60c9dc",
@@ -10127,7 +10175,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2e33df965d69b885",
@@ -10144,7 +10193,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5b9d84a4c1baef62",
@@ -10233,7 +10283,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0219a7236747eb36",
@@ -10250,7 +10301,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5fd1990ae2160982",
@@ -10267,7 +10319,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "42b2a299167aa012",
@@ -10284,7 +10337,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "228acadcc2658a4d",
@@ -10301,7 +10355,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8729b29d54deefc5",
@@ -10318,7 +10373,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8882456ff364cecb",
@@ -10872,7 +10928,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e4a991fdfeee6ac1",
@@ -10889,7 +10946,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8b6adce341bcc9fd",
@@ -11418,7 +11476,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "512f26ffbe1d30b8",
@@ -11435,7 +11494,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "819642f2bead4640",
@@ -11636,7 +11696,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "af6c413618a08216",
@@ -11653,7 +11714,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "92744b3e0b0cfc17",
@@ -11757,7 +11819,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fddf65e801f92e1c",
@@ -11774,7 +11837,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "987c8f8ea72d85e2",
@@ -11842,7 +11906,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "51dec9b7ab3fb5e3",
@@ -11859,7 +11924,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "23d7b79b02d12bbb",
@@ -12498,7 +12564,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "789691823e2eed69",
@@ -12515,7 +12582,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a91653c308ea4dcd",
@@ -13225,7 +13293,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "495b576a7ff50e68",
@@ -13242,7 +13311,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "019061fd6be05f25",
@@ -14151,7 +14221,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b78a741d8ba86da6",
@@ -14168,7 +14239,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "67a56b30655f0b73",
@@ -14426,7 +14498,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "323ebe9d2cc49af6",
@@ -14443,7 +14516,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1d4aaecc65566fda",
@@ -14547,7 +14621,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c7155b3a1e7f241c",
@@ -14564,7 +14639,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c1be2e4f4878e24e",
@@ -14802,7 +14878,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fb941f8a7957870a",
@@ -14819,7 +14896,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3cdc56451082b7ca",
@@ -15244,7 +15322,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f81353a7e9ee5ea2",
@@ -15261,7 +15340,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e6673448cb6524ca",
@@ -16094,7 +16174,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8054610260337673",
@@ -16111,7 +16192,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a8e4e9f66fbffa6b",
@@ -16443,7 +16525,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ba57d83f74eb8cea",
@@ -16460,7 +16543,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0f2e9e0496aeb22e",
@@ -16716,7 +16800,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "93b3e803d7bddbae",
@@ -16733,7 +16818,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "46a9de9d18cc72a4",
@@ -16913,7 +16999,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2151c501390bbb5f",
@@ -16930,7 +17017,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7259b11d1a773fc6",
@@ -17089,7 +17177,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4530447ee4ade320",
@@ -17106,7 +17195,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8193559da07677b8",
@@ -17572,7 +17662,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "70aabd171e4eacbc",
@@ -17589,7 +17680,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "bc2f2d2cc1a134b3",
@@ -18397,23 +18489,6 @@
       },
       "translatedTitle": "Meg Bonus releases collaborative video “Meg Bonus Is…” with SPACE SHOWER NEW FORCE",
       "translatedExcerpt": "Meg Bonus has released the video work ``Meg Bonus Is...'' on YouTube, which she created in collaboration with Space Shower's newcomer project ``NEW FORCE.'' This video consists of a 3DCG interview and a performance video of their latest song \"VI\". In the first half, the image of Meg Bonus told from the perspectives of her high school friend, support base Yoshiteru Takahashi, and AI is expressed with 3DCG and sound created by herself. In the second half, a three-piece saxophone and bassist performed a live performance of the song \"VI\" from the EP \"3 Songs + 4 Instrumentals\" released on October 21st at Koganezaki Park in Izu with the ocean in the background. The Meg Bonus seen by others and the Meg Bonus expressed by herself are contained in one work..."
-    },
-    {
-      "id": "1059c4070d6a1fc4",
-      "title": "Nearly Half of New Steam Games Now Disclose AI-Generated Content",
-      "link": "https://news.sankakucomplex.com/n/8YYN3Od6jM_piO4ahDjubg",
-      "publishedAt": "2026-11-04T09:00:09.000Z",
-      "excerpt": "Nearly half of all video games released on Steam in October 2026 disclosed using generative artificial intelligence, according to a new analysis revealing how rapidly AI-generated content has spread throughout Valve’s digital storefront.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
     }
   ]
 }

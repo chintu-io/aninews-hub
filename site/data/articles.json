@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T18:02:56.603Z",
+  "generatedAt": "2026-11-12T18:33:25.968Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 100,
+      "count": 101,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 200,
+      "count": 199,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 76,
       "fetchedCount": 24
     }
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 620,
+    "translatedJapaneseArticles": 619,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "bfd9be20ab1ada63",
+      "title": "Sonic the Hedgehog 35th Anniversary Animation Pits the Squad Against Metal Sonic",
+      "link": "https://crunchyroll.com/news/latest/2026/11/12/sonic-the-hedgehog-35th-anniversary-animation",
+      "publishedAt": "2026-11-12T18:13:00.000Z",
+      "excerpt": "Kevin Molina-Ortiz directs and Ian Flynn writes at GXS Productions",
+      "image": "https://a.storyblok.com/f/178900/960x541/196677affb/sonic-35th-ann-video2.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "92de117a9f9086cd",
       "title": "HOTEL INHUMANS Season 2 Anime Reveals Two New Cast Members",
@@ -18401,25 +18418,6 @@
       },
       "translatedTitle": "Mollie Elizabeth releases fantastic new EP",
       "translatedExcerpt": "Mollie Elizabeth released her new EP “People Pleaser” on Friday, October 30, 2026. This follow-up to their debut EP “Dirty Blonde” released in 2025 includes a total of six songs. Her unique musical world is a fusion of glamorous cabaret pop, orchestral arrangements, doo-wop elements, and dark humor. The central theme of this work is the expectations imposed by society and those around you, and how to free yourself from these expectations. He uses his unique storytelling and dramatic sound to express the gap between the dreams he had as a child and the harsh reality he faces while growing up. Release information https://ototoy.jp/_/default/p/4375290…"
-    },
-    {
-      "id": "4930812da4c03013",
-      "title": "SHANK主催＜BLAZE UP NAGASAKI 2026＞前夜祭にsometimesとCODE AXE",
-      "link": "https://barks.jp/news/1102495",
-      "publishedAt": "2026-11-04T09:00:00.000Z",
-      "excerpt": "SHANK主催フェス＜BLAZE UP NAGASAKI 2026＞が12月5日および6日の2日間、長崎・出島メッセ長崎にて開催される。同フェスの前夜祭が初日前日の12月4日に長崎・LASTING HALLにて行われることが明らかとなった。 前夜祭出演者は、猪狩秀平(HEY-SMITH)、SATOBOY (SUNSHINE DUB)、Masasucks (the HIATUS etc.)、Masuo (BACK DROP BOMB)からなるsometimesと、長崎・佐世保で結成されたメロディック・ハードコアバンドCODE AXEの2組だ。 チケットのオフィシャル先行受付は本日11月4日18:00より。 ■＜BLAZE UP NAGASAKI 2026 前夜祭＞12月4日(金) 長崎・LASTING HA…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/04174249/BUN%E5%89%8D%E5%A4%9C%E7%A5%AD_%E5%91%8A%E7%9F%A5%E7%94%BB%E5%83%8F-1024x683.png",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "SHANK Sponsored <BLAZE UP NAGASAKI 2026> Sometimes and CODE AXE at the eve festival",
-      "translatedExcerpt": "The festival ``BLAZE UP NAGASAKI 2026'' sponsored by SHANK will be held at Dejima Messe Nagasaki in Nagasaki for two days, December 5th and 6th. It has been revealed that the eve of the festival will be held at LASTING HALL in Nagasaki on December 4th, the day before the opening day. Performers at the eve of the festival are sometimess, consisting of Shuhei Igari (HEY-SMITH), SATOBOY (SUNSHINE DUB), Masasucks (the HIATUS etc.), and Masuo (BACK DROP BOMB), and CODE AXE, a melodic hardcore band formed in Sasebo, Nagasaki. Official advance ticket reception begins today, November 4th at 18:00. ■＜BLAZE UP NAGASAKI 2026 Eve Festival＞December 4th (Friday) Nagasaki/LASTING HA…"
     }
   ]
 }

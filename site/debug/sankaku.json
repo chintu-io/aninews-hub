@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T14:00:50.343Z",
+  "generatedAt": "2026-11-12T14:30:50.517Z",
   "feedAttempts": [
     {
       "url": "https://r.jina.ai/http://www.sankakucomplex.com/feed/",
@@ -22,15 +22,15 @@
   "imageAttempts": [],
   "descriptionAttempts": [
     {
-      "link": "https://news.sankakucomplex.com/n/sBHF8DaynRygRTCRgsMS7g",
-      "status": 200,
-      "bytes": 30604,
-      "hasDescription": true
-    },
-    {
       "link": "https://news.sankakucomplex.com/n/1u6see8DlMCiYELn5U-Tpw",
       "status": 200,
       "bytes": 24958,
+      "hasDescription": true
+    },
+    {
+      "link": "https://news.sankakucomplex.com/n/sBHF8DaynRygRTCRgsMS7g",
+      "status": 200,
+      "bytes": 30604,
       "hasDescription": true
     },
     {
@@ -118,6 +118,12 @@
       "hasDescription": true
     },
     {
+      "link": "https://news.sankakucomplex.com/n/TXB6Z5ulyxbjjKp81H-fnQ",
+      "status": 200,
+      "bytes": 24681,
+      "hasDescription": true
+    },
+    {
       "link": "https://news.sankakucomplex.com/n/yu3jE6ZfsnJENw038yGp1w",
       "status": 200,
       "bytes": 26315,
@@ -136,21 +142,15 @@
       "hasDescription": true
     },
     {
-      "link": "https://news.sankakucomplex.com/n/TXB6Z5ulyxbjjKp81H-fnQ",
+      "link": "https://news.sankakucomplex.com/n/PdEMfNjyMZCdp2fu2F92xQ",
       "status": 200,
-      "bytes": 31062,
-      "hasDescription": true
+      "bytes": 13380,
+      "hasDescription": false
     },
     {
       "link": "https://news.sankakucomplex.com/n/nPh_Ds-inDeRtYCX32N6sg",
       "status": 200,
       "bytes": 31717,
-      "hasDescription": true
-    },
-    {
-      "link": "https://news.sankakucomplex.com/n/BiUvPipfdo_CiurSDJmHIA",
-      "status": 200,
-      "bytes": 27993,
       "hasDescription": true
     },
     {
@@ -160,10 +160,10 @@
       "hasDescription": true
     },
     {
-      "link": "https://news.sankakucomplex.com/n/PdEMfNjyMZCdp2fu2F92xQ",
+      "link": "https://news.sankakucomplex.com/n/BiUvPipfdo_CiurSDJmHIA",
       "status": 200,
-      "bytes": 13380,
-      "hasDescription": false
+      "bytes": 27993,
+      "hasDescription": true
     }
   ],
   "note": "Sankaku stories are collected from RSS and retained in the rolling archive. Article pages are used only for missing images."

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T14:01:56.415Z",
+  "generatedAt": "2026-11-12T14:33:17.736Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 39,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 126,
+      "count": 127,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 284,
+      "count": 282,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,82 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 630,
+    "translatedJapaneseArticles": 628,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "a98c4a2b1b78ffd6",
+      "title": "【ビルボード】「TOKYO DRIFT(FAST & FURIOUS)」グローバル・ジャパン・ソングス21度目の首位",
+      "link": "https://www.billboard-japan.com/d_news/detail/167413",
+      "publishedAt": "2026-11-12T14:30:00.000Z",
+      "excerpt": "世界でヒットしている日本の楽曲をランキング化した&ldquo;Global Japan Songs",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167413/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] “TOKYO DRIFT (FAST & FURIOUS)” tops the Global Japan Songs chart for the 21st time",
+      "translatedExcerpt": "“Global Japan Songs” is a ranking of Japanese songs that are hits around the world."
+    },
+    {
+      "id": "ca463fa1a278c4fc",
+      "title": "【ビルボード】藤井 風、台湾で日本語曲トップ10に8曲入り",
+      "link": "https://www.billboard-japan.com/d_news/detail/167412",
+      "publishedAt": "2026-11-12T14:30:00.000Z",
+      "excerpt": "世界各国でヒットしている日本の楽曲をランキング化した &ldquo;Japan Songs（国/地",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167412/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Kaze Fujii's 8 songs ranked in the top 10 Japanese songs in Taiwan",
+      "translatedExcerpt": "“Japan Songs” is a ranking of Japanese songs that are hits around the world."
+    },
+    {
+      "id": "be944d3df313a5f6",
+      "title": "Kakao Piccoma Launches New 'Lulumiru' BL Webtoon Platform",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-12/kakao-piccoma-launches-new-lulumiru-bl-webtoon-platform/.243759",
+      "publishedAt": "2026-11-12T14:15:00.000Z",
+      "excerpt": "New service available in Japan only launched on November 5",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFF/cms/news.10/243759/lulumiru.webp",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "974951aa8dc38a3d",
+      "title": "Japan’s upcoming Romancecar train seeks to end intimacy with its super-wide seats",
+      "link": "https://soranews24.com/2026/11/12/japans-upcoming-romancecar-train-seeks-to-end-intimacy-with-its-super-wide-seats/",
+      "publishedAt": "2026-11-12T14:00:08.000Z",
+      "excerpt": "Odakyu’s sleek new train features droplet windows, spacious seating, and a driver sitting above your head. With the varied lineup of in-service carriages and impeccable punctuality, the Japanese train system could be said to be an art form, but the train companies are not ones to rest on their laurels, constantly seeking improvements to their […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/sub5.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "b1f5ab446ad4daf5",
       "title": "星街すいせい、自身最大規模アリーナツアー完走。ソニーミュージックEchoesからメジャーデビュー発表",
@@ -18364,82 +18436,6 @@
       },
       "translatedTitle": "[Billboard] Travis Japan's \"Checkmate\" takes first place as a DL song with over 20,000 downloads, followed by M!LK in second place",
       "translatedExcerpt": "Billboa released on November 4, 2026 (collection period: October 26, 2026 to November 1, 2026)"
-    },
-    {
-      "id": "03bb87b2d0c0df12",
-      "title": "【ビルボード】Vaundy「しわあわせ」ストリーミング・ソング2連覇 M!LK新曲が自身最高位デビュー＆back numberの約14年半前リリース曲が初登場",
-      "link": "https://www.billboard-japan.com/d_news/detail/167123",
-      "publishedAt": "2026-11-04T08:35:00.000Z",
-      "excerpt": "2026年11月4日公開（集計期間：2026年10月26日～11月1日）のBillboard JA",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167123/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Vaundy's \"Shiwaawase\" wins 2nd consecutive streaming song debut M!LK's new song makes its highest ranking debut & back number's first release of a song released about 14 and a half years ago",
-      "translatedExcerpt": "Billboard JA released on November 4, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
-    },
-    {
-      "id": "148bfa37aa97b700",
-      "title": "Hey! Say! JUMP、16年の時を経て再録＆“大人王子“の姿で魅了「Romeo & Juliet+」MV公開へ",
-      "link": "https://www.billboard-japan.com/d_news/detail/167126",
-      "publishedAt": "2026-11-04T08:30:00.000Z",
-      "excerpt": "Hey! Say! JUMPが、ニューアルバム『Juliet』より、「Romeo & Ju",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167126/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Hey! Say! JUMP re-records after 16 years and releases MV for “Romeo & Juliet+” captivating with his “adult prince” appearance",
-      "translatedExcerpt": "Hey! Say! JUMP releases “Romeo & Ju” from their new album “Juliet”."
-    },
-    {
-      "id": "342fc7048cc7bc99",
-      "title": "ガリアーズ、2027年2月に初来日公演が決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167127",
-      "publishedAt": "2026-11-04T08:30:00.000Z",
-      "excerpt": "アイルランド・ダブリン発、新世代ポストパンクの尖鋭のガリアーズ（Gurriers）の初来日公演が決",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167127/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Galliards will perform in Japan for the first time in February 2027",
-      "translatedExcerpt": "Gurriers, a cutting-edge new generation of post-punk from Dublin, Ireland, will be performing in Japan for the first time."
-    },
-    {
-      "id": "1afb290977b1208e",
-      "title": "玉置浩二×オーケストラツアー2027【運命】 神奈川、兵庫、沖縄の3都市アリーナ公演を含む全国11都道府県22公演が開催決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/166951",
-      "publishedAt": "2026-11-04T08:00:00.000Z",
-      "excerpt": "玉置浩二&times;オーケストラの最新ツアー【billboard classics 玉置浩二 L",
-      "image": "https://www.billboard-japan.com/scale/news/00000166/166951/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Koji Tamaki x Orchestra Tour 2027 [Destiny] 22 performances in 11 prefectures nationwide will be held, including arena performances in 3 cities of Kanagawa, Hyogo, and Okinawa",
-      "translatedExcerpt": "Koji Tamaki x Orchestra's latest tour [billboard classics Koji Tamaki L"
     }
   ]
 }

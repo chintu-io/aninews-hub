@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T06:01:54.123Z",
+  "generatedAt": "2026-11-12T06:32:00.607Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 102,
+      "count": 101,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 289,
+      "count": 288,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 142,
+      "count": 143,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 75,
+      "count": 76,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,44 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "f42001ee2d2a7e7f",
+      "title": "TOMOO、インタビューも含む「バースデイ」MVメイキング映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167396",
+      "publishedAt": "2026-11-12T06:00:00.000Z",
+      "excerpt": "TOMOOが、最新曲「バースデイ」のMVメイキング映像を公開した。 9月30日にサプライズ配信",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167396/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "TOMOO releases “Birthday” MV making video including interview",
+      "translatedExcerpt": "TOMOO has released the MV making video for their latest song \"Birthday\". Surprise delivery on September 30th"
+    },
+    {
+      "id": "dda0e75912877e5e",
+      "title": "氷川きよし、「ほど酔い酒」ギターver.配信決定",
+      "link": "https://ototoy.jp/news/132767",
+      "publishedAt": "2026-11-12T06:00:00.000Z",
+      "excerpt": "氷川きよしが11月22日（日）に「ほど酔い酒」のギター・バージョンを配信リリースすることが決定した。 「ほど酔い酒」は、生きづらい世の中で小さなしくじりやつまずきを寛容な心で受け止めていこうというメッセージが込められた作品。ギター・バージョンは氷川自身の希望によりギタリストの斉藤功が担当している。 配信用ジャケット写真はCDのパッケージビジュアルをスケッチ調にアレンジしたもの。 コメント 氷川きよし リリース情報 「ほど酔い酒」 https://ototoy.jp/_/default/p/3390421 アーティスト情報 https://www.instagram.com/kiina_kiyoshi_hikawa/ https://www.kiizna.co.jp/ https://columbia.jp…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132767/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Kiyoshi Hikawa, \"Hodo Drunken Sake\" guitar version will be distributed",
+      "translatedExcerpt": "It has been decided that Kiyoshi Hikawa will be releasing the guitar version of \"Hodo Drunken Sake\" on November 22nd (Sunday). ``Hodo Drunken Sake'' is a work that conveys the message of accepting small failures and setbacks with a forgiving heart in a world where life is difficult. Guitarist Isao Saito is in charge of the guitar version at Hikawa's own request. The distribution jacket photo is a sketch-like arrangement of the CD package visual. Comment Kiyoshi Hikawa Release information “Hododukisake” https://ototoy.jp/_/default/p/3390421 Artist information https://www.instagram.com/kiina_kiyoshi_hikawa/ https://www.kiizna.co.jp/ https://columbia.jp…"
+    },
     {
       "id": "930c09b115c58577",
       "title": "氷川きよし、「ほど酔い酒（ギター・バージョン）」配信決定 「ほっとひと息つく時間に聴いていただけたら嬉しい」",
@@ -6939,6 +6977,23 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "2de55136d5fd9f42",
+      "title": "Nintendo Says No Further Switch 2 Price Hikes Planned Despite Memory Shortage",
+      "link": "https://news.sankakucomplex.com/n/yu3jE6ZfsnJENw038yGp1w",
+      "publishedAt": "2026-11-09T06:00:05.000Z",
+      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18369,61 +18424,6 @@
         "accent": "#5ca8ff",
         "language": "en"
       }
-    },
-    {
-      "id": "f5e8316cd468aac6",
-      "title": "MASHLE: MAGIC AND MUSCLES Live-Action Movie Announced for March 19, 2027 Release",
-      "link": "https://crunchyroll.com/news/latest/2026/11/4/mashle-magic-and-muscles-live-action-movie-march-19-2027-release",
-      "publishedAt": "2026-11-04T00:40:00.000Z",
-      "excerpt": "The cast member for Mash Burnedead will be announced tomorrow",
-      "image": "https://a.storyblok.com/f/178900/960x539/477cf86af1/mashle-movie-super-teaser-header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "7af3adfc316cb79e",
-      "title": "羊文学、きゃりーぱみゅぱみゅ、おとぼけビ～バ～が【matsuri ‘26】に出演",
-      "link": "https://www.billboard-japan.com/d_news/detail/167094",
-      "publishedAt": "2026-11-04T00:33:00.000Z",
-      "excerpt": "羊文学、きゃりーぱみゅぱみゅ、おとぼけビ～バ～が出演する【matsuri &lsquo;26: J",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167094/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Hitsuji Bungaku, Kyary Pamyu Pamyu, and Otoboke Beaver appear on [Matsuri ‘26]",
-      "translatedExcerpt": "Sheep Bungaku, Kyary Pamyu Pamyu, and Otoboke Biba will appear [matsuri ‘26: J"
-    },
-    {
-      "id": "ad61fe7ea343f3a7",
-      "title": "オリヴィア・ロドリゴ、自身初のクリスマス・ソング「Take Me Home (4 Christmas)」のティーザー公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167093",
-      "publishedAt": "2026-11-04T00:30:00.000Z",
-      "excerpt": "オリヴィア・ロドリゴが、自身初となるクリスマス・ソング「Take Me Home (4 Chris",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167093/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Olivia Rodrigo releases teaser for her first Christmas song, ``Take Me Home (4 Christmas)''",
-      "translatedExcerpt": "Olivia Rodrigo releases her first Christmas song, ``Take Me Home (4 Chris"
     }
   ]
 }

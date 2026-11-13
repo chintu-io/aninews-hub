@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T12:02:25.239Z",
+  "generatedAt": "2026-11-13T12:31:48.441Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 39,
+      "count": 38,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 126,
+      "count": 128,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 281,
+      "count": 282,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 153,
+      "count": 152,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 73,
+      "count": 72,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,40 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "2cf70865c3fbe5eb",
+      "title": "Omniscient Reader, Greatest Estate Developer, Debut or Die!, 7 More Works Win 2026 World Webtoon Awards",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-13/omniscient-reader-greatest-estate-developer-debut-or-die-7-more-works-win-2026-world-webtoon-awards/.243552",
+      "publishedAt": "2026-11-13T12:15:00.000Z",
+      "excerpt": "10 winners will each receive trophy, 10 million won (about US$7,200)",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGS/cms/news.10/243552/akr20261103025400005-01-i-p4.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "342cc83dcc644995",
+      "title": "Square Enix Profits Surge 63% as Final Fantasy VII Rebirth & Other Games Boost Earnings",
+      "link": "https://news.sankakucomplex.com/n/6Mp8iLNzhXtwzM89gFSt2A",
+      "publishedAt": "2026-11-13T12:00:27.000Z",
+      "excerpt": "Square Enix has reported a substantial increase in profits from its video game business, with Final Fantasy VII Rebirth, The Adventures of Elliot: The Millennium Tales, and strong sales of older titles helping the Japanese publisher enjoy a particularly lucrative financial period.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "7fa3660c0fc1ebf4",
       "title": "“CRAZY” COOL JOE (DEAD END)主催イベント＜NEO “CRAZY” ROCK NIGHT +1＞、限定バンド含む所縁の4組出演決定",
@@ -242,6 +276,42 @@
       },
       "translatedTitle": "Paralanda releases new pop song “Maze”",
       "translatedExcerpt": "Paralanda released their new single \"Megazashi\" on Friday, November 13, 2026. This work is a mid-tempo pop number with a lower tempo than previous songs. The song is based on a beautiful melody and light harmonies reminiscent of 70's pop music, mixed with psychedelic guitar tones and impressive riffs, making it a song that shines with a unique sound approach. In keeping with the bright mood of the song, the lyrics depict a positive attitude of accepting the overflowing emotions and affirming what is right in front of you. Vocalist/guitarist Shinpei Ueda was in charge of writing and composing the song. Mixed by Akihiro Iizuka, mastered by Moe Kazama. The essence of the pop music they love and the current sound unique to the four members overlap to reveal a new side. Release information h…"
+    },
+    {
+      "id": "2b0c4caee85b3e72",
+      "title": "ファジーデイズ、自身初となる全国流通盤ミニアルバム『これを愛と呼ばせてほしい。』リリース決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167423",
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "excerpt": "ファジーデイズが、初の全国流通盤となる1stミニアルバム『これを愛と呼ばせてほしい。』を2027年",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167423/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Fuzzy Days releases his first nationally distributed mini-album, ``I want you to call this love.'' ”Release decided",
+      "translatedExcerpt": "Fuzzy Days releases their first mini-album, ``I want you to call this love,'' which will be distributed nationwide for the first time. ” in 2027"
+    },
+    {
+      "id": "4f6bdee5e04f6d04",
+      "title": "ATASHIn'CHI Next Net Anime's Additional Episodes Debut on January 1",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-13/atashinchi-next-net-anime-additional-episodes-debut-on-january-1/.243794",
+      "publishedAt": "2026-11-13T11:45:00.000Z",
+      "excerpt": "New episodes from Chainsmoker Cat director Taku Kimura to debut monthly on YouTube",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gNF/cms/news.10/243794/atashinchi-next.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "7d7cbee0ccbf74b9",
@@ -10214,7 +10284,7 @@
       "title": "Nintendo Says No Further Switch 2 Price Hikes Planned Despite Memory Shortage",
       "link": "https://news.sankakucomplex.com/n/yu3jE6ZfsnJENw038yGp1w",
       "publishedAt": "2026-11-09T06:00:05.000Z",
-      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry. Speaking during the company’s latest financial results briefing on No…",
+      "excerpt": "Nintendo has confirmed that it is not currently considering another price increase for the Nintendo Switch 2, despite an ongoing global shortage of memory chips that has driven up manufacturing costs across the gaming industry.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18378,76 +18448,6 @@
       },
       "translatedTitle": "Elton John becomes the first to reach over 1 billion views on YouTube with 1989's 'Sacrifice'",
       "translatedExcerpt": "The music video for Elton John's 1989 single \"Sacrifice\" is now available on YouT"
-    },
-    {
-      "id": "703f6afea4f1b6c5",
-      "title": "Princess Mononoke was going to look totally different, new Studio Ghibli artbook shows",
-      "link": "https://soranews24.com/2026/11/05/princess-mononoke-was-going-to-look-totally-different-new-studio-ghibli-artbook-shows/",
-      "publishedAt": "2026-11-05T03:00:46.000Z",
-      "excerpt": "Art collection includes never-before-shown illustrations from Hayao Miyazaki’s vision for a feudal-Japan version of Beauty and the Beast. The very first time I saw a preview for Studio Ghibli’s Princess Mononoke, I was shocked by how dark the tone was. I was not at all prepared for a grim tale of humans and giant forest […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/2_e62832.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "faa9e43ac2b9e9f6",
-      "title": "Itch.io Deletes Terabytes of “AI Slop” & Adds Filter to Block AI Games",
-      "link": "https://news.sankakucomplex.com/n/ToHr7wHGbCp0DkEwD_Dxyg",
-      "publishedAt": "2026-11-05T03:00:31.000Z",
-      "excerpt": "Independent gaming platform itch.io has deleted several terabytes of what it describes as “AI slop” from its storefront, while introducing new filtering options that allow customers to exclude games and other content created using generative artificial intelligence.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "ba57d83f74eb8cea",
-      "title": "Itch.io Deletes Terabytes of “AI Slop” & Adds Filter to Block AI Games",
-      "link": "https://news.sankakucomplex.com/n/1ffRC9Rama0BDNSvkAmTzg",
-      "publishedAt": "2026-11-05T03:00:31.000Z",
-      "excerpt": "Independent gaming platform itch.io has deleted several terabytes of what it describes as “AI slop” from its storefront, while introducing new filtering options that allow customers to exclude games and other content created using generative artificial intelligence.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "0f2e9e0496aeb22e",
-      "title": "〈鶴瓶のええ歌やなぁ〉日野美歌が登場",
-      "link": "https://ototoy.jp/news/132628",
-      "publishedAt": "2026-11-05T03:00:00.000Z",
-      "excerpt": "BS11〈鶴瓶のええ歌やなぁ〉11月7日は日野美歌が登場する。 19歳で歌手デビューし「男と女のラブゲーム」など数々のヒット曲を生み出した日野。自身を代表する大ヒット曲で紅白初出場を果たした「氷雨」を熱唱。新コーナー「鶴瓶さん聞いて」では「氷雨」について最もよく知る人物である〇〇がサプライズで登場、当時の裏話を語る。 自身の青春時代に聞いていた荒井由美の「海を見ていた午後」、そして、10代から歌っていた髙橋真梨子の「五番街のマリーへ」も披露。幼いころから歌手への夢を応援してくれた亡き両親、そして「やまない雨も明けない夜もない」というメッセージを伝えるべく自身で作詞作曲した「明けの明星」を歌唱する。 番組情報 鶴瓶のええ歌やなぁ 1,「氷雨」 インフォメーション https://www.bs11.jp/en…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132628/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<Tsurube's great song> Mika Hino appears",
-      "translatedExcerpt": "Mika Hino will appear on BS11 〈Tsurube no Ee Uta Ya Naa〉 on November 7th. Hino made his debut as a singer at the age of 19 and produced many hit songs such as \"Otoko to Onna no Love Game.\" He enthusiastically sang \"Hyouu\", which is his representative hit song and which made him appear in Kouhaku for the first time. In the new corner, ``Listen to Mr. Tsurube,'' 〇〇, the person who knows the most about ``Hyoen,'' makes a surprise appearance and tells the story behind the time. She also performed Yumi Arai's ``Afternoon Watching the Sea'', which she had listened to in her youth, and Mariko Takahashi's ``To Marie on Fifth Avenue'', which she had been singing since she was a teenager. She sings ``Morning Star,'' which she wrote and composed to convey the message of her late parents, who supported her dream of becoming a singer since she was a child, and ``There is no rain that never stops, and there is no night that never ends.'' Program information Tsurube's good song 1, \"Iroi\" Information https://www.bs11.jp/en..."
     }
   ]
 }

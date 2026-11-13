@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T02:01:55.059Z",
+  "generatedAt": "2026-11-13T02:32:06.899Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 41,
+      "count": 42,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 278,
+      "count": 280,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 191,
+      "count": 187,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 78,
+      "count": 79,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 612,
+    "translatedJapaneseArticles": 611,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "204222fa51e90ce7",
+      "title": "エルトン・ジョン、Apple Musicの特別番組にチャールズ3世英国王を迎える",
+      "link": "https://www.billboard-japan.com/d_news/detail/167421",
+      "publishedAt": "2026-11-13T02:20:00.000Z",
+      "excerpt": "現地時間2026年11月14日、エルトン・ジョンが自身のポッドキャスト『ロケット・アワー』で英国王",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167421/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Elton John welcomes King Charles III to Apple Music special",
+      "translatedExcerpt": "On November 14, 2026 local time, Elton John spoke about the British king on his podcast ``The Rocket Hour.''"
+    },
+    {
+      "id": "c74f91233bee4b11",
+      "title": "“Sweet sake” with yuzu is coming to Japan’s wonderful world of hot canned drinks this winter",
+      "link": "https://soranews24.com/2026/11/13/sweet-sake-with-yuzu-is-coming-to-japans-wonderful-world-of-hot-canned-drinks-this-winter/",
+      "publishedAt": "2026-11-13T02:00:19.000Z",
+      "excerpt": "Morinaga goes to Kochi in its search for a new spin on a traditional Japanese winter drink. Japan is a country that really gets into the spirit of each season, and not just in terms of fashions and festivals. As we get into the back half of autumn, more and more hot drinks start appearing […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/11_3e1526.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "40a67ae2503185f3",
       "title": "Mrs. GREEN APPLE、FM802公開生放送＆トーク収録イベント出演",
@@ -185,6 +221,25 @@
       },
       "translatedTitle": "Mrs. GREEN APPLE appears on FM802 public live broadcast & talk recording event",
       "translatedExcerpt": "Mrs. GREEN APPLE attended FM802 held at Abeno Q's Mall in Osaka on November 12th."
+    },
+    {
+      "id": "9ce68f97709f2c83",
+      "title": "映画『きみに贈る最強のうた』、ジョン・カーニー監督／ポール・ラッド／ニック・ジョナスの3Sインタビュー映像が解禁",
+      "link": "https://www.billboard-japan.com/d_news/detail/167419",
+      "publishedAt": "2026-11-13T02:00:00.000Z",
+      "excerpt": "映画『はじまりのうた』『シング・ストリート 未来へのうた』のジョン・カーニー監督最新作『きみに贈る",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167419/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "3S interview video of director John Carney, Paul Rudd, and Nick Jonas released for the movie “The Strongest Song for You”",
+      "translatedExcerpt": "Director John Carney, director of the movies ``The Beginning'' and ``Sing Street'', has released his latest film, ``A Gift to You''."
     },
     {
       "id": "8114f510407097c7",
@@ -6968,6 +7023,23 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "5d73115d4d746c68",
+      "title": "Sega Suffers Data Breach Exposing 2.19 Million Email Addresses, Warns of Phishing Attacks",
+      "link": "https://news.sankakucomplex.com/n/mPDEcLxfaIRcm0Rvw6wecg",
+      "publishedAt": "2026-11-10T02:00:21.000Z",
+      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18328,82 +18400,6 @@
       },
       "translatedTitle": "Sar mo waits releases new song \"Nosei\" depicting breakup",
       "translatedExcerpt": "Sar mo waits released their new single \"Nosei\" on Wednesday, November 4, 2026. Sar mo waits, who released their debut single in July of this year, is already releasing their third new song, which is a work depicting a \"breakup.\" The song has a sound reminiscent of 90's UK rock, with straightforward lyrics and a hymn-like chorus. In addition, the music video released today includes the first performance scene of the members since the start of their activities, and expresses the world view of the song through video. The rough-touch visuals and captions that give an early Heisei era feel fully express the musicality of the group, which aims to ``continue without being caught up in the times.'' Sar mo waits' Yuddy (Vo.&Gt.) commented on the new song as follows. Comments Release Information ht…"
-    },
-    {
-      "id": "9044d8b6054dae10",
-      "title": "ゆず、22年ぶり⽇産スタジアム公演を記念して、2005年開催の同会場初ライブ収録映像作品『GO HOME』をプレミア公開",
-      "link": "https://barks.jp/news/1102573",
-      "publishedAt": "2026-11-04T11:00:00.000Z",
-      "excerpt": "ゆずが2027年5月、22年ぶりの日産スタジアム公演を開催することは既報のとおり。これを記念して11月7日(土)19:00より、2005年に同会場で行った初のスタジアムライブ収録した映像作品『LIVE FILMS GO HOME』をオフィシャルYouTube チャンネルにてプレミア公開することが決定した。 デビュー8年目となる2005年7月、初めてゆずが日産スタジアムのステージに立った公演が＜YUZU STADIUM 2005 GO HOME＞だ。今回公開される『LIVE FILMS GO HOME』は、その記念すべき公演の模様を収めたライブ映像作品となるもの。ゆずのライブ史においても大きな節目となったスタジアムライブの熱気と興奮が、YouTubeにて一夜限り体感可能となる。 2026年10月25日にデビ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/04194047/A%E5%86%99_%E3%82%86%E3%81%9A-1024x683.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Yuzu premiered “GO home,” the venue's first live-recorded video work, held in 2005, to commemorate the first performance of Yuzu's stadium in 22 years.",
-      "translatedExcerpt": "ゆずが2027年5月、22年ぶりの日産スタジアム公演を開催することは既報のとおり。これを記念して11月7日(土)19:00より、2005年に同会場で行った初のスタジアムライブ収録した映像作品『LIVE FILMS GO HOME』をオフィシャルYouTube チャンネルにてプレミア公開することが決定した。 デビュー8年目となる2005年7月、初めてゆずが日産スタジアムのステージに立った公演が＜YUZU STADIUM 2005 GO HOME＞だ。今回公開される『LIVE FILMS GO HOME』は、その記念すべき公演の模様を収めたライブ映像作品となるもの。ゆずのライブ史においても大きな節目となったスタジアムライブの熱気と興奮が、YouTubeにて一夜限り体感可能となる。 2026年10月25日にデビ…"
-    },
-    {
-      "id": "9ed708afe1d2746c",
-      "title": "神はサイコロを振らない、新レーベル始動・新アー写公開・配信シングル「99」リリース",
-      "link": "https://barks.jp/news/1102419",
-      "publishedAt": "2026-11-04T11:00:00.000Z",
-      "excerpt": "神はサイコロを振らないが、新しいインディペンデント・レーベル「Nighty Night」を立ち上げ、11月11日(水)に配信シングル「99」(読み方：ナインティナイン) をリリースする。 さらに、レーベルの立ち上げを祝し、配信シングルのリリース発表とともに、新アー写も公開した。 配信シングル「99」の作曲過程では、これまでのバンドサウンドとはまた異なった、以前よりもミニマルなサウンドアプローチを追求。特別ではないリアルな日常で、特定の誰かではなく誰にでも投影される、ひとりの時間が描かれている。 「Nighty Night」と名付けられた神サイの新しいレーベルでの記念すべき1作目として、それぞれが思ったり感じたりすることとそっと共鳴する楽曲に仕上がった。 ミックスは過去の神サイ作品も手掛けてきた大野純平が担…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/04121120/1-7.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "God Doesn't Roll Dice, Starts New Label, Releases New Artwork, Releases Distribution Single \"99\"",
-      "translatedExcerpt": "God doesn't play dice, but he has launched a new independent label, ``Nighty Night,'' and will release the digital single ``99'' (pronounced: ninety-nine) on November 11th (Wednesday). Furthermore, to celebrate the launch of the label, they announced the release of a digital single and released a new photo. In the process of composing the distribution single \"99\", we pursued a more minimal sound approach than before, which was different from the band's previous sound. It depicts a real, non-special day-to-day life in which alone time is projected onto anyone, not a specific person. As Kami Sai's memorable first release under his new label, named \"Nighty Night,\" the song was created to gently resonate with each of the artists' thoughts and feelings. The mix was handled by Junpei Ohno, who has also worked on past Kami Sai works..."
-    },
-    {
-      "id": "184a3426fac1bfa0",
-      "title": "【ライブレポート】BALLISTIK BOYZ、有明アリーナ公演＜”BEAT BLAST Z” ～Our Place～＞で作り上げた“特別な空間”",
-      "link": "https://barks.jp/news/1102545",
-      "publishedAt": "2026-11-04T10:45:16.000Z",
-      "excerpt": "2026年11月3日、東京・有明アリーナにて＜BALLISTIK BOYZ ARENA LIVE 2026 “BEAT BLAST Z” 〜Our Place〜＞の千秋楽公演が行われた。オフィシャルからのレポートをお届けする。 ◆ライブ写真 同公演は8月28日に完走した＜BALLISTIK BOYZ LIVE TOUR 2026 “BEAT BLAST Z”＞を経たBALLISTIK BOYZにとって、今年の集大成となるライブだ。同公演の副題“Our Place”はBALLY’S（BALLISTIK BOYZのファンの呼称）とともに創り上げる居場所や瞬間を意味し、BALLISTIK BOYZの“これまで”と“現在”が合わさったベストライブとなっている。 開演前には囲み取材が行われ、海沼流星、深堀未来、砂田…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/04191140/M1_K748603%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC-1024x683.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Live Report] Ballistic Boyz, a \"special space\" created with Ariake Arena performance < \"beat blast Z\" ~ Our Place ~ >",
-      "translatedExcerpt": "2026年11月3日、東京・有明アリーナにて＜BALLISTIK BOYZ ARENA LIVE 2026 “BEAT BLAST Z” 〜Our Place〜＞の千秋楽公演が行われた。オフィシャルからのレポートをお届けする。 ◆ライブ写真 同公演は8月28日に完走した＜BALLISTIK BOYZ LIVE TOUR 2026 “BEAT BLAST Z”＞を経たBALLISTIK BOYZにとって、今年の集大成となるライブだ。同公演の副題“Our Place”はBALLY’S（BALLISTIK BOYZのファンの呼称）とともに創り上げる居場所や瞬間を意味し、BALLISTIK BOYZの“これまで”と“現在”が合わさったベストライブとなっている。 開演前には囲み取材が行われ、海沼流星、深堀未来、砂田…"
-    },
-    {
-      "id": "aff4c9c0a3878e47",
-      "title": "川西拓実(JO1)、全曲作詞作曲の2nd EP『tomorrow』リード曲「最後の愛」MV＆ライナーノーツ公開",
-      "link": "https://barks.jp/news/1102544",
-      "publishedAt": "2026-11-04T10:14:39.000Z",
-      "excerpt": "JO1の川⻄拓実がメンバーセルフ企画「PLANJ」(読み:プラント)として、10月27日(火)にソロで2作目となる2nd EP『tomorrow』をリリース。リード曲「最後の愛」のMVを本日公開した。 さらに、6曲全ての作詞・作曲を手掛けた川⻄自身が、各楽曲の制作背景や込めた想いを解説したライナーノーツも公開された。 『tomorrow』は、 GfK/NIQ Japanによるダウンロード・アルバム売上レポートから、2026年10月26日〜10月28 日の集計でBillboard JAPANの週間ダウンロード・チャートで1位を獲得。 MVでは、サウンドからも感じられる壮大さを映像でも表現。世界最後の日、愛おしい人々へ送る讃美歌をイメージし、広大な自然で撮影された。 ライナーノーツでは、愛や別れ、心に残り続け…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/05/22132734/TK_artistphoto_square.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Takumi Kawanishi (JO1), 2nd EP \"tomorrow\" lead song \"The Last Love\" music video & liner notes released",
-      "translatedExcerpt": "JO1の川⻄拓実がメンバーセルフ企画「PLANJ」(読み:プラント)として、10月27日(火)にソロで2作目となる2nd EP『tomorrow』をリリース。リード曲「最後の愛」のMVを本日公開した。 さらに、6曲全ての作詞・作曲を手掛けた川⻄自身が、各楽曲の制作背景や込めた想いを解説したライナーノーツも公開された。 『tomorrow』は、 GfK/NIQ Japanによるダウンロード・アルバム売上レポートから、2026年10月26日〜10月28 日の集計でBillboard JAPANの週間ダウンロード・チャートで1位を獲得。 MVでは、サウンドからも感じられる壮大さを映像でも表現。世界最後の日、愛おしい人々へ送る讃美歌をイメージし、広大な自然で撮影された。 ライナーノーツでは、愛や別れ、心に残り続け…"
     }
   ]
 }

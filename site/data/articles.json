@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T20:01:55.957Z",
+  "generatedAt": "2026-11-13T20:31:49.183Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 132,
+      "count": 133,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 149,
+      "count": 147,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 72,
+      "count": 73,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,61 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 628,
+    "translatedJapaneseArticles": 626,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "6b01e6df3e79c53d",
+      "title": "Minami-ke Anime Finally Returns After 14 Years With Original Voice Cast",
+      "link": "https://news.sankakucomplex.com/n/e1S5gfICBBE9MJAaqHtKbg",
+      "publishedAt": "2026-11-13T20:00:51.000Z",
+      "excerpt": "Slice-of-life comedy Minami-ke is finally returning to television after nearly 14 years, with its fifth season, Minami-ke: Korekara, scheduled to premiere in April 2027, bringing back the three Minami sisters and their original Japanese voice actresses.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "53770bc4101232da",
+      "title": "J-Novel Club Announces 13 New Digital Releases and Two New Print Releases",
+      "link": "https://crunchyroll.com/news/latest/2026/11/13/j-novel-club-announces-13-new-digital-releases-and-two-new-print-releases",
+      "publishedAt": "2026-11-13T20:00:00.000Z",
+      "excerpt": "Releases of seven light novels and six manga are now available on the website",
+      "image": "https://a.storyblok.com/f/178900/960x537/eb15e5affb/j-novel-club-logo.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "b49ff737f465d3ee",
+      "title": "J-Novel Club Licenses Putting a Price on World Peace Novels, I'm Dating a Dark Summoner Manga, More Titles",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-13/j-novel-club-licenses-putting-a-price-on-world-peace-novels-im-dating-a-dark-summoner-manga-more-/.243781",
+      "publishedAt": "2026-11-13T20:00:00.000Z",
+      "excerpt": "Company to also release Rebuild World novels, A Royal Rebound manga in print next year",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g44/cms/news.10/243781/putting-a-price-on-world-peace-ln-volume-1-en-cover.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "0c379fb3282a91b4",
       "title": "Titan Holds Distribution of Five Star Stories Manga's 1st English Volume to Review Translation Situation",
@@ -18367,61 +18418,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "d59d4dd7e6ec0cea",
-      "title": "Spirit Circle Anime Adaptation Announced, Will Stream in December",
-      "link": "https://crunchyroll.com/news/latest/2026/11/5/spirit-circle-anime-adaptation-announced-teaser-trailer-cast",
-      "publishedAt": "2026-11-05T09:02:00.000Z",
-      "excerpt": "A teaser trailer and visual were unveiled, along with cast and staff",
-      "image": "https://a.storyblok.com/f/178900/960x540/92e9e12f3e/spirit-circle.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "fc82c03390942192",
-      "title": "〈第26回わが心の大阪メロディー〉セットリスト発表",
-      "link": "https://ototoy.jp/news/132631",
-      "publishedAt": "2026-11-05T09:00:00.000Z",
-      "excerpt": "11月10日(火)にNHK大阪ホールから生放送される〈第26回わが心の大阪メロディー〉のセットリストが発表された。 出演者はfox capture plan、ハンバート ハンバート、山本彩、モナキ、南こうせつ、岡林信康、T.M.Revolution、植村花菜、ヨネダ2000、西川貴教、天童よしみ。 幕開きは連続テレビ小説「ブラッサム」の音楽を手がけるfox capture planが生パフォーマンス。ハンバート ハンバートは「笑ったり転んだり」、山本彩は「365日の紙飛行機」を披露。さらに、出演者が選ぶ朝ドラ名曲を、ＮＨＫに残るアーカイブス映像から紹介する。 ハンバート ハンバート・南こうせつ・山本彩は1960年代後半から1970年代前半、日本中の若者を熱狂させた“関西フォーク”のスペシャルメドレーで披露…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132631/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<26th Osaka Melody of My Heart> Set list announcement",
-      "translatedExcerpt": "The set list for the 26th Osaka Melody of My Heart, which will be broadcast live from NHK Osaka Hall on November 10th (Tuesday), has been announced. The cast includes Fox Capture Plan, Humbert Humbert, Aya Yamamoto, Monaki, Kosetsu Minami, Nobuyasu Okabayashi, T.M.Revolution, Kana Uemura, Yoneda 2000, Takanori Nishikawa, and Yoshimi Tendo. The show opened with a live performance by Fox Capture Plan, who created the music for the TV drama series ``Blossom.'' Humbert Humbert performed ``Laughing and Falling'' and Aya Yamamoto performed ``365 Days of Paper Planes.'' In addition, we will introduce famous morning drama songs selected by the performers from archived footage on NHK. Humbert Humbert, Kosetsu Minami, and Aya Yamamoto performed a special medley of \"Kansai folk\" that excited young people across Japan from the late 1960s to the early 1970s..."
-    },
-    {
-      "id": "6d0bdac1d281a25c",
-      "title": "Ayumu Imazu、自身最大規模となる全国5都市を巡るホールツアー開催決定",
-      "link": "https://ototoy.jp/news/132642",
-      "publishedAt": "2026-11-05T09:00:00.000Z",
-      "excerpt": "Ayumu Imazuが、自身最大規模となる全国5都市を巡るホールツアーの開催を発表した。2027年7月23日(金)の北海道公演を皮切りに、大阪、福岡、愛知、東京の全国5都市で開催される。 1月31日(日)に控える自身初の日本武道館公演は、すでにチケットがソールドアウト。また、2026年10月2日(金)にリリースした新曲「結び」は、配信直後から各配信サービスのランキングで続々と1位を獲得し、計9冠を達成。SNSの総再生数は12億回を突破した。こうした数々の実績を重ね、今回自身最大規模となる全国5都市のホールツアーへと歩みを進める。 なお、ホールツアーのチケット最速先行受付は、11月5日(木)18:00より「Ayumu Imazu Official Fan Club」にてスタートしている。 ツアー情報 ht…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132642/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Ayumu Imazu will hold his largest hall tour in 5 cities nationwide",
-      "translatedExcerpt": "Ayumu Imazu has announced that he will be holding his biggest hall tour in five cities nationwide. Starting with the Hokkaido performance on Friday, July 23, 2027, it will be held in five cities nationwide: Osaka, Fukuoka, Aichi, and Tokyo. Tickets for his first performance at Nippon Budokan, scheduled for January 31st (Sunday), are already sold out. In addition, the new song \"Musubi\" released on Friday, October 2, 2026, has been ranked number one on various distribution services one after another immediately after its release, achieving a total of 9 crowns. The total number of views on SNS exceeded 1.2 billion. With these numerous accomplishments under his belt, he is now embarking on his biggest hall tour in five cities across the country. The earliest advance ticket reception for the hall tour will begin at 18:00 on November 5th (Thursday) at the \"Ayumu Imazu Official Fan Club\". Tour information ht…"
     }
   ]
 }

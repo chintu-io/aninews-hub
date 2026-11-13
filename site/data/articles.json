@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T16:31:43.136Z",
+  "generatedAt": "2026-11-13T17:01:47.717Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 98,
+      "count": 99,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 276,
+      "count": 275,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 634,
+    "translatedJapaneseArticles": 633,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "3e89012bd0e685ca",
+      "title": "Naruto to Boruto: Shinobi Striker Welcomes Kabuto Yakushi (Sage Mode) as 50th DLC",
+      "link": "https://crunchyroll.com/news/latest/2026/11/13/naruto-to-boruto-shinobi-striker-kabuto-yakushi-sage-mode-dlc",
+      "publishedAt": "2026-11-13T16:56:00.000Z",
+      "excerpt": "Free update launches with the new character today",
+      "image": "https://a.storyblok.com/f/178900/960x542/56d1664f10/shinobi-striker-dlc-50.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "7b48ce3e4b0164c3",
       "title": "Attack on Titan 3 Ventures Beyond the Walls in Gameplay Video",
@@ -18415,25 +18432,6 @@
       },
       "translatedTitle": "Former Dragon Ball Z composer elected Texas attorney general in US midterm elections",
       "translatedExcerpt": "The \"Blue Wave\" that swept through Texas this week also contained the energy of \"Dragon Ball Z.\""
-    },
-    {
-      "id": "c4b731f6df2f9960",
-      "title": "セブンス・ベガ、11/7発売のニューAL『PRISM』全曲トレーラー公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167175",
-      "publishedAt": "2026-11-05T08:15:00.000Z",
-      "excerpt": "セブンス・ベガが、11月7日にリリースするニューアルバム『PRISM』の全曲トレーラーを公開した。",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167175/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "セブンス・ベガ、11/7発売のニューAL『PRISM』全曲トレーラー公開",
-      "translatedExcerpt": "セブンス・ベガが、11月7日にリリースするニューアルバム『PRISM』の全曲トレーラーを公開した。"
     }
   ]
 }

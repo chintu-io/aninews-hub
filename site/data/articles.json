@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T13:02:00.964Z",
+  "generatedAt": "2026-11-13T13:32:24.971Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 37,
+      "count": 38,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 126,
+      "count": 127,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 282,
+      "count": 280,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,63 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 637,
+    "translatedJapaneseArticles": 634,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "2ee24edd2b4d5a7c",
+      "title": "音田雅則、天野はなが切ない恋模様を演じる「恋のせい」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167453",
+      "publishedAt": "2026-11-13T13:30:00.000Z",
+      "excerpt": "音田雅則が、新曲「恋のせい」のミュージックビデオを公開した。 2026年10月21日に配信リリ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167453/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Masanori Onda and Hana Amano release “Koi no Sei” music video in which they play a sad love story",
+      "translatedExcerpt": "Masanori Onda has released the music video for his new song \"Koi no Sei\". Released on October 21, 2026"
+    },
+    {
+      "id": "7e9a58c59eb22418",
+      "title": "Stage Musical Adaptation of Webtoon The Siren: Becoming the Villain's Family to Premiere in Seoul on March 24, 2027",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-13/stage-musical-adaptation-of-webtoon-the-siren-becoming-the-villain-family-to-premiere-in-seoul-on-/.243641",
+      "publishedAt": "2026-11-13T13:15:00.000Z",
+      "excerpt": "Story follows grand duke of family that has been afflicted by demonic curse for generations",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gD7/cms/news.8/221684/204698eb-1c27-428a-af11-93d105b51442-z.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "71aa9e86405f8a54",
+      "title": "Starbucks Japan releases new Bearista glass tumbler that changes character with every drink",
+      "link": "https://soranews24.com/2026/11/13/starbucks-japan-releases-new-bearista-glass-tumbler-that-changes-character-with-every-drink/",
+      "publishedAt": "2026-11-13T13:00:50.000Z",
+      "excerpt": "How to create and customise your own bear for maximum cuteness. Starbucks makes news every year for its hotly anticipated Christmas collection in Japan, and this year the star of the show is an incredibly cute tumbler called the Bearista Glass. This exclusive new product looks adorable straight out of the box, with the chain’s […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/Starbucks-Japan-Bearista-Glass-Christmas-2026-holiday-gift-merchandise-drinkware-exclusive-limited-edition-Tokyo-menu-news-2.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "582ff884e95349e9",
       "title": "Becky Hill、エモーショナルな新ALリリース",
@@ -4941,7 +4994,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "The Empty releases MV for “Red Sweet Pea” from new mini AL",
+      "translatedTitle": "The Empty releases “Red Sweet Pea” MV from new mini AL",
       "translatedExcerpt": "The Empty has released the music video for the song \"Akai Sweet Pea\" from their 1st mini album \"Become a Bird\" released on Wednesday, November 4, 2026. “Red Sweet Pea” is a cover of a famous Showa song. The music video is a work typical of The Empty, consisting of the members' powerful performance scenes and off-shot videos of their live performances. And finally, the tour ``Tori Nante Tour'' supporting their 1st mini-album ``Tori Nette Tour'' has started today. A total of 14 performances will be held, including the final performance in Tokyo, with guests. Release information https://ototoy.jp/_/default/p/4369664 Tour information https://w.pia.jp/t/the-empty-official/ https://eplus.jp…"
     },
     {
@@ -18395,63 +18448,6 @@
       },
       "translatedTitle": "Dojin Ikuta Releases All Lyric Videos of 1stAL \"NASCENCE\" for a Limited Time",
       "translatedExcerpt": "Todama Ikuta has released a limited time lyric video for his first album, NASCENCE. November"
-    },
-    {
-      "id": "ded5f5c51c13baf4",
-      "title": "TK from 凛として時雨、新曲「アシデマトイ」配信開始＆MVティザー公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167164",
-      "publishedAt": "2026-11-05T05:30:00.000Z",
-      "excerpt": "TK from 凛として時雨が新曲「アシデマトイ」を配信リリースし、同曲のミュージックビデオのティ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167164/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "TK from Rin Toshi Sigure releases new song “Aside Matoi” & MV teaser released",
-      "translatedExcerpt": "TK from Rin Toshi Sigure has released a new song “Aside Matoi” and the music video teaser for the same song has been released."
-    },
-    {
-      "id": "07d4fe427c4342c3",
-      "title": "小林私、最新EP収録曲「内窓 - Arrange Ver.」MV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167165",
-      "publishedAt": "2026-11-05T05:25:00.000Z",
-      "excerpt": "小林私が、最新EP『遠景に覗う』から「内窓 - Arrange Ver.」のミ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167165/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Me Kobayashi releases music video for latest EP song \"Uchimado - Arrange Ver.\"",
-      "translatedExcerpt": "I, Kobayashi, have released the song \"Uchimado - Arrange Ver.\" from my latest EP \"Peeking into the Distant View\"."
-    },
-    {
-      "id": "46c7d25468705164",
-      "title": "w.o.d.、新曲「ふれる」配信リリース＆MV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167163",
-      "publishedAt": "2026-11-05T05:15:00.000Z",
-      "excerpt": "w.o.d.が11月18日にリリースするニューアルバム『ふれる』から「ふれる」を配信リリースし、ミ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167163/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "w.o.d., new song “Fure” released & MV released",
-      "translatedExcerpt": "w.o.d. will digitally release “Fure” from their new album “Fure” to be released on November 18th."
     }
   ]
 }

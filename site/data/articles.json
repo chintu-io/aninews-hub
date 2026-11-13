@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T08:32:01.568Z",
+  "generatedAt": "2026-11-13T09:02:14.150Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 43,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 135,
+      "count": 132,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 102,
+      "count": 98,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 283,
+      "count": 285,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 187,
+      "count": 189,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 145,
+      "count": 151,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,329 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 609,
+    "translatedJapaneseArticles": 618,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "193f4f115ef0fcc7",
+      "title": "【先ヨミ・デジタル】Hey! Say! JUMP『Juliet』DLアルバム首位独走中",
+      "link": "https://www.billboard-japan.com/d_news/detail/167439",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "GfK/NIQ Japanによるダウンロード・アルバム売上レポートから、2026年11月9日～11",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167439/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Sen Yomi Digital] Hey! Say! JUMP “Juliet” is currently leading the DL album ranking",
+      "translatedExcerpt": "From the download/album sales report by GfK/NIQ Japan, November 9-11, 2026"
+    },
+    {
+      "id": "a92594a62360d2ae",
+      "title": "【先ヨミ・デジタル】Vaundy「しわあわせ」引き続きストリーミング・ソング首位 『紅白』出場者発表の影響みられるか",
+      "link": "https://www.billboard-japan.com/d_news/detail/167437",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "GfK/NIQ Japanによるストリーミング再生回数レポートから2026年11月9日～11月11",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167437/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Sakiyomi Digital] Vaundy's \"Shiwaawase\" continues to be the number one streaming song Will the impact of the \"Kohaku\" contestant announcement be seen?",
+      "translatedExcerpt": "From the streaming playback report by GfK/NIQ Japan from November 9, 2026 to November 11, 2026"
+    },
+    {
+      "id": "4a575c4fcb2e9e59",
+      "title": "【先ヨミ・デジタル】日曜劇場『VIVANT』より千住明「別班儀礼曲」がDLソング首位を走行中 吉田仁人／Kis-My-Ft2が追う",
+      "link": "https://www.billboard-japan.com/d_news/detail/167440",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "GfK/NIQ Japanによるダウンロード・ソング売上レポートから2026年11月9日～11月1",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167440/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Yomi Digital] Akira Senju's \"Bessan Ceremonial Song\" from the Sunday theater \"VIVANT\" is running at the top of the DL song list, followed by Hitoshi Yoshida/Kis-My-Ft2",
+      "translatedExcerpt": "From the download song sales report by GfK/NIQ Japan from November 9th to November 1st, 2026"
+    },
+    {
+      "id": "499a6c14c8ae1274",
+      "title": "Ayumu Imazu、「THE FIRST TAKE」初登場で「結び」を披露",
+      "link": "https://ototoy.jp/news/132792",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "Ayumu Imazuが、「THE FIRST TAKE」に初登場することが明らかになった。 シンガーソングライター、ダンサー、コレオグラファー、プロデューサーなど様々な顔を持つ彼が今回披露するのは、最新曲「結び」。 同曲は、リリース直後から各配信サービスで首位を獲得し、24冠を達成。またグローバルチャートでも急上昇を続けるなど国内外問わず大きな反響を呼んでいる。“赤い糸”をモチーフに、人と人との“縁”や、すれ違いながらも何度でも結び直していく関係を描いたラブソングである「結び」を「THE FIRST TAKE」だけの特別な一発撮りにてパフォーマンスする。 尚、Ayumu Imazuは〈第77回NHK紅白歌合戦〉への初出場も発表されている。 コメント 「初めての「THE FIRST TAKE」めちゃめちゃ…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132792/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ayumu Imazu performs “Musubi” in his first appearance on “THE FIRST TAKE”",
+      "translatedExcerpt": "It has been revealed that Ayumu Imazu will appear for the first time on \"THE FIRST TAKE\". He has various hats including a singer-songwriter, dancer, choreographer, and producer, and this time he will be performing his latest song, ``Musubi.'' Immediately after its release, the song took first place on various distribution services, achieving 24 crowns. It has also continued to rise rapidly on global charts, creating a great response both domestically and internationally. With the motif of \"red thread\", \"Musubi\", a love song that depicts the \"edge\" between people and the relationships that are reconnected over and over again despite passing each other, will be performed in a special one-shot only for \"THE FIRST TAKE\". It has also been announced that Ayumu Imazu will be participating in the 77th NHK Kohaku Uta Gassen for the first time. Comment: “My first “THE FIRST TAKE” was a mess…"
+    },
+    {
+      "id": "6111d9cda4b9c66b",
+      "title": "Damian Hamada’s Creatures、新曲「Blood on Blood」活動絵巻聖典を今夜公開",
+      "link": "https://barks.jp/news/1104209",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "Damian Hamada’s Creatures（以下、D.H.C.）が、魔暦28（2026）年11月13日に新曲「Blood on Blood」を配信小聖典として発表（発売）した。 また、本日21時より「Blood on Blood」の活動絵巻聖典（リリックビデオのようなもの）がプレミア公開されることも決定。ぜひ楽曲と併せて、チェックしてみてほしい。 D.H.C.は現在、全国ツアー＜TOUR 666＞を敢行中だ。最終日である11月27日の東京キネマ倶楽部公演は「Blood on Blood」のみ、スマートフォンでの撮影及びSNSへの投稿が可能になるとのこと。また、専用応募フォームからSNSシェアキャンペーンに参加した全員に向けて、Damian Hamada’s Creaturesオリジナル待ち受け画像…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/07/31185834/D.H.C.%E3%82%A2%E3%83%BC%E5%86%99small.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Damian Hamada’s Creatures releases new song “Blood on Blood” activity picture scroll tonight",
+      "translatedExcerpt": "Damian Hamada’s Creatures (hereinafter referred to as D.H.C.) announced (released) their new song “Blood on Blood” as a distribution mini-script on November 13, 2026. It has also been decided that the activity emaki scripture (like a lyric video) of \"Blood on Blood\" will be premiered today at 21:00. Please check it out along with the song. D.H.C. is currently on a nationwide tour <TOUR 666>. At the Tokyo Cinema Club performance on November 27th, the final day, only \"Blood on Blood\" will be allowed to be filmed with a smartphone and posted on SNS. In addition, for everyone who participated in the SNS sharing campaign using the special application form, we will be giving away an original wallpaper image of Damian Hamada’s Creatures…"
+    },
+    {
+      "id": "3b73464a4b91e9cc",
+      "title": "Libianca、ソウルフルな新曲リリース",
+      "link": "https://ototoy.jp/news/132763",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "Libiancaが2026年11月6日(金)にニューシングル「DISTANCE」をリリースした。 大切な人との関係に疲れを感じながらも、完全に愛情を失ったわけではないという複雑な心情を描いた本作。相手を嫌いになったから離れるのではなく、自分自身の心を守るために距離を取るという、切なくも現実的な選択をテーマにしている。 Libiancaの持ち味であるソウルフルな歌声と、メランコリックな音楽性を生かしたAfrobeats/R&Bナンバーに仕上がった本楽曲。感情を大きく爆発させるのではなく、心の中に蓄積された疲労や寂しさを静かに表現することで、聴き手の共感を呼ぶ作品となっている。 リリース情報 https://ototoy.jp/_/default/p/4307083 アーティスト情報 https://www.…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132763/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Libianca releases soulful new song",
+      "translatedExcerpt": "Libianca released their new single \"DISTANCE\" on Friday, November 6, 2026. This work depicts the complicated feelings of feeling tired of a relationship with a loved one, but not completely losing love. The theme is not to leave someone because you hate them, but to keep your distance to protect your own heart, which is a sad but realistic choice. This song is an Afrobeats/R&B number that takes advantage of Libianca's signature soulful singing voice and melancholic musicality. Rather than making a big emotional outburst, the piece quietly expresses the fatigue and loneliness that have accumulated within the heart, making it a work that evokes sympathy from the listener. Release information https://ototoy.jp/_/default/p/4307083 Artist information https://www.…"
+    },
+    {
+      "id": "f4c1b89eda41015b",
+      "title": "Maverick Mom、初のアニメタイアップ決定。2027年3月にZepp Shinjukuにてワンマン公演開催も",
+      "link": "https://barks.jp/news/1104180",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "Maverick Momが、2027年1月6日よりTOKYO MX・BSフジほかにて放送がスタートするTVアニメ『異世界転生騒動記』のオープニングテーマに、新曲「異世界」が起用されたことを発表した。 同作は、高見梁川による小説を原作に、貴族の少年・バルドの体に戦国武将と現代の高校生の魂が宿る、三位一体の異世界ファンタジー。3つの魂が織りなす主人公の活躍を描く物語に、ジャンルにとらわれない多彩な音楽性を持つMaverick Momが新たな景色を添える。なお、「異世界」の音源が本日公開のアニメPV第2弾で初解禁されているので是非ご覧いただきたい。 また、2027年3月13日に東京・Zepp Shinjukuにて＜Maverick Mom Zepp ONEMAN LIVE『異世界』＞の開催も発表された。『異世界…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/03/03144056/%E3%80%90Maverick-Mom%E3%80%91%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F_FIX.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Maverick Mom's first anime tie-up has been decided. One-man performance will be held at Zepp Shinjuku in March 2027",
+      "translatedExcerpt": "Maverick Mom has announced that their new song ``Isekai'' will be used as the opening theme for the TV anime ``Isekai Tensei Joki'' which will begin broadcasting on TOKYO MX, BS Fuji, and other channels from January 6, 2027. The work is based on a novel by Takami Yanagawa, and is a trinity-based fantasy in which the souls of a Sengoku warlord and a modern high school student reside in the body of Bardo, an aristocratic boy. Maverick Mom, who has a versatile musicality that transcends genres, adds a new perspective to the story of the protagonist's activities woven by three souls. In addition, the sound source for \"Isekai\" has been released for the first time in the second anime PV released today, so please take a look. It was also announced that Maverick Mom Zepp ONEMAN LIVE \"Isekai\" will be held at Zepp Shinjuku in Tokyo on March 13, 2027. “Another world…"
+    },
+    {
+      "id": "8b9c01b5a3c9a5da",
+      "title": "nothing out the window、2nd SG「shell」リリース決定",
+      "link": "https://ototoy.jp/news/132777",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "nothing out the windowが2nd Single「shell」を2026年11月18日にリリースすることを発表した。 nothing out the windowは 2024年に結成された東京を拠点に活動するバンド。インディー / オルタナティブを軸に、エフェクトのかかったボーカルと重層的なサウンドで、エモやグランジゲイズ、ニューゲイザー、スロウコアの要素を感じさせる楽曲群が特徴だ。 「shell」は、バンドにとって2作目となるシングルリリース。オルタナティブな音楽性を追求し続ける彼らが、今作でどのようなサウンドを聴かせてくれるのか期待が高まる。 リリース情報 ▼OTOTOY配信ページ https://ototoy.jp/_/default/a/1797696 リリース情報 ▼OTOTO…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132777/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "nothing out the window, 2nd SG “shell” release decided",
+      "translatedExcerpt": "nothing out the window has announced that their 2nd single \"shell\" will be released on November 18, 2026. nothing out the window is a Tokyo-based band formed in 2024. Focusing on indie/alternative music, the group's songs are characterized by elements of emo, grunge gaze, new gazer, and slowcore, with effected vocals and multilayered sounds. \"Shell\" is the band's second single release. As they continue to pursue alternative musicality, expectations are high as to what kind of sound they will produce with this album. Release information ▼OTOTOY distribution page https://ototoy.jp/_/default/a/1797696 Release information ▼OTOTOY…"
+    },
+    {
+      "id": "bed59250e1a88758",
+      "title": "すいそうぐらし、ミニAL『あなたを好きな私たち。』リリース",
+      "link": "https://ototoy.jp/news/132778",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "すいそうぐらしがミニアルバム『あなたを好きな私たち。』をリリースした。 今作のテーマは「拡張」。これまで描いてきた報われない恋の世界観を軸に、嫉妬やすれ違い、複数の想いが交差する関係など、さまざまな恋愛の形へと物語を広げた。 さらに表現の形の拡張として複数のfeaturingアーティストを迎え、それぞれの声や個性を掛け合わせることで、すいそうぐらしの新たな可能性を提示する一作に仕上がっている。 リリース情報 ▼OTOTOY配信中 https://ototoy.jp/_/default/a/842394 アーティスト情報 https://x.com/suisougurashi",
+      "image": "https://imgs.ototoy.jp/news/image.php/132778/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Suisou Living, Mini AL “We love you.” \"release",
+      "translatedExcerpt": "Suisougurashi released the mini album “We Love You.” ' was released. The theme of this work is \"expansion\". Centering on the world view of unrequited love that has been depicted so far, the story has expanded to various forms of love, such as jealousy, misunderstandings, and relationships where multiple feelings intersect. Furthermore, by inviting multiple featuring artists to expand the form of expression and combining their voices and individualities, the work has been created to present new possibilities for living in a comfortable lifestyle. Release information ▼OTOTOY now available https://ototoy.jp/_/default/a/842394 Artist information https://x.com/suisougurashi"
+    },
+    {
+      "id": "222a22df9d1f90e2",
+      "title": "ビルボード年間書籍チャート、発表記念キャンペーンを全国170以上の書店・図書館で開催 一部では特設コーナーも",
+      "link": "https://www.billboard-japan.com/d_news/detail/167282",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "ビルボードジャパンによる初の年間書籍チャートの発表を記念し、11月15日から、全国の書店・図書館で",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167282/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Billboard Annual Book Chart Announcement Commemoration Campaign Held at More than 170 Bookstores and Libraries Nationwide, Some Special Corners Also Available",
+      "translatedExcerpt": "To commemorate the announcement of Billboard Japan's first annual book chart, it will be available at bookstores and libraries nationwide from November 15th."
+    },
+    {
+      "id": "9bd7152d03a381f3",
+      "title": "リアルピース・かちょー、プロレスデビュー戦でシバターと激突",
+      "link": "https://barks.jp/news/1104094",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "5人組アイドルグループ「リアルピース」のメンバー・かちょーが、2027年1月13日（水）に東京・後楽園ホールで開催される『愛媛プロレス 東京興行in後楽園ホール』にて、プロレスデビュー戦に臨むこととなった。石鎚山太郎とタッグを結成し、シバター＆石川修司組と対戦するというカードだ。 リアルピースは、2026年11月3日（火・祝）にLaLa arena TOKYO-BAYで開催した4thワンマンライブ「地図に無い場所」にて、11,000人の観客を前に、かちょーのプロレスデビューを発表していた。幼少期から家族とともにプロレスを観戦し、地元で開催された興行にも足を運んでいたというかちょーだが、小学2年生から中学2年生までは空手に取り組み、現在も趣味としてサンドバッグを打つなど、格闘技に親しんできたという。 今回対…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/13091428/%E3%81%8B%E3%81%A1%E3%82%87%E3%83%BC_%E3%82%B7%E3%83%90%E3%82%BF%E3%83%BC_%E5%AE%A3%E6%9D%90%E5%86%99%E7%9C%9F-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Real Peace Kacho clashes with Shibata in pro wrestling debut",
+      "translatedExcerpt": "Kacho, a member of the five-member idol group \"Real Peace,\" will make his professional wrestling debut at \"Ehime Pro-Wrestling Tokyo Performance in Korakuen Hall\" to be held at Korakuen Hall in Tokyo on Wednesday, January 13, 2027. This is a card in which he forms a tag team with Yamataro Ishizuchi and faces off against Shibata and Shuji Ishikawa. Real Peace announced Kacho's professional wrestling debut in front of an audience of 11,000 at their 4th one-man live ``A Place Not on the Map'' held at LaLa arena TOKYO-BAY on Tuesday, November 3, 2026 (holiday). Kacho has been watching professional wrestling with his family since he was a child and attending local shows, but from the second year of elementary school to the second year of junior high school he practiced karate, and even now he still enjoys martial arts, such as hitting a punching bag as a hobby. This time vs..."
+    },
+    {
+      "id": "cccaa489e49d6d56",
+      "title": "山下大輝、2nd EPを引っ提げたワンマンライブ＜Dive in !＞開催決定",
+      "link": "https://barks.jp/news/1104212",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "山下大輝が、2027年4月4日に東京・EX THEATER ROPPONGIにて開催する＜山下大輝 LIVE 2027 “Dive in !”＞について、詳細情報を解禁した。 本公演は、11月1日に開催された＜Daiki Yamashita 2026 DAIKING Festa Vol.5 “Wander & Wonder”＞内で情報解禁されていたが、公演時間などの詳細情報が公開され、DAIKI YAMASHITA OFFICIAL MEMBER’S CLUB「DAIKING」会員を対象とした抽選先行受付情報も発表された。 2021年に「Tail」でアーティストデビューし、今年5周年を迎えた山下大輝。2023年には初のワンマンライブ＜山下大輝 1st LIVE 2023 “from here”＞を開催。そ…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/13143553/Artist-Photo-1024x768.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Daiki Yamashita will hold a one-man live <Dive in!> featuring his 2nd EP",
+      "translatedExcerpt": "Daiki Yamashita has released detailed information about <Daiki Yamashita LIVE 2027 “Dive in!”> to be held at EX THEATER ROPPONGI in Tokyo on April 4, 2027. Information on this performance was released during <Daiki Yamashita 2026 DAIKING Festa Vol.5 “Wander & Wonder” held on November 1st, but detailed information such as performance time has been released, and information on advance lottery reception for DAIKI YAMASHITA OFFICIAL MEMBER’S CLUB “DAIKING” members has also been announced. Daiki Yamashita made his artist debut with “Tail” in 2021 and celebrated his 5th anniversary this year. In 2023, he will hold his first one-man live <Daiki Yamashita 1st LIVE 2023 “from here”>. So…"
+    },
+    {
+      "id": "f89194ccfaeeab61",
+      "title": "幽体コミュニケーションズ、1年を振り返るワンマンライブを開催",
+      "link": "https://ototoy.jp/news/132782",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "幽体コミュニケーションズが、2026年12月12日(土)に神保町試聴室にてワンマンライブ『Forget 2026』を開催する。 2026年9月に2ndフルアルバム『忘 れて』をリリースし、10月に開催した渋谷WWWでのワンマンライブも盛況のうちに幕を閉じた幽体コミュニケーションズ。 本公演は「2026年を振り返る」をテーマに、普段とは一味違った特別なライブを届ける。チケットは現在発売中。 また、先日開催された渋谷WWWでのワンマンライブより、シンリズムをゲストに迎えて披露した『Ghost diary』のライブ映像もYouTubeにて公開されている。 コメント paya(Vo,Gt) ライブ情報 【チケット料金】 一般4,000円（税込） チケット詳細はこちら：https://t-dv.com/shicho…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132782/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ghostly Communications holds a one-man live to look back on the past year",
+      "translatedExcerpt": "Ghost Communications will hold a one-man live \"Forget 2026\" at Jimbocho Listening Room on Saturday, December 12, 2026. Ghostly Communications released their second full-length album ``Forget'' in September 2026, and their one-man live at Shibuya WWW in October ended with great success. This performance will deliver a special live performance that is a little different from the usual, with the theme of \"Looking back on 2026.\" Tickets are on sale now. In addition, a live video of \"Ghost diary\", which was performed with Shinrhythm as a guest, from the one-man live at Shibuya WWW held the other day, is also available on YouTube. Comments paya(Vo,Gt) Live information [Ticket price] General 4,000 yen (tax included) Click here for ticket details: https://t-dv.com/shicho…"
+    },
+    {
+      "id": "0b43fa79fe4baf23",
+      "title": "彩青、9枚目のシングル｢北の海峡｣発売決定",
+      "link": "https://barks.jp/news/1104244",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "excerpt": "彩青が、第9弾シングル｢北の海峡｣を2026年12月16日に発売することを発表した。 本作は、作詩を石原信一、作曲を聖川湧が務め、亡き父を忍びながら⽇々漁に出るという海に⽣きる男の歌を、おおらかにかつ海への想いを込めて⼤きく歌い上げる楽曲になっているという。また本作では、彩青自身が尺八を演奏したとのことだ。 彩青は「今作、初めて海唄を歌わせていただくことになりました。父親との絆を歌っていますが、主人公の気持ちに寄り添って、しっかりと歌っていきたいと思います」とコメント。橋幸夫から譲り受けた着物を着用して撮影に挑んだというジャケット写真は、12月のリリースに向けて現在準備中だ。 なお、本作に合わせたヒット祈願やキャンペーンも実施される。詳細は下記をチェックしていただきたい。 ◾️シングル｢北の海峡｣2026…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/13153437/%E5%BD%A9%E9%9D%92%EF%BD%A2%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%E3%81%AE%E6%81%8B%E3%81%96%E3%81%8F%E3%82%89%EF%BD%A3A%E5%86%99969-1024x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Saisei to release 9th single “Kita no Kaikyo”",
+      "translatedExcerpt": "Saisei has announced that their 9th single \"Kita no Kaikyo\" will be released on December 16, 2026. This work, with lyrics by Shinichi Ishihara and music by Yu Hijirikawa, is a song about a man who lives on the sea and goes out fishing every day while hiding his late father, and is sung loudly with his feelings for the sea. Also, in this work, Saisei himself played the shakuhachi. Saisei commented, ``This is my first time singing a sea song.It's about the bond with my father, and I want to sing closely to the feelings of the main character.'' The jacket photo, in which she was photographed wearing a kimono given to her by Yukio Hashi, is currently being prepared for release in December. In addition, a hit prayer and campaign will be held in conjunction with this work. Please check below for details. ◾️Single “Kita no Kaikyo” 2026…"
+    },
+    {
+      "id": "f8db57338ba95bf0",
+      "title": "Inherit the Winds Anime Takes It Easy in New Key Visual",
+      "link": "https://crunchyroll.com/news/latest/2026/11/13/inherit-the-winds-anime-key-visual",
+      "publishedAt": "2026-11-13T08:52:00.000Z",
+      "excerpt": "The original series begins airing in January 2027",
+      "image": "https://a.storyblok.com/f/178900/1064x753/f6cc348abb/inherit-the-winds-key-visual.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d70dc62f91ab8172",
+      "title": "CyberAgent Expands Production Network With Latent One Launch and MAPPA Partnership",
+      "link": "https://myanimelist.net/news/74934668?_location=rss",
+      "publishedAt": "2026-11-13T08:50:56.000Z",
+      "excerpt": "CyberAgent is expanding its presence in Japan's animation industry through a combination of studio development and strategic investment, establishing a new animation studio under its subsidiary Colorful Palette while entering a business alliance with MAPPA. On October 31, 2026, Colorful Palette announced the establishment of Latent One, a new animation pr…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794559743-2de4e178ae07bd2f6096a6a34bbfd360.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "408aaac3dd071dea",
+      "title": "星街すいせい、「だって僕は」でメジャーデビュー",
+      "link": "https://ototoy.jp/news/132793",
+      "publishedAt": "2026-11-13T08:30:00.000Z",
+      "excerpt": "星街すいせいが自身最大規模となるアリーナツアーのファイナルをマリンメッセ福岡A館にて開催し、ライブ終盤にソニーミュージック内レーベル・Echoesから12月9日（水）にメジャーデビューを発表。メジャーデビュー曲「だって僕は」を初披露した。 「だって僕は」を手掛けたのはTAKU INOUE。「Stellar Stellar」のアンサーソングとして星街すいせい自らも作詞に参加し、タイトルは星街が考案した。 公演では世界最大手のタレントエージェンシーWMEとの契約も発表された。 アーティスト情報 アーティスト情報 https://hoshimachi-suisei.jp/ https://x.com/suisei_hosimati?lang=ja https://www.youtube.com/@Hoshima…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132793/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Suisei Hoshimachi makes major debut with “Datte Boku wa”",
+      "translatedExcerpt": "Suisei Hoshimachi held the final of her largest arena tour at Marine Messe Fukuoka A Building, and at the end of the live performance, she announced her major debut on Sony Music's Echoes label on December 9th (Wednesday). They performed their major debut song ``Datte Boku wa'' for the first time. TAKU INOUE worked on “Datte Boku Wa”. As an answer song to \"Stellar Stellar\", Suisei Hoshimachi himself participated in writing the lyrics, and the title was devised by Hoshimachi. At the performance, it was also announced that they had signed a contract with WME, the world's largest talent agency. Artist information Artist information https://hoshimachi-suisei.jp/ https://x.com/suisei_hosimati?lang=ja https://www.youtube.com/@Hoshima…"
+    },
     {
       "id": "04c1d95fab406158",
       "title": "Uma Musume Parent Company Boasts 88% Mobile Game Success Rate",
@@ -18088,305 +18407,6 @@
       "publishedAt": "2026-11-04T17:00:45.000Z",
       "excerpt": "Satsuki Kokubu, Yurie Kozakai, Hazuki Ogino, Sayumi Suzushiro, Katsuyuki Konishi join cast",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gM4/youtube/XUPewTvbu3I.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e2ea6cb30186f768",
-      "title": "Dragon's Dogma 2: Dark Arisen Announces Delicious in Dungeon Collaboration",
-      "link": "https://crunchyroll.com/news/latest/2026/11/4/dragons-dogma-2-dark-arisen-delicious-in-dungeon-anime-collaboration",
-      "publishedAt": "2026-11-04T16:55:00.000Z",
-      "excerpt": "Laios and Marcille Pawns and outfit sets are available in-game starting today",
-      "image": "https://a.storyblok.com/f/178900/1280x720/58cda1978d/dragons-dogma-2-delicious-in-dungeon-collaboration.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "260baed9d33a2c7a",
-      "title": "Reincarnated as a Sword Anime Season 2 Teases Seedrun Arc in New Trailer",
-      "link": "https://crunchyroll.com/news/latest/2026/11/4/reincarnated-as-a-sword-anime-season-2-seedrun-arc-trailer-visual-cast",
-      "publishedAt": "2026-11-04T16:39:00.000Z",
-      "excerpt": "New key art and cast were also revealed for the ongoing season",
-      "image": "https://a.storyblok.com/f/178900/1460x821/62f77d9c30/reincarnated_as_a_sword_s2_fran_blep_header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f3e1fe6396bf36e1",
-      "title": "'Tensei shitara Ken deshita II' Reveals Supporting Cast, Third Promo",
-      "link": "https://myanimelist.net/news/74904410?_location=rss",
-      "publishedAt": "2026-11-04T16:33:53.000Z",
-      "excerpt": "The official website of the television anime adaptation of Yuu Tanaka's Tensei shitara Ken deshita (Reincarnated as a Sword) light novel revealed supporting cast, second key visual (pictured), and third promotional video for the \"Seedrun Arc\" on Thursday. The second season premiered on October 8 at 12.00 a.m. on Tokyo MX, followed by ABC TV, BS Asahi, and…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1793809991-fa83f9004c7606025693a86325dedc51.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "be1fd13e8f78526c",
-      "title": "Oshiri Tantei Anime Announces New Series to Premiere in April 2027",
-      "link": "https://crunchyroll.com/news/latest/2026/11/4/oshiri-tantei-anime-new-series-april-2027",
-      "publishedAt": "2026-11-04T16:22:00.000Z",
-      "excerpt": "A new teaser visual introduces the Alphabet Phantom Thieves",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/3cb728d605/oshiri-tantei-hero.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1dd3bdf600a119f6",
-      "title": "Peropero Sparkles Anime Broadcasts in January 2027",
-      "link": "https://crunchyroll.com/news/latest/2026/11/4/peropero-sparkles-anime-january-2027-debut",
-      "publishedAt": "2026-11-04T16:08:00.000Z",
-      "excerpt": "The main staff, cast and key art were also revealed for the series",
-      "image": "https://a.storyblok.com/f/178900/1280x720/8c3f18f1a8/peropero_sparkles_youtube_anime_header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "ddece4067efb222f",
-      "title": "First-ever cafe on Tokyo Imperial Palace Garden grounds is now open",
-      "link": "https://soranews24.com/2026/11/05/first-ever-cafe-on-tokyo-imperial-palace-garden-grounds-is-now-open/",
-      "publishedAt": "2026-11-04T16:00:31.000Z",
-      "excerpt": "Green oasis in the center of Tokyo is site of city’s newest cafe serving exclusive coffee blend. With people in Japan long having been fans of cafe culture, Tokyo has plenty of spots in the city in which to sit and sip a cup of coffee. However, there’s never been a cafe on the grounds […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/2_e11a6d.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "13d5aaca0aca121d",
-      "title": "The Poetic Pulse of Shing02: From Samurai Champloo to the World Stage",
-      "link": "https://crunchyroll.com/news/interviews/2026/11/4/shing02-interview",
-      "publishedAt": "2026-11-04T16:00:00.000Z",
-      "excerpt": "The voice behind one of anime’s most iconic openings reflects on his music and more",
-      "image": "https://a.storyblok.com/f/178900/1645x903/30265a79e8/shing02-mexico.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "4195595e2269cc91",
-      "title": "Yayū Murata Launches Kickstarter for Across the Strange Edge Manga's 2nd Volume, Deluxe Hardcover Omnibus",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-04/yayu-murata-launches-kickstarter-for-across-the-strange-edge-manga-2nd-volume-deluxe-hardcover-/.243521",
-      "publishedAt": "2026-11-04T16:00:00.000Z",
-      "excerpt": "Campaign to raise €7,000 launches on November 19",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gE2/cms/news.9/235423/4cc42112cb621160b16423a49e93f8e2-original.png.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "69b7211898d4cd7a",
-      "title": "Sugar Apple Fairy Tale's Miri Mikawa, Brave10's Kairi Shimotsuki Launch New Manga on November 24",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-04/sugar-apple-fairy-tale-miri-mikawa-brave10-kairi-shimotsuki-launch-new-manga-on-november-24/.243510",
-      "publishedAt": "2026-11-04T15:00:00.000Z",
-      "excerpt": "Mikawa writes, Shimotsuki draws Ryū no Kuni Gensō fantasy manga",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gC7/cms/news.10/243510/ryu.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "d594e2ea166a9a38",
-      "title": "茉ひる、ドラマ『小麦とバターと復讐と』オープニング曲「Butter」MV公開",
-      "link": "https://barks.jp/news/1102347",
-      "publishedAt": "2026-11-04T14:30:00.000Z",
-      "excerpt": "茉ひるが、新曲「Butter」のMVを公開した。 本楽曲は、カンテレ・フジテレビ系全国ネット「水ドラ★イレブン」『小麦とバターと復讐と』のオープニング曲として起用されており、サビで繰り返される〈あなたのせいだ せいだ Break down 取り戻したい Diary & I (愛)〉というフレーズが印象的な1曲だという。 そんな「Butter」のMVは、歩きながら歌い続ける茉ひるの姿をワンカメラ・ワンカットで捉えた臨場感あふれる映像作品に。本楽曲とMVについて、茉ひるは以下のようにコメントしている。 ◆ ◆ ◆ ◾️茉ひる コメント「Butter」は、ドラマ『小麦とバターと復讐と』の世界観と向き合いながら、自分の中にある複雑な感情を正直に言葉にした楽曲です。誰かのせいにしてしまいたくなる気持ちと、それでも大…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/03210513/mahiru_butter_A-1024x682.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Maruhiru Drama \"Wheat, Butter and Revenge\" Opening Song \"Butter\" MV Released",
-      "translatedExcerpt": "茉ひるが、新曲「Butter」のMVを公開した。 本楽曲は、カンテレ・フジテレビ系全国ネット「水ドラ★イレブン」『小麦とバターと復讐と』のオープニング曲として起用されており、サビで繰り返される〈あなたのせいだ せいだ Break down 取り戻したい Diary & I (愛)〉というフレーズが印象的な1曲だという。 そんな「Butter」のMVは、歩きながら歌い続ける茉ひるの姿をワンカメラ・ワンカットで捉えた臨場感あふれる映像作品に。本楽曲とMVについて、茉ひるは以下のようにコメントしている。 ◆ ◆ ◆ ◾️茉ひる コメント「Butter」は、ドラマ『小麦とバターと復讐と』の世界観と向き合いながら、自分の中にある複雑な感情を正直に言葉にした楽曲です。誰かのせいにしてしまいたくなる気持ちと、それでも大…"
-    },
-    {
-      "id": "6f173c0241349ef2",
-      "title": "生田斗真、1stアルバム先行配信スタート＆「全曲リリックビデオ」期間限定公開",
-      "link": "https://barks.jp/news/1102612",
-      "publishedAt": "2026-11-04T14:19:19.000Z",
-      "excerpt": "生田斗真が、1stフルアルバム『NASCENCE』をCD発売に先駆けて、本日配信リリースした。なお、CDパッケージの発売は2026年11月25日を予定している。 アルバムには、菅田将暉・石崎ひゅーい提供の「花であることを忘れたか」をはじめ、岡村靖幸プロデュースのデビューシングル「スーパーロマンス」、TAKUMA（10-FEET）が作詞・作曲を手掛け、10-FEETも演奏参加した6分超えのロックナンバー「君の声が with 10-FEET」などの全10曲を収録。さらに、CDパッケージ版にはボーナストラックとして「恋のメガラバ(KSUKE HYPER REMIX)」が収録される。 そして、全収録曲がひとつの映像に繋がった「全曲リリックビデオ」が公開された。こちらはCDリリース前日の11月24日までの期間限定公…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/14164758/%E7%94%9F%E7%94%B0%E6%96%97%E7%9C%9FA%E5%86%99.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Ikuta Dojin, 1st Album Premiere Start & \"All Songs Relic Video\" Limited Time Release",
-      "translatedExcerpt": "生田斗真が、1stフルアルバム『NASCENCE』をCD発売に先駆けて、本日配信リリースした。なお、CDパッケージの発売は2026年11月25日を予定している。 アルバムには、菅田将暉・石崎ひゅーい提供の「花であることを忘れたか」をはじめ、岡村靖幸プロデュースのデビューシングル「スーパーロマンス」、TAKUMA（10-FEET）が作詞・作曲を手掛け、10-FEETも演奏参加した6分超えのロックナンバー「君の声が with 10-FEET」などの全10曲を収録。さらに、CDパッケージ版にはボーナストラックとして「恋のメガラバ(KSUKE HYPER REMIX)」が収録される。 そして、全収録曲がひとつの映像に繋がった「全曲リリックビデオ」が公開された。こちらはCDリリース前日の11月24日までの期間限定公…"
-    },
-    {
-      "id": "d7f4fb4d45d1b671",
-      "title": "神はサイコロを振らない、新レーベルから新曲「99」配信リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/167141",
-      "publishedAt": "2026-11-04T14:05:00.000Z",
-      "excerpt": "神はサイコロを振らないが、新しいインディペンデント・レーベル「Nighty Night」を立ち上げ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167141/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "God Doesn't Roll, Releases New Song '99' From New Label",
-      "translatedExcerpt": "God doesn't roll the dice, but He does launch a new independent label, Nighty Night."
-    },
-    {
-      "id": "35a287d486161259",
-      "title": "Godzilla becomes a Japanese randoseru backpack, as do two of his greatest rivals [Photos]",
-      "link": "https://soranews24.com/2026/11/04/godzilla-becomes-a-japanese-randoseru-backpack-as-do-two-of-his-greatest-rivals-photos/",
-      "publishedAt": "2026-11-04T14:00:38.000Z",
-      "excerpt": "King of the Monsters looks to become lord of the backpacks. Durability and functionality are the two biggest priorities for Japan’s randoseru backpacks. The boxy bags need to be able to carry everything a student needs on their way to and from school for six years, after all. But in recent years, more and more […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/2_c594a3.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2e0779fc7546ecdb",
-      "title": "Japan’s free stock image site of muscular men doing whimsical and mundane things reveals rankings",
-      "link": "https://soranews24.com/2026/11/04/japans-free-stock-image-site-of-muscular-men-doing-whimsical-and-mundane-things-reveals-rankings/",
-      "publishedAt": "2026-11-04T14:00:24.000Z",
-      "excerpt": "The site with a goal of “Adding muscles to everyday life” has released a new gallery collecting its most viral muscly moments up to the present. Fukuoka-based Smile Academy’s Muscle Plus free stock image site has been around for a while now and it hasn’t stopped causing a stir. We can only thank the muscular […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/1.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "b57263e2bbad8f86",
-      "title": "ときのそら、活動9周年記念EP『CHECK！』リリース。2日連続でMV公開も",
-      "link": "https://barks.jp/news/1102607",
-      "publishedAt": "2026-11-04T14:00:20.000Z",
-      "excerpt": "VTuberグループ「ホロライブ」に所属するバーチャルアイドル・ときのそらが、活動9周年記念EP『CHECK！』を本日リリースした。あわせて、本作の1曲目に収録されている「マルゴトミライ」のMVを公開した。 「マルゴトミライ」は、活動10年目に突入したときのそらがこれまで積み重ねてきた経験や思い出を胸に、大切な仲間たちと共にその先の未来へと駆け出す姿を描いた楽曲だという。MVでは、冒険者パーティーのように仲間たちと手を取り合って前へ前へと進んでいくときのそらが。これまでのすべてを肯定し、“マルゴト”未来への力に変えていくポジティブなエネルギーに満ちた楽曲の世界観を可愛らしく表現した映像に仕上がったとのことだ。 さらに、EP収録曲「ハイパーチャッチャカチャージ」のMVも2026年11月5日20時にプレミア公…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/04224342/%E3%81%A8%E3%81%8D%E3%81%AE%E3%81%9D%E3%82%89%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F-768x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Time sora, activities 9th anniversary EP \"check!. The music video has been released for two consecutive days.",
-      "translatedExcerpt": "VTuberグループ「ホロライブ」に所属するバーチャルアイドル・ときのそらが、活動9周年記念EP『CHECK！』を本日リリースした。あわせて、本作の1曲目に収録されている「マルゴトミライ」のMVを公開した。 「マルゴトミライ」は、活動10年目に突入したときのそらがこれまで積み重ねてきた経験や思い出を胸に、大切な仲間たちと共にその先の未来へと駆け出す姿を描いた楽曲だという。MVでは、冒険者パーティーのように仲間たちと手を取り合って前へ前へと進んでいくときのそらが。これまでのすべてを肯定し、“マルゴト”未来への力に変えていくポジティブなエネルギーに満ちた楽曲の世界観を可愛らしく表現した映像に仕上がったとのことだ。 さらに、EP収録曲「ハイパーチャッチャカチャージ」のMVも2026年11月5日20時にプレミア公…"
-    },
-    {
-      "id": "25744d23bee6dca0",
-      "title": "Bialystocks、こたけ正義感【弁論2026】エンディングテーマを書き下ろし",
-      "link": "https://www.billboard-japan.com/d_news/detail/167142",
-      "publishedAt": "2026-11-04T14:00:00.000Z",
-      "excerpt": "Bialystocksが、こたけ正義感の単独ライブ【弁論2026】のエンディングテーマを担当する。",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167142/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Bialystocks writes a new ending theme for Kotake Justice Sense [Discourse 2026]",
-      "translatedExcerpt": "Bialystocks will be in charge of the ending theme for Kotake Seishikan's solo live [Benten 2026]."
-    },
-    {
-      "id": "764e480f085d2d9b",
-      "title": "Sakamoto Holidays Manga Heads Towards Climax",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-04/sakamoto-holidays-manga-heads-towards-climax/.243496",
-      "publishedAt": "2026-11-04T13:46:36.000Z",
-      "excerpt": "Sakamoto Days spinoff series debuted in July 2024",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gBC/cms/news.8/225214/sakamoto-holidays.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",

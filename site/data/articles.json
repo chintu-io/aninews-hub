@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T01:33:29.419Z",
+  "generatedAt": "2026-11-13T02:01:55.059Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 133,
+      "count": 132,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 103,
+      "count": 104,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 276,
+      "count": 278,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 192,
+      "count": 191,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 151,
+      "count": 150,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -167,6 +167,61 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "40a67ae2503185f3",
+      "title": "Mrs. GREEN APPLE、FM802公開生放送＆トーク収録イベント出演",
+      "link": "https://www.billboard-japan.com/d_news/detail/167417",
+      "publishedAt": "2026-11-13T02:00:00.000Z",
+      "excerpt": "Mrs. GREEN APPLEが、11月12日に大阪・あべのキューズモールで開催されたFM802",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167417/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Mrs. GREEN APPLE appears on FM802 public live broadcast & talk recording event",
+      "translatedExcerpt": "Mrs. GREEN APPLE attended FM802 held at Abeno Q's Mall in Osaka on November 12th."
+    },
+    {
+      "id": "8114f510407097c7",
+      "title": "Voice Actor Unit IXIS Shares New Music Video \"Are We Ready?\"",
+      "link": "https://crunchyroll.com/news/latest/2026/11/13/ixis-voice-actor-unit-new-music-video-are-we-ready",
+      "publishedAt": "2026-11-13T01:34:00.000Z",
+      "excerpt": "The unit's second mini album \"Shooot!!\" ranks No. 20 on the daily chart",
+      "image": "https://a.storyblok.com/f/178900/960x540/bb1e84918c/ixis-are-we-ready-mv.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "5eb34e0f939cf4ec",
+      "title": "「波うららかに、めおと日和」「瀧昌（本田響矢）の焼きもちがかわいかった」「なつ美（芳根京子）の一言に、胸がキュンとなった」",
+      "link": "https://www.billboard-japan.com/d_news/detail/167420",
+      "publishedAt": "2026-11-13T01:30:00.000Z",
+      "excerpt": "「波うららかに、めおと日和」（フジテレビ系）の第5話が、12日に放送された。 本作は、昭和12年",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167420/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "``Nami Uraraka, Meoto Hiyori'' ``Takimasa (Honda Kyouya)'s grilled mochi was cute'' ``Natsumi (Yoshine Kyoko)'s words made my heart flutter.''",
+      "translatedExcerpt": "The fifth episode of ``Nami Urarakani, Meoto Biyori'' (Fuji TV) was broadcast on the 12th. This work was created in 1939."
+    },
     {
       "id": "ac5b2335f928420d",
       "title": "マカロニえんぴつ、「運命さがし」MVメイキング映像公開",
@@ -18349,61 +18404,6 @@
       },
       "translatedTitle": "Takumi Kawanishi (JO1), 2nd EP \"tomorrow\" lead song \"The Last Love\" music video & liner notes released",
       "translatedExcerpt": "JO1の川⻄拓実がメンバーセルフ企画「PLANJ」(読み:プラント)として、10月27日(火)にソロで2作目となる2nd EP『tomorrow』をリリース。リード曲「最後の愛」のMVを本日公開した。 さらに、6曲全ての作詞・作曲を手掛けた川⻄自身が、各楽曲の制作背景や込めた想いを解説したライナーノーツも公開された。 『tomorrow』は、 GfK/NIQ Japanによるダウンロード・アルバム売上レポートから、2026年10月26日〜10月28 日の集計でBillboard JAPANの週間ダウンロード・チャートで1位を獲得。 MVでは、サウンドからも感じられる壮大さを映像でも表現。世界最後の日、愛おしい人々へ送る讃美歌をイメージし、広大な自然で撮影された。 ライナーノーツでは、愛や別れ、心に残り続け…"
-    },
-    {
-      "id": "ab26d2c2d8909d2f",
-      "title": "imase、新曲「It’s a Beautiful Life」が「INCLUSIVE DANCE FES 26-27」テーマソングに決定！",
-      "link": "https://barks.jp/news/1102532",
-      "publishedAt": "2026-11-04T10:00:35.000Z",
-      "excerpt": "imaseの新曲「It’s a Beautiful Life」が、2027年1月に渋谷で開催される「INCLUSIVE DANCE FES 26-27」のテーマソングに決定した。 2026年9月に活動を再開し、10月2日に配信EP『はてな』をリリースしたimase。「It’s a Beautiful Life」は同EPの収録曲だ。本日から、共通振付とフリースタイルを組み合わせ、自分らしく踊る「#ゴチャ踊れダンス」リレーがTikTokとInstagramでスタート。TikTokではキャンペーン向けの音源「It’s a Beautiful Life ゴチャ踊れVer.」も併せて配信された。 本SNSキャンペーン参加者の中から、魅力的なパフォーマンスを見せたダンサーたちにはスペシャルダンスビデオへの起用のチャン…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/04185935/3-1.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "imase's new song \"It's a Beautiful Life\" has been chosen as the theme song for \"inclusive dance FES26-27\"!",
-      "translatedExcerpt": "imaseの新曲「It’s a Beautiful Life」が、2027年1月に渋谷で開催される「INCLUSIVE DANCE FES 26-27」のテーマソングに決定した。 2026年9月に活動を再開し、10月2日に配信EP『はてな』をリリースしたimase。「It’s a Beautiful Life」は同EPの収録曲だ。本日から、共通振付とフリースタイルを組み合わせ、自分らしく踊る「#ゴチャ踊れダンス」リレーがTikTokとInstagramでスタート。TikTokではキャンペーン向けの音源「It’s a Beautiful Life ゴチャ踊れVer.」も併せて配信された。 本SNSキャンペーン参加者の中から、魅力的なパフォーマンスを見せたダンサーたちにはスペシャルダンスビデオへの起用のチャン…"
-    },
-    {
-      "id": "0054f7e0febee34e",
-      "title": "〈SYNCHRONICITY’27〉4/ 10(土)11(日) 開催決定",
-      "link": "https://ototoy.jp/news/132563",
-      "publishedAt": "2026-11-04T10:00:00.000Z",
-      "excerpt": "〈SYNCHRONICITY’27〉が2027年4月10日（土）、4月11日（日）に開催されることが発表され、併せて限定の超早割チケット（通し券）の発売がスタートした。 フェス前日の4月9日(金)には、duo MUSIC EXCHANGEにて前夜祭の開催も決定。「CUEW」との連携をさらに深化させ、国内外の音楽カルチャーが交差する場として、過去最大規模で開催する。 超早割チケットは、出演アーティストの発表に先駆け、今回の開催発表と同時に販売スタート。枚数限定の抽選販売で、毎年完売する『SYNCHRONICITY』をお得に楽しめる。 2年目を迎える「CUEW」との取り組みでは、約1,400組のCUEWオープンコール（公募）から選出された海外アーティストが出演。会場も追加され、国際色豊かなステージが展開される…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132563/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<SYNCHRONICITY’27> April 10th (Sat) and 11th (Sun) to be held",
-      "translatedExcerpt": "It has been announced that SYNCHRONICITY'27 will be held on April 10th (Saturday) and April 11th (Sunday), 2027, and limited super early bird tickets (through tickets) have started to be sold. An eve festival will be held at duo MUSIC EXCHANGE on April 9th ​​(Friday), the day before the festival. We will further deepen our collaboration with CUEW and hold the largest event ever as a place where domestic and international music cultures intersect. Super early bird tickets will go on sale at the same time as the event is announced, prior to the announcement of the performing artists. You can enjoy ``SYNCHRONICITY'', which sells out every year, at a great price through a lottery sale with a limited number of tickets. The initiative with CUEW, which is in its second year, will feature overseas artists selected from approximately 1,400 CUEW open calls. Venues have been added, and a stage full of international flavor will be developed..."
-    },
-    {
-      "id": "ef11280e116c0ea7",
-      "title": "Reincarnation in the Game World Dan-Katsu Anime's Teaser Reveals More Cast, Theme Songs",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-04/reincarnation-in-the-game-world-dan-katsu-anime-teaser-reveals-more-cast-theme-songs/.243515",
-      "publishedAt": "2026-11-04T09:59:56.000Z",
-      "excerpt": "Ayaka Nanase, Kotone Izumi, Hikaru Iida, Chihaya Asakura join cast of January anime",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGC/youtube/KXRkR5KP_WA.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
     }
   ]
 }

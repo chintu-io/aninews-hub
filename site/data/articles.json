@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T10:02:07.885Z",
+  "generatedAt": "2026-11-13T10:32:18.507Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 128,
+      "count": 127,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 26,
+      "count": 27,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 285,
+      "count": 287,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 153,
+      "count": 151,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -167,6 +167,42 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "a3db056439ee1e1a",
+      "title": "'Isekai Tensei Soudouki' Reveals Additional Cast, Staff, Theme Songs, Second Promo",
+      "link": "https://myanimelist.net/news/74934867?_location=rss",
+      "publishedAt": "2026-11-13T10:25:08.000Z",
+      "excerpt": "The official website for the television anime adaptation of Ryousen Takami's Isekai Tensei Soudouki (Multi-Mind Mayhem) novel revealed additional cast, staff, theme songs, a second key visual (pictured), and second promotional video on Friday. The anime is scheduled to premiere on January 6 at 10.00 p.m on Tokyo MX, followed by BS Fuji, and AT-X. Cast Mag…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794565408-8dc13d26a3e072d72d650b9bb68c586b.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "b150f63708247497",
+      "title": "LOSALIOS、The Birthdayとのツーマン【WEEKEND LOVERS Begins】よりライブ映像の公開が決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167442",
+      "publishedAt": "2026-11-13T10:20:00.000Z",
+      "excerpt": "LOSALIOSが、9月24日に東京・恵比寿LIQUIDROOMでThe Birthdayと行った",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167442/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "LOSALIOS will release live footage from their one-on-one with The Birthday [WEEKEND LOVERS Begins]",
+      "translatedExcerpt": "LOSALIOS performed with The Birthday at LIQUIDROOM in Ebisu, Tokyo on September 24th."
+    },
     {
       "id": "675ebd693f3df01a",
       "title": "逢田梨香子、5th EP『midnight』新アー写＆ジャケ写公開",
@@ -210,7 +246,7 @@
       "title": "Multi-Mind Mayhem Anime Reveals Premiere Date, Theme Songs in New Trailer",
       "link": "https://crunchyroll.com/news/latest/2026/11/13/multi-mind-mayhem-anime-january-6-2027-release-date-trailer-key-visual-additional-cast-theme-songs",
       "publishedAt": "2026-11-13T10:00:00.000Z",
-      "excerpt": "A key visual and additional casta members were also unveiled",
+      "excerpt": "A key visual and additional cast members were also unveiled",
       "image": "https://a.storyblok.com/f/178900/1460x821/4953e0dec5/multi-mind-mayhem.jpg",
       "source": {
         "id": "crunchyroll",
@@ -259,6 +295,25 @@
       },
       "translatedTitle": "7th Vega, MV making of new song “OVERDRIVE” included in 2nd album “PRISM” and interview video included",
       "translatedExcerpt": "7th Vega released their second album ``PRISM'' on November 7th. The making of the music video for the new song \"OVERDRIVE\" from the same album has been released on the official YouTube channel. \"OVERDRIVE\" is a song that depicts the inner struggle of the main character who gives up on something and chases his dreams. The band's sound is solid and up-tempo, and the singing voice is strong, fleeting, and free-flowing. The music video was created by Masato Kitagawa. Based on the concept of \"If 7th Vega wasn't 7th Vega, what kind of dreams would they pursue?\", each member was shown chasing their dreams in a parallel world different from the one in which they are active as a band. There is also a scene where the members perform emotionally under the night sky in a remote area located on the border of the city..."
+    },
+    {
+      "id": "f9f36177a2d059ab",
+      "title": "セブンス・ベガ、インタビューも含む「OVERDRIVE」MVメイキング映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167445",
+      "publishedAt": "2026-11-13T10:00:00.000Z",
+      "excerpt": "セブンス・ベガが、新曲「OVERDRIVE」のMVメイキング映像を公開した。 「OVERDRI",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167445/800x_image.png",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "7th Vega releases “OVERDRIVE” MV making video including interview",
+      "translatedExcerpt": "7th Vega has released the MV making video for their new song \"OVERDRIVE\". “OVERDRI"
     },
     {
       "id": "e68755678d0e8f3c",
@@ -3577,7 +3632,7 @@
       "title": "Japanese Shop Creates Life-Size Anime Stands That Ride in Your Car",
       "link": "https://news.sankakucomplex.com/n/R-PqWiZpkJImd5R2rrL77Q",
       "publishedAt": "2026-11-12T00:00:30.000Z",
-      "excerpt": "A Japanese automotive customization shop has unveiled an unusual product allowing anime fans to take their favorite fictional characters on car rides, creating life-size acrylic figures that can be strapped into passenger seats with ordinary seat belts.",
+      "excerpt": "A Japanese automotive customization shop has unveiled an unusual product allowing anime fans to take their favorite fictional characters on car rides, creating life-size acrylic figures that can be strapped into passenger seats with ordinary seat belts. The invention comes from F-DESIGN PROFESSIO…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6401,7 +6456,7 @@
       "title": "Persona 4 Revival Developers Debated How Thick Chie’s Thighs Should Be",
       "link": "https://news.sankakucomplex.com/n/Z9tlYMs4DfqYyPNS2JSWnw",
       "publishedAt": "2026-11-10T23:00:02.000Z",
-      "excerpt": "The developers of Persona 4 Revival have revealed that one of the unexpected challenges during production involved deciding just how thick Chie Satonaka’s thighs should be, with disagreements arising over the character’s appearance in 3D models and illustrations. Speaking in an interview with Jap…",
+      "excerpt": "The developers of Persona 4 Revival have revealed that one of the unexpected challenges during production involved deciding just how thick Chie Satonaka’s thighs should be, with disagreements arising over the character’s appearance in 3D models and illustrations.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18373,61 +18428,6 @@
         "accent": "#a78bfa",
         "language": "en"
       }
-    },
-    {
-      "id": "7259b11d1a773fc6",
-      "title": "Live-Action Mashle: Magic and Muscles Film Reveals Cast, Director",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-04/live-action-mashle-magic-and-muscles-film-reveals-cast-director/.243531",
-      "publishedAt": "2026-11-04T23:26:04.000Z",
-      "excerpt": "Mackenyu Maeda stars as Mash Burnedead with Gintama's Yūichi Fukuda directing",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHC/cms/news.10/243531/871226383-18184906897428812-772152245061929119-n.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e2495ea645b6e7e0",
-      "title": "生田斗真、1stAL『NASCENCE』全曲先行配信開始",
-      "link": "https://ototoy.jp/news/132629",
-      "publishedAt": "2026-11-04T23:00:00.000Z",
-      "excerpt": "生田斗真が1stフルアルバム『NASCENCE』（読み：ネイセンス）を11月25日（水）のCDリリースに先駆けて配信リリースした。 アルバム全収録曲がひとつの映像に繋がった全曲リリックビデオも公開。CDリリースの前日11月24日（火）までの期間限定公開となる。 アルバムには、菅田将暉・石崎ひゅーい提供の先行シングル「花であることを忘れたか」をはじめ、デビューシングル「スーパーロマンス」（岡村靖幸プロデュース）、TAKUMA（10-FEET）が作詞・作曲を手掛け10-FEETも演奏参加した6分超えの壮大なロックナンバー「君の声が with 10-FEET」など、豪華クリエイター陣と紡いだ全10曲を収録。CDパッケージ版にはボーナストラックとして「恋のメガラバ(KSUKE HYPER REMIX)」を収録。…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132629/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Toma Ikuta, 1st AL “NASCENCE” all songs released in advance",
-      "translatedExcerpt": "Toma Ikuta released his first full-length album ``NASCENCE'' (pronunciation: naisense) ahead of the CD release on November 25th (Wednesday). Lyric videos for all songs from the album are also released, which combine all songs into one video. It will be released for a limited time until Tuesday, November 24th, the day before the CD release. The album includes a total of 10 songs created with a talented team of creators, including the lead single \"Did you forget that it was a flower\" provided by Masaki Suda and Hui Ishizaki, the debut single \"Super Romance\" (produced by Yasuyuki Okamura), and the epic rock number over 6 minutes long, \"Your Voice with 10-FEET\", written and composed by TAKUMA (10-FEET) and performed by 10-FEET. The CD package version includes \"Koi no Mega Lava (KSUKE HYPER REMIX)\" as a bonus track. …"
-    },
-    {
-      "id": "926e320152609fbd",
-      "title": "〈ベストヒット歌謡祭 2026〉28組の歌唱曲発表",
-      "link": "https://ototoy.jp/news/132626",
-      "publishedAt": "2026-11-04T22:00:00.000Z",
-      "excerpt": "読売テレビ・日本テレビ系で11月11日(水)19時から生放送される〈ベストヒット歌謡祭〉の歌唱曲が発表された。 出演は、INI、アイナ・ジ・エンド、＝LOVE、&TEAM、Kis-My-Ft2、倉木麻衣、真田ナオキ、JO1、島袋寛子、Juice=Juice、Stray Kids、Da-iCE、高橋克典 with 草彅剛、T.M.Revolution、なにわ男子、Number_i、NiziU、乃木坂46、≠ME、HANA、BE:FIRST、FANTASTICS、ふぉ～ゆ～、FRUITS ZIPPER、Mrs. GREEN APPLE、M!LK、モナキ、ゆず。 島袋寛子、Juice=Juice、Stray Kids、高橋克典 with 草彅剛、≠ME、ふぉ～ゆ～、モナキが初出演となる。 当日は大阪城ホールから…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132626/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<Best Hit Song Festival 2026> 28 groups singing songs announced",
-      "translatedExcerpt": "The songs to be sung for the Best Hit Song Festival, which will be broadcast live on Wednesday, November 11th from 7pm on Yomiuri Television and Nippon Television, have been announced. Starring INI, Aina The End, =LOVE, &TEAM, Kis-My-Ft2, Mai Kuraki, Naoki Sanada, JO1, Hiroko Shimabukuro, Juice=Juice, Stray Kids, Da-iCE, Katsunori Takahashi with Tsuyoshi Kusanagi, T.M.Revolution, Naniwa Danshi, Number_i, NiziU, Nogizaka46, ≠ME, HANA, BE:FIRST, FANTASTICS, Foyuu, FRUITS ZIPPER, Mrs. GREEN APPLE, M!LK, Monaki, Yuzu. Hiroko Shimabukuro, Juice=Juice, Stray Kids, Katsunori Takahashi with Tsuyoshi Kusanagi, ≠ME, Foyuu, and Monaki will appear for the first time. On the day, from Osaka Castle Hall..."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T11:31:50.456Z",
+  "generatedAt": "2026-11-14T12:02:04.329Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 129,
+      "count": 128,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 270,
+      "count": 271,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 630,
+    "translatedJapaneseArticles": 631,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "3a73df2c145392a3",
+      "title": "【Top Japan Hits by Women】IS:SUEの新曲「New Look」など初登場でリストイン",
+      "link": "https://www.billboard-japan.com/d_news/detail/167438",
+      "publishedAt": "2026-11-14T12:00:00.000Z",
+      "excerpt": "Billboard JAPANとSpotifyによるコラボレーション・プレイリスト「Top Jap",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167438/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Top Japan Hits by Women] IS:SUE's new song \"New Look\" and other songs appear for the first time on the list",
+      "translatedExcerpt": "Collaboration playlist “Top Jap” by Billboard JAPAN and Spotify"
+    },
     {
       "id": "5bc38dfe513a5122",
       "title": "水槽、5thコンセプトアルバム『凍傷回路』2027年4月にリリース",
@@ -18407,23 +18426,6 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "ff1b23976de8c0e7",
-      "title": "Lycoris Recoil: Friends are thieves of time. Anime Short Films Get Manga Adaptation",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-05/lycoris-recoil-friends-are-thieves-of-time-anime-short-films-get-manga-adaptation/.243556",
-      "publishedAt": "2026-11-05T16:00:00.000Z",
-      "excerpt": "Lycoris Recoil manga adaptation's Yasunori Bizen to draw new manga",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG2/cms/news.8/223459/lycoreco-sm_main-kv_en.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

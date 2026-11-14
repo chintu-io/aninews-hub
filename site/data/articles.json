@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T10:01:51.786Z",
+  "generatedAt": "2026-11-14T10:35:06.935Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 42,
+      "count": 41,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 129,
+      "count": 131,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 271,
+      "count": 270,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 77,
       "fetchedCount": 24
     }
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 625,
+    "translatedJapaneseArticles": 624,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "c992963987e4153a",
+      "title": "Japanese Animation TV Ranking, November 2-8",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-14/japanese-animation-tv-ranking-november-2-8/.243787",
+      "publishedAt": "2026-11-14T10:15:00.000Z",
+      "excerpt": "The Apothecary Diaries season 3 earned 3.5% rating last week",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGC/encyc/A37931-397630352.1789645121.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "9ebb72b3b38c0b30",
       "title": "ADAM at、ニューアルバム『Until Dawn』ジャケットは漫画家・佐藤さつき描き下ろし",
@@ -409,6 +426,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "860cf3fd86c61de0",
+      "title": "Gushing Over Magical Girls Anime's 2nd Season Debuts in 2027",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-14/gushing-over-magical-girls-anime-2nd-season-debuts-in-2027/.243812",
+      "publishedAt": "2026-11-14T09:02:00.000Z",
+      "excerpt": "Returning cast, staff also revealed",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH5/cms/news.10/243812/ultra-teaser-visual.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -751,7 +785,7 @@
       "title": "Indie Developer Forced to Crowdfund Lawsuit After $68,000 in Game Funding Goes Missing",
       "link": "https://news.sankakucomplex.com/n/UtX3_aDGs27VHLdvX25-3g",
       "publishedAt": "2026-11-14T04:00:58.000Z",
-      "excerpt": "Japanese indie developer ENDLESS SUMMER Studio has found itself in the rather absurd position of needing to crowdfund money to sue a crowdfunding platform, after allegedly being denied over $68,000 raised for its upcoming bishoujo visual novel Purgatory: Blue.",
+      "excerpt": "Japanese indie developer ENDLESS SUMMER Studio has found itself in the rather absurd position of needing to crowdfund money to sue a crowdfunding platform, after allegedly being denied over $68,000 raised for its upcoming bishoujo visual novel Purgatory: Blue. The studio announced on November 11…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -914,7 +948,7 @@
       "title": "Toei Animation’s China Business Takes a Hit as Japanese Anime Streaming Struggles",
       "link": "https://news.sankakucomplex.com/n/RMIMdEMnlfRnhqcwktY9sg",
       "publishedAt": "2026-11-14T00:00:29.000Z",
-      "excerpt": "Japanese animation giant Toei Animation, responsible for beloved franchises such as One Piece and Dragon Ball, has reported a substantial decline in anime streaming rights sales in China, as Japanese entertainment continues to face an increasingly difficult environment in the country.",
+      "excerpt": "Japanese animation giant Toei Animation, responsible for beloved franchises such as One Piece and Dragon Ball, has reported a substantial decline in anime streaming rights sales in China, as Japanese entertainment continues to face an increasingly difficult environment in the country. According t…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -965,7 +999,7 @@
       "title": "Minami-ke Anime Finally Returns After 14 Years With Original Voice Cast",
       "link": "https://news.sankakucomplex.com/n/e1S5gfICBBE9MJAaqHtKbg",
       "publishedAt": "2026-11-13T20:00:51.000Z",
-      "excerpt": "Slice-of-life comedy Minami-ke is finally returning to television after nearly 14 years, with its fifth season, Minami-ke: Korekara, scheduled to premiere in April 2027, bringing back the three Minami sisters and their original Japanese voice actresses.",
+      "excerpt": "Slice-of-life comedy Minami-ke is finally returning to television after nearly 14 years, with its fifth season, Minami-ke: Korekara, scheduled to premiere in April 2027, bringing back the three Minami sisters and their original Japanese voice actresses. The announcement was made during the Minami…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1169,7 +1203,7 @@
       "title": "Legend of Zelda: Ocarina of Time Remake Becomes Fastest-Selling Switch 2 Title",
       "link": "https://news.sankakucomplex.com/n/CJ57BrBsKdH0Qe7c_yp1_w",
       "publishedAt": "2026-11-13T16:00:30.000Z",
-      "excerpt": "Nintendo’s remake of The Legend of Zelda: Ocarina of Time has proven that nostalgia can be an immensely profitable business, selling over 5.2 million copies worldwide in just four days and becoming the fastest-selling Nintendo-published game on Nintendo Switch 2.",
+      "excerpt": "Nintendo’s remake of The Legend of Zelda: Ocarina of Time has proven that nostalgia can be an immensely profitable business, selling over 5.2 million copies worldwide in just four days and becoming the fastest-selling Nintendo-published game on Nintendo Switch 2. The Japanese gaming giant announc…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1643,7 +1677,7 @@
       "title": "Square Enix Profits Surge 63% as Final Fantasy VII Rebirth & Other Games Boost Earnings",
       "link": "https://news.sankakucomplex.com/n/6Mp8iLNzhXtwzM89gFSt2A",
       "publishedAt": "2026-11-13T12:00:27.000Z",
-      "excerpt": "Square Enix has reported a substantial increase in profits from its video game business, with Final Fantasy VII Rebirth, The Adventures of Elliot: The Millennium Tales, and strong sales of older titles helping the Japanese publisher enjoy a particularly lucrative financial period.",
+      "excerpt": "Square Enix has reported a substantial increase in profits from its video game business, with Final Fantasy VII Rebirth, The Adventures of Elliot: The Millennium Tales, and strong sales of older titles helping the Japanese publisher enjoy a particularly lucrative financial period. The company ann…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2691,7 +2725,7 @@
       "title": "Uma Musume Parent Company Boasts 88% Mobile Game Success Rate",
       "link": "https://news.sankakucomplex.com/n/SXe3YEnMfFndr-wTAYmnPA",
       "publishedAt": "2026-11-13T08:00:48.000Z",
-      "excerpt": "CyberAgent, the parent company of Uma Musume: Pretty Derby developer Cygames, has revealed that an impressive 88% of its major mobile games have achieved commercial success, with the Japanese company now planning to release another seven big-budget titles by 2030.",
+      "excerpt": "CyberAgent, the parent company of Uma Musume: Pretty Derby developer Cygames, has revealed that an impressive 88% of its major mobile games have achieved commercial success, with the Japanese company now planning to release another seven big-budget titles by 2030. The figures were disclosed durin…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3156,7 +3190,7 @@
       "title": "Comiket 109 Ticket Seller Blocks All Overseas Access to Prevent Cyberattacks",
       "link": "https://news.sankakucomplex.com/n/lUyIGoSqSrK2fonYzRnTeg",
       "publishedAt": "2026-11-13T04:00:47.000Z",
-      "excerpt": "International attendees hoping to secure early-entry tickets for the upcoming Comic Market 109 have been dealt an unfortunate surprise, as ticketing service Ticketpay has decided to block all overseas access for the foreseeable future, supposedly as a precaution against cyberattacks.",
+      "excerpt": "International attendees hoping to secure early-entry tickets for the upcoming Comic Market 109 have been dealt an unfortunate surprise, as ticketing service Ticketpay has decided to block all overseas access for the foreseeable future, supposedly as a precaution against cyberattacks. The Comic Ma…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3562,7 +3596,7 @@
       "title": "Rare Diamond Dust Appears in Hokkaido as Japan Records Earliest -20C Temperature",
       "link": "https://news.sankakucomplex.com/n/las8J0voHb2ptYHtIolpXQ",
       "publishedAt": "2026-11-13T00:00:13.000Z",
-      "excerpt": "A rare atmospheric phenomenon known as “diamond dust” appeared in Japan’s northernmost prefecture of Hokkaido on November 11, as temperatures plunged to a record-breaking -20.2°C (-4.4°F), marking the earliest date Japan has ever recorded temperatures below -20°C.",
+      "excerpt": "A rare atmospheric phenomenon known as “diamond dust” appeared in Japan’s northernmost prefecture of Hokkaido on November 11, as temperatures plunged to a record-breaking -20.2°C (-4.4°F), marking the earliest date Japan has ever recorded temperatures below -20°C. The extraordinary cold was obser…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3579,7 +3613,7 @@
       "title": "Japan Developing AI App That Lets Fans Learn Japanese by Talking to Anime Characters",
       "link": "https://news.sankakucomplex.com/n/hP44-frsD3sm59skle6FVA",
       "publishedAt": "2026-11-12T20:00:59.000Z",
-      "excerpt": "The Japanese government is developing an artificial intelligence-powered language-learning app that will allow foreigners to practice Japanese by conversing with popular anime and manga characters, hoping to capitalize on the worldwide popularity of Japanese entertainment.",
+      "excerpt": "The Japanese government is developing an artificial intelligence-powered language-learning app that will allow foreigners to practice Japanese by conversing with popular anime and manga characters, hoping to capitalize on the worldwide popularity of Japanese entertainment. According to reports fr…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3732,7 +3766,7 @@
       "title": "Crunchyroll Subtitles Censor Black Clover’s Explicit Dialogue",
       "link": "https://news.sankakucomplex.com/n/IVWvS724Fly60gHUkTPcbg",
       "publishedAt": "2026-11-12T16:00:06.000Z",
-      "excerpt": "Those making use of Crunchyroll have witnessed yet another instance of censorship as the platform’s English subtitled version of a recent episode of Black Clover was found to have improperly translated an explicit line of dialogue.",
+      "excerpt": "Those making use of Crunchyroll have witnessed yet another instance of censorship as the platform’s English subtitled version of a recent episode of Black Clover was found to have improperly translated an explicit line of dialogue. The moment was from the sixth episode of Black Clover’s second se…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4292,7 +4326,7 @@
         "language": "ja"
       },
       "translatedTitle": "<NIGHT HIKE Late 2026>, Takeaki Wada, Namiguru & Dagashi O-type, ¿ ? (shimon) and others announced the first appearance lineup",
-      "translatedExcerpt": "After holding the event at Makuhari Messe, we headed to Shibuya WOMB, the origin of NIGHT HIKE. \"NIGHT HIKE\", a music and art festival based on internet culture, hosted by TRIBALCON., will hold its annual year-end event \"NIGHT HIKE Late 2026\" on Saturday, December 12, 2026 at Shibuya WOMB, Tokyo. NIGHT HIKE was born in August 2023 at Shibuya WOMB. A variety of talents born from the Internet, such as Vocaloid P, DJs, singers, VTubers, illustrators, and video artists, gather together, and the event has expanded its scale and field of activity as an event where music and visual expression intersect. It has developed into a circuit festival that traverses multiple venues in Shibuya, and has expanded to cities in Japan such as Nagoya, Kyoto, and Osaka, and even overseas. In May 2026, Shibu..."
+      "translatedExcerpt": "After holding the event at Makuhari Messe, we headed to Shibuya WOMB, where NIGHT HIKE originated. \"NIGHT HIKE\", a music and art festival based on internet culture, hosted by TRIBALCON., will hold its annual year-end event \"NIGHT HIKE Late 2026\" on Saturday, December 12, 2026 at Shibuya WOMB in Tokyo. NIGHT HIKE was born in August 2023 at Shibuya WOMB. A variety of talents born from the Internet, such as Vocaloid P, DJs, singers, VTubers, illustrators, and video artists, gather together, and the event has expanded its scale and field of activity as an event where music and visual expression intersect. It has developed into a circuit festival that traverses multiple venues in Shibuya, and has expanded to cities in Japan such as Nagoya, Kyoto, and Osaka, and even overseas. In May 2026, Shibu…"
     },
     {
       "id": "2aeadc9067c37e41",
@@ -4311,7 +4345,7 @@
         "language": "ja"
       },
       "translatedTitle": "plenty releases new song “Mottainai” & MV released",
-      "translatedExcerpt": "The music video for alternative rock band Plenty's third new song \"Mottainai\", which will be released on November 11, 2026 (Wednesday) after their restart, has been released on Plenty's official YouTube. The song ``Mottainai'' is a song that uses a modern Plenty approach to address each individual living in a modern society where everyone has no choice but to spend their days worrying about what others think of them. Jun Matsumoto was invited as a co-arranger, and the organic ensemble that includes the sound of a three-piece and organ/piano sounds warm and somehow light, creating a song that will suddenly lift away the weight that weighs on your heart. While demonstrating all the aspects of Plenty that we've always known, we've also added a new aspect and a new mindset that only Plenty has had since restarting..."
+      "translatedExcerpt": "The music video for alternative rock band Plenty's third new song \"Mottainai\", which will be released on November 11, 2026 (Wednesday) after their restart, has been released on Plenty's official YouTube. The song ``Mottainai'' is a song that uses a modern Plenty approach to address each individual living in a modern society where everyone has no choice but to spend their days worrying about what others think of them. Jun Matsumoto was invited as a co-arranger, and the organic ensemble that includes the sound of a three-piece and organ/piano sounds warm and somehow light, creating a song that will suddenly lift away the weight that weighs on your heart. While demonstrating Plenty's character in many ways, since its restart, Plenty has added a new side and a new mindset..."
     },
     {
       "id": "e5f8675f4e05d17f",
@@ -4612,7 +4646,7 @@
       "title": "Legend of Zelda: Ocarina of Time Remake Worse Than Imagined",
       "link": "https://news.sankakucomplex.com/n/sBHF8DaynRygRTCRgsMS7g",
       "publishedAt": "2026-11-12T08:00:30.000Z",
-      "excerpt": "The Legend of Zelda: Ocarina of Time remake has been lambasted heavily due to its changes from the original, be them large or subtle, and some Internet users have provided compilations of just a few of the differences, highlighting just how much was actually altered.",
+      "excerpt": "The Legend of Zelda: Ocarina of Time remake has been lambasted heavily due to its changes from the original, be them large or subtle, and some Internet users have provided compilations of just a few of the differences, highlighting just how much was actually altered. One Twitter user compiled cha…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5119,7 +5153,7 @@
       "title": "70% of Male Social VR Users Choose Anime Girl Avatars",
       "link": "https://news.sankakucomplex.com/n/ofL--OnibQQcbYbXF47HgA",
       "publishedAt": "2026-11-12T04:00:01.000Z",
-      "excerpt": "Approximately 70% of male social VR users choose female avatars, according to research highlighted by Japanese broadcaster ABEMA, which interviewed several men who prefer living as cute anime girls in virtual reality.",
+      "excerpt": "Approximately 70% of male social VR users choose female avatars, according to research highlighted by Japanese broadcaster ABEMA, which interviewed several men who prefer living as cute anime girls in virtual reality. The phenomenon, known in Japan as babinik(u) (バ美肉), short for “virtual beautifu…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5627,7 +5661,7 @@
       "title": "Japanese Shop Creates Life-Size Anime Stands That Ride in Your Car",
       "link": "https://news.sankakucomplex.com/n/R-PqWiZpkJImd5R2rrL77Q",
       "publishedAt": "2026-11-12T00:00:30.000Z",
-      "excerpt": "A Japanese automotive customization shop has unveiled an unusual product allowing anime fans to take their favorite fictional characters on car rides, creating life-size acrylic figures that can be strapped into passenger seats with ordinary seat belts.",
+      "excerpt": "A Japanese automotive customization shop has unveiled an unusual product allowing anime fans to take their favorite fictional characters on car rides, creating life-size acrylic figures that can be strapped into passenger seats with ordinary seat belts. The invention comes from F-DESIGN PROFESSIO…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5752,7 +5786,7 @@
       "title": "Nara Deer Injuries Hit Record High, Over 70% of Hospitalized Victims Are Foreigners",
       "link": "https://news.sankakucomplex.com/n/gh_w-u4k1My-7Zna9xBvcA",
       "publishedAt": "2026-11-11T20:14:27.000Z",
-      "excerpt": "Deer-related injuries in Japan’s famous Nara Park have reached a record high in 2026, with foreign nationals accounting for more than 70% of people transported to hospital after encounters with the animals.",
+      "excerpt": "Deer-related injuries in Japan’s famous Nara Park have reached a record high in 2026, with foreign nationals accounting for more than 70% of people transported to hospital after encounters with the animals. According to a November 10 report by Japanese broadcaster TV Asahi, 51 people had been tra…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5888,7 +5922,7 @@
       "title": "Tokyo’s Akihabara Installs 22 Smart Trash Cans to Combat Tourist Litter",
       "link": "https://news.sankakucomplex.com/n/77DW-tWnwxc0DnCe7UI8_A",
       "publishedAt": "2026-11-11T16:00:51.000Z",
-      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores.",
+      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores. The new trash cans began operating on November 8, with Chiyoda Ward intro…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6060,7 +6094,7 @@
       "title": "41.5% of Japanese Middle Schoolers Doubt Benefits of Increased Immigration",
       "link": "https://news.sankakucomplex.com/n/o63MAIA4y3anTft0tJhVVw",
       "publishedAt": "2026-11-11T13:59:20.000Z",
-      "excerpt": "A new survey has revealed that 41.5% of Japanese middle school students do not believe an increase in foreign residents would benefit society, nearly doubling the proportion expressing such views just a few years earlier.",
+      "excerpt": "A new survey has revealed that 41.5% of Japanese middle school students do not believe an increase in foreign residents would benefit society, nearly doubling the proportion expressing such views just a few years earlier. The findings were reported by Kyodo News on November 7, based on research c…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6479,7 +6513,7 @@
       "title": "Ocarina of Time Remake Rabidly Criticized & Bizarrely Sexy",
       "link": "https://news.sankakucomplex.com/n/qif9XWRGQm9_Up1e32saNA",
       "publishedAt": "2026-11-11T11:20:18.000Z",
-      "excerpt": "Aside from the censorship with the Great Fairy, the Legend of Zelda: Ocarina of Time remake has been criticized on various different levels, from its occasionally eerie character designs to its horrid modern voice-acting – though, the game does have some oddly sexy moments as well.",
+      "excerpt": "Aside from the censorship with the Great Fairy, the Legend of Zelda: Ocarina of Time remake has been criticized on various different levels, from its occasionally eerie character designs to its horrid modern voice-acting – though, the game does have some oddly sexy moments as well. The most commo…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8485,7 +8519,7 @@
       "title": "Persona 4 Revival Developers Debated How Thick Chie’s Thighs Should Be",
       "link": "https://news.sankakucomplex.com/n/uhnQZ6Du07Nne1wqN830Mg",
       "publishedAt": "2026-11-10T23:00:02.000Z",
-      "excerpt": "The developers of Persona 4 Revival have revealed that one of the unexpected challenges during production involved deciding just how thick Chie Satonaka’s thighs should be, with disagreements arising over the character’s appearance in 3D models and illustrations.",
+      "excerpt": "The developers of Persona 4 Revival have revealed that one of the unexpected challenges during production involved deciding just how thick Chie Satonaka’s thighs should be, with disagreements arising over the character’s appearance in 3D models and illustrations. Speaking in an interview with Jap…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -9125,7 +9159,7 @@
       "title": "Battlefield 6 Player Sues EA Over Permanent Ban, Wins Account Back in Court",
       "link": "https://news.sankakucomplex.com/n/-sTT3mKYB27bxrbGlRLWLA",
       "publishedAt": "2026-11-10T12:43:11.000Z",
-      "excerpt": "A Battlefield 6 player has reportedly defeated Electronic Arts in court after being permanently banned from the game for alleged cheating, successfully overturning the punishment and obtaining financial compensation from the publisher.",
+      "excerpt": "A Battlefield 6 player has reportedly defeated Electronic Arts in court after being permanently banned from the game for alleged cheating, successfully overturning the punishment and obtaining financial compensation from the publisher. The player, known as Rychadv on Reddit, announced his victory…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -10288,7 +10322,7 @@
       "title": "Sega Suffers Data Breach Exposing 2.19 Million Email Addresses, Warns of Phishing Attacks",
       "link": "https://news.sankakucomplex.com/n/mPDEcLxfaIRcm0Rvw6wecg",
       "publishedAt": "2026-11-10T02:00:21.000Z",
-      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company.",
+      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company. In an official announcement on November 9, Sega r…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18380,42 +18414,6 @@
         "accent": "#a78bfa",
         "language": "en"
       }
-    },
-    {
-      "id": "3cdc56451082b7ca",
-      "title": "Continuing cyberattacks hit Japanese arcade hard [Photos]",
-      "link": "https://soranews24.com/2026/11/05/continuing-cyberattacks-hit-japanese-arcade-hard-photos/",
-      "publishedAt": "2026-11-05T14:00:04.000Z",
-      "excerpt": "Preserving arcade culture is hard enough without hacker jerks making it even tougher. A photo of an empty interior and unused game machines accompanied by the message “This is the harsh reality for arcades right now” might be the kind of thing that would make gamers sad, but not necessarily surprised. Though the video game […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/32.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "c6e4533763b9c491",
-      "title": "SEKAI NO OWARI、ドームツアー【THE CINEMA】を映像作品化",
-      "link": "https://www.billboard-japan.com/d_news/detail/167188",
-      "publishedAt": "2026-11-05T13:55:00.000Z",
-      "excerpt": "SEKAI NO OWARIが、2027年2月10日にLIVE Blu-ray＆DVD『SEKAI",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167188/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "SEKAI NO OWARI, dome tour [THE CINEMA] turned into a video work",
-      "translatedExcerpt": "SEKAI NO OWARI will be performing on February 10, 2027 on LIVE Blu-ray & DVD “SEKAI"
     }
   ]
 }

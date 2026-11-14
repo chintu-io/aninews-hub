@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T11:02:41.502Z",
+  "generatedAt": "2026-11-14T11:31:50.456Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 130,
+      "count": 129,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 104,
+      "count": 101,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 212,
+      "count": 215,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 75,
+      "count": 76,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,67 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 627,
+    "translatedJapaneseArticles": 630,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "5bc38dfe513a5122",
+      "title": "水槽、5thコンセプトアルバム『凍傷回路』2027年4月にリリース",
+      "link": "https://barks.jp/news/1104541",
+      "publishedAt": "2026-11-14T11:00:56.000Z",
+      "excerpt": "水槽が、2027年4月14日(水)に5thコンセプトアルバム『凍傷回路』をリリースすることを発表した。あわせて、収録曲「オフライン・プラネット」が12月2日(水)より先行配信される。 本日14日には＜水槽 ONE MAN LIVE 2026 “REVOLTAGE”＞のファイナル・東京公演をSpotify O-EASTで完走した水槽。5thコンセプトアルバム『凍傷回路』は前作「FLTR」から2年ぶりのリリースとなる。収録曲にはASIAN KUNG-FU GENERATIONの山田貴洋と共編曲した「BLEACH Mirrors High」オープニングテーマ「CRITICAL」やr-906と共作した「ハルシネイション」、「CERAMIC SKIN」などを収録予定だ。 初回生産限定盤は特典映像を収録したブルーレイ…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/07192441/suisoh_S_asya_207-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Mitan, 5th concept album “Frostbite Circuit” to be released in April 2027",
+      "translatedExcerpt": "Mitan has announced that they will release their 5th concept album ``Frostbite Circuit'' on Wednesday, April 14, 2027. In addition, the song \"Offline Planet\" will be distributed in advance from December 2nd (Wednesday). Today, on the 14th, Mitan completed the final Tokyo performance of <Mitan ONE MAN LIVE 2026 “REVOLTAGE” on Spotify O-EAST. The 5th concept album ``Frostbite Circuit'' is the first release in 2 years since the previous album ``FLTR''. The songs will include \"CRITICAL,\" the opening theme for \"BLEACH Mirrors High,\" co-arranged with ASIAN KUNG-FU GENERATION's Takahiro Yamada, \"Hallucination,\" co-written with r-906, and \"CERAMIC SKIN.\" The first production limited edition is a Blu-ray with bonus footage..."
+    },
+    {
+      "id": "ed95782afcccb64f",
+      "title": "EXILE、デビュー25周年を記念した全国ホールツアー開催決定",
+      "link": "https://barks.jp/news/1104536",
+      "publishedAt": "2026-11-14T11:00:50.000Z",
+      "excerpt": "EXILEが、11月14日(土)に埼玉・ベルーナドームで開催した＜”EXILE 25th ANNIVERSARY BEST LIVE” 〜LDH PERFECT YEAR 2026〜＞にて、2027年2月より全国ホールツアー＜EXILE PREMIUM HALL TOUR 2027 “E・M・O・I”＞を開催することを発表した。 本ツアーは、EXILEのデビュー25周年を記念した特別なツアーで、MATSU、ÜSA、MAKIDAI、ATSUSHI、AKIRA、TAKAHIROの6人が出演。2027年2月16日(火)の宮城・仙台サンプラザホール公演を皮切りに、全国8都市11公演を開催する。EXILEにとって全国ホールツアーは2008年の＜EXILE SHOWCASE LIVE 2008＞以来19年ぶりとなる。…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/14175613/EXILE2027-EMOI-%E7%B4%8D%E5%93%81.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "EXILE to hold nationwide hall tour to commemorate 25th anniversary of debut",
+      "translatedExcerpt": "EXILE announced at the <\"EXILE 25th ANNIVERSARY BEST LIVE\" ~LDH PERFECT YEAR 2026~> held at Saitama's Belluna Dome on Saturday, November 14th, that they will hold a nationwide hall tour <EXILE PREMIUM HALL TOUR 2027 “E・M・O・I”> from February 2027. This tour is a special tour commemorating the 25th anniversary of EXILE's debut, and six members will appear: MATSU, ÜSA, MAKIDAI, ATSUSHI, AKIRA, and TAKAHIRO. Starting with the performance at Sendai Sunplaza Hall in Miyagi on Tuesday, February 16, 2027, 11 performances will be held in 8 cities nationwide. This will be EXILE's first national hall tour in 19 years since <EXILE SHOWCASE LIVE 2008> in 2008. …"
+    },
+    {
+      "id": "711317e72be8ca0e",
+      "title": "STARGLOW、壮大な物語の幕開けを予感させる1stアルバムタイトル曲「Aurora」MVティザー公開",
+      "link": "https://barks.jp/news/1104550",
+      "publishedAt": "2026-11-14T11:00:41.000Z",
+      "excerpt": "STARGLOWが、2026年11月16日に先行配信、18日にCDリリースを控える1stアルバム『Aurora』のティザー映像を公開した。 公開された映像に広がるのは、荒野に差し込む天からの光と、ノイズと共に交錯する様々な世界の断片。時空を越えた情景の果てに浮かび上がる「Aurora」の文字が、これから始まる壮大な物語を予感させるティザー映像となっている。 今後、15日(日)にはティザー映像第2弾も公開予定だ。アルバム全曲先行配信がスタートする16日(月)には、19時から放送のTBS系『CDTVライブ！ライブ！』での「Aurora」初パフォーマンス、21時の「Aurora」MV公開とトピックが続く。リリース当日の18日(水)は、あさ9:00放送の日本テレビ系『DayDay.』にて「Aurora」をパフォー…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/13192927/00_Aurora_New_Main_S-1024x768.jpeg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "STARGLOW releases MV teaser for their 1st album title song “Aurora”, which foreshadows the beginning of an epic story",
+      "translatedExcerpt": "STARGLOW has released a teaser video for their 1st album ``Aurora,'' which will be distributed in advance on November 16, 2026, and will be released on CD on the 18th. What unfolds in the released footage is light from the heavens shining into the wilderness, and fragments of various worlds intertwined with noise. The word \"Aurora\" appearing at the end of a scene that transcends time and space is a teaser video that foreshadows the epic story that is about to begin. The second teaser video will be released on the 15th (Sunday). On the 16th (Monday), when advance distribution of all album songs will start, TBS's \"CDTV Live!\" will be broadcast from 7:00 pm. Live! The first performance of ``Aurora'' at ``Aurora'', the MV release of ``Aurora'' at 9pm, and other topics continue. On the day of the release, the 18th (Wednesday), \"Aurora\" will be performed on Nippon Television's \"DayDay.\", which will be broadcast at 9:00 a.m."
+    },
     {
       "id": "f9f7c5f9ac742b84",
       "title": "【連載】櫻澤の本気 II 第15回『2026年7月の櫻澤』",
@@ -842,7 +899,7 @@
       "title": "Indie Developer Forced to Crowdfund Lawsuit After $68,000 in Game Funding Goes Missing",
       "link": "https://news.sankakucomplex.com/n/UtX3_aDGs27VHLdvX25-3g",
       "publishedAt": "2026-11-14T04:00:58.000Z",
-      "excerpt": "Japanese indie developer ENDLESS SUMMER Studio has found itself in the rather absurd position of needing to crowdfund money to sue a crowdfunding platform, after allegedly being denied over $68,000 raised for its upcoming bishoujo visual novel Purgatory: Blue. The studio announced on November 11…",
+      "excerpt": "Japanese indie developer ENDLESS SUMMER Studio has found itself in the rather absurd position of needing to crowdfund money to sue a crowdfunding platform, after allegedly being denied over $68,000 raised for its upcoming bishoujo visual novel Purgatory: Blue.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4235,7 +4292,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Serial column] Yutsuba's Kansai Artist Weekly Report vol.131 \"Chance to appear in Kamikobe - Looking for entries for Battle de egg 2027\"",
-      "translatedExcerpt": "Hello. I'm Yutsuba, a music curator living in Kobe. I usually disseminate information on Japanese rock indie artists through various methods such as SNS, media contributions, and holding independent events. And this time, at OTOTOY, I had the opportunity to share various topics about young artists who are active in the Kansai area, which is my main area of ​​activity. If you read this, you will understand the forefront of the Kansai Japanese rock scene. Thank you for your patronage. ``Looking for entries for Battle de egg 2027, a chance to appear in Kamikobe'' Battle de egg is the first government-sponsored audition in Japan, which will be held for the 15th time this year. With the support of Kobe City, the aim is to discover young talents who will lead the next generation through a joint public-private audition format and send them out into the world. The audition is..."
+      "translatedExcerpt": "Hello. My name is Yutsuba, a music curator living in Kobe. I usually disseminate information on Japanese rock indie artists through various methods such as SNS, media contributions, and holding independent events. And this time, at OTOTOY, I had the opportunity to share various topics about young artists who are active in the Kansai area, which is my main area of ​​activity. If you read this, you will understand the forefront of the Kansai Japanese rock scene. Thank you for your patronage. ``Looking for entries for Battle de egg 2027, a chance to appear in Kamikobe'' Battle de egg is the first government-sponsored audition in Japan, which will be held for the 15th time this year. With the support of Kobe City, the aim is to discover young talents who will lead the next generation through a joint public-private audition format and send them out into the world. The audition is..."
     },
     {
       "id": "ba4fb2f8488c2d6f",
@@ -6564,6 +6621,23 @@
       },
       "translatedTitle": "The cause is myself. , will hold his biggest tour <LIVE TOUR 2027 Shinjo>",
       "translatedExcerpt": "The cause is myself. has announced that they will be holding <LIVE TOUR 2027 Shinjo> from spring 2027. This tour will be his largest, with 34 performances in 11 cities, starting with a performance at the Yokosuka Arts Theater in Kanagawa on March 17th and ending with a performance at Tachikawa Stage Garden in Tokyo on August 1st. Tickets are available in advance from fan clubs starting today at 8pm. The cause is myself. released their 5th single ``Love Reason'' today, and the title song ``Love Reason'' topped the Oricon Weekly Streaming Ranking for 2 weeks in a row, and the music video has been viewed over 4.7 million times in about 2 weeks since its release, making various charts and rankings a hit. ◾️＜LIVE TOUR 2027 Shinjo＞ [Kanagawa] Yokosuka Arts Theater Wednesday, March 17, 2027 <Part 1> Doors open at 13:00 / Start at 14:00..."
+    },
+    {
+      "id": "4d3b8a94bd292aa7",
+      "title": "Ocarina of Time Remake Rabidly Criticized & Bizarrely Sexy",
+      "link": "https://news.sankakucomplex.com/n/EdTJTj-T2vi3BRE_kLgfHw",
+      "publishedAt": "2026-11-11T11:20:18.000Z",
+      "excerpt": "Aside from the censorship with the Great Fairy, the Legend of Zelda: Ocarina of Time remake has been criticized on various different levels, from its occasionally eerie character designs to its horrid modern voice-acting – though, the game does have some oddly sexy moments as well.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "458a25c040724ff1",
@@ -18350,74 +18424,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e2d27d38a09ec3fa",
-      "title": "The Dangers in My Heart Season 3 Anime Premieres in April 2027",
-      "link": "https://crunchyroll.com/news/latest/2026/11/5/the-dangers-in-my-heart-season-3-anime-premieres-april-2027-teaser-trailer-visual",
-      "publishedAt": "2026-11-05T15:51:00.000Z",
-      "excerpt": "A trailer and visual were revealed for the new season",
-      "image": "https://a.storyblok.com/f/178900/1000x563/3857526ba8/the_dangers_in_my_heart_season3_header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f8b6baac8f718283",
-      "title": "The Dangers in My Heart Season 3 Anime's Teaser Trailer Reveals April 2027 Premiere",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-05/the-dangers-in-my-heart-season-3-anime-teaser-trailer-reveals-april-2027-premiere/.243560",
-      "publishedAt": "2026-11-05T15:44:10.000Z",
-      "excerpt": "Manga's 14th, final volume shipped on Friday",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJK/youtube/_D0hm_akpFw.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "25ced6c3f79a87fc",
-      "title": "Fall in Love, You False Angels Anime Shares New Character Visuals",
-      "link": "https://crunchyroll.com/news/latest/2026/11/5/fall-in-love-you-false-angels-anime-otogi-toki-new-character-visuals",
-      "publishedAt": "2026-11-05T15:32:00.000Z",
-      "excerpt": "The anime adaptation of Coco Uzuki's manga premieres in 2027",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/8a5128ab5c/fall-in-love-you-false-angels-hero.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "87214ba916327195",
-      "title": "The Seven Knights of the Marronnier Kingdom Anime Casts Ryota Takeuchi as Saturno",
-      "link": "https://crunchyroll.com/news/latest/2026/11/5/the-seven-knights-of-the-marronnier-kingdom-anime-ryota-takeuchi-saturno-cast",
-      "publishedAt": "2026-11-05T15:20:00.000Z",
-      "excerpt": "Takeuchi will debut as the character in Episode 6",
-      "image": "https://a.storyblok.com/f/178900/1460x821/035ffca69f/the_seven_knights_of_the_marronnier_kingdom_saturno_header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
         "language": "en"
       }
     }

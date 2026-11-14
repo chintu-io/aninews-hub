@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T04:31:54.901Z",
+  "generatedAt": "2026-11-14T05:02:09.137Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,19 +104,18 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 103,
+      "count": 104,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
     {
       "id": "mal",
       "name": "MyAnimeList",
-      "status": "ok",
-      "mode": "rss",
-      "feedUrl": "https://myanimelist.net/rss/news.xml",
+      "status": "error",
+      "mode": null,
       "count": 24,
-      "imageEnrichment": null,
-      "fetchedCount": 20
+      "error": "HTTP 503",
+      "fetchedCount": 0
     },
     {
       "id": "billboardjapan",
@@ -124,7 +123,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 267,
+      "count": 265,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,19 +153,36 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 76,
+      "count": 77,
       "fetchedCount": 24
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 8,
-    "failedSources": 0,
+    "successfulSources": 7,
+    "failedSources": 1,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 624,
+    "translatedJapaneseArticles": 622,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "49390093e0984125",
+      "title": "Neguse. Shares Please Excuse My Younger Brothers Cour 2 Anime Opening Song Collab Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/11/14/please-excuse-my-younger-brothers-cour-2-anime-opening-song-collab-music-video-neguse",
+      "publishedAt": "2026-11-14T04:55:00.000Z",
+      "excerpt": "The rom-com series is available on Crunchyroll",
+      "image": "https://a.storyblok.com/f/178900/960x540/80182e4ef2/neguse-love-and-like-collab-mv.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "8f5a1c0442ecaacb",
       "title": "レトロリロン、全国10公演を巡るロードツアー開催へ",
@@ -1617,7 +1633,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b150f63708247497",
@@ -2105,7 +2122,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "408aaac3dd071dea",
@@ -2661,7 +2679,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "54df0ff30e6e8212",
@@ -3677,7 +3696,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6c20758aea0bd7a8",
@@ -3804,7 +3824,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "9d409bfcebc2b828",
@@ -5440,7 +5461,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "76f629f0184c3e8c",
@@ -6375,7 +6397,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7d4100cf4f69e459",
@@ -7107,6 +7130,23 @@
       },
       "translatedTitle": "KEY TO LIT celebrates CD debut with “ViVi” special edition cover",
       "translatedExcerpt": "KEY TO LIT will be featured on the cover of the February/March special edition of the magazine “ViVi” to be released on November 20, 2026."
+    },
+    {
+      "id": "592d5b0f41cfce23",
+      "title": "Super Real Mahjong Returns to Japanese Arcades After 28 Years, Despite Restrictions",
+      "link": "https://news.sankakucomplex.com/n/aEaDLDE9WArHauC08M5BRg",
+      "publishedAt": "2026-11-11T04:34:18.000Z",
+      "excerpt": "Japan’s classic strip mahjong franchise Super Real Mahjong is making its long-awaited return to arcades after nearly three decades, with developers launching a crowdfunding campaign to bring the adult-oriented game to locations across the country despite stricter regulations surrounding sexual co…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "37bd8a380770fcac",
@@ -8524,7 +8564,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4bdec1ade0c18d94",
@@ -9467,7 +9508,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "10a2781f067dc471",
@@ -9859,7 +9901,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2bb8e2a81b57903b",
@@ -12080,7 +12123,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4a2f3009e8c847f5",
@@ -12355,7 +12399,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c84e2d3f33151268",
@@ -12928,7 +12973,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7f174349a5916f00",
@@ -13908,7 +13954,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c75ff2ed220f296b",
@@ -13980,7 +14027,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "71e3ed4488a92ecc",
@@ -14164,7 +14212,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b595c50169be17f7",
@@ -14418,7 +14467,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "302a2eb1a2bcf256",
@@ -15189,7 +15239,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c8a34cd43b7810d7",
@@ -15206,7 +15257,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1517f13b69379964",
@@ -15669,7 +15721,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "769a476719bc82b9",
@@ -16081,7 +16134,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f025a28d4bc383ef",
@@ -16337,7 +16391,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "07b73a97aa32e752",
@@ -16536,7 +16591,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "273f82d99406589d",
@@ -18155,7 +18211,8 @@
         "category": "Anime News",
         "accent": "#5ca8ff",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8fc81bcd1207be3c",
@@ -18374,44 +18431,6 @@
       },
       "translatedTitle": "[Billboard] “You, Like a Star” takes first place on “Reiwa Books” and “Kafune” rises to second place",
       "translatedExcerpt": "Billboard JA released on November 5, 2026 (Aggregation period: October 26, 2026 - November 1, 2026)"
-    },
-    {
-      "id": "d48686537efc04f0",
-      "title": "【ビルボード】『汝、星のごとく』文芸書籍チャート4連覇 『鬼の花嫁 新婚編 6巻 (ライトノベル版)』初登場",
-      "link": "https://www.billboard-japan.com/d_news/detail/167158",
-      "publishedAt": "2026-11-05T10:10:00.000Z",
-      "excerpt": "2026年11月5日公開チャート（集計期間：2026年10月26日～11月1日）の文芸書籍チャート",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167158/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] “You, like a star” wins 4th consecutive literary book chart “Oni no Bride Newlywed Volume 6 (Light Novel Version)” debuts",
-      "translatedExcerpt": "Literary book chart published on November 5, 2026 (collection period: October 26, 2026 - November 1, 2026)"
-    },
-    {
-      "id": "c20fc06998f0a00c",
-      "title": "【ビルボード】FRUITS ZIPPER 4周年記念写真集『SYNERGY』文化書籍チャート初登場首位 BOOWYの証言集『BOOWY HUNT 1981-1988』が初登場5位",
-      "link": "https://www.billboard-japan.com/d_news/detail/167157",
-      "publishedAt": "2026-11-05T10:10:00.000Z",
-      "excerpt": "2026年11月5日公開チャート（集計期間：2026年10月26日～11月1日）のBillboar",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167157/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] FRUITS ZIPPER's 4th anniversary photo book \"SYNERGY\" debuts at No. 1 on the cultural book chart BOOWY's testimonial collection \"BOOWY HUNT 1981-1988\" debuts at No. 5",
-      "translatedExcerpt": "Billboar chart published on November 5, 2026 (collection period: October 26, 2026 - November 1, 2026)"
     }
   ]
 }

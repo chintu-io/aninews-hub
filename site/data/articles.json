@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T05:32:44.202Z",
+  "generatedAt": "2026-11-14T06:04:43.105Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 104,
+      "count": 105,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -144,29 +144,46 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 147,
+      "count": 146,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
     {
       "id": "sankaku",
       "name": "Sankaku Complex",
-      "status": "error",
-      "mode": null,
-      "feedUrl": null,
+      "status": "ok",
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 77,
-      "fetchedCount": 0
+      "fetchedCount": 24
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 7,
-    "failedSources": 1,
+    "successfulSources": 8,
+    "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 621,
+    "translatedJapaneseArticles": 620,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "b91fe72602e649c8",
+      "title": "Voice Actor Yuki Tanaka to Release 10th Debut Anniversary Photobook This December",
+      "link": "https://crunchyroll.com/news/latest/2026/11/14/voice-actor-yuki-tanaka-10th-debut-anniversary-photobook-december-2026",
+      "publishedAt": "2026-11-14T05:37:00.000Z",
+      "excerpt": "The limited edition comes with a making-of DVD",
+      "image": "https://a.storyblok.com/f/178900/960x540/dc026f14cf/yuki-tanaka-photobook-header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "119e938c7dc49d46",
       "title": "ENHYPEN、最新曲「I Want You」MV公開。 ヴァンパイアの物語をつなぐ切ない余韻",
@@ -244,7 +261,7 @@
       "title": "Indie Developer Forced to Crowdfund Lawsuit After $68,000 in Game Funding Goes Missing",
       "link": "https://news.sankakucomplex.com/n/UtX3_aDGs27VHLdvX25-3g",
       "publishedAt": "2026-11-14T04:00:58.000Z",
-      "excerpt": "Japanese indie developer ENDLESS SUMMER Studio has found itself in the rather absurd position of needing to crowdfund money to sue a crowdfunding platform, after allegedly being denied over $68,000 raised for its upcoming bishoujo visual novel Purgatory: Blue.",
+      "excerpt": "Japanese indie developer ENDLESS SUMMER Studio has found itself in the rather absurd position of needing to crowdfund money to sue a crowdfunding platform, after allegedly being denied over $68,000 raised for its upcoming bishoujo visual novel Purgatory: Blue. The studio announced on November 11…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -254,8 +271,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "dbc8c70f991a4751",
@@ -408,7 +424,7 @@
       "title": "Toei Animation’s China Business Takes a Hit as Japanese Anime Streaming Struggles",
       "link": "https://news.sankakucomplex.com/n/RMIMdEMnlfRnhqcwktY9sg",
       "publishedAt": "2026-11-14T00:00:29.000Z",
-      "excerpt": "Japanese animation giant Toei Animation, responsible for beloved franchises such as One Piece and Dragon Ball, has reported a substantial decline in anime streaming rights sales in China, as Japanese entertainment continues to face an increasingly difficult environment in the country.",
+      "excerpt": "Japanese animation giant Toei Animation, responsible for beloved franchises such as One Piece and Dragon Ball, has reported a substantial decline in anime streaming rights sales in China, as Japanese entertainment continues to face an increasingly difficult environment in the country. According t…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -418,8 +434,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2503358edcb2123f",
@@ -460,7 +475,7 @@
       "title": "Minami-ke Anime Finally Returns After 14 Years With Original Voice Cast",
       "link": "https://news.sankakucomplex.com/n/e1S5gfICBBE9MJAaqHtKbg",
       "publishedAt": "2026-11-13T20:00:51.000Z",
-      "excerpt": "Slice-of-life comedy Minami-ke is finally returning to television after nearly 14 years, with its fifth season, Minami-ke: Korekara, scheduled to premiere in April 2027, bringing back the three Minami sisters and their original Japanese voice actresses.",
+      "excerpt": "Slice-of-life comedy Minami-ke is finally returning to television after nearly 14 years, with its fifth season, Minami-ke: Korekara, scheduled to premiere in April 2027, bringing back the three Minami sisters and their original Japanese voice actresses. The announcement was made during the Minami…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -470,8 +485,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2ac232e5465a2fe5",
@@ -665,7 +679,7 @@
       "title": "Legend of Zelda: Ocarina of Time Remake Becomes Fastest-Selling Switch 2 Title",
       "link": "https://news.sankakucomplex.com/n/CJ57BrBsKdH0Qe7c_yp1_w",
       "publishedAt": "2026-11-13T16:00:30.000Z",
-      "excerpt": "Nintendo’s remake of The Legend of Zelda: Ocarina of Time has proven that nostalgia can be an immensely profitable business, selling over 5.2 million copies worldwide in just four days and becoming the fastest-selling Nintendo-published game on Nintendo Switch 2.",
+      "excerpt": "Nintendo’s remake of The Legend of Zelda: Ocarina of Time has proven that nostalgia can be an immensely profitable business, selling over 5.2 million copies worldwide in just four days and becoming the fastest-selling Nintendo-published game on Nintendo Switch 2. The Japanese gaming giant announc…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -675,8 +689,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4927799735ce5eca",
@@ -1140,7 +1153,7 @@
       "title": "Square Enix Profits Surge 63% as Final Fantasy VII Rebirth & Other Games Boost Earnings",
       "link": "https://news.sankakucomplex.com/n/6Mp8iLNzhXtwzM89gFSt2A",
       "publishedAt": "2026-11-13T12:00:27.000Z",
-      "excerpt": "Square Enix has reported a substantial increase in profits from its video game business, with Final Fantasy VII Rebirth, The Adventures of Elliot: The Millennium Tales, and strong sales of older titles helping the Japanese publisher enjoy a particularly lucrative financial period.",
+      "excerpt": "Square Enix has reported a substantial increase in profits from its video game business, with Final Fantasy VII Rebirth, The Adventures of Elliot: The Millennium Tales, and strong sales of older titles helping the Japanese publisher enjoy a particularly lucrative financial period. The company ann…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1150,8 +1163,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7fa3660c0fc1ebf4",
@@ -2189,7 +2201,7 @@
       "title": "Uma Musume Parent Company Boasts 88% Mobile Game Success Rate",
       "link": "https://news.sankakucomplex.com/n/SXe3YEnMfFndr-wTAYmnPA",
       "publishedAt": "2026-11-13T08:00:48.000Z",
-      "excerpt": "CyberAgent, the parent company of Uma Musume: Pretty Derby developer Cygames, has revealed that an impressive 88% of its major mobile games have achieved commercial success, with the Japanese company now planning to release another seven big-budget titles by 2030.",
+      "excerpt": "CyberAgent, the parent company of Uma Musume: Pretty Derby developer Cygames, has revealed that an impressive 88% of its major mobile games have achieved commercial success, with the Japanese company now planning to release another seven big-budget titles by 2030. The figures were disclosed durin…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2199,8 +2211,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "53afb839c4c073e9",
@@ -2655,7 +2666,7 @@
       "title": "Comiket 109 Ticket Seller Blocks All Overseas Access to Prevent Cyberattacks",
       "link": "https://news.sankakucomplex.com/n/lUyIGoSqSrK2fonYzRnTeg",
       "publishedAt": "2026-11-13T04:00:47.000Z",
-      "excerpt": "International attendees hoping to secure early-entry tickets for the upcoming Comic Market 109 have been dealt an unfortunate surprise, as ticketing service Ticketpay has decided to block all overseas access for the foreseeable future, supposedly as a precaution against cyberattacks.",
+      "excerpt": "International attendees hoping to secure early-entry tickets for the upcoming Comic Market 109 have been dealt an unfortunate surprise, as ticketing service Ticketpay has decided to block all overseas access for the foreseeable future, supposedly as a precaution against cyberattacks. The Comic Ma…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2665,8 +2676,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "dddccee8a34ce5dc",
@@ -3062,7 +3072,7 @@
       "title": "Rare Diamond Dust Appears in Hokkaido as Japan Records Earliest -20C Temperature",
       "link": "https://news.sankakucomplex.com/n/las8J0voHb2ptYHtIolpXQ",
       "publishedAt": "2026-11-13T00:00:13.000Z",
-      "excerpt": "A rare atmospheric phenomenon known as “diamond dust” appeared in Japan’s northernmost prefecture of Hokkaido on November 11, as temperatures plunged to a record-breaking -20.2°C (-4.4°F), marking the earliest date Japan has ever recorded temperatures below -20°C.",
+      "excerpt": "A rare atmospheric phenomenon known as “diamond dust” appeared in Japan’s northernmost prefecture of Hokkaido on November 11, as temperatures plunged to a record-breaking -20.2°C (-4.4°F), marking the earliest date Japan has ever recorded temperatures below -20°C. The extraordinary cold was obser…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3072,15 +3082,14 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "52fe327feedcdfd4",
       "title": "Japan Developing AI App That Lets Fans Learn Japanese by Talking to Anime Characters",
       "link": "https://news.sankakucomplex.com/n/hP44-frsD3sm59skle6FVA",
       "publishedAt": "2026-11-12T20:00:59.000Z",
-      "excerpt": "The Japanese government is developing an artificial intelligence-powered language-learning app that will allow foreigners to practice Japanese by conversing with popular anime and manga characters, hoping to capitalize on the worldwide popularity of Japanese entertainment.",
+      "excerpt": "The Japanese government is developing an artificial intelligence-powered language-learning app that will allow foreigners to practice Japanese by conversing with popular anime and manga characters, hoping to capitalize on the worldwide popularity of Japanese entertainment. According to reports fr…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3090,8 +3099,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "275c1111fb36d46c",
@@ -3234,7 +3242,7 @@
       "title": "Crunchyroll Subtitles Censor Black Clover’s Explicit Dialogue",
       "link": "https://news.sankakucomplex.com/n/IVWvS724Fly60gHUkTPcbg",
       "publishedAt": "2026-11-12T16:00:06.000Z",
-      "excerpt": "Those making use of Crunchyroll have witnessed yet another instance of censorship as the platform’s English subtitled version of a recent episode of Black Clover was found to have improperly translated an explicit line of dialogue.",
+      "excerpt": "Those making use of Crunchyroll have witnessed yet another instance of censorship as the platform’s English subtitled version of a recent episode of Black Clover was found to have improperly translated an explicit line of dialogue. The moment was from the sixth episode of Black Clover’s second se…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3244,8 +3252,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "320861b6fe946eee",
@@ -3485,7 +3492,7 @@
       "title": "Pokémon Fire Red Recreated in 3D Using Let’s Go Graphics, Fan Remake Goes Viral",
       "link": "https://news.sankakucomplex.com/n/1u6see8DlMCiYELn5U-Tpw",
       "publishedAt": "2026-11-12T12:00:53.000Z",
-      "excerpt": "A fan developer has recreated Pokémon Fire Red as a fully 3D adventure using graphics and animations from Pokémon: Let’s Go, Pikachu! and Let’s Go, Eevee!, offering a glimpse of what the classic might look like with modern visuals.",
+      "excerpt": "A fan developer has recreated Pokémon Fire Red as a fully 3D adventure using graphics and animations from Pokémon: Let’s Go, Pikachu! and Let’s Go, Eevee!, offering a glimpse of what the classic might look like with modern visuals. The project, developed by LIME6622, attracted widespread attentio…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3495,8 +3502,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4bfab078d76c3572",
@@ -4116,7 +4122,7 @@
       "title": "Legend of Zelda: Ocarina of Time Remake Worse Than Imagined",
       "link": "https://news.sankakucomplex.com/n/sBHF8DaynRygRTCRgsMS7g",
       "publishedAt": "2026-11-12T08:00:30.000Z",
-      "excerpt": "The Legend of Zelda: Ocarina of Time remake has been lambasted heavily due to its changes from the original, be them large or subtle, and some Internet users have provided compilations of just a few of the differences, highlighting just how much was actually altered.",
+      "excerpt": "The Legend of Zelda: Ocarina of Time remake has been lambasted heavily due to its changes from the original, be them large or subtle, and some Internet users have provided compilations of just a few of the differences, highlighting just how much was actually altered. One Twitter user compiled cha…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4126,8 +4132,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "33b61149ee482f76",
@@ -4624,7 +4629,7 @@
       "title": "70% of Male Social VR Users Choose Anime Girl Avatars",
       "link": "https://news.sankakucomplex.com/n/ofL--OnibQQcbYbXF47HgA",
       "publishedAt": "2026-11-12T04:00:01.000Z",
-      "excerpt": "Approximately 70% of male social VR users choose female avatars, according to research highlighted by Japanese broadcaster ABEMA, which interviewed several men who prefer living as cute anime girls in virtual reality.",
+      "excerpt": "Approximately 70% of male social VR users choose female avatars, according to research highlighted by Japanese broadcaster ABEMA, which interviewed several men who prefer living as cute anime girls in virtual reality. The phenomenon, known in Japan as babinik(u) (バ美肉), short for “virtual beautifu…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4634,8 +4639,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "529f893298f51e53",
@@ -5133,7 +5137,7 @@
       "title": "Japanese Shop Creates Life-Size Anime Stands That Ride in Your Car",
       "link": "https://news.sankakucomplex.com/n/R-PqWiZpkJImd5R2rrL77Q",
       "publishedAt": "2026-11-12T00:00:30.000Z",
-      "excerpt": "A Japanese automotive customization shop has unveiled an unusual product allowing anime fans to take their favorite fictional characters on car rides, creating life-size acrylic figures that can be strapped into passenger seats with ordinary seat belts.",
+      "excerpt": "A Japanese automotive customization shop has unveiled an unusual product allowing anime fans to take their favorite fictional characters on car rides, creating life-size acrylic figures that can be strapped into passenger seats with ordinary seat belts. The invention comes from F-DESIGN PROFESSIO…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5143,8 +5147,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "6d708ff8987a3646",
@@ -5259,7 +5262,7 @@
       "title": "Nara Deer Injuries Hit Record High, Over 70% of Hospitalized Victims Are Foreigners",
       "link": "https://news.sankakucomplex.com/n/gh_w-u4k1My-7Zna9xBvcA",
       "publishedAt": "2026-11-11T20:14:27.000Z",
-      "excerpt": "Deer-related injuries in Japan’s famous Nara Park have reached a record high in 2026, with foreign nationals accounting for more than 70% of people transported to hospital after encounters with the animals.",
+      "excerpt": "Deer-related injuries in Japan’s famous Nara Park have reached a record high in 2026, with foreign nationals accounting for more than 70% of people transported to hospital after encounters with the animals. According to a November 10 report by Japanese broadcaster TV Asahi, 51 people had been tra…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5269,8 +5272,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2a626eb1f60361e5",
@@ -5396,7 +5398,7 @@
       "title": "Tokyo’s Akihabara Installs 22 Smart Trash Cans to Combat Tourist Litter",
       "link": "https://news.sankakucomplex.com/n/77DW-tWnwxc0DnCe7UI8_A",
       "publishedAt": "2026-11-11T16:00:51.000Z",
-      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores.",
+      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores. The new trash cans began operating on November 8, with Chiyoda Ward intro…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5406,8 +5408,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ca24c9bc03e1fd31",
@@ -5569,7 +5570,7 @@
       "title": "41.5% of Japanese Middle Schoolers Doubt Benefits of Increased Immigration",
       "link": "https://news.sankakucomplex.com/n/o63MAIA4y3anTft0tJhVVw",
       "publishedAt": "2026-11-11T13:59:20.000Z",
-      "excerpt": "A new survey has revealed that 41.5% of Japanese middle school students do not believe an increase in foreign residents would benefit society, nearly doubling the proportion expressing such views just a few years earlier.",
+      "excerpt": "A new survey has revealed that 41.5% of Japanese middle school students do not believe an increase in foreign residents would benefit society, nearly doubling the proportion expressing such views just a few years earlier. The findings were reported by Kyodo News on November 7, based on research c…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5579,8 +5580,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a8675125376d2b22",
@@ -5989,7 +5989,7 @@
       "title": "Ocarina of Time Remake Rabidly Criticized & Bizarrely Sexy",
       "link": "https://news.sankakucomplex.com/n/qif9XWRGQm9_Up1e32saNA",
       "publishedAt": "2026-11-11T11:20:18.000Z",
-      "excerpt": "Aside from the censorship with the Great Fairy, the Legend of Zelda: Ocarina of Time remake has been criticized on various different levels, from its occasionally eerie character designs to its horrid modern voice-acting – though, the game does have some oddly sexy moments as well.",
+      "excerpt": "Aside from the censorship with the Great Fairy, the Legend of Zelda: Ocarina of Time remake has been criticized on various different levels, from its occasionally eerie character designs to its horrid modern voice-acting – though, the game does have some oddly sexy moments as well. The most commo…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5999,8 +5999,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2339a161f64e284a",
@@ -6482,8 +6481,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2bf45e044be4b371",
@@ -7195,8 +7193,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "37bd8a380770fcac",
@@ -7213,8 +7210,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c8a674138a4c03e9",
@@ -7982,7 +7978,7 @@
       "title": "Persona 4 Revival Developers Debated How Thick Chie’s Thighs Should Be",
       "link": "https://news.sankakucomplex.com/n/uhnQZ6Du07Nne1wqN830Mg",
       "publishedAt": "2026-11-10T23:00:02.000Z",
-      "excerpt": "The developers of Persona 4 Revival have revealed that one of the unexpected challenges during production involved deciding just how thick Chie Satonaka’s thighs should be, with disagreements arising over the character’s appearance in 3D models and illustrations.",
+      "excerpt": "The developers of Persona 4 Revival have revealed that one of the unexpected challenges during production involved deciding just how thick Chie Satonaka’s thighs should be, with disagreements arising over the character’s appearance in 3D models and illustrations. Speaking in an interview with Jap…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -7992,8 +7988,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f489d31fa41a03a9",
@@ -8010,8 +8005,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a4b6e9a7d4ca4146",
@@ -8624,7 +8618,7 @@
       "title": "Battlefield 6 Player Sues EA Over Permanent Ban, Wins Account Back in Court",
       "link": "https://news.sankakucomplex.com/n/-sTT3mKYB27bxrbGlRLWLA",
       "publishedAt": "2026-11-10T12:43:11.000Z",
-      "excerpt": "A Battlefield 6 player has reportedly defeated Electronic Arts in court after being permanently banned from the game for alleged cheating, successfully overturning the punishment and obtaining financial compensation from the publisher.",
+      "excerpt": "A Battlefield 6 player has reportedly defeated Electronic Arts in court after being permanently banned from the game for alleged cheating, successfully overturning the punishment and obtaining financial compensation from the publisher. The player, known as Rychadv on Reddit, announced his victory…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8634,8 +8628,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "0d974df235c37cd8",
@@ -8652,8 +8645,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "05226f5c97aa462a",
@@ -9789,7 +9781,7 @@
       "title": "Sega Suffers Data Breach Exposing 2.19 Million Email Addresses, Warns of Phishing Attacks",
       "link": "https://news.sankakucomplex.com/n/mPDEcLxfaIRcm0Rvw6wecg",
       "publishedAt": "2026-11-10T02:00:21.000Z",
-      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company.",
+      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company. In an official announcement on November 9, Sega r…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -9799,8 +9791,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "049569cdefb2e74c",
@@ -9817,8 +9808,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4a3fd189cd17d79d",
@@ -10075,7 +10065,7 @@
       "title": "US Navy Uses Blend S Meme in Recruitment Video, Surprises Japanese Fans",
       "link": "https://news.sankakucomplex.com/n/E-HU0FQ5o_T6h4cRqDUwAw",
       "publishedAt": "2026-11-09T22:00:42.000Z",
-      "excerpt": "The United States Navy has attracted attention in Japan after one of its official recruitment accounts published a promotional video based on the popular Blend S anime meme, combining footage of American warships with a joke that originally went viral nearly a decade ago.",
+      "excerpt": "The United States Navy has attracted attention in Japan after one of its official recruitment accounts published a promotional video based on the popular Blend S anime meme, combining footage of American warships with a joke that originally went viral nearly a decade ago. The approximately 21-sec…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -10085,8 +10075,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "adffff87bb902f11",
@@ -10103,8 +10092,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "63f0879cf3c21520",
@@ -10242,8 +10230,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "02ae5824bea91b65",
@@ -10260,8 +10247,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "53df64f567da6dde",
@@ -10953,8 +10939,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b7326af8bcfc2983",
@@ -10971,8 +10956,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b96ec36f11483f70",
@@ -11325,8 +11309,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1af60e03316e811f",
@@ -11343,8 +11326,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b9bfb8a335985b38",
@@ -11780,8 +11762,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "75ee62c4c003b417",
@@ -11798,8 +11779,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "64a950b87a01c094",
@@ -12051,8 +12031,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "488e33db1c5d041f",
@@ -12069,8 +12048,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "9f845feb9452138a",
@@ -12104,8 +12082,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b6254669a06b3285",
@@ -12122,8 +12099,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8192d7ccb76fced4",
@@ -12413,8 +12389,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "037bdf0a42f77d72",
@@ -12431,8 +12406,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "da7f0581dbb0119f",
@@ -12933,8 +12907,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fc4f0c45cf438d96",
@@ -12951,8 +12924,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3cc5cab59b60c9dc",
@@ -13208,8 +13180,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2e33df965d69b885",
@@ -13226,8 +13197,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "5b9d84a4c1baef62",
@@ -13316,8 +13286,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "0219a7236747eb36",
@@ -13334,8 +13303,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "5fd1990ae2160982",
@@ -13352,8 +13320,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "42b2a299167aa012",
@@ -13370,8 +13337,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "228acadcc2658a4d",
@@ -13388,8 +13354,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8729b29d54deefc5",
@@ -13406,8 +13371,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8882456ff364cecb",
@@ -13961,8 +13925,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e4a991fdfeee6ac1",
@@ -13979,8 +13942,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8b6adce341bcc9fd",
@@ -14509,8 +14471,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "512f26ffbe1d30b8",
@@ -14527,8 +14488,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "819642f2bead4640",
@@ -14729,8 +14689,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "af6c413618a08216",
@@ -14747,8 +14706,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "92744b3e0b0cfc17",
@@ -14852,8 +14810,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fddf65e801f92e1c",
@@ -14870,8 +14827,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "987c8f8ea72d85e2",
@@ -14939,8 +14895,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "51dec9b7ab3fb5e3",
@@ -14957,8 +14912,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "23d7b79b02d12bbb",
@@ -15597,8 +15551,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "789691823e2eed69",
@@ -15615,8 +15568,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a91653c308ea4dcd",
@@ -16326,8 +16278,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "495b576a7ff50e68",
@@ -16344,8 +16295,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "019061fd6be05f25",
@@ -17254,8 +17204,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b78a741d8ba86da6",
@@ -17272,8 +17221,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "67a56b30655f0b73",
@@ -17531,8 +17479,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "323ebe9d2cc49af6",
@@ -17549,8 +17496,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1d4aaecc65566fda",
@@ -17654,8 +17600,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c7155b3a1e7f241c",
@@ -17672,8 +17617,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c1be2e4f4878e24e",
@@ -17911,8 +17855,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fb941f8a7957870a",
@@ -17929,8 +17872,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3cdc56451082b7ca",
@@ -18355,8 +18297,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f81353a7e9ee5ea2",
@@ -18373,8 +18314,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e6673448cb6524ca",
@@ -18466,25 +18406,6 @@
       },
       "translatedTitle": "[Hot Shot Books] “I was reincarnated as a defeated heroine who was a childhood friend of the hero, so I changed my job to a compounder. 1st volume” and 6 published works of “Chiikawa” are in the top 10",
       "translatedExcerpt": "“Billboard” released on November 5, 2026 (collection period: October 26th to November 1st)"
-    },
-    {
-      "id": "ca68b98b127e3157",
-      "title": "Da-iCE、〈LIVE AZUMA 2026〉にて初披露した最新曲「うららか」のライブ映像公開",
-      "link": "https://ototoy.jp/news/132647",
-      "publishedAt": "2026-11-05T10:30:00.000Z",
-      "excerpt": "Da-iCEが、2026年10月17日(土)に福島・福島あづま球場／あづま総合運動公園で開催された音楽フェス〈LIVE AZUMA 2026〉にて初披露した、最新曲「うららか」のライブ映像をYouTubeにて公開した。 初披露という緊張感のあるシチュエーションの中、圧巻の歌唱力とパフォーマンス力が存分に発揮された、ライブの臨場感を堪能できる映像となっている。 本楽曲は、フジテレビ系木曜劇場「波うららかに、めおと日和」主題歌として書き下ろされレ、Da-iCEのメンバー花村想太と、GENICのメンバーで指原莉乃プロデュース=LOVEに楽曲提供を行うなど作家活動にも定評のある小池竜暉が作詞作曲を担当。「どんなに時代が変わっても、人を想うシンプルな衝動は100年前から変わらず、そしてその想いが100年後も続いて欲…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132647/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Da-iCE releases live video of latest song \"Uraraka\", which was performed for the first time at <LIVE AZUMA 2026>",
-      "translatedExcerpt": "Da-iCE has released a live video of their latest song \"Uraraka\" on YouTube, which was performed for the first time at the music festival \"LIVE AZUMA 2026\" held at Fukushima Azuma Baseball Stadium/Azuma Sports Park on Saturday, October 17, 2026. The video allows you to enjoy the realism of the live performance, where the singer's amazing singing and performance skills were fully demonstrated in the tense situation of the first performance. This song was written and composed as the theme song for Fuji TV's Thursday Theater ``Nami Urarakani, Meoto Biyori.'' Da-iCE member Sota Hanamura and GENIC member Ryuki Koike, who has a reputation as a writer and has provided music for =LOVE produced by Rino Sashihara, are in charge of the lyrics and composition. ``No matter how times change, the simple urge to care for others remains the same as it did 100 years ago, and that feeling will continue even 100 years from now..."
     }
   ]
 }

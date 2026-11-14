@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T07:34:22.827Z",
+  "generatedAt": "2026-11-14T08:05:17.475Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 266,
+      "count": 269,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 211,
+      "count": 209,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -152,9 +152,9 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "mode": "direct",
+      "feedUrl": "https://news.sankakucomplex.com/feed/",
+      "count": 76,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,84 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 622,
+    "translatedJapaneseArticles": 624,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "daeb15f7705e220a",
+      "title": "Japan May Allow Nuclear Weapons Into Country During Emergencies",
+      "link": "https://news.sankakucomplex.com/n/z8jV84a-95k6ujPgswZ_Zg",
+      "publishedAt": "2026-11-14T08:00:40.000Z",
+      "excerpt": "Japan is considering making exceptions to its longstanding prohibition on nuclear weapons entering the country, potentially allowing American warships carrying nuclear armaments to temporarily enter Japanese ports during national emergencies, despite the country’s decades-old commitment to keepin…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "f4768b409d84463e",
+      "title": "高岩遼、約3年ぶりオリジナルAL『TORCH SONG』配信リリース決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167463",
+      "publishedAt": "2026-11-14T07:35:00.000Z",
+      "excerpt": "高岩遼が、約3年ぶりとなるオリジナルアルバム『TORCH SONG』を12月16日に配信リリースす",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167463/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ryo Takaiwa will release his original AL “TORCH SONG” for the first time in about 3 years",
+      "translatedExcerpt": "Ryo Takaiwa will release his first original album in 3 years, ``TORCH SONG'', on December 16th."
+    },
+    {
+      "id": "593c3924786a8803",
+      "title": "ときのそら、新曲「Brand new day」がTVアニメ『異世界転生騒動記』EDテーマに決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167462",
+      "publishedAt": "2026-11-14T07:30:00.000Z",
+      "excerpt": "ときのそらの新曲「Brand new day」が、2027年1月6日から放送・配信がスタートするT",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167462/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Tokinosora's new song \"Brand new day\" has been selected as the ending theme for the TV anime \"Isekai Reinsei Jizoki\"",
+      "translatedExcerpt": "Tokinosora's new song \"Brand new day\" will be broadcast and distributed from January 6, 2027T"
+    },
+    {
+      "id": "df599695e7bcc233",
+      "title": "SKRYU、ぴあアリーナMM公演から「イレブン・バック」ライブ映像公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167461",
+      "publishedAt": "2026-11-14T07:25:00.000Z",
+      "excerpt": "SKRYUが、アリーナ公演【SKRYU Super Live 2026 The Light】から「",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167461/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "SKRYU releases \"Eleven Back\" live video from Pia Arena MM performance",
+      "translatedExcerpt": "SKRYU will be performing “SKRYU Super Live 2026 The Light” from the arena performance"
+    },
     {
       "id": "d2fdc05f442f6d09",
       "title": "chay、15周年プロジェクト第1弾SG「Answer」配信リリース＆MV公開",
@@ -18336,78 +18410,6 @@
         "siteUrl": "https://myanimelist.net/news",
         "category": "Anime News",
         "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "8fc81bcd1207be3c",
-      "title": "Mrs. GREEN APPLE、「共犯」MVの宇宙人になれるYouTube ショート エフェクト「MGA Kyohan Match」公開",
-      "link": "https://barks.jp/news/1102730",
-      "publishedAt": "2026-11-05T11:17:52.000Z",
-      "excerpt": "Mrs. GREEN APPLEが、6thオリジナルフルアルバム『POPS』収録曲「共犯」のMVのエンディングに登場する宇宙人に変身できる、YouTubeショート エフェクト「MGA Kyohan Match」を11月5日（木）に公開した。 日本のアーティストによるオリジナルのYouTube ショート エフェクトとしては、史上初となる。 エフェクトを起動して撮影を始めると、青りんごをモチーフにしたラインが画面をスキャン。スキャンが完了すると、「共犯」のMVに登場する4種類の宇宙人、キョウハン星人、キョウカン星人、キョウラン星人、キョウラク星人のうち、いずれかの3Dマスクがランダムに現れ、顔が宇宙人の姿に変わる。 さらに、宇宙船ボタンをタップすると、背景をMVさながらの宇宙船内に切り替えて撮影できる。「共犯…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/05201614/1.png",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Mrs. GREEN APPLE releases YouTube short effect “MGA Kyohan Match” that turns you into an alien in the “Accomplice” MV",
-      "translatedExcerpt": "Mrs. GREEN APPLE released the YouTube short effect \"MGA Kyohan Match\" on Thursday, November 5th, which allows you to transform into the alien that appears in the ending of the music video for the song \"Accomplice\" from their 6th original full album \"POPS\". This is the first original YouTube short effect created by a Japanese artist. When you activate the effect and start shooting, a line with a green apple motif scans the screen. When the scan is complete, a 3D mask of one of the four types of aliens that appear in the music video for \"Accomplice\" - Kyohan Alien, Kyoukan Alien, Kyoran Alien, and Kyoraku Alien - will randomly appear, and your face will change to the appearance of an alien. Furthermore, by tapping the spaceship button, you can switch the background to the inside of a spaceship just like in the music video. “Accomplice…"
-    },
-    {
-      "id": "4cd1f769e1271ca3",
-      "title": "milet、新曲「My Voice, My Life」CDリリース決定",
-      "link": "https://barks.jp/news/1102717",
-      "publishedAt": "2026-11-05T11:07:12.000Z",
-      "excerpt": "miletが、2026年10月22日(木)より放送がスタートしたテレビ朝日系・木曜ドラマ『アナログナース〜デジタルってなんなんだよ!?〜』の主題歌として書き下ろした新曲「My Voice, My Life」を12月16日(水)にシングルCDとしてリリースされることが決定した。 本楽曲は、デビュー曲「inside you」以来、数々の楽曲を共に制作してきたToru（ONE OK ROCK）と約4年ぶりにタッグを組んだ作品。「自分の声で自分の人生を切り拓いていく」という強い意志が込められた楽曲となっている。 今回のCDリリース決定にあわせて、ジャケット写真と新アーティスト写真も初公開された。初回生産限定盤と通常盤の2形態でリリースされ、それぞれロックテイストのmiletが印象的なビジュアルに仕上がっている。…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/05200539/%E3%80%90A%E5%86%99%E3%80%91My-Voice-My-Life_main_FIX.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "milet's new song \"My Voice, My Life\" CD release decided",
-      "translatedExcerpt": "It has been decided that milet's new song ``My Voice, My Life'', which was written as the theme song for the TV Asahi Thursday drama ``Analog Nurse ~Digital te What?'', which started airing on October 22, 2026 (Thursday), will be released as a single CD on December 16th (Wednesday). This song is the first collaboration in about 4 years with Toru (ONE OK ROCK), with whom he has produced numerous songs since his debut song \"inside you\". The song is filled with the strong will to \"carve out your own life with your own voice.\" Along with the CD release decision, the jacket photo and new artist photo were also released for the first time. It will be released in two formats: a limited edition and a regular edition, each with an impressive rock-style milet visual. …"
-    },
-    {
-      "id": "a01979fb0ef475e0",
-      "title": "Nexus Mods Removes Cyberpunk: Edgerunners 2 Character Mod",
-      "link": "https://news.sankakucomplex.com/n/O_Xz3qgu3m1mCb2xo14vXQ",
-      "publishedAt": "2026-11-05T11:00:43.000Z",
-      "excerpt": "Video game modding platform Nexus Mods has once again ousted another innocent mod, this time removing a Cyberpunk 2077 modification featuring Talia Yang from Cyberpunk: Edgerunners 2, and prompting accusations that the website is censoring an adult character because of her youthful appearance.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f81353a7e9ee5ea2",
-      "title": "Nexus Mods Removes Cyberpunk: Edgerunners 2 Character Mod",
-      "link": "https://news.sankakucomplex.com/n/qTUZtD6o9gEGLu4A3L5GNw",
-      "publishedAt": "2026-11-05T11:00:43.000Z",
-      "excerpt": "Video game modding platform Nexus Mods has once again ousted another innocent mod, this time removing a Cyberpunk 2077 modification featuring Talia Yang from Cyberpunk: Edgerunners 2, and prompting accusations that the website is censoring an adult character because of her youthful appearance.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T03:02:45.812Z",
+  "generatedAt": "2026-11-14T03:33:36.361Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 272,
+      "count": 270,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 205,
+      "count": 207,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -151,22 +151,60 @@
     {
       "id": "sankaku",
       "name": "Sankaku Complex",
-      "status": "error",
-      "mode": null,
-      "feedUrl": null,
+      "status": "ok",
+      "mode": "direct",
+      "feedUrl": "https://news.sankakucomplex.com/feed/",
       "count": 75,
-      "fetchedCount": 0
+      "fetchedCount": 24
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 7,
-    "failedSources": 1,
+    "successfulSources": 8,
+    "failedSources": 0,
     "articleCount": 1000,
     "translatedJapaneseArticles": 624,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "dbc8c70f991a4751",
+      "title": "清春 × SUGIZO × トーキョータナカ(MAN WITH A MISSION)、能登半島復興支援イベントに集結",
+      "link": "https://barks.jp/news/1104480",
+      "publishedAt": "2026-11-14T03:05:00.000Z",
+      "excerpt": "能登半島復興チャリティイベント＜つなぐのと～あなたは尊い～＞の冬の特別編＜つなぐのと特別編 -冬ノ陣-＞が12月5日、石川県羽咋市のコスモアイル羽咋 ユーフォーニーホールで開催される。イベント当日は、清春、SUGIZO、トーキョータナカ(MAN WITH A MISSION)の3組が出演し、音楽を通じて能登への復興支援の想いをつなぐ。 ＜つなぐのと～あなたは尊い～＞は毎年5月5日に石川県羽咋市の妙成寺で開催されている能登半島復興チャリティイベントだ。2024年にはOAUがメインライブアクトを務めたほか、2025年、2026年には清春が出演した。その内容は音楽ライブをはじめ、地元店舗によるマルシェやワークショップなどを通じて地域の人々と来場者が交流し、能登復興に向けた想いを共有するというもの。同イベントの冬…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/14120059/main-7-743x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Kiyoharu × SUGIZO × Tokyo Tanaka (MAN WITH A MISSION) gather at Noto Peninsula reconstruction support event",
+      "translatedExcerpt": "The winter special edition of the Noto Peninsula reconstruction charity event ``Tsunagu no To ~You Are Precious~'' will be held on December 5th at Cosmo Isle Hakui Euforny Hall in Hakui City, Ishikawa Prefecture. On the day of the event, Kiyoharu, SUGIZO, and Tokyo Tanaka (MAN WITH A MISSION) will perform, and they will connect their feelings of support for Noto's recovery through music. <Connecting ~You Are Precious~> is a Noto Peninsula reconstruction charity event held every May 5th at Myojoji Temple in Hakui City, Ishikawa Prefecture. OAU served as the main live act in 2024, and Kiyoharu appeared in 2025 and 2026. The event will include live music, marches and workshops run by local stores, allowing local people and visitors to interact and share their thoughts on Noto's recovery. Winter of the same event..."
+    },
+    {
+      "id": "2d08c4201c153140",
+      "title": "MAN WITH A MISSION、47都道府県ツアー前半ゲスト陣に10-FEET、マキシマム ザ ホルモン、SiMなど22組",
+      "link": "https://barks.jp/news/1104477",
+      "publishedAt": "2026-11-14T03:00:48.000Z",
+      "excerpt": "MAN WITH A MISSIONが、2027年1月20日（水）よりスタートさせる全国47都道府県ツアー＜MAN WITH A MISSION LIVE TOUR “The Circus”＞の前半公演に出演するゲストアーティスト23組を発表した。 今回発表されたのは、1月から4月にかけて開催されるライブハウス・ホール（アリーナ・スタンディング）での前半27公演のゲストアーティスト。 盟友10-FEETやマキシマム ザ ホルモン、SiMをはじめ、サバシスター、ハルカミライ、KUZIRAなど、ロック・パンクシーンで熱い支持を集めるバンドから、海外でも躍進を続ける実力派、さらには次世代を担う注目のニューカマーまで、世代やジャンルを超えた個性豊かなアーティストたちが集結。MAN WITH A MISSIONが全…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/19115230/MWAM_2026AW.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "MAN WITH A MISSION, 22 groups including 10-FEET, Maximum the Hormone, SiM, etc. as guests for the first half of the 47 prefecture tour",
+      "translatedExcerpt": "MAN WITH A MISSION has announced the 23 guest artists who will appear on the first half of their 47-prefecture nationwide tour <MAN WITH A MISSION LIVE TOUR “The Circus”> starting on Wednesday, January 20, 2027. The guests announced this time are the guest artists for the first 27 performances at Live House Hall (Arena Standing), which will be held from January to April. A collection of unique artists who transcend generations and genres, from bands that are gaining hot support in the rock and punk scene, such as Ally 10-FEET, Maximum the Hormone, SiM, Sabah Sister, Harukami Rai, and KUZIRA, to talented artists who are continuing to make strides overseas, and even notable newcomers who will lead the next generation. MAN WITH A MISSION is all about…"
+    },
     {
       "id": "16cb5613891a5317",
       "title": "bloodthirsty butchers、結成から40周年『kocorono』『NO ALBUM 無題』『youth（青春）』配信開始",
@@ -261,7 +299,7 @@
       "title": "Toei Animation’s China Business Takes a Hit as Japanese Anime Streaming Struggles",
       "link": "https://news.sankakucomplex.com/n/RMIMdEMnlfRnhqcwktY9sg",
       "publishedAt": "2026-11-14T00:00:29.000Z",
-      "excerpt": "Japanese animation giant Toei Animation, responsible for beloved franchises such as One Piece and Dragon Ball, has reported a substantial decline in anime streaming rights sales in China, as Japanese entertainment continues to face an increasingly difficult environment in the country. According t…",
+      "excerpt": "Japanese animation giant Toei Animation, responsible for beloved franchises such as One Piece and Dragon Ball, has reported a substantial decline in anime streaming rights sales in China, as Japanese entertainment continues to face an increasingly difficult environment in the country.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -271,8 +309,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2503358edcb2123f",
@@ -323,8 +360,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2ac232e5465a2fe5",
@@ -528,8 +564,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4927799735ce5eca",
@@ -993,7 +1028,7 @@
       "title": "Square Enix Profits Surge 63% as Final Fantasy VII Rebirth & Other Games Boost Earnings",
       "link": "https://news.sankakucomplex.com/n/6Mp8iLNzhXtwzM89gFSt2A",
       "publishedAt": "2026-11-13T12:00:27.000Z",
-      "excerpt": "Square Enix has reported a substantial increase in profits from its video game business, with Final Fantasy VII Rebirth, The Adventures of Elliot: The Millennium Tales, and strong sales of older titles helping the Japanese publisher enjoy a particularly lucrative financial period. The company ann…",
+      "excerpt": "Square Enix has reported a substantial increase in profits from its video game business, with Final Fantasy VII Rebirth, The Adventures of Elliot: The Millennium Tales, and strong sales of older titles helping the Japanese publisher enjoy a particularly lucrative financial period.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1003,8 +1038,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "7fa3660c0fc1ebf4",
@@ -2052,8 +2086,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "53afb839c4c073e9",
@@ -2518,8 +2551,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "dddccee8a34ce5dc",
@@ -2925,15 +2957,14 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "52fe327feedcdfd4",
       "title": "Japan Developing AI App That Lets Fans Learn Japanese by Talking to Anime Characters",
       "link": "https://news.sankakucomplex.com/n/hP44-frsD3sm59skle6FVA",
       "publishedAt": "2026-11-12T20:00:59.000Z",
-      "excerpt": "The Japanese government is developing an artificial intelligence-powered language-learning app that will allow foreigners to practice Japanese by conversing with popular anime and manga characters, hoping to capitalize on the worldwide popularity of Japanese entertainment. According to reports fr…",
+      "excerpt": "The Japanese government is developing an artificial intelligence-powered language-learning app that will allow foreigners to practice Japanese by conversing with popular anime and manga characters, hoping to capitalize on the worldwide popularity of Japanese entertainment.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -2943,8 +2974,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "275c1111fb36d46c",
@@ -3087,7 +3117,7 @@
       "title": "Crunchyroll Subtitles Censor Black Clover’s Explicit Dialogue",
       "link": "https://news.sankakucomplex.com/n/IVWvS724Fly60gHUkTPcbg",
       "publishedAt": "2026-11-12T16:00:06.000Z",
-      "excerpt": "Those making use of Crunchyroll have witnessed yet another instance of censorship as the platform’s English subtitled version of a recent episode of Black Clover was found to have improperly translated an explicit line of dialogue. The moment was from the sixth episode of Black Clover’s second se…",
+      "excerpt": "Those making use of Crunchyroll have witnessed yet another instance of censorship as the platform’s English subtitled version of a recent episode of Black Clover was found to have improperly translated an explicit line of dialogue.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -3097,8 +3127,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "320861b6fe946eee",
@@ -3348,8 +3377,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4bfab078d76c3572",
@@ -3979,8 +4007,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "33b61149ee482f76",
@@ -4477,7 +4504,7 @@
       "title": "70% of Male Social VR Users Choose Anime Girl Avatars",
       "link": "https://news.sankakucomplex.com/n/ofL--OnibQQcbYbXF47HgA",
       "publishedAt": "2026-11-12T04:00:01.000Z",
-      "excerpt": "Approximately 70% of male social VR users choose female avatars, according to research highlighted by Japanese broadcaster ABEMA, which interviewed several men who prefer living as cute anime girls in virtual reality. The phenomenon, known in Japan as babinik(u) (バ美肉), short for “virtual beautifu…",
+      "excerpt": "Approximately 70% of male social VR users choose female avatars, according to research highlighted by Japanese broadcaster ABEMA, which interviewed several men who prefer living as cute anime girls in virtual reality.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -4487,8 +4514,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "529f893298f51e53",
@@ -4723,7 +4749,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Raising word] Minori Suzuki, 10th anniversary since her debut, releases two new songs at the same time",
-      "translatedExcerpt": "デビュー10周年を迎えた鈴木みのりが急上昇ワードにランクイン。 新曲「心音加速度」「Naked Eyes」を2曲同時リリースした。 Original music since January 2023.クラウドナインでの新たな音楽活動の第一弾楽曲となる。 2曲はこれまでの歩みをつなぐ楽曲と、新しい音楽表現に挑戦する楽曲の異なる表情の作品に。リリース日の12日20:00から両楽曲のMVがプレミア公開される。 Release information https://ototoy.jp/_/default/p/4431681 https://ototoy.jp/_/default/p/4431673 Artist information https://www.youtube.com/@Im_MinoriSuzuki https://x.com/minoringo_staff https:/…"
+      "translatedExcerpt": "Minori Suzuki, who celebrated her 10th anniversary since her debut, has been ranked in the fastest growing trend. Two new songs, ``Kokohon Acceleration'' and ``Naked Eyes,'' were released at the same time. Original music since January 2023. This is the first song of Cloud Nine's new musical activity. The two songs are works with different expressions, one that connects the past steps and one that challenges new musical expression. The music videos for both songs will be premiered at 20:00 on the 12th, the release date. Release information https://ototoy.jp/_/default/p/4431681 https://ototoy.jp/_/default/p/4431673 Artist information https://www.youtube.com/@Im_MinoriSuzuki https://x.com/minoringo_staff https:/…"
     },
     {
       "id": "61708c04f724ecac",
@@ -4742,7 +4768,7 @@
         "language": "ja"
       },
       "translatedTitle": "Coi Leray releases melodious new song",
-      "translatedExcerpt": "Coi Lerayが2026年11月6日(金)にニューシングル「Spin Back」をリリースした。 本作は、来年2月にリリース予定のサードスタジオアルバム『MULTI』からの先行シングル。 This work marks the beginning of a new chapter, presenting her musical individuality that crosses rap, melodious vocals, and dance music. 過去の恋愛関係に再び戻ってしまうかもしれないという、複雑な心情をテーマにした本楽曲。クラブミュージックとしての高揚感と、恋愛ソングとしての親密さを兼ね備えた1曲となっている。 リリース情報 https://ototoy.jp/_/default/p/4416936 アーティスト情報 https://www.instagram.com/coileray/"
+      "translatedExcerpt": "Coi Leray released a new single \"Spin Back\" on Friday, November 6, 2026. This work is the lead single from the third studio album \"MULTI\" scheduled to be released in February next year. This work marks the beginning of a new chapter, presenting her musical individuality that crosses rap, melodious vocals, and dance music. This song is about the complicated feelings of possibly falling back into a past romantic relationship. It is a song that has both the exhilaration of club music and the intimacy of a love song. Release information https://ototoy.jp/_/default/p/4416936 Artist information https://www.instagram.com/coileray/"
     },
     {
       "id": "7c8e804d3c9186ce",
@@ -4996,8 +5022,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "6d708ff8987a3646",
@@ -5122,8 +5147,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2a626eb1f60361e5",
@@ -5259,8 +5283,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "ca24c9bc03e1fd31",
@@ -5432,8 +5455,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a8675125376d2b22",
@@ -5852,8 +5874,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2339a161f64e284a",
@@ -6335,8 +6356,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2bf45e044be4b371",
@@ -7048,8 +7068,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c8a674138a4c03e9",
@@ -7817,7 +7836,7 @@
       "title": "Persona 4 Revival Developers Debated How Thick Chie’s Thighs Should Be",
       "link": "https://news.sankakucomplex.com/n/uhnQZ6Du07Nne1wqN830Mg",
       "publishedAt": "2026-11-10T23:00:02.000Z",
-      "excerpt": "The developers of Persona 4 Revival have revealed that one of the unexpected challenges during production involved deciding just how thick Chie Satonaka’s thighs should be, with disagreements arising over the character’s appearance in 3D models and illustrations. Speaking in an interview with Jap…",
+      "excerpt": "The developers of Persona 4 Revival have revealed that one of the unexpected challenges during production involved deciding just how thick Chie Satonaka’s thighs should be, with disagreements arising over the character’s appearance in 3D models and illustrations.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -7827,8 +7846,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f489d31fa41a03a9",
@@ -7845,8 +7863,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a4b6e9a7d4ca4146",
@@ -8459,7 +8476,7 @@
       "title": "Battlefield 6 Player Sues EA Over Permanent Ban, Wins Account Back in Court",
       "link": "https://news.sankakucomplex.com/n/-sTT3mKYB27bxrbGlRLWLA",
       "publishedAt": "2026-11-10T12:43:11.000Z",
-      "excerpt": "A Battlefield 6 player has reportedly defeated Electronic Arts in court after being permanently banned from the game for alleged cheating, successfully overturning the punishment and obtaining financial compensation from the publisher. The player, known as Rychadv on Reddit, announced his victory…",
+      "excerpt": "A Battlefield 6 player has reportedly defeated Electronic Arts in court after being permanently banned from the game for alleged cheating, successfully overturning the punishment and obtaining financial compensation from the publisher.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -8469,8 +8486,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "0d974df235c37cd8",
@@ -8487,8 +8503,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "05226f5c97aa462a",
@@ -9624,7 +9639,7 @@
       "title": "Sega Suffers Data Breach Exposing 2.19 Million Email Addresses, Warns of Phishing Attacks",
       "link": "https://news.sankakucomplex.com/n/mPDEcLxfaIRcm0Rvw6wecg",
       "publishedAt": "2026-11-10T02:00:21.000Z",
-      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company. In an official announcement on November 9, Sega r…",
+      "excerpt": "Japanese gaming giant Sega has confirmed that more than 2.19 million email addresses were exposed in a cyberattack targeting one of its third-party service providers, warning customers to be cautious of fraudulent emails impersonating the company.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -9634,8 +9649,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "049569cdefb2e74c",
@@ -9652,8 +9666,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "4a3fd189cd17d79d",
@@ -9910,7 +9923,7 @@
       "title": "US Navy Uses Blend S Meme in Recruitment Video, Surprises Japanese Fans",
       "link": "https://news.sankakucomplex.com/n/E-HU0FQ5o_T6h4cRqDUwAw",
       "publishedAt": "2026-11-09T22:00:42.000Z",
-      "excerpt": "The United States Navy has attracted attention in Japan after one of its official recruitment accounts published a promotional video based on the popular Blend S anime meme, combining footage of American warships with a joke that originally went viral nearly a decade ago. The approximately 21-sec…",
+      "excerpt": "The United States Navy has attracted attention in Japan after one of its official recruitment accounts published a promotional video based on the popular Blend S anime meme, combining footage of American warships with a joke that originally went viral nearly a decade ago.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -9920,8 +9933,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "adffff87bb902f11",
@@ -9938,8 +9950,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "63f0879cf3c21520",
@@ -10077,8 +10088,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "02ae5824bea91b65",
@@ -10095,8 +10105,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "53df64f567da6dde",
@@ -10788,8 +10797,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b7326af8bcfc2983",
@@ -10806,8 +10814,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b96ec36f11483f70",
@@ -11160,8 +11167,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1af60e03316e811f",
@@ -11178,8 +11184,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b9bfb8a335985b38",
@@ -11615,8 +11620,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "75ee62c4c003b417",
@@ -11633,8 +11637,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "64a950b87a01c094",
@@ -11886,8 +11889,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "488e33db1c5d041f",
@@ -11904,8 +11906,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "9f845feb9452138a",
@@ -11939,8 +11940,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b6254669a06b3285",
@@ -11957,8 +11957,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8192d7ccb76fced4",
@@ -12248,8 +12247,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "037bdf0a42f77d72",
@@ -12266,8 +12264,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "da7f0581dbb0119f",
@@ -12768,8 +12765,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fc4f0c45cf438d96",
@@ -12786,8 +12782,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3cc5cab59b60c9dc",
@@ -13043,8 +13038,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "2e33df965d69b885",
@@ -13061,8 +13055,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "5b9d84a4c1baef62",
@@ -13151,8 +13144,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "0219a7236747eb36",
@@ -13169,8 +13161,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "5fd1990ae2160982",
@@ -13187,8 +13178,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "42b2a299167aa012",
@@ -13205,8 +13195,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "228acadcc2658a4d",
@@ -13223,8 +13212,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8729b29d54deefc5",
@@ -13241,8 +13229,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8882456ff364cecb",
@@ -13796,8 +13783,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e4a991fdfeee6ac1",
@@ -13814,8 +13800,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "8b6adce341bcc9fd",
@@ -14344,8 +14329,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "512f26ffbe1d30b8",
@@ -14362,8 +14346,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "819642f2bead4640",
@@ -14564,8 +14547,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "af6c413618a08216",
@@ -14582,8 +14564,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "92744b3e0b0cfc17",
@@ -14687,8 +14668,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fddf65e801f92e1c",
@@ -14705,8 +14685,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "987c8f8ea72d85e2",
@@ -14774,8 +14753,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "51dec9b7ab3fb5e3",
@@ -14792,8 +14770,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "23d7b79b02d12bbb",
@@ -15432,8 +15409,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "789691823e2eed69",
@@ -15450,8 +15426,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "a91653c308ea4dcd",
@@ -16161,8 +16136,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "495b576a7ff50e68",
@@ -16179,8 +16153,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "019061fd6be05f25",
@@ -17089,8 +17062,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "b78a741d8ba86da6",
@@ -17107,8 +17079,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "67a56b30655f0b73",
@@ -17366,8 +17337,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "323ebe9d2cc49af6",
@@ -17384,8 +17354,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "1d4aaecc65566fda",
@@ -17489,8 +17458,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c7155b3a1e7f241c",
@@ -17507,8 +17475,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "c1be2e4f4878e24e",
@@ -17746,8 +17713,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "fb941f8a7957870a",
@@ -17764,8 +17730,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "3cdc56451082b7ca",
@@ -18190,8 +18155,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "f81353a7e9ee5ea2",
@@ -18208,8 +18172,7 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      },
-      "stale": true
+      }
     },
     {
       "id": "e6673448cb6524ca",
@@ -18451,44 +18414,6 @@
       },
       "translatedTitle": "[Billboard] Emiko Inagaki's \"Life Without Buying\" returns to the top of the economic book chart",
       "translatedExcerpt": "Economic book charts published on November 5, 2026 (collection period: October 26, 2026 to November 1, 2026)"
-    },
-    {
-      "id": "7a8ece0f66dd7fae",
-      "title": "【ビルボード】綾辻行人『十角館の殺人』が昭和チャート12週連覇、宇野千代『生きて行く私』が浮上",
-      "link": "https://www.billboard-japan.com/d_news/detail/167167",
-      "publishedAt": "2026-11-05T10:10:00.000Z",
-      "excerpt": "年号別チャート&ldquo;Billboard JAPAN Showa Books&rdquo;の",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167167/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Ayatsuji Yukito's ``Decagonal House Murder'' topped the Showa chart for 12 consecutive weeks, Uno Chiyo's ``Ikikuru Watashi'' emerged",
-      "translatedExcerpt": "Chart by year “Billboard JAPAN Showa Books”"
-    },
-    {
-      "id": "6b0cd7b9aa6a7043",
-      "title": "【ビルボード】采和輝／八月八／大橋キッカ『異世界の沙汰は社畜次第 8巻 (コミック版)』が“Hot Manga”1位を獲得",
-      "link": "https://www.billboard-japan.com/d_news/detail/167178",
-      "publishedAt": "2026-11-05T10:10:00.000Z",
-      "excerpt": "2026年11月5日公開チャート（集計期間：2026年10月26日～11月1日）Billboard",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167178/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Kazuki Kazumi/Hachi August/Kikka Ohashi “The fate of the other world depends on the company animals Volume 8 (comic version)” ranks 1st in “Hot Manga”",
-      "translatedExcerpt": "Chart released on November 5, 2026 (Aggregation period: October 26, 2026 - November 1, 2026) Billboard"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T15:01:56.668Z",
+  "generatedAt": "2026-11-14T15:31:47.493Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 101,
+      "count": 102,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 270,
+      "count": 269,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 634,
+    "translatedJapaneseArticles": 633,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "a5c536058bc56dfd",
+      "title": "Giant Ojo-sama Anime Casts Rina Kawaguchi as Stella",
+      "link": "https://crunchyroll.com/news/latest/2026/11/14/giant-ojosama-anime-casts-rina-kawaguchi-as-stella",
+      "publishedAt": "2026-11-14T15:08:00.000Z",
+      "excerpt": "Comedy adaptation is set to premiere in January 2027",
+      "image": "https://a.storyblok.com/f/178900/960x540/483b439b3b/giant-ojosama-stella.jpeg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "545a19812801136b",
       "title": "Release the Villains: How Shogo Makishima Challenges the System",
@@ -18415,25 +18432,6 @@
       },
       "translatedTitle": "[Billboard] “TOKYO DRIFT (FAST & FURIOUS)” tops Global Japan Songs for the 20th time",
       "translatedExcerpt": "“Global Japan Songs” is a ranking of Japanese songs that are hits around the world."
-    },
-    {
-      "id": "ee1b87623f0603c7",
-      "title": "【ビルボード】坂本龍一「Merry Christmas Mr. Lawrence」台湾で日本語曲トップ Ayumu Imazu タイでトップ10入り",
-      "link": "https://www.billboard-japan.com/d_news/detail/167191",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "excerpt": "世界各国でヒットしている日本の楽曲をランキング化した &ldquo;Japan Songs（国/地",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167191/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Ryuichi Sakamoto's \"Merry Christmas Mr. Lawrence\" tops Japanese songs in Taiwan Ayumu Imazu ranks in top 10 in Thailand",
-      "translatedExcerpt": "“Japan Songs” is a ranking of Japanese songs that are hits around the world."
     }
   ]
 }

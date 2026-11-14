@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:02:18.423Z",
+  "generatedAt": "2026-11-14T18:32:04.473Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 126,
+      "count": 127,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 267,
+      "count": 266,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 631,
+    "translatedJapaneseArticles": 630,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "cd426615a9e36265",
+      "title": "Kakao, OpenAI Collaborate on AI-Generated Short Animation Based on Ryan Begins Webtoon",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-14/kakao-openai-collaborate-on-ai-generated-short-animation-based-on-ryan-begins-webtoon/.243712",
+      "publishedAt": "2026-11-14T18:15:00.000Z",
+      "excerpt": "Production team stated they used approximately 1,500 prompts for single scene to achieve desired direction, emotional tone",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gMG/youtube/REXgHT6Y_oo.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "02b1f7b0fe5c981c",
       "title": "Classroom of the Elite: Year 3 Tops Oricon's Light Novel Ranking for October",
@@ -18409,25 +18426,6 @@
       },
       "translatedTitle": "Riku Iwami releases warm and sad new song “Knot”",
       "translatedExcerpt": "Riku Iwami released his new single \"Knot\" on Friday, November 6, 2026. This song was written as a song for the pilot movie of the original animation \"NINJA SKOOLER\" directed by Shunsuke Takarai. It is a ballad that carefully weaves warmth and sadness while following the story of a boy who admires ninjas. This song is a combination of the precise melody line cultivated as a writer and the delicate emotional expression that can only be conveyed through self-singing. The result is a song that somehow makes you feel tactile. Riku Iwami commented on the new song as follows. Comment Release information https://ototoy.jp/_/default/a/1787951 Artist information https://www.youtube.co…"
-    },
-    {
-      "id": "06ae27e5be5e9604",
-      "title": "故フィル・ライノット、没後40年記念ボックス『The Story Of My Life』発売 未発表ALも収録",
-      "link": "https://www.billboard-japan.com/d_news/detail/167194",
-      "publishedAt": "2026-11-06T01:00:00.000Z",
-      "excerpt": "シン・リジィのフロントマンとして知られるフィル・ライノットの没後40年を記念したボックス・セット『",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167194/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Late Phil Lynott, 40th anniversary commemorative box “The Story Of My Life” released, also includes unreleased AL",
-      "translatedExcerpt": "A box set commemorating 40 years since the death of Thin Lizzy frontman Phil Lynott."
     }
   ]
 }

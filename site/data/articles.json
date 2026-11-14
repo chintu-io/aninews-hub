@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T16:02:20.202Z",
+  "generatedAt": "2026-11-14T16:31:49.511Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 125,
+      "count": 126,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 102,
+      "count": 101,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 269,
+      "count": 267,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 74,
+      "count": 76,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 633,
+    "translatedJapaneseArticles": 632,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "02b1f7b0fe5c981c",
+      "title": "Classroom of the Elite: Year 3 Tops Oricon's Light Novel Ranking for October",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-14/classroom-of-the-elite-year-3-tops-oricon-light-novel-ranking-for-october/.243810",
+      "publishedAt": "2026-11-14T16:15:00.000Z",
+      "excerpt": "Witch on the Holy Night, Alya Sometimes Hides Her Feelings in Russian rank at #2, #3",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gA3/cms/news.10/243810/classrom-3-vol-5.avif",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "707b2b58009b9e8d",
+      "title": "Monogatari Series Girls Join Hololive’s holoX in New Crossover",
+      "link": "https://news.sankakucomplex.com/n/PMuozzqw-m7XCSR36LdYFA",
+      "publishedAt": "2026-11-14T16:00:21.000Z",
+      "excerpt": "The heroines of the Monogatari series are joining forces with Hololive’s VTuber unit Secret Society holoX for a special exhibition in Tokyo, bringing together some of anime’s most recognizable girls and four popular virtual personalities in an unusual crossover featuring exclusive artwork, mercha…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "a5c536058bc56dfd",
       "title": "Giant Ojo-sama Anime Casts Rina Kawaguchi as Stella",
@@ -6365,6 +6399,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "3cf3a62ce5eca306",
+      "title": "Tokyo’s Akihabara Installs 22 Smart Trash Cans to Combat Tourist Litter",
+      "link": "https://news.sankakucomplex.com/n/cDPFJS4XcyIPSHCFaObWeQ",
+      "publishedAt": "2026-11-11T16:00:51.000Z",
+      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18377,61 +18428,6 @@
       },
       "translatedTitle": "Late Phil Lynott, 40th anniversary commemorative box “The Story Of My Life” released, also includes unreleased AL",
       "translatedExcerpt": "A box set commemorating 40 years since the death of Thin Lizzy frontman Phil Lynott."
-    },
-    {
-      "id": "33bfdec5806303f7",
-      "title": "Leviathan Live-Action Film Reveals 36 Student Cast Members",
-      "link": "https://crunchyroll.com/news/latest/2026/11/6/leviathan-live-action-film-36-student-cast-members",
-      "publishedAt": "2026-11-06T00:59:00.000Z",
-      "excerpt": "The adaptaion of Shiro Kuroi's manga will open on February 11, 2027",
-      "image": "https://a.storyblok.com/f/178900/960x540/36ad06c45f/leviathan-film-student-cast.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "1ea3ec452d9497ae",
-      "title": "ブルース・スプリングスティーン、1975年大晦日のタワー・シアター公演が初の公式CD化",
-      "link": "https://www.billboard-japan.com/d_news/detail/167193",
-      "publishedAt": "2026-11-06T00:30:00.000Z",
-      "excerpt": "ブルース・スプリングスティーンが、1975年12月31日に米フィラデルフィア郊外のタワー・シアター",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167193/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Bruce Springsteen's 1975 New Year's Eve Tower Theater performance released on first official CD",
-      "translatedExcerpt": "Bruce Springsteen performs at the Tower Theater in suburban Philadelphia on December 31, 1975."
-    },
-    {
-      "id": "11c0ce3061e004aa",
-      "title": "【ビルボード】「TOKYO DRIFT(FAST & FURIOUS)」グローバル・ジャパン・ソングス20度目の首位 TFT出演のSiM／マスドレが急上昇",
-      "link": "https://www.billboard-japan.com/d_news/detail/167129",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "excerpt": "世界でヒットしている日本の楽曲をランキング化した&ldquo;Global Japan Songs",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167129/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] “TOKYO DRIFT (FAST & FURIOUS)” tops Global Japan Songs for the 20th time",
-      "translatedExcerpt": "“Global Japan Songs” is a ranking of Japanese songs that are hits around the world."
     }
   ]
 }

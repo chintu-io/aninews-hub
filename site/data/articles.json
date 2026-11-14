@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T02:34:19.344Z",
+  "generatedAt": "2026-11-14T03:02:45.812Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 104,
+      "count": 103,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 273,
+      "count": 272,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,29 +144,67 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 145,
+      "count": 147,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
     {
       "id": "sankaku",
       "name": "Sankaku Complex",
-      "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "status": "error",
+      "mode": null,
+      "feedUrl": null,
       "count": 75,
-      "fetchedCount": 24
+      "fetchedCount": 0
     }
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 8,
-    "failedSources": 0,
+    "successfulSources": 7,
+    "failedSources": 1,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 623,
+    "translatedJapaneseArticles": 624,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "16cb5613891a5317",
+      "title": "bloodthirsty butchers、結成から40周年『kocorono』『NO ALBUM 無題』『youth（青春）』配信開始",
+      "link": "https://ototoy.jp/news/132771",
+      "publishedAt": "2026-11-14T03:00:00.000Z",
+      "excerpt": "日本のオルタナティヴ・ロックシーンを代表するバンド、bloodthirsty butchersが11月14日に初ライヴから40年を迎え、マスターピース『kocorono』も、今年リリース30周年を迎える。 このアニバーサリーイヤーを記念して『kocorono』に加え、『kocorono』以来約14年ぶりのキングレコード復帰作となった『NO ALBUM 無題』、吉村が生前自ら“最高傑作な音像”を掲げていたバンド最後のアルバム『youth（青春）』の3作品が初めて配信となった。 歴史的名盤『kocorono』について、又吉直樹（ピース）、後藤正文（ASIAN KUNG-FU GENERATION）ら計8名の著名人からの寄稿も到着。アーカイヴプロジェクトSOUND FUJI公式サイトにて公開されている。近年、新…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132771/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "bloodthirsty butchers, 40th anniversary since formation, “kocorono”, “NO ALBUM Untitled”, and “youth” are now available",
+      "translatedExcerpt": "Bloodthirsty Butchers, a band representing Japan's alternative rock scene, will celebrate 40 years since their first live performance on November 14th, and their masterpiece ``kocorono'' will also celebrate its 30th anniversary this year. In commemoration of this anniversary year, in addition to ``kocorono,'' three other works have been distributed for the first time: ``NO ALBUM Untitled,'' which marks the band's return to King Records in about 14 years since ``kocorono,'' and ``youth,'' the band's last album, which Yoshimura himself described as a ``masterpiece sound image'' before his death. Regarding the historic masterpiece ``kocorono'', contributions from a total of 8 celebrities including Naoki Matayoshi (Peace) and Masafumi Goto (ASIAN KUNG-FU GENERATION) have also arrived. It is published on the Archive Project SOUND FUJI official website. In recent years, new..."
+    },
+    {
+      "id": "1f18a5c84b2da5d1",
+      "title": "Leon Thomas、官能的でグルーヴィーな新曲リリース",
+      "link": "https://ototoy.jp/news/132788",
+      "publishedAt": "2026-11-14T03:00:00.000Z",
+      "excerpt": "Leon Thomasが2026年11月13日(金)にニューシングル「Trophy」をリリースした。 本作は、彼の持ち味であるソウルフルなボーカルと、ファンクのエッセンスを取り入れた豊かなサウンドが融合したスロウバーニングなR&Bナンバー。クラシックソウルの普遍的な魅力を現代的なプロダクションで再構築した、色気とグルーヴに満ちた作品となっている。 本楽曲の中心にあるのは、愛する相手から特別な存在として認められたいという欲求。タイトルは、勝利や成功の象徴であると同時に、愛する人にとってかけがえのない存在でありたいという願いを表現している。 リリース情報 https://ototoy.jp/_/default/p/4440394 アーティスト情報 https://www.instagram.com/leont…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132788/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Leon Thomas releases sensual and groovy new song",
+      "translatedExcerpt": "Leon Thomas released his new single \"Trophy\" on Friday, November 13, 2026. This work is a slow-burning R&B number that combines his signature soulful vocals with a rich sound that incorporates the essence of funk. It is a work full of sex appeal and groove that recreates the universal appeal of classic soul with modern production. At the heart of this song is the desire to be recognized as special by the person you love. The title is a symbol of victory and success, and at the same time expresses the desire to be an irreplaceable presence to those you love. Release information https://ototoy.jp/_/default/p/4440394 Artist information https://www.instagram.com/leont…"
+    },
     {
       "id": "2d0fffbcfa7791f9",
       "title": "Sizuk Releases The Iceblade Sorcerer Shall Rule the World II Anime Opening Song Music Video",
@@ -233,7 +271,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2503358edcb2123f",
@@ -284,7 +323,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2ac232e5465a2fe5",
@@ -488,7 +528,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4927799735ce5eca",
@@ -962,7 +1003,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7fa3660c0fc1ebf4",
@@ -2010,7 +2052,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "53afb839c4c073e9",
@@ -2475,7 +2518,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "dddccee8a34ce5dc",
@@ -2881,7 +2925,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "52fe327feedcdfd4",
@@ -2898,7 +2943,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "275c1111fb36d46c",
@@ -3051,7 +3097,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "320861b6fe946eee",
@@ -3301,7 +3348,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4bfab078d76c3572",
@@ -3931,7 +3979,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "33b61149ee482f76",
@@ -4438,7 +4487,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "529f893298f51e53",
@@ -4673,7 +4723,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Raising word] Minori Suzuki, 10th anniversary since her debut, releases two new songs at the same time",
-      "translatedExcerpt": "Minori Suzuki, who celebrated her 10th anniversary since her debut, has been ranked in the fastest growing trend. Two new songs, ``Kokohon Acceleration'' and ``Naked Eyes,'' were released at the same time. Original music since January 2023. This is the first song of Cloud Nine's new musical activities. The two songs are works with different expressions, one that connects the past steps and one that challenges new musical expression. The music videos for both songs will be premiered at 20:00 on the 12th, the release date. Release information https://ototoy.jp/_/default/p/4431681 https://ototoy.jp/_/default/p/4431673 Artist information https://www.youtube.com/@Im_MinoriSuzuki https://x.com/minoringo_staff https:/…"
+      "translatedExcerpt": "デビュー10周年を迎えた鈴木みのりが急上昇ワードにランクイン。 新曲「心音加速度」「Naked Eyes」を2曲同時リリースした。 Original music since January 2023.クラウドナインでの新たな音楽活動の第一弾楽曲となる。 2曲はこれまでの歩みをつなぐ楽曲と、新しい音楽表現に挑戦する楽曲の異なる表情の作品に。リリース日の12日20:00から両楽曲のMVがプレミア公開される。 Release information https://ototoy.jp/_/default/p/4431681 https://ototoy.jp/_/default/p/4431673 Artist information https://www.youtube.com/@Im_MinoriSuzuki https://x.com/minoringo_staff https:/…"
     },
     {
       "id": "61708c04f724ecac",
@@ -4692,7 +4742,7 @@
         "language": "ja"
       },
       "translatedTitle": "Coi Leray releases melodious new song",
-      "translatedExcerpt": "Coi Leray released a new single \"Spin Back\" on Friday, November 6, 2026. This work is the lead single from the third studio album \"MULTI\" scheduled to be released in February next year. This work marks the beginning of a new chapter, presenting her musical individuality that crosses rap, melodious vocals, and dance music. This song is about the complicated feelings of possibly falling back into a past romantic relationship. It is a song that has both the exhilaration of club music and the intimacy of a love song. Release information https://ototoy.jp/_/default/p/4416936 Artist information https://www.instagram.com/coileray/"
+      "translatedExcerpt": "Coi Lerayが2026年11月6日(金)にニューシングル「Spin Back」をリリースした。 本作は、来年2月にリリース予定のサードスタジオアルバム『MULTI』からの先行シングル。 This work marks the beginning of a new chapter, presenting her musical individuality that crosses rap, melodious vocals, and dance music. 過去の恋愛関係に再び戻ってしまうかもしれないという、複雑な心情をテーマにした本楽曲。クラブミュージックとしての高揚感と、恋愛ソングとしての親密さを兼ね備えた1曲となっている。 リリース情報 https://ototoy.jp/_/default/p/4416936 アーティスト情報 https://www.instagram.com/coileray/"
     },
     {
       "id": "7c8e804d3c9186ce",
@@ -4946,7 +4996,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6d708ff8987a3646",
@@ -5071,7 +5122,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2a626eb1f60361e5",
@@ -5207,7 +5259,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ca24c9bc03e1fd31",
@@ -5379,7 +5432,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a8675125376d2b22",
@@ -5798,7 +5852,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2339a161f64e284a",
@@ -6280,7 +6335,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2bf45e044be4b371",
@@ -6992,7 +7048,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c8a674138a4c03e9",
@@ -7770,7 +7827,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f489d31fa41a03a9",
@@ -7787,7 +7845,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a4b6e9a7d4ca4146",
@@ -8410,7 +8469,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0d974df235c37cd8",
@@ -8427,7 +8487,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "05226f5c97aa462a",
@@ -9573,7 +9634,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "049569cdefb2e74c",
@@ -9590,7 +9652,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4a3fd189cd17d79d",
@@ -9857,7 +9920,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "adffff87bb902f11",
@@ -9874,7 +9938,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "63f0879cf3c21520",
@@ -10012,7 +10077,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "02ae5824bea91b65",
@@ -10029,7 +10095,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "53df64f567da6dde",
@@ -10721,7 +10788,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b7326af8bcfc2983",
@@ -10738,7 +10806,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b96ec36f11483f70",
@@ -11091,7 +11160,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1af60e03316e811f",
@@ -11108,7 +11178,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b9bfb8a335985b38",
@@ -11544,7 +11615,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "75ee62c4c003b417",
@@ -11561,7 +11633,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "64a950b87a01c094",
@@ -11813,7 +11886,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "488e33db1c5d041f",
@@ -11830,7 +11904,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "9f845feb9452138a",
@@ -11864,7 +11939,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b6254669a06b3285",
@@ -11881,7 +11957,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8192d7ccb76fced4",
@@ -12171,7 +12248,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "037bdf0a42f77d72",
@@ -12188,7 +12266,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "da7f0581dbb0119f",
@@ -12689,7 +12768,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fc4f0c45cf438d96",
@@ -12706,7 +12786,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3cc5cab59b60c9dc",
@@ -12962,7 +13043,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2e33df965d69b885",
@@ -12979,7 +13061,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5b9d84a4c1baef62",
@@ -13068,7 +13151,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0219a7236747eb36",
@@ -13085,7 +13169,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5fd1990ae2160982",
@@ -13102,7 +13187,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "42b2a299167aa012",
@@ -13119,7 +13205,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "228acadcc2658a4d",
@@ -13136,7 +13223,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8729b29d54deefc5",
@@ -13153,7 +13241,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8882456ff364cecb",
@@ -13707,7 +13796,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e4a991fdfeee6ac1",
@@ -13724,7 +13814,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8b6adce341bcc9fd",
@@ -14253,7 +14344,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "512f26ffbe1d30b8",
@@ -14270,7 +14362,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "819642f2bead4640",
@@ -14471,7 +14564,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "af6c413618a08216",
@@ -14488,7 +14582,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "92744b3e0b0cfc17",
@@ -14592,7 +14687,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fddf65e801f92e1c",
@@ -14609,7 +14705,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "987c8f8ea72d85e2",
@@ -14677,7 +14774,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "51dec9b7ab3fb5e3",
@@ -14694,7 +14792,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "23d7b79b02d12bbb",
@@ -15333,7 +15432,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "789691823e2eed69",
@@ -15350,7 +15450,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a91653c308ea4dcd",
@@ -16060,7 +16161,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "495b576a7ff50e68",
@@ -16077,7 +16179,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "019061fd6be05f25",
@@ -16986,7 +17089,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b78a741d8ba86da6",
@@ -17003,7 +17107,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "67a56b30655f0b73",
@@ -17261,7 +17366,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "323ebe9d2cc49af6",
@@ -17278,7 +17384,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1d4aaecc65566fda",
@@ -17382,7 +17489,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c7155b3a1e7f241c",
@@ -17399,7 +17507,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c1be2e4f4878e24e",
@@ -17637,7 +17746,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fb941f8a7957870a",
@@ -17654,7 +17764,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3cdc56451082b7ca",
@@ -18079,7 +18190,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f81353a7e9ee5ea2",
@@ -18096,7 +18208,8 @@
         "category": "Anime & Culture",
         "accent": "#a78bfa",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e6673448cb6524ca",
@@ -18376,42 +18489,6 @@
       },
       "translatedTitle": "[Billboard] Kazuki Kazumi/Hachi August/Kikka Ohashi “The fate of the other world depends on the company animals Volume 8 (comic version)” ranks 1st in “Hot Manga”",
       "translatedExcerpt": "Chart released on November 5, 2026 (Aggregation period: October 26, 2026 - November 1, 2026) Billboard"
-    },
-    {
-      "id": "f83e009d6b91869c",
-      "title": "Code Geass: Star Chaser Aspal Anime Reveals Main Cast, New Visual",
-      "link": "https://crunchyroll.com/news/latest/2026/11/5/code-geass-star-chaser-aspal-anime-main-cast-visual",
-      "publishedAt": "2026-11-05T10:01:00.000Z",
-      "excerpt": "The franchise's latest series debuts next year",
-      "image": "https://a.storyblok.com/f/178900/1460x821/4be471ffce/code-geass-star-chaser-aspal.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "a57fe4fac5e679bd",
-      "title": "＜ライブレポート＞LEX、自身最大規模ライブ開催 闇も苦しみもすべて希望の歌に",
-      "link": "https://www.billboard-japan.com/d_news/detail/167135",
-      "publishedAt": "2026-11-05T10:00:00.000Z",
-      "excerpt": "2026年10月30日、東京・TOYOTA ARENA TOKYOにてLEX初のアリーナ単独公演【",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167135/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<Live Report> LEX holds his biggest live show. Darkness and suffering all become songs of hope.",
-      "translatedExcerpt": "On October 30, 2026, LEX's first arena solo performance will be held at TOYOTA ARENA TOKYO, Tokyo ["
     }
   ]
 }

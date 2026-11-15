@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T17:02:57.111Z",
+  "generatedAt": "2026-11-15T17:31:46.378Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 102,
+      "count": 103,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 256,
+      "count": 255,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 620,
+    "translatedJapaneseArticles": 619,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "739433eb263deddf",
+      "title": "Magical Sisters Lulutto Lilly Anime Showcases Idols Toko and Sena in New Character Trailer",
+      "link": "https://crunchyroll.com/news/latest/2026/11/15/magical-sisters-lulutto-lilly-anime-toko-sena-character-trailer",
+      "publishedAt": "2026-11-15T17:01:00.000Z",
+      "excerpt": "The second cour of the magical girl series is now airing",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/a55421bb93/magical-sisters-lulutto-lilly-toko-sena.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "9d0963fca693b961",
       "title": "Mushoku Tensei: Jobless Reincarnation Watch Order and Arc Guide",
@@ -18387,25 +18404,6 @@
       },
       "translatedTitle": "Yorushika “Going through the clouds and downwind alone”, “Yakuya no Hitogoto” 2nd exclusive commercial will be aired",
       "translatedExcerpt": "The second exclusive commercial for Yorushika's ``Leave the clouds and go downwind alone'' will be aired on November 6th as part of the TV anime ``Yakuya no"
-    },
-    {
-      "id": "b51755c05dee8bc3",
-      "title": "私立恵比寿中学、りょたち（ねぐせ。）提供曲「Choose みー！」MVの舞台は架空のヒロインオーディション番組",
-      "link": "https://www.billboard-japan.com/d_news/detail/167218",
-      "publishedAt": "2026-11-06T07:55:00.000Z",
-      "excerpt": "私立恵比寿中学が、りょたち（ねぐせ。）提供の新曲「Choose みー！」のミュージックビデオを、本",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167218/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Shiritsu Ebisu Junior High School's song \"Choose Me!\" provided by Ryotachi (Neguse.) MV is set in a fictional heroine audition program",
-      "translatedExcerpt": "Shiritsu Ebisu Junior High School has released the music video for the new song “Choose Me!” provided by Ryotachi (Neguse.) as a book."
     }
   ]
 }

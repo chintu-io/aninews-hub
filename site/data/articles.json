@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T12:03:49.806Z",
+  "generatedAt": "2026-11-15T12:32:15.277Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 41,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 129,
+      "count": 130,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 259,
+      "count": 258,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -152,9 +152,9 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://www.sankakucomplex.com/feed/",
-      "count": 82,
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "count": 83,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,23 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "15cb00345119b7a7",
+      "title": "Stranger Than Heaven Game Streams Story Trailer for 2nd Act 'Kure'",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-15/stranger-than-heaven-game-streams-story-trailer-for-2nd-act-kure/.243829",
+      "publishedAt": "2026-11-15T12:15:00.000Z",
+      "excerpt": "Game launches on January 15 for Xbox Series X|S, PlayStation 5, PC via Steam",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gP7/youtube/uLm50nlAUwI.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "05a7c9302cd7bc50",
       "title": "a子、下北沢SHELTERでのクリスマスライブ開催決定",
@@ -5305,6 +5322,23 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "314b1696f257713f",
+      "title": "Pokémon Fire Red Recreated in 3D Using Let’s Go Graphics, Fan Remake Goes Viral",
+      "link": "https://news.sankakucomplex.com/n/oC5uRJ6ZWe5jq0KoT1uXuA",
+      "publishedAt": "2026-11-12T12:00:53.000Z",
+      "excerpt": "A fan developer has recreated Pokémon Fire Red as a fully 3D adventure using graphics and animations from Pokémon: Let’s Go, Pikachu! and Let’s Go, Eevee!, offering a glimpse of what the classic might look like with modern visuals.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18380,42 +18414,6 @@
         "siteUrl": "https://myanimelist.net/news",
         "category": "Anime News",
         "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "07b73a97aa32e752",
-      "title": "崎山蒼志、自身がリスペクトする吉澤嘉代子／lilbesh ramkoら迎えてツーマンライブ開催へ",
-      "link": "https://www.billboard-japan.com/d_news/detail/167210",
-      "publishedAt": "2026-11-06T05:10:00.000Z",
-      "excerpt": "崎山蒼志が、2027年2月から4月にかけて、3か月連続のツーマンライブ【ningen_ryoko_",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167210/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Soushi Sakiyama will hold a two-man live with Kayoko Yoshizawa/Lilbesh Ramko, whom he respects",
-      "translatedExcerpt": "Soushi Sakiyama will hold a two-man live performance for three consecutive months from February to April 2027 [ningen_ryoko_"
-    },
-    {
-      "id": "501f084e90bba614",
-      "title": "Pokémon doughnuts pop up at Mister Donut, with a new gathering that’s bigger than ever",
-      "link": "https://soranews24.com/2026/11/06/pokemon-doughnuts-pop-up-at-mister-donut-with-a-new-gathering-thats-bigger-than-ever/",
-      "publishedAt": "2026-11-06T05:00:08.000Z",
-      "excerpt": "The “Everyone Gather Together! Winter Pokémon Campaign” goes all out for the 30th anniversary celebrations. It’s become something of an annual tradition for Mister Donut to release a new Pokémon collection at the end of the year, with a different pocket monster taking centre stage as the star of the show. This year, however, for […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/Pokemon-doughnuts-Mister-Donut-Japan-limited-edition-menu-exclusive-Alolan-Diglett-Pikachu-Slowpoke-blanket-merchandise-winter-lucky-bag-sweets-news.jpeg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
         "language": "en"
       }
     }

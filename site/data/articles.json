@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T23:32:01.244Z",
+  "generatedAt": "2026-11-15T00:01:50.541Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 41,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 266,
+      "count": 267,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 628,
+    "translatedJapaneseArticles": 629,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "eff695b6e604ef8a",
+      "title": "薬師丸ひろ子、歌手活動45周年＆初のオーケストラベストアルバム発売を記念した日本武道館2days含む全国ツアー決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167003",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "excerpt": "薬師丸ひろ子のフルオーケストラコンサート【billboard classics「薬師丸ひろ子 Pr",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167003/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Hiroko Yakushimaru will be on a nationwide tour including 2 days at Nippon Budokan to commemorate her 45th anniversary as a singer and the release of her first orchestral best album.",
+      "translatedExcerpt": "Hiroko Yakushimaru's full orchestra concert [billboard classics \"Hiroko Yakushimaru Pr"
+    },
     {
       "id": "11a5ef528e68357e",
       "title": "Kyoto Art Festival Sculpture Destroyed, Organizers Suspect Drunken Vandals",
@@ -18405,23 +18424,6 @@
       },
       "translatedTitle": "HYUKOH will perform in Tokyo for one night only in March 2027",
       "translatedExcerpt": "It has been announced that HYUKOH will be performing in Tokyo for one night only. Flexible musicality unrestricted by genre"
-    },
-    {
-      "id": "e5ea1fd148b63ef1",
-      "title": "Tokyo to build new crematoriums to meet surging demand",
-      "link": "https://soranews24.com/2026/11/06/tokyo-to-build-new-crematoriums-to-meet-surging-demand/",
-      "publishedAt": "2026-11-06T01:00:51.000Z",
-      "excerpt": "Death is a growth industry that no one’s happy about. There has been a lot of talk about the aging population in Japan and how it’s affecting society and the economy. But a more immediate concern is how to handle the influx of people currently dying across the country. According to estimates, the number of […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/yuyaketonaiIMGP9124_TP_V4.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
     }
   ]
 }

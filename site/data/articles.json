@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T11:31:42.947Z",
+  "generatedAt": "2026-11-15T12:03:49.806Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 260,
+      "count": 259,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 212,
+      "count": 213,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "mode": "direct",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 82,
       "fetchedCount": 24
     }
@@ -167,6 +167,25 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "05a7c9302cd7bc50",
+      "title": "a子、下北沢SHELTERでのクリスマスライブ開催決定",
+      "link": "https://barks.jp/news/1104660",
+      "publishedAt": "2026-11-15T12:00:04.000Z",
+      "excerpt": "シンガーソングライターのa子が、12月18日に＜Londog pre. “Ako Christmas Live 2026″＞を下北沢SHELTERにて開催することを発表した。 2027年1月には、初のファンクラブ会員限定ツアー＜a子 FANCLUB TOUR “LONDOG” Vol.1＞の開催も決定しているa子。この度発表となったクリスマスライブはa子にとって2026年最後のステージとなっている。チケットは最速先行（抽選）の受付がスタートしており、11月23日23:59締切となる。 ■＜Londog pre. “Ako Christmas Live 2026″＞2026年12月18日（金）下北沢SHELTER開場 20:00 / 開演 20:30 ▼チケット6,500円（税込）＋ドリンク代別途最速先行（…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/08/22193216/a%E5%AD%90.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "a-ko will hold a Christmas live performance at Shimokitazawa SHELTER",
+      "translatedExcerpt": "Singer-songwriter ako has announced that she will hold <Londog pre. “Ako Christmas Live 2026”> at Shimokitazawa SHELTER on December 18th. In January 2027, a-ko will hold her first fan club members-only tour <a-ko FANCLUB TOUR “LONDOG” Vol.1>. The recently announced Christmas live will be a-ko's last stage in 2026. Tickets are now available for the earliest advance (lottery), which closes at 23:59 on November 23rd. ■＜Londog pre. “Ako Christmas Live 2026″＞December 18, 2026 (Friday) Shimokitazawa SHELTER Opens 20:00 / Starts 20:30 ▼Tickets 6,500 yen (tax included) + Fastest advance (drink fee not included)"
+    },
     {
       "id": "5c434971af9ad8cf",
       "title": "〈CDTVライブ！ライブ！〉11/16見どころ",
@@ -18399,25 +18418,6 @@
         "accent": "#6fc9e6",
         "language": "en"
       }
-    },
-    {
-      "id": "545f9e196119b701",
-      "title": "Ayumu Imazu／Kroi／tuki.／Novelbrightら【RADIO CRAZY】追加出演アーティスト発表",
-      "link": "https://www.billboard-japan.com/d_news/detail/167212",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "excerpt": "FM802が12月26日から28日までの3日間、大阪・インテックス大阪で開催する年末恒例のロックフ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167212/800x_image.png",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Ayumu Imazu/Kroi/tuki./Novelbright and others [RADIO CRAZY] Additional artists announced",
-      "translatedExcerpt": "FM802 will be holding the year-end rock festival for three days from December 26th to 28th at Intex Osaka, Osaka."
     }
   ]
 }

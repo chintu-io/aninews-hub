@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T17:32:11.935Z",
+  "generatedAt": "2026-11-16T18:02:06.290Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 42,
+      "count": 43,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 260,
+      "count": 259,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 618,
+    "translatedJapaneseArticles": 617,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "5ab885a00bcc9e61",
+      "title": "Starbucks Japan unveils new Christmas Matcha Tiramisu Frappuccino",
+      "link": "https://soranews24.com/2026/11/17/starbucks-japan-unveils-new-christmas-matcha-tiramisu-frappuccino/",
+      "publishedAt": "2026-11-16T17:30:53.000Z",
+      "excerpt": "Serving up the tastiest Christmas tree, with layers of powdered green tea. At this time of year in Japan, you’ll start to see Christmas trees popping up all over the place, with their green hues brightening the landscape as the days get colder and shorter. It’s not the only place you’ll be seeing green, as […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/Starbucks-Japan-Matcha-Tiramisu-Frappuccino-Christmas-2026-holiday-limited-edition-exclusive-drinks-menu-green-tea-news-.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "d6fc6abbb3ebc09b",
       "title": "It’s Time to Pick Your Favorite Fall Anime Opening of 2026!",
@@ -18383,25 +18400,6 @@
       },
       "translatedTitle": "HIKKA will be in charge of the ending theme for TV anime \"Breath\". Announcement of first one-man tour",
       "translatedExcerpt": "HIKKA announced that their new song \"New Page\" has been used as the ending theme for the TV anime \"Breath\". This song is an R&B pop song that expresses the conflicts and anguish that HIKKA himself felt during his music career, but his will to move forward despite this, in a sophisticated track. The melody, sung lightly, supple, and powerfully, is said to be a song that touches and gives encouragement to many people chasing their dreams. ◆ ◆ ◆ ◾️HIKKA Comment I was really happy and honored when I was asked to write the ending theme song. The main character, Aia, has a lot in common with me. Because I myself have struggled and searched for my true identity, I put the words I wanted to convey to myself in \"New Page\" when I was lost. He moves toward his future while still carrying his past and conflicts. This song is like that..."
-    },
-    {
-      "id": "3a29bc1d173e13d8",
-      "title": "Kroi、新曲「SPIN」レコーディング風景収めたドキュメンタリー映像公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167242",
-      "publishedAt": "2026-11-07T07:55:00.000Z",
-      "excerpt": "Kroiが、新曲「SPIN」のレコーディング風景を収めたドキュメンタリー映像を公開した。 映像",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167242/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Kroi releases documentary video footage of recording of new song “SPIN”",
-      "translatedExcerpt": "Kroi has released a documentary video depicting the recording of their new song \"SPIN\". picture"
     }
   ]
 }

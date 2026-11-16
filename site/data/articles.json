@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T16:32:07.632Z",
+  "generatedAt": "2026-11-16T17:02:14.746Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 100,
+      "count": 101,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 261,
+      "count": 260,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 620,
+    "translatedJapaneseArticles": 618,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "d6fc6abbb3ebc09b",
+      "title": "It’s Time to Pick Your Favorite Fall Anime Opening of 2026!",
+      "link": "https://crunchyroll.com/news/quizzes/2026/11/16/best-fall-anime-opening-2026-poll",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "excerpt": "Vote on the best anime opening of the season!",
+      "image": "https://a.storyblok.com/f/178900/960x540/a50ee69376/magic-knight-reyearth-episode-2.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "ed12b8f5b49bb648",
       "title": "French Manga, Comic Creator Frédéric Boilet Dies at 66",
@@ -18385,25 +18402,6 @@
       },
       "translatedTitle": "Kroi releases documentary video footage of recording of new song “SPIN”",
       "translatedExcerpt": "Kroi has released a documentary video depicting the recording of their new song \"SPIN\". picture"
-    },
-    {
-      "id": "41caa4e2ef5ef136",
-      "title": "chilldspot、映画『男ともだち』劇中歌「lost child」MV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167241",
-      "publishedAt": "2026-11-07T07:50:00.000Z",
-      "excerpt": "chilldspotが、映画『男ともだち』の劇中歌として書き下ろした新曲「lost child」の",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167241/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "chilldspot releases music video for the song “lost child” from the movie “Otoko Tomodachi”",
-      "translatedExcerpt": "chilldspot's new song \"lost child\", which was written as a song in the movie \"Otoko Tomodachi\"."
     }
   ]
 }

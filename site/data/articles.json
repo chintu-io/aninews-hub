@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T22:01:56.387Z",
+  "generatedAt": "2026-11-16T22:33:39.075Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 135,
+      "count": 136,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 205,
+      "count": 204,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "mode": "direct",
+      "feedUrl": "https://news.sankakucomplex.com/feed/",
       "count": 84,
       "fetchedCount": 24
     }
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 615,
+    "translatedJapaneseArticles": 614,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "969347f7aa561c11",
+      "title": "『ヘドウィグ・アンド・アングリーインチ』メインビジュアル公開 松田ゆう姫、スガ シカオ、Duranからコメント到着",
+      "link": "https://ototoy.jp/news/132821",
+      "publishedAt": "2026-11-16T22:00:00.000Z",
+      "excerpt": "ジョン・キャメロン・ミッチェルが作・演出を手掛け、丸山隆平が主演を務めるブロードウェイミュージカル『ヘドウィグ・アンド・アングリーインチ』のメインビジュアルが公開され、あわせてミュージカル初挑戦となる松田ゆう姫の出演が決定した。 さらに、本作を支える豪華音楽チームも決定。松田ゆう姫、そして音楽チームの面々から、本作への意気込みを語ったコメントも到着した。 今回発表となったメインビジュアルでは、丸山隆平がド派手な金髪に鮮やかなブルーのアイメイク、真っ赤なリップをまとい、強烈な存在感を放つヘドウィグの姿を披露。大きく開いたその口元には、華やかなメイクを脱ぎ去った“素顔”のヘドウィグの姿が映し出されている。大胆な装いに身を包んだヘドウィグと、その内側に潜むありのままの自分。相反する二つの姿を通して、ヘドウィグの…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132821/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "\"Hedwig and the Angry Inch\" main visual released Comments received from Yuki Matsuda, Shikao Suga, and Duran",
+      "translatedExcerpt": "The main visual for the Broadway musical ``Hedwig and the Angry Inch,'' written and directed by John Cameron Mitchell and starring Ryuhei Maruyama, has been released, and it has also been announced that Yuhime Matsuda will be appearing in her first musical role. Furthermore, the gorgeous music team supporting this work has also been decided. Comments have also arrived from Yuhime Matsuda and members of the music team expressing their enthusiasm for this work. In the main visual released this time, Ryuhei Maruyama shows off the appearance of Hedwig, who has flashy blonde hair, bright blue eye makeup, and bright red lips, giving off a strong presence. With her mouth wide open, we can see Hedwig's ``real face'', which has been stripped of her glamorous makeup. Hedwig is dressed in a bold outfit, and the true self that lies within. Through two contradictory appearances, Hedwig's..."
+    },
+    {
+      "id": "d77a9150782c28c3",
+      "title": "D.I.C.E. Awards Honors Nintendo Game Creator Shigeru Miyamoto With Inaugural Legend Award",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-16/d.i.c.e-awards-honors-nintendo-game-creator-shigeru-miyamoto-with-inaugural-legend-award/.243870",
+      "publishedAt": "2026-11-16T22:00:00.000Z",
+      "excerpt": "Super Mario Bros., Legend of Zelda creator earns award presented only once per decade",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gB7/cms/news.10/243145/17-miyamotoshigeru-1.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "27d9d1d2382f73d4",
       "title": "Ultraman Teo Actress Noa Nekada Dies at 23",
@@ -18358,44 +18394,6 @@
       },
       "translatedTitle": "sumika releases live video of “Lovers” from new single first limited edition",
       "translatedExcerpt": "sumika has released the live video of \"Lovers\" from the first limited edition BD of the single \"Ember Torch/Hajimari no Sayonara/Umm\" to be released on November 18, 2026. The Blu-ray that comes with the first limited edition of this single includes footage from ＜sumika Film #18 sumika Live Tour 2026 “Unique” 2026.7.24 at Nippon Budokan＞. Additionally, on SNS, some multi-angle live footage that follows the members individually has also been released. Furthermore, upon the release of \"Ember Torch/Hajimari no Sayonara/Umm\", it was announced that a live photo panel exhibition will be held at CD shops nationwide and a costume exhibition will be held at Tower Records Shibuya store. Please check below for details. ◾️12th single “Ember Torch/Hajimari no…”"
-    },
-    {
-      "id": "ff0fb78f61cbf7a2",
-      "title": "Twisted Teens、全13曲を収録した新AL発売",
-      "link": "https://ototoy.jp/news/132664",
-      "publishedAt": "2026-11-07T09:00:00.000Z",
-      "excerpt": "Twisted Teensが2026年11月6日(金)にニューアルバム『The Holy Cross Tigers』をリリースした。 ガレージロック、カントリー、ブルース、伝統的なフォークを自由に横断した本作。失恋、孤独、後悔、そして人生の困難を乗り越えようとする人間の姿を描いた作品となっている。 飾り気のない演奏と生々しい感情表現によって、個人的な経験を普遍的な物語へと変換した本作。メジャーなスタジオ制作とは異なる、DIY精神に根ざしたレコーディング手法を採用している。 リリース情報 https://ototoy.jp/_/default/p/4412899 アーティスト情報 https://www.instagram.com/twistedteensneworleans/",
-      "image": "https://imgs.ototoy.jp/news/image.php/132664/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Twisted Teens Launches New AL Containing 13 Songs",
-      "translatedExcerpt": "Twisted Teensが2026年11月6日(金)にニューアルバム『The Holy Cross Tigers』をリリースした。 ガレージロック、カントリー、ブルース、伝統的なフォークを自由に横断した本作。失恋、孤独、後悔、そして人生の困難を乗り越えようとする人間の姿を描いた作品となっている。 飾り気のない演奏と生々しい感情表現によって、個人的な経験を普遍的な物語へと変換した本作。メジャーなスタジオ制作とは異なる、DIY精神に根ざしたレコーディング手法を採用している。 リリース情報 https://ototoy.jp/_/default/p/4412899 アーティスト情報 https://www.instagram.com/twistedteensneworleans/"
-    },
-    {
-      "id": "86dec1f2a511b72f",
-      "title": "Uru、シングル「それなのに」収録曲公開。離婚伝説「ファーストキス」カバー収録＆リリックビデオ公開も",
-      "link": "https://barks.jp/news/1103041",
-      "publishedAt": "2026-11-07T09:00:00.000Z",
-      "excerpt": "Uruが、2026年12月9日にCDリリースするシングル「それなのに」の収録内容、店舗別CD購入特典画像を公開した。 本シングルには、10月に配信リリースされたドラマ『あにいもうと』主題歌「それなのに」に加えて、離婚伝説「ファーストキス」のカバーを収録。スーパー登山部・小田智之が手掛けたピアノアレンジに載せたUruの包み込むような歌声によって、爽やかな楽曲がまた新たな一面をみせる仕上がりになっているという。さらに本日、「ファーストキス」のショートバージョンのリリックビデオも公開となった。 特別ケース仕様の初回生産限定盤限定で付属するBlu-rayには、自身3年ぶりのツアーとして開催された＜Uru Tour 2026「tone」＞の埼玉公演から「Never ends」「夜が明けるまで」「アンビバレント」のラ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/17194509/Uru_artistphoto_0918.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Uru releases songs from single \"Sore Nanoni\". Divorce legend “First Kiss” cover recording and lyric video released",
-      "translatedExcerpt": "Uru has released the contents of the single \"Sore Nanoni\", which will be released on CD on December 9, 2026, and the CD purchase bonus images for each store. This single includes the theme song ``Sore Nanoni'' for the drama ``Ani Mouto'' released in October, as well as a cover of the divorce legend ``First Kiss.'' Uru's enveloping voice over the piano arrangement created by Tomoyuki Oda of Super Tozan Club gives the refreshing song a new side. Additionally, a short lyric video for \"First Kiss\" was also released today. The Blu-ray that comes with the first limited edition with a special case includes tracks from the Saitama performance of <Uru Tour 2026 \"tone\", which was held as his first tour in three years, to \"Never ends\", \"Until the night dawns\", and \"Ambivalent\"..."
     }
   ]
 }

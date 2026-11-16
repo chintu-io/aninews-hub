@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T12:01:54.952Z",
+  "generatedAt": "2026-11-16T12:31:59.957Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 42,
+      "count": 41,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 131,
+      "count": 130,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 101,
+      "count": 98,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 256,
+      "count": 259,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 210,
+      "count": 212,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,139 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 619,
+    "translatedJapaneseArticles": 624,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "808496efce3b408f",
+      "title": "jo0ji、男女の終わりゆく恋愛を「飽々」MVで表現",
+      "link": "https://www.billboard-japan.com/d_news/detail/167490",
+      "publishedAt": "2026-11-16T12:30:00.000Z",
+      "excerpt": "jo0jiが、新曲「飽々」のミュージックビデオを公開した。 2026年11月2日に配信リリース",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167490/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "jo0ji expresses the end of the love between a man and a woman in the ``Akutaku'' MV",
+      "translatedExcerpt": "jo0ji has released the music video for his new song \"Akutsu\". Distribution release on November 2, 2026"
+    },
+    {
+      "id": "3c22a82b82653a6a",
+      "title": "FRUITS ZIPPER、初のスタジアムツアーへ「絶対にいいライブにするぞ」",
+      "link": "https://www.billboard-japan.com/d_news/detail/167488",
+      "publishedAt": "2026-11-16T12:25:00.000Z",
+      "excerpt": "FRUITS ZIPPERが、2027年6月より初のスタジアムツアーを開催する。 デビュー5周",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167488/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "FRUITS ZIPPER to go on first stadium tour: \"I'm sure it'll be a great live show\"",
+      "translatedExcerpt": "FRUITS ZIPPER will hold their first stadium tour starting June 2027. Debut 5 laps"
+    },
+    {
+      "id": "45ccc281d082141a",
+      "title": "TOMORROW X TOGETHER、新曲「Angel Bite」MV公開＆ワールドツアー韓国公演で披露",
+      "link": "https://www.billboard-japan.com/d_news/detail/167487",
+      "publishedAt": "2026-11-16T12:20:00.000Z",
+      "excerpt": "TOMORROW X TOGETHERが、新曲「Angel Bite」のミュージックビデオを公開し",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167487/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "TOMORROW",
+      "translatedExcerpt": "TOMORROW X TOGETHER releases music video for new song “Angel Bite”"
+    },
+    {
+      "id": "6a2fc7204b4bb75d",
+      "title": "Märchen Crown Manga Ends in Next Chapter",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-16/marchen-crown-manga-ends-in-next-chapter/.243838",
+      "publishedAt": "2026-11-16T12:15:00.000Z",
+      "excerpt": "Series from Aka Akasaka, Aoi Kujira, Ajichika debuted in March 2025",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gE3/cms/news.10/243838/71jxm8yg8nl.sl1200.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "58ef3297f3bc6edf",
+      "title": "King & Prince・髙橋海人ソロ名義「KAITO」、1st EP『SALT BOY』制作密着ドキュメンタリー第2弾公開",
+      "link": "https://barks.jp/news/1104890",
+      "publishedAt": "2026-11-16T12:00:55.000Z",
+      "excerpt": "King & Prince・髙橋海人が、ソロ名義である「KAITO」として2026年11月25日に1st EP『SALT BOY』をリリースする。これに先駆け、EP制作に密着したドキュメンタリー映像の第2弾『WHO IS “SALT BOY”? -2』が公開された。 1st EP『SALT BOY』は、KAITO自身が収録曲全ての作詞作曲、アートワーク、MVの制作に携わり、KAITOならではのクリエイティブを詰め込んだ渾身の1枚。KAITOのソロ始動楽曲としてEPにも収録される「swim?」が本日16日放送のTBS『CDTVライブ！ライブ！』でフルサイズ披露され、SNSを中心に注目を集めた 公開されたドキュメンタリー映像第二弾では、KAITO自身が「作っているときの自分がこんな表情してるんだって、自分で見…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/03181253/KAITO_Aphoto_resize-819x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "King & Prince Kaito Takahashi's solo name \"KAITO\" releases the second documentary on the production of his 1st EP \"SALT BOY\"",
+      "translatedExcerpt": "King & Prince's Kaito Takahashi will release his 1st EP \"SALT BOY\" under his solo name \"KAITO\" on November 25, 2026. Prior to this, the second documentary video “WHO IS “SALT BOY”? -2”, which closely follows the production of the EP, was released. The 1st EP ``SALT BOY'' is a full-fledged album packed with KAITO's unique creativity, with KAITO himself involved in the songwriting, artwork, and music video production for all songs included. \"swim?\", which will be included in the EP as KAITO's solo starting song, will be featured on TBS's \"CDTV Live!\" which will be broadcast today on the 16th. Live! In the second documentary video that was released, KAITO himself said, ``I can't believe I look like this when I'm making something...''"
+    },
+    {
+      "id": "285d704331acab49",
+      "title": "MUCC、結成30周年を飾るニューアルバム『LOTUS』発売日が決定",
+      "link": "https://barks.jp/news/1104832",
+      "publishedAt": "2026-11-16T12:00:49.000Z",
+      "excerpt": "MUCCが、18枚目となるニューアルバム『LOTUS』を2027年2月24日（水）に発売することが決定した。 本作は2025年4月にリリースしたアルバム『1997』以来、約1年10カ月ぶりとなるオリジナルアルバム。1997年の結成以来、独自の音楽性を追求し進化を続けてきたMUCCが、30周年という大きな節目に送り出すアルバムになる。 初回限定盤にはLIVE CDが付属され、本日11月16日（月）、水戸ライトハウス公演を皮切りにスタートした＜MUCC Club tour 2026 Beginning to Lotus＞の各会場で披露された楽曲の中から選曲される予定で、最新のライヴ音源をいち早く音源で楽しむことができる。 さらに、クラウン徳間ショップ限定盤には『LOTUS』収録曲のカラオケCDが付属する他、オ…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/13163406/01_MUCC_AP-1024x682.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "MUCC's new album \"LOTUS\", which celebrates their 30th anniversary, has been released.",
+      "translatedExcerpt": "MUCC has decided to release their 18th new album ``LOTUS'' on Wednesday, February 24, 2027. This work is an original album for the first time in about 1 year and 10 months since the album \"1997\" released in April 2025. Since their formation in 1997, MUCC has continued to evolve in pursuit of their own unique musicality, and this album will be released on the occasion of their 30th anniversary. The first limited edition will come with a LIVE CD, and will be selected from the songs performed at each venue of the <MUCC Club tour 2026 Beginning to Lotus>, which started today, November 16th (Monday), starting with the Mito Lighthouse performance, so you can enjoy the latest live sound source as soon as possible. In addition, the Crown Tokuma Shop limited edition comes with a karaoke CD of songs from \"LOTUS\", as well as..."
+    },
+    {
+      "id": "4d0a5403e08e365d",
+      "title": "Hololive Merchandise Sales Drop 14.5% Following VTuber Graduations",
+      "link": "https://news.sankakucomplex.com/n/yUn2F3XmmsPGA4KLUigeWw",
+      "publishedAt": "2026-11-16T12:00:22.000Z",
+      "excerpt": "Hololive production operator Cover Corporation has reported a 14.5% decline in merchandise revenue, with the departures of several VTubers continuing to affect sales, although the company’s increasingly lucrative trading card game business is helping to compensate for the losses.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "ffce9af523a98445",
       "title": "STARGLOW、1stアルバム『Aurora』タイトル曲MV公開。振付担当・三浦大知からコメント到着",
@@ -4449,6 +4578,23 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "40fbddb99582812a",
+      "title": "Square Enix Profits Surge 63% as Final Fantasy VII Rebirth & Other Games Boost Earnings",
+      "link": "https://news.sankakucomplex.com/n/UZckuSyy0zJs9K7UjluIGQ",
+      "publishedAt": "2026-11-13T12:00:27.000Z",
+      "excerpt": "Square Enix has reported a substantial increase in profits from its video game business, with Final Fantasy VII Rebirth, The Adventures of Elliot: The Millennium Tales, and strong sales of older titles helping the Japanese publisher enjoy a particularly lucrative financial period.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18268,142 +18414,6 @@
       },
       "translatedTitle": "SUPER EIGHT's Shohiro Yasuda will release his 2nd digital single \"Arimama no Tobira/Jinji-e\"",
       "translatedExcerpt": "SUPER EIGHT's Yasuda Shohiro has announced that he will release his 2nd digital single ``Arimama no Tobira/Jinpen-e'' on November 9, 2026. Shota Yasuda released his 1st digital single “Baka/Madara Biyori” on September 11, 2026, and started his career as a singer-songwriter. While delivering his own experiences and thoughts through music, he will soon release his second digital single. This album includes two songs: \"Arimama no Tobira\", which took about 15 years to complete, and \"Hitofu Degaki\", which was created based on his feelings for the members. It is said that the production of ``The Existing Door'' began in the wake of the Great East Japan Earthquake on March 11, 2011, and was inspired by the desire to ``do something to help'' and the frustration of ``not being able to do anything'' when visiting the disaster area."
-    },
-    {
-      "id": "410d7cd072bad109",
-      "title": "Paradox Live THE MOVIE Anime Film Slated for 2027, Reveals Super Teaser Visual",
-      "link": "https://crunchyroll.com/news/latest/2026/11/7/paradox-live-the-movie-anime-film-2027-super-teaser-visual",
-      "publishedAt": "2026-11-07T01:36:00.000Z",
-      "excerpt": "Crunchyroll streams the Paradox Live THE ANIMATION TV series",
-      "image": "https://a.storyblok.com/f/178900/960x540/3890a86195/paradox-live-the-movie-header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "d03c4acd5ed8ee0c",
-      "title": "Hana-Kimi Manga Celebrates 30th Anniversary with New Live-Action Drama and Stage Play",
-      "link": "https://crunchyroll.com/news/latest/2026/11/7/hana-kimi-manga-30th-anniversary-new-live-action-drama-stage-play",
-      "publishedAt": "2026-11-07T01:06:00.000Z",
-      "excerpt": "The 12 main cast will star in both the drama and the play",
-      "image": "https://a.storyblok.com/f/178900/960x540/c2e3c8057b/hana-kimi-drama-header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "dbeeeacfbe5b2964",
-      "title": "Get the taste of the U.K. in Tokyo with 99 Flakes, meat pies, and Jaffa Cakes",
-      "link": "https://soranews24.com/2026/11/07/get-the-taste-of-the-u-k-in-tokyo-with-99-flakes-meat-pies-and-jaffa-cakes/",
-      "publishedAt": "2026-11-07T01:00:47.000Z",
-      "excerpt": "This tiny Shibuya spot brings quintessential UK snacks straight to central Tokyo. Whether you have moved to a different country and pining for the foodstuffs of the motherland or you are interested in foreign cuisine without the hefty price tag of the airfare, specialty import stores are a treat to walk around. Tucked away amid […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/imgi_340_b1_e80dcf.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "53bdb6905b8593ce",
-      "title": "Hana-Kimi Manga Gets New Live-Action Series, 1st Stage Play",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-06/hana-kimi-manga-gets-new-live-action-series-1st-stage-play/.243601",
-      "publishedAt": "2026-11-06T23:51:13.000Z",
-      "excerpt": "Hana Kawamura, The Rampage's Makoto Hasegawa & Itsuki Fujiwara star in both",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gS5/cms/news.10/243601/q6hc4p1dk2wjelzne2nuzvkmuo2jp5.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "3bb94f01c0605ef7",
-      "title": "Pixiv Loses Wise Payouts After Account Suspension",
-      "link": "https://news.sankakucomplex.com/n/pyhCRPyi8u_w6HQH2gcXwQ",
-      "publishedAt": "2026-11-06T22:00:28.000Z",
-      "excerpt": "Japanese illustration platform Pixiv has announced that Wise will no longer be available for creator payouts starting in November 2026, leaving some international artists unable to withdraw their earnings and forcing others to abandon their subscriptions.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "fddf65e801f92e1c",
-      "title": "Pixiv Loses Wise Payouts After Account Suspension",
-      "link": "https://news.sankakucomplex.com/n/h10uLuxEcp9V6xeyDAlFWA",
-      "publishedAt": "2026-11-06T22:00:28.000Z",
-      "excerpt": "Japanese illustration platform Pixiv has announced that Wise will no longer be available for creator payouts starting in November 2026, leaving some international artists unable to withdraw their earnings and forcing others to abandon their subscriptions.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "987c8f8ea72d85e2",
-      "title": "North American Anime, Manga Releases, November 1-7",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-06/north-american-anime-manga-releases-november-1-7/.243459",
-      "publishedAt": "2026-11-06T22:00:00.000Z",
-      "excerpt": "KPop Demon Hunters animated film; Black Jack, Full Metal Panic! Family manga ship",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gNC/herald/202851/kpop-demon-hunters-4k-uhd.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "a57a9abf74db5c68",
-      "title": "Navigating Survivor's Guilt Through Godzilla Minus Zero",
-      "link": "https://crunchyroll.com/news/features/2026/11/6/navigating-survivor-s-guilt-through-godzilla-minus-zero",
-      "publishedAt": "2026-11-06T21:00:00.000Z",
-      "excerpt": "Can you live in a place with a Godzilla?",
-      "image": "https://a.storyblok.com/f/178900/960x540/94f1adceea/godzilla-minus-zero.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

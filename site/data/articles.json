@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T16:01:47.196Z",
+  "generatedAt": "2026-11-16T16:32:07.632Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 133,
+      "count": 135,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 99,
+      "count": 100,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 265,
+      "count": 261,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 205,
+      "count": 206,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,61 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 622,
+    "translatedJapaneseArticles": 620,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "ed12b8f5b49bb648",
+      "title": "French Manga, Comic Creator Frédéric Boilet Dies at 66",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-16/french-manga-comic-creator-frederic-boilet-dies-at-66/.243766",
+      "publishedAt": "2026-11-16T16:30:00.000Z",
+      "excerpt": "Boilet drew Yukiko's Spinach, Mariko Parade manga",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gV9/cms/news.10/243766/frederic-boilet.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "9bd885bdca785a50",
+      "title": "The Days of Diamond Anime Adaptation Announced",
+      "link": "https://crunchyroll.com/news/latest/2026/11/16/the-days-of-diamond-anime-adaptation-announced",
+      "publishedAt": "2026-11-16T16:04:00.000Z",
+      "excerpt": "Lapin Track will adapt Ohashi Hirai's ongoing baseball manga",
+      "image": "https://a.storyblok.com/f/178900/960x540/c702c77581/the-days-of-diamond-hero.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "e5558e12a8406116",
+      "title": "The Days of Diamond Manga Gets TV Anime",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-16/the-days-of-diamond-manga-gets-tv-anime/.243858",
+      "publishedAt": "2026-11-16T15:41:18.000Z",
+      "excerpt": "Takakazu Nagatomo to direct anime of Ōhashi Hirai's manga at Lapin Track",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gO0/cms/news.10/243858/the-days-of-diamond-anime.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "db5636a7a614d1cd",
       "title": "Manga 'Diamond no Kouzai' Gets TV Anime",
@@ -200,6 +251,25 @@
         "accent": "#ffb45f",
         "language": "en"
       }
+    },
+    {
+      "id": "c72b55f46586ef98",
+      "title": "稲葉浩志、ソロ初の東京ドーム単独公演を2027年8月に2DAYS開催「おかげさまで30年目を迎えます」",
+      "link": "https://barks.jp/news/1104959",
+      "publishedAt": "2026-11-16T15:05:00.000Z",
+      "excerpt": "稲葉浩志が2027年8月14日および15日の2日間、東京ドーム単独公演＜Koshi Inaba LIVE 2027 〜en-DOME〜＞を開催することが決定した。2027年にソロデビュー30周年を迎える稲葉浩志による、自身初の東京ドーム単独公演となるものだ。 稲葉浩志は1988年9月21日にB’zでデビューした後、1997年1月29日に1stアルバム『マグマ』でソロデビューを果たした。2004年からはアリーナクラスの会場を中心にソロツアーを積み重ねてきたが、30周年を迎える節目の2027年、満を持して初の東京ドーム単独公演に挑む。 東京ドーム公演のタイトルは＜Koshi Inaba LIVE 2027 〜en-DOME〜＞だ。これまでのツアータイトルにも掲げている＜en＞は、稲葉自身がソロ活動において大切…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/17010958/INB30_AP_OK-1024x724.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Hiroshi Inaba will hold his first solo performance at Tokyo Dome for 2 days in August 2027. “Thanks to you, we will be celebrating our 30th anniversary.”",
+      "translatedExcerpt": "It has been decided that Koshi Inaba will hold a solo performance at Tokyo Dome ``Koshi Inaba LIVE 2027 ~en-DOME~'' on August 14th and 15th, 2027. This will be Hiroshi Inaba's first solo performance at Tokyo Dome, which will mark his 30th anniversary since his solo debut in 2027. Hiroshi Inaba made his debut with B'z on September 21, 1988, and made his solo debut with his first album ``Magma'' on January 29, 1997. Since 2004, he has been touring solo mainly at arena-class venues, but in 2027, when he will celebrate his 30th anniversary, he will take on his first solo performance at Tokyo Dome. The title of the Tokyo Dome performance is <Koshi Inaba LIVE 2027 ~en-DOME~>. The word <en>, which has been mentioned in the tour titles so far, is important to Inaba in her solo activities..."
     },
     {
       "id": "35b2d1772bece40c",
@@ -4354,6 +4424,23 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "768fc975ead0efe7",
+      "title": "Legend of Zelda: Ocarina of Time Remake Becomes Fastest-Selling Switch 2 Title",
+      "link": "https://news.sankakucomplex.com/n/t60YUJw9VsrI5nUKgBZn3Q",
+      "publishedAt": "2026-11-13T16:00:30.000Z",
+      "excerpt": "Nintendo’s remake of The Legend of Zelda: Ocarina of Time has proven that nostalgia can be an immensely profitable business, selling over 5.2 million copies worldwide in just four days and becoming the fastest-selling Nintendo-published game on Nintendo Switch 2.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18317,99 +18404,6 @@
       },
       "translatedTitle": "chilldspot releases music video for the song “lost child” from the movie “Otoko Tomodachi”",
       "translatedExcerpt": "chilldspot's new song \"lost child\", which was written as a song in the movie \"Otoko Tomodachi\"."
-    },
-    {
-      "id": "c8b8f302e18e6d5e",
-      "title": "CHiCO with HoneyWorks、ツーマンライブシリーズ始動",
-      "link": "https://www.billboard-japan.com/d_news/detail/167240",
-      "publishedAt": "2026-11-07T07:35:00.000Z",
-      "excerpt": "CHiCO with HoneyWorksが、ツーマンライブシリーズ【CHiCO with Hon",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167240/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "CHiCO with HoneyWorks starts two-man live series",
-      "translatedExcerpt": "CHiCO with HoneyWorks will be holding a two-man live series [CHiCO with Hon"
-    },
-    {
-      "id": "f5b5ad43cce804b8",
-      "title": "imase、ロンドンで全編撮影した新曲「It&#039;s a Beautiful Life」MV公開決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167239",
-      "publishedAt": "2026-11-07T07:30:00.000Z",
-      "excerpt": "imaseが、ロンドンで全編撮影した新曲「It&rsquo;s a Beautiful Life」",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167239/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "imase will release the music video for their new song \"It's a Beautiful Life\", which was shot entirely in London.",
-      "translatedExcerpt": "imase’s new song “It’s a Beautiful Life” shot entirely in London"
-    },
-    {
-      "id": "8b37d4c8224b5ab1",
-      "title": "≒JOY、江角怜音がセンター務めるニューSG表題曲「ロックスター様」MV公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167238",
-      "publishedAt": "2026-11-07T07:25:00.000Z",
-      "excerpt": "≒JOYが、11月25日にリリースする6thシングルの表題曲「ロックスター様」のミュージックビデオ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167238/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "≒JOY releases MV for new SG title song “Rockstar-sama” starring Reion Ezumi as center",
-      "translatedExcerpt": "≒Music video for JOY's 6th single title song \"Rockstar-sama\" to be released on November 25th"
-    },
-    {
-      "id": "d93b3ee91fed82cd",
-      "title": "秋山黄色、なとりをゲストに迎えた主催ライブ【BUG SESSION vol.3】開催決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167237",
-      "publishedAt": "2026-11-07T07:20:00.000Z",
-      "excerpt": "秋山黄色が、なとりをゲストに迎えた主催ライブ【秋山黄色 presents 「BUG SESSION",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167237/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Hosted live concert [BUG SESSION vol.3] with Akiyama Yellow and Natori as guests will be held",
-      "translatedExcerpt": "Akiyama Kiyo hosts a live show with Natori as a guest [Akiyama Kiyo presents “BUG SESSION"
-    },
-    {
-      "id": "ce3fca8947efc064",
-      "title": "Japanese User Lambasted for Trying to Look up Skirt in Ocarina of Time Remake",
-      "link": "https://news.sankakucomplex.com/n/dKx-LP8K-muwGhWrwQeoeA",
-      "publishedAt": "2026-11-07T06:00:21.000Z",
-      "excerpt": "The internet’s usual suspects are once again upset at someone doing something they don’t like, as a Japanese Twitter user who posted a video of himself attempting to look up the skirt of a female character in Ocarina of Time remake earned a great deal of criticism.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
     }
   ]
 }

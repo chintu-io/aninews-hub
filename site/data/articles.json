@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T06:32:19.822Z",
+  "generatedAt": "2026-11-16T07:01:53.807Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 104,
+      "count": 103,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 211,
+      "count": 212,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,48 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 612,
+    "translatedJapaneseArticles": 613,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "a4c6e9057bd73456",
+      "title": "【ライヴレポート】KIRITO、ツアー＜OVERRIDE＞開幕「年を跨いで燃えていきましょう」",
+      "link": "https://barks.jp/news/1104821",
+      "publishedAt": "2026-11-16T06:55:00.000Z",
+      "excerpt": "KIRITOが11月14日、神奈川・YOKOHAMA Bay Hall公演を皮切りに全国ツアー＜KIRITO Tour 2026-2027『OVERRIDE』＞を開催した。2026年と2027年の年跨ぎ全12公演ツアーの開幕だ。ツアー初日公演のオフィシャルレポートをお届けしたい。 2026年下半期のKIRITOの活動を振り返ると、7月にアコースティックシリーズ＜Phantom＞公演、8月にD’ESPAIRSRAYとの初ツーマンを開催したほか、9月にMUCC主催イベントへの参加、さらに9月から10月にはAngeloとして全3公演のツアーを完遂した。それらを経て迎えたこの夜は、KIRITOソロのバンド形態ワンマンとしては、6月7日に行われた前ツアーファイナル以来、約5ヵ月ぶりとなる。 ツアー＜OVERRIDE…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/16155748/KIRITO1114_%E5%AF%841-683x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "[Live Report] KIRITO opens tour <OVERRIDE> “Let’s burn through the years”",
+      "translatedExcerpt": "KIRITO held a nationwide tour <KIRITO Tour 2026-2027 ``OVERRIDE'' on November 14th, starting with a performance at YOKOHAMA Bay Hall in Kanagawa. This is the start of a 12-performance tour spanning 2026 and 2027. We would like to bring you the official report of the first day of the tour. Looking back at KIRITO's activities in the second half of 2026, they performed the acoustic series <Phantom> in July, held their first one-on-one with D'ESPAIRSRAY in August, participated in an event hosted by MUCC in September, and completed a 3-performance tour as Angelo from September to October. After all of this, this night will be KIRITO's first solo performance in band form in about five months since the last tour final held on June 7th. Tour＜OVERRIDE…"
+    },
+    {
+      "id": "772c356bf84e5b12",
+      "title": "【米ビルボード・アルバム・チャート】オリヴィア・ロドリゴ通算5週目首位、リル・ベイビー／P1Harmonyが初登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/167477",
+      "publishedAt": "2026-11-16T06:45:00.000Z",
+      "excerpt": "今週（2026年11月21日付）の米ビルボード・アルバム・チャート&ldquo;Billboard",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167477/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[US Billboard Album Chart] Olivia Rodrigo tops the chart for 5th week, Lil Baby/P1Harmony appears for the first time",
+      "translatedExcerpt": "This week (dated November 21, 2026) US Billboard album chart “Billboard"
+    },
     {
       "id": "e197840e994d2a9b",
       "title": "【ライブレポート】櫻坂46、＜6th YEAR ANNIVERSARY LIVE＞開催。2代目キャプテン・松田里奈の卒業セレモニーも",
@@ -3861,7 +3899,7 @@
       "title": "Square Enix Profits Surge 63% as Final Fantasy VII Rebirth & Other Games Boost Earnings",
       "link": "https://news.sankakucomplex.com/n/6Mp8iLNzhXtwzM89gFSt2A",
       "publishedAt": "2026-11-13T12:00:27.000Z",
-      "excerpt": "Square Enix has reported a substantial increase in profits from its video game business, with Final Fantasy VII Rebirth, The Adventures of Elliot: The Millennium Tales, and strong sales of older titles helping the Japanese publisher enjoy a particularly lucrative financial period. The company ann…",
+      "excerpt": "Square Enix has reported a substantial increase in profits from its video game business, with Final Fantasy VII Rebirth, The Adventures of Elliot: The Millennium Tales, and strong sales of older titles helping the Japanese publisher enjoy a particularly lucrative financial period.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18354,42 +18392,6 @@
       },
       "translatedTitle": "Mikiko Suzuki's 3rd major album \"Farewell\" to be released \"Definitely their best work to date\"",
       "translatedExcerpt": "Mikiko Suzuki's has announced that they will release their third major album on January 27, 2027. The title of this work is ``Farewell'', following their first major album ``Abara'' and second album ``Ibara''. Regarding this work, Mikiko Suzuki (Vo, G) said, ``It's done! It's really good! I never thought it would be possible to make something this good, but for some reason it did! It's ``Abara'', ``Ibara'', and ``Farewell''! Trilogy without permission! Sinbad without permission! ” commented. On the other hand, Zu (Dr. Honestly, it's definitely our best work to date,'' Mikiko Suzuki's members all exude confidence. Previously released songs in this work..."
-    },
-    {
-      "id": "b85cfb071473cfa8",
-      "title": "鈴木実貴子ズ、最高傑作と自負するニューAL『さらば』2027年1月発売＆リリースツアーも",
-      "link": "https://www.billboard-japan.com/d_news/detail/167232",
-      "publishedAt": "2026-11-06T11:00:00.000Z",
-      "excerpt": "鈴木実貴子ズが、ニューアルバム『さらば』を2027年1月27日にリリースする。 メジャー1st",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167232/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Mikiko Suzuki's new AL \"Farewell\", which they are proud of as their masterpiece, will be released in January 2027 and release tour will also be held",
-      "translatedExcerpt": "Mikiko Suzuki's will release their new album \"Saraba\" on January 27, 2027. Major 1st"
-    },
-    {
-      "id": "4116d961c8d02a30",
-      "title": "Laid-Back Camp Season 4 Anime Announces April 2027 Premiere in New Trailer",
-      "link": "https://crunchyroll.com/news/latest/2026/11/6/laid-back-camp-season-4-anime-trailer-key-visual-april-2027-premiere",
-      "publishedAt": "2026-11-06T10:58:00.000Z",
-      "excerpt": "The opening and ending theme songs were also revealed",
-      "image": "https://a.storyblok.com/f/178900/1000x563/ced917c02a/laid-back-camp-season-4-anime-trailer-point.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

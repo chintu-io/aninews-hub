@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T13:02:07.879Z",
+  "generatedAt": "2026-11-17T13:32:21.377Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 43,
+      "count": 44,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 101,
+      "count": 103,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 19,
+      "count": 20,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 201,
+      "count": 200,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 158,
+      "count": 155,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,116 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 619,
+    "translatedJapaneseArticles": 615,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "44d5808dc4b7685d",
+      "title": "Josemaru Short Anime Debuts on January 10",
+      "link": "https://crunchyroll.com/news/latest/2026/11/17/josemaru-short-anime-premiere-date-trailer-cast",
+      "publishedAt": "2026-11-17T13:18:00.000Z",
+      "excerpt": "New teaser art, trailer and cast members revealed for upcoming series",
+      "image": "https://a.storyblok.com/f/178900/960x540/c1ba93d02d/josemaru_header2.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "a0d05ec269b3aae9",
+      "title": "映画『君の話』主演・北村匠海 × 主題歌・大森元貴（Mrs. GREEN APPLE）が対談",
+      "link": "https://www.billboard-japan.com/d_news/detail/167514",
+      "publishedAt": "2026-11-17T13:10:00.000Z",
+      "excerpt": "映画『君の話』にて主演を務めた北村匠海（DISH//）と、主題歌「本と彗星」を書き下ろした大森元貴",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167514/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Dialogue between the movie “Your Story” star Takumi Kitamura and theme song singer Motoki Omori (Mrs. GREEN APPLE)",
+      "translatedExcerpt": "Takumi Kitamura (DISH//), who starred in the movie “Your Story,” and Mototaka Omori, who wrote the theme song “Book and Comet.”"
+    },
+    {
+      "id": "afb50d069a59aa6d",
+      "title": "Additional Cast for 'Odoru Sennen Kazoku' Announced",
+      "link": "https://myanimelist.net/news/74949726?_location=rss",
+      "publishedAt": "2026-11-17T13:09:47.000Z",
+      "excerpt": "The official website for the television anime adaptation of Akira Kazugai's Odoru Sennen Kazoku (Millennium Family) manga announced six additional cast members on Sunday. The anime series will air on TBS and other channels. Cast Arthur: Mutsumi Tamura (Kobayashi-san Chi no Maid Dragon) Raine: Haruna Mikawa (Ore dake Level Up na Ken) Noel: Taihi Kimura (On…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794920942-81b870f66b11b1ce89e2045a016feae0.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "fe71d705d9f8d5b4",
+      "title": "ASIAN KUNG-FU GENERATION、15年ぶり台湾公演＆20年ぶり韓国公演を開催",
+      "link": "https://www.billboard-japan.com/d_news/detail/167513",
+      "publishedAt": "2026-11-17T13:05:00.000Z",
+      "excerpt": "ASIAN KUNG-FU GENERATIONが、2027年5月に台湾と韓国でワンマンライブを開",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167513/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "ASIAN KUNG-FU GENERATION to hold Taiwan concert for the first time in 15 years and Korea concert for the first time in 20 years",
+      "translatedExcerpt": "ASIAN KUNG-FU GENERATION will hold a one-man live in Taiwan and South Korea in May 2027."
+    },
+    {
+      "id": "5545cc575b19cc61",
+      "title": "Suikoden: The Anime Shares Ending Theme Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/11/17/suikoden-the-anime-ending-theme-song-music-video",
+      "publishedAt": "2026-11-17T13:03:00.000Z",
+      "excerpt": "Crunchyroll streams adaptation based on classic JRPG series",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/ca0d11d29f/suikoden_the_anime_episode7_header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "f8189954d912717e",
+      "title": "Tokyo’s Shibuya Sakurazaka cherry blossom street to be decommissioned, number of trees to increase",
+      "link": "https://soranews24.com/2026/11/17/tokyos-shibuya-sakurazaka-cherry-blossom-street-to-be-decommissioned-number-of-trees-to-increase/",
+      "publishedAt": "2026-11-17T13:00:05.000Z",
+      "excerpt": "Shibuya’s cherry blossom hill to live on and become pinker than ever. Usually, when people think of Tokyo’s Shibuya neighborhood, they think of the famous Shibuya Scramble intersection and statue of faithful dog Hachiko, plus trendy fashion shops, lively bars, and tourist-friendly pop culture specialty stores. All of those things are indeed iconic parts o…",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/ss-1.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "5f4cb1f2c8f3efaa",
       "title": "Ari Abdul、ダークで官能的な新ALリリース",
@@ -560,7 +666,7 @@
         "language": "ja"
       },
       "translatedTitle": "Kabanagu releases MV for “Ash to Sand”",
-      "translatedExcerpt": "Kabanagu has released the music video for \"Ash to Sand\". Kabanagu is an SSW/producer born in 1998. He started posting songs on DTM in 2018, and then began working on self-produced works centered on his own singing, releasing his 1st album ``Swimming'' in 2021 and his 2nd album ``Hobo Yume'' in 2022. He is also a member of the online community-based J-POP project <PAS TASTA>. \"Ash to Suna\", the music video of which was released this time, is a song from the 3rd album \"Zu no Zu\". The song is composed of a band with Soshi Sakiyama on guitar, Yuta Ei (Yureru) on bass, and Pikmin (ex. Hanuman) on drums. The music video was directed by Naoki Takehisa, following the lead single \"Proto\". Release information Loss Le..."
+      "translatedExcerpt": "Kabanagu has released the music video for \"Ash to Sand\". Kabanagu is an SSW/producer born in 1998. He started posting songs on DTM in 2018, and then began working on self-produced works centered on his own singing, releasing his 1st album ``Swimming'' in 2021 and his 2nd album ``Hobo Yume'' in 2022. He is also a member of the online community-based J-POP project <PAS TASTA>. \"Ash to Suna\", whose music video was released this time, is a song from the 3rd album \"Zu no Zu\". The song is composed of a band with Soshi Sakiyama on guitar, Yuta Ei (Yureru) on bass, and Pikmin (ex. Hanuman) on drums. The music video was directed by Naoki Takehisa, following the lead single \"Proto\". Release information Loss Le..."
     },
     {
       "id": "3448f4dd74bff206",
@@ -3950,7 +4056,7 @@
         "language": "ja"
       },
       "translatedTitle": "Mark Ambor releases new EP with 7 songs",
-      "translatedExcerpt": "Mark Ambor released his new EP “East Houston Tapes” on Friday, November 13, 2026. This work is a new work following the debut album \"Rockwood\" released in 2024. Containing a total of seven songs, it was produced and recorded in his New York apartment, and is a work that strongly reflects his current state of mind. After the worldwide success of ``Belong Together'', this work was born while facing the production of the next album. This collection contains songs that were created spontaneously with close friends during the process of recovering one's true self after stepping away from great pressure. Release information https://ototoy.jp/_/default/p/4440373 Artist information https://www.instagram.com…"
+      "translatedExcerpt": "Mark Ambor released his new EP “East Houston Tapes” on Friday, November 13, 2026. This work is a new work following the debut album \"Rockwood\" released in 2024. Containing a total of seven songs, it was produced and recorded in his New York apartment, and is a work that strongly reflects his current state of mind. After the worldwide success of ``Belong Together'', this work was born while facing the production of the next album. This collection contains songs that were created spontaneously with close friends during the process of recovering one's true self after stepping away from great pressure. Release information https://ototoy.jp/_/default/p/4440373 Artist information https://www.instagram.com..."
     },
     {
       "id": "fa30f56827bbf674",
@@ -18290,120 +18396,6 @@
       },
       "translatedTitle": "Hey! Say! JUMP releases “TRUE” MV that makes fans smile",
       "translatedExcerpt": "Hey! Say! JUMP has released the music video for their new song \"TRUE\". 2026 1"
-    },
-    {
-      "id": "4860b1d63adc73f2",
-      "title": "ME:Iが「Rock & Roll Pretty」MVで“ロック”、初出演【LARME FES&#039;26】で“ガーリー”に",
-      "link": "https://www.billboard-japan.com/d_news/detail/167257",
-      "publishedAt": "2026-11-08T09:35:00.000Z",
-      "excerpt": "ME:Iが、新曲「Rock & Roll Pretty」のミュージックビデオを公開した。",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167257/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "ME:I goes “rock” with “Rock & Roll Pretty” MV and “girly” with first appearance [LARME FES’26]",
-      "translatedExcerpt": "ME:I has released the music video for their new song \"Rock & Roll Pretty.\""
-    },
-    {
-      "id": "2276ca4104fa7e6e",
-      "title": "Hey! Say! JUMP、幾田りら提供曲「TRUE」MV公開",
-      "link": "https://barks.jp/news/1103215",
-      "publishedAt": "2026-11-08T09:30:41.000Z",
-      "excerpt": "Hey! Say! JUMPが、ニューアルバム『Juliet』（11/11発売）より「TRUE」のミュージックビデオを公開した。 本楽曲は、幾田りらが楽曲提供したポップチューン。温かく柔らかなメロディーと歌詞が、Hey! Say! JUMPの歌声と空気感とあいまって心をやさしく包みこむ1曲だ。まもなく20周年イヤーに突入するグループとファンが歩んできた軌跡を一つずつ辿る歌詞も聴きどころとなっている。 郵便局をモチーフに、ファンレターを書く様子や、推しメンカラーにネイルする様子、コンサート当選祈願をする様子など、ファンの“推し活”がHey! Say! JUMPの元に手紙となって届いてくる今作。メンバーはひとつひとつの手紙に笑みを浮かべたり、会話をしたり、大切に、そして優しい瞳でその想いを受けとめ、感謝を伝え…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/07193048/HSJ_Juliet_%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%A2%E3%83%BC%E5%86%99.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Hey! Say! JUMP releases music video for “TRUE”, song provided by Rira Ikuta",
-      "translatedExcerpt": "Hey! Say! JUMP has released the music video for \"TRUE\" from their new album \"Juliet\" (released November 11th). This song is a pop tune provided by Rira Ikuta. The warm and soft melody and lyrics, combined with Hey! Say! JUMP's singing voice and atmosphere, is a song that gently embraces the heart. The lyrics, which trace the journey of the group and its fans, which will soon be celebrating their 20th anniversary, are also worth listening to. This work uses a post office as a motif, and the fans' \"favorites\" such as writing fan letters, painting their nails in Oshimen's colors, and praying for winning concerts are delivered to Hey! Say! JUMP in the form of letters. The members smile at each letter, have a conversation with each other, accept each letter with care and gentle eyes, and express their gratitude..."
-    },
-    {
-      "id": "1c14847b8f20e569",
-      "title": "CLAN QUEENが『オールナイトニッポン0』パーソナリティ、3人が“ラジオでやりたいこと”を凝縮",
-      "link": "https://www.billboard-japan.com/d_news/detail/167258",
-      "publishedAt": "2026-11-08T09:25:00.000Z",
-      "excerpt": "CLAN QUEENが、2026年11月14日深夜に放送となるニッポン放送『オールナイトニッポン0",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167258/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "CLAN QUEEN becomes “All Night Nippon 0” personality, the three condenses “what they want to do on radio”",
-      "translatedExcerpt": "CLAN QUEEN will be broadcast on Nippon Broadcasting System “All Night Nippon 0”, which will be broadcast at midnight on November 14, 2026."
-    },
-    {
-      "id": "4405d1e5b75f57a0",
-      "title": "〈CDTVライブ！ライブ！〉11/9見どころ",
-      "link": "https://ototoy.jp/news/132682",
-      "publishedAt": "2026-11-08T09:00:00.000Z",
-      "excerpt": "11月9日放送のTBS〈CDTVライブ！ライブ！〉出演者と歌唱曲が発表された。 出演は、IMP.、Ayumu Imazu、KEY TO LIT、倉木麻衣、島袋寛子、MAZZEL、Mrs. GREEN APPLE、Rockon Social Club。 Mrs. GREEN APPLEは「共犯」とテレビ初披露「禁じた遊び」、KEY TO LITはデビュー曲をフルサイズTV初披露する。11月の〈マンスリーライブ！〉はBE:FIRST。2週目は「CAGLIOSTRO」「Missing」「夢中」をフルサイズ披露。〈名曲ライブ！ライブ！〉はJUNON（BE:FIRST）が「メロディー」（玉置浩二）を、KAIRYU・NAOYA（MAZZEL）が「奏（かなで）」（スキマスイッチ）をカバーする。 CDTVライブ！ライブ！…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132682/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<CDTV Live! Live! 〉11/9 Highlights",
-      "translatedExcerpt": "TBS <CDTV Live! Broadcast on November 9th! Live! 〉Performers and songs have been announced. Performers include IMP., Ayumu Imazu, KEY TO LIT, Mai Kuraki, Hiroko Shimabukuro, MAZZEL, Mrs. GREEN APPLE, and Rockon Social Club. Mrs. GREEN APPLE will perform ``Accomplice'' and ``Forbidden Play'' for the first time on TV, and KEY TO LIT will perform their debut song for the first time on full-length TV. November's <Monthly Live! > is BE:FIRST. In the second week, \"CAGLIOSTRO\", \"Missing\", and \"Dokusai\" were performed in full. <Famous song live! Live! > JUNON (BE:FIRST) will cover “Melody” (Koji Tamaki), and KAIRYU・NAOYA (MAZZEL) will cover “Kanade” (Sukima Switch). CDTV Live! Live! …"
-    },
-    {
-      "id": "d6774fcb64a6d215",
-      "title": "〈ベストアーティスト2026〉第一弾13組発表",
-      "link": "https://ototoy.jp/news/132685",
-      "publishedAt": "2026-11-08T09:00:00.000Z",
-      "excerpt": "11月28日(土) に日本テレビ系音楽の祭典〈ベストアーティスト2026〉の放送が決定した。 25周年を彩る今年のテーマは「音楽の旅」。総合司会は18年連続で櫻井翔、司会は羽鳥慎一、バカリズム、市來玲奈（日本テレビアナウンサー）が担当する。 第一弾出演アーティストは、＝LOVE、EXILE、King & Prince、三代目 J SOUL BROTHERS、SixTONES、timelesz、Travis Japan、HANA、BE:FIRST、Hey! Say! JUMP、Mrs. GREEN APPLE、M!LK、ゆず（五十音順）の13組。 放送時間は第一部が16:00~17:00 ※一部地域を除く、第二部が19:00~22:54の5時間生放送で届ける。 番組情報 放送日 リリース情報 https:/…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132685/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<Best Artist 2026> First 13 groups announced",
-      "translatedExcerpt": "Nippon Television's music festival ``Best Artist 2026'' will be broadcast on Saturday, November 28th. This year's theme, celebrating the 25th anniversary, is \"A Musical Journey.\" For the 18th consecutive year, the general host will be Sho Sakurai, and the hosts will be Shinichi Hatori, Baka Rhythm, and Rena Ichiki (Nippon TV announcer). The first group of artists to appear are =LOVE, EXILE, King & Prince, Sandaime J SOUL BROTHERS, SixTONES, timelesz, Travis Japan, HANA, BE:FIRST, Hey! Say! JUMP, Mrs. GREEN APPLE, M!LK, and Yuzu (in alphabetical order). The first part will be broadcast live from 16:00 to 17:00 *Excluding some areas, the second part will be broadcast live for 5 hours from 19:00 to 22:54. Program information Broadcast date Release information https:/…"
-    },
-    {
-      "id": "6e8704163314777b",
-      "title": "Hannah Jadagu、ロマンティックな新曲リリース",
-      "link": "https://ototoy.jp/news/132676",
-      "publishedAt": "2026-11-08T09:00:00.000Z",
-      "excerpt": "Hannah Jadaguが2026年11月4日(水)にニューシングル「Curse」をリリースした。 本作は、2025年に発表したセカンドアルバム『Describe』で探求した音楽性をさらに発展させた作品。シンセサイザーやアナログサウンドを大胆に取り入れ、繊細なボーカルと幻想的なサウンドを融合させている。 恋に落ちることの幸福感と、その関係を失ってしまうかもしれないという不安。相反する感情が交錯する、ロマンティックでありながらもどこか不穏なオルタナティブポップに仕上がっている。 リリース情報 https://ototoy.jp/_/default/p/4406282 アーティスト情報 https://www.instagram.com/hangrammm/",
-      "image": "https://imgs.ototoy.jp/news/image.php/132676/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Hannah Jadagu releases romantic new song",
-      "translatedExcerpt": "Hannah Jadagu released her new single \"Curse\" on Wednesday, November 4, 2026. This work is a work that further develops the musicality explored in the second album \"Describe\" released in 2025. Boldly incorporating synthesizers and analog sounds, they fuse delicate vocals and fantastic sounds. The happiness of falling in love and the fear of losing that relationship. The result is an alternative pop song that is both romantic and somewhat disturbing, with conflicting emotions intertwined. Release information https://ototoy.jp/_/default/p/4406282 Artist information https://www.instagram.com/hangrammm/"
     }
   ]
 }

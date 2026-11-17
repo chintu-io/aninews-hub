@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T12:01:50.316Z",
+  "generatedAt": "2026-11-17T12:32:18.481Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 262,
+      "count": 261,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -146,7 +146,7 @@
       "feedUrl": "https://ototoy.jp/news/feed.rss",
       "count": 157,
       "imageEnrichment": null,
-      "fetchedCount": 0
+      "fetchedCount": 50
     },
     {
       "id": "sankaku",
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 78,
+      "count": 79,
       "fetchedCount": 24
     }
   ],
@@ -164,9 +164,28 @@
     "failedSources": 0,
     "articleCount": 1000,
     "translatedJapaneseArticles": 620,
-    "translationAttempts": 60
+    "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "c34ad73a19c90e5c",
+      "title": "岡田准一＆仲野太賀、Billboardニューヨーク支社を訪問 「SUKIYAKI」全米1位獲得時のチャートを閲覧",
+      "link": "https://www.billboard-japan.com/d_news/detail/167512",
+      "publishedAt": "2026-11-17T12:15:00.000Z",
+      "excerpt": "映画『SUKIYAKI 上を向いて歩こう』で中村八大を演じる岡田准一と、坂本九を演じる仲野太賀が、",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167512/x200_image.JPG",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Junichi Okada & Taiga Nakano visit Billboard's New York branch and view the chart when \"SUKIYAKI\" reached No. 1 in the U.S.",
+      "translatedExcerpt": "Junichi Okada, who plays Hachidai Nakamura, and Taiga Nakano, who plays Kyu Sakamoto, in the movie \"SUKIYAKI Ue o Muite Arukou\""
+    },
     {
       "id": "1e031c5b01f2b376",
       "title": "冨田ラボ、「君の道の真ん中 feat. 堀込泰行」明日配信。8thアルバム発売＆25周年イベント開催決定も",
@@ -3395,7 +3414,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "[Live Report] Sakurazaka46, 6th Anniversary Celebration and Rina Matsuda's Departure──〈6th YEAR ANNIVERSARY LIVE〉",
+      "translatedTitle": "[Live report] Sakurazaka46, 6th anniversary celebration and Rina Matsuda's departure──〈6th YEAR ANNIVERSARY LIVE〉",
       "translatedExcerpt": "For two days on November 14th and 15th, Sakurazaka46 held their 6th YEAR ANNIVERSARY LIVE at ZOZO Marine Stadium in Chiba. On the second day, November 15th, the graduation ceremony for Rina Matsuda, who has served as the group's captain, was also held. Matsuda Rina has played a huge role in Sakurazaka46. Bring out the individuality of the members, create a group atmosphere, and convey that charm to the outside world. Through the accumulation of these efforts, it is an important force that shapes the history of the group. Rina Matsuda is one of the members who has embodied this role more than anyone else. In the process of the Sakurazaka46 group undergoing major changes and establishing a new identity, the role of captain must have been no easy one. Against this backdrop, Matsuda took the initiative to act..."
     },
     {
@@ -4669,6 +4688,23 @@
       },
       "translatedTitle": "God Doesn’t Roll Dice, Nationwide Live House Tour <View From The Soyuz> will be held from February 2027",
       "translatedExcerpt": "Zepp Tour 2026 “View From The Soyuz” by God Doesn’t Roll Dice started today, November 14th (Saturday) at Zepp Sapporo. Furthermore, it has been announced that a new tour <Live House Tour 2027 “View From The Soyuz”> will be held at 23 live houses nationwide from February next year. They just released their new song ``99'' as a digital single the other day. The newly announced tour will take over the tour title and theme from the Zepp tour, and will deliver songs from the album \"EINSTEIN = ROSEN BRIDGE\" released in June of this year, as well as the new song \"99\", to all over the country, starting with Kokura FUSE in Fukuoka, where the band was formed. Ticket applications are available from 21:00 today."
+    },
+    {
+      "id": "fa28c3b0608aea31",
+      "title": "Kadokawa Wants to Produce Twice as Much Anime Despite Mounting Losses",
+      "link": "https://news.sankakucomplex.com/n/NBEncH7PQZ6PJMnHqgT-Eg",
+      "publishedAt": "2026-11-14T12:00:24.000Z",
+      "excerpt": "Japanese entertainment giant Kadokawa is planning to more than double its annual anime production capacity by 2031, even as its animation business continues to struggle with rising production costs and operating losses, with the company hoping that a newly established mega-studio will help turn t…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "86f4cbe901e6361a",
@@ -18368,44 +18404,6 @@
       },
       "translatedTitle": "Nogizaka46 to release new song “Kimiros” in advance and release music video [Great Thanksgiving 2026] will be held at Nippon Budokan",
       "translatedExcerpt": "Nogizaka46 will pre-release the new song “Kimiros” on November 11, 2026 and release the music video."
-    },
-    {
-      "id": "b898f1773af9e89c",
-      "title": "安田章大（SUPER EIGHT）、人とのつながりを描くニューシングル『ありのままの扉 / 人筆描』配信リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/167254",
-      "publishedAt": "2026-11-08T08:35:00.000Z",
-      "excerpt": "安田章大（SUPER EIGHT）が、2026年11月9日にニューシングル『ありのままの扉 / 人",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167254/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Shohiro Yasuda (SUPER EIGHT) releases new single “Arimama no Tobira/Jinji-e”, which depicts connections between people.",
-      "translatedExcerpt": "Shota Yasuda (SUPER EIGHT) will release his new single “Arimama no Tobira/Hito” on November 9, 2026."
-    },
-    {
-      "id": "d506d47a72a2b0b1",
-      "title": "JO（&TEAM）／RAN（MAZZEL）／高松アロハ（超特急）らの『ワンダンス』オフショット写真が解禁",
-      "link": "https://www.billboard-japan.com/d_news/detail/167256",
-      "publishedAt": "2026-11-08T08:30:00.000Z",
-      "excerpt": "JO（&TEAM）が主演を務める映画『ワンダンス』のオフショット写真が解禁となった。",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167256/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "JO (&TEAM) / RAN (MAZZEL) / Takamatsu Aloha (Super Express) and others' \"One Dance\" off-shot photos have been released",
-      "translatedExcerpt": "Off-shot photos of the movie \"One Dance\" starring JO (&TEAM) have been released."
     }
   ]
 }

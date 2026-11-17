@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T09:01:53.327Z",
+  "generatedAt": "2026-11-17T09:32:06.996Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 260,
+      "count": 261,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 199,
+      "count": 200,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 88,
+      "count": 86,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,48 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 612,
+    "translatedJapaneseArticles": 614,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "135546bd260d8a92",
+      "title": "INIのオリジナルバラエティ、『INIのAJITOラボ』U-NEXT独占ライブ配信／#1をYouTubeプレミア公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167508",
+      "publishedAt": "2026-11-17T09:15:00.000Z",
+      "excerpt": "INIのオリジナルキャラクター開発の全貌に迫るドキュメントバラエティ『INIのAJITOラボ』（#",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167508/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "INI's original variety show, \"INI's AJITO Lab\" U-NEXT exclusive live broadcast/#1 premiered on YouTube",
+      "translatedExcerpt": "“INI’s AJITO Lab” (#"
+    },
+    {
+      "id": "86e364bdfbcfe3d7",
+      "title": "梅田サイファー、ツアー来場者の声を収録した新曲「ウメダノビル」配信リリース",
+      "link": "https://barks.jp/news/1104828",
+      "publishedAt": "2026-11-17T09:00:26.000Z",
+      "excerpt": "梅田サイファーの新曲「ウメダノビル」が、11月18日（水）に配信リリースされることが決定した。 「ウメダノビル」は、今夏開催された＜梅田サイファー ONE MAN LIVE TOUR “RETURN OF THE 13”＞で初披露された楽曲。Cosaquが手掛けたキャッチーでダンサブルなビートに、一度聞いたら耳から離れないフック(サビ)で夏フェスでも大合唱、時にサークルモッシュを巻き起こしていたアンセムだ。 今回配信される音源には、ツアーの一部公演で収録された来場者の実際の歌声をコーラスとして使用しており、会場を包んだ熱気やファンとの一体感をそのまま閉じ込めた作品となっている。 歌詞では、梅田で過ごした青春の日々や仲間との思い出を振り返りながら、積み重ねてきたキャリアと現在も続く成長の日々を梅田の高層ビル…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/01141645/%E6%A2%85%E7%94%B0%E3%82%B5%E3%82%A4%E3%83%95%E3%82%A1%E3%83%BC_A%E5%86%99_small.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Umeda Cipher releases new song “Umeda No Building” that includes voices from tour attendees",
+      "translatedExcerpt": "It has been decided that Umeda Cypher's new song \"Umeda No Building\" will be released on November 18th (Wednesday). “Umedano Building” is a song that was first performed at <Umeda Cipher ONE MAN LIVE TOUR “RETURN OF THE 13”> held this summer. With a catchy and danceable beat created by Cosaqu and a hook that you can't get out of your head once you hear it, it's an anthem that has been sung in chorus at summer festivals, sometimes stirring up circle moshing. The sound source distributed this time uses the actual singing voices of the attendees recorded at some performances of the tour as a chorus, and it is a work that captures the enthusiasm that enveloped the venue and the sense of unity with the fans. In the lyrics, while looking back on the days of youth spent in Umeda and the memories with friends, the story depicts the career that has been accumulated and the days of continued growth in Umeda's skyscrapers..."
+    },
     {
       "id": "ac872a65c5475eb0",
       "title": "〈COMING KOBE27〉開催決定",
@@ -18346,40 +18384,6 @@
       "link": "https://news.sankakucomplex.com/n/W9UBuunCg77CVNHmVE4WfQ",
       "publishedAt": "2026-11-07T20:12:59.000Z",
       "excerpt": "Japan’s anime industry has announced a new awards ceremony called the Nippon Anime Awards, aiming to establish a prestigious equivalent of Hollywood’s Academy Awards that places greater emphasis on recognizing the creators behind Japanese animation.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "228acadcc2658a4d",
-      "title": "Japanese Man Arrested for Assaulting Seven Women in Just 15 Minutes",
-      "link": "https://news.sankakucomplex.com/n/rirwhWJbFYKMSZD3Na23iQ",
-      "publishedAt": "2026-11-07T18:51:56.000Z",
-      "excerpt": "A 39-year-old Japanese man has been arrested after allegedly assaulting seven young women in a series of seemingly random attacks across Tokyo, punching, slapping, and even delivering a flying kick to his victims within approximately 15 minutes.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "8729b29d54deefc5",
-      "title": "Japanese Man Arrested for Assaulting Seven Women in Just 15 Minutes",
-      "link": "https://news.sankakucomplex.com/n/xVXBbEZEGb8-mZvz1TIkLA",
-      "publishedAt": "2026-11-07T18:51:56.000Z",
-      "excerpt": "A 39-year-old Japanese man has been arrested after allegedly assaulting seven young women in a series of seemingly random attacks across Tokyo, punching, slapping, and even delivering a flying kick to his victims within approximately 15 minutes.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",

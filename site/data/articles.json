@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T15:02:03.731Z",
+  "generatedAt": "2026-11-17T15:31:57.677Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 140,
+      "count": 141,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 103,
+      "count": 101,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 20,
+      "count": 21,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 260,
+      "count": 261,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 153,
+      "count": 152,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -168,6 +168,42 @@
   },
   "articles": [
     {
+      "id": "dd3db9dd132a184e",
+      "title": "Light Novel 'Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka' Concludes with 8th Volume",
+      "link": "https://myanimelist.net/news/74950128?_location=rss",
+      "publishedAt": "2026-11-17T15:21:13.000Z",
+      "excerpt": "The official X account for author Nana Ootori announced on Tuesday that the Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka (May I Ask for One Final Thing?) light novel series will end with its eighth volume, scheduled to be released on December 1. Ootori began penning the action romcom novel on the Shousetsuka ni Narou website in April 2018. Alph…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794928805-5f872ec5a02d923f8d64f77ff7c73881.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "edf173269273797a",
+      "title": "Travis Japan、ダンススキル×アイドルエンタメの伝統を華やかな「POP STAR」MVで融合",
+      "link": "https://www.billboard-japan.com/d_news/detail/167521",
+      "publishedAt": "2026-11-17T15:10:00.000Z",
+      "excerpt": "Travis Japanが、新曲「POP STAR」のミュージックビデオを公開した。 新曲「P",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167521/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Travis Japan combines dance skills and idol entertainment traditions in the gorgeous “POP STAR” MV",
+      "translatedExcerpt": "Travis Japan has released the music video for his new song \"POP STAR\". New song “P"
+    },
+    {
       "id": "f1c3083f269b0fb3",
       "title": "Studio Ghibli adds new Princess Mononoke sukajan jacket to its anime streetwear range in Japan",
       "link": "https://soranews24.com/2026/11/18/studio-ghibli-adds-new-princess-mononoke-sukajan-jacket-to-its-anime-streetwear-range-in-japan/",
@@ -181,6 +217,23 @@
         "siteUrl": "https://soranews24.com/",
         "category": "Japan",
         "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d745e29fef5c8e4d",
+      "title": "Exclusive: Nakama Press Licenses Uoyama's Opening the Door to Hinata-San's Heart Manga",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-17/exclusive-nakama-press-licenses-uoyama-opening-the-door-to-hinata-san-heart-manga/.243853",
+      "publishedAt": "2026-11-17T15:00:00.000Z",
+      "excerpt": "Manga from Love's in Sight author centers on shut-in high school student",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gV2/cms/news.10/243853/nkm-openingthedoortohinatasansheart-01-cover.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -221,6 +274,23 @@
       },
       "translatedTitle": "DOES releases new song “Dongwari” & premieres MV",
       "translatedExcerpt": "DOES will release their new song “Dongwari” on November 20, 2026. New song “Dongwari”"
+    },
+    {
+      "id": "2aa0f3ed33db95b3",
+      "title": "Mission: Yozakura Family's Hitsuji Gondaira Launches Manga About Police Officer in Meiji-Era Japan",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-17/mission-yozakura-family-hitsuji-gondaira-launches-manga-about-police-officer-in-meiji-era-japan/.243878",
+      "publishedAt": "2026-11-17T14:17:47.000Z",
+      "excerpt": "Ginza Uradoori Kо̄ban no HIzuki-san debuts next Tuesday",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gOA/cms/news.10/243878/hitsuji-gondaira.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "b1f233c8edc9f2d6",
@@ -3631,7 +3701,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Live Report] Sakurazaka46, 6th Anniversary Celebration and Rina Matsuda's Departure──〈6th YEAR ANNIVERSARY LIVE〉",
-      "translatedExcerpt": "For two days on November 14th and 15th, Sakurazaka46 held their 6th YEAR ANNIVERSARY LIVE at ZOZO Marine Stadium in Chiba. On the second day, November 15th, the graduation ceremony for Rina Matsuda, who has served as the group's captain, was also held. Matsuda Rina has played a huge role in Sakurazaka46. Bring out the individuality of the members, create a group atmosphere, and convey that charm to the outside world. Through the accumulation of these efforts, it is an important force that shapes the history of the group. Rina Matsuda is one of the members who has embodied this role more than anyone else. In the process of the Sakurazaka46 group undergoing major changes and establishing a new identity, the role of captain must have been no easy one. Against this backdrop, Matsuda took the initiative to act..."
+      "translatedExcerpt": "For two days on November 14th and 15th, Sakurazaka46 held their 6th YEAR ANNIVERSARY LIVE at ZOZO Marine Stadium in Chiba. On the second day, November 15th, a graduation ceremony for Rina Matsuda, who has served as the group's captain, was also held. Matsuda Rina has played a huge role in Sakurazaka46. Bring out the individuality of the members, create a group atmosphere, and convey that charm to the outside world. Through the accumulation of these efforts, it is an important force that shapes the history of the group. Rina Matsuda is one of the members who has embodied this role more than anyone else. In the process of the Sakurazaka46 group undergoing major changes and establishing a new identity, the role of captain must have been no easy one. Against this backdrop, Matsuda took the initiative to act..."
     },
     {
       "id": "fe3a64e64d7ec4b6",
@@ -18322,76 +18392,6 @@
       },
       "translatedTitle": "<Life has songs> November 14th is “Sachiko Kobayashi & Ikuzo Yoshi father and daughter and others”",
       "translatedExcerpt": "BS Asahi's ``Life Has Songs'' will be broadcast on November 14th as a double feature of the ``Precious Time'' corner. Part 1 is a special feature on Sachiko Kobayashi. They performed four representative songs, including a collaboration with Piko Taro, who appeared on the program for the first time. Part 2 features Ikuzo Yoshi and his eldest daughter KU. The two will perform their released duet songs as well as their new songs. In the second half of the program, the guests will collaborate on three big hits from the Showa era. Starring Junko Akimoto, Aran, Misato Okada, KU, Sachiko Kobayashi, Mika Kamino, Hiroshi Takeshima, Naoki Tsuboi, Mizuki Hayama, Piko Taro, Junko Yanagisawa, Saori Yuki, and Ikuzo Yoshi. Program information Life has songs Broadcast date and time Broadcast every Saturday from 7:00 to 8:54 Release information https://ototoy.jp/_/default/p/782220 Information https://www.bs-asahi.co.jp/jinseiutagaa…"
-    },
-    {
-      "id": "4dcca06c65cd733d",
-      "title": "SPY x FAMILY Season 4, New Anime Film Announced for 2027",
-      "link": "https://crunchyroll.com/news/latest/2026/11/8/spy-x-family-season-4-anime-new-film-announced-2027-release-date-teaser-visual",
-      "publishedAt": "2026-11-08T11:00:00.000Z",
-      "excerpt": "Crunchyroll streams all current seasons and the CODE: WHITE film",
-      "image": "https://a.storyblok.com/f/178900/960x540/909a748d97/spy-x-family-season-3-ed.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2ea3dd745fade071",
-      "title": "オリヴィア・ロドリゴ、初のクリスマスSGリリース",
-      "link": "https://ototoy.jp/news/132686",
-      "publishedAt": "2026-11-08T11:00:00.000Z",
-      "excerpt": "オリヴィア・ロドリゴがキャリア初となるホリデー・シングル「take me home (4 christmas)」をリリースした。 本楽曲は、オリヴィア・ロドリゴがダン・ニグロ、エイミー・アレンと共作し、ダン・ニグロがプロデュースを手掛けたオリジナルのホリデー・ソング。 MVは『セックス・アンド・ザ・シティ』で知られるシンシア・ニクソン、『サタデー・ナイト・ライブ』のベン・マーシャルが出演し、ロドリゴとともに、ホリデーシーズンに恋人の実家を訪れ、初めて家族と対面する際の期待感や、少し気まずくも微笑ましい瞬間を描いている。 リリース情報 https://ototoy.jp/_/default/p/4426879 アーティスト情報 https://www.universal-music.co.jp/olivia…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132686/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Olivia Rodrigo's first Christmas SG release",
-      "translatedExcerpt": "Olivia Rodrigo has released her first holiday single, ``Take Me Home (4 Christmas).'' This song is an original holiday song co-written by Olivia Rodrigo with Dan Nigro and Amy Allen, and produced by Dan Nigro. The music video stars Cynthia Nixon, known for ``Sex and the City,'' and Ben Marshall from ``Saturday Night Live,'' and depicts Rodrigo and Rodrigo visiting his girlfriend's parents' house during the holiday season, the anticipation of meeting his family for the first time, and the slightly awkward but heartwarming moments. Release information https://ototoy.jp/_/default/p/4426879 Artist information https://www.universal-music.co.jp/olivia…"
-    },
-    {
-      "id": "4e6e1f2fc13ac7de",
-      "title": "Bride of the Barrier Master Anime Streams Videos for Leads Hana Ichise, Saku Ichinomiya",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-08/bride-of-the-barrier-master-anime-streams-videos-for-leads-hana-ichise-saku-ichinomiya/.243623",
-      "publishedAt": "2026-11-08T10:53:36.000Z",
-      "excerpt": "Akari Kitō voices Hana, Kikunosuke Toya voices Saku in anime debuting in January",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFJ/youtube/35bT932RfoM.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "c368e2c17aee6daf",
-      "title": "Bride of the Barrier Master Anime Shares New Character Trailers",
-      "link": "https://crunchyroll.com/news/latest/2026/11/8/bride-of-the-barrier-master-anime-shares-new-character-trailers",
-      "publishedAt": "2026-11-08T10:32:00.000Z",
-      "excerpt": "Adaptation based on light novel series broadcasts in Japan in January 2027",
-      "image": "https://a.storyblok.com/f/178900/1460x821/722980c33a/bride_of_the_barrier_master_header2.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T19:32:07.688Z",
+  "generatedAt": "2026-11-17T20:03:17.439Z",
   "sources": [
     {
       "id": "sankaku",
@@ -94,7 +94,7 @@
       "count": 143,
       "imageEnrichment": {
         "attempted": 40,
-        "resolved": 40
+        "resolved": 17
       },
       "fetchedCount": 40
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 104,
+      "count": 105,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 150,
+      "count": 149,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 608,
+    "translatedJapaneseArticles": 607,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "a37989c52a169613",
+      "title": "Resident Evil Requiem, The Legend of Zelda: Ocarina of Time Nominated for Game of the Year at The Game Awards",
+      "link": "https://crunchyroll.com/news/latest/2026/11/17/resident-evil-requiem-ocarina-of-time-remake-game-awards-nominations",
+      "publishedAt": "2026-11-17T20:00:00.000Z",
+      "excerpt": "Resident Evil Requiem among most-nominated with six nominations",
+      "image": "https://a.storyblok.com/f/178900/3840x2160/79ffed34b3/resident-evil-requiem-tga.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "dbff067fcf4714f8",
+      "title": "桑田佳祐、5年ぶりに『ベストアーティスト2026』出演決定。新曲「神々の襷（たすき）」TV歌唱も",
+      "link": "https://barks.jp/news/1105066",
+      "publishedAt": "2026-11-17T20:00:00.000Z",
+      "excerpt": "桑田佳祐が、2026年11月28日に生放送される日本テレビ系音楽の祭典『ベストアーティスト2026』へ5年ぶりに出演することを発表した。 2001年の放送開始から今年で25周年を迎える『ベストアーティスト』。2026年は「音楽の旅」をテーマに、この1年を音楽とともに振り返りながら、総勢約40組のアーティストが出演する5時間の生放送で届けられる。その記念すべき年に桑田佳祐が5年ぶりに登場する。 今回披露するのは、現在放送中の日本テレビ系ドラマ『俺たちの箱根駅伝』の主題歌「神々の襷（たすき）」だ。11月16日に配信リリースされたばかりの最新曲で、ライブでもまだ披露されていない同曲を『ベストアーティスト2026』のステージでテレビ初歌唱する。 箱根駅伝を舞台にした本楽曲は、走る者だけでなく、その挑戦を支え、声援…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/05200652/%E6%A1%91%E7%94%B0%E4%BD%B3%E7%A5%90_Artist-Photo-2026WEB.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Keisuke Kuwata will appear on \"Best Artist 2026\" for the first time in five years. New song “Tasuki of the Gods” also sung on TV",
+      "translatedExcerpt": "Keisuke Kuwata has announced that he will appear on Nippon Television's music festival \"Best Artist 2026\", which will be broadcast live on November 28, 2026, for the first time in five years. \"Best Artist\" is celebrating its 25th anniversary this year since it began broadcasting in 2001. The theme for 2026 is \"Musical Journey,\" and it will be a 5-hour live broadcast featuring a total of about 40 artists, looking back on the past year with music. In this memorable year, Keisuke Kuwata will appear for the first time in five years. The song they will be performing this time is \"Tasuki of the Gods,\" the theme song for the Nippon Television drama \"Oretachi no Hakone Ekiden,\" which is currently being aired. The latest song was just released on November 16th and has not been performed live yet, and will be sung for the first time on TV on the \"Best Artist 2026\" stage. This song, set at the Hakone Ekiden, is not only for the runners, but also for supporting and cheering on their challenges..."
+    },
     {
       "id": "a0bb6c2ce26be9f5",
       "title": "細川たかし、生成AI制作のMV第2弾「男の海」公開。“全く歌の内容が入ってこないMV”路線を突き進む",
@@ -209,7 +245,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/the-game-awards-2026-reveals-nominees/.243915",
       "publishedAt": "2026-11-17T17:43:41.000Z",
       "excerpt": "The Legend of Zelda: Ocarina of Time, Resident Evil Requiem, more games earn nominations",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g7C/cms/news.10/243722/zelda-oot.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -243,7 +279,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/maki-terashima-furuta-joins-asifa-hollywood-board-of-directors-ahead-of-54th-annie-awards-new-anime-/.243909",
       "publishedAt": "2026-11-17T17:01:57.000Z",
       "excerpt": "Maki Terashima-Furuta serves as Production I.G. USA's President",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGK/cms/news.10/243909/maki-terashima-furuta.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -311,7 +347,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/arika-director-software-development-head-game-programmer-akira-kurabayashi-dies/.243908",
       "publishedAt": "2026-11-17T16:00:20.000Z",
       "excerpt": "Kurabayashi worked on Tetris 99, Pac-Man 99, Street Fighter EX games",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIY/cms/news.10/243908/arika.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -381,7 +417,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/exclusive-nakama-press-licenses-uoyama-opening-the-door-to-hinata-san-heart-manga/.243853",
       "publishedAt": "2026-11-17T15:00:00.000Z",
       "excerpt": "Manga from Love's in Sight author centers on shut-in high school student",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gV2/cms/news.10/243853/nkm-openingthedoortohinatasansheart-01-cover.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -436,7 +472,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/mission-yozakura-family-hitsuji-gondaira-launches-manga-about-police-officer-in-meiji-era-japan/.243878",
       "publishedAt": "2026-11-17T14:17:47.000Z",
       "excerpt": "Ginza Uradoori Kо̄ban no HIzuki-san debuts next Tuesday",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gOA/cms/news.10/243878/hitsuji-gondaira.png.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -453,7 +489,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/trinity-blood-artist-kiyo-kyujyo-launches-manga-about-leonardo-da-vinci/.243883",
       "publishedAt": "2026-11-17T14:00:23.000Z",
       "excerpt": "Davide no Ishi manga launched on Monday",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIC/cms/news.10/243883/davide.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -766,7 +802,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/mistress-kanan-is-devilishly-easy-season-2-1st-video-unveils-more-cast-and-staff-2027-debut/.243905",
       "publishedAt": "2026-11-17T10:53:39.000Z",
       "excerpt": "Returning cast, staff for Kanan-sama wa Akumade Choroi 2 EASY also confirmed",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gMG/youtube/SJdisi3kEhQ.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1024,7 +1060,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/josemaru-short-anime-3rd-teaser-reveals-more-cast-january-10-debut/.243904",
       "publishedAt": "2026-11-17T09:51:14.000Z",
       "excerpt": "Mariya Ise, Hikaru Tōno, Nana Enomoto join cast",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIB/cms/news.10/243904/jose.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1058,7 +1094,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/sonic-the-hedgehog-mclaren-racing-collaborates-on-3-episode-animated-special/.243899",
       "publishedAt": "2026-11-17T09:17:45.000Z",
       "excerpt": "Sonic the Hedgehog x McLaren Racing: Beyond Fast previewed in teaser",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJD/youtube/f8lFkUzg5Mg.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1227,7 +1263,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/the-eternal-fool-words-of-wisdom-anime-new-video-unveils-more-cast-theme-songs-january-9-debut/.243889",
       "publishedAt": "2026-11-17T09:00:00.000Z",
       "excerpt": "Rie Kugimiya joins cast as Aileen; Nako Misaki × sajou no hana, Arcana Project perform theme songs",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJE/youtube/Kgi2eMlP4LU.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1464,7 +1500,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-16/live-action-my-sister-boyfriend-film-new-video-highlights-song-by-timelesz/.243893",
       "publishedAt": "2026-11-17T04:34:31.000Z",
       "excerpt": "Film opens in Japan on December 4",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHI/youtube/GlIfTeigEAQ.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1921,7 +1957,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-16/ultraman-teo-actress-noa-nekada-dies-at-23/.243868",
       "publishedAt": "2026-11-16T21:00:00.000Z",
       "excerpt": "Ongoing Ultraman Teo series will broadcast as planned with Nekada's already-filmed scenes",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI6/cms/news.10/243868/noa-nekada-ultraman-teo.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1989,7 +2025,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-16/singer-yukio-yamagata-dies-at-69/.243866",
       "publishedAt": "2026-11-16T20:00:00.000Z",
       "excerpt": "Yamagata performed theme songs for Hyakujuu Sentai Gaoranger, Yattodetaman, Bakusō Kyōdai Let's & Go!!",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFG/cms/news.10/243866/yukio-yamagata.jpeg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2006,7 +2042,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-16/godzilla-minus-zero-earns-usd8-million-in-73-percent-drop-at-u.s-box-office-passes-usd100-million-/.243859",
       "publishedAt": "2026-11-16T19:00:00.000Z",
       "excerpt": "Live-action Street Fighter ranks at #16 in U.S.",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g82/cms/news.9/239467/bafkreieus7mvngxcunaow4evfcbc7skdfjw4wy5w4mmtqdxj6alchyvpie.webp",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2023,7 +2059,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-16/lisa-babymetal-earn-nominations-for-2027-grammy-awards-new-best-asian-pop-music-performance-category/.243861",
       "publishedAt": "2026-11-16T18:00:00.000Z",
       "excerpt": "BINI, SB19, IVE, KiiiKiii also nominated for new category",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHA/cms/news.10/243861/lisa-yes.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2108,7 +2144,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-16/the-days-of-diamond-manga-gets-tv-anime/.243858",
       "publishedAt": "2026-11-16T15:41:18.000Z",
       "excerpt": "Takakazu Nagatomo to direct anime of Ōhashi Hirai's manga at Lapin Track",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gO0/cms/news.10/243858/the-days-of-diamond-anime.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2142,7 +2178,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-16/oceanveil-streams-english-dub-for-hands-off-sawaranaide-koteashi-kun-anime/.243855",
       "publishedAt": "2026-11-16T15:15:00.000Z",
       "excerpt": "Brittany Lauda, Sean Flaherty star in dub available on November 27",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJF/cms/news.10/243855/image5.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2284,7 +2320,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-16/the-summer-hikaru-died-novels-end-with-3rd-volume/.243843",
       "publishedAt": "2026-11-16T13:15:00.000Z",
       "excerpt": "3rd volume ships on January 25",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gDE/cms/news.10/243843/summerhikarudied-novel-engvol01.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -3900,7 +3936,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-15/odekake-kozame-anime-gets-2nd-film/.243832",
       "publishedAt": "2026-11-15T13:24:54.000Z",
       "excerpt": "3 main cast members celebrate news with staff returning from 1st film, 2nd season",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHF/cms/news.10/243832/teaser2dcs.jpeg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -3989,7 +4025,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-15/stranger-than-heaven-game-streams-story-trailer-for-2nd-act-kure/.243829",
       "publishedAt": "2026-11-15T12:15:00.000Z",
       "excerpt": "Game launches on January 15 for Xbox Series X|S, PlayStation 5, PC via Steam",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gP7/youtube/uLm50nlAUwI.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4801,7 +4837,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-14/kakao-openai-collaborate-on-ai-generated-short-animation-based-on-ryan-begins-webtoon/.243712",
       "publishedAt": "2026-11-14T18:15:00.000Z",
       "excerpt": "Production team stated they used approximately 1,500 prompts for single scene to achieve desired direction, emotional tone",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gMG/youtube/REXgHT6Y_oo.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4818,7 +4854,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-14/classroom-of-the-elite-year-3-tops-oricon-light-novel-ranking-for-october/.243810",
       "publishedAt": "2026-11-14T16:15:00.000Z",
       "excerpt": "Witch on the Holy Night, Alya Sometimes Hides Her Feelings in Russian rank at #2, #3",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gA3/cms/news.10/243810/classrom-3-vol-5.avif",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4920,7 +4956,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-14/love-live-hasu-no-sora-jogakuin-school-idol-club-anime-special-video-previews-tv-footage/.243814",
       "publishedAt": "2026-11-14T14:16:04.000Z",
       "excerpt": "Video also previews \"Dream Believers (106th Class Start Ver.)\" song",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHF/youtube/o1_YosA1cLU.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -18344,44 +18380,6 @@
       },
       "translatedTitle": "〈Anison Days〉11/11 guest is ClariS",
       "translatedExcerpt": "ClariS will appear as a guest on BS11〈Anison Days〉 November 11th. The talk focuses on the deepening bonds between the three members and memorable events. The studio live will feature a list of songs with the theme of \"Japanese-style fantasy anime songs.\" ClariS will perform \"Hitokoto\" (TV anime \"Oni no Hanayome\" OP) and \"Synchro Blue\" (TV anime \"Vertex Force\" OP), and Hiroko Moriguchi will perform \"Let's Fly\" (TV anime \"Yomi no Tsugai\" ED). Program Information Anison Days 477th Broadcast Channel: BS11 Hiroko Moriguchi Mikio Sakai Information https://www.bs11.jp/anime/anison-days/ https://x.com/AnisonDays_BS11 Release Information https://ototoy.jp/_/def…"
-    },
-    {
-      "id": "d9a785d9eebf1108",
-      "title": "Hudson Westbrook、カントリーな新曲リリース",
-      "link": "https://ototoy.jp/news/132677",
-      "publishedAt": "2026-11-08T13:00:00.000Z",
-      "excerpt": "Hudson Westbrookが2026年11月6日(金)にニューアルバム『Made You Look』をリリースした。 2025年のデビューアルバム『Texas Forever』に続く本作には、全16曲を収録。ここ約2年半の間に目覚ましい成長を遂げた彼の人生、恋愛、音楽活動、そして故郷テキサスへの想いを凝縮したアルバムとなっている。 伝統的なカントリーの魅力を大切にしながら、現代的な感覚と自由なソングライティングを取り入れた本作。若きアーティストとしての勢いだけでなく、一人の人間としての成長や葛藤までを描き出している。 リリース情報 https://ototoy.jp/_/default/p/4413972 アーティスト情報 https://www.instagram.com/hudsonwestbr…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132677/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Hudson Westbrook releases new country song",
-      "translatedExcerpt": "Hudson Westbrook released his new album \"Made You Look\" on Friday, November 6, 2026. This follow-up to their 2025 debut album \"Texas Forever\" includes a total of 16 songs. This album is a condensation of his life, love, music activities, and feelings for his hometown of Texas, which has seen remarkable growth over the past two and a half years. This album embraces the charm of traditional country while incorporating modern sensibilities and free songwriting. It depicts not only his momentum as a young artist, but also his growth and struggles as a human being. Release information https://ototoy.jp/_/default/p/4413972 Artist information https://www.instagram.com/hudsonwestbr…"
-    },
-    {
-      "id": "aaf92ce15a38afd8",
-      "title": "OddRe:、1stアルバム『OddRe:』ジャケット写真を公開",
-      "link": "https://barks.jp/news/1103309",
-      "publishedAt": "2026-11-08T12:00:37.000Z",
-      "excerpt": "OddRe:が、2027年1月6日にリリースする1stアルバム『OddRe:』ジャケット写真を公開した。 自身のバンド名を冠した本作には、「Revival」「睡る君」「黄泉還」などの既発曲に加え、新曲も収録予定。ジャケットアートワークは1stシングル「FEVER TIME」のジャケットも手がけたタオカスグルが担当している。 10月31日からは収録曲「AXEL」の先行配信もスタートした。こちらは疾走感のあるビートとクールなギターリフに、気だるさを帯びたボーカルが絡み合うクラシックなファンク＆ディスコナンバーとなっている。 全国ツアー＜OddRe: JAPAN TOUR 2026 “UNDERGROUND MIRRORBALL”＞は、全国7都市を巡る本公演に加え、2027年1月8日東京・Spotify O-E…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/30184852/1-52.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "OddRe:, releases jacket photo of 1st album “OddRe:”",
-      "translatedExcerpt": "OddRe: has released the jacket photo for their 1st album \"OddRe:\" to be released on January 6, 2027. This work, which bears the name of his own band, will include new songs in addition to previously released songs such as \"Revival\", \"Suru-kun\", and \"Yomikan\". The jacket artwork is by Taoka Guru, who also created the jacket for the 1st single \"FEVER TIME\". Advance distribution of the song \"AXEL\" began on October 31st. This is a classic funk and disco number with a driving beat, cool guitar riff, and languid vocals. The national tour <OddRe: JAPAN TOUR 2026 “UNDERGROUND MIRRORBALL”> will include performances in 7 cities across the country, as well as a Spotify O-E in Tokyo on January 8, 2027."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T21:02:03.725Z",
+  "generatedAt": "2026-11-18T21:32:15.866Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 135,
+      "count": 136,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 206,
+      "count": 204,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 73,
+      "count": 74,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,61 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 628,
+    "translatedJapaneseArticles": 626,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "80090b8299c030d7",
+      "title": "Anime Director Told Voice Actress to Play an “Irredeemable Bitch”",
+      "link": "https://news.sankakucomplex.com/n/61WpgvrPSnkr2lS9jJwfDw",
+      "publishedAt": "2026-11-18T21:00:43.000Z",
+      "excerpt": "Voice actress Akira Sekine revealed that the director of Kashita Maryoku wa [Revo Barai] de Kyousei Choushuu gave her some unusually blunt instructions for portraying a character audiences weren’t supposed to sympathize with.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "02c6ea77e9d1b705",
+      "title": "'You're So Sloppy, Hotta-Sensei' Manga Ends in 2 Chapters",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-18/youre-so-sloppy-hotta-sensei-manga-ends-in-2-chapters/.243956",
+      "publishedAt": "2026-11-18T21:00:00.000Z",
+      "excerpt": "Series debuted in March 2022",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gK1/cms/news.6/204603/hotta.jpeg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "ce132e496fd4d11f",
+      "title": "Online Retailer CDJapan Confirms Potential Customer Information Leaks Caused by Unauthorized Access",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-18/online-retailer-cdjapan-confirms-potential-customer-information-leaks-caused-by-unauthorized-access/.243951",
+      "publishedAt": "2026-11-18T20:01:00.000Z",
+      "excerpt": "Third-party exploited website vulnerability to access CDJapan, Neowing online stores on November 5",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFF/cms/news.10/243951/cdjapan.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "1dbc4250b9f9a737",
       "title": "Singer/Songwriter Hiromi Ōta Dies at 71",
@@ -18367,61 +18418,6 @@
         "accent": "#5ca8ff",
         "language": "en"
       }
-    },
-    {
-      "id": "10a2781f067dc471",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-      "publishedAt": "2026-11-10T03:34:51.000Z",
-      "excerpt": "Weekly episodes now debuting as part of \"2nd & 3rd stages\" that started on September 25",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIE/youtube/fU7h5bDqEvw.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "b427395a782076fa",
-      "title": "TETSUYA (L’Arc-en-Ciel)、バースデーライヴ＜THANK YOU＞にふたつの顔「感極まって。よくできたなぁと思って」",
-      "link": "https://barks.jp/news/1103619",
-      "publishedAt": "2026-11-10T03:25:40.000Z",
-      "excerpt": "2026年10月3日(土)、TETSUYAの誕生日を祝うスペシャルライヴ＜TETSUYA BIRTHDAY CELEBRATION LIVE 2026 “THANK YOU”』が東京・Spotify O-EASTで開催された。昼公演は＜TETSUYA LIVE 2026 “THANK YOU”＞、夜公演は＜Like-an-Angel LIVE 2026 “THANK YOU”＞と銘打たれた1日2公演。いずれも主役を務めるのは、もちろんTETSUYAだ。加えて、昼公演にはLike-an-Angelが、夜公演にはTETSUYA＆The Juicy-Bananasがゲストとして登場する構成に、TETSUYAのプロデュース能力と、観客をより楽しませたいという想いが見えた。ソロアーティスト、そしてベーシストという異…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/10120246/img_646959_1-1024x683.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "TETSUYA (L’Arc-en-Ciel), two faces at birthday live <THANK YOU> “I was overcome with emotion. I thought it was a great job”",
-      "translatedExcerpt": "On Saturday, October 3, 2026, a special live show to celebrate TETSUYA's birthday <TETSUYA BIRTHDAY CELEBRATION LIVE 2026 “THANK YOU” was held at Spotify O-EAST in Tokyo. There will be two performances a day, with the daytime performance being titled <TETSUYA LIVE 2026 “THANK YOU”> and the evening performance being titled <Like-an-Angel LIVE 2026 “THANK YOU”>. Of course, TETSUYA plays the leading role in both. In addition, Like-an-Angel appeared as guests during the daytime performance, and TETSUYA & The Juicy-Bananas appeared as guests during the evening performance, which showed TETSUYA's production ability and desire to entertain the audience even more. The difference between being a solo artist and a bassist..."
-    },
-    {
-      "id": "dbe83ea2ce7610f2",
-      "title": "【俺の楽器・私の愛機】2080「ギター沼に肩まで浸かるって気持ち良いです。」",
-      "link": "https://barks.jp/news/1103620",
-      "publishedAt": "2026-11-10T03:05:47.000Z",
-      "excerpt": "【HEX N400、Bacchus BSH-STD25 RSM、Bacchus TAC24-FMH-RSM】（大阪市 ドロ沼おっさん 58歳） 中学生でロックに目覚めて年玉でフェルナンデスの赤ストラトタイプ買いました。なかなか上達せず、気付く改造の道を走り出して、無茶苦茶なギターになり捨ててしまいました。 社会人になり金銭的にも余裕で出来たので、憧れのフェンダーのストラトを買ってギターを再開しました。多忙な業務で全く弾けず部屋の主になってしまいました。 おっさんになり時間に余裕も出来たので、ギタースクールに通って再開しました。35年眠っていたフェンダーはノイズで鳴らず、たまたまビジネス記事で見た、デバイザーと言う会社に魅力を感じ、楽器屋さんで試奏しました。ネックを握った瞬間手が吸い付くような感覚で音出しし…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2025/06/04092533/gakki_aiki-2-1024x576.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[My instrument/my favorite machine] 2080 \"It feels good to be immersed up to my shoulders in the guitar swamp.\"",
-      "translatedExcerpt": "[HEX N400, Bacchus BSH-STD25 RSM, Bacchus TAC24-FMH-RSM] (Osaka Doronuma, 58 years old) I discovered rock music in middle school and bought a Fernandez red Strat type with my New Year's gift. I wasn't making much progress, so I started down the path of modifying the guitar, and ended up throwing it away as it turned out to be a crappy guitar. When I entered the workforce and was able to afford it, I bought my dream Fender Strat and started playing the guitar again. Due to my busy schedule, I couldn't play at all and ended up being the master of the room. Now that I'm older, I have more free time, so I went to guitar school and started playing again. My Fender, which had been dormant for 35 years, didn't make any noise, so I happened to read a business article about a company called Deviser, which appealed to me, so I went to a music store and tried it out. The moment you grip the neck, your hand feels like it's being sucked and the sound starts..."
     }
   ]
 }

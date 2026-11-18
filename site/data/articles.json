@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T13:02:13.566Z",
+  "generatedAt": "2026-11-18T13:31:58.345Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 43,
+      "count": 44,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 96,
+      "count": 94,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 23,
+      "count": 22,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 258,
+      "count": 261,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 168,
+      "count": 166,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 72,
+      "count": 73,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,101 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 632,
+    "translatedJapaneseArticles": 633,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "e2ade3b43d25183d",
+      "title": "13 Arrested in China for Selling Fake Tifa Figures at Higher Prices Than Originals",
+      "link": "https://news.sankakucomplex.com/n/Ok0R3qwuwfwcrvMLFArv7A",
+      "publishedAt": "2026-11-18T13:22:53.000Z",
+      "excerpt": "Chinese police have arrested 13 individuals accused of operating a counterfeit Final Fantasy VII figure business, with the suspects allegedly selling unauthorized Tifa Lockhart merchandise for prices considerably higher than the genuine products and generating over 2 million yuan ($280,000) in sa…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "e71e50e508e30142",
+      "title": "梅田サイファー、2027年にニューアルバム『THE CYPHER』リリース＆ツアー開催",
+      "link": "https://www.billboard-japan.com/d_news/detail/167559",
+      "publishedAt": "2026-11-18T13:20:00.000Z",
+      "excerpt": "梅田サイファーが、2027年1月20日にニューアルバム『THE CYPHER』をリリースする。",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167559/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Umeda Cypher will release new album “THE CYPHER” and hold tour in 2027",
+      "translatedExcerpt": "Umeda Cypher will release their new album “THE CYPHER” on January 20, 2027."
+    },
+    {
+      "id": "da8b4bdb8e647140",
+      "title": "ano、『CDTVライブ！ライブ！』での「キライのちスキ！」パフォーマンス映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167558",
+      "publishedAt": "2026-11-18T13:15:00.000Z",
+      "excerpt": "anoが、TBS系『CDTVライブ！ライブ！』で披露した新曲「キライのちスキ！」のパフォーマンス映",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167558/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "ano, “CDTV Live! Live! 'Kirai no Chisuki!' performance video released",
+      "translatedExcerpt": "ano will appear on TBS's \"CDTV Live! Live! ” performance video of the new song “Kirai no Chisuki!”"
+    },
+    {
+      "id": "f60690b56ff88151",
+      "title": "eill、片寄涼太に提供した「tenkiame」セルフカバーのスタジオライブ映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167557",
+      "publishedAt": "2026-11-18T13:10:00.000Z",
+      "excerpt": "eillが、セルフカバーEP『self-covers.』より「tenkiame」のスタジオライブ映",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167557/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "eill releases studio live video of “tenkiame” self-cover provided to Ryota Katayose",
+      "translatedExcerpt": "Eill will release a studio live video of ``tenkiame'' from her self-cover EP ``self-covers.''"
+    },
+    {
+      "id": "a00ad683dd11a884",
+      "title": "Japan’s JR East reveals new train company mascot character, online comments aren’t kind",
+      "link": "https://soranews24.com/2026/11/18/japans-jr-east-reveals-new-train-company-mascot-character-online-comments-arent-kind/",
+      "publishedAt": "2026-11-18T13:00:17.000Z",
+      "excerpt": "Filling the Suica Penguin’s shoes isn’t going to be easy. JR East/East Japan Railway Company hit a home run when it picked the original mascot for its Suica prepaid card system. Introduced at the same time as the system itself in 2001, the Suica Penguin was an instant success, giving a cute, approachable persona to […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/0_f5c822.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "792a159fc38b87f3",
       "title": "5ho Sakai、改名後初のSG「諦めてる」リリース",
@@ -501,7 +592,7 @@
         "language": "ja"
       },
       "translatedTitle": "ALPHA DRIVE ONE will make its debut in Japan. JAPAN 1ST SINGLE “Seishun Alliance” to be released in January 2027",
-      "translatedExcerpt": "ALPHA DRIVE ONE, a K-POP boy group that was born through approximately 26 million votes from around the world on Mnet's global audition program ``BOYS Ⅱ PLANET,'' has announced that they will release their JAPAN 1ST SINGLE ``Seishun Rengo'' on January 27, 2027 from Sony Music Labels, making their debut in Japan. The members of South Korea's WAKEONE made their Korean debut with \"THE 1ST MINI ALBUM 'EUPHORIA'\" in January 2026, and their initial sales exceeded 1.44 million copies. Furthermore, their second mini-album ``UNBREAKABLE: Shonen BEAST'' released in August of the same year also boasted global popularity. In about 7 months since their debut, two works have sold over 2 million copies..."
+      "translatedExcerpt": "ALPHA DRIVE ONE, a K-POP boy group that was born through approximately 26 million votes from around the world on Mnet's global audition program ``BOYS Ⅱ PLANET,'' has announced that they will release their JAPAN 1ST SINGLE ``Seishun Rengo'' on January 27, 2027 from Sony Music Labels, making their debut in Japan. They are members of WAKEONE in South Korea, and made their Korean debut with “THE 1ST MINI ALBUM ‘EUPHORIA’” in January 2026, with initial sales exceeding 1.44 million copies. Furthermore, their second mini-album ``UNBREAKABLE: Shonen BEAST'' released in August of the same year also boasted global popularity. In about 7 months since their debut, two works have sold over 2 million copies..."
     },
     {
       "id": "3a41fd9013c5c26b",
@@ -1279,8 +1370,8 @@
       "title": "【Heatseekers Songs】BESTie「Love Options」が2連覇 「VIVANT &lt;Main theme&gt;」が上昇",
       "link": "https://www.billboard-japan.com/d_news/detail/167541",
       "publishedAt": "2026-11-18T06:55:00.000Z",
-      "excerpt": "### 【Heatseekers Songs】BESTie「Love Options」が2連覇 「VIVANT 」が上昇",
-      "image": "https://www.billboard-japan.com/common/img/img_header_sitelogo.png",
+      "excerpt": "2026年11月18日公開（集計期間：11月9日～11月15日）の&ldquo;JAPAN Hea",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167541/800x_image.jpg",
       "source": {
         "id": "billboardjapan",
         "name": "Billboard JAPAN",
@@ -1291,7 +1382,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Heatseekers Songs] BESTie “Love Options” wins for the second consecutive time “VIVANT <Main theme>” rises",
-      "translatedExcerpt": "### [Heatseekers Songs] BESTie “Love Options” wins second consecutive victory “VIVANT” rises"
+      "translatedExcerpt": "“JAPAN Hea” released on November 18, 2026 (collection period: November 9th to November 15th)"
     },
     {
       "id": "5b37b8cc57e78934",
@@ -18341,95 +18432,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "dea66f42b8127f70",
-      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
-      "link": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
-      "publishedAt": "2026-11-10T00:39:00.000Z",
-      "excerpt": "The GROTESQQQUE anime anthology film opens in eighth",
-      "image": "https://a.storyblok.com/f/178900/960x540/bf02a905fc/godzilla-minus-zero.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "56da2f65cc8407d3",
-      "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
-      "link": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
-      "publishedAt": "2026-11-10T00:17:00.000Z",
-      "excerpt": "Shingo Natsume's feature film releases in Japan on February 11, 2027",
-      "image": "https://a.storyblok.com/f/178900/1509x850/df3eee2bf6/ghost-end-of-night.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f713c21fea63f9ac",
-      "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
-      "link": "https://myanimelist.net/news/74922872?_location=rss",
-      "publishedAt": "2026-11-10T00:05:31.000Z",
-      "excerpt": "The official website for the Ghost: Yoru no Hate original anime movie unveiled additional cast, staff, a second key visual (pictured right), the theme song, and main trailer on Tuesday. The movie is scheduled to open in Japanese theaters on February 11, 2027. The movie was previewed at Sitges Film Festival on October 9 and at Animation Is Film Festival on…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794269033-d1c2fc2ee358184f36bf3aab1759f160.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2bb8e2a81b57903b",
-      "title": "MAPA、新曲「少女終戦記念日」配信＆2027年春ツアー開催",
-      "link": "https://ototoy.jp/news/132705",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "excerpt": "MAPAの新曲「少女終戦記念日」が2026年11月10日に配信リリースされた。 「少女終戦記念日」は11月9日渋谷WWWにて開催された〈5th Year Anniversary Live \"MAD PARTY\"〉で初披露された曲。プロデューサーである大森靖子が綴る少女感へ真っ直ぐと応える、5周年を迎えたMAPAにとっても挑戦的な1曲となる。 本作もデビューアルバムから継続して全ての楽曲に携わっている制作チームが手がける。 さらに、2027年2月28日(日)より〈少女終戦記念日ツアー〉と題し、10ヶ所を巡る全国ツアーの開催が発表された。MAPAとしてワンマンライブで10ヶ所を巡るのは初の試みとなり、メンバー6名の凱旋公演も含まれる。 ツアー情報 プロフィール アーティスト情報 https://madpart…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132705/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "MAPA releases new song “Girls’ End of War Memorial Day” and holds spring tour in 2027",
-      "translatedExcerpt": "MAPA's new song \"Girls' End of War Memorial Day\" was released on November 10, 2026. \"Girls' End of War Memorial Day\" was first performed at the 5th Year Anniversary Live \"MAD PARTY\" held at Shibuya WWW on November 9th. It is a challenging song for MAPA, which is celebrating its 5th anniversary, and directly responds to the girlish feeling described by producer Seiko Omori. This work is also being produced by the production team that has been involved in all songs since the debut album. Furthermore, it has been announced that a nationwide tour touring 10 locations will be held starting February 28, 2027 (Sunday), entitled \"Girls' End of War Memorial Day Tour.\" This will be MAPA's first attempt at a one-man live tour of 10 locations, and will include a triumphant return performance by six members. Tour information Profile Artist information https://madpart…"
-    },
-    {
-      "id": "a88a613f1396230e",
-      "title": "timelesz、2月に両A面SGリリース決定",
-      "link": "https://ototoy.jp/news/132704",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "excerpt": "timeleszが2027年2月3日にDouble A-sideシングル「ザユウノメイ / 本当のことを言うと」を発売することが決定。新ビジュアルを公開した。 「本当のことを言うと」は12月4日(金)に公開の橋本将生初主演映画『お姉ちゃんの翠くん』主題歌。11月25日(水)に先行配信される。もう1曲の表題曲「ザユウノメイ」の詳細やジャケット写真は後日発表。 リリース情報 「本当のことを言うと」 「消えない花火」 https://ototoy.jp/_/default/p/3971899 アーティスト情報 https://x.com/ovtt_official https://www.instagram.com/timelesz_official",
-      "image": "https://imgs.ototoy.jp/news/image.php/132704/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "timelesz will release both A-side SG in February",
-      "translatedExcerpt": "It has been decided that timelesz will release their Double A-side single ``The Yuunomei / Honto wo wo wo toto'' on February 3, 2027. A new visual has been released. “To Tell the Truth” is the theme song for “Onee-chan no Midori-kun,” the first movie starring Masao Hashimoto, which will be released on Friday, December 4th. It will be distributed in advance on Wednesday, November 25th. Details and jacket photo of the other title song, \"The Yuunomei\", will be announced at a later date. Release information “To tell you the truth” “Fireworks that won’t go out” https://ototoy.jp/_/default/p/3971899 Artist information https://x.com/ovtt_official https://www.instagram.com/timelesz_official"
     }
   ]
 }

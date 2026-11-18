@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T12:01:46.353Z",
+  "generatedAt": "2026-11-18T12:32:00.373Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 99,
+      "count": 96,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 256,
+      "count": 259,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 205,
+      "count": 206,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 73,
+      "count": 72,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,120 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 627,
+    "translatedJapaneseArticles": 631,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "39db81174052e655",
+      "title": "BUDDiiS、メジャー2ndシングル「無限大LOVE!!!」本日発売＆ダンスパフォーマンス映像公開",
+      "link": "https://barks.jp/news/1105309",
+      "publishedAt": "2026-11-18T12:30:00.000Z",
+      "excerpt": "BUDDiiSが、メジャー2ndシングル「無限大LOVE!!!」を本日リリースした。 2026年10月23日に先行配信された「無限大LOVE!!!」は、Billboard JAPAN“Hot Shot Songs”にランクイン、LINE MUSIC BGM & Melodyのチャートでは1位を獲得し、LINE MUSIC ソングチャートもTOP5にランクインを果たしており、11月2日に公開となったMVは、公開から約3日で100万回再生を突破し過去最速の記録を達成。現在は265万回を突破し、日本のYouTube急上昇チャートTOP10にチャートインするなど話題となっている。 そんな「無限大LOVE!!!」のDance Performance Videoが本日公開された。 今作の振り付けは、数々のアーティスト…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/18192739/BUDDiiS_ArtistPhoto_2611_S-scaled.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "BUDDiiS, 2nd major single “Mugendai LOVE!!!” released today & dance performance video released",
+      "translatedExcerpt": "BUDDiiS released their second major single \"Mugendai LOVE!!!\" today. \"Mugendai LOVE!!!\", which was pre-released on October 23, 2026, was ranked on Billboard JAPAN's \"Hot Shot Songs\", ranked first on the LINE MUSIC BGM & Melody chart, and ranked in the TOP 5 on the LINE MUSIC song chart.The music video, which was released on November 2, exceeded 1 million views in about 3 days after its release, setting the fastest record ever. It has now surpassed 2.65 million views and has become a hot topic, charting in the top 10 of Japan's YouTube trending charts. The dance performance video for \"Mugendai LOVE!!!\" was released today. The choreography for this work was created by numerous artists..."
+    },
+    {
+      "id": "2dcbddff93dd072d",
+      "title": "STARGLOW、新曲「Aurora」ダンスパフォーマンス映像を公開 ファンミ映像作品のジャケット解禁",
+      "link": "https://www.billboard-japan.com/d_news/detail/167554",
+      "publishedAt": "2026-11-18T12:20:00.000Z",
+      "excerpt": "STARGLOWが、新曲「Aurora」のダンスパフォーマンス映像を公開した。 新曲「Auro",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167554/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "STARGLOW releases dance performance video for new song “Aurora” Fanmi video work jacket unveiled",
+      "translatedExcerpt": "STARGLOW has released a dance performance video for their new song \"Aurora\". New song “Auro”"
+    },
+    {
+      "id": "0c631ae34840d66a",
+      "title": "Aぇ! group、アリーナツアー【Runway】映像作品のティザー解禁",
+      "link": "https://www.billboard-japan.com/d_news/detail/167555",
+      "publishedAt": "2026-11-18T12:15:00.000Z",
+      "excerpt": "Aぇ! groupが、2026年12月9日にリリースとなるLIVE Blu-ray＆DVD『Aぇ!",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167555/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ae! group, arena tour [Runway] video teaser released",
+      "translatedExcerpt": "Ae! group will release LIVE Blu-ray & DVD “Ae!” on December 9, 2026."
+    },
+    {
+      "id": "e2bcf28bd8d1eaa0",
+      "title": "Kanan-sama wa Akumade Choroi Season 2 Trailer More Chaotic Than Usual",
+      "link": "https://news.sankakucomplex.com/n/s7cAm30aaT8tZTE2FFFGhA",
+      "publishedAt": "2026-11-18T12:13:39.000Z",
+      "excerpt": "Mischievous demon girl Kanan will be returning for more romantic misadventures as Kanan-sama wa Akumade Choroi’s new second season trailer has teased some of the chaos viewers can expect, with many likely hoping for more sexy moments.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "a5b066d7d6bee885",
+      "title": "LIL LEAGUE、新曲「賽」がアニメ『異世界マンチキン』OP主題歌に",
+      "link": "https://www.billboard-japan.com/d_news/detail/167556",
+      "publishedAt": "2026-11-18T12:10:00.000Z",
+      "excerpt": "LIL LEAGUEが、2027年1月7日深夜より放送開始となるTVアニメ『異世界マンチキン －H",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167556/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "LIL LEAGUE's new song \"Sai\" will be used as the opening theme song for the anime \"Isekai Munchkin\"",
+      "translatedExcerpt": "LIL LEAGUE will be starring in the TV anime “Isekai Munchkin -H” which will start broadcasting from midnight on January 7, 2027."
+    },
+    {
+      "id": "de042f8745195bfd",
+      "title": "KuKu-Loop: The 100th Time's the Charm Anime Reveals Main Cast, Staff, 2027 TV Debut",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-18/kuku-loop-the-100th-time-the-charm-anime-reveals-main-cast-staff-2027-tv-debut/.243942",
+      "publishedAt": "2026-11-18T12:00:19.000Z",
+      "excerpt": "Ikumi Hasegawa, Kazuki Ura star in XINGFU anime",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI8/cms/news.10/243942/992.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "7ef2609bb7e7d4e2",
       "title": "Daoko、「TRICKSTAR feat.ピーナッツくん」MV公開。アルバム収録曲解禁も",
@@ -335,6 +445,23 @@
       },
       "translatedTitle": "STARGLOW releases their 1st album “Aurora”. Dance performance video & fan meeting video jacket photo released",
       "translatedExcerpt": "STARGLOW released their 1st album ``Aurora'' on CD today. This work, which was distributed in advance from November 16, 2026 prior to its CD release, reached number 1 on iTunes' album ranking and LINE MUSIC's Daily Album Top 100, and also ranked number 1 daily on Recochoku and d Music in three categories: album, high-resolution album, and high-resolution single. Additionally, it has topped numerous charts, including mora's overall daily ranking (album) and mu-mo's DL daily ranking (album/single). We are currently running a digital campaign where you can win special benefits, so please check the official website for details. The album title song “Au…” produced by SKY-HI and Ryosuke “Dr.R” Sakai"
+    },
+    {
+      "id": "e5509977c5638ca7",
+      "title": "Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-to-debut-in-january/.243941",
+      "publishedAt": "2026-11-18T11:06:37.000Z",
+      "excerpt": "Season 2's key visual, character visuals also revealed",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gBJ/cms/news.10/243941/spice.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "8640fdde3a92eabf",
@@ -18299,125 +18426,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "7c01698406027172",
-      "title": "US Navy Uses Blend S Meme in Recruitment Video, Surprises Japanese Fans",
-      "link": "https://news.sankakucomplex.com/n/E-HU0FQ5o_T6h4cRqDUwAw",
-      "publishedAt": "2026-11-09T22:00:42.000Z",
-      "excerpt": "The United States Navy has attracted attention in Japan after one of its official recruitment accounts published a promotional video based on the popular Blend S anime meme, combining footage of American warships with a joke that originally went viral nearly a decade ago. The approximately 21-sec…",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "adffff87bb902f11",
-      "title": "US Navy Uses Blend S Meme in Recruitment Video, Surprises Japanese Fans",
-      "link": "https://news.sankakucomplex.com/n/JRJJvxsJcBZWF2hlp_QXVg",
-      "publishedAt": "2026-11-09T22:00:42.000Z",
-      "excerpt": "The United States Navy has attracted attention in Japan after one of its official recruitment accounts published a promotional video based on the popular Blend S anime meme, combining footage of American warships with a joke that originally went viral nearly a decade ago.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "63f0879cf3c21520",
-      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
-      "publishedAt": "2026-11-09T21:30:00.000Z",
-      "excerpt": "K Manga, Comic Days to publish grand prize-winners' entries in December",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF0/cms/news.10/243616/unnamed.png.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "0203311d0a9c11c9",
-      "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
-      "link": "https://crunchyroll.com/news/announcements/2026/11/9/puella-magi-madoka-magica-the-movie-trilogy-streaming-crunchyroll",
-      "publishedAt": "2026-11-09T21:00:00.000Z",
-      "excerpt": "The movies were originally released in 2012 and 2013",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/64d15cc9ac/puella-magi-madoka-magica-the-movie-rebellion.jpeg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "436670d46e839c7b",
-      "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
-      "link": "https://crunchyroll.com/news/features/2026/11/9/the-apothecary-diaries-season-3-episode-6-recap",
-      "publishedAt": "2026-11-09T21:00:00.000Z",
-      "excerpt": "It takes a village",
-      "image": "https://a.storyblok.com/f/178900/960x540/ba90a8ca36/the-apothecary-diaries-season-3-episode-6.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "4cbad05c07771394",
-      "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
-      "publishedAt": "2026-11-09T20:30:00.000Z",
-      "excerpt": "Final volume ships on November 19",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gCD/cms/news.10/243657/81p0wnmnbol.sl1500.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "b9b5de9d8f006e62",
-      "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
-      "link": "https://crunchyroll.com/news/announcements/2026/11/9/a-returners-magic-should-be-special-reborn-as-a-space-mercenary-anime-music-videos",
-      "publishedAt": "2026-11-09T20:00:00.000Z",
-      "excerpt": "Check out the new music videos from FLOW, BLUE ENCOUNT and more!",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/14752a28de/flow-music-video-thumbnail.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
         "language": "en"
       }
     }

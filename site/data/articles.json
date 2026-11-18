@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T00:01:49.508Z",
+  "generatedAt": "2026-11-18T00:32:00.045Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 104,
+      "count": 103,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 257,
+      "count": 258,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 604,
+    "translatedJapaneseArticles": 605,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "49438fa395479cf4",
+      "title": "パペットスンスン、小さな発見や温かさに目を向ける新曲「カラー」配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/167515",
+      "publishedAt": "2026-11-18T00:15:00.000Z",
+      "excerpt": "パペットスンスンが、2026年11月25日に新曲「カラー」を配信リリースする。 自身2作目とな",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167515/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Puppet Seungsun releases new song “Color” that focuses on small discoveries and warmth",
+      "translatedExcerpt": "Puppet Soonsun will release a new song \"Color\" on November 25, 2026. This is my second work."
+    },
     {
       "id": "a6c0a9fb80ba026b",
       "title": "Chrono Trigger Composer Says Dragon Quest Should End After Akira Toriyama’s Death",
@@ -4548,7 +4567,7 @@
         "language": "ja"
       },
       "translatedTitle": "Mark Ambor releases new EP with 7 songs",
-      "translatedExcerpt": "Mark Ambor released his new EP “East Houston Tapes” on Friday, November 13, 2026. This work is a new work following the debut album \"Rockwood\" released in 2024. Containing a total of seven songs, it was produced and recorded in his New York apartment, and is a work that strongly reflects his current state of mind. After the worldwide success of ``Belong Together'', this work was born while facing the production of the next album. This collection contains songs that were created spontaneously with close friends during the process of recovering one's true self after stepping away from great pressure. Release information https://ototoy.jp/_/default/p/4440373 Artist information https://www.instagram.com…"
+      "translatedExcerpt": "Mark Ambor released his new EP “East Houston Tapes” on Friday, November 13, 2026. This work is a new work following the debut album \"Rockwood\" released in 2024. Containing a total of seven songs, it was produced and recorded in his New York apartment, and is a work that strongly reflects his current state of mind. This work was born while facing the production of the next album after the worldwide success of \"Belong Together\". This collection contains songs that were created spontaneously with close friends during the process of recovering one's true self after stepping away from great pressure. Release information https://ototoy.jp/_/default/p/4440373 Artist information https://www.instagram.com…"
     },
     {
       "id": "fa30f56827bbf674",
@@ -18348,23 +18367,6 @@
       "publishedAt": "2026-11-08T17:00:00.000Z",
       "excerpt": "Zeke Jaeger makes an already complicated story even more complex",
       "image": "https://a.storyblok.com/f/178900/960x540/e9deca326f/attack-on-titan.jpeg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "b4d4c7203a036521",
-      "title": "My Crush's Crush Anime Premieres in April 2027",
-      "link": "https://crunchyroll.com/news/latest/2026/11/8/my-crushs-crush-anime-april-2027-cast-staff-trailer-visual",
-      "publishedAt": "2026-11-08T16:23:00.000Z",
-      "excerpt": "Teaser trailer, main cast and more revealed for adaptation based on romcom manga",
-      "image": "https://a.storyblok.com/f/178900/1000x563/87607e8fab/my_crushs_crush_header.jpg",
       "source": {
         "id": "crunchyroll",
         "name": "Crunchyroll News",

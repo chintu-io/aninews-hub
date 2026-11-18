@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T15:31:54.871Z",
+  "generatedAt": "2026-11-18T16:02:29.448Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 97,
+      "count": 98,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 165,
+      "count": 164,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 634,
+    "translatedJapaneseArticles": 633,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "86a759a3e392b116",
+      "title": "Get Ready for Satoshi Mizukami’s Stunning Spirit Circle!",
+      "link": "https://crunchyroll.com/news/features/2026/11/18/spirit-circle-anime-adaptation-excitement",
+      "publishedAt": "2026-11-18T16:00:00.000Z",
+      "excerpt": "Spirit Circle getting an anime adaptation is a huge win",
+      "image": "https://a.storyblok.com/f/178900/960x540/64c7692916/spirit-circle.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "46afdbcbe67af845",
       "title": "Inu x Boku Secret Service Anime Celebrates 15th Anniversary with New Visual",
@@ -3723,7 +3740,7 @@
         "language": "ja"
       },
       "translatedTitle": "〈COMING KOBE27〉 will be held",
-      "translatedExcerpt": "COMING KOBE is Japan's largest charity event held in Kobe. In 2026, which will mark 32 years since the earthquake, it has been decided that this event will be held with the main theme of preserving the story of the Great Hanshin-Awaji Earthquake and passing it on, providing support to the affected areas as Kobe's repayment, and conveying the charm of Kobe. Ticket sales will begin on December 18th. Let's look forward to <COMING KOBE27>, where we will be announcing some great artists in the future. Event information Doors scheduled to open at 10:00 a.m. Scheduled to end at 6:30 p.m. Information http://comingkobe.com"
+      "translatedExcerpt": "COMING KOBE is Japan's largest charity event held in Kobe. In 2026, which will mark 32 years since the earthquake, it has been decided that this event will be held with the main theme of preserving the story of the Great Hanshin-Awaji Earthquake and passing it on, providing support to the affected areas as Kobe's repayment, and conveying the charm of Kobe. Ticket sales will begin on December 18th. Let's look forward to COMING KOBE27, where many gorgeous artists will be announced in the future. Event information Doors scheduled to open at 10:00 a.m. Scheduled to end at 6:30 p.m. Information http://comingkobe.com"
     },
     {
       "id": "ec3718369ce5e512",
@@ -18415,25 +18432,6 @@
       },
       "translatedTitle": "Mrs./Kinki/Masayoshi Yamazaki/Porn/Spitz, etc., 34 new songs surpass milestones: Streaming summary",
       "translatedExcerpt": "Billboard JAPAN chart streaming tally shows 34 new songs surpassing the cumulative play count milestone"
-    },
-    {
-      "id": "97c28d562fb6b36d",
-      "title": "もくろ、1st AL『komore no hikari』リリース決定",
-      "link": "https://ototoy.jp/news/132695",
-      "publishedAt": "2026-11-10T03:00:00.000Z",
-      "excerpt": "もくろが1stアルバム『komore no hikari』のリリースを発表した。 もくろは、botanicaなどのエレクトロニックな音像とギターサウンドを特徴とするボカロP。自身初となるアルバム『komore no hikari』には、「skyward」「ivy」など全10曲が収録される。 本作のCinematographerはいろは、Illustratorは見境ない、Graphic DesignerはSwoNがそれぞれ担当している。なお、本作は11月28日（土）に開催される〈THE VOC@LOiD M@STER 64〉にて頒布される予定だ。 リリース情報 01. skyward ▼ OTOTOY配信ページ https://ototoy.jp/_/default/a/1842209 リリース情報 ▼ O…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132695/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Mokuro, 1st AL “komore no hikari” to be released",
-      "translatedExcerpt": "Mokuro has announced the release of their 1st album ``komore no hikari''. Mokuro is a Vocaloid P that features electronic sounds such as botanica and guitar sounds. His first album ``komore no hikari'' includes 10 songs including ``skyward'' and ``ivy.'' The Cinematographer for this work is Iroha, the Illustrator is Mimaru, and the Graphic Designer is SwoN. This work is scheduled to be distributed at THE VOC@LOiD M@STER 64, which will be held on Saturday, November 28th. Release information 01. skyward ▼ OTOTOY distribution page https://ototoy.jp/_/default/a/1842209 Release information ▼ O…"
     }
   ]
 }

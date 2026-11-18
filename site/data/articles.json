@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T02:02:10.726Z",
+  "generatedAt": "2026-11-18T02:31:59.546Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 102,
+      "count": 103,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 20,
+      "count": 21,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 264,
+      "count": 262,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 150,
+      "count": 149,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "count": 78,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,80 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 610,
+    "translatedJapaneseArticles": 608,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "71ba72b46cbe7752",
+      "title": "Luov、初CDシングル『ロールプレイングライフ』リリース決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167530",
+      "publishedAt": "2026-11-18T02:30:00.000Z",
+      "excerpt": "Luovが、自身初となるCDシングル『ロールプレイングライフ』を、12月23日にリリースすることが",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167530/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Luov to release first CD single “Role Playing Life”",
+      "translatedExcerpt": "Luov will release his first CD single ``Role Playing Life'' on December 23rd."
+    },
+    {
+      "id": "72053139ab37929b",
+      "title": "Street Fighter 6 x Star Detective Precure! Collab Video Streamed",
+      "link": "https://crunchyroll.com/news/latest/2026/11/18/street-fighter-6-x-star-detective-precure-collab-video",
+      "publishedAt": "2026-11-18T02:08:00.000Z",
+      "excerpt": "The four-part collab story will be available on December 17",
+      "image": "https://a.storyblok.com/f/178900/960x540/950b84cdac/street-fighter6-star-detective-precure-collab-video.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "2ad7ac88f05681ac",
+      "title": "Sakamoto Days Season 2 Anime Trailer Reveals Premiere Date, Creepy Nuts Opening Theme Song",
+      "link": "https://crunchyroll.com/news/latest/2026/11/18/sakamoto-days-season-2-anime-creepy-nuts-opening-theme-song-trailer",
+      "publishedAt": "2026-11-18T02:03:00.000Z",
+      "excerpt": "The action comedy series returns on January 18",
+      "image": "https://a.storyblok.com/f/178900/960x540/f50d7daf90/sakamoto-days-season-2.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "8dc1f45b368d0044",
+      "title": "'Sakamoto Days 2nd Season' Unveils Additional Cast, Opening Theme, First Promo",
+      "link": "https://myanimelist.net/news/74951901?_location=rss",
+      "publishedAt": "2026-11-18T02:00:06.000Z",
+      "excerpt": "The official website of the Sakamoto Days television anime unveiled a pair of additional cast, key visual (pictured), the opening theme, and first promotional video for the second season on Wednesday. The anime adapting Yuuto Suzuki's action comedy manga is scheduled to premiere on TV Tokyo and its affiliated networks on January 19, 2027, at 12:00 a.m. It…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794967162-fc6bd2956b9bbaaec9cd5704a3ac64a1.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
     {
       "id": "4cc8d3af83cf6d45",
       "title": "湊かなえ×柴那典の特別対談、会場で『王国』サイン本を40冊限定販売決定",
@@ -1242,7 +1312,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "Soala performs the official theme song for <High School Girl Beauty Pageant/High School Boy Mister Con> for 2nd consecutive year",
+      "translatedTitle": "Soala performs official theme song for <High School Girl Beauty Pageant/High School Boy Mister Con> for 2nd consecutive year",
       "translatedExcerpt": "Soala has announced that their new song ``Yume Monogatari'' has been selected as the official theme song for the High School Girls' Miss Contest 2026 and High School Boys' Mr. Con 2026, a contest for high school girls and boys nationwide sponsored by with T Inc. Soala has been in charge of the official theme song for the second year in a row, and this time's theme song ``Yume Monogatari'' begins with the message, ``It's okay to cry,'' and says that even detours and stopped nights become ``trajectories that continue to tomorrow,'' a new song that affirms teenagers who move forward while shedding tears. The award ceremony, where 15 finalists from each contest will compete, will be held on November 28th and 29th, 2026. ``Yume Monogatari'' will begin streaming on various music distribution services at midnight on November 29th, and is scheduled to be performed on the award ceremony stage on the same day. ◆ ◆ ◆ ◾️Soala Comment…"
     },
     {
@@ -5082,6 +5152,23 @@
       },
       "translatedTitle": "Noah Rinker releases sweet and sad new song",
       "translatedExcerpt": "Noah Rinker released his new single \"Kids\" on Friday, November 13, 2026. With a folk-based acoustic sound in the background, this work depicts the innocence of youth, the joy of falling in love with someone for the first time, and the pure emotions that are lost over time. This work stands out for Noah Rinker's unique unpretentious singing voice and songwriting that sublimates personal experiences into universal stories. The central theme of this song is the innocence that passes with youth, and the special glow that young love has. It is a song that makes you feel the preciousness of time that has passed while looking back on the joys and pains of your youth. Release information https://ototoy.jp/_/default/p/4442837 Artist information https://…"
+    },
+    {
+      "id": "f560ee36de36f2eb",
+      "title": "Mahou Shoujo ni Akogarete Season 2 Promising More Sadistic Perversion",
+      "link": "https://news.sankakucomplex.com/n/G6eonJGPM5HgcEr_XtX9xg",
+      "publishedAt": "2026-11-15T02:00:43.000Z",
+      "excerpt": "The rather perverted magical girl anime Mahou Shoujo ni Akogarete is finally returning in 2027, with a new promotional video and illustration confirming that the series’ sadistic heroine Magia Baiser will soon be back to torment her beloved magical girls.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "eed66a6df853296e",
@@ -18293,99 +18380,6 @@
       },
       "translatedTitle": "YOASOBI, tour [Super Planet] Hong Kong and Australia performance details announced",
       "translatedExcerpt": "YOASOBI is currently holding a tour [YOASOBI 11-CITY ASIA-OCEANIA T"
-    },
-    {
-      "id": "5a489974dccc3923",
-      "title": "日曜劇場「VIVANT」「あまりにも露骨な違和感を残して…。絶対に映画見なきゃとなる」「そうか『スティング』だったのか！」",
-      "link": "https://www.billboard-japan.com/d_news/detail/167276",
-      "publishedAt": "2026-11-09T02:00:00.000Z",
-      "excerpt": "「VIVANT」（TBS系）の第24話（最終話）が8日に放送された。 本作は、2023年夏、日本",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167276/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Sunday Theater ``VIVANT'' ``It left me with such a blatant sense of discomfort...I absolutely have to see the movie'' ``I see, it was ``The Sting''!''",
-      "translatedExcerpt": "The 24th episode (final episode) of \"VIVANT\" (TBS) was broadcast on the 8th. This work will take place in the summer of 2023 in Japan."
-    },
-    {
-      "id": "785329e99ac57afd",
-      "title": "「俺たちの箱根駅伝」“甲斐監督”山下智久の過去と熱い思いに反響 「甲斐監督がずっとカッコいい」「山Pにどハマり」",
-      "link": "https://www.billboard-japan.com/d_news/detail/167271",
-      "publishedAt": "2026-11-09T01:30:00.000Z",
-      "excerpt": "大泉洋が主演するドラマ「俺たちの箱根駅伝」（日本テレビ系）の第5話が、7日に放送された。（※以下、",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167271/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "``Our Hakone Ekiden'' ``Coach Kai'' Tomohisa Yamashita's past and passion resonated ``Coach Kai has always been cool'' ``I'm addicted to YamaP''",
-      "translatedExcerpt": "The fifth episode of the drama ``Oretachi no Hakone Ekiden'' (Nippon Television Network) starring Yo Oizumi was broadcast on the 7th. (※below,"
-    },
-    {
-      "id": "80fba3ab56907511",
-      "title": "【オフィシャルレポ】渡辺美里、“スタジアム伝説”が復活 21年ぶりの西武ドーム公演に2万8,000人が熱狂",
-      "link": "https://ototoy.jp/news/132693",
-      "publishedAt": "2026-11-09T01:30:00.000Z",
-      "excerpt": "渡辺美里が、2026年11月8日（日）、埼玉・西武ドーム（ベルーナドーム）にて〈スタジアム伝説～復活～ Sweet 60〉を開催した。 1986年から20年連続で開催され、2005年を最後に幕を下ろした西武ドーム公演が、実に21年ぶり、21度目の開催として復活。2万8,000枚のチケットは全席完売となり、60歳という節目の年に、再び伝説のステージに立った。 「スタジアムライブへようこそ！」 渡辺美里の第一声が響き渡ると、待ちわびた観客の歓声が会場を包み込んだ。「今日は全国各地からこんなにも沢山の方たちに集まっていただけて本当に感激です！」と、21年ぶりのスタジアム公演に駆けつけたファンへの感謝を語った。 ライブ中盤、渡辺が一度ステージを後にすると、巨大LEDモニターには、お笑い芸人でパラパラ漫画家として知…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132693/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Official Report] Misato Watanabe's \"stadium legend\" is back - 28,000 people enthusiastically attend Seibu Dome performance for the first time in 21 years",
-      "translatedExcerpt": "Misato Watanabe held <Stadium Legend ~Resurrection~ Sweet 60> at Seibu Dome (Belluna Dome) in Saitama on Sunday, November 8, 2026. The Seibu Dome performance, which was held for 20 consecutive years starting in 1986 and ended in 2005, is back for the 21st time in 21 years. All 28,000 tickets were sold out, and in his 60th year, he once again stood on the legendary stage. \"Welcome to the stadium live!\" As Misato Watanabe's first voice rang out, the venue was filled with the cheers of the eagerly awaited audience. ``I'm really thrilled that so many people from all over the country came together today!'' he said, expressing his gratitude to the fans who came to see him perform at the stadium for the first time in 21 years. In the middle of the live performance, once Watanabe left the stage, a giant LED monitor displayed a famous comedian and flipbook manga artist..."
-    },
-    {
-      "id": "7fc43bd9d7d4485e",
-      "title": "AiNA THE END Shares ONE PIECE Elbaph Arc Anime Opening Song Collab Music Video",
-      "link": "https://crunchyroll.com/news/latest/2026/11/9/one-piece-elbaph-arc-anime-opening-song-collab-music-video-aina-the-end",
-      "publishedAt": "2026-11-09T01:25:00.000Z",
-      "excerpt": "The single peaked at number 25 on the weekly chart",
-      "image": "https://a.storyblok.com/f/178900/960x540/81b9047ff9/one-piece-luminous-collab-mv.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "61658da7c0e03af3",
-      "title": "【米ビルボード・アルバム・チャート】オリヴィア・ロドリゴ通算4週目首位、ハロウィン効果で『スリラー』が再浮上",
-      "link": "https://www.billboard-japan.com/d_news/detail/167266",
-      "publishedAt": "2026-11-09T01:15:00.000Z",
-      "excerpt": "今週（2026年11月14日付）の米ビルボード・アルバム・チャート&ldquo;Billboard",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167266/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[U.S. Billboard Album Chart] Olivia Rodrigo tops the chart for 4th week, “Thriller” resurfaces due to Halloween effect",
-      "translatedExcerpt": "This week (dated November 14, 2026) US Billboard album chart “Billboard"
     }
   ]
 }

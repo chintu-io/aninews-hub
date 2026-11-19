@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T16:01:58.782Z",
+  "generatedAt": "2026-11-19T16:32:39.716Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 135,
+      "count": 136,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 24,
+      "count": 25,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 268,
+      "count": 267,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 200,
+      "count": 199,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 156,
+      "count": 155,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "count": 78,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 624,
+    "translatedJapaneseArticles": 622,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "327246157f98d6ab",
+      "title": "'Gensou Suikoden' Reveals Additional Cast",
+      "link": "https://myanimelist.net/news/74958379?_location=rss",
+      "publishedAt": "2026-11-19T16:22:13.000Z",
+      "excerpt": "The official website of Gensou Suikoden (Suikoden: The Anime) revealed additional cast on Wednesday. The anime series adapting Konami's fantasy role-playing game premiered on October 3 at 11.30 p.m. on Tokyo MX followed by Kansai TV, BS Asahi, and 32 other stations. Cast Makai: Ikuji Nose (Mob Psycho 100) Tai Ho: Masaki Ishimine Yam Koo: Hideyuki Kobayash…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1795105280-ca33c40940e1d392001dfb15ef9ef3c9.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "e4e67f356674e06c",
+      "title": "Netflix May Have Saved Japan’s Anime Industry, Production I.G Founder Says",
+      "link": "https://news.sankakucomplex.com/n/EO_Bs9nmAF_1tRY8SPogbA",
+      "publishedAt": "2026-11-19T16:00:37.000Z",
+      "excerpt": "Production I.G co-founder Mitsuhisa Ishikawa believes foreign streaming services such as Netflix may have prevented a catastrophic decline in Japan’s anime industry, arguing that the number of studios could have fallen by as much as 90% without their involvement.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "9255c65f95687d86",
       "title": "K-Pop Superstar TZUYU on DAN DA DAN, F1 Racing and Her New Original Song",
@@ -181,6 +215,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d00f778f9de237fd",
+      "title": "WIXOSS TCG to End New Production in February 2027",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-19/wixoss-tcg-to-end-new-production-in-february-2027/.243990",
+      "publishedAt": "2026-11-19T16:00:00.000Z",
+      "excerpt": "English releases ended last year",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gII/cms/news.10/243990/wixoss.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -1574,7 +1625,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Interview] Akuru Yoru no Hitsuji: “We want to prove that we are a band that was born and lived in live houses.”",
-      "translatedExcerpt": "Akuru Ya no Hitsuji started in 2018 and made their major debut in 2026. Following their debut EP in July, they will release their first single \"Hibi wo Kite\" on November 18th. This work was used as the ending theme song for the third season of the TV anime ``Reincarnated Kizoku, Narigaru with Appraisal Skill'', and is their first single and anime tie-up song. Rather than comparing himself to others, he depicts the days when he faces himself and builds up one step at a time. With such straightforward lyrics and sound, the song has been created to convey the intention to move forward into the future. We asked the members, who are appearing on BARKS for the first time, about their songwriting process, which is unique to Dawn of the Night. ◆ ◆ ◆ ──Since this is the first appearance of BARKS, today I would like to know what kind of band Akuru Yoru no Hitsuji are in your own words. First of all, as a player, “Fu…"
+      "translatedExcerpt": "Akuru Ya no Hitsuji started in 2018 and made their major debut in 2026. Following their debut EP in July, they will be releasing their first single \"Hibi wo Kite\" on November 18th. This work was used as the ending theme song for the third season of the TV anime ``Reincarnated Kizoku, Narigaru with Appraisal Skill'', and is their first single and anime tie-up song. Rather than comparing himself to others, he depicts the days when he faces himself and builds up one step at a time. With such straightforward lyrics and sound, the song has been created to convey the intention to move forward into the future. We asked the members, who are appearing on BARKS for the first time, about their songwriting process, which is unique to Dawn of the Night. ◆ ◆ ◆ ──Since this is the first appearance of BARKS, today I would like to know what kind of band Akuru Yoru no Hitsuji are in your own words. First of all, as a player, “Fu…"
     },
     {
       "id": "911e12a648290d06",
@@ -18357,63 +18408,6 @@
       },
       "translatedTitle": "\"Remi Hirano All About Charm\" will be released. Includes music written by his late father Takeo Hirano.",
       "translatedExcerpt": "Remi Hirano, who is active as a chanson singer and cooking enthusiast, discovered unreleased sound source recorded at the time of her debut. Nippon Columbia has announced that the CD ``Remi Hirano All About Charm'', which includes a total of 21 songs including these 4 songs, will be released on December 2, 2026. Remi Hirano made her record debut with Nippon Columbia's single ``Temptation Bayon'' in 1970, and had released a total of four singles by 1972. This time, while organizing Columbia's in-house master tapes in preparation for making CDs of the sound sources from that time, we discovered the sound sources of four unreleased songs. One of these songs, ``I'm Calling You,'' which was recorded in 1972, had only the song title written on the tape and the artist's name unknown, but when Hirano listened to it for the first time in about half a century, it was discovered that it was written by his late father, the French literary scholar/poet Shimao Hirano. At home..."
-    },
-    {
-      "id": "01da40357e64f9fe",
-      "title": "Perfume、アルバム『Favorites (Selected by Perfume) / コールドスリープ』収録内容公開",
-      "link": "https://barks.jp/news/1103785",
-      "publishedAt": "2026-11-11T02:00:00.000Z",
-      "excerpt": "Perfumeが、2026年12月23日にリリースするアルバム『Favorites (Selected by Perfume) / コールドスリープ』の収録内容を発表した。 本作は、コールドスリープに入る前の2025年末に、あ～ちゃん、かしゆか、のっちがそれぞれPerfumeの楽曲から自ら選曲したメンバーセレクトアルバムだ。 かしゆかが選んだ「Side K」、あ～ちゃんが選んだ「Side A」、のっちが選んだ「Side N」には、それぞれ13曲、全39曲を収録。これまでPerfumeとして発表してきた数々の楽曲から3人がそれぞれどんな曲を選んだのか、その個性が感じられるラインナップとなっている。 「Side K」には「STAR TRAIN」「SEVENTH HEAVEN」「願い (album mix)」「…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/05/16162656/Perufme_%E3%82%A2%E3%83%BC%E5%86%99_WEB-%E7%94%A8.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Perfume reveals the contents of the album “Favorites (Selected by Perfume) / Cold Sleep”",
-      "translatedExcerpt": "Perfume has announced the contents of their album \"Favorites (Selected by Perfume) / Cold Sleep\" to be released on December 23, 2026. This work is a member-selected album in which A-chan, Kashiyuka, and Nocchi each selected their own songs from Perfume's songs at the end of 2025 before going into cold sleep. \"Side K\" selected by Kashiyuka, \"Side A\" selected by A-chan, and \"Side N\" selected by Nocchi each contain 13 songs, a total of 39 songs. The lineup allows you to feel the individuality of the songs each of the three members have chosen from among the many songs they have released as Perfume. “Side K” includes “STAR TRAIN”, “SEVENTH HEAVEN”, “Wish (album mix)”, “…"
-    },
-    {
-      "id": "9583df7cc81261c7",
-      "title": "Perfume、メンバー選曲AL収録曲発表",
-      "link": "https://ototoy.jp/news/132737",
-      "publishedAt": "2026-11-11T02:00:00.000Z",
-      "excerpt": "Perfumeが12月23日（水）にリリースするアルバム『Favorites (Selected by Perfume) / コールドスリープ』の収録内容を発表した。 本作はコールドスリープに入る前の2025年末に3人がPerfume楽曲から選曲したアルバム。かしゆかが選んだ「Side K」、あ～ちゃんが選んだ「Side A」、のっちが選んだ「Side N」には、それぞれ13曲、全39曲を収録。これまでPerfumeとして発表してきた数々の楽曲から、3人の個性が感じられるラインナップとなっている。 リリース情報 2026年12月23日（水）発売 収録内容 ■Side K ■Side A ■Side N ■Disc 4 (CD) ■Blu-ray アーティスト情報 https://www.perfume-w…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132737/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Perfume, member selection AL songs announced",
-      "translatedExcerpt": "Perfume has announced the contents of their album ``Favorites (Selected by Perfume) / Cold Sleep'', which will be released on December 23rd (Wednesday). This is an album in which the three members selected Perfume songs at the end of 2025 before going into cold sleep. \"Side K\" selected by Kashiyuka, \"Side A\" selected by A-chan, and \"Side N\" selected by Nocchi each contain 13 songs, a total of 39 songs. The lineup allows you to feel the individuality of the three members from the numerous songs that Perfume has released so far. Release information Released on Wednesday, December 23, 2026 Contents ■Side K ■Side A ■Side N ■Disc 4 (CD) ■Blu-ray Artist information https://www.perfume-w…"
-    },
-    {
-      "id": "1f9f9c433ecd80dc",
-      "title": "Perfume、メンバー選曲アルバム『Favorites（Selected by Perfume）／コールドスリープ』収録内容公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167337",
-      "publishedAt": "2026-11-11T02:00:00.000Z",
-      "excerpt": "Perfumeが、12月23日にリリースするアルバム『Favorites（Selected by",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167337/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Perfume releases the contents of the members' song selection album \"Favorites (Selected by Perfume)/Cold Sleep\"",
-      "translatedExcerpt": "Perfume will release their album “Favorites (Selected by"
     }
   ]
 }

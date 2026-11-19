@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T23:03:05.294Z",
+  "generatedAt": "2026-11-19T23:32:03.611Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 96,
+      "count": 97,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 265,
+      "count": 264,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -146,7 +146,7 @@
       "feedUrl": "https://ototoy.jp/news/feed.rss",
       "count": 152,
       "imageEnrichment": null,
-      "fetchedCount": 0
+      "fetchedCount": 50
     },
     {
       "id": "sankaku",
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 613,
-    "translationAttempts": 60
+    "translatedJapaneseArticles": 612,
+    "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "c83f046ba6c55179",
+      "title": "GROTESQQQUE Anime Anthology Film Gets One-Week Screening in LA",
+      "link": "https://crunchyroll.com/news/latest/2026/11/19/grotesqqque-anime-anthology-film-gets-one-week-screening-in-la",
+      "publishedAt": "2026-11-19T23:09:00.000Z",
+      "excerpt": "Screening to be held at the Alamo Drafthouse Cinema Downtown Los Angeles starting December 3",
+      "image": "https://a.storyblok.com/f/178900/960x540/a5a99b2561/grotesqqque-main.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "c91144c260260b18",
       "title": "aespa、「KISS N TELL (☆Taku Takahashi Remix)」リリース",
@@ -314,7 +331,7 @@
       "title": "GetBackers Revival Sparks Backlash Over Suspected AI Animation",
       "link": "https://news.sankakucomplex.com/n/kh8KAU_87bkIxxN2mGYLHw",
       "publishedAt": "2026-11-19T20:00:58.000Z",
-      "excerpt": "The return of GetBackers has disappointed fans after its latest trailer raised suspicions of generative AI use, while concerns have also emerged about the original manga artist’s involvement. On November 18, the franchise’s official YouTube channel announced that its GetBackers motion-comic serie…",
+      "excerpt": "The return of GetBackers has disappointed fans after its latest trailer raised suspicions of generative AI use, while concerns have also emerged about the original manga artist’s involvement.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -876,8 +893,8 @@
       "title": "ゴールデンボンバー「病名をつけてくれ」MV公開 鬼龍院翔が抱える葛藤を映像化",
       "link": "https://www.billboard-japan.com/d_news/detail/167602",
       "publishedAt": "2026-11-19T10:10:00.000Z",
-      "excerpt": "2026年12月2日発売のゴールデンボンバーの両A面シングル『病名をつけてくれ／残高ゼロ』より、「病名をつけてくれ」のミュージック・ビデオが公開された。 MVは、鬼龍院翔（Vo.）が自身の生きづらさの正体を知りたいと切実に苦しむ姿や、その後ろで喜…",
-      "image": "https://www.billboard-japan.com/common/img/img_header_sitelogo.png",
+      "excerpt": "2026年12月2日発売のゴールデンボンバーの両A面シングル『病名をつけてくれ／残高ゼロ』より、「",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167602/800x_image.jpg",
       "source": {
         "id": "billboardjapan",
         "name": "Billboard JAPAN",
@@ -888,7 +905,7 @@
         "language": "ja"
       },
       "translatedTitle": "Golden Bomber “Name your disease” MV released, visualizing the conflict faced by Sho Kiryuin",
-      "translatedExcerpt": "The music video for ``Shinana wo Atsukure'' from Golden Bomber's double A-side single ``Shinana wo Atsukure/Balance Zero'', which will be released on December 2, 2026, has been released. The MV features Kiryuin Sho (Vo.) desperately trying to figure out the true nature of his difficult life, and the joy behind it..."
+      "translatedExcerpt": "From Golden Bomber's double A-side single \"Shinname wo Atsukure/Balance Zero\" released on December 2, 2026, \""
     },
     {
       "id": "ecb601ed110852e2",
@@ -1284,8 +1301,8 @@
       "title": "【ビルボード】XG「DEPENDS」、10の国と地域で日本アーティスト曲トップに 松下誠45年前の楽曲が上昇中",
       "link": "https://www.billboard-japan.com/d_news/detail/167597",
       "publishedAt": "2026-11-19T08:55:00.000Z",
-      "excerpt": "### 【ビルボード】XG「DEPENDS」、10の国と地域で日本アーティスト曲トップに 松下誠45年前の楽曲が上昇中",
-      "image": "https://www.billboard-japan.com/common/img/img_header_sitelogo.png",
+      "excerpt": "世界各国でヒットしている日本の楽曲をランキング化した &ldquo;Japan Songs（国/地",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167597/800x_image.jpg",
       "source": {
         "id": "billboardjapan",
         "name": "Billboard JAPAN",
@@ -1296,7 +1313,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] XG's \"DEPENDS\" tops Japanese artists' songs in 10 countries and regions Makoto Matsushita's 45-year-old song is on the rise",
-      "translatedExcerpt": "### [Billboard] XG \"DEPENDS\" tops Japanese artists' songs in 10 countries and regions Makoto Matsushita's 45-year-old song is on the rise"
+      "translatedExcerpt": "“Japan Songs” is a ranking of Japanese songs that are hits around the world."
     },
     {
       "id": "4547aa267328e85a",
@@ -1333,7 +1350,7 @@
         "accent": "#ff9f78",
         "language": "ja"
       },
-      "translatedTitle": "To celebrate the release of STARGLOW's first album \"Aurora,\" oversized visuals will appear across the country",
+      "translatedTitle": "STARGLOW to celebrate the release of their 1st album “Aurora” with special visuals appearing all over the country",
       "translatedExcerpt": "STARGLOW's first album ``Aurora'' will be released on November 18th (Wednesday), and large-scale visuals are being posted on outdoor and transportation advertisements all over the country. \"Shibuya Center Gai Area Jack\", \"Shibuya East Exit Underground Plaza B1F East Building Connecting Passage Wall Sheet\", \"Osaka Metro Midosuji Jumbo\", \"TSUTAYA Ebisu Bashi Hit Vision\", etc. are being rolled out in five areas nationwide: Tokyo, Osaka, Nagoya, Fukuoka, and Sapporo, as well as on the JR nationwide network. By scanning the QR code in the ad design, you can also view limited member comments. ■1st Album “Aurora” Nationwide outdoor and transportation advertisement posting period: November 16th (Monday) to November 22nd (Sunday) *The posting period may differ for some media. Posting media [Tokyo] Shibuya Center Gai Area Jack (11/18-24…"
     },
     {
@@ -1453,8 +1470,8 @@
       "title": "【ビルボード】大川隆法『不滅なるものへの挑戦』文化書籍チャート2週連続首位 河井ゆずる（アインシュタイン）／瀬口黎弥（FANTASTICS）が続く",
       "link": "https://www.billboard-japan.com/d_news/detail/167576",
       "publishedAt": "2026-11-19T07:30:00.000Z",
-      "excerpt": "### 【ビルボード】大川隆法『不滅なるものへの挑戦』文化書籍チャート2週連続首位 河井ゆずる（アインシュタイン）／瀬口黎弥（FANTASTICS）が続く",
-      "image": "https://www.billboard-japan.com/common/img/img_header_sitelogo.png",
+      "excerpt": "2026年11月19日公開チャート（集計期間：2026年11月9日～11月15日）のBillboa",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167576/800x_image.jpg",
       "source": {
         "id": "billboardjapan",
         "name": "Billboard JAPAN",
@@ -1465,7 +1482,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Billboard] Ryuho Okawa's \"Challenge to Immortality\" tops the cultural book chart for two consecutive weeks, followed by Yuzuru Kawai (Einstein) and Reiya Seguchi (FANTASTICS)",
-      "translatedExcerpt": "### [Billboard] Ryuho Okawa's \"Challenge to Immortality\" tops the cultural book chart for two weeks in a row, followed by Yuzuru Kawai (Einstein) and Reiya Seguchi (FANTASTICS)"
+      "translatedExcerpt": "Billboa chart published on November 19, 2026 (collection period: November 9, 2026 to November 15, 2026)"
     },
     {
       "id": "2536e0c60a9f821f",
@@ -18373,25 +18390,6 @@
       },
       "translatedTitle": "CUTIE STREET, simultaneous advance distribution of 3 unit songs from 1st album",
       "translatedExcerpt": "CUTIE STREET has released the songs from their 1st album ``CUTIE LAND'', which will be released on Wednesday, December 2nd. In addition, three unit songs from the album, ``Oyasumi Siren Night'', ``Dondon Don!'', and ``Kimi Nada'', were distributed in advance today, November 11th (Wednesday). The three songs that were distributed in advance this time were first performed on the national arena tour with the same title as the album that is currently being held, and have become a hot topic among fans. \"Oyasumi Siren Night\" is a unit song by Nagisaki Manabe and Haruka Sakuraba.It is a song that combines a deep and powerful sound with a sweet and addictive melody, giving you a sense of inner strength and mysterious charm within its cuteness. \"Don Don Don!\", full of sparkling euphoria, is a unit song by Risa Furusawa, Shoru Kawamoto, and Miyu Umeda. Positive lyrics and melodies add to the daily lives of those who listen to them..."
-    },
-    {
-      "id": "7883d490daec6576",
-      "title": "坂本龍一、英語版自伝『Music Sets You Free』刊行記念トークイベント11/24開催決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167344",
-      "publishedAt": "2026-11-11T03:15:00.000Z",
-      "excerpt": "坂本龍一の英語版自伝『Music Sets You Free』刊行記念トークイベントが、11月24",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167344/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Ryuichi Sakamoto will hold a talk event on November 24th to commemorate the publication of his English autobiography “Music Sets You Free”",
-      "translatedExcerpt": "A talk event commemorating the publication of Ryuichi Sakamoto's English autobiography \"Music Sets You Free\" will be held on November 24th."
     }
   ]
 }

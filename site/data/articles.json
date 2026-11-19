@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T03:02:02.841Z",
+  "generatedAt": "2026-11-19T03:32:03.273Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 44,
+      "count": 45,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 138,
+      "count": 137,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 21,
+      "count": 22,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 256,
+      "count": 257,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 205,
+      "count": 204,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 162,
+      "count": 161,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,82 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 623,
+    "translatedJapaneseArticles": 622,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "74fc94619bcc75f4",
+      "title": "清水美依紗「今から本当に楽しみです！」、約3年ぶりの単独ライブ【Playground Extra!】開催へ",
+      "link": "https://www.billboard-japan.com/d_news/detail/167578",
+      "publishedAt": "2026-11-19T03:30:00.000Z",
+      "excerpt": "清水美依紗が、2027年4月14日および15日の2日間、東京・渋谷WWW Xにて【MIISHA S",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167578/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Miisa Shimizu \"I'm really looking forward to it!\" to hold her first solo live show in about 3 years [Playground Extra!]",
+      "translatedExcerpt": "Miisha Shimizu will be appearing at [MIISHA S"
+    },
+    {
+      "id": "44f80bde6eeb63d7",
+      "title": "Webtoon 'Not-Sew-Wicked Stepmom' Gets TV Anime",
+      "link": "https://myanimelist.net/news/74956781?_location=rss",
+      "publishedAt": "2026-11-19T03:27:11.000Z",
+      "excerpt": "Publishing company Kakao Piccoma announced a television anime adaptation of Ilu and Moguraeng's Not-Sew-Wicked Stepmom webtoon on Thursday, revealing an announcement visual (pictured). The anime will premiere under the Japanese title Mamahaha dakedo Musume ga Kawaisugiru. Iru originally wrote the isekai villainess novel on the KakaoPage website from Janua…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1795058790-38f2224b90d9cc6cb752db4711f07c0a.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "47c94f2d156e3957",
+      "title": "テイラー・スウィフト、米ボストン美術館で春に大規模展覧会開催へ",
+      "link": "https://www.billboard-japan.com/d_news/detail/167577",
+      "publishedAt": "2026-11-19T03:05:00.000Z",
+      "excerpt": "現地時間2026年11月17日、米ボストン美術館が春に【Taylor Swift: the Era",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167577/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Taylor Swift to hold major spring exhibition at Boston Museum of Fine Arts",
+      "translatedExcerpt": "On November 17, 2026, local time, the Museum of Fine Arts, Boston, USA will celebrate the spring [Taylor Swift: the Era]"
+    },
+    {
+      "id": "69e8ce938b8c96b3",
+      "title": "Japan’s beautiful new Pokémon hotel room gives you and Dragonite a place to take a break",
+      "link": "https://soranews24.com/2026/11/19/japans-beautiful-new-pokemon-hotel-room-gives-you-and-dragonite-a-place-to-take-a-break/",
+      "publishedAt": "2026-11-19T03:00:47.000Z",
+      "excerpt": "Flying over to Fukui as part of your Japan trip? The prefecture’s Poké-bassador has a room all ready for you. Dragonite isn’t a Pokémon that likes to stay in one place very long. The Dragon/Flying Type is reportedly capable of circumnavigating the globe in just 16 hours, and it puts its wings to good use […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/2_987d5f.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "961e684ef60ac0ba",
       "title": "【インタビュー】明くる夜の羊「ライブハウスから生まれて、ライブハウスで生きてきたバンドだということを、ちゃんと証明していきたい」",
@@ -185,6 +257,44 @@
       },
       "translatedTitle": "[Interview] Akuru Yoru no Hitsuji: “We want to prove that we are a band that was born and lived in live houses.”",
       "translatedExcerpt": "Akuru Ya no Hitsuji started in 2018 and made their major debut in 2026. Following their debut EP in July, they will release their first single \"Hibi wo Kite\" on November 18th. This work was used as the ending theme song for the third season of the TV anime ``Reincarnated Kizoku, Narigaru with Appraisal Skill'', and is their first single and anime tie-up song. Rather than comparing himself to others, he depicts the days when he faces himself and builds up one step at a time. With such straightforward lyrics and sound, the song has been created to convey the intention to move forward into the future. We asked the members, who are appearing on BARKS for the first time, about their songwriting process, which is unique to Dawn of the Night. ◆ ◆ ◆ ──Since this is the first appearance of BARKS, today I would like to know what kind of band Akuru Yoru no Hitsuji are in your own words. First of all, as a player, “Fu…"
+    },
+    {
+      "id": "911e12a648290d06",
+      "title": "【ビルボード】Hey! Say! JUMP『Juliet』がDLアルバム初登場首位 ATEEZ／U2が続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/167575",
+      "publishedAt": "2026-11-19T03:00:00.000Z",
+      "excerpt": "2026年11月18日公開（集計期間：2026年11月9日～11月15日）のBillboard J",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167575/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Hey! Say! JUMP's \"Juliet\" debuts at number one on DL albums, followed by ATEEZ/U2",
+      "translatedExcerpt": "Billboard J released on November 18, 2026 (collection period: November 9, 2026 to November 15, 2026)"
+    },
+    {
+      "id": "9bf543eae2bf5ea1",
+      "title": "【ビルボード】Hey! Say! JUMP『Juliet』が総合アルバム首位 CD／ダウンロードで2冠達成",
+      "link": "https://www.billboard-japan.com/d_news/detail/167546",
+      "publishedAt": "2026-11-19T03:00:00.000Z",
+      "excerpt": "2026年11月18日公開（集計期間：2026年11月9日～11月15日）の総合アルバム・チャート",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167546/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Hey! Say! JUMP's \"Juliet\" achieves 2nd place in overall album ranking and CD/download ranking",
+      "translatedExcerpt": "Overall album chart released on November 18, 2026 (collection period: November 9, 2026 to November 15, 2026)"
     },
     {
       "id": "f8b05a727f25816a",
@@ -241,7 +351,7 @@
         "language": "ja"
       },
       "translatedTitle": "BTS begins Asia/Australia tour",
-      "translatedExcerpt": "BTS will begin their Asia/Australia tour with the Kaohsiung performance. BTSは19日、2"
+      "translatedExcerpt": "BTS will begin their Asia/Australia tour with the Kaohsiung performance. BTS on the 19th, 2"
     },
     {
       "id": "0cb856641e0c9c53",
@@ -909,7 +1019,7 @@
         "language": "ja"
       },
       "translatedTitle": "eill releases studio live video of “tenkiame” self-cover provided to Ryota Katayose",
-      "translatedExcerpt": "eill releases a studio live video of ``tenkiame'' from his self-cover EP ``self-covers.''"
+      "translatedExcerpt": "Eill will release a studio live video of ``tenkiame'' from her self-cover EP ``self-covers.''"
     },
     {
       "id": "a00ad683dd11a884",
@@ -1336,7 +1446,7 @@
         "language": "ja"
       },
       "translatedTitle": "con, the final release of SG for 3 consecutive months",
-      "translatedExcerpt": "con released their new single \"28-29/Seesaw\" on Wednesday, November 18, 2026. While both songs inherit the dreamy folk rock/indie pop sound of con's previous songs, \"28-29\" has a sense of scale and a faint psychedelia that goes beyond simplicity. On the other hand, \"Seesaw\" has more of a synth sound, with a jazz chorus echoing in the humid night air, and an impressive refrain. The final singles that have been released for three consecutive months are two works that can be said to be the starting point, as they were each recorded at home for the first time. This work reflects the original landscape of con's music, which has not been lost even in the ever-changing times. Release information https://ototoy.jp/_/default/a/1104339 Art…"
+      "translatedExcerpt": "con released their new single \"28-29/Seesaw\" on Wednesday, November 18, 2026. While both songs inherit the dreamy folk rock/indie pop sound of con's previous songs, \"28-29\" has a sense of scale and a faint psychedelia that goes beyond simplicity. On the other hand, \"Seesaw\" has more of a synth sound, with a jazz chorus echoing in the humid night air, and an impressive refrain. The final singles that have been released for three consecutive months are two works that can be said to be the starting point, as they were each recorded at home for the first time. This work reflects the original landscape of con's music, which has not been lost even in the ever-changing days. Release information https://ototoy.jp/_/default/a/1104339 Art…"
     },
     {
       "id": "adbffffe3dcc2372",
@@ -18300,118 +18410,6 @@
       },
       "translatedTitle": "Motoharu Sano's annual [Rockin' Christmas 2026] to be held in Ebisu",
       "translatedExcerpt": "Motoharu Sano & THE COYOTE BAND will be performing at The Gard in Ebisu, Tokyo on December 14th and 15th."
-    },
-    {
-      "id": "26b1f959043ea1a2",
-      "title": "ケツメイシ、ライブDVD＆BD『ケツの穴...バームクーヘン』ジャケ写＆購入者特典公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167323",
-      "publishedAt": "2026-11-10T09:20:00.000Z",
-      "excerpt": "ケツメイシが、11月25日に発売するライブDVD＆Blu-ray『ケツの穴&hellip;バームク",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167323/200x_image.jpeg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Ketsumeishi, live DVD & BD \"Asshole... Baumkuchen\" jacket photo & purchaser bonus released",
-      "translatedExcerpt": "Ketsumeishi will be releasing the live DVD & Blu-ray “Asshole…Baumuku” on November 25th."
-    },
-    {
-      "id": "e7579189882ef108",
-      "title": "ATEEZ、映画の予告編のような「UP」MVティザー第1弾を公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167322",
-      "publishedAt": "2026-11-10T09:00:00.000Z",
-      "excerpt": "ATEEZが、15thミニアルバム『GOLDEN HOUR : Part.6』のタイトル曲「UP」",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167322/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "ATEEZ releases the first MV teaser for “UP” that looks like a movie trailer",
-      "translatedExcerpt": "ATEEZ's 15th mini album \"GOLDEN HOUR: Part.6\" title song \"UP\""
-    },
-    {
-      "id": "8ae4a0a3064b58ee",
-      "title": "Millennium Family TV Anime Casts Mutsumi Tamura",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-10/millennium-family-tv-anime-casts-mutsumi-tamura/.243639",
-      "publishedAt": "2026-11-10T09:00:00.000Z",
-      "excerpt": "Tamura voices Benfield family's youngest child Arthur",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gSD/cms/news.10/243639/millennium.jpeg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "d599be1ae045ce89",
-      "title": "Vulfpeck、昨年発売の『Clarity of Cal』の日本盤CDがリリース決定",
-      "link": "https://ototoy.jp/news/132710",
-      "publishedAt": "2026-11-10T09:00:00.000Z",
-      "excerpt": "ジャック・ストラットン率いるLA拠点のファンク・バンド、ヴルフペックが2025年3月に発表した6作目のアルバム『Clarity of Cal』の日本盤CDが、2026年12月9日(水)にリリースされる。 本作は、2024年9月にバークレーのUCシアター（6公演）とロサンゼルスのハリウッド・パラディアム（2公演）で行われた計8公演で、観客を前に録音された“ほとんどスタジオ・アルバムのライブ盤”。クリックを使わない一発録りを信条としてきた彼らだからこそ成し得た試みだ。創設メンバー4人に、ジョーイ・ドーシック、アントワン・スタンリー、コリー・ウォン、ジェイコブ・ジェフリーズを加えた8人編成に、オルガンのチャールズ・ジョーンズがゲスト参加。全11曲中7曲の作曲に関わるジェイコブを中心に、テンプテーションズやフォー…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132710/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Vulfpeck will release the Japanese CD of last year's \"Clarity of Cal\"",
-      "translatedExcerpt": "The Japanese CD version of Wulfpeck, the LA-based funk band led by Jack Stratton, released in March 2025, ``Clarity of Cal,'' will be released on Wednesday, December 9, 2026. This work is \"almost a live version of the studio album\" recorded in front of the audience at a total of 8 performances held in September 2024 at Berkeley's UC Theater (6 performances) and Los Angeles' Hollywood Palladium (2 performances). This is an attempt that was possible because they believed in one-shot recording without using clicks. The eight-piece band includes the four founding members, Joey Dorsick, Antwon Stanley, Corey Wong, and Jacob Jeffries, with organist Charles Jones making a guest appearance. Jacob, who is involved in composing 7 of the 11 songs, is the center of attention to the Temptations and Four..."
-    },
-    {
-      "id": "2c85e0c7fdbe8bca",
-      "title": "Stray Kids、ワールドツアー「Stray Kids World Tour 」追加公演開催",
-      "link": "https://barks.jp/news/1103680",
-      "publishedAt": "2026-11-10T08:24:49.000Z",
-      "excerpt": "Stray Kidsが、ワールドツアー「Stray Kids World Tour 」の追加公演開催を発表した。 追加公演は23の国・地域にて25公演にわたり開催。日本では、2027年4月24日(土)、25日(日)に横浜の日産スタジアム、そして5月4日(火・祝)、5日(水・祝)に大阪のヤンマースタジアム長居にて4公演の追加公演となる。Stray Kidsが、日産スタジアムとヤンマースタジアム長居にてライブを開催するのは今回が初。 昨日11月9日(月)22時より、Stray Kidsオフィシャルファンクラブ「STAY JAPAN」と「STAY JAPAN MOBILE」のW会員を対象にチケット最速先行受付がスタートしている。 そして、日本での追加公演を皮切りに、5月には、16日(日)アメリカ・シアトル、19…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/10172257/1-20-722x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Stray Kids holds additional performances for world tour “Stray Kids World Tour”",
-      "translatedExcerpt": "Stray Kids has announced additional performances for their world tour ``Stray Kids World Tour''. 25 additional performances will be held in 23 countries and regions. In Japan, there will be four additional performances at Yokohama's Nissan Stadium on Saturday, April 24th and Sunday, April 25th, 2027, and at Yanmar Stadium Nagai in Osaka on May 4th (Tuesday/Holiday) and May 5th (Wednesday/Holiday), 2027. This is the first time Stray Kids will hold a live performance at Nissan Stadium and Yanmar Stadium Nagai. From 10:00 p.m. yesterday, November 9th (Monday), early ticket pre-orders have begun for double members of Stray Kids' official fan clubs \"STAY JAPAN\" and \"STAY JAPAN MOBILE.\" Starting with additional performances in Japan, in May 16th (Sunday) Seattle, USA, 19th..."
-    },
-    {
-      "id": "b3aa84d8b5533f82",
-      "title": "Ayumu Imazu、ファンの結婚式で「結び」を生パフォーマンスしたサプライズ企画の映像公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167321",
-      "publishedAt": "2026-11-10T08:10:00.000Z",
-      "excerpt": "Ayumu Imazuが、兵庫県で行われた結婚式にサプライズ登場し、新曲「結び」を生パフォーマンス",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167321/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Ayumu Imazu releases video of a surprise project where he performs \"musubi\" live at a fan's wedding",
-      "translatedExcerpt": "Ayumu Imazu makes a surprise appearance at a wedding held in Hyogo Prefecture and performs her new song \"Musubi\" live."
     }
   ]
 }

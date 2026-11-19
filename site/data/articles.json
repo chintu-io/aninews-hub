@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T01:02:09.083Z",
+  "generatedAt": "2026-11-19T01:31:46.975Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 139,
+      "count": 141,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 97,
+      "count": 98,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 260,
+      "count": 257,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,97 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 624,
+    "translatedJapaneseArticles": 621,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "cf04941e1c9203c6",
+      "title": "THE iDOLM@STER CINDERELLA GIRLS Releases 15th Anniversary Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/11/19/the-idolmaster-cinderella-girls-15th-anniversary-song-music-video",
+      "publishedAt": "2026-11-19T01:24:00.000Z",
+      "excerpt": "The series' 15th anniversary concert will be held on November 28 and 29",
+      "image": "https://a.storyblok.com/f/178900/960x540/a5493e4447/the-idolmaster-cinderella-girls-hourglass-mv.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "91c063c4d4b4c182",
+      "title": "BUDDiiS、パワーパフボーイズが振り付け「無限大LOVE!!!」のダンスパフォーマンス映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167564",
+      "publishedAt": "2026-11-19T01:20:00.000Z",
+      "excerpt": "BUDDiiSが、新曲「無限大LOVE!!!」のダンスパフォーマンス映像を公開した。 振り付け",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167564/800x_image.png",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "BUDDiiS, The Powerpuff Boys release a dance performance video of their choreography “Infinity LOVE!!!”",
+      "translatedExcerpt": "BUDDiiS has released a dance performance video for their new song \"Mugendai LOVE!!!\". choreography"
+    },
+    {
+      "id": "f16e238d4de33948",
+      "title": "Life-size Gundam statue’s head returning to Tokyo neighborhood this month",
+      "link": "https://soranews24.com/2026/11/19/life-size-gundam-statues-head-returning-to-tokyo-neighborhood-this-month/",
+      "publishedAt": "2026-11-19T01:00:08.000Z",
+      "excerpt": "Odaiba welcomes back the head of the RX-0 Unicorn Gundam. East Japan is suffering from a serious shortage of life-size Gundams these days. Yokohama’s full-scale statue of the original RX-78 Gundam has been gone since the spring of 2024, when it was moved to Osaka for the Expo 2025 world’s fair (and which was dismantled […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/2_4b12be.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "e64e0f3aec6dbda3",
+      "title": "Blood Addict Manga Ends",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-18/blood-addict-manga-ends/.243919",
+      "publishedAt": "2026-11-19T01:00:00.000Z",
+      "excerpt": "Series debuted in April 2025",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gCD/cms/news.10/243919/81flpijs2hl.sl1500.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "235a9c62741420a3",
+      "title": "Sesuji's About a Pilgrimage to the Defiled Sacred Grounds Novel Gets Live-Action Film in 2027",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-18/sesuji-about-a-pilgrimage-to-the-defiled-sacred-grounds-novel-gets-live-action-film-in-2027/.243940",
+      "publishedAt": "2026-11-19T01:00:00.000Z",
+      "excerpt": "Horror novel launched in 2024",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gRF/cms/news.10/243940/about.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "45557918c0dd7d9e",
       "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll",
@@ -201,12 +288,12 @@
         "language": "ja"
       },
       "translatedTitle": "Grimes fights with ex-partner Elon Musk over turning AI into a \"sex slave\": ``If you're lenient, you'll get your destiny.''",
-      "translatedExcerpt": "グライムスとイーロン・マスクは、わだかまりを抱えたどこにでもいる元カップルと変わらない。 just say"
+      "translatedExcerpt": "Grimes and Elon Musk are just like any other ex-couple in a rut. just say"
     },
     {
       "id": "2230d45338ca74a4",
       "title": "K Manga Adds Godmother Manga",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-17/k-manga-adds-godmother-manga/.243918",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-18/k-manga-adds-godmother-manga/.243918",
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "excerpt": "Series from Young Magazine US launches in Monthly Young Magazine on Wednesday",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gSC/cms/news.10/243918/hxuxze4aqaa3sfj.jpg",
@@ -560,7 +647,7 @@
         "language": "ja"
       },
       "translatedTitle": "yama announces change from “mask and blue hair” to visuals that are closer to himself, tour [Hake] live album distribution",
-      "translatedExcerpt": "In January 2027, yama released a new song that brought her closer to \"living as an individual.\""
+      "translatedExcerpt": "In January 2027, yama will begin a new journey that will bring him closer to “himself living as an individual.”"
     },
     {
       "id": "9583bccd2253b69f",
@@ -578,7 +665,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Daoko releases the music video for \"TRICKSTAR,\" which features a magical transformation of Peanut-kun, and the tracks from the album \"BIRTH IN BLUE\"",
+      "translatedTitle": "Daoko releases “TRICKSTAR” music video and songs from the album “BIRTH IN BLUE” that magically transforms Peanuts",
       "translatedExcerpt": "Daoko has released the music video for her new song \"TRICKSTAR feat. Peanuts-kun\"."
     },
     {
@@ -652,7 +739,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "eill releases studio live video of her self-cover of \"tenkiame,\" which she provided to Ryota Katayose",
+      "translatedTitle": "eill releases studio live video of “tenkiame” self-cover provided to Ryota Katayose",
       "translatedExcerpt": "Eill will release a studio live video of ``tenkiame'' from her self-cover EP ``self-covers.''"
     },
     {
@@ -977,7 +1064,7 @@
       "title": "'99-kai Danzai sareta Loop Reijou desu ga Konse wa \"Chouzetsu Aisare Mode\" desu tte!? Shin no Chikara ni Mezamete Hajimaru 100-kaime no Jinsei' Reveals Main Cast, Staff, 2027 Premiere",
       "link": "https://myanimelist.net/news/74953973?_location=rss",
       "publishedAt": "2026-11-18T11:26:53.000Z",
-      "excerpt": "An official site opened for the television anime adaptation of Yuuji Yuuji's 99-kai Danzai sareta Loop Reijou desu ga Konse wa \"Chouzetsu Aisare Mode\" desu tte!? Shin no Chikara ni Mezamete Hajimaru 100-kaime no Jinsei (Kuku-Loop: The 100th Time’s the Charm) light novel on Wednesday, revealing the main cast, staff, and a teaser visual (pictured). The anim…",
+      "excerpt": "An official site opened for the television anime adaptation of Yuuji Yuuji's 99-kai Danzai sareta Loop Reijou desu ga Konse wa \"Chouzetsu Aisare Mode\" desu tte!? Shin no Chikara ni Mezamete Hajimaru 100-kaime no Jinsei (Kuku-Loop: The 100th Time's the Charm) light novel on Wednesday, revealing the main cast, staff, and a teaser visual (pictured). The anim…",
       "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1795001131-4a747b7a4d8ef2aa5768400f46bb666c.jpeg",
       "source": {
         "id": "mal",
@@ -1006,7 +1093,7 @@
         "language": "ja"
       },
       "translatedTitle": "ALPHA DRIVE ONE will make its debut in Japan. JAPAN 1ST SINGLE “Seishun Alliance” to be released in January 2027",
-      "translatedExcerpt": "ALPHA DRIVE ONE, a K-POP boy group that was born through approximately 26 million votes from around the world on Mnet's global audition program ``BOYS Ⅱ PLANET,'' has announced that they will release their JAPAN 1ST SINGLE ``Seishun Rengo'' on January 27, 2027 from Sony Music Labels, making their debut in Japan. They are members of WAKEONE in South Korea, and made their Korean debut with “THE 1ST MINI ALBUM ‘EUPHORIA’” in January 2026, with initial sales exceeding 1.44 million copies. Furthermore, their second mini-album ``UNBREAKABLE: Shonen BEAST'' released in August of the same year also boasted global popularity.デビューから約7カ月で2作品が累計販売枚数200万枚を突破した…"
+      "translatedExcerpt": "ALPHA DRIVE ONE, a K-POP boy group that was born through approximately 26 million votes from around the world on Mnet's global audition program ``BOYS Ⅱ PLANET,'' has announced that they will release their JAPAN 1ST SINGLE ``Seishun Rengo'' on January 27, 2027 from Sony Music Labels, making their debut in Japan. They are members of WAKEONE in South Korea, and made their Korean debut with “THE 1ST MINI ALBUM ‘EUPHORIA’” in January 2026, with initial sales exceeding 1.44 million copies. Furthermore, their second mini-album ``UNBREAKABLE: Shonen BEAST'' released in August of the same year also boasted global popularity. In about 7 months since their debut, two works have sold over 2 million copies..."
     },
     {
       "id": "3a41fd9013c5c26b",
@@ -5359,7 +5446,7 @@
       "title": "Hololive Merchandise Sales Drop 14.5% Following VTuber Graduations",
       "link": "https://news.sankakucomplex.com/n/yUn2F3XmmsPGA4KLUigeWw",
       "publishedAt": "2026-11-16T12:00:22.000Z",
-      "excerpt": "Hololive production operator Cover Corporation has reported a 14.5% decline in merchandise revenue, with the departures of several VTubers continuing to affect sales, although the company’s increasingly lucrative trading card game business is helping to compensate for the losses. According to Cov…",
+      "excerpt": "Hololive production operator Cover Corporation has reported a 14.5% decline in merchandise revenue, with the departures of several VTubers continuing to affect sales, although the company’s increasingly lucrative trading card game business is helping to compensate for the losses.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18321,99 +18408,6 @@
       },
       "translatedTitle": "[Live Report] PERSONZ performs at the 48th Tokyo performance of their 47-prefecture tour, saying, ``43 years since our formation! Average age 64! I will continue to make my dreams come true.''",
       "translatedExcerpt": "37 years have passed since the 1989 masterpiece \"DEAR FRIENDS\". PERSONZ, which has continued to evolve even after 43 years since its formation and an average age of 64, is finally nearing the end of the 47-prefecture tour they have been undertaking since April 2026. We would like to bring you the official report of the Tokyo International Forum Hall C performance on October 29th, which was filled with enthusiasm and loud choruses. ``DEAR FRIENDS'' was released in 1989, with the song ``My friends who are always by my side, always waiting for me''. 37 years have passed since then. PERSONZ, who have continued to advance without stopping, are currently on a tour <PERSONZ RELOAD TOUR “DISCOVER JAPAN 47”> that will visit 47 prefectures in order to deliver their songs to the fans they have met and connect their hearts through music. The journey started in April 2026..."
-    },
-    {
-      "id": "0311725da3a7ca4b",
-      "title": "羊文学、映画『ghost／夜の果て』挿入歌「Sugar」配信開始＆シングルCD発売決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167313",
-      "publishedAt": "2026-11-10T06:00:00.000Z",
-      "excerpt": "羊文学が、映画『ghost／夜の果て』の挿入歌として書き下ろした新曲「Sugar」の配信を開始し、",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167313/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Hitsuji Bungaku begins distribution of the insert song “Sugar” for the movie “Ghost/End of the Night” and decides to release a single CD",
-      "translatedExcerpt": "Hitsuji Bungaku has started distributing a new song “Sugar” written as an insert song for the movie “Ghost / End of the Night”."
-    },
-    {
-      "id": "a2376969860b4833",
-      "title": "アリアナ・グランデ、ロバート・デ・ニーロとベン・スティラーを\"史上最悪のウソ\"で騙す",
-      "link": "https://www.billboard-japan.com/d_news/detail/167312",
-      "publishedAt": "2026-11-10T05:45:00.000Z",
-      "excerpt": "アリアナ・グランデが、『ミート・ザ・ペアレンツ／フィアンセの襲来』の共演者であるロバート・デ・ニー",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167312/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Ariana Grande deceives Robert De Niro and Ben Stiller with 'worst lie ever'",
-      "translatedExcerpt": "Ariana Grande meets her Meet the Parents co-star Robert De Nee"
-    },
-    {
-      "id": "434eea22a8f11a6b",
-      "title": "Japanese convenience store offering chance to have your shopping be effectively free for one day",
-      "link": "https://soranews24.com/2026/11/10/japanese-convenience-store-offering-chance-to-have-your-shopping-be-effectively-free-for-one-day/",
-      "publishedAt": "2026-11-10T05:00:47.000Z",
-      "excerpt": "Family Mart offering random reimbursements of up to 100,000 yen (US$630). Japan’s convenience stores have become world-famous, not only for their convenient locations and operating hours, but for their amazingly wide variety of genuinely tasty snacks, drinks, and even full meals. Really, their only drawback is that they don’t always match the low prices y…",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/0_094535.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "297e369ed641eb7c",
-      "title": "ドクター・ドレー、キャリアで初めて音楽制作から離れると明かす「離れて休むつもり」",
-      "link": "https://www.billboard-japan.com/d_news/detail/167311",
-      "publishedAt": "2026-11-10T04:55:00.000Z",
-      "excerpt": "ドクター・ドレーが、ついに休息を取るようだ。ウエスト・コースト・ラップの代名詞とも言えるこの伝説的",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167311/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Dr. Dre says he's taking a break from making music for the first time in his career, saying he's going to take a break",
-      "translatedExcerpt": "Looks like Dr. Dre is finally getting some rest. This legendary, synonymous with West Coast rap."
-    },
-    {
-      "id": "3af37ec6d972c5e6",
-      "title": "Yufu、蠍座と占星術がテーマの新曲「A Scorpio Affair / Theme Of The 8th House」リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/167314",
-      "publishedAt": "2026-11-10T04:30:00.000Z",
-      "excerpt": "台湾出身、アジア各国やヨーロッパでも活動するヴィンテージ・ソウル・アーティスト、Yufu（ユフ）に",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167314/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Yufu releases new song “A Scorpio Affair / Theme Of The 8th House” with the theme of Scorpio and astrology",
-      "translatedExcerpt": "Yufu is a vintage soul artist from Taiwan who is active in various Asian countries and Europe."
     }
   ]
 }

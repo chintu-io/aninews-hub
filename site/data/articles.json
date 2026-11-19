@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T17:03:53.425Z",
+  "generatedAt": "2026-11-19T17:32:16.815Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,10 +91,10 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 136,
+      "count": 137,
       "imageEnrichment": {
         "attempted": 40,
-        "resolved": 37
+        "resolved": 40
       },
       "fetchedCount": 40
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 25,
+      "count": 26,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 267,
+      "count": 266,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 199,
+      "count": 198,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 621,
+    "translatedJapaneseArticles": 619,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "67217cea89b04159",
+      "title": "Manga 'Kaminaki Sekai no Kamisama Katsudou' Concludes with 14th Volume",
+      "link": "https://myanimelist.net/news/74958547?_location=rss",
+      "publishedAt": "2026-11-19T17:17:34.000Z",
+      "excerpt": "Aoi Akashiro and Sonshou Hangetsuban's Kaminaki Sekai no Kamisama Katsudou (Working for God in a Godless World) manga ended its serialization on October 2. The 77th and final chapter marked the end of its seven-year run. The 14th and final volume is scheduled to be released on November 30. Akashiro began writing the fantasy manga illustrated by Hangetsuba…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1795108618-0d5825103394e00eb05b5d3f6316d1fb.png",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "0a89d3ada6536a07",
+      "title": "Masanao Kawajiri's Cherry and Virgin Film Wins at Aichi Nagoya Int'l Animation Film Fest",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-19/masanao-kawajiri-cherry-and-virgin-film-wins-at-aichi-nagoya-intl-animation-film-fest/.243991",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "excerpt": "2nd ANIAFF took place from November 13-18",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHA/cms/news.9/235427/cherryandvirgin.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "327246157f98d6ab",
       "title": "'Gensou Suikoden' Reveals Additional Cast",
@@ -1007,7 +1041,7 @@
       "link": "https://www.animenewsnetwork.com/daily-briefs/2026-11-19/monthly-corocoro-comic-magazine-to-release-digital-version-1-week-after-print-version/.243969",
       "publishedAt": "2026-11-19T08:55:48.000Z",
       "excerpt": "The official X/Twitter account for Shogakukan's Monthly CoroCoro Comic magazine announced on November 13 that the magazine's digital version will begin...",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gC2/cms/news.10/243969/corocorocomic.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1525,7 +1559,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/seven-seas-licenses-i-am-blue-in-pain-and-fragile-predator-witches-audiobooks/.243959",
       "publishedAt": "2026-11-19T03:35:18.000Z",
       "excerpt": "Also in December: English audiobook of The Lucky Egg Game: Cai Dan You Xi danmei series",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gDI/cms/news.10/243959/predator-witches-ab-01-copy01-12-05-25.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1874,7 +1908,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/blood-addict-manga-ends/.243919",
       "publishedAt": "2026-11-19T01:00:00.000Z",
       "excerpt": "Series debuted in April 2025",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gCD/cms/news.10/243919/81flpijs2hl.sl1500.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2628,7 +2662,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Guiba releases 1st EP & releases music video of recorded song",
+      "translatedTitle": "Guiba releases 1st EP & released song MV",
       "translatedExcerpt": "Guiba released a new EP “New!” on Wednesday, November 18, 2026. In addition, the music video for the song \"Tabesugi! Imotare!\" has been released. It has also been announced that live performances to commemorate the release of this work will be held in Tokyo and Taiwan. Guiba started its activities in March 2023 after Akatsuka announced on SNS, ``I want to form a band that plays pop music,'' and they have released three full-length albums so far. Akatsuka (Vocal/Guitar) commented on the new song as follows. Comment Release information https://ototoy.jp/_/default/p/4345119 Live information https://wallwall.zaiko.io/ja/item/386146 Artist information https://…"
     },
     {
@@ -18370,44 +18404,6 @@
       },
       "translatedTitle": "MyGO!!!!!, 9th single “Setensa” released today",
       "translatedExcerpt": "MyGO!!!!! has released their 9th single “Setensa”. The title song \"Setensa\" is an alternative rock number that subtly reveals its outline with a moment of sparkle as the melodious guitar melody and vocals overlap. The coupling track will include the newly produced song ``Yokyoushiso''. The limited edition with Blu-ray includes footage from DAY1 and DAY2 of <MyGO!!!!! 9th LIVE \"Beyond the Tsujime\" held at Pia Arena MM in July 2026. It is a full-volume content that includes everything from the 2DAYS performance, which recorded the largest attendance ever for a one-man performance. In addition, MyGO!!!!! will be held at the World Memorial Hall (Kobe Port Island Hall) on November 14th (Saturday) and 15th (Sunday) at <MyGO!!!!! 9th…"
-    },
-    {
-      "id": "468f3f9ead774061",
-      "title": "「いろはの恋は時代をかける」「ひょっとしていろは（上白石萌音）は自分が死んだことに気付いていない霊なのか」「生琉（向井康二）の嫉妬する姿がたまらん」",
-      "link": "https://www.billboard-japan.com/d_news/detail/167342",
-      "publishedAt": "2026-11-11T02:00:00.000Z",
-      "excerpt": "「いろはの恋は時代をかける」（TBS系）の第5話が10日に放送された。 本作は、主演・上白石萌音",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167342/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "``Iroha's love lasts for ages'' ``Maybe Iroha (Mone Kamishiraishi) is a spirit who doesn't realize she's dead'' ``I can't help but see Iroha (Koji Mukai) jealous''",
-      "translatedExcerpt": "The fifth episode of \"Iroha no Koi wa Jidai Kakeru\" (TBS) was broadcast on the 10th. This work is starring Mone Kamishiraishi"
-    },
-    {
-      "id": "a65c635403e4281d",
-      "title": "『平野レミ 魅力のすべて』発売決定。亡き父・平野威馬雄作詩の楽曲収録も",
-      "link": "https://barks.jp/news/1103793",
-      "publishedAt": "2026-11-11T02:00:00.000Z",
-      "excerpt": "シャンソン歌手・料理愛好家として活躍する平野レミが、デビュー当時に録音していた未発表音源を発見。これら4曲を含む全21曲を収録したCD『平野レミ 魅力のすべて』を、2026年12月2日に日本コロムビアより発売することを発表した。 平野レミは、1970年に日本コロムビアよりシングル「誘惑のバイヨン」でレコードデビューし、1972年までに計4枚のシングル盤をリリースしていた。今回、当時の音源のCD化に向けてコロムビア社内のマスターテープを整理していたところ、未発表曲4曲の音源を新たに発見。そのうち1972年に録音された「君と二人で呼んでいる」は、テープに曲名のみが記され作家名が不明となっていたが、平野本人が約半世紀ぶりに試聴したことで、亡き父であるフランス文学者／詩人・平野威馬雄の作詩であることが判明。自宅に…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/11103737/%E5%B9%B3%E9%87%8E%E3%83%AC%E3%83%9F%EF%BC%88%E3%83%91%E3%83%97%E3%83%AA%E3%82%AB%EF%BC%89.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "\"Remi Hirano All About Charm\" will be released. Includes music written by his late father Takeo Hirano.",
-      "translatedExcerpt": "Remi Hirano, who is active as a chanson singer and cooking enthusiast, discovered unreleased sound source recorded at the time of her debut. Nippon Columbia has announced that the CD ``Remi Hirano All About Charm'', which includes a total of 21 songs including these 4 songs, will be released on December 2, 2026. Remi Hirano made her record debut with Nippon Columbia's single ``Temptation Bayon'' in 1970, and had released a total of four singles by 1972. This time, while organizing Columbia's in-house master tapes in preparation for making CDs of the sound sources from that time, we discovered the sound sources of four unreleased songs. One of these songs, ``I'm Calling You,'' which was recorded in 1972, had only the song title written on the tape and the artist's name unknown, but when Hirano listened to it for the first time in about half a century, it was discovered that it was written by his late father, the French literary scholar/poet Shimao Hirano. At home..."
     }
   ]
 }

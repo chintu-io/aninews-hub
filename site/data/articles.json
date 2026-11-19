@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T18:02:38.483Z",
+  "generatedAt": "2026-11-19T18:34:17.528Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 137,
+      "count": 138,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 96,
+      "count": 95,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -153,7 +153,7 @@
       "name": "Sankaku Complex",
       "status": "ok",
       "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "feedUrl": "https://www.sankakucomplex.com/feed/",
       "count": 78,
       "fetchedCount": 24
     }
@@ -167,6 +167,23 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "b9c566fbee642917",
+      "title": "Getbackers Manga Gets Comic Anime From AI Platform MangaNow Studio",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-19/getbackers-manga-gets-comic-anime-from-ai-platform-manganow-studio/.243992",
+      "publishedAt": "2026-11-19T18:00:00.000Z",
+      "excerpt": "Comic anime based on 1999 manga debuts on YouTube on December 1",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ4/youtube/fn25Ug7TzW0.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "0eb212eb02da096b",
       "title": "Charisma Anime Welcomes Terra in Latest Character Trailer",
@@ -4916,7 +4933,7 @@
       "title": "Evangelion Was “So Good” It Made Takashi Murakami Give Up on Anime",
       "link": "https://news.sankakucomplex.com/n/1YMM94AKlNVbHNI8pahZEw",
       "publishedAt": "2026-11-17T16:46:32.000Z",
-      "excerpt": "Renowned Japanese contemporary artist Takashi Murakami has revealed that Neon Genesis Evangelion was so overwhelmingly impressive that it convinced him to abandon his ambitions of working in the anime industry, leaving him feeling despair rather than admiration.",
+      "excerpt": "Renowned Japanese contemporary artist Takashi Murakami has revealed that Neon Genesis Evangelion was so overwhelmingly impressive that it convinced him to abandon his ambitions of working in the anime industry, leaving him feeling despair rather than admiration. Murakami made the revelation durin…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5957,7 +5974,7 @@
       "title": "Former Magazine Model Kanako Kawabata’s Partner Arrested on Suspicion of Murder",
       "link": "https://news.sankakucomplex.com/n/KuQzdNb3Fmv5RbZfWjsA8Q",
       "publishedAt": "2026-11-17T08:00:00.000Z",
-      "excerpt": "Former “egg” magazine model Kanako Kawabata, credited with popularizing the Japanese slang expression “agepoyo,” was allegedly murdered by her live-in partner, who has been arrested four months after the 36-year-old woman’s death in Tokyo.",
+      "excerpt": "Former “egg” magazine model Kanako Kawabata, credited with popularizing the Japanese slang expression “agepoyo,” was allegedly murdered by her live-in partner, who has been arrested four months after the 36-year-old woman’s death in Tokyo. According to Japanese broadcaster Fuji TV, the Tokyo Metr…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18383,23 +18400,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6584584ec9687048",
-      "title": "Colorful Runway! Precure Stage Play Shares Main Theme Song Music Video",
-      "link": "https://crunchyroll.com/news/latest/2026/11/11/colorful-runway-precure-stage-play-main-theme-song-music-video",
-      "publishedAt": "2026-11-11T02:39:00.000Z",
-      "excerpt": "The second male Precure show will open on December 5",
-      "image": "https://a.storyblok.com/f/178900/960x540/2f07e656e6/colorful-runway-precure-theme-song-mv.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
         "language": "en"
       }
     }

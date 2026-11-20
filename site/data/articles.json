@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T14:02:07.051Z",
+  "generatedAt": "2026-11-20T14:31:48.400Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 45,
+      "count": 44,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 139,
+      "count": 137,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 271,
+      "count": 274,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,101 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 623,
+    "translatedJapaneseArticles": 626,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "b7e6a5470de73488",
+      "title": "Tempalay、Netflixシリーズ『フールナイト』OPテーマ「Shake! spit out」配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/167639",
+      "publishedAt": "2026-11-20T14:20:00.000Z",
+      "excerpt": "Tempalayが、2026年11月27日に新曲「Shake! spit out」を配信リリースす",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167639/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Tempalay releases “Shake! spit out” opening theme for Netflix series “Fool Night”",
+      "translatedExcerpt": "Tempalay will release new song “Shake! spit out” on November 27, 2026."
+    },
+    {
+      "id": "ea274988bbd3c071",
+      "title": "go!go!vanillas、インタビュー含む「トリックスター」MVビハインド映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167640",
+      "publishedAt": "2026-11-20T14:15:00.000Z",
+      "excerpt": "go!go!vanillasが、新曲「トリックスター」のMVビハインド映像を公開した。 新曲「",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167640/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "go!go!vanillas releases behind-the-scenes footage of “Trickster” MV including interview",
+      "translatedExcerpt": "go!go!vanillas has released the behind-the-scenes video of their new song \"Trickster\". New song “"
+    },
+    {
+      "id": "0d046807f7ba79f9",
+      "title": "Maison and the Man-Eating Apartment Manga Ends in Next Chapter",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-20/maison-and-the-man-eating-apartment-manga-ends-in-next-chapter/.244004",
+      "publishedAt": "2026-11-20T14:15:00.000Z",
+      "excerpt": "Kuu Tanaka, Akima launched manga in March 2025; English version available on Manga Plus",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gE2/cms/news.10/244004/maison.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "de3609c4d1235967",
+      "title": "Ayumu Imazu×マクドナルドがコラボ、新曲「告白」デモ音源使用の映像公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167641",
+      "publishedAt": "2026-11-20T14:10:00.000Z",
+      "excerpt": "Ayumu Imazuが出演するマクドナルド『ホリデーマックフルーリー』のコラボレーション映像が公",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167641/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ayumu Imazu x McDonald's collaborate, release video of new song \"Confession\" using demo sound source",
+      "translatedExcerpt": "A collaboration video for McDonald's \"Holiday McFlurry\" starring Ayumu Imazu has been released."
+    },
+    {
+      "id": "bd4a8c33fc13ef2e",
+      "title": "A Pen, Handcuffs, and a Common-Law Marriage Anime Premieres on January 9",
+      "link": "https://crunchyroll.com/news/latest/2026/11/20/a-pen-handcuffs-and-a-common-law-marriage-anime-premiere-date-trailer-visual-cast",
+      "publishedAt": "2026-11-20T14:03:00.000Z",
+      "excerpt": "Trailer, key art and more revealed for upcoming mystery / romcom adaptation",
+      "image": "https://a.storyblok.com/f/178900/1460x821/5d17ad1ed9/a_pen_handcuffs_and_a_common_law_marriage_header3.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "89d83fdd6ab78e8d",
       "title": "ROIROMの特別な関係性を描く、CA4LAのクリスマスキャンペーン",
@@ -227,7 +318,7 @@
     {
       "id": "697de0e84fb51115",
       "title": "Mitei Hattori's Smile! Manga Gets Epilogue Chapter",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-19/mitei-hattori-smile-manga-gets-epilogue-chapter/.244005",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-20/mitei-hattori-smile-manga-gets-epilogue-chapter/.244005",
       "publishedAt": "2026-11-20T13:15:00.000Z",
       "excerpt": "Epilogue chapter debuts on December 4",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gV5/cms/seasonal/233013/smile.jpg",
@@ -18325,91 +18416,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2a626eb1f60361e5",
-      "title": "Kamen Rider MY-TH Launches Official Tom and Jerry Crossover",
-      "link": "https://crunchyroll.com/news/latest/2026/11/11/kamen-rider-myth-tom-and-jerry-crossover",
-      "publishedAt": "2026-11-11T20:07:00.000Z",
-      "excerpt": "Ride X-Eggs, Seed X-Eggs and more will be available as part of the collab",
-      "image": "https://a.storyblok.com/f/178900/990x564/d131ca6079/kamen-rider-myth-tom-jerry.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "098987fc2c06ad3b",
-      "title": "Final Fantasy XIV Game Band The Primals' Bassist Eikichi Iwai Dies",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-11/final-fantasy-xiv-game-band-the-primals-bassist-eikichi-iwai-dies/.243729",
-      "publishedAt": "2026-11-11T19:35:02.000Z",
-      "excerpt": "Iwai had just performed concert with MMORPG's official rock band at event in Tokyo on November 1",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gB6/cms/news.10/243729/eikichi-iwai-primals.webp",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "9ccac2f0b09a88ba",
-      "title": "Historical-themed illumination display returns to Osaka Castle this winter",
-      "link": "https://soranews24.com/2026/11/12/historical-themed-illumination-display-returns-to-osaka-castle-this-winter/",
-      "publishedAt": "2026-11-11T17:30:49.000Z",
-      "excerpt": "The greatest lights in history and the greatest history in lights. I’ve never been too good at history, mainly because I’m terrible at remembering names and dates. But I find when it’s presented in ways other than fact sheets, I can remember what happened a lot more clearly. If you’re like me, then an upcoming […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/main.png?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "320d721a11b88415",
-      "title": "Crunchyroll to Stream Medaka Kuroiwa is Impervious to My Charms 2nd Season Anime",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-to-stream-medaka-kuroiwa-is-impervious-to-my-charms-2nd-season-anime/.243730",
-      "publishedAt": "2026-11-11T17:30:00.000Z",
-      "excerpt": "Anime Frontier to host premiere screening on December 6 alongside Shangri-La Frontier, Fate Rewinder",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gD2/cms/news.9/237356/medaka.png.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6efe90c2aaa276a0",
-      "title": "Falcom Reveals Sequel for The Legend of Heroes: Trails beyond the Horizon Game",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
-      "publishedAt": "2026-11-11T17:06:22.000Z",
-      "excerpt": "Sequel slated for release by September 2027",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gY9/cms/news.10/243725/trails-beyond-the-horizon.webp",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

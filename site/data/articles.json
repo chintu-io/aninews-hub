@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T06:32:19.415Z",
+  "generatedAt": "2026-11-20T07:03:01.964Z",
   "sources": [
     {
       "id": "sankaku",
@@ -94,7 +94,7 @@
       "count": 140,
       "imageEnrichment": {
         "attempted": 40,
-        "resolved": 40
+        "resolved": 39
       },
       "fetchedCount": 40
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 153,
+      "count": 154,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 82,
+      "count": 81,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,48 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 605,
+    "translatedJapaneseArticles": 606,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8dbdea37eb69a8be",
+      "title": "EBiDAN、『Yes! 東京』のEBiDAN盤／iiONDO盤／アナログ盤を2/10発売 総勢67名の新キービジュアルも公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167614",
+      "publishedAt": "2026-11-20T07:00:00.000Z",
+      "excerpt": "超特急やM!LKらが所属するEBiDAN（恵比寿学園男子部）が、15周年記念シングル『Yes! 東",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167614/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "EBiDAN releases “Yes! Tokyo” EBiDAN edition/iiONDO edition/analog edition on 2/10 New key visuals of 67 people in total are also released",
+      "translatedExcerpt": "EBiDAN (Ebisu Gakuen Danshi-bu),EBiDAN (Ebisu Gakuen Danshibu), to which LK and others belong, is releasing their 15th anniversary single \"Yes! East\""
+    },
+    {
+      "id": "034c36fbcce8bbd1",
+      "title": "ブリアナ・ギガンテ、4回目のファンミは名古屋で開催",
+      "link": "https://ototoy.jp/news/132896",
+      "publishedAt": "2026-11-20T06:30:00.000Z",
+      "excerpt": "ブリアナ・ギガンテが2027年1月11日(月) にメニコン シアターAoiにて4回目となるファンミーティングを開催する。 今回の開催都市は名古屋。タイトルは「ブリアナギガンテの「わたくしの4回目を、ささげます。(ファンミーティング)」in名古屋」で、開演時間は13時、終演時間は14:30を予定。MCは枝豆順子が担当する。 チケットは11月26日(木) 23時59分まで抽選販売の申込を受付中。 イベント情報 会場：メニコン シアターAoi (愛知県) https://livepocket.jp/e/snd_s リリース情報 https://ototoy.jp/_/default/p/643844",
+      "image": "https://imgs.ototoy.jp/news/image.php/132896/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Briana Gigante's 4th fan meet will be held in Nagoya",
+      "translatedExcerpt": "Briana Gigante will hold her 4th fan meeting on Monday, January 11, 2027 at Menicon Theater Aoi. The host city this time is Nagoya. The title is ``Briana Gigante's ``My 4th Fan Meeting'' in Nagoya,'' and the show is scheduled to start at 1:00 p.m. and end at 2:30 p.m. Junko Edamame will be the MC. チケットは11月26日(木) 23時59分まで抽選販売の申込を受付中。 Event information Venue: Menicon Theater Aoi (Aichi Prefecture) https://livepocket.jp/e/snd_s Release information https://ototoy.jp/_/default/p/643844"
+    },
     {
       "id": "5b341f35ccaf1f1e",
       "title": "MADKID、全国8都市巡るツアー【MADKID LIVE TOUR 2027 -Hello, Again-】開催決定",
@@ -1018,8 +1056,8 @@
       "title": "ドージャ・キャット、『GTA 6』に自身の楽曲が起用されなかったことでロックスター・ゲームスに怒り「マジでクソ悔しい」",
       "link": "https://www.billboard-japan.com/d_news/detail/167605",
       "publishedAt": "2026-11-19T21:55:00.000Z",
-      "excerpt": "### ドージャ・キャット、『GTA 6』に自身の楽曲が起用されなかったことでロックスター・ゲームスに怒り「マジでクソ悔しい」",
-      "image": "https://www.billboard-japan.com/common/img/img_header_sitelogo.png",
+      "excerpt": "ドージャ・キャットはロックスター・ゲームスからのオファーを待っていたが、声はかからなかった。【グラ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167605/800x_image.jpg",
       "source": {
         "id": "billboardjapan",
         "name": "Billboard JAPAN",
@@ -1030,7 +1068,7 @@
         "language": "ja"
       },
       "translatedTitle": "Doja Cat angry at Rockstar Games for not featuring her music in GTA 6: ``I'm so fucking frustrated''",
-      "translatedExcerpt": "### Doja Cat angry at Rockstar Games for not featuring her music in GTA 6: ``I'm so fucking frustrated''"
+      "translatedExcerpt": "Doja Cat was waiting for an offer from Rockstar Games, but never received one. [Gra"
     },
     {
       "id": "fd020abc136267bd",
@@ -1142,7 +1180,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/hololive-shop-reports-customer-information-leak/.243994",
       "publishedAt": "2026-11-19T19:00:00.000Z",
       "excerpt": "Unauthorized 3rd party gained access to outsourced product shipping company OPENLOGI Inc.",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI5/herald/203202/hololive-shop.png.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -7508,7 +7546,7 @@
       "title": "TBS Anime Revenue Surges 38% as Overseas Streaming Drives Profit Turnaround",
       "link": "https://news.sankakucomplex.com/n/y7pyZLSdB4wz_dFJCQbYyg",
       "publishedAt": "2026-11-17T00:00:28.000Z",
-      "excerpt": "Japanese broadcaster TBS Television has reported a dramatic turnaround in its anime business, with revenue increasing nearly 38% and gross profit reaching ¥1.175 billion ($7.6 million), thanks largely to strong overseas streaming performance from titles such as The Ramparts of Ice.",
+      "excerpt": "Japanese broadcaster TBS Television has reported a dramatic turnaround in its anime business, with revenue increasing nearly 38% and gross profit reaching ¥1.175 billion ($7.6 million), thanks largely to strong overseas streaming performance from titles such as The Ramparts of Ice. According to f…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18340,42 +18378,6 @@
         "accent": "#a78bfa",
         "language": "en"
       }
-    },
-    {
-      "id": "a84bdde5be5281ae",
-      "title": "Japan’s Cool Japan Fund Lost $340 Million, but Anime, Manga & Games Were Profitable",
-      "link": "https://news.sankakucomplex.com/n/fKVGMm1I7T6KHFCP372JeQ",
-      "publishedAt": "2026-11-11T09:16:32.000Z",
-      "excerpt": "Japan’s troubled Cool Japan Fund is preparing to shut down after accumulating approximately $340 million in losses, but a new government investigation has revealed that investments in anime, manga, video games, and music were actually profitable, while live-action entertainment projects suffered…",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2bf45e044be4b371",
-      "title": "SEAMO、アジア競技大会閉会式で披露した新曲「デラ祭り」配信リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/167366",
-      "publishedAt": "2026-11-11T09:15:00.000Z",
-      "excerpt": "SEAMOが、新曲「デラ祭り」を配信リリースした。 「デラ祭り」は&ldquo;ハイパー盆踊り",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167366/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "SEAMO releases new song “Dera Matsuri” performed at the closing ceremony of the Asian Games",
-      "translatedExcerpt": "SEAMO has released a new song “Dera Matsuri”. “Dera Festival” is “Hyper Bon Odori”"
     }
   ]
 }

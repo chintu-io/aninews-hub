@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T10:01:54.477Z",
+  "generatedAt": "2026-11-20T10:32:59.064Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 140,
+      "count": 142,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 98,
+      "count": 99,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 264,
+      "count": 265,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 193,
+      "count": 191,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 152,
+      "count": 150,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,84 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 609,
+    "translatedJapaneseArticles": 606,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "eb078c1485922042",
+      "title": "Jimoto no Ijimekko-tachi ni Shikaeshi Shiyoto Shitara, Betsu no Tatakai ga Hajimatta Anime Announced for 2027",
+      "link": "https://crunchyroll.com/news/latest/2026/11/20/jimoto-no-ijimekko-tachi-ni-shikaeshi-shiyoto-shitara-betsu-no-tatakai-ga-hajimatta-anime-announced-for-2027",
+      "publishedAt": "2026-11-20T10:06:00.000Z",
+      "excerpt": "The first teaser visual was released",
+      "image": "https://a.storyblok.com/f/178900/2064x1457/9d151b65c7/jimoto-no-ijimekko-tachi-ni-shikaeshi-shiyoto-shitara-betsu-no-tatakai-ga-hajimatta-manga-header.jpeg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "0120eae723b12495",
+      "title": "【先ヨミ・デジタル】Ayumu Imazu「結び」引き続きストリーミング・ソング首位 EBiDAN「Yes! 東京」ふたたび上昇",
+      "link": "https://www.billboard-japan.com/d_news/detail/167619",
+      "publishedAt": "2026-11-20T10:05:00.000Z",
+      "excerpt": "GfK/NIQ Japanによるストリーミング再生回数レポートから2026年11月16日～11月1",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167619/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Sakiyomi Digital] Ayumu Imazu's \"Musubi\" continues to be the number one streaming song EBiDAN's \"Yes! Tokyo\" rises again",
+      "translatedExcerpt": "From the streaming playback report by GfK/NIQ Japan from November 16, 2026 to November 1, 2026"
+    },
+    {
+      "id": "4433ecba133aa0cc",
+      "title": "【先ヨミ・デジタル】Travis Japan『Jewelry Basket』DLアルバム首位独走中",
+      "link": "https://www.billboard-japan.com/d_news/detail/167620",
+      "publishedAt": "2026-11-20T10:05:00.000Z",
+      "excerpt": "GfK/NIQ Japanによるダウンロード・アルバム売上レポートから、2026年11月16日～1",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167620/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Sen Yomi Digital] Travis Japan “Jewelry Basket” is currently leading the DL album rankings",
+      "translatedExcerpt": "From the download/album sales report by GfK/NIQ Japan, November 16, 2026 - 1"
+    },
+    {
+      "id": "a55bbbe7830da3b1",
+      "title": "【先ヨミ・デジタル】桑田佳祐「神々の襷（たすき）」がDLソング首位を走行中 JO1／STARGLOWが追う",
+      "link": "https://www.billboard-japan.com/d_news/detail/167629",
+      "publishedAt": "2026-11-20T10:05:00.000Z",
+      "excerpt": "GfK/NIQ Japanによるダウンロード・ソング売上レポートから2026年11月16日～11月",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167629/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Yomi Digital] Keisuke Kuwata's \"Tasuki of the Gods\" is running at the top of the DL song list, followed by JO1/STARGLOW",
+      "translatedExcerpt": "From the download song sales report by GfK/NIQ Japan from November 16, 2026 to November"
+    },
     {
       "id": "2ec44d5ed3d29d6a",
       "title": "【ライブレポ】MyGO!!!!!、神戸で描いた新たな景色。5人がつないだ「いま」の先へ──9th LIVE「つなぎ目の向こうに」- 神戸再景編 -",
@@ -185,6 +259,25 @@
       },
       "translatedTitle": "[Live Report] MyGO!!!!!, a new scenery drawn in Kobe. Beyond the “now” where five people are connected ─ 9th LIVE “Beyond the joint” - Kobe re-view edition -",
       "translatedExcerpt": "On November 15, 2026 (Sunday), MyGO!!!!! held DAY 2 of their solo live \"MyGO!!!!! 9th LIVE \"Beyond the Tsunajime\" - Kobe Re-Kei Edition - at the Hyogo World Memorial Hall (Kobe Port Island Hall). This live performance was held as a follow-up to the 9th LIVE held at Pia Arena MM in July of this year. MyGO!!!!!'s first solo performance in Kobe. Inheriting the words \"beyond the seams\" in the show's title, we will revisit the scenery depicted in the July performance in a new location, Kobe. For ``Kobe Re-Keihen,'' the five members layered their sounds while giving new expressions to the songs they had accumulated so far. “Maze Hibi” marked the beginning of DAY2. This song has a title that symbolizes the history of MyGO!!!!!"
+    },
+    {
+      "id": "d190f64132322dcc",
+      "title": "s**t kingz、約9年ぶりとなるビルボードライブ・ツアーの東京追加公演をクリスマスに開催",
+      "link": "https://www.billboard-japan.com/d_news/detail/167626",
+      "publishedAt": "2026-11-20T10:00:00.000Z",
+      "excerpt": "shoji、kazuki、NOPPO、Oguriの4人によるダンスパフォーマンスグループs**t",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167626/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "s**t kingz will hold an additional performance in Tokyo on their Billboard Live tour for the first time in about 9 years on Christmas",
+      "translatedExcerpt": "Dance performance group s**t consisting of shoji, kazuki, NOPPO, and Oguri."
     },
     {
       "id": "5965028616a9b11d",
@@ -242,6 +335,23 @@
       "translatedExcerpt": "<Kishidan Expo 2026 ~Boso Bakuon Resort~> was held for two days, November 7th (Saturday) and November 8th (Sunday), at Makuhari Messe International Exhibition Center Hall 4-7 in Chiba. In 2026, which marks the third year since the venue was moved from Chiba's Sodegaura Seaside Park to Makuhari Messe, gorgeous artists who responded to the passion of Kishidan, led by leader Sho Ayanokoji, gathered together and put on a number of wonderful performances on stage. We would like to bring you a report from the first day of the festival, which had a total of 24,000 spectators over the two days. ◆ ◆ ◆ On the first day of the Makuhari Messe on a pleasant autumn day, a long line of people formed a line from the entrance waiting for the doors to open. The appearance of the embroidered T-shirts and towels of various artists, including KISSES (a collective term for Kishidan fans), represents the characteristics of Kishidan Expo, which features a wide variety of performers."
     },
     {
+      "id": "14953c762812f4ce",
+      "title": "Rock Paper Landmine Novel Gets Stage Play in January",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-20/rock-paper-landmine-novel-gets-stage-play-in-january/.244017",
+      "publishedAt": "2026-11-20T09:16:57.000Z",
+      "excerpt": "Yugo Aosaki's novel has live-action series adaptation that debuted on Prime Video worldwide on November 13",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI2/cms/news.10/244017/landmine-stage-kv.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
       "id": "11eed8f21a5e3a53",
       "title": "「Yes! 東京」ヒットから走りだしたEBiDAN――各グループに広がるヒットの波",
       "link": "https://www.billboard-japan.com/d_news/detail/167601",
@@ -293,6 +403,23 @@
         "siteUrl": "https://myanimelist.net/news",
         "category": "Anime News",
         "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "fd634c5ed3892605",
+      "title": "Mercedes and the Waning Moon TV Anime Reveals More Cast, January 10 Debut",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-20/mercedes-and-the-waning-moon-tv-anime-reveals-more-cast-january-10-debut/.244014",
+      "publishedAt": "2026-11-20T09:03:14.000Z",
+      "excerpt": "Show Hayami, Miyu Tomita, more join cast; new visual also revealed",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gD3/cms/news.10/244014/mercedes-main-visual-2.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -6500,7 +6627,7 @@
       "title": "Evangelion Was “So Good” It Made Takashi Murakami Give Up on Anime",
       "link": "https://news.sankakucomplex.com/n/1YMM94AKlNVbHNI8pahZEw",
       "publishedAt": "2026-11-17T16:46:32.000Z",
-      "excerpt": "Renowned Japanese contemporary artist Takashi Murakami has revealed that Neon Genesis Evangelion was so overwhelmingly impressive that it convinced him to abandon his ambitions of working in the anime industry, leaving him feeling despair rather than admiration.",
+      "excerpt": "Renowned Japanese contemporary artist Takashi Murakami has revealed that Neon Genesis Evangelion was so overwhelmingly impressive that it convinced him to abandon his ambitions of working in the anime industry, leaving him feeling despair rather than admiration. Murakami made the revelation durin…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -7541,7 +7668,7 @@
       "title": "Former Magazine Model Kanako Kawabata’s Partner Arrested on Suspicion of Murder",
       "link": "https://news.sankakucomplex.com/n/qzqtnR1zmYUzkhJdNOBHlA",
       "publishedAt": "2026-11-17T08:00:00.000Z",
-      "excerpt": "Former “egg” magazine model Kanako Kawabata, credited with popularizing the Japanese slang expression “agepoyo,” was allegedly murdered by her live-in partner, who has been arrested four months after the 36-year-old woman’s death in Tokyo.",
+      "excerpt": "Former “egg” magazine model Kanako Kawabata, credited with popularizing the Japanese slang expression “agepoyo,” was allegedly murdered by her live-in partner, who has been arrested four months after the 36-year-old woman’s death in Tokyo. According to Japanese broadcaster Fuji TV, the Tokyo Metr…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18251,139 +18378,6 @@
       },
       "translatedTitle": "w.o.d. will release lyric videos for all songs on the album on Instagram",
       "translatedExcerpt": "w.o.d. has announced that they will release lyric videos for all songs included in their album “Fure”, which will be released on November 18, 2026. Currently, the image posted on w.o.d.'s official Instagram account as \"Fureru_files\" that only shows folders will be released on November 18th on a total of 20 new accounts tagged by folder. Each account created for each song features handwritten lyrics, parts of the song, and photos that can only be heard there, so be sure to check them out as well. ◆w.o.d. “Fureru_files” on Instagram The album “Fureru” is a two-disc set of original albums, the first in about two years since the previous work. Blu-l with live footage, MV collection, and documentary footage..."
-    },
-    {
-      "id": "a5be03152a7199bb",
-      "title": "あいみょん、シュール＆キュートな違和感を「さながらロンリー」MVに散りばめる",
-      "link": "https://www.billboard-japan.com/d_news/detail/167371",
-      "publishedAt": "2026-11-11T12:25:00.000Z",
-      "excerpt": "あいみょんが、新曲「さながらロンリー」のミュージックビデオを公開した。 2026年10月12日",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167371/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Aimyon sprinkles a surreal and cute sense of discomfort in the MV for “Sanagara Lonely”",
-      "translatedExcerpt": "Aimyon has released the music video for her new song \"Sanagara Lonely\". October 12, 2026"
-    },
-    {
-      "id": "fe702e5dba4a6910",
-      "title": "wacci、久保史緒里が出演する連作MV「御節介」「天邪鬼」プレミア公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167372",
-      "publishedAt": "2026-11-11T12:15:00.000Z",
-      "excerpt": "wacciが、2026年11月13日に新曲「御節介」「天邪鬼」のミュージックビデオを連続でYouT",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167372/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "wacci premieres their series MV “Osetsusuke” and “Amayaki” starring Shiori Kubo",
-      "translatedExcerpt": "wacci will release music videos for new songs “Osetsusuke” and “Amayaki” on YouT on November 13, 2026."
-    },
-    {
-      "id": "97f2ddf2e7047bbb",
-      "title": "ENHYPEN、さまざまな恋心を描く個人コンセプトフィルム「DAY & NIGHT」公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167370",
-      "publishedAt": "2026-11-11T12:10:00.000Z",
-      "excerpt": "ENHYPENが、スピンオフシングル『THE SIN : PARALLEL WORLD』のコンセプ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167370/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "ENHYPEN releases personal concept film “DAY & NIGHT” depicting various love interests",
-      "translatedExcerpt": "ENHYPEN releases concept for spin-off single “THE SIN: PARALLEL WORLD”"
-    },
-    {
-      "id": "f0402ccc628cea69",
-      "title": "CLAN QUEEN、TVアニメ『PSYREN -サイレン-』OPテーマ「WARNING!!」パフォーマンスビデオ公開",
-      "link": "https://barks.jp/news/1103934",
-      "publishedAt": "2026-11-11T12:00:00.000Z",
-      "excerpt": "CLAN QUEENが、新曲「WARNING!!」のパフォーマンスビデオを公開した。 本楽曲は、現在放送中のTVアニメ『PSYREN -サイレン-』のオープニングテーマとなっている楽曲だ。警告音が鳴り響き、攻撃性のあるギターリフで畳みかけるイントロから始まり瞬く間に展開。マキシマリズムの臨界点を意識して作られた楽曲とのことで、“想像力／創造力を解き放つ”というイメージから疾走感のあるサビが印象的なオルタナティブなサウンドに仕上がっている。 そんな「WARNING!!」のパフォーマンスビデオのタイトルには謎のワード『MIDNIGHTPARK TV』が入っている。この『MIDNIGHTPARK TV』とは一体何なのか、今後に注目してほしい。 また、「WARNING!!」CDパッケージは本日発売となった。本作は…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/04/01113126/CLANQUEEN-2026%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "CLAN QUEEN releases performance video for TV anime “PSYREN -Siren-” opening theme “WARNING!!”",
-      "translatedExcerpt": "CLAN QUEEN has released a performance video for their new song \"WARNING!!\". This song is the opening theme for the currently airing TV anime ``PSYREN -Siren-''. The song begins with an intro that begins with a warning sound and an aggressive guitar riff, and quickly unfolds. The song is said to have been created with the critical point of maximalism in mind, with the image of \"unleashing imagination/creativity\" resulting in an impressive alternative sound with a fast-paced chorus. The title of the performance video for ``WARNING!!'' contains the mysterious word ``MIDNIGHTPARK TV.'' Please stay tuned to find out what this “MIDNIGHTPARK TV” is all about. Additionally, the \"WARNING!!\" CD package was released today. This work is..."
-    },
-    {
-      "id": "b924fa0f38e7143b",
-      "title": "クリトリック・リス “本気を出しました” 6年ぶりアルバム2枚組CD『やるっきゃないっしょ！』発売決定",
-      "link": "https://ototoy.jp/news/132722",
-      "publishedAt": "2026-11-11T12:00:00.000Z",
-      "excerpt": "クリトリック・リスが、6年ぶりとなる2枚組CDアルバム『やるっきゃないっしょ！』を、2027年1月13日にリリースすることを発表した。 年間120本以上のライブを重ね、アンダーグラウンド・シーンの最前線を走り続けてきたスギムことクリトリック・リス。 結成20周年を記念するアルバムは、全20曲・2枚組、トータル約100分の大作。ライブフロアを沸かせてきたここ近年の楽曲群が収められた今作は、ファンにとってのマスターピースであり、入門者にも最適なベスト盤級の決定作となっている。尚、アルバムジャケットはスギムの友人である写真家・佐伯慎亮によるもの。 リリースに先駆けて、12月には〈クリトリック・リス ワンマンツアー 2026〉の開催も決定している。 コメント 活動20年目にして音源制作に本気を出しました。アルバム…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132722/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Critic Squirrel “I got serious” Their first album in 6 years, a 2-CD set “Yarukkyanaissho!” ” Release decided",
-      "translatedExcerpt": "Critic Squirrel releases their first double-CD album in six years, ``Yarakkyanaissho!'' ” was announced to be released on January 13, 2027. Kritrik Risu, also known as Sugim, has been at the forefront of the underground scene, performing over 120 live shows a year. The album commemorating their 20th anniversary is a 2-disc set of 20 songs, totaling about 100 minutes. This work, which includes a group of songs that have excited the live floor in recent years, is a masterpiece for fans and a definitive best-of album that is perfect for beginners. The album jacket was created by Sugim's friend, photographer Shinsuke Saeki. Prior to the release, it has been decided that the ``Crytrik Rhys One-Man Tour 2026'' will be held in December. Comments After 20 years of activity, I became serious about producing sound sources. album…"
-    },
-    {
-      "id": "592b80e40ca555fd",
-      "title": "ヒトリエ、約1年ぶりの新曲「KEDAMONO_AYAKASHI」MVプレミア公開決定",
-      "link": "https://barks.jp/news/1103938",
-      "publishedAt": "2026-11-11T12:00:00.000Z",
-      "excerpt": "ヒトリエが、本日配信した新曲「KEDAMONO_AYAKASHI」のMVを2026年11月12日21時よりプレミア公開することを発表した。 約1年ぶりとなる新曲「KEDAMONO_AYAKASHI」のMVは、ボーカル・シノダの旧友であるkeishi kondoが監督を務めた。メンバーの躍動感あふれる演奏シーンを中心に構成されており、楽曲の持つエネルギーを存分に感じられる映像に仕上がっているという。 ◆ ◆ ◆ ◾️シノダ コメント昨年、映画「NEW RELIGION」を新宿シネマートで観た。そして久しぶりにkeishi kondo監督（以下、近藤）に僕を撮ってもらいたくなった。 近藤と僕の関係は名古屋のとある映像系の大学の同期で、僕の学生時代の殆どが彼と共にあったように思う。 彼の映像に対するひたむきな姿…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2025/12/17135725/%E3%83%92%E3%83%88%E3%83%AA%E3%82%A8_A%E5%86%99.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Hitrie will release the MV premiere of his new song “KEDAMONO_AYAKASHI” for the first time in about a year",
-      "translatedExcerpt": "Hitrie has announced that the music video for their new song \"KEDAMONO_AYAKASHI\", which was released today, will be premiered on November 12, 2026 at 9:00 p.m. The music video for their new song \"KEDAMONO_AYAKASHI\", their first in about a year, was directed by keishi kondo, an old friend of vocalist Shinoda. The video is composed mainly of lively performance scenes of the members, and the video allows you to fully feel the energy of the song. ◆ ◆ ◆ ◾️ Shinoda's comment Last year, I saw the movie \"NEW RELIGION\" at Shinjuku Cinemart. And for the first time in a while, I wanted director Keishi Kondo (hereinafter referred to as Kondo) to take a picture of me. Kondo and I were classmates at a film university in Nagoya, and I think I spent most of my student days with him. His dedication towards images..."
-    },
-    {
-      "id": "3f1dab4cba2cec77",
-      "title": "工藤さくら、フォーキーな新曲「傘」リリース&MV公開",
-      "link": "https://ototoy.jp/news/132715",
-      "publishedAt": "2026-11-11T12:00:00.000Z",
-      "excerpt": "工藤さくらが2026年11月11日(水)にニューシングル「傘」をリリースした。 本楽曲は、アコースティックギターと歌のみのフォーキーなサウンドから始まり、徐々にピアノ、ドラム、ブラスの打ち込みや効果音を重ね、前へ進む行進曲のように展開していく。少しずつ形作られる賑やかなサウンドに、相反するささやかなボーカルが乗せられた、新しいポップナンバーに仕上がっている。 サウンド面においては、作詞・作曲・編曲・演奏・録音をを工藤さくら、ミックス・マスタリングをioniが行っている。また、本楽曲のリリースに併せてミュージックビデオを公開した。 ダンサー・俳優の町田英太朗が主演を務め、総勢8人のキャストが出演する本ミュージックビデオは、角洋介が監督・撮影・編集を担当している。工藤さくらは今回の新曲について、以下のようにコ…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132715/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Sakura Kudo releases folky new song “Umbrella” & MV released",
-      "translatedExcerpt": "Sakura Kudo released her new single \"Umbrella\" on Wednesday, November 11, 2026. This song begins with a folky sound consisting only of an acoustic guitar and vocals, and gradually builds up piano, drums, brass beats, and sound effects, developing like a moving march. It is a new pop number, with a lively sound that gradually takes shape and a contrasting, modest vocal. In terms of sound, Sakura Kudo wrote the lyrics, composed, arranged, performed, and recorded, and Ioni handled the mixing and mastering. In addition, a music video was released along with the release of this song. This music video, starring dancer and actor Eitaro Machida and featuring a total of eight cast members, was directed, shot, and edited by Yosuke Kaku. Sakura Kudo commented on the new song as follows..."
     }
   ]
 }

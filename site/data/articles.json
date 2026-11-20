@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T07:03:01.964Z",
+  "generatedAt": "2026-11-20T07:33:31.464Z",
   "sources": [
     {
       "id": "sankaku",
@@ -94,7 +94,7 @@
       "count": 140,
       "imageEnrichment": {
         "attempted": 40,
-        "resolved": 39
+        "resolved": 34
       },
       "fetchedCount": 40
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 27,
+      "count": 26,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 260,
+      "count": 261,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 192,
+      "count": 193,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 81,
+      "count": 80,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,67 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 606,
+    "translatedJapaneseArticles": 608,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "0a5b9f45254b31b1",
+      "title": "菅田将暉の新曲「君が笑うまで」、『中川家 ザ・ラジオショー』で初OA＆トータス松本がゲスト出演",
+      "link": "https://www.billboard-japan.com/d_news/detail/167623",
+      "publishedAt": "2026-11-20T07:30:00.000Z",
+      "excerpt": "菅田将暉の新曲「君が笑うまで」が、11月27日13時より放送のニッポン放送『中川家 ザ・ラジオショ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167623/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Masaki Suda's new song \"Until you laugh\", first broadcast on \"Nakagawa Family The Radio Show\" and Tortoise Matsumoto guest appearance",
+      "translatedExcerpt": "Masaki Suda's new song \"Until you laugh\" will be featured on Nippon Broadcasting System's \"Nakagawa Family The Radio Show\", which will be broadcast from 13:00 on November 27th."
+    },
+    {
+      "id": "79420bda434168a5",
+      "title": "私立恵比寿中学／ばってん少女隊／いぎなり東北産らスタプラ所属アイドル集結【＃スタダ顔 ライブ】 ニコニコ生放送で独占生中継決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167624",
+      "publishedAt": "2026-11-20T07:20:00.000Z",
+      "excerpt": "スターダストプロモーションの女性アイドル部門「STAR PLANET（スタプラ）」所属アイドルが集",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167624/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Shiritsu Ebisu Junior High School / Batten Girls' Corps / Iginari Tohoku and other idols belonging to Starpura gather [#Stada Face Live] Exclusive live broadcast decided on Niconico Live Broadcasting",
+      "translatedExcerpt": "Idols belonging to Stardust Promotion's female idol division \"STAR PLANET\" gather together."
+    },
+    {
+      "id": "79fe50bc0bafc183",
+      "title": "YOSHIKI、誕生日に千葉の復興支援チャリティーオークション開催 「千葉はいつまでも僕の大切な故郷です」",
+      "link": "https://barks.jp/news/1105783",
+      "publishedAt": "2026-11-20T07:03:19.000Z",
+      "excerpt": "YOSHIKIが、自身の誕生日である本日より、故郷・千葉県の豪雨・台風被災地への追加支援として、チャリティーオークションを開催する。 出品するのは、YOSHIKI がフランス・パリを拠点に展開するファッションブランド「MAISON YOSHIKI PARIS」と、フランスのクリスタルブランド「Baccarat（バカラ）」が共同制作した、YOSHIKI直筆サイン入りの非売品グラス6脚セットだ。落札額の全額を、米国の非営利公益法人「 YOSHIKI FOUNDATION AMERICA」を通じて、千葉県の災害義援金として寄付する。 YOSHIKIは、2026年8月の豪雨災害を受け、同財団を通じて千葉県に1,000万円を寄付している。2019年にも台風第15号で被災した千葉県を支援するため、日本赤十字社に1,0…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/20155828/main-9-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "YOSHIKI holds charity auction to support Chiba reconstruction on his birthday \"Chiba will always be my precious hometown\"",
+      "translatedExcerpt": "Starting today, his birthday, YOSHIKI will hold a charity auction to provide additional support to areas affected by heavy rains and typhoons in his hometown of Chiba Prefecture. Up for sale is a set of 6 not-for-sale glasses with YOSHIKI's autograph, co-produced by YOSHIKI's Paris-based fashion brand MAISON YOSHIKI PARIS and the French crystal brand Baccarat. The entire amount of the winning bid will be donated to Chiba Prefecture's disaster relief fund through YOSHIKI FOUNDATION AMERICA, an American non-profit public interest corporation. YOSHIKI is donating 10 million yen to Chiba Prefecture through the foundation in response to the heavy rain disaster in August 2026. In 2019, we also donated 1,000 to the Japanese Red Cross Society to support Chiba Prefecture, which was affected by Typhoon No. 15."
+    },
     {
       "id": "8dbdea37eb69a8be",
       "title": "EBiDAN、『Yes! 東京』のEBiDAN盤／iiONDO盤／アナログ盤を2/10発売 総勢67名の新キービジュアルも公開",
@@ -184,7 +241,7 @@
         "language": "ja"
       },
       "translatedTitle": "EBiDAN releases “Yes! Tokyo” EBiDAN edition/iiONDO edition/analog edition on 2/10 New key visuals of 67 people in total are also released",
-      "translatedExcerpt": "EBiDAN (Ebisu Gakuen Danshi-bu),EBiDAN (Ebisu Gakuen Danshibu), to which LK and others belong, is releasing their 15th anniversary single \"Yes! East\""
+      "translatedExcerpt": "EBiDAN (Ebisu Gakuen Men's Club), to which members such as Chotonkyuu and M!LK belong, has released their 15th anniversary single \"Yes! East\"."
     },
     {
       "id": "034c36fbcce8bbd1",
@@ -203,7 +260,7 @@
         "language": "ja"
       },
       "translatedTitle": "Briana Gigante's 4th fan meet will be held in Nagoya",
-      "translatedExcerpt": "Briana Gigante will hold her 4th fan meeting on Monday, January 11, 2027 at Menicon Theater Aoi. The host city this time is Nagoya. The title is ``Briana Gigante's ``My 4th Fan Meeting'' in Nagoya,'' and the show is scheduled to start at 1:00 p.m. and end at 2:30 p.m. Junko Edamame will be the MC. チケットは11月26日(木) 23時59分まで抽選販売の申込を受付中。 Event information Venue: Menicon Theater Aoi (Aichi Prefecture) https://livepocket.jp/e/snd_s Release information https://ototoy.jp/_/default/p/643844"
+      "translatedExcerpt": "Briana Gigante will hold her 4th fan meeting on Monday, January 11, 2027 at Menicon Theater Aoi. The host city this time is Nagoya. The title is ``Briana Gigante's ``My 4th Fan Meeting'' in Nagoya,'' and the show is scheduled to start at 1:00 p.m. and end at 2:30 p.m. Junko Edamame will be the MC. Tickets are currently being accepted for lottery sale until 23:59 on Thursday, November 26th. Event information Venue: Menicon Theater Aoi (Aichi Prefecture) https://livepocket.jp/e/snd_s Release information https://ototoy.jp/_/default/p/643844"
     },
     {
       "id": "5b341f35ccaf1f1e",
@@ -1076,7 +1133,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/grotesqqque-anime-film-screens-in-los-angeles-on-december-3-for-1-week-only/.243997",
       "publishedAt": "2026-11-19T21:09:35.000Z",
       "excerpt": "Omnibus film with 3 stories screens at Alamo Drafthouse Cinema Downtown Los Angeles",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIE/youtube/7ZPr9rqaRM0.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1093,7 +1150,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/omoi-announces-digital-release-of-sho-asahina-tsuyo-girl-manga-in-january/.243981",
       "publishedAt": "2026-11-19T21:00:00.000Z",
       "excerpt": "Romantic comedy manga launched in 2021",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gE0/cms/news.10/243981/tsuyo.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1127,7 +1184,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/this-world-is-worth-fighting-for-manga-gets-live-action-series/.243996",
       "publishedAt": "2026-11-19T20:35:15.000Z",
       "excerpt": "Series based on Hatsumi Kodama's Kono Yo wa Tatakau Kachi ga Aru manga debuts in January 2027",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH3/cms/news.10/243996/this-world-is-worth-fighting-for.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1197,7 +1254,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/getbackers-manga-gets-comic-anime-from-ai-platform-manganow-studio/.243992",
       "publishedAt": "2026-11-19T18:00:00.000Z",
       "excerpt": "Comic anime based on 1999 manga debuts on YouTube on December 1",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ4/youtube/fn25Ug7TzW0.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1265,7 +1322,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/masanao-kawajiri-cherry-and-virgin-film-wins-at-aichi-nagoya-intl-animation-film-fest/.243991",
       "publishedAt": "2026-11-19T17:00:00.000Z",
       "excerpt": "2nd ANIAFF took place from November 13-18",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHA/cms/news.9/235427/cherryandvirgin.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4283,7 +4340,7 @@
         "language": "ja"
       },
       "translatedTitle": "Yuko Suzuka will release mini AL in February",
-      "translatedExcerpt": "Yuko Suzuka, who celebrated her 10th anniversary since her solo debut, has decided to release her new mini album ``MUSUBI∞ -Where Worlds Unite-'' on Wednesday, February 24, 2027. In 2026, which marked the 10th anniversary of her solo debut, Suzuka once again proved her unparalleled ability as a professional in the traditional performing art of ``Shigin'' by winning the general section of the ``Reiwa 8th National Gin'ei Contest.'' The title of this work, ``MUSUBI∞ -Where Worlds Unite-,'' reflects her strong determination that through the many overseas performances she has experienced, she realized that ``I don't just want to go overseas, but I want to live show the charm of Japan to the world.'' By developing unique music that incorporates elements of Shigin and Japanese, which are his roots, into J-POP, he hopes to create a unique music that \"people of any country can be..."
+      "translatedExcerpt": "Yuko Suzuka, who celebrated her 10th anniversary since her solo debut, has decided to release her new mini album ``MUSUBI∞ -Where Worlds Unite-'' on Wednesday, February 24, 2027. In 2026, which marked the 10th anniversary of her solo debut, Suzuka once again proved her unparalleled ability as a professional in the traditional performing art of ``Shigin'' by winning the general section of the ``Reiwa 8th National Gin'ei Contest.'' The title of this work, ``MUSUBI∞ -Where Worlds Unite-,'' reflects her strong determination that through the many overseas performances she has experienced, she realized that ``I don't just want to go overseas, but I want to live show the charm of Japan to the world.'' By developing unique music that incorporates elements of Shigin and Japanese, which are his roots, into J-POP, he hopes to \"become one of the people of any country..."
     },
     {
       "id": "185fde2b936eee9e",
@@ -7546,7 +7603,7 @@
       "title": "TBS Anime Revenue Surges 38% as Overseas Streaming Drives Profit Turnaround",
       "link": "https://news.sankakucomplex.com/n/y7pyZLSdB4wz_dFJCQbYyg",
       "publishedAt": "2026-11-17T00:00:28.000Z",
-      "excerpt": "Japanese broadcaster TBS Television has reported a dramatic turnaround in its anime business, with revenue increasing nearly 38% and gross profit reaching ¥1.175 billion ($7.6 million), thanks largely to strong overseas streaming performance from titles such as The Ramparts of Ice. According to f…",
+      "excerpt": "Japanese broadcaster TBS Television has reported a dramatic turnaround in its anime business, with revenue increasing nearly 38% and gross profit reaching ¥1.175 billion ($7.6 million), thanks largely to strong overseas streaming performance from titles such as The Ramparts of Ice.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18325,59 +18382,6 @@
       },
       "translatedTitle": "Dresscodes releases MV for new song “Liberation” shot entirely in Paris",
       "translatedExcerpt": "Dresscodes has released the music video for their latest song \"Liberation.\" This music video is"
-    },
-    {
-      "id": "cd57d2a5cac6db55",
-      "title": "Manga 'Nanatsuya: Shinobu no Housekibako' Gets TV Anime in 2027",
-      "link": "https://myanimelist.net/news/74927894?_location=rss",
-      "publishedAt": "2026-11-11T09:24:46.000Z",
-      "excerpt": "Production company Pony Canyon opened an official website for a television anime adaptation of Tomoko Ninomiya's Nanatsuya: Shinobu no Housekibako (Nanatsu-ya: Shinobou and Her Jewelry Box) on Wednesday, revealing the main staff, teaser visual (pictured), and teaser promotional video. The anime will premiere in 2027. Staff Director: Chiaki Kon (Golden Tim…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794388977-779f6573cde1d8290f2e36b9038d83b4.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "7d4100cf4f69e459",
-      "title": "(sic)boy、プロデューサーKMと制作中のEPから第2弾先行SG「GET FREE (Prod. KM)」配信リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/167367",
-      "publishedAt": "2026-11-11T09:20:00.000Z",
-      "excerpt": "(sic)boyが、プロデューサーのKMと制作中のEPから第2弾先行シングル「GET FREE (",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167367/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "(sic)boy releases 2nd advance SG “GET FREE (Prod. KM)” from EP currently in production with producer KM",
-      "translatedExcerpt": "(sic)boy releases the second lead single “GET FREE ("
-    },
-    {
-      "id": "bc7a7a4c9b8bc2d5",
-      "title": "Japan’s Cool Japan Fund Lost $340 Million, but Anime, Manga & Games Were Profitable",
-      "link": "https://news.sankakucomplex.com/n/DOdJknHqKcD_x1Ucv9V6hA",
-      "publishedAt": "2026-11-11T09:16:32.000Z",
-      "excerpt": "Japan’s troubled Cool Japan Fund is preparing to shut down after accumulating approximately $340 million in losses, but a new government investigation has revealed that investments in anime, manga, video games, and music were actually profitable, while live-action entertainment projects suffered…",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
     }
   ]
 }

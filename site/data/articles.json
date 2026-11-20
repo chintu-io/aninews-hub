@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T03:03:32.366Z",
+  "generatedAt": "2026-11-20T03:32:20.410Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 44,
+      "count": 45,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -94,7 +94,7 @@
       "count": 139,
       "imageEnrichment": {
         "attempted": 40,
-        "resolved": 15
+        "resolved": 40
       },
       "fetchedCount": 40
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 261,
+      "count": 262,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 195,
+      "count": 194,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 155,
+      "count": 154,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,65 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 611,
+    "translatedJapaneseArticles": 610,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "ad145fe57fdb0692",
+      "title": "スカパラ、本日配信の新曲「Nadia」がメンズヘアケアブランド『MARO17』新CMテーマに決定",
+      "link": "https://barks.jp/news/1105682",
+      "publishedAt": "2026-11-20T03:20:46.000Z",
+      "excerpt": "東京スカパラダイスオーケストラが、新曲「Nadia」を本日配信リリースした。さらに、同曲がメンズヘアケアブランド『MARO17』の新CMテーマ曲に起用されたことも明らかになった。 スカパラが同ブランドのCMテーマ曲を担当するのは、前作に続き今回で4回目となる。CMのために書き下ろされた本楽曲は、加藤隆志（G）が作曲を手がけたインストゥルメンタルナンバーで、高揚感を誘うアンサンブルと、洗練されたグルーヴの中に漂う心地よい浮遊感が印象的な楽曲に仕上がっているという。 今回公開された新CMは、アニメーションスタジオ・MAPPAが制作を手掛けるシリーズの最新作だ。これまで「泡沫 feat.TETSU」「まだ、あきらめてないだろ？」「どアタマからキメようぜ」の3作品が公開され、話題を集めてきた。シリーズの続編となる…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/07/22170533/257571_%E3%80%90%E3%82%A2%E3%83%BC%E5%86%99%E3%80%9120260427_TSPO_0633.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Skapara's new song \"Nadia\" released today has been chosen as the theme for the new commercial for men's hair care brand \"MARO17\"",
+      "translatedExcerpt": "Tokyo Ska Paradise Orchestra released their new song \"Nadia\" today. Furthermore, it was revealed that the same song will be used as the theme song for a new commercial for men's hair care brand MARO17. This is the fourth time Skapara has been in charge of the brand's commercial theme song, following the previous work. This song, written specifically for the commercial, is an instrumental number composed by Takashi Kato (G), and is said to be an impressive song with an uplifting ensemble and a comfortable floating feeling within a sophisticated groove. The new commercial released this time is the latest in the series produced by animation studio MAPPA. So far, three works have been released and have been attracting a lot of attention: ``Foam feat. This is the sequel to the series..."
+    },
+    {
+      "id": "230e13a3511a7d80",
+      "title": "エリカ・バドゥ、2年ぶりに復活する【ソウル・トレイン・アワード】のサイファーをプロデュース＆監督",
+      "link": "https://www.billboard-japan.com/d_news/detail/167615",
+      "publishedAt": "2026-11-20T03:05:00.000Z",
+      "excerpt": "エリカ・バドゥ、ラプソディ、シーロー・グリーン、デイヴ・ホリスター、エイヴリー・ウィルソンが、20",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167615/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Erykah Badu to produce and direct the Soul Train Awards cypher returning after two years",
+      "translatedExcerpt": "Erykah Badu, Rapsody, Cee-Lo Green, Dave Hollister, Avery Wilson, 20"
+    },
+    {
+      "id": "9d28df2183226dfa",
+      "title": "KFC Japan releases new Desire-Filled Immoral Burgers with Mac & Cheese… but are they as sinful as they look?",
+      "link": "https://soranews24.com/2026/11/20/kfc-japan-releases-new-desire-filled-immoral-burgers-with-mac-cheese-but-are-they-as-sinful-as-they-look/",
+      "publishedAt": "2026-11-20T03:00:37.000Z",
+      "excerpt": "Juicy fried chicken burgers get an immoral makeover for a limited time. Juicy chicken thighs appear to be the latest trend rocking the fast food world in Japan right now, with McDonald’s releasing a new “Crunchy Juicy Mac” and KFC switching to chicken thigh burgers for the first time in 43 years. There’s certainly an […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/KFC-Japan-Mac-and-Cheese-garlic-mayo-bacon-fried-chicken-burger-limited-edition-exclusive-menu-fast-food-Japan-McDonalds-Zetteria-news-10.jpeg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "a07ce2810aeaa06f",
       "title": "“音楽映画の名匠”ジョン・カーニー監督のフィルモグラフィを劇中の名曲とともに振り返る",
@@ -183,7 +238,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "A look back at the filmography of director John Carney, the “master of music movies”, along with famous songs from his plays.",
+      "translatedTitle": "A look back at the filmography of director John Carney, the “master of music movies”, along with his famous songs.",
       "translatedExcerpt": "As director John Carney's film ``The Greatest Song for You'' is scheduled to be released nationwide on December 25th, director John Carney's"
     },
     {
@@ -280,6 +335,25 @@
       },
       "translatedTitle": "Suchmos decides to release new EP “Autobahn” & starts pre-distribution of new song “hi-liter”",
       "translatedExcerpt": "Suchmos has announced that they will release their long-awaited new EP \"Autobahn\" on Wednesday, February 3, 2027, their first release in about 1 year and 8 months since their previous album \"Sunburst\". This work includes a total of 5 songs including the pre-released songs ``hi-liter'' and ``Smile.'' The artwork was also released along with the recorded content. In addition, ahead of the release of this EP, the new song ``hi-liter'', which is used as the opening song for ``The Japan National Soccer Team Movie ``The Challenge to the Best Scenery'''', which was released nationwide from November 20th (Friday), has started distribution in advance on various streaming and download services. In addition, tickets for the new arena tour <Suchmos BAY SIDE TOUR 2027>, which will tour 8 performances in 4 cities nationwide from March 2027 next year..."
+    },
+    {
+      "id": "fa4e596cde677054",
+      "title": "あいみょん、1月に新AL『スマイル週間』リリース",
+      "link": "https://ototoy.jp/news/132888",
+      "publishedAt": "2026-11-20T03:00:00.000Z",
+      "excerpt": "あいみょんが1月27日（水）に約2年4ヶ月ぶりのフルアルバム『スマイル週間』をリリースすることが決定した。 今作には、現在放送中のドラマ『もうパパ！』主題歌「さながらロンリー」をはじめ、スズキ軽EV「新型e SKY」CMソングの新曲「オレンジジュース」、東京メトロ「Find my Tokyo.」CMソング「恋はまぼろし」、TBS系 日曜劇場『19番目のカルテ』主題歌「いちについて」、18thシングル「ビーナスベルト」など全13曲を収録。 初回限定盤には、3rdアルバム『おいしいパスタがあると聞いて』以来となるファン待望の弾き語りCD『風とリボン2 - 岡本太郎記念館, October, 2026 -』を同梱。本作のために「岡本太郎記念館」にてレコーディングを敢行。初音源化となる楽曲「風とリボン」をはじめ全…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132888/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Aimyon releases new AL “Smile Week” in January",
+      "translatedExcerpt": "It has been decided that Aimyon will release her first full-length album in 2 years and 4 months, ``Smile Week'', on January 27th (Wednesday). This work includes the drama “Mo Daddy!” currently being aired. Contains a total of 13 songs, including the theme song ``Sanagara Lonely'', the new CM song ``Orange Juice'' for the Suzuki light EV ``New e SKY'', ``Koi hamaboroshi'', the CM song for Tokyo Metro ``Find my Tokyo.'', ``Ichitsuni'', the theme song for TBS's Sunday Theater ``19th Karte'', and the 18th single ``Venus Belt''. The first limited edition includes the long-awaited singing CD ``Kaze to Ribbon 2 - Taro Okamoto Memorial Museum, October, 2026 -'', which has been a long-awaited song for fans since their 3rd album ``Heard There's Delicious Pasta''. For this work, recording was done at the Taro Okamoto Memorial Museum. All songs including \"Kaze to Ribbon\", which will be made into a sound source for the first time..."
     },
     {
       "id": "123e9f5423e3653f",
@@ -390,7 +464,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "``Nami Urarakani, Meo and Hiyori'' ``This time it was a KI festival'' ``This episode was about two couples deepening their bonds with each other.''",
+      "translatedTitle": "``Nami Urarakani, Meo and Hiyori'' ``This time it was a KI festival'' ``This time it was an episode where two couples deepened their bonds with each other.''",
       "translatedExcerpt": "The 6th episode of ``Nami Urarakani, Meoto Biyori'' (Fuji TV) was broadcast on the 19th. This work was created in 1933."
     },
     {
@@ -482,7 +556,7 @@
         "language": "ja"
       },
       "translatedTitle": "T-Jijis releases cover MV for Hump Back's \"Haikei, Shonenyo\"",
-      "translatedExcerpt": "T-Jijis has released a music video covering Hump Back's song ``Haikei, Shonenyo''."
+      "translatedExcerpt": "T-Jijis has released a music video that covers Hump Back's song \"Haikei, Shonen yo.\""
     },
     {
       "id": "9d673f9cf821cde2",
@@ -636,7 +710,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/criterion-channel-adds-speed-racer-anime/.243995",
       "publishedAt": "2026-11-19T22:00:00.000Z",
       "excerpt": "Anime streams in English/Japanese versions in December",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIH/cms/news.7/210438/speed-racer.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -672,7 +746,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/grotesqqque-anime-film-screens-in-los-angeles-on-december-3-for-1-week-only/.243997",
       "publishedAt": "2026-11-19T21:09:35.000Z",
       "excerpt": "Omnibus film with 3 stories screens at Alamo Drafthouse Cinema Downtown Los Angeles",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIE/youtube/7ZPr9rqaRM0.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -689,7 +763,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/omoi-announces-digital-release-of-sho-asahina-tsuyo-girl-manga-in-january/.243981",
       "publishedAt": "2026-11-19T21:00:00.000Z",
       "excerpt": "Romantic comedy manga launched in 2021",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gE0/cms/news.10/243981/tsuyo.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -723,7 +797,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/this-world-is-worth-fighting-for-manga-gets-live-action-series/.243996",
       "publishedAt": "2026-11-19T20:35:15.000Z",
       "excerpt": "Series based on Hatsumi Kodama's Kono Yo wa Tatakau Kachi ga Aru manga debuts in January 2027",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH3/cms/news.10/243996/this-world-is-worth-fighting-for.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -776,7 +850,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/hololive-shop-reports-customer-information-leak/.243994",
       "publishedAt": "2026-11-19T19:00:00.000Z",
       "excerpt": "Unauthorized 3rd party gained access to outsourced product shipping company OPENLOGI Inc.",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI5/herald/203202/hololive-shop.png.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -793,7 +867,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/getbackers-manga-gets-comic-anime-from-ai-platform-manganow-studio/.243992",
       "publishedAt": "2026-11-19T18:00:00.000Z",
       "excerpt": "Comic anime based on 1999 manga debuts on YouTube on December 1",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ4/youtube/fn25Ug7TzW0.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -974,7 +1048,7 @@
         "language": "ja"
       },
       "translatedTitle": "A new radio program will be broadcast with LIL LEAGUE's Hayama Hyakuta as the main personality",
-      "translatedExcerpt": "It has been decided that the new radio program ``LIL LEAGUE Hyakuma Hyakuta's Momo Raj'', in which LIL LEAGUE's Hayuma Hyakuta will be the main personality, will be broadcast. The broadcasting station will be FM FUJI (78.6MHz metropolitan area/83.0MHz YAMANASHI) and the first broadcast will be December 6th. Hayuma Hyakuta, who has long dreamed of being a main radio personality, commented, ``I will deliver radio that will cheer you up no matter when you listen to it!'' Why not check out the life-size version of Hayama Momota, who is currently 18 years old and currently a high school student. Additionally, other LIL LEAGUE members and guests are scheduled to appear on the program. ◆ ◆ ◆ ■Shunma Momota Full comment This is Shunma Momota from LIL LEAGUE! Starting next December, FM FUJI will be airing a new program “LIL LEAGUE Hyakuma Hyakuta..."
+      "translatedExcerpt": "It has been decided that the new radio program ``LIL LEAGUE Hyakuma Hyakuta's Momo Raj'', in which LIL LEAGUE's Hayuma Hyakuta will be the main personality, will be broadcast. The broadcasting station will be FM FUJI (78.6MHz metropolitan area/83.0MHz YAMANASHI) and the first broadcast will be December 6th. Hayuma Hyakuta, who has long dreamed of being a main radio personality, commented, ``I will deliver radio that will cheer you up no matter when you listen to it!'' Why not check out the life-size version of Hayama Momota, who is currently 18 years old and currently a high school student. Additionally, other LIL LEAGUE members and guests are scheduled to appear on the program. ◆ ◆ ◆ ■Shunma Momota Full comment This is Shunma Momota from LIL LEAGUE! Starting next December, FM FUJI will be airing a new program “LIL LEAGUE Hyakuma Momota..."
     },
     {
       "id": "3aba31945996b6d9",
@@ -982,7 +1056,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/fatal-fury-city-of-the-wolves-game-new-animated-trailer-by-masami-obari-features-laocorn/.243989",
       "publishedAt": "2026-11-19T14:15:00.000Z",
       "excerpt": "Character from Fatal Fury: The Motion Picture joins game on Thursday",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ7/youtube/0sBPUoa16Ec.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1033,7 +1107,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/rakuen-tsuiho-expelled-from-paradise-kokoro-no-resonance-film-opens-at-no.5-in-japan/.243961",
       "publishedAt": "2026-11-19T13:15:00.000Z",
       "excerpt": "Godzilla Minus Zero stays at #1, becomes highest-earning live-action IMAX film in Japan",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGH/cms/news.9/239862/expelled-from-paradise-film-5th-visual.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1712,7 +1786,7 @@
       "link": "https://www.animenewsnetwork.com/daily-briefs/2026-11-19/monthly-corocoro-comic-magazine-to-release-digital-version-1-week-after-print-version/.243969",
       "publishedAt": "2026-11-19T08:55:48.000Z",
       "excerpt": "The official X/Twitter account for Shogakukan's Monthly CoroCoro Comic magazine announced on November 13 that the magazine's digital version will begin...",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gC2/cms/news.10/243969/corocorocomic.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1786,7 +1860,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/not-sew-wicked-stepmom-webtoon-gets-tv-anime-adaptation/.243979",
       "publishedAt": "2026-11-19T08:33:22.000Z",
       "excerpt": "Series about clothing designer reborn as princess' stepmom has amassed more than 100 million views",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ8/cms/news.10/243979/hxzqtdybmaahcjp.jfif.jpeg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2230,7 +2304,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/seven-seas-licenses-i-am-blue-in-pain-and-fragile-predator-witches-audiobooks/.243959",
       "publishedAt": "2026-11-19T03:35:18.000Z",
       "excerpt": "Also in December: English audiobook of The Lucky Egg Game: Cai Dan You Xi danmei series",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gDI/cms/news.10/243959/predator-witches-ab-01-copy01-12-05-25.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2717,7 +2791,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/youre-so-sloppy-hotta-sensei-manga-ends-in-2-chapters/.243956",
       "publishedAt": "2026-11-18T21:00:00.000Z",
       "excerpt": "Series debuted in March 2022",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gK1/cms/news.6/204603/hotta.jpeg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2751,7 +2825,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/singer-songwriter-hiromi-ota-dies-at-71/.243950",
       "publishedAt": "2026-11-18T19:00:00.000Z",
       "excerpt": "Ōta died on November 12 following battle with breast cancer",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gC1/cms/news.10/243950/hiromi-ota.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2768,7 +2842,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/sumikko-gurashi-franchise-new-switch-2-game-launches-on-november-19/.243949",
       "publishedAt": "2026-11-18T18:00:00.000Z",
       "excerpt": "Players run hot spring in Sumikkogurashi Welcome to Poka Poka Onsen game",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJK/cms/news.10/243949/sumikkogurashi-welcome-to-poka-poka-onsen.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2836,7 +2910,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/the-classroom-of-a-black-cat-and-a-witch-anime-gets-english-dub/.243948",
       "publishedAt": "2026-11-18T16:14:03.000Z",
       "excerpt": "Crunchyroll streams dub for series that debuted on April 12",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG8/cms/news.9/231727/blackcatwitch_kv2.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2870,7 +2944,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/pero-pero-sparkles-anime-promo-video-reveals-january-10-premiere/.243947",
       "publishedAt": "2026-11-18T15:47:20.000Z",
       "excerpt": "Yuki Sakakihara, Mai Kanno, Ai Fairouz, Yōhei Azakami star in anime of Yurie Sekiya's characters",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFO/youtube/c_BSOlzYNyE.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -3287,7 +3361,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/kuku-loop-the-100th-time-the-charm-anime-reveals-main-cast-staff-2027-tv-debut/.243942",
       "publishedAt": "2026-11-18T12:00:19.000Z",
       "excerpt": "Ikumi Hasegawa, Kazuki Ura star in XINGFU anime",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI8/cms/news.10/243942/992.png.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -3473,7 +3547,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-to-debut-in-january/.243941",
       "publishedAt": "2026-11-18T11:06:37.000Z",
       "excerpt": "Season 2's key visual, character visuals also revealed",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gBJ/cms/news.10/243941/spice.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -3710,7 +3784,7 @@
         "language": "ja"
       },
       "translatedTitle": "HUGEN releases MV for “Natto, Mizu, Egg” with a surreal finish set in Numata City, Gunma Prefecture",
-      "translatedExcerpt": "HUGEN creates alternative songs that incorporate elements of ethnic music and folk songs, with a focus on electronic music. The music video for \"Natto, Mizu, Tamago\" from their latest album, \"Fujin Dori\" has been released. The video director is Taku Utsumi, a video artist who gained attention for his work on the music video for Massage Attack's ``Fuyu no Sakamichi''. This video work, set in Numata City, Gunma Prefecture, uses familiar motifs such as natto, water, and eggs to depict an extremely surreal world where the everyday and the extraordinary intermingle. Mysterious scenes unfolding in a real-life landscape create a unique sense of discomfort and humor. INFORMATION https://www.tpsound.jp/hugen-hp https://x.com/tpsound3213 https://www.instagra…"
+      "translatedExcerpt": "HUGEN creates alternative songs that incorporate elements of ethnic music and folk songs, with a focus on electronic music. The music video for \"Natto, Mizu, Egg\" from their latest album, \"Fujin Dori\" has been released. The video director is Taku Utsumi, a video artist who gained attention for his work on the music video for Massage Attack's ``Fuyu no Sakamichi''. This video work, set in Numata City, Gunma Prefecture, uses familiar motifs such as natto, water, and eggs to depict an extremely surreal world where the everyday and the extraordinary intermingle. Mysterious scenes unfolding in a real-life landscape create a unique sense of discomfort and humor. INFORMATION https://www.tpsound.jp/hugen-hp https://x.com/tpsound3213 https://www.instagra…"
     },
     {
       "id": "e2e7054014b537a3",
@@ -3906,7 +3980,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/new-votoms-anime-films-stream-1st-9-minutes/.243938",
       "publishedAt": "2026-11-18T09:02:38.000Z",
       "excerpt": "1st film opens in Japan on Friday",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIY/youtube/UFyoyw3tRDQ.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4067,7 +4141,7 @@
         "language": "ja"
       },
       "translatedTitle": "Ira Okuhira holds Tokyo exhibition of works known for Denki Groove and Mariah jackets",
-      "translatedExcerpt": "マライア『うたかたの日々』や電気グルーヴ『Missing Beatz』のジャケットを手掛けた漫画家・イラストレーター、奥平イラ（おくだいら いら）の展覧会「MODERN LOVERS 2026 YLA OKUDAIRA — REMASTER 80’s」が、東京・神泉のギャラリーJULY TREEにて2026年11月21日(土)より開催される。 1980年代のニューウェーブ・ポップカルチャーを体現し、漫画やイラストレーション、アートディレクションなど幅広く活動してきた奥平イラ。 This exhibition is the Tokyo edition following the exhibition held in Osaka. 展示では、奥平が1980年代に生み出した作品をデジタル化し、修正や加筆を加えてブラッシュアップした「リマスター」作品を紹介。 A sophisticated urban sensibility, sci-fi/futuristic pop and oriental..."
+      "translatedExcerpt": "The exhibition \"MODERN LOVERS 2026 YLA OKUDAIRA — REMASTER 80's\" by manga artist and illustrator Ira Okudaira, who created the jackets for Mariah's \"Utakata no Hibi\" and Denki Groove's \"Missing Beatz\", will be held at Gallery JULY TREE in Shinsen, Tokyo from Saturday, November 21, 2026. Ira Okudaira embodies the new wave pop culture of the 1980s and has been active in a wide range of fields including manga, illustration, and art direction. This exhibition is the Tokyo edition following the exhibition held in Osaka. The exhibition will introduce \"remastered\" works created by Okuhira in the 1980s, which have been digitized and refined through corrections and additions. A sophisticated urban sensibility, sci-fi/futuristic pop and oriental..."
     },
     {
       "id": "cf25ff65d7a5adf9",
@@ -4105,7 +4179,7 @@
         "language": "ja"
       },
       "translatedTitle": "Reborn THE MACKSHOW releases 2nd distribution-only single “Koi no Ignition”",
-      "translatedExcerpt": "THE MACKSHOW has released a new song “Koi no Ignition”. The new THE MACKSHOW has resumed its activities with bassist HEESEY (THE YELLOW MONKEY). This is the second limited-edition single following \"A Midsummer Night's Dream,\" and is a rock'n'roll tune that inherits the classic THE MACKSHOW sound and advances with a solid beat. 11/18福岡からスタートする４都市ツアー〈THE MACKSHOW LIVE TOUR \"JUMP-START 101〉はチケット各所完売が相次ぎ、現在11/20に開催される大阪公演のみ発売中。お見逃しなく。 ツアー情報https://eplus.jp/sf/detail/0122890001-P0030063P021001?P1=1221 Information..."
+      "translatedExcerpt": "THE MACKSHOW has released a new song “Koi no Ignition”. The new THE MACKSHOW has resumed its activities with bassist HEESEY (THE YELLOW MONKEY). This is the second limited-edition single following \"A Midsummer Night's Dream,\" and is a rock'n'roll tune that inherits the classic THE MACKSHOW sound and advances with a solid beat. Tickets for the 4-city tour <THE MACKSHOW LIVE TOUR \"JUMP-START 101>\" starting from Fukuoka on November 18th are sold out one after another, and currently only the Osaka performance to be held on November 20th is on sale. Don't miss it. Tour information https://eplus.jp/sf/detail/0122890001-P0030063P021001?P1=1221 Information..."
     },
     {
       "id": "ac5f64e83540e1c1",
@@ -4124,7 +4198,7 @@
         "language": "ja"
       },
       "translatedTitle": "Quite Seikatsu releases EP “10,000th Morning” which includes songs that are popular on SNS",
-      "translatedExcerpt": "The 6-song EP ``The 10,000th Morning'' by Quite Seikatsu, a band that is attracting attention mainly from American folk fans, will be released on various streaming services on Wednesday, November 18, 2026. The artwork is by Momiji Sanke, a member who is also active as an artist. When he posted a performance video on Instagram in October 2026, it spread worldwide, especially among folk fans in the United States, and received 350,000 views and 30,000 likes in 10 days. The number of followers, which had previously been about 1,000, now exceeds 8,000, an unprecedented situation. The title song of this work, ``The 10,000th Morning'', was played in the video that became a hot topic. このEPではメンバー3人の息の合ったライブ同様の演奏やその場の空気感を残すことを主軸に、都内スタジオで全曲一発どりで制作された。 Folkish playing style..."
+      "translatedExcerpt": "The 6-song EP ``The 10,000th Morning'' by Quite Seikatsu, a band that is attracting attention mainly from American folk fans, will be released on various streaming services on Wednesday, November 18, 2026. The artwork is by Momiji Sanke, a member who is also active as an artist. When he posted a performance video on Instagram in October 2026, it spread worldwide, especially among folk fans in the United States, and received 350,000 views and 30,000 likes in 10 days. The number of followers, which had previously been about 1,000, now exceeds 8,000, an unprecedented situation. The title song of this work, ``The 10,000th Morning'', was played in the video that became a hot topic. This EP was produced in a studio in Tokyo in one shot, with the focus being on the harmonious performance of the three members and the atmosphere of the occasion. Folkish playing style..."
     },
     {
       "id": "cd0ea0d051a07a4d",
@@ -4181,7 +4255,7 @@
         "language": "ja"
       },
       "translatedTitle": "Rapid Tokyo releases new SG “Ira”",
-      "translatedExcerpt": "Kaisoku Tokyo is a rock band with each song lasting just one minute, perfect for those of you who are busy. The new single \"Futsu\", which was released for the first time in about eight years, contains three rock songs with outstanding sharpness: \"Iraira\", \"Hitori\", and \"Metal Man 5\". The title song \"Iraza\" is a short tune that, as the title suggests, uses the emotion of \"irritation\" as its engine. ``The power of irritation'' and ``stress is power'', and the thrill of not just canceling out frustration and stress, but turning it into the strength to move forward is unique to Rapid Tokyo. 「それっぽい」「あれっぽい」と言葉遊びのように畳みかけるフレーズは、借り物の言葉や“らしさ”があふれる今の世の中への皮肉にも聞こえる。 At the end, the song asks what it means to be a \"me-ish me\", and the song is filled with laughter, criticism, and impulse in 79 seconds. “Hitori” is the shortest song on the list at 69 seconds. …"
+      "translatedExcerpt": "Kaisoku Tokyo is a rock band with each song lasting just one minute, perfect for those of you who are busy. The new single \"Futsu\", which was released for the first time in about eight years, contains three rock songs with outstanding sharpness: \"Iraira\", \"Hitori\", and \"Metal Man 5\". The title song \"Iraza\" is a short tune that, as the title suggests, uses the emotion of \"irritation\" as its engine. ``The power of irritation'' and ``stress is power'', and the thrill of not just canceling out frustration and stress, but turning it into the strength to move forward is unique to Rapid Tokyo. The phrases ``Sore-ish'' and ``That-like'' are played on like a play on words, and seem to be an ironic take on the current world, which is full of borrowed words and ``uniqueness.'' In the end, the song asks what it means to be a ``me-ish me'' and packs laughter, criticism, and impulse into 79 seconds. “Hitori” is the shortest song on the list at 69 seconds. …"
     },
     {
       "id": "d7be2411663acd77",
@@ -4208,7 +4282,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/identity-v-game-oha-suta-daigo-gakuen-short-anime-unveils-more-cast-staff-november-24-debut/.243933",
       "publishedAt": "2026-11-18T07:20:06.000Z",
       "excerpt": "Takehito Koyasu, Nobunaga Shimazaki, Yūichirō Umehara, Makoto Furukawa co-star",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHP/cms/news.10/243933/daigo.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4578,7 +4652,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/yaiba-samurai-legend-season-2-reveals-cast-member-yuma-uchida-opening-song-artists/.243924",
       "publishedAt": "2026-11-18T03:11:10.000Z",
       "excerpt": "Uchida plays Gekkō, CHiCO with HoneyWorks performs opening song \"CHASE!\"",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGE/cms/news.10/243924/gekkou.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4762,7 +4836,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/otherworldly-munchkin-anime-new-video-reveals-more-cast-staff-theme-songs-january-7-debut/.243921",
       "publishedAt": "2026-11-18T03:00:00.000Z",
       "excerpt": "Yūichirō Umehara joins cast with some staff changes after delay of more than a year",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG5/cms/news.10/243921/oiwaiillust.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4828,7 +4902,7 @@
         "language": "ja"
       },
       "translatedTitle": "VYBE releases aggressive new song “INFINITY”",
-      "translatedExcerpt": "VYBE released their new single “INFINITY” on Wednesday, November 18, 2026. This work is an all-out aggressive number that combines gushing energy and overwhelming solidity. It has a strong message of ``shattering the limits set by someone and the common sense imposed upon us'', and is filled with the power to turn even pain and wounds into your own strength and open up infinite possibilities with your own will. In addition, from the carefully constructed profound sound, the development that suddenly opens and releases with the chorus is a masterpiece. It is a song that gives the listener an intense feeling of exhilaration, as if a flame is burning from within. Furthermore, it has been one year since the formation of VYBE. Their first one-man live will be held on November 29th (Sunday) at UNRAVEL TOKYO. A stage that conveys the year that has been accumulated since its formation with the songs and dances of 6 members..."
+      "translatedExcerpt": "VYBE released their new single \"INFINITY\" on Wednesday, November 18, 2026. This work is an all-out aggressive number that combines gushing energy and overwhelming solidity. It has a strong message of ``shattering the limits set by someone and the common sense imposed upon us'', and is filled with the power to turn even pain and wounds into your own strength and open up infinite possibilities with your own will. In addition, from the carefully constructed profound sound, the development that suddenly opens and releases with the chorus is a masterpiece. It is a song that gives the listener an intense feeling of exhilaration, as if a flame is burning from within. Furthermore, it has been one year since the formation of VYBE. Their first one-man live will be held on November 29th (Sunday) at UNRAVEL TOKYO. A stage that conveys the year that has been accumulated since its formation with the songs and dances of 6 members..."
     },
     {
       "id": "bc0ef70797dcef3b",
@@ -4984,7 +5058,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/sakamoto-days-season-2-trailer-unveils-more-cast-opening-song-january-18-debut/.243925",
       "publishedAt": "2026-11-18T02:00:08.000Z",
       "excerpt": "Kenyū Horiuchi, Kishō Taniyama join cast with Creepy Nuts performing opening song",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHD/cms/news.10/243925/sakamotodays-s2kv2.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -5198,7 +5272,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/soara-and-the-house-of-monsters-anime-casts-reiji-kawashima-kenta-miyake/.243906",
       "publishedAt": "2026-11-18T01:00:00.000Z",
       "excerpt": "Kawashima, Miyake play dwarves Niko, Ganshō in 2027 anime",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g31/cms/news.10/243906/soara.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -5289,7 +5363,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-17/rpg-maker-u2u-software-launches-for-pc-via-steam-on-january-28/.243916",
       "publishedAt": "2026-11-17T23:00:00.000Z",
       "excerpt": "Perspective 2D Map Editor Demo available until release",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gQJ/herald/203148/rpg-maker-u2u.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -18312,82 +18386,6 @@
       },
       "translatedTitle": "Keisuke Kuwata starts distributing “Tasuki of the Gods intro ver.” on TikTok and Instagram",
       "translatedExcerpt": "Keisuke Kuwata has pre-released the short audio version of the theme song for the Nippon TV drama ``Oretachi no Hakone Ekiden'', ``Kami no Tasuki''. The full length release is scheduled for November 16, 2026. The short sound source, which was distributed in advance as \"Tasuki of the Gods intro ver.\", is being distributed in advance on short video platforms such as TikTok and Instagram. The song, which is set during the Hakone Ekiden, is an anthem that connects the group drama created from the perspectives of not only the runners but also those who support and cheer on the challenge through the ``sash'' of music. The intro begins with a tense heartbeat waiting for the starting gun, and as the story progresses, the sound increases in dynamism, making it perfect for moments when something is about to begin or scenes where emotions are heightened. From daily life to new challenges and friends..."
-    },
-    {
-      "id": "a65962d17aeaccc2",
-      "title": "神門、全6曲を収録した新EP『2026』リリース",
-      "link": "https://ototoy.jp/news/132742",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "excerpt": "神門が2026年11月11日(水)にニューEP『2026』をリリースした。 タイトルが示す通り、本作は今年制作した楽曲のみで作られたEP。トラックはさる吉、dd51、TANNØ、smoothが制作、全スタジオワークをCosaquが担当した。 「でんしゃ」から時を経て作られた「電車」、これからの制作のことについて触れた「これからは」など、多彩なトピックの中、“今”が綴られる。3ヶ月というわずかな制作期間ゆえ、フレッシュな気持ちが内包された素敵な作品に仕上がっている。 リリース情報 https://ototoy.jp/_/default/p/4438072 ツアー情報 アーティスト情報 https://www.instagram.com/_goudo_/ https://x.com/_goudo_",
-      "image": "https://imgs.ototoy.jp/news/image.php/132742/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Shinmon releases new EP “2026” containing 6 songs",
-      "translatedExcerpt": "Shinmon released a new EP “2026” on Wednesday, November 11, 2026. As the title suggests, this is an EP made only of songs produced this year. The track was produced by Saruyoshi, dd51, TANNØ, and smooth, and all studio work was done by Cosaqu. The ``now'' is covered in a variety of topics, including ``trains,'' which have been created over time from ``electric cars,'' and ``what's next,'' which touches on future production. Due to the short production period of 3 months, the result is a wonderful work with a fresh feeling. Release information https://ototoy.jp/_/default/p/4438072 Tour information Artist information https://www.instagram.com/_goudo_/ https://x.com/_goudo_"
-    },
-    {
-      "id": "51363f021f1fe58c",
-      "title": "福澤 侑、両A面シングル「もう一度だけ／AFTER THE SPELL」発売決定",
-      "link": "https://barks.jp/news/1103849",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "excerpt": "福澤 侑が、両A面シングル「もう一度だけ／AFTER THE SPELL」を2027年2月10日(水)に発売することが決定した。あわせて、アーティスト写真や収録曲情報、ライブビジュアルが公開された。 福澤 侑は、ミュージカル『刀剣乱舞』、『進撃の巨人 -the Musical-』、『ヒプノシスマイク -Division Rap Battle-』Rule the Stageなど数々の話題作に出演。近年では、俳優として鈴木愛理主演のTVドラマ『推しが上司になりまして フルスロットル』(TX)への出演や、阿部顕嵐・高野洸・YUKI(MADKID)らが所属するアーティスト集団「XAOSX(カオス)」のリーダーとしてグループを牽引するなど、活動の場を広げている。 2024年よりソロ活動にも注力し、自身が楽曲制作も手…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/11163426/1-23.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Yu Fukuzawa, double A-side single “Mattou Dake/AFTER THE SPELL” to be released",
-      "translatedExcerpt": "It has been decided that Yu Fukuzawa will release the double A-side single ``Mattou Dake/AFTER THE SPELL'' on February 10, 2027 (Wednesday). In addition, artist photos, information on recorded songs, and live visuals were released. Yu Fukuzawa has appeared in many popular works such as the musical \"Touken Ranbu\", \"Attack on Titan -the Musical-\", \"Hypnosismic -Division Rap Battle-\" and Rule the Stage. In recent years, he has been expanding his activities as an actor, appearing in the TV drama ``Oshi ga Boss ni Namashite Full Throttle'' (TX) starring Airi Suzuki, and leading the group ``XAOSX'' (Chaos), an artist group to which Kenran Abe, Kou Takano, YUKI (MADKID) and others belong. From 2024, he will focus on his solo activities and will also be producing music himself..."
-    },
-    {
-      "id": "6e0c37fa21ebec7c",
-      "title": "高畑充希、12年ぶりのアルバム『I’m All Yours』本日発売＆「酸いも、甘いも」MV公開",
-      "link": "https://barks.jp/news/1103876",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "excerpt": "高畑充希が、ユニバーサル ミュージック移籍第一弾アルバム『I’m All Yours』を本日リリースした。 本作は、映画・ドラマ・舞台・ミュージカルなど幅広いフィールドで活躍し、表現者として磨き上げてきた高畑充希の感性を一枚に凝縮しており、今をときめくアーティストたちが高畑充希のために“好きなように”書き下ろした、個性豊かな9曲を収録。 アルバムの幕開けを飾るのは、先行配信された「令和Lady恋愛賛歌」だ。Penthouse・浪岡真太郎（Vo, G）が作曲・編曲、大原拓真（B）が作詞を手がけたソウル感あふれるナンバー。恋愛の失敗や浮き沈みを受け入れながら、前向きに新しい恋や人生を楽しもうとする女性たちを応援する歌詞が魅力的な応援歌になっているという。 そこから続くのが、日食なつこが作詞・作曲を手がけ、MV…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2025/08/25145916/A-pic_fix_S-768x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Mitsuki Takahata’s first album in 12 years “I’m All Yours” released today & “Sour imo, sweet imo” MV released",
-      "translatedExcerpt": "Mitsuki Takahata released her first album “I’m All Yours” today after joining Universal Music. This work condenses the sensibilities of Mitsuki Takahata, who has been active in a wide range of fields such as movies, dramas, stage plays, and musicals, and has refined her skills as an artist.It includes nine unique songs written for Mitsuki Takahata ``as she likes'' by today's exciting artists. The album opens with the pre-released “Reiwa Lady Love Hymn.” A soulful number composed and arranged by Penthouse's Shintaro Namioka (Vo, G) and lyrics by Takuma Ohara (B). The song is said to be an attractive song with lyrics that support women who try to enjoy new love and life positively while accepting the failures and ups and downs of love. What follows from there is the music video, written and composed by Natsuko Hibiki..."
-    },
-    {
-      "id": "9ba2660c0a06d4e1",
-      "title": "新しい学校のリーダーズ、〈コーチェラ 2027〉出演決定",
-      "link": "https://ototoy.jp/news/132746",
-      "publishedAt": "2026-11-11T08:30:00.000Z",
-      "excerpt": "新しい学校のリーダーズが、アメリカ・カリフォルニア州インディオにて2027年4月9日（金）～11日（日）、4月16日（金）～18日（日）と2週にわたって行われる世界最大級の音楽フェス〈Coachella Valley Music and Arts Festival 2027〉（以下、『コーチェラ』）に単独出演する。 今年の『コーチェラ』では、ヘッドライナーとしてDua Lipa、SZA、Tame Lmpalaが出演するほか、世界で活躍するトップアーティストの参加が決定。新しい学校のリーダーズは、9日（金）と16日（金）にて、日本人女性アーティストとして初めて、2度目の出演を果たす。 新しい学校のリーダーズは、2024年に同フェスへ初出演し、2週にわたってGOBI STAGEの大トリを務めた。そのパフォーマ…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132746/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "New School Leaders to perform at Coachella 2027",
-      "translatedExcerpt": "New School Leaders will be performing solo at Coachella Valley Music and Arts Festival 2027 (hereinafter referred to as ``Coachella''), one of the world's largest music festivals, which will be held in Indio, California, USA from April 9th ​​(Friday) to April 11th (Sunday) and April 16th (Friday) to April 18th (Sunday), 2027. This year's Coachella will feature headliners Dua Lipa, SZA, and Tame Lmpala, as well as other top artists from around the world. New School Leaders will be the first Japanese female artist to perform for the second time on the 9th (Friday) and 16th (Friday). New School Leaders made their first appearance at the festival in 2024, and served as the main event on GOBI STAGE for two weeks. That performer..."
     }
   ]
 }

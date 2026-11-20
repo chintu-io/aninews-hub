@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T13:33:31.562Z",
+  "generatedAt": "2026-11-20T14:02:07.051Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 93,
+      "count": 91,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 268,
+      "count": 271,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -152,9 +152,9 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "direct",
-      "feedUrl": "https://news.sankakucomplex.com/feed/",
-      "count": 76,
+      "mode": "jina-reader",
+      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "count": 75,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,67 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 620,
+    "translatedJapaneseArticles": 623,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "89d83fdd6ab78e8d",
+      "title": "ROIROMの特別な関係性を描く、CA4LAのクリスマスキャンペーン",
+      "link": "https://www.billboard-japan.com/d_news/detail/167638",
+      "publishedAt": "2026-11-20T13:45:00.000Z",
+      "excerpt": "ROIROMが、CA4LAの2026年クリスマスキャンペーンに登場する。 今回のコラボレーショ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167638/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "CA4LA's Christmas campaign depicting the special relationship between ROIROM",
+      "translatedExcerpt": "ROIROM will appear in CA4LA's 2026 Christmas campaign. This collaboration"
+    },
+    {
+      "id": "1692a2cfa8057648",
+      "title": "RADWIMPS、FCツアー追加公演より「夕星-ゆうづつ-」ライブ初披露映像を公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167637",
+      "publishedAt": "2026-11-20T13:40:00.000Z",
+      "excerpt": "RADWIMPSが、楽曲「夕星-ゆうづつ-」のライブ映像を公開した。 2026年10月2日に配",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167637/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "RADWIMPS releases the first live performance video of \"Yuusei -Yuzutsu-\" from the additional performance of FC tour",
+      "translatedExcerpt": "RADWIMPS has released a live video of their song \"Yusei -Yuzutsu-\". Delivered on October 2, 2026"
+    },
+    {
+      "id": "cbb2feed8ddefad8",
+      "title": "ハンブレッダーズ、『今日好き』多田梨音が出演する「フォーエバーソング」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167636",
+      "publishedAt": "2026-11-20T13:35:00.000Z",
+      "excerpt": "ハンブレッダーズが、新曲「フォーエバーソング」のミュージックビデオを公開した。 2026年10",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167636/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Humblebreders releases MV for “Forever Song” starring Rion Tada from “Kyou Suki”",
+      "translatedExcerpt": "The Humblebreders have released the music video for their new song \"Forever Song.\" 2026 10"
+    },
     {
       "id": "697de0e84fb51115",
       "title": "Mitei Hattori's Smile! Manga Gets Epilogue Chapter",
@@ -18353,57 +18410,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "68cc2ac09d3857c8",
-      "title": "Crunchyroll Heads to Anime Frontier 2026 with New Anime Premiere Screenings",
-      "link": "https://crunchyroll.com/news/announcements/2026/11/11/anime-frontier-2026-crunchyroll-programming-schedule",
-      "publishedAt": "2026-11-11T17:00:00.000Z",
-      "excerpt": "Anime Frontier runs from December 4-6 in Fort Worth, Texas",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/dc8d9f1b97/anime-frontier-2026.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e53e4271ed0fb064",
-      "title": "Crunchyroll to Stream Medaka Kuroiwa is Impervious to My Charms Season 2",
-      "link": "https://crunchyroll.com/news/announcements/2026/11/11/medaka-kuroiwa-is-impervious-to-my-charms-season-2-anime-stream-crunchyroll",
-      "publishedAt": "2026-11-11T17:00:00.000Z",
-      "excerpt": "The new season premieres in January 2027",
-      "image": "https://a.storyblok.com/f/178900/2048x1152/5ab9879bf6/medaka-kuroiwa-season-2.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "3cf3a62ce5eca306",
-      "title": "Tokyo’s Akihabara Installs 22 Smart Trash Cans to Combat Tourist Litter",
-      "link": "https://news.sankakucomplex.com/n/cDPFJS4XcyIPSHCFaObWeQ",
-      "publishedAt": "2026-11-11T16:00:51.000Z",
-      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

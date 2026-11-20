@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T05:02:44.546Z",
+  "generatedAt": "2026-11-20T05:32:23.478Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 45,
+      "count": 46,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 263,
+      "count": 262,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 605,
+    "translatedJapaneseArticles": 604,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "cc8160ba25ced05f",
+      "title": "Umamusume is officially collaborating with the Denver Broncos football team [Video]",
+      "link": "https://soranews24.com/2026/11/20/umamusume-is-officially-collaborating-with-the-denver-broncos-football-team-video/",
+      "publishedAt": "2026-11-20T05:00:41.000Z",
+      "excerpt": "Are you ready for some horse girl football? Just as horse racing can be an emotional roller coaster of a sport, last month fans of Umamusume had their hopes dashed when the anime/video game franchise’s first-ever concert in the U.S. was cancelled at the last minute due to visa issues. Like all sports anime, though, […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/0_c1e2c0.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "10a29cf4e35b37c4",
       "title": "現役大学生シンガーソングライターao、TVアニメ『転生エルフ』OPテーマ「ブレス」書き下ろし",
@@ -246,7 +263,7 @@
       "title": "Grand Theft Auto VI Developers Fear Losing Their Jobs After Record-Breaking Launch",
       "link": "https://news.sankakucomplex.com/n/-Xwn_SxjtboSVLAQdmQUSQ",
       "publishedAt": "2026-11-20T04:00:58.000Z",
-      "excerpt": "Despite the monetary success of Grand Theft Auto VI, some Rockstar Games developers are worried about potential layoffs. Rockstar Games animation programmer Nestor Uriarte, who works at the company’s Edinburgh studio, expressed concerns about potential layoffs in an opinion piece published by The…",
+      "excerpt": "Despite the monetary success of Grand Theft Auto VI, some Rockstar Games developers are worried about potential layoffs.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18357,25 +18374,6 @@
       },
       "translatedTitle": "[Billboard] Vaundy's \"Shiwaawase\" wins 3rd consecutive streaming song victory, ILLIT's \"You're Under Arrest\" enters the top 10 & Kvi Baba suddenly emerges",
       "translatedExcerpt": "Billboard JA released on November 11, 2026 (collection period: November 2, 2026 - November 8, 2026)"
-    },
-    {
-      "id": "d0c95a00af8313d4",
-      "title": "＜ライブレポート＞MINMI「“まだ遅くなんかない”と、伝えにきたよ」音楽仲間とファンが大集結！ 一度は断念した日本武道館で大満開の花火を打ち上げる",
-      "link": "https://www.billboard-japan.com/d_news/detail/167362",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "excerpt": "レゲエやソカを日本の音楽シーンに根付かせた立役者のひとりであり、老若男女に愛される楽曲をこれまでい",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167362/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<Live Report> MINMI “I came to tell you that it’s not too late” Music friends and fans gathered together! We once gave up on setting off fireworks in full bloom at Nippon Budokan.",
-      "translatedExcerpt": "He is one of the driving forces behind reggae and soca taking root in the Japanese music scene, and has created songs that are loved by men and women of all ages."
     }
   ]
 }

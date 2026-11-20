@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T22:31:39.472Z",
+  "generatedAt": "2026-11-20T23:01:49.865Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 139,
+      "count": 140,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 270,
+      "count": 269,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 619,
+    "translatedJapaneseArticles": 618,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "ea36fac5caec68ea",
+      "title": "North American Anime, Manga Releases, November 15-21",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-20/north-american-anime-manga-releases-november-15-21/.243879",
+      "publishedAt": "2026-11-20T22:00:00.000Z",
+      "excerpt": "Jujutsu Kaisen: Hidden Inventory / Premature Death – The Movie anime; BECK, Heroes, Love is Money manga ship",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gL7/herald/203233/jjk-bd.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "2739d3b47045a1c0",
       "title": "GTA 6 Removes Prostitution & Hookups to “Focus on Romance”",
@@ -18385,25 +18402,6 @@
       },
       "translatedTitle": "Suchmos' new song \"hi-liter\" has been selected as the opening song for the Japan national soccer team documentary film",
       "translatedExcerpt": "Suchmos has announced that their new song ``hi-liter'' will be used as the opening song for the movie ``Japanese Soccer Team Movie ``Challenge to the Best Scenery'', which will be released on November 20, 2026. This film is a documentary piece that includes interview footage of members of the Japanese national soccer team who competed in the World Cup, including Keito Nakamura, Kiyo Ueda, Daichi Kamata, Junya Ito, and Yuto Nagatomo. Four years have passed since the <FIFA World Cup Qatar 2022>, and “SAMURAI BLUE” has continued to evolve significantly toward the goal of “winning the World Cup.” The FIFA World Cup 2026 was held with the completion of a team that has been hailed as the strongest in history, and the momentum toward achieving their long-cherished desire continues to grow.With the confidence they have built up over the years, they competed against powerful countries on equal terms and definitely showed their solid growth..."
-    },
-    {
-      "id": "58c31726fad8f253",
-      "title": "XinU、Anthony Lazaro「Love Letter」新バージョン参加 11/12配信リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/167382",
-      "publishedAt": "2026-11-12T03:00:00.000Z",
-      "excerpt": "XinUが、Anthony Lazaroの「Love Letter」新バージョン「Love Let",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167382/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "XinU participates in new version of Anthony Lazaro's \"Love Letter\" released on 11/12",
-      "translatedExcerpt": "XinU releases new version of Anthony Lazaro's \"Love Letter\" \"Love Let\""
     }
   ]
 }

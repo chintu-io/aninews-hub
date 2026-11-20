@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T15:31:51.560Z",
+  "generatedAt": "2026-11-20T16:01:48.337Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 92,
+      "count": 94,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 152,
+      "count": 151,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 74,
+      "count": 73,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 626,
+    "translatedJapaneseArticles": 625,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "a6bd7817876eb0b7",
+      "title": "Cozy Anime Corner: Find Your People in Uncle's Obsession with Cute Things",
+      "link": "https://crunchyroll.com/news/features/2026/11/20/cozy-anime-corner-uncles-obsession-with-cute-things",
+      "publishedAt": "2026-11-20T16:00:00.000Z",
+      "excerpt": "Have you ever heard a grown man squee? You should!",
+      "image": "https://a.storyblok.com/f/178900/960x540/394c07bcd4/uncles-obsession-with-cute-things.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "26877218ad100cff",
+      "title": "Armored Trooper VOTOMS: Die Graue Hexe Second Anime Film Confirms 2027 Premiere in New Visual",
+      "link": "https://crunchyroll.com/news/latest/2026/11/20/armored-trooper-votoms-die-graue-hexe-second-film-2027-premiere-visual",
+      "publishedAt": "2026-11-20T15:32:00.000Z",
+      "excerpt": "The first film premieres today in Japan",
+      "image": "https://a.storyblok.com/f/178900/960x540/1e63a8db48/votoms-2kvs.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "853f4f7bff52021d",
       "title": "Is Starbucks Japan’s new Matcha Tiramisu Frappuccino really like a Christmas tree?",
@@ -994,7 +1028,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Live Report] MyGO!!!!!, a new scenery drawn in Kobe. Beyond the “now” where five people are connected ─ 9th LIVE “Beyond the joint” - Kobe re-view edition -",
-      "translatedExcerpt": "On November 15, 2026 (Sunday), MyGO!!!!! held DAY 2 of their solo live \"MyGO!!!!! 9th LIVE \"Beyond the Tsunajime\" - Kobe Re-Kei Edition - at the Hyogo World Memorial Hall (Kobe Port Island Hall). This live performance was held as a follow-up to the 9th LIVE held at Pia Arena MM in July of this year. MyGO!!!!!'s first solo performance in Kobe. Inheriting the words \"beyond the seams\" in the show's title, we will revisit the scenery depicted in the July performance in a new location, Kobe. For ``Kobe Re-Keihen,'' the five members layered their sounds while giving new expressions to the songs they had accumulated so far. “Maze Hibi” marked the beginning of DAY2. This song has a title that symbolizes the history of MyGO!!!!!"
+      "translatedExcerpt": "On November 15, 2026 (Sunday), MyGO!!!!! held DAY 2 of their solo live \"MyGO!!!!! 9th LIVE \"Beyond the Tsunajime\" - Kobe Re-Kei Edition - at the Hyogo World Memorial Hall (Kobe Port Island Hall). This live performance was held as a follow-up to the 9th LIVE held at Pia Arena MM in July of this year. MyGO!!!!!'s first solo performance in Kobe. Continuing with the words \"Beyond the Seat\" in the title of the performance, we will revisit the scenery depicted in the July performance in a new location, Kobe. For ``Kobe Re-Keihen,'' the five members layered their sounds while giving new expressions to the songs they had accumulated so far. “Maze Hibi” marked the beginning of DAY2. This song has a title that symbolizes the history of MyGO!!!!!"
     },
     {
       "id": "d190f64132322dcc",
@@ -18382,42 +18416,6 @@
         "accent": "#a78bfa",
         "language": "en"
       }
-    },
-    {
-      "id": "db81c77c0149d52a",
-      "title": "Japanese Shop Creates Life-Size Anime Stands That Ride in Your Car",
-      "link": "https://news.sankakucomplex.com/n/R-PqWiZpkJImd5R2rrL77Q",
-      "publishedAt": "2026-11-12T00:00:30.000Z",
-      "excerpt": "A Japanese automotive customization shop has unveiled an unusual product allowing anime fans to take their favorite fictional characters on car rides, creating life-size acrylic figures that can be strapped into passenger seats with ordinary seat belts.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6d708ff8987a3646",
-      "title": "あいみょん、シュールでキュートな「さながらロンリー」MV公開",
-      "link": "https://ototoy.jp/news/132756",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "excerpt": "あいみょんが新曲「さながらロンリー」のミュージックビデオを公開した。 本楽曲は現在放送中のドラマ〈もうパパ！〉の主題歌。 MV公開前にはSNSにて撮影のオフショットが公開されており、 とんだ林蘭が監督を務めたMVは、約横230cm×縦126cmの巨大な履歴書の上に寝転がるカットや、約横138cm×縦85cmのバッグにすっぽりと入り込んだ姿など、シュールで毒のあるポップな世界観が表現されている。 コメント 【とんだ林蘭コメント】 リリース情報 https://ototoy.jp/_/default/p/4316919 アーティスト情報 http://www.aimyong.net/ https://x.com/aimyonGtter https://www.instagram.com/aimyon36",
-      "image": "https://imgs.ototoy.jp/news/image.php/132756/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Aimyon releases the surreal and cute “Sanagara Lonely” MV",
-      "translatedExcerpt": "Aimyon has released the music video for her new song \"Sanagara Lonely\". This song is a song from the currently airing drama “Mo Papa!” 〉 theme song. Before the MV was released, off-shots from the filming were released on SNS, and the MV, which was directed by Ran Tondabayashi, expresses a surreal and poisonous pop worldview, with shots of the singer lying down on top of a huge resume measuring approximately 230cm wide x 126cm high, and a figure of her completely tucked into a bag measuring approximately 138cm wide x 85cm tall. Comment [Ran Tondabayashi comment] Release information https://ototoy.jp/_/default/p/4316919 Artist information http://www.aimyong.net/ https://x.com/aimyonGtter https://www.instagram.com/aimyon36"
     }
   ]
 }

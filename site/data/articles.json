@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T06:02:45.831Z",
+  "generatedAt": "2026-11-20T06:32:19.415Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 101,
+      "count": 100,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 261,
+      "count": 260,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 191,
+      "count": 192,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 152,
+      "count": 153,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,67 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 604,
+    "translatedJapaneseArticles": 605,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "5b341f35ccaf1f1e",
+      "title": "MADKID、全国8都市巡るツアー【MADKID LIVE TOUR 2027 -Hello, Again-】開催決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167622",
+      "publishedAt": "2026-11-20T06:15:00.000Z",
+      "excerpt": "MADKIDが、2027年3月から全国8都市を巡るツアー【MADKID LIVE TOUR 202",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167622/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "MADKID to hold 8-city tour nationwide [MADKID LIVE TOUR 2027 -Hello, Again-]",
+      "translatedExcerpt": "MADKID will tour 8 cities nationwide from March 2027 [MADKID LIVE TOUR 202]"
+    },
+    {
+      "id": "fa5b790280adc20d",
+      "title": "Suchmos、EP『Autobahn』を2027年2月発売＋サッカー日本代表映画オープニング曲を先行配信",
+      "link": "https://barks.jp/news/1105730",
+      "publishedAt": "2026-11-20T06:15:00.000Z",
+      "excerpt": "Suchmosが2027年2月3日、前EP『Sunburst』以来約1年8ヶ月ぶりとなるEP『Autobahn』をリリースすることが発表となった。 EP『Autobahn』には先行配信曲「hi-liter」「Smile」をはじめとする全5曲を収録。この発表に合わせてEPのアートワークが公開となったほか、本日11月20日より全国CDショップおよびECサイトにて順次予約受付がスタートした。また、EPリリースに先駆けて、本日より全国公開となった映画『サッカー日本代表映画「最高の景色」への挑戦』のオープニング曲にして新曲「hi-liter」が先行配信スタートしている。 Suchmosは2027年3月から全国4都市8公演を巡るアリーナツアー＜Suchmos BAY SIDE TOUR 2027＞を開催する。8年ぶり…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/20151204/01_Suchmos-%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F-1024x731.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Suchmos will release EP “Autobahn” in February 2027 + advance distribution of Japan national soccer team movie opening song",
+      "translatedExcerpt": "It has been announced that Suchmos will release their EP ``Autobahn'' on February 3, 2027, their first EP in approximately 1 year and 8 months since their previous EP ``Sunburst.'' The EP ``Autobahn'' includes a total of 5 songs, including the pre-release songs ``hi-liter'' and ``Smile.'' In conjunction with this announcement, the artwork for the EP was released, and pre-orders began today, November 20th, at CD shops and EC sites nationwide. In addition, ahead of the release of the EP, the new song ``hi-liter'' has been released in advance as the opening song for the movie ``Japanese Soccer Team Movie ``Challenge to the Best Scenery'', which will be released nationwide from today. Suchmos will hold an arena tour <Suchmos BAY SIDE TOUR 2027> starting March 2027 with 8 performances in 4 cities across the country. It’s been 8 years..."
+    },
+    {
+      "id": "a3ecd07692356c83",
+      "title": "Suchmos、新作EP『Autobahn』発売決定 サッカー日本代表映画OP曲「hi-liter」など全5曲入り",
+      "link": "https://www.billboard-japan.com/d_news/detail/167621",
+      "publishedAt": "2026-11-20T06:10:00.000Z",
+      "excerpt": "Suchmosが、前作『Sunburst』以来約1年8か月ぶりとなる新作EP『Autobahn』を",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167621/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Suchmos will release new EP “Autobahn” Contains 5 songs including opening song “hi-liter” for Japan national soccer team movie",
+      "translatedExcerpt": "Suchmos releases new EP “Autobahn”, his first in about 1 year and 8 months since his previous album “Sunburst”."
+    },
     {
       "id": "653943d300e5a2d0",
       "title": "RADWIMPS 山口智史、GLAY TAKUROとともに音楽と科学をテーマにした公演をビルボードライブ横浜で開催",
@@ -185,6 +242,25 @@
       },
       "translatedTitle": "RADWIMPS Satoshi Yamaguchi and GLAY TAKURO will hold a music and science themed performance at Billboard Live Yokohama",
       "translatedExcerpt": "GLAY guitarist TAKURO, who has a close relationship with Yamaguchi, supports the project and collaborates with various musicians."
+    },
+    {
+      "id": "1ff885c551af883a",
+      "title": "スカパラ、〈MARO17〉新CMテーマ曲書き下ろし",
+      "link": "https://ototoy.jp/news/132894",
+      "publishedAt": "2026-11-20T06:00:00.000Z",
+      "excerpt": "東京スカパラダイスオーケストラが新曲「Nadia」を配信リリースした。 「Nadia」はCM〈MARO17〉の新CMテーマ曲に起用。スカパラが同ブランドのCMテーマ曲を担当するのは前作に続き4回目となる。 CMのために書き下ろされた本楽曲は、加藤隆志（Guitar）が作曲を手がけた。高揚感を誘うアンサンブルと洗練されたグルーヴの中に漂う心地よい浮遊感が印象的なインストゥルメンタルナンバーで、色彩豊かで躍動感に満ちた1曲に仕上がっている。 コメント 谷中 敦 コメント リリース情報 https://ototoy.jp/_/default/p/4459236 CM情報 MARO17「一途に磨け ココロもカラダも」篇 https://www.youtube.com/watch?v=oLpwBO2ne6I htt…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132894/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Skapara, <MARO17> New CM theme song written",
+      "translatedExcerpt": "Tokyo Ska Paradise Orchestra has released a new song \"Nadia\". \"Nadia\" will be used as the theme song for the new CM <MARO17>. This is the fourth time Skapara has been in charge of the brand's commercial theme song, following the previous work. This song, written specifically for the commercial, was composed by Takashi Kato (guitar). It is an impressive instrumental number with an uplifting ensemble and a comfortable floating feeling within a sophisticated groove, making it a colorful and vibrant song. Comment Atsushi Yanaka Comment Release information https://ototoy.jp/_/default/p/4459236 CM information MARO17 “Harvest your mind and body” edition https://www.youtube.com/watch?v=oLpwBO2ne6I httt…"
     },
     {
       "id": "cc8160ba25ced05f",
@@ -942,8 +1018,8 @@
       "title": "ドージャ・キャット、『GTA 6』に自身の楽曲が起用されなかったことでロックスター・ゲームスに怒り「マジでクソ悔しい」",
       "link": "https://www.billboard-japan.com/d_news/detail/167605",
       "publishedAt": "2026-11-19T21:55:00.000Z",
-      "excerpt": "ドージャ・キャットはロックスター・ゲームスからのオファーを待っていたが、声はかからなかった。【グラ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167605/800x_image.jpg",
+      "excerpt": "### ドージャ・キャット、『GTA 6』に自身の楽曲が起用されなかったことでロックスター・ゲームスに怒り「マジでクソ悔しい」",
+      "image": "https://www.billboard-japan.com/common/img/img_header_sitelogo.png",
       "source": {
         "id": "billboardjapan",
         "name": "Billboard JAPAN",
@@ -954,7 +1030,7 @@
         "language": "ja"
       },
       "translatedTitle": "Doja Cat angry at Rockstar Games for not featuring her music in GTA 6: ``I'm so fucking frustrated''",
-      "translatedExcerpt": "Doja Cat was waiting for an offer from Rockstar Games, but never received one. [Gra"
+      "translatedExcerpt": "### Doja Cat angry at Rockstar Games for not featuring her music in GTA 6: ``I'm so fucking frustrated''"
     },
     {
       "id": "fd020abc136267bd",
@@ -18300,80 +18376,6 @@
       },
       "translatedTitle": "SEAMO releases new song “Dera Matsuri” performed at the closing ceremony of the Asian Games",
       "translatedExcerpt": "SEAMO has released a new song “Dera Matsuri”. “Dera Festival” is “Hyper Bon Odori”"
-    },
-    {
-      "id": "83e6ec3bd53e68c1",
-      "title": "Berserk of Gluttony Season 2 Anime Confirms April 2027 Premiere",
-      "link": "https://crunchyroll.com/news/latest/2026/11/11/berserk-of-gluttony-season-2-anime-april-2027-premiere",
-      "publishedAt": "2026-11-11T09:02:00.000Z",
-      "excerpt": "A new teaser visual was also released",
-      "image": "https://a.storyblok.com/f/178900/960x539/a16738fe14/berserk-of-gluttony-s2-april-2027.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "80e7d608586ad717",
-      "title": "【Hot Shot Songs】BE:FIRST「NOW U KNOW」首位、M!LKのマッシュアップ曲「爆裂愛しすぎて滅!(Crazy Mashup by TeddyLoid)」が2位に",
-      "link": "https://www.billboard-japan.com/d_news/detail/167353",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "excerpt": "2026年11月11日公開（集計期間：2026年11月2日～11月8日）の急上昇ソング・チャート&",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167353/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Hot Shot Songs] BE:FIRST's \"NOW U KNOW\" ranks first, M!LK's mashup song \"Crazy Mashup by TeddyLoid\" ranks second",
-      "translatedExcerpt": "Rapidly rising song chart released on November 11, 2026 (collection period: November 2, 2026 - November 8, 2026)"
-    },
-    {
-      "id": "e9c9f0ecb5804df2",
-      "title": "【ビルボード】Aぇ! group「Emotion」が総合首位、back number「クリスマスソング」が浮上",
-      "link": "https://www.billboard-japan.com/d_news/detail/167358",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "excerpt": "2026年11月11日公開（集計期間：11月2日～11月8日）のBillboard JAPAN 総",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167358/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Ae! group “Emotion” takes first place overall, back number “Christmas song” emerges",
-      "translatedExcerpt": "Billboard JAPAN total released on November 11, 2026 (collection period: November 2nd to November 8th)"
-    },
-    {
-      "id": "bb3cde39826efec8",
-      "title": "【ビルボード】BE:FIRST「NOW U KNOW」1.3万DL超でDLソング首位獲得 Aぇ! groupが2位に続く",
-      "link": "https://www.billboard-japan.com/d_news/detail/167359",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "excerpt": "2026年11月11日公開（集計期間：2026年11月2日～2026年11月8日）のBillboa",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167359/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] BE:FIRST “NOW U KNOW” becomes the top DL song with over 13,000 DLs Ae! group follows in second place",
-      "translatedExcerpt": "Billboa released on November 11, 2026 (collection period: November 2, 2026 to November 8, 2026)"
     }
   ]
 }

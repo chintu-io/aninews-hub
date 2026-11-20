@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T16:01:48.337Z",
+  "generatedAt": "2026-11-20T16:31:55.178Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 45,
+      "count": 44,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 135,
+      "count": 136,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 94,
+      "count": 95,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 28,
+      "count": 29,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 275,
+      "count": 274,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 73,
+      "count": 72,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 625,
+    "translatedJapaneseArticles": 624,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "fee01356aa60b6f8",
+      "title": "Though I Am an Inept Villainess Shares New Collab Art Celebrating Mothra Year",
+      "link": "https://crunchyroll.com/news/latest/2026/11/20/though-i-am-an-inept-villainess-mothra-year-collab-visual",
+      "publishedAt": "2026-11-20T16:18:00.000Z",
+      "excerpt": "The second cour of Though I Am an Inept Villainess premieres in January 2027",
+      "image": "https://a.storyblok.com/f/178900/1920x1350/d1178f204c/though-i-am-an-inept-villainess-mothra.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "a6bd7817876eb0b7",
       "title": "Cozy Anime Corner: Find Your People in Uncle's Obsession with Cute Things",
@@ -181,6 +198,40 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "a801640d4c37bedf",
+      "title": "BanG Dream! Yume∞Mita Series Confirms New Anime in Production",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-20/bang-dream-yume-mita-series-confirms-new-anime-in-production/.244026",
+      "publishedAt": "2026-11-20T15:59:17.000Z",
+      "excerpt": "TV anime based on BanG Dream! project's Mugendai Mewtype band premiered on July 2",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHF/cms/news.9/232975/yume.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d849df32713b54b1",
+      "title": "Supporting Cast for 'Kaketa Tsuki no Mercedes' Announced",
+      "link": "https://myanimelist.net/news/74961677?_location=rss",
+      "publishedAt": "2026-11-20T15:58:05.000Z",
+      "excerpt": "The official website for the television anime adaptation of Firehead's Kaketa Tsuki no Mercedes: Kyuuketsuki no Kizoku ni Tensei shita kedo Suteraresou nanode Dungeon wo Seiha suru (Mercedes and the Waning Moon: The Dungeoneering Feats of a Discarded Vampire Aristocrat) light novel revealed supporting cast and second visual (pictured). The anime will prem…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1795190225-66dfcaa127139fe1d225305472407afd.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
         "language": "en"
       }
     },
@@ -524,7 +575,7 @@
         "accent": "#7dd7ff",
         "language": "ja"
       },
-      "translatedTitle": "Ryugujo performs the ending theme song for the drama “Hanazakari no Kimitachi e” starring KEIGO & Yuki Tomita",
+      "translatedTitle": "Ryugujo performs the ending theme song for the drama “Hanazakari no Kimitachi e” starring KEIGO and Yuki Tomita",
       "translatedExcerpt": "Ryugujo will be appearing in the Japanese TV drama “Hanazakari no Kimitachi e” starring members KEIGO (Keigo Ito) and Yuki Tomita."
     },
     {
@@ -823,7 +874,7 @@
         "language": "ja"
       },
       "translatedTitle": "AI releases “Behind The Scenes” that captures the behind the scenes of the new song “It’s AI” MV",
-      "translatedExcerpt": "AI has released the MV Behind The Scenes for their new song “It’s AI”. The main music video features the AI ​​itself and a humanoid AI that admires AI, and while expressing the groove of the original song, it is a work that expresses a message for modern society where AI (artificial intelligence) is expanding its presence day by day. Behind The Scenes released this time includes scenes in which the AI ​​itself repeatedly checks facial expressions and movements with the staff, dance practice scenes held in a cheerful atmosphere with the cast, and interview footage. It is said that the filming proceeded in a peaceful atmosphere from beginning to end, but the seriousness of AI's attention to detail and the way he exchanged opinions with the staff should convey his strong feelings towards the work. “It’s AI” is a new AI that has celebrated its 25th anniversary..."
+      "translatedExcerpt": "AI has released the MV Behind The Scenes for their new song “It’s AI.” The main music video features the AI ​​itself and a humanoid AI that admires AI, and while expressing the groove of the original song, it is a work that expresses a message for modern society where AI (artificial intelligence) is expanding its presence day by day. Behind The Scenes released this time includes scenes in which the AI ​​itself repeatedly checks facial expressions and movements with the staff, dance practice scenes held in a cheerful atmosphere with the cast, and interview footage. It is said that the filming proceeded in a peaceful atmosphere from beginning to end, but the seriousness of AI's attention to detail and the way he exchanged opinions with the staff should convey his strong feelings towards the work. “It’s AI” is a new AI that has celebrated its 25th anniversary..."
     },
     {
       "id": "6161d355a910f24c",
@@ -2123,7 +2174,7 @@
         "language": "ja"
       },
       "translatedTitle": "Aimyon releases new AL “Smile Week” in January",
-      "translatedExcerpt": "It has been decided that Aimyon will release her first full-length album in 2 years and 4 months, ``Smile Week'', on January 27th (Wednesday). This work includes the currently airing drama “Mo Daddy! Contains a total of 13 songs, including the theme song ``Sanagara Lonely'', the new CM song ``Orange Juice'' for the Suzuki light EV ``New e SKY'', ``Koi hamaboroshi'', the CM song for Tokyo Metro ``Find my Tokyo.'', ``Ichitsuni'', the theme song for TBS's Sunday Theater ``19th Karte'', and the 18th single ``Venus Belt''. The first limited edition includes the long-awaited singing CD ``Kaze to Ribbon 2 - Taro Okamoto Memorial Museum, October, 2026 -'', which has been a long-awaited song for fans since their 3rd album ``Heard There's Delicious Pasta''. For this work, recording was carried out at the \"Taro Okamoto Memorial Hall\". All songs including \"Kaze to Ribbon\", which will be made into a sound source for the first time..."
+      "translatedExcerpt": "It has been decided that Aimyon will release her first full-length album in 2 years and 4 months, ``Smile Week'', on January 27th (Wednesday). This work includes the drama “Mo Daddy!” currently being aired. Contains a total of 13 songs, including the theme song ``Sanagara Lonely'', the new CM song ``Orange Juice'' for the Suzuki light EV ``New e SKY'', ``Koi hamaboroshi'', the CM song for Tokyo Metro ``Find my Tokyo.'', ``Ichitsuni'', the theme song for TBS's Sunday Theater ``19th Karte'', and the 18th single ``Venus Belt''. The first limited edition includes the long-awaited singing CD ``Kaze to Ribbon 2 - Taro Okamoto Memorial Museum, October, 2026 -'', which has been a long-awaited song for fans since their 3rd album ``Heard There's Delicious Pasta''. For this work, recording was carried out at the \"Taro Okamoto Memorial Hall\". All songs including \"Kaze to Ribbon\", which will be made into a sound source for the first time..."
     },
     {
       "id": "123e9f5423e3653f",
@@ -3309,7 +3360,7 @@
         "language": "ja"
       },
       "translatedTitle": "Yuka Nagase releases advance SG “Next wa Weather Forecast” from new AL",
-      "translatedExcerpt": "It has been decided that Yuka Nagase will release her new single ``Oji wa Weather Forecast'' on Friday, November 20, 2026. This song is the lead single from her first full-length album “Hobutsu Inori” in about a year and a half. The album is a collection of works that explore the new environment and changes in psychology that Yuka Nagase herself feels, and the theme is \"prayer\" for oneself and others. This work was recorded at home, with Yuka Nagase writing all the lyrics and songs for the full album, in a style that is closer to being independent. It is a work that reinterprets the new wave indie pop of the 1980s. In addition, the visualizer music video for the lead single \"Otsugi wa Weather Forecast\" has been released. Furthermore, the artist visual has been completely redesigned. The website and EC site have also been renewed. With the renewal of the EC site, new..."
+      "translatedExcerpt": "It has been decided that Yuka Nagase will release her new single ``Oji wa Weather Forecast'' on Friday, November 20, 2026. This song is the lead single from her first full-length album in about a year and a half, “Hobutsu Inori.” The album is a collection of works that explore the new environment and changes in psychology that Yuka Nagase herself feels, and the theme is \"prayer\" for oneself and others. This work was recorded at home, with Yuka Nagase writing all the lyrics and songs for the full album, in a style that is closer to being independent. It is a work that reinterprets the new wave indie pop of the 1980s. In addition, the visualizer music video for the lead single \"Otsugi wa Weather Forecast\" has been released. Furthermore, the artist visual has been completely redesigned. The website and EC site have also been renewed. With the renewal of the EC site, new..."
     },
     {
       "id": "3c79480cc01bc774",
@@ -5554,7 +5605,7 @@
         "language": "ja"
       },
       "translatedTitle": "HUGEN releases MV for “Natto, Mizu, Egg” with a surreal finish set in Numata City, Gunma Prefecture",
-      "translatedExcerpt": "HUGEN creates alternative songs that incorporate elements of ethnic music and folk songs, with a focus on electronic music. The music video for \"Natto, Mizu, Egg\" from their latest album, \"Fujin Dori\" has been released. The video director is Taku Utsumi, a video artist who gained attention for his work on the music video for Massage Attack's ``Fuyu no Sakamichi''. This video work, set in Numata City, Gunma Prefecture, uses familiar motifs such as natto, water, and eggs to depict an extremely surreal world where the everyday and the extraordinary intermingle. Mysterious scenes unfolding in a real-life landscape create a unique sense of discomfort and humor. INFORMATION https://www.tpsound.jp/hugen-hp https://x.com/tpsound3213 https://www.instagra…"
+      "translatedExcerpt": "HUGEN creates alternative songs that incorporate elements of ethnic music and folk songs, with a focus on electronic music. The music video for \"Natto, Mizu, Tamago\" from their latest album, \"Fujin Dori\" has been released. The video director is Taku Utsumi, a video artist who gained attention for his work on the music video for Massage Attack's ``Fuyu no Sakamichi''. This video work, set in Numata City, Gunma Prefecture, uses familiar motifs such as natto, water, and eggs to depict an extremely surreal world where the everyday and the extraordinary intermingle. Mysterious scenes unfolding in a real-life landscape create a unique sense of discomfort and humor. INFORMATION https://www.tpsound.jp/hugen-hp https://x.com/tpsound3213 https://www.instagra…"
     },
     {
       "id": "e2e7054014b537a3",
@@ -18361,59 +18412,6 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "8a07e594475bdff6",
-      "title": "Is hamburger patty ramen a case of too many good things in one bowl? Let’s find out! [Taste test]",
-      "link": "https://soranews24.com/2026/11/12/is-hamburger-patty-ramen-a-case-of-too-many-good-things-in-one-bowl-lets-find-out-taste-test/",
-      "publishedAt": "2026-11-12T01:00:19.000Z",
-      "excerpt": "Far away from Japan’s most touristy neighborhoods is a daring fusion dish from a very old-school restaurant. Generally speaking, ramen and hamburger patties are pretty far apart from each other on the eastern-or-western culinary spectrum. Personally, we’re big fans of both here at SoraNews24, but it’s generally sort of an either/or question as to which […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/0_61f080.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "82ff8257de9b4945",
-      "title": "KATSEYE、MEGANが脳震盪のため座ったままパフォーマンスしファンから懸念の声",
-      "link": "https://www.billboard-japan.com/d_news/detail/167375",
-      "publishedAt": "2026-11-12T00:10:00.000Z",
-      "excerpt": "MANONとSOPHIAの活動休止によってすでにメンバーが2人欠けているKATSEYEが、先日米テ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167375/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "KATSEYE and MEGAN perform while seated due to concussion, raising concerns from fans",
-      "translatedExcerpt": "KATSEYE, who is already missing two members due to the hiatus of MANON and SOPHIA, recently appeared on TV in the US."
-    },
-    {
-      "id": "9f1752c3c7b46977",
-      "title": "Japanese Shop Creates Life-Size Anime Stands That Ride in Your Car",
-      "link": "https://news.sankakucomplex.com/n/vaZEqme2lXUYIvJDJLBtLA",
-      "publishedAt": "2026-11-12T00:00:30.000Z",
-      "excerpt": "A Japanese automotive customization shop has unveiled an unusual product allowing anime fans to take their favorite fictional characters on car rides, creating life-size acrylic figures that can be strapped into passenger seats with ordinary seat belts.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
         "language": "en"
       }
     }

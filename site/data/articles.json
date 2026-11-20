@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T13:04:15.531Z",
+  "generatedAt": "2026-11-20T13:33:31.562Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,10 +91,10 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 140,
+      "count": 139,
       "imageEnrichment": {
         "attempted": 40,
-        "resolved": 18
+        "resolved": 40
       },
       "fetchedCount": 40
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 267,
+      "count": 268,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 198,
+      "count": 199,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -152,9 +152,9 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "mode": "direct",
+      "feedUrl": "https://news.sankakucomplex.com/feed/",
+      "count": 76,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,82 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 618,
+    "translatedJapaneseArticles": 620,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "697de0e84fb51115",
+      "title": "Mitei Hattori's Smile! Manga Gets Epilogue Chapter",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-19/mitei-hattori-smile-manga-gets-epilogue-chapter/.244005",
+      "publishedAt": "2026-11-20T13:15:00.000Z",
+      "excerpt": "Epilogue chapter debuts on December 4",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gV5/cms/seasonal/233013/smile.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "20e78cdd3979d579",
+      "title": "THE ORAL CIGARETTES、初の韓国単独公演＜WHAT’S GOOD, ASIA? In Seoul＞開催決定",
+      "link": "https://barks.jp/news/1105723",
+      "publishedAt": "2026-11-20T13:15:00.000Z",
+      "excerpt": "THE ORAL CIGARETTESが、自身初となる韓国単独公演＜WHAT’S GOOD, ASIA? In Seoul＞を2027年4月3日に開催することを発表した。 彼らは本日、韓国で開催された＜WONDERLIVET 2026＞に出演。本イベントでも熱い盛り上がりを見せていたとのことで、どのような単独公演になるのか注目が集まる。韓国公演のチケットは、2026年12月11日からYES24 TICKETにて販売がスタートする。 なおTHE ORAL CIGARETTESは、来春に日本国内での＜ALL-STANDING ARENA TOUR 2027『DOOP PURPLE HOLE』＞の開催も予定しており、ただ今オフィシャル2次先行を受け付けている。アリーナで初めてオールスタンディングで行われる本公演…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/20142711/TOC_ART_s-1-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "THE ORAL CIGARETTES will hold their first Korean solo performance <WHAT’S GOOD, ASIA? In Seoul>",
+      "translatedExcerpt": "THE ORAL CIGARETTES has announced that they will hold their first solo concert in Korea <WHAT’S GOOD, ASIA? In Seoul> on April 3, 2027. They performed at <WONDERLIVET 2026> held in South Korea today. It is said that this event was also a hot topic, and attention will be focused on what kind of solo performance it will be. Tickets for the Korean performance will go on sale at YES24 TICKET from December 11, 2026. In addition, THE ORAL CIGARETTES is also planning to hold ``ALL-STANDING ARENA TOUR 2027 ``DOOP PURPLE HOLE'''' in Japan next spring, and is currently accepting official second advance reservations. This is the first all-standing performance at the arena..."
+    },
+    {
+      "id": "57312c73428ed79b",
+      "title": "龍宮城、KEIGO＆冨田侑暉が出演するドラマ『花ざかりの君たちへ』ED主題歌を担当",
+      "link": "https://www.billboard-japan.com/d_news/detail/167634",
+      "publishedAt": "2026-11-20T13:05:00.000Z",
+      "excerpt": "龍宮城が、メンバーのKEIGO（伊藤圭吾）と冨田侑暉が出演する日本テレビドラマ『花ざかりの君たちへ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167634/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ryugujo performs the ending theme song for the drama “Hanazakari no Kimitachi e” starring KEIGO & Yuki Tomita",
+      "translatedExcerpt": "Ryugujo will be appearing in the Japanese TV drama “Hanazakari no Kimitachi e” starring members KEIGO (Keigo Ito) and Yuki Tomita."
+    },
+    {
+      "id": "8414b7a36c0e17fb",
+      "title": "Final Fantasy/Dragon Quest Christmas trees go up as Chocobo and Slime celebrate holidays in Japan",
+      "link": "https://soranews24.com/2026/11/20/final-fantasy-dragon-quest-christmas-trees-go-up-as-chocobo-and-slime-celebrate-holidays-in-japan/",
+      "publishedAt": "2026-11-20T13:00:35.000Z",
+      "excerpt": "Ho-ho-ho, Chocobo! It’s time for a merry Slime-mas in Yokohama. We’ve still got about a month left until Santa makes his delivery run, but some other beloved icons have already arrived and started spreading Christmas cheer in Japan. Chocobo and Slime, the mascots of Square Enix’s Final Fantasy and Dragon Quest video game franchises, are […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/0_92580c.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "6ad317669cbddf59",
       "title": "BossMan Dlow、スキルフルな新曲リリース",
@@ -265,7 +337,7 @@
     {
       "id": "8d92cd5355ae75d6",
       "title": "Life with an Ordinary Guy Who Reincarnated into a Total Fantasy Knockout Manga Ends With 20th Volume",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-19/life-with-an-ordinary-guy-who-reincarnated-into-a-total-fantasy-knockout-manga-ends-with-20th-volume/.244002",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-20/life-with-an-ordinary-guy-who-reincarnated-into-a-total-fantasy-knockout-manga-ends-with-20th-volume/.244002",
       "publishedAt": "2026-11-20T12:15:00.000Z",
       "excerpt": "Manga launched in November 2019, inspired 2022 TV anime",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gP3/cms/news.10/244002/junikuojisan.jpg",
@@ -418,7 +490,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-20/a-pen-handcuffs-and-a-common-law-marriage-tv-anime-reveals-theme-song-artists-more-cast-january-9-/.244022",
       "publishedAt": "2026-11-20T11:00:02.000Z",
       "excerpt": "Inori Minase performs opening theme song, saeco performs ending theme song",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gKE/youtube/pLuS4_5FziQ.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -733,7 +805,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-20/rock-paper-landmine-novel-gets-stage-play-in-january/.244017",
       "publishedAt": "2026-11-20T09:16:57.000Z",
       "excerpt": "Yugo Aosaki's novel has live-action series adaptation that debuted on Prime Video worldwide on November 13",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI2/cms/news.10/244017/landmine-stage-kv.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -805,7 +877,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-20/mercedes-and-the-waning-moon-tv-anime-reveals-more-cast-january-10-debut/.244014",
       "publishedAt": "2026-11-20T09:03:14.000Z",
       "excerpt": "Show Hayami, Miyu Tomita, more join cast; new visual also revealed",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gD3/cms/news.10/244014/mercedes-main-visual-2.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -1515,7 +1587,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/i-am-the-only-one-who-is-not-attacked-in-the-world-filled-with-zombies-anime-reveals-more-cast-/.244007",
       "publishedAt": "2026-11-20T03:58:04.000Z",
       "excerpt": "Mitsuki Kuribayashi, Risae Matsuda, Sarah Emi Bridcutt, Seigo Yokota, Shuhei Matsuda, 2 more join cast",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHH/cms/news.10/242682/zombie-kv.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2139,7 +2211,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/grotesqqque-anime-film-screens-in-los-angeles-on-december-3-for-1-week-only/.243997",
       "publishedAt": "2026-11-19T21:09:35.000Z",
       "excerpt": "Omnibus film with 3 stories screens at Alamo Drafthouse Cinema Downtown Los Angeles",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIE/youtube/7ZPr9rqaRM0.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2156,7 +2228,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/omoi-announces-digital-release-of-sho-asahina-tsuyo-girl-manga-in-january/.243981",
       "publishedAt": "2026-11-19T21:00:00.000Z",
       "excerpt": "Romantic comedy manga launched in 2021",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gE0/cms/news.10/243981/tsuyo.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2190,7 +2262,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/this-world-is-worth-fighting-for-manga-gets-live-action-series/.243996",
       "publishedAt": "2026-11-19T20:35:15.000Z",
       "excerpt": "Series based on Hatsumi Kodama's Kono Yo wa Tatakau Kachi ga Aru manga debuts in January 2027",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH3/cms/news.10/243996/this-world-is-worth-fighting-for.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2243,7 +2315,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/hololive-shop-reports-customer-information-leak/.243994",
       "publishedAt": "2026-11-19T19:00:00.000Z",
       "excerpt": "Unauthorized 3rd party gained access to outsourced product shipping company OPENLOGI Inc.",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI5/herald/203202/hololive-shop.png.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2260,7 +2332,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/getbackers-manga-gets-comic-anime-from-ai-platform-manganow-studio/.243992",
       "publishedAt": "2026-11-19T18:00:00.000Z",
       "excerpt": "Comic anime based on 1999 manga debuts on YouTube on December 1",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ4/youtube/fn25Ug7TzW0.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -2449,7 +2521,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/fatal-fury-city-of-the-wolves-game-new-animated-trailer-by-masami-obari-features-laocorn/.243989",
       "publishedAt": "2026-11-19T14:15:00.000Z",
       "excerpt": "Character from Fatal Fury: The Motion Picture joins game on Thursday",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ7/youtube/0sBPUoa16Ec.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -3124,7 +3196,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-19/the-reincarnated-elf-left-on-a-journey-to-master-his-magic-anime-new-video-reveals-more-cast-staff-/.243936",
       "publishedAt": "2026-11-19T09:00:00.000Z",
       "excerpt": "Artist ao performs opening, band moon drop perform ending song",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHI/youtube/zRvOQb5Vic8.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -3179,7 +3251,7 @@
       "link": "https://www.animenewsnetwork.com/daily-briefs/2026-11-19/monthly-corocoro-comic-magazine-to-release-digital-version-1-week-after-print-version/.243969",
       "publishedAt": "2026-11-19T08:55:48.000Z",
       "excerpt": "The official X/Twitter account for Shogakukan's Monthly CoroCoro Comic magazine announced on November 13 that the magazine's digital version will begin...",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gC2/cms/news.10/243969/corocorocomic.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -3697,7 +3769,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/seven-seas-licenses-i-am-blue-in-pain-and-fragile-predator-witches-audiobooks/.243959",
       "publishedAt": "2026-11-19T03:35:18.000Z",
       "excerpt": "Also in December: English audiobook of The Lucky Egg Game: Cai Dan You Xi danmei series",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gDI/cms/news.10/243959/predator-witches-ab-01-copy01-12-05-25.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4063,7 +4135,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/sesuji-about-a-pilgrimage-to-the-defiled-sacred-grounds-novel-gets-live-action-film-in-2027/.243940",
       "publishedAt": "2026-11-19T01:00:00.000Z",
       "excerpt": "Horror novel launched in 2024",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gRF/cms/news.10/243940/about.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4116,7 +4188,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/k-manga-adds-godmother-manga/.243918",
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "excerpt": "Series from Young Magazine US launches in Monthly Young Magazine on Wednesday",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gSC/cms/news.10/243918/hxuxze4aqaa3sfj.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4133,7 +4205,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/hiromasa-okujima-announces-1st-original-boys-love-manga/.243958",
       "publishedAt": "2026-11-18T23:00:00.000Z",
       "excerpt": "Bad boy romance title launches in 2027",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGG/cms/news.10/243958/hxzzsvyaqaabmmp.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4150,7 +4222,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/duel-masters-gt-manga-gets-4th-part/.243957",
       "publishedAt": "2026-11-18T22:00:00.000Z",
       "excerpt": "3rd part ended on Wednesday",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG8/cms/news.9/240533/duelmastersgt3.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4184,7 +4256,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/youre-so-sloppy-hotta-sensei-manga-ends-in-2-chapters/.243956",
       "publishedAt": "2026-11-18T21:00:00.000Z",
       "excerpt": "Series debuted in March 2022",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gK1/cms/news.6/204603/hotta.jpeg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4201,7 +4273,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/online-retailer-cdjapan-confirms-potential-customer-information-leaks-caused-by-unauthorized-access/.243951",
       "publishedAt": "2026-11-18T20:01:00.000Z",
       "excerpt": "Third-party exploited website vulnerability to access CDJapan, Neowing online stores on November 5",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFF/cms/news.10/243951/cdjapan.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4218,7 +4290,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/singer-songwriter-hiromi-ota-dies-at-71/.243950",
       "publishedAt": "2026-11-18T19:00:00.000Z",
       "excerpt": "Ōta died on November 12 following battle with breast cancer",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gC1/cms/news.10/243950/hiromi-ota.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -4235,7 +4307,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-18/sumikko-gurashi-franchise-new-switch-2-game-launches-on-november-19/.243949",
       "publishedAt": "2026-11-18T18:00:00.000Z",
       "excerpt": "Players run hot spring in Sumikkogurashi Welcome to Poka Poka Onsen game",
-      "image": "",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJK/cms/news.10/243949/sumikkogurashi-welcome-to-poka-poka-onsen.jpg",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -18332,74 +18404,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e1a3c938b3f1d821",
-      "title": "Tokyo’s Akihabara Installs 22 Smart Trash Cans to Combat Tourist Litter",
-      "link": "https://news.sankakucomplex.com/n/77DW-tWnwxc0DnCe7UI8_A",
-      "publishedAt": "2026-11-11T16:00:51.000Z",
-      "excerpt": "Tokyo’s famous Akihabara shopping district has installed 22 high-tech trash cans in an effort to combat increasing litter, particularly from tourists visiting the neighborhood’s numerous anime, manga, and video game stores.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "ca24c9bc03e1fd31",
-      "title": "PlayStation 5 Reaches Over 100 Million Shipments",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-11/playstation-5-reaches-over-100-million-shipments/.243724",
-      "publishedAt": "2026-11-11T16:00:00.000Z",
-      "excerpt": "PS5 had shipped over 97.9 million units as of September 30",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gLE/cms/news.6/205804/playstation5.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "fa84c3fb15aa3fb5",
-      "title": "The Legend of Zelda: Ocarina of Time Remake Sells Over 5.2 Million Units to Become Nintendo's Fastest-Selling Switch 2 Game",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-11/the-legend-of-zelda-ocarina-of-time-remake-sells-over-5.2-million-units-to-become-nintendo-fastest-/.243722",
-      "publishedAt": "2026-11-11T15:33:40.000Z",
-      "excerpt": "Remake surpasses previously reported lifetime sales of 2nd bestselling Switch 2 title Donkey Kong Bananza",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g7C/cms/news.10/243722/zelda-oot.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "fbf53bcd9cecbc96",
-      "title": "Starbucks Japan reveals new Joyful Capsule gacha toy release date",
-      "link": "https://soranews24.com/2026/11/12/starbucks-japan-reveals-new-joyful-capsule-gacha-toy-release-date/",
-      "publishedAt": "2026-11-11T15:00:43.000Z",
-      "excerpt": "The wait for these Japan-exclusive collectibles is almost over. Back in July, Starbucks surprised customers in Japan with the news that it would be releasing a never-before-seen “Joyful Capsule” collection. Consisting of nine miniature plush charms across two collections, the range is Starbucks’ first-ever gacha capsule toy collection, and though it was f…",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/Starbucks-Japan-Joyful-Capsule-toy-gacha-limited-edition-exclusive-merchandise-goods-cute-gift-Frappuccino-coffee-latte-sweets-menu-food-souvenir-omiyage-news-2.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
         "language": "en"
       }
     }

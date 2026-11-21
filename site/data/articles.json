@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T07:31:43.796Z",
+  "generatedAt": "2026-11-21T08:01:58.478Z",
   "sources": [
     {
       "id": "sankaku",
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 31,
+      "count": 32,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 262,
+      "count": 261,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 618,
+    "translatedJapaneseArticles": 617,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "4c35a643b5c9818a",
+      "title": "Manga 'Yubisaki to Renren' Ends in Three Chapters",
+      "link": "https://myanimelist.net/news/74963930?_location=rss",
+      "publishedAt": "2026-11-21T07:38:06.000Z",
+      "excerpt": "The official X (formerly Twitter) account of Dessert magazine announced on Saturday that Suu Morishita's Yubisaki to Renren (A Sign of Affection) manga will end in three chapters. The 63rd chapter will mark the manga's conclusion. Morishita began serializing the romance manga in Dessert magazine in July 2019. The manga went on hiatus in June 2021 due to M…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1795246640-b93853a9a64e9e01ca50abcd96d6ff88.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
     {
       "id": "a64e85d2864aface",
       "title": "ASIAN KUNG-FU GENERATION、デビュー10周年記念「ファン感謝祭」ライブ映像24時間限定公開",
@@ -4586,7 +4603,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Suzuki Ranran, 2nd album song “ROUGE” released & live performance with trio formation",
+      "translatedTitle": "Ranran Suzuki releases 2nd album song “ROUGE” and holds live performance with trio formation",
       "translatedExcerpt": "Ranran Suzuki released “ROUGE” on November 18, 2026. \"ROUGE\" is a song that was included as the first song on their second album \"One and Only\" released in 1996. The cutting-edge, danceable track and sophisticated melody have been released digitally as a Reiwa version. In addition, the live series \"SINGER SONG LANLAN\" will be held at JZ Brat sound of Tokyo on Sunday, December 6, 2026, featuring a variety of styles such as band and acoustic. This year, we will be presenting a stage performance by a trio of vocals, piano, and dance. New songs created during this group are also scheduled to be performed. Ranran Suzuki's \"ROUGE\" is being distributed in 16bit/44.1kHz lossless from OTOTOY. Live information <SINGER…"
     },
     {
@@ -5282,7 +5299,7 @@
       "title": "Anime Director Told Voice Actress to Play an “Irredeemable Bitch”",
       "link": "https://news.sankakucomplex.com/n/61WpgvrPSnkr2lS9jJwfDw",
       "publishedAt": "2026-11-18T21:00:43.000Z",
-      "excerpt": "Voice actress Akira Sekine revealed that the director of Kashita Maryoku wa [Revo Barai] de Kyousei Choushuu gave her some unusually blunt instructions for portraying a character audiences weren’t supposed to sympathize with. Appearing on the November 13 broadcast of ABEMA’s anime talk show SHIBU…",
+      "excerpt": "Voice actress Akira Sekine revealed that the director of Kashita Maryoku wa [Revo Barai] de Kyousei Choushuu gave her some unusually blunt instructions for portraying a character audiences weren’t supposed to sympathize with.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18383,25 +18400,6 @@
       },
       "translatedTitle": "Suchmos' new song \"hi-liter\" has been selected as the opening song for the Japan national soccer team documentary film",
       "translatedExcerpt": "Suchmos' new song ``hi-liter'' will be featured in the documentary film ``Japan National Soccer Team Movie ``The Best Scenery''."
-    },
-    {
-      "id": "b9be799ba8af68f7",
-      "title": "2hollis、ニューアルバム『Pirouette』リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/167397",
-      "publishedAt": "2026-11-12T06:45:00.000Z",
-      "excerpt": "2hollisが、全16曲を収録したニューアルバム『Pirouette』（ピルエット）を11月11",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167397/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "2hollis releases new album “Pirouette”",
-      "translatedExcerpt": "2hollis will release a new album “Pirouette” containing 16 songs on November 11th."
     }
   ]
 }

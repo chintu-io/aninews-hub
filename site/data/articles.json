@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T13:02:11.554Z",
+  "generatedAt": "2026-11-21T13:31:59.242Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 45,
+      "count": 46,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 136,
+      "count": 137,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 32,
+      "count": 31,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 215,
+      "count": 214,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 148,
+      "count": 147,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 77,
+      "count": 78,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 615,
+    "translatedJapaneseArticles": 614,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "f159585601c287cf",
+      "title": "Omniscient Reader's Viewpoint Webtoon Returns With Season 2 on November 24",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-21/omniscient-reader-viewpoint-webtoon-returns-with-season-2-on-november-24/.244045",
+      "publishedAt": "2026-11-21T13:15:00.000Z",
+      "excerpt": "REDICE Studio streams promo video to reveal return, series went on hiatus after end of 1st season in June",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ8/youtube/aGDoLuAG_-I.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "4dd1f34a00f4995e",
+      "title": "Make Gifu’s famous autumn chestnut sweet at home with just two Japanese supermarket snacks",
+      "link": "https://soranews24.com/2026/11/21/make-gifus-famous-autumn-chestnut-sweet-at-home-with-just-two-japanese-supermarket-snacks/",
+      "publishedAt": "2026-11-21T13:00:45.000Z",
+      "excerpt": "No peeling or boiling required in this super-easy zero-cook recipe. Japan has an abundance of seasonal foods, giving residents reasons to constantly look forward to the coming of the next season. I first noticed when trying to hunt down fresh strawberries and pears during the summer, only to be left shocked by the complete lack […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/imgi_389_kurikinton-28.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "be49bc5c6d221e3e",
       "title": "Amie Blu、繊細でダークな新曲リリース",
@@ -261,6 +295,23 @@
       },
       "translatedTitle": "Trivium, dark and epic new AL release",
       "translatedExcerpt": "Trivium released their new album ``Crown In The Grave'' on Friday, November 20, 2026. The long-awaited full album, the first in about 5 years since \"In The Court Of The Dragon\" released in 2021. It is an ambitious work of 12 songs that combines the aggression of thrash metal, the weight of metalcore, and the band's true essence of lyrical melodies and technical guitar work. In this work, he has created a unique world view inspired by Japanese movies, traditional performing arts, and horror works. While inheriting the band's characteristics, it presents a new form of TRIVIUM that incorporates a different approach from before. Release information https://ototoy.jp/_/default/p/4472277 Artist information h…"
+    },
+    {
+      "id": "37a5d49720fe8c92",
+      "title": "Tamon's B-Side Anime Gets 2nd Season",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-21/tamon-b-side-anime-gets-2nd-season/.244056",
+      "publishedAt": "2026-11-21T12:48:47.000Z",
+      "excerpt": "Announced at real-life \"F/ACE First Live \"Nautical Star\" concert",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH8/herald/203253/tamon-kv02.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "7df83c75d4663d07",
@@ -3414,7 +3465,7 @@
         "language": "ja"
       },
       "translatedTitle": "Suchmos decides to release new EP “Autobahn” & starts pre-distribution of new song “hi-liter”",
-      "translatedExcerpt": "Suchmos has announced that they will release their long-awaited new EP \"Autobahn\" on Wednesday, February 3, 2027, their first release in about 1 year and 8 months since their previous album \"Sunburst\". This work includes a total of 5 songs including the pre-released songs ``hi-liter'' and ``Smile.'' The artwork was also released along with the recorded content. In addition, ahead of the release of this EP, the new song ``hi-liter'', which is used as the opening song for ``The Japan National Soccer Team Movie ``The Challenge to the Best Scenery'''', which was released nationwide from November 20th (Friday), has started distribution in advance on various streaming and download services. In addition, tickets for the new arena tour <Suchmos BAY SIDE TOUR 2027>, which will tour 8 performances in 4 cities nationwide from March 2027 next year..."
+      "translatedExcerpt": "Suchmos has announced that they will release their long-awaited new EP \"Autobahn\" on Wednesday, February 3, 2027, their first release in about 1 year and 8 months since their previous album \"Sunburst\". This work includes a total of 5 songs including the pre-release songs ``hi-liter'' and ``Smile.'' The artwork was also released along with the recorded content. In addition, ahead of the release of this EP, the new song ``hi-liter'', which is used as the opening song for ``The Japan National Soccer Team Movie ``The Challenge to the Best Scenery'''', which was released nationwide from November 20th (Friday), has started distribution in advance on various streaming and download services. In addition, tickets for the new arena tour <Suchmos BAY SIDE TOUR 2027>, which will tour 8 performances in 4 cities nationwide from March 2027 next year..."
     },
     {
       "id": "fa4e596cde677054",
@@ -4231,7 +4282,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "Kishida Kyodan & THE Myojo Rockets release music video for new song “Atomic Breaker”",
+      "translatedTitle": "Kishida Kyodan & THE Myojo Rockets release new song “Atomic Breaker” MV",
       "translatedExcerpt": "Kishida Kyodan & THE Myojo Rockets have released the music video for their new single \"Atomic Breakdown\" released on Saturday, October 17, 2026. This work is the ending theme of the TV anime \"A Certain Dark Girl Coexist\" currently being broadcast. The music video, packed with the band's overwhelming passion and worldview, is also a must-see. In addition, the new single \"Atomic Breaker\", which will be released on November 25th (Wednesday), will also include cover versions of the theme song \"Bite the bullet!!\" for the pachinko game \"e A Certain Magical Index 3\" and the opening theme \"No buts!\" for the anime \"A Certain Magical Index II\" included in the same game machine. Release information https://ototoy.jp/_/default/p/4336355 Artist information https://x.com…"
     },
     {
@@ -6174,6 +6225,23 @@
       },
       "translatedTitle": "Daoko releases “TRICKSTAR” music video and songs from the album “BIRTH IN BLUE” that magically transforms Peanuts",
       "translatedExcerpt": "Daoko has released the music video for her new song \"TRICKSTAR feat. Peanuts-kun\"."
+    },
+    {
+      "id": "bc6e28e45b88a406",
+      "title": "13 Arrested in China for Selling Fake Tifa Figures at Higher Prices Than Originals",
+      "link": "https://news.sankakucomplex.com/n/0qLiKZ7bpBmGsQ2J-8jtTg",
+      "publishedAt": "2026-11-18T13:22:53.000Z",
+      "excerpt": "Chinese police have arrested 13 individuals accused of operating a counterfeit Final Fantasy VII figure business, with the suspects allegedly selling unauthorized Tifa Lockhart merchandise for prices considerably higher than the genuine products and generating over 2 million yuan ($280,000) in sa…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "e2ade3b43d25183d",
@@ -18324,78 +18392,6 @@
       },
       "translatedTitle": "Sana Natori will release new EP on November 25th",
       "translatedExcerpt": "Sana Natori will release her new EP ``Life with Sana Natori EP'' on Wednesday, November 25, 2026. This work features Natori Sana and her daily life. It contains everyday music that gently touches the listener's life. This work will be used as the theme song for the Life with Sana Natori exhibition, which will be held at Shimokitazawa ADRIFT from November 14th (Saturday), and will also be used as the BGM at the venue. The song includes vocals written and composed by Sasuke Haraguchi and Haruno, as well as a soundtrack by muyu. Sana Natori has commented on this EP as follows. Comment Release information https://ototoy.jp/_/default/a/792651 Event information https:/…"
-    },
-    {
-      "id": "5f838784ca9e6602",
-      "title": "暁(アルルカン) × 田澤孝介(Rayflower, fuzzy knot)、初アコースティック2マン＜暁光残月＞開催決定「全部ぶつけ合います」",
-      "link": "https://barks.jp/news/1104033",
-      "publishedAt": "2026-11-12T11:00:00.000Z",
-      "excerpt": "暁(アルルカン)と田澤孝介(Rayflower, fuzzy knot)が2027年1月11日、東京・SHIBUYA PLEASURE PLEASUREにてアコースティック2マンライブ＜暁光残月＞を開催することが発表となった。これまであまり交わることのなかったボーカリスト二人が初めて同じ公演に名を連ねる。 ステージ初顔合わせとなる＜暁光残月＞は、昼と夜で選曲のテーマを変えた2部制で届けられる予定だ。昼の部“cover”はタイトル通りカバー曲のみで構成されるもの。どんな選曲でどんな歌声を響かせるのか。それぞれの個性が表れるステージになりそうだ。一方、夜の部“original”では、それぞれのオリジナル曲のみを披露。バンドサウンドで聴き慣れた楽曲も、アコースティック編成では、また異なる趣を帯びるもの。声の抑揚…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/12183642/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E5%86%99%E7%9C%9F-1024x724.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Akatsuki (Arlequin) x Kosuke Tazawa (Rayflower, fuzzy knot), first acoustic 2-man <Akatsuki Zangetsu> will be held \"We'll throw everything at each other\"",
-      "translatedExcerpt": "It has been announced that Akatsuki (Arlequin) and Kosuke Tazawa (Rayflower, fuzzy knot) will hold an acoustic two-man live <Akatsuki Kozangetsu> at SHIBUYA PLEASURE PLEASURE in Tokyo on January 11, 2027. This will be the first time that the two vocalists, who have not often interacted with each other, will appear in the same performance. <Akatsuki Zangetsu>, which will be the first time they will meet on stage, will be delivered in two parts, with different song themes for daytime and nighttime. As the title suggests, the afternoon session \"cover\" consists of only cover songs. What songs will you choose and what kind of singing voice will you make? It looks like this will be a stage where each person's individuality will be revealed. On the other hand, in the evening section \"original\", only their original songs will be performed. Even songs that you are used to hearing with a band sound take on a different flavor when played with an acoustic arrangement. The intonation of the voice..."
-    },
-    {
-      "id": "2e8e25be77029fb0",
-      "title": "Supporting Cast Pair for 'Shin Oishinbo' Announced",
-      "link": "https://myanimelist.net/news/74931275?_location=rss",
-      "publishedAt": "2026-11-12T10:32:45.000Z",
-      "excerpt": "The official website for the television anime adaptation of Tetsu Kariya's Oishinbo manga, titled Shin Oishinbo, announced a supporting pair of cast on Thursday. The anime is scheduled to premiere in 2027. Voice actors Kenji Yamauchi (Toujima Tanzaburou wa Kamen Rider ni Naritai) and Ken Uo (Nazotoki wa Dinner no Ato de) are joining the anime as Mantarou…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794479455-070ee840cf64f1afb189b7d19651a430.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6c20758aea0bd7a8",
-      "title": "Nabe ni Tama wo Ukenagara TV Anime Reveals Main Cast, Staff, January Debut",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-12/nabe-ni-tama-wo-ukenagara-tv-anime-reveals-main-cast-staff-january-debut/.243753",
-      "publishedAt": "2026-11-12T10:17:34.000Z",
-      "excerpt": "Shū Uchida, Masaaki Mizunaka both voice Juntarō in J.C.STAFF anime",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gLH/youtube/fmafMZNXeHw.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "a4d0711e9473cdcc",
-      "title": "〈EIGHT-JAM〉11/15は本人登場「ちゃんみな特集」",
-      "link": "https://ototoy.jp/news/132765",
-      "publishedAt": "2026-11-12T10:00:00.000Z",
-      "excerpt": "11月15日の〈EIGHT-JAM〉は「ちゃんみな特集」を放送する。 ゲストは番組初登場のちゃんみな、川谷絵音、デビュー前からバックダンサーを務めたダンサー・振付師のGENTA YAMAGUCHI、ちゃんみなと高校の同級生のTHE RAMPAGE 龍、音楽評論家の柴 那典。椎名林檎、藤井 風、アイナ・ジ・エンド、HANAなどがアンケートで参加する。 番組情報 インフォメーション https://www.tv-asahi.co.jp/eightjam/ https://x.com/EIGHTJAMtvasahi リリース情報 https://ototoy.jp/_/default/p/4383333",
-      "image": "https://imgs.ototoy.jp/news/image.php/132765/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "〈EIGHT-JAM〉11/15 is the appearance of the person himself “Chanmina special feature”",
-      "translatedExcerpt": "On November 15th, <EIGHT-JAM> will broadcast a ``Chanmina Special''. The guests are Chanmina and Eon Kawatani, who are appearing for the first time on the program, GENTA YAMAGUCHI, a dancer and choreographer who has been a backup dancer since before her debut, Ryu from THE RAMPAGE, a classmate of Chanminato High School, and music critic Nanori Shiba. Ringo Shiina, Kaze Fujii, Aina The End, HANA, and others will participate in the survey. Program information Information https://www.tv-asahi.co.jp/eightjam/ https://x.com/EIGHTJAMtvasahi Release information https://ototoy.jp/_/default/p/4383333"
     }
   ]
 }

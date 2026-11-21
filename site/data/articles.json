@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T15:31:54.205Z",
+  "generatedAt": "2026-11-21T16:02:01.504Z",
   "sources": [
     {
       "id": "sankaku",
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 144,
+      "count": 143,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 79,
+      "count": 80,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 611,
+    "translatedJapaneseArticles": 610,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "257354578a3332f7",
+      "title": "Disney Embraces AI for Animation, Movies & Theme Parks",
+      "link": "https://news.sankakucomplex.com/n/1ohfDJjXcmszxuSRikEkQQ",
+      "publishedAt": "2026-11-21T15:54:44.000Z",
+      "excerpt": "Disney is expanding its use of artificial intelligence across animation, film production, streaming, and theme parks, marking a significant shift for a company that previously challenged AI developers over copyright infringement.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "78c5ac51492b46fb",
       "title": "New Hana-Kimi Live-Action Series Reveals Theme Songs, Short Video",
@@ -18367,25 +18384,6 @@
       },
       "translatedTitle": "Hammer Head Shark releases “Bokura Futari Kiri” live video and new EP teaser",
       "translatedExcerpt": "Hammer Head Shark has released a live video of \"Bokura Futari Kiri\" from their solo performance at Shibuya Club Quattro held in September. The nationwide tour ``air in hurt TOUR'' will be held from November and will feature a variety of guest artists such as Enfants, Hue's, 36km/h, NOT WONK, SuU, yonige, HIKAGE, HINONABE, SACOYANS, Le Sanciman, Homecomings, Khaki, and iVy. The only solo performance will be at Shibuya WWW X on March 13th. Tickets for the tour are now on sale to the general public, so don't miss out on this opportunity. Starting with the Chiba LOOK performance on the first day of the tour, their long-awaited new album 2nd EP ``a i r'' will be sold on CD only at the venue. Although the work is billed as an EP..."
-    },
-    {
-      "id": "6a988b634b1c2503",
-      "title": "Hammer Head Shark、渋谷クラブクアトロ公演から「ぼくらふたりきり」ライブ映像公開",
-      "link": "https://ototoy.jp/news/132773",
-      "publishedAt": "2026-11-12T12:00:00.000Z",
-      "excerpt": "Hammer Head Sharkが、9月に開催された渋谷クラブクアトロ単独公演から「ぼくらふたりきり」のライブ映像を公開した。 2026年11月20日から全国ツアー〈air in hurt TOUR〉をスタートするHammer Head Shark。各地にHue'sHomecomings、Enfants、時速36km、NOT WONK、SuU、yonige、HIKAGE、HINONABE、SACOYANS、ルサンチマン、Khaki、iVyという多彩なゲストアーティストをそれぞれ迎えて開催される。3月13日の渋谷WWW Xのみ単独公演となる。 ツアー初日の千葉LOOK公演から、待望の新作である2nd EP『a i r』が会場限定でCD販売される。同作はEPと謳っているものの、全8曲を収録。配信シングルとし…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132773/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Hammer Head Shark releases “Bokura Futari Kiri” live video from Shibuya Club Quattro performance",
-      "translatedExcerpt": "Hammer Head Shark has released a live video of \"Bokura Futari Kiri\" from their solo performance at Shibuya Club Quattro held in September. Hammer Head Shark will start their national tour “air in hurt TOUR” from November 20, 2026. Events will be held in various locations with a variety of guest artists such as Hue's Homecomings, Enfants, 36km/h, NOT WONK, SuU, yonige, HIKAGE, HINONABE, SACOYANS, Le Sanciman, Khaki, and iVy. The only solo performance will be at Shibuya WWW X on March 13th. Starting with the Chiba LOOK performance on the first day of the tour, their long-awaited new album 2nd EP ``a i r'' will be sold on CD only at the venue. Although the album is billed as an EP, it contains a total of 8 songs. As a distribution single..."
     }
   ]
 }

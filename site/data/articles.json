@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T05:01:49.990Z",
+  "generatedAt": "2026-11-21T05:32:07.547Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 45,
+      "count": 46,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 263,
+      "count": 261,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 75,
+      "count": 76,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 620,
+    "translatedJapaneseArticles": 619,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "0ff2459e2725246d",
+      "title": "YouTuber’s Stalker Beaten to Death After Demanding Marriage",
+      "link": "https://news.sankakucomplex.com/n/UogS7H0znmmmBbA5UFqQoA",
+      "publishedAt": "2026-11-21T05:00:35.000Z",
+      "excerpt": "A 28-year-old man who allegedly broke into Indian YouTuber Neha Bisht’s home and demanded she marry him has died following an assault by her family and neighbors. Two suspects, including Bisht’s father, have been arrested.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "afcb70ba19f0ca7b",
+      "title": "4-cheese-pizza-flavored soda unleashed on Japan [Taste Test]",
+      "link": "https://soranews24.com/2026/11/21/4-cheese-pizza-flavored-soda-unleashed-on-japan-taste-test/",
+      "publishedAt": "2026-11-21T05:00:13.000Z",
+      "excerpt": "It’s disgustingly delicious! It’s probably a sign of current economic hardships facing the world, but in Japan there has been a significant shortage of wacky flavor concepts in recent years. It stands to reason as companies tighten their purse strings and refrain from excessive R&D, while customers are spending their increasingly hard-earned money on more…",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/IMG_3095.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "23f4a360d11f4a45",
       "title": "INI、グローバルK-POP授賞式＜2026 MAMA AWARDS＞にて「FAVORITE ASIAN GROUP」受賞",
@@ -1661,7 +1695,7 @@
     },
     {
       "id": "5965028616a9b11d",
-      "title": "Manga 'Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta.' Gets TV Anime in 2027",
+      "title": "Manga 'Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta.' Gets TV Anime in 2027 [Update 11/21]",
       "link": "https://myanimelist.net/news/74960793?_location=rss",
       "publishedAt": "2026-11-20T09:42:04.000Z",
       "excerpt": "An official website opened for a television anime adaptation of Kengo Matsumoto's Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta. (When Trying to Get Back at the Hometown Bullies, Another Battle Began) manga on Friday, revealing the main staff and a teaser visual (pictured). The anime will premiere in 2027. Staff Di…",
@@ -18368,44 +18402,6 @@
       },
       "translatedTitle": "[Billboard] “SPY×FAMILY Volume 18” takes first place on “Reiwa Books”, new releases of popular comics gather at the top",
       "translatedExcerpt": "Billboard JA released on November 12, 2026 (Aggregation period: November 2, 2026 - November 8, 2026)"
-    },
-    {
-      "id": "802ae7a697ce15a8",
-      "title": "【ビルボード】『SPY×FAMILY 18巻』が3指標1位で総合書籍チャート首位、『ダンダダン』『SAKAMOTO DAYS』最新刊が続く",
-      "link": "https://www.billboard-japan.com/d_news/detail/167394",
-      "publishedAt": "2026-11-12T05:00:00.000Z",
-      "excerpt": "2026年11月12日公開（集計期間：11月2日～11月8日）の総合書籍チャート&ldquo;JA",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167394/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] \"SPY×FAMILY Volume 18\" tops the general book chart with 3 indicators, followed by the latest editions of \"Danda Dan\" and \"SAKAMOTO DAYS\"",
-      "translatedExcerpt": "Comprehensive book chart “JA” released on November 12, 2026 (collection period: November 2nd to November 8th)"
-    },
-    {
-      "id": "1913e901ffa743d3",
-      "title": "【ビルボード】『本当の自由を手に入れるお金の大学』経済書籍チャート通算27回目の首位",
-      "link": "https://www.billboard-japan.com/d_news/detail/167386",
-      "publishedAt": "2026-11-12T05:00:00.000Z",
-      "excerpt": "2026年11月12日公開（集計期間：2026年11月2日～2026年11月8日）の経済書籍チャー",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167386/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] “The University of Money that Gains True Freedom” tops the economic book chart for the 27th time in total",
-      "translatedExcerpt": "Economic book charts published on November 12, 2026 (collection period: November 2, 2026 to November 8, 2026)"
     }
   ]
 }

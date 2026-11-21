@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T06:01:47.913Z",
+  "generatedAt": "2026-11-21T06:32:01.673Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 46,
+      "count": 45,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 260,
+      "count": 262,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 206,
+      "count": 205,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 152,
+      "count": 151,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 76,
+      "count": 77,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,86 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 618,
+    "translatedJapaneseArticles": 619,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "a64e85d2864aface",
+      "title": "ASIAN KUNG-FU GENERATION、デビュー10周年記念「ファン感謝祭」ライブ映像24時間限定公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167652",
+      "publishedAt": "2026-11-21T06:15:00.000Z",
+      "excerpt": "ASIAN KUNG-FU GENERATIONが、デビュー10周年を記念して横浜スタジアムで開催",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167652/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "ASIAN KUNG-FU GENERATION, 24-hour limited release of live video of “Fan Appreciation Festival” commemorating 10th anniversary of debut",
+      "translatedExcerpt": "ASIAN KUNG-FU GENERATION will be held at Yokohama Stadium to commemorate their 10th anniversary since debut."
+    },
+    {
+      "id": "022690d3d1b2ad13",
+      "title": "汐れいら、新恋愛番組『星の見える町で』主題歌「もし、」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167651",
+      "publishedAt": "2026-11-21T06:10:00.000Z",
+      "excerpt": "汐れいらが、Hulu&times;日本テレビの新恋愛番組『星の見える町で』の主題歌「もし、」のミュ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167651/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Reira Shio releases the music video for “Moshi,” the theme song for the new romance show “Hoshi no Mieru Machi de”",
+      "translatedExcerpt": "Reira Shio has released a music video for the theme song \"Moshi,\" for Hulu x Nippon Television's new romance program \"Hoshi no Mieru Machi De\"."
+    },
+    {
+      "id": "cff0399ab25bf773",
+      "title": "平井 大、新曲「幸せの価値」配信リリース決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167650",
+      "publishedAt": "2026-11-21T06:05:00.000Z",
+      "excerpt": "平井 大が、新曲「幸せの価値」を12月2日に配信リリースすることが決定した。 今作は、本当に大",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167650/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Dai Hirai decides to release new song “The Value of Happiness”",
+      "translatedExcerpt": "It has been decided that Dai Hirai will release his new song ``The Value of Happiness'' on December 2nd. This work is really big"
+    },
+    {
+      "id": "40210a2704e01222",
+      "title": "Suchmos、サッカー日本代表ドキュメンタリー映画OP曲「hi-liter」配信リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/167649",
+      "publishedAt": "2026-11-21T06:00:00.000Z",
+      "excerpt": "Suchmosが、新曲「hi-liter」を配信リリースした。 「hi-liter」は11月2",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167649/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Suchmos releases opening song “hi-liter” for Japan national soccer team documentary film",
+      "translatedExcerpt": "Suchmos has released a new song “hi-liter”. \"hi-liter\" is November 2nd"
+    },
     {
       "id": "3d37d68351b2e9ac",
       "title": "ENHYPEN、＜2026 MAMA AWARDS＞で2年連続大賞の快挙。新曲「I Want You」のステージ初公開も",
@@ -6839,6 +6915,23 @@
       },
       "translatedTitle": "[Billboard] The cause lies with me. takes first place overall with \"Love Reason\", and Akira Senju's \"Bessan Ritual Song\", which is a hot topic in \"VIVANT\", appears for the first time",
       "translatedExcerpt": "Billboard JAPAN released on November 18, 2026 (collection period: November 9th to November 15th)"
+    },
+    {
+      "id": "85b22607b3558efe",
+      "title": "Youjo Senki Fan Game Removed After Backlash Over Paid Release",
+      "link": "https://news.sankakucomplex.com/n/GdKx_uc2GwExMl4XTpjt7w",
+      "publishedAt": "2026-11-18T06:20:11.000Z",
+      "excerpt": "A truly impressive fan-made game based on The Saga of Tanya the Evil (Youjo Senki) has been removed from sale after Japanese social media users criticized its developer for charging money for an unofficial adaptation of the popular anime and light novel series.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "27302b19c646364b",
@@ -18309,99 +18402,6 @@
       },
       "translatedTitle": "2hollis releases new album “Pirouette”",
       "translatedExcerpt": "2hollis will release a new album “Pirouette” containing 16 songs on November 11th."
-    },
-    {
-      "id": "f42001ee2d2a7e7f",
-      "title": "TOMOO、インタビューも含む「バースデイ」MVメイキング映像を公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167396",
-      "publishedAt": "2026-11-12T06:00:00.000Z",
-      "excerpt": "TOMOOが、最新曲「バースデイ」のMVメイキング映像を公開した。 9月30日にサプライズ配信",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167396/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "TOMOO releases “Birthday” MV making video including interview",
-      "translatedExcerpt": "TOMOO has released the MV making video for their latest song \"Birthday\". Surprise delivery on September 30th"
-    },
-    {
-      "id": "dda0e75912877e5e",
-      "title": "氷川きよし、「ほど酔い酒」ギターver.配信決定",
-      "link": "https://ototoy.jp/news/132767",
-      "publishedAt": "2026-11-12T06:00:00.000Z",
-      "excerpt": "氷川きよしが11月22日（日）に「ほど酔い酒」のギター・バージョンを配信リリースすることが決定した。 「ほど酔い酒」は、生きづらい世の中で小さなしくじりやつまずきを寛容な心で受け止めていこうというメッセージが込められた作品。ギター・バージョンは氷川自身の希望によりギタリストの斉藤功が担当している。 配信用ジャケット写真はCDのパッケージビジュアルをスケッチ調にアレンジしたもの。 コメント 氷川きよし リリース情報 「ほど酔い酒」 https://ototoy.jp/_/default/p/3390421 アーティスト情報 https://www.instagram.com/kiina_kiyoshi_hikawa/ https://www.kiizna.co.jp/ https://columbia.jp…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132767/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Kiyoshi Hikawa, \"Hodo Drunken Sake\" guitar version will be distributed",
-      "translatedExcerpt": "It has been decided that Kiyoshi Hikawa will be releasing the guitar version of \"Hodo Drunken Sake\" on November 22nd (Sunday). ``Hodo Drunk Sake'' is a work that conveys the message of accepting small failures and stumbling blocks with a forgiving heart in a world where life is difficult. Guitarist Isao Saito is in charge of the guitar version at Hikawa's own request. The distribution jacket photo is a sketch-like arrangement of the CD package visual. Comment Kiyoshi Hikawa Release information “Hododukisake” https://ototoy.jp/_/default/p/3390421 Artist information https://www.instagram.com/kiina_kiyoshi_hikawa/ https://www.kiizna.co.jp/ https://columbia.jp…"
-    },
-    {
-      "id": "930c09b115c58577",
-      "title": "氷川きよし、「ほど酔い酒（ギター・バージョン）」配信決定 「ほっとひと息つく時間に聴いていただけたら嬉しい」",
-      "link": "https://barks.jp/news/1103980",
-      "publishedAt": "2026-11-12T05:30:00.000Z",
-      "excerpt": "氷川きよしが、シングル「ほど酔い酒」のギターバージョンを2026年11月22日に配信リリースすることを発表した。 「ほど酔い酒」は、生きづらい世の中で小さなしくじりやつまずきを、寛容な心で受け止めていこうというメッセージが込められた作品。今回のギターバージョンは、氷川自身の希望によってギタリスト・斉藤功が演奏を務めており、心地よいギターの響きが楽曲の持つ温もりや人情味を引き立て、肩の力を抜いて楽しめる1曲に仕上がったとのことだ。 あわせて公開された配信用のジャケット写真は、CDのパッケージビジュアルをスケッチ調にアレンジされており、楽曲に込められた優しさが視覚からも感じられる。 ◆ ◆ ◆ ◾️氷川きよし コメントこの度「ほど酔い酒」のギター・バージョンを配信リリースさせていただく事になりました。「ほど酔…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/01161323/%E6%B0%B7%E5%B7%9D%E3%81%8D%E3%82%88%E3%81%97-A%E5%86%99.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Kiyoshi Hikawa's \"Hododui Sake (Guitar Version)\" will be distributed \"I would be happy if you could listen to it while taking a break.\"",
-      "translatedExcerpt": "Kiyoshi Hikawa has announced that he will release the guitar version of his single \"Hodo Drunken Sake\" on November 22, 2026. ``Hodo Drunk Sake'' is a work that conveys the message of accepting small failures and stumbling blocks with a forgiving heart in a world where life is difficult. This guitar version was performed by guitarist Isao Saito at Hikawa's own request, and the pleasant sound of the guitar brings out the warmth and humanity of the song, making it a song that you can relax and enjoy. The jacket photo for distribution that was released at the same time is a sketch-like arrangement of the CD package visual, and the gentleness contained in the song can be felt visually. ◆ ◆ ◆ ◾️ Comment from Kiyoshi Hikawa We have decided to release the guitar version of \"Hodo Drunken Sake\" online. “Moderately drunk…"
-    },
-    {
-      "id": "3390b5840c7937d5",
-      "title": "Yakuza boss sues expressway owners for discrimination against criminals",
-      "link": "https://soranews24.com/2026/11/12/yakuza-boss-sues-expressway-owners-for-discrimination-against-criminals/",
-      "publishedAt": "2026-11-12T05:00:07.000Z",
-      "excerpt": "You gotta fight for your right to be a party to a contract. Ever since 2011, things have been getting rougher and rougher for members of organized crime groups in Japan. That was when a law was passed prohibiting companies from entering into contracts with any known member. That’s why any time you sign up […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/susi1123PAR50412310_TP_V4.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "d88cb3bf60b62fad",
-      "title": "【Hot Shot Books】『SPY×FAMILY 18巻』首位、映画公開の髙田郁『星の教室』がトップ10入り",
-      "link": "https://www.billboard-japan.com/d_news/detail/167393",
-      "publishedAt": "2026-11-12T05:00:00.000Z",
-      "excerpt": "2026年11月12日公開（集計期間：11月2日～11月8日）の&ldquo;Billboard",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167393/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Hot Shot Books] “SPY×FAMILY Volume 18” ranks first, and Iku Takada’s “Star Classroom”, which will be released as a movie, enters the top 10",
-      "translatedExcerpt": "“Billboard” released on November 12, 2026 (aggregation period: November 2nd to November 8th)"
     }
   ]
 }

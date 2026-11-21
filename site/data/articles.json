@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T00:31:44.669Z",
+  "generatedAt": "2026-11-21T01:01:45.381Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 91,
+      "count": 92,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 150,
+      "count": 149,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 617,
+    "translatedJapaneseArticles": 616,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "c3035d296d8b0cdb",
+      "title": "Doraemon: Nobita's Steam-Powered Time Machine Anime Film Announces 5 New Voice Cast Members",
+      "link": "https://crunchyroll.com/news/latest/2026/11/21/doraemon-nobitas-steam-powered-time-machine-anime-film-new-voice-cast",
+      "publishedAt": "2026-11-21T00:40:00.000Z",
+      "excerpt": "The 46th Doraemon film releases in Japan on March 5, 2027",
+      "image": "https://a.storyblok.com/f/178900/960x540/beaf7a6170/doraemon-nobita-steam-powered-time-machine-header.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "9aa2b6feeb1126ba",
       "title": "〈藤井⾵ ピアノリサイタル〉2日目もYouTubeで生中継へ",
@@ -18381,25 +18398,6 @@
       },
       "translatedTitle": "[Billboard] Mrs. GREEN APPLE's \"POPS\" tops the overall album list for the first time in two weeks BE:FIRST/\"Kudanshita Folk Festival '25\" debuts",
       "translatedExcerpt": "Comprehensive album chart released on November 11, 2026 (collection period: November 2, 2026 - November 8, 2026)"
-    },
-    {
-      "id": "1bed88bd71f62d00",
-      "title": "【急上昇ワード】デビュー10周年の鈴木みのり、新曲2曲同時リリース",
-      "link": "https://ototoy.jp/news/132753",
-      "publishedAt": "2026-11-12T03:00:00.000Z",
-      "excerpt": "デビュー10周年を迎えた鈴木みのりが急上昇ワードにランクイン。 新曲「心音加速度」「Naked Eyes」を2曲同時リリースした。オリジナル楽曲は2023年1月以来。クラウドナインでの新たな音楽活動の第一弾楽曲となる。 2曲はこれまでの歩みをつなぐ楽曲と、新しい音楽表現に挑戦する楽曲の異なる表情の作品に。リリース日の12日20:00から両楽曲のMVがプレミア公開される。 リリース情報 https://ototoy.jp/_/default/p/4431681 https://ototoy.jp/_/default/p/4431673 アーティスト情報 https://www.youtube.com/@Im_MinoriSuzuki https://x.com/minoringo_staff https:/…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132753/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Raising word] Minori Suzuki, 10th anniversary since her debut, releases two new songs at the same time",
-      "translatedExcerpt": "Minori Suzuki, who celebrated her 10th anniversary since her debut, has been ranked in the fastest growing trend. Two new songs, ``Kokohon Acceleration'' and ``Naked Eyes,'' were released at the same time. Original music since January 2023. This is the first song of Cloud Nine's new musical activity. The two songs are works with different expressions, one that connects the past steps and one that challenges new musical expression. The music videos for both songs will be premiered at 20:00 on the 12th, the release date. Release information https://ototoy.jp/_/default/p/4431681 https://ototoy.jp/_/default/p/4431673 Artist information https://www.youtube.com/@Im_MinoriSuzuki https://x.com/minoringo_staff https:/…"
     }
   ]
 }

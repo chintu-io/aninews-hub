@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T05:32:07.547Z",
+  "generatedAt": "2026-11-21T06:01:47.913Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 261,
+      "count": 260,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 205,
+      "count": 206,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 619,
+    "translatedJapaneseArticles": 618,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "3d37d68351b2e9ac",
+      "title": "ENHYPEN、＜2026 MAMA AWARDS＞で2年連続大賞の快挙。新曲「I Want You」のステージ初公開も",
+      "link": "https://barks.jp/news/1106003",
+      "publishedAt": "2026-11-21T05:49:10.000Z",
+      "excerpt": "ENHYPENが、＜2026 MAMA AWARDS＞で2年連続となる大賞の栄誉に輝いた。 2026年11月20日に京セラドーム大阪で開催された＜2026 MAMA AWARDS＞（以下、＜2026 MAMA＞）で、4つの大賞のうちの一つ「FANS’ CHOICE OF THE YEAR with VISA」を受賞。さらに本賞である「FANS’ CHOICE MALE TOP 10」と「FAVORITE MCD STAGE with Mnet Plus」も獲得し、計3冠を達成した。 リーダーのJUNGWONは「まだ信じられない。僕たちが自分自身を信じられなかった時期でさえ、ENGENE（ファンダム名）の皆さんが信じてくださったからこそ、この場に立つことができた。永遠というありふれた約束よりも、変わらないE…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/21144549/%EC%97%94%ED%95%98%EC%9D%B4%ED%94%88_2026MAMA-1024x682.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "ENHYPEN has won the grand prize for the second consecutive year at the <2026 MAMA AWARDS>. First stage performance of new song “I Want You”",
+      "translatedExcerpt": "ENHYPEN won the grand prize for the second consecutive year at the <2026 MAMA AWARDS>. At the <2026 MAMA AWARDS> (hereinafter referred to as <2026 MAMA>) held at Kyocera Dome Osaka on November 20, 2026, she won one of the four grand prizes, “FANS’ CHOICE OF THE YEAR with VISA.” They also won the main awards, “FANS’ CHOICE MALE TOP 10” and “FAVORITE MCD STAGE with Mnet Plus,” achieving a total of three awards. Leader JUNGWON said, ``I still can't believe it.Even when we didn't believe in ourselves, we were able to stand here because everyone in ENGENE (fandom name) believed in us.More than a common promise of eternity, an unchanging E..."
+    },
     {
       "id": "0ff2459e2725246d",
       "title": "YouTuber’s Stalker Beaten to Death After Demanding Marriage",
@@ -18383,25 +18402,6 @@
       },
       "translatedTitle": "[Hot Shot Books] “SPY×FAMILY Volume 18” ranks first, and Iku Takada’s “Star Classroom”, which will be released as a movie, enters the top 10",
       "translatedExcerpt": "“Billboard” released on November 12, 2026 (aggregation period: November 2nd to November 8th)"
-    },
-    {
-      "id": "c5d1967a066d9167",
-      "title": "【ビルボード】『SPY×FAMILY 18巻』が“Reiwa Books”首位獲得、人気コミックスの新刊が上位に集結",
-      "link": "https://www.billboard-japan.com/d_news/detail/167377",
-      "publishedAt": "2026-11-12T05:00:00.000Z",
-      "excerpt": "2026年11月12日公開（集計期間：2026年11月2日～11月8日）のBillboard JA",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167377/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] “SPY×FAMILY Volume 18” takes first place on “Reiwa Books”, new releases of popular comics gather at the top",
-      "translatedExcerpt": "Billboard JA released on November 12, 2026 (Aggregation period: November 2, 2026 - November 8, 2026)"
     }
   ]
 }

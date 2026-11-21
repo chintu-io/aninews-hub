@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T03:31:47.223Z",
+  "generatedAt": "2026-11-21T04:02:08.880Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 95,
+      "count": 94,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 202,
+      "count": 203,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,48 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 619,
+    "translatedJapaneseArticles": 620,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "f50d03b87fdeb87d",
+      "title": "Caramel’s Guitar Kitchen、第23弾は22弾をロングスケール化",
+      "link": "https://barks.jp/news/1105961",
+      "publishedAt": "2026-11-21T03:55:43.000Z",
+      "excerpt": "国産ハンドメイドエレキギターメーカー「Caramel’s Guitar Kitchen（キャラメルズ・ギター・キッチン）」（※以下CGK）が敢行中の新作プロトの24ヶ月連続リリース第23弾が発表された。 発表された「PT23_Cruise&Drive Ivory（クルーズ&ドライブ アイボリー）」は、クラシカルなツーリングカーをイメージしたというアイボリーのボディに黒いチェッカードステッチが入った、第22弾同様のオリジナルシェイプの一本だ。40mm厚のアルダー材ボディにポリウレタン塗装、ゴールドのアノダイズドピックガード、そこにCGK独自の「音の太さ」を変えるCRUISE/DRIVEと、「中音域の響き」を変えるDAY/NIGHTのセレクターが搭載され、様々なサウンドバリエーションが楽しめる仕様となっている…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/21124938/0001-681x1024.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Caramel’s Guitar Kitchen, 23rd edition is a long scale version of the 22nd edition",
+      "translatedExcerpt": "Domestic handmade electric guitar maker \"Caramel's Guitar Kitchen\" (*CGK) has announced the 23rd consecutive 24-month release of new prototypes. The announced ``PT23_Cruise&Drive Ivory'' is an original shape similar to the 22nd edition, with an ivory body inspired by a classic touring car and black checkered stitching. The 40mm thick alder body is coated with polyurethane, has a gold anodized pickguard, and is equipped with CGK's unique CRUISE/DRIVE selector that changes the \"thickness of the sound\" and DAY/NIGHT selector that changes the \"resonance of the midrange,\" allowing you to enjoy a variety of sound variations."
+    },
+    {
+      "id": "9857945af257b3ea",
+      "title": "水瀬いのり、TVアニメ『ペンと手錠と事実婚』OPテーマ「未解決で、ロマンスで。」収録SGリリース決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167646",
+      "publishedAt": "2026-11-21T03:30:00.000Z",
+      "excerpt": "水瀬いのりが、14枚目のシングル『未解決で、ロマンスで。』を2027年1月27日にリリースすること",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167646/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Inori Minase, TV anime “Pen, handcuffs and common-law marriage” opening theme “Unresolved, romance.” SG release decided",
+      "translatedExcerpt": "Inori Minase releases her 14th single ``Unresolved, Romance.'' ” to be released on January 27, 2027."
+    },
     {
       "id": "fa58437439665791",
       "title": "JUN SKY WALKER(S)主催フェス＜電撃BEPPU＞、第5弾発表にザ・クロマニヨンズとSIX LOUNGE",
@@ -9690,7 +9728,7 @@
       "title": "Japan Startup Brain Implant Lets Paralyzed Patients Communicate Through Thoughts",
       "link": "https://news.sankakucomplex.com/n/EJYiWl2VISA9fyKRIT6dFA",
       "publishedAt": "2026-11-16T20:03:44.000Z",
-      "excerpt": "A Japanese startup is preparing to begin clinical trials of a brain implant that could allow severely paralyzed patients to communicate and operate electronic devices using only their thoughts, with the company hoping to bring the technology to market by 2030.",
+      "excerpt": "A Japanese startup is preparing to begin clinical trials of a brain implant that could allow severely paralyzed patients to communicate and operate electronic devices using only their thoughts, with the company hoping to bring the technology to market by 2030. The Osaka University startup, JiMED,…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18368,42 +18406,6 @@
       },
       "translatedTitle": "[Billboard] Yukito Ayatsuji's \"Murder in the Decagonal House\" tops the Showa chart for 13 consecutive weeks, Maxine Hong Kingston/Kazuko Fujimoto's \"Woman Warrior of Chinatown\" debuts",
       "translatedExcerpt": "Chart by year “Billboard JAPAN Showa Books”"
-    },
-    {
-      "id": "59b6a2e1a7e51365",
-      "title": "【ビルボード】遠藤達哉『SPY×FAMILY 18巻』が“Hot Manga”1位に輝く ダンダダン／SAKAMOTO DAYSの最新刊が続く",
-      "link": "https://www.billboard-japan.com/d_news/detail/167387",
-      "publishedAt": "2026-11-12T05:00:00.000Z",
-      "excerpt": "2026年11月12日公開（集計期間：2026年11月2日～11月8日）Billboard JAP",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167387/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard] Tatsuya Endo's \"SPY×FAMILY Volume 18\" ranks first in \"Hot Manga\" The latest editions of Dandadan/SAKAMOTO DAYS continue",
-      "translatedExcerpt": "Released on November 12, 2026 (Aggregation period: November 2, 2026 - November 8, 2026) Billboard JAP"
-    },
-    {
-      "id": "3613b6771c14ee60",
-      "title": "Hiroko Moriguchi Shares City Hunter TV Anime Ending Song \"Get Wild\" Cover Music Video",
-      "link": "https://crunchyroll.com/news/latest/2026/11/12/hiroko-moriguchi-city-hunter-tv-anime-ending-song-get-wild-cover-music-video",
-      "publishedAt": "2026-11-12T04:39:00.000Z",
-      "excerpt": "\"ANISON COVERS 3\" album hits stores on December 16",
-      "image": "https://a.storyblok.com/f/178900/960x540/b878aacce6/hiroko-moriguchi-get-wild-cover-mv.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T05:31:42.793Z",
+  "generatedAt": "2026-11-22T06:01:45.880Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 253,
+      "count": 255,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 81,
+      "count": 79,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,48 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 607,
+    "translatedJapaneseArticles": 609,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "7edcae825ccc390e",
+      "title": "GENERATIONS、ツアー【PARALLEL QUEST】映像作品化 Saucy Dog／CUTIE STREET／[Alexandros]と対バンへ",
+      "link": "https://www.billboard-japan.com/d_news/detail/167660",
+      "publishedAt": "2026-11-22T06:00:00.000Z",
+      "excerpt": "GENERATIONSが、2027年2月17日にLIVE DVD＆Blu-ray『GENERATI",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167660/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "GENERATIONS tour [PARALLEL QUEST] video production with Saucy Dog/CUTIE STREET/[Alexandros]",
+      "translatedExcerpt": "GENERATIONS will release LIVE DVD & Blu-ray “GENERATI” on February 17, 2027."
+    },
+    {
+      "id": "bae48d17e33af20d",
+      "title": "AI、ニューアルバム『Who&#039;s AI』リリース＆全国ツアーへ",
+      "link": "https://www.billboard-japan.com/d_news/detail/167661",
+      "publishedAt": "2026-11-22T05:40:00.000Z",
+      "excerpt": "AIが、2027年2月にニューアルバム『Who&#039;s AI』（読み：フーイズエーアイ）をリリースする",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167661/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "AI releases new album “Who’s AI” and goes on national tour",
+      "translatedExcerpt": "AI will release new album “Who’s AI” in February 2027"
+    },
     {
       "id": "3abad2c94627a7db",
       "title": "Hello Kitty would like to be squeezed between your thighs in her new plushie form [Pics]",
@@ -18346,40 +18384,6 @@
       },
       "translatedTitle": "Duran Duran's Roger Taylor leaves the band due to tinnitus",
       "translatedExcerpt": "On November 12, 2026 local time, Duran Duran's longtime drummer Roger Taylor recently announced"
-    },
-    {
-      "id": "bf0299a2d43aef64",
-      "title": "Rare Diamond Dust Appears in Hokkaido as Japan Records Earliest -20C Temperature",
-      "link": "https://news.sankakucomplex.com/n/HACYuB2DdJrAKf9dWH4cJQ",
-      "publishedAt": "2026-11-13T00:00:13.000Z",
-      "excerpt": "A rare atmospheric phenomenon known as “diamond dust” appeared in Japan’s northernmost prefecture of Hokkaido on November 11, as temperatures plunged to a record-breaking -20.2°C (-4.4°F), marking the earliest date Japan has ever recorded temperatures below -20°C.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "58e33a6af312fac8",
-      "title": "Rare Diamond Dust Appears in Hokkaido as Japan Records Earliest -20C Temperature",
-      "link": "https://news.sankakucomplex.com/n/las8J0voHb2ptYHtIolpXQ",
-      "publishedAt": "2026-11-13T00:00:13.000Z",
-      "excerpt": "A rare atmospheric phenomenon known as “diamond dust” appeared in Japan’s northernmost prefecture of Hokkaido on November 11, as temperatures plunged to a record-breaking -20.2°C (-4.4°F), marking the earliest date Japan has ever recorded temperatures below -20°C. The extraordinary cold was obser…",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
     }
   ]
 }

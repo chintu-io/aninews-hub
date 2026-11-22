@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T18:02:46.981Z",
+  "generatedAt": "2026-11-22T18:32:49.464Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,10 +91,10 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 142,
+      "count": 143,
       "imageEnrichment": {
         "attempted": 40,
-        "resolved": 40
+        "resolved": 39
       },
       "fetchedCount": 40
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 212,
+      "count": 210,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 79,
+      "count": 80,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 594,
+    "translatedJapaneseArticles": 593,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "3bbd3bf1128ca095",
+      "title": "Uma Musume & Denver Broncos Collaboration Featured on 9NEWS",
+      "link": "https://news.sankakucomplex.com/n/Di5-I5dey7mUeh0IQFSslg",
+      "publishedAt": "2026-11-22T18:23:29.000Z",
+      "excerpt": "The unlikely partnership between Uma Musume: Pretty Derby and the Denver Broncos has attracted attention from local television station 9NEWS, with footage of the broadcast spreading across social media.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "92972f8e86d444c3",
+      "title": "Chainsaw Man, Jujutsu Kaisen, More Manga Rank on NYT November Bestseller List",
+      "link": "https://www.animenewsnetwork.com/daily-briefs/2026-11-22/chainsaw-man-jujutsu-kaisen-more-manga-rank-on-nyt-november-bestseller-list/.244054",
+      "publishedAt": "2026-11-22T18:15:00.000Z",
+      "excerpt": "The 22nd volume of Tatsuki Fujimoto's Chainsaw Man manga ranked at #4 on The New York Times' monthly Graphic Books and Manga bestseller list released in...",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gL1/cms/daily-briefs/244054/713pf8p6eyl.sl1500.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "bbf558a5cb90f510",
       "title": "Sakamoto Days Manga Ends in Weekly Shonen Jump",
@@ -187,7 +221,7 @@
     {
       "id": "cb7123da918432a0",
       "title": "Chainsaw Man Ranks #2 on Bookscan's October Adult Graphic Novel List in U.S.",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-21/chainsaw-man-ranks-no.2-on-bookscan-october-adult-graphic-novel-list-in-u.s/.244062",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-22/chainsaw-man-ranks-no.2-on-bookscan-october-adult-graphic-novel-list-in-u.s/.244062",
       "publishedAt": "2026-11-22T17:15:00.000Z",
       "excerpt": "13 manga volumes including Jujutsu Kaisen, The Summer Hikaru Died, The Guy She Was Interested In Wasn't a Guy at All, Dandadan, Phantom Busters, Demon Slayer, One Piece make list",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gL1/cms/daily-briefs/244054/713pf8p6eyl.sl1500.jpg",
@@ -766,7 +800,7 @@
       "link": "https://www.animenewsnetwork.com/news/2026-11-22/4-piece-band-subway-daydream-disbands/.244080",
       "publishedAt": "2026-11-22T11:00:00.000Z",
       "excerpt": "Band performed opening theme song of \"Ippon\" Again! anime in 2023",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHW/cms/news.10/244080/subway.jpg",
+      "image": "",
       "source": {
         "id": "ann",
         "name": "Anime News Network",
@@ -18316,44 +18350,6 @@
       },
       "translatedTitle": "Billboard Annual Book Chart Announcement Commemoration Campaign Held at More than 170 Bookstores and Libraries Nationwide, Some Special Corners Also Available",
       "translatedExcerpt": "To commemorate the announcement of Billboard Japan's first annual book chart, it will be available at bookstores and libraries nationwide from November 15th."
-    },
-    {
-      "id": "9bd7152d03a381f3",
-      "title": "リアルピース・かちょー、プロレスデビュー戦でシバターと激突",
-      "link": "https://barks.jp/news/1104094",
-      "publishedAt": "2026-11-13T09:00:00.000Z",
-      "excerpt": "5人組アイドルグループ「リアルピース」のメンバー・かちょーが、2027年1月13日（水）に東京・後楽園ホールで開催される『愛媛プロレス 東京興行in後楽園ホール』にて、プロレスデビュー戦に臨むこととなった。石鎚山太郎とタッグを結成し、シバター＆石川修司組と対戦するというカードだ。 リアルピースは、2026年11月3日（火・祝）にLaLa arena TOKYO-BAYで開催した4thワンマンライブ「地図に無い場所」にて、11,000人の観客を前に、かちょーのプロレスデビューを発表していた。幼少期から家族とともにプロレスを観戦し、地元で開催された興行にも足を運んでいたというかちょーだが、小学2年生から中学2年生までは空手に取り組み、現在も趣味としてサンドバッグを打つなど、格闘技に親しんできたという。 今回対…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/13091428/%E3%81%8B%E3%81%A1%E3%82%87%E3%83%BC_%E3%82%B7%E3%83%90%E3%82%BF%E3%83%BC_%E5%AE%A3%E6%9D%90%E5%86%99%E7%9C%9F-1024x683.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Real Peace Kacho clashes with Shibata in pro wrestling debut",
-      "translatedExcerpt": "Kacho, a member of the five-member idol group \"Real Peace,\" will make his professional wrestling debut at \"Ehime Pro-Wrestling Tokyo Performance in Korakuen Hall\" to be held at Korakuen Hall in Tokyo on Wednesday, January 13, 2027. This is a card in which he forms a tag team with Yamataro Ishizuchi and faces off against Shibata and Shuji Ishikawa. Real Peace announced Kacho's professional wrestling debut in front of an audience of 11,000 at their 4th one-man live ``A Place Not on the Map'' held at LaLa arena TOKYO-BAY on Tuesday, November 3, 2026 (holiday). Kacho has been watching professional wrestling with his family since he was a child and attending local shows, but from the second year of elementary school to the second year of junior high school he practiced karate, and even now he still enjoys martial arts, such as hitting a punching bag as a hobby. This time vs..."
-    },
-    {
-      "id": "cccaa489e49d6d56",
-      "title": "山下大輝、2nd EPを引っ提げたワンマンライブ＜Dive in !＞開催決定",
-      "link": "https://barks.jp/news/1104212",
-      "publishedAt": "2026-11-13T09:00:00.000Z",
-      "excerpt": "山下大輝が、2027年4月4日に東京・EX THEATER ROPPONGIにて開催する＜山下大輝 LIVE 2027 “Dive in !”＞について、詳細情報を解禁した。 本公演は、11月1日に開催された＜Daiki Yamashita 2026 DAIKING Festa Vol.5 “Wander & Wonder”＞内で情報解禁されていたが、公演時間などの詳細情報が公開され、DAIKI YAMASHITA OFFICIAL MEMBER’S CLUB「DAIKING」会員を対象とした抽選先行受付情報も発表された。 2021年に「Tail」でアーティストデビューし、今年5周年を迎えた山下大輝。2023年には初のワンマンライブ＜山下大輝 1st LIVE 2023 “from here”＞を開催。そ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/13143553/Artist-Photo-1024x768.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Daiki Yamashita will hold a one-man live <Dive in!> featuring his 2nd EP",
-      "translatedExcerpt": "Daiki Yamashita has released detailed information about <Daiki Yamashita LIVE 2027 “Dive in!”> to be held at EX THEATER ROPPONGI in Tokyo on April 4, 2027. Information on this performance was released during <Daiki Yamashita 2026 DAIKING Festa Vol.5 “Wander & Wonder” held on November 1st, but detailed information such as performance time has been released, and information on advance lottery reception for DAIKI YAMASHITA OFFICIAL MEMBER’S CLUB “DAIKING” members has also been announced. Daiki Yamashita made his artist debut with “Tail” in 2021 and celebrated his 5th anniversary this year. In 2023, he will hold his first one-man live <Daiki Yamashita 1st LIVE 2023 “from here”>. So…"
     }
   ]
 }

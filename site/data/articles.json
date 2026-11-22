@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T17:31:52.585Z",
+  "generatedAt": "2026-11-22T18:02:46.981Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 101,
+      "count": 102,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 143,
+      "count": 142,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 595,
+    "translatedJapaneseArticles": 594,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "bbf558a5cb90f510",
+      "title": "Sakamoto Days Manga Ends in Weekly Shonen Jump",
+      "link": "https://crunchyroll.com/news/latest/2026/11/22/sakamoto-days-manga-ends",
+      "publishedAt": "2026-11-22T17:33:00.000Z",
+      "excerpt": "The manga series originally premiered in November 2020",
+      "image": "https://a.storyblok.com/f/178900/1000x730/583b888e04/sakamoto-days.jpeg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "cb7123da918432a0",
       "title": "Chainsaw Man Ranks #2 on Bookscan's October Adult Graphic Novel List in U.S.",
@@ -18337,25 +18354,6 @@
       },
       "translatedTitle": "Daiki Yamashita will hold a one-man live <Dive in!> featuring his 2nd EP",
       "translatedExcerpt": "Daiki Yamashita has released detailed information about <Daiki Yamashita LIVE 2027 “Dive in!”> to be held at EX THEATER ROPPONGI in Tokyo on April 4, 2027. Information on this performance was released during <Daiki Yamashita 2026 DAIKING Festa Vol.5 “Wander & Wonder” held on November 1st, but detailed information such as performance time has been released, and information on advance lottery reception for DAIKI YAMASHITA OFFICIAL MEMBER’S CLUB “DAIKING” members has also been announced. Daiki Yamashita made his artist debut with “Tail” in 2021 and celebrated his 5th anniversary this year. In 2023, he will hold his first one-man live <Daiki Yamashita 1st LIVE 2023 “from here”>. So…"
-    },
-    {
-      "id": "f89194ccfaeeab61",
-      "title": "幽体コミュニケーションズ、1年を振り返るワンマンライブを開催",
-      "link": "https://ototoy.jp/news/132782",
-      "publishedAt": "2026-11-13T09:00:00.000Z",
-      "excerpt": "幽体コミュニケーションズが、2026年12月12日(土)に神保町試聴室にてワンマンライブ『Forget 2026』を開催する。 2026年9月に2ndフルアルバム『忘 れて』をリリースし、10月に開催した渋谷WWWでのワンマンライブも盛況のうちに幕を閉じた幽体コミュニケーションズ。 本公演は「2026年を振り返る」をテーマに、普段とは一味違った特別なライブを届ける。チケットは現在発売中。 また、先日開催された渋谷WWWでのワンマンライブより、シンリズムをゲストに迎えて披露した『Ghost diary』のライブ映像もYouTubeにて公開されている。 コメント paya(Vo,Gt) ライブ情報 【チケット料金】 一般4,000円（税込） チケット詳細はこちら：https://t-dv.com/shicho…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132782/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Ghost Communications holds a one-man live to look back on the past year",
-      "translatedExcerpt": "Ghost Communications will hold a one-man live \"Forget 2026\" at Jimbocho Listening Room on Saturday, December 12, 2026. Ghostly Communications released their second full-length album ``Forget'' in September 2026, and their one-man live at Shibuya WWW in October ended with great success. This performance will deliver a special live performance that is a little different from the usual, with the theme of \"Looking back on 2026.\" Tickets are on sale now. In addition, a live video of \"Ghost diary\", which was performed with Shinrhythm as a guest, from the one-man live at Shibuya WWW held the other day, is also available on YouTube. Comments paya(Vo,Gt) Live information [Ticket price] General 4,000 yen (tax included) Click here for ticket details: https://t-dv.com/shicho…"
     }
   ]
 }

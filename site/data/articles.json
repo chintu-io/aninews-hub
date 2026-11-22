@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T07:02:00.246Z",
+  "generatedAt": "2026-11-22T07:32:02.953Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 96,
+      "count": 95,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 79,
+      "count": 80,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,23 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "bdcb25e101f2265c",
+      "title": "CLANNAD Café Sparks Backlash Over $14 Fish Dinner",
+      "link": "https://news.sankakucomplex.com/n/jZbdX9x4sZ0t27FwzqtMaw",
+      "publishedAt": "2026-11-22T07:00:08.000Z",
+      "excerpt": "An upcoming CLANNAD collaboration café celebrating Nagisa Furukawa’s birthday in Japan has attracted criticism after revealing a ¥2,200 ($14) fish dinner, with fans questioning why an ordinary-looking Japanese meal costs so much.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "b38cfc9eb8607de6",
       "title": "氷川きよし、ギタリスト・斉藤功とのセッションを収めた「ほど酔い酒（ギター・バージョン）」プロモーション映像公開",
@@ -208,7 +225,7 @@
     {
       "id": "e42240fe0946187f",
       "title": "The Detective is Already Dead Anime's 2nd Season Reveals Trailer, Visual for New Arc",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-21/the-detective-is-already-dead-anime-2nd-season-reveals-trailer-visual-for-new-arc/.244074",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-22/the-detective-is-already-dead-anime-2nd-season-reveals-trailer-visual-for-new-arc/.244074",
       "publishedAt": "2026-11-22T06:00:00.000Z",
       "excerpt": "New season debuted on October 7",
       "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gG2/cms/news.10/244074/detective-is-already-dead-visual.jpg",
@@ -18365,23 +18382,6 @@
       },
       "translatedTitle": "Macaroni Pencil releases “Fate Search” MV making video",
       "translatedExcerpt": "Macaroni Pencil has released the making video of the music video for their new song \"Fate Sagashi\". Masuda"
-    },
-    {
-      "id": "f06cb0a8ae4ddfa4",
-      "title": "OROCHI -Seventh Echoes- Original Anime Movie Releases Pilot Film",
-      "link": "https://crunchyroll.com/news/latest/2026/11/13/orochi-seventh-echoes-original-anime-movie-pilot-film",
-      "publishedAt": "2026-11-13T01:10:00.000Z",
-      "excerpt": "Takashi Nakamura handles the original concept, direction, character design and art design",
-      "image": "https://a.storyblok.com/f/178900/960x540/db917c4408/orochi-seventh-echoes-pilot-film.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

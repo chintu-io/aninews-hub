@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T14:31:42.696Z",
+  "generatedAt": "2026-11-22T15:01:49.990Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 242,
+      "count": 241,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 213,
+      "count": 214,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 602,
+    "translatedJapaneseArticles": 601,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "ae0c6df0a82eecef",
+      "title": "チャットモンチー、メジャーデビュー21周年記念に2009年開催のライブ音源をサプライズ配信",
+      "link": "https://barks.jp/news/1106059",
+      "publishedAt": "2026-11-22T15:00:00.000Z",
+      "excerpt": "チャットモンチーが、メジャーデビュー21周年を記念し、2009年にZepp Tokyoにて開催した『WASH THE LIVEHOUSE ’09@Zepp Tokyo』のライブ音源を本日配信リリースした。 今回音源化されたのは、3rdアルバム『告白』リリース後の2009年7月5日にZepp Tokyoで行われた全国ツアー＜いま一度ライブハウスを洗濯し申す！ツアー＞のファイナル公演だ。ライブならではの迫力あるサウンドと会場の熱気をそのまま収めた内容となっており、会場の臨場感を追体験できる作品に仕上がっているという。 また、『WASH THE LIVEHOUSE ’09@Zepp Tokyo』は、2日間限定でライブフィルムが映画館でプレミアム上映されることが決まっており、11月29日に北海道、東京、神奈川、愛…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2025/11/23150912/Chatmonchy_A-Photomain.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Chatmonchy surprises live recording from 2009 to commemorate 21st anniversary of major debut",
+      "translatedExcerpt": "To commemorate the 21st anniversary of their major debut, Chatmonchy released today the live sound source of \"WASH THE LIVEHOUSE '09@Zepp Tokyo\" held at Zepp Tokyo in 2009. This time, the sound source was released after the release of the 3rd album ``Confession'', which was held at Zepp Tokyo on July 5, 2009, during the national tour ``Imaidai Live House Washi Shinsai!''. This is the final performance of the tour. The content captures the powerful sound unique to a live performance and the excitement of the venue, making it a work that allows you to relive the feeling of being at the venue. In addition, it has been decided that “WASH THE LIVEHOUSE ’09@Zepp Tokyo” will have a premium screening of the live film at movie theaters for a limited time of two days, and will be screened in Hokkaido, Tokyo, Kanagawa, Ai…"
+    },
     {
       "id": "c71b71e553304e4a",
       "title": "Link Click Season 3 Releases Part Two Trailer and Visual",
@@ -18349,25 +18368,6 @@
       },
       "translatedTitle": "Graupel releases artwork and tracklist for 2nd album “EXHALE”",
       "translatedExcerpt": "Graupel, who is active in Tokyo's metalcore/loud scene, will release his 2nd full album in January 2027."
-    },
-    {
-      "id": "51bab4b38b51e2b0",
-      "title": "マカロニえんぴつ、TikTokで“「運命さがし」生配信特番”を11/13実施",
-      "link": "https://www.billboard-japan.com/d_news/detail/167434",
-      "publishedAt": "2026-11-13T06:50:00.000Z",
-      "excerpt": "マカロニえんぴつが、本日11月13日20時より公式TikTokアカウントにて&ldquo;「運命さ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167434/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Macaroni Pencil will hold “Fate Search” live streaming special on TikTok on November 13th",
-      "translatedExcerpt": "Macaroni Pencil will be posting on their official TikTok account from 20:00 today, November 13th, “Fate is..."
     }
   ]
 }

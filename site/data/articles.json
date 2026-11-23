@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T16:02:11.557Z",
+  "generatedAt": "2026-11-23T16:31:48.114Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 48,
+      "count": 49,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 146,
+      "count": 145,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 102,
+      "count": 103,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 38,
+      "count": 39,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 235,
+      "count": 234,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 207,
+      "count": 206,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,61 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 580,
+    "translatedJapaneseArticles": 578,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "8d3e16018f64cde2",
+      "title": "Akane-banashi Season 2 Anime Premieres on January 9, 2027",
+      "link": "https://crunchyroll.com/news/latest/2026/11/23/akane-banashi-season-2-anime-january-9-2027-premiere",
+      "publishedAt": "2026-11-23T16:24:00.000Z",
+      "excerpt": "Ayumu Watanabe will continue to direct the series at studio ZEXCS",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/4a8283a00a/akane-banashi-pv-still.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "c1e1e58027fe6fd1",
+      "title": "Tomb festival in Osaka holds qualifying tyrannosaurus race and ancient clay sculpture chase",
+      "link": "https://soranews24.com/2026/11/24/tomb-festival-in-osaka-holds-qualifying-tyrannosaurus-race-and-ancient-clay-sculpture-chase/",
+      "publishedAt": "2026-11-23T16:00:20.000Z",
+      "excerpt": "Ready to unpack all that? Monday 23 November is a public holiday in Japan, creating a long weekend this year, which is always a good time to hold a major event. In Osaka, that meant it was time once again for Kofun Fest Hanicotto, a regional festival celebrating ancient Japanese graves at Imajozuka Kofun Park. […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/main_df3c8e.png?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "58c8af1842d8e7a4",
+      "title": "'Psyren' Announces Supporting Cast",
+      "link": "https://myanimelist.net/news/74973042?_location=rss",
+      "publishedAt": "2026-11-23T15:56:00.000Z",
+      "excerpt": "The official X (formerly Twitter) account for the television anime adaptation of Toshiaki Iwashiro's Psyren manga announced supporting cast on Monday. The anime series premiered on October 5 at 11.00 p.m. on Tokyo MX, followed by BS11 and Sun TV. Cast Kagetora Hyoudou: Takaya Kuroda (Mairimashita! Iruma-kun) Ian: Wataru Komada (One Punch Man 3) Kyle Tenju…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1795449241-3a9c8c48a2d0f37bf6c7354ad5014ca1.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
     {
       "id": "acce5c1a6c4c85a3",
       "title": "Ryosuke Yamada、JEONGHAN(SEVENTEEN)とコラボ実現。デジタルシングル「Afterglow」配信決定",
@@ -463,7 +514,7 @@
         "language": "ja"
       },
       "translatedTitle": "TOMOO will release a sing-along mini album and a nationwide sing-along tour in the spring of 2027. The final was held at Budokan for the second time.",
-      "translatedExcerpt": "It has been decided that TOMOO will release a singing and singing mini album in the spring of 2027. Furthermore, it was announced that a nationwide singing tour <TOMOO singing tour 2027 “HERE RIVER HEAR” will be held from April 2027. 弾き語りツアーの初日は4月3日（土）の東京・J:COMホール八王子公演から始まり、各地のホールを周り、ツアーファイナルは6月25日（金）に日本武道館にて開催される。 This will be TOMOO's second solo performance at Nippon Budokan, and the first time they will perform with vocals. Pre-order tickets for the FC have started and are being accepted until 23:59 on Tuesday, December 1st. For details on how to purchase and the venue, please check TOMOO's official website and SNS. In addition, details such as the songs included in the singing mini album and the jacket photo will be announced at a later date..."
+      "translatedExcerpt": "It has been decided that TOMOO will release a singing and singing mini album in the spring of 2027. Furthermore, it was announced that a nationwide singing tour <TOMOO singing tour 2027 “HERE RIVER HEAR” will be held from April 2027. The first day of the singing and singing tour will begin with a performance at J:COM Hall Hachioji in Tokyo on Saturday, April 3rd, and will tour various halls, with the final tour being held at Nippon Budokan on Friday, June 25th. This will be TOMOO's second solo performance at Nippon Budokan, and the first time they will perform with vocals. Pre-order tickets for the FC have started and are being accepted until 23:59 on Tuesday, December 1st. For details on how to purchase and the venue, please check TOMOO's official website and SNS. In addition, details such as the songs included in the singing mini album and the jacket photo will be announced at a later date..."
     },
     {
       "id": "49ea88d7ea80f42f",
@@ -7131,7 +7182,7 @@
         "language": "ja"
       },
       "translatedTitle": "Mae Simones releases new song \"Kira Kira\" expressing love through Japanese onomatopoeia",
-      "translatedExcerpt": "Mei Semones has released \"Kira Kira,\" the third lead single from her major debut album \"Howl,\" which will be released on January 15, 2027 via Verve/Interscope. A visualizer for the song was also released. The band's second lead single, ``2 Hands,'' released last month, received a lot of attention, with Stereogum calling it a ``beautiful song'' and being selected as one of Rolling Stone's ``Song You Need to Know.'' The following song, ``Kira Kira,'' incorporates unique Japanese onomatopoeia such as ``Korokoro'', ``Niko Nico'', ``Pika Pika'', and ``Fuwa Fuwa'' to playfully express the feeling of being in love. Regarding “Kira Kira”, Mei said, “..."
+      "translatedExcerpt": "Mei Semones has released \"Kira Kira,\" the third lead single from her major debut album \"Howl,\" which will be released on January 15, 2027 via Verve/Interscope. A visualizer for the song was also released. The band's second lead single, ``2 Hands,'' released last month, received a lot of attention, with Stereogum calling it a ``beautiful song'' and being selected as one of Rolling Stone's ``Song You Need to Know.'' The following song, ``Kira Kira,'' incorporates unique Japanese onomatopoeias such as ``Korokoro'', ``Niko Nico'', ``Pika Pika'', and ``Fuwa Fuwa'' to playfully express the feeling of being in love. Regarding “Kira Kira”, Mei said, “..."
     },
     {
       "id": "fd4e273f639f2eb0",
@@ -18271,61 +18322,6 @@
       },
       "translatedTitle": "Reina Washio's new song \"Miharashi\" will be released. 15th anniversary special playlist selected by himself has also been released.",
       "translatedExcerpt": "Reina Washio, who celebrated her 15th anniversary since her debut this year, released her new song ``Miharashi'' today, November 13th (Friday). Since his debut in 2011, Washio has been active as a member of Flower and E-girls, and currently works as a solo artist. This work was written and composed by singer-songwriter Jaku Nakajima, and is a song that depicts the future that extends beyond the steps taken so far and the possibilities for oneself. The song expresses hope for the future through the way the scenery changes depending on the situation and state of mind at the time. The song conveys the message that even if the scenery in front of you is cloudy, it will not last forever, and it also conveys the desire to believe in your own potential and move forward through encounters and partings with people, hesitations and conflicts. Washio has a wealth of experience and has the persuasive power and transparency that make him the core..."
-    },
-    {
-      "id": "7574523ba532b992",
-      "title": "Purge List Webtoon's Live-Action Film Adaptation Begins Production for 2027 Release",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-13/purge-list-webtoon-live-action-film-adaptation-begins-production-for-2027-release/.243551",
-      "publishedAt": "2026-11-13T14:15:00.000Z",
-      "excerpt": "Historical action film will star Woo-sung Jung as ruthless power broker",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gI7/cms/news.9/237722/resource-3.jfif.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "146a4fe38aab46e9",
-      "title": "OCTPATH、ニューアルバム『5mile』ハイライトメドレーに全12曲を凝縮",
-      "link": "https://www.billboard-japan.com/d_news/detail/167457",
-      "publishedAt": "2026-11-13T14:05:00.000Z",
-      "excerpt": "OCTPATHが、結成5周年記念日の2026年11月18日にリリースとなるニューアルバム『5mil",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167457/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "OCTPATH ​​condenses all 12 songs into highlight medley of new album “5mile”",
-      "translatedExcerpt": "OCTPATH ​​will release their new album “5mil” on November 18, 2026, the 5th anniversary of their formation."
-    },
-    {
-      "id": "caf2bdec342c9ee9",
-      "title": "音田雅則、高校3年生の冬に書いたラブソング「恋のせい」MV公開。『ダウンタイム』出演の天野はなが切ない恋模様を演じる",
-      "link": "https://barks.jp/news/1104448",
-      "publishedAt": "2026-11-13T14:03:10.000Z",
-      "excerpt": "音田雅則が、高校3年生の冬に書いたラブソング「恋のせい」のMVを公開した。 「恋のせい」は、ファンの間では長らく音源化が待ち望まれていた楽曲で、恋する気持ちをまっすぐに描いた歌詞と、温もりを感じさせるメロディーが印象的なミディアムナンバーだ。高校生だった音田が紡いだ恋の情景が、23歳となった今リリースされ、MVという新たな形で届けられる。 MVには、Netflixシリーズ『ダウンタイム』でも話題の女優・天野はなが出演。繊細な感情を映し出すその表情は、楽曲が持つピュアな世界観に切なさと奥行きを与えている。音田の甘美な歌声とともに、言葉だけでは伝えきれない恋の感情を感じてほしい。 「恋のせい」2026年10月21日 リリースhttps://lnk.to/koinosei ＜音田雅則 One Man Tour…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/13230230/2-15.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Masanori Onda releases the music video for ``Koi no Sei'', a love song he wrote in the winter of his third year of high school. Hana Amano, who appears in \"Downtime\", plays a sad love story",
-      "translatedExcerpt": "Masanori Onda has released the music video for ``Koi no Sei'', a love song he wrote during the winter of his third year of high school. ``Koi no Sei'' is a song that fans have been waiting for for a long time to make into an audio source.It is a medium number with impressive lyrics that directly depict the feeling of being in love and a melody that makes you feel warmth. The love scene spun by Onda when he was a high school student has been released now at the age of 23, and delivered in a new form as a music video. The music video features actress Hana Amano, who is also popular for her role in the Netflix series \"Downtime.\" The facial expressions that reflect delicate emotions add sadness and depth to the pure world view of the song. I want you to feel the feelings of love that cannot be conveyed through words alone, along with Onda's sweet singing voice. “Koi no Sei” Released on October 21, 2026 https://lnk.to/koinosei <Masanori Onda One Man Tour…"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T20:01:58.308Z",
+  "generatedAt": "2026-11-23T20:31:45.584Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 49,
+      "count": 48,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 146,
+      "count": 145,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 102,
+      "count": 103,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 234,
+      "count": 235,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 576,
+    "translatedJapaneseArticles": 577,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "1669e26289be8c69",
+      "title": "The Apothecary Diaries Season 3, Episode 8 Recap, “Hemp and Folk Religion”",
+      "link": "https://crunchyroll.com/news/features/2026/11/23/the-apothecary-diaries-season-3-episode-8-recap",
+      "publishedAt": "2026-11-23T20:30:00.000Z",
+      "excerpt": "The road trip continues",
+      "image": "https://a.storyblok.com/f/178900/960x540/ed57a4d5bd/the-apothecary-diaries-season-3-episode-8.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "8a88550d4fd14233",
+      "title": "【グラミー賞】＜年間最優秀レコード＞部門の全ノミネート曲がNo.1ヒットだった年を振り返る",
+      "link": "https://www.billboard-japan.com/d_news/detail/167684",
+      "publishedAt": "2026-11-23T20:00:00.000Z",
+      "excerpt": "2027年に開催される【第69回グラミー賞】＜年間最優秀レコード＞部門にノミネートされた8曲のうち",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167684/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Grammy Awards] Looking back at the year in which all nominated songs in the Record of the Year category were No. 1 hits",
+      "translatedExcerpt": "Among the 8 songs nominated for the ``Best Record of the Year'' category at the 69th Grammy Awards to be held in 2027."
+    },
     {
       "id": "32cc5954a55a0568",
       "title": "GTA VI Privacy Policy Allows Rockstar to Collect Players’ Addresses, Locations & Personal Info",
@@ -18282,40 +18318,6 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "4927799735ce5eca",
-      "title": "Aquaman Romance Webtoon Gets Japanese Live-Action Series Premiering on December 25",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-13/aquaman-romance-webtoon-gets-japanese-live-action-series-premiering-on-december-25/.243785",
-      "publishedAt": "2026-11-13T15:15:00.000Z",
-      "excerpt": "Story explores main characters' changing feelings as they confront emotions they had not previously recognized",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gO9/cms/news.10/243785/akr20261112040700005-02-i-p4.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "71509a7bc690cfbd",
-      "title": "Ichiran releases an at-home counter kit that turns your desk into a ramen restaurant",
-      "link": "https://soranews24.com/2026/11/14/ichiran-releases-an-at-home-counter-kit-that-turns-your-desk-into-a-ramen-restaurant/",
-      "publishedAt": "2026-11-13T15:00:25.000Z",
-      "excerpt": "Iconic ramen chain brings out an exclusive product so you can fully focus on the taste of the noodles. Amongst all the many ramen restaurants in Japan, Ichiran stands out for its unique dining experience, where customers sit at a long counter with private partitions and receive their noodles through a bamboo screen. The unusual […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/Ichiran-Japan-best-ramen-online-shop-at-home-flavour-counter-seating-food-cute-gift-merchandise-souvenir-news-1.jpeg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
         "language": "en"
       }
     }

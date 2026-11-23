@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T23:01:49.614Z",
+  "generatedAt": "2026-11-23T23:31:54.749Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 145,
+      "count": 144,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 235,
+      "count": 236,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 577,
+    "translatedJapaneseArticles": 578,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "493d3b9cd8e372b2",
+      "title": "テイラー・スウィフト、ブレンダ・リーにRIAAダイヤモンド記念パネルをサプライズで贈呈「本当に素晴らしい楽曲」",
+      "link": "https://www.billboard-japan.com/d_news/detail/167685",
+      "publishedAt": "2026-11-23T23:05:00.000Z",
+      "excerpt": "テイラー・スウィフトは、【ロックの殿堂】および【カントリー・ミュージックの殿堂】入りを果たしている",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167685/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Taylor Swift surprises Brenda Lee with RIAA Diamond commemorative panel for ``really great song''",
+      "translatedExcerpt": "Taylor Swift has been inducted into the Rock and Roll Hall of Fame and the Country Music Hall of Fame."
+    },
     {
       "id": "18ce7cfdde9a073c",
       "title": "Atelier Resleriana Trend Revealing Swimsuits Underneath Clothing",
@@ -18301,23 +18320,6 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e509c116acad24d5",
-      "title": "Gifted Baseball Webtoon Gets Live-Action TV Series Adaptation Premiering on December 5",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-13/gifted-baseball-webtoon-gets-live-action-tv-series-adaptation-premiering-on-december-5/.243783",
-      "publishedAt": "2026-11-13T16:15:00.000Z",
-      "excerpt": "Series centers on coach who gains ability to see players' natural talents, limits to their potential",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g44/cms/news.10/243783/images-9.jfif.jpeg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T14:31:43.581Z",
+  "generatedAt": "2026-11-23T15:01:58.559Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 237,
+      "count": 236,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 85,
+      "count": 86,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,23 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "ce3dd322a349fca6",
+      "title": "Crunchyroll News Puzzles Vol. 82: Product Testing and Cold Calling",
+      "link": "https://crunchyroll.com/news/quizzes/2026/11/23/anime-crosswords-puzzles-vol-82",
+      "publishedAt": "2026-11-23T15:00:00.000Z",
+      "excerpt": "Test your anime knowledge with our latest puzzle collection!",
+      "image": "https://a.storyblok.com/f/178900/1600x900/90b789da29/crunchyroll-news-puzzles-header.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "39141e262ca75636",
       "title": "Conveyor belt sushi chain Sushiro quadruples its prices for first branch in America",
@@ -4337,6 +4354,23 @@
         "siteUrl": "https://myanimelist.net/news",
         "category": "Anime News",
         "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "dbd51c15391d36a0",
+      "title": "Manga Artist Alleges Editor’s Abuse Led to Psychiatric Hospitalization",
+      "link": "https://news.sankakucomplex.com/n/KGpJy3Zl2Ttot758ND8AEA",
+      "publishedAt": "2026-11-20T14:41:12.000Z",
+      "excerpt": "Japanese manga artist Marku has accused a former editor at a major publisher of psychological abuse, claiming the mistreatment caused severe mental health problems, temporary hearing loss, and hospitalization.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18292,42 +18326,6 @@
       },
       "translatedTitle": "Ayumu Imazu performs a love song “Musubi” with the motif of “red thread” <THE FIRST TAKE>",
       "translatedExcerpt": "Ayumu Imazu's one-shot performance video \"Ayumu Imazu - Conclusion / THE"
-    },
-    {
-      "id": "e9d8b46f74c28909",
-      "title": "スピッツ企画「SPITZ kettle 通り」、総合住宅展示場でイルミネーション／限定コンテンツなど展開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167455",
-      "publishedAt": "2026-11-13T13:45:00.000Z",
-      "excerpt": "スピッツの企画「SPITZ kettle 通り」が、2026年11月27日～12月27日まで、東京",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167455/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "SPITZ project “SPITZ kettle street” to develop illuminations/limited content at general housing exhibition hall",
-      "translatedExcerpt": "Spitz's project \"SPITZ kettle street\" will be held in Tokyo from November 27th to December 27th, 2026."
-    },
-    {
-      "id": "3895412a70e92baa",
-      "title": "Living It Up in Another World Until I Get Bored TV Anime Announced",
-      "link": "https://crunchyroll.com/news/latest/2026/11/13/living-it-up-in-another-world-until-i-get-bored-tv-anime-announced",
-      "publishedAt": "2026-11-13T13:41:00.000Z",
-      "excerpt": "Adaptation based on isekai fantasy light novel series will broadcast in January 2027",
-      "image": "https://a.storyblok.com/f/178900/960x539/f81a5e7cf3/living_it_up_in_another_world_until_i_get_bored_header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

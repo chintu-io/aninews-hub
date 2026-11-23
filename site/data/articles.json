@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T01:01:44.047Z",
+  "generatedAt": "2026-11-23T01:31:44.360Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 45,
+      "count": 46,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 146,
+      "count": 148,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 238,
+      "count": 237,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 209,
+      "count": 208,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 139,
+      "count": 138,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 586,
+    "translatedJapaneseArticles": 583,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "e641b3eb9d0c25c6",
+      "title": "Krispy Kreme Japan has a new Year of the Ram donut and one more lucky New Year’s treat",
+      "link": "https://soranews24.com/2026/11/23/krispy-kreme-japan-has-a-new-year-of-the-ram-donut-and-one-more-lucky-new-years-treat/",
+      "publishedAt": "2026-11-23T01:00:49.000Z",
+      "excerpt": "Edible eto. Sometimes, Japanese can be a wonderfully concise language. For example, when talking about the representative animals for each year in traditional Asian divination, in English you’d need to say “Chinese Zodiac animals.” In Japanese, though, you can get the same job done with just two syllables, since the members of that zoological Zodiac […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/0_fa7306.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "59e689121543f6c2",
       "title": "マイリー・サイラス、プールサイドの挙式でマックス・モランドと結婚",
@@ -185,6 +202,40 @@
       },
       "translatedTitle": "Miley Cyrus marries Max Morand in poolside ceremony",
       "translatedExcerpt": "On November 21, 2026, local time, Miley Cyrus attended a pool service in Palm Springs, California, USA."
+    },
+    {
+      "id": "c7b17af4a07c985b",
+      "title": "'As a Reincarnated Aristocrat, I'll Use My Appraisal Skill' Season 3's New Video Announces More Cast",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-22/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-season-3-new-video-announces-more-cast/.244094",
+      "publishedAt": "2026-11-23T00:39:33.000Z",
+      "excerpt": "Anna Nagase, Kōsuke Toriumi, Ayumu Murase join series in episode 33",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHE/youtube/elxZeOjE7OE.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "a0908fbde56fda01",
+      "title": "Sakamoto Days Manga Ends",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-22/sakamoto-days-manga-ends/.244098",
+      "publishedAt": "2026-11-23T00:21:13.000Z",
+      "excerpt": "Series debuted in November 2020, with final volume shipping on April 30, 2027",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gEE/cms/news.8/227062/sakamoto-days-volume-1.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "274051abf4d1a329",
@@ -18281,63 +18332,6 @@
       },
       "translatedTitle": "Chanmina sheds a tear ─ MV for “History” from latest album “LEGEND” released",
       "translatedExcerpt": "Chanmina has released the music video for \"History\" from her latest album \"LEGEND\" which was released the other day. The music video is a simple yet amazing video in which Chanmina pours out her emotions in front of an empty band set. It has an emotional finish that fills the viewer's heart at the moment when a single tear begins to flow. \"History\" is an impressive song with Chanmina's vocals that are both powerful and full of determination, and sentimental with pain and sadness. She recorded her vocals during the most difficult period for herself, and has transcended her skill and beauty, calling it ``the most alive vocal of all my songs.'' This song has been used as the theme song for the movie \"First Voice\" starring Haruka Ayase, which is being released on October 2nd, and it is linked to the delicate emotions of the characters and dramatic developments, making it a big..."
-    },
-    {
-      "id": "6ff38eeec3a19129",
-      "title": "ふみの、初のパッケージ作品『僕のすべてを知ってるような君だから』発売決定",
-      "link": "https://barks.jp/news/1104297",
-      "publishedAt": "2026-11-13T10:00:00.000Z",
-      "excerpt": "ふみのが、初のパッケージ作品となる完全生産限定盤『僕のすべてを知ってるような君だから』を、2027年1月11日にUNIVERSAL MUSIC STOREにて限定発売することを発表した。 本作は、2026年9月にデジタルリリースされた1stアルバムをCD＋Blu-rayの2枚組でパッケージ化した作品となり、2026年1月11日のデビューから1周年を迎える日に発売する。 CDには「18」「favorite song」「White lie」「どっちがいい？」「ホットライン」など全11曲がラインナップ。Blu-rayには、今年9月に開催されたふみの初のワンマンライブツアー＜僕のすべてを知ってるような君だから＞の東京・Zepp DiverCity公演の模様を収録する。路上ツアーの延長として弾き語りで披露した未発表…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/01/07195009/%E2%80%BB%E6%A8%AA%E5%9E%8B%E4%BD%BF%E7%94%A8%E2%80%BB%E3%81%B5%E3%81%BF%E3%81%AE_A%E5%86%99.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Fumino's first packaged work \"Because you're like you know everything about me\" will be released",
-      "translatedExcerpt": "Fumino has announced that her first packaged work, the completely limited edition ``Because You Know Everything About Me'', will be released exclusively at UNIVERSAL MUSIC STORE on January 11, 2027. This work is a 2-CD + Blu-ray package of the 1st album that was digitally released in September 2026, and will be released on January 11, 2026, the 1st anniversary of the debut. The CD features a total of 11 songs, including \"18,\" \"favorite song,\" \"White lie,\" \"Which one is better?\" and \"Hotline.\" The Blu-ray will include footage from Fumi's first one-man live tour ``You're the kind of person who knows everything about me'' held at Zepp DiverCity in Tokyo, which was held in September of this year. An unreleased piece performed as an extension of the road tour..."
-    },
-    {
-      "id": "5dc28c24b3d7b313",
-      "title": "奏、新曲「Drop The Mic!!」リリース",
-      "link": "https://ototoy.jp/news/132775",
-      "publishedAt": "2026-11-13T10:00:00.000Z",
-      "excerpt": "奏が最新作「Drop The Mic!!」を2026年11月11日にリリースした。 奏は「マイナビ閃光ライオット2025」ボカロステージでグランプリを受賞し話題となり注目を集める気鋭マルチクリエイター。得意とする強烈な音割れサウンドと星尘Infinityのクリアな歌声が交差する本作では、「動き出した秒針」を軸に時間の中で移ろう感情を描いた。 思い描いた未来が先を往く焦燥感や、気付けなかった過去への後悔。そんな痛みを抱えながらも、理想を具現化して進もうとする心情が綴られている。 軽快でエモーショナルなサウンドと、「僕らは無限大！」という真っ直ぐな肯定感が、背中を晴れやかに押してくれるポジティブな一曲に仕上がっている。 リリース情報 ▼OTOTOY配信中 https://ototoy.jp/_/default…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132775/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Kanade releases new song “Drop The Mic!!”",
-      "translatedExcerpt": "Kanade released his latest work “Drop The Mic!!” on November 11, 2026. Kanade is an up-and-coming multi-creator who has become a hot topic and is attracting attention after winning the Grand Prix on the Vocaloid stage of \"Mynavi Senkou Riot 2025\". In this work, where the strong crackling sound that they are known for intersects with Seiya Infinity's clear singing voice, it depicts the emotions that change over time, centering on the ``second hand that starts moving''. The feeling of frustration that the future you had envisioned is moving ahead of you, and the regret of the past that you didn't notice. It describes his feelings of trying to embody his ideals and move forward despite such pain. The light and emotional sound and the straightforward affirmation of \"We are infinite!\" make it a positive song that will cheer you up. Release information ▼OTOTOY now available https://ototoy.jp/_/default…"
-    },
-    {
-      "id": "193f4f115ef0fcc7",
-      "title": "【先ヨミ・デジタル】Hey! Say! JUMP『Juliet』DLアルバム首位独走中",
-      "link": "https://www.billboard-japan.com/d_news/detail/167439",
-      "publishedAt": "2026-11-13T09:00:00.000Z",
-      "excerpt": "GfK/NIQ Japanによるダウンロード・アルバム売上レポートから、2026年11月9日～11",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167439/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Sen Yomi Digital] Hey! Say! JUMP “Juliet” is currently leading the DL album ranking",
-      "translatedExcerpt": "From the download/album sales report by GfK/NIQ Japan, November 9-11, 2026"
     }
   ]
 }

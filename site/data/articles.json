@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T17:02:18.959Z",
+  "generatedAt": "2026-11-23T17:32:12.391Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 145,
+      "count": 146,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 104,
+      "count": 103,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,7 +163,7 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 577,
+    "translatedJapaneseArticles": 576,
     "translationAttempts": 160
   },
   "articles": [
@@ -181,6 +181,23 @@
         "siteUrl": "https://news.sankakucomplex.com/",
         "category": "Anime & Culture",
         "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "0df3b2128714bf7e",
+      "title": "Akane-banashi Season 2 Announces January 9 Debut",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-23/akane-banashi-season-2-announces-january-9-debut/.244109",
+      "publishedAt": "2026-11-23T16:54:44.000Z",
+      "excerpt": "New season starts streaming on ABEMA, Netflix on January 10",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFD/cms/news.10/243178/ab2-kv-english-r-sm.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -6826,7 +6843,7 @@
       "title": "GetBackers Revival Sparks Backlash Over Suspected AI Animation",
       "link": "https://news.sankakucomplex.com/n/ZzqUjxtusrPMhU7FFwxqcQ",
       "publishedAt": "2026-11-19T20:00:58.000Z",
-      "excerpt": "The return of GetBackers has disappointed fans after its latest trailer raised suspicions of generative AI use, while concerns have also emerged about the original manga artist’s involvement.",
+      "excerpt": "The return of GetBackers has disappointed fans after its latest trailer raised suspicions of generative AI use, while concerns have also emerged about the original manga artist’s involvement. On November 18, the franchise’s official YouTube channel announced that its GetBackers motion-comic serie…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18292,23 +18309,6 @@
       "publishedAt": "2026-11-13T15:00:00.000Z",
       "excerpt": "Tokyo Ghoul still has one of anime’s worst first dates",
       "image": "https://a.storyblok.com/f/178900/960x540/6b16434fab/tokyo-ghoul.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "2027e9ec52af6503",
-      "title": "Chainsaw Man – The Movie: Reze Arc Gets New Visual for Valentine’s Day Event",
-      "link": "https://crunchyroll.com/news/latest/2026/11/13/chainsaw-man-the-movie-reze-arc-valentines-event-visual-cinema-live-2027",
-      "publishedAt": "2026-11-13T14:51:00.000Z",
-      "excerpt": "Composer kensuke ushio will have a special live concert at the event",
-      "image": "https://a.storyblok.com/f/178900/960x540/be7f245ba6/chainsaw-man-reze-arc.jpg",
       "source": {
         "id": "crunchyroll",
         "name": "Crunchyroll News",

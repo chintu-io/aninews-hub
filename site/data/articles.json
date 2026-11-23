@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T11:01:47.155Z",
+  "generatedAt": "2026-11-23T11:31:52.683Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 146,
+      "count": 147,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 37,
+      "count": 38,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 240,
+      "count": 238,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 582,
+    "translatedJapaneseArticles": 580,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "c8b99f0c7bfb28f0",
+      "title": "MISS MERCY、グループ初のライブツアーを大阪、愛知、神奈川で開催決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167682",
+      "publishedAt": "2026-11-23T11:15:00.000Z",
+      "excerpt": "スターダストプロモーション所属の7人組ダンスボーカルグループ、MISS MERCYが、11月23日",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167682/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "MISS MERCY will hold the group's first live tour in Osaka, Aichi, and Kanagawa",
+      "translatedExcerpt": "MISS MERCY, a 7-member dance and vocal group belonging to Stardust Promotion, will perform on November 23rd."
+    },
+    {
+      "id": "e7bb4517ff9d8f1e",
+      "title": "'Zatsuyou Fuyo Jutsushi ga Jibun no Saikyou ni Kizuku made' Announces Additional Cast",
+      "link": "https://myanimelist.net/news/74972403?_location=rss",
+      "publishedAt": "2026-11-23T11:08:59.000Z",
+      "excerpt": "The official website for the television anime adaptation of Haka Tokura and Shin Arakawa's Zatsuyou Fuyo Jutsushi ga Jibun no Saikyou ni Kizuku made (Magical Buffs: The Support Caster Is Stronger Than He Realized!) manga announced additional cast on Monday. The anime will be broadcast on Tokyo MX, MBS, and BS11 on January 4. Cast Nikura: Yuuki Hirose (Kat…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1795432017-5d9529c624c71001c16e6f9cb6ca2ca1.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
     {
       "id": "dda7714cc3f948a5",
       "title": "King & Prince・髙橋海人ソロ名義「KAITO」、1st EP『SALT BOY』から「SHUNSOKU」先行配信＆MV公開",
@@ -185,6 +221,44 @@
       },
       "translatedTitle": "King & Prince Kaito Takahashi solo name \"KAITO\", pre-distribution & MV release of \"SHUNSOKU\" from 1st EP \"SALT BOY\"",
       "translatedExcerpt": "King & Prince's Kaito Takahashi will release his 1st EP \"SALT BOY\" under his solo name \"KAITO\" on November 25, 2026. Prior to this, the song \"SHUNSOKU\" was distributed in advance, and the song's music video was also released. The 1st EP ``SALT BOY'' is a full-fledged album packed with KAITO's unique creativity, with KAITO himself involved in the songwriting, artwork, and music video production for all songs included. The distribution of the song \"SHUNSOKU\" follows the release of \"swim?\", which was released as a digital single last month. \"SHUNSOKU\" is a dope Hip Hop sound song with catchy lyrics co-written with BBY NABE. Hook's \"Horamite dash dash\" is a punchline that was born during a song production session, and it has a low weight..."
+    },
+    {
+      "id": "15f4b35b7202590c",
+      "title": "【ビルボード】JO1『AAO』67.8万枚でシングル・セールス首位",
+      "link": "https://www.billboard-japan.com/d_news/detail/167680",
+      "publishedAt": "2026-11-23T11:00:00.000Z",
+      "excerpt": "2026年11月25日公開（集計期間：2026年11月16日～11月22日）のBillboard",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167680/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] JO1 “AAO” tops single sales with 678,000 copies",
+      "translatedExcerpt": "Billboard released on November 25, 2026 (collection period: November 16, 2026 to November 22, 2026)"
+    },
+    {
+      "id": "94304a9bd1d9fd1b",
+      "title": "【ビルボード】TOMORROW X TOGETHER『PERFECT STORM』31.5万枚でアルバム・セールス首位獲得 ATEEZ／OCTPATHが続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/167681",
+      "publishedAt": "2026-11-23T11:00:00.000Z",
+      "excerpt": "2026年11月25日公開（集計期間：2026年11月16日～11月22日）のBillboard",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167681/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] TOMORROW",
+      "translatedExcerpt": "Billboard released on November 25, 2026 (collection period: November 16, 2026 to November 22, 2026)"
     },
     {
       "id": "77cd90371b34cdff",
@@ -223,6 +297,23 @@
       },
       "translatedTitle": "TOMOO will release a sing-along mini album and a nationwide sing-along tour in the spring of 2027. The final was held at Budokan for the second time.",
       "translatedExcerpt": "It has been decided that TOMOO will release a singing and singing mini album in the spring of 2027. Furthermore, it was announced that a nationwide singing tour <TOMOO singing tour 2027 “HERE RIVER HEAR” will be held from April 2027. The first day of the singing and singing tour will begin with a performance at J:COM Hall Hachioji in Tokyo on Saturday, April 3rd, and will tour various halls, with the final tour being held at Nippon Budokan on Friday, June 25th. This will be TOMOO's second solo performance at Nippon Budokan, and the first time they will perform with vocals. Pre-order tickets for the FC have started and are being accepted until 23:59 on Tuesday, December 1st. For details on how to purchase and the venue, please check TOMOO's official website and SNS. In addition, details such as the songs included in the singing mini album and the jacket photo will be announced at a later date..."
+    },
+    {
+      "id": "49ea88d7ea80f42f",
+      "title": "Magical Buffs Anime Announces 3 More Cast Members",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-23/magical-buffs-anime-announces-3-more-cast-members/.244111",
+      "publishedAt": "2026-11-23T10:28:11.000Z",
+      "excerpt": "Yūki Hirose, Natsumi Takamori, Yuka Nukui join anime debuting on January 4",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gFG/cms/news.10/242647/kv-in01.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "991c18ea56dbac88",
@@ -960,7 +1051,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Live Report] CYNHN continues to draw a blue story with the singing voices of 4 members──〈CYNHN Zepp DiverCity ONE MAN LIVE 2026〉",
-      "translatedExcerpt": "CYNHN (Sweeney) has continued to pursue their own unique musicality with the idea of ​​being a \"blue unfinished vocal unit.\" In 2026, they celebrated their 9th anniversary and entered their 10th year of activity, and were at a major turning point. In August, a 2-second video of member Shiki Ayase received over 10 million impressions on social media, and their singing voice was praised by music professionals on TV Asahi's \"EIGHT-JAM,\" expanding their presence to people who had not previously heard of their music. Then, on November 16th, CYNHN held a one-man live at Zepp DiverCity, which was one of the milestones of their activities so far. When the show time arrived, the band members were on standby on stage. Every time the opening session begins and the spotlight shines on each member..."
+      "translatedExcerpt": "CYNHN (Sweeney) has continued to pursue their own unique musicality with the slogan \"Blue Unfinished Vocal Unit.\" In 2026, they celebrated their 9th anniversary and entered their 10th year of activity, and were at a major turning point. In August, a 2-second video of member Shiki Ayase received over 10 million impressions on social media, and their singing voice was praised by music professionals on TV Asahi's \"EIGHT-JAM,\" expanding their presence to people who had not previously heard of their music. Then, on November 16th, CYNHN held a one-man live at Zepp DiverCity, which was one of the milestones of their activities so far. When the show time arrived, the band members were on standby on stage. Every time the opening session begins and the spotlight shines on each member..."
     },
     {
       "id": "c9d1e51225539e50",
@@ -7110,7 +7201,7 @@
         "language": "ja"
       },
       "translatedTitle": "freereina!, 1st SG “conflict of interest” released",
-      "translatedExcerpt": "Freereina!, a new band from Singapore, has released their debut single \"conflict of interest\". freereina! is a band that brings together a colorful and diverse backbone. A five-piece group that plays a new style of pop gaze that mixes Western indie pop and the shoegaze scene that is attracting attention through the Internet, live house music from Shimokitazawa such as kurayamisaka and Kinoko Teikoku, and even Y2K and Shibuya-kei sounds. Their debut EP ``concession aquarium'' will be released on December 9th. Release information High resolution lossless ▼OTOTOY now available https://ototoy.jp/_/default/a/2231471 Ar..."
+      "translatedExcerpt": "Freereina!, a new band from Singapore, has released their debut single \"conflict of interest\". freereina! is a band that brings together a colorful and diverse backbone. A five-piece group that plays a new style of pop gaze that mixes Western indie pop and the shoegaze scene that is attracting attention through the Internet, live house music from Shimokitazawa such as kurayamisaka and Kinoko Teikoku, and even Y2K and Shibuya-kei sounds. Their debut EP ``concession aquarium'' will be released on December 9th. Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/2231471 Ar..."
     },
     {
       "id": "942e234ae181abdc",
@@ -7224,7 +7315,7 @@
         "language": "ja"
       },
       "translatedTitle": "Yuka Nagase releases advance SG “Next wa Weather Forecast” from new AL",
-      "translatedExcerpt": "It has been decided that Yuka Nagase will release her new single ``Oji wa Weather Forecast'' on Friday, November 20, 2026. This song is the lead single from her first full-length album in about a year and a half, \"Hobutsu Inori.\" The album is a collection of works that explore the new environment and changes in psychology that Yuka Nagase herself feels, and the theme is \"prayer\" for oneself and others. This work was recorded at home, with Yuka Nagase writing all the lyrics and songs for the full album, in a style that is closer to being independent. It is a work that reinterprets the new wave indie pop of the 1980s. In addition, the visualizer music video for the lead single \"Otsugi wa Weather Forecast\" has been released. Furthermore, the artist visual has been completely redesigned. The website and EC site have also been renewed. With the renewal of the EC site, new..."
+      "translatedExcerpt": "It has been decided that Yuka Nagase will release her new single \"Oji wa Weather Forecast\" on Friday, November 20, 2026. This song is the lead single from her first full-length album in about a year and a half, “Hobutsu Inori.” The album is a collection of works that explore the new environment and changes in psychology that Yuka Nagase herself feels, and the theme is \"prayer\" for oneself and others. This work was recorded at home, with Yuka Nagase writing all the lyrics and songs for the full album, in a style that is closer to being independent. It is a work that reinterprets the new wave indie pop of the 1980s. In addition, the visualizer music video for the lead single \"Otsugi wa Weather Forecast\" has been released. Furthermore, the artist visual has been completely redesigned. The website and EC site have also been renewed. Due to the renewal of the EC site, new..."
     },
     {
       "id": "3c79480cc01bc774",
@@ -18235,101 +18326,6 @@
       },
       "translatedTitle": "Tiger Lewis releases positive new song",
       "translatedExcerpt": "Tiger Lewis released his new single \"Lonely Guy\" on Friday, November 6, 2026. This work is a song with the theme of positively accepting time spent alone and rediscovering one's own value. The experience of almost losing oneself due to loss has been transformed into an anthem for regaining self-affirmation and confidence. Instead of lamenting your loneliness, reaffirm your own greatness because you are alone. This is a song that contains such a powerful message. Release information https://ototoy.jp/_/default/p/4402934 Artist information https://www.instagram.com/tigerlewis/"
-    },
-    {
-      "id": "1a536913e25c211d",
-      "title": "eill、2027年にホールツアー＆ツアー版【スナックエイル】開催",
-      "link": "https://www.billboard-japan.com/d_news/detail/167451",
-      "publishedAt": "2026-11-13T12:55:00.000Z",
-      "excerpt": "eillが、2027年にツアー【eill HALL TOUR 2027】と【Level Up Cl",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167451/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "eill will hold hall tour & tour version [Snack Eill] in 2027",
-      "translatedExcerpt": "eill will hold a tour in 2027 [eill HALL TOUR 2027] and [Level Up Cl"
-    },
-    {
-      "id": "d4fc028ad05be409",
-      "title": "Travis Japan、新曲「POP STAR」MVプレミア公開 ジュニア14名が参加したパフォーマンス一部解禁",
-      "link": "https://www.billboard-japan.com/d_news/detail/167452",
-      "publishedAt": "2026-11-13T12:50:00.000Z",
-      "excerpt": "Travis Japanが、2026年11月18日に新曲「POP STAR」のミュージックビデオを",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167452/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Travis Japan's new song \"POP STAR\" MV premiere released, part of the performance featuring 14 juniors released",
-      "translatedExcerpt": "Travis Japan will release music video for new song “POP STAR” on November 18, 2026."
-    },
-    {
-      "id": "33aa6bc5c0a6a4a9",
-      "title": "STARGLOWが「文化放送 受験生応援キャンペーン」キャラクターに就任、特番パーソナリティも担当",
-      "link": "https://www.billboard-japan.com/d_news/detail/167448",
-      "publishedAt": "2026-11-13T12:45:00.000Z",
-      "excerpt": "STARGLOWが、文化放送「～キミはひとりじゃない～文化放送 受験生応援キャンペーン」のキャンペ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167448/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "STARGLOW is appointed as a character for \"Nunbu Broadcasting Corporation Entrance Examination Support Campaign\" and also serves as a special program personality.",
-      "translatedExcerpt": "STARGLOW is participating in the Nippon Cultural Broadcasting Co., Ltd.'s ``You're Not Alone'' campaign."
-    },
-    {
-      "id": "cb4e2736d5d2e53a",
-      "title": "THE SUPER FRUIT、新曲「ちんぷんかんぷんLIFE」MVメイキング映像を公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167449",
-      "publishedAt": "2026-11-13T12:40:00.000Z",
-      "excerpt": "THE SUPER FRUITが、新曲「ちんぷんかんぷんLIFE」のMVメイキング映像を公開した。",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167449/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "THE SUPER FRUIT releases MV making video for new song “Jinpun Kanpun LIFE”",
-      "translatedExcerpt": "THE SUPER FRUIT has released the MV making video for their new song \"Jinpun Kanpun LIFE\"."
-    },
-    {
-      "id": "625af13ba4fa6df7",
-      "title": "NOMELON NOLEMON、“超高速ギターロック”の新曲「わたしたちのオカルト」配信リリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/167450",
-      "publishedAt": "2026-11-13T12:35:00.000Z",
-      "excerpt": "NOMELON NOLEMONが、2026年11月25日に新曲「わたしたちのオカルト」を配信リリー",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167450/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "NOMELON NOLEMON releases new song “Our Occult” from “Super High Speed ​​Guitar Rock”",
-      "translatedExcerpt": "NOMELON NOLEMON will release new song “Our Occult” on November 25, 2026"
     }
   ]
 }

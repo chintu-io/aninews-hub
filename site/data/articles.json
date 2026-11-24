@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T07:01:49.847Z",
+  "generatedAt": "2026-11-24T07:33:14.336Z",
   "sources": [
     {
       "id": "sankaku",
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 39,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 244,
+      "count": 245,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 141,
+      "count": 139,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -152,8 +152,8 @@
       "id": "sankaku",
       "name": "Sankaku Complex",
       "status": "ok",
-      "mode": "jina-reader",
-      "feedUrl": "http://www.sankakucomplex.com/feed/",
+      "mode": "direct",
+      "feedUrl": "https://news.sankakucomplex.com/feed/",
       "count": 84,
       "fetchedCount": 24
     }
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 589,
+    "translatedJapaneseArticles": 588,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "53b1c964a23be148",
+      "title": "'Mahoutsukai no Yoru' Sequel Anime Announced",
+      "link": "https://myanimelist.net/news/74975780?_location=rss",
+      "publishedAt": "2026-11-24T07:21:33.000Z",
+      "excerpt": "The official X (formerly Twitter) account for the anime movie adaptation of Type-Moon's Mahoutsukai no Yoru (Witch on the Holy Night) visual novel announced on Tuesday that a sequel anime is in production. Produced by ufotable, Mahoutsukai no Yoru (Witch on the Holy Night) theatrical movie premiered in Japan on November 20 and is currently screening in th…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1795504801-f92e80a47ff0f942dbb3edacb2a76c13.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "6f035ae07971f6a3",
+      "title": "モナキ、デビュー曲と同じ酒井一圭（純烈）×岩崎貴文のタッグで新曲「愛と言う名のGloryDay」CD発売決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167700",
+      "publishedAt": "2026-11-24T07:20:00.000Z",
+      "excerpt": "モナキが、ニューシングル『愛と言う名のGloryDay』を2027年1月13日にリリースする。",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167700/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Monaki will release a CD with the same collaboration of Kazuki Sakai (Junretsu) and Takafumi Iwasaki as their debut song, ``Glory Day Named Ai''",
+      "translatedExcerpt": "Monaki will release her new single ``Ai to Calle no Glory Day'' on January 13, 2027."
+    },
     {
       "id": "e401391657bb83f9",
       "title": "〈ベストヒットＵＳＡ〉11/26はザ・ローリング・ストーンズほか",
@@ -18306,44 +18342,6 @@
       },
       "translatedTitle": "G-FREAK FACTORY, SHADOWS and SHANK announce second guest for 30th anniversary tour",
       "translatedExcerpt": "G-FREAK FACTORY has announced the second guest for the 1st series of their 30th anniversary national tour <G-FREAK FACTORY 30th ANNVERSARY TOUR “NOROSHI”> to be held from January 2027. The two groups announced as the second guests of the 1st series are SHADOWS and SHANK. At this point, guests on March 6th (Sat) and 7th (Sun) are scheduled to be released later. At the same time, the final pre-order for tickets has started on the official website. The tour <NOROSHI> will be held to commemorate G-FREAK FACTORY's 30th anniversary, which will be a major turning point in 2027, having followed a path of many twists and turns since its formation in 1997. This will be a nationwide tour that shows their unstoppable will. Since only the 1st series has been announced yet, there are additions that will be announced in the future..."
-    },
-    {
-      "id": "ee690926eb6f9e90",
-      "title": "Beach Bunny、商業主義への怒りがテーマの新曲発売",
-      "link": "https://ototoy.jp/news/132789",
-      "publishedAt": "2026-11-14T09:00:00.000Z",
-      "excerpt": "Beach Bunnyが2026年11月10日(火)にニューシングル「Vinegar」をリリースした。 現代社会に蔓延する大量消費主義、商業主義、企業の利益優先主義に対する不満や怒りをテーマにした本作。エネルギッシュなファズポップナンバーに仕上がっている。 キャッチーなパワーポップと、歪みの効いたギターサウンドが融合した本楽曲。単なる社会批判にとどまらず、日々の生活の中で感じる違和感や息苦しさを、誰もが声を上げて歌えるロックアンセムへと昇華している。 リリース情報 https://ototoy.jp/_/default/p/4429083 アーティスト情報 https://www.instagram.com/beachbunnymusic/",
-      "image": "https://imgs.ototoy.jp/news/image.php/132789/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Beach Bunny releases new song about anger against commercialism",
-      "translatedExcerpt": "Beach Bunny released their new single \"Vinegar\" on Tuesday, November 10, 2026. This work explores the themes of dissatisfaction and anger towards the mass consumerism, commercialism, and corporate profit-prioritization that pervades modern society. It is an energetic fuzz pop number. This song is a fusion of catchy power pop and distorted guitar sound. More than just a critique of society, they sublimate the discomfort and suffocation felt in daily life into rock anthems that anyone can sing aloud. Release information https://ototoy.jp/_/default/p/4429083 Artist information https://www.instagram.com/beachbunnymusic/"
-    },
-    {
-      "id": "0a59b8231bb4c5a5",
-      "title": "Kings Elliot、幻想的な新曲リリース",
-      "link": "https://ototoy.jp/news/132785",
-      "publishedAt": "2026-11-14T09:00:00.000Z",
-      "excerpt": "Kings Elliotが2026年11月13日(金)にニューシングル「METEOR FROM MARS」をリリースした。 本楽曲は、彼女がこれまで一貫して追求してきた孤独、疎外感、そして他者とのつながりを求める気持ちと共鳴するタイトルを持つ作品。Kings Elliotならではの繊細な表現が印象的な1曲となっている。 タイトルが想起させるのは、どこにも完全には属せない存在であること、そして自分の居場所を探し続けること。映画のワンシーンを思わせる幻想的な世界観の楽曲に仕上がっている。 リリース情報 https://ototoy.jp/_/default/p/4427578 アーティスト情報 https://www.instagram.com/kingselliot/",
-      "image": "https://imgs.ototoy.jp/news/image.php/132785/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Kings Elliot releases fantastic new song",
-      "translatedExcerpt": "Kings Elliot released their new single “METEOR FROM MARS” on Friday, November 13, 2026. This song has a title that resonates with the feelings of loneliness, alienation, and desire for connection with others that she has consistently pursued up until now. This is an impressive song with Kings Elliot's delicate expressions. The title evokes the feeling of not being able to fully belong anywhere, and of continuing to search for one's place. The song is finished with a fantastic worldview reminiscent of a scene from a movie. Release information https://ototoy.jp/_/default/p/4427578 Artist information https://www.instagram.com/kingselliot/"
     }
   ]
 }

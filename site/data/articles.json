@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T16:01:56.100Z",
+  "generatedAt": "2026-11-24T16:31:52.540Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 48,
+      "count": 49,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 138,
+      "count": 139,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 140,
+      "count": 138,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,44 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 603,
+    "translatedJapaneseArticles": 600,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "dcb2b5e79815862f",
+      "title": "Duel Masters Pure PLAY'S Manga Ends on November 30",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-24/duel-masters-pure-play-manga-ends-on-november-30/.244139",
+      "publishedAt": "2026-11-24T16:05:03.000Z",
+      "excerpt": "Series debuted on September September 18",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gX4/cms/news.9/241787/duelmasterspureplays.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "f8863bcc516e8443",
+      "title": "Wild Pikachu tree appears in Japan! [Video]",
+      "link": "https://soranews24.com/2026/11/25/wild-pikachu-tree-appears-in-japan-video/",
+      "publishedAt": "2026-11-24T16:00:32.000Z",
+      "excerpt": "Niigata town suddenly realizes part of its forests can do super-effective Pokémon cosplay. You don’t have to be a catch-‘em-all completionist to see the appeal of the setting of the Pokémon games and anime. The idea that you could head out into the countryside and suddenly encounter something as cute and cool as a wild […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/pt-1.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
     {
       "id": "e2900fcf2a343dd1",
       "title": "Cold World on Their Special Connection With Japan, Hardcore, and Anime",
@@ -18332,44 +18366,6 @@
         "accent": "#6fc9e6",
         "language": "en"
       }
-    },
-    {
-      "id": "a4cf5a220cedf97e",
-      "title": "〈新・BS日本のうた〉11/15は「五木ひろし55周年スペシャル」ほか",
-      "link": "https://ototoy.jp/news/132810",
-      "publishedAt": "2026-11-15T01:00:00.000Z",
-      "excerpt": "11月15日(日)の〈新・BS日本のうた〉は「五木ひろし55周年スペシャル」ほかを放送する。 出演者は、五木ひろし、岡 千秋、北山 たけし、西城 なつ美、新浜 レオン、羽山 みずき、福田 こうへい、藤あや子、由紀 さおり。 【古今東西名曲特選】は「夢街道」「サムライ」「故郷」「男船」「リンゴの花咲く町」「夢ん中」「初めての街で」「秋桜」。 【スペシャルステージ】では「夜空」「おまえとふたり」「夜明けのブルース」「雪燃えて」「待っている女」「居酒屋」「暖簾」「山河」「長良川艶歌」「浪花恋しぐれ」「契り」「千曲川」「陽光の旅路」「よこはま たそがれ」を披露する。 番組情報 新・BS日本のうた 放送局 NHK BS/プレミアム4K リリース情報 https://ototoy.jp/_/default/p/439…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132810/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<New BS Japanese Songs> 11/15 is “Hiroshi Itsuki 55th Anniversary Special” and more",
-      "translatedExcerpt": "On November 15th (Sunday), ``New BS Nihon Uta'' will broadcast ``Hiroshi Itsuki 55th Anniversary Special'' and other programs. The cast includes Hiroshi Itsuki, Chiaki Oka, Takeshi Kitayama, Natsumi Saijo, Leon Niihama, Mizuki Hayama, Kohei Fukuda, Ayako Fuji, and Saori Yuki. [Special selection of famous songs from all over the world] are ``Yumekaido'', ``Samurai'', ``Homeland'', ``Otokofune'', ``Apple Blossom Blooming Town'', ``Yumenchu'', ``First Time in the City'', and ``Autumn Cherry Blossoms''. On the [Special Stage], they will perform ``Yozora'', ``You to Futari'', ``Dawn Blues'', ``Snow Burning'', ``Waiting Woman'', ``Izakaya'', ``Noren'', ``Sanga'', ``Nagaragawa Enka'', ``Naniwa Koishigure'', ``Kiri'', ``Chikuma River'', ``Yoko no Tabiji'', and ``Yokohama Tasogare''. Program information New BS Nihon Uta Broadcasting station NHK BS/Premium 4K Release information https://ototoy.jp/_/default/p/439…"
-    },
-    {
-      "id": "5d71ddafae3bd6a3",
-      "title": "櫻坂46、初のアジアツアー開催地発表",
-      "link": "https://ototoy.jp/news/132808",
-      "publishedAt": "2026-11-15T01:00:00.000Z",
-      "excerpt": "櫻坂46がZOZOマリンスタジアムにて開催した「6th YEAR ANNIVERSARY LIVE」にてアリーナツアー2027の開催と坂道グループ初となるアジアツアーの開催地が発表された。 アジアツアーは2027年8月から9月にかけてソウル、香港、クアラルンプール、台北の4都市で開催。公演詳細は後日発表される。 ツアー情報 アリーナツアー2027 3月10日(水)、11日(木) 愛知県・クロコくんホール(日本ガイシホール) Sakurazaka46 Asia Tour 2027 日程：2027年8月・9月 開催地： 公演詳細は後日発表 リリース情報 https://ototoy.jp/_/default/p/4308139 アーティスト情報 https://www.instagram.com/sakura…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132808/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Sakurazaka46 announces first Asia tour venue",
-      "translatedExcerpt": "At Sakurazaka46's \"6th YEAR ANNIVERSARY LIVE\" held at ZOZO Marine Stadium, the venue for Arena Tour 2027 and the Sakamichi Group's first Asian tour were announced. The Asia tour will be held from August to September 2027 in four cities: Seoul, Hong Kong, Kuala Lumpur, and Taipei. Performance details will be announced at a later date. Tour Information Arena Tour 2027 March 10th (Wednesday), 11th (Thursday) Aichi Prefecture, Kuroko-kun Hall (Nippon Gaishi Hall) Sakurazaka46 Asia Tour 2027 Date: August/September 2027 Venue: Performance details to be announced at a later date Release Information https://ototoy.jp/_/default/p/4308139 Artist Information https://www.instagram.com/sakura…"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T15:31:53.490Z",
+  "generatedAt": "2026-11-24T16:01:56.100Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 92,
+      "count": 93,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 248,
+      "count": 247,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 141,
+      "count": 140,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 80,
+      "count": 81,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 604,
+    "translatedJapaneseArticles": 603,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "e2900fcf2a343dd1",
+      "title": "Cold World on Their Special Connection With Japan, Hardcore, and Anime",
+      "link": "https://crunchyroll.com/news/interviews/2026/11/24/cold-world-interview",
+      "publishedAt": "2026-11-24T16:00:00.000Z",
+      "excerpt": "There’s something special and culturally significant and cool about this stuff",
+      "image": "https://a.storyblok.com/f/178900/960x540/79dba7b1f4/cold-world-band.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "211a435c7c7c1328",
       "title": "Age Factory、新曲「Snow in Black city」配信リリース＆MV公開",
@@ -241,7 +258,7 @@
         "language": "ja"
       },
       "translatedTitle": "Bottle Mail releases new up-tempo song “Fantasia”",
-      "translatedExcerpt": "ボトルメールが2026年11月25日(水)にニューシングル「ファンタジア」をリリースした。 新体制6作目となる本作は、ボトルメールの新機軸となるアップテンポなナンバー。過去と現在が交錯する世界の中で、まい（Vocal）がなりたい自分を取り戻すストーリーが展開される。 配信リリースと同時に、ミュージックビデオも公開。なお、本楽曲は4ヶ月連続新曲リリースの第3弾となる。 Release information https://ototoy.jp/_/default/a/757858 Artist information https://www.instagram.com/bottlemail_band https://x.com/bottlemailband"
+      "translatedExcerpt": "Bottle Mail released their new single \"Fantasia\" on Wednesday, November 25, 2026. This is the sixth work under the new system, and is an up-tempo number that represents a new direction for Bottle Mail. In a world where past and present intersect, a story unfolds in which Mai (vocal) regains the person she wants to be. At the same time as the distribution release, a music video will also be released. This song is the third in a series of four consecutive months of new song releases. Release information https://ototoy.jp/_/default/a/757858 Artist information https://www.instagram.com/bottlemail_band https://x.com/bottlemailband"
     },
     {
       "id": "ac8a44cb1c7e6ec8",
@@ -279,7 +296,7 @@
         "language": "ja"
       },
       "translatedTitle": "Sakura Sakamoto releases new song written for her sister's wedding",
-      "translatedExcerpt": "坂本櫻が2026年11月25日(水)にニューシングル「Ring」をリリースした。 12ヶ月連続リリースの最終作となる本作は、坂本櫻が妹の結婚式のために書き下ろした楽曲。 Inspired by the shape of a ring, the song sings about how even if you go in opposite directions, you will meet again if you follow a circular path, and how when two rings line up, they create an infinite shape. 遠距離恋愛を経て結ばれた2人に向けて、心からの祝辞を込めた本楽曲。多くのカップルの門出を祝うウェディングソングに仕上がっている。 なお、坂本櫻は12月5日(土)に東京・代官山にてワンマンライブ〈swaying〉を開催する。 リリース情報 https://ototoy.jp/_/default/a/935587 ライブ情報 http://haremame.com/schedule/8…"
+      "translatedExcerpt": "Sakura Sakamoto released her new single \"Ring\" on Wednesday, November 25, 2026. This is the final work of a 12-month series of releases, and is a song written by Sakura Sakamoto for her sister's wedding. Inspired by the shape of a ring, the song sings about how even if you go in opposite directions, you will meet again if you follow a circular path, and how when two rings line up, they create an infinite shape. This song is a heartfelt congratulations to the two who were brought together after a long-distance relationship. It is a wedding song that celebrates the beginning of many couples' beginnings. Furthermore, Sakura Sakamoto will hold a one-man live show called swaying in Daikanyama, Tokyo on December 5th (Saturday). Release information https://ototoy.jp/_/default/a/935587 Live information http://haremame.com/schedule/8…"
     },
     {
       "id": "a150def0487b19e1",
@@ -354,7 +371,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "The new I love you Orchestra releases new song \"Chunky Flat\"",
+      "translatedTitle": "New I love you Orchestra releases new song “Chunky Flat”",
       "translatedExcerpt": "I love you Orchestra released their new single \"Chunky Flat\" on November 25, 2026. I love you Orchestra once had a strong presence as a 6-member explosive instrumental band, and has since produced numerous viral hits under the name I love you Orchestra Swing Style. More than 10 years have passed since they started their activities, and now they are entering a new phase by revamping their lineup to include Yu Hakusui (bass), Tomoya Nakahira (gu), Sohei Oyama (drums), and so-ri (key). \"Chunky Flat\" delivered by the new system is an intensely stylish and danceable funk number that vividly updates the previous image. A light and catchy groove and a sophisticated sound..."
     },
     {
@@ -4587,6 +4604,23 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "8e8488f8351ba51f",
+      "title": "Disney Embraces AI for Animation, Movies & Theme Parks",
+      "link": "https://news.sankakucomplex.com/n/nj9KOlRplmozkVwr17mblg",
+      "publishedAt": "2026-11-21T15:54:44.000Z",
+      "excerpt": "Disney is expanding its use of artificial intelligence across animation, film production, streaming, and theme parks, marking a significant shift for a company that previously challenged AI developers over copyright infringement.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18336,44 +18370,6 @@
       },
       "translatedTitle": "Sakurazaka46 announces first Asia tour venue",
       "translatedExcerpt": "At Sakurazaka46's \"6th YEAR ANNIVERSARY LIVE\" held at ZOZO Marine Stadium, the venue for Arena Tour 2027 and the Sakamichi Group's first Asian tour were announced. The Asia tour will be held from August to September 2027 in four cities: Seoul, Hong Kong, Kuala Lumpur, and Taipei. Performance details will be announced at a later date. Tour Information Arena Tour 2027 March 10th (Wednesday), 11th (Thursday) Aichi Prefecture, Kuroko-kun Hall (Nippon Gaishi Hall) Sakurazaka46 Asia Tour 2027 Date: August/September 2027 Venue: Performance details to be announced at a later date Release Information https://ototoy.jp/_/default/p/4308139 Artist Information https://www.instagram.com/sakura…"
-    },
-    {
-      "id": "63d4b87cee4dc0d9",
-      "title": "NHK〈SONGS〉11/19はこうせつ×坂崎 フォークソング特集",
-      "link": "https://ototoy.jp/news/132806",
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "excerpt": "11月19日のNHK〈SONGS〉はフォークソング特集。南こうせつと坂崎幸之助（THE ALFEE）が、フォークを語る上で欠かせない名曲をアーティストごとに紹介していく。 フォークソングをメジャーに押し上げた立役者のザ・フォーク・クルセダーズからこうせつと坂崎は「帰って来たヨッパライ」と「悲しくてやりきれない」を選曲、トーク中にもギターをつまびきながら歌い出し、フォークルの魅力を語っていく。 吉田拓郎の曲で二人が選んだのは「今日までそして明日から」。７５年に「つま恋」で行われた伝説のライブの映像を届ける。また、こうせつと坂崎は、バンドメンバーと共に、この曲をスタジオパフォーマンスでカバーする。 岡林信康の曲は「友よ」と「チューリップのアップリケ」を紹介。坂崎が衝撃を受けたという「チューリップのアップリケ」…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132806/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "NHK〈SONGS〉11/19 features Kousetsu x Sakazaki folk songs",
-      "translatedExcerpt": "NHK <SONGS> on November 19th will feature folk songs. Kosetsu Minami and Konosuke Sakazaki (THE ALFEE) will introduce famous songs by artist that are essential when talking about folk music. Kosetsu and Sakazaki selected ``Returning Yopparai'' and ``I Can't Do It With Sadness'' from The Folk Crusaders, who were the driving forces behind making folk songs mainstream, and during their talk, they began singing while playing the guitar and talking about the charm of folk music. The two of them chose Takuro Yoshida's song \"Until today and from tomorrow.\" We will deliver footage of the legendary live performance held at \"Tsumakoi\" in 1975. Additionally, Kosetsu and Sakazaki will cover this song in a studio performance with their band members. Nobuyasu Okabayashi's songs ``Tomoyo'' and ``Tulip Applique'' are introduced. \"Tulip applique\" that Sakazaki was shocked by..."
-    },
-    {
-      "id": "eff695b6e604ef8a",
-      "title": "薬師丸ひろ子、歌手活動45周年＆初のオーケストラベストアルバム発売を記念した日本武道館2days含む全国ツアー決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167003",
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "excerpt": "薬師丸ひろ子のフルオーケストラコンサート【billboard classics「薬師丸ひろ子 Pr",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167003/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Hiroko Yakushimaru will be on a nationwide tour including 2 days at Nippon Budokan to commemorate her 45th anniversary as a singer and the release of her first orchestral best album.",
-      "translatedExcerpt": "Hiroko Yakushimaru's full orchestra concert [billboard classics \"Hiroko Yakushimaru Pr"
     }
   ]
 }

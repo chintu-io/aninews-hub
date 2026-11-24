@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T09:01:47.349Z",
+  "generatedAt": "2026-11-24T09:31:51.329Z",
   "sources": [
     {
       "id": "sankaku",
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 242,
+      "count": 240,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 206,
+      "count": 208,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 140,
+      "count": 138,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 84,
+      "count": 86,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,65 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 588,
+    "translatedJapaneseArticles": 587,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "587c6714113d2b77",
+      "title": "Mrs. GREEN APPLE、アルバム『POPS』のアナログレコード発売決定",
+      "link": "https://barks.jp/news/1106628",
+      "publishedAt": "2026-11-24T09:22:10.000Z",
+      "excerpt": "Mrs. GREEN APPLEが、2026年9月30日にリリースした通算6作目となるオリジナルフルアルバム『POPS』の、アナログレコードを2027年3月24日にリリースすることを発表した。 CDと同じ全16曲を、各8曲収録の2枚組・クリアグリーンのカラーバイナル仕様で発売する。本日より予約受付がスタートした本作だが、こちらは数量限定のため早めのチェックをお勧めしたい。 最新アルバム『POPS』には、「Carrying Happiness」「夏の影」「GOOD DAY」「lulu.」「風と町」「Brand New」「Variety」の既発表曲7曲に加え、「共犯」「シンデレラ」「本と彗星」「ア・ポステリオリ」「エピソード」「Really Really」「プロジェクト4」「瞞し」「禁じた遊び」の新曲9曲を収…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/09131123/MGA_POPS_%E3%82%AB%E3%83%90%E3%83%BC%E3%82%A2%E3%83%BC%E3%83%88.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Mrs. GREEN APPLE will release analog record of album “POPS”",
+      "translatedExcerpt": "Mrs. GREEN APPLE has announced that the analog record of their 6th original full album ``POPS'', which was released on September 30, 2026, will be released on March 24, 2027. The same 16 songs as the CD will be released as a 2-disc set with 8 songs each on clear green colored vinyl. Pre-orders for this work have started from today, but we recommend checking it out early as quantities are limited. The latest album ``POPS'' includes 7 previously released songs such as ``Carrying Happiness'', ``Summer Shadow'', ``GOOD DAY'', ``lulu.'', ``Kaze to Machi'', ``Brand New'', and ``Variety'', as well as 9 new songs including ``Accomplice'', ``Cinderella'', ``Book and Comet'', ``A Posterioli'', ``Episode'', ``Really Really'', ``Project 4'', ``Deception'', and ``Forbidden Play''."
+    },
+    {
+      "id": "55add528c697c9e8",
+      "title": "Japan’s Shuri Castle Reopens 7 Years After Devastating Fire",
+      "link": "https://news.sankakucomplex.com/n/MdMXwlYSHPPyP2nncIgQuA",
+      "publishedAt": "2026-11-24T09:00:57.000Z",
+      "excerpt": "Okinawa’s historic Shuri Castle has reopened its restored main hall to the public for the first time since a devastating fire in 2019, marking a major milestone in the recovery of one of Japan’s most important cultural landmarks.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
+      "id": "35612a99acf43112",
+      "title": "【ライブレポート】THE FRANK VOX、雨上がりの大阪野音で感動×感謝のツアーファイナル。新曲「越えて」も初披露",
+      "link": "https://barks.jp/news/1106575",
+      "publishedAt": "2026-11-24T09:00:00.000Z",
+      "excerpt": "関西出身の4人組ボーカルグループ・THE FRANK VOXが、11月15日に大阪・大阪城音楽堂にて全国ツアー＜VOX LETTER TOUR 2026 ～あなたの街まで直送便！配達バッグパンパン便～＞のファイナル公演を開催した。 フラボことTHE FRANK VOXは、5月に2ndフルアルバム『VOX LETTER 2』をリリース。6月より約5カ月間にわたって全国25都市を巡りついに迎えた千秋楽とあって、北は北海道から南は沖縄まで、多くの観客が彼らの地元・大阪に駆け付けた。 開場後には巨大なスクリーンに長いツアーを振り返るロードムービーが映し出され、いやが応にも期待が高まっていく。過去最大キャパにして初の野外ワンマンライブとなったこの日のチケットは、見事ソールドアウトに。ライブ直前まで降り注いだ雨がうそ…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/24163410/%E9%9B%86%E5%90%88%E2%91%A0.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "[Live Report] THE FRANK VOX, a touching and grateful tour final at Yaon, Osaka after the rain. New song “Koete” also unveiled for the first time",
+      "translatedExcerpt": "THE FRANK VOX, a four-member vocal group from Kansai, will be holding a nationwide tour on November 15th at Osaka Castle Music Hall in Osaka <VOX LETTER TOUR 2026 ~ Direct delivery to your city! The final performance of Delivery Bag Panpanbin was held. THE FRANK VOX, also known as Flabo, released their 2nd full album “VOX LETTER 2” in May. As Chishu Raku began in June and toured 25 cities across the country for about five months, many spectators from as far north as Hokkaido to as far south as Okinawa rushed to their hometown of Osaka. After the doors open, a road movie looking back on the long tour will be shown on a huge screen, and expectations will inevitably rise. Tickets for this day, which was the largest capacity ever and the first outdoor one-man live, were sold out. The rain that fell right before the concert was a lie..."
+    },
     {
       "id": "37693a6a00bb5de8",
       "title": "【藤井 風 ピアノリサイタル】開催で国内再生数20％増",
@@ -225,6 +280,44 @@
       "translatedExcerpt": "The music project ``yosomono'' by koto player LEO, track maker Shun Moriyama, and composer Noe Ryu Hizumi has started. In addition, it was announced that the first single \"Skai\" will be released online from 24:00 today. LEO is a koto player who is active in both Japanese music and classical music, and has appeared at Blue Note Tokyo and <SUMMER SONIC>. In 2026, he collaborated with techno pioneer Jeff Mills and jazz pianist Hiromi Uehara, performing across genres. On the other hand, Shun Moriyama made his major debut as a member of the music unit monje under Stardust Records after graduating from the Department of Music and Environment Creation at Tokyo University of the Arts. He was in charge of composing and arranging all songs, and ranked 4th on J-WAVE's \"TOKIO HOT 100.\" Also active in the fields of classical music, contemporary music, and Japanese music..."
     },
     {
+      "id": "9c64b58764899f35",
+      "title": "STARGLOW、三浦大知振付による1stアルバムアルバムタイトル曲「Aurora」ダンスプラクティス映像公開",
+      "link": "https://barks.jp/news/1106572",
+      "publishedAt": "2026-11-24T09:00:00.000Z",
+      "excerpt": "STARGLOWが、1stアルバムタイトル曲「Aurora」のダンスプラクティス映像を公開した。 本日公開されたダンスプラクティス映像は、アルバムリリース当日の11月18日(水)に行われたYouTube生配信『STARGLOW 1st Album “Aurora” Release Party』の番組内で生収録されたもの。一発収録ならではの緊張感が漂う中、三浦大知の振付を完璧に体現するメンバーの圧倒的なスキルと指先にまで神経を研ぎ澄ませた繊細な表現がダイレクトに伝わる仕上がりとなっている。 ◾️1stアルバム『Aurora』2026年11月18日（水）リリース ▼各種リンク配信リンク：https://starglow.lnk.to/STARGLOW_Auroraデジタルキャンペーン：https://star…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/13192927/00_Aurora_New_Main_S-1024x768.jpeg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "STARGLOW releases dance practice video for 1st album album title song \"Aurora\" choreographed by Daichi Miura",
+      "translatedExcerpt": "STARGLOW has released a dance practice video for their 1st album title song \"Aurora\". The dance practice video released today was recorded live during the YouTube live broadcast \"STARGLOW 1st Album \"Aurora\" Release Party\" held on November 18th (Wednesday), the day of the album release. While there is a sense of tension that can only be expected from a one-shot recording, the result is a result that directly conveys the overwhelming skill of the members who perfectly embody Daichi Miura's choreography and the delicate expressions that have been honed down to their fingertips. ◾️1st album “Aurora” released on Wednesday, November 18, 2026 ▼Various link distribution links: https://starglow.lnk.to/STARGLOW_Aurora digital campaign: https://star…"
+    },
+    {
+      "id": "7b872d9073b6dc50",
+      "title": "yukihiro (L’Arc-en-Ciel)、公式メンバーシップ “cosmos”開設＋メッセージや限定コンテンツ展開予定",
+      "link": "https://barks.jp/news/1106523",
+      "publishedAt": "2026-11-24T09:00:00.000Z",
+      "excerpt": "yukihiro (L’Arc-en-Ciel、ACID ANDROID、Petit Brabancon、geek sleep sheep)が本日11月24日、yukihiro’s official membership: cosmosを開設した。11月24日はyukihiroの誕生日でもある。 “cosmos”は、yukihiroのことを更に深く知りたい方のための会員制サービスだ。本人から不定期かつ気まぐれに届くメッセージや、ここでしか見られない写真や動画、ライヴチケットの先行受付などの特典を受けることが可能となる。 ■yukihiro’s official membership: cosmos開設日：2026年11月24日(火)会費：月額550円(税込)支払方法：クレジットカード対応環境：スマートフォ…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/24140845/cosmos_keyvisual-1024x683.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "yukihiro (L’Arc-en-Ciel) opens official membership “cosmos” + plans to develop messages and limited content",
+      "translatedExcerpt": "yukihiro (L’Arc-en-Ciel, ACID ANDROID, Petit Brabancon, geek sleep sheep) opened yukihiro’s official membership: cosmos today, November 24th. November 24th is also Yukihiro's birthday. “cosmos” is a membership service for those who want to know more about yukihiro. You will be able to receive benefits such as occasional and whimsical messages from the person himself, photos and videos that can only be seen here, and advance reservations for live tickets. ■yukihiro’s official membership: cosmos Opening date: Tuesday, November 24, 2026 Membership fee: 550 yen per month (tax included) Payment method: Credit card supported Environment: Smartphone…"
+    },
+    {
       "id": "500e43fcbf927c80",
       "title": "砂場泥棒のライブ・アルバム『公◯』OTOTOY独占メール・インタビュー",
       "link": "https://ototoy.jp/news/132506",
@@ -261,6 +354,23 @@
       },
       "translatedTitle": "Super Tozan Club decides to release new song “Tomechi” & releases live music on J-WAVE “STEP ONE” for the first time",
       "translatedExcerpt": "Super Tozan Club will release their new song ``Fomeji'' on December 2nd. “Tread” is the loneliness of walking along a path without a path."
+    },
+    {
+      "id": "6aacbf3b0bae6551",
+      "title": "Witch on the Holy Night Anime Film's Sequel Confrmed",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-24/witch-on-the-holy-night-anime-film-sequel-confrmed/.244151",
+      "publishedAt": "2026-11-24T08:31:48.000Z",
+      "excerpt": "1st film earned 516 million yen in 1st 4 days",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIG/cms/news.10/244151/witch.webp",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "5e22a1baa5382a40",
@@ -4520,6 +4630,23 @@
       }
     },
     {
+      "id": "4b4382642ef69bad",
+      "title": "US Police Warn Grand Theft Auto VI Players Not to Commit Crimes in Real Life",
+      "link": "https://news.sankakucomplex.com/n/9XEeFM8nYhgc5Rog_Lz9lQ",
+      "publishedAt": "2026-11-21T09:00:44.000Z",
+      "excerpt": "Police departments across the United States have issued warnings following the release of Grand Theft Auto VI, reminding players that real-world crimes have consequences and that officers aren’t video game NPCs.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
+    {
       "id": "12af0b66f3773f81",
       "title": "US Police Warn Grand Theft Auto VI Players Not to Commit Crimes in Real Life",
       "link": "https://news.sankakucomplex.com/n/xfXis2SnxrWbKvynv1TqNA",
@@ -6589,7 +6716,7 @@
         "language": "ja"
       },
       "translatedTitle": "FLANKRE releases new song “HOPE” for the first time in 4 months",
-      "translatedExcerpt": "FLANKRE released their new single “HOPE” on Friday, November 20, 2026. This work, which was released for the first time in about 4 months, has two arrangements: a band set and a solo set, and has been performed live many times in the past. The recording was a hybrid arrangement that combined the two arrangements. The coexistence of a rhythm machine and live drums creates a sound that is both inorganic and warm. The song's worldview of ``a ray of hope amidst despair'' is highlighted, and the addictive guitar riff and bass solo are also highlights. Release information https://ototoy.jp/_/default/a/1355594 Artist information https://www.instagram.com/_flnkr_/ https://x.com/_f…"
+      "translatedExcerpt": "FLANKRE released their new single “HOPE” on Friday, November 20, 2026. This work, which was released for the first time in about 4 months, has two arrangements: a band set and a solo set, and has been performed frequently at live performances in the past. The recording was a hybrid arrangement that combined the two arrangements. The coexistence of a rhythm machine and live drums creates a sound that is both inorganic and warm. The song's worldview of ``a ray of hope amidst despair'' is highlighted, and the addictive guitar riff and bass solo are also highlights. Release information https://ototoy.jp/_/default/a/1355594 Artist information https://www.instagram.com/_flnkr_/ https://x.com/_f…"
     },
     {
       "id": "afb74bcb1490734d",
@@ -18211,137 +18338,6 @@
       },
       "translatedTitle": "King & Prince's Kaito Takahashi solo name \"KAITO\" releases \"loose off video of playing with friends\" before releasing 1st EP",
       "translatedExcerpt": "King & Prince's Kaito Takahashi will release his 1st EP \"SALT BOY\" under his solo name \"KAITO\" on November 25, 2026. Prior to this, today on KAITO's official YouTube, a relaxing off-line video of just playing with friends at the park, ``The Park is Always Fun,'' was released. The 1st EP ``SALT BOY'' is a full-fledged album packed with KAITO's unique creativity, with KAITO himself involved in the songwriting, artwork, and music video production for all songs included. The documentary video “WHO IS “SALT BOY”? -1”, which closely follows the production process, was recently released on YouTube and has been a hot topic among fans. In the off-line video ``The Park is Always Fun'' released today, KAITO is seen enjoying fishing and BBQ while playing in the park..."
-    },
-    {
-      "id": "4d2c85761556ca72",
-      "title": "きゅるりんってしてみて、トイズファクトリーから2027年にメジャーデビュー決定",
-      "link": "https://barks.jp/news/1104547",
-      "publishedAt": "2026-11-14T11:00:00.000Z",
-      "excerpt": "島村嬉唄、環やね、チバゆな、逃げ水あむから成る4人組アイドルグループ“きゅるりんってしてみて”が2027年、トイズファクトリーからメジャーデビューすることが決定した。 きゅるりんってしてみては、本日11月14日にKアリーナ横浜でワンマンライブ＜しゅーぱーきゅるりんコア 〜カワイイ・リアリズム宣言〜＞を開催。「♡♡♡わんだーらんど」「推忍♡きゅるちゃん道場！」「Special♡Spell」など、メドレーを含む全29曲を披露した。 アンコールのMCではメジャーデビューに加え、2027年1月21日に東京ガーデンシアターで6周年記念ライブ＜Dear♡Kyuru♡Letter♡〜6年分の♡を、キミに〜＞を開催することを発表した。さらに、2月23日の東京公演を皮切りに、5月まで全13公演を巡る全国ツアーの開催もアナウ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/14192439/01_20261114_20%E6%99%82%E8%A7%A3%E7%A6%81_%E3%81%8D%E3%82%85%E3%82%8B%E3%82%8A%E3%82%93%E3%81%A3%E3%81%A6%E3%81%97%E3%81%A6%E3%81%BF%E3%81%A6-1024x409.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Try Kyururin, Toys Factory will make a major debut in 2027",
-      "translatedExcerpt": "It has been decided that the four-member idol group \"Kyururintte Shittemite\", consisting of Kiuta Shimamura, Yane Tamaki, Yuna Chiba, and Amu Nagemizu, will make their major debut with Toys Factory in 2027. Kyururintettemi will be holding a one-man live show <Super Kyururin Core ~Cute Realism Declaration~> today, November 14th at K Arena Yokohama. They performed a total of 29 songs, including medleys such as \"♡♡♡Wonderland,\" \"Suinin♡Kyuru-chan Dojo!\" and \"Special♡Spell.\" During the encore MC, in addition to making their major debut, they announced that they will be holding a 6th anniversary live show <Dear♡Kyuru♡Letter♡~6 years of ♡ to you~> at Tokyo Garden Theater on January 21, 2027. Furthermore, it has been announced that a nationwide tour will begin with the Tokyo performance on February 23rd and continue through May with a total of 13 performances."
-    },
-    {
-      "id": "c992963987e4153a",
-      "title": "Japanese Animation TV Ranking, November 2-8",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-14/japanese-animation-tv-ranking-november-2-8/.243787",
-      "publishedAt": "2026-11-14T10:15:00.000Z",
-      "excerpt": "The Apothecary Diaries season 3 earned 3.5% rating last week",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGC/encyc/A37931-397630352.1789645121.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "9ebb72b3b38c0b30",
-      "title": "ADAM at、ニューアルバム『Until Dawn』ジャケットは漫画家・佐藤さつき描き下ろし",
-      "link": "https://barks.jp/news/1104528",
-      "publishedAt": "2026-11-14T10:00:20.000Z",
-      "excerpt": "ADAM atが、2027年1月20日(水)にリリースするニューアルバム『Until Dawn』のジャケットアートを公開した。 新作『Until Dawn』はオリジナルアルバムとしては2023年9月発売の『P.T.』以来、約3年4ヶ月ぶりのリリース作。切れ味抜群のインストナンバーはもちろん、多彩なゲストボーカルを迎えた楽曲もふんだんに収録される。ゲストボーカルには磯野くん（YONA YONA WEEKENDERS）、LEE YONGWON（GUMX）、きのホ。、w-shun（KNOCK OUT MONKEY）、JOEY（EGG BRAIN）、に加え、ADAM at が北海道で出会った帯広在住の14歳、中学生シンガー・いちか も参加。さらにゲストミュージシャンとして、高橋宏貴（ELLEGARDEN）、Ya-…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/06/02133108/pt_3_ADAM-at_main_small.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "ADAM at's new album \"Until Dawn\" jacket is drawn by manga artist Satsuki Sato",
-      "translatedExcerpt": "ADAM at has released the jacket art for their new album \"Until Dawn\", which will be released on Wednesday, January 20, 2027. The new album \"Until Dawn\" is the first original album released in about 3 years and 4 months since \"P.T.\" released in September 2023. It includes not only sharp instrumental numbers, but also songs featuring a variety of guest vocalists. Guest vocalists include Isono-kun (YONA YONA WEEKENDERS), LEE YONGWON (GUMX), and Kinoho. , w-shun (KNOCK OUT MONKEY), JOEY (EGG BRAIN), and Ichika, a 14-year-old middle school student singer living in Obihiro who ADAM at met in Hokkaido, will also be participating. In addition, guest musicians include Hiroki Takahashi (ELLEGARDEN), Ya-…"
-    },
-    {
-      "id": "42c455c610b49131",
-      "title": "morensoji、1st AL『high time』リリース",
-      "link": "https://ototoy.jp/news/132796",
-      "publishedAt": "2026-11-14T10:00:00.000Z",
-      "excerpt": "morensojiが1st Album『high time』を2026年11月11日にリリースした。 morensojiは2024年結成、新潟発の4ピースバンド。羽田結衣（Vo/G）、吉田橘平（G/Vo）、五十嵐和華（Dr/Cho）の現役大学生3人に、OBの山澤史哉（Ba）が加わり現体制となった。 今回リリースされた『high time』は、バンド初の全国流通盤となる全8曲入りのアルバム。きらびやかなギターサウンドと柔らかな歌声が溶け合う、浮遊感あふれるインディーポップが展開されている。レコーディングからマスタリング、ジャケットデザインまでをメンバー自身が手がけたDIY作品となっている。 リリース情報 ハイレゾ ロスレス ▼OTOTOY配信中 https://ototoy.jp/_/default/a/2…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132796/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "morensoji, 1st AL “high time” released",
-      "translatedExcerpt": "morensoji released his 1st album \"high time\" on November 11, 2026. morensoji is a 4-piece band from Niigata, formed in 2024. Yui Haneda (Vo/G), Tachibana Yoshida (G/Vo), and Kazuka Igarashi (Dr/Cho) are three current university students, and former member Fumiya Yamazawa (Ba) has been added to form the current lineup. The newly released ``High Time'' is the band's first nationally distributed album containing 8 songs. This is an indie pop song with a floating feel that blends dazzling guitar sounds and soft singing voices. It is a DIY work in which the members themselves handled everything from recording to mastering to jacket design. Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/2…"
-    },
-    {
-      "id": "d6fe5b19459435a3",
-      "title": "姫野、新曲「HINOTORI」リリース",
-      "link": "https://ototoy.jp/news/132794",
-      "publishedAt": "2026-11-14T10:00:00.000Z",
-      "excerpt": "姫野が新曲「HINOTORI」を2026年11月13日にリリースした。 姫野は音楽・映像を手掛けるアーティスト。様々なかたちの感情、不定形のものを音楽で言語に翻訳している。 今回リリースされた「HINOTORI」は、ボーカルにナースロボ_タイプTを使用した楽曲。軽快なリズムに遊び心あふれるサウンドが重なり、賑やかでカラフルなポップスに仕上がっている。次々と移り変わる音の表情とキャッチーなメロディーが印象的な一曲だ。 リリース情報 ハイレゾ ロスレス ▼OTOTOY配信中 https://ototoy.jp/_/default/a/1728863 アーティスト情報 https://x.com/cawasinohimeno",
-      "image": "https://imgs.ototoy.jp/news/image.php/132794/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Himeno releases new song “HINOTORI”",
-      "translatedExcerpt": "Himeno released her new song \"HINOTORI\" on November 13, 2026. Himeno is an artist who works in music and video. He uses music to translate various forms of emotions and amorphous things into language. \"HINOTORI\", which was released this time, is a song that uses Nurse Robot_Type T for vocals. The light rhythm and playful sounds overlap to create a lively and colorful pop song. It's an impressive song with its changing sound expressions and catchy melody. Release information High resolution lossless ▼Now available on OTOTOY https://ototoy.jp/_/default/a/1728863 Artist information https://x.com/cawasinohimeno"
-    },
-    {
-      "id": "ffb7bf7d0d06a00b",
-      "title": "【ビルボード 2026年 年間Book Hot 100】朝井リョウ『イン・ザ・メガチャーチ』首位獲得（コメントあり）",
-      "link": "https://www.billboard-japan.com/d_news/detail/167187",
-      "publishedAt": "2026-11-14T09:15:00.000Z",
-      "excerpt": "2026年11月14日公開（集計期間：2025年10月27日～2026年10月25日）のBillb",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167187/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard 2026 Annual Book Hot 100] Ryo Asai's \"In the Megachurch\" takes first place (with comments)",
-      "translatedExcerpt": "Billb released on November 14, 2026 (collection period: October 27, 2025 to October 25, 2026)"
-    },
-    {
-      "id": "206add3c835b4800",
-      "title": "【ビルボード 2026年 年間Heisei Books】柚木麻子『BUTTER』が1位に輝く 東野圭吾の2作品がTOP10に登場（コメントあり）",
-      "link": "https://www.billboard-japan.com/d_news/detail/167319",
-      "publishedAt": "2026-11-14T09:15:00.000Z",
-      "excerpt": "2026年11月14日公開（集計期間：2025年10月27日～2026年10月25日）のBillb",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167319/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Billboard 2026 Annual Heisei Books] Asako Yuzuki's \"BUTTER\" takes first place Keigo Higashino's two works appear in the TOP 10 (with comments)",
-      "translatedExcerpt": "Billb released on November 14, 2026 (collection period: October 27, 2025 to October 25, 2026)"
     }
   ]
 }

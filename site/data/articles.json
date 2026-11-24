@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T23:31:54.749Z",
+  "generatedAt": "2026-11-24T00:01:53.272Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 103,
+      "count": 102,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 236,
+      "count": 237,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 578,
+    "translatedJapaneseArticles": 579,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "9268079c7d8d6e52",
+      "title": "ジェペット・ジャクソン、日本を意識した新曲「Japanese Eyes」公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167543",
+      "publishedAt": "2026-11-23T23:30:00.000Z",
+      "excerpt": "1017ブリック・スクワッド・レコーズ所属のジェペット・ジャクソンが、疑念を世界的なムーブメントに",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167543/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Geppetto Jackson releases new song “Japanese Eyes” with Japan in mind",
+      "translatedExcerpt": "1017 Brick Squad Records' Geppetto Jackson Turns Doubt into a Global Movement"
+    },
     {
       "id": "493d3b9cd8e372b2",
       "title": "テイラー・スウィフト、ブレンダ・リーにRIAAダイヤモンド記念パネルをサプライズで贈呈「本当に素晴らしい楽曲」",
@@ -18303,23 +18322,6 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "7b48ce3e4b0164c3",
-      "title": "Attack on Titan 3 Ventures Beyond the Walls in Gameplay Video",
-      "link": "https://crunchyroll.com/news/latest/2026/11/13/attack-on-titan-3-ventures-beyond-the-walls-in-gameplay-video",
-      "publishedAt": "2026-11-13T16:27:00.000Z",
-      "excerpt": "Koei Tecmo and Omega Force’s latest game arrives on December 10",
-      "image": "https://a.storyblok.com/f/178900/1920x1080/2ed6861abe/attack-on-titan-3-expeditions.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
         "language": "en"
       }
     }

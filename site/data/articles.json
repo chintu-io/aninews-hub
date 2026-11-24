@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T22:31:55.997Z",
+  "generatedAt": "2026-11-24T23:01:50.876Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 48,
+      "count": 47,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 214,
+      "count": 213,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 136,
+      "count": 137,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 80,
+      "count": 81,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,65 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 600,
+    "translatedJapaneseArticles": 601,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "da535c08813c68c3",
+      "title": "宇多田ヒカル、新曲「Intentions」配信開始",
+      "link": "https://ototoy.jp/news/132951",
+      "publishedAt": "2026-11-24T23:00:00.000Z",
+      "excerpt": "宇多田ヒカルが新曲「Intentions」をリリースしリリックビデオが公開された。 「Intentions」はJR東海「GOOD DAY EXPRESS」テーマソング。Floating Pointsとの共同プロデュース、ジャケットアートワークをYukiko Noritake氏が手掛けている。 リリース情報 https://ototoy.jp/_/default/p/4354337 アーティスト情報 https://www.utadahikaru.jp/ https://x.com/utadahikaru https://www.instagram.com/kuma_power/?hl=ja",
+      "image": "https://imgs.ototoy.jp/news/image.php/132951/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Hikaru Utada releases new song “Intentions”",
+      "translatedExcerpt": "Hikaru Utada has released a new song \"Intentions\" and the lyric video has been released. \"Intentions\" is the theme song for JR Tokai's \"GOOD DAY EXPRESS\". Co-produced with Floating Points, Yukiko Noritake is in charge of the jacket artwork. Release information https://ototoy.jp/_/default/p/4354337 Artist information https://www.utadahikaru.jp/ https://x.com/utadahikaru https://www.instagram.com/kuma_power/?hl=ja"
+    },
+    {
+      "id": "5afe8a3042aba447",
+      "title": "生田斗真、アルバム『NASCENCE』本日発売。全国のCDショップに“30体の生田斗真”が出現",
+      "link": "https://barks.jp/news/1106665",
+      "publishedAt": "2026-11-24T23:00:00.000Z",
+      "excerpt": "生田斗真が、1stフルアルバム『NASCENCE』（読み：ネイセンス）のCDを本日リリースした。 このCD発売を記念し、全国各地のCDショップにてスペシャル店頭キャンペーンを開催しているのだが、なんと芸能活動30周年を記念して全国30店舗に「生田斗真」等身大看板が設置されているとのこと。看板は衣装別で全6種類が用意されており、店舗ごとに異なるビジュアルを楽しむことができるという。また、全国へ旅立つ30体の等身大パネルに生田本人が加わり、“総勢31人の生田斗真”が集結したインパクト抜群の集合写真も公開された。 また、東京・タワーレコード渋谷店3Fでは、同店限定の特大展示を展開。ここでしか見られない限定動画メッセージも放映されているので、ぜひ足を運んでみてほしい。 そして、本日発売を迎えたアルバム『NASCE…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/14164758/%E7%94%9F%E7%94%B0%E6%96%97%E7%9C%9FA%E5%86%99.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "Toma Ikuta's album \"NASCENCE\" released today. “30 Toma Ikuta” appear in CD shops nationwide",
+      "translatedExcerpt": "Toma Ikuta released the CD of his 1st full-length album ``NASCENCE'' (pronunciation: Nasense) today. To commemorate the release of this CD, a special in-store campaign is being held at CD shops across the country, and to commemorate his 30th anniversary in the entertainment industry, life-sized \"Ikuta Toma\" signboards have been installed at 30 stores nationwide. There are six types of signboards, each with different costumes, so you can enjoy a different visual for each store. In addition, Ikuta himself joined the 30 life-sized panels that will travel across the country, and a highly impactful group photo of \"31 Toma Ikuta\" gathered together was also released. Additionally, on the 3rd floor of the Tower Records Shibuya store in Tokyo, there will be a special exhibition exclusive to the store. There will also be limited video messages that can only be seen here, so be sure to check it out. And the album “NASCE…” which was released today."
+    },
+    {
+      "id": "b73f5c692d0389f3",
+      "title": "Japan’s New AI Detects Thousands of Anime & Manga Piracy Sites With 90% Accuracy",
+      "link": "https://news.sankakucomplex.com/n/Y0-gAihma1zOuB6qaAE7zw",
+      "publishedAt": "2026-11-24T22:33:02.000Z",
+      "excerpt": "Japan’s government is developing an AI-powered system to identify pirated anime and manga, with initial testing finding that up to 94% of websites flagged by the technology contained illegally distributed content.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
+    },
     {
       "id": "39a029d7ec66ad9e",
       "title": "≒JOY、新SGリリース 「必殺ウインクガール」MV公開",
@@ -3278,7 +3333,7 @@
         "language": "ja"
       },
       "translatedTitle": "[Live Report] CYNHN continues to draw a blue story with the singing voices of 4 members──〈CYNHN Zepp DiverCity ONE MAN LIVE 2026〉",
-      "translatedExcerpt": "CYNHN (Sweeney) has continued to pursue their own unique musicality with the slogan \"Blue Unfinished Vocal Unit.\" In 2026, they celebrated their 9th anniversary and entered their 10th year of activity, and were at a major turning point. In August, a 2-second video of member Shiki Ayase received over 10 million impressions on social media, and their singing voice was praised by music professionals on TV Asahi's \"EIGHT-JAM,\" expanding their presence to people who had not previously heard of their music. Then, on November 16th, CYNHN held a one-man live at Zepp DiverCity, which was one of the milestones of their activities so far. When the show time arrived, the band members were on standby on stage. Every time the opening session begins and the spotlight shines on each member..."
+      "translatedExcerpt": "CYNHN (Sweeney) has continued to pursue their own unique musicality with the slogan \"Blue Unfinished Vocal Unit.\" In 2026, they celebrated their 9th anniversary and entered their 10th year of activity, and were at a major turning point. In August, a 2-second video of member Shiki Ayase received over 10 million impressions on social media, and their singing voice was praised by music professionals on TV Asahi's \"EIGHT-JAM,\" expanding their presence to people who had not previously heard of their music. Then, on November 16th, CYNHN held a one-man live at Zepp DiverCity, which was one of the milestones of their activities so far. When the show time arrived, the band members were on standby on stage. As the opening session began and each member was spotlighted,..."
     },
     {
       "id": "c9d1e51225539e50",
@@ -4268,7 +4323,7 @@
       "title": "CLANNAD Café Sparks Backlash Over $14 Fish Dinner",
       "link": "https://news.sankakucomplex.com/n/jZbdX9x4sZ0t27FwzqtMaw",
       "publishedAt": "2026-11-22T07:00:08.000Z",
-      "excerpt": "An upcoming CLANNAD collaboration café celebrating Nagisa Furukawa’s birthday in Japan has attracted criticism after revealing a ¥2,200 ($14) fish dinner, with fans questioning why an ordinary-looking Japanese meal costs so much. On November 18, Tokyo’s cafe MENU revealed its 17th collaboration m…",
+      "excerpt": "An upcoming CLANNAD collaboration café celebrating Nagisa Furukawa’s birthday in Japan has attracted criticism after revealing a ¥2,200 ($14) fish dinner, with fans questioning why an ordinary-looking Japanese meal costs so much.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18311,61 +18366,6 @@
       },
       "translatedTitle": "<Best Hits USA> 11/19 is Paul Simon and others",
       "translatedExcerpt": "BS Asahi (Best Hit USA) lineup for November 19th has been announced. Star of the Week is Paul Simon. It's been 7 years since the \"Farewell Tour\" in 2018, and we'll be picking up a live performance from the 2025 comeback tour and one song from the album \"Graceland.\" Hot Menu introduces Teddy Swims' chart-topping songs. Elvis Costello in the time machine. We will be releasing rare live footage from their debut on the popular British show \"Top of the Pops\" in 1977. Program Information <Best Hits USA> Thursday, November 19, 2026 Information https://x.com/besthitusa_bs5 https://www.facebook.com/besthitusa https://…"
-    },
-    {
-      "id": "39eb362112e24b73",
-      "title": "平井 大、家族で楽しめる新作EP「My Happy Songs」配信スタート",
-      "link": "https://barks.jp/news/1104618",
-      "publishedAt": "2026-11-15T05:36:22.000Z",
-      "excerpt": "平井 大が、新作EP「My Happy Songs」を11月15日に配信リリースした。 本作には子どもたちがコーラスに参加した「f.r.i.e.n.d.s」や、Pinkfongとのコラボレーション楽曲「Baby Shark」に加え、海外で親しまれている「My Happy Song」、誰もが一度は口ずさんだことのある「ABC Song」を平井 大らしいアレンジでカバーした新録2曲を含む、全4曲を収録。家族みんなで一緒に楽しめる作品となっているとのことだ。 ■New EP『My Happy Songs』2026年11月15日(日)配信リリースhttps://daihirai.lnk.to/myhappysongs ■「ONE (not lonely)」2026年11月4日(水)配信リリースhttps://Da…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/15162556/MAIN_A15I7376.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Dai Hirai releases new EP “My Happy Songs” that the whole family can enjoy",
-      "translatedExcerpt": "Dai Hirai released his new EP ``My Happy Songs'' on November 15th. This album includes 4 songs in total, including ``f.r.i.e.n.d.s'' in which children participated in the chorus, ``Baby Shark'', a collaborative song with Pinkfong, ``My Happy Song'', which is popular overseas, and 2 new songs that cover ``ABC Song'', which everyone has hummed at least once, with Dai Hirai's unique arrangement. It is said to be a work that the whole family can enjoy together. ■New EP “My Happy Songs” to be released on Sunday, November 15, 2026 https://daihirai.lnk.to/myhappysongs ■“ONE (not lonely)” to be released on Wednesday, November 4, 2026 https://Da…"
-    },
-    {
-      "id": "b4cbe90824440d13",
-      "title": "【ライヴレポート】angela、7年ぶり＜ミュージック・ワンダー★大サーカス＞スタチャ曲満載の2DAYS完走",
-      "link": "https://barks.jp/news/1104605",
-      "publishedAt": "2026-11-15T05:10:41.000Z",
-      "excerpt": "angelaによるライヴイベント＜ミュージック・ワンダー★大サーカス2026〜スタチャまみれ？！＞が埼玉県・大宮ソニックシティ 大ホールにて、2DAYSで開催された。本記事では14日に開催されたDay2の模様をオフィシャルからのレポートでお届けする。 ◆ライヴ写真 ＜大サーカス＞は、angelaが21年前からライフワークのように続けているホールライヴで、クラウン（ピエロ）を招いてのパフォーマンスを行なったり、そのときどきに応じて趣向を凝らしたセットリストを組んだりと、一際豪華なステージを観ることができる。今回は約7年ぶりの開催で、テーマは「スタチャまみれ？！」と銘打ち、2016年までキングレコード内に存在したアニメ音楽レーベル「スターチャイルド」からリリースされた数々の名曲をangelaがカヴァーし、ゲス…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/15134315/MAIN_mwgs.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Live Report] angela completes ``Music Wonder★Big Circus'' for the first time in 7 years in 2 DAYS full of Statue songs",
-      "translatedExcerpt": "Live event by angela <Music Wonder★Big Circus 2026~ Covered with statues? ! > was held for 2 days at the Omiya Sonic City Large Hall in Saitama Prefecture. In this article, we will deliver an official report on Day 2, which was held on the 14th. ◆Live Photos <Great Circus> is a hall live performance that Angela has continued as her life's work for the past 21 years.You can see a particularly luxurious stage where she invites clowns to perform and creates elaborate setlists depending on the occasion. This time, it has been held for the first time in about 7 years, and the theme is \"Statcha Mamire?!\" Angela will cover a number of famous songs released by the anime music label \"Star Child\" that existed within King Records until 2016, and will be performing..."
-    },
-    {
-      "id": "af4047a05349023d",
-      "title": "Akihabara restaurant with 1.7 million sushi bowl options will have us coming back again and again",
-      "link": "https://soranews24.com/2026/11/15/akihabara-restaurant-with-1-7-million-sushi-bowl-options-will-have-us-coming-back-again-and-again/",
-      "publishedAt": "2026-11-15T05:00:22.000Z",
-      "excerpt": "A virtually inexhaustible addition to our to-eat backlog was hiding on the quiet side of Akihabara Station. Variety is the name of the game in Akihabara. Tokyo’s anime/video game district offers an amazing selection of both new releases and classic titles and merch waiting to be discovered by discerning fans in second-hand shops, allowing you […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/2_d29c26.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
     }
   ]
 }

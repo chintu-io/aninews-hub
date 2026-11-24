@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T11:01:57.162Z",
+  "generatedAt": "2026-11-24T11:32:22.711Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 144,
+      "count": 143,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 97,
+      "count": 96,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 40,
+      "count": 39,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 239,
+      "count": 245,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 208,
+      "count": 207,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 139,
+      "count": 138,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 85,
+      "count": 84,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,105 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 586,
+    "translatedJapaneseArticles": 590,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "ab67da84f29849ec",
+      "title": "緑黄色社会、結成の地・中京大中京で撮影した「うたまご」MVプレミア公開決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167716",
+      "publishedAt": "2026-11-24T11:25:00.000Z",
+      "excerpt": "緑黄色社会が、最新曲「うたまご」のミュージックビデオを11月28日12時からプレミア公開することが",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167716/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Green Yellow Society will release the MV premiere of “Utamago” filmed at Chukyo University Chukyo, the place where they were formed.",
+      "translatedExcerpt": "Green Yellow Society will premiere the music video for their latest song “Utamago” on November 28th at 12pm."
+    },
+    {
+      "id": "52f3617d9dfe38b6",
+      "title": "乃木坂46、井上和センターの43rdシングル『君ロス』収録曲＆歌唱メンバー解禁",
+      "link": "https://www.billboard-japan.com/d_news/detail/167715",
+      "publishedAt": "2026-11-24T11:20:00.000Z",
+      "excerpt": "乃木坂46が、12月2日にリリースする43rdシングル『君ロス』の収録楽曲と歌唱メンバー、初回盤に",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167715/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Nogizaka46, Inoue Kazu Center's 43rd single \"Kimiros\" songs and singing members released",
+      "translatedExcerpt": "Nogizaka46 will release their 43rd single “Kimiros” on December 2nd, and the songs and singing members will be on the first edition."
+    },
+    {
+      "id": "98796c9bbc0f553e",
+      "title": "OWV、佐野文哉が振付担当した「Nine 2 Five」ダンスプラクティス映像公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167714",
+      "publishedAt": "2026-11-24T11:15:00.000Z",
+      "excerpt": "OWVが、「Nine 2 Five」のダンスプラクティス映像を公開した。 「Nine 2 Fi",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167714/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "OWV releases “Nine 2 Five” dance practice video choreographed by Fumiya Sano",
+      "translatedExcerpt": "OWV has released a dance practice video for \"Nine 2 Five.\" “Nine 2 Fi"
+    },
+    {
+      "id": "5cc37176e3542489",
+      "title": "w.o.d.、主催イベント【TOUCH THE PINK MOON2027】神戸＆東京で開催決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167713",
+      "publishedAt": "2026-11-24T11:10:00.000Z",
+      "excerpt": "w.o.d.が、主催イベント【w.o.d. presents &ldquo;TOUCH THE P",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167713/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "w.o.d., sponsored event [TOUCH THE PINK MOON2027] to be held in Kobe & Tokyo",
+      "translatedExcerpt": "w.o.d. hosts an event [w.o.d. presents “TOUCH THE P"
+    },
+    {
+      "id": "2a7a4620ce562b50",
+      "title": "日向坂46、【おひさま感謝祭 2027】日本武道館2DAYS開催決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167712",
+      "publishedAt": "2026-11-24T11:05:00.000Z",
+      "excerpt": "日向坂46が、2027年1月16日と17日の2日間、日本武道館で【おひさま感謝祭 2027】を開催",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167712/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Hinatazaka46, [Ohisama Thanksgiving 2027] Nippon Budokan 2DAYS will be held",
+      "translatedExcerpt": "Hinatazaka46 will hold [Ohisama Thanksgiving 2027] at Nippon Budokan for two days on January 16th and 17th, 2027."
+    },
     {
       "id": "492a1888968e66db",
       "title": "Cloudy、新曲「夜のトバリ」のMVに様々な夜のシーン",
@@ -187,6 +282,25 @@
       "translatedExcerpt": "Cloudy released the music video for his new song \"Yoro no Tobari\" on his official YouTube channel today, November 24th. The music video shows a variety of night scenes, including a scene in which Taketo Koshiba (Vo, G) wanders through the gorgeous city night, and a band scene that expresses the vastness of the night. Roles and appearance required in daytime society. A night where you step away from someone else's expectations and are released into your own world. It's a special moment for someone with no set way or right way to spend it, and it's a time that is nothing to someone else. The music video depicts a freer, more personal night. ■15th digital single “Yoro no Tobari” Distribution starts on November 23, 2026 (Monday) Distribution link: https://lnk.to/veil_of_night ■＜Higashi-Meihan ONEMAN TOUR…"
     },
     {
+      "id": "9e700a7343a0c155",
+      "title": "Mrs. GREEN APPLE、AL『POPS』収録曲「プロジェクト4」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167711",
+      "publishedAt": "2026-11-24T11:00:00.000Z",
+      "excerpt": "Mrs. GREEN APPLEが、9月30日にリリースした6作目のオリジナルアルバム『POPS』",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167711/x200_image.jpeg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Mrs. GREEN APPLE releases music video for “Project 4” from AL “POPS”",
+      "translatedExcerpt": "Mrs. GREEN APPLE's 6th original album \"POPS\" released on September 30th"
+    },
+    {
       "id": "a9f9e2450c07be95",
       "title": "The Ravens、対バン企画＜共鳴夜光＞にPUFFY、マキシマム ザ ホルモン、ROTTENGRAFFTYら6組の出演決定",
       "link": "https://barks.jp/news/1106596",
@@ -204,6 +318,25 @@
       },
       "translatedTitle": "The Ravens, 6 groups including PUFFY, Maximum the Hormone, ROTTENGRAFFTY, etc. will appear in the anti-ban project <Resonance Yako>",
       "translatedExcerpt": "The Ravens have announced the six artists who will appear on their band-to-band project <The Ravens LIVE TOUR Resonance Night Light> to be held from January 2027. PUFFY and Maximum the Hormone will appear at DIAMOND HALL in Aichi on January 24, 2027, the HIATUS and Harukami Rai will appear at GORILLA HALL OSAKA in Osaka on January 31, and Hump Back and ROTTENGRAFFTY will perform at DRUM LOGOS in Fukuoka on February 23. The second advance ticket reception for this tour will begin at noon on November 27th. In addition, The Ravens will perform at UNIT in Daikanyama, Tokyo on November 26, 2026, and at BAY in Yokohama, Kanagawa on November 30, 2026 as a replacement for their album tour <THE RAVENS LIVE TOUR 2026 Gunzogeki>."
+    },
+    {
+      "id": "0e28ba79c9f837d5",
+      "title": "スピッツ、新AL1曲目「ちっちゃな無敵」明日夜MV公開",
+      "link": "https://ototoy.jp/news/132934",
+      "publishedAt": "2026-11-24T11:00:00.000Z",
+      "excerpt": "スピッツが11月25日にリリースするアルバム『kettle』から、1曲目を飾る「ちっちゃな無敵」のミュージックビデオが11月25日(水)20時にプレミア公開されることが発表された。 ミュージックビデオは、「ちっちゃな花」をモチーフに、足元に小さな花や草がひっそりと生えた空間でメンバーが演奏する姿が描かれている。 前作から約3年半ぶりのリリースとなる『kettle』には「キツネノボタン」のほか、TBS系 金曜ドラマ『Ｔシャツが乾くまで』主題歌「見知らぬ糸」や、アニメ『SPY×FAMILY』Season 3 オープニング主題歌「灯を護る」など、全13曲が収録される。 インフォメーション https://www.youtube.com/watch?v=0Dkw4PRJUiM リリース情報 「見知らぬ糸」 htt…",
+      "image": "https://imgs.ototoy.jp/news/image.php/132934/0.jpg",
+      "source": {
+        "id": "ototoy",
+        "name": "OTOTOY",
+        "short": "OTOTOY",
+        "siteUrl": "https://ototoy.jp/news/",
+        "category": "Japanese Music",
+        "accent": "#e6a4ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Spitz to release MV for new AL 1st song “Titty Muteki” tomorrow night",
+      "translatedExcerpt": "It has been announced that the music video for \"Titty Muteki\", the first song from Spitz's album \"kettle\" to be released on November 25th, will be premiered at 8pm on Wednesday, November 25th. The music video uses the motif of \"tiny flowers\" and depicts the members performing in a space with small flowers and grass growing quietly under their feet. ``Kettle'', which will be released for the first time in about three and a half years since the previous work, includes 13 songs in total, including ``Kitsune no Button'', the theme song for the TBS Friday drama ``Until the T-Shirt ga Dry'', ``Shirai Ito'', and the opening theme song for the anime ``SPY×FAMILY'' Season 3, ``Tamaru wo Mamoru''. Information https://www.youtube.com/watch?v=0Dkw4PRJUiM Release information “Unknown Thread” http…"
     },
     {
       "id": "ff4aa4ad8569aa04",
@@ -5597,7 +5730,7 @@
       "title": "Resident Evil Creator Shinji Mikami Wishes AI “Would Disappear”",
       "link": "https://news.sankakucomplex.com/n/QR4FGyEXUEtJYytKh0uLzQ",
       "publishedAt": "2026-11-20T17:39:25.000Z",
-      "excerpt": "Resident Evil creator Shinji Mikami and Stellar Blade director Hyung-Tae Kim have expressed contrasting opinions on artificial intelligence, with Mikami concerned about its impact on jobs while Kim considers the technology increasingly essential to game development.",
+      "excerpt": "Resident Evil creator Shinji Mikami and Stellar Blade director Hyung-Tae Kim have expressed contrasting opinions on artificial intelligence, with Mikami concerned about its impact on jobs while Kim considers the technology increasingly essential to game development. Mikami shared his thoughts dur…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -5854,7 +5987,7 @@
       "title": "Manga Artist Alleges Editor’s Abuse Led to Psychiatric Hospitalization",
       "link": "https://news.sankakucomplex.com/n/KGpJy3Zl2Ttot758ND8AEA",
       "publishedAt": "2026-11-20T14:41:12.000Z",
-      "excerpt": "Japanese manga artist Marku has accused a former editor at a major publisher of psychological abuse, claiming the mistreatment caused severe mental health problems, temporary hearing loss, and hospitalization.",
+      "excerpt": "Japanese manga artist Marku has accused a former editor at a major publisher of psychological abuse, claiming the mistreatment caused severe mental health problems, temporary hearing loss, and hospitalization. In a November 11 post on Twitter, Marku described their experiences with their first pr…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -7433,7 +7566,7 @@
       "title": "Grand Theft Auto VI Developers Fear Losing Their Jobs After Record-Breaking Launch",
       "link": "https://news.sankakucomplex.com/n/T2cjEmSUpNaKakA6yfoP0g",
       "publishedAt": "2026-11-20T04:00:58.000Z",
-      "excerpt": "Despite the monetary success of Grand Theft Auto VI, some Rockstar Games developers are worried about potential layoffs.",
+      "excerpt": "Despite the monetary success of Grand Theft Auto VI, some Rockstar Games developers are worried about potential layoffs. Rockstar Games animation programmer Nestor Uriarte, who works at the company’s Edinburgh studio, expressed concerns about potential layoffs in an opinion piece published by The…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18213,131 +18346,6 @@
       },
       "translatedTitle": "Alec Benjamin releases introspective new song",
       "translatedExcerpt": "Alec Benjamin released his new single \"Without My Strings\" on Friday, November 13, 2026. This song is about getting rid of the expectations of others, the limits you have created for yourself, and the various situations that prevent you from living your life the way you want, and regaining control of your own life. The song is a pop number that combines emotional vocals and an introspective message, giving a feeling of hope and liberation. This song was produced by Sacha Skarbek, Stephen Barnes, and Yarden “JORDi” Peleg. The rich musical expanse of the acoustic warmth, piano, and strings brings out the sense of freedom and emotional ups and downs of the song. Release information https://ototoy.j…"
-    },
-    {
-      "id": "d235363ddb51de6d",
-      "title": "Amira Elfeky、夢と現実が交差する新ALリリース",
-      "link": "https://ototoy.jp/news/132797",
-      "publishedAt": "2026-11-14T13:00:00.000Z",
-      "excerpt": "Amira Elfekyが2026年11月13日(金)にニューアルバム『It was only a dream』をリリースした。 本作は、2025年発表のEP『Surrender』に続く作品であり、彼女にとって初のフルアルバム。これまで培ってきた重厚なオルタナティブロックやニューメタルのサウンドを基盤に、ポップやエレクトロニックの要素を大胆に取り入れ、アーティストとしての新たな表現領域を切り拓く意欲作となっている。 本作の中心にあるテーマは、理想の自分と現実の自分との間に存在するギャップ、そして自己解放への渇望。夢の中にいる自分と現実を生きる自分が衝突し、やがて一つになっていくというコンセプトが、音楽とアートワークの両面から表現されている。 リリース情報 https://ototoy.jp/_/defau…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132797/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Amira Elfeky, new AL release where dreams and reality intersect",
-      "translatedExcerpt": "Amira Elfeky released her new album \"It was only a dream\" on Friday, November 13, 2026. This work is the follow-up to the EP \"Surrender\" released in 2025, and is her first full-length album. Based on the solid alternative rock and nu metal sounds that he has cultivated up until now, this album boldly incorporates pop and electronic elements, creating an ambitious work that opens up a new realm of expression for him as an artist. The central theme of this work is the gap between the ideal self and the real self, and the longing for self-liberation. The concept of the self in a dream and the self living in reality colliding and eventually becoming one is expressed through both music and artwork. Release information https://ototoy.jp/_/defau…"
-    },
-    {
-      "id": "8fae4d1a385589e4",
-      "title": "Emma Ogier、全12曲を収録した新ALリリース",
-      "link": "https://ototoy.jp/news/132787",
-      "publishedAt": "2026-11-14T13:00:00.000Z",
-      "excerpt": "Emma Ogierが2026年11月11日(水)にニューアルバム『Fly 1111』をリリースした。 本作には、音楽とともに生きることの喜びや犠牲、将来への迷い、そして不確かな状況の中でも自分自身を信じることの大切さを描いた全12曲を収録。プロデューサーにDavid Baronを迎え、彼女の豊かな創造性と飾らない人間性を凝縮した作品に仕上がっている。 本作の中心にあるテーマは、クリエイティブな人生を選択することに伴う犠牲と葛藤、そして自分の直感を信じること。恋愛の高揚感や人間関係の複雑さ、成長することへの戸惑いなど、誰もが経験し得る感情を率直な言葉で表現している。 リリース情報 https://ototoy.jp/_/default/p/4421376 アーティスト情報 https://www.inst…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132787/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Emma Ogier releases new AL with 12 songs",
-      "translatedExcerpt": "Emma Ogier released her new album ``Fly 1111'' on Wednesday, November 11, 2026. This work includes a total of 12 songs that depict the joy and sacrifice of living with music, doubts about the future, and the importance of believing in yourself even in uncertain situations. With David Baron as the producer, the result is a work that condenses her rich creativity and simple humanity. The film's central themes are the sacrifices and conflicts that come with choosing a creative life, and trusting one's intuition. It uses frank words to express emotions that anyone can experience, such as the exhilaration of love, the complexity of human relationships, and the confusion of growing up. Release information https://ototoy.jp/_/default/p/4421376 Artist information https://www.inst…"
-    },
-    {
-      "id": "280bcbd3e41d517f",
-      "title": "'Re:Zero kara Hajimeru Isekai Seikatsu' Gets 5th Season",
-      "link": "https://myanimelist.net/news/74938716?_location=rss",
-      "publishedAt": "2026-11-14T12:16:16.000Z",
-      "excerpt": "The Re:Zero 10th Anniversary Starlight Party special event announced a fifth season on Saturday, revealing an ultra teaser visual (pictured). Produced by White Fox, the first anime season adapting Tappei Nagatsuki's isekai fantasy light novel debuted in Spring 2016, covering the first nine volumes. The Memory Snow side-story OVA premiered in theaters in O…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794657961-581441fa4f12821d4387bb339c63d3af.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e5db99a9485f667f",
-      "title": "Japan's Video Game Rankings, November 2-8",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-14/japan-video-game-rankings-november-2-8/.243786",
-      "publishedAt": "2026-11-14T12:15:00.000Z",
-      "excerpt": "The Legend of Zelda: Ocarina of Time remake debuts at #1 with 537,041 copies sold",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGR/cms/news.10/243786/ocarina.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "f752bb899dc0e761",
-      "title": "Re:ZERO -Starting Life in Another World- Season 5 Anime Announced",
-      "link": "https://crunchyroll.com/news/latest/2026/11/14/re-zero-starting-life-in-another-world-season-5-anime-announced-ultra-teaser-visual",
-      "publishedAt": "2026-11-14T12:01:00.000Z",
-      "excerpt": "A teaser visual was also unveiled at an event today",
-      "image": "https://a.storyblok.com/f/178900/960x540/fef7981b04/re-zero-starting-life-in-another-world-season-4.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "c10e690b2a5c2921",
-      "title": "神はサイコロを振らない、2027年2月より全国ライブハウスツアー＜View From The Soyuz＞開催",
-      "link": "https://barks.jp/news/1104494",
-      "publishedAt": "2026-11-14T12:00:58.000Z",
-      "excerpt": "神はサイコロを振らないによるZeppツアー＜Zepp Tour 2026 “View From The Soyuz”＞が、本日11月14日(土) Zepp Sapporoよりスタートした。さらに、新たに来年2月より全国23箇所のライブハウスをまわるツアー＜Live House Tour 2027 “View From The Soyuz”＞の開催が発表となった。 先日配信シングルでの新曲「99」をリリースしたばかりの彼ら。新たに発表されたツアーではZeppツアーのツアータイトルとテーマを引き継ぎ、今年6月にリリースしたアルバム『EINSTEIN＝ROSEN BRIDGE』の楽曲や新曲「99」を、バンドの結成地でもある福岡・小倉FUSEを皮切りに、全国各地へ届けにゆく。 チケット申込は本日21:00より、神…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/04121120/1-7.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "God Doesn’t Roll Dice, Nationwide Live House Tour <View From The Soyuz> will be held from February 2027",
-      "translatedExcerpt": "Zepp Tour 2026 “View From The Soyuz” by God Doesn’t Roll Dice started today, November 14th (Saturday) at Zepp Sapporo. Furthermore, it has been announced that a new tour <Live House Tour 2027 “View From The Soyuz”> will be held at 23 live houses nationwide from February next year. They just released their new song ``99'' as a digital single the other day. The newly announced tour will take over the tour title and theme from the Zepp tour, and will deliver songs from the album \"EINSTEIN = ROSEN BRIDGE\" released in June of this year, as well as the new song \"99\", to all over the country, starting with Kokura FUSE in Fukuoka, where the band was formed. Ticket applications are available from 21:00 today."
-    },
-    {
-      "id": "fa28c3b0608aea31",
-      "title": "Kadokawa Wants to Produce Twice as Much Anime Despite Mounting Losses",
-      "link": "https://news.sankakucomplex.com/n/NBEncH7PQZ6PJMnHqgT-Eg",
-      "publishedAt": "2026-11-14T12:00:24.000Z",
-      "excerpt": "Japanese entertainment giant Kadokawa is planning to more than double its annual anime production capacity by 2031, even as its animation business continues to struggle with rising production costs and operating losses, with the company hoping that a newly established mega-studio will help turn t…",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
     }
   ]
 }

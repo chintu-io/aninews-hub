@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T08:01:57.221Z",
+  "generatedAt": "2026-11-25T08:31:43.470Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 136,
+      "count": 137,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 92,
+      "count": 93,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 268,
+      "count": 269,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 208,
+      "count": 207,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 80,
+      "count": 78,
       "fetchedCount": 24
     }
   ],
@@ -167,6 +167,42 @@
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "192351ee031604fc",
+      "title": "【先ヨミ速報】Stray Kids『SUIATSU』フラゲ日でハーフミリオン突破",
+      "link": "https://www.billboard-japan.com/d_news/detail/167760",
+      "publishedAt": "2026-11-25T08:30:00.000Z",
+      "excerpt": "SoundScan JapanによるCDアルバム売上レポートから2026年11月23日～11月24",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167760/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Breaking News] Stray Kids “SUIATSU” surpasses half million on the day of the game",
+      "translatedExcerpt": "From CD album sales report by SoundScan Japan from November 23 to November 24, 2026"
+    },
+    {
+      "id": "48677b0575910035",
+      "title": "The Kept Man of the Princess Knight Anime Reveals January 3, 2027 Premiere in New Trailer",
+      "link": "https://crunchyroll.com/news/latest/2026/11/25/the-kept-man-of-the-princess-knight-anime-main-trailer-january-3-2027-release-date-additional-cast",
+      "publishedAt": "2026-11-25T08:01:00.000Z",
+      "excerpt": "The fantasy series' ending theme song is also previewed",
+      "image": "https://a.storyblok.com/f/178900/960x540/e8d02bdd40/the-kept-man-of-the-princess-knight.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "460681bcd8c1f117",
       "title": "【Heatseekers Songs】BESTie「Love Options」が3連覇 luv「easy, no way!!」ら初登場",
@@ -280,6 +316,23 @@
       },
       "translatedTitle": "[Billboard] Keisuke Kuwata's \"Kami no Sash\" ranks first in DL songs with over 12,000 DLs, followed by JO1",
       "translatedExcerpt": "Billb released on November 25, 2026 (collection period: November 16, 2026 to November 22, 2026)"
+    },
+    {
+      "id": "b32a57b545f027f2",
+      "title": "The Kept Man of the Princess Knight Anime's New Video Reveals More Cast, Ending Song, January 3 Debut",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-25/the-kept-man-of-the-princess-knight-anime-new-video-reveals-more-cast-ending-song-january-3-debut/.244177",
+      "publishedAt": "2026-11-25T08:00:00.000Z",
+      "excerpt": "Yūya Hirose, Manaka Iwami, Shion Wakayama, Saori Ōnishi join anime's cast",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIK/cms/news.10/244177/knight.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "77274058adaa86cc",
@@ -18325,59 +18378,6 @@
       },
       "translatedTitle": "NipponBoyz, who is popular with “I think it would be good to come to Thailand”, makes major debut from Sony Music Labels",
       "translatedExcerpt": "It has been decided that the Thailand-based three-person entertainment unit \"NipponBoyz\" will make their major debut under Sony Music Labels. NipponBoyz, which has gained overwhelming support mainly in Thailand, is a popular trio with a cumulative total of over 8 million followers, including individual members and the group's official SNS. He disseminates Japanese and Thai culture mainly through SNS content, and has also attracted attention with the phrase \"I think it would be great to come to Thailand.\" In recent years, a collaboration video with Thanapak Jonjaiper, who played the role of Chokki in TBS's Sunday theater \"VIVANT\", has received a great response, with a total of about 14 million views on SNS. A unit consisting of Luke, Ryota, and Hideki who are active as actors, models, and talents."
-    },
-    {
-      "id": "d3c98909607aa63c",
-      "title": "FRUITS ZIPPER、2027年に初のスタジアムツアー開催",
-      "link": "https://barks.jp/news/1104738",
-      "publishedAt": "2026-11-16T04:06:39.000Z",
-      "excerpt": "FRUITS ZIPPERが、2027年にデビュー5周年を記念したスタジアム公演ツアーを開催することを発表した。 発表が行われたのは、現在開催中の全国ホールツアー＜FRUITS ZIPPER JAPAN TOUR 2026 – AUTUMN – Secret Code＞の東京公演（東京ガーデンシアター）にて。5周年スタジアムツアーでは2027年6月12日（土）・13日（日）に兵庫県・ノエビアスタジアム神戸、2027年7月10日（土）・11日（日）に東京都・MUFGスタジアム(国立競技場)の計4公演を行う。 この発表に櫻井優衣は「FRUITS ZIPPERにいると想像していなかったような景色や夢に出会わせてくれます。私自身、追いつかないときとかあるんですけど、このグループはすごくキラキラしていて私の宝物です…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/16124109/60A0195.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "FRUITS ZIPPER to hold first stadium tour in 2027",
-      "translatedExcerpt": "FRUITS ZIPPER has announced that they will hold a stadium performance tour in 2027 to commemorate their 5th anniversary since their debut. The announcement was made at the Tokyo performance (Tokyo Garden Theater) of the current national hall tour <FRUITS ZIPPER JAPAN TOUR 2026 – AUTUMN – Secret Code>. The 5th anniversary stadium tour will hold a total of four performances: Noevir Stadium Kobe in Hyogo Prefecture on June 12th (Saturday) and 13th (Sunday), 2027, and MUFG Stadium (National Stadium) in Tokyo on July 10th (Saturday) and 11th (Sunday), 2027. In response to this announcement, Yui Sakurai said, ``Being in FRUITS ZIPPER allows me to encounter scenery and dreams that I never imagined. Personally, there are times when I can't catch up, but this group is so sparkling that it's my treasure...''"
-    },
-    {
-      "id": "e39187d26f3cddf6",
-      "title": "Grand Theft Auto VI Will “Encourage Players to Show Empathy”",
-      "link": "https://news.sankakucomplex.com/n/Jd3kkN-52MSRjtPV4U2HiA",
-      "publishedAt": "2026-11-16T04:00:16.000Z",
-      "excerpt": "Rockstar Games has revealed that Grand Theft Auto VI will introduce gameplay mechanics designed to encourage players to show empathy, marking an unusual departure for a franchise best known for allowing players to steal vehicles, murder pedestrians, and cause indiscriminate chaos.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
-    },
-    {
-      "id": "50c335e7811690e7",
-      "title": "Grand Theft Auto VI Will “Encourage Players to Show Empathy”",
-      "link": "https://news.sankakucomplex.com/n/ctM6KpDtOTbLSPFnKz6fwg",
-      "publishedAt": "2026-11-16T04:00:16.000Z",
-      "excerpt": "Rockstar Games has revealed that Grand Theft Auto VI will introduce gameplay mechanics designed to encourage players to show empathy, marking an unusual departure for a franchise best known for allowing players to steal vehicles, murder pedestrians, and cause indiscriminate chaos.",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T07:01:44.483Z",
+  "generatedAt": "2026-11-25T07:32:30.377Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 49,
+      "count": 48,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 260,
+      "count": 262,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 213,
+      "count": 212,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 132,
+      "count": 131,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 78,
+      "count": 79,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,86 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 605,
+    "translatedJapaneseArticles": 606,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "f502fbd9011142c8",
+      "title": "flumpool、【ここからの歌】ツアーで歌い続けてきた新曲「Love Again」MVプレミア公開へ",
+      "link": "https://www.billboard-japan.com/d_news/detail/167752",
+      "publishedAt": "2026-11-25T07:30:00.000Z",
+      "excerpt": "flumpoolが、新曲「Love Again」のミュージックビデオを、本日11月25日21時にY",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167752/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "flumpool, [Songs from here] MV premiere of new song “Love Again” that they have been singing on tour",
+      "translatedExcerpt": "flumpool will release a music video for their new song “Love Again” today, November 25th at 9pm Y"
+    },
+    {
+      "id": "7f3a09723000e4de",
+      "title": "BUCK∞TICK、TVアニメ『DARK MACHINE THE ANIMATION』OPテーマ「存在理由 改」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167755",
+      "publishedAt": "2026-11-25T07:20:00.000Z",
+      "excerpt": "BUCK&infin;TICKが、11月25日に発売した最新シングル表題曲「存在理由 改」のミュー",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167755/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "BUCK∞TICK releases MV for TV anime “DARK MACHINE THE ANIMATION” opening theme “Reason for Existence Kai”",
+      "translatedExcerpt": "BUCK∞TICK's latest single title song \"Reason for Existence Kai\" released on November 25th."
+    },
+    {
+      "id": "de8219d4b7012474",
+      "title": "乃木坂46、ニューSG『君ロス』初回盤特典「Live at 明治神宮野球場2026」ダイジェスト映像公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167753",
+      "publishedAt": "2026-11-25T07:15:00.000Z",
+      "excerpt": "乃木坂46が、12月2日にリリースする43rdシングル『君ロス』の初回盤に付属する特典Blu-ra",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167753/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Nogizaka46 releases digest video of New SG “Kimiros” first edition bonus “Live at Meiji Jingu Baseball Stadium 2026”",
+      "translatedExcerpt": "Bonus Blu-ra included with the first edition of Nogizaka46's 43rd single \"Kimiros\" to be released on December 2nd."
+    },
+    {
+      "id": "fc873a6987c6e1ed",
+      "title": "パペットスンスン、新曲「カラー」MVプレミア公開決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167750",
+      "publishedAt": "2026-11-25T06:55:00.000Z",
+      "excerpt": "パペットスンスンが、新曲「カラー」のミュージックビデオを11月25日21時からプレミア公開すること",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167750/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Puppet Seungsun's new song \"Color\" MV premiere to be released",
+      "translatedExcerpt": "Puppet Seungsun will premiere the music video for his new song “Color” on November 25th at 9pm."
+    },
     {
       "id": "a5551af96af69954",
       "title": "レトロリロン、新曲「アンフィリア」がTVアニメ『ヒストリエ』EDテーマに決定",
@@ -5197,6 +5273,23 @@
       },
       "translatedTitle": "NHK〈SONGS〉11/26 is Hiroko Yakushimaru special",
       "translatedExcerpt": "On November 26th, NHK <SONGS> will broadcast a special for Hiroko Yakushimaru, who will be celebrating her 45th anniversary as a singer this year. The song was also recorded at St. Luke's Chapel at St. Luke's International Hospital in Tsukiji. They will perform the memorable ``Uruwashi no Shirayuri,'' a hymn that they have been familiar with since childhood, along with a pipe organ performance. In addition, Miyuki Nakajima's famous song \"Jidai\", which has been covered for nearly 40 years, will be sung at the chapel. A total of 8 songs will be performed along with the studio live performance. There are also messages from Kankuro Kudo, Karuho Kureta (Yumi Matsutoya), Mariya Takeuchi, and Miyuki Nakajima. Taiga Nakano will be in charge of narration. Program information SONGS Special Hiroko Yakushimaru [Broadcast] November 26, 2026 (Thursday) 10:00-10:45 pm <General> [Performance] Hiroko Yakushimaru [Narration] Taiga Nakano [Songs: 8 songs in total] \"Sailor Suit and Machine Gun\" \"Original..."
+    },
+    {
+      "id": "51389df27851a5ab",
+      "title": "CLANNAD Café Sparks Backlash Over $14 Fish Dinner",
+      "link": "https://news.sankakucomplex.com/n/NZRwWTko9hBqO5E5MpxuOw",
+      "publishedAt": "2026-11-22T07:00:08.000Z",
+      "excerpt": "An upcoming CLANNAD collaboration café celebrating Nagisa Furukawa’s birthday in Japan has attracted criticism after revealing a ¥2,200 ($14) fish dinner, with fans questioning why an ordinary-looking Japanese meal costs so much.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "bdcb25e101f2265c",
@@ -18283,99 +18376,6 @@
       },
       "translatedTitle": "``Hypla Audition'', a large-scale audition in which more than 20 companies participate, 8 teams decided to take on the final screening",
       "translatedExcerpt": "``Hypla Audition'' is a super-large audition curated by ``xHL'' in which more than 20 label management companies participate and meet new artists who combine their own values. In the second stage, a live/performance video review was conducted for the 68 groups that passed the first stage audio screening. After a strict point vote by each participating label management, eight finalists were finally selected on the YouTube music program \"Hyprivy\" which was broadcast live yesterday, November 13th (Friday) at 8:00 pm. Hype Audition 8 finalists (in order of entry number) The 8 finalists will participate in “Hype Live!” to be held at Daikanyama SPACE ODD on December 17th (Thursday), and will be selected as “TOP2 ARTIST” after the live judging on the day..."
-    },
-    {
-      "id": "c90c9c184b50cc85",
-      "title": "fuzzy knot、2027年もShinjiバースデーライブ開催決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167469",
-      "publishedAt": "2026-11-16T03:00:00.000Z",
-      "excerpt": "シドのShinji（Gt.）と、Rayflowerやソロなど多彩に活動を行う田澤孝介（Vo.）によ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167469/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "fuzzy knot will hold Shinji birthday live again in 2027",
-      "translatedExcerpt": "By Shinji (Gt.) of SID and Kosuke Tazawa (Vo.) who is active in various activities such as Rayflower and solo."
-    },
-    {
-      "id": "f8ec160594efa9e3",
-      "title": "ROF-MAOが再始動 第一弾「/SLASH」配信開始",
-      "link": "https://ototoy.jp/news/132814",
-      "publishedAt": "2026-11-16T03:00:00.000Z",
-      "excerpt": "ROF-MAOが再始動。第一弾楽曲「/SLASH」（読み方：スラッシュ）を配信リリースした。 ROF-MAOは、2026年5月29日(金)より活動を休止。2026年11月14日(土)午前10時からROF-MAO再始動直前企画として「200kmマラソン」の様子をノーカットで配信。加賀美ハヤト、不破湊、甲斐田晴の3名が交代で約36時間かけて200kmを完走し、2026年11月15日(日)の生配信内で活動再開を告知した。 「/SLASH」（読み：スラッシュ）は、R・O・Nが手がけた重厚な低音が響くラウドな曲調とラップが印象的な楽曲。変化こそがチャンスであり、この区切りから昇っていくだけ。その姿を本気の行動で証明していくという、再始動に向けた強い意志が込められている。 リリース情報 https://ototoy.…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132814/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "ROF-MAO restarts, first distribution of “/SLASH” begins",
-      "translatedExcerpt": "ROF-MAO has restarted. The first song \"/SLASH\" (pronunciation: SLASH) has been released. ROF-MAO will suspend activities from Friday, May 29, 2026. From 10:00 am on Saturday, November 14, 2026, the \"200km Marathon\" will be broadcast uncut as a project just before the restart of ROF-MAO. Hayato Kagami, Minato Fuwa, and Haru Kaida took turns to complete the 200km distance in approximately 36 hours, and announced their resumption of activities during a live broadcast on Sunday, November 15, 2026. \"/SLASH\" (pronunciation: SLASH) is a song written by R.O.N with an impressive loud melody and rap that resonates with heavy bass. Change is an opportunity, and you can only rise from this break. It reflects a strong will to restart and prove this through serious action. Release information https://ototoy.…"
-    },
-    {
-      "id": "a93fa34d62eaa2e0",
-      "title": "【ライブレポート】初回から予測不能な＜BARKS LIVE＞、ニュートピア、MAQIA、零[Hz]が渋谷eggmanで刻んだ伝説の始まり",
-      "link": "https://barks.jp/news/1104104",
-      "publishedAt": "2026-11-16T02:31:19.000Z",
-      "excerpt": "BARKSが新たにスタートさせたライブイベント＜BARKS LIVE 第1回 “BARKS ν（バークスニュー）”＞が2026年11月6日（金）渋谷 eggmanにて開催され、ニュートピア、MAQIA（マキア）、零[Hz]（ゼロヘルツ）の3組が出演。第1回目らしく幾つかのハプニングもありつつ、それぞれの個性を存分に発揮したライブで記念すべきイベント初回を大いに盛り上げた。 このイベントは、創設26年の音楽メディアBARKSが、“新たな音楽との出会い”をテーマに開催するライブハウス企画。ジャンルもキャリアも括らず「今、観たいアーティスト」をキュレーションするナンバーシリーズとなる。 会場となる渋谷eggmanは、時代を彩ってきた数々のアーティストを輩出してきたライブハウスとして知られている。今はアリーナやス…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/13113507/2560-7-1024x576.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Live Report] Unpredictable from the first time <BARKS LIVE>, Nutopia, MAQIA, Zero [Hz] began the legend carved at Shibuya eggman",
-      "translatedExcerpt": "BARKS' newly started live event <BARKS LIVE 1st \"BARKS ν\"> will be held at Shibuya Eggman on Friday, November 6, 2026, and three groups will perform: Nutopia, MAQIA, and Zero [Hz]. Although there were some hiccups as it was the first time, the live performance that fully demonstrated each individual's individuality made the first memorable event a great success. This event is a live house project organized by music media BARKS, which has been in business for 26 years, with the theme of \"encountering new music.\" It will be a number series that curates ``artists you want to see right now'' regardless of genre or career. The venue, Shibuya Eggman, is known as a live house that has produced many artists who have colored the times. Now arena and stadium..."
-    },
-    {
-      "id": "a47197855368bf9e",
-      "title": "「俺たちの箱根駅伝」“徳重亮”大泉洋の涙に「ラストが一番驚いた」 「学生連合がやっと一つになれた」「メンバ－発表は涙なしでは見られない」",
-      "link": "https://www.billboard-japan.com/d_news/detail/167470",
-      "publishedAt": "2026-11-16T02:00:00.000Z",
-      "excerpt": "大泉洋が主演するドラマ「俺たちの箱根駅伝」（日本テレビ系）の第6話が、14日に放送された。（※以下",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167470/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "``Our Hakone Ekiden'' ``Ryo Tokushige'' Hiroshi Oizumi's tears ``The last part was the most surprising'' ``The Student Union has finally come together as one'' ``I can't watch the member announcement without crying''",
-      "translatedExcerpt": "The 6th episode of the drama ``Oretachi no Hakone Ekiden'' (Nippon Television Network) starring Yo Oizumi was broadcast on the 14th. (※below"
-    },
-    {
-      "id": "64333503783003de",
-      "title": "Nara deer send record number of people to hospital, over 70 percent of patients are foreigners",
-      "link": "https://soranews24.com/2026/11/16/nara-deer-send-record-number-of-people-to-hospital-over-70-percent-of-patients-are-foreigners/",
-      "publishedAt": "2026-11-16T01:00:56.000Z",
-      "excerpt": "Just because Nara’s deer are usually cute and calm doesn’t mean they’re not still wild animals who will mess you up if you give them a reason to. For anyone with the city of Nara on their Japan travel itinerary, Nara Park, with its herds of deer that roam freely across its grounds, is a […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/11_034037.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
     }
   ]
 }

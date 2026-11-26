@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T04:32:00.988Z",
+  "generatedAt": "2026-11-26T05:02:24.403Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 133,
+      "count": 134,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 91,
+      "count": 90,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 41,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 273,
+      "count": 274,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,46 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 615,
+    "translatedJapaneseArticles": 616,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "80f5b746d916f659",
+      "title": "MONSTA X、WOWOWで3か月連続特集 特別インタビューや生中継も",
+      "link": "https://www.billboard-japan.com/d_news/detail/167806",
+      "publishedAt": "2026-11-26T04:30:00.000Z",
+      "excerpt": "12月に開催されるMONSTA Xの日本アンコール公演【2026 MONSTA X WORLD T",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167806/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "MONSTA X will be featured on WOWOW for 3 consecutive months with special interviews and live broadcasts",
+      "translatedExcerpt": "MONSTA X's Japanese encore performance to be held in December [2026 MONSTA X WORLD T"
+    },
+    {
+      "id": "a6cd0311bcad0a08",
+      "title": "Live-Action 'Kekkon Shimashō, Koi Suru Mae ni' Series Reveals Cast, Theme Song Artists, January 2027 Streaming Debut",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-25/live-action-kekkon-shimasho-koi-suru-mae-ni-series-reveals-cast-theme-song-artists-january-2027-/.244170",
+      "publishedAt": "2026-11-26T04:04:45.000Z",
+      "excerpt": "Former Nogizaka46 idol Tamami Sakaguchi, Genin wa Jibun ni Aru's Jun Mutō star in shorts with song by YU's",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ6/cms/news.10/243664/kekkonshimashou.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "2e3f9dfb0039d3c2",
       "title": "全英5週連続1位のジェイミー・ミラー「Babydoll」MV公開、エルトン・ジョンもカメオ出演",
@@ -204,6 +240,40 @@
       },
       "translatedTitle": "Kohei Matsushita appointed as ambassador for “Dune: Sand Planet Part 3”",
       "translatedExcerpt": "Kohei Matsushita will be the promotional ambassador for the movie “Dune: Sand Planet Part 3” which will be released simultaneously in Japan and the US on December 18th."
+    },
+    {
+      "id": "22d035b90b981d83",
+      "title": "Nioh 3 Game Streams First Look Trailer for New DLC",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-25/nioh-3-game-streams-first-look-trailer-for-new-dlc/.244166",
+      "publishedAt": "2026-11-26T03:50:11.000Z",
+      "excerpt": "Bloody Insurrection DLC Vol. 2 launches on December 17",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJC/youtube/ra04S_JrvwY.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d27f0e5a86055bc5",
+      "title": "Live-Action High School Family: Kokosei Kazoku Film Gets Spinoff Shorts",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-25/live-action-high-school-family-kokosei-kazoku-film-gets-spinoff-shorts/.244171",
+      "publishedAt": "2026-11-26T03:46:21.000Z",
+      "excerpt": "11 short episodes stream in lead-up to film's January opening",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gH6/youtube/wKyUo_uuqcQ.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "749f65d2dd4283e7",
@@ -18326,74 +18396,6 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "71d177125000a385",
-      "title": "'Kanan-sama wa Akumade Choroi 2nd Season' Reveals Additional Cast, New Staff, First Promo, 2027 Debut",
-      "link": "https://myanimelist.net/news/74949337?_location=rss",
-      "publishedAt": "2026-11-17T09:56:09.000Z",
-      "excerpt": "The official website for the television anime adaptation of nonco's Kanan-sama wa Akumade Choroi (Mistress Kanan is Devilishly Easy) manga revealed additional cast, new staff, a teaser visual (pictured), and the first promotional video for the second season, subtitled Easy, on Tuesday. The anime series will premiere in 2027. Cast Tekka Shinryuuji: Misato…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794909319-d05cd24bfa7a268104f21c22fdda0107.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "49cac7d729d44ff6",
-      "title": "Josemaru Short Anime's 3rd Teaser Reveals More Cast, January 10 Debut",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-17/josemaru-short-anime-3rd-teaser-reveals-more-cast-january-10-debut/.243904",
-      "publishedAt": "2026-11-17T09:51:14.000Z",
-      "excerpt": "Mariya Ise, Hikaru Tōno, Nana Enomoto join cast",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gIB/cms/news.10/243904/jose.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "c52a7b6a73eb5494",
-      "title": "Mistress Kanan is Devilishly Easy Season 2 Anime Reveals 2027 Broadcast in New Trailer, Visual",
-      "link": "https://crunchyroll.com/news/latest/2026/11/17/mistress-kanan-is-devilishly-easy-season-2-anime-2027-release-date-trailer-teaser-visual",
-      "publishedAt": "2026-11-17T09:45:00.000Z",
-      "excerpt": "Crunchyroll streams all 12 episodes of the first season",
-      "image": "https://a.storyblok.com/f/178900/2664x1498/d1362d57e8/mistress-kanan-is-devilishly-easy-season-2.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "3671b6a05822ea98",
-      "title": "Sonic the Hedgehog, McLaren Racing Collaborate on 3-Episode Animated Special",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-17/sonic-the-hedgehog-mclaren-racing-collaborate-on-3-episode-animated-special/.243899",
-      "publishedAt": "2026-11-17T09:17:45.000Z",
-      "excerpt": "Sonic the Hedgehog x McLaren Racing: Beyond Fast previewed in teaser",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJD/youtube/f8lFkUzg5Mg.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
         "language": "en"
       }
     }

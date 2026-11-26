@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T02:02:57.412Z",
+  "generatedAt": "2026-11-26T02:32:11.843Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 44,
+      "count": 43,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 130,
+      "count": 128,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 266,
+      "count": 270,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 215,
+      "count": 214,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -163,10 +163,103 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 618,
+    "translatedJapaneseArticles": 621,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "fb0d219cd3d0a14d",
+      "title": "timelesz、“翠”をキーカラーに幻想的＆優しい映像で紡いでいく「本当のことを言うと」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167785",
+      "publishedAt": "2026-11-26T02:30:00.000Z",
+      "excerpt": "timeleszが、2027年2月3日発売のダブルAサイドシングル『ザユウノメイ / 本当のことを",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167785/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "timelesz releases MV for “To tell you the truth” with “green” as the key color and a fantastic and gentle video",
+      "translatedExcerpt": "timelesz will release their double A-side single “The Yuunomei/Mahon wo wo wo” to be released on February 3, 2027."
+    },
+    {
+      "id": "82eec983f8a768f5",
+      "title": "アリアナ・グランデ、「petal」MVへの反応は楽曲で訴えたかったことと正反対だったと振り返る",
+      "link": "https://www.billboard-japan.com/d_news/detail/167786",
+      "publishedAt": "2026-11-26T02:30:00.000Z",
+      "excerpt": "アリアナ・グランデは、今年公開した「petal」のミュージック・ビデオに対する世間の反応が、そもそ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167786/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Ariana Grande recalls that the reaction to her \"petal\" MV was the exact opposite of what she wanted to convey with the song.",
+      "translatedExcerpt": "Ariana Grande's ``petal'' music video, which she released earlier this year, was initially affected by the public's reaction to it."
+    },
+    {
+      "id": "ab54a5f3f9d5e27c",
+      "title": "Reini Shares Hello, I am a Witch and my Crush Wants me to Make a Love Potion! Ending Song Anime Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/11/26/hello-i-am-a-witch-and-my-crush-wants-me-to-make-a-love-potion-ending-song-anime-music-video-reini",
+      "publishedAt": "2026-11-26T02:05:00.000Z",
+      "excerpt": "The fantasy romance series is now available on Crunchyroll",
+      "image": "https://a.storyblok.com/f/178900/960x540/630529148e/hello-i-am-a-witch-ending-mv.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "5546761a1b437050",
+      "title": "Stray Kids×「洗伝プロジェクト by ケルヒャー」、高圧洗浄機リバースグラフィティ公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167779",
+      "publishedAt": "2026-11-26T02:00:00.000Z",
+      "excerpt": "Stray Kidsが、JAPAN 4thミニアルバム『SUIATSU』の発売を記念し、「洗伝プロ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167779/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Stray Kids x “Senden Project by Karcher”, high pressure washer reverse graffiti released",
+      "translatedExcerpt": "To commemorate the release of JAPAN 4th mini album “SUIATSU”, Stray Kids will release “Saiden Pro"
+    },
+    {
+      "id": "8cb6087fee337fc1",
+      "title": "デュラン・デュランのアンディ・テイラー、前立腺がんのため65歳で死去",
+      "link": "https://www.billboard-japan.com/d_news/detail/167784",
+      "publishedAt": "2026-11-26T02:00:00.000Z",
+      "excerpt": "デュラン・デュランの元ギタリストとして知られるアンディ・テイラーが、前立腺がんとの闘病の末に65歳",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167784/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Duran Duran's Andy Taylor dies at age 65 from prostate cancer",
+      "translatedExcerpt": "Former Duran Duran guitarist Andy Taylor dies at 65 after battling prostate cancer"
+    },
     {
       "id": "0a43eb9469d205f1",
       "title": "Chevon、Geroへの提供楽曲「ブレンデッド」セルフカバーのリリックビデオ公開",
@@ -314,7 +407,7 @@
       "title": "After God Manga Creator Leaves Shogakukan Following Sexual Abuse Scandal",
       "link": "https://news.sankakucomplex.com/n/gOepiLtLoXBppEn_8Ky0rA",
       "publishedAt": "2026-11-25T23:00:09.000Z",
-      "excerpt": "After God manga creator Sumi Eno has announced that the series is moving from Shogakukan to rival publisher Futabasha, citing the controversy surrounding Shogakukan’s MangaOne platform and its decision to employ a creator convicted of a sexual offense. In a November 23 announcement on Twitter, th…",
+      "excerpt": "After God manga creator Sumi Eno has announced that the series is moving from Shogakukan to rival publisher Futabasha, citing the controversy surrounding Shogakukan’s MangaOne platform and its decision to employ a creator convicted of a sexual offense.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -452,7 +545,7 @@
       "title": "Final Fantasy Resonance Developers Surprised by Demand for Classic Turn-Based RPGs",
       "link": "https://news.sankakucomplex.com/n/ufyZvnZ7ilB1AhrElwkJ-g",
       "publishedAt": "2026-11-25T15:00:45.000Z",
-      "excerpt": "The developers of Final Fantasy Resonance have expressed surprise at the game’s overwhelmingly positive reception, revealing that they originally designed it for longtime fans of Final Fantasy V and VI rather than expecting such widespread popularity. In an interview, producer Keisuke Nakajima, c…",
+      "excerpt": "The developers of Final Fantasy Resonance have expressed surprise at the game’s overwhelmingly positive reception, revealing that they originally designed it for longtime fans of Final Fantasy V and VI rather than expecting such widespread popularity.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -1031,7 +1124,7 @@
       "title": "Hideki Kamiya Wants to Make a “Truly Insane” Castlevania Game",
       "link": "https://news.sankakucomplex.com/n/7djB5_NlzPU5d1vXHmTsLg",
       "publishedAt": "2026-11-25T11:00:15.000Z",
-      "excerpt": "Veteran Japanese game director Hideki Kamiya has expressed interest in taking control of Konami’s legendary Castlevania franchise, suggesting he would like to develop a particularly outrageous new installment if the publisher ever gave him permission. The prospect is particularly intriguing given…",
+      "excerpt": "Veteran Japanese game director Hideki Kamiya has expressed interest in taking control of Konami’s legendary Castlevania franchise, suggesting he would like to develop a particularly outrageous new installment if the publisher ever gave him permission.",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6231,6 +6324,23 @@
         "siteUrl": "https://www.animenewsnetwork.com/news/",
         "category": "Anime News",
         "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "135dbad441bfc0b1",
+      "title": "GetBackers Producers Apologize for AI-Generated Trailer & Deny New Anime",
+      "link": "https://news.sankakucomplex.com/n/FWlZBkTOs3-fYwtufDTL7Q",
+      "publishedAt": "2026-11-23T02:00:09.000Z",
+      "excerpt": "The operators of the official GetBackers YouTube series have apologized for using generative AI in a promotional trailer, clarifying that no new television anime or AI-animated adaptation is being produced. The trailer initially sparked speculation about a possible new anime adaptation, with fans…",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
         "language": "en"
       }
     },
@@ -18298,110 +18408,6 @@
       },
       "translatedTitle": "\"Kan Monaki\" will hold its first program event, \"Everything from songs to comedy to shows is possible ☆ I don't know\"",
       "translatedExcerpt": "The first program event of \"Kan Monaki\", which has been broadcast on TV Asahi's \"Barabara Daisakusen\" slot since July this year, will be held in February 2027."
-    },
-    {
-      "id": "d5b520057382b9bc",
-      "title": "KFC Japan creates contract with Dr. Doom for Marvel supervillainy fried chicken",
-      "link": "https://soranews24.com/2026/11/17/kfc-japan-creates-contract-with-dr-doom-for-marvel-supervillainy-fried-chicken/",
-      "publishedAt": "2026-11-17T05:00:25.000Z",
-      "excerpt": "If doom is coming, you may as well treat yourself to some fried chicken first. Usually when there’s an eye-catching collaboration coming up, it’s between two parties who are widely loved. You know, Studio Ghibli and Uniqlo, Pokémon and manga artist Tetsuo Hara, Hello Kitty and soft, pillowy toilet paper, those sorts of combinations. But […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/0_68a659.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "958b097aea615215",
-      "title": "Onee-chan no Midori-kun Live-Action Film Releases New Clip Featuring Timelesz Theme Song",
-      "link": "https://crunchyroll.com/news/latest/2026/11/17/onee-chan-no-midori-kun-live-action-film-new-clip-timelesz-theme-song",
-      "publishedAt": "2026-11-17T04:44:00.000Z",
-      "excerpt": "The adaptation of Amu Meguro's romance manga opens on December 4",
-      "image": "https://a.storyblok.com/f/178900/960x540/a9ee62956a/onee-chan-no-midori-kun-theme-song-clip.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "9937cc48d0d7da03",
-      "title": "Live-Action Twisted Sisters Series Reveals More Cast, January 10 Debut",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-16/live-action-twisted-sisters-series-reveals-more-cast-january-10-debut/.243890",
-      "publishedAt": "2026-11-17T04:43:31.000Z",
-      "excerpt": "Hiroshi Tachi, Jin Shirasu, Rui Kurihara, Haruki Mochizuki, Tomu Miyazaki, 3 more join cast",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gF6/cms/news.10/243006/twistedsisters-cast.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "6437ac0d4c19dbbe",
-      "title": "Live-Action My Sister's Boyfriend Film's New Video Highlights Song by timelesz",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-16/live-action-my-sister-boyfriend-film-new-video-highlights-song-by-timelesz/.243893",
-      "publishedAt": "2026-11-17T04:34:31.000Z",
-      "excerpt": "Film opens in Japan on December 4",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHI/youtube/GlIfTeigEAQ.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "68bc56241357e80a",
-      "title": "SHOW-WA × MATSURI、＜赤青歌合戦2026＞初となるリアル開催決定",
-      "link": "https://barks.jp/news/1105008",
-      "publishedAt": "2026-11-17T04:30:00.000Z",
-      "excerpt": "SHOW-WA × MATSURIが、2026年12月19日に東京体育館にて＜ぽかぽかpresents SHOW-WA & MATSURI赤青歌合戦2026 年イチMATSURIだ！わっしょい！全力で盛り上がりまSHOW-WAウー！アラフォーだらけの大運動会＞を開催することを発表した。 両グループにとって、2024年末から続く恒例の＜赤青歌合戦＞は今回で開催3度目を迎える。これまでは生配信にて行われていたが、今回は初のアリーナ規模でのリアル開催となる。 当日は、各グループの持ち味を生かした歌のステージに加え、両チームのメンバーがコラボレーションする「シャッフルユニット企画」も実施。さらに「アラフォーだらけの大運動会」と題し、普段は昭和歌謡を歌い上げるアラフォー世代のメンバーたちが、綱引きなどの運動種目でチ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/17132615/266011_%E3%83%AD%E3%82%B4-1024x576.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "SHOW-WA × MATSURI, <Red and Blue Uta Gassen 2026> will be held for the first time in real life",
-      "translatedExcerpt": "SHOW-WA × MATSURI will be held at the Tokyo Metropolitan Gymnasium on December 19, 2026 <Poka Poka presents SHOW-WA & MATSURI Red and Blue Uta Gassen 2026 Ichi MATSURI! Wasshoi! Get excited with all your might SHOW-WA! They announced that they would be holding a big sports day filled with around 40 people. For both groups, this will be the third time that the annual Red and Blue Uta Gassen has been held since the end of 2024. Up until now, the event has been held live, but this time it will be held in real life on an arena scale for the first time. On the day of the event, in addition to a singing stage that takes advantage of each group's unique characteristics, there will also be a \"shuffle unit project\" in which members of both teams collaborate. Furthermore, in the event entitled \"A Sports Day Full of Around 40 People,\" members of the around 40 generation who usually sing Showa songs will participate in athletic events such as tug-of-war."
-    },
-    {
-      "id": "20588a169bcbda40",
-      "title": "Tokyo Bar Scams Targeting Foreign Tourists Triple as Losses Reach $2.5 Million",
-      "link": "https://news.sankakucomplex.com/n/CSZ5x0RXoAKtv-28QBSjfg",
-      "publishedAt": "2026-11-17T04:00:25.000Z",
-      "excerpt": "Foreign tourists visiting Tokyo’s notorious Kabukicho entertainment district are increasingly falling victim to fraudulent bars, with complaints of overcharging tripling over the past year and reported financial losses across Shinjuku reaching approximately ¥390 million ($2.5 million).",
-      "image": "https://news.sankakucomplex.com/",
-      "source": {
-        "id": "sankaku",
-        "name": "Sankaku Complex",
-        "short": "Sankaku",
-        "siteUrl": "https://news.sankakucomplex.com/",
-        "category": "Anime & Culture",
-        "accent": "#a78bfa",
-        "language": "en"
-      }
     }
   ]
 }

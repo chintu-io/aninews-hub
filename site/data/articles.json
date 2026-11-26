@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T14:32:03.177Z",
+  "generatedAt": "2026-11-26T15:01:49.613Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 82,
+      "count": 83,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 289,
+      "count": 288,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 634,
+    "translatedJapaneseArticles": 633,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "54a2cdd88c7c015c",
+      "title": "Xenoblade Chronicles 3 - Nintendo Switch 2 Edition Detailed in Overview Trailer",
+      "link": "https://crunchyroll.com/news/latest/2026/11/26/xenoblade-chronicles-3-nintendo-switch-2-edition-overview-trailer",
+      "publishedAt": "2026-11-26T14:38:00.000Z",
+      "excerpt": "Latest Switch 2 upgrade drops on December 3",
+      "image": "https://a.storyblok.com/f/178900/960x538/14cee6b608/xenoblade-chronicles-3-switch2-pv.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "c3760db72d76395f",
       "title": "Arcanadea Anime Reveals Two Additional Cast Members",
@@ -18415,25 +18432,6 @@
         "accent": "#5ca8ff",
         "language": "en"
       }
-    },
-    {
-      "id": "4cc8d3af83cf6d45",
-      "title": "湊かなえ×柴那典の特別対談、会場で『王国』サイン本を40冊限定販売決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167527",
-      "publishedAt": "2026-11-18T01:40:00.000Z",
-      "excerpt": "小説家の湊かなえと音楽ジャーナリストの柴那典による特別対談【読むヒット&times;聴くヒット～2",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167527/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Special conversation between Kanae Minato and Nanori Shibana, limited edition of 40 signed books of “Kingdom” to be sold at the venue",
-      "translatedExcerpt": "Special conversation between novelist Kanae Minato and music journalist Nanori Shibana [Read Hits x Listen Hits - 2"
     }
   ]
 }

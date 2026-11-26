@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T01:02:16.541Z",
+  "generatedAt": "2026-11-26T01:32:35.572Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 128,
+      "count": 129,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 89,
+      "count": 91,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 216,
+      "count": 215,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 139,
+      "count": 137,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,80 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 621,
+    "translatedJapaneseArticles": 618,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "2277bc128dbecfa5",
+      "title": "Mika Nakashima Releases Armored Trooper VOTOMS: Die Graue Hexe Anime Film Theme Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/11/26/armored-trooper-votoms-die-graue-hexe-anime-film-theme-song-music-video-mika-nakashima",
+      "publishedAt": "2026-11-26T01:15:00.000Z",
+      "excerpt": "The single ranks number 17 on the daily chart",
+      "image": "https://a.storyblok.com/f/178900/960x540/36b51375ee/mika-nakashima-desperate-survivor-mv.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "83a3d7a134c74e32",
+      "title": "Toei Animation Announces 24th Precure TV Anime Series \"FUNtasic Precure!\"",
+      "link": "https://crunchyroll.com/news/latest/2026/11/26/precure-24th-anime-series-funtasic-precure-toei-animation",
+      "publishedAt": "2026-11-26T01:03:00.000Z",
+      "excerpt": "The teaser site launched with the title logo and tagline",
+      "image": "https://a.storyblok.com/f/178900/960x540/533654b826/funtasic-precure-logo.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "c303f314f9acb77c",
+      "title": "7-Eleven Japan taking a chance as it announces plans to sell Dr. Pepper nationwide",
+      "link": "https://soranews24.com/2026/11/26/7-eleven-japan-taking-a-chance-as-it-announces-plans-to-sell-dr-pepper-nationwide/",
+      "publishedAt": "2026-11-26T01:00:58.000Z",
+      "excerpt": "Just what the doctor ordered for fans of Japan’s most divisive soft drink. 7-Eleven Japan stocks a wide variety of products, but they’re pretty much all things that are popular with a large number of people in Japan. Things like rice balls with salmon flakes, cup ramen, bottled green tea, and canned coffee, that sort […]",
+      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/2_160cce.jpg?w=640",
+      "source": {
+        "id": "soranews24",
+        "name": "SoraNews24",
+        "short": "SoraNews",
+        "siteUrl": "https://soranews24.com/",
+        "category": "Japan",
+        "accent": "#6fc9e6",
+        "language": "en"
+      }
+    },
+    {
+      "id": "c018c58f174eff74",
+      "title": "ツチヤカレン、誕生日の複雑な感情をリアルでユーモラスに描いた「BAD BIRTHDAY」リリース決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167778",
+      "publishedAt": "2026-11-26T01:00:00.000Z",
+      "excerpt": "ツチヤカレンが、デジタル・シングル「BAD BIRTHDAY」を12月2日に配信リリースする。",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167778/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Karen Tsuchiya will release “BAD BIRTHDAY”, a realistic and humorous depiction of the complicated emotions of birthdays.",
+      "translatedExcerpt": "Tsuchiya Karen will release digital single \"BAD BIRTHDAY\" on December 2nd."
+    },
     {
       "id": "0d9652698b9f23df",
       "title": "光GENJI、「ガラスの十代」シングル配信。24時間365日ライブ配信実施の「光GENJI – STATION」をYouTubeに開設",
@@ -185,6 +255,23 @@
       },
       "translatedTitle": "Hikari GENJI releases \"Glass Judai\" single. “Hikari GENJI – STATION” with live streaming 24 hours a day, 365 days a year is launched on YouTube",
       "translatedExcerpt": "Hikari GENJI's single \"Glass no Judai\" will be digitally distributed on November 26th. Until now, the sound source of ``Glass no Judai'' has been distributed as best songs and planned albums, but for this single distribution, the distribution artwork used the 7-inch analog single jacket from the time of release. The coupling track includes \"Graduation,\" which is also a popular song among fans, and is a package that allows you to relive the atmosphere at the time of release, which you cannot experience in the best album format. The title song \"Glass no Judai\" is one of the representative songs of the Showa era, comparing the fragility, delicacy, and purity characteristic of adolescence to glass, and depicting the feeling of moving forward despite such conflicts. On the other hand, the coupling song \"Graduation\" spells out hope for the future at each turning point in life in easy-to-understand words..."
+    },
+    {
+      "id": "75ab15770183fb5b",
+      "title": "Precure Franchise Announces FUNtastic Precure! Anime",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-25/precure-franchise-announces-funtastic-precure-anime/.244204",
+      "publishedAt": "2026-11-26T00:28:33.000Z",
+      "excerpt": "New anime marks 24th main entry in magical girl franchise",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGH/cms/news.10/244204/funtastic-precure.png.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
     },
     {
       "id": "7bfbc83e35cb9f00",
@@ -4987,7 +5074,7 @@
         "accent": "#e6a4ff",
         "language": "ja"
       },
-      "translatedTitle": "The movie “Do you love each other?” “What Kiyoshiro Imawano taught me” is a long hit.",
+      "translatedTitle": "The movie “Do you love each other?” “What Kiyoshiro Imawano Taught Me” is a long hit.",
       "translatedExcerpt": "The movie “Are you in love?” depicting the trajectory of Kiyoshiro Imawano. ``Kiyoshiro Imawano Taught Me'' has been a long hit. Kiyoshiro Imawano continued to sing since forming RC Succession on November 23, 1968 while still in high school until his death on May 2, 2009. This is a documentary commemorating the 55th anniversary of Kiyoshiro's debut, tracing the path of Kiyoshiro Imawano, who brought about change in the Japanese music scene with love and rebellion in his heart, and approaches the essence of his unparalleled expression. Recording scenery, a keen eye on society, and numerous events that caused a stir in the world. This work deeply delves into his ``attitude to stick to his beliefs'' and ``unique performance'' from multiple angles. Since the screening began in October, the film has not only been shown at movie theaters across the country, but also held special screenings, talk shows, listening events at CD shops, and special features on terrestrial television programs, making it a big hit across generations."
     },
     {
@@ -18315,99 +18402,6 @@
       },
       "translatedTitle": "Fuji TV \"STAR\", Stray Kids will appear on 11/19 & special project announcement <revised 11/17>",
       "translatedExcerpt": "The performers and special project for the November 19th broadcast of Fuji TV's music program ``STAR'' have been announced. 『FN"
-    },
-    {
-      "id": "f95605f420800450",
-      "title": "ヘイリー・ウィリアムス、来日公演決定",
-      "link": "https://ototoy.jp/news/132834",
-      "publishedAt": "2026-11-17T03:15:00.000Z",
-      "excerpt": "パラモア（Paramore）のリードボーカルとしても絶大な支持を集める、ヘイリー・ウィリアムス（Hayley Williams）が、アジアツアー〈The Hayley Williams Show〉で来日することが決定した。 北米、英国、ヨーロッパを巡る大規模なツアーを経て、いよいよアジアのファンのもとへやってくるアジアツアーは、2027年2月にマニラのAraneta Coliseumで幕を開け、シンガポールのStar Theatre、ソウルのYes24 Live Hallを経て、東京・豊洲PITへと続く。 東京公演は、2027年3月3日(水)豊洲PITにて開催。チケットは2026年11月18日(水)12:00より最速先行となるARTIST PRE-SALEを実施するほか、11月20日(金)12:00よりロ…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132834/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Hayley Williams to perform in Japan",
-      "translatedExcerpt": "It has been announced that Hayley Williams, who has gained tremendous support as the lead vocalist of Paramore, will be coming to Japan on her Asia tour ``The Hayley Williams Show.'' After a large-scale tour in North America, the UK, and Europe, the Asian tour will finally reach fans in Asia, kicking off in February 2027 at Manila's Araneta Coliseum, going to Singapore's Star Theater, Seoul's Yes24 Live Hall, and continuing to Tokyo's Toyosu PIT. The Tokyo performance will be held on Wednesday, March 3, 2027 at Toyosu PIT. Tickets will be available at the earliest ARTIST PRE-SALE from 12:00 on Wednesday, November 18, 2026, as well as from 12:00 on Friday, November 20..."
-    },
-    {
-      "id": "e3ea2ea326b16371",
-      "title": "チャーリー・プース、2027年4月に再来日公演が決定 日本での単独ライブとして過去最大",
-      "link": "https://www.billboard-japan.com/d_news/detail/167502",
-      "publishedAt": "2026-11-17T03:09:00.000Z",
-      "excerpt": "チャーリー・プースの再来日公演が2027年4月に決定した。 チャーリー・プースは、2026年1",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167502/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Charlie Puth will return to Japan in April 2027, making it the largest solo concert ever in Japan",
-      "translatedExcerpt": "It has been decided that Charlie Puth will return to Japan to perform in April 2027. Charlie Puth 2026 1"
-    },
-    {
-      "id": "2154fe3425cac70e",
-      "title": "Tommy Lee Jones becomes Pikachu in Japan for Suntory",
-      "link": "https://soranews24.com/2026/11/17/tommy-lee-jones-becomes-pikachu-in-japan-for-suntory/",
-      "publishedAt": "2026-11-17T03:00:53.000Z",
-      "excerpt": "Alien Jones turns his attention to Pokémon. Among Hollywood celebrities, Tommy Lee Jones has always had an old-fashioned, no-nonsense persona. His aura of down-to-earth unpretentiousness makes him the kind of guy who could, conceivably, reach for Suntory’s Boss canned coffee when he’s craving caffeinated refreshment, as the brand is known for being good-t…",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/pj-0.jpg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "e30076432339c365",
-      "title": "【急上昇ワード】ZORN、新曲にアイナ・ジ・エンドとAKLOが参加",
-      "link": "https://ototoy.jp/news/132831",
-      "publishedAt": "2026-11-17T03:00:00.000Z",
-      "excerpt": "新曲「STAR feat. アイナ・ジ・エンド, AKLO」をリリースしたZORNが急上昇ワードにランクイン。 客演はアイナ・ジ・エンドとAKLO。アイナ・ジ・エンドはZORNが『ミュージックステーション』でのアイナのパフォーマンスに感銘を受けラヴコールし実現。サウンド・プロデュースはBACHLOGICが手掛けている。 ミュージック・ビデオの監督は映像作家の新保拓人。ジャケット写真とメイン・ヴィジュアルは写真家のcherry chill will.が撮影した。 リリース情報 https://ototoy.jp/_/default/p/4447245 アーティスト情報 https://www.instagram.com/_ZORN_/ https://x.com/__zorn__",
-      "image": "https://imgs.ototoy.jp/news/image.php/132831/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "[Trending keywords] ZORN, Aina The End and AKLO participate in new song",
-      "translatedExcerpt": "ZORN, who released the new song \"STAR feat. Aina The End, AKLO\", is ranked in the trending trend. Guest performances include Aina The End and AKLO. Aina The End was made possible by ZORN who was impressed by Aina's performance on \"Music Station\" and made a love call to her. Sound production is handled by BACHLOGIC. The music video was directed by filmmaker Takuto Shinbo. The jacket photo and main visual were taken by photographer cherry chill will. Release information https://ototoy.jp/_/default/p/4447245 Artist information https://www.instagram.com/_ZORN_/ https://x.com/__zorn__"
-    },
-    {
-      "id": "7fd38516729dfafa",
-      "title": "Creepy Nuts、初のライブ＆ドキュメンタリー映画の著名人21名による応援コメント公開",
-      "link": "https://barks.jp/news/1104985",
-      "publishedAt": "2026-11-17T03:00:00.000Z",
-      "excerpt": "Creepy Nutsが、2026年11月20日に全国映画館にて公開する初のライブ＆ドキュメンタリー映画『Creepy Nuts – NORTH AMERICA TOUR: LIVE in NY & DOCUMENTARY FILM』に寄せられた、各界著名人総勢21名からの応援コメントを公開した。 本作は、自身初の＜Coachella Valley Music and Arts Festival＞出演を含む北米ツアーの舞台裏と、そのニューヨーク公演を全曲収録した映像に加えて、最新のインタビューを交えたライブ＆ドキュメンタリーが映画化された作品だ。監督は長きに渡り彼らの写真や映像を生み出してきたHiroya Brian Nakanoが務め、ラッパーのR-指定とDJ／トラックメイカーのDJ松永による、1MC＆…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/04/10110926/CreepyNuts_Aphoto.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Creepy Nuts releases supportive comments from 21 celebrities for their first live concert and documentary film",
-      "translatedExcerpt": "Creepy Nuts has released supportive comments from 21 celebrities from various fields for their first live performance and documentary film \"Creepy Nuts – NORTH AMERICA TOUR: LIVE in NY & DOCUMENTARY FILM\" which will be released in movie theaters nationwide on November 20, 2026. This work is a live and documentary film that includes behind-the-scenes footage of his North American tour, including his first appearance at the Coachella Valley Music and Arts Festival, and all songs from the New York performance, as well as the latest interviews. The director is Hiroya Brian Nakano, who has been creating their photos and videos for a long time, and the 1MC &…"
     }
   ]
 }

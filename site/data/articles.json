@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T06:02:01.850Z",
+  "generatedAt": "2026-11-26T06:32:25.088Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 134,
+      "count": 133,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 89,
+      "count": 88,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 276,
+      "count": 284,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 209,
+      "count": 204,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 131,
+      "count": 129,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -154,7 +154,7 @@
       "status": "ok",
       "mode": "jina-reader",
       "feedUrl": "http://www.sankakucomplex.com/feed/",
-      "count": 76,
+      "count": 77,
       "fetchedCount": 24
     }
   ],
@@ -163,10 +163,219 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 616,
+    "translatedJapaneseArticles": 618,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "558f3ea5c667c34c",
+      "title": "【Hot Shot Books】岩谷翔吾（THE RAMPAGE）『一人分の夜を生き直す』首位、青山七恵『蝶の夢』が3位に",
+      "link": "https://www.billboard-japan.com/d_news/detail/167814",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "excerpt": "2026年11月26日公開（集計期間：11月16日～11月22日）の&ldquo;Billboar",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167814/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Hot Shot Books] Shogo Iwatani (THE RAMPAGE) “Reliving the Night for One” takes first place, Nanae Aoyama “Butterfly Dream” takes third place",
+      "translatedExcerpt": "“Billboar” released on November 26, 2026 (collection period: November 16th to November 22nd)"
+    },
+    {
+      "id": "8859251c4299b71b",
+      "title": "【ビルボード】『キングダム 81巻』が“Reiwa Books”首位、『ちいかわ』最新刊が続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/167787",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "excerpt": "2026年11月26日公開（集計期間：2026年11月16日～11月22日）のBillboard",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167787/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] “Kingdom Volume 81” ranks first in “Reiwa Books”, followed by the latest issue of “Chiikawa”",
+      "translatedExcerpt": "Billboard released on November 26, 2026 (collection period: November 16, 2026 to November 22, 2026)"
+    },
+    {
+      "id": "31c0f8a8106bd7a9",
+      "title": "【ビルボード】『本当の自由を手に入れるお金の大学』経済書籍チャート首位 『「いまを生きる力」を取り戻す 感性の教室』が6位に浮上",
+      "link": "https://www.billboard-japan.com/d_news/detail/167788",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "excerpt": "2026年11月26日公開（集計期間：2026年11月16日～2026年11月22日）の経済書籍チ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167788/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] ``University of money to obtain true freedom'' tops the economic book chart ``Classroom of sensitivity to regain the power to live in the moment'' rises to 6th place",
+      "translatedExcerpt": "Economic book charts published on November 26, 2026 (collection period: November 16, 2026 to November 22, 2026)"
+    },
+    {
+      "id": "535e96c1020541aa",
+      "title": "【ビルボード】『雨穴の家』文芸書籍チャート2連覇 文庫版発売の呉勝浩『法廷占拠 爆弾2』が上昇",
+      "link": "https://www.billboard-japan.com/d_news/detail/167807",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "excerpt": "2026年11月26日公開チャート（集計期間：2026年11月16日～11月22日）の文芸書籍チャ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167807/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] \"The House in the Rain Hole\" wins the literary book chart for the second consecutive time; paperback version of Wu Shenghiro's \"Courtroom Occupation Bomb 2\" rises",
+      "translatedExcerpt": "Literary book charts published on November 26, 2026 (collection period: November 16, 2026 to November 22, 2026)"
+    },
+    {
+      "id": "f62dc4cd26be2ce3",
+      "title": "【ビルボード】FANTASTICS『PRISM』文化書籍チャート初登場首位 西崎美空写真集／『地球の歩き方 アニメ Dr.STONE』ら初登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/167796",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "excerpt": "2026年11月26日公開チャート（集計期間：2026年11月16日～11月22日）のBillbo",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167796/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] FANTASTICS “PRISM” debuts at number one on the cultural book chart Misora ​​Nishizaki photo book / “Chikyu no Arukikata Anime Dr.STONE” and others appear for the first time",
+      "translatedExcerpt": "Billbo chart published on November 26, 2026 (collection period: November 16, 2026 to November 22, 2026)"
+    },
+    {
+      "id": "c5d2a50a89d4ce6d",
+      "title": "【ビルボード】原泰久『キングダム 81巻』2冠で総合書籍チャート首位 ちいかわ最新刊が続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/167792",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "excerpt": "2026年11月26日公開（集計期間：2026年11月16日～11月22日）のBillboard",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167792/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Yasuhisa Hara's ``Kingdom Volume 81'' tops the general book chart with two wins, followed by Chikawa's latest edition",
+      "translatedExcerpt": "Billboard released on November 26, 2026 (collection period: November 16, 2026 to November 22, 2026)"
+    },
+    {
+      "id": "bdcb6fd87665b03f",
+      "title": "【ビルボード】原泰久『キングダム 81巻』が“Hot Manga”初登場首位 ちいかわ／ブルーロックの新刊が続く",
+      "link": "https://www.billboard-japan.com/d_news/detail/167803",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "excerpt": "2026年11月26日公開（集計期間：2026年11月16日～11月22日）のBillboard",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167803/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Yasuhisa Hara's \"Kingdom Volume 81\" debuts at the top of \"Hot Manga\" New publications of Chiikawa/Blue Rock continue",
+      "translatedExcerpt": "Billboard released on November 26, 2026 (collection period: November 16, 2026 to November 22, 2026)"
+    },
+    {
+      "id": "618f72e6967b42bd",
+      "title": "【ビルボード】昭和チャートで年間を制した綾辻行人『十角館の殺人』が返り咲き、宇野千代『生きて行く私』が浮上",
+      "link": "https://www.billboard-japan.com/d_news/detail/167813",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "excerpt": "年号別チャート&ldquo;Billboard JAPAN Showa Books&rdquo;の",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167813/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Yukito Ayatsuji's ``Murder at the Decagonal House'', which dominated the Showa chart for the year, is back, and Chiyo Uno's ``Ikikuru Watashi'' has emerged.",
+      "translatedExcerpt": "Chart by year “Billboard JAPAN Showa Books”"
+    },
+    {
+      "id": "367ca48a2765d302",
+      "title": "【ビルボード】柚木麻子『BUTTER』が“Heisei Books”1位を獲得 古内一絵／迫稔雄の書籍がTOP10に登場",
+      "link": "https://www.billboard-japan.com/d_news/detail/167809",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "excerpt": "2026年11月26日公開（集計期間：2026年11月16日～11月22日）の年号別チャート&ld",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167809/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "[Billboard] Asako Yuzuki’s “BUTTER” ranks first in “Heisei Books” Kazue Furuuchi/Toshio Sako’s book appears in the TOP 10",
+      "translatedExcerpt": "Chart by year released on November 26, 2026 (collection period: November 16, 2026 to November 22, 2026) &ld"
+    },
+    {
+      "id": "d3388f21771b2ca9",
+      "title": "＜インタビュー＞Carminhoが語る、“生きた言語”としてのファドと「川の流れのように」が架けた日本との橋",
+      "link": "https://www.billboard-japan.com/d_news/detail/167709",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "excerpt": "ポルトガルを代表するファド歌手、Carminho（カルミーニョ）。自らプロデュースした最新作『Eu",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167709/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "<Interview> Carminho talks about fado as a “living language” and the bridge with Japan built “like the flow of a river”",
+      "translatedExcerpt": "Carminho is Portugal's leading fado singer. His latest work, “Eu”, which he produced himself."
+    },
+    {
+      "id": "c16e0e42f88a52c3",
+      "title": "＜インタビュー＞Loulu Gilbertoが語る、父ジョアンから受け継いだ声と日本への憧れ",
+      "link": "https://www.billboard-japan.com/d_news/detail/167741",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "excerpt": "ボサノヴァのパイオニアの一人である故ジョアン・ジルベルトの末娘、ルル・ジルベルト（Loulu Gi",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167741/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "<Interview> Loulu Gilberto talks about the voice inherited from her father Joan and her admiration for Japan",
+      "translatedExcerpt": "Loulu Gilberto is the youngest daughter of the late João Gilberto, one of the pioneers of bossa nova."
+    },
     {
       "id": "20edacc571d0834e",
       "title": "浅井健一、アコースティック&エレクトリックなソロツアー＜SEA SIDE DUCK＞を2027年2月開催",
@@ -460,7 +669,7 @@
       "title": "Japan Reveals 100 Biggest Internet Trends of 2026, Including Anime, Games & Memes",
       "link": "https://news.sankakucomplex.com/n/wxXFoPE1vEpcrkD4pkIFRg",
       "publishedAt": "2026-11-26T03:00:21.000Z",
-      "excerpt": "Japan’s annual Internet Buzzword 100 awards have revealed their 2026 nominees, featuring popular anime, video games, viral memes, and even the female version of Draco Malfoy that recently attracted copyright complaints from Warner Bros.",
+      "excerpt": "Japan’s annual Internet Buzzword 100 awards have revealed their 2026 nominees, featuring popular anime, video games, viral memes, and even the female version of Draco Malfoy that recently attracted copyright complaints from Warner Bros. The nominations were announced on November 25 by a committee…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -6384,6 +6593,23 @@
       },
       "translatedTitle": "JxJ (SEVENTEEN) announces additional live tour performances at K Arena Yokohama",
       "translatedExcerpt": "JxJ (SEVENTEEN), the unit made up of SEVENTEEN's JEONGHAN and JOSHUA, has announced that they will hold <JEONGHAN <JEONGHAN Over 62,000 people attended over the two days, and on the second day, the performance was broadcast live at screening theaters in 177 major cities around the world, including South Korea, the United States, Singapore, and Mexico. JxJ (SEVENTEEN) is…"
+    },
+    {
+      "id": "3ba6c3a05ff451de",
+      "title": "Sono Bisque Doll wa Koi o Suru Marin Kitagawa Bunny Girl Figure Beyond Compare",
+      "link": "https://news.sankakucomplex.com/n/EgHTSDDG_GjEF0R0SvvAdQ",
+      "publishedAt": "2026-11-23T06:00:50.000Z",
+      "excerpt": "Sono Bisque Doll wa Koi o Suru’s ever luscious gyaru heroine Marin Kitagawa continues to be popular as another figurine of her has surfaced, this time imitating her bunny girl shenanigans from the second season and offering curves that any man would want all for themselves.",
+      "image": "https://news.sankakucomplex.com/",
+      "source": {
+        "id": "sankaku",
+        "name": "Sankaku Complex",
+        "short": "Sankaku",
+        "siteUrl": "https://news.sankakucomplex.com/",
+        "category": "Anime & Culture",
+        "accent": "#a78bfa",
+        "language": "en"
+      }
     },
     {
       "id": "db315d82f8af7958",
@@ -18174,230 +18400,6 @@
       },
       "translatedTitle": "effe × kaza × Shuuwari Uniko × Tometoro, “Commuting to and from school 1” released",
       "translatedExcerpt": "\"Going to and from School 1\" by effe x kaza x Shuuwari Uniko x Tometoro has been released. This work is a song from ``H Area Laboratory Observation Record No. 1'' distributed by Committee in 2023. The music was produced by effe and kaza, and Tometoro and kaza participated in writing the lyrics. Vocals are handled by kaza and Uniko Susumu. The song is a mix of delicate electronic sounds based on electronica, trap-like 808 bass, and soft vocals and words. Release information High resolution https://ototoy.jp/_/default/p/4404425 Lossless https://ototoy.jp/_/default/p/4404429"
-    },
-    {
-      "id": "010629f135adac64",
-      "title": "Luov、初のCDシングル「ロールプレイングライフ」発売決定",
-      "link": "https://barks.jp/news/1105097",
-      "publishedAt": "2026-11-17T11:00:00.000Z",
-      "excerpt": "Luovが、⾃⾝初となるCDシングル「ロールプレイングライフ」を2026年12⽉23⽇にリリースすることを発表した。 本作は、Luovにとって初のアニメ主題歌となったTVアニメ『追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。〜俺は武器だけじゃなく、あらゆるものに「強化ポイント」を付与できるし、俺の意思でいつでも効果を解除できるけど、残った⼈たち⼤丈夫？〜』のエンディングテーマが収録されている。なお、同アニメは10⽉6⽇24時よりテレ東系列にて順次放送がスタートし、公開されたノンクレジットエンディング映像はすでに180万回再⽣を突破。 また、今回リリースされるCDのジャケットには、本作のために描き下ろされたアニメイラストが使用されている。Luovにとって記念すべき初のCD作品を是非チェックし…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/17194308/Luov_1019_Asya_small-768x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Luov's first CD single \"Role Playing Life\" will be released",
-      "translatedExcerpt": "Luov has announced that he will release his first CD single \"Role Playing Life\" on December 23, 2026. This work is Luov's first anime theme song for the TV anime ``The exiled cheat-granting magician enjoys a carefree second life.'' ~I can add \"enhancement points\" to everything, not just weapons, and I can cancel the effects whenever I want, but will the remaining people be okay? ~'' ending theme is included. The anime will begin broadcasting sequentially on the TV Tokyo network from 24:00 on October 6th, and the released credit-free ending video has already exceeded 1.8 million views. In addition, the jacket of the CD to be released this time uses an anime illustration drawn specifically for this work. Be sure to check out Luov's memorable first CD work..."
-    },
-    {
-      "id": "a9adbdce4412786e",
-      "title": "カネヨリマサル、私立恵比寿中学に提供した「スーパーブルー」のセルフカバーを11/25リリース 初のアニメーションMVも",
-      "link": "https://www.billboard-japan.com/d_news/detail/167507",
-      "publishedAt": "2026-11-17T11:00:00.000Z",
-      "excerpt": "カネヨリマサルが、8月に私立恵比寿中学へ楽曲提供した「スーパーブルー」のセルフカバーを、11月25",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167507/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Masaru Kaneyori releases self-cover of “Super Blue” provided to Private Ebisu Junior High School on 11/25 Also includes first animation MV",
-      "translatedExcerpt": "Masaru Kaneyori released a self-cover of \"Super Blue\", which he provided to Ebisu Shiritsu Junior High School in August, on November 25th."
-    },
-    {
-      "id": "bcab5d408e43c39e",
-      "title": "カネヨリマサル、私立恵比寿中学への提供曲「スーパーブルー」セルフカバー配信＆MV公開決定",
-      "link": "https://barks.jp/news/1105027",
-      "publishedAt": "2026-11-17T11:00:00.000Z",
-      "excerpt": "カネヨリマサルが、2026年8月に私立恵比寿中学へ楽曲提供をした「スーパーブルー」のセルフカバーを、11月25日に配信リリースすることを発表した。 本楽曲は、仲間との絆を約束するシンガロング必至のストレートなライブチューン。爽快感のあるギターリフに仲間との思い出を想起させる歌が乗ったエモーショナルな楽曲だという。本日行われた＜私立恵比寿中学TAIBAN LIVE「放課後ロッケンロール-HYPER-2026」＞公演内では、カネヨリマサルのセルフカバーver.が初披露され、両アーティストのファンは大盛り上がりを見せたとのこと。 さらに、バンド初のアニメーションMVが公開されることも決定。イラストレーター・タミウラが手掛けたMVをぜひチェックしていただきたい。 また、カネヨリマサルは2027年3月より東名阪ワン…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/17141046/%E3%82%AB%E3%83%8D%E3%83%A8%E3%83%AA%E3%83%9E%E3%82%B5%E3%83%AB%E6%96%B0%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F-1024x679.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Masaru Kaneyori will distribute self-cover of “Super Blue” song provided to Shiritsu Ebisu Junior High School and release music video",
-      "translatedExcerpt": "Masaru Kaneyori has announced that he will release a self-cover of ``Super Blue,'' which he provided to Shiritsu Ebisu Junior High School in August 2026, on November 25th. This song is a straight live tune that is sure to be a sing-along that promises bonds with friends. It is said to be an emotional song with an exhilarating guitar riff and a song that brings back memories with friends. Masaru Kaneyori's self-cover version was unveiled for the first time during the Shiritsu Ebisu Chugaku TAIBAN LIVE \"Hokago Rock'n Roll -HYPER-2026\" performance held today, and fans of both artists were said to be very excited. Furthermore, it has been decided that the band's first animated MV will be released. Please check out the music video created by illustrator Tamiura. In addition, Kaneyori Masaru will be located at Tokyo Meihan One from March 2027..."
-    },
-    {
-      "id": "509a6258e9524d5b",
-      "title": "Mistress Kanan is Devilishly Easy Season 2's 1st Video Unveils More Cast & Staff, 2027 Debut",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-17/mistress-kanan-is-devilishly-easy-season-2-1st-video-unveils-more-cast-and-staff-2027-debut/.243905",
-      "publishedAt": "2026-11-17T10:53:39.000Z",
-      "excerpt": "Returning cast, staff for Kanan-sama wa Akumade Choroi 2 EASY also confirmed",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gMG/youtube/SJdisi3kEhQ.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "3efe2d701741baa7",
-      "title": "Soala、2年連続で＜女子高生ミスコン / 男子高生ミスターコン＞公式テーマソングを担当",
-      "link": "https://barks.jp/news/1105095",
-      "publishedAt": "2026-11-17T10:34:07.000Z",
-      "excerpt": "Soalaが、株式会社with tが主催する全国の女子高校生・男子高校生を対象としたコンテスト＜女子高生ミスコン 2026＞、＜男子高生ミスターコン 2026＞の公式テーマソングに、新曲「夢物語」が決定したことを発表した。 2年連続で公式テーマソングを担当するSoalaだが、今回のテーマソング「夢物語」では〈泣いていいんだよ〉というメッセージで始まり、遠回りも立ち止まった夜も「明日へ続く軌跡」になるといった、涙を流しながら前へ進む10代を肯定する新曲に仕上がっているという。 各コンテスト15名のファイナリストが挑む授賞式は、2026年11月28日・29日に開催される。「夢物語」は11月29日0時に各音楽配信サービスで配信がスタートし、同日の授賞式ステージで披露する予定だ。 ◆ ◆ ◆ ◾️Soala コメ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/06122227/Soala%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F%EF%BC%8811%E6%9C%886%E6%97%A5-%E5%85%AC%E9%96%8B%EF%BC%89.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Soala performs official theme song for <High School Girl Beauty Pageant/High School Boy Mister Con> for 2nd consecutive year",
-      "translatedExcerpt": "Soala has announced that their new song ``Yume Monogatari'' has been selected as the official theme song for the High School Girls' Miss Contest 2026 and High School Boys' Mr. Con 2026, a contest for high school girls and boys nationwide sponsored by with T Inc. Soala has been in charge of the official theme song for the second year in a row, and this time's theme song ``Yume Monogatari'' begins with the message, ``It's okay to cry,'' and says that even detours and stopped nights become ``trajectories that continue to tomorrow,'' a new song that affirms teenagers who move forward while shedding tears. The award ceremony, where 15 finalists from each contest will compete, will be held on November 28th and 29th, 2026. ``Yume Monogatari'' will begin streaming on various music distribution services at midnight on November 29th, and is scheduled to be performed on the award ceremony stage on the same day. ◆ ◆ ◆ ◾️Soala Comment…"
-    },
-    {
-      "id": "b852faa593f7ae84",
-      "title": "ヴルフペック、初単独来日公演決定",
-      "link": "https://www.billboard-japan.com/d_news/detail/167511",
-      "publishedAt": "2026-11-17T10:30:00.000Z",
-      "excerpt": "ヴルフペックが、2027年5月24日に東京・日本武道館で単独公演を実施する。 2025年【FU",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167511/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Wulfpeck to perform in Japan for the first time",
-      "translatedExcerpt": "Wulfpeck will hold a solo performance at Nippon Budokan in Tokyo on May 24, 2027. 2025 [FU"
-    },
-    {
-      "id": "e4cfa9c9a76662e6",
-      "title": "パラモアのヘイリー・ウィリアムス 3/3に一夜限りの来日ソロ公演開催",
-      "link": "https://www.billboard-japan.com/d_news/detail/167510",
-      "publishedAt": "2026-11-17T10:30:00.000Z",
-      "excerpt": "パラモアのリードボーカルでシンガーソングライターのヘイリー・ウィリアムスが、アジアツアー【The",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167510/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Paramore's Hayley Williams will hold a solo performance in Japan for one night only on March 3rd",
-      "translatedExcerpt": "Paramore's lead vocalist and singer-songwriter Hayley Williams will be on tour in Asia [The"
-    },
-    {
-      "id": "98527cf8deb60ebe",
-      "title": "The Eternal Fool's Words of Wisdom: A Pawsitively Fantastic Adventure Anime Reveals Premiere Date, Theme Songs in New Trailer",
-      "link": "https://crunchyroll.com/news/latest/2026/11/17/the-eternal-fools-words-of-wisdom-a-pawsitively-fantastic-adventure-anime-january-9-release-date-main-trailer-theme-songs",
-      "publishedAt": "2026-11-17T10:25:00.000Z",
-      "excerpt": "Crunchyroll will stream the series in January 2027",
-      "image": "https://a.storyblok.com/f/178900/1460x821/0e9a47aec0/the-eternal-fools-words-of-wisdom-a-pawsitively-fantastic-adventure.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "8fef9ef2c83c19a3",
-      "title": "【ライブレポート】THE ORAL CIGARETTES、彼らの実像を克明に彫り出す探究の旅 「ステージに立つ以上、俺は今の自分を歌っていたい」",
-      "link": "https://barks.jp/news/1105077",
-      "publishedAt": "2026-11-17T10:19:28.000Z",
-      "excerpt": "THE ORAL CIGARETTESが、2026年11月4日より敢行している＜WANDER ABOUT 放浪 TOUR 2026 関東 編＞の5カ所目となる、東京・新代田FEVER公演を11月11日に開催した。以下より本公演の模様をお届けする。 ＜放浪 TOUR＞は、2023年から不定期に行われてきたツアーシリーズ。今回の＜WANDER ABOUT 放浪 TOUR 2026 関東編＞は北海道編、九州編、中国地方編、東海編、東北編と実施されてきた本シリーズの第6回目であり、初の関東行脚である。 そもそもこのツアーは、コロナ禍におけるライブ規制の数々によって切断された文化を再度取り戻すことを念頭に置き、THE ORAL CIGARETTESが育まれてきたライブハウスシーン／ロックシーンの旗を振ろうという志か…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/17190717/ORAL_20261111-shotaro-s-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E5%90%8D-0177_MAIN-1024x683.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Live Report] THE ORAL CIGARETTES, a journey of exploration that reveals their true image in detail \"As long as I stand on stage, I want to sing about who I am now.\"",
-      "translatedExcerpt": "THE ORAL CIGARETTES held Shindaita FEVER performance in Tokyo on November 11th, the 5th stop of their WANDER ABOUT TOUR 2026 Kanto edition, which has been running since November 4th, 2026. We will deliver the details of this performance below. <Wandering TOUR> is a tour series that has been held irregularly since 2023. This <WANDER ABOUT Wandering TOUR 2026 Kanto Edition> is the 6th in this series, which has been held in Hokkaido, Kyushu, Chugoku region, Tokai, and Tohoku, and is the first Kanto pilgrimage. In the first place, this tour is an attempt to wave the flag of the live house scene/rock scene in which THE ORAL CIGARETTES has been nurtured, with the aim of restoring the culture that has been severed due to the numerous live restrictions imposed during the coronavirus pandemic..."
-    },
-    {
-      "id": "24dcb792cec0dfd0",
-      "title": "NOT WONK加藤発案の〈FAHDAY 2026〉、全出演者を発表",
-      "link": "https://ototoy.jp/news/132845",
-      "publishedAt": "2026-11-17T10:10:00.000Z",
-      "excerpt": "加藤修平（NOT WONK／SADFRANK）が発案した「表現の交換市 — FAHDAY 2026」が、2026年11月21日（土）から23日（月・祝）の3日間にわたって開催。全日程の出演者が発表された。 olololop、蛯名 啓太 (Discharming man)、YELLOWUHURU、KAZUYA PEEなどが追加発表。 11/21(sat) at Yewbi 11/22(sun) at おうちcoffee 11/22(日) at Yewbi / CLUB ROOTS 11/23(mon) at 苫小牧市民文化ホール ARTCUBES 11月21日（土）はNOT WONK主宰レーベル〈Pattheskin〉が運営するアートスペース / リスニング・バー「Yewbi」で「Day_1」を、22日（日…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132845/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "NOT WONK Kato's <FAHDAY 2026>, all performers announced",
-      "translatedExcerpt": "The “Exchange of Expression Fair — FAHDAY 2026” proposed by Shuhei Kato (NOT WONK/SADFRANK) will be held for three days from November 21st (Saturday) to November 23rd (Monday/holiday), 2026. Performers for the entire schedule have been announced. Additional announcements include olololop, Keita Ebina (Discharming man), YELLOWUHURU, and KAZUYA PEE. 11/21 (sat) at Yewbi 11/22 (sun) at home coffee 11/22 (Sun) at Yewbi / CLUB ROOTS 11/23 (mon) at Tomakomai Civic Cultural Hall ARTCUBES November 21 (Sat) will be an art space operated by NOT WONK's label Pattheskin / \"Day_1\" will be held at the listening bar \"Yewbi\" on the 22nd (Sunday)..."
-    },
-    {
-      "id": "af396e7c04e19f35",
-      "title": "〈SYNCHRONICITY’27〉第1弾で おとなりにぎんが計画、雪国、Hammer Head Shark、downt、ผ้าอ้อม99999ら21組",
-      "link": "https://ototoy.jp/news/132822",
-      "publishedAt": "2026-11-17T10:00:00.000Z",
-      "excerpt": "2027年4月10日（土）、4月11日（日）東京・渋谷にて開催される都市型フェスティバル〈SYNCHRONICITY’27〉。 その出演アーティスト第1弾ラインナップが発表された。 今回発表となったのは、渋さ知らズオーケストラ、THE SPELLBOUND × BOOM BOOM SATELLITES、奇妙礼太郎BAND、思い出野郎Aチーム、toconoma、fox capture plan、jizue、DYGL、maya ongaku、Enfants、NIKO NIKO TAN TAN、DURDN、Doona、雪国、Hammer Head Shark、downt、the bercedes menz、ผ้าอ้อม99999、テレビ大陸音頭、おとなりにぎんが計画、New Action!の合計21組。 ジャ…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132822/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "〈SYNCHRONICITY’27〉1st edition, 21 groups including Next Next Niginga Plan, Yukiguni, Hammer Head Shark, downt, ผ้าอ้อม99999",
-      "translatedExcerpt": "SYNCHRONICITY'27 is an urban festival that will be held in Shibuya, Tokyo on Saturday, April 10th and Sunday, April 11th, 2027. The first lineup of performing artists has been announced. The artists announced this time are Shibusa Chizu Orchestra, THE SPELLBOUND × BOOM BOOM SATELLITES, Kyotaro BAND, Omoide Yaro A Team, toconoma, fox capture plan, jizue, DYGL, maya ongaku, Enfants, NIKO NIKO TAN TAN, DURDN, Doona, Yukiguni, Hammer Head Shark, downt, the bercedes. A total of 21 groups including menz, ผ้าอ้อม99999, TV Taichikan Ondo, Otonori Nigin Ga Keikaku, and New Action!. J…"
-    },
-    {
-      "id": "b9a4cce6e5852837",
-      "title": "【イベントレポート】＜BARKSTEP＞初開催、芸人MCとメンズアイドル6組が素を見せたバラエティ＆ライブ",
-      "link": "https://barks.jp/news/1104943",
-      "publishedAt": "2026-11-17T10:00:00.000Z",
-      "excerpt": "11月14日、東京・墨田区のWALLOP3F STUDIOで、新イベント＜BARKSTEP＞が開催。芸人MCが進行するバラエティ番組と、アイドルのライブパフォーマンスを一夜で届ける複合型の企画だ。 運営は、ファンとアーティストの1on1ビデオ通話サービス「Talkport」を展開するPort株式会社で、BARKSが協力した。会場観覧は完売し、YouTube「BARKSTEP TV」では18時30分から無料配信も行われた。 出演はZELLY、先生アイドルかなで、輝澄爽、裏原BROTHERZ、燦楽景、ブレイク☆スルー（伊藤純平）の6組。進行はケイダッシュステージ所属のお笑いコンビ・ヨタロウ。の苅田昇とじゃくそんが務めた。 ◆ ◆ ◆ 「アイドルらしくカッコつける必要はありません。今日は素の部分を見せていただき…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/16223428/all.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Event Report] <BARKSTEP> Held for the first time, a variety & live show where comedian MCs and 6 men's idols showed their true colors",
-      "translatedExcerpt": "On November 14th, a new event <BARKSTEP> will be held at WALLOP3F STUDIO in Sumida Ward, Tokyo. It is a combined project that will feature a variety show hosted by a comedian MC and a live performance by an idol all in one night. It was managed by Port Co., Ltd., which runs Talkport, a 1on1 video call service between fans and artists, and BARKS cooperated. The venue was sold out, and the event was streamed for free on YouTube \"BARKSTEP TV\" starting at 6:30 p.m. The cast includes ZELLY, teacher idol Kanade, Terumi Sou, Urahara BROTHERZ, Sanraku Kei, and Break☆Through (Ito Junpei). The event will be hosted by Yotarou, a comedy duo belonging to Keidash Stage. Noboru Karita and Jakuson were in charge. ◆ ◆ ◆ ``There's no need to act cool like an idol.Today I want you to show me your true side..."
     }
   ]
 }

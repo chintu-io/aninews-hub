@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T03:32:17.123Z",
+  "generatedAt": "2026-11-26T04:02:48.886Z",
   "sources": [
     {
       "id": "sankaku",
@@ -91,7 +91,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
-      "count": 128,
+      "count": 133,
       "imageEnrichment": {
         "attempted": 40,
         "resolved": 40
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 270,
+      "count": 273,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 212,
+      "count": 208,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 138,
+      "count": 134,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,137 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 621,
+    "translatedJapaneseArticles": 615,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "2e3f9dfb0039d3c2",
+      "title": "全英5週連続1位のジェイミー・ミラー「Babydoll」MV公開、エルトン・ジョンもカメオ出演",
+      "link": "https://www.billboard-japan.com/d_news/detail/167798",
+      "publishedAt": "2026-11-26T04:00:00.000Z",
+      "excerpt": "ジェイミー・ミラーが、今年8月にリリースしたシングル「Babydoll」のミュージック・ビデオが公",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167798/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Jamie Miller's \"Babydoll\" MV released, No. 1 in the UK for 5 weeks in a row, Elton John also makes a cameo appearance",
+      "translatedExcerpt": "Jamie Miller has released the music video for his single “Babydoll,” released in August this year."
+    },
+    {
+      "id": "85c67fdf93da5661",
+      "title": "松下洸平、『デューン 砂の惑星 PART3』アンバサダー就任",
+      "link": "https://www.billboard-japan.com/d_news/detail/167804",
+      "publishedAt": "2026-11-26T04:00:00.000Z",
+      "excerpt": "松下洸平が、12月18日に日米同時公開される映画『デューン 砂の惑星 PART3』の宣伝アンバサダ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167804/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Kohei Matsushita appointed as ambassador for “Dune: Sand Planet Part 3”",
+      "translatedExcerpt": "Kohei Matsushita will be the promotional ambassador for the movie “Dune: Sand Planet Part 3” which will be released simultaneously in Japan and the US on December 18th."
+    },
+    {
+      "id": "749f65d2dd4283e7",
+      "title": "MAZZEL、初アリーナツアー映像作品 1/13発売決定",
+      "link": "https://www.billboard-japan.com/d_news/detail/167800",
+      "publishedAt": "2026-11-26T03:40:00.000Z",
+      "excerpt": "MAZZELが、初の全国アリーナツアー【MAZZEL 1st Arena Tour 2026 \"S",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167800/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "MAZZEL's first arena tour video work to be released on 1/13",
+      "translatedExcerpt": "MAZZEL will hold their first national arena tour [MAZZEL 1st Arena Tour 2026 \"S"
+    },
+    {
+      "id": "a2ef002e74ad8418",
+      "title": "bby、愛の物語を描く2ndアルバムから「Shadows」MV公開",
+      "link": "https://www.billboard-japan.com/d_news/detail/167795",
+      "publishedAt": "2026-11-26T03:30:00.000Z",
+      "excerpt": "英ロンドン発のオルタナティブ・ロック・バンドのbby（ベイビー）が、2ndアルバム『2』をリリース",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167795/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "bby releases MV for “Shadows” from 2nd album depicting a love story",
+      "translatedExcerpt": "bby, an alternative rock band from London, releases their second album ``2''"
+    },
+    {
+      "id": "b6c78e5fd0ea8c2c",
+      "title": "Under Ninja Manga Goes on 4-Week Hiatus",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-25/under-ninja-manga-goes-on-4-week-hiatus/.244180",
+      "publishedAt": "2026-11-26T03:28:09.000Z",
+      "excerpt": "Manga resumes serialization on December 28",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315g30/cms/news.3/157904/under-ninja.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "11b3be19c958e3fd",
+      "title": "Exoprimal Game Ends Service in September 2027",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-25/exoprimal-game-ends-service-in-september-2027/.244201",
+      "publishedAt": "2026-11-26T03:19:19.000Z",
+      "excerpt": "Game to be delisted after March 30",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gLO/cms/news.10/244201/standard-img.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "a57d161de9f9eb00",
+      "title": "Melty Blood:Twi-Lumina 2D Fighter Game's New Trailer Confirms Crossplay",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-25/melty-blood-twi-lumina-2d-fighter-game-new-trailer-confirms-crossplay/.244202",
+      "publishedAt": "2026-11-26T03:09:38.000Z",
+      "excerpt": "Game launches for PS5, PS4, Switch 2, Switch, Xbox One, PC on April 22",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gOA/youtube/-itIG-yUwFA.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
     {
       "id": "3bd5af852c1e7465",
       "title": "Tokyo’s Akihabara planning crack-down on maid cafe promotional tactics",
@@ -316,6 +443,40 @@
       "translatedExcerpt": "Shudai Uesugi will release his first new song in two years, ``Yugure ni Sotte'', on Saturday, December 5, 2026. This is the first release in about two years since the previous album \"OH ROAD\", and it is a song that is extremely simple and makes you want to listen to it at dusk when you feel nostalgic. Although it is 2026, when generation AI has advanced dramatically, the music is made by humans and has the warmth of Shudai Uesugi. It has also been decided that “Hitori Hiki Gattari” vol.3 will be held on December 12th (Sat). As with last year, the venue will be the Glass Pyramid HIDAMARI in Moerenuma Park, which is known nationwide for its design by Isamu Noguchi. This time as well, it will be an acoustic live performance in which she sings the whole song by herself. In addition, new challenges will be introduced, and a live performance that will be enjoyed in a slightly different way than the previous two is planned. Shudai Uesugi https:…"
     },
     {
+      "id": "538bcb457f4940b5",
+      "title": "Bandai Card Games Launches Digimon Alysion Game",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-25/bandai-card-games-launches-digimon-alysion-game/.244210",
+      "publishedAt": "2026-11-26T02:57:40.000Z",
+      "excerpt": "Free-to-play smartphone card game announced in March 2025",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHK/cms/news.10/244210/digimonalysion.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
+      "id": "d1764af6a31da0ee",
+      "title": "Nobunaga's Ambition Series Gets New Game Next March",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-25/nobunaga-ambition-series-gets-new-game-next-march/.244203",
+      "publishedAt": "2026-11-26T02:53:10.000Z",
+      "excerpt": "Hishou launches with series' 1st story mode for PS5, Switch 2, Windows via Steam",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gGB/youtube/SsSW_4pwA_Y.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
+        "language": "en"
+      }
+    },
+    {
       "id": "6c2c0990e09895e0",
       "title": "'Sasaki to Pii-chan Season 2' Unveils Additional Cast",
       "link": "https://myanimelist.net/news/74983014?_location=rss",
@@ -329,6 +490,23 @@
         "siteUrl": "https://myanimelist.net/news",
         "category": "Anime News",
         "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
+    {
+      "id": "ac3e589648937fdd",
+      "title": "Sentimental Graffiti Remake Game Listed on March 25",
+      "link": "https://www.animenewsnetwork.com/news/2026-11-25/sentimental-graffiti-remake-game-listed-on-march-25/.244207",
+      "publishedAt": "2026-11-26T02:42:04.000Z",
+      "excerpt": "Game launches on PS5, Switch",
+      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gHC/cms/news.10/244207/sentimentalgraffitire-kv.jpg",
+      "source": {
+        "id": "ann",
+        "name": "Anime News Network",
+        "short": "ANN",
+        "siteUrl": "https://www.animenewsnetwork.com/news/",
+        "category": "Anime News",
+        "accent": "#ffb45f",
         "language": "en"
       }
     },
@@ -5431,7 +5609,7 @@
       "title": "Atelier Resleriana Trend Revealing Swimsuits Underneath Clothing",
       "link": "https://news.sankakucomplex.com/n/iUgIsKN0U3aVJIdaxT0C3A",
       "publishedAt": "2026-11-23T21:00:43.000Z",
-      "excerpt": "A trend has swept over Japanese Twitter as players of Atelier Resleriana have been sharing photos of the female characters with your clothing being semi-transparent, revealing their swimsuit outfits underneath and sure to have observers establishing a new fetish in the process.",
+      "excerpt": "A trend has swept over Japanese Twitter as players of Atelier Resleriana have been sharing photos of the female characters with your clothing being semi-transparent, revealing their swimsuit outfits underneath and sure to have observers establishing a new fetish in the process. The rather enticin…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18218,194 +18396,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "135546bd260d8a92",
-      "title": "INIのオリジナルバラエティ、『INIのAJITOラボ』U-NEXT独占ライブ配信／#1をYouTubeプレミア公開",
-      "link": "https://www.billboard-japan.com/d_news/detail/167508",
-      "publishedAt": "2026-11-17T09:15:00.000Z",
-      "excerpt": "INIのオリジナルキャラクター開発の全貌に迫るドキュメントバラエティ『INIのAJITOラボ』（#",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167508/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "INI's original variety show, \"INI's AJITO Lab\" U-NEXT exclusive live broadcast/#1 premiered on YouTube",
-      "translatedExcerpt": "“INI’s AJITO Lab” (#"
-    },
-    {
-      "id": "86e364bdfbcfe3d7",
-      "title": "梅田サイファー、ツアー来場者の声を収録した新曲「ウメダノビル」配信リリース",
-      "link": "https://barks.jp/news/1104828",
-      "publishedAt": "2026-11-17T09:00:26.000Z",
-      "excerpt": "梅田サイファーの新曲「ウメダノビル」が、11月18日（水）に配信リリースされることが決定した。 「ウメダノビル」は、今夏開催された＜梅田サイファー ONE MAN LIVE TOUR “RETURN OF THE 13”＞で初披露された楽曲。Cosaquが手掛けたキャッチーでダンサブルなビートに、一度聞いたら耳から離れないフック(サビ)で夏フェスでも大合唱、時にサークルモッシュを巻き起こしていたアンセムだ。 今回配信される音源には、ツアーの一部公演で収録された来場者の実際の歌声をコーラスとして使用しており、会場を包んだ熱気やファンとの一体感をそのまま閉じ込めた作品となっている。 歌詞では、梅田で過ごした青春の日々や仲間との思い出を振り返りながら、積み重ねてきたキャリアと現在も続く成長の日々を梅田の高層ビル…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/10/01141645/%E6%A2%85%E7%94%B0%E3%82%B5%E3%82%A4%E3%83%95%E3%82%A1%E3%83%BC_A%E5%86%99_small.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Umeda Cipher releases new song “Umeda No Building” that includes voices from tour attendees",
-      "translatedExcerpt": "It has been decided that Umeda Cypher's new song \"Umeda No Building\" will be released on November 18th (Wednesday). “Umedano Building” is a song that was first performed at <Umeda Cipher ONE MAN LIVE TOUR “RETURN OF THE 13”> held this summer. With a catchy and danceable beat created by Cosaqu and a hook that you can't get out of your head once you hear it, it's an anthem that has been sung in chorus at summer festivals, sometimes stirring up circle moshing. The sound source distributed this time uses the actual singing voices of the attendees recorded at some performances of the tour as a chorus, and it is a work that captures the enthusiasm that enveloped the venue and the sense of unity with the fans. In the lyrics, while looking back on the days of youth spent in Umeda and the memories with friends, the story depicts the career that has been accumulated and the days of continued growth in Umeda's skyscrapers..."
-    },
-    {
-      "id": "6f27fe26459596d3",
-      "title": "〈2026FNS歌謡祭〉出演アーティスト60組発表",
-      "link": "https://ototoy.jp/news/132844",
-      "publishedAt": "2026-11-17T09:00:00.000Z",
-      "excerpt": "〈2026FNS歌謡祭〉の出演アーティスト60組が発表された。 放送日程はフジテレビ系で12月2日（水）と9日（水）の2週連続で放送。司会は相葉雅紀、井上清華（フジテレビアナウンサー）が務める。 第1夜 12月2日（水）には、相川七瀬、ILLIT、＝LOVE、映画ちいかわ、HY、CANDY TUNE×吉田沙保里、倖田來未×清塚信也、CORTIS、JO1、GENERATIONS、島袋寛子、Stray Kids、Snow Man、スピッツ、高畑充希、DA PUMP、DOMOTO、中島健人、なにわ男子、Number_i、乃木坂46、HANA、浜崎あゆみ、ふぉ～ゆ～、Hey! Say! JUMP、BABYMONSTER、三浦大知、帝コン、Mrs. GREEN APPLE、M!LK、モナキ、ゆず、LiSA、Litt…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132844/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<2026 FNS Song Festival> 60 performing artists announced",
-      "translatedExcerpt": "The 60 performing artists for the 2026 FNS Song Festival have been announced. The broadcast schedule will be broadcast on Fuji TV for two consecutive weeks on December 2nd (Wednesday) and December 9th (Wednesday). The hosts will be Masaki Aiba and Seika Inoue (Fuji TV announcer). The first night, Wednesday, December 2nd, will feature Nanase Aikawa, ILLIT, =LOVE, Chiikawa Eiga, HY, CANDY TUNE x Saori Yoshida, Kumi Koda x Shinya Kiyozuka, CORTIS, JO1, GENERATIONS, Hiroko Shimabukuro, Stray Kids, Snow Man, Spitz, Mitsuki Takahata, DA. PUMP, DOMOTO, Kento Nakajima, Naniwa Danshi, Number_i, Nogizaka46, HANA, Ayumi Hamasaki, Foyuu, Hey! Say! JUMP, BABYMONSTER, Daichi Miura, Teikon, Mrs. GREEN APPLE, M!LK, Monaki, Yuzu, LiSA, Litt..."
-    },
-    {
-      "id": "ac872a65c5475eb0",
-      "title": "〈COMING KOBE27〉開催決定",
-      "link": "https://ototoy.jp/news/132823",
-      "publishedAt": "2026-11-17T09:00:00.000Z",
-      "excerpt": "神戸で開催されている日本最大級のチャリティーイベント〈COMING KOBE〉。 震災から32年を迎える2026年に、阪神淡路大震災を風化させず語り継ぎ、神戸からの恩返しとして被災地支援を行い、神戸の魅力を伝える事を最大のテーマとする本イベントの開催が決定した。チケット発売に関しては、12月18日より発売開始となる。 今後豪華アーティストも発表予定になる〈COMING KOBE27〉を楽しみに待とう。 イベント情報 午前10時00分開場予定 午後6時30分終演予定 インフォメーション http://comingkobe.com",
-      "image": "https://imgs.ototoy.jp/news/image.php/132823/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "〈COMING KOBE27〉 will be held",
-      "translatedExcerpt": "COMING KOBE is Japan's largest charity event held in Kobe. In 2026, which will mark 32 years since the earthquake, it has been decided that this event will be held with the main theme of preserving the story of the Great Hanshin-Awaji Earthquake and passing it on, providing support to the affected areas as Kobe's repayment, and conveying the charm of Kobe. Ticket sales will begin on December 18th. Let's look forward to COMING KOBE27, where many gorgeous artists will be announced in the future. Event information Doors scheduled to open at 10:00 a.m. Scheduled to end at 6:30 p.m. Information http://comingkobe.com"
-    },
-    {
-      "id": "ec3718369ce5e512",
-      "title": "〈プレミアMelodix!〉11/23出演者発表",
-      "link": "https://ototoy.jp/news/132829",
-      "publishedAt": "2026-11-17T09:00:00.000Z",
-      "excerpt": "11月23日にオンエアされる〈プレミアMelodix!〉の出演アーティストが発表された。 出演は、iLiFE!、THE SUPER FRUIT、すなお。 iLiFE!は「アイドルライフメガパック」、THE SUPER FRUITは「ちんぷんかんぷんLIFE」、すなおは「セゾン」を披露する。 番組情報 〈プレミアMelodix!〉 2026年11月23日(月)深夜2：50～テレビ東京にて放送 インフォメーション https://www.tv-tokyo.co.jp/melodix_premium/ https://x.com/tx_melodix リリース情報 https://ototoy.jp/_/default/p/4417239",
-      "image": "https://imgs.ototoy.jp/news/image.php/132829/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "<Premier Melodix!> 11/23 Performer announcement",
-      "translatedExcerpt": "The performing artists for \"Premier Melodix!\", which will be aired on November 23rd, have been announced. Performers include iLiFE!, THE SUPER FRUIT, and Sunao. iLiFE! will be performing \"Idol Life Mega Pack,\" THE SUPER FRUIT will be performing \"Gimpun Kanpun LIFE,\" and Sunao will be performing \"Saison.\" Program information <Premier Melodix!> Broadcast on TV Tokyo from 2:50 am on Monday, November 23, 2026 Information https://www.tv-tokyo.co.jp/melodix_premium/ https://x.com/tx_melodix Release information https://ototoy.jp/_/default/p/4417239"
-    },
-    {
-      "id": "ab8aa9a91f5b01ce",
-      "title": "ASIAN KUNG-FU GENERATION、2027年5月に台湾＆韓国にてワンマンライブ開催",
-      "link": "https://barks.jp/news/1105004",
-      "publishedAt": "2026-11-17T09:00:00.000Z",
-      "excerpt": "ASIAN KUNG-FU GENERATIONが、台湾と韓国でワンマンライブを開催することを発表した。 2026年4月、東京・有明アリーナでのワンマンライブ＜30th Anniversary Special Concert “Thirty Revolutions”＞を皮切りに、結成30周年のアニバーサリーイヤーへと突入し、2027年4月の兵庫・GLION ARENA KOBEと神奈川・ぴあアリーナMMで開催されるアリーナ公演でその集大成を迎える。今回発表された2公演は、アニバーサリーイヤーを締めくくる特別な“Extra Show”として開催される。 2027年5月15日に台湾・Zepp New Taipei、2027年5月22日に韓国・KINTEX Hall 10にて開催されるのだが、台湾でのワンマンラ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/09/24140412/3_AKG%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "ASIAN KUNG-FU GENERATION will hold one-man live in Taiwan & South Korea in May 2027",
-      "translatedExcerpt": "ASIAN KUNG-FU GENERATION has announced that they will hold one-man live shows in Taiwan and South Korea. In April 2026, they will enter their 30th anniversary year, starting with their one-man live <30th Anniversary Special Concert “Thirty Revolutions”> at Ariake Arena in Tokyo, and will reach the culmination of their efforts in April 2027 with arena performances held at GLION ARENA KOBE in Hyogo and Pia Arena MM in Kanagawa. The two performances announced this time will be held as a special \"Extra Show\" to conclude the anniversary year. It will be held at Zepp New Taipei in Taiwan on May 15, 2027, and at KINTEX Hall 10 in South Korea on May 22, 2027, but it will be a one-man show in Taiwan..."
-    },
-    {
-      "id": "92dbd9563038c06c",
-      "title": "No.MEN、新曲「STARFALL」を11月25日（水）に配信リリース",
-      "link": "https://barks.jp/news/1104979",
-      "publishedAt": "2026-11-17T09:00:00.000Z",
-      "excerpt": "No.MENの「STARFALL」が11月25日（水）に配信リリースとなる。1st Album『BAA, AS THE SHADOWS LOOM』のリリース後、初となる新曲だ。 「STARFALL」は、人生における「夜」と、その中でしか見つけられない「星」をテーマにした楽曲で、人がときに向き合う絶望の暗闇の中でしか見えない星があり、その光との出会いが、やがて訪れる朝へとつながっていくことを歌っている作品だ。 楽曲「STARFALL」について R&Bを基調とした本作は、人生における「夜」と、その中でしか見つけられない「星」をテーマにした楽曲である。 人は時にそれぞれの持つ絶望と向き合うシーズンがある。しかし、昼間には見えない星は、夜になると姿を現す。 楽曲のサビでは、No.MENらしいゴスペル由来のコーラス…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/17103531/%E7%94%BB%E5%83%8F1.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "No.MEN will release new song “STARFALL” on November 25th (Wednesday)",
-      "translatedExcerpt": "No.MEN's \"STARFALL\" will be released on November 25th (Wednesday). This is their first new song after the release of their 1st album “BAA, AS THE SHADOWS LOOM”. ``STARFALL'' is a song about the ``night'' in life and the ``stars'' that can only be found within it.It is a song about how there are stars that can only be seen in the darkness of despair that people sometimes face, and that encountering that light will lead to the morning that will eventually arrive. About the song \"STARFALL\" This R&B-based song is about the \"night\" in life and the \"stars\" that can only be found within it. Sometimes people have seasons where they face their own despair. However, stars that cannot be seen during the day appear at night. The chorus of the song features a gospel-inspired chorus typical of No.MEN..."
-    },
-    {
-      "id": "0e39edffe91ec651",
-      "title": "SUGARLUNG、劇薬ロックアンセムリリース",
-      "link": "https://ototoy.jp/news/132835",
-      "publishedAt": "2026-11-17T09:00:00.000Z",
-      "excerpt": "SUGARLUNGが2026年11月18日(水)にニューシングル「C4T BITE」をリリースする。 本楽曲のジャケットには、ギターのイシカワが実際に飼っている子猫たち「my kitty angels」を起用。子猫への愛を歌いながらも、どこか投げやりでユニーク、そしてシニカルな歌詞と、90年代オルタナティブロックを基調とした攻撃的なサウンドが印象的な1曲となっている。 そして、11月23日(月・祝)には、原宿RUIDOにてワンマンライブ〈Still [My] Loud〉を開催する。 リリース情報 https://ototoy.jp/_/default/a/188523 ライブ情報 https://www.zan-live.com/live/detail/10935 アーティスト情報 https://www…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132835/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "SUGARLUNG releases powerful rock anthem",
-      "translatedExcerpt": "SUGARLUNG will release their new single “C4T BITE” on Wednesday, November 18, 2026. The jacket of this song features kittens ``my kitty angels'' that guitarist Ishikawa actually owns. Although the song is about love for kittens, it is an impressive song with somewhat unique, cynical lyrics and an aggressive sound based on 90's alternative rock. Then, on November 23rd (Monday/holiday), he will hold a one-man live “Still [My] Loud” at Harajuku RUIDO. Release information https://ototoy.jp/_/default/a/188523 Live information https://www.zan-live.com/live/detail/10935 Artist information https://www…"
-    },
-    {
-      "id": "62aafc721d0b0107",
-      "title": "The Eternal Fool's Words of Wisdom Anime's New Video Unveils More Cast, Theme Songs, January 9 Debut",
-      "link": "https://www.animenewsnetwork.com/news/2026-11-17/the-eternal-fool-words-of-wisdom-anime-new-video-unveils-more-cast-theme-songs-january-9-debut/.243889",
-      "publishedAt": "2026-11-17T09:00:00.000Z",
-      "excerpt": "Rie Kugimiya joins cast as Aileen; Nako Misaki × sajou no hana, Arcana Project perform theme songs",
-      "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJE/youtube/Kgi2eMlP4LU.jpg",
-      "source": {
-        "id": "ann",
-        "name": "Anime News Network",
-        "short": "ANN",
-        "siteUrl": "https://www.animenewsnetwork.com/news/",
-        "category": "Anime News",
-        "accent": "#ffb45f",
-        "language": "en"
-      }
-    },
-    {
-      "id": "43abbdda097cd10b",
-      "title": "前川優希、初のライブ映像作品リリース決定 「まだまだ鳴り止まないこの音楽を、形にしました」",
-      "link": "https://barks.jp/news/1104991",
-      "publishedAt": "2026-11-17T09:00:00.000Z",
-      "excerpt": "前川優希が、初のライブ映像作品『前川優希 LIVE TOUR 2026 ENcall』を、2026年12月16日にKING RECORDS STOREより発売することを発表した。 2023年の初のワンマンライブ以降、アーティストとしても活動してきた前川。今年7月には活動10周年を記念してリリースしたアルバム『ENcall』でメジャーデビューを果たし、それを引っ提げ全国5都市でライブツアー＜ENcall＞を開催した。本作には、2026年8月16日に東京・渋谷WWWで行われたツアーファイナル公演が収録されている。『ENcall』の楽曲を中心に、ライブならではのパフォーマンスや会場の熱気を詰め込んだという本編に加え、約40分にわたる当日の密着ドキュメンタリー映像も収録。ステージ上では見ることのできない前川優希の…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/17121307/%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A4%E3%82%B9%E3%83%88%E5%86%99%E7%9C%9F-1-683x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Yuki Maekawa decides to release her first live video work \"We have given form to this music that will never stop resonating\"",
-      "translatedExcerpt": "Yuki Maekawa has announced that her first live video work ``Yuki Maekawa LIVE TOUR 2026 ENcall'' will be released from KING RECORDS STORE on December 16, 2026. Maekawa has been active as an artist since his first one-man live in 2023. In July of this year, they made their major debut with the album ``ENcall,'' released to commemorate their 10th anniversary, and held a live tour ``ENcall'' in five cities nationwide. This work includes the tour final performance held at Shibuya WWW in Tokyo on August 16, 2026. In addition to the main feature, which focuses on the songs of ``ENcall'' and is filled with the performances and the excitement of the venue, it also includes a 40-minute in-depth documentary video of the day. Yuki Maekawa, who cannot be seen on stage..."
     }
   ]
 }

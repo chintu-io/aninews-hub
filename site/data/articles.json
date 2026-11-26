@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T20:32:08.574Z",
+  "generatedAt": "2026-11-26T21:02:11.804Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 83,
+      "count": 84,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 285,
+      "count": 284,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 625,
+    "translatedJapaneseArticles": 624,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "9aa685f1cb0ca7cd",
+      "title": "A Nobody’s Way Up to an Exploration Hero Manga Coming from Titan",
+      "link": "https://crunchyroll.com/news/latest/2026/11/26/a-nobodys-way-up-to-an-exploration-hero-manga-titan",
+      "publishedAt": "2026-11-26T20:45:00.000Z",
+      "excerpt": "First volume launches in June 2027",
+      "image": "https://a.storyblok.com/f/178900/960x540/eb2096a4ba/a-nobodys-way-up-ep1.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "848258ab735114d8",
       "title": "Live-Action Quiztopia Series Adds 13 Cast Members",
@@ -18397,25 +18414,6 @@
         "accent": "#ffb45f",
         "language": "en"
       }
-    },
-    {
-      "id": "e64ba25da3a5b3c3",
-      "title": "Siero、JP THE WAVYの代表曲をサンプリングした新曲「なんかごめん」をリリース",
-      "link": "https://www.billboard-japan.com/d_news/detail/167528",
-      "publishedAt": "2026-11-18T03:00:00.000Z",
-      "excerpt": "Sieroが、JP THE WAVYの代表曲「Cho Wavy De Gomenne」をサンプリン",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167528/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Siero releases new song “Nankagomen” that samples JP THE WAVY’s representative song",
-      "translatedExcerpt": "Siero samples JP THE WAVY's signature song \"Cho Wavy De Gomenne\""
     }
   ]
 }

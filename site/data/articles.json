@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T12:01:48.108Z",
+  "generatedAt": "2026-11-26T12:31:49.184Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 83,
+      "count": 82,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 290,
+      "count": 291,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 634,
+    "translatedJapaneseArticles": 635,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "273167d81c03c71e",
+      "title": "超特急の東京ドーム公演が映画化「僕たちが共に掴んだ夢の続きを、ぜひ映画館で見届けてください！」",
+      "link": "https://www.billboard-japan.com/d_news/detail/167791",
+      "publishedAt": "2026-11-26T12:30:00.000Z",
+      "excerpt": "超特急のライブ＆ドキュメンタリー映画第2弾『超特急 THE MOVIE Sign:all』が、20",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167791/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Super Train's Tokyo Dome performance will be made into a movie ``Please come see the continuation of the dream we achieved together at the movie theater!''",
+      "translatedExcerpt": "Chotonkyuu's second live and documentary film ``Chotonkyuu THE MOVIE Sign:all'' will be released on 20"
+    },
     {
       "id": "2bba31ef3075e86c",
       "title": "式部めぐり、1st AL『めぐりめぐ日記』リリース",
@@ -18417,23 +18436,6 @@
       },
       "translatedTitle": "Jonah Yano releases new song “The Door”",
       "translatedExcerpt": "Jonah Yano releases new song “Th” from his new album “Spin” to be released on January 29, 2027"
-    },
-    {
-      "id": "afdd40bdd554d808",
-      "title": "Anisong Dance Battle-Themed Live-Action Film Odore! Anison Boys Slated for May 2027",
-      "link": "https://crunchyroll.com/news/latest/2026/11/18/odore-anison-boys-anime-song-dance-battle-live-action-film-may-2027",
-      "publishedAt": "2026-11-18T01:03:00.000Z",
-      "excerpt": "Kazuya Ohashi (Naniwa Danshi) plays the protagonist",
-      "image": "https://a.storyblok.com/f/178900/960x540/28d966b526/anison-boys-header.jpg",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T23:02:00.983Z",
+  "generatedAt": "2026-11-26T23:31:49.403Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 84,
+      "count": 85,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 282,
+      "count": 281,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,27 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 621,
+    "translatedJapaneseArticles": 620,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "fb195bb42fb9c4e3",
+      "title": "Fool Night Anime Announces Three New Cast Members",
+      "link": "https://crunchyroll.com/news/latest/2026/11/26/fool-night-anime-announces-three-new-cast-members",
+      "publishedAt": "2026-11-26T23:00:00.000Z",
+      "excerpt": "Nobuo Tobita, Akiko Yajima and Yumiko Kobayashi join the cast",
+      "image": "https://a.storyblok.com/f/178900/1920x1080/885b0a8543/fool-night-pv3.jpeg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
     {
       "id": "ce98644cf8440e15",
       "title": "セブンス・ベガの新曲『ポプル・ポプリ』が『黒崎くんの言いなりになんてならない』の主題歌に決定",
@@ -18389,25 +18406,6 @@
         "accent": "#6fc9e6",
         "language": "en"
       }
-    },
-    {
-      "id": "fa2c80d71f48a905",
-      "title": "「kiDnap GAME」“新出”坂口健太郎らが挑む「脱落ゲ－ム」が「めちゃ怖い心理戦」 「“キジュ”イ・ジュンギとのバディ感が強まってきた」",
-      "link": "https://www.billboard-japan.com/d_news/detail/167535",
-      "publishedAt": "2026-11-18T03:00:00.000Z",
-      "excerpt": "坂口健太郎が主演する国際共同製作ドラマ「kiDnap GAME」（フジテレビ系）の第7話が、17日",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167535/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "``kiDnap GAME'' The ``elimination game'' that ``new'' Kentaro Sakaguchi and others take on is ``a very scary psychological game.'' ``The feeling of being buddies with ``Kiju'' Lee Jun-ki has become stronger.''",
-      "translatedExcerpt": "The seventh episode of the international co-produced drama \"kiDnap GAME\" (Fuji TV) starring Kentaro Sakaguchi will be released on the 17th."
     }
   ]
 }

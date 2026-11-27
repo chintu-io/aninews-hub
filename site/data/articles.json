@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T01:31:50.813Z",
+  "generatedAt": "2026-11-27T02:01:51.397Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 44,
+      "count": 43,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 85,
+      "count": 86,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +114,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 41,
+      "count": 40,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 282,
+      "count": 283,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,84 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 621,
+    "translatedJapaneseArticles": 620,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "e92f1db06de5ca33",
+      "title": "【俺の楽器・私の愛機】2084「初心の自分に会えるギター」",
+      "link": "https://barks.jp/news/1106992",
+      "publishedAt": "2026-11-27T01:58:50.000Z",
+      "excerpt": "【PRS SE Orianthi 2010 with Gibson Classic 57】（東京都 HiRO 30歳） これは僕が所有している唯一のエレキギターです。 初めてこのギターを見たのは、オリアンティの『Believe II』のジャケット写真と、同作のシングル『Shut Up & Kiss Me』のMVでした。 ただ、MVで見ていた当初は、そこまで強く印象には残っていませんでした。 当時はギターの「ギ」の字も知らず、もちろん弾くこともできませんでした。そんな自分が意を決して初めて楽器屋に入店し、このギターの実物を目にしたときのインパクトは、今でも忘れられません。 MVで見る以上に、キラキラと輝く赤いスパークルが本当にカッコよくて、一瞬で心を奪われました。 それでも、当時の新品価格だった10万円は、…",
+      "image": "https://new-img.barks.jp/wp-content/uploads/2025/06/04092533/gakki_aiki-2-1024x576.jpg",
+      "source": {
+        "id": "barks",
+        "name": "BARKS",
+        "short": "BARKS",
+        "siteUrl": "https://barks.jp/tag/news/",
+        "category": "Japanese Music",
+        "accent": "#ff9f78",
+        "language": "ja"
+      },
+      "translatedTitle": "[My instrument/My favorite machine] 2084 “A guitar that allows you to meet your beginner self”",
+      "translatedExcerpt": "[PRS SE Orianthi 2010 with Gibson Classic 57] (HiRO, Tokyo, 30 years old) This is the only electric guitar I own. The first time I saw this guitar was on the jacket photo of Orianthi's ``Believe II'' and the music video for the same album's single ``Shut Up & Kiss Me.'' However, when I first saw the music video, it didn't leave a strong impression on me. At that time, I didn't even know the letter ``gui'' on the guitar, and of course I couldn't play it. I still can't forget the impact I had when I took the plunge and walked into a music store for the first time and saw the actual guitar. The sparkling red sparkles were even more cool than they looked in the MV, and I was instantly captivated by them. Still, the new price of 100,000 yen at the time..."
+    },
+    {
+      "id": "8a801084c4eb6c0f",
+      "title": "Ado Shares Devils’ Crest Anime Opening Song Music Video",
+      "link": "https://crunchyroll.com/news/latest/2026/11/27/devils-crest-anime-opening-song-music-video-ado",
+      "publishedAt": "2026-11-27T01:39:00.000Z",
+      "excerpt": "The song debuted at number 8 on the weekly chart",
+      "image": "https://a.storyblok.com/f/178900/960x540/466c7bc2ac/ado-shinka-mv.png",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "fafb1b05e287f7e0",
+      "title": "TMNETWORK、2026年全国ツアー【QUANTUM】のライブ音源をサブスク解禁",
+      "link": "https://www.billboard-japan.com/d_news/detail/167830",
+      "publishedAt": "2026-11-27T01:35:00.000Z",
+      "excerpt": "TMNETWORKが、今年4月8日に神奈川・横浜アリーナにて開催した全国ツアー【TMNETWORK",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167830/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "TMNETWORK releases live sound source of 2026 national tour [QUANTUM] for subscription",
+      "translatedExcerpt": "TMNETWORK held their nationwide tour [TMNETWORK] on April 8th this year at Yokohama Arena, Kanagawa."
+    },
+    {
+      "id": "a707de29286b2f97",
+      "title": "「波うららかに、めおと日和」「このドラマを見ていると顔が柔らかくなる。悪い人が出てこないのって大事」「四季を名前にした四姉妹もいいね」",
+      "link": "https://www.billboard-japan.com/d_news/detail/167831",
+      "publishedAt": "2026-11-27T01:30:00.000Z",
+      "excerpt": "「波うららかに、めおと日和」（フジテレビ系）の第7話が、26日に放送された。 本作は、昭和12年",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167831/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "``Nami Urarakani, Meo and Hiyori'' ``My face softens when I watch this drama. It's important that there are no bad people'' ``I also like the four sisters named after the four seasons.''",
+      "translatedExcerpt": "The seventh episode of ``Nami Urarakani, Meoto Biyori'' (Fuji TV) was broadcast on the 26th. This work was created in 1933."
+    },
     {
       "id": "6b2171b6af8d8d91",
       "title": "デュラン・デュラン、「A View to a Kill」「The Reflex」など米ビルボード・チャート最大のヒットTOP15",
@@ -8028,7 +8102,7 @@
       "title": "Japanese Bus Driver Suspended After Licking Handrails on Livestream",
       "link": "https://news.sankakucomplex.com/n/I6R94uHbchzhxmdXvcwufQ",
       "publishedAt": "2026-11-23T10:00:12.000Z",
-      "excerpt": "A Japanese bus driver has been removed from driving duties after a livestream showed him licking handrails and hanging straps inside a bus. His employer, Keikyu Bus, has apologized and confirmed that the vehicle has been disinfected.",
+      "excerpt": "A Japanese bus driver has been removed from driving duties after a livestream showed him licking handrails and hanging straps inside a bus. His employer, Keikyu Bus, has apologized and confirmed that the vehicle has been disinfected. The incident occurred on November 16, when an unidentified male…",
       "image": "https://news.sankakucomplex.com/",
       "source": {
         "id": "sankaku",
@@ -18332,78 +18406,6 @@
       },
       "translatedTitle": "Sung Si Kyung will perform at Nippon Budokan in July next year",
       "translatedExcerpt": "It has been decided that Sung Si Kyung will hold a performance at Nippon Budokan in July 2027. The date and time of the Nippon Budokan performance and details will be announced at a later date. Sung Si-kyung signed an exclusive management contract with Kodansha in April 2026 in Japan, and released a cover album \"LOVE\" containing famous Japanese songs in September. In October, his concert at the Tokyo Garden Theater was sold out, and his Korean gourmet guide will be reprinted. In November, she made her first appearance on TV Asahi's ``Tetsuko's Room'' and received a great response. Live information Book information Release information https://ototoy.jp/_/default/p/4221360 Artist information https://ssk-purpleocean.jp/ https://x.com/ssk_jp_staff https://www.youtub…"
-    },
-    {
-      "id": "bbd541c4e4fb1a4d",
-      "title": "少女時代・テヨン、日本公演＜TAEYEON CONCERT – F.L.Y. in Tokyo＞2027年4月に開催決定",
-      "link": "https://barks.jp/news/1105210",
-      "publishedAt": "2026-11-18T05:25:03.000Z",
-      "excerpt": "少女時代・テヨンが、アジアツアー＜TAEYEON CONCERT – F.L.Y.＞の日本公演となる＜TAEYEON CONCERT – F.L.Y. in Tokyo＞を東京で開催することを発表した。 2027年1月15日の韓国・ソウル公演を皮切りにスタートする本ツアーだが、日本公演は2027年4月17日・18日の2日間にわたって京王アリーナTOKYOで開催される。 チケット抽選については、少女時代 日本オフィシャルSNSチケット先行および「SMTOWN OFFICIAL JAPAN」チケット先行の受付が本日14時よりスタートしている。 ◾️＜TAEYEON CONCERT – F.L.Y. in Tokyo＞2027年4月17日(土) [東京] 京王アリーナTOKYO 17:00開場 / 18:00開…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/18142313/%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%9A%A9-01-ROUTING-POSTER-ss-723x1024.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "Girls' Generation's Taeyeon will perform in Japan <TAEYEON CONCERT – F.L.Y. in Tokyo> to be held in April 2027",
-      "translatedExcerpt": "Girls' Generation's Taeyeon has announced that she will hold the Japan tour <TAEYEON CONCERT – F.L.Y. in Tokyo> in Tokyo as part of her Asian tour <TAEYEON CONCERT – F.L.Y.>. This tour will start with a performance in Seoul, South Korea on January 15, 2027, but the Japan performance will be held at Keio Arena TOKYO for two days on April 17 and 18, 2027. Regarding the ticket lottery, pre-orders for Girls' Generation Japan Official SNS tickets and \"SMTOWN OFFICIAL JAPAN\" tickets will start from 2:00 pm today. ◾️＜TAEYEON CONCERT – F.L.Y. in Tokyo＞April 17, 2027 (Sat) [Tokyo] Keio Arena TOKYO 17:00 Open / 18:00 Open…"
-    },
-    {
-      "id": "9a77f276ae61c5c0",
-      "title": "FamilyMart’s “physical AI” robot workers getting chilly reception in Japan",
-      "link": "https://soranews24.com/2026/11/18/familymarts-physical-ai-robot-workers-getting-chilly-reception-in-japan/",
-      "publishedAt": "2026-11-18T05:00:03.000Z",
-      "excerpt": "Sure, it doesn’t do much, but it’s a robot! Even as AI is still in its early stages, many eager start-ups are looking at the next big thing, which they have dubbed “physical AI.” That really just means robots controlled by AI, but it seems to be a buzzword that piggybacks on the name recognition […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/12-3.jpg.jpeg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
-        "language": "en"
-      }
-    },
-    {
-      "id": "bf8379aae0c55c61",
-      "title": "'Isekai Munchkin' Reveals New Staff, Theme Songs, Second Promo",
-      "link": "https://myanimelist.net/news/74952442?_location=rss",
-      "publishedAt": "2026-11-18T04:58:59.000Z",
-      "excerpt": "The official website for the television anime adaptation of Yuu Shimizu and Makoto Aogiri's Isekai Munchkin: HP1 no Mama de Saikyou Saisoku Dungeon Kouryaku (Otherworldly Munchkin: Let's Speedrun the Dungeon with Only 1 HP!) manga revealed additional cast, new staff, a second key visual (pictured), the theme songs, and second promotional video on Wednesda…",
-      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1794977875-fbea98330b1d9f82b1f3a5a8e3695906.jpeg",
-      "source": {
-        "id": "mal",
-        "name": "MyAnimeList",
-        "short": "MAL",
-        "siteUrl": "https://myanimelist.net/news",
-        "category": "Anime News",
-        "accent": "#5ca8ff",
-        "language": "en"
-      }
-    },
-    {
-      "id": "61c4a311b2786f20",
-      "title": "LiSA「YES」、【第69回グラミー賞】ノミネート",
-      "link": "https://www.billboard-japan.com/d_news/detail/167537",
-      "publishedAt": "2026-11-18T04:45:00.000Z",
-      "excerpt": "LiSAの「YES」が、【第69回グラミー賞】で新設された「最優秀アジア・ポップ・ミュージック・パ",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167537/800x_image.jpg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "LiSA “YES”, [69th Grammy Awards] Nominated",
-      "translatedExcerpt": "LiSA's \"YES\" won the newly established \"Best Asian Pop Music Performance\" at the 69th Grammy Awards."
     }
   ]
 }

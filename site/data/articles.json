@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T04:02:02.402Z",
+  "generatedAt": "2026-11-27T04:32:21.216Z",
   "sources": [
     {
       "id": "sankaku",
@@ -104,7 +104,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 86,
+      "count": 87,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 282,
+      "count": 284,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +134,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 208,
+      "count": 207,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://ototoy.jp/news/feed.rss",
-      "count": 128,
+      "count": 126,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -163,10 +163,84 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 618,
+    "translatedJapaneseArticles": 617,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "39d1a2ab71060bff",
+      "title": "Mobile Suit Gundam ZZ Anime Unveils 40th Anniversary Key Visual",
+      "link": "https://crunchyroll.com/news/latest/2026/11/27/mobile-suit-gundam-zz-anime-40th-anniversary-key-visual",
+      "publishedAt": "2026-11-27T04:30:00.000Z",
+      "excerpt": "The 3rd Gundam TV series is available on Crunchyroll",
+      "image": "https://a.storyblok.com/f/178900/960x540/f678174049/gundam-zz-40th-anniversary-header.jpg",
+      "source": {
+        "id": "crunchyroll",
+        "name": "Crunchyroll News",
+        "short": "Crunchyroll",
+        "siteUrl": "https://www.crunchyroll.com/news",
+        "category": "Anime News",
+        "accent": "#ff6784",
+        "language": "en"
+      }
+    },
+    {
+      "id": "8695f26511fbd56e",
+      "title": "LANA、楽曲「Like a Flower」がディズニー最新作『ビリーと魔法のはじまり』のイメージソングに",
+      "link": "https://www.billboard-japan.com/d_news/detail/167845",
+      "publishedAt": "2026-11-27T04:20:00.000Z",
+      "excerpt": "LANAの楽曲「Like a Flower」が、2026年12月4日に公開となるディズニー・アニメ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167845/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "LANA's song \"Like a Flower\" will be used as the image song for Disney's latest film \"Billy's Adventures\"",
+      "translatedExcerpt": "LANA's song \"Like a Flower\" will be released in the Disney anime on December 4, 2026."
+    },
+    {
+      "id": "6fd52d0a2d74e89b",
+      "title": "REIRIE、アニメ『おデブ悪女』OPテーマを担当 ニューシングル『ヨーロレヨーエン』2月リリース",
+      "link": "https://www.billboard-japan.com/d_news/detail/167844",
+      "publishedAt": "2026-11-27T04:15:00.000Z",
+      "excerpt": "REIRIEが、2027年1月1日に放送開始となるTVアニメ『おデブ悪女に転生したら、なぜかラスボ",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167844/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "REIRIE performs the opening theme for the anime “Ofat Akujo” New single “Yoroleyoen” released in February",
+      "translatedExcerpt": "REIRIE will be appearing in the TV anime “If I Reincarnate as a Fat Evil Woman, for some reason, I will be the last one” which will start broadcasting on January 1, 2027."
+    },
+    {
+      "id": "71a3fe38168b6764",
+      "title": "Nikoん、ニューAL『old function』収録の未発表新曲を繋いだトレーラー公開 発売日も決定＆詳細解禁",
+      "link": "https://www.billboard-japan.com/d_news/detail/167843",
+      "publishedAt": "2026-11-27T04:00:00.000Z",
+      "excerpt": "Nikoんが、2027年にリリースするニューアルバム『old function』から未発表の新曲6",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167843/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "Nikon releases a trailer that connects unreleased new songs from his new AL \"old function\" Release date has been decided and details released",
+      "translatedExcerpt": "6 unreleased new songs from Nikon's new album \"old function\" to be released in 2027"
+    },
     {
       "id": "4538aa988cde02a7",
       "title": "亀梨和也、9年ぶりソロツアー【FROM HERE】ライブ音源を配信リリース",
@@ -18326,82 +18400,6 @@
       },
       "translatedTitle": "<Event Report> Kaho Miyake x Ryuichiro Takeshita \"Page Turners\" will be in the ring at Korakuen Hall Jiro Asada, Kanako Nishi, Hiroshi Tanahashi and others will also appear in [TOKYO BOOK FIGHT]",
       "translatedExcerpt": "A book-themed event [“TOKYO BOOK FIGHT” in Korakuen] will be held on November 12th in Tokyo."
-    },
-    {
-      "id": "5d46a35386ed03f1",
-      "title": "chilldspot、オルタナティブロックナンバー「Storm」リリース決定",
-      "link": "https://ototoy.jp/news/132850",
-      "publishedAt": "2026-11-18T09:00:00.000Z",
-      "excerpt": "chilldspotの新曲「Storm」が11月25日に配信リリースされることが決定した。 2026年は、ABEMA『ガールオアレディ3』挿入歌「Ladyy」、フジテレビ系ドラマ『さよならノワール』主題歌「ドラマ」、映画『男ともだち』劇中歌「lost child」と、3作続けてタイアップ楽曲をリリースしてきたchilldspot。 そんな彼女らが届ける最新作「Storm」は、臆病な自分や振り切れない現実と向き合いながらも、胸に生まれた衝動を信じて走り出そうとする、力強いメッセージが込められたオルタナティブロックナンバー。耳に残るキャッチーなギターリフと、うねるビートが生み出すグルーヴに乗せ、タイトルさながらに目まぐるしく展開するサウンドとともに、比喩根の変幻自在なボーカルが響き、自らの熱で嵐を巻き起こすよ…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132850/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "chilldspot to release alternative rock number “Storm”",
-      "translatedExcerpt": "It has been decided that chilldspot's new song \"Storm\" will be released on November 25th. In 2026, childspot has released three tie-up songs in a row: \"Ladyy\", the insert song for ABEMA's \"Girl or Lady 3\", \"Drama\", the theme song for the Fuji TV drama \"Sayonara Noir\", and \"lost child\", the song from the movie \"Otoko Tomodachi\". Their latest work, \"Storm,\" is an alternative rock number with a powerful message about believing in the urge born in your heart and trying to run, even as you face your cowardly self and the reality you can't shake. With a catchy guitar riff that sticks in your ears and a groove created by an undulating beat, the sound develops at a dizzying pace just like the title, and the phantasmagoric vocals of the figurative root reverberate, creating a storm with its own heat..."
-    },
-    {
-      "id": "3ab5a7469c050e43",
-      "title": "chilldspot、新曲「Storm」配信リリース決定＆11/19のFM802『EVENING TAP』でラジオ初OA",
-      "link": "https://www.billboard-japan.com/d_news/detail/167547",
-      "publishedAt": "2026-11-18T09:00:00.000Z",
-      "excerpt": "chilldspotの新曲「Storm」が、11月25日に配信リリースされることが決定した。",
-      "image": "https://www.billboard-japan.com/scale/news/00000167/167547/x200_image.jpeg",
-      "source": {
-        "id": "billboardjapan",
-        "name": "Billboard JAPAN",
-        "short": "Billboard JP",
-        "siteUrl": "https://www.billboard-japan.com/d_news/",
-        "category": "Japanese Music",
-        "accent": "#7dd7ff",
-        "language": "ja"
-      },
-      "translatedTitle": "chilldspot's new song \"Storm\" will be released & aired for the first time on radio on FM802 \"EVENING TAP\" on 11/19",
-      "translatedExcerpt": "It has been decided that chilldspot's new song \"Storm\" will be released on November 25th."
-    },
-    {
-      "id": "9a8471c47009d949",
-      "title": "chilldspot、新曲「Storm」配信決定。明日のFM802『EVENING TAP』で初OAも",
-      "link": "https://barks.jp/news/1105193",
-      "publishedAt": "2026-11-18T09:00:00.000Z",
-      "excerpt": "chilldspotが、新曲「Storm」を2026年11月25日に配信リリースすることを発表した。 本楽曲は、臆病な自分や振り切れない現実と向き合いながらも、胸に生まれた衝動を信じて走り出そうとする、力強いメッセージが込められたオルタナティブロックナンバーだという。耳に残るキャッチーなギターリフと、うねるビートが生み出すグルーヴに乗せ、楽曲タイトルの“Storm”さながらに目まぐるしくサウンドが展開。その上で比喩根（Vo, G）の変幻自在なボーカルが響き、自らの熱で嵐を巻き起こすような一曲に仕上がっているとのこと。 配信に先駆けて、11月19日放送のFM802『EVENING TAP』にて「Storm」のラジオ初オンエアも決定した。いち早く新曲を聴くことができる機会となるので、是非チェックしてほしい。…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2025/09/17145559/chilldspot_Aphoto_2025_resize.jpeg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "chilldspot will release new song “Storm”. First OA on tomorrow's FM802 \"EVENING TAP\"",
-      "translatedExcerpt": "chilldspot has announced that their new song \"Storm\" will be released on November 25, 2026. This song is said to be an alternative rock number with a powerful message about believing in the urge born in your heart and trying to run, even as you face your cowardice and the reality you can't shake. With a catchy guitar riff that sticks in your ear and a groove created by a rolling beat, the sound develops at a dizzying pace, just like the song title \"Storm\". On top of that, the ever-changing vocals of Metaphor Root (Vo, G) reverberate, creating a song that seems to stir up a storm with its own heat. Prior to the distribution, \"Storm\" will be aired for the first time on radio on FM802 \"EVENING TAP\" on November 19th. This will be your chance to listen to new songs as soon as possible, so please check it out. …"
-    },
-    {
-      "id": "16523d2f16be86c1",
-      "title": "Empty old City「Clockwork Journey」先行リスニングパーティ参加券の販売が開始",
-      "link": "https://ototoy.jp/news/132847",
-      "publishedAt": "2026-11-18T09:00:00.000Z",
-      "excerpt": "2026年12月2日(水)のリリースに先駆けて、Empty old City『Clockwork Journey』をいち早く聴くことができる先行リスニングパーティが、2026年11月28日(土)に開催される。そして、その参加券とハイレゾ音源がセットになったOTOTOY限定パッケージの販売が、本日11月18日(水)18:00に開始となった。 『Clockwork Journey』は、より新しい表現を追求したEmpty old Cityにとって2枚目のコンセプトEPとなる。会場ではスタジオ・クオリティのスピーカーで本作を再生し、エレクトロ・サウンドの細部や作品の世界観を、少人数の空間でじっくりと味わうことができる。 イベントへの参加は、「Clockwork Journey」ハイレゾ音源とイベント参加券がセット…",
-      "image": "https://imgs.ototoy.jp/news/image.php/132847/0.jpg",
-      "source": {
-        "id": "ototoy",
-        "name": "OTOTOY",
-        "short": "OTOTOY",
-        "siteUrl": "https://ototoy.jp/news/",
-        "category": "Japanese Music",
-        "accent": "#e6a4ff",
-        "language": "ja"
-      },
-      "translatedTitle": "Empty old City “Clockwork Journey” advance listening party tickets now on sale",
-      "translatedExcerpt": "Prior to its release on Wednesday, December 2, 2026, a pre-listening party will be held on Saturday, November 28, 2026, where you can listen to Empty old City's ``Clockwork Journey'' as soon as possible. Sales of the OTOTOY limited package, which includes the participation ticket and high-resolution sound source, began today, November 18th (Wednesday) at 18:00. \"Clockwork Journey\" is the second concept EP for Empty old City, which pursues a newer expression. At the venue, this work will be played on studio-quality speakers, allowing you to thoroughly enjoy the details of the electro sound and the world view of the work in a small space. Participating in the event comes with a set of \"Clockwork Journey\" high-resolution sound source and event participation ticket..."
     }
   ]
 }

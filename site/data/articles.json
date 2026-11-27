@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T05:32:01.831Z",
+  "generatedAt": "2026-11-27T06:03:55.712Z",
   "sources": [
     {
       "id": "sankaku",
@@ -88,15 +88,11 @@
     {
       "id": "ann",
       "name": "Anime News Network",
-      "status": "ok",
-      "mode": "rss",
-      "feedUrl": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
+      "status": "error",
+      "mode": null,
       "count": 131,
-      "imageEnrichment": {
-        "attempted": 40,
-        "resolved": 40
-      },
-      "fetchedCount": 40
+      "error": "The operation was aborted due to timeout",
+      "fetchedCount": 0
     },
     {
       "id": "crunchyroll",
@@ -104,7 +100,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-      "count": 88,
+      "count": 87,
       "imageEnrichment": null,
       "fetchedCount": 50
     },
@@ -114,7 +110,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://myanimelist.net/rss/news.xml",
-      "count": 41,
+      "count": 42,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +120,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 284,
+      "count": 285,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -134,7 +130,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://barks.jp/tag/news/feed/",
-      "count": 207,
+      "count": 206,
       "imageEnrichment": null,
       "fetchedCount": 10
     },
@@ -160,13 +156,49 @@
   ],
   "stats": {
     "sourceCount": 8,
-    "successfulSources": 8,
-    "failedSources": 0,
+    "successfulSources": 7,
+    "failedSources": 1,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 615,
+    "translatedJapaneseArticles": 613,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "ea259b283b0549e5",
+      "title": "＜インタビュー＞Nathy Pelusoが語る、“ワル”なサルサを女性の目で描く理由とディーヴァの美学",
+      "link": "https://www.billboard-japan.com/d_news/detail/167708",
+      "publishedAt": "2026-11-27T06:00:00.000Z",
+      "excerpt": "ラップ、R&B、そしてサルサ――作品ごとにジャンルの境界を軽やかに越えてきた、アルゼンチン",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167708/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "<Interview> Nathy Peluso talks about why “badass” salsa is portrayed through a woman’s eyes and the aesthetics of a diva",
+      "translatedExcerpt": "Rap, R&B, and salsa: Argentina has effortlessly crossed genre boundaries with each work."
+    },
+    {
+      "id": "4dfce15584ccbfd6",
+      "title": "Additional Cast for 'Shuiro no Kamen' Announced",
+      "link": "https://myanimelist.net/news/74987017?_location=rss",
+      "publishedAt": "2026-11-27T05:54:55.000Z",
+      "excerpt": "The official website for the television anime adaptation of Dr.Poro and Nabana Naba's Shuiro no Kamen (The Vermilion Mask) manga announced five additional cast members on Friday. The anime series began airing on October 10 at 5:30 p.m. on Yomiuri TV and Nippon TV, with the second part will air in April 2027. Cast Kaku: Kazuyuki Okitsu (The Fable) Suzume:…",
+      "image": "https://cdn.myanimelist.net/s/common/uploaded_files/1795758777-a1440c631cc52bae3a507afa180e3d90.jpeg",
+      "source": {
+        "id": "mal",
+        "name": "MyAnimeList",
+        "short": "MAL",
+        "siteUrl": "https://myanimelist.net/news",
+        "category": "Anime News",
+        "accent": "#5ca8ff",
+        "language": "en"
+      }
+    },
     {
       "id": "89cb728575b92104",
       "title": "松下洸平、新曲「PRECIOUS」本日配信リリース＆MV公開",
@@ -740,7 +772,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "93618ffde10f0653",
@@ -757,7 +790,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e92f1db06de5ca33",
@@ -810,7 +844,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fafb1b05e287f7e0",
@@ -884,7 +919,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7e332e8fd9276bca",
@@ -1081,7 +1117,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "d5c9b14aabe642a9",
@@ -1117,7 +1154,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "be0d7f5204a0b9f3",
@@ -1168,7 +1206,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2c3c99b3181e6059",
@@ -1236,7 +1275,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "87f2e2ac38f8efd8",
@@ -1270,7 +1310,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5f2b21190e204a5e",
@@ -1338,7 +1379,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "54a2cdd88c7c015c",
@@ -1463,7 +1505,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2bba31ef3075e86c",
@@ -1535,7 +1578,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7e37792a930e4d6d",
@@ -1700,7 +1744,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f2b4408f5c0748d3",
@@ -1717,7 +1762,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1c960bd7700a4441",
@@ -2317,7 +2363,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "64b532156f97aba6",
@@ -2691,7 +2738,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2e3f9dfb0039d3c2",
@@ -2746,7 +2794,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "d27f0e5a86055bc5",
@@ -2763,7 +2812,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "749f65d2dd4283e7",
@@ -2818,7 +2868,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "11b3be19c958e3fd",
@@ -2835,7 +2886,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a57d161de9f9eb00",
@@ -2852,7 +2904,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3bd5af852c1e7465",
@@ -3017,7 +3070,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "d1764af6a31da0ee",
@@ -3034,7 +3088,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6c2c0990e09895e0",
@@ -3068,7 +3123,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fb0d219cd3d0a14d",
@@ -3197,7 +3253,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2277bc128dbecfa5",
@@ -3303,7 +3360,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7bfbc83e35cb9f00",
@@ -3441,7 +3499,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "d3686cff15e2831c",
@@ -4003,7 +4062,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "d7cd65d60c8a4665",
@@ -4356,7 +4416,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "33c2033c9d6b4806",
@@ -4650,7 +4711,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "cc4c816863c56df4",
@@ -4874,7 +4936,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ca62654ee629deba",
@@ -5191,7 +5254,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "77274058adaa86cc",
@@ -5559,7 +5623,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "dfba5cd1738a2764",
@@ -5669,7 +5734,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0008f393f3ca7065",
@@ -5874,7 +5940,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "eeb6d4525167d4a7",
@@ -5927,7 +5994,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3d6dd6ffbe5f8213",
@@ -6020,7 +6088,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e4ea317f04b7fdb7",
@@ -6145,7 +6214,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5d899f154bcc450f",
@@ -6405,7 +6475,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "dcb2b5e79815862f",
@@ -6422,7 +6493,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f8863bcc516e8443",
@@ -7020,7 +7092,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "38ad13cc4d0b42ef",
@@ -7282,7 +7355,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5e22a1baa5382a40",
@@ -7356,7 +7430,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ccaab8b9a5300e5f",
@@ -7739,7 +7814,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c2eacaa0ec54321c",
@@ -7775,7 +7851,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6d74de2b4fd5eb68",
@@ -7792,7 +7869,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "66f7edde8d398031",
@@ -8016,7 +8094,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "340829d51e54baa8",
@@ -8052,7 +8131,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b22db78b4f7f0a1b",
@@ -8317,7 +8397,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "020767375507b4d6",
@@ -8700,7 +8781,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "991c18ea56dbac88",
@@ -9330,7 +9412,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "135dbad441bfc0b1",
@@ -9381,7 +9464,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e641b3eb9d0c25c6",
@@ -9453,7 +9537,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a0908fbde56fda01",
@@ -9470,7 +9555,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "274051abf4d1a329",
@@ -9559,7 +9645,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a018afb06efafc6c",
@@ -9576,7 +9663,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "89f278ea11a3cd56",
@@ -9593,7 +9681,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "659837b3a1d6e18d",
@@ -9644,7 +9733,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "bbf558a5cb90f510",
@@ -9678,7 +9768,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "db7d5a80518a49fd",
@@ -9746,7 +9837,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "e567c9a6e2d50868",
@@ -9814,7 +9906,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ae0c6df0a82eecef",
@@ -10051,7 +10144,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b619c1a5bb86dd89",
@@ -10271,7 +10365,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7e3b88b51c61581d",
@@ -10343,7 +10438,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "245cf5322813b3e5",
@@ -10449,7 +10545,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ff3cac134c98eba3",
@@ -10466,7 +10563,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6fe20ce9210bf6e1",
@@ -10612,7 +10710,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "9639917d9d148764",
@@ -10716,7 +10815,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7cba97f3f50f4ee4",
@@ -10786,7 +10886,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "604907b54f9d402d",
@@ -10837,7 +10938,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0a22942d12307caf",
@@ -10981,7 +11083,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fd2c00f0709de067",
@@ -10998,7 +11101,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0154855f1a3b231f",
@@ -11168,7 +11272,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "cbb12ca4c453b05b",
@@ -11242,7 +11347,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f9c6f60f7cd6458b",
@@ -11316,7 +11422,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4dd1f34a00f4995e",
@@ -11445,7 +11552,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7df83c75d4663d07",
@@ -11462,7 +11570,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f7db87b786cebac7",
@@ -11555,7 +11664,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "63338b0d01b20260",
@@ -11722,7 +11832,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "027548b795875d79",
@@ -11794,7 +11905,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4b4382642ef69bad",
@@ -11921,7 +12033,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "4c35a643b5c9818a",
@@ -12524,7 +12637,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "d8708fc3ff4773d0",
@@ -12575,7 +12689,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f9060b7ff18606c3",
@@ -12592,7 +12707,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "94e5941aa6fab2ad",
@@ -12694,7 +12810,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "fee01356aa60b6f8",
@@ -12745,7 +12862,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "d849df32713b54b1",
@@ -12832,7 +12950,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f75cfcd1907ef013",
@@ -12974,7 +13093,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "de3609c4d1235967",
@@ -13084,7 +13204,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "20e78cdd3979d579",
@@ -13251,7 +13372,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ea816b22220a1fad",
@@ -13401,7 +13523,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a3080b715d2c43c6",
@@ -13532,7 +13655,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "eb078c1485922042",
@@ -13716,7 +13840,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "11eed8f21a5e3a53",
@@ -13788,7 +13913,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "105207d7c8bb5a43",
@@ -14090,7 +14216,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "36dfa1ad1d8ec6b1",
@@ -14126,7 +14253,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8d34334b4c5eceff",
@@ -14515,7 +14643,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "a4daeefaa069f96f",
@@ -14532,7 +14661,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "95f090acf5e7293f",
@@ -15120,7 +15250,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ed5080eaeca66179",
@@ -15156,7 +15287,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6eabef1cc46429ba",
@@ -15173,7 +15305,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "2ebbc249c46b358d",
@@ -15207,7 +15340,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "374cefae8570c982",
@@ -15277,7 +15411,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "b9c566fbee642917",
@@ -15294,7 +15429,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "0eb212eb02da096b",
@@ -15362,7 +15498,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "327246157f98d6ab",
@@ -15447,7 +15584,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c807880c40357aca",
@@ -15500,7 +15638,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "737a54898081e00f",
@@ -15568,7 +15707,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1a387fe8551a1bad",
@@ -15697,7 +15837,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "63bb3ce442d3763e",
@@ -15769,7 +15910,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ca127f2d9e8898b7",
@@ -15822,7 +15964,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "d3cea699c3a141b4",
@@ -16192,7 +16335,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "3106ef14f0f7d12d",
@@ -16247,7 +16391,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "555e85f1729e2e2d",
@@ -16321,7 +16466,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "accfad77ca87f2b8",
@@ -16748,7 +16894,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1875854cb9df0171",
@@ -16765,7 +16912,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f0dcf539225b2f83",
@@ -16782,7 +16930,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "74fc94619bcc75f4",
@@ -17148,7 +17297,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "235a9c62741420a3",
@@ -17165,7 +17315,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "45557918c0dd7d9e",
@@ -17218,7 +17369,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7400ffeb7e1aa846",
@@ -17235,7 +17387,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5f6d7509151df3da",
@@ -17252,7 +17405,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "6590dcd35a3e98e7",
@@ -17303,7 +17457,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "ce132e496fd4d11f",
@@ -17320,7 +17475,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "1dbc4250b9f9a737",
@@ -17337,7 +17493,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "f22ee0a0fd8c41e4",
@@ -17354,7 +17511,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "c84590cc922d817f",
@@ -17422,7 +17580,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "5fda5b54da76dab0",
@@ -17439,7 +17598,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "86a759a3e392b116",
@@ -17473,7 +17633,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "46afdbcbe67af845",
@@ -17941,7 +18102,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "7ef2609bb7e7d4e2",
@@ -18127,7 +18289,8 @@
         "category": "Anime News",
         "accent": "#ffb45f",
         "language": "en"
-      }
+      },
+      "stale": true
     },
     {
       "id": "8640fdde3a92eabf",
@@ -18356,42 +18519,6 @@
       },
       "translatedTitle": "HUGEN releases MV for “Natto, Mizu, Egg” with a surreal finish set in Numata City, Gunma Prefecture",
       "translatedExcerpt": "HUGEN creates alternative songs that incorporate elements of ethnic music and folk songs, with a focus on electronic music. The music video for \"Natto, Mizu, Egg\" from their latest album, \"Fujin Dori\" has been released. The video director is Taku Utsumi, a video artist who gained attention for his work on the music video for Massage Attack's ``Fuyu no Sakamichi''. This video work, set in Numata City, Gunma Prefecture, uses familiar motifs such as natto, water, and eggs to depict an extremely surreal world where the everyday and the extraordinary intermingle. Mysterious scenes unfolding in a real-life landscape create a unique sense of discomfort and humor. INFORMATION https://www.tpsound.jp/hugen-hp https://x.com/tpsound3213 https://www.instagra…"
-    },
-    {
-      "id": "e2e7054014b537a3",
-      "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 Reveals January 2027 Premiere",
-      "link": "https://crunchyroll.com/news/latest/2026/11/18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-january-2027-premiere-key-visual",
-      "publishedAt": "2026-11-18T10:11:00.000Z",
-      "excerpt": "A new key visual was also unveiled for fantasy series",
-      "image": "https://a.storyblok.com/f/178900/1766x995/e183edfd6c/spice-and-wolf-merchant-meets-the-wise-wolf-season-2.png",
-      "source": {
-        "id": "crunchyroll",
-        "name": "Crunchyroll News",
-        "short": "Crunchyroll",
-        "siteUrl": "https://www.crunchyroll.com/news",
-        "category": "Anime News",
-        "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "0d0b947d371e70a9",
-      "title": "【インタビュー】上田桃夏、初のドラマタイアップ曲「幸せノカタチ」リリース「自分自身の幸せは、自分だけのもの」",
-      "link": "https://barks.jp/news/1105124",
-      "publishedAt": "2026-11-18T10:00:00.000Z",
-      "excerpt": "誰に否定されても、誰に何を言われても、「わたしが幸せだ」と思えたら、それでいい──上田桃夏が初のドラマタイアップ曲「幸せノカタチ」を配信リリースした。 今年5月にプライベートレーベル「TSUKIYORI Records」を設立した、上田桃夏。同レーベルからは、これまでに「僕の彼女が宇宙人にさらわれまして」「無敵」「Endeavor」と3枚のデジタルシングルをリリースし、話題を集めてきた。10月に放送が始まったCBCテレビドラマの「私がひとりで生きてくなんて」では、エンディング主題歌の「幸せノカタチ」を歌い、初のドラマ主題歌も経験した。 このたび、「幸せノカタチ」が12月2日にCDリリースされることが決定した。そこには、ドラマのタイアップ前に制作した、現在のものとは歌詞が異なるバージョンも含め、全5バージョ…",
-      "image": "https://new-img.barks.jp/wp-content/uploads/2026/11/18000612/1-30.jpg",
-      "source": {
-        "id": "barks",
-        "name": "BARKS",
-        "short": "BARKS",
-        "siteUrl": "https://barks.jp/tag/news/",
-        "category": "Japanese Music",
-        "accent": "#ff9f78",
-        "language": "ja"
-      },
-      "translatedTitle": "[Interview] Momoka Ueda releases her first drama tie-up song “Happiness No Katachi” “Your own happiness is unique to you”",
-      "translatedExcerpt": "No matter who denies it, no matter what anyone says, as long as you think, ``I'm happy,'' that's all you need -- Momoka Ueda has released her first drama tie-up song ``Happiness No Katachi.'' Momoka Ueda established her private label \"TSUKIYORI Records\" in May of this year. The label has so far released three digital singles, ``My Girlfriend Was Kidnapped by Aliens,'' ``Muteki,'' and ``Endeavor,'' which have garnered attention. She sang the ending theme song ``Happiness No Katachi'' for the CBC TV drama ``I'm Living Alone,'' which began airing in October, and also had her first experience singing a drama theme song. It has been decided that \"Happiness No Katachi\" will be released on CD on December 2nd. There are a total of 5 versions, including a version created before the drama tie-up with different lyrics from the current one..."
     }
   ]
 }

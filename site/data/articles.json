@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T23:31:49.403Z",
+  "generatedAt": "2026-11-27T00:02:08.619Z",
   "sources": [
     {
       "id": "sankaku",
@@ -81,7 +81,7 @@
       "status": "ok",
       "mode": "rss",
       "feedUrl": "https://soranews24.com/feed/",
-      "count": 44,
+      "count": 43,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -124,7 +124,7 @@
       "status": "ok",
       "mode": "html-list",
       "feedUrl": "https://www.billboard-japan.com/d_news/",
-      "count": 281,
+      "count": 282,
       "imageEnrichment": null,
       "fetchedCount": 20
     },
@@ -163,10 +163,29 @@
     "successfulSources": 8,
     "failedSources": 0,
     "articleCount": 1000,
-    "translatedJapaneseArticles": 620,
+    "translatedJapaneseArticles": 621,
     "translationAttempts": 160
   },
   "articles": [
+    {
+      "id": "27358b98ffc3f393",
+      "title": "U2、NFL感謝祭前夜ゲームのハーフタイム・ショーで新曲をライブ初披露",
+      "link": "https://www.billboard-japan.com/d_news/detail/167825",
+      "publishedAt": "2026-11-26T23:30:00.000Z",
+      "excerpt": "現地時間11月25日、U2が米カリフォルニア州イングルウッドのSoFiスタジアムで開催されたNFL",
+      "image": "https://www.billboard-japan.com/scale/news/00000167/167825/800x_image.jpg",
+      "source": {
+        "id": "billboardjapan",
+        "name": "Billboard JAPAN",
+        "short": "Billboard JP",
+        "siteUrl": "https://www.billboard-japan.com/d_news/",
+        "category": "Japanese Music",
+        "accent": "#7dd7ff",
+        "language": "ja"
+      },
+      "translatedTitle": "U2 debuts new song live during NFL Thanksgiving Eve game halftime show",
+      "translatedExcerpt": "On November 25th local time, U2 played an NFL game at SoFi Stadium in Inglewood, California."
+    },
     {
       "id": "fb195bb42fb9c4e3",
       "title": "Fool Night Anime Announces Three New Cast Members",
@@ -18387,23 +18406,6 @@
         "siteUrl": "https://www.crunchyroll.com/news",
         "category": "Anime News",
         "accent": "#ff6784",
-        "language": "en"
-      }
-    },
-    {
-      "id": "402178db795e32c6",
-      "title": "Online scammers beware, one man is coming for your fried rice recipes… all of them",
-      "link": "https://soranews24.com/2026/11/18/online-scammers-beware-one-man-is-coming-for-your-fried-rice-recipes-all-of-them/",
-      "publishedAt": "2026-11-18T03:00:33.000Z",
-      "excerpt": "Revenge is a dish best served fried with just the right seasoning. While AI is increasingly becoming a part of society, there’s still a lot of confusion about exactly how it fits into our lives. Making ugly restaurant menus is all well and good, but how can we really harness its potential to make the […]",
-      "image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/IMG_5499_1920.jpg.jpeg?w=640",
-      "source": {
-        "id": "soranews24",
-        "name": "SoraNews24",
-        "short": "SoraNews",
-        "siteUrl": "https://soranews24.com/",
-        "category": "Japan",
-        "accent": "#6fc9e6",
         "language": "en"
       }
     }
